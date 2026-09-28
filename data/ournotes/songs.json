@@ -268,7 +268,8 @@
           },
           "mv": true,
           "relatedSongIds": [
-            "garupa:667"
+            "garupa:667",
+            "ournotes:79"
           ],
           "revision": "231ada47-e50c-4a04-9c24-11ebd929744c"
         },
@@ -2806,6 +2807,51 @@
           "relatedSongIds": [
             "garupa:777"
           ]
+        }
+      ]
+    },
+    {
+      "band": "CRYCHIC",
+      "category": "オリジナル",
+      "songs": [
+        {
+          "id": 79,
+          "title": "春日影",
+          "reading": "ハルヒカゲ",
+          "releaseDate": "2026-09-24T00:00+09:00",
+          "releaseOrder": 79,
+          "composer": "藤田淳平（Elements Garden）",
+          "originalArtist": null,
+          "originalWork": null,
+          "mv": true,
+          "relatedSongIds": [
+            "garupa:667",
+            "ournotes:7"
+          ],
+          "bpm": 97,
+          "bpmMin": 96,
+          "bpmMax": 103,
+          "durationSeconds": 118,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 5,
+              "notes": 180
+            },
+            "NORMAL": {
+              "level": 11,
+              "notes": 364
+            },
+            "HARD": {
+              "level": 16,
+              "notes": 496
+            },
+            "EXPERT": {
+              "level": 22,
+              "notes": 628
+            }
+          },
+          "submissionId": "1258fe67-ab80-4cfa-b92c-03b7fdfa8815"
         }
       ]
     }
