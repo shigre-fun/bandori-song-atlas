@@ -17377,7 +17377,10 @@
           "bpm": 156,
           "bpmMin": 156,
           "bpmMax": 156,
-          "durationSeconds": 97
+          "durationSeconds": 97,
+          "relatedSongIds": [
+            "ournotes:83"
+          ]
         },
         {
           "id": 218,

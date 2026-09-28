@@ -1608,6 +1608,44 @@
               "notes": null
             }
           }
+        },
+        {
+          "id": 83,
+          "title": "ファタール",
+          "reading": "ファタール",
+          "releaseDate": "2026-09-28T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "キタニタツヤ",
+          "originalArtist": "GEMN",
+          "originalWork": "アニメ「【推しの子】第2期」OP",
+          "mv": null,
+          "relatedSongIds": [
+            "garupa:639"
+          ],
+          "bpm": 156,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": null
+            },
+            "NORMAL": {
+              "level": 13,
+              "notes": null
+            },
+            "HARD": {
+              "level": 17,
+              "notes": null
+            },
+            "EXPERT": {
+              "level": 25,
+              "notes": null
+            }
+          },
+          "submissionId": "f29a08c2-f1a0-4535-9e5f-0e318acf3be9"
         }
       ]
     },
