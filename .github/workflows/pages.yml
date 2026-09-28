@@ -1,4 +1,4 @@
-name: Publish song atlas
+name: Publish song database
 on:
   push:
     branches: [main]

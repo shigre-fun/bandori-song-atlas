@@ -138,6 +138,7 @@ async function page({
   content,
   breadcrumbs = [home],
   indexable = true,
+  headerSearch = true,
   scripts = [],
   jsonld = [],
 }) {
@@ -181,6 +182,14 @@ async function page({
   const body =
     breadcrumbMarkup(breadcrumbs, settings) +
     `<div id="app-content">${content}</div>`;
+  const searchForm = headerSearch
+    ? `<form action="${escapeHTML(local(songListPath(searchGame)))}" role="search">
+        <label class="sr-only" for="search">${escapeHTML(searchGame.shortName)}の楽曲名・原曲の作品名で検索</label>
+        <span aria-hidden="true">⌕</span>
+        <input id="search" name="q" type="search" placeholder="${escapeHTML(searchGame.shortName)}の楽曲名・作品名で検索" autocomplete="off" />
+        <button>検索</button>
+      </form>`
+    : "";
   const replacements = {
     "<!--HEAD-->": head,
     "<!--CONTENT-->": body,
@@ -190,9 +199,7 @@ async function page({
     "<!--ABOUT_URL-->": local("about/"),
     "<!--SOURCES_URL-->": local("sources/"),
     "<!--PRIVACY_URL-->": local("privacy/"),
-    "<!--SEARCH_ACTION-->": local(songListPath(searchGame)),
-    "<!--SEARCH_LABEL-->": `${searchGame.shortName}の楽曲名・原曲の作品名で検索`,
-    "<!--SEARCH_PLACEHOLDER-->": `${searchGame.shortName}の楽曲名・作品名で検索`,
+    "<!--HEADER_SEARCH-->": searchForm,
     "<!--SITE_NAME-->": escapeHTML(settings.name),
   };
   let html = template;
@@ -275,6 +282,7 @@ write(
 await page({
   file: "index.html",
   pagePath: "",
+  headerSearch: false,
   title: `${settings.name} | バンドリ楽曲データベース`,
   description:
     "ガルパとアワーノーツの楽曲データを探せる非公式データベース。ゲームごとの楽曲一覧と情報を公開しています。",
@@ -365,6 +373,7 @@ for (const info of informationPages)
     description: info.description,
     breadcrumbs: [home, { name: info.name, path: `${info.slug}/` }],
     content: info.content,
+    headerSearch: false,
   });
 
 await page({

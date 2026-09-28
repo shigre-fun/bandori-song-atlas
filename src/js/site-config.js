@@ -1,5 +1,5 @@
 export const SITE_NAME = "バンドリ楽曲録";
-export const SITE_ALTERNATE_NAME = "BanG Dream! Song Atlas";
+export const SITE_ALTERNATE_NAME = "BanG Dream! Song Database";
 export const SITE_ORIGIN = "https://shigre-fun.github.io";
 export const BASE_PATH = "/bandori-song-atlas/";
 

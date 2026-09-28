@@ -33,6 +33,45 @@ test("generated canonical pages, structured data, links and sitemap are consiste
   assert.equal(result.pages, count + ournotesCount + 6);
 });
 
+test("only the four navigation pages omit the header search", () => {
+  const basePath = siteSettings(process.env).basePath;
+  const readPage = (path) => fs.readFileSync(`dist/${path}`, "utf8");
+  const searchAction = (html) =>
+    html.match(/<form action="([^"]+)" role="search">/)?.[1];
+  for (const path of [
+    "index.html",
+    "about/index.html",
+    "privacy/index.html",
+    "sources/index.html",
+  ]) {
+    const html = readPage(path);
+    assert.equal(searchAction(html), undefined, path);
+    assert.match(html, /<small>SONG DATABASE<\/small>/, path);
+  }
+  for (const path of ["search/index.html", "404.html"])
+    assert.equal(
+      searchAction(readPage(path)),
+      `${basePath}garupa/songs/`,
+      path,
+    );
+  for (const game of Object.values(GAMES)) {
+    const expected = `${basePath}${game.slug}/songs/`;
+    assert.equal(
+      searchAction(readPage(`${game.slug}/songs/index.html`)),
+      expected,
+      game.id,
+    );
+    const songs = JSON.parse(readPage(`${game.slug}/songs.json`)).songs;
+    for (const song of songs) {
+      const path = `${game.slug}/songs/${song.stableSongId}/index.html`;
+      const html = readPage(path);
+      assert.equal(searchAction(html), expected, path);
+      assert.match(html, /<small>SONG DATABASE<\/small>/, path);
+    }
+  }
+  assert.equal(siteSettings().alternateName, "BanG Dream! Song Database");
+});
+
 test("site settings normalize both deployment bases and reject conflicting settings", () => {
   assert.equal(siteSettings().name, "バンドリ楽曲録");
   const pages = siteSettings({

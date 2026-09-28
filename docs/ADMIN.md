@@ -54,7 +54,7 @@ PCの電源を入れる必要はありません。スマホとGitHubがオンラ
 
 1. プロジェクトをGitHubリポジトリのmainへ配置します。`src/`、`scripts/`、`data/garupa/`、`data/ournotes/`、`data/settings.json`、`.github/workflows/pages.yml` 等が必要です。
 2. リポジトリのSettings → Pages → Build and deployment → SourceをGitHub Actionsにします。
-3. Actionsの「Publish song atlas」を実行します。以後mainへの保存で自動更新します。
+3. Actionsの「Publish song database」を実行します。以後mainへの保存で自動更新します。
 4. Pagesで表示されるURLを開きます。管理画面の所有者・リポジトリはビルド時に自動設定されます。
 
 初回配置をGitで行う認証と、スマホの管理画面に入力するトークンは別に設定できます。トークンをチャットやGitファイルへ貼り付けないでください。
