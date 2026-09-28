@@ -1,5 +1,5 @@
 // 手動ブラウザーテスト専用。保存先はメモリーのみ。実GitHubへの通信はしない。
-// 先にSITE_BASE_PATH=/garupa-song-atlasでbuildし、node tests/editor-preview.mjs。
+// 先にSITE_BASE_PATH=/bandori-song-atlasでbuildし、node tests/editor-preview.mjs。
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
@@ -121,7 +121,7 @@ http
       }
       return json({ error: "Unknown fixture endpoint" }, 404);
     }
-    let relative = pathname.replace(/^\/garupa-song-atlas\//, "/");
+    let relative = pathname.replace(/^\/bandori-song-atlas\//, "/");
     if (relative.endsWith("/")) relative += "index.html";
     if (relative === "/admin-config.json")
       return json({
@@ -149,5 +149,5 @@ http
     res.end(content);
   })
   .listen(port, "127.0.0.1", () =>
-    console.log(`${origin}/garupa-song-atlas/admin/ (memory-only fixture)`),
+    console.log(`${origin}/bandori-song-atlas/admin/ (memory-only fixture)`),
   );

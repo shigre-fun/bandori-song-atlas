@@ -109,7 +109,7 @@ test("timing is visible on direct detail and sort selection survives detail navi
   assert.match(renderDetail(row, data), /1:44<\/dd>/);
   for (const sort of ["bpm", "duration"]) {
     const params = new URLSearchParams({ sort, type: "normal", band: "3" });
-    const html = renderList(data, params, "/garupa-song-atlas/");
+    const html = renderList(data, params, "/bandori-song-atlas/");
     assert.match(html, new RegExp(`data-sort="${sort}" aria-current="true"`));
     assert.ok(html.includes(`sort=${sort}&amp;type=normal&amp;band=3`));
   }

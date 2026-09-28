@@ -34,12 +34,23 @@ test("generated canonical pages, structured data, links and sitemap are consiste
 });
 
 test("site settings normalize both deployment bases and reject conflicting settings", () => {
+  assert.equal(siteSettings().name, "バンドリ楽曲録");
   const pages = siteSettings({
     SITE_ORIGIN: "https://example.test",
-    BASE_PATH: "/garupa-song-atlas",
+    BASE_PATH: "/bandori-song-atlas",
   });
-  assert.equal(pages.basePath, "/garupa-song-atlas/");
+  assert.equal(pages.basePath, "/bandori-song-atlas/");
   assert.equal(pages.origin, "https://example.test");
+  assert.match(fs.readFileSync("dist/index.html", "utf8"), /バンドリ楽曲録/);
+  if (process.env.GITHUB_REPOSITORY) {
+    const config = JSON.parse(
+      fs.readFileSync("dist/admin-config.json", "utf8"),
+    );
+    assert.equal(
+      `${config.owner}/${config.repo}`,
+      process.env.GITHUB_REPOSITORY,
+    );
+  }
   assert.equal(siteSettings({ BASE_PATH: "/" }).basePath, "/");
   assert.throws(
     () => siteSettings({ BASE_PATH: "/", SITE_BASE_PATH: "/wrong" }),

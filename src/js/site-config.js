@@ -1,7 +1,7 @@
-export const SITE_NAME = "バンドリ楽曲ノート";
+export const SITE_NAME = "バンドリ楽曲録";
 export const SITE_ALTERNATE_NAME = "BanG Dream! Song Atlas";
 export const SITE_ORIGIN = "https://shigre-fun.github.io";
-export const BASE_PATH = "/garupa-song-atlas/";
+export const BASE_PATH = "/bandori-song-atlas/";
 
 /** @typedef {{ id: string, slug: string, name: string, shortName: string, seoName: string, difficulties: string[], categories: string[], fields: string[], catalog: string, dataFile: string }} Game */
 

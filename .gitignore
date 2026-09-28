@@ -4,6 +4,7 @@ node_modules/
 .env.*
 !.env.example
 /garupa-song-atlas.zip
+/bandori-song-atlas.zip
 
 # 再生成する公開ファイルと検証レポート
 /dist/

@@ -44,7 +44,7 @@ test("filter state survives page links, details and back links with escaped attr
   const p = new URLSearchParams(
     "type=anime&type=tie_up&band=0&band=1&page=2&sort=release",
   );
-  const html = renderList(data, p, "/garupa-song-atlas/");
+  const html = renderList(data, p, "/bandori-song-atlas/");
   assert.ok(html.includes('name="type" value="anime" checked'));
   assert.ok(html.includes('name="band" value="1" checked'));
   const hrefs = [...html.matchAll(/href="([^"]+)"/g)].map((m) =>
@@ -58,10 +58,10 @@ test("filter state survives page links, details and back links with escaped attr
     assert.deepEqual(q.getAll("type"), ["anime", "tie_up"]);
     assert.deepEqual(q.getAll("band"), ["0", "1"]);
   }
-  const detail = renderDetail(data.songs[0], data, p, "/garupa-song-atlas/");
+  const detail = renderDetail(data.songs[0], data, p, "/bandori-song-atlas/");
   assert.ok(
     detail.includes(
-      'href="/garupa-song-atlas/garupa/songs/?type=anime&amp;type=tie_up&amp;band=0&amp;band=1&amp;page=2&amp;sort=release"',
+      'href="/bandori-song-atlas/garupa/songs/?type=anime&amp;type=tie_up&amp;band=0&amp;band=1&amp;page=2&amp;sort=release"',
     ),
   );
   const single = renderList(

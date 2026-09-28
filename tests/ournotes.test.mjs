@@ -205,6 +205,6 @@ test("Our Notes detail follows Garupa field order without official-image link", 
   assert.match(generated, /アワーノーツの楽曲名・作品名で検索/);
   assert.match(
     generated,
-    /action="\/(?:garupa-song-atlas\/)?ournotes\/songs\/"/,
+    /action="\/(?:bandori-song-atlas\/)?ournotes\/songs\/"/,
   );
 });

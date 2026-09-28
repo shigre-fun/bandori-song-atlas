@@ -2,9 +2,11 @@
 
 ## 現在のGitHub Pages
 
-GitHub Actionsは `src/js/site-config.js` の現在の公開originとPagesの `BASE_PATH=/garupa-song-atlas/` を使ってビルドします。公開URLは `https://shigre-fun.github.io/garupa-song-atlas/` です。ローカルのルート公開を試すときは `BASE_PATH=/` を指定してください。`node scripts/serve.mjs` は同じ設定のベースパスで生成した `dist/` を配信します。
+GitHub Actionsは `src/js/site-config.js` の現在の公開originとPagesの `BASE_PATH=/bandori-song-atlas/` を使ってビルドします。公開URLは `https://shigre-fun.github.io/bandori-song-atlas/` です。ローカルのルート公開を試すときは `BASE_PATH=/` を指定してください。`node scripts/serve.mjs` は同じ設定のベースパスで生成した `dist/` を配信します。
 
-`dist/robots.txt` はサブパス内に置かれます。GitHub Pagesのリポジトリサイトはドメイン直下のrobots.txtを管理できないため、このファイルだけでサイト全体のクロール規則を指定できません。`/garupa-song-atlas/sitemap.xml` は直接開けるので、必要に応じてSearch Consoleへ送信してください。検索条件付き一覧のnoindexはブラウザー側のheadスクリプトで設定されます。JavaScriptを使わないクローラーの挙動は保証できません。
+リポジトリ名の変更に伴い、旧GitHub Pages URLは新URLへ自動転送されません。旧URLのブックマークや外部リンクは新URLに更新してください。管理ページの下書きはURLのパスごとに保存されるため、旧URLで未保存の入力があれば移行前に控えてください。
+
+`dist/robots.txt` はサブパス内に置かれます。GitHub Pagesのリポジトリサイトはドメイン直下のrobots.txtを管理できないため、このファイルだけでサイト全体のクロール規則を指定できません。`/bandori-song-atlas/sitemap.xml` は直接開けるので、必要に応じてSearch Consoleへ送信してください。検索条件付き一覧のnoindexはブラウザー側のheadスクリプトで設定されます。JavaScriptを使わないクローラーの挙動は保証できません。
 
 ## Cloudflare Pagesと独自ドメインへの移行
 

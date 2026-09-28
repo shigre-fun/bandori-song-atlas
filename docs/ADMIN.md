@@ -1,8 +1,8 @@
 # スマホから楽曲を追加する
 
-[管理ページを開く](https://shigre-fun.github.io/garupa-song-atlas/admin/)。同じページ上部で[アワーノーツ](https://shigre-fun.github.io/garupa-song-atlas/admin/?game=ournotes)へ切り替えられます。スマホのブラウザーでブックマークして使えます。
+[管理ページを開く](https://shigre-fun.github.io/bandori-song-atlas/admin/)。同じページ上部で[アワーノーツ](https://shigre-fun.github.io/bandori-song-atlas/admin/?game=ournotes)へ切り替えられます。スマホのブラウザーでブックマークして使えます。
 
-保存先は所有者 `shigre-fun`、リポジトリ `garupa-song-atlas`、ブランチ `main` です。公開サイトから開くと自動設定されます。
+保存先は所有者 `shigre-fun`、リポジトリ `bandori-song-atlas`、ブランチ `main` です。公開サイトから開くと自動設定されます。
 
 ## 最初の接続
 
