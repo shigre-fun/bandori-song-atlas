@@ -2242,7 +2242,9 @@
           "originalArtist": "ano",
           "originalWork": "アニメ「チェンソーマン」第7話ED",
           "mv": null,
-          "relatedSongIds": [],
+          "relatedSongIds": [
+            "garupa:626"
+          ],
           "bpm": 153,
           "bpmMin": null,
           "bpmMax": null,
@@ -2266,7 +2268,8 @@
               "notes": 688
             }
           },
-          "submissionId": "02d5a61e-1ece-423b-bd8b-baf3511019c3"
+          "submissionId": "02d5a61e-1ece-423b-bd8b-baf3511019c3",
+          "revision": "f4340c4c-da15-4670-b206-dc7c7c02b240"
         }
       ]
     },
