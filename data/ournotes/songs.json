@@ -818,6 +818,42 @@
           "relatedSongIds": [
             "garupa:568"
           ]
+        },
+        {
+          "id": 81,
+          "title": "空に歌えば",
+          "reading": "ソラニウタエバ",
+          "releaseDate": "2026-09-26T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "秋田ひろむ",
+          "originalArtist": null,
+          "originalWork": "アニメ「僕のヒーローアカデミア」第2期第2クールOP",
+          "mv": null,
+          "relatedSongIds": [],
+          "bpm": 204,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 262
+            },
+            "NORMAL": {
+              "level": 15,
+              "notes": 334
+            },
+            "HARD": {
+              "level": 22,
+              "notes": 596
+            },
+            "EXPERT": {
+              "level": 26,
+              "notes": 670
+            }
+          },
+          "submissionId": "e3969725-d9fe-4e4f-b9e3-26a1791eb0a7"
         }
       ]
     },
