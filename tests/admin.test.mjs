@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { GitHubStore } from "../src/js/github-store.js";
+import { GAMES } from "../src/js/site-config.js";
 import {
   GARUPA_SONGS_PATH,
   GARUPA_STATE_PATH,
@@ -12,6 +13,23 @@ import { validateSong } from "../src/js/song-schema.js";
 import { renderDetail, renderList } from "../src/js/views.js";
 
 const submissionId = "test-submission-00000001";
+
+test("connected store switches game paths without losing its token", () => {
+  const store = new GitHubStore(
+    { owner: "test-owner", repo: "song-atlas", branch: "main" },
+    "test-token",
+  );
+  store.setGame(GAMES.ournotes);
+  assert.equal(store.token, "test-token");
+  assert.equal(store.game, GAMES.ournotes);
+  assert.equal(store.songsPath, GAMES.ournotes.dataFile);
+  assert.equal(store.statePath, GAMES.ournotes.stateFile);
+  store.setGame(GAMES.garupa);
+  assert.equal(store.songsPath, GAMES.garupa.dataFile);
+  assert.equal(store.statePath, GAMES.garupa.stateFile);
+  assert.throws(() => store.setGame({ id: "unknown" }));
+  assert.equal(store.game, GAMES.garupa);
+});
 const draft = {
   id: 1,
   title: "テストの新曲",

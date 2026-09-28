@@ -37,14 +37,20 @@ export class GitHubStore {
     game = GAMES.garupa,
   ) {
     this.settings = repositorySettings(settings);
-    this.game = game;
-    this.songsPath = game.dataFile;
-    this.statePath = game.stateFile;
+    this.setGame(game);
     if (!token.trim())
       throw new Error("GitHubのアクセストークンを入力してください。");
     this.token = token.trim();
     this.fetcher = fetcher;
     this.base = `https://api.github.com/repos/${encodeURIComponent(this.settings.owner)}/${encodeURIComponent(this.settings.repo)}`;
+  }
+
+  setGame(game) {
+    if (!Object.values(GAMES).includes(game))
+      throw new Error("管理するゲームを確認してください。");
+    this.game = game;
+    this.songsPath = game.dataFile;
+    this.statePath = game.stateFile;
   }
 
   async request(path, method = "GET", body) {

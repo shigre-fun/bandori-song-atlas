@@ -27,8 +27,10 @@
       <p class="eyebrow">SONG EDITOR</p>
       <h1>楽曲を追加・修正</h1>
       <nav class="actions" aria-label="管理するゲーム">
-        <a href="/admin/">ガルパ</a
-        ><a href="/admin/?game=ournotes">アワーノーツ</a>
+        <a href="/admin/" data-admin-game="garupa">ガルパ</a
+        ><a href="/admin/?game=ournotes" data-admin-game="ournotes"
+          >アワーノーツ</a
+        >
       </nav>
       <p class="lead">
         楽曲情報を入力して保存すると、サイトの更新が始まります。
@@ -355,7 +357,7 @@
           <li>このページの保存先とアクセストークンを入力して接続します。</li>
         </ol>
         <p class="help">
-          トークンに「Workflows」の権限は不要です。有効期限が切れたらGitHubで再発行してください。端末の再読み込み後は再接続が必要です。
+          トークンに「Workflows」の権限は不要です。有効期限が切れたらGitHubで再発行してください。ゲームの切替中は接続が続きます。端末の再読み込み後は再接続が必要です。
         </p>
         <a
           href="https://github.com/settings/personal-access-tokens"

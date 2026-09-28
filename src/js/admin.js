@@ -8,33 +8,22 @@ import {
 } from "./related-song-picker.js";
 
 const form = document.querySelector("#song-form");
-const game =
+let game =
   new URLSearchParams(location.search).get("game") === "ournotes"
     ? GAMES.ournotes
     : GAMES.garupa;
-document.querySelector("#admin-game-name").textContent =
-  `${game.shortName}管理ページ`;
-document.title = `${game.shortName}の楽曲を追加・修正 | ${document.title.split(" | ").at(-1)}`;
-if (game.id === "ournotes") {
-  form.elements.reading.required = false;
-  form.elements.reading.closest("label").querySelector("span").textContent =
-    "任意";
-  const composer = form.elements.composer;
-  composer.closest("label").replaceChildren("作曲者（カバーは原曲）", composer);
-  [...form.elements.category.options]
-    .find((option) => option.textContent === "エクストラ")
-    ?.remove();
-}
+const siteTitle = document.title.split(" | ").at(-1);
 const connection = document.querySelector("#connection-form");
 const status = document.querySelector("#form-status");
 const draftStatus = document.querySelector("#draft-status");
-const draftKey =
+const draftKey = () =>
   game.id === "garupa"
     ? "garupa-song-draft-v1:" + new URL(".", location.href).pathname
     : "song-draft-v2:" + new URL(".", location.href).pathname + ":" + game.id;
-const settingsKey = draftKey + ":repository";
+const settingsKey = () => draftKey() + ":repository";
 let store = null;
 let busy = false;
+let connecting = false;
 let submissionId = crypto.randomUUID();
 let savedResult = null;
 let editing = null;
@@ -318,21 +307,50 @@ function message(text, type = "") {
   status.className = "message " + type;
 }
 
-for (const name of [...game.bands, "その他"]) {
-  const option = document.createElement("option");
-  option.textContent = name;
-  form.elements.band.append(option);
-}
-document.querySelector("#charts").innerHTML = game.difficulties
-  .map(
-    (name) => `
+function renderGameFields() {
+  document.querySelector("#admin-game-name").textContent =
+    `${game.shortName}管理ページ`;
+  document.title = `${game.shortName}の楽曲を追加・修正 | ${siteTitle}`;
+  for (const link of document.querySelectorAll("[data-admin-game]")) {
+    if (link.dataset.adminGame === game.id)
+      link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  }
+  form.elements.reading.required = game.id === "garupa";
+  form.elements.reading.closest("label").querySelector("span").textContent =
+    game.id === "garupa" ? "必須" : "任意";
+  const composer = form.elements.composer;
+  composer
+    .closest("label")
+    .replaceChildren(
+      game.id === "garupa"
+        ? "作曲者（カバー・エクストラは原曲）"
+        : "作曲者（カバーは原曲）",
+      composer,
+    );
+  form.elements.category.replaceChildren(
+    ...[
+      "オリジナル",
+      "カバー",
+      ...(game.id === "garupa" ? ["エクストラ"] : []),
+    ].map((name) => new Option(name, name)),
+  );
+  form.elements.band.replaceChildren(
+    ...[...game.bands, "その他"].map((name) => new Option(name, name)),
+  );
+  document.querySelector("#charts").innerHTML = game.difficulties
+    .map(
+      (name) => `
   <div class="chart">
     <label><input type="checkbox" name="${name}-enabled" ${name !== "SPECIAL" ? "checked" : ""}>${name}</label>
     <label>レベル<input name="${name}-level" type="number" min="1" max="50" step="1" inputmode="numeric" aria-label="${name} レベル"></label>
     <label>ノーツ数<input name="${name}-notes" type="number" min="1" max="100000" step="1" inputmode="numeric" aria-label="${name} ノーツ数"></label>
   </div>`,
-  )
-  .join("");
+    )
+    .join("");
+}
+
+renderGameFields();
 
 function updateVisibility() {
   const original = form.elements.category.value === "オリジナル";
@@ -363,7 +381,7 @@ function draftValues() {
   return values;
 }
 function saveDraft() {
-  const ok = storageWrite(draftKey, {
+  const ok = storageWrite(draftKey(), {
     values: draftValues(),
     submissionId,
     savedResult,
@@ -386,8 +404,9 @@ function showResult(result) {
   document.querySelector("#song-link").hidden = true;
 }
 
-const draft = storageRead(draftKey);
-if (draft?.values) {
+function restoreDraft() {
+  const draft = storageRead(draftKey());
+  if (!draft?.values) return;
   editing = draft.editing || null;
   if (editing && !editing.id && editing.song?.id) {
     const { band, category, ...entry } = editing.song;
@@ -412,9 +431,54 @@ if (draft?.values) {
   }
   draftStatus.textContent = "前回の入力を復元しました。";
 }
+restoreDraft();
 renderRelatedSelected();
 updateVisibility();
 updateMode();
+function switchGame(nextGame) {
+  if (busy || connecting || game === nextGame) return !busy && !connecting;
+  saveDraft();
+  form.reset();
+  game = nextGame;
+  store?.setGame(game);
+  editing = null;
+  savedResult = null;
+  submissionId = crypto.randomUUID();
+  songOptions = [];
+  relatedOptions = null;
+  document.querySelector("#edit-search").value = "";
+  document
+    .querySelector("#edit-song")
+    .replaceChildren(new Option("一覧を取得してください", ""));
+  document.querySelector("#related-picker").hidden = true;
+  document.querySelector("#result").hidden = true;
+  draftStatus.textContent = "入力内容はこの端末に下書き保存されます。";
+  renderGameFields();
+  restoreDraft();
+  renderRelatedSelected();
+  updateVisibility();
+  updateMode();
+  message(`${game.shortName}の入力画面に切り替えました。`);
+  return true;
+}
+for (const link of document.querySelectorAll("[data-admin-game]"))
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const nextGame = GAMES[link.dataset.adminGame];
+    if (switchGame(nextGame)) history.pushState(null, "", link.href);
+  });
+window.addEventListener("popstate", () => {
+  const nextGame =
+    new URLSearchParams(location.search).get("game") === "ournotes"
+      ? GAMES.ournotes
+      : GAMES.garupa;
+  if (!switchGame(nextGame)) {
+    const currentLink = document.querySelector(
+      `[data-admin-game="${game.id}"]`,
+    );
+    history.replaceState(null, "", currentLink.href);
+  }
+});
 form.addEventListener("input", () => {
   if (busy) return;
   submissionId = crypto.randomUUID();
@@ -427,7 +491,7 @@ form.addEventListener("input", () => {
 try {
   const response = await fetch(siteURL("admin-config.json"));
   const defaults = response.ok ? await response.json() : {};
-  const previous = storageRead(settingsKey) || {};
+  const previous = storageRead(settingsKey()) || {};
   for (const key of ["owner", "repo", "branch"])
     connection.elements.namedItem(key).value =
       defaults[key] || previous[key] || (key === "branch" ? "main" : "");
@@ -437,7 +501,8 @@ try {
 
 connection.addEventListener("submit", async (event) => {
   event.preventDefault();
-  if (busy) return;
+  if (busy || connecting) return;
+  connecting = true;
   const button = document.querySelector("#connect");
   button.disabled = true;
   const connectionStatus = document.querySelector("#connection-status");
@@ -458,7 +523,7 @@ connection.addEventListener("submit", async (event) => {
     const checked = await candidate.connect();
     store = candidate;
     relatedOptions = null;
-    storageWrite(settingsKey, checked);
+    storageWrite(settingsKey(), checked);
     connectionStatus.textContent = `${checked.owner}/${checked.repo}（${checked.branch}）に接続しました。`;
     connectionStatus.className = "message success";
     document.querySelector("#disconnect").hidden = false;
@@ -469,6 +534,7 @@ connection.addEventListener("submit", async (event) => {
     connectionStatus.textContent = error.message;
     connectionStatus.className = "message error";
   } finally {
+    connecting = false;
     connection.elements.namedItem("token").value = "";
     button.disabled = false;
     connectionStatus.focus();
