@@ -1,9 +1,17 @@
 export const SITE_NAME = "バンドリ楽曲録";
 export const SITE_ALTERNATE_NAME = "BanG Dream! Song Database";
-export const SITE_ORIGIN = "https://shigre-fun.github.io";
-export const BASE_PATH = "/bandori-song-atlas/";
+export const SITE_ORIGIN = "https://tanimachi-bdsongs.com";
+export const BASE_PATH = "/";
+export const SITE_DESCRIPTION = "ガルパ・アワーノーツの非公式楽曲データベース";
+export const BRAND_ASSETS = Object.freeze({
+  favicon: "favicon.svg",
+  faviconPng: "favicon-32.png",
+  appleTouchIcon: "apple-touch-icon.png",
+  logo: "assets/logo-512.png",
+  siteOg: "assets/og/site.png",
+});
 
-/** @typedef {{ id: string, slug: string, name: string, shortName: string, seoName: string, difficulties: string[], categories: string[], fields: string[], catalog: string, dataFile: string }} Game */
+/** @typedef {{ id: string, slug: string, name: string, shortName: string, seoName: string, ogAccent: { strong: string, pale: string }, difficulties: string[], categories: string[], fields: string[], catalog: string, dataFile: string }} Game */
 
 /** @type {Record<string, Game>} */
 export const GAMES = {
@@ -13,6 +21,7 @@ export const GAMES = {
     name: "バンドリ！ガールズバンドパーティ！",
     shortName: "ガルパ",
     seoName: "ガルパ",
+    ogAccent: { strong: "#D72665", pale: "#FFF0F5" },
     difficulties: ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"],
     bands: [
       "Poppin'Party",
@@ -37,6 +46,7 @@ export const GAMES = {
     name: "バンドリ！アワーノーツ",
     shortName: "アワーノーツ",
     seoName: "アワーノーツ",
+    ogAccent: { strong: "#2868CE", pale: "#EDF4FF" },
     difficulties: ["EASY", "NORMAL", "HARD", "EXPERT"],
     bands: [
       "MyGO!!!!!",
@@ -73,9 +83,7 @@ export function siteSettings(env = {}) {
     name: SITE_NAME,
     alternateName: SITE_ALTERNATE_NAME,
     origin,
-    basePath: explicit || legacy || (env.GITHUB_ACTIONS ? BASE_PATH : "/"),
-    image: "og-default.png",
-    favicon: "favicon.svg",
-    appleTouchIcon: "apple-touch-icon.png",
+    basePath: explicit || legacy || BASE_PATH,
+    assets: BRAND_ASSETS,
   };
 }

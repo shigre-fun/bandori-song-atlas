@@ -1,6 +1,6 @@
 # スマホから楽曲を追加する
 
-[管理ページを開く](https://shigre-fun.github.io/bandori-song-atlas/admin/)。同じページ上部で[アワーノーツ](https://shigre-fun.github.io/bandori-song-atlas/admin/?game=ournotes)へ切り替えられます。スマホのブラウザーでブックマークして使えます。
+[管理ページを開く](https://tanimachi-bdsongs.com/admin/)。同じページ上部で[アワーノーツ](https://tanimachi-bdsongs.com/admin/?game=ournotes)へ切り替えられます。スマホのブラウザーでブックマークして使えます。
 
 保存先は所有者 `shigre-fun`、リポジトリ `bandori-song-atlas`、ブランチ `main` です。公開サイトから開くと自動設定されます。
 
@@ -50,12 +50,11 @@ PCの電源を入れる必要はありません。スマホとGitHubがオンラ
 - 同時更新があった場合は既存データを上書きせず停止します。もう一度保存すると最新の番号で再試行します。
 - 同名の別バージョンも新しいIDで追加できます。既存曲の修正は曲IDを選んで読み込んでください。
 
-## GitHub Pagesの初期設定
+## 公開サイトの更新
 
-1. プロジェクトをGitHubリポジトリのmainへ配置します。`src/`、`scripts/`、`data/garupa/`、`data/ournotes/`、`data/settings.json`、`.github/workflows/pages.yml` 等が必要です。
-2. リポジトリのSettings → Pages → Build and deployment → SourceをGitHub Actionsにします。
-3. Actionsの「Publish song database」を実行します。以後mainへの保存で自動更新します。
-4. Pagesで表示されるURLを開きます。管理画面の所有者・リポジトリはビルド時に自動設定されます。
+1. 管理画面からの保存はGitHubリポジトリのmainへコミットされます。
+2. 接続済みのCloudflare Pagesが `dist` をビルド・配信します。現在の公開URLは `https://tanimachi-bdsongs.com/` です。
+3. 公開後に対象の楽曲詳細ページを確認します。管理画面の所有者・リポジトリはビルド時に自動設定されます。
 
 初回配置をGitで行う認証と、スマホの管理画面に入力するトークンは別に設定できます。トークンをチャットやGitファイルへ貼り付けないでください。
 
@@ -67,10 +66,9 @@ PCの電源を入れる必要はありません。スマホとGitHubがオンラ
 管理用番号はゲームごとの `data/{ゲーム名}/admin-state.json` の `nextId` で採番し、該当する `songs.json` と同じコミットで更新します。既存の追加コマンドはガルパの番号を更新します。
 手動で曲を増やした場合は `nextId` を全曲のIDより大きくしてください。ビルド時に重複と採番の整合性を検証します。
 
-GitHub Pagesのサブフォルダー配信では `SITE_BASE_PATH=/リポジトリ名` を指定してビルドします。Actionsでは自動設定されます。通常のローカル確認やルート配信では指定不要です。
+通常のローカル確認と現在のCloudflare Pagesのルート配信では `BASE_PATH` の指定は不要です。サブパス検証時だけ `BASE_PATH=/サブパス/` を指定します。
 
 ## 実装に使用した公式仕様
 
 - [GitHub REST APIのブラウザーからの利用](https://docs.github.com/en/rest/using-the-rest-api/using-cors-and-jsonp-to-make-cross-origin-requests)
 - [Git参照の更新とforce指定](https://docs.github.com/en/rest/git/refs)
-- [GitHub Pagesのカスタムワークフロー](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)

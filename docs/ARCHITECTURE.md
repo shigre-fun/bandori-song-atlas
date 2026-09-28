@@ -14,11 +14,15 @@
 
 ## ページ生成とSEO
 
-`scripts/build.mjs` がトップ、ゲームトップ、一覧、詳細、情報ページ、404、旧URL案内、sitemap、robotsを生成します。ガルパの詳細は楽曲データ入りHTMLです。ページ本文とheadのメタ情報、パンくず、JSON-LDは同じページ設定から作り、canonicalは常にクエリなしの絶対URLにします。旧URL、管理画面、404、横断検索の案内はsitemapに含めません。信頼できるページ単位の更新日がないため、sitemapには `lastmod` を出しません。
+`scripts/build.mjs` がトップ、ゲーム別一覧、詳細、情報ページ、404、旧URL案内、sitemap、robotsを生成します。詳細は楽曲データ入りHTMLです。ページ本文とheadのメタ情報、パンくず、JSON-LDは同じページ設定から作り、canonicalは常にクエリなしの絶対URLにします。旧URL、管理画面、404、横断検索の案内はsitemapに含めません。信頼できるページ単位の更新日がないため、sitemapには `lastmod` を出しません。
 
-楽曲一覧の検索・並べ替え・ページング・絞り込みはクエリURLで表現します。GitHub Pagesはクエリ別のレスポンスHTMLやHTTPヘッダーを返せないため、`src/js/query-index.js` が対象条件を含む一覧URLに `noindex,follow` を追加します。通常のHTMLとcanonicalは一覧の基本URLを指します。これはJavaScriptを実行しないクローラーへの完全な制御ではありません。独自ドメイン移行時はCloudflare側でクエリ別のHTTP `X-Robots-Tag` を検討します。
+楽曲一覧の検索・並べ替え・ページング・絞り込みはクエリURLで表現します。Cloudflare側で条件付き一覧へ `X-Robots-Tag: noindex, follow` を返す設定があり、`src/js/query-index.js` もブラウザーのheadへ `noindex,follow` を追加します。通常のHTMLとcanonicalは一覧の基本URLを指します。
 
-共通画像は `src/images/og-default.png` と `src/images/apple-touch-icon.png` です。図案の再生成用スクリプトは `scripts/assets/create-brand-assets.py` にあります。ゲーム別画像を用意する際は設定の参照先を追加します。
+ブランドの原画は `src/images/favicon.svg` の「開いた本＋音符」です。青〜紫の背景と白い本、赤〜ピンクの音符で、公式のロゴ・ジャケット・キャラクター画像は使いません。`scripts/assets/create-brand-assets.mjs` がビルド時に32px favicon PNG、180px Apple Touch Icon、512pxロゴ、1200×630のトップOGPと全楽曲のOGPを生成します。トップ画像は白系の背景にサイト名と「ガルパ・アワーノーツの非公式楽曲データベース」を配置します。
+
+公開パスは共通画像が `/assets/og/site.png`、楽曲画像が `/assets/og/songs/{game}/{stableSongId}-{hash}.png` です。hashは楽曲名・バンド名・ゲーム識別色・描画版から決まり、変更時にはURLも変わります。`scripts/build.mjs` は `dist` を毎回消して再生成するので古い画像は残りません。全詳細ページの `og:image` と `twitter:image` は生成された絶対URLを使い、サイズ・altをheadへ記載します。
+
+ゲーム識別色は `src/js/site-config.js` の `GAMES[gameId].ogAccent` に置き、ガルパが赤〜ピンク、アワーノーツが青です。新しいゲームを加える場合は `strong` と `pale` の6桁hex色を設定してください。未設定なら生成を停止します。日本語・英数字・記号を同じように描くため、`@napi-rs/canvas` と `assets/fonts/` のNoto Sans JP Regular/Boldを使用します。フォントの利用条件は同梱の `OFL.txt` を参照してください。ビルドマシンのフォントやPython/Pillowには依存しません。
 
 ## ブラウザー機能
 

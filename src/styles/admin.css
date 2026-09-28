@@ -26,6 +26,9 @@ header {
   gap: 12px;
 }
 header a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-weight: 750;
   text-decoration: none;
   color: #26334a;

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { SITE_ORIGIN } from "../../src/js/site-config.js";
+import { BRAND_ASSETS, SITE_ORIGIN } from "../../src/js/site-config.js";
 
 const decode = (value) =>
   value
@@ -101,6 +101,21 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
       "twitter:image",
     ])
       if (!attr(html, "name", name)) fail(`${name}がありません: ${canonical}`);
+    const image = attr(html, "property", "og:image");
+    if (
+      !image?.startsWith(`${expectedOrigin}assets/og/`) ||
+      attr(html, "name", "twitter:image") !== image ||
+      attr(html, "property", "og:image:width") !== "1200" ||
+      attr(html, "property", "og:image:height") !== "630" ||
+      !attr(html, "property", "og:image:alt") ||
+      attr(html, "name", "twitter:card") !== "summary_large_image"
+    )
+      fail(`OGPメタ情報が不正: ${canonical}`);
+    else {
+      const imageFile = localFile(new URL(image).pathname);
+      if (!imageFile || !fs.existsSync(imageFile))
+        fail(`OGP画像がありません: ${canonical} -> ${image}`);
+    }
     if (
       !attr(html, "rel", "icon", "href") ||
       !attr(html, "rel", "apple-touch-icon", "href")
@@ -110,6 +125,8 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
       /\/(garupa|ournotes)\/songs\/[0-9]+\/$/,
     )?.[1];
     if (detailGame) {
+      if (!image?.includes(`/assets/og/songs/${detailGame}/`))
+        fail(`楽曲専用OGPではありません: ${canonical}`);
       details++;
       detailCounts[detailGame]++;
       for (const text of ["楽曲情報", "パンくずリスト", "<h1"])
@@ -125,7 +142,8 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
         html.includes('class="diff-4">SPECIAL</th>')
       )
         fail(`アワーノーツ詳細の欄が不正です: ${canonical}`);
-    }
+    } else if (image !== `${expectedOrigin}${BRAND_ASSETS.siteOg}`)
+      fail(`共通OGPではありません: ${canonical}`);
     if (
       canonical !== expectedOrigin &&
       !html.includes('"@type": "BreadcrumbList"')

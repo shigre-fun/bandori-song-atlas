@@ -1,21 +1,15 @@
-# 公開先と独自ドメイン移行
+# Cloudflare Pagesでの公開
 
-## 現在のGitHub Pages
+公開URLは `https://tanimachi-bdsongs.com/` です。独自ドメイン、301転送、Search Console、sitemap、X-Robots-Tag、旧GitHub Pagesからの移行、Web Analyticsは設定済みです。画像更新時にこれらの設定を作り直さないでください。
 
-GitHub Actionsは `src/js/site-config.js` の現在の公開originとPagesの `BASE_PATH=/bandori-song-atlas/` を使ってビルドします。公開URLは `https://shigre-fun.github.io/bandori-song-atlas/` です。ローカルのルート公開を試すときは `BASE_PATH=/` を指定してください。`node scripts/serve.mjs` は同じ設定のベースパスで生成した `dist/` を配信します。
+## ビルド
 
-リポジトリ名の変更に伴い、旧GitHub Pages URLは新URLへ自動転送されません。旧URLのブックマークや外部リンクは新URLに更新してください。管理ページの下書きはURLのパスごとに保存されるため、旧URLで未保存の入力があれば移行前に控えてください。
+Node.js 22以上と `pnpm-lock.yaml` に固定された依存関係を使用します。Cloudflare Pagesのビルドコマンドは `node scripts/build.mjs && node --test tests/*.test.mjs && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /`、出力ディレクトリは `dist` です。失敗した画像生成はビルドを終了コード0にしません。公開環境で `SITE_ORIGIN` を指定する場合は `https://tanimachi-bdsongs.com`、`BASE_PATH` は `/` にしてください。旧 `SITE_BASE_PATH` が設定されている場合は同じ `/` と一致させます。
 
-`dist/robots.txt` はサブパス内に置かれます。GitHub Pagesのリポジトリサイトはドメイン直下のrobots.txtを管理できないため、このファイルだけでサイト全体のクロール規則を指定できません。`/bandori-song-atlas/sitemap.xml` は直接開けるので、必要に応じてSearch Consoleへ送信してください。検索条件付き一覧のnoindexはブラウザー側のheadスクリプトで設定されます。JavaScriptを使わないクローラーの挙動は保証できません。
+`@napi-rs/canvas` はOGPとアイコンのPNG描画用です。`assets/fonts/` に同梱したNoto Sans JPのRegular/Boldとライセンスを使用するため、CloudflareのシステムフォントやPython/Pillowの有無に依存しません。生成された画像は `dist/assets/og/` にあり、楽曲名等の変更でハッシュが変わります。ビルドは `dist` を消してから再生成するので旧ハッシュ画像は公開物へ混入しません。
 
-## Cloudflare Pagesと独自ドメインへの移行
+## 更新時の確認
 
-1. 決定したドメインをCloudflare Pagesへ接続し、DNS・TLS・公開先を確認する。ビルドコマンドは `node scripts/build.mjs && node --test tests/*.test.mjs`、公開ディレクトリは `dist`。
-2. 公開環境に `SITE_ORIGIN=https://決定したドメイン` と `BASE_PATH=/` を設定する。仮URLを前提にした `SITE_BASE_PATH` が残っていれば消す。ビルド後、canonical・OGP・sitemap・アセット・管理画面のURLを確認する。
-3. `legacy-redirects.csv` またはJSONの全行を使い、旧ドメインの曲名パスから新ドメインの数値IDパスへの恒久転送を設定する。旧トップの検索条件付きURLもガルパ一覧へ条件を引き継ぐ。旧ドメインを維持できない場合は転送できないため、その制約を公開前に確認する。サイト内の旧案内ページは補助として残す。
-4. 新ドメイン直下の `robots.txt` と `sitemap.xml` を確認し、Search Consoleに新プロパティとsitemapを登録する。Cloudflare側でクエリ付き一覧に `X-Robots-Tag: noindex, follow` を返す設定を検討し、基本URL・楽曲詳細には付かないことを実URLで確認する。
-5. Cloudflare Pagesの404がHTTP 404になること、未知の楽曲IDをトップHTMLへ書き換えないことを確認する。公開されたHTML/CSS/JavaScriptをrobots.txtでブロックしない。
-6. 管理画面のGitHub保存先と公開確認を実際のリポジトリ・ブランチでテストする。独自ドメインへ移るとブラウザーのoriginが変わり、旧originのローカルストレージにある下書きは自動移行されない。必要な下書きは移行前に控え、アクセストークンは新originで再入力する。
-7. 新旧URLの転送と索引状況を確認し、旧サイトの公開・転送を十分な期間維持する。
+ローカルでビルド・全テスト・SEO監査を通してから公開します。公開後はトップと両ゲームの代表楽曲で `og:image` の絶対URL、HTTP 200、1200×630の画像、`twitter:image` との一致を確認します。favicon SVG、32px PNG、Apple Touch Iconも実URLで確認します。既存のcanonical、sitemap、robots、301転送、検索条件付きページのX-Robots-Tag、404、Web Analyticsが変化していないことを確認します。
 
-今回の作業ではドメインが未決定のためDNSや旧ドメインの301設定は行いません。Cloudflare Pagesでは `dist/404.html` を使って未知URLを404で返す構成とし、SPAフォールバックを設定しないでください。
+`BASE_PATH` を明示すればサブパスのローカル検証も可能です。`node scripts/serve.mjs` はビルドした `dist` を配信します。`dist` のファイルは直接修正しません。

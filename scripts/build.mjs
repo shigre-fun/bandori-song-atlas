@@ -3,7 +3,12 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { format } from "prettier";
 import { loadGameCatalog } from "./catalog.mjs";
-import { GAMES, siteSettings } from "../src/js/site-config.js";
+import { generateBrandAssets } from "./assets/create-brand-assets.mjs";
+import {
+  GAMES,
+  SITE_DESCRIPTION,
+  siteSettings,
+} from "../src/js/site-config.js";
 import { GARUPA_LEGACY_PATH } from "../src/js/garupa-data.js";
 import {
   absoluteURL,
@@ -139,13 +144,15 @@ async function page({
   breadcrumbs = [home],
   indexable = true,
   headerSearch = true,
+  imagePath = settings.assets.siteOg,
+  imageAlt = `${settings.name} - ${SITE_DESCRIPTION}`,
   scripts = [],
   jsonld = [],
 }) {
   const searchGame =
     games.find((game) => pagePath.startsWith(`${game.slug}/`)) || GAMES.garupa;
   const canonical = url(pagePath);
-  const image = url(settings.image);
+  const image = url(imagePath);
   const head = [
     `<title>${escapeHTML(title)}</title>`,
     `<meta name="description" content="${escapeHTML(description)}" />`,
@@ -159,13 +166,14 @@ async function page({
     `<meta property="og:image" content="${escapeHTML(image)}" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
-    `<meta property="og:image:alt" content="${escapeHTML(settings.name)}" />`,
+    `<meta property="og:image:alt" content="${escapeHTML(imageAlt)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${escapeHTML(title)}" />`,
     `<meta name="twitter:description" content="${escapeHTML(description)}" />`,
     `<meta name="twitter:image" content="${escapeHTML(image)}" />`,
-    `<link rel="icon" href="${escapeHTML(local(settings.favicon))}" type="image/svg+xml" />`,
-    `<link rel="apple-touch-icon" href="${escapeHTML(local(settings.appleTouchIcon))}" sizes="180x180" />`,
+    `<link rel="icon" href="${escapeHTML(local(settings.assets.favicon))}" type="image/svg+xml" />`,
+    `<link rel="icon" href="${escapeHTML(local(settings.assets.faviconPng))}" type="image/png" sizes="32x32" />`,
+    `<link rel="apple-touch-icon" href="${escapeHTML(local(settings.assets.appleTouchIcon))}" sizes="180x180" />`,
     `<link rel="stylesheet" href="${escapeHTML(local("style.css"))}" />`,
     `<link rel="stylesheet" href="${escapeHTML(local("mobile.css"))}" />`,
     ...scripts.map(
@@ -194,6 +202,7 @@ async function page({
     "<!--HEAD-->": head,
     "<!--CONTENT-->": body,
     "<!--HOME_URL-->": local(""),
+    "<!--LOGO_URL-->": local(settings.assets.favicon),
     "<!--GARUPA_URL-->": local(songListPath(GAMES.garupa)),
     "<!--OURNOTES_URL-->": local(songListPath(GAMES.ournotes)),
     "<!--ABOUT_URL-->": local("about/"),
@@ -212,6 +221,7 @@ async function page({
 // distと検証用.cache出力のみを再生成する。旧ページや削除曲の残骸を残さない。
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
+const songImages = await generateBrandAssets(output, catalogs, games, settings);
 const adminModules = new Set([
   "admin.js",
   "related-song-picker.js",
@@ -253,7 +263,7 @@ for (const [directory, names] of [
     ],
   ],
   ["styles", ["style.css", "mobile.css", "admin.css"]],
-  ["images", ["favicon.svg", "og-default.png", "apple-touch-icon.png"]],
+  ["images", ["favicon.svg"]],
   ["static", ["_headers"]],
 ])
   for (const name of names)
@@ -322,11 +332,18 @@ for (const game of games) {
       throw new Error(`${game.slug}のstableSongIdが不正です。`);
     if (game.id === "garupa" && !/^[1-9][0-9]*$/.test(song.stableSongId))
       throw new Error("ガルパのstableSongIdは正の整数にしてください。");
+    const imagePath = songImages.get(`${game.id}:${song.stableSongId}`);
+    if (!imagePath)
+      throw new Error(
+        `楽曲OGP画像がありません: ${game.id}/${song.stableSongId}`,
+      );
     await page({
       file: `${game.slug}/songs/${song.stableSongId}/index.html`,
       pagePath: songPath(game, song.stableSongId),
       title: detailTitle(song, game, songs),
       description: detailDescription(song, game),
+      imagePath,
+      imageAlt: `「${song.title}」 - ${song.band || song.artist} / ${game.shortName} | ${settings.name}`,
       breadcrumbs: [
         home,
         listCrumb(game),
