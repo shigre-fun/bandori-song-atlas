@@ -2231,6 +2231,42 @@
               "notes": null
             }
           }
+        },
+        {
+          "id": 80,
+          "title": "ちゅ、多様性。",
+          "reading": "チュタヨウセイ",
+          "releaseDate": "2026-09-25T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "真部脩一",
+          "originalArtist": "ano",
+          "originalWork": "アニメ「チェンソーマン」第7話ED",
+          "mv": null,
+          "relatedSongIds": [],
+          "bpm": 153,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 8,
+              "notes": 252
+            },
+            "NORMAL": {
+              "level": 13,
+              "notes": 372
+            },
+            "HARD": {
+              "level": 19,
+              "notes": 564
+            },
+            "EXPERT": {
+              "level": 24,
+              "notes": 688
+            }
+          },
+          "submissionId": "02d5a61e-1ece-423b-bd8b-baf3511019c3"
         }
       ]
     },
