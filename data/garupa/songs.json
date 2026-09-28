@@ -26191,7 +26191,10 @@
           "bpm": 178,
           "bpmMin": 162,
           "bpmMax": 178,
-          "durationSeconds": 141
+          "durationSeconds": 141,
+          "relatedSongIds": [
+            "ournotes:82"
+          ]
         }
       ]
     },

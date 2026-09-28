@@ -2594,6 +2594,44 @@
               "notes": null
             }
           }
+        },
+        {
+          "id": 82,
+          "title": "Stellar Stellar",
+          "reading": "ステラステラ",
+          "releaseDate": "2026-09-27T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "TAKU INOUE",
+          "originalArtist": "星街すいせい",
+          "originalWork": null,
+          "mv": null,
+          "relatedSongIds": [
+            "garupa:561"
+          ],
+          "bpm": 178,
+          "bpmMin": 162,
+          "bpmMax": 178,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 340
+            },
+            "NORMAL": {
+              "level": 13,
+              "notes": 510
+            },
+            "HARD": {
+              "level": 18,
+              "notes": 672
+            },
+            "EXPERT": {
+              "level": 25,
+              "notes": 926
+            }
+          },
+          "submissionId": "6e8274cf-d3f3-41e8-9f96-616b2a67b2d1"
         }
       ]
     },
