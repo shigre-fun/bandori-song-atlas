@@ -271,6 +271,18 @@ tr:last-child td {
   background: #eee9fc;
   color: #7347aa;
 }
+.tag.garupa {
+  background: #e7f1ff;
+  color: #245caa;
+}
+.tag.garupa.anime {
+  background: #fff0d1;
+  color: #8e5800;
+}
+.tag.garupa.tie_up {
+  background: #e4f5e9;
+  color: #237a46;
+}
 .lv {
   font-size: 18px;
   font-weight: 750;
@@ -607,26 +619,32 @@ dd a,
   font-size: 13px;
 }
 .song-type {
-  display: inline-block;
-  border-radius: 6px;
-  padding: 3px 9px;
-  color: white;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+}
+.song-type::before {
+  content: "";
+  width: 0.85em;
+  height: 0.85em;
+  flex: none;
+  border-radius: 50%;
+  background: var(--song-type-color);
 }
 .song-type-紅赤 {
-  background: #ba2859;
+  --song-type-color: #ba2859;
 }
 .song-type-紺碧 {
-  background: #1667ae;
+  --song-type-color: #1667ae;
 }
 .song-type-翡翠 {
-  background: #087b56;
+  --song-type-color: #087b56;
 }
 .song-type-山吹 {
-  background: #9b6500;
+  --song-type-color: #9b6500;
 }
 .song-type-紫苑 {
-  background: #8144a8;
+  --song-type-color: #8144a8;
 }
 .sr-only {
   position: absolute;
