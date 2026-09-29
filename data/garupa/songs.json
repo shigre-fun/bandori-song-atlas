@@ -2497,11 +2497,11 @@
           "id": 804,
           "title": "スターラブレイション",
           "reading": "スターラフレイション",
-          "releaseDate": "2026-07-08T21:00:00.000+09:00",
+          "releaseDate": "2026-07-08T21:00+09:00",
           "releaseOrder": 804,
           "composer": "ふるっぺ",
           "originalArtist": "ケラケラ",
-          "originalWork": "ドラマ「ラスト・シンデレラ」主題歌",
+          "originalWork": "ドラマ「ラスト♡シンデレラ」主題歌",
           "live3d": null,
           "aliases": [
             "すたーらぶれいしょん"
@@ -2528,7 +2528,9 @@
           "bpm": 144,
           "bpmMin": 144,
           "bpmMax": 144,
-          "durationSeconds": 136
+          "durationSeconds": 136,
+          "relatedSongIds": [],
+          "revision": "45169da3-7a51-4cd0-903a-68a6a4ba5cc9"
         },
         {
           "id": 296,
