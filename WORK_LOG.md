@@ -4,6 +4,7 @@
 
 ## 現在地
 
+- 2026-09-29 公開確認：ガルパ新曲 `90ad424` を保持して `653b770` まで `origin/main` に非強制push成功。GitHub Actions run `36559464096` は completed/success（build/deployともsuccess）。公開 `/ournotes/songs.json` は83曲中タイプ83件・撃奏順34件、ID1と13の順番、ID83のタイプを確認。公開ID1詳細で色付きタイプ、`1.COMBO / 2.COMBO / 3.COMBO`、指定項目順を確認。公開管理ページに4つの選択欄を確認。公開ガルパJSONは798曲で新曲「炎と森のカーニバル」ID823を確認。現在作業中：この最終記録をGitに保存し、その公開ワークフローを確認する。未完了：記録commit後のActions結果。次は `git add WORK_LOG.md`、commit/push、最新runを確認する。検証：前項の統合後67テスト・ビルド・監査と、上記公開URL読取。問題：CLI `gh` は未導入のためGitHub REST APIを使用。公開詳細の初回照合時は配信切替中で旧ページを取得したが、再読で新表示と順序を確認。設計判断：データ・詳細・管理画面を公開実体で照合する。
 - 2026-09-29 統合後検証完了：`90ad424` のガルパ新曲を保持した状態で `node scripts/build.mjs` 成功（ガルパ798曲・アワーノーツ83曲）、全67テスト成功、生成ページ監査887ページ/881詳細/797旧URL成功。現在作業中：本記録をcommit後、非強制pushしてActions・公開確認。未完了：pushと公開結果。次は `git add WORK_LOG.md`、commit、`git push origin main`。問題：リモート先行による初回push拒否はfetch/rebaseで解消。設計判断：ガルパ新曲を維持した統合コミットを公開する。
 - 2026-09-29 公開再試行：ユーザーの明示許可後の `git push origin main` は `fetch first` で拒否された。`git fetch origin main` で新しいリモートcommit `90ad424`「炎と森のカーニバル」を取得し、変更が `data/garupa/songs.json`・`data/garupa/admin-state.json` のみでアワーノーツ変更と重ならないことを確認。ユーザーもガルパ新曲更新と認識し統合を指示したため、非強制の `git rebase origin/main` が成功。現在HEAD `a3625dd`、作業ツリーはクリーン。現在作業中：ガルパ新曲を含む最終ビルド・全テスト、push、Actions・公開確認。未完了：これらの検証と公開。次は `node scripts/build.mjs`、`node --test tests/*.test.mjs`、`node scripts/qa/audit-build.mjs` を実行し、その後 `git push origin main`。問題：最初のpushはリモート先行による非fast-forwardで未実行。設計判断：ガルパ新曲を保持してリベースし、force pushはしない。
 - 2026-09-29 公開作業を再開。ユーザーが `pushを許可します。公開してください。` と明示的に許可した。作業場所・Git管理を確認し、`git status --short`・作業差分・ステージ差分は空。HEAD `0e55d5e`、実装 `89aa42f` を含む2コミットが `origin/main` より先行。現在作業中：記録更新後に `origin/main` へpushし、Actionsと公開ページを確認する。未完了：push、Actions結果、公開データ・ページ確認。次は `git add WORK_LOG.md`、記録をcommit、`git push origin main`。検証：前回の全67テスト・ビルド・全83詳細監査成功を記録と成果物で照合し、今回の新規変更は記録のみ。問題：前回は明示許可不足による自動承認レビュー拒否、今回のユーザー許可で解消。設計判断：既存コミットをそのまま非強制pushする。
@@ -158,6 +159,13 @@
 - 新曲追加：`node scripts/add-song.mjs "楽曲名"`。作成されたJSONの空欄を埋めてからビルドする。
 
 ## 検証記録
+
+### 2026-09-29：アワーノーツ新項目の公開
+
+- ユーザーが `origin/main` へのpushを明示許可。pushはリモート先行で一度拒否され、`git fetch origin main` でガルパ新曲 `90ad424` を取得。差分を照合してアワーノーツ変更と重ならないことを確認し、非強制rebase後にpush成功。
+- 統合後ビルドはガルパ798曲・アワーノーツ83曲、全67テスト成功、生成ページ監査887ページ/881詳細/797旧URL成功。
+- Actions run `36559464096` は completed/success。公開JSONはアワーノーツ83曲・タイプ83件・撃奏順34件、ガルパ798曲・新曲ID823。公開詳細の表示順・色・撃奏表記と管理画面の4選択欄を確認。管理画面の認証済み保存操作は未実施。
+- `gh` が見つからなかったためGitHub REST APIでActionsを確認。公開詳細の初回は旧内容を取得したが、再取得で新内容を確認。
 
 ### 2026-09-29：アワーノーツ楽曲タイプ・撃奏区間
 
