@@ -21,15 +21,15 @@ const page = (game, id) =>
 
 test("chart variants and cross-game songs link in both directions", () => {
   assert.doesNotThrow(() => validateRelatedSongIds(catalogs));
-  assert.deepEqual(ids(byId("garupa", 158)), ["garupa:249", "garupa:484"]);
-  assert.deepEqual(ids(byId("garupa", 249)), ["garupa:158", "garupa:484"]);
-  assert.deepEqual(ids(byId("garupa", 489)), ["garupa:649", "ournotes:1"]);
-  assert.deepEqual(ids(byId("ournotes", 1)), ["garupa:489", "garupa:649"]);
-  assert.deepEqual(ids(byId("ournotes", 40)), ["garupa:87"]);
-  assert.ok(ids(byId("ournotes", 7)).includes("garupa:667"));
-  assert.ok(ids(byId("garupa", 667)).includes("ournotes:7"));
-  assert.ok(ids(byId("garupa", 667)).includes("ournotes:79"));
-  assert.deepEqual(ids(byId("garupa", 410)), []); // 同名異曲
+  assert.deepEqual(ids(byId("garupa", 148)), ["garupa:237", "garupa:466"]);
+  assert.deepEqual(ids(byId("garupa", 237)), ["garupa:148", "garupa:466"]);
+  assert.deepEqual(ids(byId("garupa", 473)), ["garupa:628", "ournotes:1"]);
+  assert.deepEqual(ids(byId("ournotes", 1)), ["garupa:473", "garupa:628"]);
+  assert.deepEqual(ids(byId("ournotes", 40)), ["garupa:86"]);
+  assert.ok(ids(byId("ournotes", 7)).includes("garupa:646"));
+  assert.ok(ids(byId("garupa", 646)).includes("ournotes:7"));
+  assert.ok(ids(byId("garupa", 646)).includes("ournotes:79"));
+  assert.deepEqual(ids(byId("garupa", 387)), []); // 同名異曲
 });
 
 test("every published related link is editable and matches the stored references", () => {
@@ -70,7 +70,7 @@ test("a removed link does not return from matching titles and composers", () => 
       song.id === 1 ? { ...song, relatedSongIds: [] } : song,
     ),
     garupa: catalogs.garupa.map((song) =>
-      [489, 649].includes(song.id)
+      [473, 628].includes(song.id)
         ? {
             ...song,
             relatedSongIds: song.relatedSongIds.filter(
@@ -89,17 +89,17 @@ test("a removed link does not return from matching titles and composers", () => 
   );
   assert.deepEqual(
     relatedSongs(
-      shortened.garupa.find((song) => song.id === 489),
+      shortened.garupa.find((song) => song.id === 473),
       shortened,
     ).map((song) => `${song.gameId}:${song.id}`),
-    ["garupa:649"],
+    ["garupa:628"],
   );
 });
 
 test("explicit links must point to an existing song in both directions", () => {
   const song = {
     ...byId("ournotes", 7),
-    relatedSongIds: ["garupa:667", "garupa:999999"],
+    relatedSongIds: ["garupa:646", "garupa:999999"],
   };
   assert.throws(
     () =>
@@ -111,13 +111,13 @@ test("explicit links must point to an existing song in both directions", () => {
       }),
     /関連楽曲.*不正/,
   );
-  const unpaired = { ...byId("garupa", 667), relatedSongIds: [] };
+  const unpaired = { ...byId("garupa", 646), relatedSongIds: [] };
   assert.throws(
     () =>
       validateRelatedSongIds({
         ...catalogs,
         garupa: catalogs.garupa.map((entry) =>
-          entry.id === 667 ? unpaired : entry,
+          entry.id === 646 ? unpaired : entry,
         ),
       }),
     /相互/,
@@ -126,12 +126,12 @@ test("explicit links must point to an existing song in both directions", () => {
 
 test("public pages avoid admin links while the direct editor remains available", () => {
   const base = siteSettings(process.env).basePath;
-  const garupa = page("garupa", 489);
+  const garupa = page("garupa", 473);
   const ournotes = page("ournotes", 1);
-  assert.ok(garupa.includes(`href="${base}garupa/songs/649/"`));
+  assert.ok(garupa.includes(`href="${base}garupa/songs/628/"`));
   assert.ok(garupa.includes(`href="${base}ournotes/songs/1/"`));
-  assert.ok(ournotes.includes(`href="${base}garupa/songs/489/"`));
-  assert.ok(ournotes.includes(`href="${base}garupa/songs/649/"`));
+  assert.ok(ournotes.includes(`href="${base}garupa/songs/473/"`));
+  assert.ok(ournotes.includes(`href="${base}garupa/songs/628/"`));
   for (const html of [
     garupa,
     ournotes,

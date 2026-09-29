@@ -20,7 +20,8 @@ test("timing research keeps source details without repeating published song fiel
   const ids = new Set(songs.map((entry) => entry.id));
   assert.equal(report.records.length, 796);
   assert.equal(new Set(report.records.map((entry) => entry.id)).size, 796);
-  assert.ok(!report.records.some((entry) => entry.id === 822));
+  const limeLight = songs.find((entry) => entry.title === "ライムライト");
+  assert.ok(!report.records.some((entry) => entry.id === limeLight.id));
   for (const entry of report.records) {
     assert.ok(ids.has(entry.id));
     assert.ok(Number.isFinite(entry.sourceLengthSeconds));

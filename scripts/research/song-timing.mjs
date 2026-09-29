@@ -16,10 +16,19 @@ const records = [];
 const pending = [];
 const unmatched = [];
 const data = JSON.parse(fs.readFileSync(GARUPA_SONGS_PATH, "utf8"));
+const savedReport = JSON.parse(
+  fs.readFileSync("data/garupa/song-timing-research.json", "utf8"),
+);
+const sourceIds = new Map(
+  savedReport.records.map((record) => [record.id, record.sourceId]),
+);
 for (const song of listGarupaSongs(data)) {
   // 管理IDは外部IDとは限らない。曲名が違う場合は必ず明示対応を使う。
-  const sourceId =
-    song.id === 821 && song.title === "Resound the Way" ? 812 : song.id;
+  const sourceId = sourceIds.get(song.id);
+  if (sourceId === undefined) {
+    unmatched.push({ id: song.id, title: song.title });
+    continue;
+  }
   const entry = source[sourceId];
   if (!entry) {
     unmatched.push({ id: song.id, title: song.title });

@@ -17,7 +17,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   const originalCount = listGarupaSongs(files[game.dataFile], game.id).length;
   const nextId = files[game.stateFile].nextId;
   const existingGarupaLinks = [
-    ...findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
+    ...findGarupaSong(files[GAMES.garupa.dataFile], 646).song.relatedSongIds,
   ];
   let head = "initial";
   let proposed;
@@ -83,7 +83,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   assert.equal(options.length, originalCount);
   const bothGames = await store.listSongsByGame();
   assert.equal(bothGames.ournotes.length, originalCount);
-  assert.ok(bothGames.garupa.some((song) => song.id === 667));
+  assert.ok(bothGames.garupa.some((song) => song.id === 646));
   assert.ok(
     bothGames.ournotes.some(
       (song) => song.title === "春日影（MyGO!!!!! ver.）",
@@ -97,7 +97,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   );
   const original = await store.loadSong(1);
   assert.equal(original.song.id, 1);
-  assert.deepEqual(original.song.relatedSongIds, ["garupa:489", "garupa:649"]);
+  assert.deepEqual(original.song.relatedSongIds, ["garupa:473", "garupa:628"]);
   assert.deepEqual(
     original.song.relatedSongIds.map((reference) => {
       const [gameId, id] = reference.split(":");
@@ -112,7 +112,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     title: "管理画面で追加した曲",
     reading: "カンリガメンデツイカシタキョク",
     releaseOrder: nextId,
-    relatedSongIds: ["garupa:667"],
+    relatedSongIds: ["garupa:646"],
   };
   const writesBeforeInvalid = calls.filter(
     ([method]) => method !== "GET",
@@ -140,7 +140,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     original.song.title,
   );
   assert.deepEqual(
-    findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
+    findGarupaSong(files[GAMES.garupa.dataFile], 646).song.relatedSongIds,
     [...existingGarupaLinks, `ournotes:${nextId}`],
   );
   assert.ok(
@@ -167,7 +167,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     "JUST",
   ]);
   assert.deepEqual(
-    findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
+    findGarupaSong(files[GAMES.garupa.dataFile], 646).song.relatedSongIds,
     existingGarupaLinks,
   );
   assert.ok(
@@ -180,7 +180,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     "ournotes-remove-000001",
   );
   assert.deepEqual((await store.loadSong(1)).song.relatedSongIds, []);
-  for (const id of [489, 649])
+  for (const id of [473, 628])
     assert.ok(
       !findGarupaSong(
         files[GAMES.garupa.dataFile],
@@ -218,7 +218,7 @@ test("editor orders BPM fields and serves a searchable song picker with fresh mo
     "related-selected",
   ])
     assert.ok(html.includes(`id="${id}"`), id);
-  assert.doesNotMatch(html, /placeholder="garupa:667/);
+  assert.doesNotMatch(html, /placeholder="garupa:646/);
   const version = html.match(/admin\.js\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version);
   assert.ok(html.includes(`admin.css?v=${version}`));

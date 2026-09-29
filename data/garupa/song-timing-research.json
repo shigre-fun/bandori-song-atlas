@@ -4,7 +4,7 @@
   "method": "EXPERT譜面の時間が正のBPM区間を使用。基本BPMは同値の合計秒数が最大の値（同時間なら最初の出現）、上下限はその最小/最大。演奏時間はゲーム版lengthを切り捨てた整数秒。元の小数はsourceLengthSecondsに保持。",
   "records": [
     {
-      "id": 289,
+      "id": 277,
       "sourceId": 289,
       "bandId": 18,
       "segments": [
@@ -18,7 +18,7 @@
       "sourceLengthSeconds": 106.56
     },
     {
-      "id": 725,
+      "id": 703,
       "sourceId": 725,
       "bandId": 18,
       "segments": [
@@ -32,7 +32,7 @@
       "sourceLengthSeconds": 102.216
     },
     {
-      "id": 480,
+      "id": 468,
       "sourceId": 480,
       "bandId": 1,
       "segments": [
@@ -46,7 +46,7 @@
       "sourceLengthSeconds": 124.752
     },
     {
-      "id": 75,
+      "id": 71,
       "sourceId": 75,
       "bandId": 5,
       "segments": [
@@ -60,7 +60,7 @@
       "sourceLengthSeconds": 103.584
     },
     {
-      "id": 505,
+      "id": 533,
       "sourceId": 505,
       "bandId": 18,
       "segments": [
@@ -74,7 +74,7 @@
       "sourceLengthSeconds": 127.512
     },
     {
-      "id": 206,
+      "id": 195,
       "sourceId": 206,
       "bandId": 18,
       "segments": [
@@ -88,7 +88,7 @@
       "sourceLengthSeconds": 101.904
     },
     {
-      "id": 13,
+      "id": 9,
       "sourceId": 13,
       "bandId": 1,
       "segments": [
@@ -102,7 +102,7 @@
       "sourceLengthSeconds": 152.04
     },
     {
-      "id": 203,
+      "id": 255,
       "sourceId": 203,
       "bandId": 18,
       "segments": [
@@ -116,7 +116,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 577,
+      "id": 557,
       "sourceId": 577,
       "bandId": 2,
       "segments": [
@@ -130,7 +130,7 @@
       "sourceLengthSeconds": 106.8
     },
     {
-      "id": 444,
+      "id": 430,
       "sourceId": 444,
       "bandId": 2,
       "segments": [
@@ -144,7 +144,7 @@
       "sourceLengthSeconds": 117.312
     },
     {
-      "id": 688,
+      "id": 656,
       "sourceId": 688,
       "bandId": 21,
       "segments": [
@@ -158,7 +158,7 @@
       "sourceLengthSeconds": 106.344
     },
     {
-      "id": 700,
+      "id": 680,
       "sourceId": 700,
       "bandId": 2,
       "segments": [
@@ -172,7 +172,7 @@
       "sourceLengthSeconds": 104.136
     },
     {
-      "id": 574,
+      "id": 554,
       "sourceId": 574,
       "bandId": 72,
       "segments": [
@@ -186,7 +186,7 @@
       "sourceLengthSeconds": 108.768
     },
     {
-      "id": 10,
+      "id": 20,
       "sourceId": 10,
       "bandId": 1,
       "segments": [
@@ -200,7 +200,7 @@
       "sourceLengthSeconds": 119.256
     },
     {
-      "id": 481,
+      "id": 469,
       "sourceId": 481,
       "bandId": 21,
       "segments": [
@@ -239,7 +239,7 @@
       "sourceLengthSeconds": 90.84
     },
     {
-      "id": 585,
+      "id": 565,
       "sourceId": 585,
       "bandId": 5,
       "segments": [
@@ -258,7 +258,7 @@
       "sourceLengthSeconds": 109.032
     },
     {
-      "id": 801,
+      "id": 777,
       "sourceId": 801,
       "bandId": 1,
       "segments": [
@@ -272,7 +272,7 @@
       "sourceLengthSeconds": 115.008
     },
     {
-      "id": 500,
+      "id": 485,
       "sourceId": 500,
       "bandId": 21,
       "segments": [
@@ -286,7 +286,7 @@
       "sourceLengthSeconds": 106.128
     },
     {
-      "id": 266,
+      "id": 254,
       "sourceId": 266,
       "bandId": 5,
       "segments": [
@@ -300,7 +300,7 @@
       "sourceLengthSeconds": 117.96
     },
     {
-      "id": 531,
+      "id": 636,
       "sourceId": 531,
       "bandId": 46,
       "segments": [
@@ -374,7 +374,7 @@
       "sourceLengthSeconds": 118.584
     },
     {
-      "id": 92,
+      "id": 80,
       "sourceId": 92,
       "bandId": 1,
       "segments": [
@@ -388,7 +388,7 @@
       "sourceLengthSeconds": 94.68
     },
     {
-      "id": 176,
+      "id": 167,
       "sourceId": 176,
       "bandId": 4,
       "segments": [
@@ -402,7 +402,7 @@
       "sourceLengthSeconds": 104.52
     },
     {
-      "id": 258,
+      "id": 246,
       "sourceId": 258,
       "bandId": 5,
       "segments": [
@@ -416,7 +416,7 @@
       "sourceLengthSeconds": 118.32
     },
     {
-      "id": 623,
+      "id": 602,
       "sourceId": 623,
       "bandId": 18,
       "segments": [
@@ -430,7 +430,7 @@
       "sourceLengthSeconds": 103.128
     },
     {
-      "id": 549,
+      "id": 528,
       "sourceId": 549,
       "bandId": 18,
       "segments": [
@@ -444,7 +444,7 @@
       "sourceLengthSeconds": 104.112
     },
     {
-      "id": 539,
+      "id": 519,
       "sourceId": 539,
       "bandId": 68,
       "segments": [
@@ -458,7 +458,7 @@
       "sourceLengthSeconds": 110.952
     },
     {
-      "id": 288,
+      "id": 276,
       "sourceId": 288,
       "bandId": 18,
       "segments": [
@@ -472,7 +472,7 @@
       "sourceLengthSeconds": 101.544
     },
     {
-      "id": 126,
+      "id": 111,
       "sourceId": 126,
       "bandId": 5,
       "segments": [
@@ -486,7 +486,7 @@
       "sourceLengthSeconds": 93.384
     },
     {
-      "id": 739,
+      "id": 717,
       "sourceId": 739,
       "bandId": 18,
       "segments": [
@@ -500,7 +500,7 @@
       "sourceLengthSeconds": 126.768
     },
     {
-      "id": 29,
+      "id": 15,
       "sourceId": 29,
       "bandId": 5,
       "segments": [
@@ -514,7 +514,7 @@
       "sourceLengthSeconds": 110.016
     },
     {
-      "id": 271,
+      "id": 260,
       "sourceId": 271,
       "bandId": 5,
       "segments": [
@@ -528,7 +528,7 @@
       "sourceLengthSeconds": 121.632
     },
     {
-      "id": 660,
+      "id": 639,
       "sourceId": 660,
       "bandId": 83,
       "segments": [
@@ -542,7 +542,7 @@
       "sourceLengthSeconds": 121.632
     },
     {
-      "id": 631,
+      "id": 608,
       "sourceId": 631,
       "bandId": 18,
       "segments": [
@@ -570,7 +570,7 @@
       "sourceLengthSeconds": 101.808
     },
     {
-      "id": 159,
+      "id": 149,
       "sourceId": 159,
       "bandId": 5,
       "segments": [
@@ -584,7 +584,7 @@
       "sourceLengthSeconds": 92.568
     },
     {
-      "id": 250,
+      "id": 238,
       "sourceId": 250,
       "bandId": 5,
       "segments": [
@@ -598,7 +598,7 @@
       "sourceLengthSeconds": 108.36
     },
     {
-      "id": 278,
+      "id": 264,
       "sourceId": 278,
       "bandId": 1,
       "segments": [
@@ -612,7 +612,7 @@
       "sourceLengthSeconds": 128.544
     },
     {
-      "id": 730,
+      "id": 707,
       "sourceId": 730,
       "bandId": 18,
       "segments": [
@@ -626,7 +626,7 @@
       "sourceLengthSeconds": 136.56
     },
     {
-      "id": 695,
+      "id": 674,
       "sourceId": 695,
       "bandId": 2,
       "segments": [
@@ -640,7 +640,7 @@
       "sourceLengthSeconds": 120.816
     },
     {
-      "id": 11,
+      "id": 22,
       "sourceId": 11,
       "bandId": 2,
       "segments": [
@@ -654,7 +654,7 @@
       "sourceLengthSeconds": 116.544
     },
     {
-      "id": 492,
+      "id": 482,
       "sourceId": 492,
       "bandId": 5,
       "segments": [
@@ -668,7 +668,7 @@
       "sourceLengthSeconds": 107.352
     },
     {
-      "id": 400,
+      "id": 385,
       "sourceId": 400,
       "bandId": 43,
       "segments": [
@@ -702,7 +702,7 @@
       "sourceLengthSeconds": 109.68
     },
     {
-      "id": 507,
+      "id": 491,
       "sourceId": 507,
       "bandId": 2,
       "segments": [
@@ -716,7 +716,7 @@
       "sourceLengthSeconds": 127.416
     },
     {
-      "id": 259,
+      "id": 247,
       "sourceId": 259,
       "bandId": 21,
       "segments": [
@@ -730,7 +730,7 @@
       "sourceLengthSeconds": 104.784
     },
     {
-      "id": 767,
+      "id": 745,
       "sourceId": 767,
       "bandId": 2,
       "segments": [
@@ -744,7 +744,7 @@
       "sourceLengthSeconds": 108.072
     },
     {
-      "id": 554,
+      "id": 536,
       "sourceId": 554,
       "bandId": 1,
       "segments": [
@@ -758,7 +758,7 @@
       "sourceLengthSeconds": 103.488
     },
     {
-      "id": 402,
+      "id": 388,
       "sourceId": 402,
       "bandId": 44,
       "segments": [
@@ -772,7 +772,7 @@
       "sourceLengthSeconds": 129.816
     },
     {
-      "id": 95,
+      "id": 89,
       "sourceId": 95,
       "bandId": 1,
       "segments": [
@@ -786,7 +786,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 718,
+      "id": 696,
       "sourceId": 718,
       "bandId": 21,
       "segments": [
@@ -800,7 +800,7 @@
       "sourceLengthSeconds": 97.8
     },
     {
-      "id": 352,
+      "id": 342,
       "sourceId": 352,
       "bandId": 21,
       "segments": [
@@ -814,7 +814,7 @@
       "sourceLengthSeconds": 127.512
     },
     {
-      "id": 378,
+      "id": 369,
       "sourceId": 378,
       "bandId": 37,
       "segments": [
@@ -828,7 +828,7 @@
       "sourceLengthSeconds": 112.128
     },
     {
-      "id": 799,
+      "id": 775,
       "sourceId": 799,
       "bandId": 4,
       "segments": [
@@ -842,7 +842,7 @@
       "sourceLengthSeconds": 107.304
     },
     {
-      "id": 121,
+      "id": 127,
       "sourceId": 121,
       "bandId": 2,
       "segments": [
@@ -856,7 +856,7 @@
       "sourceLengthSeconds": 110.352
     },
     {
-      "id": 783,
+      "id": 760,
       "sourceId": 783,
       "bandId": 105,
       "segments": [
@@ -870,7 +870,7 @@
       "sourceLengthSeconds": 110.352
     },
     {
-      "id": 333,
+      "id": 322,
       "sourceId": 333,
       "bandId": 18,
       "segments": [
@@ -884,7 +884,7 @@
       "sourceLengthSeconds": 107.088
     },
     {
-      "id": 383,
+      "id": 371,
       "sourceId": 383,
       "bandId": 18,
       "segments": [
@@ -898,7 +898,7 @@
       "sourceLengthSeconds": 118.44
     },
     {
-      "id": 311,
+      "id": 298,
       "sourceId": 311,
       "bandId": 21,
       "segments": [
@@ -912,7 +912,7 @@
       "sourceLengthSeconds": 115.056
     },
     {
-      "id": 154,
+      "id": 145,
       "sourceId": 154,
       "bandId": 2,
       "segments": [
@@ -926,7 +926,7 @@
       "sourceLengthSeconds": 117.312
     },
     {
-      "id": 671,
+      "id": 650,
       "sourceId": 671,
       "bandId": 46,
       "segments": [
@@ -940,7 +940,7 @@
       "sourceLengthSeconds": 106.08
     },
     {
-      "id": 422,
+      "id": 410,
       "sourceId": 422,
       "bandId": 18,
       "segments": [
@@ -954,7 +954,7 @@
       "sourceLengthSeconds": 117.672
     },
     {
-      "id": 535,
+      "id": 514,
       "sourceId": 535,
       "bandId": 18,
       "segments": [
@@ -968,7 +968,7 @@
       "sourceLengthSeconds": 107.928
     },
     {
-      "id": 298,
+      "id": 285,
       "sourceId": 298,
       "bandId": 4,
       "segments": [
@@ -982,7 +982,7 @@
       "sourceLengthSeconds": 95.592
     },
     {
-      "id": 495,
+      "id": 483,
       "sourceId": 495,
       "bandId": 18,
       "segments": [
@@ -996,7 +996,7 @@
       "sourceLengthSeconds": 101.544
     },
     {
-      "id": 322,
+      "id": 311,
       "sourceId": 322,
       "bandId": 18,
       "segments": [
@@ -1010,7 +1010,7 @@
       "sourceLengthSeconds": 126.24
     },
     {
-      "id": 190,
+      "id": 181,
       "sourceId": 190,
       "bandId": 1,
       "segments": [
@@ -1024,7 +1024,7 @@
       "sourceLengthSeconds": 108.864
     },
     {
-      "id": 255,
+      "id": 241,
       "sourceId": 255,
       "bandId": 21,
       "segments": [
@@ -1097,7 +1097,7 @@
       "sourceLengthSeconds": 128.064
     },
     {
-      "id": 351,
+      "id": 340,
       "sourceId": 351,
       "bandId": 27,
       "segments": [
@@ -1111,7 +1111,7 @@
       "sourceLengthSeconds": 95.304
     },
     {
-      "id": 776,
+      "id": 753,
       "sourceId": 776,
       "bandId": 2,
       "segments": [
@@ -1125,7 +1125,7 @@
       "sourceLengthSeconds": 105.768
     },
     {
-      "id": 696,
+      "id": 675,
       "sourceId": 696,
       "bandId": 5,
       "segments": [
@@ -1139,7 +1139,7 @@
       "sourceLengthSeconds": 106.872
     },
     {
-      "id": 457,
+      "id": 443,
       "sourceId": 457,
       "bandId": 18,
       "segments": [
@@ -1153,7 +1153,7 @@
       "sourceLengthSeconds": 104.52
     },
     {
-      "id": 453,
+      "id": 442,
       "sourceId": 453,
       "bandId": 5,
       "segments": [
@@ -1172,7 +1172,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 386,
+      "id": 372,
       "sourceId": 386,
       "bandId": 18,
       "segments": [
@@ -1186,7 +1186,7 @@
       "sourceLengthSeconds": 99.672
     },
     {
-      "id": 76,
+      "id": 72,
       "sourceId": 76,
       "bandId": 5,
       "segments": [
@@ -1200,7 +1200,7 @@
       "sourceLengthSeconds": 130.8
     },
     {
-      "id": 762,
+      "id": 739,
       "sourceId": 762,
       "bandId": 101,
       "segments": [
@@ -1214,7 +1214,7 @@
       "sourceLengthSeconds": 130.8
     },
     {
-      "id": 145,
+      "id": 136,
       "sourceId": 145,
       "bandId": 4,
       "segments": [
@@ -1228,7 +1228,7 @@
       "sourceLengthSeconds": 99.912
     },
     {
-      "id": 445,
+      "id": 433,
       "sourceId": 445,
       "bandId": 21,
       "segments": [
@@ -1242,7 +1242,7 @@
       "sourceLengthSeconds": 111.192
     },
     {
-      "id": 643,
+      "id": 621,
       "sourceId": 643,
       "bandId": 1,
       "segments": [
@@ -1256,7 +1256,7 @@
       "sourceLengthSeconds": 103.992
     },
     {
-      "id": 339,
+      "id": 328,
       "sourceId": 339,
       "bandId": 18,
       "segments": [
@@ -1270,7 +1270,7 @@
       "sourceLengthSeconds": 109.872
     },
     {
-      "id": 41,
+      "id": 30,
       "sourceId": 41,
       "bandId": 6,
       "segments": [
@@ -1284,7 +1284,7 @@
       "sourceLengthSeconds": 120.384
     },
     {
-      "id": 15,
+      "id": 29,
       "sourceId": 15,
       "bandId": 2,
       "segments": [
@@ -1298,7 +1298,7 @@
       "sourceLengthSeconds": 126.6
     },
     {
-      "id": 88,
+      "id": 85,
       "sourceId": 88,
       "bandId": 3,
       "segments": [
@@ -1312,7 +1312,7 @@
       "sourceLengthSeconds": 111.36
     },
     {
-      "id": 182,
+      "id": 173,
       "sourceId": 182,
       "bandId": 1,
       "segments": [
@@ -1326,7 +1326,7 @@
       "sourceLengthSeconds": 105.792
     },
     {
-      "id": 413,
+      "id": 394,
       "sourceId": 413,
       "bandId": 18,
       "segments": [
@@ -1340,7 +1340,7 @@
       "sourceLengthSeconds": 113.784
     },
     {
-      "id": 712,
+      "id": 691,
       "sourceId": 712,
       "bandId": 1,
       "segments": [
@@ -1354,7 +1354,7 @@
       "sourceLengthSeconds": 112.056
     },
     {
-      "id": 755,
+      "id": 733,
       "sourceId": 755,
       "bandId": 18,
       "segments": [
@@ -1368,7 +1368,7 @@
       "sourceLengthSeconds": 126.384
     },
     {
-      "id": 207,
+      "id": 198,
       "sourceId": 207,
       "bandId": 2,
       "segments": [
@@ -1382,7 +1382,7 @@
       "sourceLengthSeconds": 107.616
     },
     {
-      "id": 375,
+      "id": 359,
       "sourceId": 375,
       "bandId": 18,
       "segments": [
@@ -1396,7 +1396,7 @@
       "sourceLengthSeconds": 115.32
     },
     {
-      "id": 9,
+      "id": 37,
       "sourceId": 9,
       "bandId": 5,
       "segments": [
@@ -1415,7 +1415,7 @@
       "sourceLengthSeconds": 113.928
     },
     {
-      "id": 520,
+      "id": 527,
       "sourceId": 520,
       "bandId": 21,
       "segments": [
@@ -1429,7 +1429,7 @@
       "sourceLengthSeconds": 108.984
     },
     {
-      "id": 548,
+      "id": 525,
       "sourceId": 548,
       "bandId": 4,
       "segments": [
@@ -1448,7 +1448,7 @@
       "sourceLengthSeconds": 118.392
     },
     {
-      "id": 325,
+      "id": 314,
       "sourceId": 325,
       "bandId": 18,
       "segments": [
@@ -1487,7 +1487,7 @@
       "sourceLengthSeconds": 93.744
     },
     {
-      "id": 247,
+      "id": 261,
       "sourceId": 247,
       "bandId": 18,
       "segments": [
@@ -1501,7 +1501,7 @@
       "sourceLengthSeconds": 103.008
     },
     {
-      "id": 732,
+      "id": 709,
       "sourceId": 732,
       "bandId": 5,
       "segments": [
@@ -1515,7 +1515,7 @@
       "sourceLengthSeconds": 134.352
     },
     {
-      "id": 107,
+      "id": 98,
       "sourceId": 107,
       "bandId": 3,
       "segments": [
@@ -1544,7 +1544,7 @@
       "sourceLengthSeconds": 99.816
     },
     {
-      "id": 129,
+      "id": 117,
       "sourceId": 129,
       "bandId": 4,
       "segments": [
@@ -1558,7 +1558,7 @@
       "sourceLengthSeconds": 112.392
     },
     {
-      "id": 374,
+      "id": 355,
       "sourceId": 374,
       "bandId": 21,
       "segments": [
@@ -1572,7 +1572,7 @@
       "sourceLengthSeconds": 110.976
     },
     {
-      "id": 746,
+      "id": 724,
       "sourceId": 746,
       "bandId": 5,
       "segments": [
@@ -1586,7 +1586,7 @@
       "sourceLengthSeconds": 104.4
     },
     {
-      "id": 708,
+      "id": 686,
       "sourceId": 708,
       "bandId": 21,
       "segments": [
@@ -1600,7 +1600,7 @@
       "sourceLengthSeconds": 131.712
     },
     {
-      "id": 726,
+      "id": 714,
       "sourceId": 726,
       "bandId": 2,
       "segments": [
@@ -1614,7 +1614,7 @@
       "sourceLengthSeconds": 127.776
     },
     {
-      "id": 275,
+      "id": 265,
       "sourceId": 275,
       "bandId": 1,
       "segments": [
@@ -1628,7 +1628,7 @@
       "sourceLengthSeconds": 95.904
     },
     {
-      "id": 187,
+      "id": 179,
       "sourceId": 187,
       "bandId": 5,
       "segments": [
@@ -1687,7 +1687,7 @@
       "sourceLengthSeconds": 130.728
     },
     {
-      "id": 706,
+      "id": 684,
       "sourceId": 706,
       "bandId": 18,
       "segments": [
@@ -1701,7 +1701,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 469,
+      "id": 455,
       "sourceId": 469,
       "bandId": 1,
       "segments": [
@@ -1715,7 +1715,7 @@
       "sourceLengthSeconds": 108.816
     },
     {
-      "id": 279,
+      "id": 268,
       "sourceId": 279,
       "bandId": 21,
       "segments": [
@@ -1729,7 +1729,7 @@
       "sourceLengthSeconds": 111.84
     },
     {
-      "id": 711,
+      "id": 690,
       "sourceId": 711,
       "bandId": 90,
       "segments": [
@@ -1743,7 +1743,7 @@
       "sourceLengthSeconds": 111.84
     },
     {
-      "id": 573,
+      "id": 555,
       "sourceId": 573,
       "bandId": 73,
       "segments": [
@@ -1762,7 +1762,7 @@
       "sourceLengthSeconds": 125.112
     },
     {
-      "id": 609,
+      "id": 585,
       "sourceId": 609,
       "bandId": 5,
       "segments": [
@@ -1786,7 +1786,7 @@
       "sourceLengthSeconds": 123.552
     },
     {
-      "id": 365,
+      "id": 354,
       "sourceId": 365,
       "bandId": 21,
       "segments": [
@@ -1800,7 +1800,7 @@
       "sourceLengthSeconds": 106.656
     },
     {
-      "id": 415,
+      "id": 402,
       "sourceId": 415,
       "bandId": 47,
       "segments": [
@@ -1814,7 +1814,7 @@
       "sourceLengthSeconds": 117.816
     },
     {
-      "id": 638,
+      "id": 616,
       "sourceId": 638,
       "bandId": 5,
       "segments": [
@@ -1828,7 +1828,7 @@
       "sourceLengthSeconds": 111.96
     },
     {
-      "id": 452,
+      "id": 439,
       "sourceId": 452,
       "bandId": 1,
       "segments": [
@@ -1842,7 +1842,7 @@
       "sourceLengthSeconds": 108.264
     },
     {
-      "id": 782,
+      "id": 759,
       "sourceId": 782,
       "bandId": 1,
       "segments": [
@@ -1856,7 +1856,7 @@
       "sourceLengthSeconds": 141.264
     },
     {
-      "id": 661,
+      "id": 641,
       "sourceId": 661,
       "bandId": 46,
       "segments": [
@@ -1870,7 +1870,7 @@
       "sourceLengthSeconds": 103.992
     },
     {
-      "id": 516,
+      "id": 500,
       "sourceId": 516,
       "bandId": 18,
       "segments": [
@@ -1884,7 +1884,7 @@
       "sourceLengthSeconds": 125.424
     },
     {
-      "id": 110,
+      "id": 101,
       "sourceId": 110,
       "bandId": 1,
       "segments": [
@@ -1918,7 +1918,7 @@
       "sourceLengthSeconds": 144.72
     },
     {
-      "id": 485,
+      "id": 463,
       "sourceId": 485,
       "bandId": 6,
       "segments": [
@@ -1932,7 +1932,7 @@
       "sourceLengthSeconds": 98.064
     },
     {
-      "id": 611,
+      "id": 588,
       "sourceId": 611,
       "bandId": 2,
       "segments": [
@@ -1946,7 +1946,7 @@
       "sourceLengthSeconds": 117.624
     },
     {
-      "id": 141,
+      "id": 129,
       "sourceId": 141,
       "bandId": 3,
       "segments": [
@@ -1960,7 +1960,7 @@
       "sourceLengthSeconds": 103.728
     },
     {
-      "id": 237,
+      "id": 226,
       "sourceId": 237,
       "bandId": 23,
       "segments": [
@@ -1974,7 +1974,7 @@
       "sourceLengthSeconds": 118.272
     },
     {
-      "id": 7,
+      "id": 50,
       "sourceId": 7,
       "bandId": 1,
       "segments": [
@@ -1988,7 +1988,7 @@
       "sourceLengthSeconds": 128.064
     },
     {
-      "id": 665,
+      "id": 644,
       "sourceId": 665,
       "bandId": 5,
       "segments": [
@@ -2002,7 +2002,7 @@
       "sourceLengthSeconds": 106.056
     },
     {
-      "id": 54,
+      "id": 52,
       "sourceId": 54,
       "bandId": 2,
       "segments": [
@@ -2016,7 +2016,7 @@
       "sourceLengthSeconds": 91.368
     },
     {
-      "id": 16,
+      "id": 26,
       "sourceId": 16,
       "bandId": 5,
       "segments": [
@@ -2030,7 +2030,7 @@
       "sourceLengthSeconds": 126.6
     },
     {
-      "id": 334,
+      "id": 323,
       "sourceId": 334,
       "bandId": 3,
       "segments": [
@@ -2044,7 +2044,7 @@
       "sourceLengthSeconds": 103.512
     },
     {
-      "id": 40,
+      "id": 10,
       "sourceId": 40,
       "bandId": 1,
       "segments": [
@@ -2058,7 +2058,7 @@
       "sourceLengthSeconds": 124.056
     },
     {
-      "id": 428,
+      "id": 417,
       "sourceId": 428,
       "bandId": 3,
       "segments": [
@@ -2072,7 +2072,7 @@
       "sourceLengthSeconds": 122.16
     },
     {
-      "id": 359,
+      "id": 349,
       "sourceId": 359,
       "bandId": 18,
       "segments": [
@@ -2086,7 +2086,7 @@
       "sourceLengthSeconds": 108.48
     },
     {
-      "id": 219,
+      "id": 208,
       "sourceId": 219,
       "bandId": 1,
       "segments": [
@@ -2100,7 +2100,7 @@
       "sourceLengthSeconds": 100.32
     },
     {
-      "id": 65,
+      "id": 62,
       "sourceId": 65,
       "bandId": 2,
       "segments": [
@@ -2114,7 +2114,7 @@
       "sourceLengthSeconds": 110.952
     },
     {
-      "id": 155,
+      "id": 146,
       "sourceId": 155,
       "bandId": 1,
       "segments": [
@@ -2128,7 +2128,7 @@
       "sourceLengthSeconds": 98.352
     },
     {
-      "id": 778,
+      "id": 755,
       "sourceId": 778,
       "bandId": 5,
       "segments": [
@@ -2142,7 +2142,7 @@
       "sourceLengthSeconds": 126.648
     },
     {
-      "id": 518,
+      "id": 502,
       "sourceId": 518,
       "bandId": 1,
       "segments": [
@@ -2156,7 +2156,7 @@
       "sourceLengthSeconds": 125.28
     },
     {
-      "id": 672,
+      "id": 651,
       "sourceId": 672,
       "bandId": 18,
       "segments": [
@@ -2170,7 +2170,7 @@
       "sourceLengthSeconds": 109.464
     },
     {
-      "id": 808,
+      "id": 784,
       "sourceId": 808,
       "bandId": 18,
       "segments": [
@@ -2184,7 +2184,7 @@
       "sourceLengthSeconds": 108.864
     },
     {
-      "id": 284,
+      "id": 273,
       "sourceId": 284,
       "bandId": 2,
       "segments": [
@@ -2198,7 +2198,7 @@
       "sourceLengthSeconds": 102.672
     },
     {
-      "id": 251,
+      "id": 239,
       "sourceId": 251,
       "bandId": 2,
       "segments": [
@@ -2217,7 +2217,7 @@
       "sourceLengthSeconds": 99.744
     },
     {
-      "id": 756,
+      "id": 734,
       "sourceId": 756,
       "bandId": 96,
       "segments": [
@@ -2231,7 +2231,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 470,
+      "id": 456,
       "sourceId": 470,
       "bandId": 2,
       "segments": [
@@ -2245,7 +2245,7 @@
       "sourceLengthSeconds": 112.776
     },
     {
-      "id": 670,
+      "id": 649,
       "sourceId": 670,
       "bandId": 46,
       "segments": [
@@ -2259,7 +2259,7 @@
       "sourceLengthSeconds": 95.784
     },
     {
-      "id": 448,
+      "id": 435,
       "sourceId": 448,
       "bandId": 18,
       "segments": [
@@ -2273,7 +2273,7 @@
       "sourceLengthSeconds": 105.432
     },
     {
-      "id": 113,
+      "id": 102,
       "sourceId": 113,
       "bandId": 2,
       "segments": [
@@ -2287,7 +2287,7 @@
       "sourceLengthSeconds": 119.28
     },
     {
-      "id": 170,
+      "id": 160,
       "sourceId": 170,
       "bandId": 1,
       "segments": [
@@ -2326,7 +2326,7 @@
       "sourceLengthSeconds": 93.528
     },
     {
-      "id": 397,
+      "id": 382,
       "sourceId": 397,
       "bandId": 18,
       "segments": [
@@ -2340,7 +2340,7 @@
       "sourceLengthSeconds": 120.696
     },
     {
-      "id": 662,
+      "id": 624,
       "sourceId": 662,
       "bandId": 18,
       "segments": [
@@ -2354,7 +2354,7 @@
       "sourceLengthSeconds": 116.064
     },
     {
-      "id": 310,
+      "id": 300,
       "sourceId": 310,
       "bandId": 5,
       "segments": [
@@ -2368,7 +2368,7 @@
       "sourceLengthSeconds": 107.928
     },
     {
-      "id": 379,
+      "id": 368,
       "sourceId": 379,
       "bandId": 18,
       "segments": [
@@ -2382,7 +2382,7 @@
       "sourceLengthSeconds": 113.856
     },
     {
-      "id": 659,
+      "id": 638,
       "sourceId": 659,
       "bandId": 46,
       "segments": [
@@ -2396,7 +2396,7 @@
       "sourceLengthSeconds": 96.072
     },
     {
-      "id": 361,
+      "id": 350,
       "sourceId": 361,
       "bandId": 5,
       "segments": [
@@ -2410,7 +2410,7 @@
       "sourceLengthSeconds": 122.232
     },
     {
-      "id": 119,
+      "id": 114,
       "sourceId": 119,
       "bandId": 5,
       "segments": [
@@ -2424,7 +2424,7 @@
       "sourceLengthSeconds": 110.904
     },
     {
-      "id": 276,
+      "id": 266,
       "sourceId": 276,
       "bandId": 21,
       "segments": [
@@ -2438,7 +2438,7 @@
       "sourceLengthSeconds": 109.296
     },
     {
-      "id": 602,
+      "id": 578,
       "sourceId": 602,
       "bandId": 18,
       "segments": [
@@ -2462,7 +2462,7 @@
       "sourceLengthSeconds": 114.072
     },
     {
-      "id": 135,
+      "id": 123,
       "sourceId": 135,
       "bandId": 1,
       "segments": [
@@ -2476,7 +2476,7 @@
       "sourceLengthSeconds": 121.872
     },
     {
-      "id": 417,
+      "id": 404,
       "sourceId": 417,
       "bandId": 18,
       "segments": [
@@ -2490,7 +2490,7 @@
       "sourceLengthSeconds": 109.632
     },
     {
-      "id": 112,
+      "id": 106,
       "sourceId": 112,
       "bandId": 1,
       "segments": [
@@ -2504,7 +2504,7 @@
       "sourceLengthSeconds": 122.736
     },
     {
-      "id": 575,
+      "id": 556,
       "sourceId": 575,
       "bandId": 74,
       "segments": [
@@ -2518,7 +2518,7 @@
       "sourceLengthSeconds": 139.008
     },
     {
-      "id": 619,
+      "id": 596,
       "sourceId": 619,
       "bandId": 3,
       "segments": [
@@ -2532,7 +2532,7 @@
       "sourceLengthSeconds": 106.824
     },
     {
-      "id": 394,
+      "id": 381,
       "sourceId": 394,
       "bandId": 2,
       "segments": [
@@ -2546,7 +2546,7 @@
       "sourceLengthSeconds": 125.544
     },
     {
-      "id": 46,
+      "id": 40,
       "sourceId": 46,
       "bandId": 1,
       "segments": [
@@ -2560,7 +2560,7 @@
       "sourceLengthSeconds": 110.55
     },
     {
-      "id": 326,
+      "id": 315,
       "sourceId": 326,
       "bandId": 1,
       "segments": [
@@ -2574,7 +2574,7 @@
       "sourceLengthSeconds": 120.696
     },
     {
-      "id": 31,
+      "id": 34,
       "sourceId": 31,
       "bandId": 5,
       "segments": [
@@ -2588,7 +2588,7 @@
       "sourceLengthSeconds": 109.819
     },
     {
-      "id": 488,
+      "id": 472,
       "sourceId": 488,
       "bandId": 2,
       "segments": [
@@ -2607,7 +2607,7 @@
       "sourceLengthSeconds": 120.384
     },
     {
-      "id": 315,
+      "id": 304,
       "sourceId": 315,
       "bandId": 4,
       "segments": [
@@ -2621,7 +2621,7 @@
       "sourceLengthSeconds": 123.552
     },
     {
-      "id": 737,
+      "id": 715,
       "sourceId": 737,
       "bandId": 46,
       "segments": [
@@ -2635,7 +2635,7 @@
       "sourceLengthSeconds": 111.216
     },
     {
-      "id": 774,
+      "id": 751,
       "sourceId": 774,
       "bandId": 1,
       "segments": [
@@ -2659,7 +2659,7 @@
       "sourceLengthSeconds": 98.568
     },
     {
-      "id": 438,
+      "id": 426,
       "sourceId": 438,
       "bandId": 21,
       "segments": [
@@ -2673,7 +2673,7 @@
       "sourceLengthSeconds": 136.368
     },
     {
-      "id": 555,
+      "id": 538,
       "sourceId": 555,
       "bandId": 21,
       "segments": [
@@ -2692,7 +2692,7 @@
       "sourceLengthSeconds": 106.248
     },
     {
-      "id": 301,
+      "id": 289,
       "sourceId": 301,
       "bandId": 18,
       "segments": [
@@ -2706,7 +2706,7 @@
       "sourceLengthSeconds": 101.544
     },
     {
-      "id": 50,
+      "id": 44,
       "sourceId": 50,
       "bandId": 4,
       "segments": [
@@ -2720,7 +2720,7 @@
       "sourceLengthSeconds": 112.44
     },
     {
-      "id": 447,
+      "id": 434,
       "sourceId": 447,
       "bandId": 1,
       "segments": [
@@ -2734,7 +2734,7 @@
       "sourceLengthSeconds": 93.528
     },
     {
-      "id": 338,
+      "id": 327,
       "sourceId": 338,
       "bandId": 5,
       "segments": [
@@ -2748,7 +2748,7 @@
       "sourceLengthSeconds": 99.336
     },
     {
-      "id": 455,
+      "id": 441,
       "sourceId": 455,
       "bandId": 21,
       "segments": [
@@ -2762,7 +2762,7 @@
       "sourceLengthSeconds": 129.288
     },
     {
-      "id": 118,
+      "id": 113,
       "sourceId": 118,
       "bandId": 5,
       "segments": [
@@ -2776,7 +2776,7 @@
       "sourceLengthSeconds": 116.736
     },
     {
-      "id": 295,
+      "id": 282,
       "sourceId": 295,
       "bandId": 21,
       "segments": [
@@ -2795,7 +2795,7 @@
       "sourceLengthSeconds": 130.992
     },
     {
-      "id": 181,
+      "id": 172,
       "sourceId": 181,
       "bandId": 1,
       "segments": [
@@ -2809,7 +2809,7 @@
       "sourceLengthSeconds": 113.112
     },
     {
-      "id": 309,
+      "id": 299,
       "sourceId": 309,
       "bandId": 2,
       "segments": [
@@ -2823,7 +2823,7 @@
       "sourceLengthSeconds": 97.848
     },
     {
-      "id": 372,
+      "id": 364,
       "sourceId": 372,
       "bandId": 2,
       "segments": [
@@ -2837,7 +2837,7 @@
       "sourceLengthSeconds": 125.4
     },
     {
-      "id": 184,
+      "id": 175,
       "sourceId": 184,
       "bandId": 2,
       "segments": [
@@ -2851,7 +2851,7 @@
       "sourceLengthSeconds": 104.832
     },
     {
-      "id": 293,
+      "id": 283,
       "sourceId": 293,
       "bandId": 2,
       "segments": [
@@ -2885,7 +2885,7 @@
       "sourceLengthSeconds": 109.2
     },
     {
-      "id": 398,
+      "id": 383,
       "sourceId": 398,
       "bandId": 21,
       "segments": [
@@ -2899,7 +2899,7 @@
       "sourceLengthSeconds": 111.84
     },
     {
-      "id": 96,
+      "id": 91,
       "sourceId": 96,
       "bandId": 5,
       "segments": [
@@ -2938,7 +2938,7 @@
       "sourceLengthSeconds": 122.328
     },
     {
-      "id": 67,
+      "id": 60,
       "sourceId": 67,
       "bandId": 1,
       "segments": [
@@ -2952,7 +2952,7 @@
       "sourceLengthSeconds": 104.952
     },
     {
-      "id": 97,
+      "id": 92,
       "sourceId": 97,
       "bandId": 5,
       "segments": [
@@ -2966,7 +2966,7 @@
       "sourceLengthSeconds": 112.944
     },
     {
-      "id": 330,
+      "id": 319,
       "sourceId": 330,
       "bandId": 5,
       "segments": [
@@ -2980,7 +2980,7 @@
       "sourceLengthSeconds": 104.88
     },
     {
-      "id": 373,
+      "id": 366,
       "sourceId": 373,
       "bandId": 5,
       "segments": [
@@ -2994,7 +2994,7 @@
       "sourceLengthSeconds": 102.288
     },
     {
-      "id": 314,
+      "id": 303,
       "sourceId": 314,
       "bandId": 18,
       "segments": [
@@ -3008,7 +3008,7 @@
       "sourceLengthSeconds": 106.272
     },
     {
-      "id": 563,
+      "id": 546,
       "sourceId": 563,
       "bandId": 21,
       "segments": [
@@ -3022,7 +3022,7 @@
       "sourceLengthSeconds": 122.088
     },
     {
-      "id": 337,
+      "id": 326,
       "sourceId": 337,
       "bandId": 5,
       "segments": [
@@ -3036,7 +3036,7 @@
       "sourceLengthSeconds": 101.4
     },
     {
-      "id": 785,
+      "id": 762,
       "sourceId": 785,
       "bandId": 21,
       "segments": [
@@ -3050,7 +3050,7 @@
       "sourceLengthSeconds": 106.728
     },
     {
-      "id": 227,
+      "id": 217,
       "sourceId": 227,
       "bandId": 5,
       "segments": [
@@ -3064,7 +3064,7 @@
       "sourceLengthSeconds": 94.392
     },
     {
-      "id": 738,
+      "id": 716,
       "sourceId": 738,
       "bandId": 2,
       "segments": [
@@ -3078,7 +3078,7 @@
       "sourceLengthSeconds": 102.552
     },
     {
-      "id": 153,
+      "id": 144,
       "sourceId": 153,
       "bandId": 5,
       "segments": [
@@ -3092,7 +3092,7 @@
       "sourceLengthSeconds": 98.52
     },
     {
-      "id": 294,
+      "id": 284,
       "sourceId": 294,
       "bandId": 1,
       "segments": [
@@ -3106,7 +3106,7 @@
       "sourceLengthSeconds": 118.464
     },
     {
-      "id": 703,
+      "id": 670,
       "sourceId": 703,
       "bandId": 21,
       "segments": [
@@ -3120,7 +3120,7 @@
       "sourceLengthSeconds": 105.168
     },
     {
-      "id": 734,
+      "id": 711,
       "sourceId": 734,
       "bandId": 1,
       "segments": [
@@ -3134,7 +3134,7 @@
       "sourceLengthSeconds": 105.072
     },
     {
-      "id": 254,
+      "id": 244,
       "sourceId": 254,
       "bandId": 3,
       "segments": [
@@ -3148,7 +3148,7 @@
       "sourceLengthSeconds": 109.92
     },
     {
-      "id": 692,
+      "id": 679,
       "sourceId": 692,
       "bandId": 21,
       "segments": [
@@ -3162,7 +3162,7 @@
       "sourceLengthSeconds": 106.104
     },
     {
-      "id": 290,
+      "id": 279,
       "sourceId": 290,
       "bandId": 4,
       "segments": [
@@ -3176,7 +3176,7 @@
       "sourceLengthSeconds": 110.472
     },
     {
-      "id": 430,
+      "id": 418,
       "sourceId": 430,
       "bandId": 19,
       "segments": [
@@ -3190,7 +3190,7 @@
       "sourceLengthSeconds": 127.968
     },
     {
-      "id": 328,
+      "id": 317,
       "sourceId": 328,
       "bandId": 5,
       "segments": [
@@ -3219,7 +3219,7 @@
       "sourceLengthSeconds": 98.736
     },
     {
-      "id": 451,
+      "id": 437,
       "sourceId": 451,
       "bandId": 2,
       "segments": [
@@ -3233,7 +3233,7 @@
       "sourceLengthSeconds": 105.384
     },
     {
-      "id": 167,
+      "id": 158,
       "sourceId": 167,
       "bandId": 4,
       "segments": [
@@ -3247,7 +3247,7 @@
       "sourceLengthSeconds": 108.84
     },
     {
-      "id": 514,
+      "id": 494,
       "sourceId": 514,
       "bandId": 21,
       "segments": [
@@ -3261,7 +3261,7 @@
       "sourceLengthSeconds": 127.128
     },
     {
-      "id": 149,
+      "id": 140,
       "sourceId": 149,
       "bandId": 5,
       "segments": [
@@ -3275,7 +3275,7 @@
       "sourceLengthSeconds": 111.12
     },
     {
-      "id": 572,
+      "id": 553,
       "sourceId": 572,
       "bandId": 4,
       "segments": [
@@ -3289,7 +3289,7 @@
       "sourceLengthSeconds": 103.44
     },
     {
-      "id": 806,
+      "id": 782,
       "sourceId": 806,
       "bandId": 4,
       "segments": [
@@ -3303,7 +3303,7 @@
       "sourceLengthSeconds": 105.84
     },
     {
-      "id": 579,
+      "id": 561,
       "sourceId": 579,
       "bandId": 18,
       "segments": [
@@ -3317,7 +3317,7 @@
       "sourceLengthSeconds": 107.784
     },
     {
-      "id": 30,
+      "id": 16,
       "sourceId": 30,
       "bandId": 5,
       "segments": [
@@ -3331,7 +3331,7 @@
       "sourceLengthSeconds": 124.296
     },
     {
-      "id": 134,
+      "id": 124,
       "sourceId": 134,
       "bandId": 2,
       "segments": [
@@ -3345,7 +3345,7 @@
       "sourceLengthSeconds": 116.52
     },
     {
-      "id": 78,
+      "id": 74,
       "sourceId": 78,
       "bandId": 2,
       "segments": [
@@ -3359,7 +3359,7 @@
       "sourceLengthSeconds": 101.736
     },
     {
-      "id": 406,
+      "id": 395,
       "sourceId": 406,
       "bandId": 5,
       "segments": [
@@ -3373,7 +3373,7 @@
       "sourceLengthSeconds": 126.456
     },
     {
-      "id": 71,
+      "id": 68,
       "sourceId": 71,
       "bandId": 5,
       "segments": [
@@ -3387,7 +3387,7 @@
       "sourceLengthSeconds": 107.376
     },
     {
-      "id": 270,
+      "id": 259,
       "sourceId": 270,
       "bandId": 2,
       "segments": [
@@ -3401,7 +3401,7 @@
       "sourceLengthSeconds": 109.2
     },
     {
-      "id": 89,
+      "id": 87,
       "sourceId": 89,
       "bandId": 2,
       "segments": [
@@ -3415,7 +3415,7 @@
       "sourceLengthSeconds": 97.32
     },
     {
-      "id": 693,
+      "id": 672,
       "sourceId": 693,
       "bandId": 18,
       "segments": [
@@ -3429,7 +3429,7 @@
       "sourceLengthSeconds": 104.232
     },
     {
-      "id": 399,
+      "id": 384,
       "sourceId": 399,
       "bandId": 18,
       "segments": [
@@ -3443,7 +3443,7 @@
       "sourceLengthSeconds": 127.68
     },
     {
-      "id": 717,
+      "id": 685,
       "sourceId": 717,
       "bandId": 5,
       "segments": [
@@ -3457,7 +3457,7 @@
       "sourceLengthSeconds": 113.832
     },
     {
-      "id": 583,
+      "id": 560,
       "sourceId": 583,
       "bandId": 4,
       "segments": [
@@ -3481,7 +3481,7 @@
       "sourceLengthSeconds": 106.152
     },
     {
-      "id": 724,
+      "id": 702,
       "sourceId": 724,
       "bandId": 21,
       "segments": [
@@ -3495,7 +3495,7 @@
       "sourceLengthSeconds": 108.36
     },
     {
-      "id": 821,
+      "id": 788,
       "sourceId": 812,
       "bandId": 5,
       "segments": [
@@ -3509,7 +3509,7 @@
       "sourceLengthSeconds": 105.384
     },
     {
-      "id": 180,
+      "id": 171,
       "sourceId": 180,
       "bandId": 1,
       "segments": [
@@ -3573,7 +3573,7 @@
       "sourceLengthSeconds": 132.36
     },
     {
-      "id": 677,
+      "id": 657,
       "sourceId": 677,
       "bandId": 5,
       "segments": [
@@ -3587,7 +3587,7 @@
       "sourceLengthSeconds": 111.528
     },
     {
-      "id": 476,
+      "id": 462,
       "sourceId": 476,
       "bandId": 1,
       "segments": [
@@ -3601,7 +3601,7 @@
       "sourceLengthSeconds": 110.832
     },
     {
-      "id": 175,
+      "id": 166,
       "sourceId": 175,
       "bandId": 5,
       "segments": [
@@ -3615,7 +3615,7 @@
       "sourceLengthSeconds": 121.296
     },
     {
-      "id": 299,
+      "id": 287,
       "sourceId": 299,
       "bandId": 2,
       "segments": [
@@ -3629,7 +3629,7 @@
       "sourceLengthSeconds": 119.304
     },
     {
-      "id": 431,
+      "id": 411,
       "sourceId": 431,
       "bandId": 5,
       "segments": [
@@ -3688,7 +3688,7 @@
       "sourceLengthSeconds": 137.664
     },
     {
-      "id": 766,
+      "id": 744,
       "sourceId": 766,
       "bandId": 18,
       "segments": [
@@ -3702,7 +3702,7 @@
       "sourceLengthSeconds": 106.872
     },
     {
-      "id": 160,
+      "id": 150,
       "sourceId": 160,
       "bandId": 18,
       "segments": [
@@ -3716,7 +3716,7 @@
       "sourceLengthSeconds": 120.912
     },
     {
-      "id": 360,
+      "id": 345,
       "sourceId": 360,
       "bandId": 18,
       "segments": [
@@ -3730,7 +3730,7 @@
       "sourceLengthSeconds": 100.632
     },
     {
-      "id": 168,
+      "id": 159,
       "sourceId": 168,
       "bandId": 5,
       "segments": [
@@ -3744,7 +3744,7 @@
       "sourceLengthSeconds": 93.024
     },
     {
-      "id": 616,
+      "id": 593,
       "sourceId": 616,
       "bandId": 5,
       "segments": [
@@ -3788,7 +3788,7 @@
       "sourceLengthSeconds": 114.168
     },
     {
-      "id": 177,
+      "id": 168,
       "sourceId": 177,
       "bandId": 1,
       "segments": [
@@ -3802,7 +3802,7 @@
       "sourceLengthSeconds": 119.376
     },
     {
-      "id": 101,
+      "id": 95,
       "sourceId": 101,
       "bandId": 4,
       "segments": [
@@ -3816,7 +3816,7 @@
       "sourceLengthSeconds": 104.784
     },
     {
-      "id": 758,
+      "id": 735,
       "sourceId": 758,
       "bandId": 97,
       "segments": [
@@ -3830,7 +3830,7 @@
       "sourceLengthSeconds": 118.104
     },
     {
-      "id": 142,
+      "id": 130,
       "sourceId": 142,
       "bandId": 5,
       "segments": [
@@ -3844,7 +3844,7 @@
       "sourceLengthSeconds": 126
     },
     {
-      "id": 222,
+      "id": 211,
       "sourceId": 222,
       "bandId": 2,
       "segments": [
@@ -3858,7 +3858,7 @@
       "sourceLengthSeconds": 103.08
     },
     {
-      "id": 306,
+      "id": 295,
       "sourceId": 306,
       "bandId": 25,
       "segments": [
@@ -3872,7 +3872,7 @@
       "sourceLengthSeconds": 90.048
     },
     {
-      "id": 28,
+      "id": 43,
       "sourceId": 28,
       "bandId": 2,
       "segments": [
@@ -3886,7 +3886,7 @@
       "sourceLengthSeconds": 108.72
     },
     {
-      "id": 690,
+      "id": 668,
       "sourceId": 690,
       "bandId": 5,
       "segments": [
@@ -3900,7 +3900,7 @@
       "sourceLengthSeconds": 107.16
     },
     {
-      "id": 18,
+      "id": 23,
       "sourceId": 18,
       "bandId": 4,
       "segments": [
@@ -3914,7 +3914,7 @@
       "sourceLengthSeconds": 143.376
     },
     {
-      "id": 347,
+      "id": 338,
       "sourceId": 347,
       "bandId": 21,
       "segments": [
@@ -3933,7 +3933,7 @@
       "sourceLengthSeconds": 113.16
     },
     {
-      "id": 475,
+      "id": 461,
       "sourceId": 475,
       "bandId": 58,
       "segments": [
@@ -3947,7 +3947,7 @@
       "sourceLengthSeconds": 128.904
     },
     {
-      "id": 304,
+      "id": 294,
       "sourceId": 304,
       "bandId": 2,
       "segments": [
@@ -3961,7 +3961,7 @@
       "sourceLengthSeconds": 102.672
     },
     {
-      "id": 105,
+      "id": 97,
       "sourceId": 105,
       "bandId": 5,
       "segments": [
@@ -3980,7 +3980,7 @@
       "sourceLengthSeconds": 112.056
     },
     {
-      "id": 709,
+      "id": 688,
       "sourceId": 709,
       "bandId": 4,
       "segments": [
@@ -3994,7 +3994,7 @@
       "sourceLengthSeconds": 114.384
     },
     {
-      "id": 764,
+      "id": 742,
       "sourceId": 764,
       "bandId": 21,
       "segments": [
@@ -4008,7 +4008,7 @@
       "sourceLengthSeconds": 103.2
     },
     {
-      "id": 320,
+      "id": 309,
       "sourceId": 320,
       "bandId": 3,
       "segments": [
@@ -4022,7 +4022,7 @@
       "sourceLengthSeconds": 115.704
     },
     {
-      "id": 743,
+      "id": 721,
       "sourceId": 743,
       "bandId": 5,
       "segments": [
@@ -4036,7 +4036,7 @@
       "sourceLengthSeconds": 105.888
     },
     {
-      "id": 344,
+      "id": 333,
       "sourceId": 344,
       "bandId": 5,
       "segments": [
@@ -4050,7 +4050,7 @@
       "sourceLengthSeconds": 102.216
     },
     {
-      "id": 752,
+      "id": 730,
       "sourceId": 752,
       "bandId": 94,
       "segments": [
@@ -4064,7 +4064,7 @@
       "sourceLengthSeconds": 123.168
     },
     {
-      "id": 350,
+      "id": 336,
       "sourceId": 350,
       "bandId": 5,
       "segments": [
@@ -4088,7 +4088,7 @@
       "sourceLengthSeconds": 132.432
     },
     {
-      "id": 302,
+      "id": 290,
       "sourceId": 302,
       "bandId": 5,
       "segments": [
@@ -4102,7 +4102,7 @@
       "sourceLengthSeconds": 97.56
     },
     {
-      "id": 565,
+      "id": 549,
       "sourceId": 565,
       "bandId": 5,
       "segments": [
@@ -4116,7 +4116,7 @@
       "sourceLengthSeconds": 97.848
     },
     {
-      "id": 245,
+      "id": 234,
       "sourceId": 245,
       "bandId": 5,
       "segments": [
@@ -4130,7 +4130,7 @@
       "sourceLengthSeconds": 102.384
     },
     {
-      "id": 327,
+      "id": 316,
       "sourceId": 327,
       "bandId": 21,
       "segments": [
@@ -4144,7 +4144,7 @@
       "sourceLengthSeconds": 118.248
     },
     {
-      "id": 432,
+      "id": 414,
       "sourceId": 432,
       "bandId": 18,
       "segments": [
@@ -4158,7 +4158,7 @@
       "sourceLengthSeconds": 110.064
     },
     {
-      "id": 615,
+      "id": 592,
       "sourceId": 615,
       "bandId": 18,
       "segments": [
@@ -4172,7 +4172,7 @@
       "sourceLengthSeconds": 153.384
     },
     {
-      "id": 608,
+      "id": 584,
       "sourceId": 608,
       "bandId": 1,
       "segments": [
@@ -4186,7 +4186,7 @@
       "sourceLengthSeconds": 105.624
     },
     {
-      "id": 380,
+      "id": 370,
       "sourceId": 380,
       "bandId": 5,
       "segments": [
@@ -4200,7 +4200,7 @@
       "sourceLengthSeconds": 108.72
     },
     {
-      "id": 395,
+      "id": 398,
       "sourceId": 395,
       "bandId": 4,
       "segments": [
@@ -4214,7 +4214,7 @@
       "sourceLengthSeconds": 100.176
     },
     {
-      "id": 346,
+      "id": 337,
       "sourceId": 346,
       "bandId": 5,
       "segments": [
@@ -4228,7 +4228,7 @@
       "sourceLengthSeconds": 113.664
     },
     {
-      "id": 2,
+      "id": 6,
       "sourceId": 2,
       "bandId": 1,
       "segments": [
@@ -4242,7 +4242,7 @@
       "sourceLengthSeconds": 132.816
     },
     {
-      "id": 183,
+      "id": 174,
       "sourceId": 183,
       "bandId": 3,
       "segments": [
@@ -4256,7 +4256,7 @@
       "sourceLengthSeconds": 113.736
     },
     {
-      "id": 622,
+      "id": 601,
       "sourceId": 622,
       "bandId": 2,
       "segments": [
@@ -4275,7 +4275,7 @@
       "sourceLengthSeconds": 114.936
     },
     {
-      "id": 765,
+      "id": 743,
       "sourceId": 765,
       "bandId": 1,
       "segments": [
@@ -4289,7 +4289,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 228,
+      "id": 216,
       "sourceId": 228,
       "bandId": 4,
       "segments": [
@@ -4303,7 +4303,7 @@
       "sourceLengthSeconds": 94.344
     },
     {
-      "id": 714,
+      "id": 693,
       "sourceId": 714,
       "bandId": 5,
       "segments": [
@@ -4317,7 +4317,7 @@
       "sourceLengthSeconds": 103.176
     },
     {
-      "id": 663,
+      "id": 642,
       "sourceId": 663,
       "bandId": 21,
       "segments": [
@@ -4331,7 +4331,7 @@
       "sourceLengthSeconds": 104.664
     },
     {
-      "id": 561,
+      "id": 542,
       "sourceId": 561,
       "bandId": 71,
       "segments": [
@@ -4360,7 +4360,7 @@
       "sourceLengthSeconds": 141.72
     },
     {
-      "id": 656,
+      "id": 640,
       "sourceId": 656,
       "bandId": 1,
       "segments": [
@@ -4374,7 +4374,7 @@
       "sourceLengthSeconds": 104.976
     },
     {
-      "id": 244,
+      "id": 233,
       "sourceId": 244,
       "bandId": 1,
       "segments": [
@@ -4388,7 +4388,7 @@
       "sourceLengthSeconds": 111.96
     },
     {
-      "id": 456,
+      "id": 440,
       "sourceId": 456,
       "bandId": 3,
       "segments": [
@@ -4402,7 +4402,7 @@
       "sourceLengthSeconds": 116.928
     },
     {
-      "id": 439,
+      "id": 425,
       "sourceId": 439,
       "bandId": 5,
       "segments": [
@@ -4416,7 +4416,7 @@
       "sourceLengthSeconds": 126.888
     },
     {
-      "id": 648,
+      "id": 627,
       "sourceId": 648,
       "bandId": 45,
       "segments": [
@@ -4430,7 +4430,7 @@
       "sourceLengthSeconds": 117.288
     },
     {
-      "id": 809,
+      "id": 785,
       "sourceId": 809,
       "bandId": 21,
       "segments": [
@@ -4444,7 +4444,7 @@
       "sourceLengthSeconds": 128.952
     },
     {
-      "id": 511,
+      "id": 498,
       "sourceId": 511,
       "bandId": 5,
       "segments": [
@@ -4458,7 +4458,7 @@
       "sourceLengthSeconds": 105.792
     },
     {
-      "id": 620,
+      "id": 598,
       "sourceId": 620,
       "bandId": 19,
       "segments": [
@@ -4472,7 +4472,7 @@
       "sourceLengthSeconds": 124.44
     },
     {
-      "id": 70,
+      "id": 66,
       "sourceId": 70,
       "bandId": 4,
       "segments": [
@@ -4491,7 +4491,7 @@
       "sourceLengthSeconds": 108.576
     },
     {
-      "id": 434,
+      "id": 421,
       "sourceId": 434,
       "bandId": 5,
       "segments": [
@@ -4505,7 +4505,7 @@
       "sourceLengthSeconds": 117.936
     },
     {
-      "id": 471,
+      "id": 457,
       "sourceId": 471,
       "bandId": 21,
       "segments": [
@@ -4519,7 +4519,7 @@
       "sourceLengthSeconds": 112.416
     },
     {
-      "id": 312,
+      "id": 301,
       "sourceId": 312,
       "bandId": 1,
       "segments": [
@@ -4533,7 +4533,7 @@
       "sourceLengthSeconds": 109.296
     },
     {
-      "id": 546,
+      "id": 523,
       "sourceId": 546,
       "bandId": 45,
       "segments": [
@@ -4547,7 +4547,7 @@
       "sourceLengthSeconds": 91.128
     },
     {
-      "id": 425,
+      "id": 413,
       "sourceId": 425,
       "bandId": 2,
       "segments": [
@@ -4561,7 +4561,7 @@
       "sourceLengthSeconds": 104.472
     },
     {
-      "id": 323,
+      "id": 312,
       "sourceId": 323,
       "bandId": 5,
       "segments": [
@@ -4575,7 +4575,7 @@
       "sourceLengthSeconds": 106.464
     },
     {
-      "id": 449,
+      "id": 436,
       "sourceId": 449,
       "bandId": 18,
       "segments": [
@@ -4589,7 +4589,7 @@
       "sourceLengthSeconds": 105.72
     },
     {
-      "id": 771,
+      "id": 748,
       "sourceId": 771,
       "bandId": 5,
       "segments": [
@@ -4603,7 +4603,7 @@
       "sourceLengthSeconds": 108.528
     },
     {
-      "id": 650,
+      "id": 629,
       "sourceId": 650,
       "bandId": 1,
       "segments": [
@@ -4617,7 +4617,7 @@
       "sourceLengthSeconds": 99.84
     },
     {
-      "id": 654,
+      "id": 633,
       "sourceId": 654,
       "bandId": 21,
       "segments": [
@@ -4631,7 +4631,7 @@
       "sourceLengthSeconds": 112.344
     },
     {
-      "id": 772,
+      "id": 749,
       "sourceId": 772,
       "bandId": 4,
       "segments": [
@@ -4645,7 +4645,7 @@
       "sourceLengthSeconds": 108.048
     },
     {
-      "id": 26,
+      "id": 11,
       "sourceId": 26,
       "bandId": 2,
       "segments": [
@@ -4659,7 +4659,7 @@
       "sourceLengthSeconds": 103.056
     },
     {
-      "id": 551,
+      "id": 530,
       "sourceId": 551,
       "bandId": 2,
       "segments": [
@@ -4673,7 +4673,7 @@
       "sourceLengthSeconds": 111.624
     },
     {
-      "id": 441,
+      "id": 432,
       "sourceId": 441,
       "bandId": 21,
       "segments": [
@@ -4687,7 +4687,7 @@
       "sourceLengthSeconds": 126.264
     },
     {
-      "id": 63,
+      "id": 57,
       "sourceId": 63,
       "bandId": 5,
       "segments": [
@@ -4701,7 +4701,7 @@
       "sourceLengthSeconds": 131.928
     },
     {
-      "id": 416,
+      "id": 403,
       "sourceId": 416,
       "bandId": 5,
       "segments": [
@@ -4715,7 +4715,7 @@
       "sourceLengthSeconds": 127.608
     },
     {
-      "id": 440,
+      "id": 427,
       "sourceId": 440,
       "bandId": 18,
       "segments": [
@@ -4729,7 +4729,7 @@
       "sourceLengthSeconds": 110.184
     },
     {
-      "id": 109,
+      "id": 100,
       "sourceId": 109,
       "bandId": 5,
       "segments": [
@@ -4743,7 +4743,7 @@
       "sourceLengthSeconds": 122.52
     },
     {
-      "id": 543,
+      "id": 524,
       "sourceId": 543,
       "bandId": 5,
       "segments": [
@@ -4757,7 +4757,7 @@
       "sourceLengthSeconds": 118.56
     },
     {
-      "id": 73,
+      "id": 64,
       "sourceId": 73,
       "bandId": 1,
       "segments": [
@@ -4771,7 +4771,7 @@
       "sourceLengthSeconds": 123.816
     },
     {
-      "id": 303,
+      "id": 291,
       "sourceId": 303,
       "bandId": 4,
       "segments": [
@@ -4785,7 +4785,7 @@
       "sourceLengthSeconds": 118.416
     },
     {
-      "id": 363,
+      "id": 352,
       "sourceId": 363,
       "bandId": 31,
       "segments": [
@@ -4799,7 +4799,7 @@
       "sourceLengthSeconds": 101.256
     },
     {
-      "id": 701,
+      "id": 681,
       "sourceId": 701,
       "bandId": 1,
       "segments": [
@@ -4813,7 +4813,7 @@
       "sourceLengthSeconds": 123.456
     },
     {
-      "id": 356,
+      "id": 346,
       "sourceId": 356,
       "bandId": 2,
       "segments": [
@@ -4827,7 +4827,7 @@
       "sourceLengthSeconds": 104.592
     },
     {
-      "id": 27,
+      "id": 12,
       "sourceId": 27,
       "bandId": 2,
       "segments": [
@@ -4841,7 +4841,7 @@
       "sourceLengthSeconds": 123.048
     },
     {
-      "id": 248,
+      "id": 236,
       "sourceId": 248,
       "bandId": 14,
       "segments": [
@@ -4855,7 +4855,7 @@
       "sourceLengthSeconds": 110.064
     },
     {
-      "id": 267,
+      "id": 256,
       "sourceId": 267,
       "bandId": 1,
       "segments": [
@@ -4869,7 +4869,7 @@
       "sourceLengthSeconds": 124.704
     },
     {
-      "id": 408,
+      "id": 393,
       "sourceId": 408,
       "bandId": 21,
       "segments": [
@@ -4883,7 +4883,7 @@
       "sourceLengthSeconds": 140.496
     },
     {
-      "id": 194,
+      "id": 185,
       "sourceId": 194,
       "bandId": 18,
       "segments": [
@@ -4897,7 +4897,7 @@
       "sourceLengthSeconds": 102.408
     },
     {
-      "id": 329,
+      "id": 318,
       "sourceId": 329,
       "bandId": 21,
       "segments": [
@@ -4911,7 +4911,7 @@
       "sourceLengthSeconds": 117.456
     },
     {
-      "id": 606,
+      "id": 582,
       "sourceId": 606,
       "bandId": 18,
       "segments": [
@@ -4925,7 +4925,7 @@
       "sourceLengthSeconds": 99.12
     },
     {
-      "id": 736,
+      "id": 713,
       "sourceId": 736,
       "bandId": 45,
       "segments": [
@@ -4939,7 +4939,7 @@
       "sourceLengthSeconds": 131.448
     },
     {
-      "id": 584,
+      "id": 562,
       "sourceId": 584,
       "bandId": 5,
       "segments": [
@@ -4953,7 +4953,7 @@
       "sourceLengthSeconds": 141.672
     },
     {
-      "id": 647,
+      "id": 626,
       "sourceId": 647,
       "bandId": 18,
       "segments": [
@@ -4967,7 +4967,7 @@
       "sourceLengthSeconds": 100.872
     },
     {
-      "id": 459,
+      "id": 445,
       "sourceId": 459,
       "bandId": 50,
       "segments": [
@@ -4981,7 +4981,7 @@
       "sourceLengthSeconds": 114.648
     },
     {
-      "id": 164,
+      "id": 155,
       "sourceId": 164,
       "bandId": 1,
       "segments": [
@@ -4995,7 +4995,7 @@
       "sourceLengthSeconds": 105.744
     },
     {
-      "id": 652,
+      "id": 631,
       "sourceId": 652,
       "bandId": 18,
       "segments": [
@@ -5009,7 +5009,7 @@
       "sourceLengthSeconds": 106.536
     },
     {
-      "id": 789,
+      "id": 774,
       "sourceId": 789,
       "bandId": 18,
       "segments": [
@@ -5028,7 +5028,7 @@
       "sourceLengthSeconds": 104.808
     },
     {
-      "id": 220,
+      "id": 209,
       "sourceId": 220,
       "bandId": 1,
       "segments": [
@@ -5042,7 +5042,7 @@
       "sourceLengthSeconds": 109.728
     },
     {
-      "id": 234,
+      "id": 222,
       "sourceId": 234,
       "bandId": 1,
       "segments": [
@@ -5056,7 +5056,7 @@
       "sourceLengthSeconds": 116.76
     },
     {
-      "id": 802,
+      "id": 778,
       "sourceId": 802,
       "bandId": 5,
       "segments": [
@@ -5070,7 +5070,7 @@
       "sourceLengthSeconds": 106.512
     },
     {
-      "id": 803,
+      "id": 779,
       "sourceId": 803,
       "bandId": 21,
       "segments": [
@@ -5084,7 +5084,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 264,
+      "id": 252,
       "sourceId": 264,
       "bandId": 4,
       "segments": [
@@ -5098,7 +5098,7 @@
       "sourceLengthSeconds": 103.272
     },
     {
-      "id": 621,
+      "id": 599,
       "sourceId": 621,
       "bandId": 4,
       "segments": [
@@ -5117,7 +5117,7 @@
       "sourceLengthSeconds": 110.712
     },
     {
-      "id": 770,
+      "id": 747,
       "sourceId": 770,
       "bandId": 104,
       "segments": [
@@ -5131,7 +5131,7 @@
       "sourceLengthSeconds": 106.8
     },
     {
-      "id": 242,
+      "id": 232,
       "sourceId": 242,
       "bandId": 4,
       "segments": [
@@ -5145,7 +5145,7 @@
       "sourceLengthSeconds": 104.976
     },
     {
-      "id": 106,
+      "id": 96,
       "sourceId": 106,
       "bandId": 4,
       "segments": [
@@ -5159,7 +5159,7 @@
       "sourceLengthSeconds": 115.68
     },
     {
-      "id": 612,
+      "id": 589,
       "sourceId": 612,
       "bandId": 21,
       "segments": [
@@ -5173,7 +5173,7 @@
       "sourceLengthSeconds": 110.28
     },
     {
-      "id": 793,
+      "id": 768,
       "sourceId": 793,
       "bandId": 5,
       "segments": [
@@ -5187,7 +5187,7 @@
       "sourceLengthSeconds": 93.936
     },
     {
-      "id": 93,
+      "id": 81,
       "sourceId": 93,
       "bandId": 2,
       "segments": [
@@ -5206,7 +5206,7 @@
       "sourceLengthSeconds": 115.32
     },
     {
-      "id": 694,
+      "id": 673,
       "sourceId": 694,
       "bandId": 4,
       "segments": [
@@ -5225,7 +5225,7 @@
       "sourceLengthSeconds": 115.32
     },
     {
-      "id": 68,
+      "id": 67,
       "sourceId": 68,
       "bandId": 3,
       "segments": [
@@ -5239,7 +5239,7 @@
       "sourceLengthSeconds": 103.32
     },
     {
-      "id": 474,
+      "id": 460,
       "sourceId": 474,
       "bandId": 58,
       "segments": [
@@ -5263,7 +5263,7 @@
       "sourceLengthSeconds": 129.312
     },
     {
-      "id": 1,
+      "id": 3,
       "sourceId": 1,
       "bandId": 1,
       "segments": [
@@ -5277,7 +5277,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 291,
+      "id": 280,
       "sourceId": 291,
       "bandId": 5,
       "segments": [
@@ -5291,7 +5291,7 @@
       "sourceLengthSeconds": 103.44
     },
     {
-      "id": 412,
+      "id": 397,
       "sourceId": 412,
       "bandId": 44,
       "segments": [
@@ -5305,7 +5305,7 @@
       "sourceLengthSeconds": 313.224
     },
     {
-      "id": 243,
+      "id": 230,
       "sourceId": 243,
       "bandId": 5,
       "segments": [
@@ -5364,7 +5364,7 @@
       "sourceLengthSeconds": 322.728
     },
     {
-      "id": 223,
+      "id": 212,
       "sourceId": 223,
       "bandId": 2,
       "segments": [
@@ -5378,7 +5378,7 @@
       "sourceLengthSeconds": 240.72
     },
     {
-      "id": 235,
+      "id": 223,
       "sourceId": 235,
       "bandId": 3,
       "segments": [
@@ -5392,7 +5392,7 @@
       "sourceLengthSeconds": 248.064
     },
     {
-      "id": 229,
+      "id": 218,
       "sourceId": 229,
       "bandId": 4,
       "segments": [
@@ -5406,7 +5406,7 @@
       "sourceLengthSeconds": 217.776
     },
     {
-      "id": 249,
+      "id": 237,
       "sourceId": 249,
       "bandId": 1,
       "segments": [
@@ -5420,7 +5420,7 @@
       "sourceLengthSeconds": 314.976
     },
     {
-      "id": 217,
+      "id": 205,
       "sourceId": 217,
       "bandId": 1,
       "segments": [
@@ -5434,7 +5434,7 @@
       "sourceLengthSeconds": 244.536
     },
     {
-      "id": 646,
+      "id": 625,
       "sourceId": 646,
       "bandId": 2,
       "segments": [
@@ -5448,7 +5448,7 @@
       "sourceLengthSeconds": 108.048
     },
     {
-      "id": 214,
+      "id": 204,
       "sourceId": 214,
       "bandId": 5,
       "segments": [
@@ -5462,7 +5462,7 @@
       "sourceLengthSeconds": 105.84
     },
     {
-      "id": 745,
+      "id": 723,
       "sourceId": 745,
       "bandId": 93,
       "segments": [
@@ -5476,7 +5476,7 @@
       "sourceLengthSeconds": 123.168
     },
     {
-      "id": 595,
+      "id": 579,
       "sourceId": 595,
       "bandId": 45,
       "segments": [
@@ -5490,7 +5490,7 @@
       "sourceLengthSeconds": 102.72
     },
     {
-      "id": 420,
+      "id": 407,
       "sourceId": 420,
       "bandId": 4,
       "segments": [
@@ -5504,7 +5504,7 @@
       "sourceLengthSeconds": 108.048
     },
     {
-      "id": 210,
+      "id": 200,
       "sourceId": 210,
       "bandId": 4,
       "segments": [
@@ -5518,7 +5518,7 @@
       "sourceLengthSeconds": 109.584
     },
     {
-      "id": 368,
+      "id": 358,
       "sourceId": 368,
       "bandId": 34,
       "segments": [
@@ -5532,7 +5532,7 @@
       "sourceLengthSeconds": 127.392
     },
     {
-      "id": 185,
+      "id": 177,
       "sourceId": 185,
       "bandId": 2,
       "segments": [
@@ -5546,7 +5546,7 @@
       "sourceLengthSeconds": 104.424
     },
     {
-      "id": 21,
+      "id": 28,
       "sourceId": 21,
       "bandId": 3,
       "segments": [
@@ -5560,7 +5560,7 @@
       "sourceLengthSeconds": 113.448
     },
     {
-      "id": 262,
+      "id": 250,
       "sourceId": 262,
       "bandId": 3,
       "segments": [
@@ -5589,7 +5589,7 @@
       "sourceLengthSeconds": 99.168
     },
     {
-      "id": 443,
+      "id": 429,
       "sourceId": 443,
       "bandId": 3,
       "segments": [
@@ -5628,7 +5628,7 @@
       "sourceLengthSeconds": 106.272
     },
     {
-      "id": 460,
+      "id": 446,
       "sourceId": 460,
       "bandId": 3,
       "segments": [
@@ -5642,7 +5642,7 @@
       "sourceLengthSeconds": 107.016
     },
     {
-      "id": 280,
+      "id": 269,
       "sourceId": 280,
       "bandId": 3,
       "segments": [
@@ -5656,7 +5656,7 @@
       "sourceLengthSeconds": 109.992
     },
     {
-      "id": 35,
+      "id": 17,
       "sourceId": 35,
       "bandId": 3,
       "segments": [
@@ -5670,7 +5670,7 @@
       "sourceLengthSeconds": 100.92
     },
     {
-      "id": 681,
+      "id": 661,
       "sourceId": 681,
       "bandId": 87,
       "segments": [
@@ -5684,7 +5684,7 @@
       "sourceLengthSeconds": 100.92
     },
     {
-      "id": 189,
+      "id": 180,
       "sourceId": 189,
       "bandId": 3,
       "segments": [
@@ -5698,7 +5698,7 @@
       "sourceLengthSeconds": 105.672
     },
     {
-      "id": 230,
+      "id": 219,
       "sourceId": 230,
       "bandId": 3,
       "segments": [
@@ -5712,7 +5712,7 @@
       "sourceLengthSeconds": 105.504
     },
     {
-      "id": 421,
+      "id": 408,
       "sourceId": 421,
       "bandId": 3,
       "segments": [
@@ -5756,7 +5756,7 @@
       "sourceLengthSeconds": 111.216
     },
     {
-      "id": 297,
+      "id": 286,
       "sourceId": 297,
       "bandId": 3,
       "segments": [
@@ -5770,7 +5770,7 @@
       "sourceLengthSeconds": 93.312
     },
     {
-      "id": 592,
+      "id": 572,
       "sourceId": 592,
       "bandId": 21,
       "segments": [
@@ -5784,7 +5784,7 @@
       "sourceLengthSeconds": 108.72
     },
     {
-      "id": 773,
+      "id": 750,
       "sourceId": 773,
       "bandId": 3,
       "segments": [
@@ -5798,7 +5798,7 @@
       "sourceLengthSeconds": 107.568
     },
     {
-      "id": 213,
+      "id": 203,
       "sourceId": 213,
       "bandId": 4,
       "segments": [
@@ -5812,7 +5812,7 @@
       "sourceLengthSeconds": 111.816
     },
     {
-      "id": 742,
+      "id": 720,
       "sourceId": 742,
       "bandId": 4,
       "segments": [
@@ -5826,7 +5826,7 @@
       "sourceLengthSeconds": 119.112
     },
     {
-      "id": 186,
+      "id": 176,
       "sourceId": 186,
       "bandId": 4,
       "segments": [
@@ -5840,7 +5840,7 @@
       "sourceLengthSeconds": 92.52
     },
     {
-      "id": 761,
+      "id": 738,
       "sourceId": 761,
       "bandId": 100,
       "segments": [
@@ -5854,7 +5854,7 @@
       "sourceLengthSeconds": 92.52
     },
     {
-      "id": 591,
+      "id": 571,
       "sourceId": 591,
       "bandId": 3,
       "segments": [
@@ -5868,7 +5868,7 @@
       "sourceLengthSeconds": 126.6
     },
     {
-      "id": 362,
+      "id": 351,
       "sourceId": 362,
       "bandId": 3,
       "segments": [
@@ -5882,7 +5882,7 @@
       "sourceLengthSeconds": 104.112
     },
     {
-      "id": 169,
+      "id": 161,
       "sourceId": 169,
       "bandId": 4,
       "segments": [
@@ -5896,7 +5896,7 @@
       "sourceLengthSeconds": 108.072
     },
     {
-      "id": 407,
+      "id": 400,
       "sourceId": 407,
       "bandId": 3,
       "segments": [
@@ -5910,7 +5910,7 @@
       "sourceLengthSeconds": 128.112
     },
     {
-      "id": 818,
+      "id": 795,
       "sourceId": 818,
       "bandId": 18,
       "segments": [
@@ -5924,7 +5924,7 @@
       "sourceLengthSeconds": 133.224
     },
     {
-      "id": 349,
+      "id": 335,
       "sourceId": 349,
       "bandId": 1,
       "segments": [
@@ -5938,7 +5938,7 @@
       "sourceLengthSeconds": 106.176
     },
     {
-      "id": 813,
+      "id": 789,
       "sourceId": 813,
       "bandId": 5,
       "segments": [
@@ -5952,7 +5952,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 32,
+      "id": 13,
       "sourceId": 32,
       "bandId": 4,
       "segments": [
@@ -5966,7 +5966,7 @@
       "sourceLengthSeconds": 102.336
     },
     {
-      "id": 744,
+      "id": 722,
       "sourceId": 744,
       "bandId": 92,
       "segments": [
@@ -5980,7 +5980,7 @@
       "sourceLengthSeconds": 117.792
     },
     {
-      "id": 80,
+      "id": 76,
       "sourceId": 80,
       "bandId": 13,
       "segments": [
@@ -5994,7 +5994,7 @@
       "sourceLengthSeconds": 97.656
     },
     {
-      "id": 640,
+      "id": 618,
       "sourceId": 640,
       "bandId": 4,
       "segments": [
@@ -6008,7 +6008,7 @@
       "sourceLengthSeconds": 98.112
     },
     {
-      "id": 69,
+      "id": 65,
       "sourceId": 69,
       "bandId": 3,
       "segments": [
@@ -6027,7 +6027,7 @@
       "sourceLengthSeconds": 107.424
     },
     {
-      "id": 44,
+      "id": 35,
       "sourceId": 44,
       "bandId": 4,
       "segments": [
@@ -6041,7 +6041,7 @@
       "sourceLengthSeconds": 106.092
     },
     {
-      "id": 454,
+      "id": 600,
       "sourceId": 454,
       "bandId": 4,
       "segments": [
@@ -6055,7 +6055,7 @@
       "sourceLengthSeconds": 134.736
     },
     {
-      "id": 680,
+      "id": 660,
       "sourceId": 680,
       "bandId": 45,
       "segments": [
@@ -6069,7 +6069,7 @@
       "sourceLengthSeconds": 138.264
     },
     {
-      "id": 626,
+      "id": 603,
       "sourceId": 626,
       "bandId": 1,
       "segments": [
@@ -6083,7 +6083,7 @@
       "sourceLengthSeconds": 113.784
     },
     {
-      "id": 707,
+      "id": 687,
       "sourceId": 707,
       "bandId": 1,
       "segments": [
@@ -6097,7 +6097,7 @@
       "sourceLengthSeconds": 124.968
     },
     {
-      "id": 24,
+      "id": 1,
       "sourceId": 24,
       "bandId": 1,
       "segments": [
@@ -6111,7 +6111,7 @@
       "sourceLengthSeconds": 106.728
     },
     {
-      "id": 790,
+      "id": 763,
       "sourceId": 790,
       "bandId": 107,
       "segments": [
@@ -6125,7 +6125,7 @@
       "sourceLengthSeconds": 106.728
     },
     {
-      "id": 192,
+      "id": 183,
       "sourceId": 192,
       "bandId": 4,
       "segments": [
@@ -6139,7 +6139,7 @@
       "sourceLengthSeconds": 94.656
     },
     {
-      "id": 669,
+      "id": 648,
       "sourceId": 669,
       "bandId": 1,
       "segments": [
@@ -6153,7 +6153,7 @@
       "sourceLengthSeconds": 106.32
     },
     {
-      "id": 721,
+      "id": 699,
       "sourceId": 721,
       "bandId": 3,
       "segments": [
@@ -6167,7 +6167,7 @@
       "sourceLengthSeconds": 105.168
     },
     {
-      "id": 51,
+      "id": 46,
       "sourceId": 51,
       "bandId": 9,
       "segments": [
@@ -6181,7 +6181,7 @@
       "sourceLengthSeconds": 114.504
     },
     {
-      "id": 768,
+      "id": 746,
       "sourceId": 768,
       "bandId": 1,
       "segments": [
@@ -6195,7 +6195,7 @@
       "sourceLengthSeconds": 113.616
     },
     {
-      "id": 578,
+      "id": 558,
       "sourceId": 578,
       "bandId": 77,
       "segments": [
@@ -6209,7 +6209,7 @@
       "sourceLengthSeconds": 131.304
     },
     {
-      "id": 341,
+      "id": 330,
       "sourceId": 341,
       "bandId": 3,
       "segments": [
@@ -6223,7 +6223,7 @@
       "sourceLengthSeconds": 106.272
     },
     {
-      "id": 197,
+      "id": 188,
       "sourceId": 197,
       "bandId": 3,
       "segments": [
@@ -6237,7 +6237,7 @@
       "sourceLengthSeconds": 107.424
     },
     {
-      "id": 313,
+      "id": 302,
       "sourceId": 313,
       "bandId": 3,
       "segments": [
@@ -6251,7 +6251,7 @@
       "sourceLengthSeconds": 108.552
     },
     {
-      "id": 673,
+      "id": 653,
       "sourceId": 673,
       "bandId": 3,
       "segments": [
@@ -6265,7 +6265,7 @@
       "sourceLengthSeconds": 103.728
     },
     {
-      "id": 34,
+      "id": 45,
       "sourceId": 34,
       "bandId": 4,
       "segments": [
@@ -6279,7 +6279,7 @@
       "sourceLengthSeconds": 108.504
     },
     {
-      "id": 72,
+      "id": 69,
       "sourceId": 72,
       "bandId": 4,
       "segments": [
@@ -6293,7 +6293,7 @@
       "sourceLengthSeconds": 104.712
     },
     {
-      "id": 171,
+      "id": 162,
       "sourceId": 171,
       "bandId": 3,
       "segments": [
@@ -6307,7 +6307,7 @@
       "sourceLengthSeconds": 101.28
     },
     {
-      "id": 147,
+      "id": 137,
       "sourceId": 147,
       "bandId": 17,
       "segments": [
@@ -6321,7 +6321,7 @@
       "sourceLengthSeconds": 103.704
     },
     {
-      "id": 674,
+      "id": 652,
       "sourceId": 674,
       "bandId": 86,
       "segments": [
@@ -6335,7 +6335,7 @@
       "sourceLengthSeconds": 103.704
     },
     {
-      "id": 62,
+      "id": 56,
       "sourceId": 62,
       "bandId": 3,
       "segments": [
@@ -6349,7 +6349,7 @@
       "sourceLengthSeconds": 130.704
     },
     {
-      "id": 524,
+      "id": 505,
       "sourceId": 524,
       "bandId": 3,
       "segments": [
@@ -6363,7 +6363,7 @@
       "sourceLengthSeconds": 124.824
     },
     {
-      "id": 123,
+      "id": 105,
       "sourceId": 123,
       "bandId": 3,
       "segments": [
@@ -6377,7 +6377,7 @@
       "sourceLengthSeconds": 119.136
     },
     {
-      "id": 59,
+      "id": 54,
       "sourceId": 59,
       "bandId": 4,
       "segments": [
@@ -6391,7 +6391,7 @@
       "sourceLengthSeconds": 95.4
     },
     {
-      "id": 527,
+      "id": 507,
       "sourceId": 527,
       "bandId": 1,
       "segments": [
@@ -6405,7 +6405,7 @@
       "sourceLengthSeconds": 105.216
     },
     {
-      "id": 800,
+      "id": 776,
       "sourceId": 800,
       "bandId": 3,
       "segments": [
@@ -6419,7 +6419,7 @@
       "sourceLengthSeconds": 101.88
     },
     {
-      "id": 369,
+      "id": 357,
       "sourceId": 369,
       "bandId": 36,
       "segments": [
@@ -6433,7 +6433,7 @@
       "sourceLengthSeconds": 99.528
     },
     {
-      "id": 390,
+      "id": 375,
       "sourceId": 390,
       "bandId": 1,
       "segments": [
@@ -6447,7 +6447,7 @@
       "sourceLengthSeconds": 108.672
     },
     {
-      "id": 3,
+      "id": 5,
       "sourceId": 3,
       "bandId": 1,
       "segments": [
@@ -6461,7 +6461,7 @@
       "sourceLengthSeconds": 133.104
     },
     {
-      "id": 748,
+      "id": 726,
       "sourceId": 748,
       "bandId": 3,
       "segments": [
@@ -6475,7 +6475,7 @@
       "sourceLengthSeconds": 104.856
     },
     {
-      "id": 124,
+      "id": 108,
       "sourceId": 124,
       "bandId": 4,
       "segments": [
@@ -6489,7 +6489,7 @@
       "sourceLengthSeconds": 102.816
     },
     {
-      "id": 600,
+      "id": 576,
       "sourceId": 600,
       "bandId": 3,
       "segments": [
@@ -6503,7 +6503,7 @@
       "sourceLengthSeconds": 107.136
     },
     {
-      "id": 104,
+      "id": 119,
       "sourceId": 104,
       "bandId": 4,
       "segments": [
@@ -6517,7 +6517,7 @@
       "sourceLengthSeconds": 115.8
     },
     {
-      "id": 463,
+      "id": 449,
       "sourceId": 463,
       "bandId": 53,
       "segments": [
@@ -6531,7 +6531,7 @@
       "sourceLengthSeconds": 102.456
     },
     {
-      "id": 691,
+      "id": 669,
       "sourceId": 691,
       "bandId": 3,
       "segments": [
@@ -6570,7 +6570,7 @@
       "sourceLengthSeconds": 99.072
     },
     {
-      "id": 226,
+      "id": 215,
       "sourceId": 226,
       "bandId": 4,
       "segments": [
@@ -6584,7 +6584,7 @@
       "sourceLengthSeconds": 108.504
     },
     {
-      "id": 60,
+      "id": 53,
       "sourceId": 60,
       "bandId": 4,
       "segments": [
@@ -6598,7 +6598,7 @@
       "sourceLengthSeconds": 105.408
     },
     {
-      "id": 152,
+      "id": 143,
       "sourceId": 152,
       "bandId": 4,
       "segments": [
@@ -6612,7 +6612,7 @@
       "sourceLengthSeconds": 102.912
     },
     {
-      "id": 472,
+      "id": 458,
       "sourceId": 472,
       "bandId": 3,
       "segments": [
@@ -6631,7 +6631,7 @@
       "sourceLengthSeconds": 97.608
     },
     {
-      "id": 559,
+      "id": 540,
       "sourceId": 559,
       "bandId": 3,
       "segments": [
@@ -6645,7 +6645,7 @@
       "sourceLengthSeconds": 107.208
     },
     {
-      "id": 172,
+      "id": 163,
       "sourceId": 172,
       "bandId": 2,
       "segments": [
@@ -6669,7 +6669,7 @@
       "sourceLengthSeconds": 113.28
     },
     {
-      "id": 324,
+      "id": 313,
       "sourceId": 324,
       "bandId": 4,
       "segments": [
@@ -6683,7 +6683,7 @@
       "sourceLengthSeconds": 103.872
     },
     {
-      "id": 664,
+      "id": 643,
       "sourceId": 664,
       "bandId": 3,
       "segments": [
@@ -6697,7 +6697,7 @@
       "sourceLengthSeconds": 104.856
     },
     {
-      "id": 94,
+      "id": 83,
       "sourceId": 94,
       "bandId": 3,
       "segments": [
@@ -6711,7 +6711,7 @@
       "sourceLengthSeconds": 117.816
     },
     {
-      "id": 215,
+      "id": 206,
       "sourceId": 215,
       "bandId": 2,
       "segments": [
@@ -6725,7 +6725,7 @@
       "sourceLengthSeconds": 106.056
     },
     {
-      "id": 499,
+      "id": 481,
       "sourceId": 499,
       "bandId": 3,
       "segments": [
@@ -6739,7 +6739,7 @@
       "sourceLengthSeconds": 89.16
     },
     {
-      "id": 587,
+      "id": 567,
       "sourceId": 587,
       "bandId": 4,
       "segments": [
@@ -6753,7 +6753,7 @@
       "sourceLengthSeconds": 107.04
     },
     {
-      "id": 716,
+      "id": 695,
       "sourceId": 716,
       "bandId": 4,
       "segments": [
@@ -6767,7 +6767,7 @@
       "sourceLengthSeconds": 118.536
     },
     {
-      "id": 321,
+      "id": 310,
       "sourceId": 321,
       "bandId": 21,
       "segments": [
@@ -6781,7 +6781,7 @@
       "sourceLengthSeconds": 126.264
     },
     {
-      "id": 66,
+      "id": 63,
       "sourceId": 66,
       "bandId": 2,
       "segments": [
@@ -6795,7 +6795,7 @@
       "sourceLengthSeconds": 95.4
     },
     {
-      "id": 202,
+      "id": 193,
       "sourceId": 202,
       "bandId": 1,
       "segments": [
@@ -6809,7 +6809,7 @@
       "sourceLengthSeconds": 116.52
     },
     {
-      "id": 318,
+      "id": 306,
       "sourceId": 318,
       "bandId": 1,
       "segments": [
@@ -6823,7 +6823,7 @@
       "sourceLengthSeconds": 103.44
     },
     {
-      "id": 760,
+      "id": 737,
       "sourceId": 760,
       "bandId": 99,
       "segments": [
@@ -6837,7 +6837,7 @@
       "sourceLengthSeconds": 104.328
     },
     {
-      "id": 232,
+      "id": 221,
       "sourceId": 232,
       "bandId": 1,
       "segments": [
@@ -6851,7 +6851,7 @@
       "sourceLengthSeconds": 92.712
     },
     {
-      "id": 117,
+      "id": 112,
       "sourceId": 117,
       "bandId": 2,
       "segments": [
@@ -6865,7 +6865,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 381,
+      "id": 365,
       "sourceId": 381,
       "bandId": 1,
       "segments": [
@@ -6879,7 +6879,7 @@
       "sourceLengthSeconds": 130.968
     },
     {
-      "id": 252,
+      "id": 240,
       "sourceId": 252,
       "bandId": 2,
       "segments": [
@@ -6893,7 +6893,7 @@
       "sourceLengthSeconds": 110.328
     },
     {
-      "id": 285,
+      "id": 274,
       "sourceId": 285,
       "bandId": 3,
       "segments": [
@@ -6907,7 +6907,7 @@
       "sourceLengthSeconds": 113.64
     },
     {
-      "id": 139,
+      "id": 132,
       "sourceId": 139,
       "bandId": 3,
       "segments": [
@@ -6921,7 +6921,7 @@
       "sourceLengthSeconds": 112.944
     },
     {
-      "id": 735,
+      "id": 712,
       "sourceId": 735,
       "bandId": 45,
       "segments": [
@@ -6935,7 +6935,7 @@
       "sourceLengthSeconds": 117.336
     },
     {
-      "id": 157,
+      "id": 151,
       "sourceId": 157,
       "bandId": 3,
       "segments": [
@@ -6949,7 +6949,7 @@
       "sourceLengthSeconds": 97.392
     },
     {
-      "id": 534,
+      "id": 513,
       "sourceId": 534,
       "bandId": 3,
       "segments": [
@@ -6963,7 +6963,7 @@
       "sourceLengthSeconds": 105.12
     },
     {
-      "id": 628,
+      "id": 605,
       "sourceId": 628,
       "bandId": 4,
       "segments": [
@@ -6988,14 +6988,11 @@
           "end": 131.136
         }
       ],
-      "difficultyDifferences": [
-        "0",
-        "2"
-      ],
+      "difficultyDifferences": ["0", "2"],
       "sourceLengthSeconds": 131.136
     },
     {
-      "id": 174,
+      "id": 165,
       "sourceId": 174,
       "bandId": 1,
       "segments": [
@@ -7009,7 +7006,7 @@
       "sourceLengthSeconds": 101.064
     },
     {
-      "id": 509,
+      "id": 493,
       "sourceId": 509,
       "bandId": 1,
       "segments": [
@@ -7023,7 +7020,7 @@
       "sourceLengthSeconds": 111
     },
     {
-      "id": 316,
+      "id": 305,
       "sourceId": 316,
       "bandId": 3,
       "segments": [
@@ -7037,7 +7034,7 @@
       "sourceLengthSeconds": 120.912
     },
     {
-      "id": 676,
+      "id": 655,
       "sourceId": 676,
       "bandId": 2,
       "segments": [
@@ -7051,7 +7048,7 @@
       "sourceLengthSeconds": 102.648
     },
     {
-      "id": 729,
+      "id": 706,
       "sourceId": 729,
       "bandId": 21,
       "segments": [
@@ -7065,7 +7062,7 @@
       "sourceLengthSeconds": 132.432
     },
     {
-      "id": 820,
+      "id": 792,
       "sourceId": 820,
       "bandId": 21,
       "segments": [
@@ -7079,7 +7076,7 @@
       "sourceLengthSeconds": 144.24
     },
     {
-      "id": 569,
+      "id": 548,
       "sourceId": 569,
       "bandId": 2,
       "segments": [
@@ -7093,7 +7090,7 @@
       "sourceLengthSeconds": 101.592
     },
     {
-      "id": 632,
+      "id": 609,
       "sourceId": 632,
       "bandId": 2,
       "segments": [
@@ -7107,7 +7104,7 @@
       "sourceLengthSeconds": 109.272
     },
     {
-      "id": 277,
+      "id": 267,
       "sourceId": 277,
       "bandId": 2,
       "segments": [
@@ -7121,7 +7118,7 @@
       "sourceLengthSeconds": 92.856
     },
     {
-      "id": 340,
+      "id": 329,
       "sourceId": 340,
       "bandId": 2,
       "segments": [
@@ -7135,7 +7132,7 @@
       "sourceLengthSeconds": 110.448
     },
     {
-      "id": 436,
+      "id": 423,
       "sourceId": 436,
       "bandId": 21,
       "segments": [
@@ -7149,7 +7146,7 @@
       "sourceLengthSeconds": 105.144
     },
     {
-      "id": 14,
+      "id": 21,
       "sourceId": 14,
       "bandId": 2,
       "segments": [
@@ -7163,7 +7160,7 @@
       "sourceLengthSeconds": 101.832
     },
     {
-      "id": 143,
+      "id": 134,
       "sourceId": 143,
       "bandId": 1,
       "segments": [
@@ -7177,7 +7174,7 @@
       "sourceLengthSeconds": 126.768
     },
     {
-      "id": 158,
+      "id": 148,
       "sourceId": 158,
       "bandId": 1,
       "segments": [
@@ -7191,7 +7188,7 @@
       "sourceLengthSeconds": 92.112
     },
     {
-      "id": 484,
+      "id": 466,
       "sourceId": 484,
       "bandId": 1,
       "segments": [
@@ -7205,7 +7202,7 @@
       "sourceLengthSeconds": 108
     },
     {
-      "id": 150,
+      "id": 141,
       "sourceId": 150,
       "bandId": 3,
       "segments": [
@@ -7219,7 +7216,7 @@
       "sourceLengthSeconds": 106.512
     },
     {
-      "id": 47,
+      "id": 38,
       "sourceId": 47,
       "bandId": 1,
       "segments": [
@@ -7233,7 +7230,7 @@
       "sourceLengthSeconds": 105.168
     },
     {
-      "id": 133,
+      "id": 125,
       "sourceId": 133,
       "bandId": 5,
       "segments": [
@@ -7262,7 +7259,7 @@
       "sourceLengthSeconds": 130.296
     },
     {
-      "id": 504,
+      "id": 487,
       "sourceId": 504,
       "bandId": 3,
       "segments": [
@@ -7276,7 +7273,7 @@
       "sourceLengthSeconds": 105.624
     },
     {
-      "id": 25,
+      "id": 2,
       "sourceId": 25,
       "bandId": 1,
       "segments": [
@@ -7290,7 +7287,7 @@
       "sourceLengthSeconds": 112.584
     },
     {
-      "id": 613,
+      "id": 590,
       "sourceId": 613,
       "bandId": 3,
       "segments": [
@@ -7318,7 +7315,7 @@
       "sourceLengthSeconds": 110.352
     },
     {
-      "id": 630,
+      "id": 607,
       "sourceId": 630,
       "bandId": 3,
       "segments": [
@@ -7332,7 +7329,7 @@
       "sourceLengthSeconds": 93.24
     },
     {
-      "id": 91,
+      "id": 79,
       "sourceId": 91,
       "bandId": 1,
       "segments": [
@@ -7351,7 +7348,7 @@
       "sourceLengthSeconds": 129.984
     },
     {
-      "id": 571,
+      "id": 552,
       "sourceId": 571,
       "bandId": 75,
       "segments": [
@@ -7365,7 +7362,7 @@
       "sourceLengthSeconds": 131.376
     },
     {
-      "id": 388,
+      "id": 376,
       "sourceId": 388,
       "bandId": 7,
       "segments": [
@@ -7379,7 +7376,7 @@
       "sourceLengthSeconds": 134.88
     },
     {
-      "id": 617,
+      "id": 594,
       "sourceId": 617,
       "bandId": 4,
       "segments": [
@@ -7393,7 +7390,7 @@
       "sourceLengthSeconds": 107.712
     },
     {
-      "id": 797,
+      "id": 772,
       "sourceId": 797,
       "bandId": 3,
       "segments": [
@@ -7407,7 +7404,7 @@
       "sourceLengthSeconds": 130.968
     },
     {
-      "id": 221,
+      "id": 210,
       "sourceId": 221,
       "bandId": 3,
       "segments": [
@@ -7421,7 +7418,7 @@
       "sourceLengthSeconds": 91.176
     },
     {
-      "id": 37,
+      "id": 36,
       "sourceId": 37,
       "bandId": 3,
       "segments": [
@@ -7435,7 +7432,7 @@
       "sourceLengthSeconds": 101.904
     },
     {
-      "id": 637,
+      "id": 615,
       "sourceId": 637,
       "bandId": 4,
       "segments": [
@@ -7449,7 +7446,7 @@
       "sourceLengthSeconds": 98.112
     },
     {
-      "id": 536,
+      "id": 515,
       "sourceId": 536,
       "bandId": 2,
       "segments": [
@@ -7463,7 +7460,7 @@
       "sourceLengthSeconds": 121.056
     },
     {
-      "id": 414,
+      "id": 401,
       "sourceId": 414,
       "bandId": 2,
       "segments": [
@@ -7477,7 +7474,7 @@
       "sourceLengthSeconds": 108.931
     },
     {
-      "id": 319,
+      "id": 308,
       "sourceId": 319,
       "bandId": 2,
       "segments": [
@@ -7491,7 +7488,7 @@
       "sourceLengthSeconds": 133.872
     },
     {
-      "id": 607,
+      "id": 583,
       "sourceId": 607,
       "bandId": 3,
       "segments": [
@@ -7505,7 +7502,7 @@
       "sourceLengthSeconds": 106.104
     },
     {
-      "id": 655,
+      "id": 634,
       "sourceId": 655,
       "bandId": 82,
       "segments": [
@@ -7519,7 +7516,7 @@
       "sourceLengthSeconds": 97.104
     },
     {
-      "id": 137,
+      "id": 128,
       "sourceId": 137,
       "bandId": 5,
       "segments": [
@@ -7533,7 +7530,7 @@
       "sourceLengthSeconds": 97.704
     },
     {
-      "id": 20,
+      "id": 27,
       "sourceId": 20,
       "bandId": 3,
       "segments": [
@@ -7547,7 +7544,7 @@
       "sourceLengthSeconds": 110.976
     },
     {
-      "id": 22,
+      "id": 33,
       "sourceId": 22,
       "bandId": 3,
       "segments": [
@@ -7561,7 +7558,7 @@
       "sourceLengthSeconds": 113.544
     },
     {
-      "id": 389,
+      "id": 373,
       "sourceId": 389,
       "bandId": 41,
       "segments": [
@@ -7575,7 +7572,7 @@
       "sourceLengthSeconds": 121.416
     },
     {
-      "id": 462,
+      "id": 448,
       "sourceId": 462,
       "bandId": 51,
       "segments": [
@@ -7589,7 +7586,7 @@
       "sourceLengthSeconds": 121.416
     },
     {
-      "id": 450,
+      "id": 438,
       "sourceId": 450,
       "bandId": 49,
       "segments": [
@@ -7603,7 +7600,7 @@
       "sourceLengthSeconds": 125.088
     },
     {
-      "id": 723,
+      "id": 701,
       "sourceId": 723,
       "bandId": 4,
       "segments": [
@@ -7617,7 +7614,7 @@
       "sourceLengthSeconds": 128.52
     },
     {
-      "id": 720,
+      "id": 698,
       "sourceId": 720,
       "bandId": 3,
       "segments": [
@@ -7631,7 +7628,7 @@
       "sourceLengthSeconds": 109.44
     },
     {
-      "id": 461,
+      "id": 447,
       "sourceId": 461,
       "bandId": 1,
       "segments": [
@@ -7645,7 +7642,7 @@
       "sourceLengthSeconds": 132.72
     },
     {
-      "id": 804,
+      "id": 780,
       "sourceId": 804,
       "bandId": 1,
       "segments": [
@@ -7659,7 +7656,7 @@
       "sourceLengthSeconds": 136.728
     },
     {
-      "id": 750,
+      "id": 728,
       "sourceId": 750,
       "bandId": 3,
       "segments": [
@@ -7673,7 +7670,7 @@
       "sourceLengthSeconds": 123.336
     },
     {
-      "id": 212,
+      "id": 202,
       "sourceId": 212,
       "bandId": 3,
       "segments": [
@@ -7687,7 +7684,7 @@
       "sourceLengthSeconds": 113.712
     },
     {
-      "id": 296,
+      "id": 281,
       "sourceId": 296,
       "bandId": 1,
       "segments": [
@@ -7746,7 +7743,7 @@
       "sourceLengthSeconds": 128.376
     },
     {
-      "id": 148,
+      "id": 139,
       "sourceId": 148,
       "bandId": 4,
       "segments": [
@@ -7774,7 +7771,7 @@
       "sourceLengthSeconds": 133.152
     },
     {
-      "id": 482,
+      "id": 470,
       "sourceId": 482,
       "bandId": 3,
       "segments": [
@@ -7788,7 +7785,7 @@
       "sourceLengthSeconds": 124.776
     },
     {
-      "id": 196,
+      "id": 186,
       "sourceId": 196,
       "bandId": 1,
       "segments": [
@@ -7802,7 +7799,7 @@
       "sourceLengthSeconds": 106.176
     },
     {
-      "id": 497,
+      "id": 479,
       "sourceId": 497,
       "bandId": 64,
       "segments": [
@@ -7816,7 +7813,7 @@
       "sourceLengthSeconds": 100.632
     },
     {
-      "id": 58,
+      "id": 61,
       "sourceId": 58,
       "bandId": 11,
       "segments": [
@@ -7830,7 +7827,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 529,
+      "id": 509,
       "sourceId": 529,
       "bandId": 2,
       "segments": [
@@ -7844,7 +7841,7 @@
       "sourceLengthSeconds": 122.976
     },
     {
-      "id": 161,
+      "id": 152,
       "sourceId": 161,
       "bandId": 5,
       "segments": [
@@ -7863,7 +7860,7 @@
       "sourceLengthSeconds": 112.512
     },
     {
-      "id": 144,
+      "id": 135,
       "sourceId": 144,
       "bandId": 2,
       "segments": [
@@ -7891,7 +7888,7 @@
       "sourceLengthSeconds": 150.312
     },
     {
-      "id": 636,
+      "id": 614,
       "sourceId": 636,
       "bandId": 21,
       "segments": [
@@ -7930,7 +7927,7 @@
       "sourceLengthSeconds": 104.376
     },
     {
-      "id": 552,
+      "id": 531,
       "sourceId": 552,
       "bandId": 2,
       "segments": [
@@ -7944,7 +7941,7 @@
       "sourceLengthSeconds": 106.872
     },
     {
-      "id": 199,
+      "id": 190,
       "sourceId": 199,
       "bandId": 1,
       "segments": [
@@ -7958,7 +7955,7 @@
       "sourceLengthSeconds": 111
     },
     {
-      "id": 687,
+      "id": 665,
       "sourceId": 687,
       "bandId": 4,
       "segments": [
@@ -7972,7 +7969,7 @@
       "sourceLengthSeconds": 116.64
     },
     {
-      "id": 759,
+      "id": 736,
       "sourceId": 759,
       "bandId": 98,
       "segments": [
@@ -7986,7 +7983,7 @@
       "sourceLengthSeconds": 117.72
     },
     {
-      "id": 538,
+      "id": 517,
       "sourceId": 538,
       "bandId": 1,
       "segments": [
@@ -8000,7 +7997,7 @@
       "sourceLengthSeconds": 112.176
     },
     {
-      "id": 604,
+      "id": 580,
       "sourceId": 604,
       "bandId": 4,
       "segments": [
@@ -8014,7 +8011,7 @@
       "sourceLengthSeconds": 111.96
     },
     {
-      "id": 599,
+      "id": 575,
       "sourceId": 599,
       "bandId": 1,
       "segments": [
@@ -8028,7 +8025,7 @@
       "sourceLengthSeconds": 119.328
     },
     {
-      "id": 423,
+      "id": 409,
       "sourceId": 423,
       "bandId": 2,
       "segments": [
@@ -8042,7 +8039,7 @@
       "sourceLengthSeconds": 110.496
     },
     {
-      "id": 582,
+      "id": 559,
       "sourceId": 582,
       "bandId": 4,
       "segments": [
@@ -8056,7 +8053,7 @@
       "sourceLengthSeconds": 113.568
     },
     {
-      "id": 308,
+      "id": 297,
       "sourceId": 308,
       "bandId": 7,
       "segments": [
@@ -8070,7 +8067,7 @@
       "sourceLengthSeconds": 124.08
     },
     {
-      "id": 19,
+      "id": 24,
       "sourceId": 19,
       "bandId": 4,
       "segments": [
@@ -8084,7 +8081,7 @@
       "sourceLengthSeconds": 107.64
     },
     {
-      "id": 246,
+      "id": 235,
       "sourceId": 246,
       "bandId": 3,
       "segments": [
@@ -8098,7 +8095,7 @@
       "sourceLengthSeconds": 107.592
     },
     {
-      "id": 366,
+      "id": 360,
       "sourceId": 366,
       "bandId": 33,
       "segments": [
@@ -8112,7 +8109,7 @@
       "sourceLengthSeconds": 101.496
     },
     {
-      "id": 274,
+      "id": 263,
       "sourceId": 274,
       "bandId": 4,
       "segments": [
@@ -8126,7 +8123,7 @@
       "sourceLengthSeconds": 104.784
     },
     {
-      "id": 590,
+      "id": 570,
       "sourceId": 590,
       "bandId": 45,
       "segments": [
@@ -8140,7 +8137,7 @@
       "sourceLengthSeconds": 131.4
     },
     {
-      "id": 191,
+      "id": 182,
       "sourceId": 191,
       "bandId": 3,
       "segments": [
@@ -8154,7 +8151,7 @@
       "sourceLengthSeconds": 97.272
     },
     {
-      "id": 641,
+      "id": 619,
       "sourceId": 641,
       "bandId": 3,
       "segments": [
@@ -8168,7 +8165,7 @@
       "sourceLengthSeconds": 113.52
     },
     {
-      "id": 132,
+      "id": 122,
       "sourceId": 132,
       "bandId": 3,
       "segments": [
@@ -8182,7 +8179,7 @@
       "sourceLengthSeconds": 117.624
     },
     {
-      "id": 331,
+      "id": 320,
       "sourceId": 331,
       "bandId": 2,
       "segments": [
@@ -8196,7 +8193,7 @@
       "sourceLengthSeconds": 114.504
     },
     {
-      "id": 392,
+      "id": 379,
       "sourceId": 392,
       "bandId": 3,
       "segments": [
@@ -8210,7 +8207,7 @@
       "sourceLengthSeconds": 124.488
     },
     {
-      "id": 52,
+      "id": 47,
       "sourceId": 52,
       "bandId": 3,
       "segments": [
@@ -8224,7 +8221,7 @@
       "sourceLengthSeconds": 110.688
     },
     {
-      "id": 85,
+      "id": 84,
       "sourceId": 85,
       "bandId": 4,
       "segments": [
@@ -8238,7 +8235,7 @@
       "sourceLengthSeconds": 141.792
     },
     {
-      "id": 437,
+      "id": 424,
       "sourceId": 437,
       "bandId": 4,
       "segments": [
@@ -8252,7 +8249,7 @@
       "sourceLengthSeconds": 109.944
     },
     {
-      "id": 36,
+      "id": 18,
       "sourceId": 36,
       "bandId": 3,
       "segments": [
@@ -8266,7 +8263,7 @@
       "sourceLengthSeconds": 101.064
     },
     {
-      "id": 424,
+      "id": 412,
       "sourceId": 424,
       "bandId": 4,
       "segments": [
@@ -8290,7 +8287,7 @@
       "sourceLengthSeconds": 123.48
     },
     {
-      "id": 108,
+      "id": 99,
       "sourceId": 108,
       "bandId": 15,
       "segments": [
@@ -8304,7 +8301,7 @@
       "sourceLengthSeconds": 139.584
     },
     {
-      "id": 300,
+      "id": 288,
       "sourceId": 300,
       "bandId": 21,
       "segments": [
@@ -8318,7 +8315,7 @@
       "sourceLengthSeconds": 97.632
     },
     {
-      "id": 33,
+      "id": 14,
       "sourceId": 33,
       "bandId": 4,
       "segments": [
@@ -8332,7 +8329,7 @@
       "sourceLengthSeconds": 105.072
     },
     {
-      "id": 370,
+      "id": 362,
       "sourceId": 370,
       "bandId": 4,
       "segments": [
@@ -8346,7 +8343,7 @@
       "sourceLengthSeconds": 104.52
     },
     {
-      "id": 787,
+      "id": 764,
       "sourceId": 787,
       "bandId": 4,
       "segments": [
@@ -8360,7 +8357,7 @@
       "sourceLengthSeconds": 120.96
     },
     {
-      "id": 384,
+      "id": 374,
       "sourceId": 384,
       "bandId": 42,
       "segments": [
@@ -8374,7 +8371,7 @@
       "sourceLengthSeconds": 128.784
     },
     {
-      "id": 272,
+      "id": 262,
       "sourceId": 272,
       "bandId": 18,
       "segments": [
@@ -8388,7 +8385,7 @@
       "sourceLengthSeconds": 97.296
     },
     {
-      "id": 537,
+      "id": 516,
       "sourceId": 537,
       "bandId": 5,
       "segments": [
@@ -8402,7 +8399,7 @@
       "sourceLengthSeconds": 124.872
     },
     {
-      "id": 429,
+      "id": 419,
       "sourceId": 429,
       "bandId": 3,
       "segments": [
@@ -8416,7 +8413,7 @@
       "sourceLengthSeconds": 132.672
     },
     {
-      "id": 345,
+      "id": 334,
       "sourceId": 345,
       "bandId": 2,
       "segments": [
@@ -8430,7 +8427,7 @@
       "sourceLengthSeconds": 117.048
     },
     {
-      "id": 494,
+      "id": 477,
       "sourceId": 494,
       "bandId": 1,
       "segments": [
@@ -8444,7 +8441,7 @@
       "sourceLengthSeconds": 95.4
     },
     {
-      "id": 728,
+      "id": 705,
       "sourceId": 728,
       "bandId": 21,
       "segments": [
@@ -8458,7 +8455,7 @@
       "sourceLengthSeconds": 121.872
     },
     {
-      "id": 364,
+      "id": 353,
       "sourceId": 364,
       "bandId": 32,
       "segments": [
@@ -8477,7 +8474,7 @@
       "sourceLengthSeconds": 107.568
     },
     {
-      "id": 131,
+      "id": 121,
       "sourceId": 131,
       "bandId": 16,
       "segments": [
@@ -8491,7 +8488,7 @@
       "sourceLengthSeconds": 113.736
     },
     {
-      "id": 508,
+      "id": 492,
       "sourceId": 508,
       "bandId": 5,
       "segments": [
@@ -8505,7 +8502,7 @@
       "sourceLengthSeconds": 101.016
     },
     {
-      "id": 639,
+      "id": 617,
       "sourceId": 639,
       "bandId": 5,
       "segments": [
@@ -8519,7 +8516,7 @@
       "sourceLengthSeconds": 97.752
     },
     {
-      "id": 218,
+      "id": 207,
       "sourceId": 218,
       "bandId": 5,
       "segments": [
@@ -8533,7 +8530,7 @@
       "sourceLengthSeconds": 95.928
     },
     {
-      "id": 367,
+      "id": 356,
       "sourceId": 367,
       "bandId": 35,
       "segments": [
@@ -8552,7 +8549,7 @@
       "sourceLengthSeconds": 136.968
     },
     {
-      "id": 678,
+      "id": 658,
       "sourceId": 678,
       "bandId": 1,
       "segments": [
@@ -8566,7 +8563,7 @@
       "sourceLengthSeconds": 110.784
     },
     {
-      "id": 466,
+      "id": 452,
       "sourceId": 466,
       "bandId": 54,
       "segments": [
@@ -8580,7 +8577,7 @@
       "sourceLengthSeconds": 144.768
     },
     {
-      "id": 603,
+      "id": 587,
       "sourceId": 603,
       "bandId": 4,
       "segments": [
@@ -8594,7 +8591,7 @@
       "sourceLengthSeconds": 108.48
     },
     {
-      "id": 292,
+      "id": 293,
       "sourceId": 292,
       "bandId": 18,
       "segments": [
@@ -8608,7 +8605,7 @@
       "sourceLengthSeconds": 127.728
     },
     {
-      "id": 225,
+      "id": 214,
       "sourceId": 225,
       "bandId": 1,
       "segments": [
@@ -8622,7 +8619,7 @@
       "sourceLengthSeconds": 100.32
     },
     {
-      "id": 263,
+      "id": 251,
       "sourceId": 263,
       "bandId": 21,
       "segments": [
@@ -8636,7 +8633,7 @@
       "sourceLengthSeconds": 110.064
     },
     {
-      "id": 83,
+      "id": 93,
       "sourceId": 83,
       "bandId": 2,
       "segments": [
@@ -8650,7 +8647,7 @@
       "sourceLengthSeconds": 107.088
     },
     {
-      "id": 376,
+      "id": 361,
       "sourceId": 376,
       "bandId": 2,
       "segments": [
@@ -8664,7 +8661,7 @@
       "sourceLengthSeconds": 105.84
     },
     {
-      "id": 510,
+      "id": 495,
       "sourceId": 510,
       "bandId": 2,
       "segments": [
@@ -8678,7 +8675,7 @@
       "sourceLengthSeconds": 100.608
     },
     {
-      "id": 645,
+      "id": 623,
       "sourceId": 645,
       "bandId": 4,
       "segments": [
@@ -8692,7 +8689,7 @@
       "sourceLengthSeconds": 111.36
     },
     {
-      "id": 568,
+      "id": 547,
       "sourceId": 568,
       "bandId": 45,
       "segments": [
@@ -8751,7 +8748,7 @@
       "sourceLengthSeconds": 124.704
     },
     {
-      "id": 523,
+      "id": 504,
       "sourceId": 523,
       "bandId": 3,
       "segments": [
@@ -8765,7 +8762,7 @@
       "sourceLengthSeconds": 103.2
     },
     {
-      "id": 427,
+      "id": 416,
       "sourceId": 427,
       "bandId": 21,
       "segments": [
@@ -8779,7 +8776,7 @@
       "sourceLengthSeconds": 128.832
     },
     {
-      "id": 593,
+      "id": 573,
       "sourceId": 593,
       "bandId": 18,
       "segments": [
@@ -8793,7 +8790,7 @@
       "sourceLengthSeconds": 123.6
     },
     {
-      "id": 807,
+      "id": 783,
       "sourceId": 807,
       "bandId": 4,
       "segments": [
@@ -8807,7 +8804,7 @@
       "sourceLengthSeconds": 111.048
     },
     {
-      "id": 757,
+      "id": 741,
       "sourceId": 757,
       "bandId": 3,
       "segments": [
@@ -8821,7 +8818,7 @@
       "sourceLengthSeconds": 112.512
     },
     {
-      "id": 658,
+      "id": 637,
       "sourceId": 658,
       "bandId": 84,
       "segments": [
@@ -8835,7 +8832,7 @@
       "sourceLengthSeconds": 152.232
     },
     {
-      "id": 458,
+      "id": 444,
       "sourceId": 458,
       "bandId": 3,
       "segments": [
@@ -8849,7 +8846,7 @@
       "sourceLengthSeconds": 128.064
     },
     {
-      "id": 209,
+      "id": 199,
       "sourceId": 209,
       "bandId": 1,
       "segments": [
@@ -8863,7 +8860,7 @@
       "sourceLengthSeconds": 124.512
     },
     {
-      "id": 265,
+      "id": 253,
       "sourceId": 265,
       "bandId": 1,
       "segments": [
@@ -8877,7 +8874,7 @@
       "sourceLengthSeconds": 108.48
     },
     {
-      "id": 751,
+      "id": 729,
       "sourceId": 751,
       "bandId": 3,
       "segments": [
@@ -8891,7 +8888,7 @@
       "sourceLengthSeconds": 145.176
     },
     {
-      "id": 307,
+      "id": 296,
       "sourceId": 307,
       "bandId": 26,
       "segments": [
@@ -8905,7 +8902,7 @@
       "sourceLengthSeconds": 125.136
     },
     {
-      "id": 426,
+      "id": 415,
       "sourceId": 426,
       "bandId": 18,
       "segments": [
@@ -8919,7 +8916,7 @@
       "sourceLengthSeconds": 117.528
     },
     {
-      "id": 100,
+      "id": 94,
       "sourceId": 100,
       "bandId": 1,
       "segments": [
@@ -8933,7 +8930,7 @@
       "sourceLengthSeconds": 116.64
     },
     {
-      "id": 605,
+      "id": 581,
       "sourceId": 605,
       "bandId": 21,
       "segments": [
@@ -8947,7 +8944,7 @@
       "sourceLengthSeconds": 105.48
     },
     {
-      "id": 257,
+      "id": 245,
       "sourceId": 257,
       "bandId": 21,
       "segments": [
@@ -8961,7 +8958,7 @@
       "sourceLengthSeconds": 112.296
     },
     {
-      "id": 775,
+      "id": 752,
       "sourceId": 775,
       "bandId": 21,
       "segments": [
@@ -8975,7 +8972,7 @@
       "sourceLengthSeconds": 115.92
     },
     {
-      "id": 404,
+      "id": 392,
       "sourceId": 404,
       "bandId": 2,
       "segments": [
@@ -8989,7 +8986,7 @@
       "sourceLengthSeconds": 127.08
     },
     {
-      "id": 357,
+      "id": 344,
       "sourceId": 357,
       "bandId": 30,
       "segments": [
@@ -9003,7 +9000,7 @@
       "sourceLengthSeconds": 99.24
     },
     {
-      "id": 336,
+      "id": 325,
       "sourceId": 336,
       "bandId": 4,
       "segments": [
@@ -9017,7 +9014,7 @@
       "sourceLengthSeconds": 105.384
     },
     {
-      "id": 795,
+      "id": 770,
       "sourceId": 795,
       "bandId": 2,
       "segments": [
@@ -9031,7 +9028,7 @@
       "sourceLengthSeconds": 136.488
     },
     {
-      "id": 156,
+      "id": 147,
       "sourceId": 156,
       "bandId": 2,
       "segments": [
@@ -9050,7 +9047,7 @@
       "sourceLengthSeconds": 117.264
     },
     {
-      "id": 260,
+      "id": 249,
       "sourceId": 260,
       "bandId": 4,
       "segments": [
@@ -9064,7 +9061,7 @@
       "sourceLengthSeconds": 127.944
     },
     {
-      "id": 253,
+      "id": 243,
       "sourceId": 253,
       "bandId": 2,
       "segments": [
@@ -9078,7 +9075,7 @@
       "sourceLengthSeconds": 108.864
     },
     {
-      "id": 704,
+      "id": 671,
       "sourceId": 704,
       "bandId": 1,
       "segments": [
@@ -9092,7 +9089,7 @@
       "sourceLengthSeconds": 117.624
     },
     {
-      "id": 140,
+      "id": 131,
       "sourceId": 140,
       "bandId": 2,
       "segments": [
@@ -9106,7 +9103,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 138,
+      "id": 133,
       "sourceId": 138,
       "bandId": 1,
       "segments": [
@@ -9120,7 +9117,7 @@
       "sourceLengthSeconds": 113.712
     },
     {
-      "id": 77,
+      "id": 73,
       "sourceId": 77,
       "bandId": 3,
       "segments": [
@@ -9134,7 +9131,7 @@
       "sourceLengthSeconds": 127.776
     },
     {
-      "id": 193,
+      "id": 184,
       "sourceId": 193,
       "bandId": 4,
       "segments": [
@@ -9148,7 +9145,7 @@
       "sourceLengthSeconds": 104.304
     },
     {
-      "id": 358,
+      "id": 348,
       "sourceId": 358,
       "bandId": 3,
       "segments": [
@@ -9162,7 +9159,7 @@
       "sourceLengthSeconds": 102.624
     },
     {
-      "id": 403,
+      "id": 391,
       "sourceId": 403,
       "bandId": 1,
       "segments": [
@@ -9176,7 +9173,7 @@
       "sourceLengthSeconds": 137.616
     },
     {
-      "id": 547,
+      "id": 526,
       "sourceId": 547,
       "bandId": 2,
       "segments": [
@@ -9190,7 +9187,7 @@
       "sourceLengthSeconds": 112.992
     },
     {
-      "id": 473,
+      "id": 459,
       "sourceId": 473,
       "bandId": 5,
       "segments": [
@@ -9204,7 +9201,7 @@
       "sourceLengthSeconds": 112.272
     },
     {
-      "id": 208,
+      "id": 197,
       "sourceId": 208,
       "bandId": 3,
       "segments": [
@@ -9228,7 +9225,7 @@
       "sourceLengthSeconds": 104.376
     },
     {
-      "id": 79,
+      "id": 75,
       "sourceId": 79,
       "bandId": 4,
       "segments": [
@@ -9242,7 +9239,7 @@
       "sourceLengthSeconds": 116.376
     },
     {
-      "id": 741,
+      "id": 719,
       "sourceId": 741,
       "bandId": 1,
       "segments": [
@@ -9256,7 +9253,7 @@
       "sourceLengthSeconds": 105.216
     },
     {
-      "id": 601,
+      "id": 577,
       "sourceId": 601,
       "bandId": 21,
       "segments": [
@@ -9270,7 +9267,7 @@
       "sourceLengthSeconds": 99.816
     },
     {
-      "id": 464,
+      "id": 450,
       "sourceId": 464,
       "bandId": 52,
       "segments": [
@@ -9284,7 +9281,7 @@
       "sourceLengthSeconds": 122.928
     },
     {
-      "id": 589,
+      "id": 569,
       "sourceId": 589,
       "bandId": 5,
       "segments": [
@@ -9298,7 +9295,7 @@
       "sourceLengthSeconds": 113.784
     },
     {
-      "id": 122,
+      "id": 109,
       "sourceId": 122,
       "bandId": 1,
       "segments": [
@@ -9312,7 +9309,7 @@
       "sourceLengthSeconds": 109.2
     },
     {
-      "id": 478,
+      "id": 464,
       "sourceId": 478,
       "bandId": 59,
       "segments": [
@@ -9326,7 +9323,7 @@
       "sourceLengthSeconds": 135.144
     },
     {
-      "id": 629,
+      "id": 606,
       "sourceId": 629,
       "bandId": 5,
       "segments": [
@@ -9356,14 +9353,11 @@
           "end": 130.464
         }
       ],
-      "difficultyDifferences": [
-        "0",
-        "1"
-      ],
+      "difficultyDifferences": ["0", "1"],
       "sourceLengthSeconds": 130.464
     },
     {
-      "id": 740,
+      "id": 718,
       "sourceId": 740,
       "bandId": 91,
       "segments": [
@@ -9377,7 +9371,7 @@
       "sourceLengthSeconds": 109.248
     },
     {
-      "id": 42,
+      "id": 31,
       "sourceId": 42,
       "bandId": 1,
       "segments": [
@@ -9391,7 +9385,7 @@
       "sourceLengthSeconds": 115.056
     },
     {
-      "id": 231,
+      "id": 220,
       "sourceId": 231,
       "bandId": 3,
       "segments": [
@@ -9405,7 +9399,7 @@
       "sourceLengthSeconds": 105.72
     },
     {
-      "id": 64,
+      "id": 58,
       "sourceId": 64,
       "bandId": 1,
       "segments": [
@@ -9419,7 +9413,7 @@
       "sourceLengthSeconds": 115.056
     },
     {
-      "id": 682,
+      "id": 662,
       "sourceId": 682,
       "bandId": 46,
       "segments": [
@@ -9463,7 +9457,7 @@
       "sourceLengthSeconds": 104.904
     },
     {
-      "id": 128,
+      "id": 116,
       "sourceId": 128,
       "bandId": 5,
       "segments": [
@@ -9482,7 +9476,7 @@
       "sourceLengthSeconds": 103.848
     },
     {
-      "id": 553,
+      "id": 535,
       "sourceId": 553,
       "bandId": 45,
       "segments": [
@@ -9496,7 +9490,7 @@
       "sourceLengthSeconds": 92.424
     },
     {
-      "id": 211,
+      "id": 201,
       "sourceId": 211,
       "bandId": 1,
       "segments": [
@@ -9510,7 +9504,7 @@
       "sourceLengthSeconds": 110.88
     },
     {
-      "id": 43,
+      "id": 32,
       "sourceId": 43,
       "bandId": 1,
       "segments": [
@@ -9524,7 +9518,7 @@
       "sourceLengthSeconds": 135.048
     },
     {
-      "id": 236,
+      "id": 225,
       "sourceId": 236,
       "bandId": 22,
       "segments": [
@@ -9563,7 +9557,7 @@
       "sourceLengthSeconds": 111.48
     },
     {
-      "id": 283,
+      "id": 272,
       "sourceId": 283,
       "bandId": 18,
       "segments": [
@@ -9577,7 +9571,7 @@
       "sourceLengthSeconds": 138.816
     },
     {
-      "id": 814,
+      "id": 790,
       "sourceId": 814,
       "bandId": 5,
       "segments": [
@@ -9591,7 +9585,7 @@
       "sourceLengthSeconds": 137.328
     },
     {
-      "id": 371,
+      "id": 363,
       "sourceId": 371,
       "bandId": 1,
       "segments": [
@@ -9605,7 +9599,7 @@
       "sourceLengthSeconds": 111.48
     },
     {
-      "id": 627,
+      "id": 604,
       "sourceId": 627,
       "bandId": 21,
       "segments": [
@@ -9619,7 +9613,7 @@
       "sourceLengthSeconds": 110.832
     },
     {
-      "id": 817,
+      "id": 794,
       "sourceId": 817,
       "bandId": 2,
       "segments": [
@@ -9633,7 +9627,7 @@
       "sourceLengthSeconds": 151.824
     },
     {
-      "id": 81,
+      "id": 77,
       "sourceId": 81,
       "bandId": 1,
       "segments": [
@@ -9647,7 +9641,7 @@
       "sourceLengthSeconds": 101.352
     },
     {
-      "id": 195,
+      "id": 187,
       "sourceId": 195,
       "bandId": 2,
       "segments": [
@@ -9661,7 +9655,7 @@
       "sourceLengthSeconds": 99.096
     },
     {
-      "id": 533,
+      "id": 512,
       "sourceId": 533,
       "bandId": 67,
       "segments": [
@@ -9675,7 +9669,7 @@
       "sourceLengthSeconds": 122.304
     },
     {
-      "id": 281,
+      "id": 270,
       "sourceId": 281,
       "bandId": 5,
       "segments": [
@@ -9689,7 +9683,7 @@
       "sourceLengthSeconds": 118.344
     },
     {
-      "id": 165,
+      "id": 156,
       "sourceId": 165,
       "bandId": 5,
       "segments": [
@@ -9703,7 +9697,7 @@
       "sourceLengthSeconds": 116.064
     },
     {
-      "id": 624,
+      "id": 597,
       "sourceId": 624,
       "bandId": 45,
       "segments": [
@@ -9717,7 +9711,7 @@
       "sourceLengthSeconds": 113.112
     },
     {
-      "id": 86,
+      "id": 88,
       "sourceId": 86,
       "bandId": 1,
       "segments": [
@@ -9731,7 +9725,7 @@
       "sourceLengthSeconds": 101.736
     },
     {
-      "id": 151,
+      "id": 142,
       "sourceId": 151,
       "bandId": 1,
       "segments": [
@@ -9745,7 +9739,7 @@
       "sourceLengthSeconds": 119.232
     },
     {
-      "id": 479,
+      "id": 467,
       "sourceId": 479,
       "bandId": 2,
       "segments": [
@@ -9759,7 +9753,7 @@
       "sourceLengthSeconds": 109.872
     },
     {
-      "id": 166,
+      "id": 157,
       "sourceId": 166,
       "bandId": 3,
       "segments": [
@@ -9773,7 +9767,7 @@
       "sourceLengthSeconds": 99.048
     },
     {
-      "id": 512,
+      "id": 489,
       "sourceId": 512,
       "bandId": 45,
       "segments": [
@@ -9808,13 +9802,11 @@
           "end": 92.424
         }
       ],
-      "difficultyDifferences": [
-        "2"
-      ],
+      "difficultyDifferences": ["2"],
       "sourceLengthSeconds": 92.424
     },
     {
-      "id": 354,
+      "id": 343,
       "sourceId": 354,
       "bandId": 1,
       "segments": [
@@ -9828,7 +9820,7 @@
       "sourceLengthSeconds": 109.944
     },
     {
-      "id": 61,
+      "id": 55,
       "sourceId": 61,
       "bandId": 1,
       "segments": [
@@ -9842,7 +9834,7 @@
       "sourceLengthSeconds": 110.304
     },
     {
-      "id": 136,
+      "id": 126,
       "sourceId": 136,
       "bandId": 1,
       "segments": [
@@ -9861,7 +9853,7 @@
       "sourceLengthSeconds": 125.904
     },
     {
-      "id": 5,
+      "id": 7,
       "sourceId": 5,
       "bandId": 1,
       "segments": [
@@ -9875,7 +9867,7 @@
       "sourceLengthSeconds": 146.184
     },
     {
-      "id": 805,
+      "id": 781,
       "sourceId": 805,
       "bandId": 2,
       "segments": [
@@ -9889,7 +9881,7 @@
       "sourceLengthSeconds": 109.392
     },
     {
-      "id": 317,
+      "id": 307,
       "sourceId": 317,
       "bandId": 4,
       "segments": [
@@ -9903,7 +9895,7 @@
       "sourceLengthSeconds": 121.896
     },
     {
-      "id": 173,
+      "id": 164,
       "sourceId": 173,
       "bandId": 1,
       "segments": [
@@ -9917,7 +9909,7 @@
       "sourceLengthSeconds": 105.504
     },
     {
-      "id": 45,
+      "id": 39,
       "sourceId": 45,
       "bandId": 1,
       "segments": [
@@ -9931,7 +9923,7 @@
       "sourceLengthSeconds": 128.856
     },
     {
-      "id": 239,
+      "id": 228,
       "sourceId": 239,
       "bandId": 1,
       "segments": [
@@ -9970,7 +9962,7 @@
       "sourceLengthSeconds": 92.136
     },
     {
-      "id": 433,
+      "id": 420,
       "sourceId": 433,
       "bandId": 1,
       "segments": [
@@ -9984,7 +9976,7 @@
       "sourceLengthSeconds": 109.152
     },
     {
-      "id": 343,
+      "id": 331,
       "sourceId": 343,
       "bandId": 1,
       "segments": [
@@ -9998,7 +9990,7 @@
       "sourceLengthSeconds": 93.168
     },
     {
-      "id": 268,
+      "id": 257,
       "sourceId": 268,
       "bandId": 16,
       "segments": [
@@ -10017,7 +10009,7 @@
       "sourceLengthSeconds": 111.864
     },
     {
-      "id": 233,
+      "id": 224,
       "sourceId": 233,
       "bandId": 2,
       "segments": [
@@ -10031,7 +10023,7 @@
       "sourceLengthSeconds": 110.472
     },
     {
-      "id": 125,
+      "id": 104,
       "sourceId": 125,
       "bandId": 4,
       "segments": [
@@ -10045,7 +10037,7 @@
       "sourceLengthSeconds": 91.032
     },
     {
-      "id": 49,
+      "id": 42,
       "sourceId": 49,
       "bandId": 7,
       "segments": [
@@ -10059,7 +10051,7 @@
       "sourceLengthSeconds": 111.84
     },
     {
-      "id": 686,
+      "id": 667,
       "sourceId": 686,
       "bandId": 46,
       "segments": [
@@ -10078,7 +10070,7 @@
       "sourceLengthSeconds": 134.808
     },
     {
-      "id": 127,
+      "id": 115,
       "sourceId": 127,
       "bandId": 3,
       "segments": [
@@ -10092,7 +10084,7 @@
       "sourceLengthSeconds": 98.232
     },
     {
-      "id": 162,
+      "id": 153,
       "sourceId": 162,
       "bandId": 4,
       "segments": [
@@ -10106,7 +10098,7 @@
       "sourceLengthSeconds": 121.656
     },
     {
-      "id": 305,
+      "id": 292,
       "sourceId": 305,
       "bandId": 3,
       "segments": [
@@ -10120,7 +10112,7 @@
       "sourceLengthSeconds": 125.808
     },
     {
-      "id": 810,
+      "id": 786,
       "sourceId": 810,
       "bandId": 3,
       "segments": [
@@ -10134,7 +10126,7 @@
       "sourceLengthSeconds": 108.72
     },
     {
-      "id": 727,
+      "id": 704,
       "sourceId": 727,
       "bandId": 2,
       "segments": [
@@ -10148,7 +10140,7 @@
       "sourceLengthSeconds": 133.992
     },
     {
-      "id": 435,
+      "id": 422,
       "sourceId": 435,
       "bandId": 21,
       "segments": [
@@ -10162,7 +10154,7 @@
       "sourceLengthSeconds": 111.576
     },
     {
-      "id": 496,
+      "id": 478,
       "sourceId": 496,
       "bandId": 63,
       "segments": [
@@ -10176,7 +10168,7 @@
       "sourceLengthSeconds": 128.856
     },
     {
-      "id": 653,
+      "id": 632,
       "sourceId": 653,
       "bandId": 81,
       "segments": [
@@ -10195,7 +10187,7 @@
       "sourceLengthSeconds": 106.512
     },
     {
-      "id": 411,
+      "id": 389,
       "sourceId": 411,
       "bandId": 5,
       "segments": [
@@ -10209,7 +10201,7 @@
       "sourceLengthSeconds": 98.664
     },
     {
-      "id": 567,
+      "id": 544,
       "sourceId": 567,
       "bandId": 3,
       "segments": [
@@ -10223,7 +10215,7 @@
       "sourceLengthSeconds": 129.84
     },
     {
-      "id": 540,
+      "id": 520,
       "sourceId": 540,
       "bandId": 45,
       "segments": [
@@ -10237,7 +10229,7 @@
       "sourceLengthSeconds": 92.592
     },
     {
-      "id": 719,
+      "id": 697,
       "sourceId": 719,
       "bandId": 45,
       "segments": [
@@ -10251,7 +10243,7 @@
       "sourceLengthSeconds": 139.392
     },
     {
-      "id": 342,
+      "id": 332,
       "sourceId": 342,
       "bandId": 4,
       "segments": [
@@ -10265,7 +10257,7 @@
       "sourceLengthSeconds": 98.424
     },
     {
-      "id": 502,
+      "id": 488,
       "sourceId": 502,
       "bandId": 1,
       "segments": [
@@ -10279,7 +10271,7 @@
       "sourceLengthSeconds": 109.944
     },
     {
-      "id": 382,
+      "id": 367,
       "sourceId": 382,
       "bandId": 1,
       "segments": [
@@ -10293,7 +10285,7 @@
       "sourceLengthSeconds": 121.464
     },
     {
-      "id": 733,
+      "id": 710,
       "sourceId": 733,
       "bandId": 3,
       "segments": [
@@ -10307,7 +10299,7 @@
       "sourceLengthSeconds": 117.384
     },
     {
-      "id": 594,
+      "id": 574,
       "sourceId": 594,
       "bandId": 1,
       "segments": [
@@ -10321,7 +10313,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 287,
+      "id": 278,
       "sourceId": 287,
       "bandId": 18,
       "segments": [
@@ -10335,7 +10327,7 @@
       "sourceLengthSeconds": 107.136
     },
     {
-      "id": 82,
+      "id": 78,
       "sourceId": 82,
       "bandId": 3,
       "segments": [
@@ -10349,7 +10341,7 @@
       "sourceLengthSeconds": 107.16
     },
     {
-      "id": 749,
+      "id": 727,
       "sourceId": 749,
       "bandId": 1,
       "segments": [
@@ -10363,7 +10355,7 @@
       "sourceLengthSeconds": 114.888
     },
     {
-      "id": 731,
+      "id": 708,
       "sourceId": 731,
       "bandId": 4,
       "segments": [
@@ -10377,7 +10369,7 @@
       "sourceLengthSeconds": 110.064
     },
     {
-      "id": 201,
+      "id": 192,
       "sourceId": 201,
       "bandId": 3,
       "segments": [
@@ -10391,7 +10383,7 @@
       "sourceLengthSeconds": 103.056
     },
     {
-      "id": 657,
+      "id": 635,
       "sourceId": 657,
       "bandId": 40,
       "segments": [
@@ -10475,7 +10467,7 @@
       "sourceLengthSeconds": 109.392
     },
     {
-      "id": 819,
+      "id": 796,
       "sourceId": 819,
       "bandId": 3,
       "segments": [
@@ -10489,7 +10481,7 @@
       "sourceLengthSeconds": 142.2
     },
     {
-      "id": 501,
+      "id": 486,
       "sourceId": 501,
       "bandId": 65,
       "segments": [
@@ -10503,7 +10495,7 @@
       "sourceLengthSeconds": 128.52
     },
     {
-      "id": 517,
+      "id": 501,
       "sourceId": 517,
       "bandId": 3,
       "segments": [
@@ -10517,7 +10509,7 @@
       "sourceLengthSeconds": 99.744
     },
     {
-      "id": 651,
+      "id": 630,
       "sourceId": 651,
       "bandId": 80,
       "segments": [
@@ -10531,7 +10523,7 @@
       "sourceLengthSeconds": 131.112
     },
     {
-      "id": 702,
+      "id": 682,
       "sourceId": 702,
       "bandId": 2,
       "segments": [
@@ -10545,7 +10537,7 @@
       "sourceLengthSeconds": 105.936
     },
     {
-      "id": 753,
+      "id": 731,
       "sourceId": 753,
       "bandId": 95,
       "segments": [
@@ -10559,7 +10551,7 @@
       "sourceLengthSeconds": 124.128
     },
     {
-      "id": 560,
+      "id": 541,
       "sourceId": 560,
       "bandId": 70,
       "segments": [
@@ -10573,7 +10565,7 @@
       "sourceLengthSeconds": 119.448
     },
     {
-      "id": 490,
+      "id": 474,
       "sourceId": 490,
       "bandId": 1,
       "segments": [
@@ -10587,7 +10579,7 @@
       "sourceLengthSeconds": 102.768
     },
     {
-      "id": 146,
+      "id": 138,
       "sourceId": 146,
       "bandId": 3,
       "segments": [
@@ -10606,7 +10598,7 @@
       "sourceLengthSeconds": 127.92
     },
     {
-      "id": 477,
+      "id": 465,
       "sourceId": 477,
       "bandId": 5,
       "segments": [
@@ -10700,7 +10692,7 @@
       "sourceLengthSeconds": 140.52
     },
     {
-      "id": 391,
+      "id": 378,
       "sourceId": 391,
       "bandId": 1,
       "segments": [
@@ -10714,7 +10706,7 @@
       "sourceLengthSeconds": 115.944
     },
     {
-      "id": 335,
+      "id": 324,
       "sourceId": 335,
       "bandId": 1,
       "segments": [
@@ -10728,7 +10720,7 @@
       "sourceLengthSeconds": 133.08
     },
     {
-      "id": 405,
+      "id": 390,
       "sourceId": 405,
       "bandId": 4,
       "segments": [
@@ -10742,7 +10734,7 @@
       "sourceLengthSeconds": 135.072
     },
     {
-      "id": 198,
+      "id": 189,
       "sourceId": 198,
       "bandId": 4,
       "segments": [
@@ -10756,7 +10748,7 @@
       "sourceLengthSeconds": 102.12
     },
     {
-      "id": 667,
+      "id": 646,
       "sourceId": 667,
       "bandId": 85,
       "segments": [
@@ -10790,7 +10782,7 @@
       "sourceLengthSeconds": 120.048
     },
     {
-      "id": 387,
+      "id": 377,
       "sourceId": 387,
       "bandId": 40,
       "segments": [
@@ -10804,7 +10796,7 @@
       "sourceLengthSeconds": 122.64
     },
     {
-      "id": 675,
+      "id": 654,
       "sourceId": 675,
       "bandId": 4,
       "segments": [
@@ -10818,7 +10810,7 @@
       "sourceLengthSeconds": 103.632
     },
     {
-      "id": 493,
+      "id": 476,
       "sourceId": 493,
       "bandId": 1,
       "segments": [
@@ -10832,7 +10824,7 @@
       "sourceLengthSeconds": 102.072
     },
     {
-      "id": 130,
+      "id": 118,
       "sourceId": 130,
       "bandId": 1,
       "segments": [
@@ -10846,7 +10838,7 @@
       "sourceLengthSeconds": 114.072
     },
     {
-      "id": 697,
+      "id": 676,
       "sourceId": 697,
       "bandId": 3,
       "segments": [
@@ -10860,7 +10852,7 @@
       "sourceLengthSeconds": 96.432
     },
     {
-      "id": 401,
+      "id": 386,
       "sourceId": 401,
       "bandId": 21,
       "segments": [
@@ -10874,7 +10866,7 @@
       "sourceLengthSeconds": 103.584
     },
     {
-      "id": 556,
+      "id": 537,
       "sourceId": 556,
       "bandId": 5,
       "segments": [
@@ -10888,7 +10880,7 @@
       "sourceLengthSeconds": 127.128
     },
     {
-      "id": 513,
+      "id": 490,
       "sourceId": 513,
       "bandId": 45,
       "segments": [
@@ -10962,7 +10954,7 @@
       "sourceLengthSeconds": 107.208
     },
     {
-      "id": 521,
+      "id": 496,
       "sourceId": 521,
       "bandId": 2,
       "segments": [
@@ -10976,7 +10968,7 @@
       "sourceLengthSeconds": 122.664
     },
     {
-      "id": 179,
+      "id": 170,
       "sourceId": 179,
       "bandId": 20,
       "segments": [
@@ -10990,7 +10982,7 @@
       "sourceLengthSeconds": 122.568
     },
     {
-      "id": 542,
+      "id": 522,
       "sourceId": 542,
       "bandId": 45,
       "segments": [
@@ -11004,7 +10996,7 @@
       "sourceLengthSeconds": 101.688
     },
     {
-      "id": 48,
+      "id": 41,
       "sourceId": 48,
       "bandId": 8,
       "segments": [
@@ -11018,7 +11010,7 @@
       "sourceLengthSeconds": 107.064
     },
     {
-      "id": 642,
+      "id": 620,
       "sourceId": 642,
       "bandId": 45,
       "segments": [
@@ -11032,7 +11024,7 @@
       "sourceLengthSeconds": 112.68
     },
     {
-      "id": 715,
+      "id": 694,
       "sourceId": 715,
       "bandId": 45,
       "segments": [
@@ -11046,7 +11038,7 @@
       "sourceLengthSeconds": 95.376
     },
     {
-      "id": 87,
+      "id": 86,
       "sourceId": 87,
       "bandId": 5,
       "segments": [
@@ -11065,7 +11057,7 @@
       "sourceLengthSeconds": 117.528
     },
     {
-      "id": 116,
+      "id": 110,
       "sourceId": 116,
       "bandId": 4,
       "segments": [
@@ -11079,7 +11071,7 @@
       "sourceLengthSeconds": 111.6
     },
     {
-      "id": 816,
+      "id": 793,
       "sourceId": 816,
       "bandId": 4,
       "segments": [
@@ -11093,7 +11085,7 @@
       "sourceLengthSeconds": 126.456
     },
     {
-      "id": 204,
+      "id": 196,
       "sourceId": 204,
       "bandId": 5,
       "segments": [
@@ -11107,7 +11099,7 @@
       "sourceLengthSeconds": 94.224
     },
     {
-      "id": 84,
+      "id": 82,
       "sourceId": 84,
       "bandId": 5,
       "segments": [
@@ -11121,7 +11113,7 @@
       "sourceLengthSeconds": 113.976
     },
     {
-      "id": 282,
+      "id": 271,
       "sourceId": 282,
       "bandId": 21,
       "segments": [
@@ -11135,7 +11127,7 @@
       "sourceLengthSeconds": 125.304
     },
     {
-      "id": 698,
+      "id": 677,
       "sourceId": 698,
       "bandId": 45,
       "segments": [
@@ -11149,7 +11141,7 @@
       "sourceLengthSeconds": 109.392
     },
     {
-      "id": 224,
+      "id": 213,
       "sourceId": 224,
       "bandId": 18,
       "segments": [
@@ -11163,7 +11155,7 @@
       "sourceLengthSeconds": 110.496
     },
     {
-      "id": 348,
+      "id": 339,
       "sourceId": 348,
       "bandId": 18,
       "segments": [
@@ -11177,7 +11169,7 @@
       "sourceLengthSeconds": 105.36
     },
     {
-      "id": 784,
+      "id": 761,
       "sourceId": 784,
       "bandId": 106,
       "segments": [
@@ -11191,7 +11183,7 @@
       "sourceLengthSeconds": 105.36
     },
     {
-      "id": 684,
+      "id": 664,
       "sourceId": 684,
       "bandId": 45,
       "segments": [
@@ -11205,7 +11197,7 @@
       "sourceLengthSeconds": 173.736
     },
     {
-      "id": 796,
+      "id": 771,
       "sourceId": 796,
       "bandId": 45,
       "segments": [
@@ -11219,7 +11211,7 @@
       "sourceLengthSeconds": 96.048
     },
     {
-      "id": 56,
+      "id": 59,
       "sourceId": 56,
       "bandId": 5,
       "segments": [
@@ -11233,7 +11225,7 @@
       "sourceLengthSeconds": 118.776
     },
     {
-      "id": 763,
+      "id": 740,
       "sourceId": 763,
       "bandId": 102,
       "segments": [
@@ -11247,7 +11239,7 @@
       "sourceLengthSeconds": 118.776
     },
     {
-      "id": 526,
+      "id": 508,
       "sourceId": 526,
       "bandId": 2,
       "segments": [
@@ -11261,7 +11253,7 @@
       "sourceLengthSeconds": 125.568
     },
     {
-      "id": 446,
+      "id": 431,
       "sourceId": 446,
       "bandId": 18,
       "segments": [
@@ -11275,7 +11267,7 @@
       "sourceLengthSeconds": 106.536
     },
     {
-      "id": 442,
+      "id": 428,
       "sourceId": 442,
       "bandId": 2,
       "segments": [
@@ -11289,7 +11281,7 @@
       "sourceLengthSeconds": 125.784
     },
     {
-      "id": 545,
+      "id": 521,
       "sourceId": 545,
       "bandId": 45,
       "segments": [
@@ -11303,7 +11295,7 @@
       "sourceLengthSeconds": 110.832
     },
     {
-      "id": 393,
+      "id": 380,
       "sourceId": 393,
       "bandId": 3,
       "segments": [
@@ -11317,7 +11309,7 @@
       "sourceLengthSeconds": 105.072
     },
     {
-      "id": 241,
+      "id": 231,
       "sourceId": 241,
       "bandId": 5,
       "segments": [
@@ -11331,7 +11323,7 @@
       "sourceLengthSeconds": 107.256
     },
     {
-      "id": 747,
+      "id": 725,
       "sourceId": 747,
       "bandId": 21,
       "segments": [
@@ -11345,7 +11337,7 @@
       "sourceLengthSeconds": 134.472
     },
     {
-      "id": 722,
+      "id": 700,
       "sourceId": 722,
       "bandId": 18,
       "segments": [
@@ -11359,7 +11351,7 @@
       "sourceLengthSeconds": 120.864
     },
     {
-      "id": 815,
+      "id": 791,
       "sourceId": 815,
       "bandId": 1,
       "segments": [
@@ -11373,7 +11365,7 @@
       "sourceLengthSeconds": 119.184
     },
     {
-      "id": 163,
+      "id": 154,
       "sourceId": 163,
       "bandId": 2,
       "segments": [
@@ -11387,7 +11379,7 @@
       "sourceLengthSeconds": 97.2
     },
     {
-      "id": 515,
+      "id": 497,
       "sourceId": 515,
       "bandId": 45,
       "segments": [
@@ -11401,7 +11393,7 @@
       "sourceLengthSeconds": 119.424
     },
     {
-      "id": 618,
+      "id": 595,
       "sourceId": 618,
       "bandId": 5,
       "segments": [
@@ -11415,7 +11407,7 @@
       "sourceLengthSeconds": 123.504
     },
     {
-      "id": 532,
+      "id": 511,
       "sourceId": 532,
       "bandId": 21,
       "segments": [
@@ -11429,7 +11421,7 @@
       "sourceLengthSeconds": 91.824
     },
     {
-      "id": 483,
+      "id": 471,
       "sourceId": 483,
       "bandId": 18,
       "segments": [
@@ -11443,7 +11435,7 @@
       "sourceLengthSeconds": 109.92
     },
     {
-      "id": 115,
+      "id": 107,
       "sourceId": 115,
       "bandId": 1,
       "segments": [
@@ -11457,7 +11449,7 @@
       "sourceLengthSeconds": 114.696
     },
     {
-      "id": 811,
+      "id": 787,
       "sourceId": 811,
       "bandId": 108,
       "segments": [
@@ -11471,7 +11463,7 @@
       "sourceLengthSeconds": 114.696
     },
     {
-      "id": 566,
+      "id": 550,
       "sourceId": 566,
       "bandId": 1,
       "segments": [
@@ -11485,7 +11477,7 @@
       "sourceLengthSeconds": 114.432
     },
     {
-      "id": 519,
+      "id": 499,
       "sourceId": 519,
       "bandId": 66,
       "segments": [
@@ -11499,7 +11491,7 @@
       "sourceLengthSeconds": 115.608
     },
     {
-      "id": 269,
+      "id": 258,
       "sourceId": 269,
       "bandId": 21,
       "segments": [
@@ -11513,7 +11505,7 @@
       "sourceLengthSeconds": 110.832
     },
     {
-      "id": 419,
+      "id": 406,
       "sourceId": 419,
       "bandId": 4,
       "segments": [
@@ -11527,7 +11519,7 @@
       "sourceLengthSeconds": 125.928
     },
     {
-      "id": 8,
+      "id": 19,
       "sourceId": 8,
       "bandId": 1,
       "segments": [
@@ -11541,7 +11533,7 @@
       "sourceLengthSeconds": 104.928
     },
     {
-      "id": 754,
+      "id": 732,
       "sourceId": 754,
       "bandId": 45,
       "segments": [
@@ -11570,7 +11562,7 @@
       "sourceLengthSeconds": 98.688
     },
     {
-      "id": 355,
+      "id": 347,
       "sourceId": 355,
       "bandId": 29,
       "segments": [
@@ -11584,7 +11576,7 @@
       "sourceLengthSeconds": 111.144
     },
     {
-      "id": 570,
+      "id": 545,
       "sourceId": 570,
       "bandId": 18,
       "segments": [
@@ -11598,7 +11590,7 @@
       "sourceLengthSeconds": 116.064
     },
     {
-      "id": 679,
+      "id": 659,
       "sourceId": 679,
       "bandId": 18,
       "segments": [
@@ -11612,7 +11604,7 @@
       "sourceLengthSeconds": 105.72
     },
     {
-      "id": 562,
+      "id": 543,
       "sourceId": 562,
       "bandId": 2,
       "segments": [
@@ -11626,7 +11618,7 @@
       "sourceLengthSeconds": 103.968
     },
     {
-      "id": 200,
+      "id": 191,
       "sourceId": 200,
       "bandId": 5,
       "segments": [
@@ -11650,7 +11642,7 @@
       "sourceLengthSeconds": 112.248
     },
     {
-      "id": 55,
+      "id": 49,
       "sourceId": 55,
       "bandId": 5,
       "segments": [
@@ -11664,7 +11656,7 @@
       "sourceLengthSeconds": 98.856
     },
     {
-      "id": 713,
+      "id": 692,
       "sourceId": 713,
       "bandId": 5,
       "segments": [
@@ -11678,7 +11670,7 @@
       "sourceLengthSeconds": 132.696
     },
     {
-      "id": 353,
+      "id": 341,
       "sourceId": 353,
       "bandId": 28,
       "segments": [
@@ -11697,7 +11689,7 @@
       "sourceLengthSeconds": 123.672
     },
     {
-      "id": 791,
+      "id": 766,
       "sourceId": 791,
       "bandId": 18,
       "segments": [
@@ -11711,7 +11703,7 @@
       "sourceLengthSeconds": 108.648
     },
     {
-      "id": 188,
+      "id": 178,
       "sourceId": 188,
       "bandId": 5,
       "segments": [
@@ -11725,7 +11717,7 @@
       "sourceLengthSeconds": 109.416
     },
     {
-      "id": 465,
+      "id": 451,
       "sourceId": 465,
       "bandId": 55,
       "segments": [
@@ -11739,7 +11731,7 @@
       "sourceLengthSeconds": 135.168
     },
     {
-      "id": 261,
+      "id": 248,
       "sourceId": 261,
       "bandId": 1,
       "segments": [
@@ -11753,7 +11745,7 @@
       "sourceLengthSeconds": 104.976
     },
     {
-      "id": 544,
+      "id": 534,
       "sourceId": 544,
       "bandId": 69,
       "segments": [
@@ -11767,7 +11759,7 @@
       "sourceLengthSeconds": 123.552
     },
     {
-      "id": 683,
+      "id": 663,
       "sourceId": 683,
       "bandId": 45,
       "segments": [
@@ -11821,7 +11813,7 @@
       "sourceLengthSeconds": 95.016
     },
     {
-      "id": 798,
+      "id": 773,
       "sourceId": 798,
       "bandId": 21,
       "segments": [
@@ -11835,7 +11827,7 @@
       "sourceLengthSeconds": 103.872
     },
     {
-      "id": 409,
+      "id": 399,
       "sourceId": 409,
       "bandId": 18,
       "segments": [
@@ -11849,7 +11841,7 @@
       "sourceLengthSeconds": 122.376
     },
     {
-      "id": 792,
+      "id": 767,
       "sourceId": 792,
       "bandId": 1,
       "segments": [
@@ -11863,7 +11855,7 @@
       "sourceLengthSeconds": 118.08
     },
     {
-      "id": 238,
+      "id": 227,
       "sourceId": 238,
       "bandId": 4,
       "segments": [
@@ -11877,7 +11869,7 @@
       "sourceLengthSeconds": 105.816
     },
     {
-      "id": 491,
+      "id": 475,
       "sourceId": 491,
       "bandId": 62,
       "segments": [
@@ -11891,7 +11883,7 @@
       "sourceLengthSeconds": 114.216
     },
     {
-      "id": 625,
+      "id": 611,
       "sourceId": 625,
       "bandId": 1,
       "segments": [
@@ -11905,7 +11897,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 57,
+      "id": 51,
       "sourceId": 57,
       "bandId": 10,
       "segments": [
@@ -11919,7 +11911,7 @@
       "sourceLengthSeconds": 106.008
     },
     {
-      "id": 666,
+      "id": 645,
       "sourceId": 666,
       "bandId": 2,
       "segments": [
@@ -11933,7 +11925,7 @@
       "sourceLengthSeconds": 106.272
     },
     {
-      "id": 581,
+      "id": 564,
       "sourceId": 581,
       "bandId": 21,
       "segments": [
@@ -11947,7 +11939,7 @@
       "sourceLengthSeconds": 111.936
     },
     {
-      "id": 550,
+      "id": 529,
       "sourceId": 550,
       "bandId": 18,
       "segments": [
@@ -11961,7 +11953,7 @@
       "sourceLengthSeconds": 132.576
     },
     {
-      "id": 558,
+      "id": 539,
       "sourceId": 558,
       "bandId": 5,
       "segments": [
@@ -11975,7 +11967,7 @@
       "sourceLengthSeconds": 114.216
     },
     {
-      "id": 780,
+      "id": 757,
       "sourceId": 780,
       "bandId": 3,
       "segments": [
@@ -11989,7 +11981,7 @@
       "sourceLengthSeconds": 118.416
     },
     {
-      "id": 788,
+      "id": 765,
       "sourceId": 788,
       "bandId": 2,
       "segments": [
@@ -12003,7 +11995,7 @@
       "sourceLengthSeconds": 126.288
     },
     {
-      "id": 522,
+      "id": 503,
       "sourceId": 522,
       "bandId": 45,
       "segments": [
@@ -12022,7 +12014,7 @@
       "sourceLengthSeconds": 125.232
     },
     {
-      "id": 586,
+      "id": 566,
       "sourceId": 586,
       "bandId": 21,
       "segments": [
@@ -12076,7 +12068,7 @@
       "sourceLengthSeconds": 126.216
     },
     {
-      "id": 12,
+      "id": 8,
       "sourceId": 12,
       "bandId": 1,
       "segments": [
@@ -12090,7 +12082,7 @@
       "sourceLengthSeconds": 118.152
     },
     {
-      "id": 710,
+      "id": 689,
       "sourceId": 710,
       "bandId": 89,
       "segments": [
@@ -12104,7 +12096,7 @@
       "sourceLengthSeconds": 117.168
     },
     {
-      "id": 794,
+      "id": 769,
       "sourceId": 794,
       "bandId": 4,
       "segments": [
@@ -12118,7 +12110,7 @@
       "sourceLengthSeconds": 130.296
     },
     {
-      "id": 498,
+      "id": 480,
       "sourceId": 498,
       "bandId": 25,
       "segments": [
@@ -12132,7 +12124,7 @@
       "sourceLengthSeconds": 110.688
     },
     {
-      "id": 111,
+      "id": 103,
       "sourceId": 111,
       "bandId": 5,
       "segments": [
@@ -12146,7 +12138,7 @@
       "sourceLengthSeconds": 135.6
     },
     {
-      "id": 468,
+      "id": 454,
       "sourceId": 468,
       "bandId": 56,
       "segments": [
@@ -12160,7 +12152,7 @@
       "sourceLengthSeconds": 115.92
     },
     {
-      "id": 580,
+      "id": 563,
       "sourceId": 580,
       "bandId": 45,
       "segments": [
@@ -12174,7 +12166,7 @@
       "sourceLengthSeconds": 90.456
     },
     {
-      "id": 634,
+      "id": 612,
       "sourceId": 634,
       "bandId": 21,
       "segments": [
@@ -12188,7 +12180,7 @@
       "sourceLengthSeconds": 101.304
     },
     {
-      "id": 489,
+      "id": 473,
       "sourceId": 489,
       "bandId": 45,
       "segments": [
@@ -12202,7 +12194,7 @@
       "sourceLengthSeconds": 97.944
     },
     {
-      "id": 649,
+      "id": 628,
       "sourceId": 649,
       "bandId": 79,
       "segments": [
@@ -12216,7 +12208,7 @@
       "sourceLengthSeconds": 97.944
     },
     {
-      "id": 525,
+      "id": 510,
       "sourceId": 525,
       "bandId": 45,
       "segments": [
@@ -12230,7 +12222,7 @@
       "sourceLengthSeconds": 141.288
     },
     {
-      "id": 610,
+      "id": 586,
       "sourceId": 610,
       "bandId": 2,
       "segments": [
@@ -12244,7 +12236,7 @@
       "sourceLengthSeconds": 118.416
     },
     {
-      "id": 781,
+      "id": 758,
       "sourceId": 781,
       "bandId": 45,
       "segments": [
@@ -12258,7 +12250,7 @@
       "sourceLengthSeconds": 129.048
     },
     {
-      "id": 635,
+      "id": 613,
       "sourceId": 635,
       "bandId": 45,
       "segments": [
@@ -12272,7 +12264,7 @@
       "sourceLengthSeconds": 114.408
     },
     {
-      "id": 74,
+      "id": 70,
       "sourceId": 74,
       "bandId": 12,
       "segments": [
@@ -12286,7 +12278,7 @@
       "sourceLengthSeconds": 112.2
     },
     {
-      "id": 644,
+      "id": 622,
       "sourceId": 644,
       "bandId": 45,
       "segments": [
@@ -12315,7 +12307,7 @@
       "sourceLengthSeconds": 114.696
     },
     {
-      "id": 503,
+      "id": 484,
       "sourceId": 503,
       "bandId": 5,
       "segments": [
@@ -12329,7 +12321,7 @@
       "sourceLengthSeconds": 104.4
     },
     {
-      "id": 779,
+      "id": 756,
       "sourceId": 779,
       "bandId": 4,
       "segments": [
@@ -12343,7 +12335,7 @@
       "sourceLengthSeconds": 112.872
     },
     {
-      "id": 256,
+      "id": 242,
       "sourceId": 256,
       "bandId": 21,
       "segments": [
@@ -12357,7 +12349,7 @@
       "sourceLengthSeconds": 108.408
     },
     {
-      "id": 410,
+      "id": 387,
       "sourceId": 410,
       "bandId": 5,
       "segments": [
@@ -12371,7 +12363,7 @@
       "sourceLengthSeconds": 134.88
     },
     {
-      "id": 467,
+      "id": 453,
       "sourceId": 467,
       "bandId": 57,
       "segments": [
@@ -12385,7 +12377,7 @@
       "sourceLengthSeconds": 115.44
     },
     {
-      "id": 240,
+      "id": 229,
       "sourceId": 240,
       "bandId": 1,
       "segments": [
@@ -12399,7 +12391,7 @@
       "sourceLengthSeconds": 120.072
     },
     {
-      "id": 53,
+      "id": 48,
       "sourceId": 53,
       "bandId": 5,
       "segments": [
@@ -12413,7 +12405,7 @@
       "sourceLengthSeconds": 119.232
     },
     {
-      "id": 633,
+      "id": 610,
       "sourceId": 633,
       "bandId": 45,
       "segments": [
@@ -12427,7 +12419,7 @@
       "sourceLengthSeconds": 105.312
     },
     {
-      "id": 614,
+      "id": 591,
       "sourceId": 614,
       "bandId": 1,
       "segments": [
@@ -12441,7 +12433,7 @@
       "sourceLengthSeconds": 116.88
     },
     {
-      "id": 699,
+      "id": 678,
       "sourceId": 699,
       "bandId": 88,
       "segments": [
@@ -12455,7 +12447,7 @@
       "sourceLengthSeconds": 122.424
     },
     {
-      "id": 205,
+      "id": 194,
       "sourceId": 205,
       "bandId": 2,
       "segments": [
@@ -12469,7 +12461,7 @@
       "sourceLengthSeconds": 120.96
     },
     {
-      "id": 286,
+      "id": 275,
       "sourceId": 286,
       "bandId": 1,
       "segments": [
@@ -12483,7 +12475,7 @@
       "sourceLengthSeconds": 118.104
     },
     {
-      "id": 588,
+      "id": 568,
       "sourceId": 588,
       "bandId": 2,
       "segments": [
@@ -12497,7 +12489,7 @@
       "sourceLengthSeconds": 94.8
     },
     {
-      "id": 557,
+      "id": 532,
       "sourceId": 557,
       "bandId": 1,
       "segments": [
@@ -12511,7 +12503,7 @@
       "sourceLengthSeconds": 115.584
     },
     {
-      "id": 418,
+      "id": 405,
       "sourceId": 418,
       "bandId": 48,
       "segments": [
@@ -12525,7 +12517,7 @@
       "sourceLengthSeconds": 106.728
     },
     {
-      "id": 178,
+      "id": 169,
       "sourceId": 178,
       "bandId": 19,
       "segments": [
@@ -12539,7 +12531,7 @@
       "sourceLengthSeconds": 103.08
     },
     {
-      "id": 777,
+      "id": 754,
       "sourceId": 777,
       "bandId": 18,
       "segments": [
@@ -12563,7 +12555,7 @@
       "sourceLengthSeconds": 135.144
     },
     {
-      "id": 530,
+      "id": 518,
       "sourceId": 530,
       "bandId": 21,
       "segments": [
@@ -12592,7 +12584,7 @@
       "sourceLengthSeconds": 120.336
     },
     {
-      "id": 668,
+      "id": 647,
       "sourceId": 668,
       "bandId": 45,
       "segments": [
@@ -12606,7 +12598,7 @@
       "sourceLengthSeconds": 129.672
     },
     {
-      "id": 685,
+      "id": 666,
       "sourceId": 685,
       "bandId": 46,
       "segments": [
@@ -12620,7 +12612,7 @@
       "sourceLengthSeconds": 117.48
     },
     {
-      "id": 17,
+      "id": 25,
       "sourceId": 17,
       "bandId": 5,
       "segments": [
@@ -12634,7 +12626,7 @@
       "sourceLengthSeconds": 152.784
     },
     {
-      "id": 564,
+      "id": 551,
       "sourceId": 564,
       "bandId": 4,
       "segments": [
@@ -12648,7 +12640,7 @@
       "sourceLengthSeconds": 121.656
     },
     {
-      "id": 332,
+      "id": 321,
       "sourceId": 332,
       "bandId": 5,
       "segments": [
@@ -12662,7 +12654,7 @@
       "sourceLengthSeconds": 159.408
     },
     {
-      "id": 705,
+      "id": 683,
       "sourceId": 705,
       "bandId": 46,
       "segments": [

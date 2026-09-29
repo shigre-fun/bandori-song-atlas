@@ -19,7 +19,7 @@ song.id = Math.max(
   Math.max(0, ...songs.map((item) => item.id)) + 1,
 );
 song.title = title;
-song.releaseOrder = song.id;
+song.releaseOrder = null;
 
 // ひな型のband・categoryを変更してから、同じグループで編集する。
 let group = data.groups.find(

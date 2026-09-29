@@ -88,9 +88,9 @@ test("catalog contains all five difficulty slots, readings, IDs and generated pa
   }
 });
 test("3D versions remain independent and support may be unknown", () => {
-  assert.equal(songs.find((s) => s.id === 484).live3d, true);
-  assert.equal(songs.find((s) => s.id === 158).live3d, false);
-  assert.equal(songs.find((s) => s.id === 24).live3d, true);
+  assert.equal(songs.find((s) => s.id === 466).live3d, true);
+  assert.equal(songs.find((s) => s.id === 148).live3d, false);
+  assert.equal(songs.find((s) => s.id === 1).live3d, true);
   for (const s of songs.filter((s) => s.type === "normal"))
     assert.ok(s.live3d === null || typeof s.live3d === "boolean");
 });

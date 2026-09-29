@@ -28,7 +28,7 @@ test("direct detail pages render song facts without JavaScript execution", () =>
 test("source-work searches return a title link and absent terms have empty state", () => {
   const html = renderList(data, new URLSearchParams({ q: "グレンラガン" }));
   assert.ok(html.includes("空色デイズ"));
-  assert.ok(html.includes("/garupa/songs/8/"));
+  assert.ok(html.includes("/garupa/songs/19/"));
   assert.ok(
     renderList(
       data,

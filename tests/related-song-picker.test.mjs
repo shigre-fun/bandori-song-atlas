@@ -6,12 +6,12 @@ import {
 } from "../src/js/related-song-picker.js";
 
 test("related links keep existing drafts and saved references", () => {
-  assert.deepEqual(parseRelatedReferences('["garupa:667","ournotes:7"]'), [
-    "garupa:667",
+  assert.deepEqual(parseRelatedReferences('["garupa:646","ournotes:7"]'), [
+    "garupa:646",
     "ournotes:7",
   ]);
-  assert.deepEqual(parseRelatedReferences("garupa:667\nournotes:7\n"), [
-    "garupa:667",
+  assert.deepEqual(parseRelatedReferences("garupa:646\nournotes:7\n"), [
+    "garupa:646",
     "ournotes:7",
   ]);
   assert.deepEqual(parseRelatedReferences(""), []);
