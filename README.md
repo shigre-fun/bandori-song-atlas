@@ -49,7 +49,7 @@ node scripts/add-song.mjs "新しい楽曲名"
 追加された曲を `data/garupa/songs.json` のIDで探し、グループのバンドと曲の空欄を埋めてからビルドします。管理番号は自動で割り当てられます。
 元のひな型は `templates/song.json`、各項目の説明は `templates/README.md` にあります。
 未入力のレベル・ノーツ数や重複した番号は、生成時にエラーで知らせます。
-更新日は `data/settings.json` の `updatedAt` にISO形式で入力します。
+一覧・詳細の「データセット更新記録」は、ガルパでは `data/settings.json` と `data/garupa/admin-state.json` の `updatedAt` の新しい方、アワーノーツでは `data/ournotes/admin-state.json` の `updatedAt` を表示します。JSONを直接編集した場合は自動更新されないため、記録日も必要に応じてISO形式で修正します。
 
 ## ファイルの役割
 

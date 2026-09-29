@@ -16,6 +16,9 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   };
   const originalCount = listGarupaSongs(files[game.dataFile], game.id).length;
   const nextId = files[game.stateFile].nextId;
+  const existingGarupaLinks = [
+    ...findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
+  ];
   let head = "initial";
   let proposed;
   const calls = [];
@@ -138,7 +141,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   );
   assert.deepEqual(
     findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
-    ["ournotes:7", `ournotes:${nextId}`],
+    [...existingGarupaLinks, `ournotes:${nextId}`],
   );
   assert.ok(
     proposed.tree.some((entry) => entry.path === GAMES.garupa.dataFile),
@@ -157,7 +160,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
   assert.equal((await store.loadSong(nextId)).song.composer, "確認済み作曲者");
   assert.deepEqual(
     findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
-    ["ournotes:7"],
+    existingGarupaLinks,
   );
   assert.ok(
     proposed.tree.some((entry) => entry.path === GAMES.garupa.dataFile),

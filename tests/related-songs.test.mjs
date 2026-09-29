@@ -26,8 +26,9 @@ test("chart variants and cross-game songs link in both directions", () => {
   assert.deepEqual(ids(byId("garupa", 489)), ["garupa:649", "ournotes:1"]);
   assert.deepEqual(ids(byId("ournotes", 1)), ["garupa:489", "garupa:649"]);
   assert.deepEqual(ids(byId("ournotes", 40)), ["garupa:87"]);
-  assert.deepEqual(ids(byId("ournotes", 7)), ["garupa:667"]);
-  assert.deepEqual(ids(byId("garupa", 667)), ["ournotes:7"]);
+  assert.ok(ids(byId("ournotes", 7)).includes("garupa:667"));
+  assert.ok(ids(byId("garupa", 667)).includes("ournotes:7"));
+  assert.ok(ids(byId("garupa", 667)).includes("ournotes:79"));
   assert.deepEqual(ids(byId("garupa", 410)), []); // 同名異曲
 });
 

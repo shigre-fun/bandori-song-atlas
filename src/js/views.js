@@ -101,7 +101,7 @@ export function renderList(
     .join("")}</div>
 <p class="notice">選択中の並べ方を押すと逆順になります。▲ 通常順 / ▼ 逆順。難易度はレベル順・ノーツ数順に適用されます。</p>
 </div>
-<div class="meta">日本版 · ${date(data.updatedAt)} 更新</div>
+<div class="meta">日本版 · データセット更新記録：${date(data.updatedAt)}</div>
 </div>${
     rows.length
       ? `<div class="table-wrap">
@@ -212,5 +212,5 @@ export function renderDetail(
 </section>
 </div>
 ${related.length ? `<section class="panel related-songs"><h2>同じ楽曲の別の譜面・収録先</h2><ul>${related.map((other) => `<li><a href="${e(siteURL(songPath(GAMES[other.gameId], other.stableSongId), base))}">${e(other.title)}</a><span>${e(GAMES[other.gameId].shortName)} · ${e(other.band)}</span></li>`).join("")}</ul></section>` : ""}
-<p class="data-note">データ更新：${date(data.updatedAt)} · 日本版</p>`;
+<p class="data-note">データセット更新記録：${date(data.updatedAt)} · 日本版</p>`;
 }

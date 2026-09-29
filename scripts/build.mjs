@@ -362,24 +362,64 @@ for (const game of games) {
   }
 }
 
+// 本文を変更した日だけ更新する。ビルド日時からは算出しない。
+const privacyUpdatedOn = "2026-09-29";
 const informationPages = [
   {
     slug: "about",
     name: "サイトについて",
-    description: `${settings.name}の目的と運営方針。バンドリシリーズの楽曲データをゲームごとに整理する非公式サイトです。`,
-    content: `<h1>サイトについて</h1><section class="panel"><h2>このサイトについて</h2><p>${escapeHTML(settings.name)}は、バンドリシリーズの楽曲情報をゲームごとに調べられる非公式ファンデータベースです。ガルパとアワーノーツの確認済み楽曲情報を掲載しています。</p><p>ゲームや楽曲の権利は各権利者に帰属します。</p></section>`,
+    description: `${settings.name}の目的と運営者、非公式サイトとしての立場、掲載情報の扱いを説明します。`,
+    content: `<h1>サイトについて</h1><section class="panel">
+<h2>このサイトについて</h2>
+<p>${escapeHTML(settings.name)}は、「バンドリ！ ガールズバンドパーティ！」と「BanG Dream! Our Notes」の楽曲情報を、ゲームごとに検索・参照しやすい形で整理する個人運営の非公式ファンデータベースです。</p>
+<p>運営：タニマチ</p>
+<h2>非公式サイトについて</h2>
+<p>本サイトは株式会社ブシロード、BanG Dream! Project、各ゲームの運営会社その他の関係各社とは関係・提携のない非公式サイトです。公式サイト・公式サービスではありません。</p>
+<h2>権利について</h2>
+<p>BanG Dream!、各ゲーム、楽曲、バンドその他関連する名称・商標・著作物等の権利は、それぞれの権利者に帰属します。</p>
+<h2>掲載情報について</h2>
+<p>正確で新しい情報の掲載に努めていますが、ゲームの更新や確認・反映までの時間差により、実際のゲーム内情報と異なる場合があります。掲載情報の完全性は保証していません。</p>
+<h2>ご連絡</h2>
+<p>データの誤り、権利関係、その他のご連絡は<a href="https://github.com/shigre-fun/bandori-song-atlas/issues">GitHub Issues</a>からお願いします。投稿内容は公開されます。</p>
+</section>`,
   },
   {
     slug: "sources",
     name: "データ出典・更新方針",
-    description: `${settings.name}の楽曲情報の出典と更新方法、確認中の項目の扱いを説明します。`,
-    content: `<h1>データ出典・更新方針</h1><section class="panel"><h2>データの管理</h2><p>ガルパの楽曲情報はゲーム内情報と公開資料を参照し、手動で編集しています。確認できない項目は未確認として表示し、推測した数値で埋めません。</p><h2>BPMと演奏時間</h2><p>基本BPMは楽曲中で継続時間が最も長いBPM値を採用します。演奏時間はガルパではリハーサルモードに表示される時間を使用し、アワーノーツでは実測値の秒未満を切り捨てます。</p><p>ページのデータ更新日は個別の楽曲が最後に変更された日を示すものではありません。</p></section>`,
+    description: `${settings.name}のガルパ・アワーノーツ楽曲情報の出典、確認の優先順位、計測値の扱いを説明します。`,
+    content: `<h1>データ出典・更新方針</h1><section class="panel">
+<h2>データの管理</h2>
+<p>ガルパおよびアワーノーツの楽曲情報は、原則として各ゲーム内で確認できる情報、公式サイト・公式のお知らせ、その他の公式公開資料を参照して手動で管理しています。既存のガルパの数値には、公開データとの照合や運営者の調査に基づくものもあります。確認できない項目は未確認とし、推測した数値で埋めません。</p>
+<h2>確認時の優先順位</h2>
+<ol><li>現在のゲーム内表示</li><li>公式サイト・公式のお知らせ</li><li>その他の公式公開資料</li><li>運営者による確認・計測</li></ol>
+<p>過去の公式資料と現在のゲーム内表示が異なる場合は、原則として現在のゲーム内表示を優先して修正します。</p>
+<h2>BPMと演奏時間</h2>
+<p>基本BPMは楽曲中で継続時間が最も長いBPM値を採用します。演奏時間はガルパではリハーサルモードに表示される時間を使用し、アワーノーツでは実測値の秒未満を切り捨てます。BPMや演奏時間には、運営者が確認・算出・計測した値を掲載する場合があり、公式発表値とは限りません。</p>
+<h2>データセット更新記録</h2>
+<p>楽曲一覧と詳細に表示する「データセット更新記録」は、管理データに記録された日付です。ビルド日や個別の楽曲の最終変更日ではありません。手動編集がすぐにこの日付へ反映されない場合もあります。</p>
+<h2>主に参照する公式情報</h2>
+<ul><li><a href="https://bang-dream.com/">BanG Dream!公式サイト</a></li><li><a href="https://bang-dream.bushimo.jp/music/">ガルパ公式楽曲ページ</a></li><li><a href="https://bang-dream-on.bushimo.jp/">アワーノーツ公式サイト</a></li></ul>
+</section>`,
   },
   {
     slug: "privacy",
     name: "プライバシーポリシー",
-    description: `${settings.name}の閲覧・管理ページにおけるデータの取り扱いを説明します。`,
-    content: `<h1>プライバシーポリシー</h1><section class="panel"><h2>閲覧と入力データ</h2><p>現在、広告は設置していません。当サイトでは利用状況・表示性能の把握のためCloudflare Web Analyticsを利用しています。同サービスは分析目的のCookieやlocalStorageを使用せず、個人を識別するためのフィンガープリントを行いません。詳しくは<a href="https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/">Cloudflareの説明</a>をご覧ください。検索・絞り込み条件はURLのクエリに含まれます。</p><p>管理ページは入力途中の内容や接続先設定をブラウザーのローカルストレージに保存します。GitHubへの保存時は入力した認証情報を使用してGitHub APIと通信します。アクセストークンはブラウザーの保存領域には記録しません。</p><p>外部サイトへのリンク先では、そのサイトの取り扱い方針が適用されます。</p></section>`,
+    description: `${settings.name}のCloudflareによる配信・アクセス解析と、管理ページで扱う情報を説明します。`,
+    content: `<h1>プライバシーポリシー</h1><section class="panel">
+<h2>サイトの配信</h2>
+<p>当サイトはCloudflare Pages等のCloudflareのサービスを利用して配信しています。アクセス時には、サービス提供・セキュリティ・通信処理のため、IPアドレスや通信に関する情報がCloudflareによって処理される場合があります。詳しくは<a href="https://www.cloudflare.com/policies/privacy/">Cloudflareのプライバシーポリシー</a>をご覧ください。</p>
+<h2>アクセス解析</h2>
+<p>利用状況と表示性能の把握のため、Cloudflare Web Analyticsを利用しています。Cloudflareの説明によると、Web Analytics自体は分析目的のCookieやlocalStorageを使わず、訪問者の個人データを収集・利用せず、個人を識別するフィンガープリントも行いません。<a href="https://developers.cloudflare.com/web-analytics/about/">サービスの説明</a>と<a href="https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/">計測方法の説明</a>をご覧ください。</p>
+<h2>通常の閲覧</h2>
+<p>通常の閲覧に際して、当サイト運営者が氏名・住所・電話番号等を直接入力させる機能はありません。検索・絞り込み条件はURLのクエリに含まれます。</p>
+<h2>管理ページについて（運営者向け）</h2>
+<p>管理ページは入力途中の楽曲データと接続先設定をブラウザーのlocalStorageに保存します。GitHubへの保存時には、入力したアクセストークンを使ってGitHub APIと通信します。アクセストークンは画面内のメモリーにのみ保持し、ブラウザーの保存領域には記録しません。</p>
+<h2>広告と外部サイト</h2>
+<p>現在、第三者配信広告は設置していません。外部リンク先では、そのサイトの取り扱い方針が適用されます。</p>
+<h2>プライバシーポリシーの変更</h2>
+<p>利用サービスやサイト機能の変更等に応じて、本ポリシーを変更する場合があります。</p>
+<p>最終更新：<time datetime="${privacyUpdatedOn}">${privacyUpdatedOn}</time></p>
+</section>`,
   },
 ];
 for (const info of informationPages)
