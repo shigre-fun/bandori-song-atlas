@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-29",
   "groups": [
     {
       "band": "MyGO!!!!!",
@@ -43,6 +43,12 @@
           "relatedSongIds": [
             "garupa:489",
             "garupa:649"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ]
         },
         {
@@ -81,6 +87,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:512"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -119,6 +131,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:515"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
           ]
         },
         {
@@ -157,6 +175,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:540"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -195,7 +219,13 @@
           "relatedSongIds": [
             "garupa:698"
           ],
-          "revision": "44d3e058-c9f7-42d0-94ce-ec820d13f22e"
+          "revision": "44d3e058-c9f7-42d0-94ce-ec820d13f22e",
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 6,
@@ -232,6 +262,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:668"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -271,7 +307,13 @@
             "garupa:667",
             "ournotes:79"
           ],
-          "revision": "231ada47-e50c-4a04-9c24-11ebd929744c"
+          "revision": "231ada47-e50c-4a04-9c24-11ebd929744c",
+          "songType": "紫苑",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 8,
@@ -308,6 +350,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:522"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            "COMBO",
+            "LUCK",
+            "JUST"
           ]
         },
         {
@@ -345,6 +393,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:525"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            "LUCK",
+            "JUST",
+            "COMBO"
           ]
         },
         {
@@ -382,6 +436,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:796"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -419,6 +479,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:624"
+          ],
+          "songType": "紫苑",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
           ]
         },
         {
@@ -456,6 +522,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:642"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -493,6 +565,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:754"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            "JUST",
+            "COMBO",
+            "LUCK"
           ]
         },
         {
@@ -527,7 +605,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 15,
@@ -564,6 +648,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:684"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -601,6 +691,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:683"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ]
         },
         {
@@ -635,7 +731,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            "LUCK",
+            "COMBO",
+            "LUCK"
+          ]
         },
         {
           "id": 18,
@@ -672,6 +774,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:719"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         }
       ]
@@ -712,7 +820,13 @@
               "level": 25,
               "notes": null
             }
-          }
+          },
+          "songType": "山吹",
+          "gekisouSections": [
+            "LUCK",
+            "COMBO",
+            "JUST"
+          ]
         },
         {
           "id": 20,
@@ -748,6 +862,12 @@
           },
           "relatedSongIds": [
             "garupa:137"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -781,7 +901,13 @@
               "level": 25,
               "notes": null
             }
-          }
+          },
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 22,
@@ -817,6 +943,12 @@
           },
           "relatedSongIds": [
             "garupa:568"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -853,7 +985,13 @@
               "notes": 670
             }
           },
-          "submissionId": "e3969725-d9fe-4e4f-b9e3-26a1791eb0a7"
+          "submissionId": "e3969725-d9fe-4e4f-b9e3-26a1791eb0a7",
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -897,6 +1035,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:531"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ]
         },
         {
@@ -934,6 +1078,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:659"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -971,6 +1121,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:670"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            "LUCK",
+            "COMBO",
+            "JUST"
           ]
         },
         {
@@ -1008,6 +1164,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:671"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ]
         },
         {
@@ -1045,6 +1207,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:682"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
           ]
         },
         {
@@ -1082,6 +1250,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:685"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -1119,6 +1293,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:686"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ]
         },
         {
@@ -1153,7 +1333,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 31,
@@ -1187,7 +1373,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 32,
@@ -1221,7 +1413,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 33,
@@ -1255,7 +1453,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 34,
@@ -1289,7 +1493,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 35,
@@ -1326,6 +1536,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:705"
+          ],
+          "songType": "翡翠",
+          "gekisouSections": [
+            "COMBO",
+            "LUCK",
+            "JUST"
           ]
         },
         {
@@ -1360,7 +1576,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 37,
@@ -1397,6 +1619,12 @@
           "mv": true,
           "relatedSongIds": [
             "garupa:737"
+          ],
+          "songType": "紫苑",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
           ]
         },
         {
@@ -1431,7 +1659,13 @@
               "notes": null
             }
           },
-          "mv": false
+          "mv": false,
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 39,
@@ -1465,7 +1699,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -1508,6 +1748,12 @@
           },
           "relatedSongIds": [
             "garupa:87"
+          ],
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -1541,7 +1787,13 @@
               "level": 26,
               "notes": null
             }
-          }
+          },
+          "songType": "山吹",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 42,
@@ -1574,7 +1826,13 @@
               "level": 25,
               "notes": null
             }
-          }
+          },
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 43,
@@ -1607,7 +1865,13 @@
               "level": 24,
               "notes": null
             }
-          }
+          },
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 83,
@@ -1645,7 +1909,13 @@
               "notes": null
             }
           },
-          "submissionId": "f29a08c2-f1a0-4535-9e5f-0e318acf3be9"
+          "submissionId": "f29a08c2-f1a0-4535-9e5f-0e318acf3be9",
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -1686,7 +1956,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 45,
@@ -1720,7 +1996,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ]
         },
         {
           "id": 46,
@@ -1754,7 +2036,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紫苑",
+          "gekisouSections": [
+            "LUCK",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 47,
@@ -1788,7 +2076,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            "JUST",
+            "LUCK",
+            "LUCK"
+          ]
         },
         {
           "id": 48,
@@ -1822,7 +2116,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
+          ]
         },
         {
           "id": 49,
@@ -1856,7 +2156,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "山吹",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ]
         },
         {
           "id": 50,
@@ -1890,7 +2196,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 51,
@@ -1924,7 +2236,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 52,
@@ -1958,7 +2276,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 53,
@@ -1992,7 +2316,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 54,
@@ -2026,7 +2356,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 55,
@@ -2060,7 +2396,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ]
         },
         {
           "id": 56,
@@ -2094,7 +2436,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 57,
@@ -2128,7 +2476,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 58,
@@ -2162,7 +2516,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -2205,6 +2565,12 @@
           },
           "relatedSongIds": [
             "garupa:128"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -2238,7 +2604,13 @@
               "level": 23,
               "notes": null
             }
-          }
+          },
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 61,
@@ -2271,7 +2643,13 @@
               "level": 23,
               "notes": null
             }
-          }
+          },
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 62,
@@ -2304,7 +2682,13 @@
               "level": 24,
               "notes": null
             }
-          }
+          },
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 80,
@@ -2343,7 +2727,13 @@
             }
           },
           "submissionId": "02d5a61e-1ece-423b-bd8b-baf3511019c3",
-          "revision": "f4340c4c-da15-4670-b206-dc7c7c02b240"
+          "revision": "f4340c4c-da15-4670-b206-dc7c7c02b240",
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -2384,7 +2774,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紺碧",
+          "gekisouSections": [
+            "LUCK",
+            "COMBO",
+            "JUST"
+          ]
         },
         {
           "id": 65,
@@ -2418,7 +2814,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 66,
@@ -2452,7 +2854,13 @@
               "notes": null
             }
           },
-          "mv": false
+          "mv": false,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 64,
@@ -2486,7 +2894,13 @@
               "notes": null
             }
           },
-          "mv": false
+          "mv": false,
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -2529,6 +2943,12 @@
           },
           "relatedSongIds": [
             "garupa:588"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -2562,7 +2982,13 @@
               "level": 22,
               "notes": null
             }
-          }
+          },
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 69,
@@ -2598,6 +3024,12 @@
           },
           "relatedSongIds": [
             "garupa:408"
+          ],
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -2631,7 +3063,13 @@
               "level": 26,
               "notes": null
             }
-          }
+          },
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 82,
@@ -2669,7 +3107,13 @@
               "notes": 926
             }
           },
-          "submissionId": "6e8274cf-d3f3-41e8-9f96-616b2a67b2d1"
+          "submissionId": "6e8274cf-d3f3-41e8-9f96-616b2a67b2d1",
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -2710,7 +3154,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "紫苑",
+          "gekisouSections": [
+            "COMBO",
+            "JUST",
+            "LUCK"
+          ]
         },
         {
           "id": 73,
@@ -2744,7 +3194,13 @@
               "notes": null
             }
           },
-          "mv": true
+          "mv": true,
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 74,
@@ -2778,7 +3234,13 @@
               "notes": null
             }
           },
-          "mv": false
+          "mv": false,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 72,
@@ -2812,7 +3274,13 @@
               "notes": null
             }
           },
-          "mv": false
+          "mv": false,
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     },
@@ -2852,7 +3320,13 @@
               "level": 23,
               "notes": null
             }
-          }
+          },
+          "songType": "翡翠",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 76,
@@ -2885,7 +3359,13 @@
               "level": 23,
               "notes": null
             }
-          }
+          },
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         },
         {
           "id": 77,
@@ -2921,6 +3401,12 @@
           },
           "relatedSongIds": [
             "garupa:760"
+          ],
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         },
         {
@@ -2957,6 +3443,12 @@
           },
           "relatedSongIds": [
             "garupa:777"
+          ],
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
           ]
         }
       ]
@@ -3002,7 +3494,13 @@
               "notes": 628
             }
           },
-          "submissionId": "1258fe67-ab80-4cfa-b92c-03b7fdfa8815"
+          "submissionId": "1258fe67-ab80-4cfa-b92c-03b7fdfa8815",
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ]
         }
       ]
     }

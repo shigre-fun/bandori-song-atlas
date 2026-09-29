@@ -606,6 +606,28 @@ dd a,
   padding: 4px 9px;
   font-size: 13px;
 }
+.song-type {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 3px 9px;
+  color: white;
+  font-weight: 700;
+}
+.song-type-紅赤 {
+  background: #ba2859;
+}
+.song-type-紺碧 {
+  background: #1667ae;
+}
+.song-type-翡翠 {
+  background: #087b56;
+}
+.song-type-山吹 {
+  background: #9b6500;
+}
+.song-type-紫苑 {
+  background: #8144a8;
+}
 .sr-only {
   position: absolute;
   width: 1px;

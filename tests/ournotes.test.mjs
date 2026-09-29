@@ -11,6 +11,7 @@ import {
 } from "../src/js/domain.js";
 import { renderList, renderDetail } from "../src/js/views.js";
 import { listGarupaSongs } from "../src/js/garupa-data.js";
+import { validateSong } from "../src/js/song-schema.js";
 
 const game = GAMES.ournotes;
 const songs = loadGameCatalog(game);
@@ -83,6 +84,44 @@ test("Our Notes retains launch IDs as its catalog grows", () => {
     songs.every(
       (song) => song.difficulties.length === game.difficulties.length,
     ),
+  );
+});
+
+test("Our Notes has an independent type and three validated performance sections", () => {
+  const raw = JSON.parse(fs.readFileSync(game.dataFile, "utf8"));
+  const entries = listGarupaSongs(raw, game.id);
+  assert.ok(entries.length >= 83);
+  assert.equal(
+    entries.filter((song) => song.id <= 83 && song.songType !== null).length,
+    83,
+  );
+  assert.ok(entries.every((song) => Object.hasOwn(song, "songType")));
+  assert.ok(
+    entries.filter((song) => song.gekisouSections.every(Boolean)).length >= 34,
+  );
+  const first = entries.find((song) => song.id === 1);
+  assert.equal(first.songType, "紅赤");
+  assert.deepEqual(first.gekisouSections, ["COMBO", "COMBO", "COMBO"]);
+  assert.throws(
+    () => validateSong({ ...first, songType: "赤" }, game.id),
+    /楽曲タイプ/,
+  );
+  assert.throws(
+    () =>
+      validateSong({ ...first, gekisouSections: ["LUCK", "COMBO"] }, game.id),
+    /撃奏区間/,
+  );
+  assert.throws(
+    () =>
+      validateSong(
+        { ...first, gekisouSections: ["LUCK", "COMBO", "OTHER"] },
+        game.id,
+      ),
+    /撃奏区間/,
+  );
+  validateSong(
+    { ...first, gekisouSections: ["LUCK", "COMBO", "JUST"] },
+    game.id,
   );
 });
 
@@ -192,8 +231,10 @@ test("Our Notes detail follows Garupa field order without official-image link", 
     "配信日（日本版）",
     "基本BPM",
     "BPMの下限〜上限",
-    "楽曲演奏時間（ゲーム内）",
     "演奏バンド・参加アーティスト",
+    "楽曲演奏時間（ゲーム内）",
+    "楽曲タイプ",
+    "撃奏区間",
     "作曲",
   ];
   let previous = -1;
@@ -204,6 +245,18 @@ test("Our Notes detail follows Garupa field order without official-image link", 
   }
   for (const difficulty of game.difficulties)
     assert.ok(detail.includes(difficulty));
+  assert.match(detail, /song-type-紅赤">紅赤<\/span>/);
+  assert.match(detail, /1.COMBO \/ 2.COMBO \/ 3.COMBO/);
+  assert.match(
+    renderDetail(
+      songs.find((song) => song.id === 5),
+      data,
+      new URLSearchParams(),
+      "/",
+      game,
+    ),
+    /<dt>撃奏区間<\/dt><dd>未確認<\/dd>/,
+  );
   assert.doesNotMatch(
     detail,
     /SPECIAL|収録曲の公式発表を見る|fromtyo.jp\/media/,

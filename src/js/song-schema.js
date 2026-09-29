@@ -1,5 +1,7 @@
 // ブラウザーの管理画面とビルドで共用する入力規則。
 export const difficultyNames = ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"];
+export const ournotesSongTypes = ["紅赤", "紺碧", "翡翠", "山吹", "紫苑"];
+export const gekisouKinds = ["COMBO", "LUCK", "JUST"];
 export const categoryCodes = {
   オリジナル: "normal",
   カバー: "anime",
@@ -64,6 +66,16 @@ export function validateSong(song, game = "garupa") {
   )
     fail("3Dライブの対応状況が不正です。");
   if (game === "ournotes") {
+    if (song.songType != null && !ournotesSongTypes.includes(song.songType))
+      fail("楽曲タイプを選択してください。");
+    if (
+      !Array.isArray(song.gekisouSections) ||
+      song.gekisouSections.length !== 3 ||
+      song.gekisouSections.some(
+        (section) => section !== null && !gekisouKinds.includes(section),
+      )
+    )
+      fail("撃奏区間を3回分選択してください。");
     if (Object.hasOwn(song, "live3d"))
       fail("アワーノーツに3Dライブはありません。");
     if (Object.hasOwn(song.difficulties ?? {}, "SPECIAL"))

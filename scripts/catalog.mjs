@@ -5,7 +5,7 @@ import { listGarupaSongs } from "../src/js/garupa-data.js";
 import { difficultyNames, categoryCodes } from "../src/js/song-schema.js";
 export { difficultyNames, categoryCodes };
 
-/** @typedef {{ gameId: string, stableSongId: string, id: number, slug: string, title: string, reading: string, band: string, type: string, publishedAt: number | null, seq: number, composer: string | null, artist: string | null, work: string | null, live3d: boolean | null, mv: boolean | null, relatedSongIds: string[], bpm: number | null, bpmMin: number | null, bpmMax: number | null, durationSeconds: number | null, aliases: string[], difficulties: Array<{level: number, notes: number} | null> }} Song */
+/** @typedef {{ gameId: string, stableSongId: string, id: number, slug: string, title: string, reading: string, band: string, type: string, songType?: string | null, gekisouSections?: Array<string | null>, publishedAt: number | null, seq: number, composer: string | null, artist: string | null, work: string | null, live3d: boolean | null, mv: boolean | null, relatedSongIds: string[], bpm: number | null, bpmMin: number | null, bpmMax: number | null, durationSeconds: number | null, aliases: string[], difficulties: Array<{level: number, notes: number} | null> }} Song */
 
 export function loadCatalog(file = GAMES.garupa.dataFile, game = GAMES.garupa) {
   const data = JSON.parse(fs.readFileSync(file, "utf8"));
@@ -27,6 +27,12 @@ export function loadCatalog(file = GAMES.garupa.dataFile, game = GAMES.garupa) {
       reading: song.reading,
       band: song.band,
       type: categoryCodes[song.category],
+      ...(game.id === "ournotes"
+        ? {
+            songType: song.songType ?? null,
+            gekisouSections: song.gekisouSections ?? [null, null, null],
+          }
+        : {}),
       publishedAt: Date.parse(song.releaseDate),
       seq: song.releaseOrder ?? song.id,
       composer: song.composer,

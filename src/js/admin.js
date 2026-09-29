@@ -239,6 +239,12 @@ document.querySelector("#load-song").addEventListener("click", async () => {
       "durationSeconds",
     ])
       form.elements[key].value = song[key] ?? "";
+    if (game.id === "ournotes") {
+      form.elements.songType.value = song.songType ?? "";
+      for (let i = 0; i < 3; i++)
+        form.elements[`gekisou${i + 1}`].value =
+          song.gekisouSections?.[i] ?? "";
+    }
     const [band, ...guests] = song.band.split("×");
     form.elements.band.value = game.bands.includes(band) ? band : "その他";
     form.elements.otherBand.value = game.bands.includes(band) ? "" : band;
@@ -353,6 +359,8 @@ function renderGameFields() {
 renderGameFields();
 
 function updateVisibility() {
+  document.querySelector("#ournotes-performance-fields").hidden =
+    game.id !== "ournotes";
   const original = form.elements.category.value === "オリジナル";
   document.querySelector("#original-fields").hidden =
     !original || game.id === "ournotes";
@@ -573,7 +581,11 @@ function enteredSong() {
     originalWork: original ? null : value("originalWork") || null,
     ...(game.id === "garupa"
       ? { live3d: original ? JSON.parse(value("live3d")) : null }
-      : { mv: original ? JSON.parse(value("mv")) : null }),
+      : {
+          mv: original ? JSON.parse(value("mv")) : null,
+          songType: value("songType") || null,
+          gekisouSections: [1, 2, 3].map((i) => value(`gekisou${i}`) || null),
+        }),
     relatedSongIds: relatedReferences(),
     ...Object.fromEntries(
       ["bpm", "bpmMin", "bpmMax", "durationSeconds"].map((key) => [

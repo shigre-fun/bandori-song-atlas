@@ -194,9 +194,15 @@ export function renderDetail(
 <dd>${date(s.publishedAt)}</dd>
 <dt>基本BPM</dt><dd>${e(s.bpm ?? "未確認")}</dd>
 <dt>BPMの下限〜上限</dt><dd>${e(s.bpmMin ?? s.bpm ?? "未確認")} 〜 ${e(s.bpmMax ?? s.bpm ?? "未確認")}</dd>
+${game.id === "ournotes" ? `<dt>演奏バンド・参加アーティスト</dt><dd>${e(s.band)}</dd>` : ""}
 <dt>楽曲演奏時間（ゲーム内）</dt><dd>${formatDuration(s.durationSeconds)}</dd>
-<dt>演奏バンド・参加アーティスト</dt>
-<dd>${e(s.band)}</dd>
+${
+  game.id === "ournotes"
+    ? `<dt>楽曲タイプ</dt><dd>${s.songType ? `<span class="song-type song-type-${e(s.songType)}">${e(s.songType)}</span>` : "未確認"}</dd>
+<dt>撃奏区間</dt><dd>${s.gekisouSections?.some(Boolean) ? s.gekisouSections.map((kind, index) => `${index + 1}.${e(kind || "未確認")}`).join(" / ") : "未確認"}</dd>`
+    : ""
+}
+${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd>${e(s.band)}</dd>` : ""}
 <dt>${s.type === "normal" ? "作曲" : "原曲の作曲者"}</dt>
 <dd>${e(s.composer || "未確認")}</dd>${
     s.type === "normal"

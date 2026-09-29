@@ -150,6 +150,8 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     ...added.editing.song,
     title: "追加直後に修正した曲",
     composer: "確認済み作曲者",
+    songType: "紫苑",
+    gekisouSections: ["LUCK", "COMBO", "JUST"],
     relatedSongIds: [],
   };
   await store.updateSong(changed, added.editing, "ournotes-edit-00000001");
@@ -158,6 +160,12 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
     originalCount + 1,
   );
   assert.equal((await store.loadSong(nextId)).song.composer, "確認済み作曲者");
+  assert.equal((await store.loadSong(nextId)).song.songType, "紫苑");
+  assert.deepEqual((await store.loadSong(nextId)).song.gekisouSections, [
+    "LUCK",
+    "COMBO",
+    "JUST",
+  ]);
   assert.deepEqual(
     findGarupaSong(files[GAMES.garupa.dataFile], 667).song.relatedSongIds,
     existingGarupaLinks,
@@ -183,14 +191,24 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
 
 test("editor orders BPM fields and serves a searchable song picker with fresh modules", () => {
   const html = fs.readFileSync("dist/admin/index.html", "utf8");
-  const fields = ["bpm", "bpmMin", "bpmMax", "durationSeconds"].map((name) =>
-    html.indexOf(`name="${name}"`),
-  );
+  const fields = [
+    "bpm",
+    "bpmMin",
+    "bpmMax",
+    "durationSeconds",
+    "songType",
+    "gekisou1",
+    "gekisou2",
+    "gekisou3",
+    "composer",
+  ].map((name) => html.indexOf(`name="${name}"`));
   assert.ok(fields.every((position) => position >= 0));
   assert.deepEqual(
     fields,
     [...fields].sort((a, b) => a - b),
   );
+  for (const name of ["songType", "gekisou1", "gekisou2", "gekisou3"])
+    assert.match(html, new RegExp(`<select name="${name}">`));
   for (const id of [
     "add-related-song",
     "related-game",
