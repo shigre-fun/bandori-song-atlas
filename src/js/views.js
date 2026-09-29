@@ -29,7 +29,17 @@ const date = (n) =>
   }).format(new Date(n));
 const badge = (s, game) =>
   `<span class="tag ${s.type} ${game.id}">${typeNames[s.type]}</span>`;
-const color = (s) => colors[bandOrder(s, GAMES.garupa)] || colors.at(-1);
+const ourNotesBandColors = {
+  "MyGO!!!!!": colors[7],
+  "Ave Mujica": colors[8],
+  夢限大みゅーたいぷ: "#ee668f",
+  millsage: "#7138a8",
+  "一家Dumb Rock!": "#00a76f",
+};
+const color = (s, game) =>
+  game.id === GAMES.ournotes.id
+    ? (ourNotesBandColors[s.band] ?? colors.at(-1))
+    : (colors[bandOrder(s, game)] ?? colors.at(-1));
 export function formatDuration(seconds) {
   if (!Number.isFinite(seconds) || seconds <= 0) return "未確認";
   const wholeSeconds = Math.floor(seconds);
@@ -121,7 +131,7 @@ export function renderList(
 <td>
 <a class="song-title" href="${siteURL(songPath(game, s.stableSongId), base)}?${e(state.toString())}">${e(s.title)}</a>${s.work ? `<div class="song-sub">${e(s.work)}</div>` : ""}<div class="song-sub">基本BPM ${e(s.bpm ?? "未確認")} · 演奏時間 ${formatDuration(s.durationSeconds)}</div></td>
 <td>
-<div class="band" style="--band:${color(s)}">${e(s.band)}</div>
+<div class="band" style="--band:${color(s, game)}">${e(s.band)}</div>
 </td>
 <td>${badge(s, game)}</td>${s.difficulties.map((d, i) => `<td data-label="${game.difficulties[i]}" class="lv diff-${i}${d ? "" : " blank"}">${d?.level ?? "—"}</td>`).join("")}<td class="meta release-date">${date(s.publishedAt)}</td>
 </tr>`,
@@ -161,7 +171,7 @@ export function renderDetail(
   related = [],
 ) {
   return `<a class="back" href="${e(query(params, base, game))}">← 楽曲一覧に戻る</a>
-<section class="detail-top" style="--band:${color(s)}">${badge(s, game)}<h1>${e(s.title)}</h1>
+<section class="detail-top" style="--band:${color(s, game)}">${badge(s, game)}<h1>${e(s.title)}</h1>
 <p class="detail-game">${e(game.name)}</p>
 <div class="detail-band">${e(s.band)}</div>
 </section>

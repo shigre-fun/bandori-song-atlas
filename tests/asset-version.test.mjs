@@ -1,6 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { GAMES } from "../src/js/site-config.js";
+import { renderList } from "../src/js/views.js";
 
 const read = (file) => fs.readFileSync(`dist/${file}`, "utf8");
 
@@ -40,7 +42,9 @@ test("public pages and imported modules use the current asset version", () => {
 test("generated song pages carry the requested colors and type markers", () => {
   assert.match(read("garupa/songs/1/index.html"), /class="tag normal garupa"/);
   assert.match(read("ournotes/songs/1/index.html"), /--band: #448abd/);
-  assert.match(read("ournotes/songs/48/index.html"), /--band: #79859c/);
+  assert.match(read("ournotes/songs/48/index.html"), /--band: #ee668f/);
+  assert.match(read("ournotes/songs/63/index.html"), /--band: #7138a8/);
+  assert.match(read("ournotes/songs/71/index.html"), /--band: #00a76f/);
   assert.match(read("ournotes/songs/79/index.html"), /--band: #79859c/);
   assert.match(
     read("ournotes/songs/48/index.html"),
@@ -52,4 +56,24 @@ test("generated song pages carry the requested colors and type markers", () => {
   assert.match(css, /\.tag\.anime\s*\{[^}]*background: #fff0d1/s);
   assert.match(css, /\.tag\.tie_up\s*\{[^}]*background: #e4f5e9/s);
   assert.match(css, /\.song-type::before\s*\{/);
+});
+
+test("Our Notes band colors stay consistent after list rendering", () => {
+  const catalog = JSON.parse(read("ournotes/songs.json"));
+  for (const [id, hex] of [
+    [48, "#ee668f"],
+    [63, "#7138a8"],
+    [71, "#00a76f"],
+    [79, "#79859c"],
+  ]) {
+    const song = catalog.songs.find((entry) => entry.id === id);
+    assert.ok(song);
+    const html = renderList(
+      { ...catalog, songs: [song] },
+      new URLSearchParams(),
+      "/",
+      GAMES.ournotes,
+    );
+    assert.match(html, new RegExp(`--band:${hex}`), song.band);
+  }
 });

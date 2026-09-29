@@ -249,7 +249,10 @@ test("Our Notes detail follows Garupa field order without official-image link", 
   assert.match(detail, /1.COMBO \/ 2.COMBO \/ 3.COMBO/);
   assert.match(
     renderDetail(
-      songs.find((song) => song.id === 5),
+      {
+        ...songs.find((song) => song.id === 5),
+        gekisouSections: [null, null, null],
+      },
       data,
       new URLSearchParams(),
       "/",
