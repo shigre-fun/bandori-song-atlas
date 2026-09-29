@@ -84,6 +84,8 @@
 
 - 『月刊少女野崎くん』「君じゃなきゃダメみたい」は[歌手公式のOP記載](https://www.014014.jp/news/2211)。『メジャー』「心絵」は[エイベックスのOP記載](https://avex.jp/heisei_hits_avex/)で第1シリーズに使用。1996年版『るろうに剣心』「1/3の純情な感情」は[ソニーのED記載](https://www.sonymusic.co.jp/Music/Arch/SMER/SiamShade/download/d2.html)、「そばかす」は[ソニーのOP記載](https://www.sonymusic.co.jp/Music/Info/hitstyle/mhcl_779.html)。『覇穹 封神演義』「Keep the Heat and Fire Yourself Up」は[公式音楽ページ](https://www.tvhoushin-engi.com/music/index.html)で初代OP。
 
+1996年版『るろうに剣心』の[アニプレックス公式OP一覧](https://www.kenshin-tv.com/ruroken/music/)は「そばかす」を第一幕～第三十八幕の第1OPと記載する。「1/3の純情な感情」は[アニプレックスの主題歌集曲順](https://www.sonymusic.co.jp/Animation/kenshin/shinsaku/index.html)で第6EDに当たり、[DVD情報](https://www.sonymusic.co.jp/Animation/lineup/anime/rurounikenshin/blu_ray.html)でも第六十七幕以降のEDと確認できる。『創聖のアクエリオン』は[作品公式CD一覧](https://aquarion.info/goods/cd.html)で「Go Tight!」を新OPと記載しており、「創聖のアクエリオン」は第1OPとした。前後のOPが単純なクール境界と一致するとは断定せず、OP番号を用いた。
+
 - 『ノラガミ』「午夜の待ち合わせ」と第2期『ARAGOTO』「狂乱 Hey Kids!!」は[作品公式の周年ページ](https://noragami-anime.net/10th_anniv/)でOP。『王様ランキング』「裸の勇者」は[第2クールOP](https://www.aniplex.co.jp/lineup/osama-ranking/news/detail/?id=59538)。『リコリス・リコイル』「ALIVE」は[公式音楽ページ](https://lycoris-recoil.com/music/op.html)。『SHIROBAKO』「COLORFUL BOX」は[公式ノンクレジット第1クールOP映像](https://www.youtube.com/watch?v=Tv8yJbgnxz0)。
 
 - 『転生したらスライムだった件』「Nameless Story」「Storyteller」は[公式の第1期・第2期OP一覧](https://www.ten-sura.com/goods_event/goods/cd/post/6187)で照合。各期とも後続の第2弾OPがあるため第1クールとした。『ウィッチクラフトワークス』「divine intervention」は[公式CDページ](https://www.witch-cw-anime.jp/cd.html)でOP。
