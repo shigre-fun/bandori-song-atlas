@@ -42,8 +42,14 @@ test("generated song pages carry the requested colors and type markers", () => {
   assert.match(read("ournotes/songs/1/index.html"), /--band: #448abd/);
   assert.match(read("ournotes/songs/48/index.html"), /--band: #79859c/);
   assert.match(read("ournotes/songs/79/index.html"), /--band: #79859c/);
+  assert.match(
+    read("ournotes/songs/48/index.html"),
+    /class="tag normal ournotes"/,
+  );
   assert.match(read("ournotes/songs/1/index.html"), /song-type song-type-紅赤/);
   const css = read("style.css");
-  assert.match(css, /\.tag\.garupa\s*\{/);
+  assert.match(css, /\.tag\s*\{[^}]*background: #e7f1ff/s);
+  assert.match(css, /\.tag\.anime\s*\{[^}]*background: #fff0d1/s);
+  assert.match(css, /\.tag\.tie_up\s*\{[^}]*background: #e4f5e9/s);
   assert.match(css, /\.song-type::before\s*\{/);
 });

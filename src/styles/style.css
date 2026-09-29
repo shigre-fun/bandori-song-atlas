@@ -259,27 +259,15 @@ tr:last-child td {
   font-size: 12px;
   border-radius: 5px;
   padding: 4px 8px;
-  background: #fce7ef;
-  color: #a41449;
+  background: #e7f1ff;
+  color: #245caa;
   white-space: nowrap;
 }
 .tag.anime {
-  background: #eaf0fd;
-  color: #315ca6;
-}
-.tag.tie_up {
-  background: #eee9fc;
-  color: #7347aa;
-}
-.tag.garupa {
-  background: #e7f1ff;
-  color: #245caa;
-}
-.tag.garupa.anime {
   background: #fff0d1;
   color: #8e5800;
 }
-.tag.garupa.tie_up {
+.tag.tie_up {
   background: #e4f5e9;
   color: #237a46;
 }
