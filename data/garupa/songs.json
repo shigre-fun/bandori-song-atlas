@@ -1933,12 +1933,12 @@
         {
           "id": 774,
           "title": "MATSURI BAYASHI",
-          "reading": "マツリハヤシ",
-          "releaseDate": "2026-03-13T18:00:00.000+09:00",
+          "reading": "マツリバヤシ",
+          "releaseDate": "2026-03-13T18:00+09:00",
           "releaseOrder": 1155,
           "composer": "寺中友将",
           "originalArtist": "KEYTALK",
-          "originalWork": "フジテレビ系「魁!ミュージック」6月度マンスリーアーティスト",
+          "originalWork": null,
           "live3d": null,
           "aliases": [
             "matsuribayashi"
@@ -1965,7 +1965,9 @@
           "bpm": 153,
           "bpmMin": 153,
           "bpmMax": 155,
-          "durationSeconds": 98
+          "durationSeconds": 98,
+          "relatedSongIds": [],
+          "revision": "b74a1e69-1201-4337-be2b-1b1cf4ba217c"
         },
         {
           "id": 734,
