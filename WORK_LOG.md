@@ -4,6 +4,7 @@
 
 ## 現在地
 
+- 2026-09-29 コード・データ・資料・テスト12ファイルをcommit `89aa42f` に記録した。`git push origin main` は自動承認レビューが「共有される既定ブランチへの外部変更がユーザーに明示許可されておらず、リモートの信頼性・保護状況が未確認」として拒否し、コマンドは未実行。迂回しない。現在作業中：この拒否を記録してローカル状態を確定する。未完了：`origin/main` へのpush、Actionsと公開サイトの確認。次はユーザーがこのコミットの公開を明示的に許可した後、`git status --short`、`git log -2 --oneline` を確認し、`git push origin main` を再実行する。実行済み検証：全67テスト、最終ビルド797+83曲、生成ページ監査886ページ/880詳細/797旧URL、アワーノーツ全83詳細の表示、Prettier、`git diff --check`、`git diff --cached --check` 成功。実トークンによる管理画面保存とゲーム内全曲照合は未実施。問題：公開は自動承認レビュー拒否により未反映。設計判断：ローカルコミットを保持し、ユーザーの明示許可を待つ。
 - 2026-09-29 ローカル最終検証完了：アワーノーツ83曲にタイプ、うち34曲に確認済み3区間を追加。`data/ournotes/songs.json` は新2項目と更新日以外の既存データに変更なし。最終 `node scripts/build.mjs` 成功（797+83曲）、全67テスト成功、`node scripts/qa/audit-build.mjs` は886ページ/880詳細/797旧URL、全83詳細の項目順・色・撃奏表示とガルパ公開JSONの新項目なしを確認。Prettier checkと `git diff --check` 成功。現在作業中：差分をGitに記録して公開反映・公開URLを確認する。未完了：commit/push、Actionsと公開結果。次は変更12ファイルをcommitし `origin/main` へpush、Actions完了後に公開データと詳細ページを確認する。問題：全83ページ監査の初回は生成HTMLの整形による改行、2回目は監査コマンドがカバー曲の作曲欄を誤判定して失敗したが、監査条件を修正して全件成功。通常権限の初回ビルド失敗は依存シンボリックリンク読取制限で、許可付き実行により解決。設計判断：ガルパ公開JSONへアワーノーツ専用フィールドを加えず、ガルパの表示順も維持。ブラウザー実操作とゲーム内の全曲直接照合は未実施。
 - 2026-09-29 検証進捗：通常権限の `node scripts/build.mjs` は既存のPrettierシンボリックリンク読取制限で失敗したが、許可付き再実行でガルパ797曲・アワーノーツ83曲を生成。全67テスト成功、`node scripts/qa/audit-build.mjs` で886ページ/880詳細/797旧URLを確認、変更ソースのPrettier checkと `git diff --check` 成功。`data/ournotes/admin-state.json` とデータの更新日時を今回の変更に合わせた。現在作業中：最終差分と全83詳細の表示監査、更新後の再ビルド・必要なテスト、公開判断。未完了：最終検証・公開反映。次は整形後の `src/js/views.js` を再ビルドし、生成HTMLの4項目順と全曲のタイプ・3区間を確認する。問題：通常権限ビルド失敗は依存読取制限でコード起因ではない。設計判断：ガルパの既存表示順を維持し、アワーノーツだけ指定順にする。
 - 2026-09-29 まとまった変更：`data/ournotes/songs.json` の83曲へ `songType`、長さ3の `gekisouSections` を追加。Gamerchの全曲一覧とバンド別一覧でタイプ83曲・撃奏順34曲を照合し、49曲の撃奏順は `null` のまま。`src/js/song-schema.js`、`scripts/catalog.mjs`、`src/js/views.js`、`src/styles/style.css`、`src/pages/admin.html`、`src/js/admin.js` に選択値の検証、表示、色、管理画面の4つの選択欄、編集読込・保存を実装。`docs/OURNOTES_PERFORMANCE_RESEARCH.md` に出典と保留範囲を記録、`tests/ournotes.test.mjs` と `tests/ournotes-admin.test.mjs` に検証を追加。現在作業中：整形、テスト、ビルド、生成ページ検査。未完了：全検証と差分レビュー、作業用一時スクリプトの削除。次は `node scripts/build.mjs` と `node --test tests/*.test.mjs`、生成物監査、Prettierを実行する。検証：JSON変換スクリプトは83曲・撃奏順34曲として完了、その他は未実行。問題：公開資料で49曲の撃奏順は空欄または記号のみ。設計判断：予測して埋めない。タイプは曲名照合し、掲載順の相違を反映しない。
@@ -154,6 +155,14 @@
 - 新曲追加：`node scripts/add-song.mjs "楽曲名"`。作成されたJSONの空欄を埋めてからビルドする。
 
 ## 検証記録
+
+### 2026-09-29：アワーノーツ楽曲タイプ・撃奏区間
+
+- `data/ournotes/songs.json` の83曲へタイプと独立した3回の撃奏区間を追加。タイプ83曲・撃奏順34曲は公開資料で照合。撃奏順49曲は未確認として `null`。`data/ournotes/admin-state.json` の更新日時も変更。
+- `src/js/song-schema.js`、`scripts/catalog.mjs`、`src/js/views.js`、`src/styles/style.css`、`src/pages/admin.html`、`src/js/admin.js` へ検証・表示・管理画面の選択式入力と保存を実装。`tests/ournotes.test.mjs`、`tests/ournotes-admin.test.mjs` と `docs/OURNOTES_PERFORMANCE_RESEARCH.md` を更新・追加。
+- 全67テスト、ビルド797+83曲、886ページ監査、全83詳細の項目順と表示、Prettier、Git差分チェック成功。管理画面の認証済み実保存とゲーム内全曲直接照合は未実施。
+- 通常権限ビルドは既存の依存シンボリックリンク読取制限で失敗し、許可付きで成功。全ページ監査コマンドは改行とカバー曲の作曲ラベルの想定が誤りで2回失敗した後、条件を修正して全83件成功。`git add` は `.git/index.lock` の権限で初回失敗し、許可付きで成功。
+- 変更12ファイルはcommit `89aa42f` に記録。`git push origin main` は自動承認レビューが既定ブランチへの明示許可不足として拒否し、実行されていない。公開は未反映で、ユーザーの明示許可後にpush・Actions・公開URLを確認する。ガルパの表示順と公開JSONを維持する設計。
 
 ### 2026-09-25：アワーノーツ改修のGitHub保存
 
