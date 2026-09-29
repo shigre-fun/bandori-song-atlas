@@ -5,7 +5,6 @@ const ournotesPath = "data/ournotes/songs.json";
 const legacyPath = "data/garupa/legacy-song-paths.json";
 const timingPath = "data/garupa/song-timing-research.json";
 const mappingPath = "docs/original-work-mapping.json";
-const auditPath = "docs/ORIGINAL_WORK_AUDIT_2026-09-29.md";
 const csvPath = "docs/GARUPA_ID_RENUMBER_2026-09-29.csv";
 const read = (path) => JSON.parse(fs.readFileSync(path, "utf8"));
 const write = (path, value) =>
@@ -16,7 +15,6 @@ const ournotes = read(ournotesPath);
 const legacy = read(legacyPath);
 const timing = read(timingPath);
 const mapping = read(mappingPath);
-const audit = fs.readFileSync(auditPath, "utf8");
 const songs = garupa.groups.flatMap((group) => group.songs);
 if (songs.length !== 798 || Math.max(...songs.map((song) => song.id)) !== 823)
   throw new Error("移行元のガルパ楽曲データが想定と異なります。");
@@ -97,14 +95,12 @@ const remappedMapping = Object.fromEntries(
 );
 if (Object.keys(remappedMapping).length !== Object.keys(mapping).length)
   throw new Error("作品名監査のIDキーが重複しました。");
-const remappedAudit = audit.replace(/garupa:\d+/g, remap);
 
 write(garupaPath, garupa);
 write(ournotesPath, ournotes);
 write(legacyPath, legacy);
 write(timingPath, timing);
 write(mappingPath, remappedMapping);
-fs.writeFileSync(auditPath, remappedAudit);
 fs.writeFileSync(csvPath, csv.join("\n") + "\n");
 console.log(
   `ガルパ${songs.length}曲を再採番し、同時配信${[...byDate.values()].filter((cohort) => cohort.length > 1).length}組を正規化しました。`,

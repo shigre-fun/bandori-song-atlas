@@ -8,7 +8,7 @@
 - 同じ曲が複数の期で使われた場合は、各使用箇所を列挙する。
 - 挿入歌や作品全体の主題歌のようにOP/ED以外の用法は、OP/EDと偽らず公式の分類に合わせる。
 - 映画は主題歌、エンディング主題歌、挿入歌、劇中歌を出典に合わせて記載する。
-- CMは `CM「広告主・商品名」テーマソング` に統一する。これは表示形式の統一であり、広告主が「テーマソング」という呼称を使ったという意味ではない。
+- CMは `「広告主・商品名」CMソング` に統一する。これは表示形式の統一であり、広告主が「CMソング」という呼称を使ったという意味ではない。
 
 ## 照合済みの主な出典
 
@@ -76,7 +76,7 @@
 
 - 『Re:ゼロから始める異世界生活』第2期「Realize」「Memento」は[公式音楽ページ](https://re-zero-anime.jp/tv/music/tv2.html)の前半クールOP/ED。『炎炎ノ消防隊』「インフェルノ」は[第1期第1クールOP](https://fireforce-anime.jp/season1/caststaff/)、「SPARK-AGAIN」は[第2期第1クールOP](https://fireforce-anime.jp/season2/music/)。『機動戦士ガンダム 水星の魔女』「祝福」は[第1期OP](https://gundam-official.com/witch-from-mercury/news/detail.php?id=20059)、「slash」は[第2期OP](https://www.gundam.info/product/cd/01_11368.html)。
 
-- CMとして既に記録された曲は媒体表記を `CM「広告主・商品」テーマソング` に統一。これは記載済み広告用途の明確化で、追加の起用先を推定していない。「怪獣の花唄」のWILDish起用は[メーカー資料](https://www.maruha-nichiro.co.jp/corporate/news_center/news_topics/20210317_frozen_newcm.pdf)でも照合。
+- CMとして既に記録された曲は媒体表記を `「広告主・商品」CMソング` に統一。これは記載済み広告用途の明確化で、追加の起用先を推定していない。「怪獣の花唄」のWILDish起用は[メーカー資料](https://www.maruha-nichiro.co.jp/corporate/news_center/news_topics/20210317_frozen_newcm.pdf)でも照合。
 
 - 『シティーハンター』「Get Wild」は[作品公式によるED表記](https://cityhunter.jp/news/ch_35_game/)。『HUNTER×HUNTER』「Just Awake」は[日本テレビの音楽一覧](https://www.ntv.co.jp/hunterhunter/music/index.html)でED。『BLEACH』「Rolling star」は[レーベルのOP記載](https://www.sonymusic.co.jp/artist/Yui/discography/buy/SRCL-6468)、「chAngE」は[レーベルのOP記載](https://www.sonymusic.co.jp/artist/miwa/info/338511)。『PSYCHO-PASS』「abnormalize」「名前のない怪物」は[作品公式の前期OP/ED記載](https://psycho-pass.com/news/20230628_01.php)。
 
