@@ -16,6 +16,24 @@ const game = GAMES.ournotes;
 const songs = loadGameCatalog(game);
 const data = { updatedAt: "2026-09-25", songs };
 
+test("Our Notes assigns the requested IDs and release order", () => {
+  const raw = JSON.parse(fs.readFileSync(game.dataFile, "utf8"));
+  const rawSongs = raw.groups.flatMap((group) => group.songs);
+  const expected = new Map([
+    [64, "everscape"],
+    [65, "鳴らす"],
+    [66, "カーネーションの咲く日に"],
+    [72, "ジャイアント・キラー・チューン"],
+    [73, "ピースフル・ピーシーズ！"],
+    [74, "Keep on Riddim"],
+  ]);
+  for (const [id, title] of expected) {
+    const song = rawSongs.find((entry) => entry.id === id);
+    assert.equal(song?.title, title);
+    assert.equal(song?.releaseOrder, id);
+  }
+});
+
 test("Our Notes stores MV status without Garupa-only fields", () => {
   const raw = JSON.parse(fs.readFileSync(game.dataFile, "utf8"));
   const exceptions = new Set([

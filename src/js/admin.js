@@ -439,6 +439,7 @@ function switchGame(nextGame) {
   if (busy || connecting || game === nextGame) return !busy && !connecting;
   saveDraft();
   form.reset();
+  setRelatedReferences([]);
   game = nextGame;
   store?.setGame(game);
   editing = null;
@@ -696,6 +697,7 @@ function startNewSong() {
   )
     return;
   form.reset();
+  setRelatedReferences([]);
   renderRelatedSelected();
   document.querySelector("#related-picker").hidden = true;
   editing = null;
