@@ -24018,6 +24018,43 @@
           "bpmMin": 147,
           "bpmMax": 147,
           "durationSeconds": 118
+        },
+        {
+          "id": 823,
+          "title": "炎と森のカーニバル",
+          "reading": "ホノオトモリノカーニバル",
+          "releaseDate": "2026-09-29T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "Fukase",
+          "originalArtist": "SEKAI NO OWARI",
+          "originalWork": "CM「ヒカリTV」テーマソング",
+          "live3d": null,
+          "relatedSongIds": [],
+          "bpm": 116,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": 143,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 98
+            },
+            "NORMAL": {
+              "level": 12,
+              "notes": 181
+            },
+            "HARD": {
+              "level": 19,
+              "notes": 416
+            },
+            "EXPERT": {
+              "level": 24,
+              "notes": 598
+            },
+            "SPECIAL": null
+          },
+          "submissionId": "eccb74af-eec4-4284-8463-8766d1c5e732"
         }
       ]
     },
