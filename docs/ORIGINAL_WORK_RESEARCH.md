@@ -57,6 +57,12 @@
 
 『ぼっち・ざ・ろっく！』は[第2期制作発表](https://bocchi.rocks/)はあるが、2026年9月時点で未放送のため、収録済みの曲には期を付けない。『東京リベンジャーズ』の「Cry Baby」は[公式ディスコグラフィー](https://tokyo-revengers-anime.com/product/)が第1期の両編でOPと記載。『無職転生』の「オン・ザ・フロントライン」は[公式告知](https://mushokutensei.jp/news/240228_1/)の第2期第2クールOPに合わせた。
 
+『プリパラ』の「Make it!」は[第1期OP](https://avex.jp/pripara/1st/news/detail.php?id=1012768)で、[次曲が第2クールから開始](https://avex.jp/pripara/1st/news/detail.php?id=1014530)。「ドリームパレード」は[第2期開始時のOP](https://avex.jp/pripara/1st/news/index.php)で、[次曲が第2期第3クールOP](https://www.avexnet.jp/contents/IRISX-XXXX-XXXX/discography/1010882)。『シティーハンター』の「Get Wild」は[制作会社の第1シリーズ全51話ED記載](https://www.sunrise-inc.co.jp/work/news.php?id=15920)。『BLACK LAGOON』は[公式の第1・第2シーズン区分](https://www.blacklagoon.jp/character.html)、[レーベルのOP記載](https://nbcuni-music.com/ive/mell/contents/hp0007/index00070000.html)、[第2期の楽曲情報](https://www.animatetimes.com/tag/details.php?id=12843)を照合した。
+
+続編の固有タイトルも期を明記した。『魔法少女リリカルなのは A’s』の「ETERNAL BLAZE」は[作品公式のOP一覧](https://www.nanoha.com/archive2/goods/goods_a%27sshudaika.html)、『PSYCHO-PASS 2』の「Fallen」は[作品公式の第2期ED記載](https://psycho-pass.com/news/20230628_01.php)、『DARKER THAN BLACK -流星の双子-』の「ツキアカリのミチシルベ」は[第2期公式音楽ページ](https://www.d-black.net/2nd/music/index.html)、『Re：␣ハマトラ』は[作品公式の第2期表記](https://www.hamatorapj.com/event/)、『東京喰種 √A』の「季節は次々死んでいく」は[制作会社の第2期ED記載](https://www.marv.jp/titles/av/4116/)を確認した。
+『涼宮ハルヒの憂鬱』の「God knows...」「ハレ晴レユカイ」は、[レーベルの第1期・第2期区別](https://www.lantis.jp/haruhi_comp/talk.html)と[楽曲一覧](https://www.lantis.jp/haruhi_comp/)を照合して第1期とした。
+『銀魂゜』の「DAY×DAY」と「プライド革命」は、[制作会社の第3期表記](https://www.bn-pictures.co.jp/gintama/story/list.php)と[レーベルの第1・第2OP一覧](https://www.aniplex.co.jp/gintama/music/)に従い、第3期の第1・第2クールとした。
+
 - 『東京リベンジャーズ』「Cry Baby」は[第1期OP](https://tokyo-revengers-anime.com/news/archives/103)、「トーキョーワンダー。」は[第1期第2クールED](https://tokyo-revengers-anime.com/news/archives/473)。
 - 『鋼の錬金術師』2003年版「メリッサ」「READY STEADY GO」は[第1・第2クールOP](https://www.sonymusic.co.jp/artist/MikaNakashima/info/227776)。2009年版「again」「瞬間センチメンタル」は[公式アーティスト一覧](https://www.hagaren.jp/fa/about/artist.html)の第1クールOPと2010年1月開始の第4クールED。
 
