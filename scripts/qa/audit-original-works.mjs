@@ -16,6 +16,8 @@ for (const [game, path] of cases) {
       total++;
       const reasons = [];
       if (work.includes("TVアニメ")) reasons.push("TVアニメ表記");
+      if (/アニメ「[^」]*第\d+クール/.test(work))
+        reasons.push("クールを作品名の内側に記載");
       const uses = work.split(
         /、(?=(?:アニメ|OVA|映画|ドラマ|CM|ゲーム|バラエティ|情報番組|音楽番組|イベント|スポーツ中継)「)/,
       );
@@ -28,11 +30,11 @@ for (const [game, path] of cases) {
           continue;
         }
         const accepted = {
-          アニメ: /(?:OP|ED|挿入歌|劇中歌|主題歌)/,
+          アニメ: /(?:OP|ED|挿入歌|劇中歌)/,
           OVA: /(?:OP|ED|挿入歌|劇中歌|主題歌)/,
           映画: /(?:主題歌|挿入歌|劇中歌|OP|ED)/,
-          ドラマ: /(?:OP|ED|主題歌|テーマソング|挿入歌|劇中歌)/,
-          CM: /(?:テーマソング|CMソング|イメージソング)/,
+          ドラマ: /(?:OP|ED|テーマソング|挿入歌|劇中歌)/,
+          CM: /^CM「[^」]+」テーマソング$/,
           ゲーム:
             /(?:OP|ED|主題歌|テーマソング|挿入歌|劇中歌|BGM|書き下ろし楽曲|アレンジ)/,
           バラエティ: /(?:OP|ED|主題歌|テーマソング|挿入歌|番組使用曲)/,
@@ -42,7 +44,12 @@ for (const [game, path] of cases) {
           イベント: /(?:テーマソング|使用曲|課題曲)/,
           スポーツ中継: /(?:テーマソング|テーマ曲)/,
         }[medium];
-        if (!accepted.test(use)) reasons.push(`${medium}の用途未記載`);
+        if (!accepted.test(use))
+          reasons.push(
+            use.includes("主題歌") && ["アニメ", "ドラマ"].includes(medium)
+              ? `${medium}のOP/ED未特定`
+              : `${medium}の用途・形式要確認`,
+          );
       }
       if (reasons.length)
         findings.push({ game, id: song.id, title: song.title, work, reasons });

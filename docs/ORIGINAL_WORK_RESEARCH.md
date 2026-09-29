@@ -4,10 +4,11 @@
 
 ## 表記方針
 
-- TVアニメは `アニメ` に統一する。期・クールの区別がある作品では、公式の区分を調べて明記する。
+- TVアニメは `アニメ` に統一する。第2期が放送済みの場合に期を、第2クールがある場合にクールを記す。両クールで同じ曲が使われる場合は両方を記す。長期放送でOPの切替がクール境界と一致しない作品は、誤ったクール数を避けてOP番号を記す。
 - 同じ曲が複数の期で使われた場合は、各使用箇所を列挙する。
 - 挿入歌や作品全体の主題歌のようにOP/ED以外の用法は、OP/EDと偽らず公式の分類に合わせる。
 - 映画は主題歌、エンディング主題歌、挿入歌、劇中歌を出典に合わせて記載する。
+- CMは `CM「広告主・商品名」テーマソング` に統一する。これは表示形式の統一であり、広告主が「テーマソング」という呼称を使ったという意味ではない。
 
 ## 照合済みの主な出典
 
@@ -39,7 +40,22 @@
 
 ## 保留・追加調査
 
-- アワーノーツID62「UNDEAD」：[公式音楽ページ](https://www.monogatari-series.com/oms/2024/music/)は「主題歌」と記載し、別の曲をOPとして記載している。OP/EDとは書かず、公式がいう主題歌のまま保留する。
+`node scripts/qa/audit-original-works.mjs` が以下の12曲を未特定として報告する。番組・作品での起用は確認できても、OP/EDの別や曲そのものの起用が資料で確定できないため、推測では書き換えない。
+
+- アワーノーツID62「UNDEAD」：[作品公式音楽ページ](https://www.monogatari-series.com/oms/2024/music/)は「主題歌」と記載し、別の曲をOPとして記載している。OP/EDは未特定。
+- ガルパID774「MATSURI BAYASHI」：『魁!ミュージック』6月度マンスリーアーティストという既存情報は曲自体のOP/ED等の用途を証明しない。[フジテレビの記事](https://www.fujitv.co.jp/muscat/20195648.html)には別のライブでの演奏が記載されるが、当該番組での用途は未特定。
+- ガルパID804「スターラブレイション」：[フジテレビ](https://www.fujitv.co.jp/b_hp/Last_Cinderella_r/index.html)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID136「夏祭り」：『ふしぎな話』でのドラマ主題歌起用は確認済みだが、OP/EDの別は未特定。『ReLIFE』第12話EDは確認済み。
+- ガルパID311「CQCQ」：[TBS](https://www.tbs.co.jp/anasore/news/)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID18「secret base ～君がくれたもの～」：[TBS](https://www.tbs.co.jp/tbs-ch/item/d0549/)は『キッズ・ウォー3』の主題歌と記すが、OP/EDの別は未特定。
+- ガルパID787「ヒカリへ」：[フジテレビ](https://www.fujitv.co.jp/b_hp/richman-poorwoman_r/)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID116「気まぐれロマンティック」：[フジテレビ](https://www.fujitv.co.jp/b_hp/celeb/)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID756「I wonder」：[Da-iCE公式映像](https://www.youtube.com/watch?v=i9mGHG8kqoA)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID648「Subtitle」：[フジテレビ](https://www.fujitv.co.jp/silent/cast-staff/)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID308「ドラマツルギー」：[番組の起用発表](https://natalie.mu/music/news/352094)はドラマ主題歌と記すが、OP/EDの別は未特定。
+- ガルパID653「幾億光年」：[TBS](https://www.tbs.co.jp/EyeLoveYou_tbs/index.html)はドラマ主題歌と記すが、OP/EDの別は未特定。
+
+『ぼっち・ざ・ろっく！』は[第2期制作発表](https://bocchi.rocks/)はあるが、2026年9月時点で未放送のため、収録済みの曲には期を付けない。『東京リベンジャーズ』の「Cry Baby」は[公式ディスコグラフィー](https://tokyo-revengers-anime.com/product/)が第1期の両編でOPと記載。『無職転生』の「オン・ザ・フロントライン」は[公式告知](https://mushokutensei.jp/news/240228_1/)の第2期第2クールOPに合わせた。
 
 - 『東京リベンジャーズ』「Cry Baby」は[第1期OP](https://tokyo-revengers-anime.com/news/archives/103)、「トーキョーワンダー。」は[第1期第2クールED](https://tokyo-revengers-anime.com/news/archives/473)。
 - 『鋼の錬金術師』2003年版「メリッサ」「READY STEADY GO」は[第1・第2クールOP](https://www.sonymusic.co.jp/artist/MikaNakashima/info/227776)。2009年版「again」「瞬間センチメンタル」は[公式アーティスト一覧](https://www.hagaren.jp/fa/about/artist.html)の第1クールOPと2010年1月開始の第4クールED。
@@ -52,7 +68,7 @@
 
 - 『Re:ゼロから始める異世界生活』第2期「Realize」「Memento」は[公式音楽ページ](https://re-zero-anime.jp/tv/music/tv2.html)の前半クールOP/ED。『炎炎ノ消防隊』「インフェルノ」は[第1期第1クールOP](https://fireforce-anime.jp/season1/caststaff/)、「SPARK-AGAIN」は[第2期第1クールOP](https://fireforce-anime.jp/season2/music/)。『機動戦士ガンダム 水星の魔女』「祝福」は[第1期OP](https://gundam-official.com/witch-from-mercury/news/detail.php?id=20059)、「slash」は[第2期OP](https://www.gundam.info/product/cd/01_11368.html)。
 
-- CMとして既に記録された25曲は媒体表記をCM「広告主・商品」CMソングに統一。これは記載済み広告用途の明確化で、追加の起用先を推定していない。「怪獣の花唄」のWILDish起用は[メーカー資料](https://www.maruha-nichiro.co.jp/corporate/news_center/news_topics/20210317_frozen_newcm.pdf)でも照合。
+- CMとして既に記録された曲は媒体表記を `CM「広告主・商品」テーマソング` に統一。これは記載済み広告用途の明確化で、追加の起用先を推定していない。「怪獣の花唄」のWILDish起用は[メーカー資料](https://www.maruha-nichiro.co.jp/corporate/news_center/news_topics/20210317_frozen_newcm.pdf)でも照合。
 
 - 『シティーハンター』「Get Wild」は[作品公式によるED表記](https://cityhunter.jp/news/ch_35_game/)。『HUNTER×HUNTER』「Just Awake」は[日本テレビの音楽一覧](https://www.ntv.co.jp/hunterhunter/music/index.html)でED。『BLEACH』「Rolling star」は[レーベルのOP記載](https://www.sonymusic.co.jp/artist/Yui/discography/buy/SRCL-6468)、「chAngE」は[レーベルのOP記載](https://www.sonymusic.co.jp/artist/miwa/info/338511)。『PSYCHO-PASS』「abnormalize」「名前のない怪物」は[作品公式の前期OP/ED記載](https://psycho-pass.com/news/20230628_01.php)。
 
