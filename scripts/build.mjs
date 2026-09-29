@@ -174,11 +174,11 @@ async function page({
     `<link rel="icon" href="${escapeHTML(local(settings.assets.favicon))}" type="image/svg+xml" />`,
     `<link rel="icon" href="${escapeHTML(local(settings.assets.faviconPng))}" type="image/png" sizes="32x32" />`,
     `<link rel="apple-touch-icon" href="${escapeHTML(local(settings.assets.appleTouchIcon))}" sizes="180x180" />`,
-    `<link rel="stylesheet" href="${escapeHTML(local("style.css"))}" />`,
-    `<link rel="stylesheet" href="${escapeHTML(local("mobile.css"))}" />`,
+    `<link rel="stylesheet" href="${escapeHTML(local(`style.css?v=${assetVersion}`))}" />`,
+    `<link rel="stylesheet" href="${escapeHTML(local(`mobile.css?v=${assetVersion}`))}" />`,
     ...scripts.map(
       (script) =>
-        `<script ${script === "query-index.js" ? `data-index-page="${pagePath ? "list" : "root"}" ` : 'type="module" '}src="${escapeHTML(local(script))}"></script>`,
+        `<script ${script === "query-index.js" ? `data-index-page="${pagePath ? "list" : "root"}" ` : 'type="module" '}src="${escapeHTML(local(`${script}?v=${assetVersion}`))}"></script>`,
     ),
     ...[breadcrumbJSON(breadcrumbs, settings), ...jsonld]
       .filter(Boolean)
@@ -222,27 +222,7 @@ async function page({
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output, { recursive: true });
 const songImages = await generateBrandAssets(output, catalogs, games, settings);
-const adminModules = new Set([
-  "admin.js",
-  "related-song-picker.js",
-  "github-store.js",
-  "garupa-data.js",
-  "song-schema.js",
-  "site-config.js",
-  "urls.js",
-]);
-const adminAssetVersion = crypto
-  .createHash("sha256")
-  .update(fs.readFileSync("src/pages/admin.html"))
-  .update(fs.readFileSync("src/styles/admin.css"))
-  .update(
-    [...adminModules]
-      .map((name) => fs.readFileSync(`src/js/${name}`, "utf8"))
-      .join("\n"),
-  )
-  .digest("hex")
-  .slice(0, 12);
-for (const [directory, names] of [
+const copiedAssets = [
   [
     "js",
     [
@@ -265,15 +245,25 @@ for (const [directory, names] of [
   ["styles", ["style.css", "mobile.css", "admin.css"]],
   ["images", ["favicon.svg"]],
   ["static", ["_headers"]],
-])
+];
+const assetHash = crypto.createHash("sha256");
+for (const [directory, names] of copiedAssets)
+  if (directory === "js" || directory === "styles")
+    for (const name of names) {
+      assetHash.update(`${directory}/${name}\0`);
+      assetHash.update(fs.readFileSync(`src/${directory}/${name}`));
+    }
+assetHash.update(fs.readFileSync("src/pages/admin.html"));
+const assetVersion = assetHash.digest("hex").slice(0, 12);
+for (const [directory, names] of copiedAssets)
   for (const name of names)
-    if (directory === "js" && adminModules.has(name)) {
+    if (directory === "js") {
       const source = fs.readFileSync(`src/${directory}/${name}`, "utf8");
       write(
         name,
         source.replace(
           /from "(\.\/[^"?]+\.js)"/g,
-          `from "$1?v=${adminAssetVersion}"`,
+          `from "$1?v=${assetVersion}"`,
         ),
       );
     } else fs.copyFileSync(`src/${directory}/${name}`, path.join(output, name));
@@ -457,7 +447,7 @@ for (const redirect of redirects) {
   write(
     `songs/${redirect.slug}/index.html`,
     await format(
-      `<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${escapeHTML(target)}"><title>ページが移動しました | ${escapeHTML(settings.name)}</title><script type="module" src="${local("legacy-redirect.js")}"></script></head><body><main><h1>楽曲ページが移動しました</h1><p><a id="new-song-url" href="${escapeHTML(link)}">新しい楽曲ページへ</a></p></main></body></html>`,
+      `<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${escapeHTML(target)}"><title>ページが移動しました | ${escapeHTML(settings.name)}</title><script type="module" src="${local(`legacy-redirect.js?v=${assetVersion}`)}"></script></head><body><main><h1>楽曲ページが移動しました</h1><p><a id="new-song-url" href="${escapeHTML(link)}">新しい楽曲ページへ</a></p></main></body></html>`,
       { parser: "html" },
     ),
   );
@@ -492,8 +482,8 @@ write(
 
 const adminHTML = fs
   .readFileSync("src/pages/admin.html", "utf8")
-  .replace('src="/admin.js"', `src="/admin.js?v=${adminAssetVersion}"`)
-  .replace('href="/admin.css"', `href="/admin.css?v=${adminAssetVersion}"`)
+  .replace('src="/admin.js"', `src="/admin.js?v=${assetVersion}"`)
+  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
   .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
   .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
 write("admin/index.html", await format(adminHTML, { parser: "html" }));
