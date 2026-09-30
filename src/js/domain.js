@@ -1,4 +1,5 @@
 import { GAMES } from "./site-config.js";
+import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 export const difficulties = ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"];
 export const typeNames = {
   normal: "オリジナル",
@@ -161,15 +162,36 @@ export function selectedFilters(params, game = GAMES.garupa) {
     bands: params
       .getAll("band")
       .filter((v) => /^\d+$/.test(v) && Number(v) <= game.bands.length),
+    songTypes:
+      game.id === GAMES.ournotes.id
+        ? params.getAll("songType").filter((v) => ournotesSongTypes.includes(v))
+        : [],
+    gekisou:
+      game.id === GAMES.ournotes.id
+        ? params
+            .getAll("gekisou")
+            .filter((v) => [...gekisouKinds, "mixed"].includes(v))
+        : [],
   };
 }
+export function gekisouCategory(song) {
+  return (
+    gekisouKinds.find(
+      (kind) =>
+        song.gekisouSections?.length === 3 &&
+        song.gekisouSections.every((section) => section === kind),
+    ) || "mixed"
+  );
+}
 export function filteredSongs(songs, params, game = GAMES.garupa) {
-  const { types, bands } = selectedFilters(params, game);
+  const { types, bands, songTypes, gekisou } = selectedFilters(params, game);
   return songs.filter(
     (song) =>
       matches(song, params.get("q") || "") &&
       (!types.length || types.includes(song.type)) &&
-      (!bands.length || bands.includes(String(bandOrder(song, game)))),
+      (!bands.length || bands.includes(String(bandOrder(song, game)))) &&
+      (!songTypes.length || songTypes.includes(song.songType)) &&
+      (!gekisou.length || gekisou.includes(gekisouCategory(song))),
   );
 }
 export function pageNumbers(page, total) {

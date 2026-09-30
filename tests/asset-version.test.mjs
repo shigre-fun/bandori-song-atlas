@@ -43,7 +43,7 @@ test("generated song pages carry the requested colors and type markers", () => {
   assert.match(read("garupa/songs/1/index.html"), /class="tag normal garupa"/);
   assert.match(read("ournotes/songs/1/index.html"), /--band: #448abd/);
   assert.match(read("ournotes/songs/48/index.html"), /--band: #ee668f/);
-  assert.match(read("ournotes/songs/63/index.html"), /--band: #7138a8/);
+  assert.match(read("ournotes/songs/63/index.html"), /--band: #3b206d/);
   assert.match(read("ournotes/songs/71/index.html"), /--band: #00a76f/);
   assert.match(read("ournotes/songs/79/index.html"), /--band: #79859c/);
   assert.match(
@@ -62,7 +62,7 @@ test("Our Notes band colors stay consistent after list rendering", () => {
   const catalog = JSON.parse(read("ournotes/songs.json"));
   for (const [id, hex] of [
     [48, "#ee668f"],
-    [63, "#7138a8"],
+    [63, "#3b206d"],
     [71, "#00a76f"],
     [79, "#79859c"],
   ]) {
@@ -76,4 +76,33 @@ test("Our Notes band colors stay consistent after list rendering", () => {
     );
     assert.match(html, new RegExp(`--band:${hex}`), song.band);
   }
+});
+
+test("both song lists show category and band colors on every filter option", () => {
+  for (const game of Object.values(GAMES)) {
+    const html = read(`${game.slug}/songs/index.html`);
+    const categories = [
+      ...html.matchAll(
+        /<label class="filter-color-label filter-category-([^" ]+)"\s*>\s*<input type="checkbox" name="type" value="([^"]+)"/g,
+      ),
+    ];
+    assert.deepEqual(
+      categories.map(([, className, value]) => [className, value]),
+      game.categories.map((value) => [value, value]),
+    );
+    const bands = [
+      ...html.matchAll(
+        /<label class="filter-color-label" style="--filter-color:\s*(#[a-f0-9]{6})"\s*>\s*<input type="checkbox" name="band" value="(\d+)"/g,
+      ),
+    ];
+    assert.deepEqual(
+      bands.map(([, , index]) => Number(index)),
+      game.bands.map((_, index) => index).concat(game.bands.length),
+    );
+  }
+  const css = read("style.css");
+  assert.match(css, /\.filter-color-label::before\s*\{/);
+  assert.match(css, /\.filter-category-normal\s*\{[^}]*#245caa/s);
+  assert.match(css, /\.filter-category-anime\s*\{[^}]*#8e5800/s);
+  assert.match(css, /\.filter-category-tie_up\s*\{[^}]*#237a46/s);
 });

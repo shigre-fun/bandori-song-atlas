@@ -55,6 +55,8 @@ if (pagePath === "/" && legacyListKeys.some((key) => params.has(key))) {
         const next = new URLSearchParams(params);
         next.delete("type");
         next.delete("band");
+        next.delete("songType");
+        next.delete("gekisou");
         next.set("page", 1);
         for (const [key, value] of new FormData(event.currentTarget))
           next.append(key, value);
@@ -65,6 +67,8 @@ if (pagePath === "/" && legacyListKeys.some((key) => params.has(key))) {
         const next = new URLSearchParams(params);
         next.delete("type");
         next.delete("band");
+        next.delete("songType");
+        next.delete("gekisou");
         next.set("page", 1);
         clear.href = listURL(next, pageGame);
       }

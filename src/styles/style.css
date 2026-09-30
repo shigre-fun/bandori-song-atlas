@@ -379,6 +379,12 @@ tr:last-child td {
 .filter-bands {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
+.filter-song-types {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.filter-gekisou {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 .filters legend {
   font-weight: bold;
   margin-bottom: 8px;
@@ -396,14 +402,43 @@ tr:last-child td {
   overflow-wrap: anywhere;
   cursor: pointer;
 }
+.filter-category-normal {
+  --filter-color: #245caa;
+}
+.filter-category-anime {
+  --filter-color: #8e5800;
+}
+.filter-category-tie_up {
+  --filter-color: #237a46;
+}
+.filter-color-label::before {
+  content: "";
+  flex: 0 0 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--filter-color, var(--song-type-color));
+}
 .filters label:has(input:checked) {
   background: #fceaf2;
   border-color: #8d2854;
   color: #702043;
 }
+.filters label.filter-color-label:has(input:checked) {
+  background: color-mix(
+    in srgb,
+    var(--filter-color, var(--song-type-color)) 14%,
+    white
+  );
+  border-color: var(--filter-color, var(--song-type-color));
+  color: inherit;
+}
 .filters label:focus-within {
   outline: 2px solid #8d2854;
   outline-offset: 2px;
+}
+.filters label.filter-color-label:focus-within {
+  outline-color: var(--filter-color, var(--song-type-color));
 }
 .filters input {
   flex: 0 0 20px;
@@ -412,6 +447,9 @@ tr:last-child td {
   margin: 0;
   padding: 0;
   accent-color: #8d2854;
+}
+.filter-color-label input {
+  accent-color: var(--filter-color, var(--song-type-color));
 }
 .simple-filters {
   display: flex;
@@ -655,6 +693,10 @@ footer {
 }
 @media (max-width: 800px) {
   .filter-bands {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .filter-song-types,
+  .filter-gekisou {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .filters {

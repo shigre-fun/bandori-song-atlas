@@ -6,6 +6,8 @@ import { GAMES } from "../src/js/site-config.js";
 import {
   bandOrder,
   filteredSongs,
+  gekisouCategory,
+  selectedFilters,
   sortState,
   compareSongs,
 } from "../src/js/domain.js";
@@ -166,6 +168,30 @@ test("Our Notes renders added songs and populated chart fields", () => {
 
 test("Our Notes list uses Garupa controls, multiple filters and seven sort modes", () => {
   const all = renderList(data, new URLSearchParams(), "/", game);
+  const filterHeadings = [
+    "楽曲の種類（複数選択可）",
+    "バンド（複数選択可）",
+    "楽曲タイプ（複数選択可）",
+    "撃奏区間（複数選択可）",
+  ];
+  let previousHeading = -1;
+  for (const heading of filterHeadings) {
+    const index = all.indexOf(heading);
+    assert.ok(index > previousHeading, heading);
+    previousHeading = index;
+  }
+  for (const type of ["紅赤", "紺碧", "翡翠", "山吹", "紫苑"])
+    assert.match(
+      all,
+      new RegExp(
+        `class="filter-color-label song-type-${type}"[^>]*>.*?name="songType" value="${type}"`,
+        "s",
+      ),
+    );
+  for (const mode of ["COMBO", "LUCK", "JUST", "mixed"])
+    assert.ok(all.includes(`name="gekisou" value="${mode}"`));
+  assert.match(all, /value="mixed"[^>]*>混合<\/label>/);
+  assert.match(all, /撃奏区間が未確認の曲も「混合」に含みます/);
   assert.equal(
     (all.match(/class="song-title"/g) || []).length,
     Math.min(50, songs.length),
@@ -220,6 +246,92 @@ test("Our Notes list uses Garupa controls, multiple filters and seven sort modes
       [...songs].sort(compareSongs(mode, "forward", 3, game)).length,
       songs.length,
     );
+});
+
+test("Our Notes type and performance filters combine OR within a group and AND across groups", () => {
+  const base = songs.find((song) => song.id === 1);
+  const samples = [
+    {
+      ...base,
+      id: 1001,
+      songType: "紅赤",
+      gekisouSections: ["COMBO", "COMBO", "COMBO"],
+    },
+    {
+      ...base,
+      id: 1002,
+      songType: "紺碧",
+      gekisouSections: ["LUCK", "LUCK", "LUCK"],
+    },
+    {
+      ...base,
+      id: 1003,
+      songType: "翡翠",
+      gekisouSections: ["JUST", "JUST", "JUST"],
+    },
+    {
+      ...base,
+      id: 1004,
+      songType: "山吹",
+      gekisouSections: ["LUCK", "COMBO", "JUST"],
+    },
+    {
+      ...base,
+      id: 1005,
+      songType: "紫苑",
+      gekisouSections: [null, null, null],
+    },
+  ];
+  assert.deepEqual(samples.map(gekisouCategory), [
+    "COMBO",
+    "LUCK",
+    "JUST",
+    "mixed",
+    "mixed",
+  ]);
+  const ids = (params) =>
+    filteredSongs(samples, new URLSearchParams(params), game).map(
+      (song) => song.id,
+    );
+  assert.deepEqual(ids("songType=紅赤&songType=山吹"), [1001, 1004]);
+  assert.deepEqual(ids("gekisou=COMBO&gekisou=LUCK"), [1001, 1002]);
+  assert.deepEqual(ids("gekisou=mixed"), [1004, 1005]);
+  assert.deepEqual(ids("songType=紅赤&songType=山吹&gekisou=mixed"), [1004]);
+  assert.deepEqual(
+    ids("songType=invalid&gekisou=invalid"),
+    samples.map((song) => song.id),
+  );
+  assert.deepEqual(
+    selectedFilters(
+      new URLSearchParams("songType=紅赤&gekisou=COMBO"),
+      GAMES.garupa,
+    ).songTypes,
+    [],
+  );
+  const filtered = renderList(
+    data,
+    new URLSearchParams("songType=紅赤&gekisou=COMBO"),
+    "/",
+    game,
+  );
+  assert.match(filtered, /name="songType" value="紅赤" checked/);
+  assert.match(filtered, /name="gekisou" value="COMBO" checked/);
+  const clear = filtered.match(/<a[^>]+id="clear-filters"[^>]*>/)?.[0] ?? "";
+  assert.ok(clear);
+  assert.doesNotMatch(clear, /songType|gekisou/);
+  const sortLink =
+    filtered.match(/<a class="sort-link" href="([^"]+)"/)?.[1] ?? "";
+  assert.match(sortLink, /songType=%E7%B4%85%E8%B5%A4/);
+  assert.match(sortLink, /gekisou=COMBO/);
+  const detail = renderDetail(
+    base,
+    data,
+    new URLSearchParams("songType=紅赤&gekisou=COMBO"),
+    "/",
+    game,
+  );
+  assert.match(detail, /songType=%E7%B4%85%E8%B5%A4/);
+  assert.match(detail, /gekisou=COMBO/);
 });
 
 test("Our Notes detail follows Garupa field order without official-image link", () => {
