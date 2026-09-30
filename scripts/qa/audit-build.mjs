@@ -198,7 +198,7 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   for (const relative of required)
     if (!sitemapSet.has(expectedOrigin + relative))
       fail(`sitemapに必要なページがありません: ${relative}`);
-  for (const relative of ["garupa/", "ournotes/", "admin/"])
+  for (const relative of ["garupa/", "ournotes/", "admin/", "admin/news/"])
     if (sitemapSet.has(expectedOrigin + relative))
       fail(`一覧以外の非対象ページがsitemapに残っています: ${relative}`);
   for (const relative of ["garupa/index.html", "ournotes/index.html"])
@@ -206,16 +206,22 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
       fail(`削除対象が公開物に残っています: ${relative}`);
   for (const relative of [
     "admin/index.html",
+    "admin/news/index.html",
     "admin.js",
+    "admin-news.js",
     "admin.css",
     "admin-config.json",
     "github-store.js",
+    "github-news-store.js",
+    "news-data.js",
+    "news.json",
   ])
     if (!fs.existsSync(path.join(root, relative)))
       fail(`管理画面の必須ファイルがありません: ${relative}`);
   if (
     sitemapSet.has(expectedOrigin + "search/") ||
-    sitemapSet.has(expectedOrigin + "admin/")
+    sitemapSet.has(expectedOrigin + "admin/") ||
+    sitemapSet.has(expectedOrigin + "admin/news/")
   )
     fail("sitemapに非対象ページがあります。");
   const robots = fs.readFileSync(path.join(root, "robots.txt"), "utf8");
@@ -249,6 +255,7 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     "search/index.html",
     "404.html",
     "admin/index.html",
+    "admin/news/index.html",
   ]) {
     const html = fs.readFileSync(path.join(root, relative), "utf8");
     if (!/name="robots"\s+content="noindex(?:,follow|,nofollow)?"/.test(html))

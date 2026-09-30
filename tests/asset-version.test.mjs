@@ -15,6 +15,7 @@ test("public pages and imported modules use the current asset version", () => {
     "ournotes/songs/48/index.html",
     "ournotes/songs/79/index.html",
     "admin/index.html",
+    "admin/news/index.html",
   ];
   const version = read("index.html").match(/style\.css\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version);
@@ -30,7 +31,14 @@ test("public pages and imported modules use the current asset version", () => {
       file,
     );
   }
-  for (const file of ["app.js", "views.js", "domain.js", "admin.js"]) {
+  for (const file of [
+    "app.js",
+    "views.js",
+    "domain.js",
+    "admin.js",
+    "admin-news.js",
+    "github-news-store.js",
+  ]) {
     const source = read(file);
     for (const [, dependency, actualVersion] of source.matchAll(
       /from "(\.\/[^"?]+\.js)(?:\?v=([a-f0-9]{12}))?"/g,

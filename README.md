@@ -54,7 +54,9 @@ node scripts/add-song.mjs "新しい楽曲名"
 
 ## お知らせを追加する
 
-`data/news.json` を開き、配列に新しい項目を追加します。各項目の `date` は掲載日（`YYYY-MM-DD`）、`title` は見出し、`description` は本文、`category` は分類です。分類は `site`（サイト）、`data`（データ更新）、`feature`（機能追加）、`maintenance`（メンテナンス）から選びます。分類を増やす場合は `scripts/news.mjs` の表示名も追加してください。
+スマートフォンからは[お知らせ管理ページ](https://tanimachi-bdsongs.com/admin/news/)でGitHubに接続し、追加・修正できます。保存後にサイトへの反映を確認できます。
+
+`data/news.json` を開き、配列に新しい項目を追加します。各項目の `date` は掲載日（`YYYY-MM-DD`）、`title` は見出し、`description` は本文、`category` は分類です。分類は `site`（サイト）、`data`（データ更新）、`feature`（機能追加）、`maintenance`（メンテナンス）から選びます。分類を増やす場合は `src/js/news-data.js` の表示名も追加してください。
 
 ```json
 {

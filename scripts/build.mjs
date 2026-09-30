@@ -241,7 +241,10 @@ const copiedAssets = [
       "song-schema.js",
       "garupa-data.js",
       "github-store.js",
+      "github-news-store.js",
       "admin.js",
+      "admin-news.js",
+      "news-data.js",
       "related-song-picker.js",
       "query-index.js",
       "legacy-redirect.js",
@@ -259,6 +262,7 @@ for (const [directory, names] of copiedAssets)
       assetHash.update(fs.readFileSync(`src/${directory}/${name}`));
     }
 assetHash.update(fs.readFileSync("src/pages/admin.html"));
+assetHash.update(fs.readFileSync("src/pages/admin-news.html"));
 const assetVersion = assetHash.digest("hex").slice(0, 12);
 for (const [directory, names] of copiedAssets)
   for (const name of names)
@@ -283,6 +287,7 @@ write(
   "songs.json",
   JSON.stringify({ ...siteData, songs: garupaSongs }, null, 2) + "\n",
 );
+write("news.json", JSON.stringify(news, null, 2) + "\n");
 
 await page({
   file: "index.html",
@@ -506,6 +511,13 @@ const adminHTML = fs
   .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
   .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
 write("admin/index.html", await format(adminHTML, { parser: "html" }));
+const adminNewsHTML = fs
+  .readFileSync("src/pages/admin-news.html", "utf8")
+  .replace('src="/admin-news.js"', `src="/admin-news.js?v=${assetVersion}"`)
+  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
+  .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
+  .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
+write("admin/news/index.html", await format(adminNewsHTML, { parser: "html" }));
 const [owner = "", repo = ""] = (process.env.GITHUB_REPOSITORY || "").split(
   "/",
 );
