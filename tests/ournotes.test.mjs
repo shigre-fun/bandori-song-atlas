@@ -184,12 +184,15 @@ test("Our Notes list uses Garupa controls, multiple filters and seven sort modes
     assert.match(
       all,
       new RegExp(
-        `class="filter-color-label song-type-${type}"[^>]*>.*?name="songType" value="${type}"`,
+        `class="filter-song-type-label song-type-${type}"[^>]*>.*?name="songType" value="${type}"[^>]*>.*?<span class="song-type">${type}</span>`,
         "s",
       ),
     );
-  for (const mode of ["COMBO", "LUCK", "JUST", "mixed"])
-    assert.ok(all.includes(`name="gekisou" value="${mode}"`));
+  for (const mode of ["COMBO", "LUCK", "JUST"])
+    assert.match(
+      all,
+      new RegExp(`name="gekisou" value="${mode}"[^>]*>${mode}のみ<\\/label>`),
+    );
   assert.match(all, /value="mixed"[^>]*>混合<\/label>/);
   assert.match(all, /撃奏区間が未確認の曲も「混合」に含みます/);
   assert.equal(

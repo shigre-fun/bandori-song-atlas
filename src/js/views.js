@@ -98,14 +98,14 @@ export function renderList(
   )
     .map(
       ([value, label]) =>
-        `<label class="filter-color-label filter-category-${value}"><input type="checkbox" name="type" value="${value}" ${filters.types.includes(value) ? "checked" : ""}>${label}</label>`,
+        `<label><input type="checkbox" name="type" value="${value}" ${filters.types.includes(value) ? "checked" : ""}><span class="tag ${value}">${label}</span></label>`,
     )
     .join("")}</div></fieldset>
-<fieldset><legend>バンド（複数選択可）</legend><div class="filter-options filter-bands">${[...game.bands, "その他"].map((label, i) => `<label class="filter-color-label" style="--filter-color:${color({ band: label }, game)}"><input type="checkbox" name="band" value="${i}" ${filters.bands.includes(String(i)) ? "checked" : ""}>${e(label)}</label>`).join("")}</div></fieldset>
+<fieldset><legend>バンド（複数選択可）</legend><div class="filter-options filter-bands">${[...game.bands, "その他"].map((label, i) => `<label style="--band:${color({ band: label }, game)}"><input type="checkbox" name="band" value="${i}" ${filters.bands.includes(String(i)) ? "checked" : ""}><span class="band filter-band-name">${e(label)}</span></label>`).join("")}</div></fieldset>
 ${
   game.id === GAMES.ournotes.id
-    ? `<fieldset><legend>楽曲タイプ（複数選択可）</legend><div class="filter-options filter-song-types">${ournotesSongTypes.map((value) => `<label class="filter-color-label song-type-${e(value)}"><input type="checkbox" name="songType" value="${e(value)}" ${filters.songTypes.includes(value) ? "checked" : ""}>${e(value)}</label>`).join("")}</div></fieldset>
-<fieldset><legend>撃奏区間（複数選択可）</legend><div class="filter-options filter-gekisou">${[...gekisouKinds, "mixed"].map((value) => `<label><input type="checkbox" name="gekisou" value="${value}" ${filters.gekisou.includes(value) ? "checked" : ""}>${value === "mixed" ? "混合" : value}</label>`).join("")}</div></fieldset>`
+    ? `<fieldset><legend>楽曲タイプ（複数選択可）</legend><div class="filter-options filter-song-types">${ournotesSongTypes.map((value) => `<label class="filter-song-type-label song-type-${e(value)}"><input type="checkbox" name="songType" value="${e(value)}" ${filters.songTypes.includes(value) ? "checked" : ""}><span class="song-type">${e(value)}</span></label>`).join("")}</div></fieldset>
+<fieldset><legend>撃奏区間（複数選択可）</legend><div class="filter-options filter-gekisou">${[...gekisouKinds, "mixed"].map((value) => `<label><input type="checkbox" name="gekisou" value="${value}" ${filters.gekisou.includes(value) ? "checked" : ""}>${value === "mixed" ? "混合" : `${value}のみ`}</label>`).join("")}</div></fieldset>`
     : ""
 }
 <p class="notice">未選択の項目はすべて表示します。同じ項目内は「いずれか」、項目間は「すべてに一致」で絞り込みます。合同曲は「その他」です。${game.id === GAMES.ournotes.id ? "撃奏区間が未確認の曲も「混合」に含みます。" : ""}</p>

@@ -402,43 +402,27 @@ tr:last-child td {
   overflow-wrap: anywhere;
   cursor: pointer;
 }
-.filter-category-normal {
-  --filter-color: #245caa;
-}
-.filter-category-anime {
-  --filter-color: #8e5800;
-}
-.filter-category-tie_up {
-  --filter-color: #237a46;
-}
-.filter-color-label::before {
-  content: "";
-  flex: 0 0 12px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--filter-color, var(--song-type-color));
+.filter-bands .band {
+  display: inline-block;
+  min-width: 0;
+  max-width: none;
 }
 .filters label:has(input:checked) {
   background: #fceaf2;
   border-color: #8d2854;
   color: #702043;
 }
-.filters label.filter-color-label:has(input:checked) {
-  background: color-mix(
-    in srgb,
-    var(--filter-color, var(--song-type-color)) 14%,
-    white
-  );
-  border-color: var(--filter-color, var(--song-type-color));
+.filters label.filter-song-type-label:has(input:checked) {
+  background: color-mix(in srgb, var(--song-type-color) 14%, white);
+  border-color: var(--song-type-color);
   color: inherit;
 }
 .filters label:focus-within {
   outline: 2px solid #8d2854;
   outline-offset: 2px;
 }
-.filters label.filter-color-label:focus-within {
-  outline-color: var(--filter-color, var(--song-type-color));
+.filters label.filter-song-type-label:focus-within {
+  outline-color: var(--song-type-color);
 }
 .filters input {
   flex: 0 0 20px;
@@ -448,8 +432,8 @@ tr:last-child td {
   padding: 0;
   accent-color: #8d2854;
 }
-.filter-color-label input {
-  accent-color: var(--filter-color, var(--song-type-color));
+.filter-song-type-label input {
+  accent-color: var(--song-type-color);
 }
 .simple-filters {
   display: flex;
@@ -658,19 +642,19 @@ dd a,
   background: var(--song-type-color);
 }
 .song-type-紅赤 {
-  --song-type-color: #ba2859;
+  --song-type-color: #cc3670;
 }
 .song-type-紺碧 {
-  --song-type-color: #1667ae;
+  --song-type-color: #1982d2;
 }
 .song-type-翡翠 {
-  --song-type-color: #087b56;
+  --song-type-color: #22c38e;
 }
 .song-type-山吹 {
-  --song-type-color: #9b6500;
+  --song-type-color: #f0b000;
 }
 .song-type-紫苑 {
-  --song-type-color: #8144a8;
+  --song-type-color: #b05fdf;
 }
 .sr-only {
   position: absolute;

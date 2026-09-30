@@ -78,31 +78,49 @@ test("Our Notes band colors stay consistent after list rendering", () => {
   }
 });
 
-test("both song lists show category and band colors on every filter option", () => {
+test("both song lists reuse the song tags and band lines in filter options", () => {
   for (const game of Object.values(GAMES)) {
     const html = read(`${game.slug}/songs/index.html`);
+    const compact = html.replace(/\s+>/g, ">").replace(/>\s+</g, "><");
     const categories = [
-      ...html.matchAll(
-        /<label class="filter-color-label filter-category-([^" ]+)"\s*>\s*<input type="checkbox" name="type" value="([^"]+)"/g,
+      ...compact.matchAll(
+        /<label>\s*<input type="checkbox" name="type" value="([^"]+)"[^>]*>\s*<span class="tag ([^"]+)">([^<]+)<\/span>\s*<\/label>/g,
       ),
     ];
     assert.deepEqual(
-      categories.map(([, className, value]) => [className, value]),
+      categories.map(([, value, className]) => [value, className]),
       game.categories.map((value) => [value, value]),
     );
     const bands = [
-      ...html.matchAll(
-        /<label class="filter-color-label" style="--filter-color:\s*(#[a-f0-9]{6})"\s*>\s*<input type="checkbox" name="band" value="(\d+)"/g,
+      ...compact.matchAll(
+        /<label style="--band:\s*(#[a-f0-9]{6})"\s*>\s*<input type="checkbox" name="band" value="(\d+)"[^>]*>\s*<span class="band filter-band-name">([^<]+)<\/span>\s*<\/label>/g,
       ),
     ];
     assert.deepEqual(
       bands.map(([, , index]) => Number(index)),
       game.bands.map((_, index) => index).concat(game.bands.length),
     );
+    assert.deepEqual(
+      bands.map(([, , , name]) => name),
+      [...game.bands, "その他"].map((name) => name.replaceAll("'", "&#39;")),
+    );
   }
   const css = read("style.css");
-  assert.match(css, /\.filter-color-label::before\s*\{/);
-  assert.match(css, /\.filter-category-normal\s*\{[^}]*#245caa/s);
-  assert.match(css, /\.filter-category-anime\s*\{[^}]*#8e5800/s);
-  assert.match(css, /\.filter-category-tie_up\s*\{[^}]*#237a46/s);
+  assert.match(
+    css,
+    /\.band\s*\{[^}]*border-left: 3px solid var\(--band, #d82060\)/s,
+  );
+  assert.match(css, /\.band\s*\{[^}]*padding-left: 10px/s);
+  assert.doesNotMatch(css, /\.filter-color-label::before\s*\{/);
+  for (const [type, hex] of [
+    ["紅赤", "#cc3670"],
+    ["紺碧", "#1982d2"],
+    ["翡翠", "#22c38e"],
+    ["山吹", "#f0b000"],
+    ["紫苑", "#b05fdf"],
+  ])
+    assert.match(
+      css,
+      new RegExp(`\\.song-type-${type}\\s*\\{[^}]*${hex}`, "s"),
+    );
 });
