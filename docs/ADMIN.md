@@ -4,7 +4,7 @@
 
 [お知らせ管理ページ](https://tanimachi-bdsongs.com/admin/news/)は別ページです。楽曲管理から移動した場合はトークンを再入力してください。
 
-保存先は所有者 `shigre-fun`、リポジトリ `bandori-song-atlas`、ブランチ `main` です。公開サイトから開くと自動設定されます。
+保存先は所有者 `shigre-fun`、リポジトリ `bandori-song-atlas`、ブランチ `main` です。入力欄が空の場合は、この値を入力してください。
 
 ## 最初の接続
 
