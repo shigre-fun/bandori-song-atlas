@@ -30,10 +30,10 @@ test("generated canonical pages, structured data, links and sitemap are consiste
     result.redirects,
     legacy.reduce((n, entry) => n + entry.slugs.length, 0),
   );
-  assert.equal(result.pages, count + ournotesCount + 6);
+  assert.equal(result.pages, count + ournotesCount + 7);
 });
 
-test("only the four navigation pages omit the header search", () => {
+test("only the five navigation pages omit the header search", () => {
   const basePath = siteSettings(process.env).basePath;
   const readPage = (path) => fs.readFileSync(`dist/${path}`, "utf8");
   const searchAction = (html) =>
@@ -43,6 +43,7 @@ test("only the four navigation pages omit the header search", () => {
     "about/index.html",
     "privacy/index.html",
     "sources/index.html",
+    "news/index.html",
   ]) {
     const html = readPage(path);
     assert.equal(searchAction(html), undefined, path);

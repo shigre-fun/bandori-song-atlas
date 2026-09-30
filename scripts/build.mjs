@@ -3,9 +3,11 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { format } from "prettier";
 import { loadGameCatalog } from "./catalog.mjs";
+import { loadNews, renderNewsItems } from "./news.mjs";
 import { generateBrandAssets } from "./assets/create-brand-assets.mjs";
 import {
   GAMES,
+  OPERATOR_X_URL,
   SITE_DESCRIPTION,
   siteSettings,
 } from "../src/js/site-config.js";
@@ -51,6 +53,7 @@ const catalogs = Object.fromEntries(
 );
 validateRelatedSongIds(catalogs);
 const garupaSongs = catalogs.garupa;
+const news = loadNews();
 const siteData = JSON.parse(fs.readFileSync("data/settings.json", "utf8"));
 const adminStates = Object.fromEntries(
   games.map((game) => [
@@ -205,9 +208,11 @@ async function page({
     "<!--LOGO_URL-->": local(settings.assets.favicon),
     "<!--GARUPA_URL-->": local(songListPath(GAMES.garupa)),
     "<!--OURNOTES_URL-->": local(songListPath(GAMES.ournotes)),
+    "<!--NEWS_URL-->": local("news/"),
     "<!--ABOUT_URL-->": local("about/"),
     "<!--SOURCES_URL-->": local("sources/"),
     "<!--PRIVACY_URL-->": local("privacy/"),
+    "<!--OPERATOR_X_URL-->": escapeHTML(OPERATOR_X_URL),
     "<!--HEADER_SEARCH-->": searchForm,
     "<!--SITE_NAME-->": escapeHTML(settings.name),
   };
@@ -286,7 +291,10 @@ await page({
   title: `${settings.name} | バンドリ楽曲データベース`,
   description:
     "ガルパとアワーノーツの楽曲データを探せる非公式データベース。ゲームごとの楽曲一覧と情報を公開しています。",
-  content: `<section class="intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>バンドリの楽曲情報をゲームごとに探せます。</p></div></section><div class="game-cards">${games.map((game) => `<section class="panel"><h2>${escapeHTML(game.name)}</h2><p>${catalogs[game.id].length}曲を掲載しています。</p><a href="${local(songListPath(game))}">楽曲一覧を見る</a></section>`).join("")}</div>`,
+  content: `<section class="intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>バンドリの楽曲情報をゲームごとに探せます。</p></div></section>
+<div class="game-cards">${games.map((game) => `<section class="panel"><h2>${escapeHTML(game.name)}</h2><p>${catalogs[game.id].length}曲を掲載しています。</p><a href="${local(songListPath(game))}">楽曲一覧を見る</a></section>`).join("")}</div>
+<section class="panel home-news" aria-labelledby="home-news-title"><h2 id="home-news-title">お知らせ</h2>${renderNewsItems(news.slice(0, 3), { compact: true })}<a class="news-more" href="${local("news/")}">お知らせ一覧を見る</a></section>
+<aside class="panel home-x"><h2>運営者のX</h2><p>タニマチがガルパ・アワーノーツやサイトの更新について投稿しています。</p><a href="${escapeHTML(OPERATOR_X_URL)}">タニマチのXを見る（外部サイト）</a></aside>`,
   scripts: ["query-index.js", "app.js"],
   jsonld: [
     {
@@ -363,6 +371,7 @@ const informationPages = [
 <h2>このサイトについて</h2>
 <p>${escapeHTML(settings.name)}は、「バンドリ！ ガールズバンドパーティ！」と「BanG Dream! Our Notes」の楽曲情報を、ゲームごとに検索・参照しやすい形で整理する個人運営の非公式ファンデータベースです。</p>
 <p>運営：タニマチ</p>
+<p>本サイトはタニマチが個人で運営しています。<a href="${escapeHTML(OPERATOR_X_URL)}">運営者タニマチのX（外部サイト）</a>では、サイトの更新情報のほか、ガルパやアワーノーツなどについて投稿しています。</p>
 <h2>非公式サイトについて</h2>
 <p>本サイトは株式会社ブシロード、BanG Dream! Project、各ゲームの運営会社その他の関係各社とは関係・提携のない非公式サイトです。公式サイト・公式サービスではありません。</p>
 <h2>権利について</h2>
@@ -422,6 +431,16 @@ for (const info of informationPages)
     content: info.content,
     headerSearch: false,
   });
+
+await page({
+  file: "news/index.html",
+  pagePath: "news/",
+  title: `お知らせ | ${settings.name}`,
+  description: `${settings.name}の更新情報や新機能、データ更新などのお知らせです。`,
+  breadcrumbs: [home, { name: "お知らせ", path: "news/" }],
+  content: `<h1>お知らせ</h1><div class="panel news-panel">${renderNewsItems(news)}</div>`,
+  headerSearch: false,
+});
 
 await page({
   file: "search/index.html",

@@ -3,6 +3,7 @@ export const SITE_ALTERNATE_NAME = "BanG Dream! Song Database";
 export const SITE_ORIGIN = "https://tanimachi-bdsongs.com";
 export const BASE_PATH = "/";
 export const SITE_DESCRIPTION = "ガルパ・アワーノーツの非公式楽曲データベース";
+export const OPERATOR_X_URL = "https://x.com/tanimachi_kei";
 export const BRAND_ASSETS = Object.freeze({
   favicon: "favicon.svg",
   faviconPng: "favicon-32.png",

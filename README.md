@@ -12,6 +12,7 @@ BPM（基本・下限・上限）とゲーム内演奏時間も編集できま�
 - [公開サイト](https://tanimachi-bdsongs.com/)
 - [ガルパ楽曲一覧](https://tanimachi-bdsongs.com/garupa/songs/)
 - [アワーノーツ楽曲一覧](https://tanimachi-bdsongs.com/ournotes/songs/)
+- [お知らせ](https://tanimachi-bdsongs.com/news/)
 - [スマホから楽曲を追加する管理ページ](https://tanimachi-bdsongs.com/admin/)
 
 ## 最初の準備
@@ -51,12 +52,28 @@ node scripts/add-song.mjs "新しい楽曲名"
 未入力のレベル・ノーツ数や重複した番号は、生成時にエラーで知らせます。
 一覧・詳細の「データセット更新記録」は、ガルパでは `data/settings.json` と `data/garupa/admin-state.json` の `updatedAt` の新しい方、アワーノーツでは `data/ournotes/admin-state.json` の `updatedAt` を表示します。JSONを直接編集した場合は自動更新されないため、記録日も必要に応じてISO形式で修正します。
 
+## お知らせを追加する
+
+`data/news.json` を開き、配列に新しい項目を追加します。各項目の `date` は掲載日（`YYYY-MM-DD`）、`title` は見出し、`description` は本文、`category` は分類です。分類は `site`（サイト）、`data`（データ更新）、`feature`（機能追加）、`maintenance`（メンテナンス）から選びます。分類を増やす場合は `scripts/news.mjs` の表示名も追加してください。
+
+```json
+{
+  "date": "2026-09-30",
+  "title": "Xアカウントを開設しました",
+  "description": "運営者タニマチのXアカウントを開設しました。",
+  "category": "site"
+}
+```
+
+`node scripts/build.mjs` を実行すると、`/news/` は日付の新しい順に自動で並び、トップページには最新3件まで表示されます。トップページを手で編集する必要はありません。運営者のXプロフィールURLは `src/js/site-config.js` の `OPERATOR_X_URL` で変更できます。
+
 ## ファイルの役割
 
 | 場所                                    | 内容                           |
 | --------------------------------------- | ------------------------------ |
 | `data/garupa/songs.json`                | ガルパの楽曲データ             |
 | `data/ournotes/songs.json`              | アワーノーツの確認済み楽曲     |
+| `data/news.json`                        | サイト内のお知らせ             |
 | `data/garupa/legacy-song-paths.json`    | 旧曲名URLと恒久IDの対応        |
 | `data/garupa/song-timing-research.json` | BPM・演奏時間の調査固有情報    |
 | `src/js/`                               | 共通設定・表示・検索・管理画面 |
