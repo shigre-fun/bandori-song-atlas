@@ -2524,6 +2524,48 @@
             "COMBO",
             "COMBO"
           ]
+        },
+        {
+          "id": 85,
+          "title": "夢我夢中",
+          "reading": "ムガムチュウ",
+          "releaseDate": "2026-09-30T18:00+09:00",
+          "releaseOrder": null,
+          "composer": "ケンモチヒデフミ",
+          "originalArtist": null,
+          "originalWork": null,
+          "mv": null,
+          "songType": "紺碧",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ],
+          "relatedSongIds": [],
+          "bpm": 153,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 272
+            },
+            "NORMAL": {
+              "level": 15,
+              "notes": 350
+            },
+            "HARD": {
+              "level": 19,
+              "notes": 600
+            },
+            "EXPERT": {
+              "level": 26,
+              "notes": 759
+            }
+          },
+          "submissionId": "2473504b-67c6-41f6-b122-09fd090b6cb1"
         }
       ]
     },
