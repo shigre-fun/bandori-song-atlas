@@ -1,7 +1,12 @@
-import { siteURL, siteBase, songListPath } from "./urls.js";
+import { siteURL, siteBase, songListPath, crossSearchURL } from "./urls.js";
 import { GAMES } from "./site-config.js";
 import { renderList } from "./views.js";
-import { filteredSongs, sortState, nextSortParams } from "./domain.js";
+import {
+  filteredSongs,
+  sortState,
+  nextSortParams,
+  searchPage,
+} from "./domain.js";
 
 const pagePath = "/" + location.pathname.slice(siteBase.length);
 const params = new URLSearchParams(location.search);
@@ -28,8 +33,12 @@ if (pagePath === "/" && legacyListKeys.some((key) => params.has(key))) {
   const search = document.querySelector("#search");
   if (search) search.value = params.get("q") || "";
   const backLink = document.querySelector(".back");
-  if (backLink && params.size && pageGame)
-    backLink.href = listURL(params, pageGame);
+  if (backLink && params.size && pageGame) {
+    if (params.get("from") === "search") {
+      backLink.href = crossSearchURL(params.get("q") || "", searchPage(params));
+      backLink.textContent = "← 全ゲームの検索結果に戻る";
+    } else backLink.href = listURL(params, pageGame);
+  }
 
   if (pagePath === listPath) {
     const navigate = (changes) => {

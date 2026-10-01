@@ -9,6 +9,7 @@ const read = (file) => fs.readFileSync(`dist/${file}`, "utf8");
 test("public pages and imported modules use the current asset version", () => {
   const pages = [
     "index.html",
+    "search/index.html",
     "garupa/songs/index.html",
     "garupa/songs/1/index.html",
     "ournotes/songs/1/index.html",
@@ -33,6 +34,7 @@ test("public pages and imported modules use the current asset version", () => {
   }
   for (const file of [
     "app.js",
+    "cross-search.js",
     "views.js",
     "domain.js",
     "admin.js",

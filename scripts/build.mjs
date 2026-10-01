@@ -19,7 +19,11 @@ import {
   songListPath,
   songPath,
 } from "../src/js/urls.js";
-import { renderList, renderDetail } from "../src/js/views.js";
+import {
+  renderList,
+  renderDetail,
+  renderCrossSearch,
+} from "../src/js/views.js";
 import {
   relatedSongs,
   validateRelatedSongIds,
@@ -195,10 +199,10 @@ async function page({
     breadcrumbMarkup(breadcrumbs, settings) +
     `<div id="app-content">${content}</div>`;
   const searchForm = headerSearch
-    ? `<form action="${escapeHTML(local(songListPath(searchGame)))}" role="search">
-        <label class="sr-only" for="search">${escapeHTML(searchGame.shortName)}の楽曲名・原曲の作品名で検索</label>
+    ? `<form action="${escapeHTML(local(pagePath === "search/" ? "search/" : songListPath(searchGame)))}" role="search">
+        <label class="sr-only" for="search">${pagePath === "search/" ? "全ゲームの楽曲名・原曲の作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・原曲の作品名で検索`}</label>
         <span aria-hidden="true">⌕</span>
-        <input id="search" name="q" type="search" placeholder="${escapeHTML(searchGame.shortName)}の楽曲名・作品名で検索" autocomplete="off" />
+        <input id="search" name="q" type="search" placeholder="${pagePath === "search/" ? "全ゲームの楽曲名・作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・作品名で検索`}" autocomplete="off" />
         <button>検索</button>
       </form>`
     : "";
@@ -234,6 +238,7 @@ const copiedAssets = [
     "js",
     [
       "app.js",
+      "cross-search.js",
       "domain.js",
       "views.js",
       "related-songs.js",
@@ -307,8 +312,9 @@ await page({
   headerSearch: false,
   title: `${settings.name} | バンドリ楽曲データベース`,
   description:
-    "ガルパとアワーノーツの楽曲データを探せる非公式データベース。ゲームごとの楽曲一覧と情報を公開しています。",
-  content: `<section class="intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>バンドリの楽曲情報をゲームごとに探せます。</p></div></section>
+    "ガルパとアワーノーツの楽曲をまとめて検索できる非公式データベース。ゲームごとの楽曲一覧と情報も公開しています。",
+  content: `<section class="intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>ガルパ・アワーノーツの楽曲情報をまとめて探せます。</p></div></section>
+<section class="panel home-search" aria-labelledby="home-search-title"><h2 id="home-search-title">全ゲームから楽曲を検索</h2><form action="${local("search/")}" role="search"><label class="sr-only" for="all-games-search">全ゲームの楽曲名・原曲の作品名で検索</label><input id="all-games-search" name="q" type="search" placeholder="楽曲名・作品名で検索" autocomplete="off"><button type="submit">検索</button></form><p class="notice">曲名・読み・別名・原曲アーティスト・作品名で、両ゲームをまとめて検索できます。</p></section>
 <div class="game-cards">${games.map((game) => `<section class="panel"><h2>${escapeHTML(game.name)}</h2><p>${catalogs[game.id].length}曲を掲載しています。</p><a href="${local(songListPath(game))}">楽曲一覧を見る</a></section>`).join("")}</div>
 <section class="panel home-news" aria-labelledby="home-news-title"><h2 id="home-news-title">お知らせ</h2>${renderNewsItems(news.slice(0, 3), { compact: true })}<a class="news-more" href="${local("news/")}">お知らせ一覧を見る</a></section>
 <aside class="panel home-x"><h2>運営者のX</h2><p>タニマチがガルパ・アワーノーツやサイトの更新について投稿しています。</p><a href="${escapeHTML(OPERATOR_X_URL)}">タニマチのXを見る（外部サイト）</a></aside>`,
@@ -482,10 +488,12 @@ await page({
   file: "search/index.html",
   pagePath: "search/",
   title: `ゲーム横断検索 | ${settings.name}`,
-  description: "ゲーム横断検索の準備状況とゲーム別の楽曲検索への入口。",
+  description:
+    "ガルパとアワーノーツの楽曲を曲名・読み・別名・原曲アーティスト・作品名でまとめて検索できます。",
   breadcrumbs: [home, { name: "ゲーム横断検索", path: "search/" }],
   indexable: false,
-  content: `<h1>ゲーム横断検索</h1><div class="panel"><h2>準備中</h2><p>現在はゲームごとの一覧から探してください。</p>${games.map((game) => `<p><a href="${local(songListPath(game))}">${escapeHTML(game.shortName)}の楽曲一覧へ</a></p>`).join("")}</div>`,
+  content: `<h1 class="cross-search-heading">全ゲームから楽曲を検索</h1><section id="cross-search-results" aria-live="polite" aria-label="全ゲームの検索結果">${renderCrossSearch(null, new URLSearchParams(), settings.basePath)}</section>`,
+  scripts: ["cross-search.js"],
 });
 await page({
   file: "404.html",

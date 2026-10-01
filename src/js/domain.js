@@ -156,6 +156,21 @@ export function matches(s, q) {
   );
 }
 
+export function crossGameSongs(catalogs, q) {
+  if (!normalize(q)) return [];
+  return Object.values(GAMES).flatMap((game) =>
+    catalogs[game.id].songs
+      .filter((song) => matches(song, q))
+      .sort(compareSongs("band", "forward", 3, game))
+      .map((song) => ({ ...song, gameId: game.id })),
+  );
+}
+
+export function searchPage(params, pages = Number.MAX_SAFE_INTEGER) {
+  const value = Number(params.get("page"));
+  return Number.isSafeInteger(value) && value > 0 ? Math.min(value, pages) : 1;
+}
+
 export function selectedFilters(params, game = GAMES.garupa) {
   return {
     types: params.getAll("type").filter((v) => game.categories.includes(v)),

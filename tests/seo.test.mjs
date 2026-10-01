@@ -37,7 +37,9 @@ test("only the six navigation pages omit the header search", () => {
   const basePath = siteSettings(process.env).basePath;
   const readPage = (path) => fs.readFileSync(`dist/${path}`, "utf8");
   const searchAction = (html) =>
-    html.match(/<form action="([^"]+)" role="search">/)?.[1];
+    html
+      .match(/<header>([\s\S]*?)<\/header>/)?.[1]
+      ?.match(/<form action="([^"]+)" role="search">/)?.[1];
   for (const path of [
     "index.html",
     "about/index.html",
@@ -50,12 +52,11 @@ test("only the six navigation pages omit the header search", () => {
     assert.equal(searchAction(html), undefined, path);
     assert.match(html, /<small>SONG DATABASE<\/small>/, path);
   }
-  for (const path of ["search/index.html", "404.html"])
-    assert.equal(
-      searchAction(readPage(path)),
-      `${basePath}garupa/songs/`,
-      path,
-    );
+  assert.equal(
+    searchAction(readPage("search/index.html")),
+    `${basePath}search/`,
+  );
+  assert.equal(searchAction(readPage("404.html")), `${basePath}garupa/songs/`);
   for (const game of Object.values(GAMES)) {
     const expected = `${basePath}${game.slug}/songs/`;
     assert.equal(

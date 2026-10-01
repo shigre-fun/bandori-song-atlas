@@ -49,9 +49,16 @@ test("Our Notes stores MV status without Garupa-only fields", () => {
   const originals = raw.groups
     .filter((group) => group.category === "オリジナル")
     .flatMap((group) => group.songs);
-  assert.equal(originals.filter((song) => song.mv === false).length, 5);
-  for (const song of originals)
+  // 確認済みの初期データの期待値を、新曲の未確認MVへ適用しない。
+  const confirmedOriginals = originals.filter((song) => song.id <= 83);
+  assert.equal(
+    confirmedOriginals.filter((song) => song.mv === false).length,
+    5,
+  );
+  for (const song of confirmedOriginals)
     assert.equal(song.mv, !exceptions.has(song.title), song.title);
+  for (const song of originals)
+    assert.ok(song.mv === null || typeof song.mv === "boolean", song.title);
   for (const song of listGarupaSongs(raw, game.id)) {
     assert.ok(!Object.hasOwn(song, "live3d"), song.title);
     assert.ok(!Object.hasOwn(song.difficulties, "SPECIAL"), song.title);
@@ -70,11 +77,19 @@ test("Our Notes stores MV status without Garupa-only fields", () => {
     "/",
     game,
   );
+  const unknown = renderDetail(
+    { ...songs.find((song) => song.id === 1), mv: null },
+    data,
+    new URLSearchParams(),
+    "/",
+    game,
+  );
   assert.match(
     present,
     /<dt>MV<\/dt><dd><span class="pill">あり<\/span><\/dd>/,
   );
   assert.match(absent, /<dt>MV<\/dt><dd>なし<\/dd>/);
+  assert.match(unknown, /<dt>MV<\/dt><dd>確認中<\/dd>/);
 });
 
 test("Our Notes retains launch IDs as its catalog grows", () => {

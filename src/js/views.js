@@ -1,4 +1,10 @@
-import { siteURL, siteBase, songListPath, songPath } from "./urls.js";
+import {
+  siteURL,
+  siteBase,
+  songListPath,
+  songPath,
+  crossSearchURL,
+} from "./urls.js";
 import { GAMES } from "./site-config.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import {
@@ -12,6 +18,9 @@ import {
   sortState,
   sortLabels,
   nextSortParams,
+  normalize,
+  crossGameSongs,
+  searchPage,
 } from "./domain.js";
 const e = (s) =>
   String(s ?? "").replace(
@@ -50,6 +59,63 @@ const query = (p, base, game = GAMES.garupa) => {
   const x = new URLSearchParams(p);
   return siteURL(songListPath(game) + "?" + x.toString(), base);
 };
+export function renderCrossSearch(
+  catalogs,
+  params = new URLSearchParams(),
+  base = siteBase,
+) {
+  const q = params.get("q") || "";
+  const gameLinks = `<p class="search-game-links">${Object.values(GAMES)
+    .map(
+      (game) =>
+        `<a href="${e(siteURL(songListPath(game), base))}">${e(game.shortName)}の楽曲一覧へ</a>`,
+    )
+    .join(" ")}</p>`;
+  if (!catalogs || !normalize(q))
+    return `<div class="panel"><h2>全ゲームから楽曲を探す</h2><p>楽曲名・読み・別名・原曲アーティスト・作品名を入力して検索してください。</p>${gameLinks}</div>`;
+  const rows = crossGameSongs(catalogs, q);
+  const pages = Math.max(1, Math.ceil(rows.length / 50));
+  const page = searchPage(params, pages);
+  const pageURL = (number) => e(crossSearchURL(q, number, base));
+  const intro = `<section class="intro"><div><h2>検索結果</h2><p>「${e(q)}」に一致する楽曲</p></div><div class="count">${rows.length}<small>件</small></div></section>`;
+  if (!rows.length)
+    return `${intro}<div class="panel empty"><h2>一致する楽曲はありません</h2><p>短い曲名や作品名で試してください。</p>${gameLinks}</div>`;
+  return `${intro}<ul class="cross-search-list">${rows
+    .slice((page - 1) * 50, page * 50)
+    .map((song) => {
+      const game = GAMES[song.gameId];
+      const state = new URLSearchParams({
+        from: "search",
+        q,
+        page: String(page),
+      });
+      const href =
+        siteURL(songPath(game, song.stableSongId), base) + "?" + state;
+      const levels = game.difficulties
+        .map((name, index) => {
+          const chart = song.difficulties[index];
+          const level = chart?.level ?? (chart ? "未確認" : "—");
+          return `<div class="diff-${index}"><dt>${e(name)}</dt><dd class="lv${chart && chart.level == null ? " level-unknown" : ""}">${e(level)}</dd></div>`;
+        })
+        .join("");
+      return `<li class="panel"><h3>${e(song.title)}</h3><p class="search-game">${e(game.shortName)}</p><p class="band" style="--band:${color(song, game)}">${e(song.band)}</p><dl class="search-difficulties" aria-label="難易度・レベル">${levels}</dl><a class="search-detail" href="${e(href)}" aria-label="${e(`${song.title}（${game.shortName}・${song.band}）の詳細`)}">→ 詳細</a></li>`;
+    })
+    .join(
+      "",
+    )}</ul><nav class="pagination" aria-label="検索結果のページ切り替え">
+${page === 1 ? '<span aria-disabled="true">前へ</span>' : `<a href="${pageURL(page - 1)}">前へ</a>`}
+<span>${page} / ${pages}</span><div class="page-numbers">${pageNumbers(
+    page,
+    pages,
+  )
+    .map((number) =>
+      number === null
+        ? '<span class="page-gap" aria-hidden="true">…</span>'
+        : `<a href="${pageURL(number)}" aria-label="${number}ページ目" ${number === page ? 'aria-current="page"' : ""}>${number}</a>`,
+    )
+    .join("")}</div>
+${page === pages ? '<span aria-disabled="true">次へ</span>' : `<a href="${pageURL(page + 1)}">次へ</a>`}</nav><p class="notice">「—」はその難易度が未実装、「未確認」はレベル未確認です。</p>`;
+}
 export function renderList(
   data,
   params = new URLSearchParams(),

@@ -618,6 +618,114 @@ tr:last-child td {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 22px;
 }
+.home-search {
+  margin-bottom: 24px;
+}
+.home-search form {
+  display: flex;
+  gap: 10px;
+  max-width: 700px;
+}
+.home-search input {
+  min-width: 0;
+  flex: 1;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #f4f6fa;
+}
+.home-search button {
+  flex: none;
+}
+.cross-search-heading {
+  margin-bottom: 24px;
+}
+#cross-search-results .intro > div:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+#cross-search-results .count {
+  flex: none;
+}
+.cross-search-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 16px;
+}
+.cross-search-list .panel {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.cross-search-list h3 {
+  margin: 0 0 12px;
+  font-size: 21px;
+}
+.cross-search-list p {
+  margin: 8px 0;
+}
+.cross-search-list .band {
+  min-width: 0;
+  max-width: none;
+  white-space: normal;
+}
+.search-difficulties {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+  max-width: 480px;
+  margin: 16px 0 8px;
+}
+.search-difficulties > div {
+  min-width: 0;
+  padding: 10px 2px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f4f6fa;
+}
+.search-difficulties dt {
+  margin: 0;
+  color: inherit;
+  font-size: 10px;
+  font-weight: 750;
+  text-align: center;
+  white-space: nowrap;
+}
+.search-difficulties dd {
+  margin: 5px 0 0;
+  font-size: 22px;
+  line-height: 1.3;
+}
+.search-difficulties .level-unknown {
+  font-size: 12px;
+}
+@media (max-width: 420px) {
+  .search-difficulties {
+    gap: 4px;
+  }
+  .search-difficulties > div {
+    padding-inline: 0;
+  }
+}
+.search-game {
+  color: var(--muted);
+}
+.search-detail {
+  display: inline-block;
+  margin-top: 8px;
+}
+.search-detail,
+.search-game-links a {
+  color: #8d2854;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.search-game-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
 .game-cards .panel a {
   color: #8d2854;
   text-decoration: underline;
