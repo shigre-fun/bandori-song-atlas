@@ -1,4 +1,4 @@
-import { validateContact } from "./contact-validation.js";
+import { CONTACT_LIMITS, validateContact } from "./contact-validation.js";
 
 export function initContact(doc = document, fetcher = globalThis.fetch) {
   const form = doc.getElementById("contact-form");
@@ -9,6 +9,34 @@ export function initContact(doc = document, fetcher = globalThis.fetch) {
   const email = doc.getElementById("contact-email");
   const radios = [...form.querySelectorAll('[name="replyRequested"]')];
   const win = doc.defaultView;
+  const sourcePage = new URLSearchParams(win.location?.search || "").get(
+    "pageUrl",
+  );
+  if (sourcePage && sourcePage.length <= CONTACT_LIMITS.pageUrl) {
+    try {
+      const target = new URL(sourcePage, win.location.href);
+      target.search = "";
+      target.hash = "";
+      if (
+        target.origin === win.location.origin &&
+        /^https?:$/.test(target.protocol) &&
+        !target.username &&
+        !target.password &&
+        /\/(?:garupa|ournotes)\/songs\/[A-Za-z0-9_-]+\/$/.test(
+          target.pathname,
+        ) &&
+        target.href.length <= CONTACT_LIMITS.pageUrl
+      ) {
+        // 入力欄への代入だけに限定し、利用者が変更した内容は上書きしない。
+        const pageUrl = doc.getElementById("contact-pageUrl");
+        const category = doc.getElementById("contact-category");
+        if (!pageUrl.value) pageUrl.value = target.href;
+        if (!category.value) category.value = "data";
+      }
+    } catch {
+      // 不正な引き継ぎ値は無視して、通常の問い合わせフォームを表示する。
+    }
+  }
   let token = "";
   let widget = null;
   let submitting = false;

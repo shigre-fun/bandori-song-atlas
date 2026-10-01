@@ -34,7 +34,10 @@ class Control {
   }
 }
 
-function ui(fetcher = async () => Response.json({ ok: true })) {
+function ui(
+  fetcher = async () => Response.json({ ok: true }),
+  { url = "https://example.test/contact/", values = {} } = {},
+) {
   const nodes = new Map();
   for (const id of [
     "form",
@@ -83,6 +86,8 @@ function ui(fetcher = async () => Response.json({ ok: true })) {
   const container = nodes.get("contact-turnstile");
   container.clientWidth = 400;
   const windowEvents = new Control();
+  for (const [id, value] of Object.entries(values))
+    nodes.get(`contact-${id}`).value = value;
   const doc = {
     getElementById: (id) => nodes.get(id),
     createElement: () => new Control(),
@@ -92,6 +97,7 @@ function ui(fetcher = async () => Response.json({ ok: true })) {
       },
     },
     defaultView: {
+      location: new URL(url),
       addEventListener: (...args) => windowEvents.addEventListener(...args),
       turnstile: {
         render: (element, options) => {
@@ -147,6 +153,76 @@ const valid = (view) => {
   view.node("category").value = "other";
   view.node("message").value = "画面からのテスト問い合わせです。";
 };
+
+test("song reports prefill either game URL and data category, ready for message-only input", async () => {
+  for (const path of ["/garupa/songs/24/", "/atlas/ournotes/songs/song-1/"]) {
+    let payload;
+    const base = path.startsWith("/atlas/") ? "/atlas/" : "/";
+    const view = ui(
+      async (_url, options) => {
+        payload = JSON.parse(options.body);
+        return Response.json({ ok: true });
+      },
+      {
+        url: `https://example.test${base}contact/?${new URLSearchParams({ pageUrl: path })}`,
+      },
+    );
+    assert.equal(view.node("pageUrl").value, `https://example.test${path}`);
+    assert.equal(view.node("category").value, "data");
+    assert.equal(view.node("message").value, "");
+    assert.equal(view.node("email").disabled, true);
+    view.node("message").value = "この楽曲の基本BPMが異なっています。";
+    await view.load();
+    view.token();
+    await view.submit();
+    assert.equal(payload.category, "data");
+    assert.equal(payload.pageUrl, `https://example.test${path}`);
+    assert.equal(payload.replyRequested, false);
+    assert.equal(view.form.hidden, true);
+  }
+});
+
+test("report prefill ignores unsafe or non-song URLs and leaves normal contact empty", () => {
+  for (const pageUrl of [
+    "",
+    "https://other.test/garupa/songs/24/",
+    "//other.test/garupa/songs/24/",
+    "https://user:password@example.test/garupa/songs/24/",
+    "javascript:alert(1)",
+    "https://[invalid",
+    "/about/",
+    "/garupa/songs/",
+    "x".repeat(501),
+  ]) {
+    const view = ui(undefined, {
+      url: `https://example.test/contact/?${new URLSearchParams({ pageUrl })}`,
+    });
+    assert.equal(view.node("pageUrl").value, "", pageUrl);
+    assert.equal(view.node("category").value, "", pageUrl);
+  }
+  const normal = ui();
+  assert.equal(normal.node("pageUrl").value, "");
+  assert.equal(normal.node("category").value, "");
+});
+
+test("report prefill removes search/hash and keeps existing user input editable", () => {
+  const url = `https://example.test/contact/?${new URLSearchParams({ pageUrl: "/garupa/songs/24/?q=test#notes" })}`;
+  const clean = ui(undefined, { url });
+  assert.equal(
+    clean.node("pageUrl").value,
+    "https://example.test/garupa/songs/24/",
+  );
+  clean.node("pageUrl").value = "基本BPM欄について";
+  clean.node("category").value = "other";
+  assert.equal(clean.node("pageUrl").value, "基本BPM欄について");
+  assert.equal(clean.node("category").value, "other");
+  const restored = ui(undefined, {
+    url,
+    values: { pageUrl: "利用者の対象ページ説明", category: "bug" },
+  });
+  assert.equal(restored.node("pageUrl").value, "利用者の対象ページ説明");
+  assert.equal(restored.node("category").value, "bug");
+});
 
 test("client focuses invalid inputs and conditionally enables reply email", async () => {
   let calls = 0;

@@ -182,6 +182,10 @@ export function renderDetail(
   game = GAMES.garupa,
   related = [],
 ) {
+  const reportParams = new URLSearchParams({
+    pageUrl: siteURL(songPath(game, s.stableSongId), base),
+  });
+  const reportURL = siteURL(`contact/?${reportParams}`, base);
   return `<a class="back" href="${e(query(params, base, game))}">← 楽曲一覧に戻る</a>
 <section class="detail-top" style="--band:${color(s, game)}">${badge(s, game)}<h1>${e(s.title)}</h1>
 <p class="detail-game">${e(game.name)}</p>
@@ -241,5 +245,6 @@ ${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd
 </section>
 </div>
 ${related.length ? `<section class="panel related-songs"><h2>同じ楽曲の別の譜面・収録先</h2><ul>${related.map((other) => `<li><a href="${e(siteURL(songPath(GAMES[other.gameId], other.stableSongId), base))}">${e(other.title)}</a><span>${e(GAMES[other.gameId].shortName)} · ${e(other.band)}</span></li>`).join("")}</ul></section>` : ""}
+<aside class="panel song-report" aria-label="楽曲情報の訂正・報告"><p><span>この楽曲の情報に誤りがありますか？</span><a href="${e(reportURL)}"><span aria-hidden="true">→ </span>情報を訂正・報告</a></p></aside>
 <p class="data-note">データセット更新記録：${date(data.updatedAt)} · 日本版</p>`;
 }

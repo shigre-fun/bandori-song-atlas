@@ -773,6 +773,21 @@ tr:last-child td {
   color: var(--muted);
   font-size: 13px;
 }
+.song-report {
+  margin-top: 24px;
+}
+.song-report p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 0;
+}
+.song-report a {
+  color: #3269b5;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .panel {
   background: white;
   border: 1px solid var(--line);
