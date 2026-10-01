@@ -3451,6 +3451,48 @@
             "JUST",
             "JUST"
           ]
+        },
+        {
+          "id": 84,
+          "title": "微笑みの爆弾",
+          "reading": "ホホエミノバクダン",
+          "releaseDate": "2026-09-29T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "馬渡松子",
+          "originalArtist": "馬渡松子",
+          "originalWork": "アニメ「幽☆遊☆白書」OP",
+          "mv": null,
+          "songType": "紫苑",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ],
+          "relatedSongIds": [],
+          "bpm": 128,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": null
+            },
+            "NORMAL": {
+              "level": 12,
+              "notes": null
+            },
+            "HARD": {
+              "level": 17,
+              "notes": null
+            },
+            "EXPERT": {
+              "level": 24,
+              "notes": null
+            }
+          },
+          "submissionId": "126940b2-f1be-42f5-a46e-bdcf0a8c0e5c"
         }
       ]
     },
