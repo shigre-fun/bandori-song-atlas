@@ -76,7 +76,10 @@ test("home and news page use the same source and expose the configured X profile
   assert.ok(footer.includes(`href="${OPERATOR_X_URL}"`));
   assert.ok(footer.includes("X（タニマチ・外部サイト）"));
   assert.ok(about.includes("運営者タニマチのX（外部サイト）"));
-  assert.match(news, /<time datetime="2026-09-30">2026\.09\.30<\/time\s*>/);
+  for (const item of data) {
+    assert.ok(news.includes(`<time datetime="${item.date}">`));
+    assert.ok(news.includes(item.date.replaceAll("-", ".")));
+  }
   assert.ok(news.includes(">サイト</span>"));
   assert.ok(news.includes(data[0].description));
   assert.ok(!read("404.html").includes('class="news-list"'));

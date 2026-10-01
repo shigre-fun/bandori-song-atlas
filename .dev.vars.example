@@ -1,0 +1,7 @@
+# このファイルを .dev.vars にコピーしてローカル設定を入力してください。
+# 実際のキー・受信先はGitへ追加しないでください。
+TURNSTILE_SITE_KEY=""
+TURNSTILE_SECRET_KEY=""
+RESEND_API_KEY=""
+CONTACT_TO_EMAIL=""
+CONTACT_FROM_EMAIL=""

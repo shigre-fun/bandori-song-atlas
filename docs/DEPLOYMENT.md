@@ -1,5 +1,7 @@
 # Cloudflare Pagesでの公開
 
+お問い合わせフォームの公開には、通常ビルドに加えてResend・Turnstile・Pagesの5環境変数の設定が必要です。[お問い合わせの設定・運用](CONTACT.md)を参照してください。Pagesは既存Git連携を使い、ルートの `functions/api/contact.js` を同時にデプロイします。`dist/_routes.json` によりFunctionの呼び出しは問い合わせAPIに限定します。2026-10-01に運営者からProduction設定完了の報告を受領しています。公開と実送受信の検証結果はCONTACT.mdに記録します。
+
 公開URLは `https://tanimachi-bdsongs.com/` です。独自ドメイン、301転送、Search Console、sitemap、X-Robots-Tag、旧GitHub Pagesからの移行、Web Analyticsは設定済みです。画像更新時にこれらの設定を作り直さないでください。
 
 ## ビルド

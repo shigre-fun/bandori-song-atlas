@@ -1,4 +1,120 @@
 @charset "UTF-8";
+/* 公開問い合わせフォーム専用。既存の管理用スタイルは変更しない。 */
+.contact-panel [hidden] {
+  display: none !important;
+}
+.contact-panel a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.contact-form,
+.contact-fields {
+  display: grid;
+  gap: 24px;
+  min-width: 0;
+}
+.contact-form {
+  margin-top: 28px;
+}
+.contact-fields,
+.contact-reply {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.contact-field {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+.contact-field > label,
+.contact-reply legend {
+  font-weight: 700;
+}
+.contact-required {
+  font-size: 0.85em;
+  color: #616b80;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select,
+.contact-form textarea {
+  font: inherit;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #bbc4d5;
+  border-radius: 8px;
+  background: #fff;
+  color: #222b42;
+}
+.contact-form textarea {
+  resize: vertical;
+  line-height: 1.7;
+}
+.contact-form textarea:focus-visible {
+  outline: 3px solid #276de0;
+  outline-offset: 4px;
+}
+.contact-reply {
+  min-width: 0;
+}
+.contact-reply legend {
+  margin-bottom: 12px;
+}
+.contact-reply label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+.contact-reply input {
+  flex: none;
+}
+.contact-panel .help,
+.contact-panel .contact-error {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.contact-error,
+.contact-status.is-error {
+  color: #a3173d;
+}
+.contact-form [aria-invalid="true"] {
+  border-color: #a3173d;
+}
+.contact-turnstile {
+  width: 100%;
+  min-width: 0;
+}
+.contact-panel .contact-status {
+  margin: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+.contact-form button {
+  justify-self: start;
+  min-height: 44px;
+}
+.contact-form button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+.contact-success {
+  margin-top: 28px;
+}
+@media (max-width: 390px) {
+  .panel.contact-panel {
+    padding: 16px;
+  }
+  .contact-form button {
+    width: 100%;
+  }
+}
 :root {
   font-family: "Yu Gothic UI", "Meiryo", sans-serif;
   color: #222b42;

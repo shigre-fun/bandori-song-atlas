@@ -26,7 +26,9 @@
 
 ## 情報ページの方針
 
-`/about/`、`/sources/`、`/privacy/` の本文・title・descriptionは `scripts/build.mjs` の `informationPages` で管理し、共通の `src/pages/template.html` から静的生成します。Aboutでは個人運営の非公式・非提携サイトであることと権利の帰属を示します。掲載内容の連絡先は公開リポジトリで有効なGitHub Issuesです。公開投稿になるため、個人情報の提出先としては案内しません。
+`/about/`、`/sources/`、`/privacy/` の本文・title・descriptionは `scripts/build.mjs` の `informationPages` で管理し、共通の `src/pages/template.html` から静的生成します。Aboutでは個人運営の非公式・非提携サイトであることと権利の帰属を示します。一般利用者の正式な連絡先は `/contact/` です。
+
+`/contact/` も同じ共通テンプレートとSEO生成を使います。匿名フォームの入力規則は `src/js/contact-validation.js` をクライアントとサーバーで共有し、送信だけを `functions/api/contact.js` が処理します。Turnstileのサーバー検証後、ResendのREST APIで運営者へプレーンテキストメールを送ります。秘密鍵・送受信先はFunctionsの環境変数のみ、公開ページへ埋め込む設定値はSite Keyだけです。問い合わせDBと自動返信はありません。`_routes.json` が静的ページをFunctions呼び出しから分離します。設定手順は[お問い合わせの設定・運用](CONTACT.md)を参照してください。
 
 Sourcesではガルパとアワーノーツの現行ゲーム内表示を優先し、公式サイト・公式のお知らせ、その他の公式公開資料、運営者による確認・計測の順に照合します。既存のガルパのBPM・時間には公開データを用いた調査・算出値もあり、公式発表値とみなしません。確認できない値は推測で埋めません。
 

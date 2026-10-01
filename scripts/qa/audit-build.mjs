@@ -194,6 +194,7 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     "about/",
     "sources/",
     "privacy/",
+    "contact/",
   ];
   for (const relative of required)
     if (!sitemapSet.has(expectedOrigin + relative))

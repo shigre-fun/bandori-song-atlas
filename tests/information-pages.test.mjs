@@ -26,7 +26,7 @@ test("information pages explain ownership, source priorities and privacy clearly
     assert.ok(aboutText.includes(phrase), phrase);
   assert.match(
     about,
-    /href="https:\/\/github\.com\/shigre-fun\/bandori-song-atlas\/issues"/,
+    new RegExp(`href="${siteSettings(process.env).basePath}contact/"`),
   );
 
   for (const phrase of [
@@ -73,7 +73,7 @@ test("information pages explain ownership, source priorities and privacy clearly
   );
   assert.match(
     privacy,
-    /最終更新：\s*<time datetime="2026-09-29">2026-09-29<\/time>/,
+    /最終更新：\s*<time datetime="2026-09-30">2026-09-30<\/time>/,
   );
 });
 
@@ -84,6 +84,7 @@ test("information pages retain natural SEO metadata and footer links", () => {
     ["about", "サイトについて"],
     ["sources", "データ出典・更新方針"],
     ["privacy", "プライバシーポリシー"],
+    ["contact", "お問い合わせ"],
   ]) {
     const html = readPage(slug);
     const canonical = `${origin}${basePath}${slug}/`;
@@ -93,7 +94,7 @@ test("information pages retain natural SEO metadata and footer links", () => {
     assert.match(html, /<meta\s+name="description"\s+content="[^"]+"/);
     assert.ok(html.includes('property="og:image"'));
     assert.ok(html.includes('"@type": "BreadcrumbList"'));
-    for (const footer of ["about/", "sources/", "privacy/"])
+    for (const footer of ["about/", "sources/", "privacy/", "contact/"])
       assert.ok(html.includes(`href="${basePath}${footer}"`));
   }
 });

@@ -4,6 +4,7 @@ import crypto from "node:crypto";
 import { format } from "prettier";
 import { loadGameCatalog } from "./catalog.mjs";
 import { loadNews, renderNewsItems } from "./news.mjs";
+import { renderContact } from "./contact.mjs";
 import { generateBrandAssets } from "./assets/create-brand-assets.mjs";
 import {
   GAMES,
@@ -212,6 +213,7 @@ async function page({
     "<!--ABOUT_URL-->": local("about/"),
     "<!--SOURCES_URL-->": local("sources/"),
     "<!--PRIVACY_URL-->": local("privacy/"),
+    "<!--CONTACT_URL-->": local("contact/"),
     "<!--OPERATOR_X_URL-->": escapeHTML(OPERATOR_X_URL),
     "<!--HEADER_SEARCH-->": searchForm,
     "<!--SITE_NAME-->": escapeHTML(settings.name),
@@ -248,6 +250,8 @@ const copiedAssets = [
       "related-song-picker.js",
       "query-index.js",
       "legacy-redirect.js",
+      "contact.js",
+      "contact-validation.js",
     ],
   ],
   ["styles", ["style.css", "mobile.css", "admin.css"]],
@@ -288,6 +292,14 @@ write(
   JSON.stringify({ ...siteData, songs: garupaSongs }, null, 2) + "\n",
 );
 write("news.json", JSON.stringify(news, null, 2) + "\n");
+write(
+  "_routes.json",
+  JSON.stringify(
+    { version: 1, include: ["/api/contact", "/api/contact/"], exclude: [] },
+    null,
+    2,
+  ) + "\n",
+);
 
 await page({
   file: "index.html",
@@ -366,7 +378,7 @@ for (const game of games) {
 }
 
 // 本文を変更した日だけ更新する。ビルド日時からは算出しない。
-const privacyUpdatedOn = "2026-09-29";
+const privacyUpdatedOn = "2026-09-30";
 const informationPages = [
   {
     slug: "about",
@@ -384,7 +396,7 @@ const informationPages = [
 <h2>掲載情報について</h2>
 <p>正確で新しい情報の掲載に努めていますが、ゲームの更新や確認・反映までの時間差により、実際のゲーム内情報と異なる場合があります。掲載情報の完全性は保証していません。</p>
 <h2>ご連絡</h2>
-<p>データの誤り、権利関係、その他のご連絡は<a href="https://github.com/shigre-fun/bandori-song-atlas/issues">GitHub Issues</a>からお願いします。投稿内容は公開されます。</p>
+<p>データの誤り、権利関係、サイトへのご意見・ご要望などは、<a href="${escapeHTML(local("contact/"))}">お問い合わせページ</a>からご連絡ください。</p>
 </section>`,
   },
   {
@@ -408,7 +420,7 @@ const informationPages = [
   {
     slug: "privacy",
     name: "プライバシーポリシー",
-    description: `${settings.name}のCloudflareによる配信・アクセス解析と、管理ページで扱う情報を説明します。`,
+    description: `${settings.name}の配信・アクセス解析、お問い合わせと管理ページで扱う情報を説明します。`,
     content: `<h1>プライバシーポリシー</h1><section class="panel">
 <h2>サイトの配信</h2>
 <p>当サイトはCloudflare Pages等のCloudflareのサービスを利用して配信しています。アクセス時には、サービス提供・セキュリティ・通信処理のため、IPアドレスや通信に関する情報がCloudflareによって処理される場合があります。詳しくは<a href="https://www.cloudflare.com/policies/privacy/">Cloudflareのプライバシーポリシー</a>をご覧ください。</p>
@@ -416,6 +428,10 @@ const informationPages = [
 <p>利用状況と表示性能の把握のため、Cloudflare Web Analyticsを利用しています。Cloudflareの説明によると、Web Analytics自体は分析目的のCookieやlocalStorageを使わず、訪問者の個人データを収集・利用せず、個人を識別するフィンガープリントも行いません。<a href="https://developers.cloudflare.com/web-analytics/about/">サービスの説明</a>と<a href="https://developers.cloudflare.com/web-analytics/data-metrics/core-web-vitals/">計測方法の説明</a>をご覧ください。</p>
 <h2>通常の閲覧</h2>
 <p>通常の閲覧に際して、当サイト運営者が氏名・住所・電話番号等を直接入力させる機能はありません。検索・絞り込み条件はURLのクエリに含まれます。</p>
+<h2>お問い合わせで取得する情報と利用目的</h2>
+<p>お問い合わせフォームでは、お問い合わせの種類・内容、対象ページURL等の入力情報、返信を希望する場合のメールアドレスを取得します。問い合わせ内容の確認、必要な対応、返信希望者への返信、サイト改善のために利用します。氏名の入力は不要です。問い合わせ内容はサイトのデータベースには保存せず、運営者へメールで送信します。</p>
+<h2>お問い合わせで利用するサービス</h2>
+<p>メール送信処理には<a href="https://resend.com/legal/privacy-policy">Resend</a>を利用し、問い合わせ内容と返信先等の入力情報をメール送信のために処理します。スパム・不正送信対策には<a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Turnstile</a>を利用し、確認トークンやブラウザー・通信に関する情報が処理されます。</p>
 <h2>管理ページについて（運営者向け）</h2>
 <p>管理ページは入力途中の楽曲データと接続先設定をブラウザーのlocalStorageに保存します。GitHubへの保存時には、入力したアクセストークンを使ってGitHub APIと通信します。アクセストークンは画面内のメモリーにのみ保持し、ブラウザーの保存領域には記録しません。</p>
 <h2>広告と外部サイト</h2>
@@ -436,6 +452,21 @@ for (const info of informationPages)
     content: info.content,
     headerSearch: false,
   });
+
+await page({
+  file: "contact/index.html",
+  pagePath: "contact/",
+  title: `お問い合わせ | ${settings.name}`,
+  description:
+    "バンドリ楽曲録への情報訂正、不具合、機能要望、権利関係、その他のお問い合わせを受け付けています。",
+  breadcrumbs: [home, { name: "お問い合わせ", path: "contact/" }],
+  content: renderContact({
+    siteKey: process.env.TURNSTILE_SITE_KEY || "",
+    local,
+  }),
+  headerSearch: false,
+  scripts: ["contact.js"],
+});
 
 await page({
   file: "news/index.html",
