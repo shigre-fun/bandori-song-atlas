@@ -4,6 +4,20 @@
 
 ## 現在地
 
+- 2026-10-02 横断検索・難易度レベル/枠幅の公開と本番検証が完了。公開実装ea4b3eb9e03d2c51ec26ff547d2abb496ee4bdf5、GitHub Actions36895830434とCloudflare Pages c137de36-6940-4ff0-bf34-e96e127950eeは同HEADでcompleted/success。完了：本番トップEnter検索→迷星叫のガルパ473/628・アワーノーツ1を正しい順/数値/詳細URLで確認、アワーノーツ詳細の専用戻り先で検索語復元、q=aのページ2/50件→ガルパ584詳細→ページ2復帰と再読み込みを確認。PC1280pxは各枠約91.20px、320pxは約43.06pxで両ゲームの左4枠幅/位置一致、5/5/4要素と横はみ出しなし（幅305<=320）。HTTP200のトップ/search/JS/CSS、検索noindex,follow/canonical、OGP/Twitter一致・PNG200/1200×630のmetaとfavicon200、JSエラーログなしを確認。配信JS/CSSは今回のcommit内容と一致（JSは公開HTMLのv=8e27fbf56d90を使用して照合）。画像reports/cross-search-production-desktop.jpg・cross-search-production-mobile.jpgを保存/目視確認（Git対象外）。現在作業中：本終了記録だけを同期。未完了：今回の公開成功条件なし、並行した別作業の難易度色変更（views.js/style.css/cross-search.test.mjs）は未コミットのまま保持。次はWORK_LOGのみ整形/check/commit/pushし、他作業の3ファイルを含めないことを確認する。問題：途中のローカルdist/cross-search.js照合は並行buildによる一時不在で失敗、今回commitからの読取に切替えて成功。補助Get-CimInstanceはアクセス拒否で実行できなかったが、共有記録で別作業を確認しプロセス停止/再buildはしていない。ローカルと公開のv値差は実際の公開版で照合して対処し原因は未調査、内容一致を確認済み。公開設定/楽曲データ/API変更なし。viewportリセット済み、本番検索タブは成果として保持。
+
+- 2026-10-02 難易度色変更のローカル実装・検証完了。完了：src/styles/style.cssのゲーム別単色パレット、src/js/views.jsの一覧表/詳細/横断検索のゲーム属性、tests/cross-search.test.mjsのカード抽出を属性追加に対応、distを正規buildで再生成。検証：build52872終了0（799/85曲）、全114テスト成功、JS構文/diff check成功、ブラウザーの両ゲーム静的一覧・クエリ検索後一覧・詳細・横断検索の計算済み文字色が採取色と一致。現在作業中：なし。Prettier最終確認成功、server34230をCtrl+C停止（終了1は意図した停止）、確認タブ終了済み。未完了：今回の機能の成功条件なし（公開は今回未実施、前回公開待ち記録は保持）。次は新しい依頼時にGit状態と差分を再確認。公開する場合は今回の4ファイルをレビューし、既存公開待ち状況も確認してからcommit/pushする。問題：通常buildの依存読取制限は承認付きで解消。初期確認タブはserver開始前に接続拒否、そのエラータブのdata URL参照も拒否されたため新規タブで正常確認。静的一覧50件に迷星叫がないことによるwaitFor失敗はゲーム属性による確認へ変更して解消。初回WORK_LOGのPrettier警告は最終整形/check成功で解消。設計判断：採取した色をそのまま使い、OurNotesは帯3段の背景平均色、CSS変数を親属性から継承して動的/静的描画の色を統一。データ変更・commit/pushなし。
+
+- 2026-10-02 通常権限buildはERR_MODULE_NOT_FOUND（node_modules/prettier/index.js）で生成開始前に終了1。既知の依存シンボリックリンク読取制限と同じため、承認付きで既存buildを実行して確認する。完了：CSS/表示マークアップ編集は保存済み。現在作業中：build再検証。未完了：生成・テスト・表示確認。次は承認付きnode scripts/build.mjsの終了を確認後にテストを実行。新たな依存追加やdist直接編集はしない。
+
+- 2026-10-02 難易度色を実装。完了：src/styles/style.cssにゲーム別CSS変数、src/js/views.jsの一覧表/詳細難易度パネル/横断検索カードにdata-gameを追加。色：ガルパEASY #3366FF/NORMAL #66FF33/HARD #FFCC33/EXPERT #FF3333/SPECIAL #EE2299、OurNotes #549FC7/#54AE78/#CDA75A/#B85453。採取：元画像2360×1640をSystem.Drawingで読取、ガルパは背景の最頻値（文字の白・縁色と分離）、OurNotesは3段の帯の文字を避けた上下画素を平均しRGB整数へ丸めた。現在作業中：build・既存テスト・ブラウザー確認。未完了：生成物への反映と各表示経路で正しいゲーム色の確認。次はnode scripts/build.mjs→node --test tests/\*.test.mjs→静的/検索後の一覧・詳細・横断検索で色を確認。検証：画像画素採取のみ、コード検証はこれから。設計判断：親要素のゲーム属性でCSS変数を継承しJSなし/動的描画双方に適用、未実装一覧の灰色は既存仕様を維持。問題：なし。データ/配置設定への変更なし。
+
+- 2026-10-02 GitHub Actions36895830434のbuild/deployチェックは同ea4b3ebでcompleted/success。Cloudflare Pages c137de36-6940-4ff0-bf34-e96e127950eeはin_progress。完了：GitHub側公開ジョブ成功の確認。現在作業中：Cloudflare待ちと本番反映確認。HTTPではトップ/search/とも200・searchはnoindex,followだが、まだ旧トップ/旧検索ページ（cross-search.jsなし）のため本番反映完了とは扱わない。未完了：Cloudflare success・新UIの実確認・終了記録同期。次は間隔を空けてCloudflareチェックを再取得、成功後に本番を再読込する。問題：ジョブ失敗なし、待機中の旧版応答は想定範囲。
+
+- 2026-10-02 難易度色変更を開始。完了：作業ディレクトリ・Git管理/差分/ステージ/未追跡を確認、既存差分はWORK_LOG.mdのみ。対象：src/styles/style.cssと必要なゲーム識別マークアップ。現在作業中：添付2画像の色採取と難易度表示経路の確認。未完了：ゲーム別単色パレットの全一覧/詳細/横断検索への適用、build・既存テスト・画面確認。次は画像の背景画素を採取→CSS変更→node scripts/build.mjs→node --test tests/\*.test.mjs→両ゲーム表示を確認。検証：Git/実体確認のみ、新規テスト未実施。前回公開待ち記録を保持、ghがPATHになく状態取得は失敗し公開完了は未確認。server4173にリスナーなし。設計判断：画像に合わせ両ゲームの異なる色味を維持、OurNotesはグラデーションの代表単色。データ変更なし。
+
+- 2026-10-02 実装commit ea4b3eb9e03d2c51ec26ff547d2abb496ee4bdf5をorigin/mainへ非強制push成功。完了：13ファイル保存・リモート同期、データ/API/外部設定は変更なし。現在作業中：GitHub Actions run36895830434と同HEADのCloudflare Pagesチェックがin_progress、公開完了待ち。未完了：両ジョブ成功と実サイトの横断検索/難易度枠/詳細からの復帰、作業記録の最終同期。次は公開チェックを間隔を空けて追跡し、完了後https://tanimachi-bdsongs.com/と/search/をブラウザー・HTTPで確認する。ローカル検証は両配置build/114テスト/SEO/整形成功済み。問題：新規公開での失敗はまだなし。記録はpush後の追記を未コミットで保持。
+
 - 2026-10-02 公開対象の最終ローカル検証が完了。完了：先行4コミット維持、両配置のbuild終了0、全114テストをルート/サブパスそれぞれ成功、SEO892正規/884詳細/797転送、変更13ファイルのPrettierとdiff check成功、最終distはルート配置。対象は従来12ファイル＋tests/ournotes.test.mjs（新曲追加で失敗した既存MV仮定の修正）。現在作業中：13ファイルのステージ確認・commit・非強制push。未完了：新規Cloudflare/GitHub公開成功、本番検索/幅/戻り先と終了記録同期。次はgit add→cached差分確認→feat commit→origin/mainへpushしチェックを追跡する。先行楽曲データ4ファイルはorigin/mainと一致、生成物の直接編集なし。問題：失敗したMV/一時dist/整形確認は上記の再検証で解消、LF/CRLF通知のみ残る。検証server起動なし。
 
 - 2026-10-02 サブパスbuild98971終了0、全114テスト・SEO892正規/884詳細/797転送成功。完了：tests/ournotes.test.mjsを既知id<=83のMV期待値を維持しつつ新曲のnullを許容するよう修正、MV確認中表示のfixture追加。サブエージェントの限定MV/整形/構文は成功、同時実行のOurNotes全体はbuild中の一時dist不在で1件失敗したが、生成完了後の全114件で解消確認済み。公開前の先行HEAD b15e9a1はGitHub Actions36893095065/Cloudflare両方failureだった（今回の公開は修正後に新規追跡する）。現在作業中：ルート最終再生成と全テスト/SEO、記録整形。未完了：commit/push・新規公開成功・本番確認・終了記録。次はルートbuild完了→全114テスト/audit/Prettier→13ファイルをcommit/pushする。データ4ファイルはorigin/mainの内容と一致、こちらから変更なし。
@@ -662,3 +676,13 @@
 - 未完了：外部サービスのProduction設定、Git保存と公開、実送信・受信箱・Reply-To確認、実スクリーンリーダー検証。利用者の秘密値は取得していない。設定前の公開pushは行っていない。API/UIテストで実メールは送っていない。
 - 次の作業：運営者がdocs/CONTACT.mdに従いResend/Turnstile/Pagesを設定する。設定完了後、Git状態とremote先行変更を確認し、必要な統合と検証後に非強制pushする。Cloudflareデプロイ・公開CSP/API・既存画面を確認し、運営者に実受信・Reply-Toを確認してもらう。未完了条件を満たすまで運用完了にしない。
 - 実行中処理：今回起動した模擬サーバーとWranglerは停止、検証タブは終了済み。依存追加はpackage.json/lockfileに行っていない。
+
+### 2026-10-02：添付ゲーム画面に合わせた難易度色変更
+
+- 対象：src/styles/style.css、src/js/views.js、tests/cross-search.test.mjs、WORK_LOG.md。完了：画像の背景からゲーム別パレットを採取し、一覧の見出し/レベル、詳細の難易度/レベル、横断検索の難易度/レベルへ適用。distはbuild生成。
+- 色：ガルパEASY #3366FF、NORMAL #66FF33、HARD #FFCC33、EXPERT #FF3333、SPECIAL #EE2299。アワーノーツEASY #549FC7、NORMAL #54AE78、HARD #CDA75A、EXPERT #B85453（グラデーションの代表平均色）。
+- 採取：元画像2360×1640。System.Drawing.GetPixelでガルパ各ラベル背景の最頻値、OurNotesの各帯3段の文字外（上下計15行・各列129画素）のRGB平均を整数へ丸めた。画像は編集していない。
+- 検証：承認付きbuild52872終了0、全114テスト成功、ブラウザー7経路（両ゲームの一覧/検索後一覧/詳細と横断検索）で計算済み色一致。JS構文/diff check成功。色のみの変更でURL/配置は維持、今回はサブパスbuildやスマホviewportは再検証していない。
+- 問題と対処：通常buildは既知のPrettier依存読取制限で失敗し承認付きで成功。gh不在で前回デプロイ取得は未確認。初期ブラウザー接続拒否/エラータブdata URL拒否はserver起動後の新規タブで解消、静的初期一覧に指定曲なしの待機失敗は属性で確認して解消。
+- 現在作業中：なし。最終Prettier check（4ファイル）とdiff check成功。server34230はCtrl+C停止（終了1は意図した停止）、確認タブ終了済み。未完了：今回の機能条件なし、前回公開待ちはその記録を保持。次は新しい依頼でGit再確認、公開依頼時に4ファイルの差分をレビューしてcommit/pushと公開確認。今回の差分を未コミットで保持。
+- 設計：ゲーム属性のCSS変数で両ゲームの色味を使い分け、既存未実装の灰色表示を保持。楽曲データ/API/公開設定は変更していない。
