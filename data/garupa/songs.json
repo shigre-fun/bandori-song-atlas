@@ -7623,7 +7623,7 @@
           "id": 208,
           "title": "Hello! Wink!",
           "reading": "ハローウィンク",
-          "releaseDate": "2019-09-30T15:00:00.000+09:00",
+          "releaseDate": "2019-09-30T15:00+09:00",
           "releaseOrder": null,
           "composer": "藤永龍太郎（Elements Garden）",
           "originalArtist": null,
@@ -7649,7 +7649,10 @@
               "level": 26,
               "notes": 721
             },
-            "SPECIAL": null
+            "SPECIAL": {
+              "level": 27,
+              "notes": 746
+            }
           },
           "bpm": 152,
           "bpmMin": 152,
@@ -7657,7 +7660,8 @@
           "durationSeconds": 100,
           "relatedSongIds": [
             "garupa:799"
-          ]
+          ],
+          "revision": "d4b57735-4ed4-4fc9-87f2-eadfb95a2cb3"
         },
         {
           "id": 146,
