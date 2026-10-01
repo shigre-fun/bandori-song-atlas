@@ -78,9 +78,9 @@ test("cross-game results show each recording's levels with five Garupa and four 
       new URLSearchParams({ q: "迷星叫" }),
       base,
     );
-    const cards = [...html.matchAll(/<li class="panel">([\s\S]*?)<\/li>/g)].map(
-      ([, card]) => card,
-    );
+    const cards = [
+      ...html.matchAll(/<li class="panel"[^>]*>([\s\S]*?)<\/li>/g),
+    ].map(([, card]) => card);
     assert.equal(cards.length, 3);
     const expected = [
       [GAMES.garupa, ["6", "13", "19", "26", "27"]],

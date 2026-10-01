@@ -393,20 +393,34 @@ tr:last-child td {
   text-align: center;
   font-variant-numeric: tabular-nums;
 }
+/* 添付ゲーム画面から採取。アワーノーツはグラデーションの平均色。 */
+:root {
+  --difficulty-easy: #3366ff;
+  --difficulty-normal: #66ff33;
+  --difficulty-hard: #ffcc33;
+  --difficulty-expert: #ff3333;
+  --difficulty-special: #ee2299;
+}
+[data-game="ournotes"] {
+  --difficulty-easy: #549fc7;
+  --difficulty-normal: #54ae78;
+  --difficulty-hard: #cda75a;
+  --difficulty-expert: #b85453;
+}
 .diff-0 {
-  color: #20784f;
+  color: var(--difficulty-easy);
 }
 .diff-1 {
-  color: #2667a8;
+  color: var(--difficulty-normal);
 }
 .diff-2 {
-  color: #926200;
+  color: var(--difficulty-hard);
 }
 .diff-3 {
-  color: #c53550;
+  color: var(--difficulty-expert);
 }
 .diff-4 {
-  color: #8654b6;
+  color: var(--difficulty-special);
 }
 .blank {
   color: #a1a9b8;
