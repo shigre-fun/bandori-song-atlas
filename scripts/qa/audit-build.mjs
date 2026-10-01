@@ -30,6 +30,24 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     decode(match[1]),
   );
   const sitemapSet = new Set(urls);
+  const routes = JSON.parse(
+    fs.readFileSync(path.join(root, "_routes.json"), "utf8"),
+  );
+  const contactApiRouted =
+    routes.version === 1 &&
+    Array.isArray(routes.include) &&
+    routes.include.length === 2 &&
+    ["/api/contact", "/api/contact/"].every((route) =>
+      routes.include.includes(route),
+    ) &&
+    Array.isArray(routes.exclude) &&
+    routes.exclude.length === 0;
+  if (!contactApiRouted)
+    fail("お問い合わせAPIのFunctionsルーティングが不正です。");
+  const contactApiPaths = new Set([
+    `${basePath}api/contact`,
+    `${basePath}api/contact/`,
+  ]);
   if (sitemapSet.size !== urls.length) fail("sitemapのURLが重複しています。");
   if (
     urls.some(
@@ -161,9 +179,19 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
         fail(`JSON-LDが不正: ${canonical}`);
       }
     }
-    for (const reference of tag(html, /\b(?:href|src|action)="([^"]+)"/g)) {
+    for (const [, attribute, reference] of html.matchAll(
+      /\b(href|src|action)="([^"]+)"/g,
+    )) {
       const link = new URL(decode(reference), canonical);
       if (link.origin !== origin) continue;
+      if (
+        attribute === "action" &&
+        canonical === `${expectedOrigin}contact/` &&
+        contactApiPaths.has(link.pathname) &&
+        contactApiRouted &&
+        !link.search
+      )
+        continue;
       if (link.pathname === `${basePath}admin/`)
         fail(`一般ページから管理画面へのリンクがあります: ${canonical}`);
       const target = localFile(link.pathname);

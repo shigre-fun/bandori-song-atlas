@@ -4,6 +4,16 @@
 
 ## 現在地
 
+- 2026-10-01 通常build再生成と全96テスト・889ページ監査も成功。直前の監査はbuildの返却session 49145が実行中のまま開始してしまいsitemap未生成ENOENTで失敗したため、session完了を確認して順次再実行し解消。整形・構文・差分チェック成功。現在作業中：監査修正のcommit/push。未完了：修正版のCloudflare公開・本番送信・実受信/Reply-To。次は2ファイルのfix commitをpushする。設計判断：生成物に直接修正はせず、設定あり/なし両方のbuildを成功条件とする。
+
+- 2026-10-01 Site Keyありの全96テストと889ページSEO監査が修正後に成功。ユーザーへCloudflareの対象デプロイ画面の場所を案内し、ローカルで再現・修正できたことを報告。正しい両ゲーム一覧とid=1詳細は本番HTTP 200（旧版の配信確認）。現在作業中：通常build/監査/整形確認後のfix commit・push。未完了：修正版Cloudflare成功と問い合わせ本番検証・実受信/Reply-To。次はfix: audit contact form actions as Pages Functionsとして最小修正をcommit/pushしてCloudflareチェックを確認する。原因詳細の管理ログは未取得のまま、公開結果によって修正の有効性を確認する。
+
+- 2026-10-01 Site Key設定時のbuild/testをローカルで再現し、95/96成功・SEOテスト1件失敗を確認。フォームのaction=/api/contactを監査が静的ファイル不在と判定していた。scripts/qa/audit-build.mjsを最小修正し、正しい\_routes.json（問い合わせ2ルートのみ）を確認したうえでcontactページのactionだけをFunctionsとして認識する。href/srcや別ページのリンク監査は維持。現在作業中：Site Keyありの全テスト・監査、通常buildの再確認。未完了：修正push・Cloudflare公開・本番全検証。次はSite Keyあり/なしのチェック後にfix commitをmainへpushする。問題：Cloudflare詳細ログは未取得だが、Production設定で必ず発生する監査不備は再現済み。Wrangler whoamiは未認証（アドレス等は出力していない）。既存本番root/news/about/privacy/admin/admin-newsはHTTP 200、ゲームの誤った短縮URLへのGETは404で実URLの回帰は改めて行う。先の.github/workflows/deploy.yml読取はパス不在で失敗し、rgで実体pages.ymlを確認済み。
+
+- 2026-10-01 GitHubのCloudflare Pagesチェックがfailure（2026-10-01T07:36:54Z）。旧GitHub Pagesのbuild/deployは成功したが、本番contactは引き続き404・CSP旧版であり、Cloudflare公開成功とは扱わない。Cloudflare Dashboardはログイン画面になり、管理ログへの認証済みアクセスなし。現在作業中：公開チェックの診断取得と安全な原因調査。未完了：Cloudflare公開と全本番検証・メール受信。次はCloudflareチェックの公開出力を秘密値・メールを伏せて読み、ローカルで再現できる問題なら最小修正・再テストしてpushする。設定実値は取得しない。外部管理画面の設定が原因なら必要な修正箇所を具体化してユーザーへ伝える。
+
+- 2026-10-01 問い合わせ実装をf7019b3d2088a2036650adbc4d241a5f79757a8e（feat: add contact form with Turnstile and Resend）でcommit、mainへ通常push成功。完了：22ファイルの明示stage、stage内credential候補0・対象外データ/管理/package変更0、GitHubへ反映。現在作業中：Cloudflareデプロイ・公開ページ/APIの確認。未完了：Production Widget・匿名送信、受信箱・Reply-To、検証結果の文書反映・記録commit。次はGitHubのCloudflareチェックまたは管理画面と本番URLで公開を確認し、ブラウザーのフォーム・5画面幅・既存ページ、本番API拒否ケースを検証する。検証：全96テスト/build/SEO/Prettier/Functionsコンパイル/構文/diff成功。問題：現時点で新規なし。設計判断：受信先や秘密鍵は取得せず、未確認を成功として報告しない。
+
 - 2026-10-01 公開前チェック完了。完了：通常build（798/83曲）、全96テスト、889正規ページ・881詳細・797転送のSEO監査、Wrangler 4.143.0 Functionsコンパイル、変更JS構文、Prettier check、git diff --check。差分は問い合わせ実装・関連文書・SEO等のテストと、先行お知らせの日付に対応する既存テストの最小修正のみ。楽曲データ・admin/admin-newsソース・保存処理・package/lockの差分なし。秘密情報検査は89ソース・1716配信HTML/JS/JSONで実API鍵・秘密鍵候補と配信内秘密変数なし、文書例と不正メールfixtureの候補2件はレビュー済み。現在作業中：明示stage・commit/push。未完了：Cloudflare build/deployの本番結果、実Widget・匿名送信、受信箱・Reply-To。次は問い合わせと必要文書22ファイルをstageして固定メッセージでcommit、mainへ非強制pushし、本番を検証する。問題：canvas依存読取制限は許可付きで解消、Prettier非対応ファイルと記録追記時の改行警告は対象整理・整形で解消、news固定日付テストは修正済み。lint/typecheckは既存設定なし・追加なし。秘密値の取得・ログ出力なし。
 
 - 2026-10-01 最新ビルド・889ページSEO監査・Functionsコンパイル成功。全テストで既存newsテストが固定日付2026-09-30を期待して失敗：取り込んだユーザーのお知らせ日付は2026-09-28で、表示自体は正しい。tests/news.test.mjsの固定日付期待だけを現在の入力データに合わせて検証する形へ修正し、ニュースデータと管理保存処理は保持。秘密情報検査は89ソース・1716配信ファイルを確認し、実キー・配信の秘密変数は検出なし。メール候補2件は文書例と不正形式テストで実受信先ではない。現在作業中：全96テスト・整形の再確認と差分レビュー。未完了：commit/push、本番送信・受信・Reply-To。次は修正テストを含めて全テストを実行、Prettier・秘密情報検査を完了してcommitする。問題：直前Prettier checkは追記直後のWORK_LOG改行形式だけ警告、整形済み。設計判断：ユーザー変更を巻き戻さず、脆い固定日付テストのみ最小修正する。
