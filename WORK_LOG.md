@@ -4,6 +4,10 @@
 
 ## 現在地
 
+- 2026-10-02 難易度色の本番公開・表示検証完了。公開実装aecaac3d7902aeecdc99fee66065ebf86bb08c44、GitHub Actions36897079864のbuild/deployとCloudflare Pages c6cbac53-c35b-495e-9e86-0d2929c7724dは同HEADでcompleted/success。完了：本番両ゲーム静的一覧/検索後一覧/詳細と横断検索の7経路でゲーム別採取色一致（ガルパ5色、OurNotes4色）、計算済み色に不一致なし、横断検索3件の配色も確認。配信style.css?v=fa43c71e0d77はHTTP200・ソースと一致、両詳細/searchはHTTP200、JSエラーログなし。現在作業中：なし。未完了：公開成功条件なし。終了記録は本docsコミットで同期する。次は新しい依頼時にGit状態/記録と実体を照合して再開する。今回再検証114テスト/Prettier/diff check成功、前回ローカルbuild成功を維持。問題：新規失敗なし、LF/CRLF通知のみ。データ/API/公開設定は変更なし。確認タブ終了済み、新規serverなし、スマホviewportは今回未再検証（レイアウト変更なし）。
+
+- 2026-10-02 難易度色commit aecaac3d7902aeecdc99fee66065ebf86bb08c44をorigin/mainへ非強制push成功。完了：検証済み4ファイルのGit保存とリモート同期、直後の作業ツリーはクリーン。現在作業中：同HEADのGitHub Actions/Cloudflare Pages公開待ち。未完了：公開チェックsuccess、本番7経路の配色確認、終了記録同期。次は同HEADのcheck-runsを間隔を空けて取得し、成功後https://tanimachi-bdsongs.comの両ゲーム一覧/詳細と/search/を確認する。検証：今回再実行の114テスト/Prettier/diff check成功、前回buildと7経路ブラウザー成功。本番新色は未確認。問題：push失敗なし。データ/API/公開設定は変更なし。
+
 - 2026-10-02 難易度色公開前の再検証完了。完了：git fetch後HEAD=origin/main（ac4827e、先行変更なし）、変更3ソース/テストは前回検証内容と一致、生成済みdistのアセット版/全ページ監査を含む114テスト成功、変更4ファイルのPrettier/diff check成功。前回公開ea4b3ebのbuild/deploy/CloudflareもAPIでsuccessを確認済み。現在作業中：4ファイルのステージ差分確認・commit・push。未完了：新規公開ジョブ成功と本番配色、終了記録同期。次はgit add対象4ファイル→cached確認→fix commit→origin/main非強制push→同HEADチェックを取得。設計判断：前回生成物が今回ソースと一致し検証成功、コード変更や先行データ更新がないため同一buildを重複実行しない（公開側は新commitから再生成する）。問題：なし、LF/CRLF通知のみ。
 
 - 2026-10-02 ユーザー依頼により難易度色の本番公開を開始。完了：現在ディレクトリ/Git管理/未コミット・ステージ・未追跡差分を確認、前回検証済みのviews.js/style.css/cross-search.test.mjsの3ファイルのみが未コミット、前回横断検索の公開完了記録ac4827eを保持。現在作業中：remote先行変更確認と公開前検証。未完了：commit・非強制push、GitHub/Cloudflare同HEADの成功、本番両ゲーム一覧/詳細/検索後と横断検索の色一致確認、終了記録同期。次はgit fetch origin→HEAD差分照合→生成物と既存テスト確認→4ファイルをcommit/push→公開チェックと実サイト確認。検証：前回build/114テスト/7表示経路が成功、今回はGit実体再確認のみ。問題：開始時点でなし。設計判断：既存Git連携による公開、採取済みの色値を維持、データ/API/公開設定は変更しない。
@@ -690,3 +694,12 @@
 - 問題と対処：通常buildは既知のPrettier依存読取制限で失敗し承認付きで成功。gh不在で前回デプロイ取得は未確認。初期ブラウザー接続拒否/エラータブdata URL拒否はserver起動後の新規タブで解消、静的初期一覧に指定曲なしの待機失敗は属性で確認して解消。
 - 現在作業中：なし。最終Prettier check（4ファイル）とdiff check成功。server34230はCtrl+C停止（終了1は意図した停止）、確認タブ終了済み。未完了：今回の機能条件なし、前回公開待ちはその記録を保持。次は新しい依頼でGit再確認、公開依頼時に4ファイルの差分をレビューしてcommit/pushと公開確認。今回の差分を未コミットで保持。
 - 設計：ゲーム属性のCSS変数で両ゲームの色味を使い分け、既存未実装の灰色表示を保持。楽曲データ/API/公開設定は変更していない。
+
+### 2026-10-02：難易度色の本番反映完了
+
+- 対象：src/styles/style.css、src/js/views.js、tests/cross-search.test.mjs、WORK_LOG.md。ユーザーの公開依頼に基づきaecaac3をorigin/mainへ非強制push。先行変更なし、前回横断検索公開/記録commitを保持。
+- 成功条件：GitHub Actions36897079864のbuild/deployとCloudflare Pages c6cbac53-c35b-495e-9e86-0d2929c7724dが同実装HEADでsuccess。本番の両ゲーム一覧/クエリ後一覧/詳細、横断検索の7経路の難易度色はCSS指定と一致。配信CSSも元ソースと一致しHTTP200、両詳細/searchのHTTP200とJSエラーなしを確認。
+- 検証：既存114テスト・アセット版/全ページ監査・Prettier・diff check成功。前回ローカル生成物と今回ソースが一致、先行データ変更なしのため不要なbuild重複実行なし。公開CIは同実装コミットからbuild/test済み。
+- 現在作業中：なし。未完了：今回の公開成功条件なし。終了記録は本docsコミットで同期する。次は新しい依頼時に再開確認する。
+- 問題：新規失敗なし。gitのLF/CRLF通知のみ。新規serverなし、確認タブ終了済み。今回はスマホviewportを再検証していない（色のみの変更）。
+- 設計：既存Cloudflare Git連携で本番反映、ゲーム別の採取済み単色を維持。楽曲データ・API・外部設定・秘密値の変更なし。
