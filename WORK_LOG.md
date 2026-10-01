@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-01 CI相当のBASE_PATH=/bandori-song-atlas/・Site Keyなしbuild、全101テスト、889/881/797 SEO監査が成功。完了：本番両ゲーム詳細→訂正報告→対象URL/dataの実遷移、検索queryを除外、通常フォーム空欄を確認。製品実装1964801はCloudflare公開成功、証拠reports/song-report-production-detail.jpgとsong-report-production-prefill.jpg保存。現在作業中：テストregex修正と記録のcommit/push。未完了：修正後GitHub/Cloudflareチェック成功。次はtest: handle multiline song report linksをmainへpushし、両チェックを確認して終了記録を同期する。問題：初回追加テストの長いhref整形への対応不足はaside内の空白対応で解消。制約：本変更では実メールを送信していない。データ/API/管理保存処理に変更なし、ローカルserver停止済み。
+
+- 2026-10-01 1964801のCloudflare公開はsuccess、本番アワーノーツ詳細に導線あり。ただし併存GitHub Pages Actions run36840099422はrender.test.mjsの追加テスト1件失敗（100/101）。問題：長いbasePathでPrettierがaタグを改行し、テストの固定空白regexが見逃して後続フッターのトップリンクを取得した。対処：aside内に限定して空白/改行に対応するテスト読取へ修正、製品コード変更不要。現在作業中：BASE_PATH=/bandori-song-atlas/・Site KeyなしのCI相当buildと再テスト。未完了：CI成功・本番ブラウザー遷移の最終確認。次はCI相当全チェックを順次実行後test fixをmainへpushする。検証：Cloudflareと本番HTTPは成功済み、GitHub失敗の実ログをブラウザーで確認。制約：ghは未導入、公開Actions logs API403、既存workflow実体はpages.yml（deploy.ymlの読取失敗を修正）、認証済みブラウザーでログ確認した。秘密値は読取/表示していない。
+
+- 2026-10-01 訂正報告導線を1964801d298dd4af470284abad0bc2d6e43d2fad（feat: link song details to correction reports）でmainへ通常push済み、Cloudflareチェックin_progress。完了：変更7ファイルのみstage、Prettier check・構文・全101テスト・build・SEO監査・差分チェック成功、データ/API/管理保存に変更なし。現在作業中：Cloudflareの公開完了待ち。未完了：本番ガルパ/アワーノーツ導線と自動入力の確認。次は対象commitのcheck-runs successを確認し、両ゲームで情報を訂正・報告をクリックして絶対URL/dataを照合、成功証拠を保存して終了記録を[skip ci] commit/pushする。問題：なし。ローカル模擬server27232はCtrl+Cで停止（終了コード1は意図した停止）、viewportリセット済み。実メール送信は本変更の確認では行わない。
+
 - 2026-10-01 訂正報告導線のローカル検証完了。完了：公式公開テストSite Keyによるbuild、全101テスト（追加5）、889正規ページ/881詳細/797転送SEO監査、ガルパ24・アワーノーツ1の実リンク遷移とURL/data自動入力、通常フォーム空欄、320px詳細・フォーム横はみ出しなし。対象7ファイルのみ変更、データ・API・管理保存処理変更なし。現在作業中：最終整形・明示stage・commit/push。未完了：対象commitのCloudflareチェック成功と本番両ゲームの実遷移。次はPrettier check・git diff --check後にfeat commitをmainへpushし、Cloudflare完了後に本番導線を確認。問題：新たな失敗なし。検証範囲：本変更では実メール送信なし、既存送信/セキュリティ/保存の自動テスト成功。設計判断：URLと種類の初期入力だけを追加し既存受付を維持。ローカル検証server session27232は後で停止、viewportはリセット済み、証拠reports/song-report-mobile.jpg。
 
 - 2026-10-01 訂正報告リンクと初期入力の実装完了。対象：src/js/views.js、contact.js、style.css、contact-ui/renderテスト、docs/CONTACT.md。完了：両ゲーム共通の詳細末尾にリンク、同一originの楽曲パスを対象URLへ解決し種類dataを初期選択、通常リンクと既存入力を保持。検証：Prettier write、変更JS構文、diff --check、フォーム7テスト成功（新規3含む）。現在作業中：公開テストSite Keyで生成し、全テスト・SEO監査・ブラウザー遷移確認。未完了：全881詳細のリンク検証、狭幅・実遷移、commit/pushと本番反映。次は公式公開テストSite Keyでnode scripts/build.mjs、生成完了後にnode --test tests/\*.test.mjsとSEO監査、模擬プレビューで両ゲーム遷移を確認。設計判断：外部origin・不正URL・長過ぎる値は初期入力へ使わず、query/hashを除外。秘密値・実メールは使わない。

@@ -5,6 +5,12 @@ import { renderList, renderDetail } from "../dist/views.js";
 import { GAMES, siteSettings } from "../src/js/site-config.js";
 import { songPath, siteURL } from "../src/js/urls.js";
 const data = JSON.parse(fs.readFileSync("dist/songs.json", "utf8"));
+const reportHref = (html) =>
+  html
+    .match(
+      /<aside\b[^>]*class="panel song-report"[^>]*>([\s\S]*?)<\/aside>/,
+    )?.[1]
+    ?.match(/<a\s+href="([^"]+)"/)?.[1];
 test("search query and metadata cannot inject HTML", () => {
   const html = renderList(
     data,
@@ -37,9 +43,7 @@ test("every song detail has a report link carrying its stable page path", () => 
         `dist/${songPath(game, song.stableSongId)}index.html`,
         "utf8",
       );
-      const href = html.match(
-        /class="panel song-report"[\s\S]*?<a href="([^"]+)"/,
-      )?.[1];
+      const href = reportHref(html);
       assert.ok(href, `${game.id}:${song.stableSongId}`);
       const link = new URL(href, "https://example.test");
       assert.equal(link.pathname, siteURL("contact/", base));
@@ -64,9 +68,7 @@ test("report links support repository base paths without inheriting list filters
       "/atlas/",
       game,
     );
-    const href = html.match(
-      /class="panel song-report"[\s\S]*?<a href="([^"]+)"/,
-    )?.[1];
+    const href = reportHref(html);
     const link = new URL(href, "https://example.test");
     assert.equal(link.pathname, "/atlas/contact/");
     assert.equal(
