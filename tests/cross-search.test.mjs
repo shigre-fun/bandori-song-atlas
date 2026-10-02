@@ -6,6 +6,7 @@ import { loadGameCatalog } from "../scripts/catalog.mjs";
 import { GAMES, siteSettings } from "../src/js/site-config.js";
 import {
   crossGameSongs,
+  creditField,
   searchPage,
   normalize,
   matches,
@@ -397,6 +398,7 @@ test("detail return links restore cross-game query/page and retain game-list and
         songListPath,
         crossSearchURL: (q, page) => crossSearchURL(q, page, base),
         searchPage,
+        creditField,
       });
       return { back, input, location };
     };

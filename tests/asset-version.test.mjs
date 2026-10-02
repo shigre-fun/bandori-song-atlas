@@ -44,8 +44,13 @@ test("public pages and imported modules use the current asset version", () => {
     const source = read(file);
     for (const [, dependency, actualVersion] of source.matchAll(
       /from "(\.\/[^"?]+\.js)(?:\?v=([a-f0-9]{12}))?"/g,
-    ))
+    )) {
       assert.equal(actualVersion, version, `${file}: ${dependency}`);
+      assert.ok(
+        fs.existsSync(`dist/${dependency.slice(2)}`),
+        `${file}: ${dependency} is deployed`,
+      );
+    }
   }
 });
 

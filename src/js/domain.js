@@ -1,5 +1,6 @@
 import { GAMES } from "./site-config.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
+import { matchesCredit } from "./credits.js";
 export const difficulties = ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"];
 export const typeNames = {
   normal: "オリジナル",
@@ -156,11 +157,21 @@ export function matches(s, q) {
   );
 }
 
-export function crossGameSongs(catalogs, q) {
+export function creditField(params) {
+  return ["composer", "artist"].includes(params.get("credit"))
+    ? params.get("credit")
+    : null;
+}
+
+export function crossGameSongs(catalogs, q, credit = null) {
   if (!normalize(q)) return [];
   return Object.values(GAMES).flatMap((game) =>
     catalogs[game.id].songs
-      .filter((song) => matches(song, q))
+      .filter((song) =>
+        credit === "composer" || credit === "artist"
+          ? matchesCredit(song[credit], q)
+          : matches(song, q),
+      )
       .sort(compareSongs("band", "forward", 3, game))
       .map((song) => ({ ...song, gameId: game.id })),
   );

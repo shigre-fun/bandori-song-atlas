@@ -6,6 +6,7 @@ import {
   sortState,
   nextSortParams,
   searchPage,
+  creditField,
 } from "./domain.js";
 
 const pagePath = "/" + location.pathname.slice(siteBase.length);
@@ -35,7 +36,12 @@ if (pagePath === "/" && legacyListKeys.some((key) => params.has(key))) {
   const backLink = document.querySelector(".back");
   if (backLink && params.size && pageGame) {
     if (params.get("from") === "search") {
-      backLink.href = crossSearchURL(params.get("q") || "", searchPage(params));
+      backLink.href = crossSearchURL(
+        params.get("q") || "",
+        searchPage(params),
+        siteBase,
+        creditField(params),
+      );
       backLink.textContent = "← 全ゲームの検索結果に戻る";
     } else backLink.href = listURL(params, pageGame);
   }

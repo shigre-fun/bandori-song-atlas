@@ -10,11 +10,11 @@ export const gamePath = (game) => `${game.slug}/`;
 export const songListPath = (game) => `${gamePath(game)}songs/`;
 export const songPath = (game, stableSongId) =>
   `${songListPath(game)}${encodeURIComponent(stableSongId)}/`;
-export function crossSearchURL(q, page = 1, base = siteBase) {
-  return siteURL(
-    `search/?${new URLSearchParams({ q, page: String(page) })}`,
-    base,
-  );
+export function crossSearchURL(q, page = 1, base = siteBase, credit = null) {
+  const params = new URLSearchParams({ q, page: String(page) });
+  if (credit === "composer" || credit === "artist")
+    params.set("credit", credit);
+  return siteURL(`search/?${params}`, base);
 }
 export function absoluteURL(relative, settings) {
   return settings.origin + siteURL(relative, settings.basePath);

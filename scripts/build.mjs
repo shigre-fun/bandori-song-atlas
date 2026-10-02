@@ -240,6 +240,7 @@ const copiedAssets = [
       "app.js",
       "cross-search.js",
       "domain.js",
+      "credits.js",
       "views.js",
       "related-songs.js",
       "urls.js",

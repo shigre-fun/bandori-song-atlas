@@ -945,6 +945,11 @@ dd a,
   color: #3269b5;
   text-decoration: underline;
 }
+.credit-link {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+}
 .data-note {
   font-size: 13px;
   line-height: 1.9;

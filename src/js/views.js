@@ -6,6 +6,7 @@ import {
   crossSearchURL,
 } from "./urls.js";
 import { GAMES } from "./site-config.js";
+import { creditParts } from "./credits.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import {
   typeNames,
@@ -20,6 +21,7 @@ import {
   nextSortParams,
   normalize,
   crossGameSongs,
+  creditField,
   searchPage,
 } from "./domain.js";
 const e = (s) =>
@@ -65,6 +67,7 @@ export function renderCrossSearch(
   base = siteBase,
 ) {
   const q = params.get("q") || "";
+  const credit = creditField(params);
   const gameLinks = `<p class="search-game-links">${Object.values(GAMES)
     .map(
       (game) =>
@@ -73,11 +76,17 @@ export function renderCrossSearch(
     .join(" ")}</p>`;
   if (!catalogs || !normalize(q))
     return `<div class="panel"><h2>全ゲームから楽曲を探す</h2><p>楽曲名・読み・別名・原曲アーティスト・作品名を入力して検索してください。</p>${gameLinks}</div>`;
-  const rows = crossGameSongs(catalogs, q);
+  const rows = crossGameSongs(catalogs, q, credit);
   const pages = Math.max(1, Math.ceil(rows.length / 50));
   const page = searchPage(params, pages);
-  const pageURL = (number) => e(crossSearchURL(q, number, base));
-  const intro = `<section class="intro"><div><h2>検索結果</h2><p>「${e(q)}」に一致する楽曲</p></div><div class="count">${rows.length}<small>件</small></div></section>`;
+  const pageURL = (number) => e(crossSearchURL(q, number, base, credit));
+  const description =
+    credit === "composer"
+      ? `「${e(q)}」が作曲に関わった楽曲（共同作曲を含む）`
+      : credit === "artist"
+        ? `「${e(q)}」が原曲アーティストの楽曲（共演を含む）`
+        : `「${e(q)}」に一致する楽曲`;
+  const intro = `<section class="intro"><div><h2>検索結果</h2><p>${description}</p></div><div class="count">${rows.length}<small>件</small></div></section>`;
   if (!rows.length)
     return `${intro}<div class="panel empty"><h2>一致する楽曲はありません</h2><p>短い曲名や作品名で試してください。</p>${gameLinks}</div>`;
   return `${intro}<ul class="cross-search-list">${rows
@@ -89,6 +98,7 @@ export function renderCrossSearch(
         q,
         page: String(page),
       });
+      if (credit) state.set("credit", credit);
       const href =
         siteURL(songPath(game, song.stableSongId), base) + "?" + state;
       const levels = game.difficulties
@@ -248,6 +258,16 @@ export function renderDetail(
   game = GAMES.garupa,
   related = [],
 ) {
+  const creditLinks = (value, field) =>
+    value
+      ? creditParts(value)
+          .map((part) =>
+            part.name
+              ? `<a class="credit-link" href="${e(crossSearchURL(part.text.trim(), 1, base, field))}" aria-label="${e(`${part.text.trim()}の${field === "composer" ? "作曲に関わった" : "原曲アーティストの"}楽曲一覧`)}">${e(part.text)}</a>`
+              : e(part.text),
+          )
+          .join("")
+      : "未確認";
   const reportParams = new URLSearchParams({
     pageUrl: siteURL(songPath(game, s.stableSongId), base),
   });
@@ -297,14 +317,14 @@ ${
 }
 ${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd>${e(s.band)}</dd>` : ""}
 <dt>${s.type === "normal" ? "作曲" : "原曲の作曲者"}</dt>
-<dd>${e(s.composer || "未確認")}</dd>${
+<dd>${creditLinks(s.composer, "composer")}</dd>${
     s.type === "normal"
       ? game.id === "garupa"
         ? `<dt>3Dライブ</dt>
 <dd>${s.live3d === true ? '<span class="pill">対応</span>' : s.live3d === false ? "非対応" : "確認中"}</dd>`
         : `<dt>MV</dt><dd>${s.mv === true ? '<span class="pill">あり</span>' : s.mv === false ? "なし" : "確認中"}</dd>`
       : `<dt>原曲アーティスト</dt>
-<dd>${e(s.artist || "未確認")}</dd>
+<dd>${creditLinks(s.artist, "artist")}</dd>
 <dt>原曲の使用作品・タイアップ</dt>
 <dd>${e(s.work || "未登録")}</dd>`
   }</dl>
