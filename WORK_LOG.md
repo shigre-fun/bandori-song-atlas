@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-02 名前別楽曲一覧の本番公開・検証完了。実装4aca71023b195f744807ab822a3da047327d18a2、GitHub Actions36958086589のbuild/deployとCloudflare Pages fca1dc63-0a31-4939-afee-4996b2954eedは同HEADでcompleted/success。完了：本番のガルパ共同作曲者個別リンク→日高22件、原曲歌手水樹6件（共演含む）、OurNotes共同作曲Diggy18件（両ゲーム）、藤田55件ページ2/5件→OurNotes79詳細→同名前/役割/ページ2復帰・再読込、JSエラーログなし。配信JS5本/CSS?v=b7bc49ee8d7cはソース一致/HTTP200、トップ・両代表詳細のcanonical/OGP/Twitter/1200x630PNG/Web Analytics、favicon3点/robots/sitemap892/検索noindex・canonical/クエリX-Robots-Tag/404/HTTPS301確認成功。現在作業中：なし。未完了：公開機能の成功条件なし。終了記録は本docsコミットで同期する。次は新しい依頼時にGit/記録/実体を再確認する。今回全120テスト・SEO/整形成功、前回local328px/1280px成功を維持。問題：通常fetch/API/依存制限は承認付きで対処、カタログundefined照合はJSONで訂正、補助dist/\_redirects不存在は外部設定HTTP301実確認で対処。データ/API/公開設定変更なし、サーバーなし、確認タブ終了済み。
+
+- 2026-10-02 実装4aca710の公開チェック成功。GitHub Actions36958086589のbuild/deploy、Cloudflare Pages fca1dc63-0a31-4939-afee-4996b2954eedは同HEADでcompleted/success。完了：本番ガルパ582詳細の個別名リンクと日高22件（単独/共同）を実ブラウザー確認。現在作業中：原曲歌手/OurNotes/ページ送り復帰とHTTP・配信アセット監査。未完了：残り本番検証・終了記録同期。次は水樹歌手6件とDiggy両ゲーム18件、藤田55件ページ2→OurNotes詳細→復帰、配信JS/CSS・SEOを確認する。問題：公開ジョブ失敗なし。データ/API/公開設定に変更なし、新規ローカルserverなし。
+
+- 2026-10-02 名前別楽曲一覧の実装commit4aca71023b195f744807ab822a3da047327d18a2をorigin/mainへ非強制push成功。完了：検証済み13ファイル保存・リモート同期、直後のGit状態クリーン。現在作業中：同HEADのGitHub Actions/Cloudflare Pages公開チェックと本番反映待ち。未完了：両公開チェックsuccess、本番名前リンク/役割別共同関与/検索ページ2復帰、終了記録同期。次は公開APIで同HEADのcheck-runsを間隔を空けて取得し、成功後本番両ゲームの詳細→作曲者/原曲歌手の一覧を確認。今回全120テスト/SEO892正規・884詳細・797転送/整形/生成物一致が成功。問題：push失敗なし、通常ネットワーク/依存/.git制限は承認付き実行で対処。データ/API/外部設定変更なし。
+
 - 2026-10-02 名前別楽曲一覧の公開前検証完了。全120テスト35190終了0、SEO監査74691終了0（892正規/884詳細/797転送）、13ファイルPrettier check成功、distの両カタログ/変更アセット一致、HEAD=origin/mainで先行なし。現在作業中：13ファイルのGit保存と非強制push。未完了：commit/push/同HEADのGitHub・Cloudflare成功/本番名前リンク・復帰/終了記録同期。次は明示13ファイルgit add→cached diff/check→feat commit→origin/main push→API公開チェック。問題：通常APIアクセスはソケット権限制限で失敗（Invoke-RestMethod非終了エラー）、公開後は承認付き読取で確認する。fetch制限は解消済み。データ/API/公開設定変更なし、再buildなし。
 
 - 2026-10-02 公開前の先行変更確認完了。HEAD=origin/main=965d729、差分なし、公開対象13ファイルと生成済みアセット・両ゲームカタログの一致確認。現在作業中：全120テスト35190・SEO監査74691の終了待ちと記録整形。未完了：最終検証/commit/push/同HEAD公開チェック/本番確認。次は両セッション終了を確認→13ファイルPrettier→stage/cachedレビュー→commit/push。問題：通常git fetchは.git/FETCH_HEADの読取専用制限で失敗し承認付きで成功。初回カタログdeepEqualはJSONで省略されるOurNotes live3d:undefinedに不一致、JSONシリアライズ後比較へ訂正して両ゲーム一致を確認。再buildはソース/データ一致かつ前回成功のため重複実行しない、公開CIがcommitから再生成する。公開設定変更なし。
@@ -735,3 +741,12 @@
 - 検証：正規build成功、全120テスト成功（新規6件・配信依存存在検証含む）。ルート生成、ソーステストはルート/サブパス双方のURLを検証。328pxと1280pxの実画面で名前のマウス/キーボード操作、22/6/18/55件の実データ、55件検索2ページ目5件→OurNotes79詳細→同名前/役割/2ページ復帰を確認。JS警告/エラーなし。今回はサブパスの全buildや本番公開は未実施。
 - 問題と対処：通常Prettier/build/canvas依存テストは既知の依存読取制限で失敗し承認付き実行で成功。初回生成の配信モジュール漏れはbuild固定一覧へ追加。生成途中dist不在による1テスト失敗は完成後の全テストで解消。狭い画面で改行したリンクの中央クリックが文字外になる問題はinline-block/最大幅100%で解消。検証時の春日影バンド誤指定no_matchesは実ラベルへ修正。
 - 現在作業中：終了時の整形確認のみ。未完了：ローカル機能条件なし。本番公開/commit/pushは未実施、変更を作業ツリーに保持。次は新規依頼時に記録/Git/実体を再確認する。server29560停止、確認タブ終了、viewportリセット済み。
+
+### 2026-10-02：名前別楽曲一覧の本番公開完了
+
+- ユーザーの公開依頼に基づき検証済み13ファイルを実装4aca710としてorigin/mainへ非強制push。先行変更なし、楽曲データ・API・外部設定は変更しない。GitHub Actions36958086589 build/deployとCloudflare Pages fca1dc63-0a31-4939-afee-4996b2954eedは同HEADでsuccess。
+- 本番ブラウザー：ガルパ582の両名リンク、日高22件（共同V.I.P MONSTER/単独THE WAY OF LIFE）、ガルパ418→水樹6件（単独/共演）、OurNotes24→Diggy18件（ガルパ7/OurNotes11）、藤田55件→page2の5件→OurNotes79詳細→同名・composer・page2復帰/再読込を確認。警告/エラーログなし。検証タブ終了、ローカルserverなし。今回はviewport既定で確認、前回local328px/1280pxの表示検証を維持。
+- 公開HTTP監査：.cache/verify-credit-publication.mjsで5JS/CSSの公開ソース一致（v=b7bc49ee8d7c）とHTTP200、トップ・両代表詳細のcanonical/OGP・Twitter一致・PNG1200x630/Analytics、favicon3点、robots一致、sitemap892、検索noindex/canonical、クエリX-Robots-Tag、404、HTTP→HTTPS301を確認。キャッシュ監査スクリプトはGit対象外。
+- 公開前検証：全120テスト成功、SEO892正規/884詳細/797互換ページ、13ファイルPrettier/diff check、ソース・両JSONカタログと生成物一致を確認。前回のbuildが最新と一致し先行更新なしのため重複再生成なし。公開CIは今回commitからbuild/testを成功。
+- 問題と対処：通常git fetchは.git書込制限、APIはソケット制限、canvas/Prettier依存は読取制限があり承認付き実行で解消。補助カタログdeepEqualはJSON省略undefinedに不一致のためJSONシリアライズ後へ訂正し一致。dist/\_redirects不存在は既存外部の転送設定でHTTP301実検証成功（設定変更なし）。公開ジョブの失敗なし。
+- 現在作業中：なし。未完了：今回公開条件なし。終了記録は本docsコミットで同期する。次は新しい依頼時にGit/記録/実体を再確認する。
