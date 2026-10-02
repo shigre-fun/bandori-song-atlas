@@ -106,7 +106,9 @@ test("cross-game results show each recording's levels with five Garupa and four 
         levels,
       );
       assert.ok(card.indexOf('<p class="band"') < card.indexOf("<dl "));
-      assert.ok(card.indexOf("</dl>") < card.indexOf('class="search-detail"'));
+      assert.match(card, /<h3><a class="search-detail"[^>]*>[^<]+<\/a><\/h3>/);
+      assert.equal((card.match(/class="search-detail"/g) || []).length, 1);
+      assert.doesNotMatch(card, /→ 詳細|詳細→/);
       assert.doesNotMatch(list[2], /ノーツ|641|651|342|768/);
     });
   }

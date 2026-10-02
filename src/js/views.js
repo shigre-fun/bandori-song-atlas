@@ -108,7 +108,7 @@ export function renderCrossSearch(
           return `<div class="diff-${index}"><dt>${e(name)}</dt><dd class="lv${chart && chart.level == null ? " level-unknown" : ""}">${e(level)}</dd></div>`;
         })
         .join("");
-      return `<li class="panel" data-game="${e(game.id)}"><h3>${e(song.title)}</h3><p class="search-game">${e(game.shortName)}</p><p class="band" style="--band:${color(song, game)}">${e(song.band)}</p><dl class="search-difficulties" aria-label="難易度・レベル">${levels}</dl><a class="search-detail" href="${e(href)}" aria-label="${e(`${song.title}（${game.shortName}・${song.band}）の詳細`)}">→ 詳細</a></li>`;
+      return `<li class="panel" data-game="${e(game.id)}"><h3><a class="search-detail" href="${e(href)}" aria-label="${e(`${song.title}（${game.shortName}・${song.band}）の詳細`)}">${e(song.title)}</a></h3><p class="search-game">${e(game.shortName)}</p><p class="band" style="--band:${color(song, game)}">${e(song.band)}</p><dl class="search-difficulties" aria-label="難易度・レベル">${levels}</dl></li>`;
     })
     .join(
       "",

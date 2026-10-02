@@ -727,7 +727,7 @@ tr:last-child td {
 }
 .search-detail {
   display: inline-block;
-  margin-top: 8px;
+  max-width: 100%;
 }
 .search-detail,
 .search-game-links a {
