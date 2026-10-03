@@ -2,7 +2,7 @@
 
 Creatorは作詞・作曲・編曲のクレジット主体、Workは同じ音楽作品です。ゲーム内レコードと区別します。原曲アーティストは別概念で、既存のoriginalArtist/originalWorkは変更していません。
 
-現在は最終5slug整理後：Creator91主体、884収録、823Work。ID型slug0件、旧slug履歴18件（Cloudflare301は末尾slash有無36規則・静的互換18ページ）、暫定sortKey47件、未同定旧表記215種類、Work warning0件です。[最終検証報告と公開判断](CREATOR_FINAL_SLUG_REPORT.md)、[人間レビュー反映報告](CREATOR_HUMAN_REVIEW_REPORT.md)と[短名5主体の対象曲](migrations/creators-2026-10-02/short-name-review.md)を参照してください。下段の各フェーズ件数・判断はその当時の履歴です。
+現在は最終5slug整理後：Creator91主体、884収録、823Work。ID型slug0件、旧slug履歴18件（Cloudflare301は末尾slash有無36規則・静的互換18ページ）、暫定sortKey47件、未同定旧表記215種類、Work warning0件です。2026-10-03に本番公開を完了し、[公開結果の42項目](CREATOR_RELEASE_REPORT.md)へCI・Cloudflare deploy・本番検証を記録しました。[公開前の最終検証](CREATOR_FINAL_SLUG_REPORT.md)、[人間レビュー反映報告](CREATOR_HUMAN_REVIEW_REPORT.md)と[短名5主体の対象曲](migrations/creators-2026-10-02/short-name-review.md)も参照してください。下段の各フェーズ件数・判断はその当時の履歴です。
 
 ## roleデータセットの整備状況
 

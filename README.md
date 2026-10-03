@@ -8,7 +8,7 @@
 
 人間レビュー反映後は91主体です。標準名・alias・slugを更新し、旧Creator URLの履歴と転送を追加しました。[人間レビュー反映報告](docs/CREATOR_HUMAN_REVIEW_REPORT.md)と[GEN / ARM / TAKE / yasu / KATSUの対象曲](docs/migrations/creators-2026-10-02/short-name-review.md)を確認してください。5主体の同定は据え置き、JACK / Louisは未同定のままです。
 
-ユーザー確認済みの最後の5slugを採用し、ID型slugは0件になりました。固定ID・読み・楽曲・Workを維持し、旧slug履歴18件、Cloudflare転送36規則、静的互換18ページを生成しています。[最終slug検証報告と公開判断](docs/CREATOR_FINAL_SLUG_REPORT.md)を参照してください。commit・push・本番公開は未実施です。
+ユーザー確認済みの最後の5slugを採用し、ID型slugは0件になりました。固定ID・読み・楽曲・Workを維持し、旧slug履歴18件、Cloudflare転送36規則、静的互換18ページを生成しています。2026-10-03に[Creator DBを本番公開](https://tanimachi-bdsongs.com/creators/)し、CI・Cloudflare deploy・本番確認を完了しました。[公開結果の42項目と検証記録](docs/CREATOR_RELEASE_REPORT.md)、[公開前の最終slug検証](docs/CREATOR_FINAL_SLUG_REPORT.md)を参照してください。
 
 ガルパとアワーノーツの楽曲情報を手動で編集し、静的なウェブサイトを生成するプロジェクトです。アワーノーツには、公式発表でリリース時の実装が確認できた78曲を登録しています。
 収録データはゲーム等で確認しながら修正してください。

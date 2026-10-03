@@ -1,0 +1,1758 @@
+{
+  "recordedAt": "2026-10-03T03:11:00.327Z",
+  "release": {
+    "commit": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+    "message": "feat: add creator database and work-based credits",
+    "committedAt": "2026-10-03T11:44:52+09:00",
+    "branch": "main",
+    "upstream": "origin/main",
+    "repository": "https://github.com/shigre-fun/bandori-song-atlas",
+    "remoteMatchedAfterFeaturePush": true,
+    "production": "https://tanimachi-bdsongs.com",
+    "postReleaseCodeOrDataFixCommits": 0,
+    "followUpDocumentationMessage": "[skip ci] docs: record creator database publication"
+  },
+  "ci": {
+    "runId": 37090952031,
+    "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37090952031",
+    "headSha": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37090952031/job/111111251329"
+      },
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success",
+        "headSha": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37090952031/job/111110981020"
+      }
+    ]
+  },
+  "cloudflare": {
+    "checkId": 111111304422,
+    "url": "https://github.com/shigre-fun/bandori-song-atlas/runs/111111304422",
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+    "deploymentId": "488582a5-982e-46a0-99b3-66645fa2b8f4",
+    "completedAt": "2026-10-03T02:48:12Z",
+    "source": "Cloudflare Pages GitHub check",
+    "managementApiUsed": false
+  },
+  "precommit": {
+    "migrationVerifyScriptsPassed": 4,
+    "testsPassed": 165,
+    "testsFailed": 0,
+    "builds": ["root", "/bandori-song-atlas/"],
+    "seoEach": {
+      "canonical": 984,
+      "recordings": 884,
+      "legacySongPages": 797,
+      "creatorCompatibilityPages": 18
+    },
+    "functionsCompilePassed": true,
+    "syntaxModulesPassed": 42,
+    "diffCheckPassed": true,
+    "reviewedFormalFiles": 100,
+    "excludedArtifacts": [".cache", "dist", "screenshots"],
+    "secretsFound": 0,
+    "strictPrettierFilesPassed": 98,
+    "preservedExistingStyleWarnings": [
+      "data/ournotes/songs.json",
+      "docs/migrations/creators-2026-10-02/human-review-before-master.json"
+    ],
+    "portabilityFix": "Final-slug test independently builds its owned temporary subpath output and reads current base/origin; all original assertions retained."
+  },
+  "baseline": {
+    "changes": [
+      {
+        "id": "cr-0048",
+        "name": "片倉三起也",
+        "from": "creator-0048",
+        "to": "mikiya-katakura"
+      },
+      {
+        "id": "cr-0081",
+        "name": "前澤寛之",
+        "from": "creator-0081",
+        "to": "hiroyuki-maezawa"
+      },
+      {
+        "id": "cr-0082",
+        "name": "志倉千代丸",
+        "from": "creator-0082",
+        "to": "chiyomaru-shikura"
+      },
+      {
+        "id": "cr-0089",
+        "name": "庄司夏葵",
+        "from": "creator-0089",
+        "to": "natsuki-shoji"
+      },
+      {
+        "id": "cr-0090",
+        "name": "瀬名水紀",
+        "from": "creator-0090",
+        "to": "mizuki-sena"
+      }
+    ],
+    "creators": 91,
+    "nextId": 92,
+    "previousSlugs": 18,
+    "cloudflareRules": 36,
+    "staticCompatibilityPages": 18,
+    "idSlugs": [],
+    "provisionalSortKeys": 47,
+    "resolvedRaw": 127,
+    "remainingRaw": 215,
+    "coverage": {
+      "recordings": 635,
+      "totalRecordings": 884,
+      "recordingPercent": 71.83,
+      "works": 582,
+      "totalWorks": 823,
+      "workPercent": 70.72
+    },
+    "displayComparisons": 2652,
+    "workWarnings": []
+  },
+  "sourceIntegrity": {
+    "sourceHashes": {
+      "data/creators.json": "798195855e90308cd6eae3bfb1ee0573700190782b14402e9928cc6a151a4285",
+      "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+      "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+      "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee"
+    },
+    "baselinePreserved": true,
+    "unchangedPayloadFiles": 53,
+    "ournotesIntentionalParallelEditsPreserved": true,
+    "generatedJsonMatchesSource": true,
+    "productionAssetVersion": {
+      "production": "189e6c4a2626",
+      "windowsLocal": "6c441d623424",
+      "computedFromPushedCommit": "189e6c4a2626",
+      "releaseCommit": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+      "normalization": "CRLF/LF and build-version query only; all logical source content equal"
+    }
+  },
+  "http": {
+    "checkedAt": "2026-10-03T02:54:42.268Z",
+    "origin": "https://tanimachi-bdsongs.com",
+    "data": [
+      {
+        "path": "/creators.json",
+        "status": 200,
+        "jsonMatchesSource": true,
+        "sha256": "c14b8dc9edbefc45a7ad46b0ed99ba4714adf7802d8380eed988f0b5ec85c652"
+      },
+      {
+        "path": "/works.json",
+        "status": 200,
+        "jsonMatchesSource": true,
+        "sha256": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+      },
+      {
+        "path": "/garupa/songs.json",
+        "status": 200,
+        "jsonMatchesSource": true,
+        "sha256": "d73f0688da9505f259ed4c84a1b3264067ac6c5e778a5faa974736c78f308a2c"
+      },
+      {
+        "path": "/ournotes/songs.json",
+        "status": 200,
+        "jsonMatchesSource": true,
+        "sha256": "7f1c0f5940a91322756791c516c1857fdfc09b48f9d47a1489b883d38bbd8c80"
+      }
+    ],
+    "canonical": [
+      {
+        "id": "cr-0001",
+        "path": "/creators/noriyasu-agematsu/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/noriyasu-agematsu/"
+      },
+      {
+        "id": "cr-0002",
+        "path": "/creators/elements-garden/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/elements-garden/"
+      },
+      {
+        "id": "cr-0003",
+        "path": "/creators/syuichi-mabe/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/syuichi-mabe/"
+      },
+      {
+        "id": "cr-0004",
+        "path": "/creators/junpei-fujita/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/junpei-fujita/"
+      },
+      {
+        "id": "cr-0005",
+        "path": "/creators/ryutaro-fujinaga/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryutaro-fujinaga/"
+      },
+      {
+        "id": "cr-0006",
+        "path": "/creators/daisuke-kikuta/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/daisuke-kikuta/"
+      },
+      {
+        "id": "cr-0007",
+        "path": "/creators/seima-iwahashi/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/seima-iwahashi/"
+      },
+      {
+        "id": "cr-0008",
+        "path": "/creators/hitoshi-fujima/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hitoshi-fujima/"
+      },
+      {
+        "id": "cr-0009",
+        "path": "/creators/yusuke-takeda/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yusuke-takeda/"
+      },
+      {
+        "id": "cr-0010",
+        "path": "/creators/yuta-kasai/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yuta-kasai/"
+      },
+      {
+        "id": "cr-0011",
+        "path": "/creators/seima-kondo/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/seima-kondo/"
+      },
+      {
+        "id": "cr-0012",
+        "path": "/creators/daisuke-horikawa/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/daisuke-horikawa/"
+      },
+      {
+        "id": "cr-0013",
+        "path": "/creators/hasegawa-daisuke/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hasegawa-daisuke/"
+      },
+      {
+        "id": "cr-0014",
+        "path": "/creators/koji-matsuzaka/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/koji-matsuzaka/"
+      },
+      {
+        "id": "cr-0015",
+        "path": "/creators/kinoshita-ryuhei/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kinoshita-ryuhei/"
+      },
+      {
+        "id": "cr-0016",
+        "path": "/creators/tomita-kazuki/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tomita-kazuki/"
+      },
+      {
+        "id": "cr-0017",
+        "path": "/creators/araken/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/araken/"
+      },
+      {
+        "id": "cr-0018",
+        "path": "/creators/hisakuni/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hisakuni/"
+      },
+      {
+        "id": "cr-0019",
+        "path": "/creators/ryota-tomaru/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryota-tomaru/"
+      },
+      {
+        "id": "cr-0020",
+        "path": "/creators/yuki-hidaka/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yuki-hidaka/"
+      },
+      {
+        "id": "cr-0021",
+        "path": "/creators/ryota-suematsu/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryota-suematsu/"
+      },
+      {
+        "id": "cr-0022",
+        "path": "/creators/diggy-mo/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/diggy-mo/"
+      },
+      {
+        "id": "cr-0023",
+        "path": "/creators/ayase/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ayase/"
+      },
+      {
+        "id": "cr-0024",
+        "path": "/creators/satoshi-fujihara/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/satoshi-fujihara/"
+      },
+      {
+        "id": "cr-0025",
+        "path": "/creators/honeyworks/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/honeyworks/"
+      },
+      {
+        "id": "cr-0026",
+        "path": "/creators/deco27/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/deco27/"
+      },
+      {
+        "id": "cr-0027",
+        "path": "/creators/tomoya-tabuchi/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tomoya-tabuchi/"
+      },
+      {
+        "id": "cr-0028",
+        "path": "/creators/shota-horie/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/shota-horie/"
+      },
+      {
+        "id": "cr-0029",
+        "path": "/creators/motoki-ohmori/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/motoki-ohmori/"
+      },
+      {
+        "id": "cr-0030",
+        "path": "/creators/shito/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/shito/"
+      },
+      {
+        "id": "cr-0031",
+        "path": "/creators/teddyloid/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/teddyloid/"
+      },
+      {
+        "id": "cr-0032",
+        "path": "/creators/pinocchiop/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/pinocchiop/"
+      },
+      {
+        "id": "cr-0033",
+        "path": "/creators/kentaro-fujii/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kentaro-fujii/"
+      },
+      {
+        "id": "cr-0034",
+        "path": "/creators/giga/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/giga/"
+      },
+      {
+        "id": "cr-0035",
+        "path": "/creators/eve/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/eve/"
+      },
+      {
+        "id": "cr-0036",
+        "path": "/creators/orangestar/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/orangestar/"
+      },
+      {
+        "id": "cr-0037",
+        "path": "/creators/vaundy/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/vaundy/"
+      },
+      {
+        "id": "cr-0038",
+        "path": "/creators/takahashi-ryo/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/takahashi-ryo/"
+      },
+      {
+        "id": "cr-0039",
+        "path": "/creators/40mp/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/40mp/"
+      },
+      {
+        "id": "cr-0040",
+        "path": "/creators/neru/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/neru/"
+      },
+      {
+        "id": "cr-0041",
+        "path": "/creators/kairiki-bear/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kairiki-bear/"
+      },
+      {
+        "id": "cr-0042",
+        "path": "/creators/mikitop/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/mikitop/"
+      },
+      {
+        "id": "cr-0043",
+        "path": "/creators/kosaki/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kosaki/"
+      },
+      {
+        "id": "cr-0044",
+        "path": "/creators/gasa-yasuhiro/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/gasa-yasuhiro/"
+      },
+      {
+        "id": "cr-0045",
+        "path": "/creators/kanasaki-masashi/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kanasaki-masashi/"
+      },
+      {
+        "id": "cr-0046",
+        "path": "/creators/hiroaki-suzuki/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiroaki-suzuki/"
+      },
+      {
+        "id": "cr-0047",
+        "path": "/creators/yoshiki-mizuno/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yoshiki-mizuno/"
+      },
+      {
+        "id": "cr-0048",
+        "path": "/creators/mikiya-katakura/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/"
+      },
+      {
+        "id": "cr-0049",
+        "path": "/creators/tetsuya-komuro/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tetsuya-komuro/"
+      },
+      {
+        "id": "cr-0050",
+        "path": "/creators/kenichi-maeyamada/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kenichi-maeyamada/"
+      },
+      {
+        "id": "cr-0051",
+        "path": "/creators/motoo-fujiwara/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/motoo-fujiwara/"
+      },
+      {
+        "id": "cr-0052",
+        "path": "/creators/hyde/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hyde/"
+      },
+      {
+        "id": "cr-0053",
+        "path": "/creators/junichi-sato/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/junichi-sato/"
+      },
+      {
+        "id": "cr-0054",
+        "path": "/creators/kohei-tanaka/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kohei-tanaka/"
+      },
+      {
+        "id": "cr-0055",
+        "path": "/creators/hidekazu-tanaka/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hidekazu-tanaka/"
+      },
+      {
+        "id": "cr-0056",
+        "path": "/creators/tom-hack/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tom-hack/"
+      },
+      {
+        "id": "cr-0057",
+        "path": "/creators/myth-and-roid/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/myth-and-roid/"
+      },
+      {
+        "id": "cr-0058",
+        "path": "/creators/orange-range/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/orange-range/"
+      },
+      {
+        "id": "cr-0059",
+        "path": "/creators/fear-and-loathing-in-las-vegas/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/fear-and-loathing-in-las-vegas/"
+      },
+      {
+        "id": "cr-0060",
+        "path": "/creators/threee/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/threee/"
+      },
+      {
+        "id": "cr-0061",
+        "path": "/creators/nayutalien/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/nayutalien/"
+      },
+      {
+        "id": "cr-0062",
+        "path": "/creators/masayoshi-oishi/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/masayoshi-oishi/"
+      },
+      {
+        "id": "cr-0063",
+        "path": "/creators/tatsuya-kitani/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tatsuya-kitani/"
+      },
+      {
+        "id": "cr-0064",
+        "path": "/creators/kanaria/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/kanaria/"
+      },
+      {
+        "id": "cr-0065",
+        "path": "/creators/tk/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/tk/"
+      },
+      {
+        "id": "cr-0066",
+        "path": "/creators/satoshi-yaginuma/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/satoshi-yaginuma/"
+      },
+      {
+        "id": "cr-0067",
+        "path": "/creators/uz/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/uz/"
+      },
+      {
+        "id": "cr-0068",
+        "path": "/creators/yui/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yui/"
+      },
+      {
+        "id": "cr-0069",
+        "path": "/creators/takuya-uverworld/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/takuya-uverworld/"
+      },
+      {
+        "id": "cr-0070",
+        "path": "/creators/the-spellbound/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/the-spellbound/"
+      },
+      {
+        "id": "cr-0071",
+        "path": "/creators/sabio/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/sabio/"
+      },
+      {
+        "id": "cr-0072",
+        "path": "/creators/shintaro-tokita/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/shintaro-tokita/"
+      },
+      {
+        "id": "cr-0073",
+        "path": "/creators/takuya-ohashi/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/takuya-ohashi/"
+      },
+      {
+        "id": "cr-0074",
+        "path": "/creators/mashiro-shirakami/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/mashiro-shirakami/"
+      },
+      {
+        "id": "cr-0075",
+        "path": "/creators/shoji-meguro/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/shoji-meguro/"
+      },
+      {
+        "id": "cr-0076",
+        "path": "/creators/hiromu-akita/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiromu-akita/"
+      },
+      {
+        "id": "cr-0077",
+        "path": "/creators/daisuke-asakura/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/daisuke-asakura/"
+      },
+      {
+        "id": "cr-0078",
+        "path": "/creators/atsuko-angela/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/atsuko-angela/"
+      },
+      {
+        "id": "cr-0079",
+        "path": "/creators/katsu-angela/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/katsu-angela/"
+      },
+      {
+        "id": "cr-0080",
+        "path": "/creators/ak-homma/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ak-homma/"
+      },
+      {
+        "id": "cr-0081",
+        "path": "/creators/hiroyuki-maezawa/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/"
+      },
+      {
+        "id": "cr-0082",
+        "path": "/creators/chiyomaru-shikura/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/"
+      },
+      {
+        "id": "cr-0083",
+        "path": "/creators/ayato-shinozaki/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ayato-shinozaki/"
+      },
+      {
+        "id": "cr-0084",
+        "path": "/creators/ryo-supercell/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryo-supercell/"
+      },
+      {
+        "id": "cr-0085",
+        "path": "/creators/gen-04-limited-sazabys/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/gen-04-limited-sazabys/"
+      },
+      {
+        "id": "cr-0086",
+        "path": "/creators/arm-iosys/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/arm-iosys/"
+      },
+      {
+        "id": "cr-0087",
+        "path": "/creators/take-flow/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/take-flow/"
+      },
+      {
+        "id": "cr-0088",
+        "path": "/creators/yasu-janne-da-arc/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/yasu-janne-da-arc/"
+      },
+      {
+        "id": "cr-0089",
+        "path": "/creators/natsuki-shoji/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/"
+      },
+      {
+        "id": "cr-0090",
+        "path": "/creators/mizuki-sena/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/mizuki-sena/"
+      },
+      {
+        "id": "cr-0091",
+        "path": "/creators/john/",
+        "status": 200,
+        "canonical": "https://tanimachi-bdsongs.com/creators/john/"
+      }
+    ],
+    "details": [
+      {
+        "id": "cr-0001",
+        "name": "上松範康",
+        "path": "/creators/noriyasu-agematsu/",
+        "status": 200,
+        "title": "上松範康 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/noriyasu-agematsu/",
+        "works": 59,
+        "recordings": 66
+      },
+      {
+        "id": "cr-0004",
+        "name": "藤田淳平",
+        "path": "/creators/junpei-fujita/",
+        "status": 200,
+        "title": "藤田淳平 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/junpei-fujita/",
+        "works": 51,
+        "recordings": 55
+      },
+      {
+        "id": "cr-0028",
+        "name": "堀江晶太",
+        "path": "/creators/shota-horie/",
+        "status": 200,
+        "title": "堀江晶太 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/shota-horie/",
+        "works": 8,
+        "recordings": 9
+      },
+      {
+        "id": "cr-0048",
+        "name": "片倉三起也",
+        "path": "/creators/mikiya-katakura/",
+        "status": 200,
+        "title": "片倉三起也 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "works": 4,
+        "recordings": 4
+      },
+      {
+        "id": "cr-0067",
+        "name": "UZ",
+        "path": "/creators/uz/",
+        "status": 200,
+        "title": "UZ - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/uz/",
+        "works": 3,
+        "recordings": 3
+      },
+      {
+        "id": "cr-0081",
+        "name": "前澤寛之",
+        "path": "/creators/hiroyuki-maezawa/",
+        "status": 200,
+        "title": "前澤寛之 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "works": 3,
+        "recordings": 3
+      },
+      {
+        "id": "cr-0082",
+        "name": "志倉千代丸",
+        "path": "/creators/chiyomaru-shikura/",
+        "status": 200,
+        "title": "志倉千代丸 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "works": 3,
+        "recordings": 3
+      },
+      {
+        "id": "cr-0084",
+        "name": "ryo",
+        "path": "/creators/ryo-supercell/",
+        "status": 200,
+        "title": "ryo - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryo-supercell/",
+        "works": 4,
+        "recordings": 4
+      },
+      {
+        "id": "cr-0089",
+        "name": "庄司夏葵",
+        "path": "/creators/natsuki-shoji/",
+        "status": 200,
+        "title": "庄司夏葵 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "works": 2,
+        "recordings": 4
+      },
+      {
+        "id": "cr-0090",
+        "name": "瀬名水紀",
+        "path": "/creators/mizuki-sena/",
+        "status": 200,
+        "title": "瀬名水紀 - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "works": 4,
+        "recordings": 4
+      },
+      {
+        "id": "cr-0091",
+        "name": "john",
+        "path": "/creators/john/",
+        "status": 200,
+        "title": "john - 作曲参加楽曲 | バンドリ楽曲録",
+        "canonical": "https://tanimachi-bdsongs.com/creators/john/",
+        "works": 1,
+        "recordings": 1
+      }
+    ],
+    "redirects": [
+      {
+        "from": "/creators/creator-0003/",
+        "to": "/creators/syuichi-mabe/",
+        "status": 301,
+        "location": "/creators/syuichi-mabe/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0003",
+        "to": "/creators/syuichi-mabe/",
+        "status": 301,
+        "location": "/creators/syuichi-mabe/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0004/",
+        "to": "/creators/junpei-fujita/",
+        "status": 301,
+        "location": "/creators/junpei-fujita/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0004",
+        "to": "/creators/junpei-fujita/",
+        "status": 301,
+        "location": "/creators/junpei-fujita/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0020/",
+        "to": "/creators/yuki-hidaka/",
+        "status": 301,
+        "location": "/creators/yuki-hidaka/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0020",
+        "to": "/creators/yuki-hidaka/",
+        "status": 301,
+        "location": "/creators/yuki-hidaka/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0021/",
+        "to": "/creators/ryota-suematsu/",
+        "status": 301,
+        "location": "/creators/ryota-suematsu/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0021",
+        "to": "/creators/ryota-suematsu/",
+        "status": 301,
+        "location": "/creators/ryota-suematsu/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0024/",
+        "to": "/creators/satoshi-fujihara/",
+        "status": 301,
+        "location": "/creators/satoshi-fujihara/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0024",
+        "to": "/creators/satoshi-fujihara/",
+        "status": 301,
+        "location": "/creators/satoshi-fujihara/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0027/",
+        "to": "/creators/tomoya-tabuchi/",
+        "status": 301,
+        "location": "/creators/tomoya-tabuchi/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0027",
+        "to": "/creators/tomoya-tabuchi/",
+        "status": 301,
+        "location": "/creators/tomoya-tabuchi/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0041/",
+        "to": "/creators/kairiki-bear/",
+        "status": 301,
+        "location": "/creators/kairiki-bear/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0041",
+        "to": "/creators/kairiki-bear/",
+        "status": 301,
+        "location": "/creators/kairiki-bear/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0048/",
+        "to": "/creators/mikiya-katakura/",
+        "status": 301,
+        "location": "/creators/mikiya-katakura/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0048",
+        "to": "/creators/mikiya-katakura/",
+        "status": 301,
+        "location": "/creators/mikiya-katakura/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0050/",
+        "to": "/creators/kenichi-maeyamada/",
+        "status": 301,
+        "location": "/creators/kenichi-maeyamada/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0050",
+        "to": "/creators/kenichi-maeyamada/",
+        "status": 301,
+        "location": "/creators/kenichi-maeyamada/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0053/",
+        "to": "/creators/junichi-sato/",
+        "status": 301,
+        "location": "/creators/junichi-sato/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0053",
+        "to": "/creators/junichi-sato/",
+        "status": 301,
+        "location": "/creators/junichi-sato/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0072/",
+        "to": "/creators/shintaro-tokita/",
+        "status": 301,
+        "location": "/creators/shintaro-tokita/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0072",
+        "to": "/creators/shintaro-tokita/",
+        "status": 301,
+        "location": "/creators/shintaro-tokita/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0073/",
+        "to": "/creators/takuya-ohashi/",
+        "status": 301,
+        "location": "/creators/takuya-ohashi/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0073",
+        "to": "/creators/takuya-ohashi/",
+        "status": 301,
+        "location": "/creators/takuya-ohashi/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0075/",
+        "to": "/creators/shoji-meguro/",
+        "status": 301,
+        "location": "/creators/shoji-meguro/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0075",
+        "to": "/creators/shoji-meguro/",
+        "status": 301,
+        "location": "/creators/shoji-meguro/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0081/",
+        "to": "/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "location": "/creators/hiroyuki-maezawa/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0081",
+        "to": "/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "location": "/creators/hiroyuki-maezawa/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0082/",
+        "to": "/creators/chiyomaru-shikura/",
+        "status": 301,
+        "location": "/creators/chiyomaru-shikura/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0082",
+        "to": "/creators/chiyomaru-shikura/",
+        "status": 301,
+        "location": "/creators/chiyomaru-shikura/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0083/",
+        "to": "/creators/ayato-shinozaki/",
+        "status": 301,
+        "location": "/creators/ayato-shinozaki/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0083",
+        "to": "/creators/ayato-shinozaki/",
+        "status": 301,
+        "location": "/creators/ayato-shinozaki/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0089/",
+        "to": "/creators/natsuki-shoji/",
+        "status": 301,
+        "location": "/creators/natsuki-shoji/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0089",
+        "to": "/creators/natsuki-shoji/",
+        "status": 301,
+        "location": "/creators/natsuki-shoji/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0090/",
+        "to": "/creators/mizuki-sena/",
+        "status": 301,
+        "location": "/creators/mizuki-sena/",
+        "direct": true
+      },
+      {
+        "from": "/creators/creator-0090",
+        "to": "/creators/mizuki-sena/",
+        "status": 301,
+        "location": "/creators/mizuki-sena/",
+        "direct": true
+      }
+    ],
+    "queries": [
+      {
+        "id": "cr-0048",
+        "from": "/creators/creator-0048/?game=ournotes&role=composer",
+        "status": 301,
+        "location": "/creators/mikiya-katakura/?game=ournotes&role=composer"
+      },
+      {
+        "id": "cr-0081",
+        "from": "/creators/creator-0081/?game=ournotes&role=composer",
+        "status": 301,
+        "location": "/creators/hiroyuki-maezawa/?game=ournotes&role=composer"
+      },
+      {
+        "id": "cr-0082",
+        "from": "/creators/creator-0082/?game=ournotes&role=composer",
+        "status": 301,
+        "location": "/creators/chiyomaru-shikura/?game=ournotes&role=composer"
+      },
+      {
+        "id": "cr-0089",
+        "from": "/creators/creator-0089/?game=ournotes&role=composer",
+        "status": 301,
+        "location": "/creators/natsuki-shoji/?game=ournotes&role=composer"
+      },
+      {
+        "id": "cr-0090",
+        "from": "/creators/creator-0090/?game=ournotes&role=composer",
+        "status": 301,
+        "location": "/creators/mizuki-sena/?game=ournotes&role=composer"
+      }
+    ],
+    "pages": [
+      {
+        "path": "/admin/",
+        "status": 200,
+        "title": "楽曲を追加・修正 | バンドリ楽曲録"
+      },
+      {
+        "path": "/admin/creators/",
+        "status": 200,
+        "title": "クリエイター管理 | バンドリ楽曲録"
+      },
+      {
+        "path": "/admin/news/",
+        "status": 200,
+        "title": "お知らせを追加・修正 | バンドリ楽曲録"
+      },
+      {
+        "path": "/contact/",
+        "status": 200,
+        "title": "お問い合わせ | バンドリ楽曲録"
+      }
+    ],
+    "assets": [
+      {
+        "path": "/app.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "e6f83d7fb51aa0b70c65f90aa0aaac7ea1a7e66b49629ef1321785152bce6b1b"
+      },
+      {
+        "path": "/cross-search.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "a141ce2380a64bdb94688d47763614463ddce92b6483a64cfc1eb6160952db84"
+      },
+      {
+        "path": "/domain.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "25dd75d4e032b113a07c71ff8879213554501267a42722ed07d7834f3bfc6588"
+      },
+      {
+        "path": "/credits.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "7aaa66f2ad614f5b272fd3e3973694048c263592da471d2610a8ccbd56f18a56"
+      },
+      {
+        "path": "/creators-data.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "14543cbafa17a1d8acb826fbf76260a46fb64e6497d5ea44af8786db71bce798"
+      },
+      {
+        "path": "/credit-display.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "d9c69ad72fa7ed07dc6df8e7d443cc6553e835d4bc51d7719742e862a922b646"
+      },
+      {
+        "path": "/credit-structure.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "e58fbf2d021ed2089188aff84ffb4d86b23977e77ef5298a8e3e62ae6effd065"
+      },
+      {
+        "path": "/credit-coverage.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "b4b364fe0655ccdcd2b3bfa0e2fd7da94cd09726c8bb0e0f409dcb9eaef91cce"
+      },
+      {
+        "path": "/creator-views.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "14eddeed235df91ea8e1cb42691cdb52fb3091808b7420dd970e73ef166b8526"
+      },
+      {
+        "path": "/creators.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "008b8a52c516113bea186b139e3fc4b955305e82231190b743a4466ccd0fa2e5"
+      },
+      {
+        "path": "/github-creator-store.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "c49eb725a6f13ea0aa806044f51452a83fa1a03711fed5896fa77de8a31afa33"
+      },
+      {
+        "path": "/admin-creators.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "1a08d37fb85afa07c191d8720e24e1f78adf986aecb05e4f399f515137e2a94f"
+      },
+      {
+        "path": "/creator-picker.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "50d94bb2c75f70c7f81cfbc37aac5999dd61b17b30cd028d0ea24fa3c41e2d71"
+      },
+      {
+        "path": "/views.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "bc90439f044f51cb4e03e99d36ca416741d83163835d0ca4cd4a4932e462c718"
+      },
+      {
+        "path": "/related-songs.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "e28c8f4fcb5d6cb4a6ab462de039cab135b300374abf91733fe1267056002412"
+      },
+      {
+        "path": "/urls.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "8336e9cccd77108932f4f63b33dd2e8745651fa1c24a42525f3a7f7d95cec8da"
+      },
+      {
+        "path": "/site-config.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "15cef152918c2321e9559019ce5bacf486746946acd1b5e007dcd610629457c1"
+      },
+      {
+        "path": "/seo.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "6afcafe5f9905368815033b4d47021744361cb38bb26fd29b8afc3a074ed67b2"
+      },
+      {
+        "path": "/song-schema.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "4721818d0c730d03e8d85b6c0aa37d26f6edfc8455f89f18e272707c1858345c"
+      },
+      {
+        "path": "/garupa-data.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "7a840c0088a506da2f36d164c9ed0fe54f1dec9365150e9fec88dea6831ef673"
+      },
+      {
+        "path": "/github-store.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "aac2d067b32dd9aeeb1fa1832e09cd80b4d1c77c2b523c394c7ca46c6fa39d18"
+      },
+      {
+        "path": "/github-news-store.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "bdc6012f7c7b79d72b8a0b1db5deb0973df4686e7fa6401e0bd02987018adcbe"
+      },
+      {
+        "path": "/admin.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "2559a3b57d5e2d546471a783866116a4e75ac8168c080cc837f4da9b3b60dbe5"
+      },
+      {
+        "path": "/admin-news.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "d3fdbdd9cd04a58cfe24a4bf7d80ba3438ec36580e0e51982d16e159689a2c8f"
+      },
+      {
+        "path": "/news-data.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "79aaaade26d1e6a66882e8f03d0e507035c48940bb21e65b2407a7f511d096f7"
+      },
+      {
+        "path": "/related-song-picker.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "40c2c08a91ddc0d813c1322c5c954a36147a83a30ab9d159a41e0468ef4fbb89"
+      },
+      {
+        "path": "/query-index.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "ae2dcadd6707c94176915fe3ee23283e149c560c260aa080096fc14577d73388"
+      },
+      {
+        "path": "/legacy-redirect.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "3b5dedf58af0de02eff876273f036c1a395355c52a02c1150cae284345c23444"
+      },
+      {
+        "path": "/contact.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "7bdf04db473c1bebac57843d1a382d49717729a1c0735c997bdd1f3bda687a7d"
+      },
+      {
+        "path": "/contact-validation.js",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "900ff5ef4896d7e37764d35011663c359b7f5e1d2edc78804c962bd1fbc21067"
+      },
+      {
+        "path": "/style.css",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "ab140f18ada2a1f878aa81fab3195b7bb646fccf6f1de7f6850f2f0ab98638eb"
+      },
+      {
+        "path": "/mobile.css",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "693f7fc063a2807252e5e9c3ebcdcb5bec21485c61d200a52b80f900cd870a62"
+      },
+      {
+        "path": "/admin.css",
+        "status": 200,
+        "contentMatchesRelease": true,
+        "sha256": "5ddb8d0b31e3b01facc9c5dc5e33d883f61fc9f00ffe7ab23dc55d89ef0a4800"
+      }
+    ],
+    "legacyComparisons": 2652,
+    "list": {
+      "status": 200,
+      "count": 91
+    },
+    "function": {
+      "method": "GET",
+      "status": 405,
+      "code": "method",
+      "emailSent": false
+    },
+    "sitemap": {
+      "status": 200,
+      "currentCreatorUrls": 91,
+      "oldCreatorUrls": 0
+    },
+    "releaseSourceConsistency": true,
+    "assetVersion": {
+      "production": "189e6c4a2626",
+      "windowsLocal": "6c441d623424",
+      "computedFromPushedCommit": "189e6c4a2626",
+      "releaseCommit": "d140705b7363e67f1f8f9c0fdc2296629bb9d149",
+      "normalization": "CRLF/LF and build-version query only; all logical source content equal"
+    }
+  },
+  "browser": {
+    "list": {
+      "count": 91
+    },
+    "details": [
+      {
+        "name": "上松範康",
+        "canonical": "https://tanimachi-bdsongs.com/creators/noriyasu-agematsu/",
+        "counts": [
+          ["参加楽曲数", "59"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "59"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：66件"
+      },
+      {
+        "name": "藤田淳平",
+        "canonical": "https://tanimachi-bdsongs.com/creators/junpei-fujita/",
+        "counts": [
+          ["参加楽曲数", "51"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "51"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：55件"
+      },
+      {
+        "name": "堀江晶太",
+        "canonical": "https://tanimachi-bdsongs.com/creators/shota-horie/",
+        "counts": [
+          ["参加楽曲数", "8"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "8"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：9件"
+      },
+      {
+        "name": "ryo",
+        "canonical": "https://tanimachi-bdsongs.com/creators/ryo-supercell/",
+        "counts": [
+          ["参加楽曲数", "4"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "4"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：4件"
+      },
+      {
+        "name": "UZ",
+        "canonical": "https://tanimachi-bdsongs.com/creators/uz/",
+        "counts": [
+          ["参加楽曲数", "3"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "3"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：3件"
+      },
+      {
+        "name": "john",
+        "canonical": "https://tanimachi-bdsongs.com/creators/john/",
+        "counts": [
+          ["参加楽曲数", "1"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "1"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：1件"
+      },
+      {
+        "name": "瀬名水紀",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "counts": [
+          ["参加楽曲数", "4"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "4"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：4件"
+      },
+      {
+        "name": "片倉三起也",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "counts": [
+          ["参加楽曲数", "4"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "4"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：4件"
+      },
+      {
+        "name": "前澤寛之",
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "counts": [
+          ["参加楽曲数", "3"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "3"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：3件"
+      },
+      {
+        "name": "志倉千代丸",
+        "canonical": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "counts": [
+          ["参加楽曲数", "3"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "3"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：3件"
+      },
+      {
+        "name": "庄司夏葵",
+        "canonical": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "counts": [
+          ["参加楽曲数", "2"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "2"],
+          ["編曲曲数", "未整備"]
+        ],
+        "records": "収録件数：4件"
+      }
+    ],
+    "roundTrips": [
+      {
+        "name": "上松範康",
+        "song": "/garupa/songs/533/",
+        "credit": {
+          "href": "/creators/noriyasu-agematsu/",
+          "name": "上松範康（Elements Garden）"
+        },
+        "creator": "/creators/noriyasu-agematsu/"
+      },
+      {
+        "name": "藤田淳平",
+        "song": "/garupa/songs/71/",
+        "credit": {
+          "href": "/creators/junpei-fujita/",
+          "name": "藤田淳平（Elements Garden）"
+        },
+        "creator": "/creators/junpei-fujita/"
+      },
+      {
+        "name": "堀江晶太",
+        "song": "/ournotes/songs/44/",
+        "credit": {
+          "href": "/creators/shota-horie/",
+          "name": "堀江晶太"
+        },
+        "creator": "/creators/shota-horie/"
+      },
+      {
+        "name": "ryo",
+        "song": "/garupa/songs/709/",
+        "credit": {
+          "href": "/creators/ryo-supercell/",
+          "name": "ryo(supercell)"
+        },
+        "creator": "/creators/ryo-supercell/"
+      },
+      {
+        "name": "UZ",
+        "song": "/garupa/songs/655/",
+        "credit": {
+          "href": "/creators/uz/",
+          "name": "UZ"
+        },
+        "creator": "/creators/uz/"
+      },
+      {
+        "name": "john",
+        "song": "/garupa/songs/552/",
+        "credit": {
+          "href": "/creators/john/",
+          "name": "john"
+        },
+        "creator": "/creators/john/"
+      },
+      {
+        "name": "瀬名水紀",
+        "song": "/ournotes/songs/64/",
+        "credit": {
+          "href": "/creators/mizuki-sena/",
+          "name": "瀬名水紀(Dream Monster)"
+        },
+        "creator": "/creators/mizuki-sena/"
+      },
+      {
+        "name": "片倉三起也",
+        "song": "/garupa/songs/789/",
+        "credit": {
+          "href": "/creators/mikiya-katakura/",
+          "name": "片倉三起也"
+        },
+        "creator": "/creators/mikiya-katakura/"
+      },
+      {
+        "name": "前澤寛之",
+        "song": "/garupa/songs/29/",
+        "credit": {
+          "href": "/creators/hiroyuki-maezawa/",
+          "name": "前澤寛之"
+        },
+        "creator": "/creators/hiroyuki-maezawa/"
+      },
+      {
+        "name": "志倉千代丸",
+        "song": "/garupa/songs/26/",
+        "credit": {
+          "href": "/creators/chiyomaru-shikura/",
+          "name": "志倉千代丸"
+        },
+        "creator": "/creators/chiyomaru-shikura/"
+      },
+      {
+        "name": "庄司夏葵",
+        "song": "/garupa/songs/620/",
+        "credit": {
+          "href": "/creators/natsuki-shoji/",
+          "name": "庄司夏葵(SUPA LOVE)"
+        },
+        "creator": "/creators/natsuki-shoji/"
+      }
+    ],
+    "filters": [
+      {
+        "name": "上松範康",
+        "display": "表示：59作品",
+        "records": "収録件数：66件",
+        "url": "https://tanimachi-bdsongs.com/creators/noriyasu-agematsu/?role=composer&game=garupa"
+      },
+      {
+        "name": "藤田淳平",
+        "display": "表示：51作品",
+        "records": "収録件数：55件",
+        "url": "https://tanimachi-bdsongs.com/creators/junpei-fujita/?role=composer&game=garupa"
+      },
+      {
+        "name": "堀江晶太",
+        "display": "表示：6作品",
+        "records": "収録件数：9件",
+        "url": "https://tanimachi-bdsongs.com/creators/shota-horie/?role=composer&game=ournotes"
+      },
+      {
+        "name": "ryo",
+        "display": "表示：4作品",
+        "records": "収録件数：4件",
+        "url": "https://tanimachi-bdsongs.com/creators/ryo-supercell/?role=composer&game=garupa"
+      },
+      {
+        "name": "UZ",
+        "display": "表示：2作品",
+        "records": "収録件数：3件",
+        "url": "https://tanimachi-bdsongs.com/creators/uz/?role=composer&game=garupa"
+      },
+      {
+        "name": "john",
+        "display": "表示：1作品",
+        "records": "収録件数：1件",
+        "url": "https://tanimachi-bdsongs.com/creators/john/?role=composer&game=garupa"
+      },
+      {
+        "name": "瀬名水紀",
+        "display": "表示：4作品",
+        "records": "収録件数：4件",
+        "url": "https://tanimachi-bdsongs.com/creators/mizuki-sena/?role=composer&game=ournotes"
+      },
+      {
+        "name": "片倉三起也",
+        "display": "表示：3作品",
+        "records": "収録件数：4件",
+        "url": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/?role=composer&game=garupa"
+      },
+      {
+        "name": "前澤寛之",
+        "display": "表示：3作品",
+        "records": "収録件数：3件",
+        "url": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/?role=composer&game=garupa"
+      },
+      {
+        "name": "志倉千代丸",
+        "display": "表示：3作品",
+        "records": "収録件数：3件",
+        "url": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/?role=composer&game=garupa"
+      },
+      {
+        "name": "庄司夏葵",
+        "display": "表示：2作品",
+        "records": "収録件数：4件",
+        "url": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/?role=composer&game=garupa"
+      }
+    ],
+    "fallback": [
+      {
+        "name": "JACK",
+        "song": "/garupa/songs/707/",
+        "href": "/search/?q=JACK&page=1&credit=composer",
+        "searchShowsSong": true
+      },
+      {
+        "name": "Louis",
+        "song": "/garupa/songs/734/",
+        "href": "/search/?q=Louis&page=1&credit=composer",
+        "searchShowsSong": true
+      }
+    ],
+    "existingPages": [
+      {
+        "path": "/admin/creators/",
+        "title": "クリエイター管理 | バンドリ楽曲録",
+        "connectionUiVisible": true,
+        "testSave": false
+      },
+      {
+        "path": "/admin/",
+        "title": "ガルパの楽曲を追加・修正 | バンドリ楽曲録",
+        "heading": "楽曲を追加・修正",
+        "forms": 2,
+        "testSave": false
+      },
+      {
+        "path": "/admin/news/",
+        "title": "お知らせを追加・修正 | バンドリ楽曲録",
+        "heading": "お知らせを追加・修正",
+        "forms": 2,
+        "testSave": false
+      },
+      {
+        "path": "/contact/",
+        "title": "お問い合わせ | バンドリ楽曲録",
+        "heading": "お問い合わせ",
+        "forms": 1,
+        "testSave": false
+      }
+    ],
+    "mobile": [
+      {
+        "bodyWidth": 375,
+        "clientWidth": 375,
+        "count": "91件のクリエイター",
+        "path": "/creators/",
+        "scrollWidth": 375,
+        "width": 390
+      },
+      {
+        "bodyWidth": 375,
+        "clientWidth": 375,
+        "name": "瀬名水紀",
+        "path": "/creators/mizuki-sena/",
+        "scrollWidth": 375,
+        "width": 390
+      }
+    ],
+    "console": [],
+    "oldUrlQueryAndFragment": {
+      "from": "/creators/creator-0003/?game=ournotes&role=composer#app",
+      "destination": "https://tanimachi-bdsongs.com/creators/syuichi-mabe/?game=ournotes&role=composer#app"
+    },
+    "realProductionSaves": 0,
+    "realEmailSends": 0,
+    "viewportReset": true,
+    "verificationTabClosed": true
+  },
+  "problems": {
+    "productionDefectsFound": 0,
+    "resolvedQaFailures": [
+      "Initial asset byte comparison differed only by CRLF/LF and generated asset version; logical content and Git-derived version both matched.",
+      "Initial JACK search assertion preceded asynchronous catalog load; result verified after load."
+    ],
+    "releaseNotes": [
+      "Wrangler was unauthenticated; Cloudflare deployment success and commit were independently obtained from its public GitHub check.",
+      "The multi-file documentation patch reported a mismatch after partial application; actual files rechecked and duplicate release log entry removed."
+    ]
+  },
+  "ongoingAcceptedItems": {
+    "unidentifiedRaw": 215,
+    "provisionalSortKeys": 47,
+    "unresolvedNames": ["JACK", "Louis"],
+    "unpreparedRoles": ["lyricist", "arranger"],
+    "unchangedShortNameMappings": ["GEN", "ARM", "TAKE", "yasu", "KATSU"],
+    "futureCreatorUpdates": true
+  },
+  "reportFields": [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+    22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42
+  ]
+}
