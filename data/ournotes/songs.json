@@ -863,7 +863,7 @@
           "id": 15,
           "title": "焚音打",
           "reading": "タネビ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 15,
           "composer": "長谷川大介(SUPA LOVE)",
           "originalArtist": null,
@@ -871,7 +871,7 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 170,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -919,7 +919,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "1aaee82b-6524-4657-a2fa-571cbb6faa03"
         },
         {
           "id": 16,
