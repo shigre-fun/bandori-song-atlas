@@ -1043,7 +1043,7 @@
           "id": 18,
           "title": "往欄印",
           "reading": "オウライ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 18,
           "composer": "長谷川大介(SUPA LOVE)",
           "originalArtist": null,
@@ -1051,12 +1051,12 @@
           "bpm": 180,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 137,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 420
+              "notes": 421
             },
             "NORMAL": {
               "level": 15,
@@ -1064,7 +1064,7 @@
             },
             "HARD": {
               "level": 23,
-              "notes": 956
+              "notes": 957
             },
             "EXPERT": {
               "level": 28,
@@ -1099,7 +1099,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "70989efe-f377-4a8a-9bca-f9847ab97f94"
         }
       ]
     },
