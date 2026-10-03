@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3857/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:04.965Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「コハク」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年8月26日(月)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "https://bmu.lnk.to/KOHAKUwe"
+    },
+    {
+      "line": 9,
+      "text": "「コハク」"
+    },
+    {
+      "line": 10,
+      "text": "作詞：仲町あられ、堀江晶太"
+    },
+    {
+      "line": 11,
+      "text": "作曲・編曲：堀江晶太"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "workId": "wk-0796",
+      "title": "コハク",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「コハク」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「コハク」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

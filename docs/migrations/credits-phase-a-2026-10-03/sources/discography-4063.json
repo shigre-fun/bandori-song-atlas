@@ -1,0 +1,69 @@
+{
+  "url": "https://bang-dream.com/discographies/4063/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:45.095Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes ミニAlbum「きみと Stage by Stage」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2025年8月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 599,
+      "workId": "wk-0590",
+      "title": "With〜きみとわたしたちの物語〜",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.With〜きみとわたしたちの物語〜",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 673,
+      "workId": "wk-0081",
+      "title": "Y.O.L.O！！！！！(パスパレver.)",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.Y.O.L.O！！！！！(パスパレver.)",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 665,
+      "workId": "wk-0652",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "3.デイオフ・ラフ・ラブ・サンクス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 587,
+      "workId": "wk-0578",
+      "title": "フレっとパレットFight Song!!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.フレっとパレットFight Song!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 623,
+      "workId": "wk-0614",
+      "title": "ホワイト ノスタルジア",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.ホワイト ノスタルジア",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes ミニAlbum「きみと Stage by Stage」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

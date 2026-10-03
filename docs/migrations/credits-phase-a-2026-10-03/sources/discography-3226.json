@@ -1,0 +1,249 @@
+{
+  "url": "https://bang-dream.com/discographies/3226/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:46.210Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 2nd Album「STAY GLOW」",
+  "artists": "Afterglow",
+  "releaseDate": "2023年4月26日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 127,
+      "workId": "wk-0127",
+      "title": "COMIC PANIC!!!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "6.COMIC PANIC!!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 102,
+      "workId": "wk-0102",
+      "title": "Jamboree!Journey!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "8.Jamboree！Journey！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 364,
+      "workId": "wk-0358",
+      "title": "Off we go.",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.Off we go.",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 413,
+      "workId": "wk-0406",
+      "title": "SWITCH ON NOW",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "4.SWITCH ON NOW",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 43,
+      "workId": "wk-0043",
+      "title": "Scarlet Sky",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Scarlet Sky",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 346,
+      "workId": "wk-0340",
+      "title": "Trouble Joyful!!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "7.Trouble Joyful!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 12,
+      "workId": "wk-0012",
+      "title": "True color",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "13.True color",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 177,
+      "workId": "wk-0177",
+      "title": "いつも通りのBrand new days",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "3.いつも通りのBrand new days",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 329,
+      "workId": "wk-0323",
+      "title": "カナユメ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "9.カナユメ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 401,
+      "workId": "wk-0394",
+      "title": "サクラゼンセン",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "12.サクラゼンセン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 147,
+      "workId": "wk-0147",
+      "title": "ランブリングメモリー",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "5.ランブリングメモリー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 496,
+      "workId": "wk-0487",
+      "title": "極彩色",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "11.極彩色",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 428,
+      "workId": "wk-0421",
+      "title": "独創収差",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "10.独創収差",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 22,
+      "workId": "wk-0022",
+      "title": "Butter-Fly",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "10.Butter-Fly",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 145,
+      "workId": "wk-0145",
+      "title": "Crow Song",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Crow Song",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 381,
+      "workId": "wk-0375",
+      "title": "Listen!!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "7.Listen!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 299,
+      "workId": "wk-0293",
+      "title": "Northern lights",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "4.Northern lights",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 124,
+      "workId": "wk-0124",
+      "title": "Reach Out To The Truth",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "6.Reach Out To The Truth",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 206,
+      "workId": "wk-0205",
+      "title": "アイのシナリオ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "3.アイのシナリオ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 112,
+      "workId": "wk-0112",
+      "title": "イマジネーション",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "9.イマジネーション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 267,
+      "workId": "wk-0261",
+      "title": "カサブタ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.カサブタ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 409,
+      "workId": "wk-0402",
+      "title": "トーキョーワンダー。",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "5.トーキョーワンダー。",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 194,
+      "workId": "wk-0194",
+      "title": "青い栞",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "8.青い栞",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 2nd Album「STAY GLOW」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

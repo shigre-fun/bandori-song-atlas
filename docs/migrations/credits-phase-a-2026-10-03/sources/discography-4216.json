@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4216/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:01.574Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage 1st Single「鳴らす」",
+  "artists": "millsage",
+  "releaseDate": "2026年9月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 65,
+      "workId": "wk-0811",
+      "title": "鳴らす",
+      "band": "millsage",
+      "scope": "release",
+      "context": "millsage 1st Single「鳴らす」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "millsage 1st Single「鳴らす」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4235/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:15.293Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock!「Keep on Riddim」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年7月20日(月・祝)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「Keep on Riddim」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：瀬名水紀(Dream Monster)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 74,
+      "workId": "wk-0818",
+      "title": "Keep on Riddim",
+      "band": "一家Dumb Rock!",
+      "scope": "release",
+      "context": "「Keep on Riddim」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "一家Dumb Rock!「Keep on Riddim」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

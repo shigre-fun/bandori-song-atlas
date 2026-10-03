@@ -30,7 +30,7 @@ jobs:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
         run: |
           node scripts/build.mjs
-          node --test tests/*.test.mjs
+          pnpm test
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

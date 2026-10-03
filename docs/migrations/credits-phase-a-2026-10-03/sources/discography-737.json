@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/737/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:12.126Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 4th Single「Y.O.L.O！！！！！」",
+  "artists": "Afterglow",
+  "releaseDate": "2019年2月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 127,
+      "workId": "wk-0127",
+      "title": "COMIC PANIC!!!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.COMIC PANIC!!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 81,
+      "workId": "wk-0081",
+      "title": "Y.O.L.O！！！！！",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Y.O.L.O！！！！！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 4th Single「Y.O.L.O！！！！！」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/111/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:21.283Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 9th Single「CiRCLING」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2018年3月21日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 89,
+      "workId": "wk-0089",
+      "title": "CiRCLING",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.CiRCLING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 106,
+      "workId": "wk-0106",
+      "title": "Light Delight",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.Light Delight",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 9th Single「CiRCLING」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

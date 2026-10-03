@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3891/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:59.133Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow「Start as Usual」",
+  "artists": "Afterglow",
+  "releaseDate": "2024年12月1日(日)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 8,
+      "text": "「Start as Usual」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 10,
+      "text": "作曲・編曲：日高勇輝(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 601,
+      "workId": "wk-0592",
+      "title": "Start as Usual",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "「Start as Usual」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow「Start as Usual」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4123/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:48.558Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「紫炎(TV Size)」",
+  "artists": "Roselia",
+  "releaseDate": "2025年7月20日(日)",
+  "creditLines": [
+    {
+      "line": 10,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 11,
+      "text": "Roselia「紫炎(TV Size)」"
+    },
+    {
+      "line": 12,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 13,
+      "text": "作曲・編曲：藤田淳平(Elements Garden)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Roselia「紫炎(TV Size)」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

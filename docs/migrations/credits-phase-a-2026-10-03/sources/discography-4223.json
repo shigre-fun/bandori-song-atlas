@@ -1,0 +1,27 @@
+{
+  "url": "https://bang-dream.com/discographies/4223/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:16.822Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "仲町あられ「等身大あんりみてっど」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年7月10日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「等身大あんりみてっど」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：ナナホシ管弦楽団"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "仲町あられ「等身大あんりみてっど」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

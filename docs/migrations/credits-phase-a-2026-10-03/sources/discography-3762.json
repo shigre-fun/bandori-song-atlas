@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3762/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:32.107Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes「トリドリ＊パレット」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2024年5月7日(火)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「トリドリ＊パレット」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 3,
+      "text": "作曲：藤田淳平(Elements Garden)"
+    },
+    {
+      "line": 4,
+      "text": "編曲：藤田淳平(Elements Garden)、Seonoo Kim(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 580,
+      "workId": "wk-0571",
+      "title": "トリドリ＊パレット",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "「トリドリ＊パレット」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes「トリドリ＊パレット」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

@@ -1,0 +1,139 @@
+{
+  "url": "https://bang-dream.com/discographies/4178/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:20.556Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 19th Single「Fear Nothing」",
+  "artists": "Roselia",
+  "releaseDate": "2026年4月29日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 149,
+      "workId": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.BRAVE JEWEL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 675,
+      "workId": "wk-0661",
+      "title": "Dazzle the Destiny",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Dazzle the Destiny",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 724,
+      "workId": "wk-0708",
+      "title": "Fear Nothing",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Fear Nothing",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.R",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 685,
+      "workId": "wk-0671",
+      "title": "Requiem for Fate",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Requiem for Fate",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 166,
+      "workId": "wk-0166",
+      "title": "Ringing Bloom",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.Ringing Bloom",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 748,
+      "workId": "wk-0729",
+      "title": "Talk to My Tone",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Talk to My Tone",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "7.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 19th Single「Fear Nothing」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

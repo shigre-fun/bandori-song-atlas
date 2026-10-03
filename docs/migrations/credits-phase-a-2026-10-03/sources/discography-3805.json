@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3805/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:27.309Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Symbol III : ▽」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2024年6月15日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『Symbol III : ▽』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：トミタカズキ (SUPA LOVE)、Diggy-MO'"
+    },
+    {
+      "line": 4,
+      "text": "編曲：トミタカズキ (SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 32,
+      "workId": "wk-0782",
+      "title": "Symbol III : ▽",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "『Symbol III : ▽』",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Symbol III : ▽」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

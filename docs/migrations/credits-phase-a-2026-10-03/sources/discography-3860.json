@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3860/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:04.355Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Ether」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2024年8月30日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『Ether』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：長谷川大介(SUPA LOVE)、Diggy-MO'"
+    },
+    {
+      "line": 4,
+      "text": "編曲：長谷川大介(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 34,
+      "workId": "wk-0784",
+      "title": "Ether",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "『Ether』",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Ether」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

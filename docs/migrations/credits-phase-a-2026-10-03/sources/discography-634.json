@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/634/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:15.568Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 1st Single「R·I·O·T」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2018年12月12日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 150,
+      "workId": "wk-0150",
+      "title": "R·I·O·T",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.R·I·O·T",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 1st Single「R·I·O·T」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

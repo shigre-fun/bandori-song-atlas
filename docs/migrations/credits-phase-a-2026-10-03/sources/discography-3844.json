@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3844/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:03.841Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「Floral Haven (LIVE ver.)」",
+  "artists": "Roselia",
+  "releaseDate": "2024年9月6日(金)",
+  "creditLines": [
+    {
+      "line": 2,
+      "text": "Roselia「Floral Haven」のLIVE音源がデジタルリリース決定！"
+    },
+    {
+      "line": 3,
+      "text": "「Floral Haven」"
+    },
+    {
+      "line": 4,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 5,
+      "text": "作曲・編曲：藤永龍太郎(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 585,
+      "workId": "wk-0576",
+      "title": "Floral Haven",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "「Floral Haven」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「Floral Haven (LIVE ver.)」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

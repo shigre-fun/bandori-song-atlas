@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/serve.mjs",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node scripts/migrations/b2-test.mjs",
     "add-song": "node scripts/add-song.mjs",
     "format": "prettier --write src scripts tests templates package.json README.md"
   },

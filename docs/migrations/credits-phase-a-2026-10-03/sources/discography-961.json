@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/961/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:10.717Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 14th Single「Dreamers Go!/Returns」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2019年5月15日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 173,
+      "workId": "wk-0173",
+      "title": "Dreamers Go!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Dreamers Go!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 171,
+      "workId": "wk-0171",
+      "title": "Returns",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.Returns",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 14th Single「Dreamers Go!/Returns」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -1,0 +1,69 @@
+{
+  "url": "https://bang-dream.com/discographies/4229/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:47:56.321Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ ミニAlbum「MERRY GO SMILE!」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2026年12月16日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 750,
+      "workId": "wk-0731",
+      "title": "かぽーんっと極楽☆ 湯〜とぴあ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.かぽーんっと極楽☆ 湯〜とぴあ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 776,
+      "workId": "wk-0754",
+      "title": "ほれぼれっ☆すまいるゴール！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.ほれぼれっ☆すまいるゴール！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 726,
+      "workId": "wk-0710",
+      "title": "まぶしいねっ☆ そのえがお！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.まぶしいねっ☆ そのえがお！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 698,
+      "workId": "wk-0682",
+      "title": "スタ〜リング ☆じぶん☆",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.スタ〜リング ☆じぶん☆",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 728,
+      "workId": "wk-0712",
+      "title": "スマイリーキャロル",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.スマイリーキャロル",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ ミニAlbum「MERRY GO SMILE!」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

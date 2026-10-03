@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/90/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:34.959Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 4th Single「ときめきエクスペリエンス！」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2017年2月1日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 9,
+      "workId": "wk-0009",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.1000回潤んだ空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.ときめきエクスペリエンス！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 4th Single「ときめきエクスペリエンス！」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

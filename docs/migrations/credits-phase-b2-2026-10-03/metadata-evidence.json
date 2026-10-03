@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-03",
+  "purpose": "reading/Latin/slug only; identity authority is user",
+  "entries": [
+    {
+      "name": "ハルイチ",
+      "slug": "haruichi",
+      "officialLatinName": "HARUICHI",
+      "sourceUrl": "https://www.sonymusic.co.jp/Music/Info/hiroyuki-itaya/message_070901.html",
+      "supports": "レーベル公式映像制作creditのWords/Music:HARUICHI。本人別名同一性はhuman review。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "name": "烏屋茶房",
+      "slug": "karasuya-sabou",
+      "officialLatinName": "Karasuya Sabou",
+      "sourceUrl": "https://www.tunecore.co.jp/artists/Karasuya-Sabou?lang=en",
+      "supports": "本人提供artist profileのKarasuya Sabou、TOKYO LOGIC所属。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "name": "林英樹",
+      "slug": "hideki-hayashi",
+      "officialLatinName": "Hideki Hayashi",
+      "sourceUrl": "https://fhana.jp/blog/?cat=2&paged=3",
+      "supports": "fhána公式ブログcalling制作creditのLyrics:Hideki Hayashi。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "name": "o-saka",
+      "slug": "o-saka",
+      "officialLatinName": "o-saka",
+      "sourceUrl": "https://supalove.com/works/ave-mujica%EF%BC%88bang-dream%EF%BC%89%E3%80%8Ecompleteness%E3%80%8F/",
+      "supports": "B1読取済み所属公式creditの活動名o-saka。尾崎豪と別人はhuman review。",
+      "pageReadStatus": "BODY_READ"
+    }
+  ],
+  "attempts": [
+    {
+      "name": "宮崎京一",
+      "url": "https://keytone.jp/",
+      "result": "FETCH_FAILED",
+      "detail": "web open Internal Error; B1 TLS/502記録も保持。一次の英字本文を確認できず。"
+    },
+    {
+      "name": "母里治樹",
+      "query": "\"母里治樹\" site:aria-ent.com",
+      "result": "NO_PRIMARY_METADATA",
+      "detail": "第三者Haruki Moriや配信の曲名のみでは読みを採用しない。"
+    },
+    {
+      "name": "川渕龍成",
+      "url": "https://x.com/ryuseikawabuchi",
+      "result": "FETCH_FAILED",
+      "detail": "第三者MusicBrainzのローマ字を採用しない。本人本文取得不可。"
+    }
+  ]
+}

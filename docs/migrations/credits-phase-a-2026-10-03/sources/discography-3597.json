@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/3597/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:08.662Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「夢現妄想世界」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2023年11月21日(火)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "https://bmu.lnk.to/MMW_Mhp"
+    },
+    {
+      "line": 8,
+      "text": "「夢現妄想世界」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：やしきん"
+    },
+    {
+      "line": 10,
+      "text": "作曲：園田健太郎"
+    },
+    {
+      "line": 11,
+      "text": "編曲：園田健太郎"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 48,
+      "workId": "wk-0795",
+      "title": "夢現妄想世界",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「夢現妄想世界」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「夢現妄想世界」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3358/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:47.088Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Choir ‘S’ Choir」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2023年4月24日(月)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "workId": "wk-0785",
+      "title": "Choir ‘S’ Choir",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "Ave Mujica「Choir ‘S’ Choir」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Choir ‘S’ Choir」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

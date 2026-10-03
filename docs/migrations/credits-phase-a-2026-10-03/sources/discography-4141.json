@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/4141/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:40.322Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「エガクミライ」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2025年9月19日(金)",
+  "creditLines": [
+    {
+      "line": 9,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 10,
+      "text": "MyGO!!!!!「エガクミライ」"
+    },
+    {
+      "line": 11,
+      "text": "作詞：太志(Aqua Timez)"
+    },
+    {
+      "line": 12,
+      "text": "作曲：太志(Aqua Timez)"
+    },
+    {
+      "line": 13,
+      "text": "編曲：大介(Aqua Timez)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 712,
+      "workId": "wk-0696",
+      "title": "エガクミライ",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「エガクミライ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「エガクミライ」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

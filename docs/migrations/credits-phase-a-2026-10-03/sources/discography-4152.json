@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4152/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:38.949Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「‘S/’ The Way(TV Size)」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年9月28日(日)",
+  "creditLines": [
+    {
+      "line": 11,
+      "text": "Ave Mujica「‘S/’ The Way(TV Size)」"
+    },
+    {
+      "line": 12,
+      "text": "Produced by Diggy-MO’"
+    },
+    {
+      "line": 13,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 14,
+      "text": "作曲・編曲：Diggy-MO’、木下龍平 (SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Ave Mujica「‘S/’ The Way(TV Size)」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

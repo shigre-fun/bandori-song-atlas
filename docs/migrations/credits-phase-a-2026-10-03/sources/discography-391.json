@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/391/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:19.100Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 3rd Single「もういちど ルミナス」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2018年8月8日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 66,
+      "workId": "wk-0066",
+      "title": "SURVIVOR ねばーぎぶあっぷ！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.SURVIVOR ねばーぎぶあっぷ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 119,
+      "workId": "wk-0119",
+      "title": "もういちど ルミナス",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.もういちど ルミナス",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 3rd Single「もういちど ルミナス」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

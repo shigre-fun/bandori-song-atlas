@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/3455/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:52.192Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party×夏希「Freedom」/Afterglow「Made My Day」「IGNITE GLOW」「Punchline Halloween!!!」",
+  "artists": "Poppin'Party、Afterglow",
+  "releaseDate": "2023年8月3日(木)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 456,
+      "workId": "wk-0448",
+      "title": "IGNITE GLOW",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "Poppin'Party×夏希「Freedom」/Afterglow「Made My Day」「IGNITE GLOW」「Punchline Halloween!!!」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 472,
+      "workId": "wk-0463",
+      "title": "Made My Day",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "Poppin'Party×夏希「Freedom」/Afterglow「Made My Day」「IGNITE GLOW」「Punchline Halloween!!!」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 437,
+      "workId": "wk-0430",
+      "title": "Punchline Halloween!!!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "Poppin'Party×夏希「Freedom」/Afterglow「Made My Day」「IGNITE GLOW」「Punchline Halloween!!!」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party×夏希「Freedom」/Afterglow「Made My Day」「IGNITE GLOW」「Punchline Halloween!!!」",
+  "indexArtists": [
+    "Poppin'Party",
+    "Afterglow"
+  ],
+  "reason": null
+}

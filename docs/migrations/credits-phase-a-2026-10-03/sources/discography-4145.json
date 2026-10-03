@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/4145/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:41.325Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「チューニング」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年9月8日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「チューニング」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：仲町あられ、千石ユノ、堀江晶太"
+    },
+    {
+      "line": 3,
+      "text": "作曲：千石ユノ、堀江晶太"
+    },
+    {
+      "line": 4,
+      "text": "編曲：堀江晶太、千石ユノ"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "workId": "wk-0800",
+      "title": "チューニング",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「チューニング」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「チューニング」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

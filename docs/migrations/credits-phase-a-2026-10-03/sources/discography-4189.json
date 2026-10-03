@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/4189/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:26.906Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「証命讃歌」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2026年3月2日(月)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 8,
+      "text": "MyGO!!!!!「証命讃歌」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：田邊駿一"
+    },
+    {
+      "line": 10,
+      "text": "作曲：田邊駿一"
+    },
+    {
+      "line": 11,
+      "text": "編曲：高橋涼 (SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 17,
+      "workId": "wk-0777",
+      "title": "証命讃歌",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「証命讃歌」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「証命讃歌」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

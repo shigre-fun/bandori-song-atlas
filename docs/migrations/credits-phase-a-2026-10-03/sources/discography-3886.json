@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/3886/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:01.335Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「霧周途」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年11月2日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「霧周途」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：藤田淳平(Elements Garden)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "MyGO!!!!!「霧周途」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

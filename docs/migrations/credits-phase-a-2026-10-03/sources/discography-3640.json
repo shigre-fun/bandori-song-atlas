@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/3640/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:01.828Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「素晴らしき世界 でも どこにもない場所」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2023年12月30日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『素晴らしき世界 でも どこにもない場所』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作編曲：長谷川大介 (SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Ave Mujica「素晴らしき世界 でも どこにもない場所」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

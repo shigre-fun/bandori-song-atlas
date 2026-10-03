@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/3574/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:39.691Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 19th Single「新しい季節に」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2024年1月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 536,
+      "workId": "wk-0527",
+      "title": "Chu Chueen!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.Chu Chueen!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 507,
+      "workId": "wk-0498",
+      "title": "ほな！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.ほな！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 474,
+      "workId": "wk-0465",
+      "title": "新しい季節に",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.新しい季節に",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 19th Single「新しい季節に」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

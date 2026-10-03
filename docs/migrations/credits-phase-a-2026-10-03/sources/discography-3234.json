@@ -1,0 +1,139 @@
+{
+  "url": "https://bang-dream.com/discographies/3234/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:48.867Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 2nd Single 「音一会」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年4月12日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 523,
+      "workId": "wk-0514",
+      "title": "swim",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.swim",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 521,
+      "workId": "wk-0512",
+      "title": "猛独が襲う",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "6.猛独が襲う",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 677,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.潜在表明",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 647,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.音一会",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 5,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.潜在表明",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 6,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.音一会",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 2nd Single 「音一会」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

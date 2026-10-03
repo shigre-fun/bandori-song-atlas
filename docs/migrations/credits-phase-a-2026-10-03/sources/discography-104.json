@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/104/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:55.796Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 3rd Single 「熱色スターマイン」",
+  "artists": "Roselia",
+  "releaseDate": "2017年8月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 71,
+      "workId": "wk-0071",
+      "title": "－HEROIC ADVENT－",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2. －HEROIC ADVENT－",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 3rd Single 「熱色スターマイン」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

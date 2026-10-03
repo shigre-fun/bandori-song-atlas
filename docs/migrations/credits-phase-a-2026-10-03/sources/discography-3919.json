@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/3919/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:55.188Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「KiLLKiSS」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年1月8日(水)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「KiLLKiSS」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：長谷川大介(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：長谷川大介(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 638,
+      "workId": "wk-0628",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「KiLLKiSS」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 24,
+      "workId": "wk-0628",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「KiLLKiSS」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「KiLLKiSS」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

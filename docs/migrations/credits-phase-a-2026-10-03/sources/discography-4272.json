@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4272/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:05.566Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock!「微笑みの爆弾(Cover)」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年9月21日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞：リーシャウロン"
+    },
+    {
+      "line": 2,
+      "text": "作曲：馬渡 松子"
+    },
+    {
+      "line": 3,
+      "text": "編曲：牧野太洋"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "一家Dumb Rock!「微笑みの爆弾(Cover)」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

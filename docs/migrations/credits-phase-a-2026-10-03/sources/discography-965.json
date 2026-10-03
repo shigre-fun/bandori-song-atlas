@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/965/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:08.524Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 5th Single「きゅ～まい＊flower」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2019年9月18日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 218,
+      "workId": "wk-0176",
+      "title": "[FULL] きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "scope": "work",
+      "context": "1.きゅ～まい＊flower",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 176,
+      "workId": "wk-0176",
+      "title": "きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.きゅ～まい＊flower",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 139,
+      "workId": "wk-0139",
+      "title": "ゼッタイ宣言～Recital～",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.ゼッタイ宣言～Recital～",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 5th Single「きゅ～まい＊flower」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

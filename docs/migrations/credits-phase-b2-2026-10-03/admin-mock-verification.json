@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-04",
+  "creators": 124,
+  "newMetadataReadWriteReadback": 3,
+  "formalIncrementRoleRoundtrips": 20,
+  "recordRoundtrips": 18,
+  "referencedCreatorDeleteGuards": 3,
+  "kawabuchiActualFormalReferences": 6,
+  "kawabuchiRawSplitsRetained": 0,
+  "externalWrites": 0,
+  "workWarnings": 0,
+  "sourceHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "f7c142a152ca43cf600a23e72526560037f02c8b13e8f5c32ebb8b0342a65385"
+  }
+}

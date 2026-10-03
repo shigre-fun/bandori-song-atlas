@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1392/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:03.801Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ 6th Single「にこ×にこ=ハイパースマイルパワー！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2020年3月18日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 219,
+      "workId": "wk-0216",
+      "title": "おもいでイルミネーション",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.おもいでイルミネーション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 188,
+      "workId": "wk-0188",
+      "title": "にこ×にこ＝ハイパースマイルパワー！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.にこ×にこ=ハイパースマイルパワー！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ 6th Single「にこ×にこ=ハイパースマイルパワー！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

@@ -1,0 +1,1226 @@
+{
+  "composer": [
+    {
+      "workId": "wk-0086",
+      "classification": "FORMAT_ONLY",
+      "rawValues": [
+        "佐藤　英敏",
+        "佐藤英敏"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 86,
+          "workId": "wk-0086",
+          "title": "残酷な天使のテーゼ",
+          "band": "Roselia",
+          "rawValues": [
+            "佐藤　英敏",
+            "佐藤英敏"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "佐藤英敏",
+              "evidenceId": "e-bffdac60fa1ce778587e",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Roselia",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\n及川眠子\n作曲\n\n佐藤英敏\n編曲\n\n藤永龍太郎（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "佐藤　英敏",
+              "evidenceId": "e-4895c4ca6d7a62e4b5b6",
+              "sourceId": "s-dcfa9d3cbce72c2fc30d",
+              "sourceUrl": "https://bang-dream-on.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "バンドリ！アワーノーツ",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:43:04.386Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "ournotes",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Ave Mujica",
+              "sourceContext": "公式本文は事前公開のカバー5曲とAnd moreの紹介。収録時点は各recordと別途照合。",
+              "creditText": "作詞：及川　眠子\n作曲：佐藤　英敏\n編曲：植木建象、冬真",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "ournotes",
+                "recordId": 40,
+                "workId": "wk-0086",
+                "title": "残酷な天使のテーゼ",
+                "band": "Ave Mujica"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 40,
+          "workId": "wk-0086",
+          "title": "残酷な天使のテーゼ",
+          "band": "Ave Mujica",
+          "rawValues": [
+            "佐藤　英敏",
+            "佐藤英敏"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "佐藤　英敏",
+              "evidenceId": "e-4895c4ca6d7a62e4b5b6",
+              "sourceId": "s-dcfa9d3cbce72c2fc30d",
+              "sourceUrl": "https://bang-dream-on.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "バンドリ！アワーノーツ",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:43:04.386Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "ournotes",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Ave Mujica",
+              "sourceContext": "公式本文は事前公開のカバー5曲とAnd moreの紹介。収録時点は各recordと別途照合。",
+              "creditText": "作詞：及川　眠子\n作曲：佐藤　英敏\n編曲：植木建象、冬真",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "佐藤英敏",
+              "evidenceId": "e-bffdac60fa1ce778587e",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Roselia",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\n及川眠子\n作曲\n\n佐藤英敏\n編曲\n\n藤永龍太郎（Elements Garden）",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 86,
+                "workId": "wk-0086",
+                "title": "残酷な天使のテーゼ",
+                "band": "Roselia"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0176",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "末益涼太（Elements Garden）",
+        "末益涼太（Elements Garden）竹田祐介（Elements Garden）"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 218,
+          "workId": "wk-0176",
+          "title": "[FULL] きゅ〜まい＊flower",
+          "band": "Pastel＊Palettes",
+          "rawValues": [
+            "末益涼太（Elements Garden）",
+            "末益涼太（Elements Garden）竹田祐介（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFLICT",
+          "variants": [
+            {
+              "raw": "末益涼太（Elements Garden）",
+              "evidenceId": "e-31bbb32a3cbd69062cba",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 176,
+                "workId": "wk-0176",
+                "title": "きゅ〜まい＊flower",
+                "band": "Pastel＊Palettes"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            },
+            {
+              "raw": "末益涼太（Elements Garden）竹田祐介（Elements Garden）",
+              "evidenceId": "e-01b6bdc8dea0f5746be1",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）竹田祐介（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 176,
+                "workId": "wk-0176",
+                "title": "きゅ〜まい＊flower",
+                "band": "Pastel＊Palettes"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        },
+        {
+          "game": "garupa",
+          "recordId": 176,
+          "workId": "wk-0176",
+          "title": "きゅ〜まい＊flower",
+          "band": "Pastel＊Palettes",
+          "rawValues": [
+            "末益涼太（Elements Garden）",
+            "末益涼太（Elements Garden）竹田祐介（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFLICT",
+          "variants": [
+            {
+              "raw": "末益涼太（Elements Garden）",
+              "evidenceId": "e-31bbb32a3cbd69062cba",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "末益涼太（Elements Garden）竹田祐介（Elements Garden）",
+              "evidenceId": "e-01b6bdc8dea0f5746be1",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）竹田祐介（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "garupa",
+          "recordId": 738,
+          "workId": "wk-0176",
+          "title": "きゅ〜まい＊flower(パラレルver.)",
+          "band": "スキを貫け♡",
+          "rawValues": [
+            "末益涼太（Elements Garden）",
+            "末益涼太（Elements Garden）竹田祐介（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFLICT",
+          "variants": [
+            {
+              "raw": "末益涼太（Elements Garden）",
+              "evidenceId": "e-31bbb32a3cbd69062cba",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 176,
+                "workId": "wk-0176",
+                "title": "きゅ〜まい＊flower",
+                "band": "Pastel＊Palettes"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            },
+            {
+              "raw": "末益涼太（Elements Garden）竹田祐介（Elements Garden）",
+              "evidenceId": "e-01b6bdc8dea0f5746be1",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "きゅ〜まい＊flower",
+              "sourceArtist": "Pastel＊Palettes",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n織田あすか（Elements Garden）\n作曲\n\n末益涼太（Elements Garden）竹田祐介（Elements Garden）\n編曲\n\n竹田祐介（Elements Garden）",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 176,
+                "workId": "wk-0176",
+                "title": "きゅ〜まい＊flower",
+                "band": "Pastel＊Palettes"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0651",
+      "classification": "FORMAT_ONLY",
+      "rawValues": [
+        "長谷川大介 (SUPA LOVE)",
+        "長谷川大介(SUPA LOVE)"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 664,
+          "workId": "wk-0651",
+          "title": "焚音打",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "長谷川大介 (SUPA LOVE)",
+            "長谷川大介(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "長谷川大介(SUPA LOVE)",
+              "evidenceId": "e-fb5954369881f1cabc83",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "焚音打",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n長谷川大介(SUPA LOVE)\n編曲\n\n長谷川大介(SUPA LOVE)",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "長谷川大介 (SUPA LOVE)",
+              "evidenceId": "e-577da0c09b1f51975339",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "焚音打",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　長谷川大介 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 15,
+          "workId": "wk-0651",
+          "title": "焚音打",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "長谷川大介 (SUPA LOVE)",
+            "長谷川大介(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "長谷川大介 (SUPA LOVE)",
+              "evidenceId": "e-577da0c09b1f51975339",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "焚音打",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　長谷川大介 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            },
+            {
+              "raw": "長谷川大介(SUPA LOVE)",
+              "evidenceId": "e-fb5954369881f1cabc83",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "焚音打",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n長谷川大介(SUPA LOVE)\n編曲\n\n長谷川大介(SUPA LOVE)",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 664,
+                "workId": "wk-0651",
+                "title": "焚音打",
+                "band": "MyGO!!!!!"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0749",
+      "classification": "FORMAT_ONLY",
+      "rawValues": [
+        "庄司夏葵 (SUPA LOVE)",
+        "庄司夏葵(SUPA LOVE)"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 771,
+          "workId": "wk-0749",
+          "title": "無路矢",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "庄司夏葵 (SUPA LOVE)",
+            "庄司夏葵(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "庄司夏葵(SUPA LOVE)",
+              "evidenceId": "e-d10603785a8b8c5fe974",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "無路矢",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n庄司夏葵(SUPA LOVE)\n編曲\n\n庄司夏葵(SUPA LOVE)",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "庄司夏葵 (SUPA LOVE)",
+              "evidenceId": "e-efef3b6f983e760322bd",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "無路矢",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　庄司夏葵 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 10,
+          "workId": "wk-0749",
+          "title": "無路矢",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "庄司夏葵 (SUPA LOVE)",
+            "庄司夏葵(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "庄司夏葵 (SUPA LOVE)",
+              "evidenceId": "e-efef3b6f983e760322bd",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "無路矢",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　庄司夏葵 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            },
+            {
+              "raw": "庄司夏葵(SUPA LOVE)",
+              "evidenceId": "e-d10603785a8b8c5fe974",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "無路矢",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n庄司夏葵(SUPA LOVE)\n編曲\n\n庄司夏葵(SUPA LOVE)",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 771,
+                "workId": "wk-0749",
+                "title": "無路矢",
+                "band": "MyGO!!!!!"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0636",
+      "classification": "FORMAT_ONLY",
+      "rawValues": [
+        "尾崎豪 (SUPA LOVE)",
+        "尾崎豪(SUPA LOVE)"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 647,
+          "workId": "wk-0636",
+          "title": "音一会",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "尾崎豪 (SUPA LOVE)",
+            "尾崎豪(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "尾崎豪(SUPA LOVE)",
+              "evidenceId": "e-67943da8522f11f3649f",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "音一会",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n尾崎豪(SUPA LOVE)\n編曲\n\n尾崎豪(SUPA LOVE)",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "尾崎豪 (SUPA LOVE)",
+              "evidenceId": "e-5ce9ba9014a971e1654e",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "音一会",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　尾崎豪 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 6,
+          "workId": "wk-0636",
+          "title": "音一会",
+          "band": "MyGO!!!!!",
+          "rawValues": [
+            "尾崎豪 (SUPA LOVE)",
+            "尾崎豪(SUPA LOVE)"
+          ],
+          "evidenceStatus": "MULTI_SOURCE_CONFIRMED",
+          "variants": [
+            {
+              "raw": "尾崎豪 (SUPA LOVE)",
+              "evidenceId": "e-5ce9ba9014a971e1654e",
+              "sourceId": "s-7e75ebbc1bd293393d3d",
+              "sourceUrl": "https://bang-dream.com/mygo_inst/",
+              "sourceType": "band-official",
+              "sourceTitle": "MyGO!!!!! 楽曲のインスト音源・MV・ライブVJ映像を公開！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T04:09:26.945Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": null,
+              "sourceTrackTitle": "音一会",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "Official authorship listing; arranger not listed",
+              "creditText": "作詞　藤原優樹(SUPA LOVE)\n作曲　尾崎豪 (SUPA LOVE)",
+              "matchingMethod": "explicit artist + track title; release/version recorded",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            },
+            {
+              "raw": "尾崎豪(SUPA LOVE)",
+              "evidenceId": "e-67943da8522f11f3649f",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "work",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "音一会",
+              "sourceArtist": "MyGO!!!!!",
+              "sourceContext": "最終更新2026.06.29",
+              "creditText": "作詞\n\n藤原優樹(SUPA LOVE)\n作曲\n\n尾崎豪(SUPA LOVE)\n編曲\n\n尾崎豪(SUPA LOVE)",
+              "matchingMethod": "existing immutable Work reference to separately matched record",
+              "applicability": "applicable",
+              "relatedRecord": {
+                "game": "garupa",
+                "recordId": 647,
+                "workId": "wk-0636",
+                "title": "音一会",
+                "band": "MyGO!!!!!"
+              },
+              "notes": "既存Work参照による作品creditの利用。対象ゲーム専用sourceではない。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    }
+  ],
+  "arranger": [
+    {
+      "workId": "wk-0735",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "堀川大翼（Elements Garden）",
+        "藤井健太郎"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 754,
+          "workId": "wk-0735",
+          "title": "革命道中",
+          "band": "RAISE A SUILEN",
+          "rawValues": [
+            "堀川大翼（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "堀川大翼（Elements Garden）",
+              "evidenceId": "e-03d7e4ddffd99b2c1bb3",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "革命道中",
+              "sourceArtist": "RAISE A SUILEN",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\nアイナ・ジ・エンド、Shin Sakiura\n作曲\n\nアイナ・ジ・エンド、Shin Sakiura\n編曲\n\n堀川大翼（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 78,
+          "workId": "wk-0735",
+          "title": "革命道中",
+          "band": "一家Dumb Rock!",
+          "rawValues": [
+            "藤井健太郎"
+          ],
+          "evidenceStatus": "NEEDS_REVIEW",
+          "variants": [
+            {
+              "raw": "藤井健太郎",
+              "evidenceId": "e-9cd5e30588bc32716bbe",
+              "sourceId": "s-46509c8ccd319d3a882b",
+              "sourceUrl": "https://bang-dream.com/discographies/4265/",
+              "sourceType": "bangdream-discography",
+              "sourceTitle": "一家Dumb Rock!「革命道中(Cover)」",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:48:08.190Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "release",
+              "sourceGame": null,
+              "sourceTrackTitle": "革命道中(Cover)",
+              "sourceArtist": "一家Dumb Rock!",
+              "sourceContext": "2026年9月12日(土)",
+              "creditText": "作詞・作曲：アイナ・ジ・エンド、Shin Sakiura\n編曲：藤井健太郎",
+              "matchingMethod": "explicit artist + track title; game arrangement unverified",
+              "applicability": "version-review",
+              "relatedRecord": null,
+              "notes": "発売版/別versionの編曲原文。対象ゲーム収録への適用は未確認。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0387",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "下田晃太郎（Elements Garden）",
+        "藤井健太郎"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 393,
+          "workId": "wk-0387",
+          "title": "unravel",
+          "band": "Morfonica",
+          "rawValues": [
+            "下田晃太郎（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "下田晃太郎（Elements Garden）",
+              "evidenceId": "e-5f2da45d7c7e4a2da3d8",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "unravel",
+              "sourceArtist": "Morfonica",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\nTK\n作曲\n\nTK\n編曲\n\n下田晃太郎（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 69,
+          "workId": "wk-0387",
+          "title": "unravel",
+          "band": "millsage",
+          "rawValues": [
+            "藤井健太郎"
+          ],
+          "evidenceStatus": "NEEDS_REVIEW",
+          "variants": [
+            {
+              "raw": "藤井健太郎",
+              "evidenceId": "e-5460abab5f0add608960",
+              "sourceId": "s-14e7ad2c7ea7202085c4",
+              "sourceUrl": "https://bang-dream.com/discographies/4247/",
+              "sourceType": "bangdream-discography",
+              "sourceTitle": "millsage「unravel(Cover)」",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:48:12.631Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "release",
+              "sourceGame": null,
+              "sourceTrackTitle": "unravel(Cover)",
+              "sourceArtist": "millsage",
+              "sourceContext": "2026年8月21日(金)",
+              "creditText": "作詞・作曲：TK\n編曲：藤井健太郎",
+              "matchingMethod": "explicit artist + track title; game arrangement unverified",
+              "applicability": "version-review",
+              "relatedRecord": null,
+              "notes": "発売版/別versionの編曲原文。対象ゲーム収録への適用は未確認。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0086",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "植木建象、冬真",
+        "藤永龍太郎（Elements Garden）"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 86,
+          "workId": "wk-0086",
+          "title": "残酷な天使のテーゼ",
+          "band": "Roselia",
+          "rawValues": [
+            "藤永龍太郎（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "藤永龍太郎（Elements Garden）",
+              "evidenceId": "e-bffdac60fa1ce778587e",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Roselia",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\n及川眠子\n作曲\n\n佐藤英敏\n編曲\n\n藤永龍太郎（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 40,
+          "workId": "wk-0086",
+          "title": "残酷な天使のテーゼ",
+          "band": "Ave Mujica",
+          "rawValues": [
+            "植木建象、冬真"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "植木建象、冬真",
+              "evidenceId": "e-4895c4ca6d7a62e4b5b6",
+              "sourceId": "s-dcfa9d3cbce72c2fc30d",
+              "sourceUrl": "https://bang-dream-on.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "バンドリ！アワーノーツ",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:43:04.386Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "ournotes",
+              "sourceTrackTitle": "残酷な天使のテーゼ",
+              "sourceArtist": "Ave Mujica",
+              "sourceContext": "公式本文は事前公開のカバー5曲とAnd moreの紹介。収録時点は各recordと別途照合。",
+              "creditText": "作詞：及川　眠子\n作曲：佐藤　英敏\n編曲：植木建象、冬真",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0559",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "日高勇輝（Elements Garden）",
+        "藤井健太郎"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 568,
+          "workId": "wk-0559",
+          "title": "青のすみか",
+          "band": "Afterglow",
+          "rawValues": [
+            "日高勇輝（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "日高勇輝（Elements Garden）",
+              "evidenceId": "e-2fed80850c385ad623d6",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "青のすみか",
+              "sourceArtist": "Afterglow",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\nキタニタツヤ\n作曲\n\nキタニタツヤ\n編曲\n\n日高勇輝（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 67,
+          "workId": "wk-0559",
+          "title": "青のすみか",
+          "band": "millsage",
+          "rawValues": [
+            "藤井健太郎"
+          ],
+          "evidenceStatus": "NEEDS_REVIEW",
+          "variants": [
+            {
+              "raw": "藤井健太郎",
+              "evidenceId": "e-5999b79664cb4ac72db7",
+              "sourceId": "s-1fa74a1fa37535f82af4",
+              "sourceUrl": "https://bang-dream.com/discographies/4254/",
+              "sourceType": "bangdream-discography",
+              "sourceTitle": "millsage「青のすみか(Cover)」",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:48:11.308Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "release",
+              "sourceGame": null,
+              "sourceTrackTitle": "青のすみか(Cover)",
+              "sourceArtist": "millsage",
+              "sourceContext": "2026年8月28日(金)",
+              "creditText": "作詞・作曲：キタニタツヤ\n編曲：藤井健太郎",
+              "matchingMethod": "explicit artist + track title; game arrangement unverified",
+              "applicability": "version-review",
+              "relatedRecord": null,
+              "notes": "発売版/別versionの編曲原文。対象ゲーム収録への適用は未確認。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0533",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "牧野太洋",
+        "近藤世真（Elements Garden）"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 542,
+          "workId": "wk-0533",
+          "title": "Stellar Stellar",
+          "band": "RAISE A SUILEN×星街すいせい",
+          "rawValues": [
+            "近藤世真（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "近藤世真（Elements Garden）",
+              "evidenceId": "e-719a1e7027351513767b",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "Stellar Stellar",
+              "sourceArtist": "RAISE A SUILEN×星街すいせい",
+              "sourceContext": "最終更新2026.02.24",
+              "creditText": "作詞\n\n星街すいせい\n作曲\n\nTAKU INOUE\n編曲\n\n近藤世真（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 82,
+          "workId": "wk-0533",
+          "title": "Stellar Stellar",
+          "band": "millsage",
+          "rawValues": [
+            "牧野太洋"
+          ],
+          "evidenceStatus": "NEEDS_REVIEW",
+          "variants": [
+            {
+              "raw": "牧野太洋",
+              "evidenceId": "e-67971a287f9b4c7006b7",
+              "sourceId": "s-3503784705e5885a76bf",
+              "sourceUrl": "https://bang-dream.com/discographies/4273/",
+              "sourceType": "bangdream-discography",
+              "sourceTitle": "millsage「Stellar Stellar(Cover)」",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:48:05.039Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "release",
+              "sourceGame": null,
+              "sourceTrackTitle": "Stellar Stellar(Cover)",
+              "sourceArtist": "millsage",
+              "sourceContext": "2026年9月22日(火)",
+              "creditText": "作詞：星街すいせい\n作曲：TAKU INOUE\n編曲：牧野太洋",
+              "matchingMethod": "explicit artist + track title; game arrangement unverified",
+              "applicability": "version-review",
+              "relatedRecord": null,
+              "notes": "発売版/別versionの編曲原文。対象ゲーム収録への適用は未確認。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    },
+    {
+      "workId": "wk-0721",
+      "classification": "SUBSTANTIVE_OR_VERSION_DIFFERENCE",
+      "rawValues": [
+        "日高勇輝（Elements Garden）",
+        "藤井健太郎"
+      ],
+      "records": [
+        {
+          "game": "garupa",
+          "recordId": 737,
+          "workId": "wk-0721",
+          "title": "イケナイ太陽",
+          "band": "ハロー、ハッピーワールド！×レイヤ",
+          "rawValues": [
+            "日高勇輝（Elements Garden）"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "日高勇輝（Elements Garden）",
+              "evidenceId": "e-7a4197e2044a36274dd2",
+              "sourceId": "s-837c5dc161a4ec347797",
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "MUSIC(音楽) | バンドリ！ ガールズバンドパーティ！",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "garupa",
+              "sourceTrackTitle": "イケナイ太陽",
+              "sourceArtist": "ハロー、ハッピーワールド！×レイヤ",
+              "sourceContext": "最終更新2026.05.08",
+              "creditText": "作詞\n\nORANGE RANGE\n作曲\n\nORANGE RANGE\n編曲\n\n日高勇輝（Elements Garden）",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "game": "ournotes",
+          "recordId": 77,
+          "workId": "wk-0721",
+          "title": "イケナイ太陽",
+          "band": "一家Dumb Rock!",
+          "rawValues": [
+            "藤井健太郎"
+          ],
+          "evidenceStatus": "CONFIRMED",
+          "variants": [
+            {
+              "raw": "藤井健太郎",
+              "evidenceId": "e-fcb78879c02832ff6687",
+              "sourceId": "s-dcfa9d3cbce72c2fc30d",
+              "sourceUrl": "https://bang-dream-on.bushimo.jp/music/",
+              "sourceType": "game-official",
+              "sourceTitle": "バンドリ！アワーノーツ",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:43:04.386Z",
+              "pageReadStatus": "BROWSER_CONFIRMED",
+              "sourceScope": "record",
+              "sourceGame": "ournotes",
+              "sourceTrackTitle": "イケナイ太陽",
+              "sourceArtist": "一家Dumb Rock!",
+              "sourceContext": "公式本文は事前公開のカバー5曲とAnd moreの紹介。収録時点は各recordと別途照合。",
+              "creditText": "作詞：ORANGE RANGE\n作曲：ORANGE RANGE\n編曲：藤井健太郎",
+              "matchingMethod": "exact title + band + game/category",
+              "applicability": "applicable",
+              "relatedRecord": null,
+              "notes": ""
+            },
+            {
+              "raw": "藤井健太郎",
+              "evidenceId": "e-54adf7a70488a8984678",
+              "sourceId": "s-7c6eaae9b37a9064302e",
+              "sourceUrl": "https://bang-dream.com/discographies/4268/",
+              "sourceType": "bangdream-discography",
+              "sourceTitle": "一家Dumb Rock!「イケナイ太陽(Cover)」",
+              "sourceReliability": "PRIMARY",
+              "checkedAt": "2026-10-03T03:48:07.298Z",
+              "pageReadStatus": "HTTP_CONFIRMED",
+              "sourceScope": "release",
+              "sourceGame": null,
+              "sourceTrackTitle": "イケナイ太陽(Cover)",
+              "sourceArtist": "一家Dumb Rock!",
+              "sourceContext": "2026年9月16日(水)",
+              "creditText": "作詞・作曲：ORANGE RANGE\n編曲：藤井健太郎",
+              "matchingMethod": "explicit artist + track title; game arrangement unverified",
+              "applicability": "version-review",
+              "relatedRecord": null,
+              "notes": "発売版/別versionの編曲原文。対象ゲーム収録への適用は未確認。"
+            }
+          ]
+        }
+      ],
+      "notes": "発売版/別versionのreview原文も含む。record値の自動統一はしない。"
+    }
+  ]
+}

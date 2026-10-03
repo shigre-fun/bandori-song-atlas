@@ -1,0 +1,120 @@
+{
+  "url": "https://bang-dream.com/discographies/3750/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:24.525Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "バンドリ！ カバーコレクション Extra Volume",
+  "artists": "MyGO!!!!!、Ave Mujica",
+  "releaseDate": "2024年7月10日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 636,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "1.Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 715,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "3.Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 489,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 497,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 2,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 23,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "1.Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 37,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "3.Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "バンドリ！ カバーコレクション Extra Volume",
+  "indexArtists": [
+    "MyGO!!!!!",
+    "Ave Mujica"
+  ],
+  "reason": null
+}

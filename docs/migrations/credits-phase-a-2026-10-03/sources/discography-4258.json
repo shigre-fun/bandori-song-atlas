@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4258/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:09.523Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「この蒼き闇と光」",
+  "artists": "Roselia",
+  "releaseDate": "2026年9月10日(木)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 789,
+      "workId": "wk-0766",
+      "title": "この蒼き闇と光",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「この蒼き闇と光」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「この蒼き闇と光」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

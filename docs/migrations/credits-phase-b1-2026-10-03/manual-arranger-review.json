@@ -1,0 +1,1789 @@
+[
+  {
+    "game": "ournotes",
+    "recordId": 1,
+    "title": "迷星叫",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0464",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 2,
+    "title": "壱雫空",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0480",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 3,
+    "title": "碧天伴走",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0488",
+    "releaseVersionRaw": [
+      "木下龍平(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "木下龍平(SUPA LOVE)",
+      "rawValues": [
+        "木下龍平(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3444/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 4,
+    "title": "影色舞",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0511",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 5,
+    "title": "潜在表明",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0663",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 6,
+    "title": "音一会",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0636",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 7,
+    "title": "春日影（MyGO!!!!! ver.）",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0635",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 8,
+    "title": "詩超絆",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0494",
+    "releaseVersionRaw": [
+      "横地健太(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "横地健太(SUPA LOVE)",
+      "rawValues": [
+        "横地健太(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3496/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 9,
+    "title": "迷路日々",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0501",
+    "releaseVersionRaw": [
+      "松坂康司(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "松坂康司(SUPA LOVE)",
+      "rawValues": [
+        "松坂康司(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3507/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 10,
+    "title": "無路矢",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0749",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 11,
+    "title": "名無声",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0588",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 12,
+    "title": "歩拾道",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0611",
+    "releaseVersionRaw": [
+      "庄司夏葵(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "庄司夏葵(SUPA LOVE)",
+      "rawValues": [
+        "庄司夏葵(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3888/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 13,
+    "title": "端程山",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0716",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 14,
+    "title": "砂寸奏",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0776",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 15,
+    "title": "焚音打",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0651",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 16,
+    "title": "聿日箋秋",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0650",
+    "releaseVersionRaw": [
+      "トミタカズキ(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "rawValues": [
+        "トミタカズキ(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4078/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 17,
+    "title": "証命讃歌",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0777",
+    "releaseVersionRaw": [
+      "高橋涼 (SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "高橋涼 (SUPA LOVE)",
+      "rawValues": [
+        "高橋涼 (SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4189/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 18,
+    "title": "往欄印",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0681",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 19,
+    "title": "ないものねだり",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0778",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 20,
+    "title": "シャルル",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0128",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 22,
+    "title": "ホワイトノイズ",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0538",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 81,
+    "title": "空に歌えば",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0821",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 23,
+    "title": "Ave Mujica",
+    "band": "Ave Mujica",
+    "workId": "wk-0626",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 24,
+    "title": "KiLLKiSS",
+    "band": "Ave Mujica",
+    "workId": "wk-0628",
+    "releaseVersionRaw": [
+      "長谷川大介(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "長谷川大介(SUPA LOVE)",
+      "rawValues": [
+        "長谷川大介(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3919/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 25,
+    "title": "Imprisoned XII",
+    "band": "Ave Mujica",
+    "workId": "wk-0638",
+    "releaseVersionRaw": [
+      "松坂康司(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "松坂康司(SUPA LOVE)",
+      "rawValues": [
+        "松坂康司(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4051/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 26,
+    "title": "Crucifix X",
+    "band": "Ave Mujica",
+    "workId": "wk-0639",
+    "releaseVersionRaw": [
+      "o-saka(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "o-saka(SUPA LOVE)",
+      "rawValues": [
+        "o-saka(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4052/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 27,
+    "title": "八芒星ダンス",
+    "band": "Ave Mujica",
+    "workId": "wk-0649",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 28,
+    "title": "顔",
+    "band": "Ave Mujica",
+    "workId": "wk-0653",
+    "releaseVersionRaw": [
+      "木下龍平(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "木下龍平(SUPA LOVE)",
+      "rawValues": [
+        "木下龍平(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4088/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 29,
+    "title": "天球(そら)のMúsica",
+    "band": "Ave Mujica",
+    "workId": "wk-0654",
+    "releaseVersionRaw": [
+      "高橋涼(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "高橋涼(SUPA LOVE)",
+      "rawValues": [
+        "高橋涼(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4080/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 30,
+    "title": "Symbol I : △",
+    "band": "Ave Mujica",
+    "workId": "wk-0780",
+    "releaseVersionRaw": [
+      "長谷川大介 (SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "長谷川大介 (SUPA LOVE)",
+      "rawValues": [
+        "長谷川大介 (SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3734/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 31,
+    "title": "Symbol II : Air",
+    "band": "Ave Mujica",
+    "workId": "wk-0781",
+    "releaseVersionRaw": [
+      "高橋涼(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "高橋涼(SUPA LOVE)",
+      "rawValues": [
+        "高橋涼(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3783/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 32,
+    "title": "Symbol III : ▽",
+    "band": "Ave Mujica",
+    "workId": "wk-0782",
+    "releaseVersionRaw": [
+      "トミタカズキ (SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "トミタカズキ (SUPA LOVE)",
+      "rawValues": [
+        "トミタカズキ (SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3805/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 33,
+    "title": "Symbol IV : Earth",
+    "band": "Ave Mujica",
+    "workId": "wk-0783",
+    "releaseVersionRaw": [
+      "長谷川大介(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "長谷川大介(SUPA LOVE)",
+      "rawValues": [
+        "長谷川大介(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3833/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 34,
+    "title": "Ether",
+    "band": "Ave Mujica",
+    "workId": "wk-0784",
+    "releaseVersionRaw": [
+      "長谷川大介(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "長谷川大介(SUPA LOVE)",
+      "rawValues": [
+        "長谷川大介(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3860/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 35,
+    "title": "黒のバースデイ",
+    "band": "Ave Mujica",
+    "workId": "wk-0669",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 36,
+    "title": "Choir ‘S’ Choir",
+    "band": "Ave Mujica",
+    "workId": "wk-0785",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 37,
+    "title": "Mas?uerade Rhapsody Re?uest",
+    "band": "Ave Mujica",
+    "workId": "wk-0699",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 38,
+    "title": "碧い瞳の中に",
+    "band": "Ave Mujica",
+    "workId": "wk-0786",
+    "releaseVersionRaw": [
+      "Diggy-MO'、松坂康司(SUPA LOVE)"
+    ],
+    "currentEvidence": {
+      "raw": "Diggy-MO'、松坂康司(SUPA LOVE)",
+      "rawValues": [
+        "Diggy-MO'、松坂康司(SUPA LOVE)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4140/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 39,
+    "title": "The Whole Blue World",
+    "band": "Ave Mujica",
+    "workId": "wk-0787",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 41,
+    "title": "堕天",
+    "band": "Ave Mujica",
+    "workId": "wk-0788",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 42,
+    "title": "暗黒天国",
+    "band": "Ave Mujica",
+    "workId": "wk-0789",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 43,
+    "title": "KINGS",
+    "band": "Ave Mujica",
+    "workId": "wk-0790",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 83,
+    "title": "ファタール",
+    "band": "Ave Mujica",
+    "workId": "wk-0608",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 44,
+    "title": "✞animaるパーティ✞開催中✞",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0791",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 45,
+    "title": "エンプティパペット",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0792",
+    "releaseVersionRaw": [
+      "eba"
+    ],
+    "currentEvidence": {
+      "raw": "eba",
+      "rawValues": [
+        "eba"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3803/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 46,
+    "title": "限界現実サバイブ天使",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0793",
+    "releaseVersionRaw": [
+      "Nor, 堀江晶太"
+    ],
+    "currentEvidence": {
+      "raw": "Nor, 堀江晶太",
+      "rawValues": [
+        "Nor, 堀江晶太"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3736/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 47,
+    "title": "ビッグマウス",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0794",
+    "releaseVersionRaw": [
+      "堀江晶太、Nor"
+    ],
+    "currentEvidence": {
+      "raw": "堀江晶太、Nor",
+      "rawValues": [
+        "堀江晶太、Nor"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3683/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 48,
+    "title": "夢現妄想世界",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0795",
+    "releaseVersionRaw": [
+      "園田健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "園田健太郎",
+      "rawValues": [
+        "園田健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3597/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 49,
+    "title": "コハク",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0796",
+    "releaseVersionRaw": [
+      "堀江晶太"
+    ],
+    "currentEvidence": {
+      "raw": "堀江晶太",
+      "rawValues": [
+        "堀江晶太"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/3857/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 52,
+    "title": "真夜中遊園地",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0797",
+    "releaseVersionRaw": [
+      "哥丸雄貴、堀江晶太"
+    ],
+    "currentEvidence": {
+      "raw": "哥丸雄貴、堀江晶太",
+      "rawValues": [
+        "哥丸雄貴、堀江晶太"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4139/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 50,
+    "title": "これはぼくたちの生存のあらすじ",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0798",
+    "releaseVersionRaw": [
+      "堀江晶太"
+    ],
+    "currentEvidence": {
+      "raw": "堀江晶太",
+      "rawValues": [
+        "堀江晶太"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4219/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 51,
+    "title": "うちゅうのふしぎ",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0799",
+    "releaseVersionRaw": [
+      "sabio"
+    ],
+    "currentEvidence": {
+      "raw": "sabio",
+      "rawValues": [
+        "sabio"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4245/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 53,
+    "title": "チューニング",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0800",
+    "releaseVersionRaw": [
+      "堀江晶太、千石ユノ"
+    ],
+    "currentEvidence": {
+      "raw": "堀江晶太、千石ユノ",
+      "rawValues": [
+        "堀江晶太、千石ユノ"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4145/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 54,
+    "title": "超惑星Xへの旅",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0801",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 55,
+    "title": "TearJerker",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0802",
+    "releaseVersionRaw": [
+      "sabio"
+    ],
+    "currentEvidence": {
+      "raw": "sabio",
+      "rawValues": [
+        "sabio"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4240/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 56,
+    "title": "Face The Next",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0803",
+    "releaseVersionRaw": [
+      "白神真志朗、千石ユノ"
+    ],
+    "currentEvidence": {
+      "raw": "白神真志朗、千石ユノ",
+      "rawValues": [
+        "白神真志朗、千石ユノ"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4241/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 57,
+    "title": "in my words",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0804",
+    "releaseVersionRaw": [
+      "白神真志朗"
+    ],
+    "currentEvidence": {
+      "raw": "白神真志朗",
+      "rawValues": [
+        "白神真志朗"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4263/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 58,
+    "title": "愛は衝動",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0805",
+    "releaseVersionRaw": [
+      "sabio"
+    ],
+    "currentEvidence": {
+      "raw": "sabio",
+      "rawValues": [
+        "sabio"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4264/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 85,
+    "title": "夢我夢中",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0823",
+    "releaseVersionRaw": [
+      "ケンモチヒデフミ、Skye K"
+    ],
+    "currentEvidence": {
+      "raw": "ケンモチヒデフミ、Skye K",
+      "rawValues": [
+        "ケンモチヒデフミ、Skye K"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4279/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 59,
+    "title": "六兆年と一夜物語",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0116",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 60,
+    "title": "唱",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0806",
+    "releaseVersionRaw": [
+      "DjeDje、KENSEI、三村一輝"
+    ],
+    "currentEvidence": {
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "rawValues": [
+        "DjeDje、KENSEI、三村一輝"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4270/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 62,
+    "title": "UNDEAD",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0808",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 80,
+    "title": "ちゅ、多様性。",
+    "band": "夢限大みゅーたいぷ",
+    "workId": "wk-0594",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 63,
+    "title": "起死開戦",
+    "band": "millsage",
+    "workId": "wk-0809",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4190/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 65,
+    "title": "鳴らす",
+    "band": "millsage",
+    "workId": "wk-0811",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 66,
+    "title": "カーネーションの咲く日に",
+    "band": "millsage",
+    "workId": "wk-0812",
+    "releaseVersionRaw": [
+      "瀬名水紀(Dream Monster)、Aira(Dream Monster)",
+      "瀬名水紀、Aira"
+    ],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [
+        "瀬名水紀(Dream Monster)、Aira(Dream Monster)",
+        "瀬名水紀、Aira"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4234/",
+        "https://dreamonster.jp/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 64,
+    "title": "everscape",
+    "band": "millsage",
+    "workId": "wk-0810",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4256/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 67,
+    "title": "青のすみか",
+    "band": "millsage",
+    "workId": "wk-0559",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4254/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 68,
+    "title": "Pretender",
+    "band": "millsage",
+    "workId": "wk-0813",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 69,
+    "title": "unravel",
+    "band": "millsage",
+    "workId": "wk-0387",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4247/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 82,
+    "title": "Stellar Stellar",
+    "band": "millsage",
+    "workId": "wk-0533",
+    "releaseVersionRaw": [
+      "牧野太洋"
+    ],
+    "currentEvidence": {
+      "raw": "牧野太洋",
+      "rawValues": [
+        "牧野太洋"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4273/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 71,
+    "title": "ホーミー・タイッ！！",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0815",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4191/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 73,
+    "title": "ピースフル・ピーシーズ！",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0817",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "CREDIT_NOT_LISTED",
+      "reason": "対象曲/歌唱主体の公式発売・掲載contextを確認したが、このroleの明示creditがない。記載欠如は担当者なしを意味しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 74,
+    "title": "Keep on Riddim",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0818",
+    "releaseVersionRaw": [
+      "瀬名水紀(Dream Monster)"
+    ],
+    "currentEvidence": {
+      "raw": "瀬名水紀(Dream Monster)",
+      "rawValues": [
+        "瀬名水紀(Dream Monster)"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4235/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 72,
+    "title": "ジャイアント・キラー・チューン",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0816",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4257/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 75,
+    "title": "Mela!",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0819",
+    "releaseVersionRaw": [
+      "石倉誉之"
+    ],
+    "currentEvidence": {
+      "raw": "石倉誉之",
+      "rawValues": [
+        "石倉誉之"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4271/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 76,
+    "title": "サムライハート(Some Like It Hot!!)",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0820",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 78,
+    "title": "革命道中",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0735",
+    "releaseVersionRaw": [
+      "藤井健太郎"
+    ],
+    "currentEvidence": {
+      "raw": "藤井健太郎",
+      "rawValues": [
+        "藤井健太郎"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4265/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 84,
+    "title": "微笑みの爆弾",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0822",
+    "releaseVersionRaw": [
+      "牧野太洋"
+    ],
+    "currentEvidence": {
+      "raw": "牧野太洋",
+      "rawValues": [
+        "牧野太洋"
+      ],
+      "evidenceStatus": "NEEDS_REVIEW",
+      "reason": "作品/発売版の原文は取得したが、ゲーム固有の編曲との同一性が未確認。",
+      "sourceUrls": [
+        "https://bang-dream.com/discographies/4272/"
+      ]
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  },
+  {
+    "game": "ournotes",
+    "recordId": 79,
+    "title": "春日影",
+    "band": "CRYCHIC",
+    "workId": "wk-0635",
+    "releaseVersionRaw": [],
+    "currentEvidence": {
+      "raw": null,
+      "rawValues": [],
+      "evidenceStatus": "SOURCE_MISSING",
+      "reason": "ゲーム公式MUSIC全掲載欄と公式discography全26一覧、関連artistの詳細本文を確認した範囲で、対象recordに確実に対応する明示creditが見つからない。全Webで不存在とは断定しない。",
+      "sourceUrls": []
+    },
+    "gameDisplayInput": null,
+    "checked": false,
+    "checkedAt": null,
+    "sourceNote": null
+  }
+]

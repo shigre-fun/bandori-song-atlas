@@ -1,0 +1,315 @@
+{
+  "checkedAt": "2026-10-04",
+  "status": "PRE_RELEASE_VERIFIED",
+  "verify": {
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 885,
+    "works": 823,
+    "warnings": 0,
+    "patches": 0,
+    "displayComparisons": 2655,
+    "conflicts": 0,
+    "changedFiles": 0,
+    "secondApplyChangedFiles": 0,
+    "protectedResearch": 452,
+    "workSha256": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "coverage": {
+      "lyricist": {
+        "creditConfirmed": 835,
+        "fullyResolved": 615,
+        "rawFallback": 220,
+        "unknown": 50,
+        "proposalRelations": 615,
+        "appliedRelations": 0
+      },
+      "garupaArranger": {
+        "creditConfirmed": 751,
+        "fullyResolved": 718,
+        "rawFallback": 33,
+        "unknown": 48,
+        "proposalRelations": 718,
+        "appliedRelations": 0
+      },
+      "ournotesArranger": {
+        "creditConfirmed": 5,
+        "fullyResolved": 2,
+        "rawFallback": 3,
+        "unknown": 81,
+        "proposalRelations": 2,
+        "appliedRelations": 0
+      }
+    }
+  },
+  "sourceHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "f7c142a152ca43cf600a23e72526560037f02c8b13e8f5c32ebb8b0342a65385"
+  },
+  "coverage": {
+    "lyricist": {
+      "creditConfirmed": 835,
+      "fullyResolved": 615,
+      "rawFallback": 220,
+      "unknown": 50,
+      "proposalRelations": 615,
+      "appliedRelations": 0
+    },
+    "garupaArranger": {
+      "creditConfirmed": 751,
+      "fullyResolved": 718,
+      "rawFallback": 33,
+      "unknown": 48,
+      "proposalRelations": 718,
+      "appliedRelations": 0
+    },
+    "ournotesArranger": {
+      "creditConfirmed": 5,
+      "fullyResolved": 2,
+      "rawFallback": 3,
+      "unknown": 81,
+      "proposalRelations": 2,
+      "appliedRelations": 0
+    }
+  },
+  "composerResolution": {
+    "before": {
+      "records": 884,
+      "withCredit": 882,
+      "fullyResolved": 607,
+      "rawFallback": 275
+    },
+    "after": {
+      "records": 885,
+      "withCredit": 885,
+      "fullyResolved": 619,
+      "rawFallback": 266
+    }
+  },
+  "aggregatePlan": {
+    "semanticOutputEquality": true,
+    "byteLayoutPreserved": true,
+    "displayStatuses": {
+      "PRE_EXISTING_EMPTY_FILLED": 1591,
+      "MATCH": 1062,
+      "HUMAN_APPROVED_SUPPLEMENT": 2
+    }
+  },
+  "oldDisplay": {
+    "comparisons": 2652,
+    "unintendedChanges": 0
+  },
+  "tests": {
+    "existing": 194,
+    "b2": 35,
+    "release": 24,
+    "total": 253,
+    "passed": 253,
+    "fail": 0,
+    "oldAssertionsChanged": false,
+    "command": "pnpm test",
+    "logSha256": "ff6a853d0eea76ad62032e67b04c24e4a57827f884dfca240b206e21ece6ee3c",
+    "finalReleaseTestsSha256": "39a4d35071536a3e658b8e452a98dafc07cb8d838a757b413b631dae4bfa494c"
+  },
+  "build": {
+    "root": {
+      "exitCode": 0,
+      "seo": {
+        "pages": 1018,
+        "details": 885,
+        "detailCounts": {
+          "garupa": 799,
+          "ournotes": 86
+        },
+        "redirects": 797,
+        "creatorRedirects": 18,
+        "titleCount": 1018,
+        "files": 2777,
+        "jsonFiles": [
+          "admin-config.json",
+          "creator-redirects.json",
+          "creators.json",
+          "garupa/songs.json",
+          "legacy-redirects.json",
+          "news.json",
+          "ournotes/songs.json",
+          "songs.json",
+          "works.json",
+          "_routes.json"
+        ],
+        "researchLeakage": 0,
+        "creatorLinks": 2057,
+        "fallbackLinks": 1032,
+        "unknownOwnArrangers": 81
+      }
+    },
+    "subpath": {
+      "exitCode": 0,
+      "seo": {
+        "pages": 1018,
+        "details": 885,
+        "detailCounts": {
+          "garupa": 799,
+          "ournotes": 86
+        },
+        "redirects": 797,
+        "creatorRedirects": 18,
+        "titleCount": 1018,
+        "files": 2777,
+        "jsonFiles": [
+          "admin-config.json",
+          "creator-redirects.json",
+          "creators.json",
+          "garupa/songs.json",
+          "legacy-redirects.json",
+          "news.json",
+          "ournotes/songs.json",
+          "songs.json",
+          "works.json",
+          "_routes.json"
+        ],
+        "researchLeakage": 0,
+        "creatorLinks": 2057,
+        "fallbackLinks": 1032,
+        "unknownOwnArrangers": 81
+      }
+    },
+    "functions": {
+      "exitCode": 0,
+      "version": "4.143.0",
+      "logSha256": "08d3ff029cd9b2fc6ca754a45a16bee7defe0e665642d5ee4d384a9e98586ad1"
+    }
+  },
+  "scope": {
+    "checkedAt": "2026-10-03",
+    "creatorGameRoleCombinations": 744,
+    "filterMismatches": 0,
+    "publicJsonFilesInspected": 20,
+    "publicResearchFields": 0,
+    "historicalAndReleaseBackupFilesVerified": 9,
+    "protectedResearch": 452
+  },
+  "admin": {
+    "checkedAt": "2026-10-04",
+    "creators": 124,
+    "newMetadataReadWriteReadback": 3,
+    "formalIncrementRoleRoundtrips": 20,
+    "recordRoundtrips": 18,
+    "referencedCreatorDeleteGuards": 3,
+    "kawabuchiActualFormalReferences": 6,
+    "kawabuchiRawSplitsRetained": 0,
+    "externalWrites": 0,
+    "workWarnings": 0,
+    "sourceHashes": {
+      "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+      "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+      "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+      "data/ournotes/songs.json": "f7c142a152ca43cf600a23e72526560037f02c8b13e8f5c32ebb8b0342a65385"
+    }
+  },
+  "localBrowser": {
+    "widths": [
+      390,
+      1280
+    ],
+    "pages": [
+      "/creators/",
+      "/creators/kyoichi-miyazaki/",
+      "/creators/haruki-mori/",
+      "/creators/ryusei-kawabuchi/",
+      "/garupa/songs/220/",
+      "/ournotes/songs/86/"
+    ],
+    "overflow": 0,
+    "consoleErrors": 0
+  },
+  "parallelChanges": {
+    "manifest": "release-parallel-preservation.json",
+    "records": 885,
+    "ournotes86WorkReuse": true,
+    "composerMasterMatch": false,
+    "composerRawPreserved": true,
+    "oldUncollectedArrangers": 80,
+    "newUncollected": 1,
+    "intentionalIds": [
+      50,
+      51,
+      52
+    ]
+  },
+  "jointArrangers": {
+    "ids": [
+      220,
+      231,
+      243,
+      246,
+      248,
+      272
+    ],
+    "record220Creator": "cr-0019",
+    "rawAndOrderPreserved": true
+  },
+  "unresolved": {
+    "unresolvedCount": 703,
+    "excludedReasons": {
+      "credit自体未確定": 147,
+      "splitまたはidentityが未確定": 473,
+      "OurNotes発売版の編曲をゲーム版へ適用しない": 80,
+      "PARALLEL_RELEASE_CREDIT_NOT_COLLECTED": 2,
+      "PARALLEL_RELEASE_IDENTITY_UNRESOLVED": 1
+    },
+    "excludedTokenConfidence": {
+      "CONFIRMED": 96,
+      "UNRESOLVED": 510
+    },
+    "unresolvedTargetCounts": {
+      "lyricist": 220,
+      "garupaArranger": 33,
+      "ournotesArranger": 3,
+      "split": 59,
+      "metadata": 0
+    },
+    "appliedCounts": {
+      "garupa:lyricist": 763,
+      "garupa:arranger": 751,
+      "garupa:composer": 11,
+      "ournotes:lyricist": 72,
+      "ournotes:composer": 6,
+      "ournotes:arranger": 5
+    },
+    "relationCounts": {
+      "garupa:lyricist": 559,
+      "garupa:composer": 563,
+      "garupa:arranger": 718,
+      "ournotes:lyricist": 56,
+      "ournotes:composer": 54,
+      "ournotes:arranger": 2
+    }
+  },
+  "publication": null,
+  "production": null,
+  "history": {
+    "originalB2": "pre-release-b2-sources.json.gz",
+    "metadataRelease": "release-verification-before-joint.json",
+    "receipts": [
+      "release-applied-increment.json",
+      "release-applied-joint.json",
+      "release-applied-parallel.json",
+      "release-applied-parallel-5728144.json"
+    ]
+  },
+  "remaining": [
+    "commit",
+    "normal push",
+    "CI/Cloudflare SHA",
+    "production verification",
+    "65 final report"
+  ],
+  "failuresAndRecovery": [
+    "This resume: inline node quoting failed; saved script used. New composer master match was zero; preserved raw instead of inventing Creator. Functions pnpm exec lacked local binary, npx absent, pnpm --offline dlx unsupported; known pnpm dlx4.143.0 command succeeded. UI navigation during rebuild was blocked; no security bypass. Latest remote 往欄印 retained and rebuilt."
+  ],
+  "approvalReviewRejections": 0
+}

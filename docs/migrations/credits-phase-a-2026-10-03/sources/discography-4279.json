@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4279/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:02.721Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「夢我夢中」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年9月28日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞・作曲：ケンモチヒデフミ"
+    },
+    {
+      "line": 2,
+      "text": "編曲：ケンモチヒデフミ、Skye K"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "workId": "wk-0823",
+      "title": "夢我夢中",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "夢限大みゅーたいぷ「夢我夢中」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「夢我夢中」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

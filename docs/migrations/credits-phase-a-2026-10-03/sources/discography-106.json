@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/106/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:24.163Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 8th Single「クリスマスのうた」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2017年12月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 80,
+      "workId": "wk-0080",
+      "title": "B.O.F",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.B.O.F",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "workId": "wk-0038",
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.キミにもらったもの",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 79,
+      "workId": "wk-0079",
+      "title": "クリスマスのうた",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.クリスマスのうた",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 8th Single「クリスマスのうた」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

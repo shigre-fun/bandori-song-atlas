@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 92,
+  "nextId": 125,
   "creators": [
     {
       "id": "cr-0001",
@@ -8,7 +8,11 @@
       "name": "上松範康",
       "sortKey": "あげまつのりやす",
       "type": "person",
-      "aliases": ["上松範康（Elements Garden）", "上松範康(Elements Garden)"]
+      "aliases": [
+        "上松範康（Elements Garden）",
+        "上松範康(Elements Garden)",
+        "上松 範康（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0002",
@@ -25,9 +29,13 @@
       "sortKey": "真部脩一",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["真部 脩一"],
+      "aliases": [
+        "真部 脩一"
+      ],
       "identityEvidence": "人間確認（2026-10-02）と既存一次根拠: creator-research.json / 真部脩一",
-      "previousSlugs": ["creator-0003"]
+      "previousSlugs": [
+        "creator-0003"
+      ]
     },
     {
       "id": "cr-0004",
@@ -36,9 +44,14 @@
       "sortKey": "藤田淳平",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["藤田淳平（Elements Garden）", "藤田淳平(Elements Garden)"],
+      "aliases": [
+        "藤田淳平（Elements Garden）",
+        "藤田淳平(Elements Garden)"
+      ],
       "identityEvidence": "人間確認（2026-10-02）と既存一次根拠: creator-research.json / 藤田淳平",
-      "previousSlugs": ["creator-0004"]
+      "previousSlugs": [
+        "creator-0004"
+      ]
     },
     {
       "id": "cr-0005",
@@ -47,7 +60,9 @@
       "sortKey": "藤永龍太郎",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["藤永龍太郎（Elements Garden）"]
+      "aliases": [
+        "藤永龍太郎（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0006",
@@ -56,7 +71,9 @@
       "sortKey": "菊田大介",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["菊田大介（Elements Garden）"]
+      "aliases": [
+        "菊田大介（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0007",
@@ -65,7 +82,9 @@
       "sortKey": "岩橋星実",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["岩橋星実（Elements Garden）"]
+      "aliases": [
+        "岩橋星実（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0008",
@@ -74,7 +93,9 @@
       "sortKey": "藤間仁",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["藤間仁（Elements Garden）"]
+      "aliases": [
+        "藤間仁（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0009",
@@ -83,7 +104,9 @@
       "sortKey": "竹田祐介",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["竹田祐介（Elements Garden）"]
+      "aliases": [
+        "竹田祐介（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0010",
@@ -92,7 +115,9 @@
       "sortKey": "笠井雄太",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["笠井雄太（Elements Garden）"]
+      "aliases": [
+        "笠井雄太（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0011",
@@ -101,7 +126,9 @@
       "sortKey": "近藤世真",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["近藤世真（Elements Garden）"]
+      "aliases": [
+        "近藤世真（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0012",
@@ -110,7 +137,9 @@
       "sortKey": "堀川大翼",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["堀川大翼（Elements Garden）"]
+      "aliases": [
+        "堀川大翼（Elements Garden）"
+      ]
     },
     {
       "id": "cr-0013",
@@ -119,7 +148,9 @@
       "sortKey": "長谷川大介",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["長谷川大介(SUPA LOVE)"]
+      "aliases": [
+        "長谷川大介(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0014",
@@ -128,7 +159,9 @@
       "sortKey": "松坂康司",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["松坂康司(SUPA LOVE)"]
+      "aliases": [
+        "松坂康司(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0015",
@@ -137,7 +170,9 @@
       "sortKey": "木下龍平",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["木下龍平(SUPA LOVE)"]
+      "aliases": [
+        "木下龍平(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0016",
@@ -146,7 +181,9 @@
       "sortKey": "トミタカズキ",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["トミタカズキ(SUPA LOVE)"]
+      "aliases": [
+        "トミタカズキ(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0017",
@@ -155,7 +192,9 @@
       "sortKey": "あらケン",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["あらケン(SUPA LOVE)"]
+      "aliases": [
+        "あらケン(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0018",
@@ -164,7 +203,9 @@
       "sortKey": "hisakuni",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["hisakuni(SUPA LOVE)"]
+      "aliases": [
+        "hisakuni(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0019",
@@ -173,7 +214,10 @@
       "sortKey": "都丸椋太",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["都丸椋太（Elements Garden）", "都丸椋太(Elements Garden)"]
+      "aliases": [
+        "都丸椋太（Elements Garden）",
+        "都丸椋太(Elements Garden)"
+      ]
     },
     {
       "id": "cr-0020",
@@ -182,8 +226,12 @@
       "sortKey": "日高勇輝",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["日高勇輝（Elements Garden）"],
-      "previousSlugs": ["creator-0020"]
+      "aliases": [
+        "日高勇輝（Elements Garden）"
+      ],
+      "previousSlugs": [
+        "creator-0020"
+      ]
     },
     {
       "id": "cr-0021",
@@ -192,8 +240,12 @@
       "sortKey": "末益涼太",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["末益涼太（Elements Garden）"],
-      "previousSlugs": ["creator-0021"]
+      "aliases": [
+        "末益涼太（Elements Garden）"
+      ],
+      "previousSlugs": [
+        "creator-0021"
+      ]
     },
     {
       "id": "cr-0022",
@@ -220,8 +272,13 @@
       "sortKey": "藤原聡",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["藤原 聡", "藤原　聡"],
-      "previousSlugs": ["creator-0024"]
+      "aliases": [
+        "藤原 聡",
+        "藤原　聡"
+      ],
+      "previousSlugs": [
+        "creator-0024"
+      ]
     },
     {
       "id": "cr-0025",
@@ -239,7 +296,10 @@
       "sortKey": "DECO*27",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["DECO*27 "]
+      "aliases": [
+        "DECO*27 ",
+        "DECO＊27"
+      ]
     },
     {
       "id": "cr-0027",
@@ -248,8 +308,13 @@
       "sortKey": "田淵智也",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["田淵 智也"],
-      "previousSlugs": ["creator-0027"]
+      "aliases": [
+        "田淵 智也",
+        "田淵　智也"
+      ],
+      "previousSlugs": [
+        "creator-0027"
+      ]
     },
     {
       "id": "cr-0028",
@@ -258,7 +323,10 @@
       "sortKey": "堀江晶太",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["Kemu", "kemu"]
+      "aliases": [
+        "Kemu",
+        "kemu"
+      ]
     },
     {
       "id": "cr-0029",
@@ -267,7 +335,9 @@
       "sortKey": "大森元貴",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["大森　元貴"]
+      "aliases": [
+        "大森　元貴"
+      ]
     },
     {
       "id": "cr-0030",
@@ -285,7 +355,9 @@
       "sortKey": "TeddyLoid",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": [" TeddyLoid"]
+      "aliases": [
+        " TeddyLoid"
+      ]
     },
     {
       "id": "cr-0032",
@@ -294,7 +366,9 @@
       "sortKey": "ぴのきおぴー",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": [" ピノキオピー"]
+      "aliases": [
+        " ピノキオピー"
+      ]
     },
     {
       "id": "cr-0033",
@@ -312,7 +386,9 @@
       "sortKey": "Giga",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["Giga "]
+      "aliases": [
+        "Giga "
+      ]
     },
     {
       "id": "cr-0035",
@@ -348,7 +424,9 @@
       "sortKey": "高橋涼",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["高橋涼(SUPA LOVE)"]
+      "aliases": [
+        "高橋涼(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0039",
@@ -376,7 +454,9 @@
       "sortKeyStatus": "confirmed",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0041"]
+      "previousSlugs": [
+        "creator-0041"
+      ]
     },
     {
       "id": "cr-0042",
@@ -394,7 +474,9 @@
       "sortKey": "神前暁",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["神前 暁"]
+      "aliases": [
+        "神前 暁"
+      ]
     },
     {
       "id": "cr-0044",
@@ -403,7 +485,9 @@
       "sortKey": "賀佐泰洋",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["賀佐泰洋(SUPA LOVE)"]
+      "aliases": [
+        "賀佐泰洋(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0045",
@@ -412,7 +496,9 @@
       "sortKey": "金崎真士",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["金崎真士(SUPA LOVE)"]
+      "aliases": [
+        "金崎真士(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0046",
@@ -421,7 +507,9 @@
       "sortKey": "鈴木裕明",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["鈴木裕明(SUPA LOVE)"]
+      "aliases": [
+        "鈴木裕明(SUPA LOVE)"
+      ]
     },
     {
       "id": "cr-0047",
@@ -430,7 +518,9 @@
       "sortKey": "水野良樹",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["水野　良樹"]
+      "aliases": [
+        "水野　良樹"
+      ]
     },
     {
       "id": "cr-0048",
@@ -439,8 +529,12 @@
       "sortKey": "片倉三起也",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["片倉 三起也"],
-      "previousSlugs": ["creator-0048"]
+      "aliases": [
+        "片倉 三起也"
+      ],
+      "previousSlugs": [
+        "creator-0048"
+      ]
     },
     {
       "id": "cr-0049",
@@ -449,7 +543,9 @@
       "sortKey": "こむろてつや",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["小室 哲哉"]
+      "aliases": [
+        "小室 哲哉"
+      ]
     },
     {
       "id": "cr-0050",
@@ -458,8 +554,13 @@
       "sortKey": "前山田健一",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["前山田 健一", "前山田　健一"],
-      "previousSlugs": ["creator-0050"]
+      "aliases": [
+        "前山田 健一",
+        "前山田　健一"
+      ],
+      "previousSlugs": [
+        "creator-0050"
+      ]
     },
     {
       "id": "cr-0051",
@@ -468,7 +569,9 @@
       "sortKey": "藤原基央",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["藤原 基央"]
+      "aliases": [
+        "藤原 基央"
+      ]
     },
     {
       "id": "cr-0052",
@@ -477,7 +580,9 @@
       "sortKey": "HYDE",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["hyde"]
+      "aliases": [
+        "hyde"
+      ]
     },
     {
       "id": "cr-0053",
@@ -486,8 +591,12 @@
       "sortKey": "佐藤純一",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["佐藤　純一"],
-      "previousSlugs": ["creator-0053"]
+      "aliases": [
+        "佐藤　純一"
+      ],
+      "previousSlugs": [
+        "creator-0053"
+      ]
     },
     {
       "id": "cr-0054",
@@ -496,7 +605,9 @@
       "sortKey": "田中公平",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["田中　公平"]
+      "aliases": [
+        "田中　公平"
+      ]
     },
     {
       "id": "cr-0055",
@@ -505,7 +616,9 @@
       "sortKey": "田中秀和",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["田中　秀和"]
+      "aliases": [
+        "田中　秀和"
+      ]
     },
     {
       "id": "cr-0056",
@@ -568,7 +681,9 @@
       "sortKey": "おーいしまさよし",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["大石 昌良"]
+      "aliases": [
+        "大石 昌良"
+      ]
     },
     {
       "id": "cr-0063",
@@ -613,7 +728,10 @@
       "sortKey": "UZ",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["ＵＺ", "UZ(SPYAIR)"]
+      "aliases": [
+        "ＵＺ",
+        "UZ(SPYAIR)"
+      ]
     },
     {
       "id": "cr-0068",
@@ -622,7 +740,9 @@
       "sortKey": "YUI",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["ＹＵＩ"]
+      "aliases": [
+        "ＹＵＩ"
+      ]
     },
     {
       "id": "cr-0069",
@@ -659,7 +779,9 @@
       "sortKeyStatus": "confirmed",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0072"]
+      "previousSlugs": [
+        "creator-0072"
+      ]
     },
     {
       "id": "cr-0073",
@@ -669,7 +791,9 @@
       "sortKeyStatus": "confirmed",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0073"]
+      "previousSlugs": [
+        "creator-0073"
+      ]
     },
     {
       "id": "cr-0074",
@@ -688,7 +812,9 @@
       "sortKeyStatus": "provisional-original",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0075"]
+      "previousSlugs": [
+        "creator-0075"
+      ]
     },
     {
       "id": "cr-0076",
@@ -697,7 +823,9 @@
       "sortKey": "秋田ひろむ",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["秋田　ひろむ"]
+      "aliases": [
+        "秋田　ひろむ"
+      ]
     },
     {
       "id": "cr-0077",
@@ -706,7 +834,9 @@
       "sortKey": "浅倉大介",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["浅倉　大介"]
+      "aliases": [
+        "浅倉　大介"
+      ]
     },
     {
       "id": "cr-0078",
@@ -733,7 +863,9 @@
       "sortKey": "ak.homma",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["ak. homma"]
+      "aliases": [
+        "ak. homma"
+      ]
     },
     {
       "id": "cr-0081",
@@ -743,7 +875,9 @@
       "sortKeyStatus": "provisional-original",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0081"]
+      "previousSlugs": [
+        "creator-0081"
+      ]
     },
     {
       "id": "cr-0082",
@@ -753,7 +887,9 @@
       "sortKeyStatus": "provisional-original",
       "type": "person",
       "aliases": [],
-      "previousSlugs": ["creator-0082"]
+      "previousSlugs": [
+        "creator-0082"
+      ]
     },
     {
       "id": "cr-0083",
@@ -762,8 +898,12 @@
       "sortKey": "篠崎あやと",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["篠崎 あやと"],
-      "previousSlugs": ["creator-0083"]
+      "aliases": [
+        "篠崎 あやと"
+      ],
+      "previousSlugs": [
+        "creator-0083"
+      ]
     },
     {
       "id": "cr-0084",
@@ -772,7 +912,10 @@
       "sortKey": "ryo",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["ryo(supercell)", "ryo (supercell)"]
+      "aliases": [
+        "ryo(supercell)",
+        "ryo (supercell)"
+      ]
     },
     {
       "id": "cr-0085",
@@ -817,8 +960,12 @@
       "sortKey": "庄司夏葵",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["庄司夏葵(SUPA LOVE)"],
-      "previousSlugs": ["creator-0089"]
+      "aliases": [
+        "庄司夏葵(SUPA LOVE)"
+      ],
+      "previousSlugs": [
+        "creator-0089"
+      ]
     },
     {
       "id": "cr-0090",
@@ -827,8 +974,12 @@
       "sortKey": "瀬名水紀",
       "sortKeyStatus": "provisional-original",
       "type": "person",
-      "aliases": ["瀬名水紀(Dream Monster)"],
-      "previousSlugs": ["creator-0090"]
+      "aliases": [
+        "瀬名水紀(Dream Monster)"
+      ],
+      "previousSlugs": [
+        "creator-0090"
+      ]
     },
     {
       "id": "cr-0091",
@@ -837,12 +988,374 @@
       "sortKey": "john",
       "sortKeyStatus": "confirmed",
       "type": "person",
-      "aliases": ["TOOBOE"]
+      "aliases": [
+        "TOOBOE"
+      ]
+    },
+    {
+      "id": "cr-0092",
+      "name": "織田あすか",
+      "slug": "asuka-oda",
+      "type": "person",
+      "sortKey": "織田あすか",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "織田 あすか",
+        "織田あすか(Elements Garden)",
+        "織田あすか（Elements Garden）"
+      ]
+    },
+    {
+      "id": "cr-0093",
+      "name": "中村航",
+      "slug": "kou-nakamura",
+      "type": "person",
+      "sortKey": "なかむらこう",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "中村 航"
+      ]
+    },
+    {
+      "id": "cr-0094",
+      "name": "下田晃太郎",
+      "slug": "kotaro-shimoda",
+      "type": "person",
+      "sortKey": "しもだこうたろう",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "下田晃太郎(Elements Garden)",
+        "下田晃太郎（Elements Garden）"
+      ]
+    },
+    {
+      "id": "cr-0095",
+      "name": "藤原優樹",
+      "slug": "masaki-fujiwara",
+      "type": "person",
+      "sortKey": "ふじわらまさき",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "藤原優樹(SUPA LOVE)"
+      ]
+    },
+    {
+      "id": "cr-0096",
+      "name": "Seonoo Kim",
+      "slug": "seonoo-kim",
+      "type": "person",
+      "sortKey": "Seonoo Kim",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "Seonoo Kim(Elements Garden)",
+        "Seonoo Kim（Elements Garden）"
+      ]
+    },
+    {
+      "id": "cr-0097",
+      "name": "畑亜貴",
+      "slug": "aki-hata",
+      "type": "person",
+      "sortKey": "はたあき",
+      "sortKeyStatus": "primary-confirmed",
+      "aliases": [
+        "畑 亜貴",
+        "畑　亜貴"
+      ]
+    },
+    {
+      "id": "cr-0098",
+      "name": "植木建象",
+      "slug": "kenzo-ueki",
+      "type": "person",
+      "sortKey": "植木建象",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "植木 建象"
+      ]
+    },
+    {
+      "id": "cr-0099",
+      "name": "Spirit Garden",
+      "slug": "spirit-garden",
+      "type": "organization",
+      "sortKey": "Spirit Garden",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    {
+      "id": "cr-0100",
+      "name": "大森祥子",
+      "slug": "shoko-oomori",
+      "type": "person",
+      "sortKey": "おおもりしょうこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0101",
+      "name": "小木岳司",
+      "slug": "gakushi-ogi",
+      "type": "person",
+      "sortKey": "おぎがくし",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "小木 岳司"
+      ]
+    },
+    {
+      "id": "cr-0102",
+      "name": "MOMIKEN",
+      "slug": "momiken",
+      "type": "person",
+      "sortKey": "MOMIKEN",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    {
+      "id": "cr-0103",
+      "name": "神田ジョン",
+      "slug": "john-kanda",
+      "type": "person",
+      "sortKey": "かんだじょん",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "神田ジョン(from PENGUIN RESEARCH)"
+      ]
+    },
+    {
+      "id": "cr-0104",
+      "name": "水樹奈々",
+      "slug": "nana-mizuki",
+      "type": "person",
+      "sortKey": "水樹奈々",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "水樹 奈々"
+      ]
+    },
+    {
+      "id": "cr-0105",
+      "name": "仲町あられ",
+      "slug": "arale-nakamachi",
+      "type": "person",
+      "sortKey": "なかまちあられ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0106",
+      "name": "麻枝准",
+      "slug": "jun-maeda",
+      "type": "person",
+      "sortKey": "まえだじゅん",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "麻枝 准"
+      ]
+    },
+    {
+      "id": "cr-0107",
+      "name": "あの",
+      "slug": "ano",
+      "type": "person",
+      "sortKey": "あの",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "ano"
+      ]
+    },
+    {
+      "id": "cr-0108",
+      "name": "及川眠子",
+      "slug": "neko-oikawa",
+      "type": "person",
+      "sortKey": "おいかわねこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "及川　眠子"
+      ]
+    },
+    {
+      "id": "cr-0109",
+      "name": "Gom",
+      "slug": "gom",
+      "type": "person",
+      "sortKey": "Gom",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    {
+      "id": "cr-0110",
+      "name": "佐藤英敏",
+      "slug": "hidetoshi-sato",
+      "type": "person",
+      "sortKey": "さとうひでとし",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "佐藤　英敏"
+      ]
+    },
+    {
+      "id": "cr-0111",
+      "name": "Aira",
+      "slug": "aira",
+      "type": "person",
+      "sortKey": "Aira",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "Aira(Dream Monster)"
+      ]
+    },
+    {
+      "id": "cr-0112",
+      "name": "peppe",
+      "slug": "peppe",
+      "type": "person",
+      "sortKey": "peppe",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    {
+      "id": "cr-0113",
+      "name": "samfree",
+      "slug": "samfree",
+      "type": "person",
+      "sortKey": "samfree",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "SAM(samfree)"
+      ]
+    },
+    {
+      "id": "cr-0114",
+      "name": "穴見真吾",
+      "slug": "shingo-anami",
+      "type": "person",
+      "sortKey": "あなみしんご",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0115",
+      "name": "小林壱誓",
+      "slug": "issey-kobayashi",
+      "type": "person",
+      "sortKey": "こばやしいっせい",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "小林 壱誓"
+      ]
+    },
+    {
+      "id": "cr-0116",
+      "name": "長屋晴子",
+      "slug": "haruko-nagaya",
+      "type": "person",
+      "sortKey": "ながやはるこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "長屋 晴子"
+      ]
+    },
+    {
+      "id": "cr-0117",
+      "name": "槇島隆人",
+      "slug": "takahito-makishima",
+      "type": "person",
+      "sortKey": "まきしまたかひと",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "槇島隆人(SUPA LOVE)"
+      ]
+    },
+    {
+      "id": "cr-0118",
+      "name": "宮崎京一",
+      "slug": "kyoichi-miyazaki",
+      "type": "person",
+      "sortKey": "みやざききょういち",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0119",
+      "name": "母里治樹",
+      "slug": "haruki-mori",
+      "type": "person",
+      "sortKey": "もりはるき",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "母里治樹（Elements Garden）"
+      ]
+    },
+    {
+      "id": "cr-0120",
+      "name": "川渕龍成",
+      "slug": "ryusei-kawabuchi",
+      "type": "person",
+      "sortKey": "かわぶちりゅうせい",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0121",
+      "name": "ハルイチ",
+      "slug": "haruichi",
+      "type": "person",
+      "sortKey": "ハルイチ",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "新藤晴一"
+      ]
+    },
+    {
+      "id": "cr-0122",
+      "name": "烏屋茶房",
+      "slug": "karasuya-sabou",
+      "type": "person",
+      "sortKey": "烏屋茶房",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "烏屋 茶房"
+      ]
+    },
+    {
+      "id": "cr-0123",
+      "name": "林英樹",
+      "slug": "hideki-hayashi",
+      "type": "person",
+      "sortKey": "林英樹",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "林 英樹",
+        "林　英樹"
+      ]
+    },
+    {
+      "id": "cr-0124",
+      "name": "o-saka",
+      "slug": "o-saka",
+      "type": "person",
+      "sortKey": "o-saka",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "o-saka(SUPA LOVE)"
+      ]
     }
   ],
   "roleCoverage": {
-    "lyricist": "unprepared",
-    "composer": "ready",
-    "arranger": "unprepared"
+    "lyricist": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "composer": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "arranger": {
+      "garupa": "ready",
+      "ournotes": "partial"
+    }
   }
 }

@@ -1,0 +1,199 @@
+{
+  "url": "https://bang-dream.com/discographies/2298/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:36.747Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 11th Single「ZEAL of proud」",
+  "artists": "Roselia",
+  "releaseDate": "2021年1月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 149,
+      "workId": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.BRAVE JEWEL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 260,
+      "workId": "wk-0254",
+      "title": "Blessing Chord",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Blessing Chord",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 72,
+      "workId": "wk-0072",
+      "title": "Determination Symphony",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.Determination Symphony",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "13.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 34,
+      "workId": "wk-0034",
+      "title": "LOUDER",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "15.LOUDER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 114,
+      "workId": "wk-0114",
+      "title": "Legendary",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Legendary",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "8.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 144,
+      "workId": "wk-0144",
+      "title": "PASSIONATE ANTHEM",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.PASSIONATE ANTHEM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.R",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 166,
+      "workId": "wk-0166",
+      "title": "Ringing Bloom",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.Ringing Bloom",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 280,
+      "workId": "wk-0274",
+      "title": "ZEAL of proud",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.ZEAL of proud",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "13.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "12.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "14.約束",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 97,
+      "workId": "wk-0097",
+      "title": "Shangri-La",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.Shangri-La",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 11th Single「ZEAL of proud」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

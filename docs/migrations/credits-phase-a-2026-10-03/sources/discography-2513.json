@@ -1,0 +1,139 @@
+{
+  "url": "https://bang-dream.com/discographies/2513/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:49.096Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ 1st Album「にこにこねくと！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2021年7月14日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 67,
+      "workId": "wk-0067",
+      "title": "YAPPY！SCHOOL CARNIVAL☆彡",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.YAPPY！SCHOOL CARNIVAL☆彡",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 223,
+      "workId": "wk-0180",
+      "title": "[FULL] えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "work",
+      "context": "4.えがお･シング･あ･ソング",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 250,
+      "workId": "wk-0244",
+      "title": "うぃーきゃん☆フレフレっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "9.うぃーきゃん☆フレフレっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 17,
+      "workId": "wk-0017",
+      "title": "えがおのオーケストラっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "10.えがおのオーケストラっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 180,
+      "workId": "wk-0180",
+      "title": "えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.えがお･シング･あ･ソング",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 330,
+      "workId": "wk-0324",
+      "title": "ないすみちゅっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "7.ないすみちゅっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 188,
+      "workId": "wk-0188",
+      "title": "にこ×にこ＝ハイパースマイルパワー！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "6.にこ×にこ=ハイパースマイルパワー！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 302,
+      "workId": "wk-0296",
+      "title": "にこにこねくと！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "11.にこにこねくと！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 141,
+      "workId": "wk-0141",
+      "title": "キミがいなくちゃっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.キミがいなくちゃっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 36,
+      "workId": "wk-0036",
+      "title": "ゴーカ！ごーかい！？ファントムシーフ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "8.ゴーカ！ごーかい！？ファントムシーフ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 202,
+      "workId": "wk-0202",
+      "title": "スマイルブーケで た〜まや〜！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.スマイルブーケで た〜まや〜！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 122,
+      "workId": "wk-0122",
+      "title": "ハイファイブ∞あどべんちゃっ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.ハイファイブ∞あどべんちゃっ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ 1st Album「にこにこねくと！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

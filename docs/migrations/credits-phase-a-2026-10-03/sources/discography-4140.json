@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/4140/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:41.920Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「碧い瞳の中に」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年9月4日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「碧い瞳の中に」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO'"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：Diggy-MO'、松坂康司(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 38,
+      "workId": "wk-0786",
+      "title": "碧い瞳の中に",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「碧い瞳の中に」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「碧い瞳の中に」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

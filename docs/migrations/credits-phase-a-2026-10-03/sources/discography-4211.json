@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/4211/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:20.126Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「XV」",
+  "artists": "Roselia",
+  "releaseDate": "2026年5月2日(土)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 9,
+      "text": "Roselia「XV」"
+    },
+    {
+      "line": 10,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 11,
+      "text": "作曲：上松範康(Elements Garden)"
+    },
+    {
+      "line": 12,
+      "text": "編曲：藤永龍太郎(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 768,
+      "workId": "wk-0746",
+      "title": "XV",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「XV」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「XV」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

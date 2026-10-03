@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/4080/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:31.425Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「天球(そら)のMúsica」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年4月3日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「天球(そら)のMúsica」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：高橋涼(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：高橋涼(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 667,
+      "workId": "wk-0654",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「天球(そら)のMúsica」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 29,
+      "workId": "wk-0654",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「天球(そら)のMúsica」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「天球(そら)のMúsica」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

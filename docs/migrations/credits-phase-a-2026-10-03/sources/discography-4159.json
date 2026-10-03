@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4159/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:37.622Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「Calling」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年11月4日(火)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "夢限大みゅーたいぷ「Calling」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：白神真志朗"
+    },
+    {
+      "line": 3,
+      "text": "作曲：堀江晶太"
+    },
+    {
+      "line": 4,
+      "text": "編曲：堀江晶太、Nor、白神真志朗"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「Calling」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4217/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:00.987Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock! 1st Single「ピースフル・ピーシーズ！」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年9月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 73,
+      "workId": "wk-0817",
+      "title": "ピースフル・ピーシーズ！",
+      "band": "一家Dumb Rock!",
+      "scope": "release",
+      "context": "一家Dumb Rock! 1st Single「ピースフル・ピーシーズ！」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "一家Dumb Rock! 1st Single「ピースフル・ピーシーズ！」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

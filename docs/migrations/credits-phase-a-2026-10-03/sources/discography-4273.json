@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4273/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:05.039Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「Stellar Stellar(Cover)」",
+  "artists": "millsage",
+  "releaseDate": "2026年9月22日(火)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞：星街すいせい"
+    },
+    {
+      "line": 2,
+      "text": "作曲：TAKU INOUE"
+    },
+    {
+      "line": 3,
+      "text": "編曲：牧野太洋"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "millsage「Stellar Stellar(Cover)」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

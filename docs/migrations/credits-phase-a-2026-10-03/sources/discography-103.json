@@ -1,0 +1,129 @@
+{
+  "url": "https://bang-dream.com/discographies/103/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:54.873Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 7th Single「Time Lapse」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2017年9月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 20,
+      "workId": "wk-0020",
+      "title": "Alchemy",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Alchemy",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 40,
+      "workId": "wk-0040",
+      "title": "Little Busters!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Little Busters!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 9,
+      "workId": "wk-0009",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1000回潤んだ空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "STAR BEAT!～ホシノコドウ～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1. Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 3,
+      "workId": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Yes! BanG_Dream!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "ときめきエクスペリエンス！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 2,
+      "workId": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "キラキラだとか夢だとか ～Sing Girls～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "ティアドロップス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 55,
+      "workId": "wk-0055",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3. 夏のドーン！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 8,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "走り始めたばかりのキミに",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 7th Single「Time Lapse」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

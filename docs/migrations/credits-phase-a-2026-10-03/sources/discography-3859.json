@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3859/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:56.946Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ 1st Single「コミュ着火Fire!」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年12月25日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "workId": "wk-0796",
+      "title": "コハク",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "3.コハク",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ 1st Single「コミュ着火Fire!」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

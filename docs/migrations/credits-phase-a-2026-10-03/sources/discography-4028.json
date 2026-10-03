@@ -1,0 +1,189 @@
+{
+  "url": "https://bang-dream.com/discographies/4028/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:52.161Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 17th Single「Requiem for Fate」",
+  "artists": "Roselia",
+  "releaseDate": "2025年6月26日(木)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 72,
+      "workId": "wk-0072",
+      "title": "Determination Symphony",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.Determination Symphony",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "8.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 366,
+      "workId": "wk-0360",
+      "title": "Our Carol",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Our Carol",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 144,
+      "workId": "wk-0144",
+      "title": "PASSIONATE ANTHEM",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.PASSIONATE ANTHEM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 685,
+      "workId": "wk-0671",
+      "title": "Requiem for Fate",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Requiem for Fate",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 593,
+      "workId": "wk-0584",
+      "title": "Sage der Rosen",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Sage der Rosen",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 668,
+      "workId": "wk-0655",
+      "title": "Second to None",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Second to None",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 234,
+      "workId": "wk-0229",
+      "title": "Song I am.",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Song I am.",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 403,
+      "workId": "wk-0396",
+      "title": "THE HISTORIC...",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.THE HISTORIC...",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "5.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 595,
+      "workId": "wk-0586",
+      "title": "礎の花冠",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.礎の花冠",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.約束",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 17th Single「Requiem for Fate」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/4102/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:31.823Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 21st Single「Drive Your Heart」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2025年12月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 691,
+      "workId": "wk-0675",
+      "title": "Drive Your Heart",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Drive Your Heart",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 648,
+      "workId": "wk-0637",
+      "title": "とっておきAnswer",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.とっておきAnswer",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 719,
+      "workId": "wk-0703",
+      "title": "世界中の青空をあつめて",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.世界中の青空をあつめて",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 21st Single「Drive Your Heart」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

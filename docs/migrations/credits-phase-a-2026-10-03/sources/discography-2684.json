@@ -1,0 +1,139 @@
+{
+  "url": "https://bang-dream.com/discographies/2684/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:48.559Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party ミニAlbum「Live Beyond!!」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2021年8月18日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 315,
+      "workId": "wk-0309",
+      "title": "Live Beyond!!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Live Beyond!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.STAR BEAT!～ホシノコドウ～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 301,
+      "workId": "wk-0295",
+      "title": "Sweets BAN!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.Sweets BAN!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.ときめきエクスペリエンス！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 221,
+      "workId": "wk-0218",
+      "title": "イニシャル",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.イニシャル",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.ティアドロップス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 253,
+      "workId": "wk-0247",
+      "title": "ミライトレイン",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.ミライトレイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 58,
+      "workId": "wk-0058",
+      "title": "八月のif",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.八月のif",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 55,
+      "workId": "wk-0055",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.夏のドーン！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 7,
+      "workId": "wk-0007",
+      "title": "夏空 SUN! SUN! SEVEN!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.夏空 SUN! SUN! SEVEN!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 228,
+      "workId": "wk-0224",
+      "title": "夢を撃ち抜く瞬間に！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "夢を撃ち抜く瞬間に！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party ミニAlbum「Live Beyond!!」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/738/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:12.539Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 4th Single「天下トーイツA to Z☆」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2019年2月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 96,
+      "workId": "wk-0096",
+      "title": "Wonderland Girl",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.Wonderland Girl",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 104,
+      "workId": "wk-0104",
+      "title": "天下トーイツA to Z☆",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "Pastel＊Palettes 4th Single「天下トーイツA to Z☆」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 4th Single「天下トーイツA to Z☆」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

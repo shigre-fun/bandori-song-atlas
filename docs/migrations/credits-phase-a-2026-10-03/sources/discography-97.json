@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/97/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:58.563Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 2nd Single 「Re:birth day」",
+  "artists": "Roselia",
+  "releaseDate": "2017年6月28日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 48,
+      "workId": "wk-0048",
+      "title": "陽だまりロードナイト",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.陽だまりロードナイト",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 2nd Single 「Re:birth day」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

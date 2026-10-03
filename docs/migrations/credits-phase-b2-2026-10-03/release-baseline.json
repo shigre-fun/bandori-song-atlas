@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-03",
+  "sourceHashes": {
+    "data/creators.json": "665fc19f12bc85f71da50131f502b02b7794ff2a4bc7faf26b03b748be147f78",
+    "data/garupa/songs.json": "d96fedd742a62d4f10e1ee59a81993992dfecc6f3c6c3e02de8d511ab7a36261",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "historicalFixture": {
+    "path": "docs/migrations/credits-phase-b2-2026-10-03/pre-release-b2-sources.json.gz",
+    "sha256": "8ae5991443dd323e0b7ddbeb0e8a545c48156c4785f00786b244fc9e515756ce",
+    "files": {
+      "data/creators.json": "665fc19f12bc85f71da50131f502b02b7794ff2a4bc7faf26b03b748be147f78",
+      "data/garupa/songs.json": "d96fedd742a62d4f10e1ee59a81993992dfecc6f3c6c3e02de8d511ab7a36261",
+      "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+      "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+      "docs/migrations/credits-phase-b2-2026-10-03/admin-mock-verification.json": "56ac68e56a52a1c0157e66c21b28c1d8a41f5035361254db76ec8fb571f14ee7",
+      "docs/migrations/credits-phase-b2-2026-10-03/applied-relations.json": "9f363c36216df1ce43297dc36381cfe8ab30cbc545eb6750cb80a603f6cc73d0",
+      "docs/migrations/credits-phase-b2-2026-10-03/apply-plan.json": "561155185cf3f937a2986c3ac4dd0565cfacc7a9ffc71dbf6c006f8038bb1d15",
+      "docs/migrations/credits-phase-b2-2026-10-03/baseline.json": "0e1070e39bd7ee6dd73480d597c327217a57eece0279cd6af1237dbb6b28cd8f",
+      "docs/migrations/credits-phase-b2-2026-10-03/candidate-id-map.json": "1b1f75e67a173f74a6d41e1bf6bc4683aac7364cfb730d1cf3aac0cb4513f415",
+      "docs/migrations/credits-phase-b2-2026-10-03/coverage.json": "92bfed9e33daa014587339f6a3218b6afea4b6cc8f3ade39b49a2479711a7ea1",
+      "docs/migrations/credits-phase-b2-2026-10-03/display-comparison.json": "60e9ae47c0725129af7f0d39491b361aa8a06b92d63d410a229d45f97a737012",
+      "docs/migrations/credits-phase-b2-2026-10-03/human-review.json": "78dd7f62c300dd57fcdcbb5baf5e312d68403e6ba2d4ab4f55327e4f55d5ba12",
+      "docs/migrations/credits-phase-b2-2026-10-03/human-review.md": "4d952e11e4fdd6e8fc84d137c63b04138437b1667b44cdde186763e39e919133",
+      "docs/migrations/credits-phase-b2-2026-10-03/metadata-evidence.json": "22d3e746ed4847cd5dac7cd5d23d4d081d26a2a9a4ab4afef10937044a5b4472",
+      "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json": "6695ea705a3587cc58eed28b5106134734ade349392e8c23351bb12c000c2d14",
+      "docs/migrations/credits-phase-b2-2026-10-03/PHASE_B2_REPORT.md": "172d7659bc1f0a10968cbe589f60aab0d26f6cba666bdccd4852d1cf068cc347",
+      "docs/migrations/credits-phase-b2-2026-10-03/pre-apply-sources.json.gz": "cbaf3c4e394a48078e9cd071e48a3d4c909e1270956d72d1178c9698d52057dc",
+      "docs/migrations/credits-phase-b2-2026-10-03/requirements-audit.md": "7a0405b0efe6beb951a70c410872884e86e14b51beee5c9a1d1e8144a39b65c2",
+      "docs/migrations/credits-phase-b2-2026-10-03/scope-verification.json": "57500188f632da13d36ce1225d398af8f918b7c1bd160a5e91737f1ee1d2f3e2",
+      "docs/migrations/credits-phase-b2-2026-10-03/statistics.json": "e7308084533216adbda4bfe6c6bbbccf5b7d835fd7c9a67f0750d0b84867017f",
+      "docs/migrations/credits-phase-b2-2026-10-03/unresolved-after-b2.json": "b1feff26716031e1c7b951dab00a7163bf3d707dc3d172a444609ba863779ab1",
+      "docs/migrations/credits-phase-b2-2026-10-03/unresolved-index.json": "07d1513dba85e453d4e748f6b0cbfb98e3a02db41d571a02fcccb302086f58ea",
+      "docs/migrations/credits-phase-b2-2026-10-03/verification.json": "1312ba92a06458ae2272fbe6c0abe10b8a3e99782cd60a0446ba33b70756dab5"
+    }
+  },
+  "excludedMetadata": [
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "workId": "wk-0038",
+      "role": "composer",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "workId": "wk-0038",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 44,
+      "title": "MOON PRIDE",
+      "workId": "wk-0044",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 23,
+      "title": "secret base ～君がくれたもの～",
+      "workId": "wk-0023",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "title": "そばかす",
+      "workId": "wk-0035",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "title": "ドリームパレード",
+      "workId": "wk-0024",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "title": "Dragon Night",
+      "workId": "wk-0085",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 28,
+      "title": "いーあるふぁんくらぶ",
+      "workId": "wk-0028",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 27,
+      "title": "シュガーソングとビターステップ",
+      "workId": "wk-0027",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 33,
+      "title": "シルエット",
+      "workId": "wk-0033",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "title": "ハッピーサマーウェディング",
+      "workId": "wk-0047",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 78,
+      "title": "恋は渾沌の隷也",
+      "workId": "wk-0078",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "workId": "wk-0051",
+      "role": "composer",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "workId": "wk-0051",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "target": true,
+      "reason": "BLOCKED_METADATA",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": null
+        }
+      ]
+    }
+  ],
+  "previousMap": [
+    {
+      "candidateKey": "b1-a7ebb5f19b96341985cd",
+      "standardName": "宮崎京一",
+      "creatorId": "cr-0118",
+      "confidence": "CONFIRMED",
+      "previousB1Confidence": "PROBABLE",
+      "status": "BLOCKED_METADATA",
+      "metadata": {
+        "status": "BLOCKED_METADATA",
+        "reason": "限定一次確認で読み・公式英字・安全slugを確定できない。検索snippetや第三者ローマ字から推測しない。"
+      },
+      "officialLatinName": null,
+      "recordReferences": [
+        "garupa:23",
+        "garupa:24",
+        "garupa:27",
+        "garupa:28",
+        "garupa:33",
+        "garupa:35",
+        "garupa:44",
+        "garupa:47"
+      ]
+    },
+    {
+      "candidateKey": "b1-d43891f53862909d7abb",
+      "standardName": "母里治樹",
+      "creatorId": "cr-0119",
+      "confidence": "CONFIRMED",
+      "previousB1Confidence": "PROBABLE",
+      "status": "BLOCKED_METADATA",
+      "metadata": {
+        "status": "BLOCKED_METADATA",
+        "reason": "限定一次確認で読み・公式英字・安全slugを確定できない。検索snippetや第三者ローマ字から推測しない。"
+      },
+      "officialLatinName": null,
+      "recordReferences": [
+        "garupa:21",
+        "garupa:22",
+        "garupa:29",
+        "garupa:38",
+        "garupa:40",
+        "garupa:51",
+        "garupa:78",
+        "garupa:85"
+      ]
+    },
+    {
+      "candidateKey": "b1-a341ddeabf1c140432d9",
+      "standardName": "川渕龍成",
+      "creatorId": "cr-0120",
+      "confidence": "CONFIRMED",
+      "previousB1Confidence": "PROBABLE",
+      "status": "BLOCKED_METADATA",
+      "metadata": {
+        "status": "BLOCKED_METADATA",
+        "reason": "限定一次確認で読み・公式英字・安全slugを確定できない。検索snippetや第三者ローマ字から推測しない。"
+      },
+      "officialLatinName": null,
+      "recordReferences": [
+        "garupa:220",
+        "garupa:231",
+        "garupa:243",
+        "garupa:246",
+        "garupa:248",
+        "garupa:272"
+      ]
+    }
+  ],
+  "previousReleaseAuthorization": false,
+  "releaseAuthorization": {
+    "sourceType": "human-review",
+    "sourceAttachment": "d656fab8-6210-433d-a70f-3a59cfb80f28/pasted-text-1.txt",
+    "commit": true,
+    "push": true,
+    "existingGitDeployment": true
+  }
+}

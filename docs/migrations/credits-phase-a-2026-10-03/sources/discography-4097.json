@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4097/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:42.533Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ 3rd Single「真夜中遊園地」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年9月3日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 52,
+      "workId": "wk-0797",
+      "title": "真夜中遊園地",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "1.真夜中遊園地",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ 3rd Single「真夜中遊園地」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

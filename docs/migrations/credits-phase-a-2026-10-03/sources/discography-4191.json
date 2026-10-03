@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/4191/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:26.008Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock!「ホーミー・タイッ！！」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年3月2日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「ホーミー・タイッ！！」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤井健太郎"
+    },
+    {
+      "line": 3,
+      "text": "作曲：藤井健太郎"
+    },
+    {
+      "line": 4,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 71,
+      "workId": "wk-0815",
+      "title": "ホーミー・タイッ！！",
+      "band": "一家Dumb Rock!",
+      "scope": "release",
+      "context": "「ホーミー・タイッ！！」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "一家Dumb Rock!「ホーミー・タイッ！！」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

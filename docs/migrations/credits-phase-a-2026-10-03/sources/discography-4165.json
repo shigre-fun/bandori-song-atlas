@@ -1,0 +1,249 @@
+{
+  "url": "https://bang-dream.com/discographies/4165/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:15.806Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 3rd Album「致並跡」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2026年7月15日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 712,
+      "workId": "wk-0696",
+      "title": "エガクミライ",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5. エガクミライ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 535,
+      "workId": "wk-0526",
+      "title": "処救生",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "4. 処救生",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5. 影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 697,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10. 往欄印",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 620,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 歩拾道",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 694,
+      "workId": "wk-0678",
+      "title": "残痕字",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2. 残痕字",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 771,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "11. 無路矢",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 497,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "12. 碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 732,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7. 端程山",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 663,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9. 聿日箋秋",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "8. 迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "8. 迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "12. 碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5. 影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 10,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "11. 無路矢",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 12,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 歩拾道",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 13,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7. 端程山",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 14,
+      "workId": "wk-0776",
+      "title": "砂寸奏",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9. 砂寸奏",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 16,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9. 聿日箋秋",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 17,
+      "workId": "wk-0777",
+      "title": "証命讃歌",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "4. 証命讃歌",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 18,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10. 往欄印",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 3rd Album「致並跡」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

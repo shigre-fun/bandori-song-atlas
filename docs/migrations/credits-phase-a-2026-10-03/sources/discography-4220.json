@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4220/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:17.854Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "マジカルフィジカル☆くるる(CV.釘宮理恵)「マジるる！ナイスバルク」",
+  "artists": "",
+  "releaseDate": "2026年7月3日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「マジるる！ナイスバルク」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：烏屋茶房"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：橘亮祐"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "マジカルフィジカル☆くるる(CV.釘宮理恵)「マジるる！ナイスバルク」",
+  "indexArtists": [
+    "その他"
+  ],
+  "reason": null
+}

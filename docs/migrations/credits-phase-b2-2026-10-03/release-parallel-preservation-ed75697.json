@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-04",
+  "sourceType": "human-review",
+  "remoteSha": "ed756974d9aba75095c3b3cfcff05d600e948fb0",
+  "remoteSourceHashes": {
+    "data/garupa/songs.json": "cbebd2d890c5fb772e4f27f1645127e6121fb27f9b8b072f497464de0537c645",
+    "data/ournotes/songs.json": "55396287c9f165652177c19d76370932d9b00902514b07e7cd663861f00329e3",
+    "data/ournotes/admin-state.json": "587bb21a9fde555b7be65f950e130b8242f03ed9cfd296ce002f5249528b7e89"
+  },
+  "beforeHashes": {
+    "data/garupa/songs.json": "334fcca9c6413484252842cbca8d0dece86c65f71a29ff8dd3bdc68aba7c0d1e",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/ournotes/admin-state.json": "2f385d608bdb8f575fe10388aca113f63841b948e7fcceb616ea453d1fd97972"
+  },
+  "changes": {
+    "garupa": [
+      {
+        "id": 758,
+        "title": "過去を喰らう",
+        "changes": [
+          {
+            "field": "relatedSongIds",
+            "remote": [
+              "ournotes:86"
+            ],
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0739"
+      }
+    ],
+    "ournotes": [
+      {
+        "id": 11,
+        "title": "名無声",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 111,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "difficulties",
+            "local": {
+              "EASY": {
+                "level": 6,
+                "notes": 379
+              },
+              "NORMAL": {
+                "level": 10,
+                "notes": 568
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 747
+              },
+              "EXPERT": {
+                "level": 25,
+                "notes": 911
+              }
+            },
+            "remote": {
+              "EASY": {
+                "level": 6,
+                "notes": 379
+              },
+              "NORMAL": {
+                "level": 10,
+                "notes": 569
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 747
+              },
+              "EXPERT": {
+                "level": 25,
+                "notes": 911
+              }
+            },
+            "old": {
+              "EASY": {
+                "level": 6,
+                "notes": 379
+              },
+              "NORMAL": {
+                "level": 10,
+                "notes": 568
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 747
+              },
+              "EXPERT": {
+                "level": 25,
+                "notes": 911
+              }
+            },
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "8abc736c-8a50-4657-81bb-51fe8a920b64",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0588"
+      },
+      {
+        "id": 12,
+        "title": "歩拾道",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 110,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "6ebb9330-1b0a-49ad-9bca-06daad599084",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0611"
+      },
+      {
+        "id": 13,
+        "title": "端程山",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 98,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "d38deed4-1c8c-4252-828e-caaf544de31d",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0716"
+      },
+      {
+        "id": 14,
+        "title": "砂寸奏",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 108,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "difficulties",
+            "local": {
+              "EASY": {
+                "level": 6,
+                "notes": 208
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 322
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 532
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 725
+              }
+            },
+            "remote": {
+              "EASY": {
+                "level": 6,
+                "notes": 209
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 323
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 532
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 725
+              }
+            },
+            "old": {
+              "EASY": {
+                "level": 6,
+                "notes": 208
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 322
+              },
+              "HARD": {
+                "level": 20,
+                "notes": 532
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 725
+              }
+            },
+            "remoteChanged": true
+          },
+          {
+            "field": "relatedSongIds",
+            "remote": [],
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "e24017c5-96d6-419b-8fc7-f29c8ea98e59",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0776"
+      },
+      {
+        "id": 15,
+        "title": "焚音打",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 170,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "1aaee82b-6524-4657-a2fa-571cbb6faa03",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0651"
+      },
+      {
+        "id": 16,
+        "title": "聿日箋秋",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 92,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "bfaa442b-e1a7-4716-9535-22f5f27a0438",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0650"
+      },
+      {
+        "id": 17,
+        "title": "証命讃歌",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "durationSeconds",
+            "local": null,
+            "remote": 113,
+            "old": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "difficulties",
+            "local": {
+              "EASY": {
+                "level": 8,
+                "notes": 300
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 720
+              },
+              "HARD": {
+                "level": 22,
+                "notes": 752
+              },
+              "EXPERT": {
+                "level": 26,
+                "notes": 1111
+              }
+            },
+            "remote": {
+              "EASY": {
+                "level": 8,
+                "notes": 301
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 720
+              },
+              "HARD": {
+                "level": 22,
+                "notes": 752
+              },
+              "EXPERT": {
+                "level": 26,
+                "notes": 1111
+              }
+            },
+            "old": {
+              "EASY": {
+                "level": 8,
+                "notes": 300
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 720
+              },
+              "HARD": {
+                "level": 22,
+                "notes": 752
+              },
+              "EXPERT": {
+                "level": 26,
+                "notes": 1111
+              }
+            },
+            "remoteChanged": true
+          },
+          {
+            "field": "relatedSongIds",
+            "remote": [],
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "e397b194-2225-40de-9d23-eb4bb848b4c3",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0777"
+      },
+      {
+        "id": 22,
+        "title": "ホワイトノイズ",
+        "changes": [
+          {
+            "field": "releaseDate",
+            "local": "2026-09-24T00:00:00+09:00",
+            "remote": "2026-09-24T00:00+09:00",
+            "old": "2026-09-24T00:00:00+09:00",
+            "remoteChanged": true
+          },
+          {
+            "field": "difficulties",
+            "local": {
+              "EASY": {
+                "level": 6,
+                "notes": 304
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 450
+              },
+              "HARD": {
+                "level": 18,
+                "notes": 620
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 768
+              }
+            },
+            "remote": {
+              "EASY": {
+                "level": 6,
+                "notes": 304
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 450
+              },
+              "HARD": {
+                "level": 18,
+                "notes": 620
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 769
+              }
+            },
+            "old": {
+              "EASY": {
+                "level": 6,
+                "notes": 304
+              },
+              "NORMAL": {
+                "level": 13,
+                "notes": 450
+              },
+              "HARD": {
+                "level": 18,
+                "notes": 620
+              },
+              "EXPERT": {
+                "level": 24,
+                "notes": 768
+              }
+            },
+            "remoteChanged": true
+          },
+          {
+            "field": "mv",
+            "remote": null,
+            "remoteChanged": true
+          },
+          {
+            "field": "revision",
+            "remote": "deffbeba-73bb-4009-8c3f-eaef71ca696e",
+            "remoteChanged": true
+          }
+        ],
+        "workId": "wk-0538"
+      }
+    ]
+  },
+  "group": {
+    "band": "MyGO!!!!!",
+    "category": "カバー"
+  },
+  "remoteRecord": {
+    "id": 86,
+    "title": "過去を喰らう",
+    "reading": "カコヲクラウ",
+    "releaseDate": "2026-10-03T15:00+09:00",
+    "releaseOrder": null,
+    "composer": "カンザキイオリ",
+    "originalArtist": "花譜",
+    "originalWork": null,
+    "mv": null,
+    "songType": "紫苑",
+    "gekisouSections": [
+      "COMBO",
+      "COMBO",
+      "COMBO"
+    ],
+    "relatedSongIds": [
+      "garupa:758"
+    ],
+    "bpm": 187,
+    "bpmMin": null,
+    "bpmMax": null,
+    "durationSeconds": 126,
+    "aliases": [],
+    "difficulties": {
+      "EASY": {
+        "level": 7,
+        "notes": 323
+      },
+      "NORMAL": {
+        "level": 13,
+        "notes": 664
+      },
+      "HARD": {
+        "level": 19,
+        "notes": 917
+      },
+      "EXPERT": {
+        "level": 25,
+        "notes": 1144
+      }
+    },
+    "submissionId": "93f5e586-b01e-4a54-97eb-2c9816ade56d"
+  },
+  "record": {
+    "id": 86,
+    "title": "過去を喰らう",
+    "reading": "カコヲクラウ",
+    "releaseDate": "2026-10-03T15:00+09:00",
+    "releaseOrder": null,
+    "composer": "カンザキイオリ",
+    "originalArtist": "花譜",
+    "originalWork": null,
+    "mv": null,
+    "songType": "紫苑",
+    "gekisouSections": [
+      "COMBO",
+      "COMBO",
+      "COMBO"
+    ],
+    "relatedSongIds": [
+      "garupa:758"
+    ],
+    "bpm": 187,
+    "bpmMin": null,
+    "bpmMax": null,
+    "durationSeconds": 126,
+    "aliases": [],
+    "difficulties": {
+      "EASY": {
+        "level": 7,
+        "notes": 323
+      },
+      "NORMAL": {
+        "level": 13,
+        "notes": 664
+      },
+      "HARD": {
+        "level": 19,
+        "notes": 917
+      },
+      "EXPERT": {
+        "level": 25,
+        "notes": 1144
+      }
+    },
+    "submissionId": "93f5e586-b01e-4a54-97eb-2c9816ade56d",
+    "workId": "wk-0739",
+    "credits": [],
+    "creditDisplay": {
+      "lyricist": [],
+      "composer": [
+        {
+          "text": "カンザキイオリ",
+          "unresolved": true
+        }
+      ],
+      "arranger": []
+    }
+  },
+  "linkedRecordId": 758,
+  "linkedWorkId": "wk-0739",
+  "composer": {
+    "id": null,
+    "name": "カンザキイオリ"
+  },
+  "adminState": {
+    "nextId": 87,
+    "updatedAt": "2026-10-03T14:58:01.460Z"
+  }
+}

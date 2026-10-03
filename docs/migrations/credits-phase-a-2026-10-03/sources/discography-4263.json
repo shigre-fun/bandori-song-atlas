@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4263/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:09.076Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「in my words」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年9月11日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「in my words」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：白神真志朗"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 57,
+      "workId": "wk-0804",
+      "title": "in my words",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「in my words」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「in my words」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

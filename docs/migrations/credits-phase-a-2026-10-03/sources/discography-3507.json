@@ -1,0 +1,52 @@
+{
+  "url": "https://bang-dream.com/discographies/3507/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:14.494Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「迷路日々」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年9月1日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "MyGO!!!!!「迷路日々」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：松坂康司(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 510,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「迷路日々」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 9,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「迷路日々」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「迷路日々」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

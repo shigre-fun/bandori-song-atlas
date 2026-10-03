@@ -1,0 +1,190 @@
+{
+  "total": 884,
+  "investigated": 884,
+  "officialBodyMatchedRecords": 840,
+  "roles": {
+    "lyricist": {
+      "rawAcquired": 840,
+      "confirmed": 834,
+      "missing": 44,
+      "conflicts": 1,
+      "unreadable": 0,
+      "statuses": {
+        "CONFIRMED": 763,
+        "MULTI_SOURCE_CONFIRMED": 71,
+        "SOURCE_MISSING": 28,
+        "SOURCE_UNREADABLE": 0,
+        "CREDIT_NOT_LISTED": 16,
+        "CONFLICT": 1,
+        "MATCH_UNCERTAIN": 5,
+        "NEEDS_REVIEW": 0
+      }
+    },
+    "composer": {
+      "rawAcquired": 839,
+      "confirmed": 830,
+      "missing": 45,
+      "conflicts": 4,
+      "unreadable": 0,
+      "statuses": {
+        "CONFIRMED": 759,
+        "MULTI_SOURCE_CONFIRMED": 71,
+        "SOURCE_MISSING": 28,
+        "SOURCE_UNREADABLE": 0,
+        "CREDIT_NOT_LISTED": 17,
+        "CONFLICT": 4,
+        "MATCH_UNCERTAIN": 5,
+        "NEEDS_REVIEW": 0
+      }
+    },
+    "arranger": {
+      "rawAcquired": 812,
+      "confirmed": 754,
+      "missing": 72,
+      "conflicts": 0,
+      "unreadable": 0,
+      "statuses": {
+        "CONFIRMED": 754,
+        "MULTI_SOURCE_CONFIRMED": 0,
+        "SOURCE_MISSING": 39,
+        "SOURCE_UNREADABLE": 0,
+        "CREDIT_NOT_LISTED": 33,
+        "CONFLICT": 0,
+        "MATCH_UNCERTAIN": 5,
+        "NEEDS_REVIEW": 53
+      }
+    }
+  },
+  "games": {
+    "garupa": {
+      "total": 799,
+      "lyricist": {
+        "rawAcquired": 768,
+        "confirmed": 763,
+        "missing": 31,
+        "conflicts": 0,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 717,
+          "MULTI_SOURCE_CONFIRMED": 46,
+          "SOURCE_MISSING": 23,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 8,
+          "CONFLICT": 0,
+          "MATCH_UNCERTAIN": 5,
+          "NEEDS_REVIEW": 0
+        }
+      },
+      "composer": {
+        "rawAcquired": 767,
+        "confirmed": 759,
+        "missing": 32,
+        "conflicts": 3,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 713,
+          "MULTI_SOURCE_CONFIRMED": 46,
+          "SOURCE_MISSING": 23,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 9,
+          "CONFLICT": 3,
+          "MATCH_UNCERTAIN": 5,
+          "NEEDS_REVIEW": 0
+        }
+      },
+      "arranger": {
+        "rawAcquired": 763,
+        "confirmed": 749,
+        "missing": 36,
+        "conflicts": 0,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 749,
+          "MULTI_SOURCE_CONFIRMED": 0,
+          "SOURCE_MISSING": 27,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 9,
+          "CONFLICT": 0,
+          "MATCH_UNCERTAIN": 5,
+          "NEEDS_REVIEW": 9
+        }
+      }
+    },
+    "ournotes": {
+      "total": 85,
+      "lyricist": {
+        "rawAcquired": 72,
+        "confirmed": 71,
+        "missing": 13,
+        "conflicts": 1,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 46,
+          "MULTI_SOURCE_CONFIRMED": 25,
+          "SOURCE_MISSING": 5,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 8,
+          "CONFLICT": 1,
+          "MATCH_UNCERTAIN": 0,
+          "NEEDS_REVIEW": 0
+        }
+      },
+      "composer": {
+        "rawAcquired": 72,
+        "confirmed": 71,
+        "missing": 13,
+        "conflicts": 1,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 46,
+          "MULTI_SOURCE_CONFIRMED": 25,
+          "SOURCE_MISSING": 5,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 8,
+          "CONFLICT": 1,
+          "MATCH_UNCERTAIN": 0,
+          "NEEDS_REVIEW": 0
+        }
+      },
+      "arranger": {
+        "rawAcquired": 49,
+        "confirmed": 5,
+        "missing": 36,
+        "conflicts": 0,
+        "unreadable": 0,
+        "statuses": {
+          "CONFIRMED": 5,
+          "MULTI_SOURCE_CONFIRMED": 0,
+          "SOURCE_MISSING": 12,
+          "SOURCE_UNREADABLE": 0,
+          "CREDIT_NOT_LISTED": 24,
+          "CONFLICT": 0,
+          "MATCH_UNCERTAIN": 0,
+          "NEEDS_REVIEW": 44
+        }
+      }
+    }
+  },
+  "workAllRecordsConfirmed": {
+    "lyricist": 773,
+    "composer": 771,
+    "arranger": 697
+  },
+  "sourceStats": {
+    "fetched": 426,
+    "creditOrTrackContextUsed": 241,
+    "creditUsed": 76,
+    "browser": 3,
+    "unreadable": 0
+  },
+  "composerAudit": {
+    "EXACT": 812,
+    "FORMAT_ONLY": 12,
+    "KNOWN_CREATOR_EQUIVALENT": 2,
+    "OFFICIAL_DIFFERS": 2,
+    "CURRENT_MISSING": 2,
+    "OFFICIAL_MISSING": 45,
+    "MATCH_UNCERTAIN": 9
+  },
+  "composerComparable": 830
+}

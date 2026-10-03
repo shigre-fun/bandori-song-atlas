@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-03T03:43:04.386Z",
+  "context": "公式本文は事前公開のカバー5曲とAnd moreの紹介。収録時点は各recordと別途照合。",
+  "pageReadStatus": "BROWSER_CONFIRMED",
+  "pageTitle": "バンドリ！アワーノーツ",
+  "rows": [
+    {
+      "artist": "MyGO!!!!!",
+      "category": "cover",
+      "creditFields": [
+        {
+          "creditText": "作詞：樋口愛",
+          "label": "作詞",
+          "value": "樋口愛"
+        },
+        {
+          "creditText": "作曲：音羽-otoha-",
+          "label": "作曲",
+          "value": "音羽-otoha-"
+        },
+        {
+          "creditText": "編曲：植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "label": "編曲",
+          "value": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+        }
+      ],
+      "title": "青春コンプレックス"
+    },
+    {
+      "artist": "Ave Mujica",
+      "category": "cover",
+      "creditFields": [
+        {
+          "creditText": "作詞：及川　眠子",
+          "label": "作詞",
+          "value": "及川　眠子"
+        },
+        {
+          "creditText": "作曲：佐藤　英敏",
+          "label": "作曲",
+          "value": "佐藤　英敏"
+        },
+        {
+          "creditText": "編曲：植木建象、冬真",
+          "label": "編曲",
+          "value": "植木建象、冬真"
+        }
+      ],
+      "title": "残酷な天使のテーゼ"
+    },
+    {
+      "artist": "夢限大みゅーたいぷ",
+      "category": "cover",
+      "creditFields": [
+        {
+          "creditText": "作詞：田淵　智也",
+          "label": "作詞",
+          "value": "田淵　智也"
+        },
+        {
+          "creditText": "作曲：田淵　智也",
+          "label": "作曲",
+          "value": "田淵　智也"
+        },
+        {
+          "creditText": "編曲：岡村大輔",
+          "label": "編曲",
+          "value": "岡村大輔"
+        }
+      ],
+      "title": "オリオンをなぞる"
+    },
+    {
+      "artist": "millsage",
+      "category": "cover",
+      "creditFields": [
+        {
+          "creditText": "作詞：ぬゆり",
+          "label": "作詞",
+          "value": "ぬゆり"
+        },
+        {
+          "creditText": "作曲：ぬゆり",
+          "label": "作曲",
+          "value": "ぬゆり"
+        },
+        {
+          "creditText": "編曲：太田雄大",
+          "label": "編曲",
+          "value": "太田雄大"
+        }
+      ],
+      "title": "ロウワー"
+    },
+    {
+      "artist": "一家Dumb Rock!",
+      "category": "cover",
+      "creditFields": [
+        {
+          "creditText": "作詞：ORANGE RANGE",
+          "label": "作詞",
+          "value": "ORANGE RANGE"
+        },
+        {
+          "creditText": "作曲：ORANGE RANGE",
+          "label": "作曲",
+          "value": "ORANGE RANGE"
+        },
+        {
+          "creditText": "編曲：藤井健太郎",
+          "label": "編曲",
+          "value": "藤井健太郎"
+        }
+      ],
+      "title": "イケナイ太陽"
+    }
+  ],
+  "sourceReliability": "PRIMARY",
+  "sourceType": "game-official",
+  "url": "https://bang-dream-on.bushimo.jp/music/",
+  "retrievalAttempts": [
+    {
+      "method": "web open",
+      "result": "Internal Error; snippet not used"
+    },
+    {
+      "method": "browser DOM",
+      "result": "official body and credit definition lists confirmed"
+    }
+  ]
+}

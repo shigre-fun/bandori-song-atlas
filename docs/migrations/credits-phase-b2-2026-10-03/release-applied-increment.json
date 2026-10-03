@@ -1,0 +1,2309 @@
+{
+  "version": 1,
+  "backup": ".cache/credits-phase-b2-1791036388583",
+  "inputHashes": {
+    "data/creators.json": "665fc19f12bc85f71da50131f502b02b7794ff2a4bc7faf26b03b748be147f78",
+    "data/garupa/songs.json": "d96fedd742a62d4f10e1ee59a81993992dfecc6f3c6c3e02de8d511ab7a36261",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "outputHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/garupa/songs.json": "22b052e1c30055cee9f0b596180a56997d6f7558b3f6b4150b01efc28dbe26f0",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "relations": [
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "workId": "wk-0038",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-13a7192b31eb52097d84",
+              "supports": "garupa:38 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "workId": "wk-0038",
+      "role": "composer",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-13a7192b31eb52097d84",
+              "supports": "garupa:38 composer: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "NORMALIZE_CURRENT_DISPLAY",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 44,
+      "title": "MOON PRIDE",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0044",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5cacfa78a9d51482fc08",
+              "supports": "garupa:44 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5cacfa78a9d51482fc08",
+              "supports": "garupa:44 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 23,
+      "title": "secret base ～君がくれたもの～",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0023",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5702e6f4d3a029c34177",
+              "supports": "garupa:23 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5702e6f4d3a029c34177",
+              "supports": "garupa:23 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "title": "そばかす",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0035",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-15bf2b2e6f49586c6b15",
+              "supports": "garupa:35 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-15bf2b2e6f49586c6b15",
+              "supports": "garupa:35 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "title": "ドリームパレード",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0024",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-cdc1a8ce31a5589df954",
+              "supports": "garupa:24 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-cdc1a8ce31a5589df954",
+              "supports": "garupa:24 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "title": "Dragon Night",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0085",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-1b94be2b82a5452c8bb5",
+              "supports": "garupa:85 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 28,
+      "title": "いーあるふぁんくらぶ",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0028",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-7b15e311ad95af828088",
+              "supports": "garupa:28 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-7b15e311ad95af828088",
+              "supports": "garupa:28 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 27,
+      "title": "シュガーソングとビターステップ",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0027",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-6042030c7897248e2641",
+              "supports": "garupa:27 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-6042030c7897248e2641",
+              "supports": "garupa:27 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 33,
+      "title": "シルエット",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0033",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fdb4c02c106cb49c7497",
+              "supports": "garupa:33 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fdb4c02c106cb49c7497",
+              "supports": "garupa:33 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "title": "ハッピーサマーウェディング",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0047",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-a0c72328266e09b0deb5",
+              "supports": "garupa:47 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-a0c72328266e09b0deb5",
+              "supports": "garupa:47 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 78,
+      "title": "恋は渾沌の隷也",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0078",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-0395437cf7268dd648f4",
+              "supports": "garupa:78 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ",
+      "workId": "wk-0051",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-38edba72e16b49ad5c1e",
+              "supports": "garupa:51 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ",
+      "workId": "wk-0051",
+      "role": "composer",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-38edba72e16b49ad5c1e",
+              "supports": "garupa:51 composer: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "NORMALIZE_CURRENT_DISPLAY",
+      "changed": true
+    }
+  ],
+  "summary": {
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 884,
+    "works": 823,
+    "warnings": 0,
+    "patches": 12,
+    "displayComparisons": 2652,
+    "conflicts": 0,
+    "changedFiles": 2
+  },
+  "formalIncrement": [
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "workId": "wk-0038",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-13a7192b31eb52097d84",
+              "supports": "garupa:38 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "workId": "wk-0038",
+      "role": "composer",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-13a7192b31eb52097d84",
+              "supports": "garupa:38 composer: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "NORMALIZE_CURRENT_DISPLAY",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 44,
+      "title": "MOON PRIDE",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0044",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5cacfa78a9d51482fc08",
+              "supports": "garupa:44 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5cacfa78a9d51482fc08",
+              "supports": "garupa:44 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 23,
+      "title": "secret base ～君がくれたもの～",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0023",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5702e6f4d3a029c34177",
+              "supports": "garupa:23 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-5702e6f4d3a029c34177",
+              "supports": "garupa:23 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "title": "そばかす",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0035",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-15bf2b2e6f49586c6b15",
+              "supports": "garupa:35 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-15bf2b2e6f49586c6b15",
+              "supports": "garupa:35 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "title": "ドリームパレード",
+      "band": "Pastel＊Palettes",
+      "workId": "wk-0024",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-cdc1a8ce31a5589df954",
+              "supports": "garupa:24 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-cdc1a8ce31a5589df954",
+              "supports": "garupa:24 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "title": "Dragon Night",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0085",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-1b94be2b82a5452c8bb5",
+              "supports": "garupa:85 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 28,
+      "title": "いーあるふぁんくらぶ",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0028",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-7b15e311ad95af828088",
+              "supports": "garupa:28 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-7b15e311ad95af828088",
+              "supports": "garupa:28 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 27,
+      "title": "シュガーソングとビターステップ",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0027",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-6042030c7897248e2641",
+              "supports": "garupa:27 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-6042030c7897248e2641",
+              "supports": "garupa:27 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 33,
+      "title": "シルエット",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0033",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fdb4c02c106cb49c7497",
+              "supports": "garupa:33 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fdb4c02c106cb49c7497",
+              "supports": "garupa:33 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "title": "ハッピーサマーウェディング",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0047",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／宮崎京一",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "GLOBAL_CONFIRMED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-a0c72328266e09b0deb5",
+              "supports": "garupa:47 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "宮崎京一",
+          "normalized": "宮崎京一",
+          "affiliation": null,
+          "standardName": "宮崎京一",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a7ebb5f19b96341985cd",
+          "identityKey": "b1-a7ebb5f19b96341985cd",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "宮崎京一",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+              "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-a0c72328266e09b0deb5",
+              "supports": "garupa:47 arranger: 都丸椋太（Elements Garden）／宮崎京一",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0118"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 78,
+      "title": "恋は渾沌の隷也",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0078",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-0395437cf7268dd648f4",
+              "supports": "garupa:78 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ",
+      "workId": "wk-0051",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-38edba72e16b49ad5c1e",
+              "supports": "garupa:51 arranger: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ",
+      "workId": "wk-0051",
+      "role": "composer",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SINGLE",
+      "rawCredit": "母里治樹（Elements Garden）",
+      "creatorTokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "normalized": "母里治樹",
+          "affiliation": "Elements Garden",
+          "standardName": "母里治樹",
+          "existingCreatorId": null,
+          "candidateKey": "b1-d43891f53862909d7abb",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "applicability": "REVIEW_REQUIRED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "母里治樹",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+              "sourceType": "label-official",
+              "checkedAt": "2026-10-03",
+              "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-38edba72e16b49ad5c1e",
+              "supports": "garupa:51 composer: 母里治樹（Elements Garden）",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            }
+          ],
+          "reason": "B2 explicit human identity review",
+          "affiliationParticipation": false,
+          "confirmedAliases": [
+            "母里治樹（Elements Garden）"
+          ],
+          "scopePolicy": "GLOBAL_IF_CONFIRMED",
+          "recordScope": null,
+          "creatorId": "cr-0119"
+        }
+      ],
+      "humanReviewId": null,
+      "action": "NORMALIZE_CURRENT_DISPLAY",
+      "changed": true
+    }
+  ]
+}

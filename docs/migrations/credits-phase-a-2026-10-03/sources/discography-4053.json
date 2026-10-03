@@ -1,0 +1,189 @@
+{
+  "url": "https://bang-dream.com/discographies/4053/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:53.800Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 13th Single「HOWLING AMBITION」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2025年6月11日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 602,
+      "workId": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.Bad Kids All Bet",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 276,
+      "workId": "wk-0270",
+      "title": "Beautiful Birthday",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.Beautiful Birthday",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 371,
+      "workId": "wk-0365",
+      "title": "CORUSCATE -DNA-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7.CORUSCATE -DNA-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 314,
+      "workId": "wk-0308",
+      "title": "EXIST",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.EXIST",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13.EXPOSE 'Burn out!!!'",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 651,
+      "workId": "wk-0640",
+      "title": "HOWLING AMBITION",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.HOWLING AMBITION",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 624,
+      "workId": "wk-0615",
+      "title": "JUST THE WAY I AM",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.JUST THE WAY I AM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 578,
+      "workId": "wk-0569",
+      "title": "Life on the Lotus",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.Life on the Lotus",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 404,
+      "workId": "wk-0397",
+      "title": "Light a fire",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "14.Light a fire",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 436,
+      "workId": "wk-0429",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.Takin’ my Heart",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 582,
+      "workId": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11.V.I.P MONSTER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 626,
+      "workId": "wk-0617",
+      "title": "VIVID FIRST TIME",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.VIVID FIRST TIME",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 631,
+      "workId": "wk-0621",
+      "title": "WELCOME TO PANDEMONIUM",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "15.WELCOME TO PANDEMONIUM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 339,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "12.灼熱 Bonfire!",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 13th Single「HOWLING AMBITION」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

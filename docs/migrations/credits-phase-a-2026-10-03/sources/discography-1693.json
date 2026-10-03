@@ -1,0 +1,149 @@
+{
+  "url": "https://bang-dream.com/discographies/1693/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:39.776Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 1st Album「ERA」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2020年8月19日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.!NVADE SHOW!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 255,
+      "workId": "wk-0249",
+      "title": "A DECLARATION OF ×××",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.A DECLARATION OF ×××",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 276,
+      "workId": "wk-0270",
+      "title": "Beautiful Birthday",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.Beautiful Birthday",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11.EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.Invincible Fighter",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 672,
+      "workId": "wk-0659",
+      "title": "REIGNING",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.REIGNING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 414,
+      "workId": "wk-0407",
+      "title": "SOUL SOLDIER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.SOUL SOLDIER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 436,
+      "workId": "wk-0429",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7.Takin’ my Heart",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 195,
+      "workId": "wk-0195",
+      "title": "1/3の純情な感情",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.1/3の純情な感情",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 213,
+      "workId": "wk-0211",
+      "title": "激動",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.激動",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 1st Album「ERA」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

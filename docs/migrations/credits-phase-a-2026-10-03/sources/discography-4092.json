@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/4092/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:47.228Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 7th Single「往欄印」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2025年8月6日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 697,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.往欄印",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 694,
+      "workId": "wk-0678",
+      "title": "残痕字",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.残痕字",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 18,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.往欄印",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 7th Single「往欄印」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

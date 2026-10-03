@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/4190/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:26.455Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「起死開戦」",
+  "artists": "millsage",
+  "releaseDate": "2026年3月2日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「起死開戦」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤井健太郎"
+    },
+    {
+      "line": 3,
+      "text": "作曲：藤井健太郎"
+    },
+    {
+      "line": 4,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 63,
+      "workId": "wk-0809",
+      "title": "起死開戦",
+      "band": "millsage",
+      "scope": "release",
+      "context": "「起死開戦」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "millsage「起死開戦」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

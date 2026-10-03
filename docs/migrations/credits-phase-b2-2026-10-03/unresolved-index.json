@@ -1,0 +1,5289 @@
+{
+  "lyricist": [
+    {
+      "game": "garupa",
+      "recordId": 120,
+      "title": "DAYS",
+      "workId": "wk-0120",
+      "role": "lyricist",
+      "rawCredit": "KEIGO HAYASHI KOHSHI ASAKAWA",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "KEIGO HAYASHI KOHSHI ASAKAWA",
+          "identityKey": "b1-aed4f55bb80088cd7920",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 101,
+      "title": "GLAMOROUS SKY",
+      "workId": "wk-0101",
+      "role": "lyricist",
+      "rawCredit": "AI YAZAWA",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "AI YAZAWA",
+          "identityKey": "b1-afb9ede13d72694476ad",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 502,
+      "title": "HOT LIMIT",
+      "workId": "wk-0493",
+      "role": "lyricist",
+      "rawCredit": "井上秋緒",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "井上秋緒",
+          "identityKey": "b1-aa78c4e37112cd48f2cf",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 123,
+      "title": "Life Will Change",
+      "workId": "wk-0123",
+      "role": "lyricist",
+      "rawCredit": "Benjamin Franklin",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Benjamin Franklin",
+          "identityKey": "b1-778261d5431d1cdd092e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 751,
+      "title": "MATSURI BAYASHI",
+      "workId": "wk-0732",
+      "role": "lyricist",
+      "rawCredit": "寺中友将",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "寺中友将",
+          "identityKey": "b1-938c2a2435195af49776",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 711,
+      "title": "POP IN 2",
+      "workId": "wk-0695",
+      "role": "lyricist",
+      "rawCredit": "つむぎしゃち",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "つむぎしゃち",
+          "identityKey": "b1-6899171acbfe7270e071",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 640,
+      "title": "STEP by STEP UP↑↑↑↑",
+      "workId": "wk-0629",
+      "role": "lyricist",
+      "rawCredit": "烏屋 茶房、篠崎 あやと",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "烏屋 茶房",
+          "identityKey": "b1-397cc1de0e1b600bf103",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0122"
+        },
+        {
+          "raw": "篠崎 あやと",
+          "identityKey": "cr-0083",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0083"
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 155,
+      "title": "Wake up!",
+      "workId": "wk-0155",
+      "role": "lyricist",
+      "rawCredit": "leonn",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "leonn",
+          "identityKey": "b1-31cc6557090414795a7e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 60,
+      "title": "only my railgun",
+      "workId": "wk-0060",
+      "role": "lyricist",
+      "rawCredit": "八木沼悟志 yuki-ka",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "八木沼悟志 yuki-ka",
+          "identityKey": "b1-be2f872b0d4ba21abd2f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 687,
+      "title": "つよがるガール feat. もっさ",
+      "workId": "wk-0673",
+      "role": "lyricist",
+      "rawCredit": "ぼっちぼろまる",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ぼっちぼろまる",
+          "identityKey": "b1-6bcc0006d9efcb7a22e3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 493,
+      "title": "オドループ",
+      "workId": "wk-0484",
+      "role": "lyricist",
+      "rawCredit": "Koji Mihara",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Koji Mihara",
+          "identityKey": "b1-4b07d0bd173c99c9d368",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 447,
+      "title": "スターナイトスノウ",
+      "workId": "wk-0440",
+      "role": "lyricist",
+      "rawCredit": "n-buna・Orangestar",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "n-buna・Orangestar",
+          "identityKey": "b1-43f4312a8488e14c23f3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 281,
+      "title": "セツナトリップ",
+      "workId": "wk-0275",
+      "role": "lyricist",
+      "rawCredit": "Last Note.",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Last Note.",
+          "identityKey": "b1-fce21d77e4a7daaa0b33",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 186,
+      "title": "チェリボム",
+      "workId": "wk-0186",
+      "role": "lyricist",
+      "rawCredit": "すぅ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "すぅ",
+          "identityKey": "b1-39e4a2098e4f3f26f64c",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 190,
+      "title": "ディスカバリー！",
+      "workId": "wk-0190",
+      "role": "lyricist",
+      "rawCredit": "中村彼方",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "中村彼方",
+          "identityKey": "b1-73cecab2e5e9bcaff092",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 517,
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "workId": "wk-0508",
+      "role": "lyricist",
+      "rawCredit": "ツミキ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ツミキ",
+          "identityKey": "b1-14144a962dfdc95fdb6d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 658,
+      "title": "フィクション",
+      "workId": "wk-0646",
+      "role": "lyricist",
+      "rawCredit": "片岡　健太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "片岡　健太",
+          "identityKey": "b1-a325dd67f7c75e2880fe",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 94,
+      "title": "メランコリック",
+      "workId": "wk-0094",
+      "role": "lyricist",
+      "rawCredit": "Junky",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Junky",
+          "identityKey": "b1-80e30b728decd023a8e5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 133,
+      "title": "ロミオとシンデレラ",
+      "workId": "wk-0133",
+      "role": "lyricist",
+      "rawCredit": "doriko",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "doriko",
+          "identityKey": "b1-8e22ba6db7d43abd4e92",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 31,
+      "title": "光るなら",
+      "workId": "wk-0031",
+      "role": "lyricist",
+      "rawCredit": "Goose house",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Goose house",
+          "identityKey": "b1-627e2799e99aef187f50",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 77,
+      "title": "千本桜",
+      "workId": "wk-0077",
+      "role": "lyricist",
+      "rawCredit": "黒うさ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "黒うさ",
+          "identityKey": "b1-6427ee4579abe0368f2d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 142,
+      "title": "君に届け",
+      "workId": "wk-0142",
+      "role": "lyricist",
+      "rawCredit": "山村　隆太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "山村　隆太",
+          "identityKey": "b1-f3c23daeb80fc5101189",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 126,
+      "title": "夏祭り",
+      "workId": "wk-0126",
+      "role": "lyricist",
+      "rawCredit": "破矢ジンタ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "破矢ジンタ",
+          "identityKey": "b1-fa3e5baefa529e9ab3da",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 331,
+      "title": "大河よ共に泣いてくれ",
+      "workId": "wk-0325",
+      "role": "lyricist",
+      "rawCredit": "古屋真",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "古屋真",
+          "identityKey": "b1-90c023a0cfc23c4df8a9",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 488,
+      "title": "心絵",
+      "workId": "wk-0479",
+      "role": "lyricist",
+      "rawCredit": "北川　賢一",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "北川　賢一",
+          "identityKey": "b1-576bdbcc5ebd9c33a362",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 324,
+      "title": "春〜spring〜",
+      "workId": "wk-0318",
+      "role": "lyricist",
+      "rawCredit": "たくや",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "たくや",
+          "identityKey": "b1-e16d913a5bd83262763e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 19,
+      "title": "空色デイズ",
+      "workId": "wk-0019",
+      "role": "lyricist",
+      "rawCredit": "meg rock",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "meg rock",
+          "identityKey": "b1-071012322fa1f3f02fab",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 248,
+      "title": "群青日和",
+      "workId": "wk-0242",
+      "role": "lyricist",
+      "rawCredit": "椎名林檎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "椎名林檎",
+          "identityKey": "b1-fa3db4ea94453fe0d0f5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 195,
+      "title": "1/3の純情な感情",
+      "workId": "wk-0195",
+      "role": "lyricist",
+      "rawCredit": "SIAM SHADE",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "SIAM SHADE",
+          "identityKey": "b1-1b9b5c3f1532917b8f32",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 707,
+      "title": "BROKEN GAMES",
+      "workId": "wk-0691",
+      "role": "lyricist",
+      "rawCredit": "MAQUMA, JACK",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "MAQUMA",
+          "identityKey": "b1-6113e4054a7a319f9025",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": " JACK",
+          "identityKey": "b1-7d83e3978b7ba912598b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 608,
+      "title": "Bling-Bang-Bang-Born",
+      "workId": "wk-0599",
+      "role": "lyricist",
+      "rawCredit": "R-指定",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "R-指定",
+          "identityKey": "b1-85f0867cdd50b6bfa592",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 500,
+      "title": "Get Wild",
+      "workId": "wk-0491",
+      "role": "lyricist",
+      "rawCredit": "小室 みつ子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "小室 みつ子",
+          "identityKey": "b1-3d560669355ab3461623",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 293,
+      "title": "ブリキノダンス",
+      "workId": "wk-0287",
+      "role": "lyricist",
+      "rawCredit": "日向電工",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "日向電工",
+          "identityKey": "b1-699671a1485c6747c725",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 573,
+      "title": "ボッカデラベリタ",
+      "workId": "wk-0564",
+      "role": "lyricist",
+      "rawCredit": "柊キライ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "柊キライ",
+          "identityKey": "b1-35944f967fbfeb861c2c",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 415,
+      "title": "メギツネ",
+      "workId": "wk-0408",
+      "role": "lyricist",
+      "rawCredit": "MK-METAL・NORiMETAL",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "MK-METAL・NORiMETAL",
+          "identityKey": "b1-dac3eff30ee04711ee16",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 272,
+      "title": "劣等上等",
+      "workId": "wk-0266",
+      "role": "lyricist",
+      "rawCredit": "Reol",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Reol",
+          "identityKey": "b1-fdb3b03e87813e0b214d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 431,
+      "title": "狂乱 Hey Kids!!",
+      "workId": "wk-0424",
+      "role": "lyricist",
+      "rawCredit": "山中拓也",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "山中拓也",
+          "identityKey": "b1-931fef77b702d10b3feb",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 700,
+      "title": "百花繚乱",
+      "workId": "wk-0684",
+      "role": "lyricist",
+      "rawCredit": "幾田 りら",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "幾田 りら",
+          "identityKey": "b1-5adf90f4304bc8e12285",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 545,
+      "title": "第ゼロ感",
+      "workId": "wk-0536",
+      "role": "lyricist",
+      "rawCredit": "TAKUMA",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "TAKUMA",
+          "identityKey": "b1-6c8f6bb02295107ff720",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 659,
+      "title": "第六感",
+      "workId": "wk-0647",
+      "role": "lyricist",
+      "rawCredit": "Reol",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Reol",
+          "identityKey": "b1-fdb3b03e87813e0b214d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 399,
+      "title": "脳漿炸裂ガール",
+      "workId": "wk-0392",
+      "role": "lyricist",
+      "rawCredit": "れるりり",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "れるりり",
+          "identityKey": "b1-43e464089d468fe7f261",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 754,
+      "title": "革命道中",
+      "workId": "wk-0735",
+      "role": "lyricist",
+      "rawCredit": "アイナ・ジ・エンド、Shin Sakiura",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "アイナ・ジ・エンド",
+          "identityKey": "b1-2036c7c5eacf8591e349",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "Shin Sakiura",
+          "identityKey": "b1-5d7723dddce7a50d06c6",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 508,
+      "title": "燦々",
+      "workId": "wk-0499",
+      "role": "lyricist",
+      "rawCredit": "じん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "じん",
+          "identityKey": "b1-cb9773dca1bd6f223c3e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 469,
+      "title": "ALIVE",
+      "workId": "wk-0460",
+      "role": "lyricist",
+      "rawCredit": "重永亮介",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "重永亮介",
+          "identityKey": "b1-075f3cf0b1bb4831fbb1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 342,
+      "title": "COLORFUL BOX",
+      "workId": "wk-0336",
+      "role": "lyricist",
+      "rawCredit": "分島花音",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "分島花音",
+          "identityKey": "b1-8a6fce8454111f1ee43d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 298,
+      "title": "CQCQ",
+      "workId": "wk-0292",
+      "role": "lyricist",
+      "rawCredit": "東野へいと",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "東野へいと",
+          "identityKey": "b1-501d913437bbf5f7b9da",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 266,
+      "title": "LEVEL5 -judgelight-",
+      "workId": "wk-0260",
+      "role": "lyricist",
+      "rawCredit": "fripSide",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "fripSide",
+          "identityKey": "b1-428b9226573129b00d8b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 426,
+      "title": "Memento",
+      "workId": "wk-0419",
+      "role": "lyricist",
+      "rawCredit": "hotaru",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "hotaru",
+          "identityKey": "b1-d384ec5aed7cc25d6bf1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 441,
+      "title": "Nameless Story",
+      "workId": "wk-0434",
+      "role": "lyricist",
+      "rawCredit": "寺島拓篤",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "寺島拓篤",
+          "identityKey": "b1-7776a76b048a03529657",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 282,
+      "title": "Nevereverland",
+      "workId": "wk-0276",
+      "role": "lyricist",
+      "rawCredit": "ナノ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ナノ",
+          "identityKey": "b1-5e6a5c3f8ee646b1d7be",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 546,
+      "title": "Overdose",
+      "workId": "wk-0537",
+      "role": "lyricist",
+      "rawCredit": "なとり",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "なとり",
+          "identityKey": "b1-c618605e1e385961159a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 318,
+      "title": "V.I.P",
+      "workId": "wk-0312",
+      "role": "lyricist",
+      "rawCredit": "マオ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "マオ",
+          "identityKey": "b1-6723de6793ab3c3c6eaf",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 247,
+      "title": "chAngE",
+      "workId": "wk-0241",
+      "role": "lyricist",
+      "rawCredit": "miwa",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "miwa",
+          "identityKey": "b1-5ea0f6be73c39d0dcd72",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 572,
+      "title": "かくれんぼ",
+      "workId": "wk-0563",
+      "role": "lyricist",
+      "rawCredit": "TKT",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "TKT",
+          "identityKey": "b1-30952a0e8161628d92ae",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 706,
+      "title": "オン・ザ・フロントライン",
+      "workId": "wk-0690",
+      "role": "lyricist",
+      "rawCredit": "シノダ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "シノダ",
+          "identityKey": "b1-28d943cf81a349c81d5e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 416,
+      "title": "ボクノート",
+      "workId": "wk-0409",
+      "role": "lyricist",
+      "rawCredit": "大橋卓弥 常田真太郎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "大橋卓弥 常田真太郎",
+          "identityKey": "b1-70bce471503e4742f5a8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 752,
+      "title": "メロウ",
+      "workId": "wk-0733",
+      "role": "lyricist",
+      "rawCredit": "須田景凪",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "須田景凪",
+          "identityKey": "b1-d89650a088c4113529dd",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 271,
+      "title": "深海少女",
+      "workId": "wk-0265",
+      "role": "lyricist",
+      "rawCredit": "ゆうゆ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ゆうゆ",
+          "identityKey": "b1-393ca9c492828f6a46db",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 725,
+      "title": "白い雪のプリンセスは",
+      "workId": "wk-0709",
+      "role": "lyricist",
+      "rawCredit": "のぼる↑",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "のぼる↑",
+          "identityKey": "b1-1fcb8e10015b021ff85f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 258,
+      "title": "秒針を噛む",
+      "workId": "wk-0252",
+      "role": "lyricist",
+      "rawCredit": "ACAね",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ACAね",
+          "identityKey": "b1-420062bf3a60b6fc2c0d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 612,
+      "title": "輪舞-revolution",
+      "workId": "wk-0603",
+      "role": "lyricist",
+      "rawCredit": "奥井 雅美",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "奥井 雅美",
+          "identityKey": "b1-16b4e731162c549c9bd9",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 554,
+      "title": "Ahoy!! 我ら宝鐘海賊団☆",
+      "workId": "wk-0545",
+      "role": "lyricist",
+      "rawCredit": "まろん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "まろん",
+          "identityKey": "b1-da11453717c55eb98a2f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 705,
+      "title": "ビューティ・フォー",
+      "workId": "wk-0689",
+      "role": "lyricist",
+      "rawCredit": "シノダ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "シノダ",
+          "identityKey": "b1-28d943cf81a349c81d5e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 167,
+      "title": "Baby Sweet Berry Love",
+      "workId": "wk-0167",
+      "role": "lyricist",
+      "rawCredit": "山崎寛子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "山崎寛子",
+          "identityKey": "b1-d45c84b3f81753e6a7f0",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 285,
+      "title": "DANCE! おジャ魔女",
+      "workId": "wk-0279",
+      "role": "lyricist",
+      "rawCredit": "もりちよこ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "もりちよこ",
+          "identityKey": "b1-5d3d77f92a985df00f0e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 136,
+      "title": "DISCOTHEQUE",
+      "workId": "wk-0136",
+      "role": "lyricist",
+      "rawCredit": "園田凌士",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "園田凌士",
+          "identityKey": "b1-1a281a5c5f73908e2ea7",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 44,
+      "title": "MOON PRIDE",
+      "workId": "wk-0044",
+      "role": "lyricist",
+      "rawCredit": "Revo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Revo",
+          "identityKey": "b1-4f91af38c06b9f63e032",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 304,
+      "title": "Make it!",
+      "workId": "wk-0298",
+      "role": "lyricist",
+      "rawCredit": "森月キャス",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "森月キャス",
+          "identityKey": "b1-75a7de3e9e79dd6de1c0",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 95,
+      "title": "SAKURAスキップ",
+      "workId": "wk-0095",
+      "role": "lyricist",
+      "rawCredit": "KOCHO",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "KOCHO",
+          "identityKey": "b1-a0c91d44359a21555daa",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 398,
+      "title": "Sparkling Daydream",
+      "workId": "wk-0391",
+      "role": "lyricist",
+      "rawCredit": "ZAQ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ZAQ",
+          "identityKey": "b1-f3428a65accdbe2109a3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 216,
+      "title": "Stay Alive",
+      "workId": "wk-0214",
+      "role": "lyricist",
+      "rawCredit": "Heart's Cry",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Heart's Cry",
+          "identityKey": "b1-3da3ce9a9f923fdf74ee",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 23,
+      "title": "secret base ～君がくれたもの～",
+      "workId": "wk-0023",
+      "role": "lyricist",
+      "rawCredit": "町田紀彦",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "町田紀彦",
+          "identityKey": "b1-5daf7521e275422c1a63",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "title": "そばかす",
+      "workId": "wk-0035",
+      "role": "lyricist",
+      "rawCredit": "YUKI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "YUKI",
+          "identityKey": "b1-ae6e4b8c51d53a40a5cd",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 600,
+      "title": "だから、ひとりじゃない",
+      "workId": "wk-0591",
+      "role": "lyricist",
+      "rawCredit": "KANATA OKAJIMA・Carlos K.",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "KANATA OKAJIMA・Carlos K.",
+          "identityKey": "b1-cda1ae2ddd6c3e38358e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 183,
+      "title": "ときめきポポロン♪",
+      "workId": "wk-0183",
+      "role": "lyricist",
+      "rawCredit": "うらん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "うらん",
+          "identityKey": "b1-15f5b9d2444835a217f8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 69,
+      "title": "はなまるぴっぴはよいこだけ",
+      "workId": "wk-0069",
+      "role": "lyricist",
+      "rawCredit": "あさき",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "あさき",
+          "identityKey": "b1-cd8f0145bb1473eb6e44",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 54,
+      "title": "ふわふわ時間",
+      "workId": "wk-0054",
+      "role": "lyricist",
+      "rawCredit": "秋山澪",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "秋山澪",
+          "identityKey": "b1-6c645a49994fe5f741d7",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 108,
+      "title": "みくみくにしてあげる♪【してやんよ】",
+      "workId": "wk-0108",
+      "role": "lyricist",
+      "rawCredit": "ika_mo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ika_mo",
+          "identityKey": "b1-112bef0ce9ee1d577b32",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 143,
+      "title": "ゆりゆららららゆるゆり大事件",
+      "workId": "wk-0143",
+      "role": "lyricist",
+      "rawCredit": "三弥",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "三弥",
+          "identityKey": "b1-5c26d2903c02f84503f5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 605,
+      "title": "オトナブルー",
+      "workId": "wk-0596",
+      "role": "lyricist",
+      "rawCredit": "新しい学校のリーダー達",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "新しい学校のリーダー達",
+          "identityKey": "b1-fc8f789173c4057f030c",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "title": "ドリームパレード",
+      "workId": "wk-0024",
+      "role": "lyricist",
+      "rawCredit": "渡辺徹/森月キャス",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "渡辺徹",
+          "identityKey": "b1-6a593dbe37ab11538c6b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "森月キャス",
+          "identityKey": "b1-75a7de3e9e79dd6de1c0",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 84,
+      "title": "ハッピーシンセサイザ",
+      "workId": "wk-0084",
+      "role": "lyricist",
+      "rawCredit": "BETTI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "BETTI",
+          "identityKey": "b1-58a727440f942bbd8466",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 764,
+      "title": "ヒカリへ",
+      "workId": "wk-0742",
+      "role": "lyricist",
+      "rawCredit": "miwa",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "miwa",
+          "identityKey": "b1-5ea0f6be73c39d0dcd72",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 325,
+      "title": "ラムのラブソング",
+      "workId": "wk-0319",
+      "role": "lyricist",
+      "rawCredit": "伊藤　アキラ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "伊藤　アキラ",
+          "identityKey": "b1-cd84bc4e61f65e090614",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 153,
+      "title": "奏（かなで）",
+      "workId": "wk-0153",
+      "role": "lyricist",
+      "rawCredit": "大橋卓弥 常田真太郎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "大橋卓弥 常田真太郎",
+          "identityKey": "b1-70bce471503e4742f5a8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 332,
+      "title": "徒花ネクロマンシー",
+      "workId": "wk-0326",
+      "role": "lyricist",
+      "rawCredit": "古屋真",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "古屋真",
+          "identityKey": "b1-90c023a0cfc23c4df8a9",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 708,
+      "title": "恋愛サーキュレーション",
+      "workId": "wk-0692",
+      "role": "lyricist",
+      "rawCredit": "meg rock",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "meg rock",
+          "identityKey": "b1-071012322fa1f3f02fab",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 390,
+      "title": "春を告げる",
+      "workId": "wk-0384",
+      "role": "lyricist",
+      "rawCredit": "くじら",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "くじら",
+          "identityKey": "b1-74f85f9b231edd5248d1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 189,
+      "title": "春擬き",
+      "workId": "wk-0189",
+      "role": "lyricist",
+      "rawCredit": "やなぎなぎ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "やなぎなぎ",
+          "identityKey": "b1-66ae897b64d629d7c4dc",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 654,
+      "title": "最上級にかわいいの！",
+      "workId": "wk-0642",
+      "role": "lyricist",
+      "rawCredit": "コレサワ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "コレサワ",
+          "identityKey": "b1-0ee91f9d51c5f2763ea2",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 769,
+      "title": "超最強",
+      "workId": "wk-0747",
+      "role": "lyricist",
+      "rawCredit": "安部大希-amazuti-",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "安部大希-amazuti-",
+          "identityKey": "b1-4f5bde2d6672e4ad9ab4",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 246,
+      "title": "Bad Apple!! feat. nomico",
+      "workId": "wk-0240",
+      "role": "lyricist",
+      "rawCredit": "Haruka",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Haruka",
+          "identityKey": "b1-3b001de367575133b6ac",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 111,
+      "title": "Believe in my existence",
+      "workId": "wk-0111",
+      "role": "lyricist",
+      "rawCredit": "影山ヒロノブ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "影山ヒロノブ",
+          "identityKey": "b1-af4fe563e4e45d982b07",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 395,
+      "title": "Realize",
+      "workId": "wk-0389",
+      "role": "lyricist",
+      "rawCredit": "篠崎あやと、橘 亮祐",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "篠崎あやと",
+          "identityKey": "cr-0083",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0083"
+        },
+        {
+          "raw": "橘 亮祐",
+          "identityKey": "b1-0e3ca7292ba5e3406c39",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 68,
+      "title": "Red fraction",
+      "workId": "wk-0068",
+      "role": "lyricist",
+      "rawCredit": "MELL",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "MELL",
+          "identityKey": "b1-fd13cfd88311eea8c167",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 370,
+      "title": "SPARK-AGAIN",
+      "workId": "wk-0364",
+      "role": "lyricist",
+      "rawCredit": "aimerrhythm",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "aimerrhythm",
+          "identityKey": "b1-8073219154263565a2c6",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 100,
+      "title": "This game",
+      "workId": "wk-0100",
+      "role": "lyricist",
+      "rawCredit": "深青結希",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "深青結希",
+          "identityKey": "b1-b2716bd1b6b1586e987f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 549,
+      "title": "slash",
+      "workId": "wk-0540",
+      "role": "lyricist",
+      "rawCredit": "馬場　龍樹",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "馬場　龍樹",
+          "identityKey": "b1-e7a81fcda1323ca4ecd2",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 125,
+      "title": "キミの記憶",
+      "workId": "wk-0125",
+      "role": "lyricist",
+      "rawCredit": "小森成雄",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "小森成雄",
+          "identityKey": "b1-d8753949d707d73cedda",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 128,
+      "title": "シャルル",
+      "workId": "wk-0128",
+      "role": "lyricist",
+      "rawCredit": "バルーン",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "バルーン",
+          "identityKey": "b1-237bb622433f04e6517e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 152,
+      "title": "ツキアカリのミチシルベ",
+      "workId": "wk-0152",
+      "role": "lyricist",
+      "rawCredit": "AIMI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "AIMI",
+          "identityKey": "b1-e968de2a8620232102ff",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 606,
+      "title": "人マニア",
+      "workId": "wk-0597",
+      "role": "lyricist",
+      "rawCredit": "原口 沙輔",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "原口 沙輔",
+          "identityKey": "b1-e5c0adced4116a728dfc",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 270,
+      "title": "右肩の蝶",
+      "workId": "wk-0264",
+      "role": "lyricist",
+      "rawCredit": "水野悠良",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "水野悠良",
+          "identityKey": "b1-cf8fdb25efcc0247f13d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 465,
+      "title": "新時代",
+      "workId": "wk-0457",
+      "role": "lyricist",
+      "rawCredit": "中田ヤスタカ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "中田ヤスタカ",
+          "identityKey": "b1-9adc901b0db1eb46210f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 196,
+      "title": "海色",
+      "workId": "wk-0196",
+      "role": "lyricist",
+      "rawCredit": "minatoku",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "minatoku",
+          "identityKey": "b1-582283cb3ac3830eaeb5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 231,
+      "title": "甲賀忍法帖",
+      "workId": "wk-0226",
+      "role": "lyricist",
+      "rawCredit": "瞬火",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "瞬火",
+          "identityKey": "b1-0bbc4359dc2b9de710fd",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 49,
+      "title": "紅蓮の弓矢",
+      "workId": "wk-0049",
+      "role": "lyricist",
+      "rawCredit": "Revo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Revo",
+          "identityKey": "b1-4f91af38c06b9f63e032",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 178,
+      "title": "緋色の空",
+      "workId": "wk-0178",
+      "role": "lyricist",
+      "rawCredit": "川田まみ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "川田まみ",
+          "identityKey": "b1-3c164a01efbd4d649ded",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "title": "Be born",
+      "workId": "wk-0510",
+      "role": "lyricist",
+      "rawCredit": "メガテラ・ゼロ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "メガテラ・ゼロ",
+          "identityKey": "b1-b5f723777c02e993f081",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 396,
+      "title": "Brand new Pastel Road！",
+      "workId": "wk-0390",
+      "role": "lyricist",
+      "rawCredit": "ZAQ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ZAQ",
+          "identityKey": "b1-f3428a65accdbe2109a3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 674,
+      "title": "Bunny Girl",
+      "workId": "wk-0660",
+      "role": "lyricist",
+      "rawCredit": "AKASAKI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "AKASAKI",
+          "identityKey": "b1-391cf2d396c481875a45",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 22,
+      "title": "Butter-Fly",
+      "workId": "wk-0022",
+      "role": "lyricist",
+      "rawCredit": "千綿偉功",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "千綿偉功",
+          "identityKey": "b1-01ca05ebdfc1dba3b944",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 145,
+      "title": "Crow Song",
+      "workId": "wk-0145",
+      "role": "lyricist",
+      "rawCredit": "Jun Maeda",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Jun Maeda",
+          "identityKey": "b1-883fb561e5bf9e3d9a36",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 753,
+      "title": "DAY×DAY",
+      "workId": "wk-0734",
+      "role": "lyricist",
+      "rawCredit": "田邊駿一",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "田邊駿一",
+          "identityKey": "b1-b5a7696df411f41fb21e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 299,
+      "title": "Northern lights",
+      "workId": "wk-0293",
+      "role": "lyricist",
+      "rawCredit": "MEGUMI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "MEGUMI",
+          "identityKey": "b1-7fa46ce50a1a1466c6bb",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 74,
+      "title": "READY STEADY GO",
+      "workId": "wk-0074",
+      "role": "lyricist",
+      "rawCredit": "hyde",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "hyde",
+          "identityKey": "cr-0052",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 124,
+      "title": "Reach Out To The Truth",
+      "workId": "wk-0124",
+      "role": "lyricist",
+      "rawCredit": "田中怜子、小林鉄兵、Lotus Juice",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "田中怜子",
+          "identityKey": "b1-c9462aa47a3a10f7ffee",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "小林鉄兵",
+          "identityKey": "b1-f6cbc2fc0ef8cd8c8955",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "Lotus Juice",
+          "identityKey": "b1-6420aa21ede7b2dbc58a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 87,
+      "title": "Redo",
+      "workId": "wk-0087",
+      "role": "lyricist",
+      "rawCredit": "ミズノゲンキ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ミズノゲンキ",
+          "identityKey": "b1-d82e3bf66ae81c35d3da",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 52,
+      "title": "great escape",
+      "workId": "wk-0052",
+      "role": "lyricist",
+      "rawCredit": "三島想平",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "三島想平",
+          "identityKey": "b1-d338d3a3f4686b7ba574",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 163,
+      "title": "らしさ",
+      "workId": "wk-0163",
+      "role": "lyricist",
+      "rawCredit": "柳沢亮太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "柳沢亮太",
+          "identityKey": "b1-a419967b1fc00f1e3fef",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 609,
+      "title": "カゲロウデイズ",
+      "workId": "wk-0600",
+      "role": "lyricist",
+      "rawCredit": "じん（自然の敵Ｐ）",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "じん（自然の敵Ｐ）",
+          "identityKey": "b1-9cabdf0f7aeba9563100",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 267,
+      "title": "カサブタ",
+      "workId": "wk-0261",
+      "role": "lyricist",
+      "rawCredit": "千綿偉功",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "千綿偉功",
+          "identityKey": "b1-01ca05ebdfc1dba3b944",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 308,
+      "title": "サムライハート(Some Like It Hot!!)",
+      "workId": "wk-0302",
+      "role": "lyricist",
+      "rawCredit": "ＭＯＭＩＫＥＮ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ＭＯＭＩＫＥＮ",
+          "identityKey": "b1-b528ebcd57341a509dce",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 509,
+      "title": "チルドレンレコード(Re:boot)",
+      "workId": "wk-0500",
+      "role": "lyricist",
+      "rawCredit": "じん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "じん",
+          "identityKey": "b1-cb9773dca1bd6f223c3e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 409,
+      "title": "トーキョーワンダー。",
+      "workId": "wk-0402",
+      "role": "lyricist",
+      "rawCredit": "泣き虫",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "泣き虫",
+          "identityKey": "b1-a4866ce15f60372de1be",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 334,
+      "title": "ヒューマノイド",
+      "workId": "wk-0328",
+      "role": "lyricist",
+      "rawCredit": "ACAね",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ACAね",
+          "identityKey": "b1-420062bf3a60b6fc2c0d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 770,
+      "title": "ランデヴー",
+      "workId": "wk-0748",
+      "role": "lyricist",
+      "rawCredit": "佐々木 想",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "佐々木 想",
+          "identityKey": "b1-9c247cabcb5162543d57",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 526,
+      "title": "ヴィラン",
+      "workId": "wk-0517",
+      "role": "lyricist",
+      "rawCredit": "てにをは",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "てにをは",
+          "identityKey": "b1-9d081fc740227451cca6",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 187,
+      "title": "午夜の待ち合わせ",
+      "workId": "wk-0187",
+      "role": "lyricist",
+      "rawCredit": "シュンタロウ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "シュンタロウ",
+          "identityKey": "b1-6eadeb21499235dc66af",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 467,
+      "title": "命に嫌われている。",
+      "workId": "wk-0458",
+      "role": "lyricist",
+      "rawCredit": "カンザキイオリ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "カンザキイオリ",
+          "identityKey": "b1-19d8876cf3cbcb75c068",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 224,
+      "title": "天ノ弱",
+      "workId": "wk-0220",
+      "role": "lyricist",
+      "rawCredit": "164",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "164",
+          "identityKey": "b1-3f9807cb9ae9fb6c3094",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 682,
+      "title": "愛唄",
+      "workId": "wk-0668",
+      "role": "lyricist",
+      "rawCredit": "GReeeeN",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "GReeeeN",
+          "identityKey": "b1-ba04fa78033b212b7eed",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 154,
+      "title": "瞬間センチメンタル",
+      "workId": "wk-0154",
+      "role": "lyricist",
+      "rawCredit": "SCANDAL 小林夏海",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "SCANDAL 小林夏海",
+          "identityKey": "b1-1a9fe1a6e3fafddeed48",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 543,
+      "title": "粉雪",
+      "workId": "wk-0534",
+      "role": "lyricist",
+      "rawCredit": "藤巻 亮太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "藤巻 亮太",
+          "identityKey": "b1-3fd908e7c5fc188516cc",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 194,
+      "title": "青い栞",
+      "workId": "wk-0194",
+      "role": "lyricist",
+      "rawCredit": "尾崎雄貴",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "尾崎雄貴",
+          "identityKey": "b1-bd5bebe91cbf85233f57",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 369,
+      "title": "COLORS",
+      "workId": "wk-0363",
+      "role": "lyricist",
+      "rawCredit": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+          "identityKey": "b1-989dce92190bf023f39a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "title": "Dragon Night",
+      "workId": "wk-0085",
+      "role": "lyricist",
+      "rawCredit": "Fukase",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Fukase",
+          "identityKey": "b1-96b50efd44763aae3629",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 244,
+      "title": "POP TEAM EPIC",
+      "workId": "wk-0238",
+      "role": "lyricist",
+      "rawCredit": "吟(BUSTED ROSE)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "吟(BUSTED ROSE)",
+          "identityKey": "b1-247410cd6f20cb61fd05",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 309,
+      "title": "SHINY DAYS",
+      "workId": "wk-0303",
+      "role": "lyricist",
+      "rawCredit": "永塚健登",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "永塚健登",
+          "identityKey": "b1-539d1814a7a68c8c1002",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 440,
+      "title": "Storyteller",
+      "workId": "wk-0433",
+      "role": "lyricist",
+      "rawCredit": "唐沢美帆",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "唐沢美帆",
+          "identityKey": "b1-501db66e776fdea74878",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 98,
+      "title": "fantastic dreamer",
+      "workId": "wk-0098",
+      "role": "lyricist",
+      "rawCredit": "園田智也",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "園田智也",
+          "identityKey": "b1-f642705165cefc663b90",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 571,
+      "title": "きゅうくらりん",
+      "workId": "wk-0562",
+      "role": "lyricist",
+      "rawCredit": "いよわ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "いよわ",
+          "identityKey": "b1-5e7e1fd7884f3134a285",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 400,
+      "title": "くちづけDiamond",
+      "workId": "wk-0393",
+      "role": "lyricist",
+      "rawCredit": "河邉　徹",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "河邉　徹",
+          "identityKey": "b1-462beeb35c15ad9bc793",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 653,
+      "title": "はいよろこんで",
+      "workId": "wk-0641",
+      "role": "lyricist",
+      "rawCredit": "こっちのけんと",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "こっちのけんと",
+          "identityKey": "b1-18eb03642f28fcb3973c",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 56,
+      "title": "ひまわりの約束",
+      "workId": "wk-0056",
+      "role": "lyricist",
+      "rawCredit": "秦基博",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "秦基博",
+          "identityKey": "b1-bf111c009024f8941564",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 481,
+      "title": "アイウエ",
+      "workId": "wk-0472",
+      "role": "lyricist",
+      "rawCredit": "SAKURAmoti / 美波",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "SAKURAmoti ",
+          "identityKey": "b1-f39b5a992dce3f610433",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": " 美波",
+          "identityKey": "b1-28990d5c41d9e767f084",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 274,
+      "title": "ウィーアー！",
+      "workId": "wk-0268",
+      "role": "lyricist",
+      "rawCredit": "藤林　聖子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "藤林　聖子",
+          "identityKey": "b1-046f9b565d191b79c3c1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 151,
+      "title": "エクストラ・マジック・アワー",
+      "workId": "wk-0151",
+      "role": "lyricist",
+      "rawCredit": "藤林聖子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "藤林聖子",
+          "identityKey": "b1-046f9b565d191b79c3c1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 305,
+      "title": "オレンジ",
+      "workId": "wk-0299",
+      "role": "lyricist",
+      "rawCredit": "渡邊亜希子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "渡邊亜希子",
+          "identityKey": "b1-954e6a4aaf371bb3f0f0",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 590,
+      "title": "ギミー！レボリューション",
+      "workId": "wk-0581",
+      "role": "lyricist",
+      "rawCredit": "こだまさおり",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "こだまさおり",
+          "identityKey": "b1-b9e909de40b4b435c767",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 607,
+      "title": "クラクラ",
+      "workId": "wk-0598",
+      "role": "lyricist",
+      "rawCredit": "meiyo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "meiyo",
+          "identityKey": "b1-3451e57cfcfa28fb2fb6",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 772,
+      "title": "ココロのちず",
+      "workId": "wk-0750",
+      "role": "lyricist",
+      "rawCredit": "MIZUE",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "MIZUE",
+          "identityKey": "b1-60b067d81b060707b4cc",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 210,
+      "title": "コレカラ",
+      "workId": "wk-0209",
+      "role": "lyricist",
+      "rawCredit": "森由里子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "森由里子",
+          "identityKey": "b1-3c1eea032a46d214daa8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 33,
+      "title": "シルエット",
+      "workId": "wk-0033",
+      "role": "lyricist",
+      "rawCredit": "谷口鮪",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "谷口鮪",
+          "identityKey": "b1-145122f57cd75aa7c5a0",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 379,
+      "title": "ハッピー☆マテリアル",
+      "workId": "wk-0373",
+      "role": "lyricist",
+      "rawCredit": "うらん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "うらん",
+          "identityKey": "b1-15f5b9d2444835a217f8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "title": "ハッピーサマーウェディング",
+      "workId": "wk-0047",
+      "role": "lyricist",
+      "rawCredit": "つんく",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "つんく",
+          "identityKey": "b1-ac279f73d5b14a694999",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 741,
+      "title": "マツケンサンバII",
+      "workId": "wk-0722",
+      "role": "lyricist",
+      "rawCredit": "吉峯　暁子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "吉峯　暁子",
+          "identityKey": "b1-e7d70e4069580c6f07b9",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 348,
+      "title": "ン・パカマーチ",
+      "workId": "wk-0342",
+      "role": "lyricist",
+      "rawCredit": "森林檎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "森林檎",
+          "identityKey": "b1-3857adbb5b4613114050",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 157,
+      "title": "回レ！雪月花",
+      "workId": "wk-0157",
+      "role": "lyricist",
+      "rawCredit": "ヒゲドライバー",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ヒゲドライバー",
+          "identityKey": "b1-009f8c48f3ae4bb81b92",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 292,
+      "title": "好き！雪！本気マジック",
+      "workId": "wk-0286",
+      "role": "lyricist",
+      "rawCredit": "Mitchie M",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Mitchie M",
+          "identityKey": "b1-a21ffa34b11778c37450",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 544,
+      "title": "強風オールバック",
+      "workId": "wk-0535",
+      "role": "lyricist",
+      "rawCredit": "ゆこぴ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ゆこぴ",
+          "identityKey": "b1-91f50ceabaf21b5972c7",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 710,
+      "title": "怪獣",
+      "workId": "wk-0694",
+      "role": "lyricist",
+      "rawCredit": "山口一郎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "山口一郎",
+          "identityKey": "b1-a67418bf2ddb96281048",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 501,
+      "title": "愛のしるし",
+      "workId": "wk-0492",
+      "role": "lyricist",
+      "rawCredit": "草野 正宗",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "草野 正宗",
+          "identityKey": "b1-a074d1e8e33bb3323999",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 138,
+      "title": "新宝島",
+      "workId": "wk-0138",
+      "role": "lyricist",
+      "rawCredit": "山口一郎",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "山口一郎",
+          "identityKey": "b1-a67418bf2ddb96281048",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 676,
+      "title": "最高到達点",
+      "workId": "wk-0662",
+      "role": "lyricist",
+      "rawCredit": "Fukase",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Fukase",
+          "identityKey": "b1-96b50efd44763aae3629",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 555,
+      "title": "Fleur",
+      "workId": "wk-0546",
+      "role": "lyricist",
+      "rawCredit": "Neko Hacker",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Neko Hacker",
+          "identityKey": "b1-489272dfb926663743ff",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 226,
+      "title": "GO!!!",
+      "workId": "wk-0222",
+      "role": "lyricist",
+      "rawCredit": "KOHSHI",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "KOHSHI",
+          "identityKey": "b1-0453649b5d96b1b9f98d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 728,
+      "title": "スマイリーキャロル",
+      "workId": "wk-0712",
+      "role": "lyricist",
+      "rawCredit": "OSTER project",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "OSTER project",
+          "identityKey": "b1-0abbc860daeec295ea85",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 556,
+      "title": "Lioness' Pride",
+      "workId": "wk-0547",
+      "role": "lyricist",
+      "rawCredit": "かめりあ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "かめりあ",
+          "identityKey": "b1-1ff4b12fd0cc1b641ed8",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 418,
+      "title": "Preserved Roses",
+      "workId": "wk-0411",
+      "role": "lyricist",
+      "rawCredit": "井上　秋緒",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "井上　秋緒",
+          "identityKey": "b1-aa78c4e37112cd48f2cf",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 169,
+      "title": "革命デュアリズム",
+      "workId": "wk-0169",
+      "role": "lyricist",
+      "rawCredit": "Hibiki",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Hibiki",
+          "identityKey": "b1-8f524c800339a70fea2b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 295,
+      "title": "SAVIOR OF SONG",
+      "workId": "wk-0289",
+      "role": "lyricist",
+      "rawCredit": "ナノ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ナノ",
+          "identityKey": "b1-5e6a5c3f8ee646b1d7be",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 542,
+      "title": "Stellar Stellar",
+      "workId": "wk-0533",
+      "role": "lyricist",
+      "rawCredit": "星街すいせい",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "星街すいせい",
+          "identityKey": "b1-0b22695f4ac9ec8a9b01",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 713,
+      "title": "Velonica",
+      "workId": "wk-0697",
+      "role": "lyricist",
+      "rawCredit": "太志",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "太志",
+          "identityKey": "b1-e810dc473c5fe705898a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 579,
+      "title": "「僕は...」",
+      "workId": "wk-0570",
+      "role": "lyricist",
+      "rawCredit": "ひとみ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ひとみ",
+          "identityKey": "b1-2869fa462d98ce2cbbd7",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "title": "だれかの心臓になれたなら",
+      "workId": "wk-0648",
+      "role": "lyricist",
+      "rawCredit": "ユリイ・カノン",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ユリイ・カノン",
+          "identityKey": "b1-328527062c7ca6acd161",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 521,
+      "title": "猛独が襲う",
+      "workId": "wk-0512",
+      "role": "lyricist",
+      "rawCredit": "一二三",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "一二三",
+          "identityKey": "b1-4fc9d8955b6155d931b2",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 758,
+      "title": "過去を喰らう",
+      "workId": "wk-0739",
+      "role": "lyricist",
+      "rawCredit": "カンザキイオリ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "カンザキイオリ",
+          "identityKey": "b1-19d8876cf3cbcb75c068",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 622,
+      "title": "遥か彼方",
+      "workId": "wk-0613",
+      "role": "lyricist",
+      "rawCredit": "後藤 正文",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "後藤 正文",
+          "identityKey": "b1-e5334ebf6d7e06f9e914",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 610,
+      "title": "雑踏、僕らの街",
+      "workId": "wk-0601",
+      "role": "lyricist",
+      "rawCredit": "大濱 健悟",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "大濱 健悟",
+          "identityKey": "b1-a18f30071e2f4b7f0834",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 352,
+      "title": "TOMORROW",
+      "workId": "wk-0346",
+      "role": "lyricist",
+      "rawCredit": "桜アス恵(TRYTONELABO)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "桜アス恵(TRYTONELABO)",
+          "identityKey": "b1-3caa459bd5005108c170",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 558,
+      "title": "どりーみんチュチュ",
+      "workId": "wk-0549",
+      "role": "lyricist",
+      "rawCredit": "emon(Tes.)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "emon(Tes.)",
+          "identityKey": "b1-1064da61274853d9c808",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 357,
+      "title": "ぼなぺてぃーと♡Ｓ",
+      "workId": "wk-0351",
+      "role": "lyricist",
+      "rawCredit": "こだまさおり",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "こだまさおり",
+          "identityKey": "b1-b9e909de40b4b435c767",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 712,
+      "title": "エガクミライ",
+      "workId": "wk-0696",
+      "role": "lyricist",
+      "rawCredit": "太志(Aqua Timez)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "太志(Aqua Timez)",
+          "identityKey": "b1-b95ae14fa97a45d1a0f2",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 522,
+      "title": "歌いましょう鳴らしましょう",
+      "workId": "wk-0513",
+      "role": "lyricist",
+      "rawCredit": "メガテラ・ゼロ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "メガテラ・ゼロ",
+          "identityKey": "b1-b5f723777c02e993f081",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 376,
+      "title": "グッバイ宣言",
+      "workId": "wk-0370",
+      "role": "lyricist",
+      "rawCredit": "Chinozo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Chinozo",
+          "identityKey": "b1-df71e4f0063c7b2e5d6f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 634,
+      "title": "シカ色デイズ",
+      "workId": "wk-0624",
+      "role": "lyricist",
+      "rawCredit": "やぎぬまかな",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "やぎぬまかな",
+          "identityKey": "b1-4fd965ee59cbbc17175f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 373,
+      "title": "シル・ヴ・プレジデント",
+      "workId": "wk-0367",
+      "role": "lyricist",
+      "rawCredit": "ナナホシ管弦楽団",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ナナホシ管弦楽団",
+          "identityKey": "b1-1d4523c52c9646f14a3b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 448,
+      "title": "シル・ヴ・プレジデント",
+      "workId": "wk-0367",
+      "role": "lyricist",
+      "rawCredit": "ナナホシ管弦楽団",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ナナホシ管弦楽団",
+          "identityKey": "b1-1d4523c52c9646f14a3b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 479,
+      "title": "チューリングラブ",
+      "workId": "wk-0470",
+      "role": "lyricist",
+      "rawCredit": "ナユタセイジ / ナナヲアカリ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ナユタセイジ ",
+          "identityKey": "b1-5377ee054e378e78dda4",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": " ナナヲアカリ",
+          "identityKey": "b1-71be3fbfd30b5b8fcb4e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 374,
+      "title": "ヒトリゴト",
+      "workId": "wk-0368",
+      "role": "lyricist",
+      "rawCredit": "ケリー",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ケリー",
+          "identityKey": "b1-c6c634130b4628d56dc4",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 452,
+      "title": "フォニイ",
+      "workId": "wk-0444",
+      "role": "lyricist",
+      "rawCredit": "ツミキ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ツミキ",
+          "identityKey": "b1-14144a962dfdc95fdb6d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 296,
+      "title": "ムーンライト伝説",
+      "workId": "wk-0290",
+      "role": "lyricist",
+      "rawCredit": "小田佳奈子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "小田佳奈子",
+          "identityKey": "b1-eeed6f899e58708cac5e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 450,
+      "title": "乙女はサイコパス",
+      "workId": "wk-0442",
+      "role": "lyricist",
+      "rawCredit": "コレサワ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "コレサワ",
+          "identityKey": "b1-0ee91f9d51c5f2763ea2",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 464,
+      "title": "五等分の気持ち",
+      "workId": "wk-0456",
+      "role": "lyricist",
+      "rawCredit": "齊藤　信治",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "齊藤　信治",
+          "identityKey": "b1-cd4a20c9309da244ec94",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 225,
+      "title": "創聖のアクエリオン",
+      "workId": "wk-0221",
+      "role": "lyricist",
+      "rawCredit": "岩里祐穂",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "岩里祐穂",
+          "identityKey": "b1-33fff21d0d0e10ccfbc5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 632,
+      "title": "幾億光年",
+      "workId": "wk-0622",
+      "role": "lyricist",
+      "rawCredit": "福島 智朗",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "福島 智朗",
+          "identityKey": "b1-11a3aca575c88ab5200a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 635,
+      "title": "悪魔の子",
+      "workId": "wk-0625",
+      "role": "lyricist",
+      "rawCredit": "ヒグチアイ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ヒグチアイ",
+          "identityKey": "b1-321672e2a4b0c8e50c92",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 377,
+      "title": "曇天",
+      "workId": "wk-0371",
+      "role": "lyricist",
+      "rawCredit": "氏原 ワタル",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "氏原 ワタル",
+          "identityKey": "b1-e20af8f5dbaccec9923f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 630,
+      "title": "愛包ダンスホール",
+      "workId": "wk-0620",
+      "role": "lyricist",
+      "rawCredit": "Gohgo",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Gohgo",
+          "identityKey": "b1-1e4e5828085e567ebff3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 170,
+      "title": "檄！帝国華撃団",
+      "workId": "wk-0170",
+      "role": "lyricist",
+      "rawCredit": "広井王子",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "広井王子",
+          "identityKey": "b1-56298a71ec9a5dc3d23f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 499,
+      "title": "私色きらめき日和",
+      "workId": "wk-0490",
+      "role": "lyricist",
+      "rawCredit": "ますかっと",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ますかっと",
+          "identityKey": "b1-916988e9faa29633dc94",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 534,
+      "title": "聖少女領域",
+      "workId": "wk-0525",
+      "role": "lyricist",
+      "rawCredit": "宝野 アリカ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "宝野 アリカ",
+          "identityKey": "b1-ded90cd0337d00108b1a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 453,
+      "title": "閃光",
+      "workId": "wk-0445",
+      "role": "lyricist",
+      "rawCredit": "川上洋平",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "川上洋平",
+          "identityKey": "b1-9d50ab729ba903afa27a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 17,
+      "title": "証命讃歌",
+      "workId": "wk-0777",
+      "role": "lyricist",
+      "rawCredit": "田邊駿一",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "田邊駿一",
+          "identityKey": "b1-b5a7696df411f41fb21e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 20,
+      "title": "シャルル",
+      "workId": "wk-0128",
+      "role": "lyricist",
+      "rawCredit": "バルーン",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "バルーン",
+          "identityKey": "b1-237bb622433f04e6517e",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 21,
+      "title": "青春コンプレックス",
+      "workId": "wk-0779",
+      "role": "lyricist",
+      "rawCredit": "樋口愛",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "樋口愛",
+          "identityKey": "b1-e25846bcdfb4a607d88f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "title": "エンプティパペット",
+      "workId": "wk-0792",
+      "role": "lyricist",
+      "rawCredit": "吾龍",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "吾龍",
+          "identityKey": "b1-58c4e8f1ec4142a18174",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "title": "限界現実サバイブ天使",
+      "workId": "wk-0793",
+      "role": "lyricist",
+      "rawCredit": "凍堂遊維",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "凍堂遊維",
+          "identityKey": "b1-afc87da155e26b71d37d",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "workId": "wk-0794",
+      "role": "lyricist",
+      "rawCredit": "白神真志朗、 Sekimen",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "白神真志朗",
+          "identityKey": "cr-0074",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0074"
+        },
+        {
+          "raw": " Sekimen",
+          "identityKey": "b1-92bd2642fc2116574da1",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 48,
+      "title": "夢現妄想世界",
+      "workId": "wk-0795",
+      "role": "lyricist",
+      "rawCredit": "やしきん",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "やしきん",
+          "identityKey": "b1-dfdd5b3223fdccd4210a",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "title": "コハク",
+      "workId": "wk-0796",
+      "role": "lyricist",
+      "rawCredit": "仲町あられ、堀江晶太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "仲町あられ",
+          "identityKey": "b1-6f1dda77863c0f86ef66",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0105"
+        },
+        {
+          "raw": "堀江晶太",
+          "identityKey": "cr-0028",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0028"
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "title": "チューニング",
+      "workId": "wk-0800",
+      "role": "lyricist",
+      "rawCredit": "仲町あられ、千石ユノ、堀江晶太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "仲町あられ",
+          "identityKey": "b1-6f1dda77863c0f86ef66",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0105"
+        },
+        {
+          "raw": "千石ユノ",
+          "identityKey": "b1-a60c08d1db0c515831cc",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "堀江晶太",
+          "identityKey": "cr-0028",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0028"
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "title": "Face The Next",
+      "workId": "wk-0803",
+      "role": "lyricist",
+      "rawCredit": "白神真志朗、仲町あられ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "白神真志朗",
+          "identityKey": "cr-0074",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0074"
+        },
+        {
+          "raw": "仲町あられ",
+          "identityKey": "b1-6f1dda77863c0f86ef66",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0105"
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "title": "夢我夢中",
+      "workId": "wk-0823",
+      "role": "lyricist",
+      "rawCredit": "ケンモチヒデフミ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ケンモチヒデフミ",
+          "identityKey": "b1-9df1869e3b7b1c2b11d5",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "title": "唱",
+      "workId": "wk-0806",
+      "role": "lyricist",
+      "rawCredit": "TOPHAMHAT-KYO (FAKE TYPE.)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "TOPHAMHAT-KYO (FAKE TYPE.)",
+          "identityKey": "b1-0ec58293315022176bde",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 70,
+      "title": "ロウワー",
+      "workId": "wk-0814",
+      "role": "lyricist",
+      "rawCredit": "ぬゆり",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ぬゆり",
+          "identityKey": "b1-9637211e2855d7f0cee3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 82,
+      "title": "Stellar Stellar",
+      "workId": "wk-0533",
+      "role": "lyricist",
+      "rawCredit": "星街すいせい",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "星街すいせい",
+          "identityKey": "b1-0b22695f4ac9ec8a9b01",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "title": "革命道中",
+      "workId": "wk-0735",
+      "role": "lyricist",
+      "rawCredit": "アイナ・ジ・エンド、Shin Sakiura",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "アイナ・ジ・エンド",
+          "identityKey": "b1-2036c7c5eacf8591e349",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        },
+        {
+          "raw": "Shin Sakiura",
+          "identityKey": "b1-5d7723dddce7a50d06c6",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 84,
+      "title": "微笑みの爆弾",
+      "workId": "wk-0822",
+      "role": "lyricist",
+      "rawCredit": "リーシャウロン",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "リーシャウロン",
+          "identityKey": "b1-49085675e88a4c3d178b",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    }
+  ],
+  "garupaArranger": [
+    {
+      "game": "garupa",
+      "recordId": 20,
+      "title": "Alchemy",
+      "workId": "wk-0020",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 40,
+      "title": "Little Busters!",
+      "workId": "wk-0040",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0119"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 31,
+      "title": "光るなら",
+      "workId": "wk-0031",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 19,
+      "title": "空色デイズ",
+      "workId": "wk-0019",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 387,
+      "title": "閃光",
+      "workId": "wk-0381",
+      "role": "arranger",
+      "rawCredit": "Numa",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Numa",
+          "identityKey": "b1-d65ecfbc0991662fbe12",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 372,
+      "title": "DEPARTURES",
+      "workId": "wk-0366",
+      "role": "arranger",
+      "rawCredit": "ZENTA",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ZENTA",
+          "identityKey": "b1-2a52f798ceb56249a012",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 278,
+      "title": "恋しさと せつなさと 心強さと",
+      "workId": "wk-0272",
+      "role": "arranger",
+      "rawCredit": "ZENTA",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ZENTA",
+          "identityKey": "b1-2a52f798ceb56249a012",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 80,
+      "title": "B.O.F",
+      "workId": "wk-0080",
+      "role": "arranger",
+      "rawCredit": "宅見将典",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "宅見将典",
+          "identityKey": "b1-75bc6f55895854797a5f",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 365,
+      "title": "イントロダクション",
+      "workId": "wk-0359",
+      "role": "arranger",
+      "rawCredit": "Ayase/藤田淳平（Elements Garden）",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Ayase",
+          "identityKey": "cr-0023",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0023"
+        },
+        {
+          "raw": "藤田淳平（Elements Garden）",
+          "identityKey": "cr-0004",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0004"
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 508,
+      "title": "燦々",
+      "workId": "wk-0499",
+      "role": "arranger",
+      "rawCredit": "廣澤優也(HANO)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "廣澤優也(HANO)",
+          "identityKey": "b1-b64c1d7972f2f059bcab",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 432,
+      "title": "The Circle Of Butterflies",
+      "workId": "wk-0425",
+      "role": "arranger",
+      "rawCredit": "佐藤純一(fhána)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "佐藤純一(fhána)",
+          "identityKey": "b1-65d09c562afaab97af82",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 705,
+      "title": "ビューティ・フォー",
+      "workId": "wk-0689",
+      "role": "arranger",
+      "rawCredit": "ヒトリエ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ヒトリエ",
+          "identityKey": "b1-65867bc4fcc81fd53dde",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 263,
+      "title": "ノスタルジックレインフォール",
+      "workId": "wk-0257",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）/櫻澤ヒカル",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "櫻澤ヒカル",
+          "identityKey": "b1-323bf406d60f26212b32",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 37,
+      "title": "ETERNAL BLAZE",
+      "workId": "wk-0037",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 26,
+      "title": "Hacking to the Gate",
+      "workId": "wk-0026",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 25,
+      "title": "魂のルフラン",
+      "workId": "wk-0025",
+      "role": "arranger",
+      "rawCredit": "都丸椋太（Elements Garden）／加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "title": "Be born",
+      "workId": "wk-0510",
+      "role": "arranger",
+      "rawCredit": "メガテラ・ゼロ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "メガテラ・ゼロ",
+          "identityKey": "b1-b5f723777c02e993f081",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 396,
+      "title": "Brand new Pastel Road！",
+      "workId": "wk-0390",
+      "role": "arranger",
+      "rawCredit": "ZAQ",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ZAQ",
+          "identityKey": "b1-f3428a65accdbe2109a3",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 22,
+      "title": "Butter-Fly",
+      "workId": "wk-0022",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）/加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0119"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 29,
+      "title": "Don’t say “lazy”",
+      "workId": "wk-0029",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）/加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0119"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 21,
+      "title": "カルマ",
+      "workId": "wk-0021",
+      "role": "arranger",
+      "rawCredit": "母里治樹（Elements Garden）/加納望",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "母里治樹（Elements Garden）",
+          "identityKey": "b1-d43891f53862909d7abb",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0119"
+        },
+        {
+          "raw": "加納望",
+          "identityKey": "b1-e8ea1c155638e47d4330",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 417,
+      "title": "Happy! Happier! Happiest!",
+      "workId": "wk-0410",
+      "role": "arranger",
+      "rawCredit": "藤原燈太",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "藤原燈太",
+          "identityKey": "b1-9d771697429c1277b691",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 627,
+      "title": "Subtitle",
+      "workId": "wk-0618",
+      "role": "arranger",
+      "rawCredit": "植木建象、冬真",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "冬真",
+          "identityKey": "b1-737ea160bdb3018aa678",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 523,
+      "title": "swim",
+      "workId": "wk-0514",
+      "role": "arranger",
+      "rawCredit": "森本練",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "森本練",
+          "identityKey": "b1-bbe34b18399ba4e58e76",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 579,
+      "title": "「僕は...」",
+      "workId": "wk-0570",
+      "role": "arranger",
+      "rawCredit": "植木建象/加藤貴之",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "加藤貴之",
+          "identityKey": "b1-738ccdae4df4a8aa4aad",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "title": "だれかの心臓になれたなら",
+      "workId": "wk-0648",
+      "role": "arranger",
+      "rawCredit": "植木建象、YOUSAY",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "YOUSAY",
+          "identityKey": "b1-2ef871fe8f36a20afb45",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 622,
+      "title": "遥か彼方",
+      "workId": "wk-0613",
+      "role": "arranger",
+      "rawCredit": "植木建象、冬真",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "冬真",
+          "identityKey": "b1-737ea160bdb3018aa678",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 610,
+      "title": "雑踏、僕らの街",
+      "workId": "wk-0601",
+      "role": "arranger",
+      "rawCredit": "植木建象、加藤貴之",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "加藤貴之",
+          "identityKey": "b1-738ccdae4df4a8aa4aad",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 712,
+      "title": "エガクミライ",
+      "workId": "wk-0696",
+      "role": "arranger",
+      "rawCredit": "大介(Aqua Timez)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "大介(Aqua Timez)",
+          "identityKey": "b1-76e2837f2f0ba6485178",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 522,
+      "title": "歌いましょう鳴らしましょう",
+      "workId": "wk-0513",
+      "role": "arranger",
+      "rawCredit": "Mr.FanTastiC",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "Mr.FanTastiC",
+          "identityKey": "b1-2f6305af972cb9235148",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 503,
+      "title": "詩超絆",
+      "workId": "wk-0494",
+      "role": "arranger",
+      "rawCredit": "横地健太(SUPA LOVE)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "横地健太(SUPA LOVE)",
+          "identityKey": "b1-6c54c616bf3d724cda81",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 647,
+      "title": "音一会",
+      "workId": "wk-0636",
+      "role": "arranger",
+      "rawCredit": "尾崎豪(SUPA LOVE)",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "尾崎豪(SUPA LOVE)",
+          "identityKey": "b1-decc904f4ad5d1c72ca9",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "garupa",
+      "recordId": 499,
+      "title": "私色きらめき日和",
+      "workId": "wk-0490",
+      "role": "arranger",
+      "rawCredit": "ますかっと",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "ますかっと",
+          "identityKey": "b1-916988e9faa29633dc94",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    }
+  ],
+  "ournotesArranger": [
+    {
+      "game": "ournotes",
+      "recordId": 40,
+      "title": "残酷な天使のテーゼ",
+      "workId": "wk-0086",
+      "role": "arranger",
+      "rawCredit": "植木建象、冬真",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "confidence": "CONFIRMED",
+          "creatorId": "cr-0098"
+        },
+        {
+          "raw": "冬真",
+          "identityKey": "b1-737ea160bdb3018aa678",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 61,
+      "title": "オリオンをなぞる",
+      "workId": "wk-0807",
+      "role": "arranger",
+      "rawCredit": "岡村大輔",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "岡村大輔",
+          "identityKey": "b1-c15ae48ae321e9d78f18",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 70,
+      "title": "ロウワー",
+      "workId": "wk-0814",
+      "role": "arranger",
+      "rawCredit": "太田雄大",
+      "target": true,
+      "reason": "splitまたはidentityが未確定",
+      "tokens": [
+        {
+          "raw": "太田雄大",
+          "identityKey": "b1-af681154dccfc0265175",
+          "confidence": "UNRESOLVED",
+          "creatorId": null
+        }
+      ]
+    }
+  ],
+  "split": [
+    {
+      "game": "garupa",
+      "recordId": 711,
+      "title": "POP IN 2",
+      "role": "composer",
+      "raw": "久下真音、つむぎしゃち",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 640,
+      "title": "STEP by STEP UP↑↑↑↑",
+      "role": "lyricist",
+      "raw": "烏屋 茶房、篠崎 あやと",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 640,
+      "title": "STEP by STEP UP↑↑↑↑",
+      "role": "composer",
+      "raw": "篠崎 あやと、ヒゲドライバー",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 447,
+      "title": "スターナイトスノウ",
+      "role": "lyricist",
+      "raw": "n-buna・Orangestar",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 707,
+      "title": "BROKEN GAMES",
+      "role": "lyricist",
+      "raw": "MAQUMA, JACK",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 707,
+      "title": "BROKEN GAMES",
+      "role": "composer",
+      "raw": "MAQUMA, JACK",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 322,
+      "title": "CORE PRIDE",
+      "role": "composer",
+      "raw": "TAKUYA∞、彰",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 415,
+      "title": "メギツネ",
+      "role": "lyricist",
+      "raw": "MK-METAL・NORiMETAL",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 659,
+      "title": "第六感",
+      "role": "composer",
+      "raw": "Reol、Giga",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 754,
+      "title": "革命道中",
+      "role": "lyricist",
+      "raw": "アイナ・ジ・エンド、Shin Sakiura",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 754,
+      "title": "革命道中",
+      "role": "composer",
+      "raw": "アイナ・ジ・エンド、Shin Sakiura",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 365,
+      "title": "イントロダクション",
+      "role": "arranger",
+      "raw": "Ayase/藤田淳平（Elements Garden）",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 258,
+      "title": "秒針を噛む",
+      "role": "composer",
+      "raw": "ACAね×ぬゆり",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 600,
+      "title": "だから、ひとりじゃない",
+      "role": "lyricist",
+      "raw": "KANATA OKAJIMA・Carlos K.",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 600,
+      "title": "だから、ひとりじゃない",
+      "role": "composer",
+      "raw": "Carlos K.・加賀爪 タッド",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "title": "ドリームパレード",
+      "role": "lyricist",
+      "raw": "渡辺徹/森月キャス",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 263,
+      "title": "ノスタルジックレインフォール",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）/櫻澤ヒカル",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 769,
+      "title": "超最強",
+      "role": "composer",
+      "raw": "安部大希-amazuti-/宮崎諒-amazuti-",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 246,
+      "title": "Bad Apple!! feat. nomico",
+      "role": "composer",
+      "raw": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 111,
+      "title": "Believe in my existence",
+      "role": "composer",
+      "raw": "影山ヒロノブ・きただにひろし",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 395,
+      "title": "Realize",
+      "role": "lyricist",
+      "raw": "篠崎あやと、橘 亮祐",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 395,
+      "title": "Realize",
+      "role": "composer",
+      "raw": "篠崎あやと、橘 亮祐",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 549,
+      "title": "slash",
+      "role": "composer",
+      "raw": "馬場　龍樹／遠藤　ナオキ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "title": "Be born",
+      "role": "lyricist",
+      "raw": "メガテラ・ゼロ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "title": "Be born",
+      "role": "composer",
+      "raw": "メガテラ・ゼロ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "title": "Be born",
+      "role": "arranger",
+      "raw": "メガテラ・ゼロ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 124,
+      "title": "Reach Out To The Truth",
+      "role": "lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 369,
+      "title": "COLORS",
+      "role": "lyricist",
+      "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "title": "Dragon Night",
+      "role": "composer",
+      "raw": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 653,
+      "title": "はいよろこんで",
+      "role": "composer",
+      "raw": "こっちのけんと / GRP",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 481,
+      "title": "アイウエ",
+      "role": "lyricist",
+      "raw": "SAKURAmoti / 美波",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 481,
+      "title": "アイウエ",
+      "role": "composer",
+      "raw": "SAKURAmoti / 美波",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 710,
+      "title": "怪獣",
+      "role": "composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 579,
+      "title": "「僕は...」",
+      "role": "arranger",
+      "raw": "植木建象/加藤貴之",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "title": "だれかの心臓になれたなら",
+      "role": "lyricist",
+      "raw": "ユリイ・カノン",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "title": "だれかの心臓になれたなら",
+      "role": "composer",
+      "raw": "ユリイ・カノン",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "title": "だれかの心臓になれたなら",
+      "role": "arranger",
+      "raw": "植木建象、YOUSAY",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 610,
+      "title": "雑踏、僕らの街",
+      "role": "arranger",
+      "raw": "植木建象、加藤貴之",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 522,
+      "title": "歌いましょう鳴らしましょう",
+      "role": "lyricist",
+      "raw": "メガテラ・ゼロ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 522,
+      "title": "歌いましょう鳴らしましょう",
+      "role": "composer",
+      "raw": "メガテラ・ゼロ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 479,
+      "title": "チューリングラブ",
+      "role": "lyricist",
+      "raw": "ナユタセイジ / ナナヲアカリ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 630,
+      "title": "愛包ダンスホール",
+      "role": "composer",
+      "raw": "涼木シンジ、Gohgo",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "title": "限界現実サバイブ天使",
+      "role": "arranger",
+      "raw": "Nor, 堀江晶太",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "role": "lyricist",
+      "raw": "白神真志朗、 Sekimen",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "role": "composer",
+      "raw": "堀江晶太、白神真志朗",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "role": "arranger",
+      "raw": "堀江晶太、Nor",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "title": "コハク",
+      "role": "lyricist",
+      "raw": "仲町あられ、堀江晶太",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 52,
+      "title": "真夜中遊園地",
+      "role": "arranger",
+      "raw": "哥丸雄貴、堀江晶太",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "title": "チューニング",
+      "role": "lyricist",
+      "raw": "仲町あられ、千石ユノ、堀江晶太",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "title": "チューニング",
+      "role": "composer",
+      "raw": "千石ユノ、堀江晶太",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "title": "チューニング",
+      "role": "arranger",
+      "raw": "堀江晶太、千石ユノ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "title": "Face The Next",
+      "role": "lyricist",
+      "raw": "白神真志朗、仲町あられ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "title": "Face The Next",
+      "role": "composer",
+      "raw": "白神真志朗、千石ユノ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "title": "Face The Next",
+      "role": "arranger",
+      "raw": "白神真志朗、千石ユノ",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "title": "夢我夢中",
+      "role": "arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "title": "唱",
+      "role": "arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 64,
+      "title": "everscape",
+      "role": "composer",
+      "raw": "藤井健太郎、瀬名水紀(Dream Monster)",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "title": "革命道中",
+      "role": "lyricist",
+      "raw": "アイナ・ジ・エンド、Shin Sakiura",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "title": "革命道中",
+      "role": "composer",
+      "raw": "アイナ・ジ・エンド、Shin Sakiura",
+      "reason": "記号から候補を分割しただけ。単位名/別名/作者境界の一次根拠が不足、全体を自動適用から除外。"
+    }
+  ],
+  "metadata": []
+}

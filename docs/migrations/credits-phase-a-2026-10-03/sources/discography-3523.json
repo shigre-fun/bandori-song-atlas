@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/3523/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:12.651Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN「Apocalypse」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2023年9月22日(金)",
+  "creditLines": [
+    {
+      "line": 6,
+      "text": "https://bmu.lnk.to/Apocalypsehp"
+    },
+    {
+      "line": 7,
+      "text": "「Apocalypse」"
+    },
+    {
+      "line": 8,
+      "text": "作詞：織田あすか（Elements Garden）"
+    },
+    {
+      "line": 9,
+      "text": "作曲：菊田大介（Elements Garden）"
+    },
+    {
+      "line": 10,
+      "text": "編曲：菊田大介（Elements Garden）"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "RAISE A SUILEN「Apocalypse」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

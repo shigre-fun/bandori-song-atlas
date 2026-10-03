@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/23/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:36.274Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 2nd Single「STAR BEAT!〜ホシノコドウ〜」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2016年8月3日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party 2nd Single「STAR BEAT!〜ホシノコドウ〜」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 2nd Single「STAR BEAT!〜ホシノコドウ〜」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-03",
+  "first": {
+    "unchanged": false,
+    "changedFiles": 2,
+    "backup": ".cache/credits-phase-b2-1791036388583",
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 884,
+    "works": 823,
+    "warnings": 0,
+    "patches": 12,
+    "displayComparisons": 2652,
+    "conflicts": 0
+  },
+  "second": {
+    "unchanged": true,
+    "changedFiles": 0
+  },
+  "verify": {
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 884,
+    "works": 823,
+    "warnings": 0,
+    "patches": 0,
+    "displayComparisons": 2652,
+    "conflicts": 0,
+    "changedFiles": 0,
+    "secondApplyChangedFiles": 0,
+    "protectedResearch": 452,
+    "workSha256": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "coverage": {
+      "lyricist": {
+        "creditConfirmed": 835,
+        "fullyResolved": 615,
+        "rawFallback": 220,
+        "unknown": 49,
+        "proposalRelations": 615,
+        "appliedRelations": 0
+      },
+      "garupaArranger": {
+        "creditConfirmed": 751,
+        "fullyResolved": 712,
+        "rawFallback": 39,
+        "unknown": 48,
+        "proposalRelations": 712,
+        "appliedRelations": 0
+      },
+      "ournotesArranger": {
+        "creditConfirmed": 5,
+        "fullyResolved": 2,
+        "rawFallback": 3,
+        "unknown": 80,
+        "proposalRelations": 2,
+        "appliedRelations": 0
+      }
+    }
+  },
+  "releaseDisplayComparisons": 2652,
+  "releaseDisplayChanges": 0,
+  "existing121Preserved": true,
+  "ournotesBytePreserved": true,
+  "aggregateSummary": {
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 884,
+    "works": 823,
+    "warnings": 0,
+    "patches": 835,
+    "displayComparisons": 2652,
+    "conflicts": 0,
+    "changedFiles": 3
+  }
+}

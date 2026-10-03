@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/740/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:13.381Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ 4th Single「ハイファイブ∞あどべんちゃっ」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2019年2月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 105,
+      "workId": "wk-0105",
+      "title": "ふわふわ☆ゆめいろサンドイッチ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.ふわふわ☆ゆめいろサンドイッチ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 122,
+      "workId": "wk-0122",
+      "title": "ハイファイブ∞あどべんちゃっ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.ハイファイブ∞あどべんちゃっ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ 4th Single「ハイファイブ∞あどべんちゃっ」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

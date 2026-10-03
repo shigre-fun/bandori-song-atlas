@@ -1,0 +1,34 @@
+{
+  "url": "https://dreamonster.jp/",
+  "sourceType": "agency-official",
+  "sourceReliability": "PRIMARY",
+  "pageTitle": "dream monster（ドリームモンスター）MUSIC FACTORY",
+  "checkedAt": "2026-10-03T04:21:51.283Z",
+  "pageReadStatus": "BROWSER_CONFIRMED",
+  "sourceScope": "release",
+  "rows": [
+    {
+      "title": "鳴らす",
+      "artist": "millsage",
+      "creditText": "作詞・作曲：瀬名水紀",
+      "context": "2026.09.30配信 BanG Dream! / millsage 『鳴らす』"
+    },
+    {
+      "title": "カーネーションの咲く日に",
+      "artist": "millsage",
+      "creditText": "作詞：Aira　作曲・編曲：瀬名水紀、Aira",
+      "context": "2026.09.30配信 BanG Dream! / millsage 『鳴らす』"
+    }
+  ],
+  "retrievalAttempts": [
+    {
+      "method": "HTTP",
+      "result": "JS_LOADING: expected work body absent in server HTML"
+    },
+    {
+      "method": "browser DOM",
+      "result": "credit body confirmed in work detail"
+    }
+  ],
+  "notes": "M1/M2の明示creditを確認。所属付き原文との差は同定せずreview。"
+}

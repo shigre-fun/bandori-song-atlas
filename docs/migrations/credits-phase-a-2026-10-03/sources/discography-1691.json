@@ -1,0 +1,289 @@
+{
+  "url": "https://bang-dream.com/discographies/1691/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:41.310Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 2nd Album「Breakthrough!」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2020年6月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 9,
+      "workId": "wk-0009",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.1000回潤んだ空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 264,
+      "workId": "wk-0258",
+      "title": "Breakthrough!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Breakthrough!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 173,
+      "workId": "wk-0173",
+      "title": "Dreamers Go!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "10.Dreamers Go!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 10,
+      "workId": "wk-0010",
+      "title": "Happy Happy Party！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.Happy Happy Party!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 208,
+      "workId": "wk-0207",
+      "title": "Hello! Wink!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.Hello! Wink!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 146,
+      "workId": "wk-0146",
+      "title": "Home Street",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.Home Street",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 160,
+      "workId": "wk-0160",
+      "title": "Jumpin'",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.Jumpin'",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 106,
+      "workId": "wk-0106",
+      "title": "Light Delight",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.Light Delight",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 171,
+      "workId": "wk-0171",
+      "title": "Returns",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.Returns",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 168,
+      "workId": "wk-0168",
+      "title": "SAKURA MEMORIES",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "11.SAKURA MEMORIES",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 233,
+      "workId": "wk-0228",
+      "title": "Step×Step！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.Step×Step！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 209,
+      "workId": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "10.What's the POPIPA!?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 222,
+      "workId": "wk-0219",
+      "title": "White Afternoon",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.White Afternoon",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 3,
+      "workId": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Yes! BanG_Dream!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 237,
+      "workId": "wk-0148",
+      "title": "[FULL] キズナミュージック♪",
+      "band": "Poppin'Party",
+      "scope": "work",
+      "context": "11.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 5,
+      "workId": "wk-0005",
+      "title": "ぽっぴん’しゃっふる",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.ぽっぴん'しゃっふる",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 193,
+      "workId": "wk-0193",
+      "title": "アニバーサリー",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "12.アニバーサリー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 221,
+      "workId": "wk-0218",
+      "title": "イニシャル",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.イニシャル",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 148,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "11.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 466,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪（3Dライブモード対応）",
+      "band": "Poppin'Party",
+      "scope": "work",
+      "context": "11.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "workId": "wk-0038",
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.キミにもらったもの",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 253,
+      "workId": "wk-0247",
+      "title": "ミライトレイン",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "12.ミライトレイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 201,
+      "workId": "wk-0201",
+      "title": "切ないSandglass",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.切ないSandglass",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 55,
+      "workId": "wk-0055",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.夏のドーン！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 7,
+      "workId": "wk-0007",
+      "title": "夏空 SUN! SUN! SEVEN!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.夏空 SUN! SUN! SEVEN!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 228,
+      "workId": "wk-0224",
+      "title": "夢を撃ち抜く瞬間に！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "13.夢を撃ち抜く瞬間に！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 2nd Album「Breakthrough!」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

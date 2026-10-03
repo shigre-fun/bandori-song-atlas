@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4127/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:46.427Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「DIVINE」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年8月4日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「DIVINE」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：高橋涼(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：高橋涼(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Ave Mujica「DIVINE」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

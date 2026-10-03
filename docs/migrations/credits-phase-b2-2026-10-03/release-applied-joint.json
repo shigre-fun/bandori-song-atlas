@@ -1,0 +1,1747 @@
+{
+  "version": 1,
+  "backup": ".cache/credits-phase-b2-1791040696357",
+  "inputHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/garupa/songs.json": "22b052e1c30055cee9f0b596180a56997d6f7558b3f6b4150b01efc28dbe26f0",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "outputHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/garupa/songs.json": "334fcca9c6413484252842cbca8d0dece86c65f71a29ff8dd3bdc68aba7c0d1e",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "relations": [
+    {
+      "game": "garupa",
+      "recordId": 248,
+      "title": "群青日和",
+      "band": "Poppin'Party",
+      "workId": "wk-0242",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "笠井雄太（Elements Garden）",
+          "normalized": "笠井雄太",
+          "affiliation": "Elements Garden",
+          "standardName": "笠井雄太",
+          "existingCreatorId": "cr-0010",
+          "candidateKey": null,
+          "identityKey": "cr-0010",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "笠井雄太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0010: 笠井雄太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-430a2dc776d5dac90020",
+              "supports": "garupa:248 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-248",
+              "game": "garupa",
+              "recordId": 248,
+              "title": "群青日和",
+              "workId": "wk-0242",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:248",
+          "creatorId": "cr-0010"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-430a2dc776d5dac90020",
+              "supports": "garupa:248 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-248",
+              "game": "garupa",
+              "recordId": 248,
+              "title": "群青日和",
+              "workId": "wk-0242",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:248",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-248",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 272,
+      "title": "劣等上等",
+      "band": "RAISE A SUILEN",
+      "workId": "wk-0266",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "菊田大介（Elements Garden）",
+          "normalized": "菊田大介",
+          "affiliation": "Elements Garden",
+          "standardName": "菊田大介",
+          "existingCreatorId": "cr-0006",
+          "candidateKey": null,
+          "identityKey": "cr-0006",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "菊田大介",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0006: 菊田大介の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d8ec8fd911c9f02de3e2",
+              "supports": "garupa:272 arranger: 菊田大介（Elements Garden）/ 川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-272",
+              "game": "garupa",
+              "recordId": 272,
+              "title": "劣等上等",
+              "workId": "wk-0266",
+              "role": "arranger",
+              "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+              "tokens": [
+                {
+                  "raw": "菊田大介（Elements Garden）",
+                  "creatorId": "cr-0006"
+                },
+                {
+                  "raw": " 川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:272",
+          "creatorId": "cr-0006"
+        },
+        {
+          "raw": " 川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d8ec8fd911c9f02de3e2",
+              "supports": "garupa:272 arranger: 菊田大介（Elements Garden）/ 川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-272",
+              "game": "garupa",
+              "recordId": 272,
+              "title": "劣等上等",
+              "workId": "wk-0266",
+              "role": "arranger",
+              "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+              "tokens": [
+                {
+                  "raw": "菊田大介（Elements Garden）",
+                  "creatorId": "cr-0006"
+                },
+                {
+                  "raw": " 川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:272",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-272",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 246,
+      "title": "Bad Apple!! feat. nomico",
+      "band": "Roselia",
+      "workId": "wk-0240",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "笠井雄太（Elements Garden）",
+          "normalized": "笠井雄太",
+          "affiliation": "Elements Garden",
+          "standardName": "笠井雄太",
+          "existingCreatorId": "cr-0010",
+          "candidateKey": null,
+          "identityKey": "cr-0010",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "笠井雄太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0010: 笠井雄太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d067494cfedab5055302",
+              "supports": "garupa:246 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-246",
+              "game": "garupa",
+              "recordId": 246,
+              "title": "Bad Apple!! feat. nomico",
+              "workId": "wk-0240",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:246",
+          "creatorId": "cr-0010"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d067494cfedab5055302",
+              "supports": "garupa:246 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-246",
+              "game": "garupa",
+              "recordId": 246,
+              "title": "Bad Apple!! feat. nomico",
+              "workId": "wk-0240",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:246",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-246",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 231,
+      "title": "甲賀忍法帖",
+      "band": "Roselia",
+      "workId": "wk-0226",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-9bb8311c3e7d898bd570",
+              "supports": "garupa:231 arranger: 都丸椋太（Elements Garden）／川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-231",
+              "game": "garupa",
+              "recordId": 231,
+              "title": "甲賀忍法帖",
+              "workId": "wk-0226",
+              "role": "arranger",
+              "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太（Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:231",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-9bb8311c3e7d898bd570",
+              "supports": "garupa:231 arranger: 都丸椋太（Elements Garden）／川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-231",
+              "game": "garupa",
+              "recordId": 231,
+              "title": "甲賀忍法帖",
+              "workId": "wk-0226",
+              "role": "arranger",
+              "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太（Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:231",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-231",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 243,
+      "title": "ロキ",
+      "band": "Afterglow",
+      "workId": "wk-0237",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太 （Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-3658a4c9efbc0177e725",
+              "supports": "garupa:243 arranger: 都丸椋太 （Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-243",
+              "game": "garupa",
+              "recordId": 243,
+              "title": "ロキ",
+              "workId": "wk-0237",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:243",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-3658a4c9efbc0177e725",
+              "supports": "garupa:243 arranger: 都丸椋太 （Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-243",
+              "game": "garupa",
+              "recordId": 243,
+              "title": "ロキ",
+              "workId": "wk-0237",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:243",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-243",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 220,
+      "title": "全力少年",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0217",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太 （Elements Garden） ",
+          "normalized": "都丸椋太 （Elements Garden）",
+          "affiliation": null,
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "provisional-credit-subject",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太 （Elements Garden）",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fb4b8fdefc67c293b5b7",
+              "supports": "garupa:220 arranger: 都丸椋太 （Elements Garden） /川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-220",
+              "game": "garupa",
+              "recordId": 220,
+              "title": "全力少年",
+              "workId": "wk-0217",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden） ",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:220",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fb4b8fdefc67c293b5b7",
+              "supports": "garupa:220 arranger: 都丸椋太 （Elements Garden） /川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-220",
+              "game": "garupa",
+              "recordId": 220,
+              "title": "全力少年",
+              "workId": "wk-0217",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden） ",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:220",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-220",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    }
+  ],
+  "summary": {
+    "newCreators": 33,
+    "creators": 124,
+    "nextId": 125,
+    "blocked": 0,
+    "records": 884,
+    "works": 823,
+    "warnings": 0,
+    "patches": 6,
+    "displayComparisons": 2652,
+    "conflicts": 0,
+    "changedFiles": 1
+  },
+  "sourceType": "human-review",
+  "checkedAt": "2026-10-04",
+  "formalIncrement": [
+    {
+      "game": "garupa",
+      "recordId": 248,
+      "title": "群青日和",
+      "band": "Poppin'Party",
+      "workId": "wk-0242",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "笠井雄太（Elements Garden）",
+          "normalized": "笠井雄太",
+          "affiliation": "Elements Garden",
+          "standardName": "笠井雄太",
+          "existingCreatorId": "cr-0010",
+          "candidateKey": null,
+          "identityKey": "cr-0010",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "笠井雄太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0010: 笠井雄太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-430a2dc776d5dac90020",
+              "supports": "garupa:248 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-248",
+              "game": "garupa",
+              "recordId": 248,
+              "title": "群青日和",
+              "workId": "wk-0242",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:248",
+          "creatorId": "cr-0010"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-430a2dc776d5dac90020",
+              "supports": "garupa:248 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-248",
+              "game": "garupa",
+              "recordId": 248,
+              "title": "群青日和",
+              "workId": "wk-0242",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:248",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-248",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 272,
+      "title": "劣等上等",
+      "band": "RAISE A SUILEN",
+      "workId": "wk-0266",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "菊田大介（Elements Garden）",
+          "normalized": "菊田大介",
+          "affiliation": "Elements Garden",
+          "standardName": "菊田大介",
+          "existingCreatorId": "cr-0006",
+          "candidateKey": null,
+          "identityKey": "cr-0006",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "菊田大介",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0006: 菊田大介の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d8ec8fd911c9f02de3e2",
+              "supports": "garupa:272 arranger: 菊田大介（Elements Garden）/ 川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-272",
+              "game": "garupa",
+              "recordId": 272,
+              "title": "劣等上等",
+              "workId": "wk-0266",
+              "role": "arranger",
+              "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+              "tokens": [
+                {
+                  "raw": "菊田大介（Elements Garden）",
+                  "creatorId": "cr-0006"
+                },
+                {
+                  "raw": " 川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:272",
+          "creatorId": "cr-0006"
+        },
+        {
+          "raw": " 川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d8ec8fd911c9f02de3e2",
+              "supports": "garupa:272 arranger: 菊田大介（Elements Garden）/ 川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-272",
+              "game": "garupa",
+              "recordId": 272,
+              "title": "劣等上等",
+              "workId": "wk-0266",
+              "role": "arranger",
+              "rawCredit": "菊田大介（Elements Garden）/ 川渕龍成",
+              "tokens": [
+                {
+                  "raw": "菊田大介（Elements Garden）",
+                  "creatorId": "cr-0006"
+                },
+                {
+                  "raw": " 川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:272",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-272",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 246,
+      "title": "Bad Apple!! feat. nomico",
+      "band": "Roselia",
+      "workId": "wk-0240",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "笠井雄太（Elements Garden）",
+          "normalized": "笠井雄太",
+          "affiliation": "Elements Garden",
+          "standardName": "笠井雄太",
+          "existingCreatorId": "cr-0010",
+          "candidateKey": null,
+          "identityKey": "cr-0010",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "笠井雄太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0010: 笠井雄太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d067494cfedab5055302",
+              "supports": "garupa:246 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-246",
+              "game": "garupa",
+              "recordId": 246,
+              "title": "Bad Apple!! feat. nomico",
+              "workId": "wk-0240",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:246",
+          "creatorId": "cr-0010"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-d067494cfedab5055302",
+              "supports": "garupa:246 arranger: 笠井雄太（Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-246",
+              "game": "garupa",
+              "recordId": 246,
+              "title": "Bad Apple!! feat. nomico",
+              "workId": "wk-0240",
+              "role": "arranger",
+              "rawCredit": "笠井雄太（Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "笠井雄太（Elements Garden）",
+                  "creatorId": "cr-0010"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:246",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-246",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 231,
+      "title": "甲賀忍法帖",
+      "band": "Roselia",
+      "workId": "wk-0226",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太（Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-9bb8311c3e7d898bd570",
+              "supports": "garupa:231 arranger: 都丸椋太（Elements Garden）／川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-231",
+              "game": "garupa",
+              "recordId": 231,
+              "title": "甲賀忍法帖",
+              "workId": "wk-0226",
+              "role": "arranger",
+              "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太（Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:231",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-9bb8311c3e7d898bd570",
+              "supports": "garupa:231 arranger: 都丸椋太（Elements Garden）／川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-231",
+              "game": "garupa",
+              "recordId": 231,
+              "title": "甲賀忍法帖",
+              "workId": "wk-0226",
+              "role": "arranger",
+              "rawCredit": "都丸椋太（Elements Garden）／川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太（Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:231",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-231",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 243,
+      "title": "ロキ",
+      "band": "Afterglow",
+      "workId": "wk-0237",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太 （Elements Garden）",
+          "normalized": "都丸椋太",
+          "affiliation": "Elements Garden",
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": null,
+              "sourceType": "existing-creator-db",
+              "checkedAt": "2026-10-03",
+              "document": "data/creators.json",
+              "supports": "cr-0019: 都丸椋太の確認済みname/aliasesと完全一致。",
+              "note": "既存masterの固定IDを再利用。"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-3658a4c9efbc0177e725",
+              "supports": "garupa:243 arranger: 都丸椋太 （Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-243",
+              "game": "garupa",
+              "recordId": 243,
+              "title": "ロキ",
+              "workId": "wk-0237",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:243",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-3658a4c9efbc0177e725",
+              "supports": "garupa:243 arranger: 都丸椋太 （Elements Garden）/川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-243",
+              "game": "garupa",
+              "recordId": 243,
+              "title": "ロキ",
+              "workId": "wk-0237",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden）/川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden）",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:243",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-243",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    },
+    {
+      "game": "garupa",
+      "recordId": 220,
+      "title": "全力少年",
+      "band": "ハロー、ハッピーワールド！",
+      "workId": "wk-0217",
+      "role": "arranger",
+      "confidence": "CONFIRMED",
+      "splitStatus": "CONFIRMED_SPLIT",
+      "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+      "creatorTokens": [
+        {
+          "raw": "都丸椋太 （Elements Garden） ",
+          "normalized": "都丸椋太 （Elements Garden）",
+          "affiliation": null,
+          "standardName": "都丸椋太",
+          "existingCreatorId": "cr-0019",
+          "candidateKey": null,
+          "identityKey": "cr-0019",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "provisional-credit-subject",
+          "officialLatinName": null,
+          "sortKey": "都丸椋太 （Elements Garden）",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fb4b8fdefc67c293b5b7",
+              "supports": "garupa:220 arranger: 都丸椋太 （Elements Garden） /川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-220",
+              "game": "garupa",
+              "recordId": 220,
+              "title": "全力少年",
+              "workId": "wk-0217",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden） ",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:220",
+          "creatorId": "cr-0019"
+        },
+        {
+          "raw": "川渕龍成",
+          "normalized": "川渕龍成",
+          "affiliation": null,
+          "standardName": "川渕龍成",
+          "existingCreatorId": null,
+          "candidateKey": "b1-a341ddeabf1c140432d9",
+          "identityKey": "b1-a341ddeabf1c140432d9",
+          "confidence": "CONFIRMED",
+          "applicability": "RECORD_SCOPED",
+          "type": "person",
+          "typeStatus": "confirmed",
+          "officialLatinName": null,
+          "sortKey": "川渕龍成",
+          "sortKeyStatus": "provisional-original",
+          "evidence": [
+            {
+              "sourceUrl": "https://up-front-works.jp/release/7531/",
+              "sourceType": "official-label",
+              "checkedAt": "2026-10-03",
+              "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+              "note": "",
+              "pageReadStatus": "BODY_READ"
+            },
+            {
+              "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+              "sourceType": "phase-a-raw",
+              "checkedAt": "2026-10-03T03:40:13.182Z",
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "evidenceId": "e-fb4b8fdefc67c293b5b7",
+              "supports": "garupa:220 arranger: 都丸椋太 （Elements Garden） /川渕龍成",
+              "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+            },
+            {
+              "reviewId": "release-joint-garupa-220",
+              "game": "garupa",
+              "recordId": 220,
+              "title": "全力少年",
+              "workId": "wk-0217",
+              "role": "arranger",
+              "rawCredit": "都丸椋太 （Elements Garden） /川渕龍成",
+              "tokens": [
+                {
+                  "raw": "都丸椋太 （Elements Garden） ",
+                  "creatorId": "cr-0019"
+                },
+                {
+                  "raw": "川渕龍成",
+                  "creatorId": "cr-0120"
+                }
+              ],
+              "sourceType": "human-review",
+              "checkedAt": "2026-10-04",
+              "previousSplitStatus": "REVIEW_RECOMMENDED",
+              "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。"
+            }
+          ],
+          "reason": "人間が訂正後6収録の共同編曲分割を承認。220の都丸椋太＝cr-0019も明示確認。rawと順序を維持し、このrecord-role以外へ適用しない。",
+          "affiliationParticipation": false,
+          "confirmedAliases": [],
+          "scopePolicy": "RECORD_SCOPED",
+          "recordScope": "garupa:220",
+          "creatorId": "cr-0120"
+        }
+      ],
+      "humanReviewId": "release-joint-garupa-220",
+      "action": "CONFIRMED_RELATION",
+      "changed": true
+    }
+  ]
+}

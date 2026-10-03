@@ -1,0 +1,169 @@
+{
+  "url": "https://bang-dream.com/discographies/113/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:20.884Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 1st Album「Anfang」",
+  "artists": "Roselia",
+  "releaseDate": "2018年5月2日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 71,
+      "workId": "wk-0071",
+      "title": "－HEROIC ADVENT－",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "8.－HEROIC ADVENT－",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 72,
+      "workId": "wk-0072",
+      "title": "Determination Symphony",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Determination Symphony",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 34,
+      "workId": "wk-0034",
+      "title": "LOUDER",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "12.LOUDER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 114,
+      "workId": "wk-0114",
+      "title": "Legendary",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.Legendary",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 92,
+      "workId": "wk-0092",
+      "title": "Opera of the wasteland",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Opera of the wasteland",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 103,
+      "workId": "wk-0103",
+      "title": "軌跡",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.軌跡",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 48,
+      "workId": "wk-0048",
+      "title": "陽だまりロードナイト",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.陽だまりロードナイト",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 37,
+      "workId": "wk-0037",
+      "title": "ETERNAL BLAZE",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.ETERNAL BLAZE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 26,
+      "workId": "wk-0026",
+      "title": "Hacking to the Gate",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Hacking to the Gate",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 25,
+      "workId": "wk-0025",
+      "title": "魂のルフラン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.魂のルフラン",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 1st Album「Anfang」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

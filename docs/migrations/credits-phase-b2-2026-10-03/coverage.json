@@ -1,0 +1,26 @@
+{
+  "lyricist": {
+    "creditConfirmed": 835,
+    "fullyResolved": 615,
+    "rawFallback": 220,
+    "unknown": 50,
+    "proposalRelations": 615,
+    "appliedRelations": 615
+  },
+  "garupaArranger": {
+    "creditConfirmed": 751,
+    "fullyResolved": 718,
+    "rawFallback": 33,
+    "unknown": 48,
+    "proposalRelations": 718,
+    "appliedRelations": 718
+  },
+  "ournotesArranger": {
+    "creditConfirmed": 5,
+    "fullyResolved": 2,
+    "rawFallback": 3,
+    "unknown": 81,
+    "proposalRelations": 2,
+    "appliedRelations": 2
+  }
+}

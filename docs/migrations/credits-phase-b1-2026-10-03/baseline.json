@@ -1,0 +1,6643 @@
+{
+  "phase": "B1",
+  "checkedAt": "2026-10-03",
+  "head": "5e4da7e517f5640b068cabaa8aa01b036e281961",
+  "phaseA": "docs/migrations/credits-phase-a-2026-10-03",
+  "phaseAFiles": {
+    "docs/migrations/credits-phase-a-2026-10-03/arranger-raw.json": "d05764026ec4b2fe09592051f712953c8f7bc439efbcad2b6d775517a0af57ab",
+    "docs/migrations/credits-phase-a-2026-10-03/baseline.json": "27e7b8ff0ccf2ac84692a589d7a58fe056160ce9137e4b1f961e63cc66c2c052",
+    "docs/migrations/credits-phase-a-2026-10-03/composer-audit.json": "533a966f72d449159db67f9d37d93c6b6af7163ee1cf8cc416a1a7db9f3506a9",
+    "docs/migrations/credits-phase-a-2026-10-03/composer-audit.md": "e49b18b1c04bbd05b977997ecb7a7895c3433af06df2ae1fad7ce2f6f3bf5db7",
+    "docs/migrations/credits-phase-a-2026-10-03/composer-raw.json": "0868caa2c0f03e42a06d8dfe3c9f1589ebdf09d2bdf21663288b06206b2d6d57",
+    "docs/migrations/credits-phase-a-2026-10-03/conflicts.json": "d92c4041c20d3184fa8c8e68b9b8f735c28f3c3a40ded14646febbc22223590b",
+    "docs/migrations/credits-phase-a-2026-10-03/conflicts.md": "4e44fa1cb0f06b0e47e3d15c90f876df9c059502db16d28ef7fe5f6a62c28942",
+    "docs/migrations/credits-phase-a-2026-10-03/coverage.json": "05024e7d75bf39b22cc78a72defc2dd029153ffb4eaea6c6e438c5aca74d0125",
+    "docs/migrations/credits-phase-a-2026-10-03/creator-candidates.json": "5b0d50234f1add821fc53e7d6606bc5cdfe848e5c1801fad31259a4d326766ae",
+    "docs/migrations/credits-phase-a-2026-10-03/credit-research.json": "6025759458285051b202efdaf32cd40c2951f67a5314bb42ca37b56cc7c2160d",
+    "docs/migrations/credits-phase-a-2026-10-03/credit-research.schema.json": "552e8304a7848a9c683f3854f0130dc3c169150f1f43c4d81aa1b887f8e8f732",
+    "docs/migrations/credits-phase-a-2026-10-03/credit-review.md": "1f9f84f1d7a1b44f55cbd680f830d02b2afe783fbb22b8c035505a2b2dc245a8",
+    "docs/migrations/credits-phase-a-2026-10-03/evidence-facts.json": "b91c0980b380036bd22dc7da1968a577254fc0e06a3eb66dc0ecf586d809dec0",
+    "docs/migrations/credits-phase-a-2026-10-03/lyricist-raw.json": "6a3242def5cf557c3c627728ff61d5ee8eff6be1e81c18c93ea3324269797b78",
+    "docs/migrations/credits-phase-a-2026-10-03/PHASE_A_REPORT.md": "195cb06a66aba1a806df49c8e1cdb80a8a01b66b5d237af788ec0a9bd6bc3e74",
+    "docs/migrations/credits-phase-a-2026-10-03/raw-cross-role-index.json": "f7720e1ca468e3edd9c4f4a8d96c084674145bf9f240607dc0eb41ccca8e9902",
+    "docs/migrations/credits-phase-a-2026-10-03/README.md": "35670b5db59672e9a3390dee468ba008554b7454b3115f44121e35ee81c4513c",
+    "docs/migrations/credits-phase-a-2026-10-03/requirements-audit.md": "10c3def0c58080ddb27cfb2b526c8eaeedb553b19acba3e304c8655fd9691437",
+    "docs/migrations/credits-phase-a-2026-10-03/source-index.json": "1419be76939009c2c167d57befaba4ab603b792fd2f233d8780e58e4d553379f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/band-agency-dreammonster.json": "d61653944adda1b54bc3c86ade4f58a43edf6f821efea6a2268fdf295d360d3a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/band-mygo-inst.json": "65cdb53e261fcd2f009e4730364fe06991f7b6cffea26555de21e60439db8dde",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-100.json": "9ee810a34cd5363cc1fca99839fb104015defc8d5b81f64eeb7d8324c2e81baf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-101.json": "bbae7a247a2011f18a42ee7e8f6505ddd4650d18510db7190ddafcca618c2aca",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-102.json": "20df6156bdcc3b8f73461963e2446d2666491fdf856a5ec71b54f5fb9fed78f9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-103.json": "1edc320f1a88368cf12c6ebc31dc40dc5ffc70a608d67d2f414379577315d19f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-104.json": "0af0a26b82bece9b7edbab4c486a88d3e782a55b1be7a040081dc8c433f0075f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-105.json": "e08d65473a559aa97d927250a2f1406cfd377fc785a12c484cceb459d35de644",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-106.json": "0cfa8ca60979bc243393d39ab5e93c2b4614df9a87c6fa2b7dd0da5a7c42b6f4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-107.json": "d5d3fbf3b00d3d1295279fe476289c1fae8e71da758e2a53e9667f02341691cf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-108.json": "553b3b3e14cf32bb94644d6887e78684a1022d72045c38246d5a312043b04201",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-109.json": "dbc5f50de826b9028e8c30dcc7121e7d1ccd02a91faa0202eee3a79ece7c50e6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-110.json": "8181d810d0da7c989007c7adb3d02dc36dc3f4ad6a5b2ad86eccbd57e337441a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-111.json": "ac7f8043604e3886b2f2b0f46a756d0b27a0a74fc14f42de74baebe4c4654623",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-112.json": "7aaac9ac895ed5927e02124fae03bd583d0b0c779dcaf5554a698c88b0858e84",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-113.json": "53b92c0685051a9c729e0bac46952cd93b3aa451c3c739a32319a138ef190a4a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1142.json": "c39e987d0aa85ea85049d552a955724c2ed207ec9c0f251d071b9cc08c8d1df7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-115.json": "6986e5380c5793a9602f19870b18f4f7532823fc3f9466128010c344ae293c88",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1200.json": "4bb28c31ce9188b892762a3414be54db9233b0d89ec2ed0ea10288e777fcc9d8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1284.json": "76d9373feccd417dda34846c3e0c2519a9d49a50be654d8f79130b287ef03a1a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1387.json": "53ae0b4be03f9c047fc017c28e7cb1a187110837b8daeb7a72ca35f3c3a4b266",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1388.json": "0cd0240f6e634952fa3a430645ff42e76221458109b6bcd60431ab573615d307",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1389.json": "969b2ac4c8e91859f538cc3c435e59145ec601150404a05fb40801e6c549bf6d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1390.json": "46ccb554e4f443ca59b96f12a831786bf90fb2c907e8226f336218b456245063",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1391.json": "66e6aa68abb6af9c6008142df674eaa4ffb17bcd3718c4c2171815f67dc43d3a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1392.json": "617bb10d136f56ffcd39321c22c6039516e5302f7faea40de9cb13d537de5375",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1393.json": "6baf9265804f6f7e8a25845e98d465d590419f276c5639080fdb8218d6bcd3d3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1509.json": "47d24c8bece01f1801a2694b88d97d4b49fd526c553444e5c5447eb8af420372",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1690.json": "7056104677f23c7b8b764bcf3c084a7768199584a74569b232920362bc6a1093",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1691.json": "846a8be24c4ba712b1f768142d71f75381fef08e04a7290540dc1e74fbfeccdb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1692.json": "f99776c43260ccb815f54728051862b8691139d2e5434b5893623239495f3c3f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1693.json": "32fbbd10d25c3025b86cdf0879b8c8cf513b5cb28c6d67f3d56e9b14bfa2c335",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1828.json": "fbf0a1a4a658a36855359d8af9ee649aa69b4e9fca2eb7ca5062961c4aaf1aa9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1853.json": "d8d1fa905087600c97f5e3564456920fa360e20cae632776da145fe158edee1d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1854.json": "1e3e0547c05e0ccacc6b0f3c6c438e2cf5c324266cea3657af960c9498d7ab36",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1863.json": "24929112ad0c8db610f7f35893293e4467b584806c197a2aa20b3d65a4f656da",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1864.json": "2e2181ebac622f557a83abea2d57ac73395497736d5dccfb78d30cfa75fe4789",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1865.json": "f87a18a02b94a62115f1da1a1e25f44555de4de409feca286eb7eca24513b32a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-193.json": "ca82f0d24c45cb61e8cda973107a1eb009c74946e52ac824f7c195f089e9c3b0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-1959.json": "3658f47396bbfd5e81c2f6d2af17d286643c2451f4d4934978e13d0de60050f3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2172.json": "90dbda9fc3799042a0d205cee41c36c90daa85e545d256df934d51bbc5f1b543",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-22.json": "a3f047485145d29ec0ab62ddf5aea7795ff61822a2710d181f2949b3b242d9d8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2285.json": "d2b717cb78eeba00bdec7f6f3ac987f43afab968683b62b56fe2723a6973753e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2298.json": "2d1a2f59e10a08402e186bdf0d5981edfce52e26fcea892f8e999d7a1dbeec11",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2299.json": "07c1824f90c14f95d3f375ff2ef51ae64323a3d3d97211e0fe00f2ab565e84c0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-23.json": "47338a1744ddf7c9d20ff212529e4e518bf0c512cf3815e703add3d98d492ec1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-24.json": "53c9cbf2334a82fb2f99ae6ae6803e2d9616752a538e27d240d659242671c912",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2440.json": "543d5e4efcad4c5a650d236198bb3ec25e8a7b9d0714220cb929028ec4a72ac5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2498.json": "ff1bfdb235210c502d03dcd95abeace77e27f5e1d4bdb2e5cbee424e578c074f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2512.json": "cc69796af6c5de13023d8deefc4e6e1d5a5072f6d36c950b1ce86e8986f90916",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2513.json": "b5bf8fc14226b0faf4146bf483c1479610f705873604ec946301cbeb2a940a2e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2514.json": "aa46b61df4a8a61d4c8e14302daa2433598b6f17b253d5a373d16acd687d6217",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2618.json": "7498af1670902f0c817a881ef18786813a052e2dd2be7fed9730bd3472bc2771",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2619.json": "9e2480cb09e813f2f2b8d737fbbdfa939d62f773f142b8e3d400c6ba58cf9e30",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2648.json": "52978b70a243771df926f60227dc54c145b603f6e49652f74d695a693272357a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2684.json": "eba8482b3eac96ce5a7cfdf3cbc4d274f881d40947a0c3792427410d69b53f59",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2727.json": "6756f2f6e0d81e4f98cfb0bd6b28fdda32295f45387c10b42f9792a1aa18e99f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2866.json": "dfd83b93096058c84b1e021110aeecfa7de57fcbe826a30d64e3b0182a1736bd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2881.json": "0291c4d21c7e7cec00bca7c9caeb70bb86102bcc62efa80dc21d2911466a1a63",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2884.json": "00dda39260f0e78dd34cca48bc18b40b8dd98da56a9dc5deeab293fec40c8960",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2931.json": "47497d938725a31a089688041aaad5bb759a12e6f55607792c0c22dc81ce0afc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2932.json": "acbe0a69e7ba4497994041ba9c518b5d10309d823c79d9b23efebb5dbce71259",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-2935.json": "af51b263b0742a26ae7ebe238cba72d541f4e0169bac42831f7ed12520e93ded",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3000.json": "805358aeee71754d12e34083da71fd897bbf7dfca95406774360640f1226cdbb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3001.json": "b79e3fe69946cacf543e27e208f25808001c952f3aa6e36d0f7f0aabb2574433",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3002.json": "f3041d358e82145e33e728f0e6c29f42df58b14bce0b473db4ce53ba328e6418",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3003.json": "4caed965594557f42c992edfd6bfea702b5edfc9801ec420ecf480580b043aeb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3004.json": "f56c27a5c922d366840971bb6a55fd3f5065358ca1034577af3910feb5ead690",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3006.json": "5ebbabd2267ac588596ab93945a24ec3d0a1c9db9714bbbed79dd11ee097e103",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3008.json": "6355dbaebe14c2884fecf69d7c81ce2958ef035d8db685eb92dd49ddda966e61",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3009.json": "cfe42e30f01122c946e75af115a91fd84d13e40a29302260773006b7efc8b2a3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3046.json": "9e6fd306f73382ea77f869a03c81ca47accdf6c81bdad4fdd457c1a2c875359c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3062.json": "6a89e30748ae0f9eab78940471a9111a5e96877ef6879f8602f34c1834705827",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3090.json": "d7fe23f14285d26ad6743cb867cc52e44da01eb6aa8d814b45c1d4cd76bcc3cb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3091.json": "67539f669f7093d90e4ed774f6df3cb77f229406a4643b8324c7b3a95f31cbe8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3097.json": "bf3a19807af2fe4abf0695f4d36c690a91932ed85fa48cf10b28f0cdf4cf2b1a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3098.json": "9c8a0bd8bf23c3323c320ebe3b56d737a842879ba3f69075cf526dbc456b8532",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3099.json": "23d41b0572409c53cf4d8a8af78fe78c31426883718b1a29b504195e1832aa38",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3101.json": "0777dfc16c3f4093af567355ea0ee7a3be4e998b19e80a7dacdd368620fb0203",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3104.json": "48278b74e412515eb09ef06013d21b663610451a8e349eca566586a95106348b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3107.json": "5b5ee85d99236e796fd6fc76972bbf248f260566470aa442b938e9f81e164138",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3117.json": "ad53c5ad15dbffb0f556f6fa101246e6d5075fe670014f01f17745086b85623a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3166.json": "16d07f076e8ef5e0081c462c4f394618dbfa0c5475f210438a226172ebd1106b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3168.json": "dddda884d2ad9bcc438679798e1733dfa3f5ab6eecd979768590f1909d3a8fba",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3223.json": "f3de83d85dd2225a0d409150936d1c5448d82bda9ef4da209c7ce429df5aed0e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3224.json": "e8e0e02e2d81419015d7aac6d0dcca7378813e6d96cb60e1faca761a1439e810",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3225.json": "786b04782368f8e22eeee7a516f9c2f28626e213b732c075294f1bfa1e018ae9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3226.json": "136ed60e20ad5a63269ae2c62833fc6faf2c21384e44cfa9a41bd53a0845c502",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3227.json": "6372a55b635800b1bd4a71305b901d92aef31e4ee503c0038551b9022dffb904",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3228.json": "460a8399ee97b5eaa017e4158c1236756c43f19254f56bcc510730faafa1654d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3233.json": "0fb23c73085e2dafc81edd564b467e622baac1a0786c124d6661a5faa522f6b8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3234.json": "3d01976bab7690258976a6af82ae7820b7c063b6fcec93b5c5f63956a20963ea",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3257.json": "3befd7662af96537f45fc53b3d7f2492e0035ff022083df065e3740f232dcca8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3291.json": "c999554b0a3bd623aa213b4653831add751591f8534ab3a995ba636544fef46f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3295.json": "8c5605df6cabb4ed7c885e08bb172116035f016166824f42c87dd858eebf47db",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3296.json": "bceaa3eda49f285aea018238666d14fe92fa88235a0fe9d8a3958c6a12547689",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3301.json": "bb74023168cc145f3f41f8d3fd1939b099816d54f2bce643b63ec731d4ef16d7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3302.json": "93f63c412f84926ad7bce9dd22904c42ab9601468e194ab6b2942c2bd7f05804",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3303.json": "90ce712e4bc1c39715e3666df46fbbbfea2600e276101a072d0872d53d72a850",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3319.json": "57e06231866682f4dbc4938284df5a68a76df6a95b664cd08a102757d22ba7e8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3320.json": "6c71eb2604f4e4993015821beeedf3138b8e167dbefc6bb36d7aeb0945ee91ed",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3321.json": "4b5aea7f59edd4e0c5eeed616ab4432564d2af0b0f839043fe77488b6c91eb8a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3322.json": "e3d19197d9e6506fb187101a4f5c96b95382ec578e483ccb39c01b4742f47da3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3337.json": "135e8598d9425d727b469298ead816fd58e0b30f65d46a7ef9b6ad79c87709a7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3340.json": "2b792f13edde15dee2863b3ca77aead030d99fb55ee3a072f9da5fe415e08ba1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3341.json": "b52880619515ed3499d570b2da93aa88fa701040821d0e13ba44854d1c003a64",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3342.json": "111d0229d04dffe6a370a769227d221f484006aa23d304913a237b48845620c9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3343.json": "b7ea92f78d44956845895c28f297003a6758d7ed284aca48a91222b3b6b56e85",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3344.json": "5c970f00158a7caafa1562e1bb042bcfa7c47984d74898f772b1078562a7a272",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3358.json": "e9f1c549db897f606f9838a8c04ac53cdd909082ebd5d4c9af3d8ebd2f595862",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3360.json": "1d7e792bf44c68fa8cb8ad94c8ee841ad6b8ab0bfc101ce7a07897241606a681",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3361.json": "d772345b883928fdeed77bc6780d8b906fa5226b4e57c015a1dc252a159f568e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3362.json": "e6d0e9ee911fb20a72e8a9e73a6b85a92f45b631ac3fb793dfd816a800cd487a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3363.json": "b53a4d4fa080a0304e95f2311172ab841c7e2613d44de3ff2cf5ab770a1744b2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3364.json": "f13f50f033ff39aee8e0f1e17fd1ee845a1f9672b2d40ce53d3549c969309fc7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3365.json": "da8b69350b2e724343d1d962aad8bd73b7f3152bca9413f3fcd1b4f39b7c957c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3366.json": "62fc233e5d1254276c3a39fabcaaaf8e89b81df7628c359445f5785176b0c655",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3367.json": "2856525a3f194de53fb5cb5390e6060deeae42e8df7c0a1c2c430f5668889910",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3368.json": "acf26eaecd252de8f0553fbddea152f4d830fdbe3f91745a4192618d42e6e385",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3369.json": "58e91fe69e709a632d375d034464f9f6ed7052b94f8395be8a9f9cbb125677d5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3374.json": "2864e142f15e23d26af5df039225238c4121ac3edb648615702f8566f9eae224",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3375.json": "246f6bbce0e1d24d2a97346ff01931406a3542e383e8e34b3f7870cfcdf9f7d7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3376.json": "641dfc6a4a82e2760a5774323826c1f4e62bcb57ef8bf58bfa1ed203bbc8e759",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3377.json": "2466ea70a68920d8406f47b98e5f6741d345177aec08d2de617ae48697fb3227",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3378.json": "acd0b4b239f77936cd635ee4e19474a4a21a3b7fec88ed8a2f58025578cef693",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3379.json": "5b0e5b0dd62b5cc8a8086f037246b70744f8cd651d89ab21f37fc8a3de0871a5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3387.json": "096b287c7cb46823e07fdf2a1aece34c5392237d2834e9177b3c322227a65b66",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3388.json": "2b4cb89f53a60048d440313914385f388649961d3706b456c504e5d32ac0caec",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3390.json": "da495602d566702fbaa343b8cffc6a20938da2460cacc820b81d6b4539792558",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3420.json": "ba1c200baac3d78bfa2f58d1a4a215b10b1129397de8cd7a8d91b0b9ea006577",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3421.json": "2cac405a1629fea2992ad490462beaa5b69923b8460fb9997c591e1c3d2bc4c9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3444.json": "d001eaa614b69de1ac578d6ca9cff86ce448ce45847188cf42d0752c70e3e0cc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3455.json": "1b20978539fc4c911e6f582b8224b4365e17dbdcba3aba4f0cca6ef0c3b22916",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3457.json": "4ff270b2b03e7a36f0cb62dd215a825fd44a5eb866719aebc595dc58ef2d7dac",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3470.json": "e9a786b550f0f1ad1c6bca996b7a651fafb98addcf61b3ee4f91c12c30aab45e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3485.json": "b94cf328d2ed629f9121062565e253f28962930de70d41077e17bf4cabc417c0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3496.json": "67d698667dcb0346e2fd13732f564f84b1fced31f207cbb24b662a72d9e1bc9b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3499.json": "c717009392602f64026ccf2d3f6a82e5cfcba7ca9ed387de92c61bd5702b64f3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3500.json": "2284c15a064a7b202ba1ce7f1ae5546e264173b1eeb4e5465ce18021b3f56457",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3506.json": "1394c0cd18811ec956a6979b7cd83969b63ed2d9d1b71281b8ce5f484efb81a9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3507.json": "ee6b87ddafb7a0168aa6ad79d7883e5ed18718a76546d21c5229deca441f0507",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3523.json": "b2dc31dd8d92661677a48e73b0d9bf6c6ee885b8d6046739eca1237d36e0708f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3524.json": "1183e45de7a0c9c081c3196b213ad50675a944b96256c38eb1e71d383e3628cd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3529.json": "87698a06ba42e99f89bebdb39e6a831a3623c5869abfb5e995769e9134a13a31",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3562.json": "1bada9305442b82888a049d326914104db64c58c7030fe52c3ad49953e4bb6dd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3574.json": "601ce9d649095bac8d8d3336e23b154064dffbaed36aadc66be4f79b42214415",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3575.json": "20753d4401aba9180d1f2b376de9507157ca13ba6102560caa1ca9c593b5e9c4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3577.json": "0a9aa7b34dedb198d847e000d9612b34f776a118f1222706a8d2774415043fb3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3578.json": "08626b0df3674e785b5a39952bf2292c0ea76ed819db0a6b1e51234c559aead3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3579.json": "905488013b7c6da23700e133535f48efebf8f48513bf972634e4d8b79494e450",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3580.json": "ee995b1bfb3e1bc7c6e37364e5a4b3ee00e31c059f764153b024b3482a78b312",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3596.json": "f116097edfb8d7b59744990c9bb2bb12d8988841b69cea840ecc0a7fa9f4ac30",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3597.json": "964067d2fe4c6b042af5e0c9f010f192f9e26b122052651ffa10695bc3045fae",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3616.json": "bb2f2f442a3a578eff99d009c8e430c18901940d5db2ce7ef8af261e7eedb106",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3618.json": "42873b7d6120dd6119217cf84d5de8beca517e7457e48583a4fb2b26cf0cc9b5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3619.json": "99ef92c9ae5dd620115930c539f7eb484f7080ecf3f67449824e4b4b33c63f55",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3620.json": "6dafe72a41437308606370dde723c3a4ccd6ab68ada2e50e056fca774ece72a8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3621.json": "4c201bb89af0e0b637d946a1f012ad590fb334f5cec83b36c36dcf7d42325671",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3622.json": "b2f917f0f906a86fd77bf19129d5c38bac102a9cb9daca977d4883100227c558",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3624.json": "58c7d48756959aa8c90e73fe273bbdf8dd5674435d123e202ed2f1cec64d6eb0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3625.json": "c641c9558087647a487125ab0709105bd92d4b56da2a760df23a28d1d47593a3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3626.json": "b64168478e8d97cce0ece16cd12b8720f2e40e48f5cb2b4202db79a7d0b36355",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3628.json": "b3a7ccfcda6b85234af15da02541625ac5535ce8f6efa0b14bd23553892f267c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3629.json": "1488b1eff622d3b59cbea57651eca68a7395f06ba8edb2f7639e251f2afb894e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3640.json": "884b0603fbd22b01c1b66502de3c82397ccfbe35c6c2c566155b568988dcbe06",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3641.json": "ba1dfbc6e75f2a98888f6009ff849ec7576b4bbab1124016cc2f759f2d4afcb9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3644.json": "da851678ee639048d5ea23925c995cedfc823d91abb5a5aff2614964ae4c0cc4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3646.json": "b5fe17fa614d340be9ef94737a6ba6ba1875753ed5e3157fc7cd5635d9e51a8b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3669.json": "cf78e5ae519dd20b06a5972cb233156322ebb577ab74d974b5b1008c1c6c5b81",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-367.json": "618e640d5ba5d2561d5bc2f10fd756fba334f62199bc3ec25ab439b96cdfa32e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3681.json": "c6f3318a37d867344e5e01a9428d17141563fe24594f337d17dc3ed5676b0d32",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3683.json": "5b000769309680af2f6088711d832debf0d4ea4bdc518a1f818056a7f9713a7c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3684.json": "5d127fb285ee1c8f173c948ddb3ba1f1fe7dc18fb8b09b46b9c7c4d2ae5e2345",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3685.json": "50c0002737894cdf9c827e2666f2c8b4f5dcf09a2198692b7096d10532c7633a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3689.json": "56a518aab85e0fb49424b65a7149e54076dab8e843cd6704dde64a1aa0e8ae4f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3691.json": "4ec20bc4072af3b9103224db1a6307a8619e4c279fbe65756bd2277b224fae95",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3692.json": "e750d649f5d955c5fbd6f372abce8249059e99e264111544ca0943297c87bdd3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3693.json": "154d5c41c92abd1832e825a4ab0edf756f6b79ce0d19e18762300175345507ba",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3694.json": "34f79b7f1b3ea783a50e3a47c6e7afb98761a3f8d4084fd0f2a0779f492b2bb5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3695.json": "f9ed83b06d95ce2ee99727997f44ba0ee55f176e44f815ea4abadb33ab68d195",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3696.json": "7b3d9a6e72c66cc7d85f42724af1fd261d901f47e48f4eb977f12852763b9c20",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3698.json": "31bda87430f9cd1e62bd3daa4a7ae00dbefd952fb962d78abbc1b28d00ac14c5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3699.json": "c650a5d11dfa8a155842eb0052c6014aa0c39fde4b411dbd0b547904399aa674",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3710.json": "7ccb13e54733505642406ae771638f5fb53c0db7382ab016a7ecc05c70caac71",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3734.json": "ebad3347551608b8b5d47af7cbf0d1d54d326cb19fdf07c1d327597dff01b9cc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3735.json": "35d9e41957b187f80f3446c570b1f08b04d778046ff6b02f4a5ada24e5ade7b1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3736.json": "08d202ef1589092c4afa1ce05d805ebee146e7008b11aff92753d7ad7d39a526",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3737.json": "f877b8dbf821100ca0c92fc404e446b47bf5f79e4e9ef42a761938491417c224",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3750.json": "72cb641f9ffffd3a00f872c594221311e266eee9bbb07cbe20b2b6cadda28bfa",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3754.json": "00a428c906b100d7501200d2f0d2f6b1a331d820289fce6d4ba0aca5da02b8b7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3762.json": "ae7f0a3b79b457cfb72f21a5154b8e2694f6c34deb08dcde306fe14e4db5b44e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3774.json": "a0d2f4e7de5abff676cc9758eae56d6752fff538dfb213a8b160b5ad7acc1207",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3783.json": "820369990a5eae973c4867353e0566c0feb9575c24cedaab705a0fd4731814c6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3784.json": "93ed3229a462a996637d20508ea0e8516d62aeabb591cf1b717e6e3fb6b680af",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3785.json": "98e2ea00895c401e771d6c3888828c58d9e04ba17efccb048fe261da5063925d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3802.json": "e4b24349ee2dc583112ef4cef0e56ced90abd1a62573601bdc44be978a4d4dc1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3803.json": "c43790606ffdf3cb034c8c12e96a2c19111be42bffd493d600f9e37cce7688fd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3805.json": "b24a96d8ee53e5863f36a51569209d382427e9e0717a62392df52b49dd222c80",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3832.json": "cfd0642f168a67732fd504a3a4a58e6f607483e8e4fc75e4a044215e01bfb0eb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3833.json": "ea8aed9dbc4c90c0004df63584689cb38fa8405235fc59f3a05741eb471dd05c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3844.json": "c6d422732b3549299a963881d63fac0253e6180aa0dc77fd4c699b83945a89a2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3846.json": "e2197d6da0962beb648b24091e4d8730a4df86c40307ce14ab3fde1ea410e9f9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3847.json": "109ace84ae04cce00502524a921fd85743cd48ae1396a26bdbb06dd774fef8e9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3857.json": "ce34c93ca4df549dec45848c19a1c05b79cde530d20464d905e59745c97e9d7e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3858.json": "b9ac01ae4a677704f23cb78b34d1aecb29a12b6940724dfde349773f1ec7642b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3859.json": "48b4c0a57c121f788d9df004430acc6364b093574d18b7b4751df2a6fc4a2379",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3860.json": "8023063820969859fd44e5430427010ec1f1c4bd3c8a6022bef917f323faf432",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3872.json": "1c54dc0f30983bf0f7bb48084a598471be40df41e68d902e19556126d389ac7b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3878.json": "51e3e0b8e742e023fe231ead6e7dc699a6ba519cc21977709d4b3d3c3a87b141",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3882.json": "17206cac83deb871713692f4a450be280a8fb8ba2641acc1f55e70576bd61171",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3883.json": "83cc75c892ab6ec14264e2e51e879212394525723db18173bdd7b380bec95904",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3884.json": "963e49df0b9af21d60d1e31561a669a5c9a427da2a3ce55b61017be7081b2dbf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3885.json": "a592d14fb803735a4cb0c16329aa198a6dcd21f69f9dce83b631d3072db89b7a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3886.json": "f9a288951a411389925bf7e802310b69a60545eb967291cd1bb00f971e9d769b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3888.json": "5f6d4bbd06c20023eef8807ed933ddc3d07e7f4638ceb4c195999a37036260e4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3891.json": "4ebd48d74357c9f00b3a1934f9aa13fb24e74288fe8de60cedef692d78975d33",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3892.json": "3d52a72c069dee5708c0f44cf1b6001035f656ed9fb310c25a009f84fa55aba3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3893.json": "43b82ae1317c49342d99d0c92980c1528eeecd35440f10f779c90ea82af0a545",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3894.json": "63ed8d26a81f8a58ab5b007d60b1c8ed7c0c535128729f424b5bd9cc1cc74c9b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3896.json": "f883d8cb3460cc330a0d65188b4877a626855fff5073584436fdb5f1c3d00e45",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3898.json": "f3e2d7cf8b3ca96443a8864efb8792e13f21ab5e400d82e03a13cf7217d24b1f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3899.json": "268d04c8975903df742242f231a169348071bc15bfdc9828b927e3ed066e400a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3908.json": "06735a32a83a55c925dc30e3ef3eb561411d2d8f403f31431298199570c832c2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-391.json": "b22db6fd8e367b9da796c77571049e1437e23ebddb464dd0b708089b4619a7d8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3919.json": "61c87e67e32392594be559246a3f391afa27436877cce9dde8c9591c4fc79f3d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3920.json": "7eca1f742e8824f44dc0f8cd81d03985f5fd39a1cc2f53e6cff536a47468cb80",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-3931.json": "de14e40056cbee1d7720e7beb1e6e719ab18cf82748f47d2753f29a380d732cb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-396.json": "9bc5e4e9f871a64de60753229fd7aec46aa94b9687c691c793f321b4a9b80e34",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4022.json": "0ff9a6583cdee0bd906bd241517ae18df4b2959a4325a207c59a2613f43ba009",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4025.json": "a83bd238558184a6d29d934ab07b9797dda4b5d727f20db7bdebb5fe35ccdb2f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4027.json": "41e14e422e02f0f970046ff7b0a335c8e7b1f737414bcbabc1c12c59d5155b38",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4028.json": "8849351273be6384210078ecb5ec3ddc245bf208857102f04a4803f5bb0f1a95",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4047.json": "8aad0dae6ea1bebfe750f1ce6dbb9f2ece5da56288dc38465d1055e2770c8fe6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4048.json": "dcf01a2857ef9a517fad6339a75cc08b171a79a1dd7c12a68a0e9298a9e918d6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4051.json": "6b70b37f8efecfc2237e4ca53c46d377f674f12a862c151f4a92595ffa121299",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4052.json": "3232d3a63cfbbf28a4a8c0f12fc87ec3bc3bf5567fd0036968bb259a3789e920",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4053.json": "9f0bfd146aaaa3e5b957312a5c8f8708a6472b20fd58f715d29b5ab7443c0f72",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4054.json": "2c9768d40f4f475ab201c2994d00fe973afb08a5b5f061f27b2496f9fdc641ef",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4055.json": "c5dcd671fc248dffda39136c83c8378db53f73d259d930801ca62e2220d992f0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4056.json": "641a2c01c1dfba3a293125b3edac01a1483bffdb6959cf16e60314ceadeb681b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4057.json": "062cb058ed8740991f87a9bcc9f0a4a3e28f75a839613142333507cf3ef605f2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4059.json": "9a92a0307ffc952c583c118ba7e700aa3c09ee297a41240280312f6fc672a56e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4060.json": "7893dc997ae1bea55a2cf8c633be421ffb9cf00b85d4f112e23dff81e86052c0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4061.json": "9a6f60810953a8e5e3d7811408a6bf5c2a3688bd89ca0162a63120e4ef762503",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4062.json": "670341032d3499cfd8b48b22dcc8392950fbfcdced47bad2c907def9430ebec2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4063.json": "a6e07a651c01312d583f0f729deb642ed22acf10d20c87d604840d4f732acb2d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4064.json": "d4ad2ccde3c918d2b063349dc3b72859b54a8fee0e5a256e0c21c60e02a8479c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4078.json": "96ea5f11f2b555fb1ccfbc80ff811669099e856decde406226248670cdc13b44",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4079.json": "3371e46a9f2fe969648d2e70717dc90fac4bcbf9367230b6542ef8d6375c31e3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4080.json": "3a1698f128e805052c9c557793a65d2c929ac9cee4d1f05fd7a8072a084a2a0b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4082.json": "83dbb5fc77e8f409919b22de44bee3e139556d029b5cd0973c14d5cb3979bd0d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4085.json": "9df459e55a0238cb5a04de78204ef4f63dfa59dee91591cadf220135b0a6a928",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4086.json": "f383ccd3e5dbc45c0bb0dc5eab1d86540ed1837efc8db5fbf80ddef34f2f20f1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4087.json": "e9338fe054b0c23bb34922f689de5272d13afd0db3ed42622823260b70724005",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4088.json": "add30a379e3f1c266f81a80355e92461e49996e1d7b8fb2f1d9ac86dd008ddd6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4090.json": "0cf9b9922984b065779638ff2ebb70ba56566ae74729af81248b128779559f15",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4091.json": "72561fc58f33cb6c9218aeee48401abb3b4c73145d3ef3e93eb3adb9743ec46f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4092.json": "5d4da95e15d772f9681fd80bd0acf0da39f1d607b14fe96b7fdbf5724bc72075",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4094.json": "cca5ab800945313268c968dc2acf8920ecb97ab6ad048215a5ee2768a73ad51d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4095.json": "90eb609d1957f98d29d650d4b383e185e1e5b7ed09997ee6ef21913c930a25c5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4096.json": "9c8cf43b25b706425c8693961b3830d95198c5fb9c6343aaf1b6abb9664b6ad7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4097.json": "6624b9e563f9dde06d46ddf263930521672a8602e74e45d1af46eaa824e5b911",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4102.json": "342204bd9d01b85d8b44af739ef6bc5fffb124cb9a169634b3cce44f55c552f2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4103.json": "df9c651e1dade5e61853fc37e9c0206647cb6e2ea5ffad103f29e91703ba0fa1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4105.json": "ee9c517c5bb6750ed00cb0ffb18d4fda836c3cdef7bac04cd99bf06406bf2af5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4106.json": "e03aa2ecbd290f79f6e14d038f61c4905acdd37b9c364bcdeadd50dd3d2474b2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4107.json": "d266181d7abf94c08f48d7571ff9d8c00e04e382a586efda2e65a0062b70f984",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4111.json": "27f680107544362a853249baab9ffd54e3a35173328159707233758d26a809e7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4113.json": "ba24f6993e3cb86625e4d8c72d3983d71c6e0edd5e5f494c49bb35eb471ab748",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4114.json": "b233d2baa529d2f6a1d8da386fb4d2d6e3ba4595fda950a90de8ef6b8566fbca",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4120.json": "5562b88702189a0a60306dde57e6584ceb8018d1311775a8ebac73c7832eda68",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4122.json": "45a95227a37fe147bd4f64e8985d0c53382a57bd537e4fc7022fec85f917a406",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4123.json": "3dc58ef96d4c3ff16215d36fc5ed06719e95733fd9336fb274c6125c24574cda",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4124.json": "68252a0fb479fb63e2d224fc71a3d25b3fedc883682de82da34b262b29f6f333",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4125.json": "974818f65ed1040059299466f9220f9404dcfa5b54024b492e7cb5fe5303b396",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4127.json": "b9e73a0f2b35e301ebfcece49a633a7c3b539f293e67f3901e0e5a6c306366a3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4128.json": "4b54b8b74574c614a47966a295c5baf8aadf8129e16bd160180bcbda14f79364",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4129.json": "553f839027bff2481fe7228e6a2619d16a45c2de9cab651d8a1c31ccc73211e0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4131.json": "e834a9a814d3865f0166335ed7d906b1044a7da043443b56af8c4cf6767d3cc7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4132.json": "7e5f98aecb9f19afee9dc5cee25097355d5d021d4dc3e43b727330dbbde0c81e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4134.json": "536b50c7678bc12f0999d8d0d79e9b490594abacefc28513a02535b25647325a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4136.json": "71acd227c39507630c5a09ec1fc666071c85bae73ef6224d2be51a75137cbba6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4137.json": "e3710679a47b1053bcf540df9939ea63e5d47d15bf1152b4eca526a4a899dddf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4138.json": "5afed9ef6c59280987b0be2403f759689f967083c24d3353cae1b18867980a9e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4139.json": "000641017170515b6810ff4a9ec15600d1c6f8e979c848844087408383b010de",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4140.json": "a49cd28676db0cb8978f6bdc090a33b2ac5e65e67e38657023e7ee720c16ab1e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4141.json": "f84693ac5a8dc710c8a75ae3f586dc580d1e9154803740c991bff52c9a28f4b8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4143.json": "955b72a76b66c50dfe3c7ebc4ed394c5018ade015528df969e1789c3a586e00c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4145.json": "f045f5c1ff9e7ac49e524cceb0deb3c1637b74abb5ab423ec0cd88ebc31418fc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4149.json": "db503d2079bddab8e33eace8137094d8a1ce73051489bb6e0da4ce0765eaa657",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4152.json": "4e6db9d648a292d30d5c037e9ecf5cc8ae24f9ed25c8a3477af6a3bef8264b98",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4153.json": "ea00b495655a734b8123969311f4591acfc44a458a090b867bdf21bf4646065c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4159.json": "8bbcc53288d23f0cef0754ab3cf4381af1e7beed3a69fe4519a96c97a0f1ac49",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4162.json": "f769ac2ce68dbb1638472aec07c1a0fcec6ed7050d525631c89d48993d87aa87",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4163.json": "95e724580c1e1193f23879bfaaa9ac0053d7401d1d023bbf80942f87083aad8a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4164.json": "2c5b65c944a6d3265cd966cbd68abd13464041e0c75e935e0e4f21e0ed6840e1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4165.json": "7fe7bc260bb95429b84b2902498bd88e524bfba3167372c447f4f782aa3afdca",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4168.json": "829066b89db61a1f01edbc47c72f14fc5507ee3e77160e13b0918b7c343155f6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4169.json": "99052fb81179deba6904642d220eca911d8945df2496baf97da8004b5de983c0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4170.json": "3b958e58cd43864399536f03c440d33c0437f7b2000b73285fdc04c3f3becf19",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4171.json": "a63e1cdf513ed6961eb471a5b74fe9ba316381b42c3edffafea271a4eb5cccb2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4177.json": "fcb13b001cb2540ecd5003796253d5e0eb58645bc70bc10aad31ea6bc1a1d3e5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4178.json": "97cc99eac127e096ccb576786b1dc4e5fa3545ec4142f1d1300ceee448b37156",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4181.json": "65ae83fc1228c9a10e38190b8471f7da0d3557baeca97dabfc2a2458764b62ac",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4187.json": "2b7216011bc20be703ecaa827aaa2d5624dc2628a396aca11d699086cfb1cd98",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4188.json": "183a59814b42acf7e3d25ce106016174903ee3a114f17830a90c586c713e22ff",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4189.json": "06b49fe2ca69bbb31df766f36d97a6f1b311a7a44917bef4d9120b4f6ceedaf5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4190.json": "d9d8427f38ed19702334c1377d7dc3d4c342f6c657cb5e6bf3c21813812427e4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4191.json": "fe5bed258ac0f5ba0f34bd86e67af22f9b101bae43c3d5dacaa9e70ab668c60d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4192.json": "03d3372b6ce260514f720c0bd539eb4a9ff84f9f0bb2a01e41b81dd02022c708",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4197.json": "384747906dfac04270fcf0e7fe9e335b8f4a98cbab7cd790556974d192bf9b16",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4199.json": "f3540196d4e1ae8d8e3892a56757cc064bb4b21545462ed2e20bb62d8e58295d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4200.json": "c1433ff8a446040adf5df193351da52aee489cace0ab52adfa829216b9d85541",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4201.json": "7221457084a0a775fb3c6d05662a01bbb960d0ec2d749e43d40b71f83b82bcdd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4202.json": "fccc239ffa7b60311fb6670dac91bdd1791b26aa9d7d47df5296ecd6559ec74e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4203.json": "070cc77c77d869b48556847ff13a0310c02454a50bf2bb2239aa1152be7611c9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4204.json": "ccd44f79d1857beb863a9489373fa997d9ce35b12aafa1e3dfd1b660de7d2fd7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4205.json": "0b13aa7cb0b1d0e9158c6c3a84befa440e0c00d9d2b2b6ffa9192a0d69619925",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4206.json": "c884ee72bf2a86a76e067198412515e658ace59b9d0c8647acf6b6ab03557576",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4209.json": "08977738aaaa6bc8c2f12cdbd52768035909bae2e44334cfafdc08a3ebc39f07",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4210.json": "ae0e03b7d2d4c489860875fa38057c9a6d0c632f95fd8179a9768ffd89979ebc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4211.json": "acf1884d8980768e4cdfb11055a7d93807cbca1a550538cbd3a94dad235b8f2e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4213.json": "b65da9fabf2b108778fb834dd5c48824c6093c18d80effa5e716a57701654864",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4215.json": "d4fbf6781e00ac23ca3e6850f35de62d6bd1403b9d4809e8654695419295cc2c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4216.json": "043de2b1be46e14f59a58bcff30ca00cbffe5a6a35d421cdf3bd037596850250",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4217.json": "58e2372ca9b0b6351ac17c02d2b72a819308e5801ec60c5aa2f38153d440b4ee",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4219.json": "44feaee27631ffae266d394cd000855864ac4205fbdc7f688ae7edac01dddc78",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4220.json": "8bb5ddbd5c35ce1e5a15bfe48d95fa2e55849e61954b18d76e138f6591931404",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4223.json": "feecddbc44dac3d140ba42ac5ed8bb304552d75e67427fad75c70e5d3504c87c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4224.json": "02b0c9e419ada20541b3ef30fd7127803e1c0bc960dd130de64b682d7c2ada8c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4225.json": "a03d2348ee71724c21693ad3a4323ec1bad9d049d0899c117e062e799d4c56ee",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4229.json": "e400f97d9944c9548d5a29548e770d08bc61135a739128820594a62517e732b8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4230.json": "ea0e0b88d6f91c36030f4e166424376d107394b390a3028374655f014173312e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4234.json": "4e9bc0843b428e8eff8f00affe94d95d7830c2f26476866e981c8ea1e57d0d0e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4235.json": "b94b68ae94f47bcd6731e70f46714039cc5b36e28030d910d6627ea128ec1ec2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4236.json": "038c3735b294801b259854864fbf9550db199a98f3638d4d680d09e3f83e9407",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4238.json": "ba825d37e8dc3320646f5d2cfaecdebf1a325cf067b1d1e70ed9b893a21233c6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4240.json": "2d8e1cb9f90c4dfbe187a74de8eca98d648ec8017de5e815ecccb73893557b65",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4241.json": "b2cbe4cd59e5c7e385b5cc2d3124d5a52979259ca4933ba3edac54271e4d6287",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4243.json": "233ccffd87df272dd6a71137f3ca15947920dbc545c5c4ded8e71e17315d9ce2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4245.json": "4d0fab00aacf4ca57f4d4da79f78c491bf82de37d305126ba49521808a85638e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4247.json": "dac27bb77a64e0e686b1b04685db550e43db8f5e4f4e24c5977ae2073c3afdcc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4248.json": "6ab86039dc1e3887af8b1da0e84d038d451e76f03ebea3abed7a8c23cc15a4b4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4250.json": "5d62f3b229ad5e4fa41f35d9dd7c57e098c735c6ad423b939e96b9ad3548db66",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4252.json": "c594e387133d83f3537ad582e73eae3d236369ea8a2d688a3858c028df30699f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4253.json": "60ecf6d744b86268eb7e6d305b44fa20e16b22e03d2a4557205ec27b316dcf86",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4254.json": "df363779aa1e18cca18edfa4fa85dc0b0c0c87ae48db5152152878a4eb1181b9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4255.json": "223c3f6c8d8b6b460323ba63020b4fb9380173a8b246dc0af0f470c552a4ba6b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4256.json": "7cb3eaaae06c93e8bd25fceff3c91ae72f8092ca2fea33e0365dda2cf39a0c54",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4257.json": "5a3bb66c87a7f301c632d94666938c96b085541e8db9b6bf0b2d06836bfe88c4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4258.json": "30f6ed5d89fa6e22ae2d17cba94b08cb396eeb4fc3e5652e6caa7a10caec0b1c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4263.json": "c9d3d14304fec257600cfd86016d28fab3ae0d4725cd7739b903a18a984a7d21",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4264.json": "0069b7dec3b9e6784615dac4292126a7a1f309b03a3b068ebd30515d5eab5aaf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4265.json": "45636890b72d79b5241df1958eaeb5d89b2ae7d211ccb029cf9c5d278b291d57",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4266.json": "eca1dfb3603381f1c2cbff885d4959a158d7d3181769b50374b257f0741ff4c4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4267.json": "c9001c9e5e84ce18f7a0a78a2bc8a5464d0acd21d4c84234448cbac7c8685835",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4268.json": "9079f6df2983cab2a03bfbf40633eb1c5b7732dcb3fdb70f0cb4bf3aeb83bbdb",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-427.json": "fa612b301636a38d83bc854ceed4b9b9e2482d3c553000b5ff20e023250d7313",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4270.json": "4c73953910e4927cec120c0767ada2f4dea053eb9fe5c1ff11c87cc726caa672",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4271.json": "25cda70cdc206201a0d3e4dce54502452b779850ce67c02d1e54bfacd35343c6",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4272.json": "53721278a40e212fe12c569e3de1375ebdc6eea81476084f9bac943ed1bf3464",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4273.json": "29863f22c1fe87f4237eb6f7a76e838420634f06078b8307a54cbf7e10c30b7c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4276.json": "9110171944d5ea5601bb43e266ae379f2d7d2ab06b6f55a3734dbd8399f1b71e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4277.json": "46178adb7104655ec7fdd723daf77972e45ad22376c18d181938245a2ff887d8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4278.json": "cee332dceeaab79c053daf73c10ce9e2cd450aab428c1c2181ad0ed34213a0b1",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-4279.json": "8895fd421c4fc6ff30ce8d9d2edc096825d405555fe9025630fc237101c59505",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-460.json": "fe6774dfe8124ba12aae3e6a4903bcad43b74909ae643b36b8c84533975b287c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-511.json": "b7c24df83f447e7fc964571ba0edf86faa9a296d664199ac46a737643281dfcf",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-585.json": "8c72295ae11d3bdf1f2d399ee24d26434dc82eaabe737688ac7b839e69138196",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-600.json": "76acc2f01f0278c8282ec75a5244c4f0ae0a786958a111d8c2659a3b9a462191",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-613.json": "3b3de46802df2523f65dedfcbaa39425b8b7d091b60ae71b7878c878e65aea40",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-632.json": "a9803902fbcab5102d417d62715320fae5e9f5bba8203be5fdc172c80c684ca8",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-633.json": "e76a0bc7e9909e2666d1f0f562a0a76c41368d5ae4f0e8a0c10374dea82b426a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-634.json": "3bc0880a9573acee0370e258d963d3752bb33b66506d7fbad728d2006e01dc88",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-661.json": "90fc3e4faf99c85134d99f944f292c9ea51fb85afe394faed538d4104ec6c671",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-736.json": "2de054623617400f04128e7a676f7ee9ab0e3d49f4eac957cc5ce45d729c1ae4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-737.json": "f0d302db9340a8a0d89eb5cdf6746b2a4afda8932d5ca5e5e64a2292a8d3296c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-738.json": "b8e566be963cdc3142b2be6954d5e64929c14d9fd693efa55de30c2b8d26986a",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-739.json": "35c91ac8be50354f2ac64edebb873ba950b677f0e56bd6f7ed140c21bcbcadb9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-740.json": "532422bc2adb97fd1f3d2f808e588bb381504ecec425f1e92dec20ff476cc411",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-741.json": "df4880d7940b9feb542d5edefeb2d1144018a597f151ad5798fa914d268df16d",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-742.json": "69e4e55d9ff246ad8333d4f34d6147e55075f7b99291c9800f685e38bda383b2",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-90.json": "db21997dd59e4ccd724b43535629fd195bee6f838154f91b418d52a527a20cd9",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-91.json": "0948cbd2604f791cfa406435930fbf147045ba70552e03a37dbf628be48ef520",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-92.json": "7c0826491c006b94aee083c5b3b5a719f57c26bec6567e5b9c724a8850f727c5",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-93.json": "b70cfba0e53a690e86a1979829d848ce870de95c81705d65a7641db1bc3a7e0b",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-94.json": "088270f309bf21dd2a9de203d0cf889cf348da1598b7c3b29c714c31ab6498bd",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-95.json": "cee1e2a388043886799610295c107f546083c36a5d9c7af313bfecc0983cbfe7",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-96.json": "a8c74df0cf4e9630f3fbf8884482acba447ccad1ea139093fd3067f97778729f",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-961.json": "1771864448cbf3e92cea3d1427fbe531f8494fc11a4e6872839ecbae3b4298f3",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-962.json": "c43ef02dfa0a514a113425bc740d54b115e240fa3f7f669f33531813694af448",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-963.json": "707a6cf21b40bc3475842ef6807a8a100d3e2af6f40fa73368e6b1c79545ab23",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-964.json": "67e5d784254ee1cc8d74903b88f391f31aaf4f42ba26883f7982a60df533c7d4",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-965.json": "ac1b885dbb7d5410c00b4d49198d92b07b59b0ae6704d330d0d11248f89fbc7e",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-966.json": "9b12ff8f21ec916b52ccb349a562e200934dab3a3daa221e7499918bb6f86f87",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-97.json": "bd4fc11b70b8abe4c672ec24870ffe064641248efe9403a72e5b5cf18d6574b0",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-98.json": "744d367f88cf6cd9e2a1d009239cd379207e068359efa4229a412bae8858e621",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-99.json": "4a3ac14f3a736a2d0300aac741d772e8e23aea55c261d334a56005ed7a56701c",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-discovery.json": "912efdc683b4908c3be385740f7307bf6be1498818e8272dac39de7455540840",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/discography-targets.json": "5e7d6b140dc4f8899d663b87b8dc4e6545869000affc1cded2fb0d176172d0fc",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/game-garupa-music.json": "947f08db525cc63be60ce83450f64e335d87dca57f4df9ff7ab44565bc54e427",
+    "docs/migrations/credits-phase-a-2026-10-03/sources/game-ournotes-music.json": "b61c3e4ff24d5b00870231adc3ce8a94bbecf0fc4f588b26a7b646e6643179ce",
+    "docs/migrations/credits-phase-a-2026-10-03/unresolved.json": "3e01f471bb96ef5ab9e05501cc12ad55422c95a92ec6a81c00ecde8e27aae5e4",
+    "docs/migrations/credits-phase-a-2026-10-03/unresolved.md": "5ed3f2c0823ba12a6ae154691d5509c727b9001b4aec48b855ea06979b697f78",
+    "docs/migrations/credits-phase-a-2026-10-03/verification.json": "84cd0fff3e1dbbd15a4de53f23c2e4fa08ba4fedaeee91390445c1b2fcf884af",
+    "docs/migrations/credits-phase-a-2026-10-03/work-credit-differences.json": "420ea796e93913c850fe27e81623b3c2f05c7ed32c373730765750d96d871226",
+    "docs/migrations/credits-phase-a-2026-10-03/work-credit-differences.md": "d8b6193cc379378a359c04dc59c7c8fa4c5e9f55551cdc1aa880abf368af8cb9"
+  },
+  "protectedSources": {
+    "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+    "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee",
+    "data/creators.json": "798195855e90308cd6eae3bfb1ee0573700190782b14402e9928cc6a151a4285",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "records": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 703,
+      "workId": "wk-0687",
+      "title": "'FIGHT' ADDICT",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 533,
+      "workId": "wk-0524",
+      "title": "-N-E-M-E-S-I-S-",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 255,
+      "workId": "wk-0249",
+      "title": "A DECLARATION OF ×××",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 528,
+      "workId": "wk-0519",
+      "title": "BATTLE CRY",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 717,
+      "workId": "wk-0701",
+      "title": "BIBIBABI BRAVER",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 602,
+      "workId": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 276,
+      "workId": "wk-0270",
+      "title": "Beautiful Birthday",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 371,
+      "workId": "wk-0365",
+      "title": "CORUSCATE -DNA-",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 483,
+      "workId": "wk-0474",
+      "title": "DANCING DARING",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 443,
+      "workId": "wk-0436",
+      "title": "DEAD HEAT BEAT",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 328,
+      "workId": "wk-0322",
+      "title": "Domination to world",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 733,
+      "workId": "wk-0717",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 314,
+      "workId": "wk-0308",
+      "title": "EXIST",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 359,
+      "workId": "wk-0353",
+      "title": "Embrace of light",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 684,
+      "workId": "wk-0670",
+      "title": "FIVE as ONE",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 651,
+      "workId": "wk-0640",
+      "title": "HOWLING AMBITION",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 784,
+      "workId": "wk-0762",
+      "title": "I AM WHO I AM",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 624,
+      "workId": "wk-0615",
+      "title": "JUST THE WAY I AM",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 578,
+      "workId": "wk-0569",
+      "title": "Life on the Lotus",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 404,
+      "workId": "wk-0397",
+      "title": "Light a fire",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 303,
+      "workId": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 672,
+      "workId": "wk-0659",
+      "title": "REIGNING",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 744,
+      "workId": "wk-0725",
+      "title": "RUNAWAY STAR",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 561,
+      "workId": "wk-0552",
+      "title": "Ray of hope",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 384,
+      "workId": "wk-0378",
+      "title": "Repaint",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 150,
+      "workId": "wk-0150",
+      "title": "R·I·O·T",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 414,
+      "workId": "wk-0407",
+      "title": "SOUL SOLDIER",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 345,
+      "workId": "wk-0339",
+      "title": "Sacred world",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 427,
+      "workId": "wk-0420",
+      "title": "THE WAY OF LIFE",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 436,
+      "workId": "wk-0429",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 582,
+      "workId": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 626,
+      "workId": "wk-0617",
+      "title": "VIVID FIRST TIME",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 631,
+      "workId": "wk-0621",
+      "title": "WELCOME TO PANDEMONIUM",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 774,
+      "workId": "wk-0752",
+      "title": "WHAT AN EXPLOSION",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 289,
+      "workId": "wk-0283",
+      "title": "mind of Prominence",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 339,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 468,
+      "workId": "wk-0459",
+      "title": "＊ ～アスタリスク～",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 20,
+      "workId": "wk-0020",
+      "title": "Alchemy",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 120,
+      "workId": "wk-0120",
+      "title": "DAYS",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 181,
+      "workId": "wk-0181",
+      "title": "Daydream café",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 101,
+      "workId": "wk-0101",
+      "title": "GLAMOROUS SKY",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 50,
+      "workId": "wk-0050",
+      "title": "God knows...",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 502,
+      "workId": "wk-0493",
+      "title": "HOT LIMIT",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 123,
+      "workId": "wk-0123",
+      "title": "Life Will Change",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 40,
+      "workId": "wk-0040",
+      "title": "Little Busters!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 751,
+      "workId": "wk-0732",
+      "title": "MATSURI BAYASHI",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 711,
+      "workId": "wk-0695",
+      "title": "POP IN 2",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 584,
+      "workId": "wk-0575",
+      "title": "SOUVENIR",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 743,
+      "workId": "wk-0724",
+      "title": "START!! True dreams",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 640,
+      "workId": "wk-0629",
+      "title": "STEP by STEP UP↑↑↑↑",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 256,
+      "workId": "wk-0250",
+      "title": "UNION",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 155,
+      "workId": "wk-0155",
+      "title": "Wake up!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 265,
+      "workId": "wk-0259",
+      "title": "final phase",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 60,
+      "workId": "wk-0060",
+      "title": "only my railgun",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 603,
+      "workId": "wk-0594",
+      "title": "ちゅ、多様性。",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 687,
+      "workId": "wk-0673",
+      "title": "つよがるガール feat. もっさ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 306,
+      "workId": "wk-0300",
+      "title": "イエスタデイ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 165,
+      "workId": "wk-0165",
+      "title": "オトモダチフィルム",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 493,
+      "workId": "wk-0484",
+      "title": "オドループ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 447,
+      "workId": "wk-0440",
+      "title": "スターナイトスノウ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 780,
+      "workId": "wk-0758",
+      "title": "スターラブレイション",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 281,
+      "workId": "wk-0275",
+      "title": "セツナトリップ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 186,
+      "workId": "wk-0186",
+      "title": "チェリボム",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 190,
+      "workId": "wk-0190",
+      "title": "ディスカバリー！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 517,
+      "workId": "wk-0508",
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 477,
+      "workId": "wk-0468",
+      "title": "ヒロイン育成計画",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 658,
+      "workId": "wk-0646",
+      "title": "フィクション",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 214,
+      "workId": "wk-0212",
+      "title": "ブルーバード",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 199,
+      "workId": "wk-0199",
+      "title": "ミュージック・アワー",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 94,
+      "workId": "wk-0094",
+      "title": "メランコリック",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 671,
+      "workId": "wk-0658",
+      "title": "ロケットサイダー",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 133,
+      "workId": "wk-0133",
+      "title": "ロミオとシンデレラ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 391,
+      "workId": "wk-0385",
+      "title": "ヴァンパイア",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 31,
+      "workId": "wk-0031",
+      "title": "光るなら",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 77,
+      "workId": "wk-0077",
+      "title": "千本桜",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 88,
+      "workId": "wk-0088",
+      "title": "君じゃなきゃダメみたい",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 142,
+      "workId": "wk-0142",
+      "title": "君に届け",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 126,
+      "workId": "wk-0126",
+      "title": "夏祭り",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 164,
+      "workId": "wk-0164",
+      "title": "夜行性ハイズ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 331,
+      "workId": "wk-0325",
+      "title": "大河よ共に泣いてくれ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 488,
+      "workId": "wk-0479",
+      "title": "心絵",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 367,
+      "workId": "wk-0361",
+      "title": "怪物",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 574,
+      "workId": "wk-0565",
+      "title": "怪獣の花唄",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 727,
+      "workId": "wk-0711",
+      "title": "恋人がサンタクロース",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 324,
+      "workId": "wk-0318",
+      "title": "春〜spring〜",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 791,
+      "workId": "wk-0768",
+      "title": "盛れ！ミ・アモーレ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 550,
+      "workId": "wk-0541",
+      "title": "私は最強",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 19,
+      "workId": "wk-0019",
+      "title": "空色デイズ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 248,
+      "workId": "wk-0242",
+      "title": "群青日和",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 767,
+      "workId": "wk-0745",
+      "title": "舞台に立って",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 275,
+      "workId": "wk-0269",
+      "title": "青と夏",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 71,
+      "workId": "wk-0071",
+      "title": "－HEROIC ADVENT－",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 565,
+      "workId": "wk-0556",
+      "title": "Always recall.",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 254,
+      "workId": "wk-0248",
+      "title": "Avant-garde HISTORY",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 149,
+      "workId": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 260,
+      "workId": "wk-0254",
+      "title": "Blessing Chord",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 238,
+      "workId": "wk-0232",
+      "title": "Break your desire",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 482,
+      "workId": "wk-0473",
+      "title": "Call the shots",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 675,
+      "workId": "wk-0661",
+      "title": "Dazzle the Destiny",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 442,
+      "workId": "wk-0435",
+      "title": "Dear Gleam",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 72,
+      "workId": "wk-0072",
+      "title": "Determination Symphony",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 616,
+      "workId": "wk-0607",
+      "title": "FRONTIER FANTASIA",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 724,
+      "workId": "wk-0708",
+      "title": "Fear Nothing",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 585,
+      "workId": "wk-0576",
+      "title": "Floral Haven",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 644,
+      "workId": "wk-0633",
+      "title": "Grateful Melting",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 300,
+      "workId": "wk-0294",
+      "title": "Keep Heart",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 34,
+      "workId": "wk-0034",
+      "title": "LOUDER",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 114,
+      "workId": "wk-0114",
+      "title": "Legendary",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 92,
+      "workId": "wk-0092",
+      "title": "Opera of the wasteland",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 319,
+      "workId": "wk-0313",
+      "title": "Original Call",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 366,
+      "workId": "wk-0360",
+      "title": "Our Carol",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 144,
+      "workId": "wk-0144",
+      "title": "PASSIONATE ANTHEM",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 317,
+      "workId": "wk-0311",
+      "title": "Proud of oneself",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 411,
+      "workId": "wk-0404",
+      "title": "ROZEN HORIZON",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 685,
+      "workId": "wk-0671",
+      "title": "Requiem for Fate",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 788,
+      "workId": "wk-0765",
+      "title": "Resound the Way",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 166,
+      "workId": "wk-0166",
+      "title": "Ringing Bloom",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 159,
+      "workId": "wk-0159",
+      "title": "Safe and Sound",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 593,
+      "workId": "wk-0584",
+      "title": "Sage der Rosen",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 130,
+      "workId": "wk-0130",
+      "title": "Sanctuary",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 668,
+      "workId": "wk-0655",
+      "title": "Second to None",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 333,
+      "workId": "wk-0327",
+      "title": "Sing Alive",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 336,
+      "workId": "wk-0330",
+      "title": "Singing “OURS”",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 234,
+      "workId": "wk-0229",
+      "title": "Song I am.",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 337,
+      "workId": "wk-0331",
+      "title": "Sprechchor",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 693,
+      "workId": "wk-0677",
+      "title": "Steadfast Spirits",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 498,
+      "workId": "wk-0489",
+      "title": "Sunlit Musical",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 421,
+      "workId": "wk-0414",
+      "title": "Swear 〜Night & Day〜",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 403,
+      "workId": "wk-0396",
+      "title": "THE HISTORIC...",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 524,
+      "workId": "wk-0515",
+      "title": "THRONE OF ROSE",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 748,
+      "workId": "wk-0729",
+      "title": "Talk to My Tone",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 562,
+      "workId": "wk-0553",
+      "title": "VIOLET LINE",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 768,
+      "workId": "wk-0746",
+      "title": "XV",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 280,
+      "workId": "wk-0274",
+      "title": "ZEAL of proud",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 326,
+      "workId": "wk-0320",
+      "title": "overtuRe",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 778,
+      "workId": "wk-0756",
+      "title": "who we aRe",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 204,
+      "workId": "wk-0204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 789,
+      "workId": "wk-0766",
+      "title": "この蒼き闇と光",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 459,
+      "workId": "wk-0451",
+      "title": "一逢のFull Glory",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 595,
+      "workId": "wk-0586",
+      "title": "礎の花冠",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 692,
+      "workId": "wk-0676",
+      "title": "紫炎",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 539,
+      "workId": "wk-0530",
+      "title": "覚悟のLiberation",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 103,
+      "workId": "wk-0103",
+      "title": "軌跡",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 387,
+      "workId": "wk-0381",
+      "title": "閃光",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 48,
+      "workId": "wk-0048",
+      "title": "陽だまりロードナイト",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 195,
+      "workId": "wk-0195",
+      "title": "1/3の純情な感情",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 707,
+      "workId": "wk-0691",
+      "title": "BROKEN GAMES",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 608,
+      "workId": "wk-0599",
+      "title": "Bling-Bang-Bang-Born",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 322,
+      "workId": "wk-0316",
+      "title": "CORE PRIDE",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 410,
+      "workId": "wk-0403",
+      "title": "Cry Baby",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 514,
+      "workId": "wk-0505",
+      "title": "D-tecnoLife",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 311,
+      "workId": "wk-0305",
+      "title": "DAYBREAK FRONTLINE",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 372,
+      "workId": "wk-0366",
+      "title": "DEPARTURES",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 500,
+      "workId": "wk-0491",
+      "title": "Get Wild",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 382,
+      "workId": "wk-0376",
+      "title": "Just Awake",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 368,
+      "workId": "wk-0362",
+      "title": "Keep the Heat and Fire Yourself Up",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 592,
+      "workId": "wk-0583",
+      "title": "SOULSOUP",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 795,
+      "workId": "wk-0772",
+      "title": "けっかおーらい",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 262,
+      "workId": "wk-0256",
+      "title": "ヒトリノ夜",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 293,
+      "workId": "wk-0287",
+      "title": "ブリキノダンス",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 573,
+      "workId": "wk-0564",
+      "title": "ボッカデラベリタ",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 415,
+      "workId": "wk-0408",
+      "title": "メギツネ",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 272,
+      "workId": "wk-0266",
+      "title": "劣等上等",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 278,
+      "workId": "wk-0272",
+      "title": "恋しさと せつなさと 心強さと",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 213,
+      "workId": "wk-0211",
+      "title": "激動",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 431,
+      "workId": "wk-0424",
+      "title": "狂乱 Hey Kids!!",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 700,
+      "workId": "wk-0684",
+      "title": "百花繚乱",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 471,
+      "workId": "wk-0462",
+      "title": "神っぽいな",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 545,
+      "workId": "wk-0536",
+      "title": "第ゼロ感",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 659,
+      "workId": "wk-0647",
+      "title": "第六感",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 766,
+      "workId": "wk-0744",
+      "title": "絶対零度",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 399,
+      "workId": "wk-0392",
+      "title": "脳漿炸裂ガール",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 529,
+      "workId": "wk-0520",
+      "title": "裸の勇者",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 754,
+      "workId": "wk-0735",
+      "title": "革命道中",
+      "band": "RAISE A SUILEN"
+    },
+    {
+      "game": "garupa",
+      "recordId": 9,
+      "workId": "wk-0009",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 777,
+      "workId": "wk-0755",
+      "title": "Amore",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 80,
+      "workId": "wk-0080",
+      "title": "B.O.F",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 264,
+      "workId": "wk-0258",
+      "title": "Breakthrough!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 536,
+      "workId": "wk-0527",
+      "title": "Chu Chueen!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 89,
+      "workId": "wk-0089",
+      "title": "CiRCLING",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 621,
+      "workId": "wk-0612",
+      "title": "DOKI DOKI SCARY",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 173,
+      "workId": "wk-0173",
+      "title": "Dreamers Go!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 691,
+      "workId": "wk-0675",
+      "title": "Drive Your Heart",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 455,
+      "workId": "wk-0447",
+      "title": "Five Letters",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 439,
+      "workId": "wk-0432",
+      "title": "Future Place",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 759,
+      "workId": "wk-0740",
+      "title": "Game Changer",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 10,
+      "workId": "wk-0010",
+      "title": "Happy Happy Party！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 208,
+      "workId": "wk-0207",
+      "title": "Hello! Wink!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 146,
+      "workId": "wk-0146",
+      "title": "Home Street",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 160,
+      "workId": "wk-0160",
+      "title": "Jumpin'",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 106,
+      "workId": "wk-0106",
+      "title": "Light Delight",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 315,
+      "workId": "wk-0309",
+      "title": "Live Beyond!!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 434,
+      "workId": "wk-0427",
+      "title": "Moonlight Walk",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 172,
+      "workId": "wk-0172",
+      "title": "NO GIRL NO CRY",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 284,
+      "workId": "wk-0278",
+      "title": "Photograph",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 171,
+      "workId": "wk-0171",
+      "title": "Returns",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 462,
+      "workId": "wk-0454",
+      "title": "RiNG A BELL",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 168,
+      "workId": "wk-0168",
+      "title": "SAKURA MEMORIES",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 233,
+      "workId": "wk-0228",
+      "title": "Step×Step！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 301,
+      "workId": "wk-0295",
+      "title": "Sweets BAN!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 629,
+      "workId": "wk-0619",
+      "title": "TARINAI",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 681,
+      "workId": "wk-0667",
+      "title": "Tomorrow’s Door",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 209,
+      "workId": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 222,
+      "workId": "wk-0219",
+      "title": "White Afternoon",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 3,
+      "workId": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 237,
+      "workId": "wk-0148",
+      "title": "[FULL] キズナミュージック♪",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 205,
+      "workId": "wk-0109",
+      "title": "[FULL] 二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 335,
+      "workId": "wk-0329",
+      "title": "ここから先は歌にならない",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 648,
+      "workId": "wk-0637",
+      "title": "とっておきAnswer",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 746,
+      "workId": "wk-0727",
+      "title": "どきどきデエト",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 507,
+      "workId": "wk-0498",
+      "title": "ほな！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 375,
+      "workId": "wk-0369",
+      "title": "ぽっぴん'どりーむ！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 5,
+      "workId": "wk-0005",
+      "title": "ぽっぴん’しゃっふる",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 193,
+      "workId": "wk-0193",
+      "title": "アニバーサリー",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 221,
+      "workId": "wk-0218",
+      "title": "イニシャル",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 365,
+      "workId": "wk-0359",
+      "title": "イントロダクション",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 134,
+      "workId": "wk-0134",
+      "title": "ガールズコード",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 148,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 466,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪（3Dライブモード対応）",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 38,
+      "workId": "wk-0038",
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 2,
+      "workId": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 79,
+      "workId": "wk-0079",
+      "title": "クリスマスのうた",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 575,
+      "workId": "wk-0566",
+      "title": "トレモロアイズ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 253,
+      "workId": "wk-0247",
+      "title": "ミライトレイン",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 797,
+      "workId": "wk-0774",
+      "title": "ライムライト",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 719,
+      "workId": "wk-0703",
+      "title": "世界中の青空をあつめて",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 109,
+      "workId": "wk-0109",
+      "title": "二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 58,
+      "workId": "wk-0058",
+      "title": "八月のif",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 201,
+      "workId": "wk-0201",
+      "title": "切ないSandglass",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 32,
+      "workId": "wk-0032",
+      "title": "前へススメ！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 363,
+      "workId": "wk-0357",
+      "title": "勇気Limit！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 343,
+      "workId": "wk-0337",
+      "title": "夏に閉じこめて",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 55,
+      "workId": "wk-0055",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 7,
+      "workId": "wk-0007",
+      "title": "夏空 SUN! SUN! SEVEN!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 39,
+      "workId": "wk-0039",
+      "title": "夢みるSunflower",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 228,
+      "workId": "wk-0224",
+      "title": "夢を撃ち抜く瞬間に！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 420,
+      "workId": "wk-0413",
+      "title": "大好き！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 474,
+      "workId": "wk-0465",
+      "title": "新しい季節に",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 378,
+      "workId": "wk-0372",
+      "title": "星の約束",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 476,
+      "workId": "wk-0467",
+      "title": "最強☆ソング",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 118,
+      "workId": "wk-0118",
+      "title": "最高(さあ行こう)！",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 107,
+      "workId": "wk-0107",
+      "title": "私の心はチョココロネ",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 611,
+      "workId": "wk-0602",
+      "title": "花咲く未来に",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 8,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 229,
+      "workId": "wk-0225",
+      "title": "開けたらDream!",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 591,
+      "workId": "wk-0582",
+      "title": "雨上がり、キミと",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 532,
+      "workId": "wk-0523",
+      "title": "青春 To Be Continued",
+      "band": "Poppin'Party"
+    },
+    {
+      "game": "garupa",
+      "recordId": 557,
+      "workId": "wk-0548",
+      "title": "A Sunset So Bright",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 680,
+      "workId": "wk-0666",
+      "title": "Against the Light",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 127,
+      "workId": "wk-0127",
+      "title": "COMIC PANIC!!!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 745,
+      "workId": "wk-0726",
+      "title": "Choco Typhooooon!!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 198,
+      "workId": "wk-0198",
+      "title": "Easy come, Easy go！",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 714,
+      "workId": "wk-0698",
+      "title": "Feel so good!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 588,
+      "workId": "wk-0579",
+      "title": "Glowing After",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 62,
+      "workId": "wk-0062",
+      "title": "Hey-day狂騒曲（カプリチオ）",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 273,
+      "workId": "wk-0267",
+      "title": "I knew it!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 239,
+      "workId": "wk-0233",
+      "title": "I love your way！",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 456,
+      "workId": "wk-0448",
+      "title": "IGNITE GLOW",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 102,
+      "workId": "wk-0102",
+      "title": "Jamboree!Journey!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 472,
+      "workId": "wk-0463",
+      "title": "Made My Day",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 175,
+      "workId": "wk-0175",
+      "title": "ON YOUR MARK",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 283,
+      "workId": "wk-0277",
+      "title": "ONE OF US",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 364,
+      "workId": "wk-0358",
+      "title": "Off we go.",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 716,
+      "workId": "wk-0700",
+      "title": "Part of the Life",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 437,
+      "workId": "wk-0430",
+      "title": "Punchline Halloween!!!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 259,
+      "workId": "wk-0253",
+      "title": "RED RED RED",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 294,
+      "workId": "wk-0288",
+      "title": "SENSENFUKOKU",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 413,
+      "workId": "wk-0406",
+      "title": "SWITCH ON NOW",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 211,
+      "workId": "wk-0210",
+      "title": "Sasanqua",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 43,
+      "workId": "wk-0043",
+      "title": "Scarlet Sky",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 601,
+      "workId": "wk-0592",
+      "title": "Start as Usual",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 11,
+      "workId": "wk-0011",
+      "title": "That Is How I Roll!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 530,
+      "workId": "wk-0521",
+      "title": "That's why I'm here",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 346,
+      "workId": "wk-0340",
+      "title": "Trouble Joyful!!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 12,
+      "workId": "wk-0012",
+      "title": "True color",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 81,
+      "workId": "wk-0081",
+      "title": "Y.O.L.O！！！！！",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 212,
+      "workId": "wk-0175",
+      "title": "[FULL] ON YOUR MARK",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 625,
+      "workId": "wk-0616",
+      "title": "“Say cheese!!!!!”",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 177,
+      "workId": "wk-0177",
+      "title": "いつも通りのBrand new days",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 329,
+      "workId": "wk-0323",
+      "title": "カナユメ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 401,
+      "workId": "wk-0394",
+      "title": "サクラゼンセン",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 135,
+      "workId": "wk-0135",
+      "title": "ツナグ、ソラモヨウ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 495,
+      "workId": "wk-0486",
+      "title": "ペトリコール・オベーション",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 147,
+      "workId": "wk-0147",
+      "title": "ランブリングメモリー",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 781,
+      "workId": "wk-0759",
+      "title": "夕影と歌う この先も",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 496,
+      "workId": "wk-0487",
+      "title": "極彩色",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 508,
+      "workId": "wk-0499",
+      "title": "燦々",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 428,
+      "workId": "wk-0421",
+      "title": "独創収差",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 645,
+      "workId": "wk-0634",
+      "title": "花笑みのデュオ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 765,
+      "workId": "wk-0743",
+      "title": "証は赫く",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 469,
+      "workId": "wk-0460",
+      "title": "ALIVE",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 342,
+      "workId": "wk-0336",
+      "title": "COLORFUL BOX",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 298,
+      "workId": "wk-0292",
+      "title": "CQCQ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 266,
+      "workId": "wk-0260",
+      "title": "LEVEL5 -judgelight-",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 426,
+      "workId": "wk-0419",
+      "title": "Memento",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 441,
+      "workId": "wk-0434",
+      "title": "Nameless Story",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 282,
+      "workId": "wk-0276",
+      "title": "Nevereverland",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 546,
+      "workId": "wk-0537",
+      "title": "Overdose",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 494,
+      "workId": "wk-0485",
+      "title": "QUEEN",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 785,
+      "workId": "wk-0763",
+      "title": "SUMMER SONG",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 318,
+      "workId": "wk-0312",
+      "title": "V.I.P",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 656,
+      "workId": "wk-0644",
+      "title": "again",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 247,
+      "workId": "wk-0241",
+      "title": "chAngE",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 433,
+      "workId": "wk-0426",
+      "title": "divine intervention",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 393,
+      "workId": "wk-0387",
+      "title": "unravel",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 572,
+      "workId": "wk-0563",
+      "title": "かくれんぼ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 310,
+      "workId": "wk-0304",
+      "title": "アゲハ蝶",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 706,
+      "workId": "wk-0690",
+      "title": "オン・ザ・フロントライン",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 792,
+      "workId": "wk-0769",
+      "title": "オー！リバル",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 416,
+      "workId": "wk-0409",
+      "title": "ボクノート",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 245,
+      "workId": "wk-0239",
+      "title": "メリッサ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 752,
+      "workId": "wk-0733",
+      "title": "メロウ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 604,
+      "workId": "wk-0595",
+      "title": "勇者",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 386,
+      "workId": "wk-0380",
+      "title": "月光花",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 271,
+      "workId": "wk-0265",
+      "title": "深海少女",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 725,
+      "workId": "wk-0709",
+      "title": "白い雪のプリンセスは",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 511,
+      "workId": "wk-0502",
+      "title": "祝福",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 258,
+      "workId": "wk-0252",
+      "title": "秒針を噛む",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 612,
+      "workId": "wk-0603",
+      "title": "輪舞-revolution",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 554,
+      "workId": "wk-0545",
+      "title": "Ahoy!! 我ら宝鐘海賊団☆",
+      "band": "Afterglow×宝鐘マリン"
+    },
+    {
+      "game": "garupa",
+      "recordId": 485,
+      "workId": "wk-0476",
+      "title": "Angel's Ladder",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 696,
+      "workId": "wk-0680",
+      "title": "Color of Us",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 241,
+      "workId": "wk-0235",
+      "title": "Daylight -デイライト-",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 527,
+      "workId": "wk-0518",
+      "title": "Ever Sky Blue",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 355,
+      "workId": "wk-0349",
+      "title": "Fateful...",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 686,
+      "workId": "wk-0672",
+      "title": "Feathered Dreams",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 538,
+      "workId": "wk-0529",
+      "title": "Merry Merry Thanks!!",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 383,
+      "workId": "wk-0377",
+      "title": "One step at a time",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 762,
+      "workId": "wk-0741",
+      "title": "Painting New Dawn",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 670,
+      "workId": "wk-0657",
+      "title": "Polyphonyscape",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 679,
+      "workId": "wk-0665",
+      "title": "Portray Empathy",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 702,
+      "workId": "wk-0686",
+      "title": "Resonant Strings",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 338,
+      "workId": "wk-0332",
+      "title": "Secret Dawn",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 742,
+      "workId": "wk-0723",
+      "title": "Shining Leaves",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 316,
+      "workId": "wk-0310",
+      "title": "Sonorous",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 642,
+      "workId": "wk-0631",
+      "title": "Steer to Utopia",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 457,
+      "workId": "wk-0449",
+      "title": "Sweet Cheers!",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 633,
+      "workId": "wk-0623",
+      "title": "Tempest",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 432,
+      "workId": "wk-0425",
+      "title": "The Circle Of Butterflies",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 779,
+      "workId": "wk-0757",
+      "title": "Wings of the Lights",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 589,
+      "workId": "wk-0580",
+      "title": "Wreath of Brave",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 268,
+      "workId": "wk-0262",
+      "title": "flame of hope",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 354,
+      "workId": "wk-0348",
+      "title": "fly with the night",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 423,
+      "workId": "wk-0416",
+      "title": "カラフルリバティー",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 614,
+      "workId": "wk-0605",
+      "title": "ティリカモニカリラ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 288,
+      "workId": "wk-0282",
+      "title": "ハーモニー・デイ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 705,
+      "workId": "wk-0689",
+      "title": "ビューティ・フォー",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 251,
+      "workId": "wk-0245",
+      "title": "ブルームブルーム",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 581,
+      "workId": "wk-0572",
+      "title": "メランコリックララバイ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 577,
+      "workId": "wk-0568",
+      "title": "両翼のBrilliance",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 422,
+      "workId": "wk-0415",
+      "title": "寄る辺のSunny, Sunny",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 773,
+      "workId": "wk-0751",
+      "title": "胡蝶翔る星月夜",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 564,
+      "workId": "wk-0555",
+      "title": "蒼穹へのトレイル",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 566,
+      "workId": "wk-0557",
+      "title": "誓いのWingbeat",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 242,
+      "workId": "wk-0236",
+      "title": "金色へのプレリュード",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 518,
+      "workId": "wk-0509",
+      "title": "音がえしのセレナーデ",
+      "band": "Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 636,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 650,
+      "workId": "wk-0639",
+      "title": "Crucifix X",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 641,
+      "workId": "wk-0630",
+      "title": "Georgette Me, Georgette You",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 649,
+      "workId": "wk-0638",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 638,
+      "workId": "wk-0628",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 715,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 662,
+      "workId": "wk-0649",
+      "title": "八芒星ダンス",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 667,
+      "workId": "wk-0654",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 666,
+      "workId": "wk-0653",
+      "title": "顔",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 683,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 167,
+      "workId": "wk-0167",
+      "title": "Baby Sweet Berry Love",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 285,
+      "workId": "wk-0279",
+      "title": "DANCE! おジャ魔女",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 136,
+      "workId": "wk-0136",
+      "title": "DISCOTHEQUE",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 117,
+      "workId": "wk-0117",
+      "title": "Fantastic future",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 44,
+      "workId": "wk-0044",
+      "title": "MOON PRIDE",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 304,
+      "workId": "wk-0298",
+      "title": "Make it!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 158,
+      "workId": "wk-0158",
+      "title": "Q＆A　リサイタル！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 95,
+      "workId": "wk-0095",
+      "title": "SAKURAスキップ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 398,
+      "workId": "wk-0391",
+      "title": "Sparkling Daydream",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 216,
+      "workId": "wk-0214",
+      "title": "Stay Alive",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 23,
+      "workId": "wk-0023",
+      "title": "secret base ～君がくれたもの～",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 203,
+      "workId": "wk-0203",
+      "title": "からくりピエロ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 618,
+      "workId": "wk-0609",
+      "title": "すきっちゅーの！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "workId": "wk-0035",
+      "title": "そばかす",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 600,
+      "workId": "wk-0591",
+      "title": "だから、ひとりじゃない",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 183,
+      "workId": "wk-0183",
+      "title": "ときめきポポロン♪",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 69,
+      "workId": "wk-0069",
+      "title": "はなまるぴっぴはよいこだけ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 54,
+      "workId": "wk-0054",
+      "title": "ふわふわ時間",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 108,
+      "workId": "wk-0108",
+      "title": "みくみくにしてあげる♪【してやんよ】",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 143,
+      "workId": "wk-0143",
+      "title": "ゆりゆららららゆるゆり大事件",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 567,
+      "workId": "wk-0558",
+      "title": "アイドル",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 695,
+      "workId": "wk-0679",
+      "title": "アイワナムチュー",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 605,
+      "workId": "wk-0596",
+      "title": "オトナブルー",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 594,
+      "workId": "wk-0585",
+      "title": "ココ☆ナツ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 615,
+      "workId": "wk-0606",
+      "title": "サインはB",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "workId": "wk-0024",
+      "title": "ドリームパレード",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 263,
+      "workId": "wk-0257",
+      "title": "ノスタルジックレインフォール",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 84,
+      "workId": "wk-0084",
+      "title": "ハッピーシンセサイザ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 764,
+      "workId": "wk-0742",
+      "title": "ヒカリへ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 783,
+      "workId": "wk-0761",
+      "title": "ポニーテールとシュシュ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 325,
+      "workId": "wk-0319",
+      "title": "ラムのラブソング",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 249,
+      "workId": "wk-0243",
+      "title": "ルカルカ★ナイトフィーバー",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 75,
+      "workId": "wk-0075",
+      "title": "世界は恋に落ちている",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 307,
+      "workId": "wk-0301",
+      "title": "夜に駆ける",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 153,
+      "workId": "wk-0153",
+      "title": "奏（かなで）",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 332,
+      "workId": "wk-0326",
+      "title": "徒花ネクロマンシー",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 708,
+      "workId": "wk-0692",
+      "title": "恋愛サーキュレーション",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 390,
+      "workId": "wk-0384",
+      "title": "春を告げる",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 189,
+      "workId": "wk-0189",
+      "title": "春擬き",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 654,
+      "workId": "wk-0642",
+      "title": "最上級にかわいいの！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 110,
+      "workId": "wk-0110",
+      "title": "気まぐれロマンティック",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 793,
+      "workId": "wk-0770",
+      "title": "浪漫飛行",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 406,
+      "workId": "wk-0399",
+      "title": "秘密の扉から会いにきて",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 227,
+      "workId": "wk-0223",
+      "title": "花ハ踊レヤいろはにほ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 769,
+      "workId": "wk-0747",
+      "title": "超最強",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 756,
+      "workId": "wk-0737",
+      "title": "金曜日のおはよう",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 551,
+      "workId": "wk-0542",
+      "title": "魔法少女とチョコレゐト",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 246,
+      "workId": "wk-0240",
+      "title": "Bad Apple!! feat. nomico",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 111,
+      "workId": "wk-0111",
+      "title": "Believe in my existence",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 37,
+      "workId": "wk-0037",
+      "title": "ETERNAL BLAZE",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 709,
+      "workId": "wk-0693",
+      "title": "Fallen",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 755,
+      "workId": "wk-0736",
+      "title": "HONEY",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 26,
+      "workId": "wk-0026",
+      "title": "Hacking to the Gate",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 350,
+      "workId": "wk-0344",
+      "title": "KING",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 327,
+      "workId": "wk-0321",
+      "title": "My Dearest",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 217,
+      "workId": "wk-0215",
+      "title": "Paradisus-Paradoxum",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 395,
+      "workId": "wk-0389",
+      "title": "Realize",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 68,
+      "workId": "wk-0068",
+      "title": "Red fraction",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 657,
+      "workId": "wk-0645",
+      "title": "Reweave",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 370,
+      "workId": "wk-0364",
+      "title": "SPARK-AGAIN",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 425,
+      "workId": "wk-0418",
+      "title": "STYX HELIX",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 97,
+      "workId": "wk-0097",
+      "title": "Shangri-La",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 721,
+      "workId": "wk-0705",
+      "title": "Sincerely",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 312,
+      "workId": "wk-0306",
+      "title": "Synchrogazer",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 57,
+      "workId": "wk-0057",
+      "title": "The Everlasting Guilty Crown",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 100,
+      "workId": "wk-0100",
+      "title": "This game",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 290,
+      "workId": "wk-0284",
+      "title": "sister's noise",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 549,
+      "workId": "wk-0540",
+      "title": "slash",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 125,
+      "workId": "wk-0125",
+      "title": "キミの記憶",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 128,
+      "workId": "wk-0128",
+      "title": "シャルル",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 152,
+      "workId": "wk-0152",
+      "title": "ツキアカリのミチシルベ",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 516,
+      "workId": "wk-0507",
+      "title": "ヒバナ-Reloaded-",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 492,
+      "workId": "wk-0483",
+      "title": "ファイトソング",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 617,
+      "workId": "wk-0608",
+      "title": "ファタール",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 207,
+      "workId": "wk-0206",
+      "title": "ファティマ",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 569,
+      "workId": "wk-0560",
+      "title": "乙女解剖",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 606,
+      "workId": "wk-0597",
+      "title": "人マニア",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 116,
+      "workId": "wk-0116",
+      "title": "六兆年と一夜物語",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 790,
+      "workId": "wk-0767",
+      "title": "勇侠青春謳",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 270,
+      "workId": "wk-0264",
+      "title": "右肩の蝶",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 156,
+      "workId": "wk-0156",
+      "title": "名前のない怪物",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 389,
+      "workId": "wk-0383",
+      "title": "廻廻奇譚",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 465,
+      "workId": "wk-0457",
+      "title": "新時代",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 537,
+      "workId": "wk-0528",
+      "title": "東京テディベア",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 86,
+      "workId": "wk-0086",
+      "title": "残酷な天使のテーゼ",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 196,
+      "workId": "wk-0196",
+      "title": "海色",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 82,
+      "workId": "wk-0082",
+      "title": "深愛",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 231,
+      "workId": "wk-0226",
+      "title": "甲賀忍法帖",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 49,
+      "workId": "wk-0049",
+      "title": "紅蓮の弓矢",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 178,
+      "workId": "wk-0178",
+      "title": "緋色の空",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 484,
+      "workId": "wk-0475",
+      "title": "酔いどれ知らず",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 25,
+      "workId": "wk-0025",
+      "title": "魂のルフラン",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 321,
+      "workId": "wk-0315",
+      "title": "鳥の詩",
+      "band": "Roselia"
+    },
+    {
+      "game": "garupa",
+      "recordId": 519,
+      "workId": "wk-0510",
+      "title": "Be born",
+      "band": "メガテラ・ゼロ feat. 夢ノ結唱 POPY"
+    },
+    {
+      "game": "garupa",
+      "recordId": 639,
+      "workId": "wk-0254",
+      "title": "Blessing Chord(パラレルver.)",
+      "band": "I♡インドア"
+    },
+    {
+      "game": "garupa",
+      "recordId": 396,
+      "workId": "wk-0390",
+      "title": "Brand new Pastel Road！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 775,
+      "workId": "wk-0753",
+      "title": "Come to see YOU!!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 279,
+      "workId": "wk-0273",
+      "title": "Power of LOVE!!!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 553,
+      "workId": "wk-0544",
+      "title": "Radiate Warriors",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 782,
+      "workId": "wk-0760",
+      "title": "Rainbow of Dreams",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 560,
+      "workId": "wk-0551",
+      "title": "ReReReエボリューションず☆",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 66,
+      "workId": "wk-0066",
+      "title": "SURVIVOR ねばーぎぶあっぷ！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 688,
+      "workId": "wk-0674",
+      "title": "Shine ☆n My Life!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 291,
+      "workId": "wk-0285",
+      "title": "TITLE IDOL",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 749,
+      "workId": "wk-0730",
+      "title": "Thanks to you.",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 252,
+      "workId": "wk-0246",
+      "title": "Winking☆Cheer",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 599,
+      "workId": "wk-0590",
+      "title": "With〜きみとわたしたちの物語〜",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 232,
+      "workId": "wk-0227",
+      "title": "Wonderful Sweet!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 96,
+      "workId": "wk-0096",
+      "title": "Wonderland Girl",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 673,
+      "workId": "wk-0081",
+      "title": "Y.O.L.O！！！！！(パスパレver.)",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 218,
+      "workId": "wk-0176",
+      "title": "[FULL] きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 525,
+      "workId": "wk-0516",
+      "title": "everyday flower",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 407,
+      "workId": "wk-0400",
+      "title": "あこがれacross",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 200,
+      "workId": "wk-0200",
+      "title": "あっつあつ 常夏 らぶ☆サマー！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 720,
+      "workId": "wk-0704",
+      "title": "きみCharmin'",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 176,
+      "workId": "wk-0176",
+      "title": "きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 161,
+      "workId": "wk-0161",
+      "title": "ぎゅっDAYS♪",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 13,
+      "workId": "wk-0013",
+      "title": "しゅわりん☆どり〜みん",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 45,
+      "workId": "wk-0045",
+      "title": "はなまる◎アンダンテ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 119,
+      "workId": "wk-0119",
+      "title": "もういちど ルミナス",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 215,
+      "workId": "wk-0213",
+      "title": "ゆめゆめグラデーション",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 53,
+      "workId": "wk-0053",
+      "title": "ゆら・ゆらRing-Dong-Dance",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 313,
+      "workId": "wk-0307",
+      "title": "るんっ♪てぃてぃー！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 701,
+      "workId": "wk-0685",
+      "title": "スキ×すき×カラフリィ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 139,
+      "workId": "wk-0139",
+      "title": "ゼッタイ宣言～Recital～",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 665,
+      "workId": "wk-0652",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 580,
+      "workId": "wk-0571",
+      "title": "トリドリ＊パレット",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 559,
+      "workId": "wk-0550",
+      "title": "ドラマチック！アライブ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 424,
+      "workId": "wk-0417",
+      "title": "ハナヒバナ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 412,
+      "workId": "wk-0405",
+      "title": "ハレハレ☆フォーチュン",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 14,
+      "workId": "wk-0014",
+      "title": "パスパレボリューションず☆",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 362,
+      "workId": "wk-0356",
+      "title": "パッパレ☆人生！バーン万歳！",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 587,
+      "workId": "wk-0578",
+      "title": "フレっとパレットFight Song!!",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 623,
+      "workId": "wk-0614",
+      "title": "ホワイト ノスタルジア",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 184,
+      "workId": "wk-0184",
+      "title": "ワクワクmeetsトリップ",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 104,
+      "workId": "wk-0104",
+      "title": "天下トーイツA to Z☆",
+      "band": "Pastel＊Palettes"
+    },
+    {
+      "game": "garupa",
+      "recordId": 674,
+      "workId": "wk-0660",
+      "title": "Bunny Girl",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 22,
+      "workId": "wk-0022",
+      "title": "Butter-Fly",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 491,
+      "workId": "wk-0482",
+      "title": "CHAINSAW BLOOD",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 145,
+      "workId": "wk-0145",
+      "title": "Crow Song",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 753,
+      "workId": "wk-0734",
+      "title": "DAY×DAY",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 29,
+      "workId": "wk-0029",
+      "title": "Don’t say “lazy”",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 381,
+      "workId": "wk-0375",
+      "title": "Listen!!",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 299,
+      "workId": "wk-0293",
+      "title": "Northern lights",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 74,
+      "workId": "wk-0074",
+      "title": "READY STEADY GO",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 124,
+      "workId": "wk-0124",
+      "title": "Reach Out To The Truth",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 87,
+      "workId": "wk-0087",
+      "title": "Redo",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 287,
+      "workId": "wk-0281",
+      "title": "Rolling star",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 430,
+      "workId": "wk-0423",
+      "title": "abnormalize",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 52,
+      "workId": "wk-0052",
+      "title": "great escape",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 163,
+      "workId": "wk-0163",
+      "title": "らしさ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 206,
+      "workId": "wk-0205",
+      "title": "アイのシナリオ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 63,
+      "workId": "wk-0063",
+      "title": "アスノヨゾラ哨戒班",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 112,
+      "workId": "wk-0112",
+      "title": "イマジネーション",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 240,
+      "workId": "wk-0234",
+      "title": "インフェルノ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 655,
+      "workId": "wk-0643",
+      "title": "オレンジ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 548,
+      "workId": "wk-0539",
+      "title": "カオスが極まる",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 609,
+      "workId": "wk-0600",
+      "title": "カゲロウデイズ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 267,
+      "workId": "wk-0261",
+      "title": "カサブタ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 21,
+      "workId": "wk-0021",
+      "title": "カルマ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 515,
+      "workId": "wk-0506",
+      "title": "サウダージ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 308,
+      "workId": "wk-0302",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 509,
+      "workId": "wk-0500",
+      "title": "チルドレンレコード(Re:boot)",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 531,
+      "workId": "wk-0522",
+      "title": "テレキャスタービーボーイ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 409,
+      "workId": "wk-0402",
+      "title": "トーキョーワンダー。",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 320,
+      "workId": "wk-0314",
+      "title": "ハウトゥー世界征服",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 334,
+      "workId": "wk-0328",
+      "title": "ヒューマノイド",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 93,
+      "workId": "wk-0093",
+      "title": "プライド革命",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 361,
+      "workId": "wk-0355",
+      "title": "ベノム",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 392,
+      "workId": "wk-0386",
+      "title": "メンタルチェンソー",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 770,
+      "workId": "wk-0748",
+      "title": "ランデヴー",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 243,
+      "workId": "wk-0237",
+      "title": "ロキ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 131,
+      "workId": "wk-0131",
+      "title": "ロストワンの号哭",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 526,
+      "workId": "wk-0517",
+      "title": "ヴィラン",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 794,
+      "workId": "wk-0771",
+      "title": "千の翼",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 187,
+      "workId": "wk-0187",
+      "title": "午夜の待ち合わせ",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 467,
+      "workId": "wk-0458",
+      "title": "命に嫌われている。",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 224,
+      "workId": "wk-0220",
+      "title": "天ノ弱",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 704,
+      "workId": "wk-0688",
+      "title": "季節は次々死んでいく",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 682,
+      "workId": "wk-0668",
+      "title": "愛唄",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 154,
+      "workId": "wk-0154",
+      "title": "瞬間センチメンタル",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 543,
+      "workId": "wk-0534",
+      "title": "粉雪",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 586,
+      "workId": "wk-0577",
+      "title": "逆光",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 194,
+      "workId": "wk-0194",
+      "title": "青い栞",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 568,
+      "workId": "wk-0559",
+      "title": "青のすみか",
+      "band": "Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 385,
+      "workId": "wk-0379",
+      "title": "CATASTROPHE BANQUET",
+      "band": "レイヤ×紗夜×沙綾×ミッシェル×瑠唯"
+    },
+    {
+      "game": "garupa",
+      "recordId": 369,
+      "workId": "wk-0363",
+      "title": "COLORS",
+      "band": "Afterglow×FLOW"
+    },
+    {
+      "game": "garupa",
+      "recordId": 760,
+      "workId": "wk-0127",
+      "title": "COMIC PANIC!!!(パラレルver.)",
+      "band": "PINKISH!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 388,
+      "workId": "wk-0382",
+      "title": "CiRCLE THANKS MUSiC♪",
+      "band": "CiRCLE THANKS PARTY！スペシャルバンド"
+    },
+    {
+      "game": "garupa",
+      "recordId": 397,
+      "workId": "wk-0382",
+      "title": "[FULL] CiRCLE THANKS MUSiC♪",
+      "band": "CiRCLE THANKS PARTY！スペシャルバンド"
+    },
+    {
+      "game": "garupa",
+      "recordId": 340,
+      "workId": "wk-0334",
+      "title": "DAYS of DASH",
+      "band": "Poppin'Party×鈴木このみ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 739,
+      "workId": "wk-0072",
+      "title": "Determination Symphony(パラレルver.)",
+      "band": "SISTER'S QUARTET"
+    },
+    {
+      "game": "garupa",
+      "recordId": 30,
+      "workId": "wk-0030",
+      "title": "Don’t be afraid!",
+      "band": "Glitter*Green"
+    },
+    {
+      "game": "garupa",
+      "recordId": 463,
+      "workId": "wk-0455",
+      "title": "Glee! Glee! Glee!",
+      "band": "Glitter*Green"
+    },
+    {
+      "game": "garupa",
+      "recordId": 85,
+      "workId": "wk-0085",
+      "title": "Dragon Night",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 129,
+      "workId": "wk-0129",
+      "title": "GO! GO! MANIAC",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 323,
+      "workId": "wk-0317",
+      "title": "Happy Girl",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 244,
+      "workId": "wk-0238",
+      "title": "POP TEAM EPIC",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 309,
+      "workId": "wk-0303",
+      "title": "SHINY DAYS",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 174,
+      "workId": "wk-0174",
+      "title": "StaRt",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 440,
+      "workId": "wk-0433",
+      "title": "Storyteller",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 98,
+      "workId": "wk-0098",
+      "title": "fantastic dreamer",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 28,
+      "workId": "wk-0028",
+      "title": "いーあるふぁんくらぶ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 286,
+      "workId": "wk-0280",
+      "title": "おジャ魔女カーニバル!!",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 571,
+      "workId": "wk-0562",
+      "title": "きゅうくらりん",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 400,
+      "workId": "wk-0393",
+      "title": "くちづけDiamond",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 653,
+      "workId": "wk-0641",
+      "title": "はいよろこんで",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 56,
+      "workId": "wk-0056",
+      "title": "ひまわりの約束",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 458,
+      "workId": "wk-0450",
+      "title": "ようこそジャパリパークへ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 481,
+      "workId": "wk-0472",
+      "title": "アイウエ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 274,
+      "workId": "wk-0268",
+      "title": "ウィーアー！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 132,
+      "workId": "wk-0132",
+      "title": "エイリアンエイリアン",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 151,
+      "workId": "wk-0151",
+      "title": "エクストラ・マジック・アワー",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 513,
+      "workId": "wk-0504",
+      "title": "エゴロック",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 305,
+      "workId": "wk-0299",
+      "title": "オレンジ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 590,
+      "workId": "wk-0581",
+      "title": "ギミー！レボリューション",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 607,
+      "workId": "wk-0598",
+      "title": "クラクラ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 772,
+      "workId": "wk-0750",
+      "title": "ココロのちず",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 210,
+      "workId": "wk-0209",
+      "title": "コレカラ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 27,
+      "workId": "wk-0027",
+      "title": "シュガーソングとビターステップ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 33,
+      "workId": "wk-0033",
+      "title": "シルエット",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 506,
+      "workId": "wk-0497",
+      "title": "ダンスホール",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 470,
+      "workId": "wk-0461",
+      "title": "ダーリンダンス",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 235,
+      "workId": "wk-0230",
+      "title": "ドレミファロンド",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 182,
+      "workId": "wk-0182",
+      "title": "ノーポイッ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 379,
+      "workId": "wk-0373",
+      "title": "ハッピー☆マテリアル",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "workId": "wk-0047",
+      "title": "ハッピーサマーウェディング",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 419,
+      "workId": "wk-0412",
+      "title": "ヒャダインのじょーじょーゆーじょー",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 741,
+      "workId": "wk-0722",
+      "title": "マツケンサンバII",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 444,
+      "workId": "wk-0437",
+      "title": "ミックスナッツ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 729,
+      "workId": "wk-0713",
+      "title": "ミラクルペイント",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 73,
+      "workId": "wk-0073",
+      "title": "ロメオ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 348,
+      "workId": "wk-0342",
+      "title": "ン・パカマーチ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 197,
+      "workId": "wk-0197",
+      "title": "上海ハニー",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 220,
+      "workId": "wk-0217",
+      "title": "全力少年",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 157,
+      "workId": "wk-0157",
+      "title": "回レ！雪月花",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 115,
+      "workId": "wk-0115",
+      "title": "太陽曰く燃えよカオス",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 292,
+      "workId": "wk-0286",
+      "title": "好き！雪！本気マジック",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 544,
+      "workId": "wk-0535",
+      "title": "強風オールバック",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 710,
+      "workId": "wk-0694",
+      "title": "怪獣",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 78,
+      "workId": "wk-0078",
+      "title": "恋は渾沌の隷也",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 192,
+      "workId": "wk-0192",
+      "title": "恋愛裁判",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 796,
+      "workId": "wk-0773",
+      "title": "悲しみなんて笑い飛ばせ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 501,
+      "workId": "wk-0492",
+      "title": "愛のしるし",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 138,
+      "workId": "wk-0138",
+      "title": "新宝島",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 676,
+      "workId": "wk-0662",
+      "title": "最高到達点",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 757,
+      "workId": "wk-0738",
+      "title": "許婚っきゅん",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 798,
+      "workId": "wk-0775",
+      "title": "炎と森のカーニバル",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 555,
+      "workId": "wk-0546",
+      "title": "Fleur",
+      "band": "Morfonica×雪花ラミィ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 402,
+      "workId": "wk-0395",
+      "title": "Freedom",
+      "band": "Poppin'Party×夏希"
+    },
+    {
+      "game": "garupa",
+      "recordId": 226,
+      "workId": "wk-0222",
+      "title": "GO!!!",
+      "band": "Afterglow×こころ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 417,
+      "workId": "wk-0410",
+      "title": "Happy! Happier! Happiest!",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 596,
+      "workId": "wk-0587",
+      "title": "Listen to Smile!",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 67,
+      "workId": "wk-0067",
+      "title": "YAPPY！SCHOOL CARNIVAL☆彡",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 223,
+      "workId": "wk-0180",
+      "title": "[FULL] えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 250,
+      "workId": "wk-0244",
+      "title": "うぃーきゃん☆フレフレっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 429,
+      "workId": "wk-0422",
+      "title": "うちゃパ！で ぱっぴかポーんっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 446,
+      "workId": "wk-0439",
+      "title": "えがお、あーゆーれでぃ???",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 269,
+      "workId": "wk-0263",
+      "title": "えがお、み～っけた！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 17,
+      "workId": "wk-0017",
+      "title": "えがおのオーケストラっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 180,
+      "workId": "wk-0180",
+      "title": "えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 219,
+      "workId": "wk-0216",
+      "title": "おもいでイルミネーション",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 408,
+      "workId": "wk-0401",
+      "title": "おもいやりハーモニー",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 750,
+      "workId": "wk-0731",
+      "title": "かぽーんっと極楽☆ 湯〜とぴあ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 351,
+      "workId": "wk-0345",
+      "title": "きらっ☆と キミフェス！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 65,
+      "workId": "wk-0065",
+      "title": "せかいのっびのびトレジャー！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 699,
+      "workId": "wk-0683",
+      "title": "とーくとぅみー・とーくとぅゆー",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 330,
+      "workId": "wk-0324",
+      "title": "ないすみちゅっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 188,
+      "workId": "wk-0188",
+      "title": "にこ×にこ＝ハイパースマイルパワー！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 302,
+      "workId": "wk-0296",
+      "title": "にこにこねくと！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 162,
+      "workId": "wk-0162",
+      "title": "はれやか すこやか ぴかりんりん♪",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 505,
+      "workId": "wk-0496",
+      "title": "ふぁいぶスマイル◯オールインっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 105,
+      "workId": "wk-0105",
+      "title": "ふわふわ☆ゆめいろサンドイッチ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 776,
+      "workId": "wk-0754",
+      "title": "ほれぼれっ☆すまいるゴール！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 726,
+      "workId": "wk-0710",
+      "title": "まぶしいねっ☆ そのえがお！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 576,
+      "workId": "wk-0567",
+      "title": "むすんでわらって",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 669,
+      "workId": "wk-0656",
+      "title": "やっほー！いっぽ！わんだふぉー！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 540,
+      "workId": "wk-0531",
+      "title": "らいふ・いず・みゅーじかるっ♪♪♪",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 643,
+      "workId": "wk-0632",
+      "title": "れっつ・スマイル・すとり〜みんぐっ♪",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 83,
+      "workId": "wk-0083",
+      "title": "わちゃ・もちゃ・ぺったん行進曲",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 141,
+      "workId": "wk-0141",
+      "title": "キミがいなくちゃっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 487,
+      "workId": "wk-0478",
+      "title": "キミを れっつ・はぶ・ふぁん♪",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 36,
+      "workId": "wk-0036",
+      "title": "ゴーカ！ごーかい！？ファントムシーフ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 583,
+      "workId": "wk-0574",
+      "title": "サンバロハッピ〜！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 698,
+      "workId": "wk-0682",
+      "title": "スタ〜リング ☆じぶん☆",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 728,
+      "workId": "wk-0712",
+      "title": "スマイリーキャロル",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 202,
+      "workId": "wk-0202",
+      "title": "スマイルブーケで た〜まや〜！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 619,
+      "workId": "wk-0610",
+      "title": "ハイタッチ／＼びりーばーず☆",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 122,
+      "workId": "wk-0122",
+      "title": "ハイファイブ∞あどべんちゃっ",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 18,
+      "workId": "wk-0018",
+      "title": "ハピネスっ！ハピィーマジカルっ♪",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 504,
+      "workId": "wk-0495",
+      "title": "ボクらの夏's☆ショーたいむっ！！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 786,
+      "workId": "wk-0764",
+      "title": "好き・スキ・だいすき〜ズっ！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 380,
+      "workId": "wk-0374",
+      "title": "現るっ！大怪盗ハロハッピー！",
+      "band": "ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 734,
+      "workId": "wk-0718",
+      "title": "I wonder",
+      "band": "Poppin'Party×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 556,
+      "workId": "wk-0547",
+      "title": "Lioness' Pride",
+      "band": "MyGO!!!!!×獅白ぼたん"
+    },
+    {
+      "game": "garupa",
+      "recordId": 418,
+      "workId": "wk-0411",
+      "title": "Preserved Roses",
+      "band": "Roselia×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 598,
+      "workId": "wk-0589",
+      "title": "Surges",
+      "band": "Roselia×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 169,
+      "workId": "wk-0169",
+      "title": "革命デュアリズム",
+      "band": "Roselia×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 295,
+      "workId": "wk-0289",
+      "title": "SAVIOR OF SONG",
+      "band": "RAISE A SUILEN×友希那"
+    },
+    {
+      "game": "garupa",
+      "recordId": 480,
+      "workId": "wk-0471",
+      "title": "踊",
+      "band": "RAISE A SUILEN×友希那"
+    },
+    {
+      "game": "garupa",
+      "recordId": 735,
+      "workId": "wk-0719",
+      "title": "Same Blue",
+      "band": "Morfonica×燈"
+    },
+    {
+      "game": "garupa",
+      "recordId": 461,
+      "workId": "wk-0453",
+      "title": "See you! 〜それぞれの明日へ〜",
+      "band": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音"
+    },
+    {
+      "game": "garupa",
+      "recordId": 730,
+      "workId": "wk-0714",
+      "title": "Singer",
+      "band": "夢ノ結唱 PASTEL"
+    },
+    {
+      "game": "garupa",
+      "recordId": 542,
+      "workId": "wk-0533",
+      "title": "Stellar Stellar",
+      "band": "RAISE A SUILEN×星街すいせい"
+    },
+    {
+      "game": "garupa",
+      "recordId": 627,
+      "workId": "wk-0618",
+      "title": "Subtitle",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 713,
+      "workId": "wk-0697",
+      "title": "Velonica",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 523,
+      "workId": "wk-0514",
+      "title": "swim",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 579,
+      "workId": "wk-0570",
+      "title": "「僕は...」",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 660,
+      "workId": "wk-0648",
+      "title": "だれかの心臓になれたなら",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 570,
+      "workId": "wk-0561",
+      "title": "ノンブレス・オブリージュ",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 547,
+      "workId": "wk-0538",
+      "title": "ホワイトノイズ",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 521,
+      "workId": "wk-0512",
+      "title": "猛独が襲う",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 758,
+      "workId": "wk-0739",
+      "title": "過去を喰らう",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 622,
+      "workId": "wk-0613",
+      "title": "遥か彼方",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 610,
+      "workId": "wk-0601",
+      "title": "雑踏、僕らの街",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 352,
+      "workId": "wk-0346",
+      "title": "TOMORROW",
+      "band": "ハロー、ハッピーワールド！×Machico"
+    },
+    {
+      "game": "garupa",
+      "recordId": 236,
+      "workId": "wk-0231",
+      "title": "TWiNKLE CiRCLE",
+      "band": "GBP!スペシャルバンド"
+    },
+    {
+      "game": "garupa",
+      "recordId": 90,
+      "workId": "wk-0090",
+      "title": "クインティプル☆すまいる",
+      "band": "GBP!スペシャルバンド"
+    },
+    {
+      "game": "garupa",
+      "recordId": 445,
+      "workId": "wk-0438",
+      "title": "VORACITY",
+      "band": "RAISE A SUILEN×MYTH & ROID"
+    },
+    {
+      "game": "garupa",
+      "recordId": 747,
+      "workId": "wk-0728",
+      "title": "Wonder Night Land",
+      "band": "星降るティーパーティー"
+    },
+    {
+      "game": "garupa",
+      "recordId": 460,
+      "workId": "wk-0452",
+      "title": "YELL",
+      "band": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音"
+    },
+    {
+      "game": "garupa",
+      "recordId": 690,
+      "workId": "wk-0262",
+      "title": "flame of hope(パラレルver.)",
+      "band": "クールビューティーズ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 723,
+      "workId": "wk-0707",
+      "title": "♡桃色片想い♡",
+      "band": "Pastel＊Palettes×マイメロディ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 358,
+      "workId": "wk-0352",
+      "title": "あの夢をなぞって",
+      "band": "Poppin'Party×ときのそら"
+    },
+    {
+      "game": "garupa",
+      "recordId": 661,
+      "workId": "wk-0017",
+      "title": "えがおのオーケストラっ！(パラレルver.)",
+      "band": "優雅なティータイムを♪"
+    },
+    {
+      "game": "garupa",
+      "recordId": 738,
+      "workId": "wk-0176",
+      "title": "きゅ〜まい＊flower(パラレルver.)",
+      "band": "スキを貫け♡"
+    },
+    {
+      "game": "garupa",
+      "recordId": 722,
+      "workId": "wk-0706",
+      "title": "じょいふる",
+      "band": "Poppin'Party×ハローキティ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 76,
+      "workId": "wk-0076",
+      "title": "す、好きなんかじゃない！",
+      "band": "市ヶ谷有咲"
+    },
+    {
+      "game": "garupa",
+      "recordId": 763,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！ (月島まりなver.)",
+      "band": "月島まりな"
+    },
+    {
+      "game": "garupa",
+      "recordId": 46,
+      "workId": "wk-0046",
+      "title": "どきどきSING OUT!",
+      "band": "戸山香澄"
+    },
+    {
+      "game": "garupa",
+      "recordId": 558,
+      "workId": "wk-0549",
+      "title": "どりーみんチュチュ",
+      "band": "Pastel＊Palettes×花音"
+    },
+    {
+      "game": "garupa",
+      "recordId": 137,
+      "workId": "wk-0137",
+      "title": "ひとりじゃないんだから",
+      "band": "彩×モカ×リサ×花音×つぐみ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 652,
+      "workId": "wk-0137",
+      "title": "ひとりじゃないんだから(パラレルver.)",
+      "band": "羽沢珈琲店にようこそ♪"
+    },
+    {
+      "game": "garupa",
+      "recordId": 357,
+      "workId": "wk-0351",
+      "title": "ぼなぺてぃーと♡Ｓ",
+      "band": "ハロー、ハッピーワールド！×白上フブキ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 449,
+      "workId": "wk-0441",
+      "title": "もってけ！セーラーふく",
+      "band": "ハロー、ハッピーワールド！×香澄×有咲×イヴ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 737,
+      "workId": "wk-0721",
+      "title": "イケナイ太陽",
+      "band": "ハロー、ハッピーワールド！×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 712,
+      "workId": "wk-0696",
+      "title": "エガクミライ",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 535,
+      "workId": "wk-0526",
+      "title": "処救生",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 489,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 697,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 490,
+      "workId": "wk-0481",
+      "title": "栞",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 522,
+      "workId": "wk-0513",
+      "title": "歌いましょう鳴らしましょう",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 620,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 694,
+      "workId": "wk-0678",
+      "title": "残痕字",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 677,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 664,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 771,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 497,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 732,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 663,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 503,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 563,
+      "workId": "wk-0554",
+      "title": "輪符雨",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 510,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 613,
+      "workId": "wk-0604",
+      "title": "過惰幻",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 647,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "garupa",
+      "recordId": 552,
+      "workId": "wk-0543",
+      "title": "グッド・バイ",
+      "band": "john feat. 夢ノ結唱 ROSE"
+    },
+    {
+      "game": "garupa",
+      "recordId": 376,
+      "workId": "wk-0370",
+      "title": "グッバイ宣言",
+      "band": "Afterglow×香澄"
+    },
+    {
+      "game": "garupa",
+      "recordId": 297,
+      "workId": "wk-0291",
+      "title": "ドラマツルギー",
+      "band": "Afterglow×香澄"
+    },
+    {
+      "game": "garupa",
+      "recordId": 42,
+      "workId": "wk-0042",
+      "title": "天体観測",
+      "band": "Afterglow×香澄"
+    },
+    {
+      "game": "garupa",
+      "recordId": 634,
+      "workId": "wk-0624",
+      "title": "シカ色デイズ",
+      "band": "ハロー、ハッピーワールド！×ましろ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 373,
+      "workId": "wk-0367",
+      "title": "シル・ヴ・プレジデント",
+      "band": "ハロー、ハッピーワールド！×彩×ましろ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 448,
+      "workId": "wk-0367",
+      "title": "シル・ヴ・プレジデント",
+      "band": "ハロー、ハッピーワールド！×P丸様。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 438,
+      "workId": "wk-0431",
+      "title": "スカイクラッドの観測者",
+      "band": "Roselia×いとうかなこ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 479,
+      "workId": "wk-0470",
+      "title": "チューリングラブ",
+      "band": "ハロー、ハッピーワールド！×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 61,
+      "workId": "wk-0061",
+      "title": "チョコレイトの低音レシピ",
+      "band": "牛込りみ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 736,
+      "workId": "wk-0720",
+      "title": "デビルじゃないもん",
+      "band": "Pastel＊Palettes×友希那"
+    },
+    {
+      "game": "garupa",
+      "recordId": 360,
+      "workId": "wk-0354",
+      "title": "ナカナ イナ カナイ",
+      "band": "花園たえ×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 99,
+      "workId": "wk-0099",
+      "title": "ハレ晴レユカイ",
+      "band": "ハロー、ハッピーワールド！×蘭×彩"
+    },
+    {
+      "game": "garupa",
+      "recordId": 374,
+      "workId": "wk-0368",
+      "title": "ヒトリゴト",
+      "band": "Pastel＊Palettes×ClariS"
+    },
+    {
+      "game": "garupa",
+      "recordId": 353,
+      "workId": "wk-0347",
+      "title": "ピコたるもの、ふぃーばー！",
+      "band": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 121,
+      "workId": "wk-0121",
+      "title": "ピコっと！パピっと！！ガルパ☆ピコ！！！",
+      "band": "香澄×蘭×彩×友希那×こころ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 257,
+      "workId": "wk-0251",
+      "title": "大盛り一丁！ガルパ☆ピコ",
+      "band": "香澄×蘭×彩×友希那×こころ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 356,
+      "workId": "wk-0350",
+      "title": "ファンサ",
+      "band": "Pastel＊Palettes×湊あくあ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 452,
+      "workId": "wk-0444",
+      "title": "フォニイ",
+      "band": "Afterglow×96猫"
+    },
+    {
+      "game": "garupa",
+      "recordId": 637,
+      "workId": "wk-0627",
+      "title": "マルカリアンチェイン",
+      "band": "夢ノ結唱 ROSE"
+    },
+    {
+      "game": "garupa",
+      "recordId": 296,
+      "workId": "wk-0290",
+      "title": "ムーンライト伝説",
+      "band": "Pastel＊Palettes×こころ×ましろ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 344,
+      "workId": "wk-0338",
+      "title": "ラスハピーポー！",
+      "band": "RAISE A SUILEN×ハロー、ハッピーワールド！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 450,
+      "workId": "wk-0442",
+      "title": "乙女はサイコパス",
+      "band": "Poppin'Party×P丸様。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 464,
+      "workId": "wk-0456",
+      "title": "五等分の気持ち",
+      "band": "Pastel＊Palettes×有咲×つぐみ×ましろ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 718,
+      "workId": "wk-0702",
+      "title": "元祖！バンドリちゃんのテーマ",
+      "band": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 225,
+      "workId": "wk-0221",
+      "title": "創聖のアクエリオン",
+      "band": "Poppin'Party×友希那"
+    },
+    {
+      "game": "garupa",
+      "recordId": 512,
+      "workId": "wk-0503",
+      "title": "可愛くてごめん",
+      "band": "Pastel＊Palettes 日菜×千聖×麻弥×イヴ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 478,
+      "workId": "wk-0469",
+      "title": "少女レイ",
+      "band": "Poppin'Party×ましろ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 632,
+      "workId": "wk-0622",
+      "title": "幾億光年",
+      "band": "Poppin'Party×燈"
+    },
+    {
+      "game": "garupa",
+      "recordId": 635,
+      "workId": "wk-0625",
+      "title": "悪魔の子",
+      "band": "Roselia×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 377,
+      "workId": "wk-0371",
+      "title": "曇天",
+      "band": "Roselia×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 486,
+      "workId": "wk-0477",
+      "title": "惑星ループ",
+      "band": "Pastel＊Palettes×パレオ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 630,
+      "workId": "wk-0620",
+      "title": "愛包ダンスホール",
+      "band": "Pastel＊Palettes×蘭"
+    },
+    {
+      "game": "garupa",
+      "recordId": 731,
+      "workId": "wk-0715",
+      "title": "手を叩け今ここで祈るだけ願うだけ",
+      "band": "夢ノ結唱 HALO"
+    },
+    {
+      "game": "garupa",
+      "recordId": 541,
+      "workId": "wk-0532",
+      "title": "擬態ごっこ",
+      "band": "Roselia×沙花叉クロヱ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 646,
+      "workId": "wk-0635",
+      "title": "春日影",
+      "band": "CRYCHIC"
+    },
+    {
+      "game": "garupa",
+      "recordId": 170,
+      "workId": "wk-0170",
+      "title": "檄！帝国華撃団",
+      "band": "Poppin'Party×彩×こころ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 41,
+      "workId": "wk-0041",
+      "title": "正解はひとつ!じゃない!!",
+      "band": "Poppin'Party×グリグリ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 761,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!(パラレルver.)",
+      "band": "GO OUR WAYS！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 740,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン(パラレルver.)",
+      "band": "さんふらわー！"
+    },
+    {
+      "game": "garupa",
+      "recordId": 787,
+      "workId": "wk-0107",
+      "title": "私の心はチョココロネ(パラレルver.)",
+      "band": "モカ×つくし×愛音"
+    },
+    {
+      "game": "garupa",
+      "recordId": 499,
+      "workId": "wk-0490",
+      "title": "私色きらめき日和",
+      "band": "ますかっと feat. 夢ノ結唱 POPY"
+    },
+    {
+      "game": "garupa",
+      "recordId": 347,
+      "workId": "wk-0341",
+      "title": "競宴Red×Violet",
+      "band": "Roselia×Afterglow"
+    },
+    {
+      "game": "garupa",
+      "recordId": 341,
+      "workId": "wk-0335",
+      "title": "絆色のアンサンブル",
+      "band": "Poppin'Party×Pastel＊Palettes×Morfonica"
+    },
+    {
+      "game": "garupa",
+      "recordId": 451,
+      "workId": "wk-0443",
+      "title": "群青",
+      "band": "Morfonica×友希那"
+    },
+    {
+      "game": "garupa",
+      "recordId": 534,
+      "workId": "wk-0525",
+      "title": "聖少女領域",
+      "band": "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 475,
+      "workId": "wk-0466",
+      "title": "花呼ぶ声",
+      "band": "kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE"
+    },
+    {
+      "game": "garupa",
+      "recordId": 51,
+      "workId": "wk-0051",
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 689,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに(パラレルver.)",
+      "band": "ぽわぽわが～るず"
+    },
+    {
+      "game": "garupa",
+      "recordId": 454,
+      "workId": "wk-0446",
+      "title": "転生林檎",
+      "band": "Roselia×＋α／あるふぁきゅん。"
+    },
+    {
+      "game": "garupa",
+      "recordId": 628,
+      "workId": "wk-0464",
+      "title": "迷星叫(パラレルver.)",
+      "band": "あこがれの共演"
+    },
+    {
+      "game": "garupa",
+      "recordId": 70,
+      "workId": "wk-0070",
+      "title": "遠い音楽～ハートビート～",
+      "band": "山吹沙綾"
+    },
+    {
+      "game": "garupa",
+      "recordId": 453,
+      "workId": "wk-0445",
+      "title": "閃光",
+      "band": "Afterglow×レイヤ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 678,
+      "workId": "wk-0664",
+      "title": "雪華は無常に微笑む",
+      "band": "友希那×愛音×りみ×つくし×つぐみ"
+    },
+    {
+      "game": "garupa",
+      "recordId": 405,
+      "workId": "wk-0398",
+      "title": "青空のラプソディ",
+      "band": "Morfonica×fhána"
+    },
+    {
+      "game": "garupa",
+      "recordId": 799,
+      "workId": "wk-0207",
+      "title": "Hello! Wink!（パラレルver.）",
+      "band": "有咲×ひまり×友希那×燐子×ミッシェル"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 2,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 5,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 6,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 7,
+      "workId": "wk-0635",
+      "title": "春日影（MyGO!!!!! ver.）",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 8,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 9,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 10,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 12,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 13,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 14,
+      "workId": "wk-0776",
+      "title": "砂寸奏",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 15,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 16,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 17,
+      "workId": "wk-0777",
+      "title": "証命讃歌",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 18,
+      "workId": "wk-0681",
+      "title": "往欄印",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 19,
+      "workId": "wk-0778",
+      "title": "ないものねだり",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 20,
+      "workId": "wk-0128",
+      "title": "シャルル",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 21,
+      "workId": "wk-0779",
+      "title": "青春コンプレックス",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 22,
+      "workId": "wk-0538",
+      "title": "ホワイトノイズ",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 81,
+      "workId": "wk-0821",
+      "title": "空に歌えば",
+      "band": "MyGO!!!!!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 23,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 24,
+      "workId": "wk-0628",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 25,
+      "workId": "wk-0638",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 26,
+      "workId": "wk-0639",
+      "title": "Crucifix X",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 27,
+      "workId": "wk-0649",
+      "title": "八芒星ダンス",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 28,
+      "workId": "wk-0653",
+      "title": "顔",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 29,
+      "workId": "wk-0654",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 30,
+      "workId": "wk-0780",
+      "title": "Symbol I : △",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 31,
+      "workId": "wk-0781",
+      "title": "Symbol II : Air",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 32,
+      "workId": "wk-0782",
+      "title": "Symbol III : ▽",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 33,
+      "workId": "wk-0783",
+      "title": "Symbol IV : Earth",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 34,
+      "workId": "wk-0784",
+      "title": "Ether",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 35,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "workId": "wk-0785",
+      "title": "Choir ‘S’ Choir",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 37,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 38,
+      "workId": "wk-0786",
+      "title": "碧い瞳の中に",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 39,
+      "workId": "wk-0787",
+      "title": "The Whole Blue World",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 40,
+      "workId": "wk-0086",
+      "title": "残酷な天使のテーゼ",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 41,
+      "workId": "wk-0788",
+      "title": "堕天",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 42,
+      "workId": "wk-0789",
+      "title": "暗黒天国",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 43,
+      "workId": "wk-0790",
+      "title": "KINGS",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 83,
+      "workId": "wk-0608",
+      "title": "ファタール",
+      "band": "Ave Mujica"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 44,
+      "workId": "wk-0791",
+      "title": "✞animaるパーティ✞開催中✞",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "workId": "wk-0792",
+      "title": "エンプティパペット",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "workId": "wk-0793",
+      "title": "限界現実サバイブ天使",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "workId": "wk-0794",
+      "title": "ビッグマウス",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 48,
+      "workId": "wk-0795",
+      "title": "夢現妄想世界",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "workId": "wk-0796",
+      "title": "コハク",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 52,
+      "workId": "wk-0797",
+      "title": "真夜中遊園地",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 50,
+      "workId": "wk-0798",
+      "title": "これはぼくたちの生存のあらすじ",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 51,
+      "workId": "wk-0799",
+      "title": "うちゅうのふしぎ",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "workId": "wk-0800",
+      "title": "チューニング",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 54,
+      "workId": "wk-0801",
+      "title": "超惑星Xへの旅",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 55,
+      "workId": "wk-0802",
+      "title": "TearJerker",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "workId": "wk-0803",
+      "title": "Face The Next",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 57,
+      "workId": "wk-0804",
+      "title": "in my words",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 58,
+      "workId": "wk-0805",
+      "title": "愛は衝動",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "workId": "wk-0823",
+      "title": "夢我夢中",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 59,
+      "workId": "wk-0116",
+      "title": "六兆年と一夜物語",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "workId": "wk-0806",
+      "title": "唱",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 61,
+      "workId": "wk-0807",
+      "title": "オリオンをなぞる",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 62,
+      "workId": "wk-0808",
+      "title": "UNDEAD",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 80,
+      "workId": "wk-0594",
+      "title": "ちゅ、多様性。",
+      "band": "夢限大みゅーたいぷ"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 63,
+      "workId": "wk-0809",
+      "title": "起死開戦",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 65,
+      "workId": "wk-0811",
+      "title": "鳴らす",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 66,
+      "workId": "wk-0812",
+      "title": "カーネーションの咲く日に",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 64,
+      "workId": "wk-0810",
+      "title": "everscape",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 67,
+      "workId": "wk-0559",
+      "title": "青のすみか",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 68,
+      "workId": "wk-0813",
+      "title": "Pretender",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 69,
+      "workId": "wk-0387",
+      "title": "unravel",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 70,
+      "workId": "wk-0814",
+      "title": "ロウワー",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 82,
+      "workId": "wk-0533",
+      "title": "Stellar Stellar",
+      "band": "millsage"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 71,
+      "workId": "wk-0815",
+      "title": "ホーミー・タイッ！！",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 73,
+      "workId": "wk-0817",
+      "title": "ピースフル・ピーシーズ！",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 74,
+      "workId": "wk-0818",
+      "title": "Keep on Riddim",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 72,
+      "workId": "wk-0816",
+      "title": "ジャイアント・キラー・チューン",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 75,
+      "workId": "wk-0819",
+      "title": "Mela!",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 76,
+      "workId": "wk-0820",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 77,
+      "workId": "wk-0721",
+      "title": "イケナイ太陽",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "workId": "wk-0735",
+      "title": "革命道中",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 84,
+      "workId": "wk-0822",
+      "title": "微笑みの爆弾",
+      "band": "一家Dumb Rock!"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 79,
+      "workId": "wk-0635",
+      "title": "春日影",
+      "band": "CRYCHIC"
+    }
+  ],
+  "policy": {
+    "phaseALyricistConfirmed": 834,
+    "phaseAGarupaArrangerConfirmed": 749,
+    "phaseAOurNotesArrangerConfirmed": 5,
+    "ourNotesArrangerUncollected": 80,
+    "garupaArrangerUnconfirmed": 50,
+    "lyricistUnconfirmed": 50,
+    "allocateFormalIds": false,
+    "writeSongs": false,
+    "writeMaster": false,
+    "writeWorks": false,
+    "changeRoleCoverage": false
+  }
+}

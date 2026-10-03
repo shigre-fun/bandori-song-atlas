@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/4256/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:10.891Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「everscape」",
+  "artists": "millsage",
+  "releaseDate": "2026年8月31日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「everscape」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤井健太郎"
+    },
+    {
+      "line": 3,
+      "text": "作曲：藤井健太郎、瀬名水紀(Dream Monster)"
+    },
+    {
+      "line": 4,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 64,
+      "workId": "wk-0810",
+      "title": "everscape",
+      "band": "millsage",
+      "scope": "release",
+      "context": "「everscape」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "millsage「everscape」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

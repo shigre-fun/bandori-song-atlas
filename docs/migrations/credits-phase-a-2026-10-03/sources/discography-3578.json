@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/3578/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:33.874Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow ミニAlbum「忘れらんない日々のこと」",
+  "artists": "Afterglow",
+  "releaseDate": "2024年4月3日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 456,
+      "workId": "wk-0448",
+      "title": "IGNITE GLOW",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "3.IGNITE GLOW",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 472,
+      "workId": "wk-0463",
+      "title": "Made My Day",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "5.Made My Day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 495,
+      "workId": "wk-0486",
+      "title": "ペトリコール・オベーション",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "4.ペトリコール・オベーション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 508,
+      "workId": "wk-0499",
+      "title": "燦々",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.燦々",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow ミニAlbum「忘れらんない日々のこと」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

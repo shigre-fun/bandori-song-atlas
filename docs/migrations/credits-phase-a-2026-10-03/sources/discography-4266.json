@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/4266/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:07.719Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「A Song Of Romance」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2026年9月14日(月)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "※一部サービス順次配信予定"
+    },
+    {
+      "line": 8,
+      "text": "Ave Mujica「A Song Of Romance」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 10,
+      "text": "作曲：Diggy-MO’、ÐIK"
+    },
+    {
+      "line": 11,
+      "text": "編曲：Diggy-MO’"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Ave Mujica「A Song Of Romance」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

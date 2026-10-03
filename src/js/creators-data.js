@@ -143,6 +143,39 @@ export function validateCreatorDatabase(creatorData, workData, songs) {
     }
   for (const [workId, records] of members)
     for (const role of CREDIT_ROLES) {
+      // Missing identities do not assert a different author. Arrangements belong to individual performances.
+      if (typeof creatorData.roleCoverage?.[role] === "object") {
+        const known = records.filter(
+          (s) =>
+            s.credits.some((c) => c.roles.includes(role)) &&
+            !s.creditDisplay[role]?.some((p) => p.unresolved),
+        );
+        const partitions = new Map();
+        for (const s of known) {
+          const key =
+            role === "arranger" ? JSON.stringify([s.gameId, s.band]) : "work";
+          if (!partitions.has(key)) partitions.set(key, []);
+          partitions.get(key).push(s);
+        }
+        for (const subset of partitions.values()) {
+          const ids = subset.map((s) =>
+            s.credits
+              .filter((c) => c.roles.includes(role))
+              .map((c) => c.creatorId)
+              .sort()
+              .join(","),
+          );
+          if (new Set(ids).size > 1)
+            warnings.push({
+              workId,
+              role,
+              records: subset.map((s) => s.gameId + ":" + s.id),
+              reason:
+                "同じ作品・担当の確定Creatorに差異があります。編曲は同じゲームと演奏バンドの収録間で比較しています。",
+            });
+        }
+        continue;
+      }
       const signatures = records.map((s) =>
         s.credits
           .filter((c) => c.roles.includes(role))
@@ -211,7 +244,10 @@ export function creditRows(song) {
         creatorId: p.creatorId,
         displayOverride:
           song.credits.find((c) => c.creatorId === p.creatorId)
-            ?.displayOverride ?? "",
+            ?.displayOverrides?.[role] ??
+          song.credits.find((c) => c.creatorId === p.creatorId)
+            ?.displayOverride ??
+          "",
       })),
   );
 }
@@ -240,8 +276,14 @@ export function selectedCreditData(rows, creators, previous = null) {
         };
         credits.push(c);
       }
-      if ((c.displayOverride ?? "") !== (row.displayOverride ?? ""))
-        fail("同じCreatorの表示名はrole間で共通にしてください。");
+      if ((c.displayOverride ?? "") !== (row.displayOverride ?? "")) {
+        if (!previous)
+          fail("同じCreatorの表示名はrole間で共通にしてください。");
+        c.displayOverrides ??= {};
+        c.displayOverrides[role] =
+          row.displayOverride ||
+          creators.find((x) => x.id === row.creatorId).name;
+      }
       if (c.roles.includes(role))
         fail("同じroleに同じCreatorは1回だけ選択してください。");
       c.roles.push(role);

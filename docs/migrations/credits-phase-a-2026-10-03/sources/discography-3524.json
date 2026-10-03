@@ -1,0 +1,189 @@
+{
+  "url": "https://bang-dream.com/discographies/3524/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:07.843Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 14th Single「VIOLET LINE」",
+  "artists": "Roselia",
+  "releaseDate": "2023年12月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 71,
+      "workId": "wk-0071",
+      "title": "－HEROIC ADVENT－",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.－HEROIC ADVENT－",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 482,
+      "workId": "wk-0473",
+      "title": "Call the shots",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Call the shots",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.R",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 411,
+      "workId": "wk-0404",
+      "title": "ROZEN HORIZON",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.ROZEN HORIZON",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 337,
+      "workId": "wk-0331",
+      "title": "Sprechchor",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Sprechchor",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 498,
+      "workId": "wk-0489",
+      "title": "Sunlit Musical",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Sunlit Musical",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 524,
+      "workId": "wk-0515",
+      "title": "THRONE OF ROSE",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.THRONE OF ROSE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 562,
+      "workId": "wk-0553",
+      "title": "VIOLET LINE",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.VIOLET LINE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 280,
+      "workId": "wk-0274",
+      "title": "ZEAL of proud",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.ZEAL of proud",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "6.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 204,
+      "workId": "wk-0204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.“UNIONS” Road",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 459,
+      "workId": "wk-0451",
+      "title": "一逢のFull Glory",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.一逢のFull Glory",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 14th Single「VIOLET LINE」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

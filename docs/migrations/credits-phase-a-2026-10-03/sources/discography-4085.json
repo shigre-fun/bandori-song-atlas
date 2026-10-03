@@ -1,0 +1,27 @@
+{
+  "url": "https://bang-dream.com/discographies/4085/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:30.144Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「テレパシー」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年4月17日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「テレパシー」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：白神真志朗"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「テレパシー」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

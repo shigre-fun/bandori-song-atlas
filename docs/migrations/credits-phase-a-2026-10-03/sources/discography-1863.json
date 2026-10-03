@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1863/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:39.366Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 7th Single「ゆめゆめグラデーション」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2020年9月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 232,
+      "workId": "wk-0227",
+      "title": "Wonderful Sweet!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.Wonderful Sweet！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 215,
+      "workId": "wk-0213",
+      "title": "ゆめゆめグラデーション",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.ゆめゆめグラデーション",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 7th Single「ゆめゆめグラデーション」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

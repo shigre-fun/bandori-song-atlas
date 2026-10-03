@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1389/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:05.033Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 4th Single「DRIVE US CRAZY」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2020年1月22日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 4th Single「DRIVE US CRAZY」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

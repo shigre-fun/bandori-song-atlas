@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3892/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:59.641Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes「With〜きみとわたしたちの物語〜」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2024年12月1日(日)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 8,
+      "text": "「With～きみとわたしたちの物語～」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 10,
+      "text": "作曲・編曲：都丸椋太(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 599,
+      "workId": "wk-0590",
+      "title": "With〜きみとわたしたちの物語〜",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "「With～きみとわたしたちの物語～」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes「With〜きみとわたしたちの物語〜」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

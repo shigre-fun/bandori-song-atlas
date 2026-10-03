@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/108/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:23.736Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 2nd Single「ゆら・ゆらRing-Dong-Dance」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2018年1月17日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 45,
+      "workId": "wk-0045",
+      "title": "はなまる◎アンダンテ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.はなまる◎アンダンテ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 53,
+      "workId": "wk-0053",
+      "title": "ゆら・ゆらRing-Dong-Dance",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.ゆら・ゆらRing-Dong-Dance",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 2nd Single「ゆら・ゆらRing-Dong-Dance」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

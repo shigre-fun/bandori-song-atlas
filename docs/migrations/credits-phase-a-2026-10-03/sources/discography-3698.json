@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3698/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:34.776Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN「ボッカデラベリタ」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2024年3月23日(土)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 573,
+      "workId": "wk-0564",
+      "title": "ボッカデラベリタ",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "RAISE A SUILEN「ボッカデラベリタ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN「ボッカデラベリタ」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

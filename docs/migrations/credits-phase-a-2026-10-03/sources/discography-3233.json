@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/3233/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:20.615Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「影色舞」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2022年11月23日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「影色舞」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「影色舞」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「影色舞」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/585/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:16.891Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 3rd Single「ツナグ、ソラモヨウ」",
+  "artists": "Afterglow",
+  "releaseDate": "2018年10月31日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 102,
+      "workId": "wk-0102",
+      "title": "Jamboree!Journey!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.Jamboree！Journey！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 135,
+      "workId": "wk-0135",
+      "title": "ツナグ、ソラモヨウ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.ツナグ、ソラモヨウ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 3rd Single「ツナグ、ソラモヨウ」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/963/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:10.273Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 9th Single「FIRE BIRD」",
+  "artists": "Roselia",
+  "releaseDate": "2019年7月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 166,
+      "workId": "wk-0166",
+      "title": "Ringing Bloom",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Ringing Bloom",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "1.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 9th Single「FIRE BIRD」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/3444/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:53.093Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「碧天伴走」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年7月28日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "アニメ「BanG Dream! It's MyGO!!!!!」#7　劇中歌"
+    },
+    {
+      "line": 2,
+      "text": "MyGO!!!!!「碧天伴走」"
+    },
+    {
+      "line": 3,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 4,
+      "text": "作曲・編曲：木下龍平(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 497,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「碧天伴走」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「碧天伴走」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「碧天伴走」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

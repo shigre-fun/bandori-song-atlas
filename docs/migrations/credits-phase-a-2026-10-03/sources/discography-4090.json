@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/4090/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:25.902Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「Dazzle the Destiny」",
+  "artists": "Roselia",
+  "releaseDate": "2025年5月5日(月)",
+  "creditLines": [
+    {
+      "line": 10,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 11,
+      "text": "Roselia「Dazzle the Destiny」"
+    },
+    {
+      "line": 12,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 13,
+      "text": "作曲：上松範康(Elements Garden)"
+    },
+    {
+      "line": 14,
+      "text": "編曲：都丸椋太(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 675,
+      "workId": "wk-0661",
+      "title": "Dazzle the Destiny",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「Dazzle the Destiny」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「Dazzle the Destiny」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

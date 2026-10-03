@@ -1,0 +1,279 @@
+{
+  "url": "https://bang-dream.com/discographies/3735/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:23.090Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 5th Single「端程山」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年7月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 523,
+      "workId": "wk-0514",
+      "title": "swim",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "6.swim",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 521,
+      "workId": "wk-0512",
+      "title": "猛独が襲う",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "4.猛独が襲う",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 489,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 490,
+      "workId": "wk-0481",
+      "title": "栞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.栞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 664,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.焚音打",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 771,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.無路矢",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 497,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "12.碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 732,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.端程山",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 503,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.詩超絆",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 563,
+      "workId": "wk-0554",
+      "title": "輪符雨",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.輪符雨",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "11.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 510,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10.迷路日々",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 647,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7.音一会",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "11.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 2,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "workId": "wk-0488",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "12.碧天伴走",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5.影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 6,
+      "workId": "wk-0636",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7.音一会",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 8,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "9.詩超絆",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 9,
+      "workId": "wk-0501",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10.迷路日々",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 10,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.無路矢",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 13,
+      "workId": "wk-0716",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.端程山",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 15,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.焚音打",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 5th Single「端程山」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

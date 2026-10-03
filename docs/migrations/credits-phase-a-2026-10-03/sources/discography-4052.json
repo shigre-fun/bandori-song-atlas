@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/4052/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:52.529Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Crucifix X」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年3月6日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「Crucifix X」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：o-saka(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：o-saka(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 650,
+      "workId": "wk-0639",
+      "title": "Crucifix X",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「Crucifix X」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 26,
+      "workId": "wk-0639",
+      "title": "Crucifix X",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「Crucifix X」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Crucifix X」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

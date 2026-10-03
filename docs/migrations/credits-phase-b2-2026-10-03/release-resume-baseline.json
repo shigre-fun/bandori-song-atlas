@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-04",
+  "sourceType": "human-review",
+  "sourceHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/garupa/songs.json": "22b052e1c30055cee9f0b596180a56997d6f7558b3f6b4150b01efc28dbe26f0",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/ournotes/admin-state.json": "2f385d608bdb8f575fe10388aca113f63841b948e7fcceb616ea453d1fd97972"
+  },
+  "fixture": {
+    "path": "docs/migrations/credits-phase-b2-2026-10-03/release-resume-sources.json.gz",
+    "sha256": "c8559e97d2aa740181dc5daa65a4718fa0e6f3da4f7e4f7fae0b91f23b820108"
+  },
+  "remoteSHA": "ed756974d9aba75095c3b3cfcff05d600e948fb0",
+  "authorizedRecords": 885,
+  "authorizedWorks": 823,
+  "decisions": {
+    "retainRemoteNewSong": "ournotes:86",
+    "reuseExplicitLinkedWork": "garupa:758",
+    "approveJointArrangers": [
+      220,
+      231,
+      243,
+      246,
+      248,
+      272
+    ],
+    "confirmRecord220Creator": "cr-0019"
+  },
+  "sourceMessage": "最新曲の「過去を喰らう」も保持してください。川渕龍成氏の共同編曲分割も許可します。訂正後6件と220同一人物を承認。公開済み変更を保持し885曲でrelease。"
+}

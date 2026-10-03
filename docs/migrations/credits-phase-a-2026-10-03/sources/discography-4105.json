@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/4105/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:54.311Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「Requiem for Fate」",
+  "artists": "Roselia",
+  "releaseDate": "2025年6月6日(金)",
+  "creditLines": [
+    {
+      "line": 10,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 11,
+      "text": "Roselia「Requiem for Fate」"
+    },
+    {
+      "line": 12,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 13,
+      "text": "作曲・編曲：藤永龍太郎(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 685,
+      "workId": "wk-0671",
+      "title": "Requiem for Fate",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「Requiem for Fate」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「Requiem for Fate」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

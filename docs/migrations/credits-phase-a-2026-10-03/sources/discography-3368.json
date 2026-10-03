@@ -1,0 +1,169 @@
+{
+  "url": "https://bang-dream.com/discographies/3368/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:52.577Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 3rd Single「壱雫空」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年8月9日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 523,
+      "workId": "wk-0514",
+      "title": "swim",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "4. swim",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 521,
+      "workId": "wk-0512",
+      "title": "猛独が襲う",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2. 猛独が襲う",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 489,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 520,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5. 影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 490,
+      "workId": "wk-0481",
+      "title": "栞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.栞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 677,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10. 潜在表明",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 664,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.焚音打",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7. 迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "7. 迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 2,
+      "workId": "wk-0480",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.壱雫空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "workId": "wk-0511",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "5. 影色舞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 5,
+      "workId": "wk-0663",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "10. 潜在表明",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1. 名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 15,
+      "workId": "wk-0651",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "3.焚音打",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 3rd Single「壱雫空」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

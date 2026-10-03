@@ -1,0 +1,1411 @@
+{
+  "statistics": [
+    {
+      "id": "cr-0001",
+      "name": "上松範康",
+      "recordings": 67,
+      "total": 60,
+      "lyricist": 4,
+      "composer": 60,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0002",
+      "name": "Elements Garden",
+      "recordings": 18,
+      "total": 18,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 18
+    },
+    {
+      "id": "cr-0003",
+      "name": "真部脩一",
+      "recordings": 3,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0004",
+      "name": "藤田淳平",
+      "recordings": 64,
+      "total": 60,
+      "lyricist": 0,
+      "composer": 51,
+      "arranger": 48
+    },
+    {
+      "id": "cr-0005",
+      "name": "藤永龍太郎",
+      "recordings": 73,
+      "total": 67,
+      "lyricist": 0,
+      "composer": 40,
+      "arranger": 67
+    },
+    {
+      "id": "cr-0006",
+      "name": "菊田大介",
+      "recordings": 48,
+      "total": 47,
+      "lyricist": 0,
+      "composer": 32,
+      "arranger": 43
+    },
+    {
+      "id": "cr-0007",
+      "name": "岩橋星実",
+      "recordings": 64,
+      "total": 63,
+      "lyricist": 0,
+      "composer": 31,
+      "arranger": 61
+    },
+    {
+      "id": "cr-0008",
+      "name": "藤間仁",
+      "recordings": 29,
+      "total": 27,
+      "lyricist": 0,
+      "composer": 25,
+      "arranger": 26
+    },
+    {
+      "id": "cr-0009",
+      "name": "竹田祐介",
+      "recordings": 47,
+      "total": 44,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 41
+    },
+    {
+      "id": "cr-0010",
+      "name": "笠井雄太",
+      "recordings": 70,
+      "total": 69,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 69
+    },
+    {
+      "id": "cr-0011",
+      "name": "近藤世真",
+      "recordings": 32,
+      "total": 32,
+      "lyricist": 0,
+      "composer": 11,
+      "arranger": 32
+    },
+    {
+      "id": "cr-0012",
+      "name": "堀川大翼",
+      "recordings": 28,
+      "total": 28,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 27
+    },
+    {
+      "id": "cr-0013",
+      "name": "長谷川大介",
+      "recordings": 13,
+      "total": 8,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 5
+    },
+    {
+      "id": "cr-0014",
+      "name": "松坂康司",
+      "recordings": 7,
+      "total": 5,
+      "lyricist": 0,
+      "composer": 5,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0015",
+      "name": "木下龍平",
+      "recordings": 7,
+      "total": 4,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0016",
+      "name": "トミタカズキ",
+      "recordings": 5,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0017",
+      "name": "あらケン",
+      "recordings": 4,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0018",
+      "name": "hisakuni",
+      "recordings": 3,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0019",
+      "name": "都丸椋太",
+      "recordings": 93,
+      "total": 90,
+      "lyricist": 0,
+      "composer": 24,
+      "arranger": 88
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "recordings": 74,
+      "total": 73,
+      "lyricist": 0,
+      "composer": 21,
+      "arranger": 71
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "recordings": 22,
+      "total": 20,
+      "lyricist": 0,
+      "composer": 9,
+      "arranger": 19
+    },
+    {
+      "id": "cr-0022",
+      "name": "Diggy-MO’",
+      "recordings": 24,
+      "total": 16,
+      "lyricist": 15,
+      "composer": 13,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0023",
+      "name": "Ayase",
+      "recordings": 10,
+      "total": 10,
+      "lyricist": 9,
+      "composer": 10,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "recordings": 9,
+      "total": 8,
+      "lyricist": 6,
+      "composer": 8,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0025",
+      "name": "HoneyWorks",
+      "recordings": 7,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 7,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0026",
+      "name": "DECO*27",
+      "recordings": 7,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 6,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "recordings": 6,
+      "total": 6,
+      "lyricist": 5,
+      "composer": 6,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0028",
+      "name": "堀江晶太",
+      "recordings": 9,
+      "total": 8,
+      "lyricist": 2,
+      "composer": 8,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0029",
+      "name": "大森元貴",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0030",
+      "name": "shito",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0031",
+      "name": "TeddyLoid",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0032",
+      "name": "ピノキオピー",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0033",
+      "name": "藤井健太郎",
+      "recordings": 6,
+      "total": 6,
+      "lyricist": 4,
+      "composer": 5,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0034",
+      "name": "Giga",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0035",
+      "name": "Eve",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0036",
+      "name": "Orangestar",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 3,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0037",
+      "name": "Vaundy",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0038",
+      "name": "高橋涼",
+      "recordings": 3,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0039",
+      "name": "40mP",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0040",
+      "name": "Neru",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0041",
+      "name": "かいりきベア",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0042",
+      "name": "みきとP",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0043",
+      "name": "神前暁",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0044",
+      "name": "賀佐泰洋",
+      "recordings": 2,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0045",
+      "name": "金崎真士",
+      "recordings": 2,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0046",
+      "name": "鈴木裕明",
+      "recordings": 2,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0047",
+      "name": "水野良樹",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 2,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0049",
+      "name": "小室哲哉",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 2,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0050",
+      "name": "前山田健一",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0051",
+      "name": "藤原基央",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 2,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0052",
+      "name": "HYDE",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0053",
+      "name": "佐藤純一",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0054",
+      "name": "田中公平",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0055",
+      "name": "田中秀和",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0056",
+      "name": "Tom-H@ck",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0057",
+      "name": "MYTH & ROID",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0058",
+      "name": "ORANGE RANGE",
+      "recordings": 4,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0059",
+      "name": "Fear, and Loathing in Las Vegas",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 3,
+      "composer": 4,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0060",
+      "name": "すりぃ",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0061",
+      "name": "ナユタン星人",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0062",
+      "name": "大石昌良",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0063",
+      "name": "キタニタツヤ",
+      "recordings": 4,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0064",
+      "name": "Kanaria",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0065",
+      "name": "TK",
+      "recordings": 4,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0066",
+      "name": "八木沼悟志",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 2,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0067",
+      "name": "UZ",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0068",
+      "name": "YUI",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 2,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0069",
+      "name": "TAKUYA∞",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0070",
+      "name": "THE SPELLBOUND",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 1,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0071",
+      "name": "sabio",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0072",
+      "name": "常田真太郎",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 1,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0073",
+      "name": "大橋卓弥",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 1,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0074",
+      "name": "白神真志朗",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 1,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0075",
+      "name": "目黒将司",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0076",
+      "name": "秋田ひろむ",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0077",
+      "name": "浅倉大介",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0078",
+      "name": "atsuko",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0079",
+      "name": "KATSU",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0080",
+      "name": "ak.homma",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 0,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0083",
+      "name": "篠崎あやと",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0084",
+      "name": "ryo",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0085",
+      "name": "GEN",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0086",
+      "name": "ARM",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0087",
+      "name": "TAKE",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0088",
+      "name": "yasu",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "recordings": 4,
+      "total": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0090",
+      "name": "瀬名水紀",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 2,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0091",
+      "name": "john",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0092",
+      "name": "織田あすか",
+      "recordings": 270,
+      "total": 253,
+      "lyricist": 253,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0093",
+      "name": "中村航",
+      "recordings": 83,
+      "total": 77,
+      "lyricist": 77,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0094",
+      "name": "下田晃太郎",
+      "recordings": 39,
+      "total": 38,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 38
+    },
+    {
+      "id": "cr-0095",
+      "name": "藤原優樹",
+      "recordings": 36,
+      "total": 20,
+      "lyricist": 20,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0096",
+      "name": "Seonoo Kim",
+      "recordings": 17,
+      "total": 17,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 17
+    },
+    {
+      "id": "cr-0097",
+      "name": "畑亜貴",
+      "recordings": 12,
+      "total": 12,
+      "lyricist": 12,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0098",
+      "name": "植木建象",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0099",
+      "name": "Spirit Garden",
+      "recordings": 8,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0100",
+      "name": "大森祥子",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 5,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0101",
+      "name": "小木岳司",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0102",
+      "name": "MOMIKEN",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0103",
+      "name": "神田ジョン",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0104",
+      "name": "水樹奈々",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0105",
+      "name": "仲町あられ",
+      "recordings": 0,
+      "total": 0,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0106",
+      "name": "麻枝准",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0107",
+      "name": "あの",
+      "recordings": 3,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0108",
+      "name": "及川眠子",
+      "recordings": 3,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0109",
+      "name": "Gom",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0110",
+      "name": "佐藤英敏",
+      "recordings": 2,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0111",
+      "name": "Aira",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0112",
+      "name": "peppe",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0113",
+      "name": "samfree",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0114",
+      "name": "穴見真吾",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0115",
+      "name": "小林壱誓",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0116",
+      "name": "長屋晴子",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 1,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0117",
+      "name": "槇島隆人",
+      "recordings": 1,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0118",
+      "name": "宮崎京一",
+      "recordings": 8,
+      "total": 8,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 8
+    },
+    {
+      "id": "cr-0119",
+      "name": "母里治樹",
+      "recordings": 4,
+      "total": 4,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0120",
+      "name": "川渕龍成",
+      "recordings": 6,
+      "total": 6,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 6
+    },
+    {
+      "id": "cr-0121",
+      "name": "ハルイチ",
+      "recordings": 5,
+      "total": 5,
+      "lyricist": 5,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0122",
+      "name": "烏屋茶房",
+      "recordings": 2,
+      "total": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0123",
+      "name": "林英樹",
+      "recordings": 3,
+      "total": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0124",
+      "name": "o-saka",
+      "recordings": 2,
+      "total": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    }
+  ],
+  "top30": [
+    {
+      "id": "cr-0092",
+      "name": "織田あすか",
+      "recordings": 270,
+      "total": 253,
+      "lyricist": 253,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0019",
+      "name": "都丸椋太",
+      "recordings": 93,
+      "total": 90,
+      "lyricist": 0,
+      "composer": 24,
+      "arranger": 88
+    },
+    {
+      "id": "cr-0093",
+      "name": "中村航",
+      "recordings": 83,
+      "total": 77,
+      "lyricist": 77,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "recordings": 74,
+      "total": 73,
+      "lyricist": 0,
+      "composer": 21,
+      "arranger": 71
+    },
+    {
+      "id": "cr-0010",
+      "name": "笠井雄太",
+      "recordings": 70,
+      "total": 69,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 69
+    },
+    {
+      "id": "cr-0005",
+      "name": "藤永龍太郎",
+      "recordings": 73,
+      "total": 67,
+      "lyricist": 0,
+      "composer": 40,
+      "arranger": 67
+    },
+    {
+      "id": "cr-0007",
+      "name": "岩橋星実",
+      "recordings": 64,
+      "total": 63,
+      "lyricist": 0,
+      "composer": 31,
+      "arranger": 61
+    },
+    {
+      "id": "cr-0001",
+      "name": "上松範康",
+      "recordings": 67,
+      "total": 60,
+      "lyricist": 4,
+      "composer": 60,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0004",
+      "name": "藤田淳平",
+      "recordings": 64,
+      "total": 60,
+      "lyricist": 0,
+      "composer": 51,
+      "arranger": 48
+    },
+    {
+      "id": "cr-0006",
+      "name": "菊田大介",
+      "recordings": 48,
+      "total": 47,
+      "lyricist": 0,
+      "composer": 32,
+      "arranger": 43
+    },
+    {
+      "id": "cr-0009",
+      "name": "竹田祐介",
+      "recordings": 47,
+      "total": 44,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 41
+    },
+    {
+      "id": "cr-0094",
+      "name": "下田晃太郎",
+      "recordings": 39,
+      "total": 38,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 38
+    },
+    {
+      "id": "cr-0011",
+      "name": "近藤世真",
+      "recordings": 32,
+      "total": 32,
+      "lyricist": 0,
+      "composer": 11,
+      "arranger": 32
+    },
+    {
+      "id": "cr-0012",
+      "name": "堀川大翼",
+      "recordings": 28,
+      "total": 28,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 27
+    },
+    {
+      "id": "cr-0008",
+      "name": "藤間仁",
+      "recordings": 29,
+      "total": 27,
+      "lyricist": 0,
+      "composer": 25,
+      "arranger": 26
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "recordings": 22,
+      "total": 20,
+      "lyricist": 0,
+      "composer": 9,
+      "arranger": 19
+    },
+    {
+      "id": "cr-0095",
+      "name": "藤原優樹",
+      "recordings": 36,
+      "total": 20,
+      "lyricist": 20,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0002",
+      "name": "Elements Garden",
+      "recordings": 18,
+      "total": 18,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 18
+    },
+    {
+      "id": "cr-0096",
+      "name": "Seonoo Kim",
+      "recordings": 17,
+      "total": 17,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 17
+    },
+    {
+      "id": "cr-0022",
+      "name": "Diggy-MO’",
+      "recordings": 24,
+      "total": 16,
+      "lyricist": 15,
+      "composer": 13,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0097",
+      "name": "畑亜貴",
+      "recordings": 12,
+      "total": 12,
+      "lyricist": 12,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0023",
+      "name": "Ayase",
+      "recordings": 10,
+      "total": 10,
+      "lyricist": 9,
+      "composer": 10,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0013",
+      "name": "長谷川大介",
+      "recordings": 13,
+      "total": 8,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 5
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "recordings": 9,
+      "total": 8,
+      "lyricist": 6,
+      "composer": 8,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0028",
+      "name": "堀江晶太",
+      "recordings": 9,
+      "total": 8,
+      "lyricist": 2,
+      "composer": 8,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0118",
+      "name": "宮崎京一",
+      "recordings": 8,
+      "total": 8,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 8
+    },
+    {
+      "id": "cr-0025",
+      "name": "HoneyWorks",
+      "recordings": 7,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 7,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0026",
+      "name": "DECO*27",
+      "recordings": 7,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 6,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0099",
+      "name": "Spirit Garden",
+      "recordings": 8,
+      "total": 7,
+      "lyricist": 7,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "recordings": 6,
+      "total": 6,
+      "lyricist": 5,
+      "composer": 6,
+      "arranger": 0
+    }
+  ],
+  "aliasesAdded": 33,
+  "overrides": {
+    "shared": 476,
+    "byRole": 733
+  },
+  "composerResolution": {
+    "before": {
+      "records": 884,
+      "withCredit": 882,
+      "fullyResolved": 607,
+      "rawFallback": 275
+    },
+    "after": {
+      "records": 885,
+      "withCredit": 885,
+      "fullyResolved": 619,
+      "rawFallback": 266
+    }
+  }
+}

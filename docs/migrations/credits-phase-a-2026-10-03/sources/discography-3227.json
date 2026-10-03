@@ -1,0 +1,249 @@
+{
+  "url": "https://bang-dream.com/discographies/3227/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:59.753Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 2nd Album「Pastel à la mode」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2023年5月31日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 285,
+      "workId": "wk-0279",
+      "title": "DANCE! おジャ魔女",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.DANCE! おジャ魔女",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 136,
+      "workId": "wk-0136",
+      "title": "DISCOTHEQUE",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "6.DISCOTHEQUE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 95,
+      "workId": "wk-0095",
+      "title": "SAKURAスキップ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "8.SAKURAスキップ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 216,
+      "workId": "wk-0214",
+      "title": "Stay Alive",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "9.Stay Alive",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 35,
+      "workId": "wk-0035",
+      "title": "そばかす",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.そばかす",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 143,
+      "workId": "wk-0143",
+      "title": "ゆりゆららららゆるゆり大事件",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "7.ゆりゆららららゆるゆり大事件",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 24,
+      "workId": "wk-0024",
+      "title": "ドリームパレード",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "3.ドリームパレード",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 325,
+      "workId": "wk-0319",
+      "title": "ラムのラブソング",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.ラムのラブソング",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 110,
+      "workId": "wk-0110",
+      "title": "気まぐれロマンティック",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.気まぐれロマンティック",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 406,
+      "workId": "wk-0399",
+      "title": "秘密の扉から会いにきて",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "10.秘密の扉から会いにきて",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 396,
+      "workId": "wk-0390",
+      "title": "Brand new Pastel Road！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "10.Brand new Pastel Road！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 66,
+      "workId": "wk-0066",
+      "title": "SURVIVOR ねばーぎぶあっぷ！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "3.SURVIVOR ねばーぎぶあっぷ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 232,
+      "workId": "wk-0227",
+      "title": "Wonderful Sweet!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "7.Wonderful Sweet！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 96,
+      "workId": "wk-0096",
+      "title": "Wonderland Girl",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.Wonderland Girl",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 407,
+      "workId": "wk-0400",
+      "title": "あこがれacross",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "11.あこがれacross",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 161,
+      "workId": "wk-0161",
+      "title": "ぎゅっDAYS♪",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "6.ぎゅっDAYS♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 45,
+      "workId": "wk-0045",
+      "title": "はなまる◎アンダンテ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.はなまる◎アンダンテ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 313,
+      "workId": "wk-0307",
+      "title": "るんっ♪てぃてぃー！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "8.るんっ♪てぃてぃー！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 139,
+      "workId": "wk-0139",
+      "title": "ゼッタイ宣言～Recital～",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.ゼッタイ宣言～Recital～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 424,
+      "workId": "wk-0417",
+      "title": "ハナヒバナ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "13.ハナヒバナ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 412,
+      "workId": "wk-0405",
+      "title": "ハレハレ☆フォーチュン",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "12.ハレハレ☆フォーチュン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 14,
+      "workId": "wk-0014",
+      "title": "パスパレボリューションず☆",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.パスパレボリューションず☆",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 362,
+      "workId": "wk-0356",
+      "title": "パッパレ☆人生！バーン万歳！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "9.パッパレ☆人生！バーン万歳！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 2nd Album「Pastel à la mode」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

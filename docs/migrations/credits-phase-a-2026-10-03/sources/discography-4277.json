@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4277/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:03.212Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Abracadabra(Cover)」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2026年9月24日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞・作曲：Lady Gaga"
+    },
+    {
+      "line": 6,
+      "text": "John McGeoch"
+    },
+    {
+      "line": 7,
+      "text": "Peter Edward Clarke"
+    },
+    {
+      "line": 8,
+      "text": "編曲：長谷川大介(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Ave Mujica「Abracadabra(Cover)」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

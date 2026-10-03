@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3694/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:36.545Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「乙女解剖」",
+  "artists": "Roselia",
+  "releaseDate": "2024年3月19日(火)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 569,
+      "workId": "wk-0560",
+      "title": "乙女解剖",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「乙女解剖」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「乙女解剖」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

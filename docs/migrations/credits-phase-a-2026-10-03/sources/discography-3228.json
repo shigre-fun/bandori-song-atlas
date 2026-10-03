@@ -1,0 +1,249 @@
+{
+  "url": "https://bang-dream.com/discographies/3228/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:55.768Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ 2nd Album「SMILE ON PARADE」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2023年6月28日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 323,
+      "workId": "wk-0317",
+      "title": "Happy Girl",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "9.Happy Girl",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 56,
+      "workId": "wk-0056",
+      "title": "ひまわりの約束",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.ひまわりの約束",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 151,
+      "workId": "wk-0151",
+      "title": "エクストラ・マジック・アワー",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.エクストラ・マジック・アワー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 305,
+      "workId": "wk-0299",
+      "title": "オレンジ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "8.オレンジ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 210,
+      "workId": "wk-0209",
+      "title": "コレカラ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "6.コレカラ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 379,
+      "workId": "wk-0373",
+      "title": "ハッピー☆マテリアル",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.ハッピー☆マテリアル",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 47,
+      "workId": "wk-0047",
+      "title": "ハッピーサマーウェディング",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.ハッピーサマーウェディング",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 348,
+      "workId": "wk-0342",
+      "title": "ン・パカマーチ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "10.ン・パカマーチ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 220,
+      "workId": "wk-0217",
+      "title": "全力少年",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "7.全力少年",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 115,
+      "workId": "wk-0115",
+      "title": "太陽曰く燃えよカオス",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.太陽曰く燃えよカオス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 417,
+      "workId": "wk-0410",
+      "title": "Happy! Happier! Happiest!",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "7.Happy! Happier! Happiest!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 429,
+      "workId": "wk-0422",
+      "title": "うちゃパ！で ぱっぴかポーんっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.うちゃパ！で ぱっぴかポーんっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 446,
+      "workId": "wk-0439",
+      "title": "えがお、あーゆーれでぃ???",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "13.えがお、あーゆーれでぃ???",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 219,
+      "workId": "wk-0216",
+      "title": "おもいでイルミネーション",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "10.おもいでイルミネーション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 408,
+      "workId": "wk-0401",
+      "title": "おもいやりハーモニー",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "11.おもいやりハーモニー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 351,
+      "workId": "wk-0345",
+      "title": "きらっ☆と キミフェス！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.きらっ☆と キミフェス！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 65,
+      "workId": "wk-0065",
+      "title": "せかいのっびのびトレジャー！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.せかいのっびのびトレジャー！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 162,
+      "workId": "wk-0162",
+      "title": "はれやか すこやか ぴかりんりん♪",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.はれやか すこやか ぴかりんりん♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 505,
+      "workId": "wk-0496",
+      "title": "ふぁいぶスマイル◯オールインっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.ふぁいぶスマイル◯オールインっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 105,
+      "workId": "wk-0105",
+      "title": "ふわふわ☆ゆめいろサンドイッチ",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "6.ふわふわ☆ゆめいろサンドイッチ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 83,
+      "workId": "wk-0083",
+      "title": "わちゃ・もちゃ・ぺったん行進曲",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "9.わちゃ・もちゃ・ぺったん行進曲",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 18,
+      "workId": "wk-0018",
+      "title": "ハピネスっ！ハピィーマジカルっ♪",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "12.ハピネスっ！ハピィーマジカルっ♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 380,
+      "workId": "wk-0374",
+      "title": "現るっ！大怪盗ハロハッピー！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "8.現るっ！大怪盗ハロハッピー！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ 2nd Album「SMILE ON PARADE」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

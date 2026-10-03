@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4265/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:08.190Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock!「革命道中(Cover)」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年9月12日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "一家Dumb Rock!「革命道中(Cover)」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲：アイナ・ジ・エンド、Shin Sakiura"
+    },
+    {
+      "line": 3,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "一家Dumb Rock!「革命道中(Cover)」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

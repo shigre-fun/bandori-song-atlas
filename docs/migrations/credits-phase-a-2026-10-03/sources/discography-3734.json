@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3734/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:33.447Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Symbol I : △」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2024年4月7日(日)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『Symbol I : △』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：長谷川大介 (SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：長谷川大介 (SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 30,
+      "workId": "wk-0780",
+      "title": "Symbol I : △",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "『Symbol I : △』",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Symbol I : △」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

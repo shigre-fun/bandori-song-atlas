@@ -1,0 +1,179 @@
+{
+  "url": "https://bang-dream.com/discographies/3225/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:56.577Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 11th Single「-N-E-M-E-S-I-S-」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2023年6月28日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7.!NVADE SHOW!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 533,
+      "workId": "wk-0524",
+      "title": "-N-E-M-E-S-I-S-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.-N-E-M-E-S-I-S-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 276,
+      "workId": "wk-0270",
+      "title": "Beautiful Birthday",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.Beautiful Birthday",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 371,
+      "workId": "wk-0365",
+      "title": "CORUSCATE -DNA-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "15.CORUSCATE -DNA-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 314,
+      "workId": "wk-0308",
+      "title": "EXIST",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.EXIST",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "16.EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "14.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.Invincible Fighter",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 404,
+      "workId": "wk-0397",
+      "title": "Light a fire",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11.Light a fire",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 303,
+      "workId": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.OUTSIDER RODEO",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 345,
+      "workId": "wk-0339",
+      "title": "Sacred world",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.Sacred world",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 427,
+      "workId": "wk-0420",
+      "title": "THE WAY OF LIFE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13.THE WAY OF LIFE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 436,
+      "workId": "wk-0429",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.Takin’ my Heart",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 339,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.灼熱 Bonfire!",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 11th Single「-N-E-M-E-S-I-S-」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

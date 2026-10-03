@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/98/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:57.519Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 1st Single「しゅわりん☆どり～みん」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2017年7月12日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 13,
+      "workId": "wk-0013",
+      "title": "しゅわりん☆どり〜みん",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.しゅわりん☆どり～みん",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 14,
+      "workId": "wk-0014",
+      "title": "パスパレボリューションず☆",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.パスパレボリューションず☆",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 1st Single「しゅわりん☆どり～みん」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

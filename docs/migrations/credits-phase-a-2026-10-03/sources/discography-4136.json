@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4136/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:44.685Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「グラディエント」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年8月16日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「グラディエント」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：仲町あられ"
+    },
+    {
+      "line": 3,
+      "text": "作曲：仲町あられ・堀江晶太"
+    },
+    {
+      "line": 4,
+      "text": "編曲：堀江晶太"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「グラディエント」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

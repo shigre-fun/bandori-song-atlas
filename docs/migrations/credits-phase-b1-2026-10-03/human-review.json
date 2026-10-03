@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "human-mela",
+      "recordReferences": [
+        {
+          "game": "ournotes",
+          "recordId": 75
+        }
+      ],
+      "roles": {
+        "lyricist": [
+          "長屋晴子",
+          "小林壱誓"
+        ],
+        "composer": [
+          "peppe",
+          "穴見真吾"
+        ]
+      },
+      "reason": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+      },
+      "resolvedBy": "human-review"
+    },
+    {
+      "id": "human-flower",
+      "recordReferences": [
+        {
+          "game": "garupa",
+          "recordId": 176
+        },
+        {
+          "game": "garupa",
+          "recordId": 218
+        },
+        {
+          "game": "garupa",
+          "recordId": 738
+        }
+      ],
+      "roles": {
+        "composer": [
+          "末益涼太"
+        ],
+        "arranger": [
+          "竹田祐介"
+        ]
+      },
+      "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+      },
+      "resolvedBy": "human-review"
+    },
+    {
+      "id": "human-samfree",
+      "recordReferences": [
+        {
+          "game": "garupa",
+          "recordId": 249
+        }
+      ],
+      "sameIdentity": [
+        "SAM(samfree)",
+        "samfree"
+      ],
+      "standardName": "samfree",
+      "type": "person",
+      "displayOverrideCandidate": "SAM(samfree)",
+      "reason": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。"
+      },
+      "resolvedBy": "human-review"
+    },
+    {
+      "id": "human-sasunso",
+      "recordReferences": [
+        {
+          "game": "ournotes",
+          "recordId": 14
+        }
+      ],
+      "roles": {
+        "composer": [
+          "槇島隆人"
+        ]
+      },
+      "affiliation": "SUPA LOVE",
+      "rawCredit": "槇島隆人(SUPA LOVE)",
+      "type": "person",
+      "reason": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。"
+      },
+      "resolvedBy": "human-review"
+    },
+    {
+      "id": "human-symbol-earth",
+      "recordReferences": [
+        {
+          "game": "ournotes",
+          "recordId": 33
+        }
+      ],
+      "roles": {
+        "composer": [
+          "長谷川大介",
+          "Diggy-MO'"
+        ]
+      },
+      "affiliation": "SUPA LOVE",
+      "reason": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+      },
+      "resolvedBy": "human-review"
+    },
+    {
+      "id": "human-carnation",
+      "recordReferences": [
+        {
+          "game": "ournotes",
+          "recordId": 66
+        }
+      ],
+      "sameIdentities": [
+        [
+          "Aira(Dream Monster)",
+          "Aira"
+        ],
+        [
+          "瀬名水紀(Dream Monster)",
+          "瀬名水紀"
+        ]
+      ],
+      "roles": {
+        "lyricist": [
+          "Aira"
+        ],
+        "composer": [
+          "瀬名水紀",
+          "Aira"
+        ]
+      },
+      "affiliation": "Dream Monster",
+      "reason": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。",
+      "evidence": {
+        "sourceUrl": null,
+        "sourceType": "human-review",
+        "checkedAt": "2026-10-03",
+        "document": "human-review.md",
+        "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+        "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+        "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+      },
+      "resolvedBy": "human-review"
+    }
+  ],
+  "affiliations": [
+    "Elements Garden",
+    "SUPA LOVE",
+    "Dream Monster"
+  ],
+  "policies": {
+    "phaseALyricistConfirmed": 834,
+    "phaseAGarupaArrangerConfirmed": 749,
+    "phaseAOurNotesArrangerConfirmed": 5,
+    "ourNotesArrangerUncollected": 80,
+    "garupaArrangerUnconfirmed": 50,
+    "lyricistUnconfirmed": 50,
+    "allocateFormalIds": false,
+    "writeSongs": false,
+    "writeMaster": false,
+    "writeWorks": false,
+    "changeRoleCoverage": false
+  }
+}

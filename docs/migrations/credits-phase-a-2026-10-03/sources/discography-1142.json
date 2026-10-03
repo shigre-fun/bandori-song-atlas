@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/1142/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:08.994Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party×SILENT SIREN「NO GIRL NO CRY」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2019年7月31日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 172,
+      "workId": "wk-0172",
+      "title": "NO GIRL NO CRY",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party×SILENT SIREN「NO GIRL NO CRY」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party×SILENT SIREN「NO GIRL NO CRY」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

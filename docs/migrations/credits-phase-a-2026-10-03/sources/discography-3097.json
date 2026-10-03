@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3097/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:08.382Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow「カナユメ」",
+  "artists": "Afterglow",
+  "releaseDate": "2022年6月24日(金)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 329,
+      "workId": "wk-0323",
+      "title": "カナユメ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "Afterglow「カナユメ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow「カナユメ」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

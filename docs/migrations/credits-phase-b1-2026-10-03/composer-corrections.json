@@ -1,0 +1,991 @@
+[
+  {
+    "game": "ournotes",
+    "recordId": 75,
+    "title": "Mela!",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0819",
+    "humanReviewId": "human-mela",
+    "phaseAClassification": "OFFICIAL_DIFFERS",
+    "currentRaw": "peppe／穴見真吾",
+    "normalizedComposerTokens": [
+      {
+        "raw": "peppe",
+        "normalized": "peppe",
+        "affiliation": null,
+        "standardName": "peppe",
+        "existingCreatorId": null,
+        "candidateKey": "b1-cee1cb2757fda7b98e2e",
+        "identityKey": "b1-cee1cb2757fda7b98e2e",
+        "confidence": "CONFIRMED",
+        "applicability": "RECORD_SCOPED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": "peppe",
+        "sortKey": "peppe",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+          }
+        ],
+        "reason": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "RECORD_SCOPED",
+        "recordScope": "ournotes:75"
+      },
+      {
+        "raw": "穴見真吾",
+        "normalized": "穴見真吾",
+        "affiliation": null,
+        "standardName": "穴見真吾",
+        "existingCreatorId": null,
+        "candidateKey": "b1-56362089840ee7af1d37",
+        "identityKey": "b1-56362089840ee7af1d37",
+        "confidence": "CONFIRMED",
+        "applicability": "RECORD_SCOPED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "穴見真吾",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+          }
+        ],
+        "reason": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "RECORD_SCOPED",
+        "recordScope": "ournotes:75"
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "石倉誉之",
+        "normalized": "石倉誉之",
+        "affiliation": null,
+        "standardName": "石倉誉之",
+        "existingCreatorId": null,
+        "candidateKey": "b1-1556a9939a4521612fe2",
+        "identityKey": "b1-1556a9939a4521612fe2",
+        "confidence": "UNRESOLVED",
+        "applicability": "REVIEW_REQUIRED",
+        "type": "person",
+        "typeStatus": "provisional-credit-subject",
+        "officialLatinName": null,
+        "sortKey": "石倉誉之",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": "https://bang-dream.com/discographies/4271/",
+            "sourceType": "phase-a-raw",
+            "checkedAt": "2026-10-03T03:48:05.958Z",
+            "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+            "evidenceId": "e-57815cdf0ab4740d1fa9",
+            "supports": "ournotes:75 arranger: 石倉誉之",
+            "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=release"
+          }
+        ],
+        "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "KEEP_CURRENT",
+    "note": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "小林 壱誓をcomposerとしたPhase A結果はrole取り違え。現composer peppe／穴見真吾を正しいと確認し、削除・置換提案を禁止。"
+    }
+  },
+  {
+    "game": "garupa",
+    "recordId": 176,
+    "title": "きゅ〜まい＊flower",
+    "band": "Pastel＊Palettes",
+    "workId": "wk-0176",
+    "humanReviewId": "human-flower",
+    "phaseAClassification": "MATCH_UNCERTAIN",
+    "currentRaw": "末益涼太（Elements Garden）",
+    "normalizedComposerTokens": [
+      {
+        "raw": "末益涼太",
+        "normalized": "末益涼太",
+        "affiliation": null,
+        "standardName": "末益涼太",
+        "existingCreatorId": "cr-0021",
+        "candidateKey": null,
+        "identityKey": "cr-0021",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "末益涼太",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0021: 末益涼太の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "竹田祐介",
+        "normalized": "竹田祐介",
+        "affiliation": null,
+        "standardName": "竹田祐介",
+        "existingCreatorId": "cr-0009",
+        "candidateKey": null,
+        "identityKey": "cr-0009",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "竹田祐介",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0009: 竹田祐介の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "KEEP_CURRENT",
+    "note": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+    }
+  },
+  {
+    "game": "garupa",
+    "recordId": 218,
+    "title": "[FULL] きゅ〜まい＊flower",
+    "band": "Pastel＊Palettes",
+    "workId": "wk-0176",
+    "humanReviewId": "human-flower",
+    "phaseAClassification": "MATCH_UNCERTAIN",
+    "currentRaw": "末益涼太（Elements Garden）",
+    "normalizedComposerTokens": [
+      {
+        "raw": "末益涼太",
+        "normalized": "末益涼太",
+        "affiliation": null,
+        "standardName": "末益涼太",
+        "existingCreatorId": "cr-0021",
+        "candidateKey": null,
+        "identityKey": "cr-0021",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "末益涼太",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0021: 末益涼太の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "竹田祐介",
+        "normalized": "竹田祐介",
+        "affiliation": null,
+        "standardName": "竹田祐介",
+        "existingCreatorId": "cr-0009",
+        "candidateKey": null,
+        "identityKey": "cr-0009",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "竹田祐介",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0009: 竹田祐介の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "KEEP_CURRENT",
+    "note": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+    }
+  },
+  {
+    "game": "garupa",
+    "recordId": 738,
+    "title": "きゅ〜まい＊flower(パラレルver.)",
+    "band": "スキを貫け♡",
+    "workId": "wk-0176",
+    "humanReviewId": "human-flower",
+    "phaseAClassification": "MATCH_UNCERTAIN",
+    "currentRaw": "末益涼太（Elements Garden）",
+    "normalizedComposerTokens": [
+      {
+        "raw": "末益涼太",
+        "normalized": "末益涼太",
+        "affiliation": null,
+        "standardName": "末益涼太",
+        "existingCreatorId": "cr-0021",
+        "candidateKey": null,
+        "identityKey": "cr-0021",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "末益涼太",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0021: 末益涼太の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "竹田祐介",
+        "normalized": "竹田祐介",
+        "affiliation": null,
+        "standardName": "竹田祐介",
+        "existingCreatorId": "cr-0009",
+        "candidateKey": null,
+        "identityKey": "cr-0009",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "竹田祐介",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0009: 竹田祐介の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+          }
+        ],
+        "reason": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "KEEP_CURRENT",
+    "note": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "作曲欄と編曲欄の連結/role解析によるPhase A conflictを解消。FULL/パラレルを含む。竹田祐介をcomposerへ計上しない。"
+    }
+  },
+  {
+    "game": "garupa",
+    "recordId": 249,
+    "title": "ルカルカ★ナイトフィーバー",
+    "band": "Pastel＊Palettes",
+    "workId": "wk-0243",
+    "humanReviewId": "human-samfree",
+    "phaseAClassification": "OFFICIAL_DIFFERS",
+    "currentRaw": "SAM(samfree)",
+    "normalizedComposerTokens": [
+      {
+        "raw": "samfree",
+        "normalized": "samfree",
+        "affiliation": null,
+        "standardName": "samfree",
+        "existingCreatorId": null,
+        "candidateKey": "b1-4ca81d86e6c9d89fad5f",
+        "identityKey": "b1-4ca81d86e6c9d89fad5f",
+        "confidence": "CONFIRMED",
+        "applicability": "RECORD_SCOPED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": "samfree",
+        "sortKey": "samfree",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。"
+          },
+          {
+            "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+            "sourceType": "phase-a-raw",
+            "checkedAt": "2026-10-03T03:40:13.182Z",
+            "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+            "evidenceId": "e-86f22cf8bd8de8c4a013",
+            "supports": "garupa:249 composer: samfree",
+            "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+          }
+        ],
+        "reason": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [
+          "SAM(samfree)"
+        ],
+        "scopePolicy": "RECORD_SCOPED",
+        "recordScope": "garupa:249"
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "下田晃太郎（Elements Garden）",
+        "normalized": "下田晃太郎",
+        "affiliation": "Elements Garden",
+        "standardName": "下田晃太郎",
+        "existingCreatorId": null,
+        "candidateKey": "b1-02162c02420c410e6184",
+        "identityKey": "b1-02162c02420c410e6184",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "下田晃太郎",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": "https://www.ariamusic.co.jp/en/creators/",
+            "sourceType": "agency-official",
+            "checkedAt": "2026-10-03",
+            "supports": "Kotaro ShimodaをComposer/Arrangerとして掲載。日本語所属名・同制作ブランドの原文creditと対応。",
+            "note": "英語一覧は所属終了の反映が遅い。現在所属の証明には使わない。",
+            "pageReadStatus": "BODY_READ"
+          },
+          {
+            "sourceUrl": "https://www.ariamusic.co.jp/news/2024-11-30-2.php",
+            "sourceType": "agency-official",
+            "checkedAt": "2026-10-03",
+            "supports": "下田晃太郎のElements Garden契約終了を2024-11-30付で公表。",
+            "note": "",
+            "pageReadStatus": "BODY_READ"
+          },
+          {
+            "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+            "sourceType": "phase-a-raw",
+            "checkedAt": "2026-10-03T03:40:13.182Z",
+            "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+            "evidenceId": "e-86f22cf8bd8de8c4a013",
+            "supports": "garupa:249 arranger: 下田晃太郎（Elements Garden）",
+            "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=record"
+          }
+        ],
+        "reason": "本人同定は日本語の契約終了告知とゲーム原文で確定。英語一覧にはKotaro Shimodaがあるが、個別日英対応本文を取得できないため公式英字・slugの確定は保留。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "ADD_RELATION_PRESERVE_DISPLAY",
+    "note": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "同一人物をユーザーが確定。現masterで該当既存IDの有無を調べ、旧表示は将来も維持。"
+    }
+  },
+  {
+    "game": "ournotes",
+    "recordId": 14,
+    "title": "砂寸奏",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0776",
+    "humanReviewId": "human-sasunso",
+    "phaseAClassification": "CURRENT_MISSING",
+    "currentRaw": null,
+    "normalizedComposerTokens": [
+      {
+        "raw": "槇島隆人",
+        "normalized": "槇島隆人",
+        "affiliation": null,
+        "standardName": "槇島隆人",
+        "existingCreatorId": null,
+        "candidateKey": "b1-01a6a1f7051b830f39ae",
+        "identityKey": "b1-01a6a1f7051b830f39ae",
+        "confidence": "CONFIRMED",
+        "applicability": "RECORD_SCOPED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "槇島隆人",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。"
+          }
+        ],
+        "reason": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "RECORD_SCOPED",
+        "recordScope": "ournotes:14"
+      }
+    ],
+    "normalizedArrangerTokens": [],
+    "resolvedBy": "human-review",
+    "action": "SUPPLEMENT_CURRENT_MISSING",
+    "note": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "所属を主体から分離。CURRENT_MISSINGの共同作曲者なし補完候補、会社の二重計上禁止。"
+    }
+  },
+  {
+    "game": "ournotes",
+    "recordId": 33,
+    "title": "Symbol IV : Earth",
+    "band": "Ave Mujica",
+    "workId": "wk-0783",
+    "humanReviewId": "human-symbol-earth",
+    "phaseAClassification": "CURRENT_MISSING",
+    "currentRaw": null,
+    "normalizedComposerTokens": [
+      {
+        "raw": "長谷川大介",
+        "normalized": "長谷川大介",
+        "affiliation": null,
+        "standardName": "長谷川大介",
+        "existingCreatorId": "cr-0013",
+        "candidateKey": null,
+        "identityKey": "cr-0013",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "長谷川大介",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0013: 長谷川大介の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+          }
+        ],
+        "reason": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      },
+      {
+        "raw": "Diggy-MO'",
+        "normalized": "Diggy-MO'",
+        "affiliation": null,
+        "standardName": "Diggy-MO’",
+        "existingCreatorId": "cr-0022",
+        "candidateKey": null,
+        "identityKey": "cr-0022",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "でぃぎーもー",
+        "sortKeyStatus": "confirmed",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0022: Diggy-MO’の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+          }
+        ],
+        "reason": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [
+          "Diggy-MO'"
+        ],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "normalizedArrangerTokens": [
+      {
+        "raw": "長谷川大介(SUPA LOVE)",
+        "normalized": "長谷川大介",
+        "affiliation": "SUPA LOVE",
+        "standardName": "長谷川大介",
+        "existingCreatorId": "cr-0013",
+        "candidateKey": null,
+        "identityKey": "cr-0013",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "長谷川大介",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0013: 長谷川大介の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": "https://bang-dream.com/discographies/3833/",
+            "sourceType": "phase-a-raw",
+            "checkedAt": "2026-10-03T03:50:25.043Z",
+            "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+            "evidenceId": "e-ee78897b46c3ddef388b",
+            "supports": "ournotes:33 arranger: 長谷川大介(SUPA LOVE)",
+            "note": "原文creditとroleの証拠。単独では人物同一性を証明しない。sourceScope=release"
+          }
+        ],
+        "reason": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      }
+    ],
+    "resolvedBy": "human-review",
+    "action": "SUPPLEMENT_CURRENT_MISSING",
+    "note": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "共同作曲2主体。長谷川大介は既存IDへ統合、会社の二重計上禁止。"
+    }
+  },
+  {
+    "game": "ournotes",
+    "recordId": 66,
+    "title": "カーネーションの咲く日に",
+    "band": "millsage",
+    "workId": "wk-0812",
+    "humanReviewId": "human-carnation",
+    "phaseAClassification": "MATCH_UNCERTAIN",
+    "currentRaw": "瀬名水紀(Dream Monster)、Aira",
+    "normalizedComposerTokens": [
+      {
+        "raw": "瀬名水紀",
+        "normalized": "瀬名水紀",
+        "affiliation": null,
+        "standardName": "瀬名水紀",
+        "existingCreatorId": "cr-0090",
+        "candidateKey": null,
+        "identityKey": "cr-0090",
+        "confidence": "CONFIRMED",
+        "applicability": "GLOBAL_CONFIRMED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": null,
+        "sortKey": "瀬名水紀",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "existing-creator-db",
+            "checkedAt": "2026-10-03",
+            "document": "data/creators.json",
+            "supports": "cr-0090: 瀬名水紀の確認済みname/aliasesと完全一致。",
+            "note": "既存masterの固定IDを再利用。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+          }
+        ],
+        "reason": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [
+          "瀬名水紀(Dream Monster)"
+        ],
+        "scopePolicy": "GLOBAL_IF_CONFIRMED",
+        "recordScope": null
+      },
+      {
+        "raw": "Aira",
+        "normalized": "Aira",
+        "affiliation": null,
+        "standardName": "Aira",
+        "existingCreatorId": null,
+        "candidateKey": "b1-a44a526d6bab744bdff0",
+        "identityKey": "b1-a44a526d6bab744bdff0",
+        "confidence": "CONFIRMED",
+        "applicability": "RECORD_SCOPED",
+        "type": "person",
+        "typeStatus": "confirmed",
+        "officialLatinName": "Aira",
+        "sortKey": "Aira",
+        "sortKeyStatus": "provisional-original",
+        "evidence": [
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+          },
+          {
+            "sourceUrl": null,
+            "sourceType": "human-review",
+            "checkedAt": "2026-10-03",
+            "document": "human-review.md",
+            "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+            "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+            "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+          }
+        ],
+        "reason": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。",
+        "affiliationParticipation": false,
+        "confirmedAliases": [
+          "Aira(Dream Monster)"
+        ],
+        "scopePolicy": "RECORD_SCOPED",
+        "recordScope": "ournotes:66"
+      }
+    ],
+    "normalizedArrangerTokens": [],
+    "resolvedBy": "human-review",
+    "action": "SUPPLEMENT_CONFIRMED_IDENTITY",
+    "note": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。",
+    "evidence": {
+      "sourceUrl": null,
+      "sourceType": "human-review",
+      "checkedAt": "2026-10-03",
+      "document": "human-review.md",
+      "sourceAttachment": "0b9ba143-4d56-4c98-8ba0-98bbfd899ba1",
+      "note": "ユーザーの明示確認。外部一次情報ではない。Phase A原資料は変更しない。",
+      "supports": "同一人物名義差を人間レビューで解消、瀬名水紀は既存ID。発売版編曲をOurNotesゲーム版へ昇格しない。"
+    }
+  }
+]

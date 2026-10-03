@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3362/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:44.084Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「最強☆ソング」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2023年5月6日(土)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 476,
+      "workId": "wk-0467",
+      "title": "最強☆ソング",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party「最強☆ソング」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party「最強☆ソング」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

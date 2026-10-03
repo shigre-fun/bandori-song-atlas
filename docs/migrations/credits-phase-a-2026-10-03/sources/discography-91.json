@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/91/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:02.004Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 5th Single「キラキラだとか夢だとか ～Sing Girls～」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2017年2月15日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 2,
+      "workId": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party 5th Single「キラキラだとか夢だとか ～Sing Girls～」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 5th Single「キラキラだとか夢だとか ～Sing Girls～」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

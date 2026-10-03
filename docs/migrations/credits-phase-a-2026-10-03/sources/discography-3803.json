@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/3803/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:28.670Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「エンプティパペット」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年6月1日(土)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "https://bmu.lnk.to/EmptyPuppetwe"
+    },
+    {
+      "line": 9,
+      "text": "「エンプティパペット」"
+    },
+    {
+      "line": 10,
+      "text": "作詞：吾龍"
+    },
+    {
+      "line": 11,
+      "text": "作曲：eba"
+    },
+    {
+      "line": 12,
+      "text": "編曲：eba"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "workId": "wk-0792",
+      "title": "エンプティパペット",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「エンプティパペット」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「エンプティパペット」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

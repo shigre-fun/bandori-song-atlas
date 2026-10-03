@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4120/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:49.656Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「Drive Your Heart(TV Size)」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2025年7月13日(日)",
+  "creditLines": [
+    {
+      "line": 10,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 11,
+      "text": "Poppin'Party「Drive Your Heart(TV Size)」"
+    },
+    {
+      "line": 12,
+      "text": "作詞：中村航"
+    },
+    {
+      "line": 13,
+      "text": "作曲・編曲：藤永龍太郎(Elements Garden)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Poppin'Party「Drive Your Heart(TV Size)」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

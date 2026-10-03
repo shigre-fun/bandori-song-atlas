@@ -1,0 +1,189 @@
+{
+  "url": "https://bang-dream.com/discographies/3737/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:23.990Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 20th Single「TARINAI/トレモロアイズ」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2024年7月17日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 9,
+      "workId": "wk-0009",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.1000回潤んだ空",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 80,
+      "workId": "wk-0080",
+      "title": "B.O.F",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.B.O.F",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 89,
+      "workId": "wk-0089",
+      "title": "CiRCLING",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.CiRCLING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 10,
+      "workId": "wk-0010",
+      "title": "Happy Happy Party！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Happy Happy Party!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 208,
+      "workId": "wk-0207",
+      "title": "Hello! Wink!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.Hello! Wink!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 434,
+      "workId": "wk-0427",
+      "title": "Moonlight Walk",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.Moonlight Walk",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 462,
+      "workId": "wk-0454",
+      "title": "RiNG A BELL",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "12.RiNG A BELL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.STAR BEAT!〜ホシノコドウ〜",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 629,
+      "workId": "wk-0619",
+      "title": "TARINAI",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.TARINAI",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "11.Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 209,
+      "workId": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.What's the POPIPA!?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 375,
+      "workId": "wk-0369",
+      "title": "ぽっぴん'どりーむ！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.ぽっぴん'どりーむ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 5,
+      "workId": "wk-0005",
+      "title": "ぽっぴん’しゃっふる",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.ぽっぴん'しゃっふる",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 575,
+      "workId": "wk-0566",
+      "title": "トレモロアイズ",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.トレモロアイズ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 55,
+      "workId": "wk-0055",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "10.夏のドーン！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 476,
+      "workId": "wk-0467",
+      "title": "最強☆ソング",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.最強☆ソング",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 532,
+      "workId": "wk-0523",
+      "title": "青春 To Be Continued",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.青春 To Be Continued",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 20th Single「TARINAI/トレモロアイズ」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

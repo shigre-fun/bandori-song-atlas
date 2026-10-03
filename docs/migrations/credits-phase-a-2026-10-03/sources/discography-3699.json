@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3699/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:34.354Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「怪獣の花唄」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2024年3月24日(日)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 574,
+      "workId": "wk-0565",
+      "title": "怪獣の花唄",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party「怪獣の花唄」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party「怪獣の花唄」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -114,9 +114,21 @@ node scripts/add-song.mjs "新しい楽曲名"
 
 ```powershell
 node scripts/build.mjs
-node --test tests/*.test.mjs
+pnpm test
 powershell -ExecutionPolicy Bypass -File scripts/package.ps1
 ```
 
 最後のコマンドで `bandori-song-atlas.zip` を作成します。公開用ファイルは `dist` に生成され、Cloudflare Pagesではサイトのルートで配信します。
 Netlify向けの設定は `netlify.toml` にあります。コードの整形には `npm run format` を使えます。
+
+### クレジット Phase B2
+
+node scripts/migrations/apply-credits-phase-b2.mjs plan|apply|verify で、最新human reviewから正式IDへの適用案・SHA照合付き適用・再適用不変を検証できます。資料は docs/migrations/credits-phase-b2-2026-10-03/ に保存します。A/B1の根拠とOurNotes残80件の手動templateは変更しません。
+
+適用後の plan はdry-run結果だけを表示し、初回の apply-plan / coverage / display-comparison を保持します。初回比較を確認する場合はこれらの保存資料を参照してください。
+
+pnpm test は旧194テストのassertを変更せず、SHA検証済み91 Creator時点の履歴入力と現在のコードを独立した .cache/b2-historical-regression/ で回帰検証します。旧B2の35テストも承認時点の履歴入力で維持し、その後releaseの現行データを24テストで検証します（合計253）。履歴fixtureはliveデータの復元書き込みには使用しません。
+
+2026-10-04 releaseでは124 Creator／885収録／823 Workです。人間承認済みの共同編曲6件と、最新mainのOurNotes86「過去を喰らう」・譜面編集を保持します。新曲のWorkは明示リンク先Garupa758を再利用し、未登録作曲名はraw fallbackのままです。並行編集の有限manifestとSHAを release-parallel-preservation.json に保存し、未承認のnon-credit変更はverifyで拒否します。OurNotes編曲の未収集は旧80＋新1＝81件です。
+
+roleCoverageは従来のrole単位表記に加え、ゲームごとの ready / partial / unprepared を扱います。OurNotes編曲のpartialは確認済み登録分を集計し、残未整備を担当者なしと解釈しません。同じCreatorの表記が担当で異なる場合はrelationの displayOverrides にrole別表記を保持し、従来の displayOverride も引き続き利用できます。

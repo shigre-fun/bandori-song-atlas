@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/4234/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:16.318Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「カーネーションの咲く日に」",
+  "artists": "millsage",
+  "releaseDate": "2026年7月19日(日)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「カーネーションの咲く日に」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Aira(Dream Monster)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：瀬名水紀(Dream Monster)、Aira(Dream Monster)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 66,
+      "workId": "wk-0812",
+      "title": "カーネーションの咲く日に",
+      "band": "millsage",
+      "scope": "release",
+      "context": "「カーネーションの咲く日に」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "millsage「カーネーションの咲く日に」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/736/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:11.604Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 13th Single「Jumpin'」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2019年2月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 160,
+      "workId": "wk-0160",
+      "title": "Jumpin'",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Jumpin'",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 209,
+      "workId": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.What's the POPIPA!?",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 13th Single「Jumpin'」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

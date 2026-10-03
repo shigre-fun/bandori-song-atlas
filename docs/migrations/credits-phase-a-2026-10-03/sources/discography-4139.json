@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/4139/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:42.846Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「真夜中遊園地(TV Size)」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年8月31日(日)",
+  "creditLines": [
+    {
+      "line": 10,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 11,
+      "text": "夢限大みゅーたいぷ「真夜中遊園地(TV Size)」"
+    },
+    {
+      "line": 12,
+      "text": "作詞：烏屋茶房"
+    },
+    {
+      "line": 13,
+      "text": "作曲：哥丸雄貴"
+    },
+    {
+      "line": 14,
+      "text": "編曲：哥丸雄貴、堀江晶太"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「真夜中遊園地(TV Size)」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

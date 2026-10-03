@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/3878/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:03.370Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「過惰幻」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年9月28日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「過惰幻」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：hisakuni(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 613,
+      "workId": "wk-0604",
+      "title": "過惰幻",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "「過惰幻」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「過惰幻」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

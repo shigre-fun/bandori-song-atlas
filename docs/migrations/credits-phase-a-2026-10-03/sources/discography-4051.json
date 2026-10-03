@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/4051/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:52.165Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Imprisoned XII」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年3月6日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「Imprisoned XII」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：松坂康司(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：松坂康司(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 649,
+      "workId": "wk-0638",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「Imprisoned XII」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 25,
+      "workId": "wk-0638",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「Imprisoned XII」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Imprisoned XII」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

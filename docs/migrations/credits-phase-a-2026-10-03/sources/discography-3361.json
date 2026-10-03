@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/3361/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:44.904Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「無路矢」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年4月29日(土)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 771,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「無路矢」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 10,
+      "workId": "wk-0749",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「無路矢」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「無路矢」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

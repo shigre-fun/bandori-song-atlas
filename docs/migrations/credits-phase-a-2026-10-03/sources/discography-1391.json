@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1391/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:04.154Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 6th Single「Easy come, Easy go！」",
+  "artists": "Afterglow",
+  "releaseDate": "2020年3月11日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 198,
+      "workId": "wk-0198",
+      "title": "Easy come, Easy go！",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Easy come, Easy go！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 177,
+      "workId": "wk-0177",
+      "title": "いつも通りのBrand new days",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.いつも通りのBrand new days",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 6th Single「Easy come, Easy go！」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

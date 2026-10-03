@@ -1,0 +1,258 @@
+{
+  "phase": "A",
+  "completed": true,
+  "verifiedAt": "2026-10-03T08:13:22.439Z",
+  "headStart": "5e4da7e517f5640b068cabaa8aa01b036e281961",
+  "headEnd": "5e4da7e517f5640b068cabaa8aa01b036e281961",
+  "commitPushDeployPerformed": false,
+  "research": {
+    "records": 884,
+    "duplicates": 0,
+    "missing": 0,
+    "sourceCount": 426,
+    "protectedSources": "checked separately",
+    "idempotent": true,
+    "generatedFilesCompared": 20,
+    "artifactHashes": {
+      "credit-research.json": "6025759458285051b202efdaf32cd40c2951f67a5314bb42ca37b56cc7c2160d",
+      "credit-research.schema.json": "552e8304a7848a9c683f3854f0130dc3c169150f1f43c4d81aa1b887f8e8f732",
+      "source-index.json": "1419be76939009c2c167d57befaba4ab603b792fd2f233d8780e58e4d553379f",
+      "evidence-facts.json": "b91c0980b380036bd22dc7da1968a577254fc0e06a3eb66dc0ecf586d809dec0",
+      "coverage.json": "05024e7d75bf39b22cc78a72defc2dd029153ffb4eaea6c6e438c5aca74d0125",
+      "lyricist-raw.json": "6a3242def5cf557c3c627728ff61d5ee8eff6be1e81c18c93ea3324269797b78",
+      "composer-raw.json": "0868caa2c0f03e42a06d8dfe3c9f1589ebdf09d2bdf21663288b06206b2d6d57",
+      "arranger-raw.json": "d05764026ec4b2fe09592051f712953c8f7bc439efbcad2b6d775517a0af57ab",
+      "raw-cross-role-index.json": "f7720e1ca468e3edd9c4f4a8d96c084674145bf9f240607dc0eb41ccca8e9902",
+      "creator-candidates.json": "5b0d50234f1add821fc53e7d6606bc5cdfe848e5c1801fad31259a4d326766ae",
+      "composer-audit.json": "533a966f72d449159db67f9d37d93c6b6af7163ee1cf8cc416a1a7db9f3506a9",
+      "conflicts.json": "d92c4041c20d3184fa8c8e68b9b8f735c28f3c3a40ded14646febbc22223590b",
+      "unresolved.json": "3e01f471bb96ef5ab9e05501cc12ad55422c95a92ec6a81c00ecde8e27aae5e4",
+      "work-credit-differences.json": "420ea796e93913c850fe27e81623b3c2f05c7ed32c373730765750d96d871226",
+      "composer-audit.md": "e49b18b1c04bbd05b977997ecb7a7895c3433af06df2ae1fad7ce2f6f3bf5db7",
+      "conflicts.md": "4e44fa1cb0f06b0e47e3d15c90f876df9c059502db16d28ef7fe5f6a62c28942",
+      "unresolved.md": "5ed3f2c0823ba12a6ae154691d5509c727b9001b4aec48b855ea06979b697f78",
+      "work-credit-differences.md": "d8b6193cc379378a359c04dc59c7c8fa4c5e9f55551cdc1aa880abf368af8cb9",
+      "credit-review.md": "1f9f84f1d7a1b44f55cbd680f830d02b2afe783fbb22b8c035505a2b2dc245a8",
+      "README.md": "35670b5db59672e9a3390dee468ba008554b7454b3115f44121e35ee81c4513c"
+    },
+    "schemaValidation": {
+      "command": "node scripts/research/credits-phase-a.mjs verify",
+      "exitCode": 0,
+      "records": 884,
+      "duplicates": 0,
+      "missing": 0,
+      "sourceCount": 426
+    }
+  },
+  "protectedSourcesUnchanged": true,
+  "protectedHashes": {
+    "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+    "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee",
+    "data/creators.json": "798195855e90308cd6eae3bfb1ee0573700190782b14402e9928cc6a151a4285",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+  },
+  "roleCoverage": {
+    "lyricist": "unprepared",
+    "composer": "ready",
+    "arranger": "unprepared"
+  },
+  "records": 884,
+  "works": 823,
+  "creators": 91,
+  "legacyDisplayComparisons": 2652,
+  "legacyDisplayChanges": 0,
+  "workWarnings": 0,
+  "tests": {
+    "existing": 165,
+    "added": 12,
+    "total": 177,
+    "pass": 177,
+    "fail": 0,
+    "finalResearchRerun": { "total": 12, "pass": 12, "fail": 0 },
+    "outputSummary": [
+      "ℹ tests 177",
+      "ℹ pass 177",
+      "ℹ fail 0",
+      "ℹ cancelled 0",
+      "ℹ skipped 0",
+      "ℹ todo 0",
+      "ℹ duration_ms 86748.0956"
+    ]
+  },
+  "builds": {
+    "/": {
+      "directory": "dist",
+      "exitCode": 0,
+      "audit": {
+        "pages": 984,
+        "details": 884,
+        "detailCounts": { "garupa": 799, "ournotes": 85 },
+        "redirects": 797,
+        "creatorRedirects": 18,
+        "titleCount": 984
+      },
+      "publishedDataMatchesBuildProjection": true,
+      "creatorAndWorkDataMatchSource": true,
+      "researchIncluded": false,
+      "inventoryFiles": 2742
+    },
+    "/bandori-song-atlas/": {
+      "directory": ".cache/credits-phase-a-subpath",
+      "exitCode": 0,
+      "audit": {
+        "pages": 984,
+        "details": 884,
+        "detailCounts": { "garupa": 799, "ournotes": 85 },
+        "redirects": 797,
+        "creatorRedirects": 18,
+        "titleCount": 984
+      },
+      "publishedDataMatchesBuildProjection": true,
+      "creatorAndWorkDataMatchSource": true,
+      "researchIncluded": false,
+      "inventoryFiles": 2742
+    }
+  },
+  "functions": {
+    "version": "4.143.0",
+    "exitCode": 0,
+    "result": "Compiled Worker successfully"
+  },
+  "sourceExtractionCheck": "Credit-bearing official discography cache examined for gaps/continuations between role lines; none in sources used for local records. Only referenced facts are included in evidence-facts.json.",
+  "limitations": [
+    "SOURCE_MISSINGは確認範囲内の未発見。全Webでの不存在を証明しない。",
+    "release/work原文の編曲はゲーム版確定に数えない。",
+    "Composer名義/所属差、split/alias/人物同定と適用はPhase B。",
+    "公開表示のcode/dataに変更なし。本番書込・外部送信の回帰操作は行わない。"
+  ],
+  "resolvedFailures": [
+    "最初のinline HTTP probeはPowerShell quote errorで終了1、専用mjsで本文読取成功。",
+    "両game web open Internal Errorをbrowser DOMで解消。",
+    "Dream Monster HTTPはJS_LOADING相当で作品本文なし、browser詳細で確認。",
+    "新roleCoverage assertのenum誤記を実体に合わせ修正し12pass。",
+    "補助rg Windows glob誤指定を実dirに修正。",
+    "最終audit初回は既存テストの過去review.json/md再生成のformat差分を検出。HEADとのJSON内容/formatter結果一致を確認し、自身のformat差分だけ除き再成功。",
+    "Windowsでページングファイル不足1455/0x800705AF/Out of memory、Node fs UNKNOWN、Cua kernel終了が発生。自身の処理だけを終了し小さい独立処理に分割して必要gateを成功確認。OS設定や他人のprocessは変更0。",
+    "最終公開照合で編集用groups形式を公開songs形式へ直接deepEqualし、大きい失敗diffの作成中に停滞した。自身の処理を終了し、既存loadGameCatalog/settings変換の全内容を比較する方式へ訂正。5484公開ファイルの全inventoryと両4JSON照合が終了0。"
+  ],
+  "finalContentCheck": {
+    "verifiedAt": "2026-10-03T08:10:34.765Z",
+    "records": 884,
+    "garupa": 799,
+    "ournotes": 85,
+    "investigated": 884,
+    "sourceUrls": 426,
+    "conflictRecordRoles": 5,
+    "unconfirmedLyricistOrArrangerRecords": 130,
+    "newCandidates": 281,
+    "top30": 30,
+    "top50": 50,
+    "reportFields": 52,
+    "requiredFiles": 24,
+    "localLinksValid": true
+  },
+  "currentPublicBaselineVerification": {
+    "command": "node scripts/migrations/finalize-creator-slugs.mjs verify",
+    "exitCode": 0,
+    "mode": "verify",
+    "unchanged": true,
+    "changes": [
+      {
+        "id": "cr-0048",
+        "name": "片倉三起也",
+        "from": "creator-0048",
+        "to": "mikiya-katakura"
+      },
+      {
+        "id": "cr-0081",
+        "name": "前澤寛之",
+        "from": "creator-0081",
+        "to": "hiroyuki-maezawa"
+      },
+      {
+        "id": "cr-0082",
+        "name": "志倉千代丸",
+        "from": "creator-0082",
+        "to": "chiyomaru-shikura"
+      },
+      {
+        "id": "cr-0089",
+        "name": "庄司夏葵",
+        "from": "creator-0089",
+        "to": "natsuki-shoji"
+      },
+      {
+        "id": "cr-0090",
+        "name": "瀬名水紀",
+        "from": "creator-0090",
+        "to": "mizuki-sena"
+      }
+    ],
+    "creators": 91,
+    "nextId": 92,
+    "previousSlugs": 18,
+    "cloudflareRules": 36,
+    "staticCompatibilityPages": 18,
+    "idSlugs": [],
+    "provisionalSortKeys": 47,
+    "resolvedRaw": 127,
+    "remainingRaw": 215,
+    "coverage": {
+      "recordings": 635,
+      "totalRecordings": 884,
+      "recordingPercent": 71.83,
+      "works": 582,
+      "totalWorks": 823,
+      "workPercent": 70.72
+    },
+    "displayComparisons": 2652,
+    "workWarnings": []
+  },
+  "evidenceCommands": {
+    "fullTests": "node --test tests/*.test.mjs",
+    "researchTests": "node --test tests/credits-phase-a.test.mjs",
+    "rootBuild": "node scripts/build.mjs",
+    "subpathBuild": "BASE_PATH=/bandori-song-atlas/ SITE_BASE_PATH=/bandori-song-atlas/ SITE_OUTPUT_DIR=.cache/credits-phase-a-subpath node scripts/build.mjs",
+    "seo": [
+      "node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /",
+      "node scripts/qa/audit-build.mjs .cache/credits-phase-a-subpath https://tanimachi-bdsongs.com /bandori-song-atlas/"
+    ],
+    "functions": "wrangler pages functions build functions --outdir .cache/credits-phase-a-functions",
+    "idempotence": "Saved SHA256 of 20 generated artifacts before independent generate; all 20 SHA256 matched afterward.",
+    "publicData": "Both game catalogs equal the current loadGameCatalog/settings/admin date/Creator build projection. creators.json and works.json equal source JSON.",
+    "publicInventory": "rg --files --hidden --no-ignore dist .cache/credits-phase-a-subpath: 5484 files; research filenames absent."
+  },
+  "requirementsAudit": {
+    "file": "requirements-audit.md",
+    "numberedRequirements": 107,
+    "reportFields": 52,
+    "result": "All Phase A requirements checked against current artifacts and successful command evidence; uncertainty retained as explicit research statuses.",
+    "formattedTableRowsVerified": 107
+  },
+  "syntaxCheck": {
+    "verifiedAt": "2026-10-03T08:11:37.371Z",
+    "files": [
+      "scripts/research/collect-band-credits.mjs",
+      "scripts/research/collect-credit-sources.mjs",
+      "scripts/research/credit-evidence.mjs",
+      "scripts/research/credits-html.mjs",
+      "scripts/research/credits-phase-a.mjs",
+      "scripts/research/research-schema.mjs",
+      "tests/credits-phase-a.test.mjs"
+    ],
+    "exitCode": 0
+  },
+  "formattingCheck": {
+    "exitCode": 0,
+    "result": "All matched files use Prettier code style",
+    "scope": "6 new research modules, 1 new test, PHASE_A_REPORT.md, verification.json, requirements-audit.md, WORK_LOG.md"
+  },
+  "gitDiffCheck": {
+    "exitCode": 0,
+    "note": "Git warned WORK_LOG LF may become CRLF when Git next touches it; no whitespace error."
+  },
+  "finalReportHashes": {
+    "PHASE_A_REPORT.md": "195cb06a66aba1a806df49c8e1cdb80a8a01b66b5d237af788ec0a9bd6bc3e74",
+    "requirements-audit.md": "10c3def0c58080ddb27cfb2b526c8eaeedb553b19acba3e304c8655fd9691437"
+  }
+}

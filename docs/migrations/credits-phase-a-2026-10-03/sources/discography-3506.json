@@ -1,0 +1,62 @@
+{
+  "url": "https://bang-dream.com/discographies/3506/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:13.577Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+  "artists": "Poppin'Party、Roselia、Morfonica、RAISE A SUILEN",
+  "releaseDate": "2023年9月4日(月)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 483,
+      "workId": "wk-0474",
+      "title": "DANCING DARING",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 482,
+      "workId": "wk-0473",
+      "title": "Call the shots",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 474,
+      "workId": "wk-0465",
+      "title": "新しい季節に",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 485,
+      "workId": "wk-0476",
+      "title": "Angel's Ladder",
+      "band": "Morfonica",
+      "scope": "release",
+      "context": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party「新しい季節に」/Roselia「Call the shots」/Morfonica「Angel's Ladder」/RAISE A SUILEN「DANCING DARING」",
+  "indexArtists": [
+    "Poppin'Party",
+    "Roselia",
+    "Morfonica",
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

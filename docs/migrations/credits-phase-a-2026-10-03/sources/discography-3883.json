@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/3883/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:02.536Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「新人類は仮想世界の夢を見るか？」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年10月28日(月)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 9,
+      "text": "「新人類は仮想世界の夢を見るか？」"
+    },
+    {
+      "line": 10,
+      "text": "作詞：こゆびちゃん（OTONA CHILD.）"
+    },
+    {
+      "line": 11,
+      "text": "作曲：こゆびちゃん（OTONA CHILD.）、杉原亮（Idio't-FACTORY）"
+    },
+    {
+      "line": 12,
+      "text": "編曲：堀江晶太"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「新人類は仮想世界の夢を見るか？」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

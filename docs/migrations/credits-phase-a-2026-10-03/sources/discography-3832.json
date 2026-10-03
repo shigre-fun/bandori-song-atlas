@@ -1,0 +1,169 @@
+{
+  "url": "https://bang-dream.com/discographies/3832/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:02.920Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica ミニAlbum「ELEMENTS」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2024年10月2日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 636,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "2. Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 715,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "5. Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 683,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "13. 黒のバースデイ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 23,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "2. Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 30,
+      "workId": "wk-0780",
+      "title": "Symbol I : △",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "1.Symbol I : △",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 31,
+      "workId": "wk-0781",
+      "title": "Symbol II : Air",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "2.Symbol II : Air",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 32,
+      "workId": "wk-0782",
+      "title": "Symbol III : ▽",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "3.Symbol III : ▽",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 33,
+      "workId": "wk-0783",
+      "title": "Symbol IV : Earth",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "4.Symbol IV : Earth",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 34,
+      "workId": "wk-0784",
+      "title": "Ether",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "5.Ether",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 35,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "13. 黒のバースデイ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "workId": "wk-0785",
+      "title": "Choir ‘S’ Choir",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "11. Choir ‘S’ Choir",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 37,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "5. Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 41,
+      "workId": "wk-0788",
+      "title": "堕天",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "9. 堕天",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 42,
+      "workId": "wk-0789",
+      "title": "暗黒天国",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "4. 暗黒天国",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 43,
+      "workId": "wk-0790",
+      "title": "KINGS",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "8. KINGS",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica ミニAlbum「ELEMENTS」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

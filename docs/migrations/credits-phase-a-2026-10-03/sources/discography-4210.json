@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/4210/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:02.234Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ 5th Single「これはぼくたちの生存のあらすじ」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年9月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 50,
+      "workId": "wk-0798",
+      "title": "これはぼくたちの生存のあらすじ",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "1.これはぼくたちの生存のあらすじ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 51,
+      "workId": "wk-0799",
+      "title": "うちゅうのふしぎ",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "2.うちゅうのふしぎ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 58,
+      "workId": "wk-0805",
+      "title": "愛は衝動",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "3.愛は衝動",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ 5th Single「これはぼくたちの生存のあらすじ」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

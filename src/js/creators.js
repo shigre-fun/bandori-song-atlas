@@ -14,7 +14,7 @@ function apply() {
       sort =
         Object.hasOwn(creatorSortLabels, params.get("sort")) &&
         (!CREDIT_ROLES.includes(params.get("sort")) ||
-          coverage[params.get("sort")] === "ready")
+          coverage[params.get("sort")] !== "unprepared")
           ? params.get("sort")
           : "name";
     form.elements.q.value = query;
@@ -51,9 +51,12 @@ function apply() {
     form.elements.role.value = role;
     document.querySelector("#creator-coverage-status").textContent =
       CREDIT_ROLES.includes(params.get("role")) &&
-      coverage[params.get("role")] !== "ready"
+      roleCoverage(data.roleCoverage, game)[params.get("role")] === "unprepared"
         ? "指定した担当はデータ整備中です。担当では絞り込まず、登録済みの参加作品を表示します。"
-        : "";
+        : roleCoverage(data.roleCoverage, game).arranger === "partial" &&
+            (!role || role === "arranger")
+          ? "アワーノーツの編曲は一部登録です。確認済みの登録分を表示しています。未整備は担当者なしを意味しません。"
+          : "";
     form.elements.game.value = game;
     let count = 0;
     for (const card of document.querySelectorAll(".creator-work")) {

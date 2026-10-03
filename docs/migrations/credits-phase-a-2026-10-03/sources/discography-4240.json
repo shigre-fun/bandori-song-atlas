@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4240/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:14.781Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「TearJerker」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年7月31日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「TearJerker」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：sabio"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 55,
+      "workId": "wk-0802",
+      "title": "TearJerker",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「TearJerker」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「TearJerker」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

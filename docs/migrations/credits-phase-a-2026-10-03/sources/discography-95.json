@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/95/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:00.044Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 6th Single「前へススメ！／夢みるSunflower」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2017年5月10日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 32,
+      "workId": "wk-0032",
+      "title": "前へススメ！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.前へススメ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 39,
+      "workId": "wk-0039",
+      "title": "夢みるSunflower",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.夢みるSunflower",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 6th Single「前へススメ！／夢みるSunflower」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

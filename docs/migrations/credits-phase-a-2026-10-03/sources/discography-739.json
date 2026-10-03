@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/739/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:12.964Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 8th Single「Safe and Sound」",
+  "artists": "Roselia",
+  "releaseDate": "2019年2月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 144,
+      "workId": "wk-0144",
+      "title": "PASSIONATE ANTHEM",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.PASSIONATE ANTHEM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 159,
+      "workId": "wk-0159",
+      "title": "Safe and Sound",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Safe and Sound",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 8th Single「Safe and Sound」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

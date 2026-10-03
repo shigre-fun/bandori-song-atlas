@@ -1,0 +1,52 @@
+{
+  "url": "https://bang-dream.com/discographies/3888/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:00.687Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「歩拾道」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年11月9日(土)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「歩拾道」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：庄司夏葵(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 620,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "「歩拾道」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 12,
+      "workId": "wk-0611",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "「歩拾道」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「歩拾道」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

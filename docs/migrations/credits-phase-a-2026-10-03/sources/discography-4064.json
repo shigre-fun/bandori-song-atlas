@@ -1,0 +1,69 @@
+{
+  "url": "https://bang-dream.com/discographies/4064/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:39.462Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ ミニAlbum「いっつあ！すまいるわーるど！！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2025年9月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 596,
+      "workId": "wk-0587",
+      "title": "Listen to Smile!",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.Listen to Smile!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 699,
+      "workId": "wk-0683",
+      "title": "とーくとぅみー・とーくとぅゆー",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.とーくとぅみー・とーくとぅゆー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 669,
+      "workId": "wk-0656",
+      "title": "やっほー！いっぽ！わんだふぉー！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.やっほー！いっぽ！わんだふぉー！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 643,
+      "workId": "wk-0632",
+      "title": "れっつ・スマイル・すとり〜みんぐっ♪",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.れっつ・スマイル・すとり〜みんぐっ♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 619,
+      "workId": "wk-0610",
+      "title": "ハイタッチ／＼びりーばーず☆",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.ハイタッチ／＼びりーばーず☆",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ ミニAlbum「いっつあ！すまいるわーるど！！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

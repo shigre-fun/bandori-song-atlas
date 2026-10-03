@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/1387/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:05.883Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 15th Single「イニシャル/夢を撃ち抜く瞬間に！」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2020年1月8日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 168,
+      "workId": "wk-0168",
+      "title": "SAKURA MEMORIES",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.SAKURA MEMORIES",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 193,
+      "workId": "wk-0193",
+      "title": "アニバーサリー",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.アニバーサリー",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 221,
+      "workId": "wk-0218",
+      "title": "イニシャル",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.イニシャル",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 228,
+      "workId": "wk-0224",
+      "title": "夢を撃ち抜く瞬間に！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.夢を撃ち抜く瞬間に！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 15th Single「イニシャル/夢を撃ち抜く瞬間に！」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

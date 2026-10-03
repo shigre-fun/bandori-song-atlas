@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3695/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:35.186Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「ノンブレス・オブリージュ」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年3月20日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 570,
+      "workId": "wk-0561",
+      "title": "ノンブレス・オブリージュ",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「ノンブレス・オブリージュ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「ノンブレス・オブリージュ」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

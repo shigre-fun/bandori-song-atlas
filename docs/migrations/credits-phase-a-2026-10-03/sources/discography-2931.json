@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/2931/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:45.345Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「イントロダクション」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2021年12月1日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 365,
+      "workId": "wk-0359",
+      "title": "イントロダクション",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party「イントロダクション」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party「イントロダクション」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

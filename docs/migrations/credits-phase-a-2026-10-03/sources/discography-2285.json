@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/2285/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:37.215Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 16th Single「Photograph」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2021年1月6日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 284,
+      "workId": "wk-0278",
+      "title": "Photograph",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Photograph",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 229,
+      "workId": "wk-0225",
+      "title": "開けたらDream!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.開けたらDream!",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 16th Single「Photograph」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -1,0 +1,239 @@
+{
+  "url": "https://bang-dream.com/discographies/3104/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:05.700Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 12th Single「Swear 〜Night & Day〜」",
+  "artists": "Roselia",
+  "releaseDate": "2022年10月26日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 34,
+      "workId": "wk-0034",
+      "title": "LOUDER",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.LOUDER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 366,
+      "workId": "wk-0360",
+      "title": "Our Carol",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Our Carol",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 317,
+      "workId": "wk-0311",
+      "title": "Proud of oneself",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Proud of oneself",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.R",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 411,
+      "workId": "wk-0404",
+      "title": "ROZEN HORIZON",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.ROZEN HORIZON",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 333,
+      "workId": "wk-0327",
+      "title": "Sing Alive",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Sing Alive",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 336,
+      "workId": "wk-0330",
+      "title": "Singing “OURS”",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.Singing “OURS”",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 234,
+      "workId": "wk-0229",
+      "title": "Song I am.",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "8.Song I am.",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 337,
+      "workId": "wk-0331",
+      "title": "Sprechchor",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.Sprechchor",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 421,
+      "workId": "wk-0414",
+      "title": "Swear 〜Night & Day〜",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Swear 〜Night & Day〜",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 280,
+      "workId": "wk-0274",
+      "title": "ZEAL of proud",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.ZEAL of proud",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "9.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 326,
+      "workId": "wk-0320",
+      "title": "overtuRe",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.overtuRe",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 204,
+      "workId": "wk-0204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.“UNIONS” Road",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.約束",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 387,
+      "workId": "wk-0381",
+      "title": "閃光",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.閃光",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 12th Single「Swear 〜Night & Day〜」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

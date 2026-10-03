@@ -1,0 +1,239 @@
+{
+  "url": "https://bang-dream.com/discographies/4164/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:19.256Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2026年6月10日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "・!NVADE SHOW!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 703,
+      "workId": "wk-0687",
+      "title": "'FIGHT' ADDICT",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1. ‘FIGHT’ ADDICT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 255,
+      "workId": "wk-0249",
+      "title": "A DECLARATION OF ×××",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1. A DECLARATION OF ×××",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 717,
+      "workId": "wk-0701",
+      "title": "BIBIBABI BRAVER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5. BIBIBABI BRAVER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 602,
+      "workId": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2. Bad Kids All Bet",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 443,
+      "workId": "wk-0436",
+      "title": "DEAD HEAT BEAT",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4. DEAD HEAT BEAT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3. DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "・EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 684,
+      "workId": "wk-0670",
+      "title": "FIVE as ONE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10. FIVE as ONE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13. HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 651,
+      "workId": "wk-0640",
+      "title": "HOWLING AMBITION",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11. HOWLING AMBITION",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2. Invincible Fighter",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 624,
+      "workId": "wk-0615",
+      "title": "JUST THE WAY I AM",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "12. JUST THE WAY I AM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 303,
+      "workId": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "・OUTSIDER RODEO",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 672,
+      "workId": "wk-0659",
+      "title": "REIGNING",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9. REIGNING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 744,
+      "workId": "wk-0725",
+      "title": "RUNAWAY STAR",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.RUNAWAY STAR",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 414,
+      "workId": "wk-0407",
+      "title": "SOUL SOLDIER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3. SOUL SOLDIER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 427,
+      "workId": "wk-0420",
+      "title": "THE WAY OF LIFE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6. THE WAY OF LIFE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "・UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 582,
+      "workId": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7. V.I.P MONSTER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 626,
+      "workId": "wk-0617",
+      "title": "VIVID FIRST TIME",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8. VIVID FIRST TIME",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 774,
+      "workId": "wk-0752",
+      "title": "WHAT AN EXPLOSION",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.WHAT AN EXPLOSION",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

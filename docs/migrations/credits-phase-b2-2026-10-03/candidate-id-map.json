@@ -1,0 +1,1237 @@
+[
+  {
+    "candidateKey": "b1-db9dc93abeb28da7e46e",
+    "standardName": "織田あすか",
+    "creatorId": "cr-0092",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "織田あすか",
+      "slug": "asuka-oda",
+      "type": "person",
+      "sortKey": "織田あすか",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "織田 あすか",
+        "織田あすか(Elements Garden)",
+        "織田あすか（Elements Garden）"
+      ]
+    },
+    "officialLatinName": "Asuka Oda",
+    "recordReferences": [
+      "garupa:102",
+      "garupa:103",
+      "garupa:104",
+      "garupa:105",
+      "garupa:107",
+      "garupa:11",
+      "garupa:113",
+      "garupa:114",
+      "garupa:119",
+      "garupa:12",
+      "garupa:121",
+      "garupa:122",
+      "garupa:127",
+      "garupa:13",
+      "garupa:130",
+      "garupa:135",
+      "garupa:137",
+      "garupa:139",
+      "garupa:14",
+      "garupa:140",
+      "garupa:141",
+      "garupa:144",
+      "garupa:147",
+      "garupa:149",
+      "garupa:15",
+      "garupa:150",
+      "garupa:159",
+      "garupa:16",
+      "garupa:161",
+      "garupa:162",
+      "garupa:166",
+      "garupa:17",
+      "garupa:175",
+      "garupa:176",
+      "garupa:177",
+      "garupa:18",
+      "garupa:180",
+      "garupa:184",
+      "garupa:185",
+      "garupa:188",
+      "garupa:191",
+      "garupa:198",
+      "garupa:200",
+      "garupa:202",
+      "garupa:204",
+      "garupa:211",
+      "garupa:212",
+      "garupa:215",
+      "garupa:218",
+      "garupa:219",
+      "garupa:223",
+      "garupa:232",
+      "garupa:234",
+      "garupa:236",
+      "garupa:239",
+      "garupa:241",
+      "garupa:242",
+      "garupa:250",
+      "garupa:251",
+      "garupa:252",
+      "garupa:254",
+      "garupa:255",
+      "garupa:257",
+      "garupa:259",
+      "garupa:260",
+      "garupa:261",
+      "garupa:268",
+      "garupa:269",
+      "garupa:273",
+      "garupa:276",
+      "garupa:277",
+      "garupa:279",
+      "garupa:280",
+      "garupa:283",
+      "garupa:288",
+      "garupa:291",
+      "garupa:294",
+      "garupa:30",
+      "garupa:300",
+      "garupa:302",
+      "garupa:303",
+      "garupa:313",
+      "garupa:314",
+      "garupa:316",
+      "garupa:319",
+      "garupa:326",
+      "garupa:329",
+      "garupa:330",
+      "garupa:333",
+      "garupa:337",
+      "garupa:338",
+      "garupa:34",
+      "garupa:344",
+      "garupa:346",
+      "garupa:347",
+      "garupa:349",
+      "garupa:351",
+      "garupa:353",
+      "garupa:354",
+      "garupa:355",
+      "garupa:359",
+      "garupa:36",
+      "garupa:362",
+      "garupa:364",
+      "garupa:366",
+      "garupa:371",
+      "garupa:380",
+      "garupa:383",
+      "garupa:385",
+      "garupa:388",
+      "garupa:394",
+      "garupa:397",
+      "garupa:401",
+      "garupa:403",
+      "garupa:404",
+      "garupa:407",
+      "garupa:408",
+      "garupa:412",
+      "garupa:413",
+      "garupa:414",
+      "garupa:421",
+      "garupa:422",
+      "garupa:423",
+      "garupa:424",
+      "garupa:427",
+      "garupa:429",
+      "garupa:43",
+      "garupa:435",
+      "garupa:436",
+      "garupa:437",
+      "garupa:442",
+      "garupa:443",
+      "garupa:446",
+      "garupa:45",
+      "garupa:456",
+      "garupa:457",
+      "garupa:459",
+      "garupa:461",
+      "garupa:463",
+      "garupa:472",
+      "garupa:48",
+      "garupa:482",
+      "garupa:483",
+      "garupa:485",
+      "garupa:487",
+      "garupa:490",
+      "garupa:495",
+      "garupa:496",
+      "garupa:498",
+      "garupa:504",
+      "garupa:505",
+      "garupa:518",
+      "garupa:524",
+      "garupa:525",
+      "garupa:527",
+      "garupa:528",
+      "garupa:53",
+      "garupa:530",
+      "garupa:533",
+      "garupa:538",
+      "garupa:539",
+      "garupa:540",
+      "garupa:553",
+      "garupa:557",
+      "garupa:559",
+      "garupa:560",
+      "garupa:561",
+      "garupa:562",
+      "garupa:564",
+      "garupa:565",
+      "garupa:566",
+      "garupa:576",
+      "garupa:577",
+      "garupa:578",
+      "garupa:580",
+      "garupa:581",
+      "garupa:582",
+      "garupa:583",
+      "garupa:585",
+      "garupa:587",
+      "garupa:588",
+      "garupa:589",
+      "garupa:59",
+      "garupa:593",
+      "garupa:595",
+      "garupa:596",
+      "garupa:599",
+      "garupa:601",
+      "garupa:602",
+      "garupa:614",
+      "garupa:616",
+      "garupa:619",
+      "garupa:62",
+      "garupa:623",
+      "garupa:624",
+      "garupa:625",
+      "garupa:626",
+      "garupa:631",
+      "garupa:633",
+      "garupa:636",
+      "garupa:639",
+      "garupa:642",
+      "garupa:643",
+      "garupa:644",
+      "garupa:645",
+      "garupa:646",
+      "garupa:65",
+      "garupa:651",
+      "garupa:652",
+      "garupa:66",
+      "garupa:661",
+      "garupa:668",
+      "garupa:669",
+      "garupa:67",
+      "garupa:670",
+      "garupa:672",
+      "garupa:673",
+      "garupa:675",
+      "garupa:678",
+      "garupa:679",
+      "garupa:680",
+      "garupa:684",
+      "garupa:685",
+      "garupa:686",
+      "garupa:688",
+      "garupa:690",
+      "garupa:692",
+      "garupa:693",
+      "garupa:696",
+      "garupa:698",
+      "garupa:699",
+      "garupa:701",
+      "garupa:702",
+      "garupa:703",
+      "garupa:71",
+      "garupa:714",
+      "garupa:716",
+      "garupa:717",
+      "garupa:718",
+      "garupa:72",
+      "garupa:720",
+      "garupa:726",
+      "garupa:738",
+      "garupa:739",
+      "garupa:740",
+      "garupa:742",
+      "garupa:744",
+      "garupa:745",
+      "garupa:747",
+      "garupa:748",
+      "garupa:749",
+      "garupa:750",
+      "garupa:760",
+      "garupa:762",
+      "garupa:765",
+      "garupa:768",
+      "garupa:773",
+      "garupa:774",
+      "garupa:775",
+      "garupa:776",
+      "garupa:778",
+      "garupa:779",
+      "garupa:787",
+      "garupa:81",
+      "garupa:83",
+      "garupa:90",
+      "garupa:91",
+      "garupa:92",
+      "garupa:96",
+      "ournotes:23",
+      "ournotes:7",
+      "ournotes:79"
+    ]
+  },
+  {
+    "candidateKey": "b1-706dfa00eb1eedda8c38",
+    "standardName": "中村航",
+    "creatorId": "cr-0093",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "中村航",
+      "slug": "kou-nakamura",
+      "type": "person",
+      "sortKey": "なかむらこう",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "中村 航"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:1",
+      "garupa:10",
+      "garupa:106",
+      "garupa:109",
+      "garupa:118",
+      "garupa:134",
+      "garupa:146",
+      "garupa:148",
+      "garupa:160",
+      "garupa:168",
+      "garupa:171",
+      "garupa:172",
+      "garupa:173",
+      "garupa:193",
+      "garupa:2",
+      "garupa:201",
+      "garupa:205",
+      "garupa:208",
+      "garupa:209",
+      "garupa:221",
+      "garupa:222",
+      "garupa:228",
+      "garupa:229",
+      "garupa:233",
+      "garupa:237",
+      "garupa:253",
+      "garupa:264",
+      "garupa:284",
+      "garupa:3",
+      "garupa:301",
+      "garupa:315",
+      "garupa:32",
+      "garupa:335",
+      "garupa:341",
+      "garupa:343",
+      "garupa:360",
+      "garupa:363",
+      "garupa:375",
+      "garupa:378",
+      "garupa:38",
+      "garupa:39",
+      "garupa:4",
+      "garupa:402",
+      "garupa:420",
+      "garupa:434",
+      "garupa:439",
+      "garupa:455",
+      "garupa:46",
+      "garupa:462",
+      "garupa:466",
+      "garupa:474",
+      "garupa:5",
+      "garupa:507",
+      "garupa:51",
+      "garupa:532",
+      "garupa:536",
+      "garupa:55",
+      "garupa:575",
+      "garupa:58",
+      "garupa:591",
+      "garupa:6",
+      "garupa:61",
+      "garupa:611",
+      "garupa:621",
+      "garupa:629",
+      "garupa:64",
+      "garupa:648",
+      "garupa:681",
+      "garupa:689",
+      "garupa:691",
+      "garupa:7",
+      "garupa:70",
+      "garupa:719",
+      "garupa:746",
+      "garupa:759",
+      "garupa:76",
+      "garupa:763",
+      "garupa:777",
+      "garupa:79",
+      "garupa:799",
+      "garupa:8",
+      "garupa:80",
+      "garupa:89"
+    ]
+  },
+  {
+    "candidateKey": "b1-02162c02420c410e6184",
+    "standardName": "下田晃太郎",
+    "creatorId": "cr-0094",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "下田晃太郎",
+      "slug": "kotaro-shimoda",
+      "type": "person",
+      "sortKey": "しもだこうたろう",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "下田晃太郎(Elements Garden)",
+        "下田晃太郎（Elements Garden）"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:240",
+      "garupa:247",
+      "garupa:249",
+      "garupa:258",
+      "garupa:266",
+      "garupa:268",
+      "garupa:282",
+      "garupa:296",
+      "garupa:298",
+      "garupa:301",
+      "garupa:308",
+      "garupa:310",
+      "garupa:324",
+      "garupa:334",
+      "garupa:338",
+      "garupa:355",
+      "garupa:367",
+      "garupa:379",
+      "garupa:386",
+      "garupa:391",
+      "garupa:393",
+      "garupa:405",
+      "garupa:406",
+      "garupa:416",
+      "garupa:430",
+      "garupa:440",
+      "garupa:464",
+      "garupa:465",
+      "garupa:471",
+      "garupa:481",
+      "garupa:487",
+      "garupa:494",
+      "garupa:509",
+      "garupa:517",
+      "garupa:532",
+      "garupa:537",
+      "garupa:546",
+      "garupa:573",
+      "garupa:690"
+    ]
+  },
+  {
+    "candidateKey": "b1-6e0b6c39ddbe61fb7c27",
+    "standardName": "藤原優樹",
+    "creatorId": "cr-0095",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "藤原優樹",
+      "slug": "masaki-fujiwara",
+      "type": "person",
+      "sortKey": "ふじわらまさき",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "藤原優樹(SUPA LOVE)"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:473",
+      "garupa:489",
+      "garupa:497",
+      "garupa:503",
+      "garupa:510",
+      "garupa:520",
+      "garupa:535",
+      "garupa:563",
+      "garupa:597",
+      "garupa:613",
+      "garupa:620",
+      "garupa:628",
+      "garupa:647",
+      "garupa:663",
+      "garupa:664",
+      "garupa:677",
+      "garupa:694",
+      "garupa:697",
+      "garupa:732",
+      "garupa:771",
+      "ournotes:1",
+      "ournotes:10",
+      "ournotes:11",
+      "ournotes:12",
+      "ournotes:13",
+      "ournotes:14",
+      "ournotes:15",
+      "ournotes:16",
+      "ournotes:18",
+      "ournotes:2",
+      "ournotes:3",
+      "ournotes:4",
+      "ournotes:5",
+      "ournotes:6",
+      "ournotes:8",
+      "ournotes:9"
+    ]
+  },
+  {
+    "candidateKey": "b1-0bff951e166fab86db35",
+    "standardName": "Seonoo Kim",
+    "creatorId": "cr-0096",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "Seonoo Kim",
+      "slug": "seonoo-kim",
+      "type": "person",
+      "sortKey": "Seonoo Kim",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "Seonoo Kim(Elements Garden)",
+        "Seonoo Kim（Elements Garden）"
+      ]
+    },
+    "officialLatinName": "Seonoo Kim",
+    "recordReferences": [
+      "garupa:427",
+      "garupa:451",
+      "garupa:458",
+      "garupa:459",
+      "garupa:477",
+      "garupa:486",
+      "garupa:504",
+      "garupa:511",
+      "garupa:527",
+      "garupa:529",
+      "garupa:571",
+      "garupa:572",
+      "garupa:580",
+      "garupa:592",
+      "garupa:607",
+      "garupa:618",
+      "garupa:635",
+      "garupa:640"
+    ]
+  },
+  {
+    "candidateKey": "b1-b5d6ad8052c51aca973f",
+    "standardName": "畑亜貴",
+    "creatorId": "cr-0097",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "畑亜貴",
+      "slug": "aki-hata",
+      "type": "person",
+      "sortKey": "はたあき",
+      "sortKeyStatus": "primary-confirmed",
+      "aliases": [
+        "畑 亜貴",
+        "畑　亜貴"
+      ]
+    },
+    "officialLatinName": "Aki Hata",
+    "recordReferences": [
+      "garupa:115",
+      "garupa:117",
+      "garupa:181",
+      "garupa:182",
+      "garupa:227",
+      "garupa:340",
+      "garupa:406",
+      "garupa:41",
+      "garupa:449",
+      "garupa:50",
+      "garupa:743",
+      "garupa:78",
+      "garupa:99"
+    ]
+  },
+  {
+    "candidateKey": "b1-f27622614d9cfe966501",
+    "standardName": "植木建象",
+    "creatorId": "cr-0098",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "植木建象",
+      "slug": "kenzo-ueki",
+      "type": "person",
+      "sortKey": "植木建象",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "植木 建象"
+      ]
+    },
+    "officialLatinName": "KENZO UEKI",
+    "recordReferences": [
+      "garupa:579",
+      "garupa:610",
+      "garupa:622",
+      "garupa:627",
+      "garupa:660",
+      "garupa:713",
+      "garupa:758",
+      "ournotes:21",
+      "ournotes:40"
+    ]
+  },
+  {
+    "candidateKey": "b1-2f3ac0aa9377ae457894",
+    "standardName": "Spirit Garden",
+    "creatorId": "cr-0099",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "Spirit Garden",
+      "slug": "spirit-garden",
+      "type": "organization",
+      "sortKey": "Spirit Garden",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    "officialLatinName": "Spirit Garden",
+    "recordReferences": [
+      "garupa:238",
+      "garupa:289",
+      "garupa:317",
+      "garupa:328",
+      "garupa:336",
+      "garupa:339",
+      "garupa:345",
+      "garupa:761"
+    ]
+  },
+  {
+    "candidateKey": "b1-d233ad1967aa7dbda0e6",
+    "standardName": "大森祥子",
+    "creatorId": "cr-0100",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "大森祥子",
+      "slug": "shoko-oomori",
+      "type": "person",
+      "sortKey": "おおもりしょうこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:129",
+      "garupa:286",
+      "garupa:29",
+      "garupa:323",
+      "garupa:381"
+    ]
+  },
+  {
+    "candidateKey": "b1-3b0e5a5bfe76a5eb6303",
+    "standardName": "小木岳司",
+    "creatorId": "cr-0101",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "小木岳司",
+      "slug": "gakushi-ogi",
+      "type": "person",
+      "sortKey": "おぎがくし",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "小木 岳司"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:521",
+      "garupa:547",
+      "garupa:556",
+      "garupa:570"
+    ]
+  },
+  {
+    "candidateKey": "b1-b528ebcd57341a509dce",
+    "standardName": "MOMIKEN",
+    "creatorId": "cr-0102",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "MOMIKEN",
+      "slug": "momiken",
+      "type": "person",
+      "sortKey": "MOMIKEN",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    "officialLatinName": "MOMIKEN",
+    "recordReferences": [
+      "garupa:112",
+      "garupa:308",
+      "garupa:655"
+    ]
+  },
+  {
+    "candidateKey": "b1-47763b21b3c13fee3141",
+    "standardName": "神田ジョン",
+    "creatorId": "cr-0103",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "神田ジョン",
+      "slug": "john-kanda",
+      "type": "person",
+      "sortKey": "かんだじょん",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "神田ジョン(from PENGUIN RESEARCH)"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:713",
+      "garupa:758",
+      "ournotes:21"
+    ]
+  },
+  {
+    "candidateKey": "b1-e63b116451e1ce75895d",
+    "standardName": "水樹奈々",
+    "creatorId": "cr-0104",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "水樹奈々",
+      "slug": "nana-mizuki",
+      "type": "person",
+      "sortKey": "水樹奈々",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "水樹 奈々"
+      ]
+    },
+    "officialLatinName": "NANA MIZUKI",
+    "recordReferences": [
+      "garupa:312",
+      "garupa:37",
+      "garupa:82"
+    ]
+  },
+  {
+    "candidateKey": "b1-6f1dda77863c0f86ef66",
+    "standardName": "仲町あられ",
+    "creatorId": "cr-0105",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "仲町あられ",
+      "slug": "arale-nakamachi",
+      "type": "person",
+      "sortKey": "なかまちあられ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "ournotes:49",
+      "ournotes:53",
+      "ournotes:56"
+    ]
+  },
+  {
+    "candidateKey": "b1-25052ac53b02a2908801",
+    "standardName": "麻枝准",
+    "creatorId": "cr-0106",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "麻枝准",
+      "slug": "jun-maeda",
+      "type": "person",
+      "sortKey": "まえだじゅん",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "麻枝 准"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:20",
+      "garupa:321",
+      "garupa:40"
+    ]
+  },
+  {
+    "candidateKey": "b1-abadd06eea1e892807f7",
+    "standardName": "あの",
+    "creatorId": "cr-0107",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "あの",
+      "slug": "ano",
+      "type": "person",
+      "sortKey": "あの",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "ano"
+      ]
+    },
+    "officialLatinName": "ano",
+    "recordReferences": [
+      "garupa:603",
+      "garupa:757",
+      "ournotes:80"
+    ]
+  },
+  {
+    "candidateKey": "b1-cc64468fb0fb21e82de1",
+    "standardName": "及川眠子",
+    "creatorId": "cr-0108",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "及川眠子",
+      "slug": "neko-oikawa",
+      "type": "person",
+      "sortKey": "おいかわねこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "及川　眠子"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:25",
+      "garupa:86",
+      "ournotes:40"
+    ]
+  },
+  {
+    "candidateKey": "b1-edc4deaf7d76c9950ba6",
+    "standardName": "Gom",
+    "creatorId": "cr-0109",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "Gom",
+      "slug": "gom",
+      "type": "person",
+      "sortKey": "Gom",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    "officialLatinName": "Gom",
+    "recordReferences": [
+      "garupa:477",
+      "garupa:756"
+    ]
+  },
+  {
+    "candidateKey": "b1-d6941b445fae84ecf412",
+    "standardName": "佐藤英敏",
+    "creatorId": "cr-0110",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "佐藤英敏",
+      "slug": "hidetoshi-sato",
+      "type": "person",
+      "sortKey": "さとうひでとし",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "佐藤　英敏"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:86",
+      "ournotes:40"
+    ]
+  },
+  {
+    "candidateKey": "b1-a44a526d6bab744bdff0",
+    "standardName": "Aira",
+    "creatorId": "cr-0111",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "Aira",
+      "slug": "aira",
+      "type": "person",
+      "sortKey": "Aira",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "Aira(Dream Monster)"
+      ]
+    },
+    "officialLatinName": "Aira",
+    "recordReferences": [
+      "ournotes:66"
+    ]
+  },
+  {
+    "candidateKey": "b1-cee1cb2757fda7b98e2e",
+    "standardName": "peppe",
+    "creatorId": "cr-0112",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "peppe",
+      "slug": "peppe",
+      "type": "person",
+      "sortKey": "peppe",
+      "sortKeyStatus": "provisional-original",
+      "aliases": []
+    },
+    "officialLatinName": "peppe",
+    "recordReferences": [
+      "ournotes:75"
+    ]
+  },
+  {
+    "candidateKey": "b1-4ca81d86e6c9d89fad5f",
+    "standardName": "samfree",
+    "creatorId": "cr-0113",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "samfree",
+      "slug": "samfree",
+      "type": "person",
+      "sortKey": "samfree",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "SAM(samfree)"
+      ]
+    },
+    "officialLatinName": "samfree",
+    "recordReferences": [
+      "garupa:249"
+    ]
+  },
+  {
+    "candidateKey": "b1-56362089840ee7af1d37",
+    "standardName": "穴見真吾",
+    "creatorId": "cr-0114",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "穴見真吾",
+      "slug": "shingo-anami",
+      "type": "person",
+      "sortKey": "あなみしんご",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "ournotes:75"
+    ]
+  },
+  {
+    "candidateKey": "b1-e119ab1c5fcf8c4309e9",
+    "standardName": "小林壱誓",
+    "creatorId": "cr-0115",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "小林壱誓",
+      "slug": "issey-kobayashi",
+      "type": "person",
+      "sortKey": "こばやしいっせい",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "小林 壱誓"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "ournotes:75"
+    ]
+  },
+  {
+    "candidateKey": "b1-0b8d88f153cd3ed28196",
+    "standardName": "長屋晴子",
+    "creatorId": "cr-0116",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "長屋晴子",
+      "slug": "haruko-nagaya",
+      "type": "person",
+      "sortKey": "ながやはるこ",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "長屋 晴子"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "ournotes:75"
+    ]
+  },
+  {
+    "candidateKey": "b1-01a6a1f7051b830f39ae",
+    "standardName": "槇島隆人",
+    "creatorId": "cr-0117",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "CONFIRMED",
+    "status": "READY",
+    "metadata": {
+      "name": "槇島隆人",
+      "slug": "takahito-makishima",
+      "type": "person",
+      "sortKey": "まきしまたかひと",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "槇島隆人(SUPA LOVE)"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "ournotes:14"
+    ]
+  },
+  {
+    "candidateKey": "b1-a7ebb5f19b96341985cd",
+    "standardName": "宮崎京一",
+    "creatorId": "cr-0118",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "宮崎京一",
+      "slug": "kyoichi-miyazaki",
+      "type": "person",
+      "sortKey": "みやざききょういち",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:23",
+      "garupa:24",
+      "garupa:27",
+      "garupa:28",
+      "garupa:33",
+      "garupa:35",
+      "garupa:44",
+      "garupa:47"
+    ]
+  },
+  {
+    "candidateKey": "b1-d43891f53862909d7abb",
+    "standardName": "母里治樹",
+    "creatorId": "cr-0119",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "母里治樹",
+      "slug": "haruki-mori",
+      "type": "person",
+      "sortKey": "もりはるき",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": [
+        "母里治樹（Elements Garden）"
+      ]
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:21",
+      "garupa:22",
+      "garupa:29",
+      "garupa:38",
+      "garupa:40",
+      "garupa:51",
+      "garupa:78",
+      "garupa:85"
+    ]
+  },
+  {
+    "candidateKey": "b1-a341ddeabf1c140432d9",
+    "standardName": "川渕龍成",
+    "creatorId": "cr-0120",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "川渕龍成",
+      "slug": "ryusei-kawabuchi",
+      "type": "person",
+      "sortKey": "かわぶちりゅうせい",
+      "sortKeyStatus": "human-confirmed",
+      "aliases": []
+    },
+    "officialLatinName": null,
+    "recordReferences": [
+      "garupa:220",
+      "garupa:231",
+      "garupa:243",
+      "garupa:246",
+      "garupa:248",
+      "garupa:272"
+    ]
+  },
+  {
+    "candidateKey": "b1-065e0e070ab40a39c5e1",
+    "standardName": "ハルイチ",
+    "creatorId": "cr-0121",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "ハルイチ",
+      "slug": "haruichi",
+      "type": "person",
+      "sortKey": "ハルイチ",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "新藤晴一"
+      ]
+    },
+    "officialLatinName": "HARUICHI",
+    "recordReferences": [
+      "garupa:199",
+      "garupa:245",
+      "garupa:262",
+      "garupa:310",
+      "garupa:515"
+    ]
+  },
+  {
+    "candidateKey": "b1-397cc1de0e1b600bf103",
+    "standardName": "烏屋茶房",
+    "creatorId": "cr-0122",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "烏屋茶房",
+      "slug": "karasuya-sabou",
+      "type": "person",
+      "sortKey": "烏屋茶房",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "烏屋 茶房"
+      ]
+    },
+    "officialLatinName": "Karasuya Sabou",
+    "recordReferences": [
+      "garupa:640",
+      "garupa:657",
+      "ournotes:52"
+    ]
+  },
+  {
+    "candidateKey": "b1-784ae60a37f7c4f4d380",
+    "standardName": "林英樹",
+    "creatorId": "cr-0123",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "林英樹",
+      "slug": "hideki-hayashi",
+      "type": "person",
+      "sortKey": "林英樹",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "林 英樹",
+        "林　英樹"
+      ]
+    },
+    "officialLatinName": "Hideki Hayashi",
+    "recordReferences": [
+      "garupa:405",
+      "garupa:432",
+      "garupa:433"
+    ]
+  },
+  {
+    "candidateKey": "b1-e8ae9d1e92b80dadf59e",
+    "standardName": "o-saka",
+    "creatorId": "cr-0124",
+    "confidence": "CONFIRMED",
+    "previousB1Confidence": "PROBABLE",
+    "status": "READY",
+    "metadata": {
+      "name": "o-saka",
+      "slug": "o-saka",
+      "type": "person",
+      "sortKey": "o-saka",
+      "sortKeyStatus": "provisional-original",
+      "aliases": [
+        "o-saka(SUPA LOVE)"
+      ]
+    },
+    "officialLatinName": "o-saka",
+    "recordReferences": [
+      "garupa:650",
+      "ournotes:26"
+    ]
+  }
+]

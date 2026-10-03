@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4270/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:06.406Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「唱(Cover)」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年9月17日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞：TOPHAMHAT-KYO (FAKE TYPE.)"
+    },
+    {
+      "line": 2,
+      "text": "作曲：Giga、TeddyLoid"
+    },
+    {
+      "line": 3,
+      "text": "編曲：DjeDje、KENSEI、三村一輝"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「唱(Cover)」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

@@ -1,0 +1,199 @@
+{
+  "url": "https://bang-dream.com/discographies/661/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:13.867Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 1st Album「Poppin'on!」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2019年1月30日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 80,
+      "workId": "wk-0080",
+      "title": "B.O.F",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.B.O.F",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 89,
+      "workId": "wk-0089",
+      "title": "CiRCLING",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.CiRCLING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 6,
+      "workId": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.STAR BEAT!～ホシノコドウ～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 3,
+      "workId": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Yes! BanG_Dream!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 205,
+      "workId": "wk-0109",
+      "title": "[FULL] 二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party",
+      "scope": "work",
+      "context": "6.二重の虹(ダブル レインボウ)",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.ときめきエクスペリエンス！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 134,
+      "workId": "wk-0134",
+      "title": "ガールズコード",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.ガールズコード",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 2,
+      "workId": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.キラキラだとか夢だとか ～Sing Girls～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 79,
+      "workId": "wk-0079",
+      "title": "クリスマスのうた",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.クリスマスのうた",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.ティアドロップス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 109,
+      "workId": "wk-0109",
+      "title": "二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.二重の虹(ダブル レインボウ)",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 58,
+      "workId": "wk-0058",
+      "title": "八月のif",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.八月のif",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 32,
+      "workId": "wk-0032",
+      "title": "前へススメ！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.前へススメ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 39,
+      "workId": "wk-0039",
+      "title": "夢みるSunflower",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.夢みるSunflower",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 118,
+      "workId": "wk-0118",
+      "title": "最高(さあ行こう)！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.最高(さあ行こう)！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 107,
+      "workId": "wk-0107",
+      "title": "私の心はチョココロネ",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.私の心はチョココロネ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 8,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.走り始めたばかりのキミに",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 1st Album「Poppin'on!」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

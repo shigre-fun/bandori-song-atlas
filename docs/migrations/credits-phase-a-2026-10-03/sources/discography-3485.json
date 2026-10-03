@@ -1,0 +1,169 @@
+{
+  "url": "https://bang-dream.com/discographies/3485/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:10.027Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN ミニAlbum「REVELATION」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2023年11月1日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.!NVADE SHOW!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 533,
+      "workId": "wk-0524",
+      "title": "-N-E-M-E-S-I-S-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13.-N-E-M-E-S-I-S-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 443,
+      "workId": "wk-0436",
+      "title": "DEAD HEAT BEAT",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.DEAD HEAT BEAT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 394,
+      "workId": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "16.DRIVE US CRAZY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "12.EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "15.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.Invincible Fighter",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 303,
+      "workId": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.OUTSIDER RODEO",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 384,
+      "workId": "wk-0378",
+      "title": "Repaint",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.Repaint",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 427,
+      "workId": "wk-0420",
+      "title": "THE WAY OF LIFE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "14.THE WAY OF LIFE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 185,
+      "workId": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.UNSTOPPABLE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 339,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11.灼熱 Bonfire!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 368,
+      "workId": "wk-0362",
+      "title": "Keep the Heat and Fire Yourself Up",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7.Keep the Heat and Fire Yourself Up",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 272,
+      "workId": "wk-0266",
+      "title": "劣等上等",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.劣等上等",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 431,
+      "workId": "wk-0424",
+      "title": "狂乱 Hey Kids!!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.狂乱 Hey Kids!!",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN ミニAlbum「REVELATION」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

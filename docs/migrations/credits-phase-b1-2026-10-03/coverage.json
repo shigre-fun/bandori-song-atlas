@@ -1,0 +1,2093 @@
+{
+  "phaseAUniqueRaw": 524,
+  "rawRoleMappings": 739,
+  "uniqueTokenStrings": 513,
+  "tokenOccurrences": 2683,
+  "splitConfirmed": 34,
+  "tokenizedRaw": 523,
+  "splitReviewRaw": 54,
+  "supersededRoleErrorRaw": 1,
+  "existingConfirmedRaw": 144,
+  "existingCreatorIds": 91,
+  "existingTokenStrings": 139,
+  "newCandidateRaw": 375,
+  "newCandidates": 349,
+  "newConfirmed": 26,
+  "newProbable": 7,
+  "newUnresolved": 316,
+  "aliasMergedVariants": 92,
+  "affiliationTokens": 1545,
+  "affiliationUniqueVariants": 55,
+  "recordScopedTokenMappings": 74,
+  "globalTokenMappings": 2054,
+  "lyricist": {
+    "confirmedCredit": 834,
+    "allCreatorResolved": 602,
+    "rate": "72.18%",
+    "unresolved": [
+      {
+        "game": "garupa",
+        "recordId": 120,
+        "title": "DAYS",
+        "band": "Poppin'Party",
+        "workId": "wk-0120"
+      },
+      {
+        "game": "garupa",
+        "recordId": 101,
+        "title": "GLAMOROUS SKY",
+        "band": "Poppin'Party",
+        "workId": "wk-0101"
+      },
+      {
+        "game": "garupa",
+        "recordId": 502,
+        "title": "HOT LIMIT",
+        "band": "Poppin'Party",
+        "workId": "wk-0493"
+      },
+      {
+        "game": "garupa",
+        "recordId": 123,
+        "title": "Life Will Change",
+        "band": "Poppin'Party",
+        "workId": "wk-0123"
+      },
+      {
+        "game": "garupa",
+        "recordId": 751,
+        "title": "MATSURI BAYASHI",
+        "band": "Poppin'Party",
+        "workId": "wk-0732"
+      },
+      {
+        "game": "garupa",
+        "recordId": 711,
+        "title": "POP IN 2",
+        "band": "Poppin'Party",
+        "workId": "wk-0695"
+      },
+      {
+        "game": "garupa",
+        "recordId": 640,
+        "title": "STEP by STEP UP↑↑↑↑",
+        "band": "Poppin'Party",
+        "workId": "wk-0629"
+      },
+      {
+        "game": "garupa",
+        "recordId": 155,
+        "title": "Wake up!",
+        "band": "Poppin'Party",
+        "workId": "wk-0155"
+      },
+      {
+        "game": "garupa",
+        "recordId": 60,
+        "title": "only my railgun",
+        "band": "Poppin'Party",
+        "workId": "wk-0060"
+      },
+      {
+        "game": "garupa",
+        "recordId": 687,
+        "title": "つよがるガール feat. もっさ",
+        "band": "Poppin'Party",
+        "workId": "wk-0673"
+      },
+      {
+        "game": "garupa",
+        "recordId": 493,
+        "title": "オドループ",
+        "band": "Poppin'Party",
+        "workId": "wk-0484"
+      },
+      {
+        "game": "garupa",
+        "recordId": 447,
+        "title": "スターナイトスノウ",
+        "band": "Poppin'Party",
+        "workId": "wk-0440"
+      },
+      {
+        "game": "garupa",
+        "recordId": 281,
+        "title": "セツナトリップ",
+        "band": "Poppin'Party",
+        "workId": "wk-0275"
+      },
+      {
+        "game": "garupa",
+        "recordId": 186,
+        "title": "チェリボム",
+        "band": "Poppin'Party",
+        "workId": "wk-0186"
+      },
+      {
+        "game": "garupa",
+        "recordId": 190,
+        "title": "ディスカバリー！",
+        "band": "Poppin'Party",
+        "workId": "wk-0190"
+      },
+      {
+        "game": "garupa",
+        "recordId": 517,
+        "title": "トウキョウ・シャンディ・ランデヴ",
+        "band": "Poppin'Party",
+        "workId": "wk-0508"
+      },
+      {
+        "game": "garupa",
+        "recordId": 658,
+        "title": "フィクション",
+        "band": "Poppin'Party",
+        "workId": "wk-0646"
+      },
+      {
+        "game": "garupa",
+        "recordId": 199,
+        "title": "ミュージック・アワー",
+        "band": "Poppin'Party",
+        "workId": "wk-0199"
+      },
+      {
+        "game": "garupa",
+        "recordId": 94,
+        "title": "メランコリック",
+        "band": "Poppin'Party",
+        "workId": "wk-0094"
+      },
+      {
+        "game": "garupa",
+        "recordId": 133,
+        "title": "ロミオとシンデレラ",
+        "band": "Poppin'Party",
+        "workId": "wk-0133"
+      },
+      {
+        "game": "garupa",
+        "recordId": 31,
+        "title": "光るなら",
+        "band": "Poppin'Party",
+        "workId": "wk-0031"
+      },
+      {
+        "game": "garupa",
+        "recordId": 77,
+        "title": "千本桜",
+        "band": "Poppin'Party",
+        "workId": "wk-0077"
+      },
+      {
+        "game": "garupa",
+        "recordId": 142,
+        "title": "君に届け",
+        "band": "Poppin'Party",
+        "workId": "wk-0142"
+      },
+      {
+        "game": "garupa",
+        "recordId": 126,
+        "title": "夏祭り",
+        "band": "Poppin'Party",
+        "workId": "wk-0126"
+      },
+      {
+        "game": "garupa",
+        "recordId": 331,
+        "title": "大河よ共に泣いてくれ",
+        "band": "Poppin'Party",
+        "workId": "wk-0325"
+      },
+      {
+        "game": "garupa",
+        "recordId": 488,
+        "title": "心絵",
+        "band": "Poppin'Party",
+        "workId": "wk-0479"
+      },
+      {
+        "game": "garupa",
+        "recordId": 324,
+        "title": "春〜spring〜",
+        "band": "Poppin'Party",
+        "workId": "wk-0318"
+      },
+      {
+        "game": "garupa",
+        "recordId": 19,
+        "title": "空色デイズ",
+        "band": "Poppin'Party",
+        "workId": "wk-0019"
+      },
+      {
+        "game": "garupa",
+        "recordId": 248,
+        "title": "群青日和",
+        "band": "Poppin'Party",
+        "workId": "wk-0242"
+      },
+      {
+        "game": "garupa",
+        "recordId": 195,
+        "title": "1/3の純情な感情",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0195"
+      },
+      {
+        "game": "garupa",
+        "recordId": 707,
+        "title": "BROKEN GAMES",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0691"
+      },
+      {
+        "game": "garupa",
+        "recordId": 608,
+        "title": "Bling-Bang-Bang-Born",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0599"
+      },
+      {
+        "game": "garupa",
+        "recordId": 500,
+        "title": "Get Wild",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0491"
+      },
+      {
+        "game": "garupa",
+        "recordId": 262,
+        "title": "ヒトリノ夜",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0256"
+      },
+      {
+        "game": "garupa",
+        "recordId": 293,
+        "title": "ブリキノダンス",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0287"
+      },
+      {
+        "game": "garupa",
+        "recordId": 573,
+        "title": "ボッカデラベリタ",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0564"
+      },
+      {
+        "game": "garupa",
+        "recordId": 415,
+        "title": "メギツネ",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0408"
+      },
+      {
+        "game": "garupa",
+        "recordId": 272,
+        "title": "劣等上等",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0266"
+      },
+      {
+        "game": "garupa",
+        "recordId": 431,
+        "title": "狂乱 Hey Kids!!",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0424"
+      },
+      {
+        "game": "garupa",
+        "recordId": 700,
+        "title": "百花繚乱",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0684"
+      },
+      {
+        "game": "garupa",
+        "recordId": 545,
+        "title": "第ゼロ感",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0536"
+      },
+      {
+        "game": "garupa",
+        "recordId": 659,
+        "title": "第六感",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0647"
+      },
+      {
+        "game": "garupa",
+        "recordId": 399,
+        "title": "脳漿炸裂ガール",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0392"
+      },
+      {
+        "game": "garupa",
+        "recordId": 754,
+        "title": "革命道中",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0735"
+      },
+      {
+        "game": "garupa",
+        "recordId": 508,
+        "title": "燦々",
+        "band": "Afterglow",
+        "workId": "wk-0499"
+      },
+      {
+        "game": "garupa",
+        "recordId": 469,
+        "title": "ALIVE",
+        "band": "Morfonica",
+        "workId": "wk-0460"
+      },
+      {
+        "game": "garupa",
+        "recordId": 342,
+        "title": "COLORFUL BOX",
+        "band": "Morfonica",
+        "workId": "wk-0336"
+      },
+      {
+        "game": "garupa",
+        "recordId": 298,
+        "title": "CQCQ",
+        "band": "Morfonica",
+        "workId": "wk-0292"
+      },
+      {
+        "game": "garupa",
+        "recordId": 266,
+        "title": "LEVEL5 -judgelight-",
+        "band": "Morfonica",
+        "workId": "wk-0260"
+      },
+      {
+        "game": "garupa",
+        "recordId": 426,
+        "title": "Memento",
+        "band": "Morfonica",
+        "workId": "wk-0419"
+      },
+      {
+        "game": "garupa",
+        "recordId": 441,
+        "title": "Nameless Story",
+        "band": "Morfonica",
+        "workId": "wk-0434"
+      },
+      {
+        "game": "garupa",
+        "recordId": 282,
+        "title": "Nevereverland",
+        "band": "Morfonica",
+        "workId": "wk-0276"
+      },
+      {
+        "game": "garupa",
+        "recordId": 546,
+        "title": "Overdose",
+        "band": "Morfonica",
+        "workId": "wk-0537"
+      },
+      {
+        "game": "garupa",
+        "recordId": 318,
+        "title": "V.I.P",
+        "band": "Morfonica",
+        "workId": "wk-0312"
+      },
+      {
+        "game": "garupa",
+        "recordId": 247,
+        "title": "chAngE",
+        "band": "Morfonica",
+        "workId": "wk-0241"
+      },
+      {
+        "game": "garupa",
+        "recordId": 433,
+        "title": "divine intervention",
+        "band": "Morfonica",
+        "workId": "wk-0426"
+      },
+      {
+        "game": "garupa",
+        "recordId": 572,
+        "title": "かくれんぼ",
+        "band": "Morfonica",
+        "workId": "wk-0563"
+      },
+      {
+        "game": "garupa",
+        "recordId": 310,
+        "title": "アゲハ蝶",
+        "band": "Morfonica",
+        "workId": "wk-0304"
+      },
+      {
+        "game": "garupa",
+        "recordId": 706,
+        "title": "オン・ザ・フロントライン",
+        "band": "Morfonica",
+        "workId": "wk-0690"
+      },
+      {
+        "game": "garupa",
+        "recordId": 416,
+        "title": "ボクノート",
+        "band": "Morfonica",
+        "workId": "wk-0409"
+      },
+      {
+        "game": "garupa",
+        "recordId": 245,
+        "title": "メリッサ",
+        "band": "Morfonica",
+        "workId": "wk-0239"
+      },
+      {
+        "game": "garupa",
+        "recordId": 752,
+        "title": "メロウ",
+        "band": "Morfonica",
+        "workId": "wk-0733"
+      },
+      {
+        "game": "garupa",
+        "recordId": 271,
+        "title": "深海少女",
+        "band": "Morfonica",
+        "workId": "wk-0265"
+      },
+      {
+        "game": "garupa",
+        "recordId": 725,
+        "title": "白い雪のプリンセスは",
+        "band": "Morfonica",
+        "workId": "wk-0709"
+      },
+      {
+        "game": "garupa",
+        "recordId": 258,
+        "title": "秒針を噛む",
+        "band": "Morfonica",
+        "workId": "wk-0252"
+      },
+      {
+        "game": "garupa",
+        "recordId": 612,
+        "title": "輪舞-revolution",
+        "band": "Morfonica",
+        "workId": "wk-0603"
+      },
+      {
+        "game": "garupa",
+        "recordId": 554,
+        "title": "Ahoy!! 我ら宝鐘海賊団☆",
+        "band": "Afterglow×宝鐘マリン",
+        "workId": "wk-0545"
+      },
+      {
+        "game": "garupa",
+        "recordId": 432,
+        "title": "The Circle Of Butterflies",
+        "band": "Morfonica",
+        "workId": "wk-0425"
+      },
+      {
+        "game": "garupa",
+        "recordId": 705,
+        "title": "ビューティ・フォー",
+        "band": "Morfonica",
+        "workId": "wk-0689"
+      },
+      {
+        "game": "garupa",
+        "recordId": 167,
+        "title": "Baby Sweet Berry Love",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0167"
+      },
+      {
+        "game": "garupa",
+        "recordId": 285,
+        "title": "DANCE! おジャ魔女",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0279"
+      },
+      {
+        "game": "garupa",
+        "recordId": 136,
+        "title": "DISCOTHEQUE",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0136"
+      },
+      {
+        "game": "garupa",
+        "recordId": 44,
+        "title": "MOON PRIDE",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0044"
+      },
+      {
+        "game": "garupa",
+        "recordId": 304,
+        "title": "Make it!",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0298"
+      },
+      {
+        "game": "garupa",
+        "recordId": 95,
+        "title": "SAKURAスキップ",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0095"
+      },
+      {
+        "game": "garupa",
+        "recordId": 398,
+        "title": "Sparkling Daydream",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0391"
+      },
+      {
+        "game": "garupa",
+        "recordId": 216,
+        "title": "Stay Alive",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0214"
+      },
+      {
+        "game": "garupa",
+        "recordId": 23,
+        "title": "secret base ～君がくれたもの～",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0023"
+      },
+      {
+        "game": "garupa",
+        "recordId": 35,
+        "title": "そばかす",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0035"
+      },
+      {
+        "game": "garupa",
+        "recordId": 600,
+        "title": "だから、ひとりじゃない",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0591"
+      },
+      {
+        "game": "garupa",
+        "recordId": 183,
+        "title": "ときめきポポロン♪",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0183"
+      },
+      {
+        "game": "garupa",
+        "recordId": 69,
+        "title": "はなまるぴっぴはよいこだけ",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0069"
+      },
+      {
+        "game": "garupa",
+        "recordId": 54,
+        "title": "ふわふわ時間",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0054"
+      },
+      {
+        "game": "garupa",
+        "recordId": 108,
+        "title": "みくみくにしてあげる♪【してやんよ】",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0108"
+      },
+      {
+        "game": "garupa",
+        "recordId": 143,
+        "title": "ゆりゆららららゆるゆり大事件",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0143"
+      },
+      {
+        "game": "garupa",
+        "recordId": 605,
+        "title": "オトナブルー",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0596"
+      },
+      {
+        "game": "garupa",
+        "recordId": 24,
+        "title": "ドリームパレード",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0024"
+      },
+      {
+        "game": "garupa",
+        "recordId": 84,
+        "title": "ハッピーシンセサイザ",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0084"
+      },
+      {
+        "game": "garupa",
+        "recordId": 764,
+        "title": "ヒカリへ",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0742"
+      },
+      {
+        "game": "garupa",
+        "recordId": 325,
+        "title": "ラムのラブソング",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0319"
+      },
+      {
+        "game": "garupa",
+        "recordId": 153,
+        "title": "奏（かなで）",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0153"
+      },
+      {
+        "game": "garupa",
+        "recordId": 332,
+        "title": "徒花ネクロマンシー",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0326"
+      },
+      {
+        "game": "garupa",
+        "recordId": 708,
+        "title": "恋愛サーキュレーション",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0692"
+      },
+      {
+        "game": "garupa",
+        "recordId": 390,
+        "title": "春を告げる",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0384"
+      },
+      {
+        "game": "garupa",
+        "recordId": 189,
+        "title": "春擬き",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0189"
+      },
+      {
+        "game": "garupa",
+        "recordId": 654,
+        "title": "最上級にかわいいの！",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0642"
+      },
+      {
+        "game": "garupa",
+        "recordId": 769,
+        "title": "超最強",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0747"
+      },
+      {
+        "game": "garupa",
+        "recordId": 246,
+        "title": "Bad Apple!! feat. nomico",
+        "band": "Roselia",
+        "workId": "wk-0240"
+      },
+      {
+        "game": "garupa",
+        "recordId": 111,
+        "title": "Believe in my existence",
+        "band": "Roselia",
+        "workId": "wk-0111"
+      },
+      {
+        "game": "garupa",
+        "recordId": 395,
+        "title": "Realize",
+        "band": "Roselia",
+        "workId": "wk-0389"
+      },
+      {
+        "game": "garupa",
+        "recordId": 68,
+        "title": "Red fraction",
+        "band": "Roselia",
+        "workId": "wk-0068"
+      },
+      {
+        "game": "garupa",
+        "recordId": 657,
+        "title": "Reweave",
+        "band": "Roselia",
+        "workId": "wk-0645"
+      },
+      {
+        "game": "garupa",
+        "recordId": 370,
+        "title": "SPARK-AGAIN",
+        "band": "Roselia",
+        "workId": "wk-0364"
+      },
+      {
+        "game": "garupa",
+        "recordId": 100,
+        "title": "This game",
+        "band": "Roselia",
+        "workId": "wk-0100"
+      },
+      {
+        "game": "garupa",
+        "recordId": 549,
+        "title": "slash",
+        "band": "Roselia",
+        "workId": "wk-0540"
+      },
+      {
+        "game": "garupa",
+        "recordId": 125,
+        "title": "キミの記憶",
+        "band": "Roselia",
+        "workId": "wk-0125"
+      },
+      {
+        "game": "garupa",
+        "recordId": 128,
+        "title": "シャルル",
+        "band": "Roselia",
+        "workId": "wk-0128"
+      },
+      {
+        "game": "garupa",
+        "recordId": 152,
+        "title": "ツキアカリのミチシルベ",
+        "band": "Roselia",
+        "workId": "wk-0152"
+      },
+      {
+        "game": "garupa",
+        "recordId": 606,
+        "title": "人マニア",
+        "band": "Roselia",
+        "workId": "wk-0597"
+      },
+      {
+        "game": "garupa",
+        "recordId": 270,
+        "title": "右肩の蝶",
+        "band": "Roselia",
+        "workId": "wk-0264"
+      },
+      {
+        "game": "garupa",
+        "recordId": 465,
+        "title": "新時代",
+        "band": "Roselia",
+        "workId": "wk-0457"
+      },
+      {
+        "game": "garupa",
+        "recordId": 196,
+        "title": "海色",
+        "band": "Roselia",
+        "workId": "wk-0196"
+      },
+      {
+        "game": "garupa",
+        "recordId": 231,
+        "title": "甲賀忍法帖",
+        "band": "Roselia",
+        "workId": "wk-0226"
+      },
+      {
+        "game": "garupa",
+        "recordId": 49,
+        "title": "紅蓮の弓矢",
+        "band": "Roselia",
+        "workId": "wk-0049"
+      },
+      {
+        "game": "garupa",
+        "recordId": 178,
+        "title": "緋色の空",
+        "band": "Roselia",
+        "workId": "wk-0178"
+      },
+      {
+        "game": "garupa",
+        "recordId": 519,
+        "title": "Be born",
+        "band": "メガテラ・ゼロ feat. 夢ノ結唱 POPY",
+        "workId": "wk-0510"
+      },
+      {
+        "game": "garupa",
+        "recordId": 396,
+        "title": "Brand new Pastel Road！",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0390"
+      },
+      {
+        "game": "garupa",
+        "recordId": 674,
+        "title": "Bunny Girl",
+        "band": "Afterglow",
+        "workId": "wk-0660"
+      },
+      {
+        "game": "garupa",
+        "recordId": 22,
+        "title": "Butter-Fly",
+        "band": "Afterglow",
+        "workId": "wk-0022"
+      },
+      {
+        "game": "garupa",
+        "recordId": 145,
+        "title": "Crow Song",
+        "band": "Afterglow",
+        "workId": "wk-0145"
+      },
+      {
+        "game": "garupa",
+        "recordId": 753,
+        "title": "DAY×DAY",
+        "band": "Afterglow",
+        "workId": "wk-0734"
+      },
+      {
+        "game": "garupa",
+        "recordId": 299,
+        "title": "Northern lights",
+        "band": "Afterglow",
+        "workId": "wk-0293"
+      },
+      {
+        "game": "garupa",
+        "recordId": 74,
+        "title": "READY STEADY GO",
+        "band": "Afterglow",
+        "workId": "wk-0074"
+      },
+      {
+        "game": "garupa",
+        "recordId": 124,
+        "title": "Reach Out To The Truth",
+        "band": "Afterglow",
+        "workId": "wk-0124"
+      },
+      {
+        "game": "garupa",
+        "recordId": 87,
+        "title": "Redo",
+        "band": "Afterglow",
+        "workId": "wk-0087"
+      },
+      {
+        "game": "garupa",
+        "recordId": 52,
+        "title": "great escape",
+        "band": "Afterglow",
+        "workId": "wk-0052"
+      },
+      {
+        "game": "garupa",
+        "recordId": 163,
+        "title": "らしさ",
+        "band": "Afterglow",
+        "workId": "wk-0163"
+      },
+      {
+        "game": "garupa",
+        "recordId": 609,
+        "title": "カゲロウデイズ",
+        "band": "Afterglow",
+        "workId": "wk-0600"
+      },
+      {
+        "game": "garupa",
+        "recordId": 267,
+        "title": "カサブタ",
+        "band": "Afterglow",
+        "workId": "wk-0261"
+      },
+      {
+        "game": "garupa",
+        "recordId": 515,
+        "title": "サウダージ",
+        "band": "Afterglow",
+        "workId": "wk-0506"
+      },
+      {
+        "game": "garupa",
+        "recordId": 308,
+        "title": "サムライハート(Some Like It Hot!!)",
+        "band": "Afterglow",
+        "workId": "wk-0302"
+      },
+      {
+        "game": "garupa",
+        "recordId": 509,
+        "title": "チルドレンレコード(Re:boot)",
+        "band": "Afterglow",
+        "workId": "wk-0500"
+      },
+      {
+        "game": "garupa",
+        "recordId": 409,
+        "title": "トーキョーワンダー。",
+        "band": "Afterglow",
+        "workId": "wk-0402"
+      },
+      {
+        "game": "garupa",
+        "recordId": 334,
+        "title": "ヒューマノイド",
+        "band": "Afterglow",
+        "workId": "wk-0328"
+      },
+      {
+        "game": "garupa",
+        "recordId": 770,
+        "title": "ランデヴー",
+        "band": "Afterglow",
+        "workId": "wk-0748"
+      },
+      {
+        "game": "garupa",
+        "recordId": 526,
+        "title": "ヴィラン",
+        "band": "Afterglow",
+        "workId": "wk-0517"
+      },
+      {
+        "game": "garupa",
+        "recordId": 187,
+        "title": "午夜の待ち合わせ",
+        "band": "Afterglow",
+        "workId": "wk-0187"
+      },
+      {
+        "game": "garupa",
+        "recordId": 467,
+        "title": "命に嫌われている。",
+        "band": "Afterglow",
+        "workId": "wk-0458"
+      },
+      {
+        "game": "garupa",
+        "recordId": 224,
+        "title": "天ノ弱",
+        "band": "Afterglow",
+        "workId": "wk-0220"
+      },
+      {
+        "game": "garupa",
+        "recordId": 682,
+        "title": "愛唄",
+        "band": "Afterglow",
+        "workId": "wk-0668"
+      },
+      {
+        "game": "garupa",
+        "recordId": 154,
+        "title": "瞬間センチメンタル",
+        "band": "Afterglow",
+        "workId": "wk-0154"
+      },
+      {
+        "game": "garupa",
+        "recordId": 543,
+        "title": "粉雪",
+        "band": "Afterglow",
+        "workId": "wk-0534"
+      },
+      {
+        "game": "garupa",
+        "recordId": 194,
+        "title": "青い栞",
+        "band": "Afterglow",
+        "workId": "wk-0194"
+      },
+      {
+        "game": "garupa",
+        "recordId": 369,
+        "title": "COLORS",
+        "band": "Afterglow×FLOW",
+        "workId": "wk-0363"
+      },
+      {
+        "game": "garupa",
+        "recordId": 85,
+        "title": "Dragon Night",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0085"
+      },
+      {
+        "game": "garupa",
+        "recordId": 244,
+        "title": "POP TEAM EPIC",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0238"
+      },
+      {
+        "game": "garupa",
+        "recordId": 309,
+        "title": "SHINY DAYS",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0303"
+      },
+      {
+        "game": "garupa",
+        "recordId": 440,
+        "title": "Storyteller",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0433"
+      },
+      {
+        "game": "garupa",
+        "recordId": 98,
+        "title": "fantastic dreamer",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0098"
+      },
+      {
+        "game": "garupa",
+        "recordId": 571,
+        "title": "きゅうくらりん",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0562"
+      },
+      {
+        "game": "garupa",
+        "recordId": 400,
+        "title": "くちづけDiamond",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0393"
+      },
+      {
+        "game": "garupa",
+        "recordId": 653,
+        "title": "はいよろこんで",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0641"
+      },
+      {
+        "game": "garupa",
+        "recordId": 56,
+        "title": "ひまわりの約束",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0056"
+      },
+      {
+        "game": "garupa",
+        "recordId": 481,
+        "title": "アイウエ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0472"
+      },
+      {
+        "game": "garupa",
+        "recordId": 274,
+        "title": "ウィーアー！",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0268"
+      },
+      {
+        "game": "garupa",
+        "recordId": 151,
+        "title": "エクストラ・マジック・アワー",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0151"
+      },
+      {
+        "game": "garupa",
+        "recordId": 305,
+        "title": "オレンジ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0299"
+      },
+      {
+        "game": "garupa",
+        "recordId": 590,
+        "title": "ギミー！レボリューション",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0581"
+      },
+      {
+        "game": "garupa",
+        "recordId": 607,
+        "title": "クラクラ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0598"
+      },
+      {
+        "game": "garupa",
+        "recordId": 772,
+        "title": "ココロのちず",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0750"
+      },
+      {
+        "game": "garupa",
+        "recordId": 210,
+        "title": "コレカラ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0209"
+      },
+      {
+        "game": "garupa",
+        "recordId": 33,
+        "title": "シルエット",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0033"
+      },
+      {
+        "game": "garupa",
+        "recordId": 379,
+        "title": "ハッピー☆マテリアル",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0373"
+      },
+      {
+        "game": "garupa",
+        "recordId": 47,
+        "title": "ハッピーサマーウェディング",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0047"
+      },
+      {
+        "game": "garupa",
+        "recordId": 741,
+        "title": "マツケンサンバII",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0722"
+      },
+      {
+        "game": "garupa",
+        "recordId": 348,
+        "title": "ン・パカマーチ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0342"
+      },
+      {
+        "game": "garupa",
+        "recordId": 157,
+        "title": "回レ！雪月花",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0157"
+      },
+      {
+        "game": "garupa",
+        "recordId": 292,
+        "title": "好き！雪！本気マジック",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0286"
+      },
+      {
+        "game": "garupa",
+        "recordId": 544,
+        "title": "強風オールバック",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0535"
+      },
+      {
+        "game": "garupa",
+        "recordId": 710,
+        "title": "怪獣",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0694"
+      },
+      {
+        "game": "garupa",
+        "recordId": 501,
+        "title": "愛のしるし",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0492"
+      },
+      {
+        "game": "garupa",
+        "recordId": 138,
+        "title": "新宝島",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0138"
+      },
+      {
+        "game": "garupa",
+        "recordId": 676,
+        "title": "最高到達点",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0662"
+      },
+      {
+        "game": "garupa",
+        "recordId": 555,
+        "title": "Fleur",
+        "band": "Morfonica×雪花ラミィ",
+        "workId": "wk-0546"
+      },
+      {
+        "game": "garupa",
+        "recordId": 226,
+        "title": "GO!!!",
+        "band": "Afterglow×こころ",
+        "workId": "wk-0222"
+      },
+      {
+        "game": "garupa",
+        "recordId": 728,
+        "title": "スマイリーキャロル",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0712"
+      },
+      {
+        "game": "garupa",
+        "recordId": 556,
+        "title": "Lioness' Pride",
+        "band": "MyGO!!!!!×獅白ぼたん",
+        "workId": "wk-0547"
+      },
+      {
+        "game": "garupa",
+        "recordId": 418,
+        "title": "Preserved Roses",
+        "band": "Roselia×蘭",
+        "workId": "wk-0411"
+      },
+      {
+        "game": "garupa",
+        "recordId": 169,
+        "title": "革命デュアリズム",
+        "band": "Roselia×蘭",
+        "workId": "wk-0169"
+      },
+      {
+        "game": "garupa",
+        "recordId": 295,
+        "title": "SAVIOR OF SONG",
+        "band": "RAISE A SUILEN×友希那",
+        "workId": "wk-0289"
+      },
+      {
+        "game": "garupa",
+        "recordId": 480,
+        "title": "踊",
+        "band": "RAISE A SUILEN×友希那",
+        "workId": "wk-0471"
+      },
+      {
+        "game": "garupa",
+        "recordId": 542,
+        "title": "Stellar Stellar",
+        "band": "RAISE A SUILEN×星街すいせい",
+        "workId": "wk-0533"
+      },
+      {
+        "game": "garupa",
+        "recordId": 713,
+        "title": "Velonica",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0697"
+      },
+      {
+        "game": "garupa",
+        "recordId": 579,
+        "title": "「僕は...」",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0570"
+      },
+      {
+        "game": "garupa",
+        "recordId": 660,
+        "title": "だれかの心臓になれたなら",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0648"
+      },
+      {
+        "game": "garupa",
+        "recordId": 521,
+        "title": "猛独が襲う",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0512"
+      },
+      {
+        "game": "garupa",
+        "recordId": 758,
+        "title": "過去を喰らう",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0739"
+      },
+      {
+        "game": "garupa",
+        "recordId": 622,
+        "title": "遥か彼方",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0613"
+      },
+      {
+        "game": "garupa",
+        "recordId": 610,
+        "title": "雑踏、僕らの街",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0601"
+      },
+      {
+        "game": "garupa",
+        "recordId": 352,
+        "title": "TOMORROW",
+        "band": "ハロー、ハッピーワールド！×Machico",
+        "workId": "wk-0346"
+      },
+      {
+        "game": "garupa",
+        "recordId": 558,
+        "title": "どりーみんチュチュ",
+        "band": "Pastel＊Palettes×花音",
+        "workId": "wk-0549"
+      },
+      {
+        "game": "garupa",
+        "recordId": 357,
+        "title": "ぼなぺてぃーと♡Ｓ",
+        "band": "ハロー、ハッピーワールド！×白上フブキ",
+        "workId": "wk-0351"
+      },
+      {
+        "game": "garupa",
+        "recordId": 712,
+        "title": "エガクミライ",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0696"
+      },
+      {
+        "game": "garupa",
+        "recordId": 522,
+        "title": "歌いましょう鳴らしましょう",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0513"
+      },
+      {
+        "game": "garupa",
+        "recordId": 376,
+        "title": "グッバイ宣言",
+        "band": "Afterglow×香澄",
+        "workId": "wk-0370"
+      },
+      {
+        "game": "garupa",
+        "recordId": 634,
+        "title": "シカ色デイズ",
+        "band": "ハロー、ハッピーワールド！×ましろ",
+        "workId": "wk-0624"
+      },
+      {
+        "game": "garupa",
+        "recordId": 373,
+        "title": "シル・ヴ・プレジデント",
+        "band": "ハロー、ハッピーワールド！×彩×ましろ",
+        "workId": "wk-0367"
+      },
+      {
+        "game": "garupa",
+        "recordId": 448,
+        "title": "シル・ヴ・プレジデント",
+        "band": "ハロー、ハッピーワールド！×P丸様。",
+        "workId": "wk-0367"
+      },
+      {
+        "game": "garupa",
+        "recordId": 479,
+        "title": "チューリングラブ",
+        "band": "ハロー、ハッピーワールド！×蘭",
+        "workId": "wk-0470"
+      },
+      {
+        "game": "garupa",
+        "recordId": 374,
+        "title": "ヒトリゴト",
+        "band": "Pastel＊Palettes×ClariS",
+        "workId": "wk-0368"
+      },
+      {
+        "game": "garupa",
+        "recordId": 452,
+        "title": "フォニイ",
+        "band": "Afterglow×96猫",
+        "workId": "wk-0444"
+      },
+      {
+        "game": "garupa",
+        "recordId": 296,
+        "title": "ムーンライト伝説",
+        "band": "Pastel＊Palettes×こころ×ましろ",
+        "workId": "wk-0290"
+      },
+      {
+        "game": "garupa",
+        "recordId": 450,
+        "title": "乙女はサイコパス",
+        "band": "Poppin'Party×P丸様。",
+        "workId": "wk-0442"
+      },
+      {
+        "game": "garupa",
+        "recordId": 464,
+        "title": "五等分の気持ち",
+        "band": "Pastel＊Palettes×有咲×つぐみ×ましろ",
+        "workId": "wk-0456"
+      },
+      {
+        "game": "garupa",
+        "recordId": 225,
+        "title": "創聖のアクエリオン",
+        "band": "Poppin'Party×友希那",
+        "workId": "wk-0221"
+      },
+      {
+        "game": "garupa",
+        "recordId": 632,
+        "title": "幾億光年",
+        "band": "Poppin'Party×燈",
+        "workId": "wk-0622"
+      },
+      {
+        "game": "garupa",
+        "recordId": 635,
+        "title": "悪魔の子",
+        "band": "Roselia×レイヤ",
+        "workId": "wk-0625"
+      },
+      {
+        "game": "garupa",
+        "recordId": 377,
+        "title": "曇天",
+        "band": "Roselia×レイヤ",
+        "workId": "wk-0371"
+      },
+      {
+        "game": "garupa",
+        "recordId": 630,
+        "title": "愛包ダンスホール",
+        "band": "Pastel＊Palettes×蘭",
+        "workId": "wk-0620"
+      },
+      {
+        "game": "garupa",
+        "recordId": 170,
+        "title": "檄！帝国華撃団",
+        "band": "Poppin'Party×彩×こころ",
+        "workId": "wk-0170"
+      },
+      {
+        "game": "garupa",
+        "recordId": 499,
+        "title": "私色きらめき日和",
+        "band": "ますかっと feat. 夢ノ結唱 POPY",
+        "workId": "wk-0490"
+      },
+      {
+        "game": "garupa",
+        "recordId": 534,
+        "title": "聖少女領域",
+        "band": "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ",
+        "workId": "wk-0525"
+      },
+      {
+        "game": "garupa",
+        "recordId": 453,
+        "title": "閃光",
+        "band": "Afterglow×レイヤ",
+        "workId": "wk-0445"
+      },
+      {
+        "game": "garupa",
+        "recordId": 405,
+        "title": "青空のラプソディ",
+        "band": "Morfonica×fhána",
+        "workId": "wk-0398"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 17,
+        "title": "証命讃歌",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0777"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 20,
+        "title": "シャルル",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0128"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 21,
+        "title": "青春コンプレックス",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0779"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 45,
+        "title": "エンプティパペット",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0792"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 46,
+        "title": "限界現実サバイブ天使",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0793"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 47,
+        "title": "ビッグマウス",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0794"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 48,
+        "title": "夢現妄想世界",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0795"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 49,
+        "title": "コハク",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0796"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 52,
+        "title": "真夜中遊園地",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0797"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 53,
+        "title": "チューニング",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0800"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 56,
+        "title": "Face The Next",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0803"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 85,
+        "title": "夢我夢中",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0823"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 60,
+        "title": "唱",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0806"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 61,
+        "title": "オリオンをなぞる",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0807"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 70,
+        "title": "ロウワー",
+        "band": "millsage",
+        "workId": "wk-0814"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 82,
+        "title": "Stellar Stellar",
+        "band": "millsage",
+        "workId": "wk-0533"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 78,
+        "title": "革命道中",
+        "band": "一家Dumb Rock!",
+        "workId": "wk-0735"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 84,
+        "title": "微笑みの爆弾",
+        "band": "一家Dumb Rock!",
+        "workId": "wk-0822"
+      }
+    ],
+    "humanAdditional": [
+      {
+        "game": "ournotes",
+        "recordId": 66,
+        "title": "カーネーションの咲く日に",
+        "band": "millsage",
+        "workId": "wk-0812"
+      }
+    ]
+  },
+  "garupaArranger": {
+    "confirmedCredit": 749,
+    "allCreatorResolved": 697,
+    "rate": "93.06%",
+    "unresolved": [
+      {
+        "game": "garupa",
+        "recordId": 20,
+        "title": "Alchemy",
+        "band": "Poppin'Party",
+        "workId": "wk-0020"
+      },
+      {
+        "game": "garupa",
+        "recordId": 40,
+        "title": "Little Busters!",
+        "band": "Poppin'Party",
+        "workId": "wk-0040"
+      },
+      {
+        "game": "garupa",
+        "recordId": 31,
+        "title": "光るなら",
+        "band": "Poppin'Party",
+        "workId": "wk-0031"
+      },
+      {
+        "game": "garupa",
+        "recordId": 19,
+        "title": "空色デイズ",
+        "band": "Poppin'Party",
+        "workId": "wk-0019"
+      },
+      {
+        "game": "garupa",
+        "recordId": 248,
+        "title": "群青日和",
+        "band": "Poppin'Party",
+        "workId": "wk-0242"
+      },
+      {
+        "game": "garupa",
+        "recordId": 387,
+        "title": "閃光",
+        "band": "Roselia",
+        "workId": "wk-0381"
+      },
+      {
+        "game": "garupa",
+        "recordId": 372,
+        "title": "DEPARTURES",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0366"
+      },
+      {
+        "game": "garupa",
+        "recordId": 272,
+        "title": "劣等上等",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0266"
+      },
+      {
+        "game": "garupa",
+        "recordId": 278,
+        "title": "恋しさと せつなさと 心強さと",
+        "band": "RAISE A SUILEN",
+        "workId": "wk-0272"
+      },
+      {
+        "game": "garupa",
+        "recordId": 80,
+        "title": "B.O.F",
+        "band": "Poppin'Party",
+        "workId": "wk-0080"
+      },
+      {
+        "game": "garupa",
+        "recordId": 365,
+        "title": "イントロダクション",
+        "band": "Poppin'Party",
+        "workId": "wk-0359"
+      },
+      {
+        "game": "garupa",
+        "recordId": 38,
+        "title": "キミにもらったもの",
+        "band": "Poppin'Party",
+        "workId": "wk-0038"
+      },
+      {
+        "game": "garupa",
+        "recordId": 508,
+        "title": "燦々",
+        "band": "Afterglow",
+        "workId": "wk-0499"
+      },
+      {
+        "game": "garupa",
+        "recordId": 432,
+        "title": "The Circle Of Butterflies",
+        "band": "Morfonica",
+        "workId": "wk-0425"
+      },
+      {
+        "game": "garupa",
+        "recordId": 705,
+        "title": "ビューティ・フォー",
+        "band": "Morfonica",
+        "workId": "wk-0689"
+      },
+      {
+        "game": "garupa",
+        "recordId": 650,
+        "title": "Crucifix X",
+        "band": "Ave Mujica",
+        "workId": "wk-0639"
+      },
+      {
+        "game": "garupa",
+        "recordId": 44,
+        "title": "MOON PRIDE",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0044"
+      },
+      {
+        "game": "garupa",
+        "recordId": 23,
+        "title": "secret base ～君がくれたもの～",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0023"
+      },
+      {
+        "game": "garupa",
+        "recordId": 35,
+        "title": "そばかす",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0035"
+      },
+      {
+        "game": "garupa",
+        "recordId": 24,
+        "title": "ドリームパレード",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0024"
+      },
+      {
+        "game": "garupa",
+        "recordId": 263,
+        "title": "ノスタルジックレインフォール",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0257"
+      },
+      {
+        "game": "garupa",
+        "recordId": 246,
+        "title": "Bad Apple!! feat. nomico",
+        "band": "Roselia",
+        "workId": "wk-0240"
+      },
+      {
+        "game": "garupa",
+        "recordId": 37,
+        "title": "ETERNAL BLAZE",
+        "band": "Roselia",
+        "workId": "wk-0037"
+      },
+      {
+        "game": "garupa",
+        "recordId": 26,
+        "title": "Hacking to the Gate",
+        "band": "Roselia",
+        "workId": "wk-0026"
+      },
+      {
+        "game": "garupa",
+        "recordId": 231,
+        "title": "甲賀忍法帖",
+        "band": "Roselia",
+        "workId": "wk-0226"
+      },
+      {
+        "game": "garupa",
+        "recordId": 25,
+        "title": "魂のルフラン",
+        "band": "Roselia",
+        "workId": "wk-0025"
+      },
+      {
+        "game": "garupa",
+        "recordId": 519,
+        "title": "Be born",
+        "band": "メガテラ・ゼロ feat. 夢ノ結唱 POPY",
+        "workId": "wk-0510"
+      },
+      {
+        "game": "garupa",
+        "recordId": 396,
+        "title": "Brand new Pastel Road！",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0390"
+      },
+      {
+        "game": "garupa",
+        "recordId": 22,
+        "title": "Butter-Fly",
+        "band": "Afterglow",
+        "workId": "wk-0022"
+      },
+      {
+        "game": "garupa",
+        "recordId": 29,
+        "title": "Don’t say “lazy”",
+        "band": "Afterglow",
+        "workId": "wk-0029"
+      },
+      {
+        "game": "garupa",
+        "recordId": 21,
+        "title": "カルマ",
+        "band": "Afterglow",
+        "workId": "wk-0021"
+      },
+      {
+        "game": "garupa",
+        "recordId": 243,
+        "title": "ロキ",
+        "band": "Afterglow",
+        "workId": "wk-0237"
+      },
+      {
+        "game": "garupa",
+        "recordId": 85,
+        "title": "Dragon Night",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0085"
+      },
+      {
+        "game": "garupa",
+        "recordId": 28,
+        "title": "いーあるふぁんくらぶ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0028"
+      },
+      {
+        "game": "garupa",
+        "recordId": 27,
+        "title": "シュガーソングとビターステップ",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0027"
+      },
+      {
+        "game": "garupa",
+        "recordId": 33,
+        "title": "シルエット",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0033"
+      },
+      {
+        "game": "garupa",
+        "recordId": 47,
+        "title": "ハッピーサマーウェディング",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0047"
+      },
+      {
+        "game": "garupa",
+        "recordId": 220,
+        "title": "全力少年",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0217"
+      },
+      {
+        "game": "garupa",
+        "recordId": 78,
+        "title": "恋は渾沌の隷也",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0078"
+      },
+      {
+        "game": "garupa",
+        "recordId": 417,
+        "title": "Happy! Happier! Happiest!",
+        "band": "ハロー、ハッピーワールド！",
+        "workId": "wk-0410"
+      },
+      {
+        "game": "garupa",
+        "recordId": 627,
+        "title": "Subtitle",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0618"
+      },
+      {
+        "game": "garupa",
+        "recordId": 523,
+        "title": "swim",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0514"
+      },
+      {
+        "game": "garupa",
+        "recordId": 579,
+        "title": "「僕は...」",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0570"
+      },
+      {
+        "game": "garupa",
+        "recordId": 660,
+        "title": "だれかの心臓になれたなら",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0648"
+      },
+      {
+        "game": "garupa",
+        "recordId": 622,
+        "title": "遥か彼方",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0613"
+      },
+      {
+        "game": "garupa",
+        "recordId": 610,
+        "title": "雑踏、僕らの街",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0601"
+      },
+      {
+        "game": "garupa",
+        "recordId": 712,
+        "title": "エガクミライ",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0696"
+      },
+      {
+        "game": "garupa",
+        "recordId": 522,
+        "title": "歌いましょう鳴らしましょう",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0513"
+      },
+      {
+        "game": "garupa",
+        "recordId": 503,
+        "title": "詩超絆",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0494"
+      },
+      {
+        "game": "garupa",
+        "recordId": 647,
+        "title": "音一会",
+        "band": "MyGO!!!!!",
+        "workId": "wk-0636"
+      },
+      {
+        "game": "garupa",
+        "recordId": 499,
+        "title": "私色きらめき日和",
+        "band": "ますかっと feat. 夢ノ結唱 POPY",
+        "workId": "wk-0490"
+      },
+      {
+        "game": "garupa",
+        "recordId": 51,
+        "title": "花園電気ギター！！！",
+        "band": "花園たえ",
+        "workId": "wk-0051"
+      }
+    ],
+    "humanAdditional": [
+      {
+        "game": "garupa",
+        "recordId": 218,
+        "title": "[FULL] きゅ〜まい＊flower",
+        "band": "Pastel＊Palettes",
+        "workId": "wk-0176"
+      },
+      {
+        "game": "garupa",
+        "recordId": 738,
+        "title": "きゅ〜まい＊flower(パラレルver.)",
+        "band": "スキを貫け♡",
+        "workId": "wk-0176"
+      }
+    ]
+  },
+  "ournotesArranger": {
+    "confirmedCredit": 5,
+    "allCreatorResolved": 2,
+    "rate": "40.00%",
+    "unresolved": [
+      {
+        "game": "ournotes",
+        "recordId": 40,
+        "title": "残酷な天使のテーゼ",
+        "band": "Ave Mujica",
+        "workId": "wk-0086"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 61,
+        "title": "オリオンをなぞる",
+        "band": "夢限大みゅーたいぷ",
+        "workId": "wk-0807"
+      },
+      {
+        "game": "ournotes",
+        "recordId": 70,
+        "title": "ロウワー",
+        "band": "millsage",
+        "workId": "wk-0814"
+      }
+    ],
+    "humanAdditional": []
+  },
+  "tokenIdentityConfidence": {
+    "CONFIRMED": 117,
+    "PROBABLE": 7,
+    "UNRESOLVED": 316
+  },
+  "splitConfirmedRaw": 31,
+  "newActiveCandidates": 341,
+  "rawTokenConfidence": {
+    "CONFIRMED": 2128,
+    "PROBABLE": 42,
+    "UNRESOLVED": 513
+  },
+  "recordScopedPolicyTokens": 119,
+  "newCandidateScopeNote": "全3roleの原文（非確定・発売版参考を含む）と6human追加の候補群。未確定の形式差groupは仮統合で、確定人数を意味しない。"
+}

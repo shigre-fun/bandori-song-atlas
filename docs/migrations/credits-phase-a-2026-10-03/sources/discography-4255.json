@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4255/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:11.703Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「夢はトゥルーエンド！」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年8月28日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「夢はトゥルーエンド！」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：優莉"
+    },
+    {
+      "line": 3,
+      "text": "作曲：千石ユノ"
+    },
+    {
+      "line": 4,
+      "text": "編曲：三代"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "夢限大みゅーたいぷ「夢はトゥルーエンド！」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

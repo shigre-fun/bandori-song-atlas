@@ -1,0 +1,56 @@
+{
+  "url": "https://bang-dream.com/discographies/4088/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:30.511Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「顔」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2025年4月17日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「顔」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：木下龍平(SUPA LOVE)、Diggy-MO’"
+    },
+    {
+      "line": 4,
+      "text": "編曲：木下龍平(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 666,
+      "workId": "wk-0653",
+      "title": "顔",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「顔」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 28,
+      "workId": "wk-0653",
+      "title": "顔",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "「顔」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「顔」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

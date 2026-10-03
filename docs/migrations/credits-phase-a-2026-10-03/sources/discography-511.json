@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/511/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:17.384Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 11th Single「ガールズコード」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2018年10月3日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 134,
+      "workId": "wk-0134",
+      "title": "ガールズコード",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.ガールズコード",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 201,
+      "workId": "wk-0201",
+      "title": "切ないSandglass",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.切ないSandglass",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 11th Single「ガールズコード」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

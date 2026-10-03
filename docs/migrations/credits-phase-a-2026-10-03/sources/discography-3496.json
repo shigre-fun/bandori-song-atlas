@@ -1,0 +1,52 @@
+{
+  "url": "https://bang-dream.com/discographies/3496/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:51.353Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「詩超絆」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2023年8月18日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "MyGO!!!!!「詩超絆」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：横地健太(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 503,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「詩超絆」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 8,
+      "workId": "wk-0494",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "MyGO!!!!!「詩超絆」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「詩超絆」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

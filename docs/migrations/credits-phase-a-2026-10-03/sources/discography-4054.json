@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/4054/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:51.649Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow ミニAlbum「GLOW GOES ON」",
+  "artists": "Afterglow",
+  "releaseDate": "2025年7月2日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 557,
+      "workId": "wk-0548",
+      "title": "A Sunset So Bright",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.A Sunset So Bright",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 588,
+      "workId": "wk-0579",
+      "title": "Glowing After",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Glowing After",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 601,
+      "workId": "wk-0592",
+      "title": "Start as Usual",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "3.Start as Usual",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 645,
+      "workId": "wk-0634",
+      "title": "花笑みのデュオ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "5.花笑みのデュオ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow ミニAlbum「GLOW GOES ON」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

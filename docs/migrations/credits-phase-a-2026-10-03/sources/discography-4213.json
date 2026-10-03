@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4213/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:47:59.784Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 23rd Single「スキップ･スランプ･スリッパ」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2026年10月14日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 777,
+      "workId": "wk-0755",
+      "title": "Amore",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.Amore",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 23rd Single「スキップ･スランプ･スリッパ」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

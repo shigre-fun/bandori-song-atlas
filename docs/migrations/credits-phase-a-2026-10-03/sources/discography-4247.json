@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4247/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:12.631Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「unravel(Cover)」",
+  "artists": "millsage",
+  "releaseDate": "2026年8月21日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「unravel(Cover)」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲：TK"
+    },
+    {
+      "line": 3,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "millsage「unravel(Cover)」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

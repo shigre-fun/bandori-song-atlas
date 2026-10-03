@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/4188/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:19.754Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年5月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 54,
+      "workId": "wk-0801",
+      "title": "超惑星Xへの旅",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "1.超惑星Xへの旅",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

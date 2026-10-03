@@ -1,0 +1,52 @@
+{
+  "url": "https://bang-dream.com/discographies/4078/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:31.876Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「聿日箋秋」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2025年3月27日(木)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「聿日箋秋」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：トミタカズキ(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 663,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "「聿日箋秋」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 16,
+      "workId": "wk-0650",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "「聿日箋秋」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「聿日箋秋」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

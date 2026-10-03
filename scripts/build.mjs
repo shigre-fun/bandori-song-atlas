@@ -110,6 +110,7 @@ const catalogInfo = Object.fromEntries(
         : {}),
       songs: catalogs[game.id],
       creators: creatorData.creators,
+      roleCoverage: creatorData.roleCoverage,
     },
   ]),
 );

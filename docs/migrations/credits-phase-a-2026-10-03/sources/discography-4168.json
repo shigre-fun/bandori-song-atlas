@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/4168/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:31.269Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！「スマイリーキャロル」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2025年12月25日(木)",
+  "creditLines": [
+    {
+      "line": 9,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 10,
+      "text": "ハロー、ハッピーワールド！「スマイリーキャロル」"
+    },
+    {
+      "line": 11,
+      "text": "作詞：OSTER project"
+    },
+    {
+      "line": 12,
+      "text": "作曲：OSTER project"
+    },
+    {
+      "line": 13,
+      "text": "編曲：OSTER project"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 728,
+      "workId": "wk-0712",
+      "title": "スマイリーキャロル",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "ハロー、ハッピーワールド！「スマイリーキャロル」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！「スマイリーキャロル」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

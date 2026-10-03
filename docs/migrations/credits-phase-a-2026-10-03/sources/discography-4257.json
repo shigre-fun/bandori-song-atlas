@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4257/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:09.869Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "一家Dumb Rock!「ジャイアント・キラー・チューン」",
+  "artists": "一家Dumb Rock!",
+  "releaseDate": "2026年9月4日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "一家Dumb Rock!「ジャイアント・キラー・チューン」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 72,
+      "workId": "wk-0816",
+      "title": "ジャイアント・キラー・チューン",
+      "band": "一家Dumb Rock!",
+      "scope": "release",
+      "context": "一家Dumb Rock!「ジャイアント・キラー・チューン」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "一家Dumb Rock!「ジャイアント・キラー・チューン」",
+  "indexArtists": [
+    "一家Dumb Rock!"
+  ],
+  "reason": null
+}

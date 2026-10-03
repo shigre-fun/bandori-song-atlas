@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1390/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:04.558Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 6th Single「ワクワクmeetsトリップ」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2020年3月4日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 161,
+      "workId": "wk-0161",
+      "title": "ぎゅっDAYS♪",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.ぎゅっDAYS♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 184,
+      "workId": "wk-0184",
+      "title": "ワクワクmeetsトリップ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.ワクワクmeetsトリップ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 6th Single「ワクワクmeetsトリップ」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

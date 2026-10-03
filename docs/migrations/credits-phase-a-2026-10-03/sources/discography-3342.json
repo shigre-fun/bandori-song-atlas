@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/3342/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:49.510Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「黒のバースデイ」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2023年4月11日(火)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 683,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "Ave Mujica「黒のバースデイ」",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 35,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "Ave Mujica「黒のバースデイ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「黒のバースデイ」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

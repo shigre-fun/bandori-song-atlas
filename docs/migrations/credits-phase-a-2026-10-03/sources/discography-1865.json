@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1865/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:38.033Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ 7th Single「うぃーきゃん☆フレフレっ！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2020年11月25日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 250,
+      "workId": "wk-0244",
+      "title": "うぃーきゃん☆フレフレっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.うぃーきゃん☆フレフレっ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 269,
+      "workId": "wk-0263",
+      "title": "えがお、み～っけた！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.えがお、み〜っけた！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ 7th Single「うぃーきゃん☆フレフレっ！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

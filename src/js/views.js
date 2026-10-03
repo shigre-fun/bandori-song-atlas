@@ -8,6 +8,7 @@ import {
 import { GAMES } from "./site-config.js";
 import { creditParts } from "./credits.js";
 import { creditTokens, ROLE_LABELS } from "./credit-display.js";
+import { roleCoverage } from "./credit-coverage.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import {
   typeNames,
@@ -269,7 +270,11 @@ export function renderDetail(
               ? creditLinks(p.text, role)
               : e(p.text),
         )
-        .join("") || "未確認"
+        .join("") ||
+      (role === "arranger" &&
+      roleCoverage(data.roleCoverage, game.id)[role] === "partial"
+        ? "未整備・確認中"
+        : "未確認")
     );
   };
   const creditLinks = (value, field) =>

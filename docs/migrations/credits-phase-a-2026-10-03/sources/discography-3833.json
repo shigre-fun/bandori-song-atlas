@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3833/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:25.043Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica「Symbol IV : Earth」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2024年7月8日(月)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『Symbol IV : Earth』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：Diggy-MO’"
+    },
+    {
+      "line": 3,
+      "text": "作曲：長谷川大介(SUPA LOVE)、Diggy-MO'"
+    },
+    {
+      "line": 4,
+      "text": "編曲：長谷川大介(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 33,
+      "workId": "wk-0783",
+      "title": "Symbol IV : Earth",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "『Symbol IV : Earth』",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica「Symbol IV : Earth」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

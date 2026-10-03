@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/3107/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:21.277Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!! 1st Single「迷星叫」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2022年11月9日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 597,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 473,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "workId": "wk-0464",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "1.迷星叫",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "workId": "wk-0588",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "2.名無声",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!! 1st Single「迷星叫」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

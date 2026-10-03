@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/633/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:15.150Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 7th Single「BRAVE JEWEL」",
+  "artists": "Roselia",
+  "releaseDate": "2018年12月12日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 149,
+      "workId": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.BRAVE JEWEL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 130,
+      "workId": "wk-0130",
+      "title": "Sanctuary",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.Sanctuary",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 7th Single「BRAVE JEWEL」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

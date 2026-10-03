@@ -1,0 +1,269 @@
+{
+  "url": "https://bang-dream.com/discographies/3884/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:52.986Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 3rd Album「POPIGENIC」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2025年2月26日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 574,
+      "workId": "wk-0565",
+      "title": "怪獣の花唄",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.怪獣の花唄",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 621,
+      "workId": "wk-0612",
+      "title": "DOKI DOKI SCARY",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.DOKI DOKI SCARY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 146,
+      "workId": "wk-0146",
+      "title": "Home Street",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.Home Street",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 434,
+      "workId": "wk-0427",
+      "title": "Moonlight Walk",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "12.Moonlight Walk",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 284,
+      "workId": "wk-0278",
+      "title": "Photograph",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "5.Photograph",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 629,
+      "workId": "wk-0619",
+      "title": "TARINAI",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.TARINAI",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 64,
+      "workId": "wk-0064",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "11.Time Lapse",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 681,
+      "workId": "wk-0667",
+      "title": "Tomorrow’s Door",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Tomorrow's Door",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 209,
+      "workId": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "4.What's the POPIPA!?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 237,
+      "workId": "wk-0148",
+      "title": "[FULL] キズナミュージック♪",
+      "band": "Poppin'Party",
+      "scope": "work",
+      "context": "6.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 1,
+      "workId": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.ときめきエクスペリエンス！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 375,
+      "workId": "wk-0369",
+      "title": "ぽっぴん'どりーむ！",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "7.ぽっぴん'どりーむ！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 365,
+      "workId": "wk-0359",
+      "title": "イントロダクション",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.イントロダクション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 148,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 466,
+      "workId": "wk-0148",
+      "title": "キズナミュージック♪（3Dライブモード対応）",
+      "band": "Poppin'Party",
+      "scope": "work",
+      "context": "6.キズナミュージック♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 2,
+      "workId": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.キラキラだとか夢だとか ～Sing Girls～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.ティアドロップス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 575,
+      "workId": "wk-0566",
+      "title": "トレモロアイズ",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "10.トレモロアイズ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 343,
+      "workId": "wk-0337",
+      "title": "夏に閉じこめて",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "6.夏に閉じこめて",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 474,
+      "workId": "wk-0465",
+      "title": "新しい季節に",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.新しい季節に",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 378,
+      "workId": "wk-0372",
+      "title": "星の約束",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.星の約束",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 611,
+      "workId": "wk-0602",
+      "title": "花咲く未来に",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "12.花咲く未来に",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 8,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "9.走り始めたばかりのキミに",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 591,
+      "workId": "wk-0582",
+      "title": "雨上がり、キミと",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "11.雨上がり、キミと",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 532,
+      "workId": "wk-0523",
+      "title": "青春 To Be Continued",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "3.青春 To Be Continued",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 3rd Album「POPIGENIC」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

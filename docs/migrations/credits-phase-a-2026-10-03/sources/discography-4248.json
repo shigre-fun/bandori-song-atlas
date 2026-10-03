@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/4248/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:13.041Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "supremacy(CV.内田真礼)「disobedience」",
+  "artists": "",
+  "releaseDate": "2026年8月21日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「disobedience」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：千石ユノ"
+    },
+    {
+      "line": 3,
+      "text": "作曲：Yuh"
+    },
+    {
+      "line": 4,
+      "text": "編曲：二村学"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "supremacy(CV.内田真礼)「disobedience」",
+  "indexArtists": [
+    "その他"
+  ],
+  "reason": null
+}

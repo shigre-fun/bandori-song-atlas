@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/4079/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:30.986Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢幻戦隊むーたいぷ「夢幻戦隊むーたいぷ１」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2025年4月2日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 44,
+      "workId": "wk-0791",
+      "title": "✞animaるパーティ✞開催中✞",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "5.✞animaるパーティ✞開催中✞",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "workId": "wk-0792",
+      "title": "エンプティパペット",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "4.エンプティパペット",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "workId": "wk-0793",
+      "title": "限界現実サバイブ天使",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "3.限界現実サバイブ天使",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "workId": "wk-0794",
+      "title": "ビッグマウス",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "2.ビッグマウス",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢幻戦隊むーたいぷ「夢幻戦隊むーたいぷ１」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

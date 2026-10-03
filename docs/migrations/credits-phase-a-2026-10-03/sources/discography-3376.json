@@ -1,0 +1,119 @@
+{
+  "url": "https://bang-dream.com/discographies/3376/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:12.203Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Ave Mujica ミニAlbum「Alea jacta est」",
+  "artists": "Ave Mujica",
+  "releaseDate": "2023年9月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 636,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "6.Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 715,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "5.Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 683,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "1.黒のバースデイ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 23,
+      "workId": "wk-0626",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "6.Ave Mujica",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 35,
+      "workId": "wk-0669",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "1.黒のバースデイ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "workId": "wk-0785",
+      "title": "Choir ‘S’ Choir",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "3.Choir ‘S’ Choir",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 37,
+      "workId": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "5.Mas?uerade Rhapsody Re?uest",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 41,
+      "workId": "wk-0788",
+      "title": "堕天",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "7.堕天",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 42,
+      "workId": "wk-0789",
+      "title": "暗黒天国",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "4.暗黒天国",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 43,
+      "workId": "wk-0790",
+      "title": "KINGS",
+      "band": "Ave Mujica",
+      "scope": "release",
+      "context": "2.KINGS",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Ave Mujica ミニAlbum「Alea jacta est」",
+  "indexArtists": [
+    "Ave Mujica"
+  ],
+  "reason": null
+}

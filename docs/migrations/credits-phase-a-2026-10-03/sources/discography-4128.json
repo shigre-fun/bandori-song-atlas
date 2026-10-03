@@ -1,0 +1,199 @@
+{
+  "url": "https://bang-dream.com/discographies/4128/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:36.696Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 14th Single「‘FIGHT’ ADDICT」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2025年11月12日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 703,
+      "workId": "wk-0687",
+      "title": "'FIGHT' ADDICT",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.‘FIGHT’ ADDICT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 533,
+      "workId": "wk-0524",
+      "title": "-N-E-M-E-S-I-S-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.-N-E-M-E-S-I-S-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 255,
+      "workId": "wk-0249",
+      "title": "A DECLARATION OF ×××",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.A DECLARATION OF ×××",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 528,
+      "workId": "wk-0519",
+      "title": "BATTLE CRY",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.BATTLE CRY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 602,
+      "workId": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "12. Bad Kids All Bet",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 733,
+      "workId": "wk-0717",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.Drown Out the Noise and Push Through the Trash",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11. EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 684,
+      "workId": "wk-0670",
+      "title": "FIVE as ONE",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.FIVE as ONE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 349,
+      "workId": "wk-0343",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.HELL! or HELL?",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 651,
+      "workId": "wk-0640",
+      "title": "HOWLING AMBITION",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.HOWLING AMBITION",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 435,
+      "workId": "wk-0428",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.Invincible Fighter",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 303,
+      "workId": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.OUTSIDER RODEO",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 150,
+      "workId": "wk-0150",
+      "title": "R·I·O·T",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.R·I·O·T",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 414,
+      "workId": "wk-0407",
+      "title": "SOUL SOLDIER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.SOUL SOLDIER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 345,
+      "workId": "wk-0339",
+      "title": "Sacred world",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.Sacred world",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 582,
+      "workId": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.V.I.P MONSTER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 626,
+      "workId": "wk-0617",
+      "title": "VIVID FIRST TIME",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13. VIVID FIRST TIME",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 659,
+      "workId": "wk-0647",
+      "title": "第六感",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.第六感",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 14th Single「‘FIGHT’ ADDICT」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

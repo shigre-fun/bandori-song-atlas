@@ -1,0 +1,59 @@
+{
+  "url": "https://bang-dream.com/discographies/24/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:35.361Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party 3rd Single「走り始めたばかりのキミに／ティアドロップス」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2016年12月7日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 3,
+      "workId": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.Yes! BanG_Dream!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 5,
+      "workId": "wk-0005",
+      "title": "ぽっぴん’しゃっふる",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "8.ぽっぴん’しゃっふる",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 4,
+      "workId": "wk-0004",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "2.ティアドロップス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 8,
+      "workId": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "1.走り始めたばかりのキミに",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party 3rd Single「走り始めたばかりのキミに／ティアドロップス」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

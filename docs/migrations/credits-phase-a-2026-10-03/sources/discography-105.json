@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/105/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:55.455Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 1st Single「That Is How I Roll!」",
+  "artists": "Afterglow",
+  "releaseDate": "2017年9月6日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 11,
+      "workId": "wk-0011",
+      "title": "That Is How I Roll!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.That Is How I Roll!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 12,
+      "workId": "wk-0012",
+      "title": "True color",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.True color",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 1st Single「That Is How I Roll!」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

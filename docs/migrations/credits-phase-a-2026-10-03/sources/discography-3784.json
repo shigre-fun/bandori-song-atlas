@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/3784/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:31.284Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！「サンバロハッピ〜！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2024年5月21日(火)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「サンバロハッピ〜！」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：織田あすか(Elements Garden)"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：藤間仁(Elements Garden)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 583,
+      "workId": "wk-0574",
+      "title": "サンバロハッピ〜！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "「サンバロハッピ〜！」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！「サンバロハッピ〜！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

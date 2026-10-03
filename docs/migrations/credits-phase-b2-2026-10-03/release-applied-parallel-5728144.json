@@ -1,0 +1,21 @@
+{
+  "backup": ".cache/release-parallel-refresh-1791041967131",
+  "previousSha": "ed756974d9aba75095c3b3cfcff05d600e948fb0",
+  "remoteSha": "57281441d64efe11b29625ce8780c41bb7d3c199",
+  "edits": [
+    "ournotes:18:releaseDate",
+    "ournotes:18:durationSeconds",
+    "ournotes:18:difficulties",
+    "ournotes:18:revision"
+  ],
+  "inputHashes": {
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "4d5e5fe56c64860ce32efff750d7a313891b005ded6bf59a760127406224c156",
+    "data/ournotes/admin-state.json": "587bb21a9fde555b7be65f950e130b8242f03ed9cfd296ce002f5249528b7e89"
+  },
+  "outputHashes": {
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "f7c142a152ca43cf600a23e72526560037f02c8b13e8f5c32ebb8b0342a65385",
+    "data/ournotes/admin-state.json": "64054069a0b9af66d8d2ae84dbe0638af174543d3f893761397a1e9790f55b31"
+  }
+}

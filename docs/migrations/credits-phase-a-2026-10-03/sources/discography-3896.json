@@ -1,0 +1,35 @@
+{
+  "url": "https://bang-dream.com/discographies/3896/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:56.161Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "千石ユノ「YoU kNOw the overture (feat. ななひら)」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年12月27日(金)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 9,
+      "text": "「YoU kNOw the overture (feat. ななひら)」"
+    },
+    {
+      "line": 10,
+      "text": "作詞・作曲：千石ユノ"
+    },
+    {
+      "line": 11,
+      "text": "編曲：Nor、千石ユノ"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "千石ユノ「YoU kNOw the overture (feat. ななひら)」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

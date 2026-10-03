@@ -1,0 +1,49 @@
+{
+  "url": "https://bang-dream.com/discographies/966/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:07.602Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 5th Single「ON YOUR MARK」",
+  "artists": "Afterglow",
+  "releaseDate": "2019年10月23日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 175,
+      "workId": "wk-0175",
+      "title": "ON YOUR MARK",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.ON YOUR MARK",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 212,
+      "workId": "wk-0175",
+      "title": "[FULL] ON YOUR MARK",
+      "band": "Afterglow",
+      "scope": "work",
+      "context": "1.ON YOUR MARK",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 147,
+      "workId": "wk-0147",
+      "title": "ランブリングメモリー",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.ランブリングメモリー",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 5th Single「ON YOUR MARK」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

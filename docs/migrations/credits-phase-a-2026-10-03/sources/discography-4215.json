@@ -1,0 +1,189 @@
+{
+  "url": "https://bang-dream.com/discographies/4215/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:47:58.156Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "RAISE A SUILEN 16th Single「I AM WHO I AM」",
+  "artists": "RAISE A SUILEN",
+  "releaseDate": "2026年11月4日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 277,
+      "workId": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "14.!NVADE SHOW!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 717,
+      "workId": "wk-0701",
+      "title": "BIBIBABI BRAVER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.BIBIBABI BRAVER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 602,
+      "workId": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "2.Bad Kids All Bet",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 371,
+      "workId": "wk-0365",
+      "title": "CORUSCATE -DNA-",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.CORUSCATE -DNA-",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 483,
+      "workId": "wk-0474",
+      "title": "DANCING DARING",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "5.DANCING DARING",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 443,
+      "workId": "wk-0436",
+      "title": "DEAD HEAT BEAT",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "4.DEAD HEAT BEAT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 328,
+      "workId": "wk-0322",
+      "title": "Domination to world",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "3.Domination to world",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 733,
+      "workId": "wk-0717",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "10.Drown Out the Noise and Push Through the Trash",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 261,
+      "workId": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "15.EXPOSE ‘Burn out!!!’",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 359,
+      "workId": "wk-0353",
+      "title": "Embrace of light",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "8.Embrace of light",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 784,
+      "workId": "wk-0762",
+      "title": "I AM WHO I AM",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "1.I AM WHO I AM",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 744,
+      "workId": "wk-0725",
+      "title": "RUNAWAY STAR",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "6.RUNAWAY STAR",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 436,
+      "workId": "wk-0429",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "7.Takin’ my Heart",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 582,
+      "workId": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "13.V.I.P MONSTER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 774,
+      "workId": "wk-0752",
+      "title": "WHAT AN EXPLOSION",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "11.WHAT AN EXPLOSION",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 289,
+      "workId": "wk-0283",
+      "title": "mind of Prominence",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "9.mind of Prominence",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 339,
+      "workId": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN",
+      "scope": "release",
+      "context": "12.灼熱 Bonfire!",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "RAISE A SUILEN 16th Single「I AM WHO I AM」",
+  "indexArtists": [
+    "RAISE A SUILEN"
+  ],
+  "reason": null
+}

@@ -1,0 +1,249 @@
+{
+  "url": "https://bang-dream.com/discographies/1692/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:40.904Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 2nd Album「Wahl」",
+  "artists": "Roselia",
+  "releaseDate": "2020年7月15日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 254,
+      "workId": "wk-0248",
+      "title": "Avant-garde HISTORY",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.Avant-garde HISTORY",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 15,
+      "workId": "wk-0015",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "13.BLACK SHOUT",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 149,
+      "workId": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.BRAVE JEWEL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 238,
+      "workId": "wk-0232",
+      "title": "Break your desire",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.Break your desire",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 72,
+      "workId": "wk-0072",
+      "title": "Determination Symphony",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "3.Determination Symphony",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 179,
+      "workId": "wk-0179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 34,
+      "workId": "wk-0034",
+      "title": "LOUDER",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.LOUDER",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 113,
+      "workId": "wk-0113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "9.Neo-Aspect",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 91,
+      "workId": "wk-0091",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.ONENESS",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 140,
+      "workId": "wk-0140",
+      "title": "R",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.R",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 16,
+      "workId": "wk-0016",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "8.Re:birth day",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 166,
+      "workId": "wk-0166",
+      "title": "Ringing Bloom",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.Ringing Bloom",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 159,
+      "workId": "wk-0159",
+      "title": "Safe and Sound",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.Safe and Sound",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 130,
+      "workId": "wk-0130",
+      "title": "Sanctuary",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "4.Sanctuary",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 234,
+      "workId": "wk-0229",
+      "title": "Song I am.",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "12.Song I am.",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 230,
+      "workId": "wk-0179",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "scope": "work",
+      "context": "4.FIRE BIRD",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 204,
+      "workId": "wk-0204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "11.“UNIONS” Road",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 59,
+      "workId": "wk-0059",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "14.熱色スターマイン",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "10.約束",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 48,
+      "workId": "wk-0048",
+      "title": "陽だまりロードナイト",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "12.陽だまりロードナイト",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 37,
+      "workId": "wk-0037",
+      "title": "ETERNAL BLAZE",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "5.ETERNAL BLAZE",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 100,
+      "workId": "wk-0100",
+      "title": "This game",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "7.This game",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 86,
+      "workId": "wk-0086",
+      "title": "残酷な天使のテーゼ",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "6.残酷な天使のテーゼ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 2nd Album「Wahl」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

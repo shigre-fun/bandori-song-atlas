@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "backup": ".cache/release-parallel-1791041359926",
+  "remoteSha": "ed756974d9aba75095c3b3cfcff05d600e948fb0",
+  "inputHashes": {
+    "data/garupa/songs.json": "334fcca9c6413484252842cbca8d0dece86c65f71a29ff8dd3bdc68aba7c0d1e",
+    "data/ournotes/songs.json": "a7247cd5463c8cc83aae0c76e3fce59c653931b9b7509314af2d4662b4599acb",
+    "data/ournotes/admin-state.json": "2f385d608bdb8f575fe10388aca113f63841b948e7fcceb616ea453d1fd97972"
+  },
+  "outputHashes": {
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "4d5e5fe56c64860ce32efff750d7a313891b005ded6bf59a760127406224c156",
+    "data/ournotes/admin-state.json": "587bb21a9fde555b7be65f950e130b8242f03ed9cfd296ce002f5249528b7e89"
+  },
+  "changedRecords": {
+    "garupa": [
+      758
+    ],
+    "ournotes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22
+    ]
+  },
+  "newRecord": "ournotes:86",
+  "newWork": false,
+  "composerReuse": null,
+  "creditPreservation": true,
+  "nonCreditPreservation": true
+}

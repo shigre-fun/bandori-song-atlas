@@ -20,6 +20,16 @@ export function validateCreditStructure(song) {
       fail("credit rolesが不正または重複しています。");
     if (c.displayOverride !== undefined && !nonempty(c.displayOverride, 2000))
       fail("displayOverrideは空でない文字列です。");
+    if (
+      c.displayOverrides !== undefined &&
+      (!c.displayOverrides ||
+        typeof c.displayOverrides !== "object" ||
+        Array.isArray(c.displayOverrides) ||
+        Object.entries(c.displayOverrides).some(
+          ([role, value]) => !c.roles.includes(role) || !nonempty(value, 2000),
+        ))
+    )
+      fail("displayOverridesは登録されたrole別の空でない表示名です。");
     seen.add(c.creatorId);
   }
   if (

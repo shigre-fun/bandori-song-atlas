@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/4241/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:14.373Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「Face The Next」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年7月31日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「Face The Next」"
+    },
+    {
+      "line": 2,
+      "text": "作詞：白神真志朗、仲町あられ"
+    },
+    {
+      "line": 3,
+      "text": "作曲・編曲：白神真志朗、千石ユノ"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "workId": "wk-0803",
+      "title": "Face The Next",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「Face The Next」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「Face The Next」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

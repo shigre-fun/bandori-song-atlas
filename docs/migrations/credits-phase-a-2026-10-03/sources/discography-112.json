@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/112/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:21.804Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 5th Single「Opera of the wasteland」",
+  "artists": "Roselia",
+  "releaseDate": "2018年3月21日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 92,
+      "workId": "wk-0092",
+      "title": "Opera of the wasteland",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.Opera of the wasteland",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 103,
+      "workId": "wk-0103",
+      "title": "軌跡",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.軌跡",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 5th Single「Opera of the wasteland」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

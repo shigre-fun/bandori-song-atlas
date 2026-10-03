@@ -1,0 +1,129 @@
+{
+  "url": "https://bang-dream.com/discographies/2498/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:34.950Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 1st Album「ONE OF US」",
+  "artists": "Afterglow",
+  "releaseDate": "2021年3月24日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 198,
+      "workId": "wk-0198",
+      "title": "Easy come, Easy go！",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "7.Easy come, Easy go！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 62,
+      "workId": "wk-0062",
+      "title": "Hey-day狂騒曲（カプリチオ）",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "6.Hey-day狂騒曲(カプリチオ)",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 273,
+      "workId": "wk-0267",
+      "title": "I knew it!",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "4.I knew it!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 175,
+      "workId": "wk-0175",
+      "title": "ON YOUR MARK",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.ON YOUR MARK",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 283,
+      "workId": "wk-0277",
+      "title": "ONE OF US",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "10.ONE OF US",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 259,
+      "workId": "wk-0253",
+      "title": "RED RED RED",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "9.RED RED RED",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 294,
+      "workId": "wk-0288",
+      "title": "SENSENFUKOKU",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "3.SENSENFUKOKU",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 211,
+      "workId": "wk-0210",
+      "title": "Sasanqua",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "8.Sasanqua",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 81,
+      "workId": "wk-0081",
+      "title": "Y.O.L.O！！！！！",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "11.Y.O.L.O！！！！！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 212,
+      "workId": "wk-0175",
+      "title": "[FULL] ON YOUR MARK",
+      "band": "Afterglow",
+      "scope": "work",
+      "context": "1.ON YOUR MARK",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 135,
+      "workId": "wk-0135",
+      "title": "ツナグ、ソラモヨウ",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "5.ツナグ、ソラモヨウ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 1st Album「ONE OF US」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

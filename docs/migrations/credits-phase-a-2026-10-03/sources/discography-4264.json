@@ -1,0 +1,38 @@
+{
+  "url": "https://bang-dream.com/discographies/4264/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:08.606Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「愛は衝動」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年9月11日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「愛は衝動」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲・編曲：sabio"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 58,
+      "workId": "wk-0805",
+      "title": "愛は衝動",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「愛は衝動」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「愛は衝動」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

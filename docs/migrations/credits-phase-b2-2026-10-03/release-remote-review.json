@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-03",
+  "localHEAD": "5e4da7e517f5640b068cabaa8aa01b036e281961",
+  "remoteSHA": "48c782795e29a0404b73b792aa977ee9843171ba",
+  "remoteCommits": [
+    "48c782795e29a0404b73b792aa977ee9843171ba Update song: 聿日箋秋",
+    "3c16b63dae3ffa2a5a961fd82f62023f83e39ce3 Update song: 焚音打",
+    "219004a587f6f23b3b59a0ef004bca02bd0273d8 Update song: 砂寸奏",
+    "44d0df1bdea5c8acd092f761ebd4800de69d4241 Update song: 端程山",
+    "9969d4154aac9e37f7830c4b6dca497b4d01ffa3 Update song: 歩拾道",
+    "38ed5858c7f598afc0f01faf7b743f1df529462e Add song: 過去を喰らう",
+    "3c30bf84d7f2615071a329769382cdabc07ba136 Update song: ホワイトノイズ",
+    "afd174f907da8d8ecc16ece090695e4974da9481 Update song: 名無声"
+  ],
+  "counts": {
+    "data/garupa/songs.json": {
+      "local": 799,
+      "remote": 799,
+      "changedExistingRecords": [
+        {
+          "id": 758,
+          "title": "過去を喰らう",
+          "fields": [
+            "relatedSongIds"
+          ]
+        }
+      ],
+      "newRecords": []
+    },
+    "data/ournotes/songs.json": {
+      "local": 85,
+      "remote": 86,
+      "changedExistingRecords": [
+        {
+          "id": 11,
+          "title": "名無声",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "difficulties",
+            "revision"
+          ]
+        },
+        {
+          "id": 12,
+          "title": "歩拾道",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "revision"
+          ]
+        },
+        {
+          "id": 13,
+          "title": "端程山",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "revision"
+          ]
+        },
+        {
+          "id": 14,
+          "title": "砂寸奏",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "difficulties",
+            "relatedSongIds",
+            "revision"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "焚音打",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "revision"
+          ]
+        },
+        {
+          "id": 16,
+          "title": "聿日箋秋",
+          "fields": [
+            "releaseDate",
+            "durationSeconds",
+            "revision"
+          ]
+        },
+        {
+          "id": 22,
+          "title": "ホワイトノイズ",
+          "fields": [
+            "releaseDate",
+            "difficulties",
+            "mv",
+            "revision"
+          ]
+        }
+      ],
+      "newRecords": [
+        {
+          "id": 86,
+          "title": "過去を喰らう",
+          "relatedSongIds": [
+            "garupa:758"
+          ],
+          "workId": null
+        }
+      ]
+    }
+  },
+  "github": {
+    "sha": "48c782795e29a0404b73b792aa977ee9843171ba",
+    "authenticated": true,
+    "runs": [
+      {
+        "id": 37130194344,
+        "name": "Publish song database",
+        "status": "completed",
+        "conclusion": "failure",
+        "sha": "48c782795e29a0404b73b792aa977ee9843171ba",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37130194344"
+      }
+    ],
+    "checks": [
+      {
+        "id": 111223643550,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "skipped",
+        "sha": "48c782795e29a0404b73b792aa977ee9843171ba",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37130194344/job/111223643550",
+        "output": null
+      },
+      {
+        "id": 111223635133,
+        "name": "Cloudflare Pages",
+        "status": "completed",
+        "conclusion": "failure",
+        "sha": "48c782795e29a0404b73b792aa977ee9843171ba",
+        "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/7ac247bc-3918-4a9c-ba35-2564d4d1efab",
+        "output": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>48c7827</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>🚫&nbsp; Build failed.</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/7ac247bc-3918-4a9c-ba35-2564d4d1efab)\n"
+      },
+      {
+        "id": 111223607520,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "failure",
+        "sha": "48c782795e29a0404b73b792aa977ee9843171ba",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37130194344/job/111223607520",
+        "output": null
+      }
+    ],
+    "status": {
+      "state": "pending",
+      "statuses": []
+    },
+    "deployments": []
+  },
+  "existingSourcePreserved": true,
+  "commitPushDeployPerformed": false
+}

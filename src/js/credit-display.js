@@ -16,7 +16,13 @@ export function creditTokens(song, role, creators) {
     const creator = byId.get(p.creatorId),
       relation = relations.get(p.creatorId);
     if (!creator || !relation) fail(`存在しないCreator: ${p.creatorId}`);
-    return { text: relation.displayOverride ?? creator.name, creator };
+    return {
+      text:
+        relation.displayOverrides?.[role] ??
+        relation.displayOverride ??
+        creator.name,
+      creator,
+    };
   });
 }
 export const creditText = (song, role, creators) =>

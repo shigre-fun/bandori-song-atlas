@@ -1,0 +1,50 @@
+{
+  "url": "https://bang-dream.com/discographies/3683/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:40.498Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「ビッグマウス」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2024年2月24日(土)",
+  "creditLines": [
+    {
+      "line": 7,
+      "text": "https://bmu.lnk.to/BIGMOUTHhp"
+    },
+    {
+      "line": 8,
+      "text": "「ビッグマウス」"
+    },
+    {
+      "line": 9,
+      "text": "作詞：白神真志朗、 Sekimen"
+    },
+    {
+      "line": 10,
+      "text": "作曲：堀江晶太、白神真志朗"
+    },
+    {
+      "line": 11,
+      "text": "編曲：堀江晶太、Nor"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "workId": "wk-0794",
+      "title": "ビッグマウス",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "「ビッグマウス」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「ビッグマウス」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

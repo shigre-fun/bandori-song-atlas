@@ -1,0 +1,199 @@
+{
+  "url": "https://bang-dream.com/discographies/2512/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:34.147Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes 1st Album「TITLE IDOL」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2021年5月19日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 167,
+      "workId": "wk-0167",
+      "title": "Baby Sweet Berry Love",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.Baby Sweet Berry Love",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 117,
+      "workId": "wk-0117",
+      "title": "Fantastic future",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "7.Fantastic future",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 75,
+      "workId": "wk-0075",
+      "title": "世界は恋に落ちている",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "6.世界は恋に落ちている",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 279,
+      "workId": "wk-0273",
+      "title": "Power of LOVE!!!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "8.Power of LOVE!!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 291,
+      "workId": "wk-0285",
+      "title": "TITLE IDOL",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.TITLE IDOL",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 252,
+      "workId": "wk-0246",
+      "title": "Winking☆Cheer",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "10.Winking☆Cheer",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 96,
+      "workId": "wk-0096",
+      "title": "Wonderland Girl",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "9.Wonderland Girl",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 218,
+      "workId": "wk-0176",
+      "title": "[FULL] きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "scope": "work",
+      "context": "9.きゅ〜まい＊flower",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 200,
+      "workId": "wk-0200",
+      "title": "あっつあつ 常夏 らぶ☆サマー！",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.あっつあつ 常夏 らぶ☆サマー！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 176,
+      "workId": "wk-0176",
+      "title": "きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "9.きゅ〜まい＊flower",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 13,
+      "workId": "wk-0013",
+      "title": "しゅわりん☆どり〜みん",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "7.しゅわりん☆どり〜みん",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 45,
+      "workId": "wk-0045",
+      "title": "はなまる◎アンダンテ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.はなまる◎アンダンテ",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 119,
+      "workId": "wk-0119",
+      "title": "もういちど ルミナス",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.もういちど ルミナス",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 215,
+      "workId": "wk-0213",
+      "title": "ゆめゆめグラデーション",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "11.ゆめゆめグラデーション",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 53,
+      "workId": "wk-0053",
+      "title": "ゆら・ゆらRing-Dong-Dance",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "3.ゆら・ゆらRing-Dong-Dance",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 139,
+      "workId": "wk-0139",
+      "title": "ゼッタイ宣言～Recital～",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "10.ゼッタイ宣言～Recital～",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 14,
+      "workId": "wk-0014",
+      "title": "パスパレボリューションず☆",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.パスパレボリューションず☆",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 184,
+      "workId": "wk-0184",
+      "title": "ワクワクmeetsトリップ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.ワクワクmeetsトリップ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes 1st Album「TITLE IDOL」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

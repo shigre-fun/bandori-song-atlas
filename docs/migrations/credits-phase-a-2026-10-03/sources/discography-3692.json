@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/3692/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:36.983Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes「アイドル」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2024年3月17日(日)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 567,
+      "workId": "wk-0558",
+      "title": "アイドル",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "Pastel＊Palettes「アイドル」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes「アイドル」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

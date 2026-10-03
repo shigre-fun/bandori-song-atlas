@@ -1,0 +1,409 @@
+{
+  "checkedAt": "2026-10-03",
+  "sources": [
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/oda.php",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "織田 あすか / Asuka Oda、作詞、Elements Garden参加。BanG Dream!・ガルパ、EXPOSE作詞を掲載。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.nakamurakou.com/",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "同一ページの中村 航/中村航。BanG Dream!原案・作詞、Poppin’Party作詞担当を明示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.nakamurakou.com/works2",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Poppin’PartyのDreamers Go!、Returns、Time Lapse等の作詞作品を確認。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/en/creators/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Kotaro ShimodaをComposer/Arrangerとして掲載。日本語所属名・同制作ブランドの原文creditと対応。",
+      "note": "英語一覧は所属終了の反映が遅い。現在所属の証明には使わない。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/news/2024-11-30-2.php",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "下田晃太郎のElements Garden契約終了を2024-11-30付で公表。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://supalove.com/category/lyricist/fujiwaramasaki/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "藤原優樹をSUPA LOVE所属作詞家として紹介、MyGO!!!!!作品を掲載。",
+      "note": "URLのfujiwaramasakiから読み・英字名を推定しない。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/fujima.php",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "藤間 仁 / Hitoshi Fujima、作曲・編曲、Elements Garden設立時からの活動を明示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/en/creators/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Elements GardenのComposer/Arrangerとして同じ英字名を掲載。Phase Aゲーム原文の所属・役割が一致。",
+      "note": "日本語名は推定しない。現在在籍の断定には使わない。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://akihata.jp/profile/",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "畑 亜貴 / Aki Hata。涼宮ハルヒ・らき☆すた・ラブライブ！作詞実績を掲載。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.lantis.jp/artist/hataaki/bio.html",
+      "sourceType": "label-official",
+      "checkedAt": "2026-10-03",
+      "supports": "畑 亜貴（はた あき）、作詞・作曲・編曲を明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://spawn.co.jp/p-artist/2089/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "植木建象 / KENZO UEKI。作詞・作曲・音源制作、MyGO!!!!!・Ave Mujicaの制作を明示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.lantis.jp/artist/hataaki/news_1576836762.html",
+      "sourceType": "label-official",
+      "checkedAt": "2026-10-03",
+      "supports": "編曲：宮崎京一(KEYTONE)の公式作品credit。",
+      "note": "本文のHands編曲欄を読取済み。ゲーム8recordとの本人対応は追加profile不足でPROBABLE。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.lantis.jp/artist/hashimotomiyuki/news_1544782836.html",
+      "sourceType": "label-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Dive into...作曲・編曲：母里治樹(Elements Garden)。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Elements Gardenと別項目に作詞特化の音楽制作ブランドSpirit Gardenを掲載。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/en/creators/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "ARIAの別制作ブランドで作詞に特化と明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://up-front-works.jp/release/7531/",
+      "sourceType": "official-label",
+      "checkedAt": "2026-10-03",
+      "supports": "プリズンブレイカーの作曲・編曲に徳田光希/川渕龍成。Web本文205行のroleを読取。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.uta-net.com/user/sakushika/01_100/67.html",
+      "sourceType": "primary-interview",
+      "checkedAt": "2026-10-03",
+      "supports": "作詞家本人への紹介・回答。大森祥子、けいおん！Cagayake! GIRLS作詞の代表作。",
+      "note": "歌詞は保存しない。第三者名鑑ではなく本人の作品/活動についてのインタビューを補完根拠とする。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.fwinc.co.jp/news/86577/",
+      "sourceType": "client-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Unpredictable Reincarnationの作曲/編曲：小木 岳司。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://cowritingfarm.com/creators/PwCFX6Pw",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "HTTP200で公式SSR JSON本文を読取。小木 岳司、作編曲家として紹介。MyGO!!!!!ホワイトノイズ・猛独が襲う・Lioness' Pride編曲を同profile掲載。",
+      "note": "web tool抽出0行からHTTP本文で補完、検索snippetは未使用。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.spyair.net/unite/",
+      "sourceType": "artist-official",
+      "checkedAt": "2026-10-03",
+      "supports": "SPYAIRメンバーの作品制作ページ本文でMOMIKENのwords/music担当を明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/spyair/info/521122",
+      "sourceType": "official-label",
+      "checkedAt": "2026-10-03",
+      "supports": "SPYAIRの楽曲で作詞を担当するMOMIKEN(Bass)と明記。イマジネーションも同じ作品文脈。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://bang-dream.com/yumemita_inst/",
+      "sourceType": "official-work-credit",
+      "checkedAt": "2026-10-03",
+      "supports": "対象真夜中遊園地の作詞：烏屋茶房を明記。",
+      "note": "Web open失敗後、通常TLSのHTTP200本文を読取。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://heart-company.co.jp/creator_producer/kanda-john/",
+      "sourceType": "official-agency",
+      "checkedAt": "2026-10-03",
+      "supports": "神田ジョンを作曲・編曲家、PENGUIN RESEARCHのギタリストと同じプロフィールで明記。読みもかんだ じょんと記載。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.mizukinana.jp/discography/single22.html",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "本人公式discographyでSilent Bibleの作詞者：水樹奈々を明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.mizukinana.jp/discography/single26.html",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "対象Synchrogazerの作詞：水樹奈々を本人公式本文58行で確認。",
+      "note": "対象raw水樹 奈々との直接作品接続を補完。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://bang-dream.com/discographies/3857/",
+      "sourceType": "official-work-credit",
+      "checkedAt": "2026-10-03",
+      "supports": "コハクを本人が初めて作詞した楽曲と明記し、作詞：仲町あられ、堀江晶太を記載。",
+      "note": "Web open失敗後、通常TLSのHTTP200本文を読取。",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://key.visualarts.gr.jp/ksllive_2025/",
+      "sourceType": "official-publisher",
+      "checkedAt": "2026-10-03",
+      "supports": "対象の鳥の詩の作詞：麻枝 准を公式に明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://key.visualarts.gr.jp/info/2015/02/ab-1st-_cd.html",
+      "sourceType": "official-publisher",
+      "checkedAt": "2026-10-03",
+      "supports": "Angel Beats!公式主題歌の作詞・作曲：麻枝 准を明記。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.knights-magic.com/music/",
+      "sourceType": "official-work-credit",
+      "checkedAt": "2026-10-03",
+      "supports": "Hello!My World!!等の作詞：林 英樹、fhánaの制作文脈。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://store.toysfactory.co.jp/products/tfcc-89786",
+      "sourceType": "label-official",
+      "checkedAt": "2026-10-03",
+      "supports": "許婚っきゅんの作詞はあのと真部脩一の2名、ちゅ、多様性。同制作陣を明示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.jasrac.or.jp/release/pdf/11052403.pdf",
+      "sourceType": "rights-holder-official",
+      "checkedAt": "2026-10-03",
+      "supports": "残酷な天使のテーゼの作詞：及川 眠子/及川眠子を同一資料で表示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://king-cr.jp/artist/takahashi/discography/",
+      "sourceType": "label-official",
+      "checkedAt": "2026-10-03",
+      "supports": "残酷な天使のテーゼ・魂のルフランの作詞：及川眠子。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://honeyworks.jp/profile/",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Gomとshitoを別composer memberとして明示。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://honeyworks.jp/release/cwhw8th/",
+      "sourceType": "self-official",
+      "checkedAt": "2026-10-03",
+      "supports": "ラズベリー＊モンスターの作詞：Gom, shito。2個人とunit HoneyWorksを別creditとして掲載。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://supalove.com/works/ave-mujica%EF%BC%88bang-dream%EF%BC%89%E3%80%8Ecompleteness%E3%80%8F/",
+      "sourceType": "agency-official",
+      "checkedAt": "2026-10-03",
+      "supports": "Crucifix X作曲・編曲：o-saka。対象曲原文との作者名・会社が一致。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    },
+    {
+      "sourceUrl": "https://www.jasrac.or.jp/release/pdf/11052403.pdf",
+      "sourceType": "rights-holder-official",
+      "checkedAt": "2026-10-03",
+      "supports": "残酷な天使のテーゼの作曲：佐藤 英敏/佐藤英敏、同資料で両形式。",
+      "note": "",
+      "pageReadStatus": "BODY_READ"
+    }
+  ],
+  "failedAttempts": [
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/creators/oda.php",
+      "status": "404",
+      "note": "相対link二重パス、正しいoda.php本文で復旧",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/creators/fujima.php",
+      "status": "404",
+      "note": "正しいfujima.php本文で復旧",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/en/creators/shimoda.php",
+      "status": "UNREADABLE",
+      "note": "English一覧を使用、個別本文は未取得",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.ariamusic.co.jp/en/creators/kim.php",
+      "status": "UNREADABLE",
+      "note": "English一覧のSeonoo Kimと役割のみ使用",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://cowritingfarm.com/creators/PwCFX6Pw",
+      "status": "JS_ONLY",
+      "note": "web抽出0行、検索snippetは確定根拠から除外",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://keytone.jp/",
+      "status": "502",
+      "note": "宮崎京一の制作会社、本文未取得",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "http://www.megaegg.ne.jp/~no3/",
+      "status": "UNREADABLE",
+      "note": "加納望の本人候補、第三者link経由だけで確定しない",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.oikawaneko.com/",
+      "status": "502",
+      "note": "本人候補、ミラーは根拠として使用しない",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.fmf-music.com/feat-works/『けいおん』/",
+      "status": "502",
+      "note": "制作会社作品欄、snippetだけは確定根拠に使用しない",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://supalove.com/creator/",
+      "status": "404",
+      "note": "実際のcategory/introduction/へ訂正",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://www.nakamurakou.com/profile",
+      "status": "UNREADABLE",
+      "note": "homepageのprofile anchorとworks2で復旧",
+      "checkedAt": "2026-10-03"
+    },
+    {
+      "sourceUrl": "https://touma.official.ec/p/00002",
+      "status": "CACHE_MISS",
+      "checkedAt": "2026-10-03",
+      "note": "冬真の本人候補。本文未取得"
+    },
+    {
+      "sourceUrl": "https://keytone.jp/",
+      "status": "ERR_TLS_CERT_ALTNAME_INVALID",
+      "checkedAt": "2026-10-03",
+      "note": "独立HTTP読取も証明書host不一致。検証を迂回せず未取得。"
+    },
+    {
+      "sourceUrl": "https://www.oikawaneko.com/",
+      "status": "ECONNRESET",
+      "checkedAt": "2026-10-03",
+      "note": "本人サイトHTTPも失敗。JASRACの対象作品一次資料で補完。"
+    },
+    {
+      "sourceUrl": "https://bang-dream.com/discographies/3857/",
+      "checkedAt": "2026-10-03",
+      "pageReadStatus": "ATTEMPT_NOTE",
+      "note": "Web open失敗、HTTP200本文で復旧"
+    },
+    {
+      "sourceUrl": "https://bang-dream.com/yumemita_inst/",
+      "checkedAt": "2026-10-03",
+      "pageReadStatus": "ATTEMPT_NOTE",
+      "note": "Web open失敗、HTTP200本文で復旧"
+    },
+    {
+      "sourceUrl": "https://www.fmf-music.com/feat-works/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8Ere%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB%E3%80%8F/",
+      "checkedAt": "2026-10-03",
+      "pageReadStatus": "ATTEMPT_NOTE",
+      "note": "Web timeout; HTTP ERR_TLS_CERT_ALTNAME_INVALID、TLS検証を迂回しない"
+    },
+    {
+      "sourceUrl": "https://www.spyair.net/profile/",
+      "checkedAt": "2026-10-03",
+      "pageReadStatus": "ATTEMPT_NOTE",
+      "note": "本文は画像主体のため個人プロフィールの確定根拠にしない。公式UNITE/レーベル本文へ補完"
+    },
+    {
+      "sourceUrl": "https://www.mizukinana.jp/profile/",
+      "checkedAt": "2026-10-03",
+      "pageReadStatus": "ATTEMPT_NOTE",
+      "note": "取得不可。本人公式discographyの作詞credit本文へ補完"
+    }
+  ]
+}

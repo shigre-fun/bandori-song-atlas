@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/4162/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:37.211Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party×ハローキティ「じょいふる」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2025年11月11日(火)",
+  "creditLines": [
+    {
+      "line": 8,
+      "text": "※遷移に時間がかかる場合がございます。"
+    },
+    {
+      "line": 9,
+      "text": "Poppin'Party×ハローキティ「じょいふる」"
+    },
+    {
+      "line": 10,
+      "text": "作詞：水野良樹"
+    },
+    {
+      "line": 11,
+      "text": "作曲：水野良樹"
+    },
+    {
+      "line": 12,
+      "text": "編曲：日高勇輝(Elements Garden)"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "Poppin'Party×ハローキティ「じょいふる」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

@@ -1,0 +1,69 @@
+{
+  "url": "https://bang-dream.com/discographies/3580/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:26.810Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "ハロー、ハッピーワールド！ ミニAlbum「どうしたってカーニバル！」",
+  "artists": "ハロー、ハッピーワールド！",
+  "releaseDate": "2024年6月19日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 576,
+      "workId": "wk-0567",
+      "title": "むすんでわらって",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "3.むすんでわらって",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 540,
+      "workId": "wk-0531",
+      "title": "らいふ・いず・みゅーじかるっ♪♪♪",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "5.らいふ・いず・みゅーじかるっ♪♪♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 487,
+      "workId": "wk-0478",
+      "title": "キミを れっつ・はぶ・ふぁん♪",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "4.キミを れっつ・はぶ・ふぁん♪",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 583,
+      "workId": "wk-0574",
+      "title": "サンバロハッピ〜！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "1.サンバロハッピ〜！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 504,
+      "workId": "wk-0495",
+      "title": "ボクらの夏's☆ショーたいむっ！！",
+      "band": "ハロー、ハッピーワールド！",
+      "scope": "release",
+      "context": "2.ボクらの夏's☆ショーたいむっ！！",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "ハロー、ハッピーワールド！ ミニAlbum「どうしたってカーニバル！」",
+  "indexArtists": [
+    "ハロー、ハッピーワールド！"
+  ],
+  "reason": null
+}

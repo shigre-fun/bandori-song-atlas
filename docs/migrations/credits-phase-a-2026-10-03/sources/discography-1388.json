@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1388/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:05.472Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia 10th Single「約束」",
+  "artists": "Roselia",
+  "releaseDate": "2020年1月15日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 204,
+      "workId": "wk-0204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "2.“UNIONS” Road",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 191,
+      "workId": "wk-0191",
+      "title": "約束",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "1.約束",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia 10th Single「約束」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}

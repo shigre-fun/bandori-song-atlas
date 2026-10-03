@@ -1,0 +1,31 @@
+{
+  "url": "https://bang-dream.com/discographies/4254/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:11.308Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "millsage「青のすみか(Cover)」",
+  "artists": "millsage",
+  "releaseDate": "2026年8月28日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "「青のすみか(Cover)」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲：キタニタツヤ"
+    },
+    {
+      "line": 3,
+      "text": "編曲：藤井健太郎"
+    }
+  ],
+  "trackContexts": [],
+  "indexTitle": "millsage「青のすみか(Cover)」",
+  "indexArtists": [
+    "millsage"
+  ],
+  "reason": null
+}

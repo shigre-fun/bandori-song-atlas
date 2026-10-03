@@ -1,0 +1,69 @@
+{
+  "url": "https://bang-dream.com/discographies/4230/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:47:55.944Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Pastel＊Palettes ミニAlbum「Pastel Aura」",
+  "artists": "Pastel＊Palettes",
+  "releaseDate": "2027年1月13日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 775,
+      "workId": "wk-0753",
+      "title": "Come to see YOU!!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "4.Come to see YOU!!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 688,
+      "workId": "wk-0674",
+      "title": "Shine ☆n My Life!",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "2.Shine ☆n My Life!",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 749,
+      "workId": "wk-0730",
+      "title": "Thanks to you.",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "1.Thanks to you.",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 720,
+      "workId": "wk-0704",
+      "title": "きみCharmin'",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "3.きみCharmin'",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 701,
+      "workId": "wk-0685",
+      "title": "スキ×すき×カラフリィ",
+      "band": "Pastel＊Palettes",
+      "scope": "release",
+      "context": "5.スキ×すき×カラフリィ",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Pastel＊Palettes ミニAlbum「Pastel Aura」",
+  "indexArtists": [
+    "Pastel＊Palettes"
+  ],
+  "reason": null
+}

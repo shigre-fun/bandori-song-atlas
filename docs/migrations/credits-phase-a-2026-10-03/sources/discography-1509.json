@@ -1,0 +1,29 @@
+{
+  "url": "https://bang-dream.com/discographies/1509/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:06.944Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Poppin'Party「White Afternoon」",
+  "artists": "Poppin'Party",
+  "releaseDate": "2019年12月9日(月)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 222,
+      "workId": "wk-0219",
+      "title": "White Afternoon",
+      "band": "Poppin'Party",
+      "scope": "release",
+      "context": "Poppin'Party「White Afternoon」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Poppin'Party「White Afternoon」",
+  "indexArtists": [
+    "Poppin'Party"
+  ],
+  "reason": null
+}

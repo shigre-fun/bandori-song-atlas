@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/3689/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:39.169Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "MyGO!!!!!「輪符雨」",
+  "artists": "MyGO!!!!!",
+  "releaseDate": "2024年2月28日(水)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "『輪符雨』"
+    },
+    {
+      "line": 2,
+      "text": "作詞：藤原優樹(SUPA LOVE)"
+    },
+    {
+      "line": 3,
+      "text": "作編曲：木下龍平(SUPA LOVE)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 563,
+      "workId": "wk-0554",
+      "title": "輪符雨",
+      "band": "MyGO!!!!!",
+      "scope": "release",
+      "context": "『輪符雨』",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "MyGO!!!!!「輪符雨」",
+  "indexArtists": [
+    "MyGO!!!!!"
+  ],
+  "reason": null
+}

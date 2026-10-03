@@ -1,0 +1,39 @@
+{
+  "url": "https://bang-dream.com/discographies/1864/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:49:38.955Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow 7th Single「Sasanqua」",
+  "artists": "Afterglow",
+  "releaseDate": "2020年10月28日(水)",
+  "creditLines": [],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 239,
+      "workId": "wk-0233",
+      "title": "I love your way！",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "2.I love your way！",
+      "method": "explicit artist + track title / quoted release title"
+    },
+    {
+      "game": "garupa",
+      "recordId": 211,
+      "workId": "wk-0210",
+      "title": "Sasanqua",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "1.Sasanqua",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow 7th Single「Sasanqua」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

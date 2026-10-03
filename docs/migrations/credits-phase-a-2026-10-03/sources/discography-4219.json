@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/4219/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:48:18.275Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "夢限大みゅーたいぷ「これはぼくたちの生存のあらすじ」",
+  "artists": "夢限大みゅーたいぷ",
+  "releaseDate": "2026年6月21日(日)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "夢限大みゅーたいぷ「これはぼくたちの生存のあらすじ」"
+    },
+    {
+      "line": 2,
+      "text": "作詞・作曲：田淵智也"
+    },
+    {
+      "line": 3,
+      "text": "編曲：堀江晶太"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "ournotes",
+      "recordId": 50,
+      "workId": "wk-0798",
+      "title": "これはぼくたちの生存のあらすじ",
+      "band": "夢限大みゅーたいぷ",
+      "scope": "release",
+      "context": "夢限大みゅーたいぷ「これはぼくたちの生存のあらすじ」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "夢限大みゅーたいぷ「これはぼくたちの生存のあらすじ」",
+  "indexArtists": [
+    "夢限大みゅーたいぷ"
+  ],
+  "reason": null
+}

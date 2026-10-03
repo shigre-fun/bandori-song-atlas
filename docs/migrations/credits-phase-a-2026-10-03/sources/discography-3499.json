@@ -1,0 +1,46 @@
+{
+  "url": "https://bang-dream.com/discographies/3499/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:51:14.089Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Afterglow「燦々」",
+  "artists": "Afterglow",
+  "releaseDate": "2023年9月2日(土)",
+  "creditLines": [
+    {
+      "line": 5,
+      "text": "音楽配信サービス一覧"
+    },
+    {
+      "line": 6,
+      "text": "https://bmu.lnk.to/Sansanhp"
+    },
+    {
+      "line": 7,
+      "text": "作詞・作曲：じん"
+    },
+    {
+      "line": 8,
+      "text": "編曲：廣澤優也(HANO)"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 508,
+      "workId": "wk-0499",
+      "title": "燦々",
+      "band": "Afterglow",
+      "scope": "release",
+      "context": "Afterglow「燦々」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Afterglow「燦々」",
+  "indexArtists": [
+    "Afterglow"
+  ],
+  "reason": null
+}

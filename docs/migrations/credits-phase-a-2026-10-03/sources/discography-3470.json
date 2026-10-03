@@ -1,0 +1,42 @@
+{
+  "url": "https://bang-dream.com/discographies/3470/",
+  "sourceType": "bangdream-discography",
+  "sourceReliability": "PRIMARY",
+  "checkedAt": "2026-10-03T03:50:51.700Z",
+  "pageReadStatus": "HTTP_CONFIRMED",
+  "httpStatus": 200,
+  "pageTitle": "Roselia「Sunlit Musical」",
+  "artists": "Roselia",
+  "releaseDate": "2023年8月11日(金)",
+  "creditLines": [
+    {
+      "line": 1,
+      "text": "作詞：織田あすか（Elements Garden）"
+    },
+    {
+      "line": 2,
+      "text": "作曲：上松範康（Elements Garden）"
+    },
+    {
+      "line": 3,
+      "text": "編曲：堀川大翼（Elements Garden）"
+    }
+  ],
+  "trackContexts": [
+    {
+      "game": "garupa",
+      "recordId": 498,
+      "workId": "wk-0489",
+      "title": "Sunlit Musical",
+      "band": "Roselia",
+      "scope": "release",
+      "context": "Roselia「Sunlit Musical」",
+      "method": "explicit artist + track title / quoted release title"
+    }
+  ],
+  "indexTitle": "Roselia「Sunlit Musical」",
+  "indexArtists": [
+    "Roselia"
+  ],
+  "reason": null
+}
