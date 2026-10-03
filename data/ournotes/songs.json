@@ -989,7 +989,7 @@
           "id": 17,
           "title": "証命讃歌",
           "reading": "ショウメイサンカ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 17,
           "composer": "田邊駿一",
           "originalArtist": null,
@@ -997,12 +997,12 @@
           "bpm": 210,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 113,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 300
+              "notes": 301
             },
             "NORMAL": {
               "level": 13,
@@ -1035,7 +1035,9 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "relatedSongIds": [],
+          "revision": "e397b194-2225-40de-9d23-eb4bb848b4c3"
         },
         {
           "id": 18,
