@@ -751,7 +751,7 @@
           "id": 13,
           "title": "端程山",
           "reading": "ハノラマ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 13,
           "composer": "トミタカズキ(SUPA LOVE)",
           "originalArtist": null,
@@ -759,7 +759,7 @@
           "bpm": 181,
           "bpmMin": 178,
           "bpmMax": 181,
-          "durationSeconds": null,
+          "durationSeconds": 98,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -807,7 +807,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "d38deed4-1c8c-4252-828e-caaf544de31d"
         },
         {
           "id": 14,
