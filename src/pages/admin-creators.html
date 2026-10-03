@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; connect-src 'self' https://api.github.com; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'self'"
+    />
+    <title>クリエイター管理 | <!--SITE_NAME--></title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/admin.css" />
+    <script type="module" src="/admin-creators.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/"><!--SITE_NAME--></a><span>クリエイター管理</span>
+    </header>
+    <main>
+      <h1>クリエイターを追加・修正</h1>
+      <nav class="actions" aria-label="管理する内容">
+        <a href="/admin/">ガルパ</a
+        ><a href="/admin/?game=ournotes">アワーノーツ</a
+        ><a href="/admin/news/">お知らせ</a
+        ><a href="/admin/creators/" aria-current="page">クリエイター</a>
+      </nav>
+      <noscript><p>管理にはJavaScriptを有効にしてください。</p></noscript>
+      <section class="card">
+        <h2>1. 保存先に接続</h2>
+        <form id="connection-form">
+          <div class="fields">
+            <label
+              >GitHubユーザー名<input
+                name="owner"
+                required
+                autocomplete="off" /></label
+            ><label
+              >リポジトリ名<input
+                name="repo"
+                required
+                autocomplete="off" /></label
+            ><label
+              >ブランチ<input
+                name="branch"
+                value="main"
+                required
+                autocomplete="off" /></label
+            ><label
+              >アクセストークン<input
+                name="token"
+                type="password"
+                required
+                autocomplete="off"
+                aria-describedby="token-note"
+            /></label>
+          </div>
+          <p id="token-note" class="help">
+            対象リポジトリのContents書込権限が必要です。トークンはメモリー内だけに保持し、接続処理後に入力欄を消去します。
+          </p>
+          <div class="actions">
+            <button id="connect">接続する</button
+            ><button type="button" id="disconnect" class="secondary" hidden>
+              接続を解除
+            </button>
+          </div>
+          <p id="connection-status" role="status" tabindex="-1">未接続です。</p>
+        </form>
+      </section>
+      <section class="card">
+        <h2>2. クリエイター一覧</h2>
+        <button id="refresh-creators" disabled>一覧を取得・更新</button
+        ><label for="creator-search"
+          >名前・別名で検索<input type="search" id="creator-search"
+        /></label>
+        <p id="list-status" role="status"></p>
+        <ul id="creator-list" class="related-selected"></ul>
+      </section>
+      <section class="card">
+        <h2>3. 登録・編集</h2>
+        <button id="new-creator" type="button" class="secondary">
+          新しく作成
+        </button>
+        <p id="edit-mode">新しいクリエイター</p>
+        <form id="creator-form">
+          <div class="fields">
+            <label
+              >固定ID<input
+                name="id"
+                readonly
+                placeholder="保存時に採番" /></label
+            ><label>表示名<input name="name" required maxlength="500" /></label
+            ><label
+              >名前順の読み・sortKey<input
+                name="sortKey"
+                required
+                maxlength="500" /></label
+            ><label
+              >URL用slug<input
+                name="slug"
+                required
+                maxlength="100"
+                pattern="[a-z0-9]+(-[a-z0-9]+)*"
+                autocomplete="off" /></label
+            ><label
+              >種別<select name="type">
+                <option value="person">個人</option>
+                <option value="organization">制作組織</option>
+                <option value="unit">ユニット</option>
+              </select></label
+            ><label class="wide"
+              >別名・旧表記（1行に1件）<textarea
+                name="aliases"
+                rows="4"
+              ></textarea>
+            </label>
+          </div>
+          <p id="previous-slugs" class="help">旧URL履歴：なし</p>
+          <p class="help">
+            確認できた読み・種別・別名を入力してください。類似名を同一人物と判断しません。別名の登録だけでは既存未同定クレジットを自動統合しません。固定IDは変更できません。slug変更後もrelationはIDで維持し、旧URLを履歴へ保存して公開時に転送します。旧slugは再利用できません。
+          </p>
+          <div class="actions">
+            <button id="save">クリエイターを保存する</button
+            ><button id="delete-creator" type="button" class="secondary" hidden>
+              削除する
+            </button>
+          </div>
+          <p id="form-status" role="status" tabindex="-1"></p>
+          <div id="delete-confirmation" hidden>
+            <p>このクリエイターを削除します。参照中の場合は削除できません。</p>
+            <button id="confirm-delete" type="button">削除を実行</button>
+            <button id="cancel-delete" type="button" class="secondary">
+              取消
+            </button>
+          </div>
+        </form>
+      </section>
+      <section id="result" class="card" hidden>
+        <h2>保存結果</h2>
+        <p id="saved-message"></p>
+        <div class="actions">
+          <a id="commit-link" target="_blank" rel="noopener noreferrer"
+            >GitHubの保存内容</a
+          ><a id="workflow-link" target="_blank" rel="noopener noreferrer"
+            >更新の進行状況</a
+          ><button id="check-published" type="button">
+            サイトへの反映を確認</button
+          ><a href="/creators/">クリエイター一覧</a>
+        </div>
+        <p id="publish-status" role="status"></p>
+      </section>
+    </main>
+  </body>
+</html>

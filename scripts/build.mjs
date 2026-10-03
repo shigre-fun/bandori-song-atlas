@@ -3,6 +3,17 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { format } from "prettier";
 import { loadGameCatalog } from "./catalog.mjs";
+import {
+  validateCreatorDatabase,
+  ROLE_LABELS,
+  CREDIT_ROLES,
+  creatorRedirects,
+} from "../src/js/creators-data.js";
+import {
+  renderCreators,
+  renderCreatorDetail,
+  creatorPath,
+} from "../src/js/creator-views.js";
 import { loadNews, renderNewsItems } from "./news.mjs";
 import { renderContact } from "./contact.mjs";
 import { generateBrandAssets } from "./assets/create-brand-assets.mjs";
@@ -57,6 +68,17 @@ const catalogs = Object.fromEntries(
   games.map((game) => [game.id, loadGameCatalog(game)]),
 );
 validateRelatedSongIds(catalogs);
+const creatorData = JSON.parse(fs.readFileSync("data/creators.json", "utf8"));
+const workData = JSON.parse(fs.readFileSync("data/works.json", "utf8"));
+const creatorValidation = validateCreatorDatabase(
+  creatorData,
+  workData,
+  Object.values(catalogs).flat(),
+);
+for (const warning of creatorValidation.warnings)
+  console.warn(
+    `Creator/Work warning: ${warning.workId} ${warning.role} ${warning.records.join(", ")}`,
+  );
 const garupaSongs = catalogs.garupa;
 const news = loadNews();
 const siteData = JSON.parse(fs.readFileSync("data/settings.json", "utf8"));
@@ -87,6 +109,7 @@ const catalogInfo = Object.fromEntries(
         ? { updatedAt: adminStates.ournotes.updatedAt }
         : {}),
       songs: catalogs[game.id],
+      creators: creatorData.creators,
     },
   ]),
 );
@@ -214,6 +237,7 @@ async function page({
     "<!--GARUPA_URL-->": local(songListPath(GAMES.garupa)),
     "<!--OURNOTES_URL-->": local(songListPath(GAMES.ournotes)),
     "<!--NEWS_URL-->": local("news/"),
+    "<!--CREATORS_URL-->": local("creators/"),
     "<!--ABOUT_URL-->": local("about/"),
     "<!--SOURCES_URL-->": local("sources/"),
     "<!--PRIVACY_URL-->": local("privacy/"),
@@ -241,6 +265,15 @@ const copiedAssets = [
       "cross-search.js",
       "domain.js",
       "credits.js",
+      "creators-data.js",
+      "credit-display.js",
+      "credit-structure.js",
+      "credit-coverage.js",
+      "creator-views.js",
+      "creators.js",
+      "github-creator-store.js",
+      "admin-creators.js",
+      "creator-picker.js",
       "views.js",
       "related-songs.js",
       "urls.js",
@@ -273,6 +306,7 @@ for (const [directory, names] of copiedAssets)
     }
 assetHash.update(fs.readFileSync("src/pages/admin.html"));
 assetHash.update(fs.readFileSync("src/pages/admin-news.html"));
+assetHash.update(fs.readFileSync("src/pages/admin-creators.html"));
 const assetVersion = assetHash.digest("hex").slice(0, 12);
 for (const [directory, names] of copiedAssets)
   for (const name of names)
@@ -298,6 +332,8 @@ write(
   JSON.stringify({ ...siteData, songs: garupaSongs }, null, 2) + "\n",
 );
 write("news.json", JSON.stringify(news, null, 2) + "\n");
+write("creators.json", JSON.stringify(creatorData, null, 2) + "\n");
+write("works.json", JSON.stringify(workData, null, 2) + "\n");
 write(
   "_routes.json",
   JSON.stringify(
@@ -385,6 +421,57 @@ for (const game of games) {
 }
 
 // 本文を変更した日だけ更新する。ビルド日時からは算出しない。
+await page({
+  file: "creators/index.html",
+  pagePath: "creators/",
+  title: `クリエイター | ${settings.name}`,
+  description:
+    "バンドリ楽曲録に掲載している楽曲の作詞・作曲・編曲者を一覧で探せます。",
+  headerSearch: false,
+  breadcrumbs: [home, { name: "クリエイター", path: "creators/" }],
+  content: renderCreators(
+    creatorData.creators,
+    Object.values(catalogs).flat(),
+    settings.basePath,
+    creatorData.roleCoverage,
+  ),
+  scripts: ["creators.js"],
+});
+for (const creator of creatorData.creators) {
+  const roles = CREDIT_ROLES.filter((role) =>
+    Object.values(catalogs)
+      .flat()
+      .some((song) =>
+        song.credits.some(
+          (c) => c.creatorId === creator.id && c.roles.includes(role),
+        ),
+      ),
+  );
+  const roleText = roles.map((role) => ROLE_LABELS[role]).join("・");
+  await page({
+    file: `${creatorPath(creator)}index.html`,
+    pagePath: creatorPath(creator),
+    title: `${creator.name} - ${roleText || "作詞・作曲・編曲"}参加楽曲 | ${settings.name}`,
+    description: roles.length
+      ? `${creator.name}が${roleText}で参加した、ガルパ・アワーノーツ収録楽曲を掲載しています。`
+      : `${creator.name}のクリエイターデータです。掲載楽曲の参加クレジットは現在未登録です。`,
+    headerSearch: false,
+    breadcrumbs: [
+      home,
+      { name: "クリエイター", path: "creators/" },
+      { name: creator.name, path: creatorPath(creator) },
+    ],
+    content: renderCreatorDetail(
+      creator,
+      Object.values(catalogs).flat(),
+      workData.works,
+      settings.basePath,
+      creatorData.roleCoverage,
+    ),
+    scripts: ["creators.js"],
+  });
+}
+
 const privacyUpdatedOn = "2026-09-30";
 const informationPages = [
   {
@@ -516,6 +603,28 @@ for (const redirect of redirects) {
     ),
   );
 }
+const oldCreatorUrls = creatorRedirects(creatorData);
+for (const redirect of oldCreatorUrls) {
+  const target = url(redirect.to.slice(1));
+  const link = local(redirect.to.slice(1));
+  write(
+    `${redirect.from.slice(1)}index.html`,
+    await format(
+      `<!doctype html><html lang="ja"><head><meta charset="UTF-8"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${escapeHTML(target)}"><title>ページが移動しました | ${escapeHTML(settings.name)}</title><script type="module" src="${local(`legacy-redirect.js?v=${assetVersion}`)}"></script></head><body><main><h1>クリエイターページが移動しました</h1><p><a id="new-creator-url" href="${escapeHTML(link)}">現在のクリエイターページへ</a></p></main></body></html>`,
+      { parser: "html" },
+    ),
+  );
+}
+write("creator-redirects.json", JSON.stringify(oldCreatorUrls, null, 2) + "\n");
+write(
+  "_redirects",
+  oldCreatorUrls
+    .flatMap(({ from, to }) => [
+      `${local(from.slice(1))} ${local(to.slice(1))} 301`,
+      `${local(from.slice(1)).slice(0, -1)} ${local(to.slice(1))} 301`,
+    ])
+    .join("\n") + "\n",
+);
 write(
   "legacy-redirects.json",
   JSON.stringify(
@@ -558,6 +667,19 @@ const adminNewsHTML = fs
   .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
   .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
 write("admin/news/index.html", await format(adminNewsHTML, { parser: "html" }));
+const adminCreatorsHTML = fs
+  .readFileSync("src/pages/admin-creators.html", "utf8")
+  .replace(
+    'src="/admin-creators.js"',
+    `src="/admin-creators.js?v=${assetVersion}"`,
+  )
+  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
+  .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
+  .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
+write(
+  "admin/creators/index.html",
+  await format(adminCreatorsHTML, { parser: "html" }),
+);
 const [owner = "", repo = ""] = (process.env.GITHUB_REPOSITORY || "").split(
   "/",
 );

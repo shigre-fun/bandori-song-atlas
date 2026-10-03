@@ -1,0 +1,16 @@
+{
+  "guardHashes": {
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+    "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee",
+    "docs/migrations/creators-2026-10-02/short-name-review.md": "3883e01b6f1c7e89504e90163d4d92995780b45e80da6cf7ddddfbb74cdeec0c",
+    "docs/migrations/creators-2026-10-02/short-name-review.json": "c909666e0fca1e2c960edbabc670fbf6dd8d4a9c0ae72a93184f4b1a1b6e4d09",
+    "docs/migrations/creators-2026-10-02/human-review-applied.json": "dcc56b8bb205b7e1005fd425bba39b6aebf6750ca22fe5beb27c5657e9c248cc"
+  },
+  "metadataHashes": {
+    "data/creators.json": "7d9a0f1d40a53b8780ba091f485b5b646da47e48c6bd671385608e440104769e",
+    "docs/migrations/creator-map.json": "78497af45d299d1d8075f21c7b57ab6ce1d7c4afb668774bc42ac77c20d1da9b",
+    "docs/migrations/creators-2026-10-02/creator-research.json": "3127af9c8aff6b8df50fc2a75508c18c7a5a46af3751949de0f4cc1eeb868dc6",
+    "docs/migrations/creators-2026-10-02/human-review-input.json": "2c8ee4fb7e71f1137387a859b71709e1bae6b278091e7be168e9d7fd71aa5409"
+  }
+}

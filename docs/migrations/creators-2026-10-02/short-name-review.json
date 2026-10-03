@@ -1,0 +1,218 @@
+[
+  {
+    "rawCredit": "GEN",
+    "name": "GEN",
+    "creatorId": "cr-0085",
+    "game": "garupa",
+    "songId": 523,
+    "title": "swim",
+    "band": "MyGO!!!!!",
+    "workId": "wk-0514",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / GEN",
+    "sources": [
+      {
+        "url": "https://www.04limitedsazabys.com/feature/profile",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "公式04 Limited Sazabysの個人Bass/Vocal GEN。swimの公式ゲーム作曲名と原曲バンド文脈を一致。同名海外アーティストには適用しない。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "MyGO!!!!!",
+            "composer": "GEN",
+            "title": "swim"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 1
+  },
+  {
+    "rawCredit": "ARM",
+    "name": "ARM",
+    "creatorId": "cr-0086",
+    "game": "garupa",
+    "songId": 554,
+    "title": "Ahoy!! 我ら宝鐘海賊団☆",
+    "band": "Afterglow×宝鐘マリン",
+    "workId": "wk-0545",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / ARM",
+    "sources": [
+      {
+        "url": "https://www.iosysos.com/creator-arm.html",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "所属公式がARMを個人作曲家と明記しAhoy!! 我ら宝鐘海賊団☆の担当実績を明示。対象原曲まで一致。ARM企業やIOSYS包括名と区別。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "Afterglow×宝鐘マリン",
+            "composer": "ARM",
+            "title": "Ahoy!! 我ら宝鐘海賊団☆"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 1
+  },
+  {
+    "rawCredit": "TAKE",
+    "name": "TAKE",
+    "creatorId": "cr-0087",
+    "game": "garupa",
+    "songId": 226,
+    "title": "GO!!!",
+    "band": "Afterglow×こころ",
+    "workId": "wk-0222",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / TAKE",
+    "sources": [
+      {
+        "url": "https://www.flow-official.jp/biography/",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "公式FLOWの個人ギターTAKEと本人兄弟の活動記載。GO!!!の公式ゲーム作曲クレジットと原曲FLOW文脈を一致。別のTAKEやTAKESHI ASAKAWAには統合しない。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "Afterglow×こころ",
+            "composer": "TAKE",
+            "title": "GO!!!"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 1
+  },
+  {
+    "rawCredit": "yasu",
+    "name": "yasu",
+    "creatorId": "cr-0088",
+    "game": "garupa",
+    "songId": 386,
+    "title": "月光花",
+    "band": "Morfonica",
+    "workId": "wk-0380",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / yasu",
+    "sources": [
+      {
+        "url": "https://www.acidblackcherry.com/shangri-la/profile/",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "本人公式がJanne Da Arcボーカルyasuのソロプロジェクトと明記。月光花の公式ゲーム作曲クレジットと原曲バンド文脈を一致。本名へ置換しない。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "Morfonica",
+            "composer": "yasu",
+            "title": "月光花"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 1
+  },
+  {
+    "rawCredit": "atsuko/KATSU",
+    "name": "KATSU",
+    "creatorId": "cr-0079",
+    "game": "garupa",
+    "songId": 97,
+    "title": "Shangri-La",
+    "band": "Roselia",
+    "workId": "wk-0097",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / KATSU",
+    "sources": [
+      {
+        "url": "https://angela-official.com/profile",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "公式angela個人ギター・作曲アレンジ担当。Shangri-La/KINGSの公式ゲーム共同作曲相手atsukoと照合。別同名に適用しない。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "Roselia",
+            "composer": "atsuko/KATSU",
+            "title": "Shangri-La"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 2
+  },
+  {
+    "rawCredit": "atsuko/KATSU",
+    "name": "KATSU",
+    "creatorId": "cr-0079",
+    "game": "ournotes",
+    "songId": 43,
+    "title": "KINGS",
+    "band": "Ave Mujica",
+    "workId": "wk-0790",
+    "basis": "一次情報確認（2026-10-02）: creator-research.json / KATSU",
+    "sources": [
+      {
+        "url": "https://angela-official.com/profile",
+        "sourceType": "official-artist",
+        "checkedAt": "2026-10-02",
+        "access": "read",
+        "supports": "公式angela個人ギター・作曲アレンジ担当。Shangri-La/KINGSの公式ゲーム共同作曲相手atsukoと照合。別同名に適用しない。"
+      },
+      {
+        "url": "https://bang-dream.bushimo.jp/music/",
+        "sourceType": "official-game-credit",
+        "checkedAt": "2026-10-02",
+        "access": "browser-rendered-dom",
+        "supports": "公式ゲームの作曲欄と標準名/旧表記の活動文脈を照合。曲名だけではなく下記artistも区別。",
+        "facts": [
+          {
+            "artist": "Roselia",
+            "composer": "atsuko/KATSU",
+            "title": "Shangri-La"
+          }
+        ]
+      }
+    ],
+    "displayOverride": null,
+    "recordCount": 2
+  }
+]

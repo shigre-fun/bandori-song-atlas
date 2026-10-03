@@ -12,6 +12,10 @@ test("new-song command adds a template entry without changing existing IDs", () 
   try {
     fs.mkdirSync(path.join(root, "data/garupa"), { recursive: true });
     fs.mkdirSync(path.join(root, "templates"));
+    fs.writeFileSync(
+      path.join(root, "data/works.json"),
+      JSON.stringify({ version: 1, nextId: 1, works: [] }),
+    );
     fs.copyFileSync(
       "templates/song.json",
       path.join(root, "templates/song.json"),
@@ -34,6 +38,7 @@ test("new-song command adds a template entry without changing existing IDs", () 
     assert.equal(run().status, 0);
     let data = JSON.parse(fs.readFileSync(file, "utf8"));
     assert.equal(data.groups[0].songs[0].id, 7);
+    assert.equal(data.groups[0].songs[0].workId, "wk-0001");
     assert.throws(() => loadCatalog(file), /楽曲グループ/);
     data.groups[0].band = "Roselia";
     const song = data.groups[0].songs[0];
@@ -54,6 +59,12 @@ test("new-song command adds a template entry without changing existing IDs", () 
     assert.deepEqual(
       data.groups.flatMap((group) => group.songs.map((entry) => entry.id)),
       [7, 8],
+    );
+    assert.deepEqual(
+      JSON.parse(fs.readFileSync(path.join(root, "data/works.json"))).works.map(
+        (w) => w.id,
+      ),
+      ["wk-0001", "wk-0002"],
     );
     assert.equal(
       JSON.parse(

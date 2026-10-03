@@ -30,7 +30,8 @@
         <a href="/admin/" data-admin-game="garupa">ガルパ</a
         ><a href="/admin/?game=ournotes" data-admin-game="ournotes"
           >アワーノーツ</a
-        ><a href="/admin/news/">お知らせ</a>
+        ><a href="/admin/news/">お知らせ</a
+        ><a href="/admin/creators/">クリエイター</a>
       </nav>
       <p class="lead">
         楽曲情報を入力して保存すると、サイトの更新が始まります。
@@ -255,7 +256,66 @@
               >作曲者（カバー・エクストラは原曲）<input
                 name="composer"
                 maxlength="2000"
+                readonly
             /></label>
+            <input type="hidden" name="creatorRows" value="[]" />
+            <section class="wide" id="creator-picker">
+              <h3>作詞・作曲・編曲のクリエイター</h3>
+              <p class="help">
+                登録済みCreatorを検索して追加します。同じ担当へ複数名を登録できます。確認待ちの既存表記は保持します。
+              </p>
+              <button
+                type="button"
+                id="refresh-creator-options"
+                class="secondary"
+              >
+                クリエイター・Workを取得
+              </button>
+              <ul id="selected-creators" class="related-selected"></ul>
+              <div class="fields">
+                <label
+                  >担当<select id="credit-role">
+                    <option value="lyricist">作詞</option>
+                    <option value="composer">作曲</option>
+                    <option value="arranger">編曲</option>
+                  </select></label
+                ><label
+                  >名前・別名を検索<input
+                    type="search"
+                    id="credit-search" /></label
+                ><label
+                  >追加するクリエイター<select
+                    id="credit-creator"
+                    size="5"
+                  ></select></label
+                ><label
+                  >表示名の上書き（通常は空欄）<input
+                    id="credit-override"
+                    maxlength="2000"
+                /></label>
+              </div>
+              <button type="button" id="add-credit">
+                選んだクリエイターを追加</button
+              ><a
+                href="/admin/creators/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >クリエイターを追加・編集</a
+              >
+              <p id="credit-status" role="status"></p>
+              <label
+                >同じ音楽作品（Work）を検索<input
+                  type="search"
+                  id="work-search" /></label
+              ><label
+                >Work<select name="workId" id="credit-work">
+                  <option value="">新しい音楽作品として登録</option>
+                </select></label
+              >
+              <p class="help">
+                既存Workは確認できた同じ作品だけ選びます。タイトル一致だけでは統合しません。関連曲を設定するときは同じWorkを選んでください。
+              </p>
+            </section>
             <div id="original-fields" class="wide">
               <label
                 >3Dライブ<select name="live3d">

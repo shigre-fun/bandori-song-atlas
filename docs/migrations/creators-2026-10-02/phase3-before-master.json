@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "nextId": 5,
+  "creators": [
+    {
+      "id": "cr-0001",
+      "slug": "noriyasu-agematsu",
+      "name": "上松範康",
+      "sortKey": "あげまつのりやす",
+      "type": "person",
+      "aliases": ["上松範康（Elements Garden）", "上松範康(Elements Garden)"]
+    },
+    {
+      "id": "cr-0002",
+      "slug": "elements-garden",
+      "name": "Elements Garden",
+      "sortKey": "elements garden",
+      "type": "organization",
+      "aliases": []
+    },
+    {
+      "id": "cr-0003",
+      "slug": "creator-0003",
+      "name": "真部脩一",
+      "sortKey": "真部脩一",
+      "sortKeyStatus": "provisional-original",
+      "type": "person",
+      "aliases": ["真部 脩一"],
+      "identityEvidence": "ユーザー第2フェーズ仕様8で空白あり/なしを同一人物と確認（2026-10-02）。読み・英字名は未確認。"
+    },
+    {
+      "id": "cr-0004",
+      "slug": "creator-0004",
+      "name": "藤田淳平",
+      "sortKey": "藤田淳平",
+      "sortKeyStatus": "provisional-original",
+      "type": "person",
+      "aliases": ["藤田淳平（Elements Garden）", "藤田淳平(Elements Garden)"],
+      "identityEvidence": "ユーザー第2フェーズ仕様8で括弧形式違いを同一人物と確認（2026-10-02）。読み・英字名は未確認。"
+    }
+  ],
+  "roleCoverage": {
+    "lyricist": "unprepared",
+    "composer": "ready",
+    "arranger": "unprepared"
+  }
+}

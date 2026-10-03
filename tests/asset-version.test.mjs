@@ -17,6 +17,9 @@ test("public pages and imported modules use the current asset version", () => {
     "ournotes/songs/79/index.html",
     "admin/index.html",
     "admin/news/index.html",
+    "admin/creators/index.html",
+    "creators/index.html",
+    "creators/noriyasu-agematsu/index.html",
   ];
   const version = read("index.html").match(/style\.css\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version);
@@ -40,6 +43,15 @@ test("public pages and imported modules use the current asset version", () => {
     "admin.js",
     "admin-news.js",
     "github-news-store.js",
+    "creators.js",
+    "creator-views.js",
+    "creators-data.js",
+    "credit-structure.js",
+    "credit-display.js",
+    "credit-coverage.js",
+    "admin-creators.js",
+    "creator-picker.js",
+    "github-creator-store.js",
   ]) {
     const source = read(file);
     for (const [, dependency, actualVersion] of source.matchAll(

@@ -1,0 +1,820 @@
+{
+  "checkedAt": "2026-10-02T17:05:38.589Z",
+  "summary": {
+    "changes": [
+      {
+        "id": "cr-0048",
+        "name": "片倉三起也",
+        "from": "creator-0048",
+        "to": "mikiya-katakura"
+      },
+      {
+        "id": "cr-0081",
+        "name": "前澤寛之",
+        "from": "creator-0081",
+        "to": "hiroyuki-maezawa"
+      },
+      {
+        "id": "cr-0082",
+        "name": "志倉千代丸",
+        "from": "creator-0082",
+        "to": "chiyomaru-shikura"
+      },
+      {
+        "id": "cr-0089",
+        "name": "庄司夏葵",
+        "from": "creator-0089",
+        "to": "natsuki-shoji"
+      },
+      {
+        "id": "cr-0090",
+        "name": "瀬名水紀",
+        "from": "creator-0090",
+        "to": "mizuki-sena"
+      }
+    ],
+    "creators": 91,
+    "nextId": 92,
+    "previousSlugs": 18,
+    "cloudflareRules": 36,
+    "staticCompatibilityPages": 18,
+    "idSlugs": [],
+    "provisionalSortKeys": 47,
+    "resolvedRaw": 127,
+    "remainingRaw": 215,
+    "coverage": {
+      "recordings": 635,
+      "totalRecordings": 884,
+      "recordingPercent": 71.83,
+      "works": 582,
+      "totalWorks": 823,
+      "workPercent": 70.72
+    },
+    "displayComparisons": 2652,
+    "workWarnings": []
+  },
+  "sourceHashes": {
+    "data/creators.json": "798195855e90308cd6eae3bfb1ee0573700190782b14402e9928cc6a151a4285",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+    "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee"
+  },
+  "guardHashes": {
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+    "data/ournotes/songs.json": "6d1109393baf379702bd0dd4a8b05a0dc434907e85bf1052e7e2db8a8c0339ee",
+    "docs/migrations/creators-2026-10-02/short-name-review.md": "3883e01b6f1c7e89504e90163d4d92995780b45e80da6cf7ddddfbb74cdeec0c",
+    "docs/migrations/creators-2026-10-02/short-name-review.json": "c909666e0fca1e2c960edbabc670fbf6dd8d4a9c0ae72a93184f4b1a1b6e4d09",
+    "docs/migrations/creators-2026-10-02/human-review-applied.json": "dcc56b8bb205b7e1005fd425bba39b6aebf6750ca22fe5beb27c5657e9c248cc"
+  },
+  "guardsUnchanged": true,
+  "buildCatalogsMatchCurrentSource": true,
+  "creatorCounts": [
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "from": "creator-0048",
+      "to": "mikiya-katakura",
+      "works": 4,
+      "recordings": 4
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "from": "creator-0081",
+      "to": "hiroyuki-maezawa",
+      "works": 3,
+      "recordings": 3
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "from": "creator-0082",
+      "to": "chiyomaru-shikura",
+      "works": 3,
+      "recordings": 3
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "from": "creator-0089",
+      "to": "natsuki-shoji",
+      "works": 2,
+      "recordings": 4
+    },
+    {
+      "id": "cr-0090",
+      "name": "瀬名水紀",
+      "from": "creator-0090",
+      "to": "mizuki-sena",
+      "works": 4,
+      "recordings": 4
+    }
+  ],
+  "browser": {
+    "list": [
+      {
+        "id": "cr-0048",
+        "href": "/creators/mikiya-katakura/"
+      },
+      {
+        "id": "cr-0081",
+        "href": "/creators/hiroyuki-maezawa/"
+      },
+      {
+        "id": "cr-0082",
+        "href": "/creators/chiyomaru-shikura/"
+      },
+      {
+        "id": "cr-0089",
+        "href": "/creators/natsuki-shoji/"
+      },
+      {
+        "id": "cr-0090",
+        "href": "/creators/mizuki-sena/"
+      }
+    ],
+    "details": [
+      {
+        "id": "cr-0048",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "counts": [
+          ["参加楽曲数", "4"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "4"],
+          ["編曲曲数", "未整備"]
+        ],
+        "name": "片倉三起也",
+        "records": "収録件数：4件",
+        "songs": [
+          {
+            "href": "/garupa/songs/789/",
+            "name": "ガルパ：この蒼き闇と光"
+          },
+          {
+            "href": "/ournotes/songs/42/",
+            "name": "アワーノーツ：暗黒天国"
+          },
+          {
+            "href": "/garupa/songs/534/",
+            "name": "ガルパ：聖少女領域"
+          },
+          {
+            "href": "/garupa/songs/790/",
+            "name": "ガルパ：勇侠青春謳"
+          }
+        ]
+      },
+      {
+        "id": "cr-0081",
+        "canonical": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "counts": [
+          ["参加楽曲数", "3"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "3"],
+          ["編曲曲数", "未整備"]
+        ],
+        "name": "前澤寛之",
+        "records": "収録件数：3件",
+        "songs": [
+          {
+            "href": "/garupa/songs/29/",
+            "name": "ガルパ：Don’t say “lazy”"
+          },
+          {
+            "href": "/garupa/songs/381/",
+            "name": "ガルパ：Listen!!"
+          },
+          {
+            "href": "/garupa/songs/54/",
+            "name": "ガルパ：ふわふわ時間"
+          }
+        ]
+      },
+      {
+        "id": "cr-0082",
+        "canonical": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "counts": [
+          ["参加楽曲数", "3"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "3"],
+          ["編曲曲数", "未整備"]
+        ],
+        "name": "志倉千代丸",
+        "records": "収録件数：3件",
+        "songs": [
+          {
+            "href": "/garupa/songs/26/",
+            "name": "ガルパ：Hacking to the Gate"
+          },
+          {
+            "href": "/garupa/songs/438/",
+            "name": "ガルパ：スカイクラッドの観測者"
+          },
+          {
+            "href": "/garupa/songs/207/",
+            "name": "ガルパ：ファティマ"
+          }
+        ]
+      },
+      {
+        "id": "cr-0089",
+        "canonical": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "counts": [
+          ["参加楽曲数", "2"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "2"],
+          ["編曲曲数", "未整備"]
+        ],
+        "name": "庄司夏葵",
+        "records": "収録件数：4件",
+        "songs": [
+          {
+            "href": "/garupa/songs/620/",
+            "name": "ガルパ：歩拾道"
+          },
+          {
+            "href": "/ournotes/songs/12/",
+            "name": "アワーノーツ：歩拾道"
+          },
+          {
+            "href": "/garupa/songs/771/",
+            "name": "ガルパ：無路矢"
+          },
+          {
+            "href": "/ournotes/songs/10/",
+            "name": "アワーノーツ：無路矢"
+          }
+        ]
+      },
+      {
+        "id": "cr-0090",
+        "canonical": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "counts": [
+          ["参加楽曲数", "4"],
+          ["作詞曲数", "未整備"],
+          ["作曲曲数", "4"],
+          ["編曲曲数", "未整備"]
+        ],
+        "name": "瀬名水紀",
+        "records": "収録件数：4件",
+        "songs": [
+          {
+            "href": "/ournotes/songs/64/",
+            "name": "アワーノーツ：everscape"
+          },
+          {
+            "href": "/ournotes/songs/74/",
+            "name": "アワーノーツ：Keep on Riddim"
+          },
+          {
+            "href": "/ournotes/songs/66/",
+            "name": "アワーノーツ：カーネーションの咲く日に"
+          },
+          {
+            "href": "/ournotes/songs/65/",
+            "name": "アワーノーツ：鳴らす"
+          }
+        ]
+      }
+    ],
+    "songLinks": [
+      {
+        "id": "cr-0048",
+        "song": "/garupa/songs/789/",
+        "credit": {
+          "href": "/creators/mikiya-katakura/",
+          "name": "片倉三起也"
+        },
+        "destination": "http://127.0.0.1:4173/creators/mikiya-katakura/"
+      },
+      {
+        "id": "cr-0081",
+        "song": "/garupa/songs/29/",
+        "credit": {
+          "href": "/creators/hiroyuki-maezawa/",
+          "name": "前澤寛之"
+        },
+        "destination": "http://127.0.0.1:4173/creators/hiroyuki-maezawa/"
+      },
+      {
+        "id": "cr-0082",
+        "song": "/garupa/songs/26/",
+        "credit": {
+          "href": "/creators/chiyomaru-shikura/",
+          "name": "志倉千代丸"
+        },
+        "destination": "http://127.0.0.1:4173/creators/chiyomaru-shikura/"
+      },
+      {
+        "id": "cr-0089",
+        "song": "/garupa/songs/620/",
+        "credit": {
+          "href": "/creators/natsuki-shoji/",
+          "name": "庄司夏葵(SUPA LOVE)"
+        },
+        "destination": "http://127.0.0.1:4173/creators/natsuki-shoji/"
+      },
+      {
+        "id": "cr-0090",
+        "song": "/ournotes/songs/64/",
+        "credit": {
+          "href": "/creators/mizuki-sena/",
+          "name": "瀬名水紀(Dream Monster)"
+        },
+        "destination": "http://127.0.0.1:4173/creators/mizuki-sena/"
+      }
+    ],
+    "filters": [
+      {
+        "id": "cr-0048",
+        "display": "表示：3作品",
+        "records": "収録件数：4件",
+        "url": "http://127.0.0.1:4173/creators/mikiya-katakura/?role=composer&game=garupa"
+      },
+      {
+        "id": "cr-0081",
+        "display": "表示：3作品",
+        "records": "収録件数：3件",
+        "url": "http://127.0.0.1:4173/creators/hiroyuki-maezawa/?role=composer&game=garupa"
+      },
+      {
+        "id": "cr-0082",
+        "display": "表示：3作品",
+        "records": "収録件数：3件",
+        "url": "http://127.0.0.1:4173/creators/chiyomaru-shikura/?role=composer&game=garupa"
+      },
+      {
+        "id": "cr-0089",
+        "display": "表示：2作品",
+        "records": "収録件数：4件",
+        "url": "http://127.0.0.1:4173/creators/natsuki-shoji/?role=composer&game=garupa"
+      },
+      {
+        "id": "cr-0090",
+        "display": "表示：4作品",
+        "records": "収録件数：4件",
+        "url": "http://127.0.0.1:4173/creators/mizuki-sena/?role=composer&game=ournotes"
+      }
+    ],
+    "staticRedirects": [
+      {
+        "id": "cr-0048",
+        "old": "creator-0048",
+        "destination": "http://127.0.0.1:4173/creators/mikiya-katakura/"
+      },
+      {
+        "id": "cr-0081",
+        "old": "creator-0081",
+        "destination": "http://127.0.0.1:4173/creators/hiroyuki-maezawa/"
+      },
+      {
+        "id": "cr-0082",
+        "old": "creator-0082",
+        "destination": "http://127.0.0.1:4173/creators/chiyomaru-shikura/"
+      },
+      {
+        "id": "cr-0089",
+        "old": "creator-0089",
+        "destination": "http://127.0.0.1:4173/creators/natsuki-shoji/"
+      },
+      {
+        "id": "cr-0090",
+        "old": "creator-0090",
+        "destination": "http://127.0.0.1:4173/creators/mizuki-sena/?role=composer&game=ournotes#app"
+      }
+    ],
+    "pageRedirects": [
+      {
+        "id": "cr-0048",
+        "destination": "http://127.0.0.1:4174/creators/mikiya-katakura/?role=composer&game=garupa#app"
+      },
+      {
+        "id": "cr-0081",
+        "destination": "http://127.0.0.1:4174/creators/hiroyuki-maezawa/"
+      },
+      {
+        "id": "cr-0082",
+        "destination": "http://127.0.0.1:4174/creators/chiyomaru-shikura/"
+      },
+      {
+        "id": "cr-0089",
+        "destination": "http://127.0.0.1:4174/creators/natsuki-shoji/"
+      },
+      {
+        "id": "cr-0090",
+        "destination": "http://127.0.0.1:4174/creators/mizuki-sena/"
+      }
+    ],
+    "admin": [
+      {
+        "id": "cr-0048",
+        "currentSlug": "mikiya-katakura",
+        "history": "旧URL履歴：creator-0048（自動保存・編集不可）",
+        "fixedIdReadonly": true,
+        "mockSave": true,
+        "refetched": true,
+        "historyPreserved": true
+      },
+      {
+        "id": "cr-0081",
+        "currentSlug": "hiroyuki-maezawa",
+        "history": "旧URL履歴：creator-0081（自動保存・編集不可）",
+        "fixedIdReadonly": true,
+        "mockSave": true,
+        "refetched": true,
+        "historyPreserved": true
+      },
+      {
+        "id": "cr-0082",
+        "currentSlug": "chiyomaru-shikura",
+        "history": "旧URL履歴：creator-0082（自動保存・編集不可）",
+        "fixedIdReadonly": true,
+        "mockSave": true,
+        "refetched": true,
+        "historyPreserved": true
+      },
+      {
+        "id": "cr-0089",
+        "currentSlug": "natsuki-shoji",
+        "history": "旧URL履歴：creator-0089（自動保存・編集不可）",
+        "fixedIdReadonly": true,
+        "mockSave": true,
+        "refetched": true,
+        "historyPreserved": true
+      },
+      {
+        "id": "cr-0090",
+        "currentSlug": "mizuki-sena",
+        "history": "旧URL履歴：creator-0090（自動保存・編集不可）",
+        "fixedIdReadonly": true,
+        "mockSave": true,
+        "refetched": true,
+        "historyPreserved": true
+      }
+    ],
+    "console": {
+      "public": [],
+      "admin": []
+    }
+  },
+  "http": {
+    "newPages": [
+      {
+        "id": "cr-0048",
+        "url": "http://127.0.0.1:4174/creators/mikiya-katakura/",
+        "status": 200
+      },
+      {
+        "id": "cr-0081",
+        "url": "http://127.0.0.1:4174/creators/hiroyuki-maezawa/",
+        "status": 200
+      },
+      {
+        "id": "cr-0082",
+        "url": "http://127.0.0.1:4174/creators/chiyomaru-shikura/",
+        "status": 200
+      },
+      {
+        "id": "cr-0089",
+        "url": "http://127.0.0.1:4174/creators/natsuki-shoji/",
+        "status": 200
+      },
+      {
+        "id": "cr-0090",
+        "url": "http://127.0.0.1:4174/creators/mizuki-sena/",
+        "status": 200
+      }
+    ],
+    "redirects": [
+      {
+        "creatorId": "cr-0003",
+        "from": "/creators/creator-0003/",
+        "to": "/creators/syuichi-mabe/",
+        "status": 301,
+        "location": "/creators/syuichi-mabe/"
+      },
+      {
+        "creatorId": "cr-0003",
+        "from": "/creators/creator-0003",
+        "to": "/creators/syuichi-mabe/",
+        "status": 301,
+        "location": "/creators/syuichi-mabe/"
+      },
+      {
+        "creatorId": "cr-0004",
+        "from": "/creators/creator-0004/",
+        "to": "/creators/junpei-fujita/",
+        "status": 301,
+        "location": "/creators/junpei-fujita/"
+      },
+      {
+        "creatorId": "cr-0004",
+        "from": "/creators/creator-0004",
+        "to": "/creators/junpei-fujita/",
+        "status": 301,
+        "location": "/creators/junpei-fujita/"
+      },
+      {
+        "creatorId": "cr-0020",
+        "from": "/creators/creator-0020/",
+        "to": "/creators/yuki-hidaka/",
+        "status": 301,
+        "location": "/creators/yuki-hidaka/"
+      },
+      {
+        "creatorId": "cr-0020",
+        "from": "/creators/creator-0020",
+        "to": "/creators/yuki-hidaka/",
+        "status": 301,
+        "location": "/creators/yuki-hidaka/"
+      },
+      {
+        "creatorId": "cr-0021",
+        "from": "/creators/creator-0021/",
+        "to": "/creators/ryota-suematsu/",
+        "status": 301,
+        "location": "/creators/ryota-suematsu/"
+      },
+      {
+        "creatorId": "cr-0021",
+        "from": "/creators/creator-0021",
+        "to": "/creators/ryota-suematsu/",
+        "status": 301,
+        "location": "/creators/ryota-suematsu/"
+      },
+      {
+        "creatorId": "cr-0024",
+        "from": "/creators/creator-0024/",
+        "to": "/creators/satoshi-fujihara/",
+        "status": 301,
+        "location": "/creators/satoshi-fujihara/"
+      },
+      {
+        "creatorId": "cr-0024",
+        "from": "/creators/creator-0024",
+        "to": "/creators/satoshi-fujihara/",
+        "status": 301,
+        "location": "/creators/satoshi-fujihara/"
+      },
+      {
+        "creatorId": "cr-0027",
+        "from": "/creators/creator-0027/",
+        "to": "/creators/tomoya-tabuchi/",
+        "status": 301,
+        "location": "/creators/tomoya-tabuchi/"
+      },
+      {
+        "creatorId": "cr-0027",
+        "from": "/creators/creator-0027",
+        "to": "/creators/tomoya-tabuchi/",
+        "status": 301,
+        "location": "/creators/tomoya-tabuchi/"
+      },
+      {
+        "creatorId": "cr-0041",
+        "from": "/creators/creator-0041/",
+        "to": "/creators/kairiki-bear/",
+        "status": 301,
+        "location": "/creators/kairiki-bear/"
+      },
+      {
+        "creatorId": "cr-0041",
+        "from": "/creators/creator-0041",
+        "to": "/creators/kairiki-bear/",
+        "status": 301,
+        "location": "/creators/kairiki-bear/"
+      },
+      {
+        "creatorId": "cr-0048",
+        "from": "/creators/creator-0048/",
+        "to": "/creators/mikiya-katakura/",
+        "status": 301,
+        "location": "/creators/mikiya-katakura/"
+      },
+      {
+        "creatorId": "cr-0048",
+        "from": "/creators/creator-0048",
+        "to": "/creators/mikiya-katakura/",
+        "status": 301,
+        "location": "/creators/mikiya-katakura/"
+      },
+      {
+        "creatorId": "cr-0050",
+        "from": "/creators/creator-0050/",
+        "to": "/creators/kenichi-maeyamada/",
+        "status": 301,
+        "location": "/creators/kenichi-maeyamada/"
+      },
+      {
+        "creatorId": "cr-0050",
+        "from": "/creators/creator-0050",
+        "to": "/creators/kenichi-maeyamada/",
+        "status": 301,
+        "location": "/creators/kenichi-maeyamada/"
+      },
+      {
+        "creatorId": "cr-0053",
+        "from": "/creators/creator-0053/",
+        "to": "/creators/junichi-sato/",
+        "status": 301,
+        "location": "/creators/junichi-sato/"
+      },
+      {
+        "creatorId": "cr-0053",
+        "from": "/creators/creator-0053",
+        "to": "/creators/junichi-sato/",
+        "status": 301,
+        "location": "/creators/junichi-sato/"
+      },
+      {
+        "creatorId": "cr-0072",
+        "from": "/creators/creator-0072/",
+        "to": "/creators/shintaro-tokita/",
+        "status": 301,
+        "location": "/creators/shintaro-tokita/"
+      },
+      {
+        "creatorId": "cr-0072",
+        "from": "/creators/creator-0072",
+        "to": "/creators/shintaro-tokita/",
+        "status": 301,
+        "location": "/creators/shintaro-tokita/"
+      },
+      {
+        "creatorId": "cr-0073",
+        "from": "/creators/creator-0073/",
+        "to": "/creators/takuya-ohashi/",
+        "status": 301,
+        "location": "/creators/takuya-ohashi/"
+      },
+      {
+        "creatorId": "cr-0073",
+        "from": "/creators/creator-0073",
+        "to": "/creators/takuya-ohashi/",
+        "status": 301,
+        "location": "/creators/takuya-ohashi/"
+      },
+      {
+        "creatorId": "cr-0075",
+        "from": "/creators/creator-0075/",
+        "to": "/creators/shoji-meguro/",
+        "status": 301,
+        "location": "/creators/shoji-meguro/"
+      },
+      {
+        "creatorId": "cr-0075",
+        "from": "/creators/creator-0075",
+        "to": "/creators/shoji-meguro/",
+        "status": 301,
+        "location": "/creators/shoji-meguro/"
+      },
+      {
+        "creatorId": "cr-0081",
+        "from": "/creators/creator-0081/",
+        "to": "/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "location": "/creators/hiroyuki-maezawa/"
+      },
+      {
+        "creatorId": "cr-0081",
+        "from": "/creators/creator-0081",
+        "to": "/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "location": "/creators/hiroyuki-maezawa/"
+      },
+      {
+        "creatorId": "cr-0082",
+        "from": "/creators/creator-0082/",
+        "to": "/creators/chiyomaru-shikura/",
+        "status": 301,
+        "location": "/creators/chiyomaru-shikura/"
+      },
+      {
+        "creatorId": "cr-0082",
+        "from": "/creators/creator-0082",
+        "to": "/creators/chiyomaru-shikura/",
+        "status": 301,
+        "location": "/creators/chiyomaru-shikura/"
+      },
+      {
+        "creatorId": "cr-0083",
+        "from": "/creators/creator-0083/",
+        "to": "/creators/ayato-shinozaki/",
+        "status": 301,
+        "location": "/creators/ayato-shinozaki/"
+      },
+      {
+        "creatorId": "cr-0083",
+        "from": "/creators/creator-0083",
+        "to": "/creators/ayato-shinozaki/",
+        "status": 301,
+        "location": "/creators/ayato-shinozaki/"
+      },
+      {
+        "creatorId": "cr-0089",
+        "from": "/creators/creator-0089/",
+        "to": "/creators/natsuki-shoji/",
+        "status": 301,
+        "location": "/creators/natsuki-shoji/"
+      },
+      {
+        "creatorId": "cr-0089",
+        "from": "/creators/creator-0089",
+        "to": "/creators/natsuki-shoji/",
+        "status": 301,
+        "location": "/creators/natsuki-shoji/"
+      },
+      {
+        "creatorId": "cr-0090",
+        "from": "/creators/creator-0090/",
+        "to": "/creators/mizuki-sena/",
+        "status": 301,
+        "location": "/creators/mizuki-sena/"
+      },
+      {
+        "creatorId": "cr-0090",
+        "from": "/creators/creator-0090",
+        "to": "/creators/mizuki-sena/",
+        "status": 301,
+        "location": "/creators/mizuki-sena/"
+      }
+    ],
+    "query": [
+      {
+        "id": "cr-0048",
+        "from": "/creators/creator-0048/?role=composer&game=ournotes",
+        "status": 301,
+        "location": "http://127.0.0.1:4174/creators/mikiya-katakura/?role=composer&game=ournotes"
+      },
+      {
+        "id": "cr-0081",
+        "from": "/creators/creator-0081/?role=composer&game=ournotes",
+        "status": 301,
+        "location": "http://127.0.0.1:4174/creators/hiroyuki-maezawa/?role=composer&game=ournotes"
+      },
+      {
+        "id": "cr-0082",
+        "from": "/creators/creator-0082/?role=composer&game=ournotes",
+        "status": 301,
+        "location": "http://127.0.0.1:4174/creators/chiyomaru-shikura/?role=composer&game=ournotes"
+      },
+      {
+        "id": "cr-0089",
+        "from": "/creators/creator-0089/?role=composer&game=ournotes",
+        "status": 301,
+        "location": "http://127.0.0.1:4174/creators/natsuki-shoji/?role=composer&game=ournotes"
+      },
+      {
+        "id": "cr-0090",
+        "from": "/creators/creator-0090/?role=composer&game=ournotes",
+        "status": 301,
+        "location": "http://127.0.0.1:4174/creators/mizuki-sena/?role=composer&game=ournotes"
+      }
+    ],
+    "contact": {
+      "method": "GET",
+      "status": 405,
+      "code": "method",
+      "externalSend": false
+    }
+  },
+  "unitTests": {
+    "total": 165,
+    "passed": 165,
+    "failed": 0
+  },
+  "seo": {
+    "root": {
+      "pages": 984,
+      "songDetails": 884,
+      "songRedirects": 797,
+      "creatorRedirects": 18
+    },
+    "subpath": {
+      "pages": 984,
+      "songDetails": 884,
+      "songRedirects": 797,
+      "creatorRedirects": 18
+    }
+  },
+  "build": {
+    "root": "success",
+    "subpath": "success",
+    "basePath": "/bandori-song-atlas/"
+  },
+  "functions": {
+    "compile": "success",
+    "localRules": 36,
+    "compatibilityDate": "2026-09-26"
+  },
+  "syntax": "success (3 changed modules)",
+  "format": "success (20 limited files)",
+  "gitDiff": "success",
+  "finishedAt": "2026-10-02T17:08:50.796Z",
+  "cleanup": {
+    "tabsClosed": ["3", "4"],
+    "serversStopped": [4173, 4174, 4176],
+    "noCommitPushDeploy": true
+  }
+}

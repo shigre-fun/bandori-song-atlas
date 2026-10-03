@@ -12,7 +12,7 @@ export const songPath = (game, stableSongId) =>
   `${songListPath(game)}${encodeURIComponent(stableSongId)}/`;
 export function crossSearchURL(q, page = 1, base = siteBase, credit = null) {
   const params = new URLSearchParams({ q, page: String(page) });
-  if (credit === "composer" || credit === "artist")
+  if (["lyricist", "composer", "arranger", "artist"].includes(credit))
     params.set("credit", credit);
   return siteURL(`search/?${params}`, base);
 }

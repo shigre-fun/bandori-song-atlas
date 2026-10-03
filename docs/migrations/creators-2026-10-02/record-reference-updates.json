@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-02",
+  "basis": "ユーザーが並行作業によるOurNotes変更を意図したものとして保持するよう明示。旧曲実体と現曲のtitle/固定Work IDを照合。原legacy-creditsは変更せず参照のみ明示対応する。",
+  "references": [
+    {
+      "from": "ournotes:50",
+      "to": "ournotes:52",
+      "title": "真夜中遊園地",
+      "workId": "wk-0797"
+    },
+    {
+      "from": "ournotes:51",
+      "to": "ournotes:50",
+      "title": "これはぼくたちの生存のあらすじ",
+      "workId": "wk-0798"
+    },
+    {
+      "from": "ournotes:52",
+      "to": "ournotes:51",
+      "title": "うちゅうのふしぎ",
+      "workId": "wk-0799"
+    }
+  ]
+}

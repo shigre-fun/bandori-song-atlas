@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { BRAND_ASSETS, SITE_ORIGIN } from "../../src/js/site-config.js";
+import { creatorRedirects } from "../../src/js/creators-data.js";
 
 const decode = (value) =>
   value
@@ -192,8 +193,15 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
         !link.search
       )
         continue;
-      if (link.pathname === `${basePath}admin/`)
+      if (link.pathname.startsWith(`${basePath}admin/`))
         fail(`一般ページから管理画面へのリンクがあります: ${canonical}`);
+      if (
+        link.pathname.startsWith(`${basePath}creators/`) &&
+        !sitemapSet.has(origin + link.pathname)
+      )
+        fail(
+          `Creator内部リンクがcurrent slugではありません: ${canonical} -> ${reference}`,
+        );
       const target = localFile(link.pathname);
       if (!target || !fs.existsSync(target))
         fail(`内部リンク切れ: ${canonical} -> ${reference}`);
@@ -223,11 +231,18 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     "sources/",
     "privacy/",
     "contact/",
+    "creators/",
   ];
   for (const relative of required)
     if (!sitemapSet.has(expectedOrigin + relative))
       fail(`sitemapに必要なページがありません: ${relative}`);
-  for (const relative of ["garupa/", "ournotes/", "admin/", "admin/news/"])
+  for (const relative of [
+    "garupa/",
+    "ournotes/",
+    "admin/",
+    "admin/news/",
+    "admin/creators/",
+  ])
     if (sitemapSet.has(expectedOrigin + relative))
       fail(`一覧以外の非対象ページがsitemapに残っています: ${relative}`);
   for (const relative of ["garupa/index.html", "ournotes/index.html"])
@@ -236,12 +251,18 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   for (const relative of [
     "admin/index.html",
     "admin/news/index.html",
+    "admin/creators/index.html",
     "admin.js",
     "admin-news.js",
     "admin.css",
     "admin-config.json",
     "github-store.js",
     "github-news-store.js",
+    "github-creator-store.js",
+    "admin-creators.js",
+    "creators-data.js",
+    "creators.json",
+    "works.json",
     "news-data.js",
     "news.json",
   ])
@@ -254,6 +275,13 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   )
     fail("sitemapに非対象ページがあります。");
   const robots = fs.readFileSync(path.join(root, "robots.txt"), "utf8");
+  const creatorData = JSON.parse(
+    fs.readFileSync(path.join(root, "creators.json"), "utf8"),
+  );
+  const creators = creatorData.creators;
+  for (const c of creators)
+    if (!sitemapSet.has(`${expectedOrigin}creators/${c.slug}/`))
+      fail(`Creatorがsitemapにありません: ${c.id}`);
   if (
     !robots.includes(`Sitemap: ${expectedOrigin}sitemap.xml`) ||
     /Disallow:/.test(robots)
@@ -280,11 +308,44 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     if (!sitemapSet.has(expectedOrigin + to.slice(1)))
       fail(`旧URLの行き先がsitemapにありません: ${to}`);
   }
+  const oldCreatorUrls = creatorRedirects(creatorData);
+  const redirectManifest = JSON.parse(
+    fs.readFileSync(path.join(root, "creator-redirects.json"), "utf8"),
+  );
+  if (JSON.stringify(redirectManifest) !== JSON.stringify(oldCreatorUrls))
+    fail("Creator転送manifestがmasterと一致しません。");
+  const rules = fs
+    .readFileSync(path.join(root, "_redirects"), "utf8")
+    .trim()
+    .split(/\r?\n/)
+    .filter(Boolean);
+  if (rules.length !== oldCreatorUrls.length * 2)
+    fail("Creator301転送規則の件数が不正です。");
+  for (const { from, to } of oldCreatorUrls) {
+    const oldUrl = expectedOrigin + from.slice(1),
+      newUrl = expectedOrigin + to.slice(1);
+    const html = fs.readFileSync(localFile(new URL(oldUrl).pathname), "utf8");
+    if (sitemapSet.has(oldUrl) || !sitemapSet.has(newUrl))
+      fail(`Creator新旧sitemapが不正: ${from}`);
+    if (
+      attr(html, "rel", "canonical", "href") !== newUrl ||
+      !html.includes('content="noindex,follow"') ||
+      !html.includes(`href="${basePath}${to.slice(1)}"`)
+    )
+      fail(`Creator静的転送が不正: ${from}`);
+    for (const source of [
+      basePath + from.slice(1),
+      (basePath + from.slice(1)).slice(0, -1),
+    ])
+      if (!rules.includes(`${source} ${basePath + to.slice(1)} 301`))
+        fail(`Creator301転送規則が不正: ${source}`);
+  }
   for (const relative of [
     "search/index.html",
     "404.html",
     "admin/index.html",
     "admin/news/index.html",
+    "admin/creators/index.html",
   ]) {
     const html = fs.readFileSync(path.join(root, relative), "utf8");
     if (!/name="robots"\s+content="noindex(?:,follow|,nofollow)?"/.test(html))
@@ -306,6 +367,7 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     details,
     detailCounts,
     redirects: redirects.length,
+    creatorRedirects: oldCreatorUrls.length,
     titleCount: titles.size,
   };
 }

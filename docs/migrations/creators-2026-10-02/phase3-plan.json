@@ -1,0 +1,3312 @@
+{
+  "phase": 3,
+  "masterBefore": 4,
+  "masterAfter": 89,
+  "addedCreators": 85,
+  "changedTokens": 544,
+  "remainingRawStrings": 218,
+  "baselineRemainingRawStrings": 337,
+  "rawStringsNewlyResolved": 119,
+  "beforeCoverage": {
+    "recordings": 123,
+    "totalRecordings": 884,
+    "recordingPercent": 13.91,
+    "works": 111,
+    "totalWorks": 823,
+    "workPercent": 13.49
+  },
+  "afterCoverage": {
+    "recordings": 631,
+    "totalRecordings": 884,
+    "recordingPercent": 71.38,
+    "works": 578,
+    "totalWorks": 823,
+    "workPercent": 70.23
+  },
+  "legacyDisplayComparisons": 2652,
+  "warnings": [],
+  "research": {
+    "webResearchedSubjects": 90,
+    "baselineGroupsInvestigated": 92,
+    "statuses": {
+      "CONFIRMED": 86,
+      "PROBABLE": 2,
+      "UNRESOLVED": 2
+    },
+    "primarySourceUrls": 92,
+    "uninvestigatedAtLeastThreeRecords": []
+  },
+  "slugChanges": [
+    {
+      "id": "cr-0004",
+      "from": "creator-0004",
+      "to": "junpei-fujita"
+    }
+  ],
+  "changes": [
+    {
+      "reference": "garupa:602",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:276",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:483",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:443",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:328",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:733",
+      "role": "composer",
+      "original": "Fear, and Loathing in Las Vegas",
+      "creatorId": "cr-0059"
+    },
+    {
+      "reference": "garupa:261",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:684",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:349",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:651",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:784",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:578",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:303",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:672",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:744",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:561",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:384",
+      "role": "composer",
+      "original": "Fear, and Loathing in Las Vegas",
+      "creatorId": "cr-0059"
+    },
+    {
+      "reference": "garupa:427",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:582",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:626",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:774",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:289",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:339",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:468",
+      "role": "composer",
+      "original": "ORANGE RANGE",
+      "creatorId": "cr-0058"
+    },
+    {
+      "reference": "garupa:101",
+      "role": "composer",
+      "original": "HYDE",
+      "creatorId": "cr-0052"
+    },
+    {
+      "reference": "garupa:50",
+      "role": "composer",
+      "original": "神前暁",
+      "creatorId": "cr-0043"
+    },
+    {
+      "reference": "garupa:502",
+      "role": "composer",
+      "original": "浅倉大介",
+      "creatorId": "cr-0077"
+    },
+    {
+      "reference": "garupa:123",
+      "role": "composer",
+      "original": "目黒将司",
+      "creatorId": "cr-0075"
+    },
+    {
+      "reference": "garupa:584",
+      "role": "composer",
+      "original": "藤原 基央",
+      "creatorId": "cr-0051"
+    },
+    {
+      "reference": "garupa:640",
+      "role": "composer",
+      "original": "篠崎 あやと",
+      "creatorId": "cr-0083"
+    },
+    {
+      "reference": "garupa:256",
+      "role": "composer",
+      "original": "大石昌良",
+      "creatorId": "cr-0062"
+    },
+    {
+      "reference": "garupa:265",
+      "role": "composer",
+      "original": "八木沼悟志",
+      "creatorId": "cr-0066"
+    },
+    {
+      "reference": "garupa:60",
+      "role": "composer",
+      "original": "八木沼悟志",
+      "creatorId": "cr-0066"
+    },
+    {
+      "reference": "garupa:306",
+      "role": "composer",
+      "original": "藤原聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:165",
+      "role": "composer",
+      "original": "大石昌良",
+      "creatorId": "cr-0062"
+    },
+    {
+      "reference": "garupa:447",
+      "role": "composer",
+      "original": "Orangestar",
+      "creatorId": "cr-0036"
+    },
+    {
+      "reference": "garupa:477",
+      "role": "composer",
+      "original": "shito",
+      "creatorId": "cr-0030"
+    },
+    {
+      "reference": "garupa:214",
+      "role": "composer",
+      "original": "水野良樹",
+      "creatorId": "cr-0047"
+    },
+    {
+      "reference": "garupa:199",
+      "role": "composer",
+      "original": "ak. homma",
+      "creatorId": "cr-0080"
+    },
+    {
+      "reference": "garupa:671",
+      "role": "composer",
+      "original": "ナユタン星人",
+      "creatorId": "cr-0061"
+    },
+    {
+      "reference": "garupa:391",
+      "role": "composer",
+      "original": "DECO*27",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:88",
+      "role": "composer",
+      "original": "大石昌良",
+      "creatorId": "cr-0062"
+    },
+    {
+      "reference": "garupa:164",
+      "role": "composer",
+      "original": "DECO*27",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:367",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:574",
+      "role": "composer",
+      "original": "Vaundy",
+      "creatorId": "cr-0037"
+    },
+    {
+      "reference": "garupa:550",
+      "role": "composer",
+      "original": "大森　元貴",
+      "creatorId": "cr-0029"
+    },
+    {
+      "reference": "garupa:767",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:275",
+      "role": "composer",
+      "original": "大森元貴",
+      "creatorId": "cr-0029"
+    },
+    {
+      "reference": "garupa:565",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:260",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:442",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:72",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:616",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:724",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:585",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:644",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:300",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:34",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:113",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:92",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:319",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:366",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:144",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:16",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:685",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:788",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:166",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:130",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:668",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:333",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:336",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:234",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:337",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:693",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:421",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:524",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:748",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:562",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:280",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:326",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:204",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:789",
+      "role": "composer",
+      "original": "片倉三起也",
+      "creatorId": "cr-0048"
+    },
+    {
+      "reference": "garupa:459",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:595",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:191",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:539",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:103",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:387",
+      "role": "composer",
+      "original": "Eve",
+      "creatorId": "cr-0035"
+    },
+    {
+      "reference": "garupa:48",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:322",
+      "role": "composer",
+      "original": "TAKUYA∞",
+      "creatorId": "cr-0069"
+    },
+    {
+      "reference": "garupa:410",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:514",
+      "role": "composer",
+      "original": "TAKUYA∞",
+      "creatorId": "cr-0069"
+    },
+    {
+      "reference": "garupa:311",
+      "role": "composer",
+      "original": "Orangestar",
+      "creatorId": "cr-0036"
+    },
+    {
+      "reference": "garupa:372",
+      "role": "composer",
+      "original": "小室哲哉",
+      "creatorId": "cr-0049"
+    },
+    {
+      "reference": "garupa:500",
+      "role": "composer",
+      "original": "小室 哲哉",
+      "creatorId": "cr-0049"
+    },
+    {
+      "reference": "garupa:382",
+      "role": "composer",
+      "original": "Fear, and Loathing in Las Vegas",
+      "creatorId": "cr-0059"
+    },
+    {
+      "reference": "garupa:368",
+      "role": "composer",
+      "original": "Fear, and Loathing in Las Vegas",
+      "creatorId": "cr-0059"
+    },
+    {
+      "reference": "garupa:592",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:262",
+      "role": "composer",
+      "original": "ak. homma",
+      "creatorId": "cr-0080"
+    },
+    {
+      "reference": "garupa:272",
+      "role": "composer",
+      "original": "Giga",
+      "creatorId": "cr-0034"
+    },
+    {
+      "reference": "garupa:278",
+      "role": "composer",
+      "original": "小室哲哉",
+      "creatorId": "cr-0049"
+    },
+    {
+      "reference": "garupa:213",
+      "role": "composer",
+      "original": "TAKUYA∞",
+      "creatorId": "cr-0069"
+    },
+    {
+      "reference": "garupa:471",
+      "role": "composer",
+      "original": "ピノキオピー",
+      "creatorId": "cr-0032"
+    },
+    {
+      "reference": "garupa:659",
+      "role": "composer",
+      "original": "Giga",
+      "creatorId": "cr-0034"
+    },
+    {
+      "reference": "garupa:529",
+      "role": "composer",
+      "original": "Vaundy",
+      "creatorId": "cr-0037"
+    },
+    {
+      "reference": "garupa:777",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:264",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:536",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:89",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:621",
+      "role": "composer",
+      "original": "都丸椋太(Elements Garden)",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:173",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:691",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:455",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:439",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:759",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:10",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:208",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:146",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:106",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:315",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:434",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:172",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:284",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:462",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:168",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:233",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:209",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:237",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:205",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:746",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:193",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:365",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:134",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:148",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:466",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:2",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:79",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:575",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:253",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:797",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:719",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:109",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:58",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:363",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:343",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:55",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:474",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:378",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:476",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:611",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:229",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:591",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:557",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:680",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:127",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:745",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:198",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:714",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:588",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:273",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:239",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:456",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:472",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:175",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:364",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:716",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:437",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:259",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:294",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:211",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:43",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:601",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:11",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:530",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:12",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:212",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:625",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:329",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:401",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:135",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:495",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:147",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:781",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:496",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:428",
+      "role": "composer",
+      "original": "TK",
+      "creatorId": "cr-0065"
+    },
+    {
+      "reference": "garupa:645",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:765",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:266",
+      "role": "composer",
+      "original": "八木沼悟志",
+      "creatorId": "cr-0066"
+    },
+    {
+      "reference": "garupa:426",
+      "role": "composer",
+      "original": "Tom-H@ck",
+      "creatorId": "cr-0056"
+    },
+    {
+      "reference": "garupa:494",
+      "role": "composer",
+      "original": "Kanaria",
+      "creatorId": "cr-0064"
+    },
+    {
+      "reference": "garupa:785",
+      "role": "composer",
+      "original": "YUI",
+      "creatorId": "cr-0068"
+    },
+    {
+      "reference": "garupa:656",
+      "role": "composer",
+      "original": "YUI",
+      "creatorId": "cr-0068"
+    },
+    {
+      "reference": "garupa:433",
+      "role": "composer",
+      "original": "佐藤純一",
+      "creatorId": "cr-0053"
+    },
+    {
+      "reference": "garupa:393",
+      "role": "composer",
+      "original": "TK",
+      "creatorId": "cr-0065"
+    },
+    {
+      "reference": "garupa:310",
+      "role": "composer",
+      "original": "ak.homma",
+      "creatorId": "cr-0080"
+    },
+    {
+      "reference": "garupa:416",
+      "role": "composer",
+      "original": "大橋卓弥",
+      "creatorId": "cr-0073"
+    },
+    {
+      "reference": "garupa:416",
+      "role": "composer",
+      "original": "常田真太郎",
+      "creatorId": "cr-0072"
+    },
+    {
+      "reference": "garupa:245",
+      "role": "composer",
+      "original": "ak. homma",
+      "creatorId": "cr-0080"
+    },
+    {
+      "reference": "garupa:604",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:386",
+      "role": "composer",
+      "original": "yasu",
+      "creatorId": "cr-0088"
+    },
+    {
+      "reference": "garupa:511",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:554",
+      "role": "composer",
+      "original": "ARM",
+      "creatorId": "cr-0086"
+    },
+    {
+      "reference": "garupa:696",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:538",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:762",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:670",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:679",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:702",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:742",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:316",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:642",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:457",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:633",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:779",
+      "role": "composer",
+      "original": "堀川大翼（Elements Garden）",
+      "creatorId": "cr-0012"
+    },
+    {
+      "reference": "garupa:589",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:354",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:423",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:614",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:288",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:577",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:422",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:773",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:564",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:518",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:650",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:641",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "garupa:641",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:649",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "garupa:649",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:638",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:638",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:715",
+      "role": "composer",
+      "original": "あらケン(SUPA LOVE)",
+      "creatorId": "cr-0017"
+    },
+    {
+      "reference": "garupa:662",
+      "role": "composer",
+      "original": "あらケン(SUPA LOVE)",
+      "creatorId": "cr-0017"
+    },
+    {
+      "reference": "garupa:662",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:667",
+      "role": "composer",
+      "original": "高橋涼(SUPA LOVE)",
+      "creatorId": "cr-0038"
+    },
+    {
+      "reference": "garupa:667",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:666",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "garupa:666",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "garupa:683",
+      "role": "composer",
+      "original": "賀佐泰洋(SUPA LOVE)",
+      "creatorId": "cr-0044"
+    },
+    {
+      "reference": "garupa:158",
+      "role": "composer",
+      "original": "田淵智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "garupa:203",
+      "role": "composer",
+      "original": "40mP",
+      "creatorId": "cr-0039"
+    },
+    {
+      "reference": "garupa:618",
+      "role": "composer",
+      "original": "shito",
+      "creatorId": "cr-0030"
+    },
+    {
+      "reference": "garupa:54",
+      "role": "composer",
+      "original": "前澤寛之",
+      "creatorId": "cr-0081"
+    },
+    {
+      "reference": "garupa:567",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:695",
+      "role": "composer",
+      "original": "すりぃ",
+      "creatorId": "cr-0060"
+    },
+    {
+      "reference": "garupa:594",
+      "role": "composer",
+      "original": "前山田 健一",
+      "creatorId": "cr-0050"
+    },
+    {
+      "reference": "garupa:615",
+      "role": "composer",
+      "original": "大石 昌良",
+      "creatorId": "cr-0062"
+    },
+    {
+      "reference": "garupa:263",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:75",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:307",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:153",
+      "role": "composer",
+      "original": "大橋卓弥",
+      "creatorId": "cr-0073"
+    },
+    {
+      "reference": "garupa:153",
+      "role": "composer",
+      "original": "常田真太郎",
+      "creatorId": "cr-0072"
+    },
+    {
+      "reference": "garupa:110",
+      "role": "composer",
+      "original": "水野良樹",
+      "creatorId": "cr-0047"
+    },
+    {
+      "reference": "garupa:227",
+      "role": "composer",
+      "original": "田中　秀和",
+      "creatorId": "cr-0055"
+    },
+    {
+      "reference": "garupa:756",
+      "role": "composer",
+      "original": "shito",
+      "creatorId": "cr-0030"
+    },
+    {
+      "reference": "garupa:551",
+      "role": "composer",
+      "original": "ピノキオピー",
+      "creatorId": "cr-0032"
+    },
+    {
+      "reference": "garupa:709",
+      "role": "composer",
+      "original": "ryo(supercell)",
+      "creatorId": "cr-0084"
+    },
+    {
+      "reference": "garupa:755",
+      "role": "composer",
+      "original": "hyde",
+      "creatorId": "cr-0052"
+    },
+    {
+      "reference": "garupa:26",
+      "role": "composer",
+      "original": "志倉千代丸",
+      "creatorId": "cr-0082"
+    },
+    {
+      "reference": "garupa:350",
+      "role": "composer",
+      "original": "Kanaria",
+      "creatorId": "cr-0064"
+    },
+    {
+      "reference": "garupa:327",
+      "role": "composer",
+      "original": "ryo",
+      "creatorId": "cr-0084"
+    },
+    {
+      "reference": "garupa:217",
+      "role": "composer",
+      "original": "MYTH & ROID",
+      "creatorId": "cr-0057"
+    },
+    {
+      "reference": "garupa:395",
+      "role": "composer",
+      "original": "篠崎あやと",
+      "creatorId": "cr-0083"
+    },
+    {
+      "reference": "garupa:657",
+      "role": "composer",
+      "original": "Tom-H@ck",
+      "creatorId": "cr-0056"
+    },
+    {
+      "reference": "garupa:425",
+      "role": "composer",
+      "original": "MYTH & ROID",
+      "creatorId": "cr-0057"
+    },
+    {
+      "reference": "garupa:97",
+      "role": "composer",
+      "original": "atsuko",
+      "creatorId": "cr-0078"
+    },
+    {
+      "reference": "garupa:97",
+      "role": "composer",
+      "original": "KATSU",
+      "creatorId": "cr-0079"
+    },
+    {
+      "reference": "garupa:721",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "garupa:57",
+      "role": "composer",
+      "original": "ryo(supercell)",
+      "creatorId": "cr-0084"
+    },
+    {
+      "reference": "garupa:290",
+      "role": "composer",
+      "original": "八木沼悟志",
+      "creatorId": "cr-0066"
+    },
+    {
+      "reference": "garupa:125",
+      "role": "composer",
+      "original": "目黒将司",
+      "creatorId": "cr-0075"
+    },
+    {
+      "reference": "garupa:516",
+      "role": "composer",
+      "original": "DECO*27",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:492",
+      "role": "composer",
+      "original": "Eve",
+      "creatorId": "cr-0035"
+    },
+    {
+      "reference": "garupa:617",
+      "role": "composer",
+      "original": "キタニタツヤ",
+      "creatorId": "cr-0063"
+    },
+    {
+      "reference": "garupa:207",
+      "role": "composer",
+      "original": "志倉千代丸",
+      "creatorId": "cr-0082"
+    },
+    {
+      "reference": "garupa:569",
+      "role": "composer",
+      "original": "DECO*27",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:116",
+      "role": "composer",
+      "original": "Kemu",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "garupa:790",
+      "role": "composer",
+      "original": "片倉三起也",
+      "creatorId": "cr-0048"
+    },
+    {
+      "reference": "garupa:156",
+      "role": "composer",
+      "original": "ryo",
+      "creatorId": "cr-0084"
+    },
+    {
+      "reference": "garupa:389",
+      "role": "composer",
+      "original": "Eve",
+      "creatorId": "cr-0035"
+    },
+    {
+      "reference": "garupa:537",
+      "role": "composer",
+      "original": "Neru",
+      "creatorId": "cr-0040"
+    },
+    {
+      "reference": "garupa:484",
+      "role": "composer",
+      "original": "Kanaria",
+      "creatorId": "cr-0064"
+    },
+    {
+      "reference": "garupa:639",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:775",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:279",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:553",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:782",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:560",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:688",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:291",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:749",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:252",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:599",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:232",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:96",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:218",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:525",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:407",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:200",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:720",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:176",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:161",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:13",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:45",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:119",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:215",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:53",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:313",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:701",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:665",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:665",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:559",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:424",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:14",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:587",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:623",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:184",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:104",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:491",
+      "role": "composer",
+      "original": "Vaundy",
+      "creatorId": "cr-0037"
+    },
+    {
+      "reference": "garupa:29",
+      "role": "composer",
+      "original": "前澤寛之",
+      "creatorId": "cr-0081"
+    },
+    {
+      "reference": "garupa:381",
+      "role": "composer",
+      "original": "前澤寛之",
+      "creatorId": "cr-0081"
+    },
+    {
+      "reference": "garupa:124",
+      "role": "composer",
+      "original": "目黒将司",
+      "creatorId": "cr-0075"
+    },
+    {
+      "reference": "garupa:287",
+      "role": "composer",
+      "original": "ＹＵＩ",
+      "creatorId": "cr-0068"
+    },
+    {
+      "reference": "garupa:430",
+      "role": "composer",
+      "original": "TK",
+      "creatorId": "cr-0065"
+    },
+    {
+      "reference": "garupa:206",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:63",
+      "role": "composer",
+      "original": "Orangestar",
+      "creatorId": "cr-0036"
+    },
+    {
+      "reference": "garupa:240",
+      "role": "composer",
+      "original": "大森元貴",
+      "creatorId": "cr-0029"
+    },
+    {
+      "reference": "garupa:655",
+      "role": "composer",
+      "original": "UZ",
+      "creatorId": "cr-0067"
+    },
+    {
+      "reference": "garupa:548",
+      "role": "composer",
+      "original": "田淵 智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "garupa:21",
+      "role": "composer",
+      "original": "藤原基央",
+      "creatorId": "cr-0051"
+    },
+    {
+      "reference": "garupa:515",
+      "role": "composer",
+      "original": "ak.homma",
+      "creatorId": "cr-0080"
+    },
+    {
+      "reference": "garupa:308",
+      "role": "composer",
+      "original": "ＵＺ",
+      "creatorId": "cr-0067"
+    },
+    {
+      "reference": "garupa:531",
+      "role": "composer",
+      "original": "すりぃ",
+      "creatorId": "cr-0060"
+    },
+    {
+      "reference": "garupa:320",
+      "role": "composer",
+      "original": "Neru",
+      "creatorId": "cr-0040"
+    },
+    {
+      "reference": "garupa:93",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:361",
+      "role": "composer",
+      "original": "かいりきベア",
+      "creatorId": "cr-0041"
+    },
+    {
+      "reference": "garupa:392",
+      "role": "composer",
+      "original": "かいりきベア",
+      "creatorId": "cr-0041"
+    },
+    {
+      "reference": "garupa:243",
+      "role": "composer",
+      "original": "みきとP",
+      "creatorId": "cr-0042"
+    },
+    {
+      "reference": "garupa:131",
+      "role": "composer",
+      "original": "Neru",
+      "creatorId": "cr-0040"
+    },
+    {
+      "reference": "garupa:704",
+      "role": "composer",
+      "original": "秋田　ひろむ",
+      "creatorId": "cr-0076"
+    },
+    {
+      "reference": "garupa:586",
+      "role": "composer",
+      "original": "Vaundy",
+      "creatorId": "cr-0037"
+    },
+    {
+      "reference": "garupa:568",
+      "role": "composer",
+      "original": "キタニタツヤ",
+      "creatorId": "cr-0063"
+    },
+    {
+      "reference": "garupa:385",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:760",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:739",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:30",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:463",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:129",
+      "role": "composer",
+      "original": "Tom-H@ck",
+      "creatorId": "cr-0056"
+    },
+    {
+      "reference": "garupa:174",
+      "role": "composer",
+      "original": "大森元貴",
+      "creatorId": "cr-0029"
+    },
+    {
+      "reference": "garupa:28",
+      "role": "composer",
+      "original": "みきとP",
+      "creatorId": "cr-0042"
+    },
+    {
+      "reference": "garupa:458",
+      "role": "composer",
+      "original": "大石 昌良",
+      "creatorId": "cr-0062"
+    },
+    {
+      "reference": "garupa:274",
+      "role": "composer",
+      "original": "田中　公平",
+      "creatorId": "cr-0054"
+    },
+    {
+      "reference": "garupa:132",
+      "role": "composer",
+      "original": "ナユタン星人",
+      "creatorId": "cr-0061"
+    },
+    {
+      "reference": "garupa:513",
+      "role": "composer",
+      "original": "すりぃ",
+      "creatorId": "cr-0060"
+    },
+    {
+      "reference": "garupa:590",
+      "role": "composer",
+      "original": "田淵智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "garupa:27",
+      "role": "composer",
+      "original": "田淵智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "garupa:506",
+      "role": "composer",
+      "original": "大森　元貴",
+      "creatorId": "cr-0029"
+    },
+    {
+      "reference": "garupa:470",
+      "role": "composer",
+      "original": "かいりきベア",
+      "creatorId": "cr-0041"
+    },
+    {
+      "reference": "garupa:235",
+      "role": "composer",
+      "original": "40mP",
+      "creatorId": "cr-0039"
+    },
+    {
+      "reference": "garupa:419",
+      "role": "composer",
+      "original": "前山田　健一",
+      "creatorId": "cr-0050"
+    },
+    {
+      "reference": "garupa:444",
+      "role": "composer",
+      "original": "藤原　聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:73",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:197",
+      "role": "composer",
+      "original": "ORANGE RANGE",
+      "creatorId": "cr-0058"
+    },
+    {
+      "reference": "garupa:220",
+      "role": "composer",
+      "original": "大橋卓弥",
+      "creatorId": "cr-0073"
+    },
+    {
+      "reference": "garupa:220",
+      "role": "composer",
+      "original": "常田真太郎",
+      "creatorId": "cr-0072"
+    },
+    {
+      "reference": "garupa:115",
+      "role": "composer",
+      "original": "田中秀和",
+      "creatorId": "cr-0055"
+    },
+    {
+      "reference": "garupa:192",
+      "role": "composer",
+      "original": "40mP",
+      "creatorId": "cr-0039"
+    },
+    {
+      "reference": "garupa:402",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:226",
+      "role": "composer",
+      "original": "TAKE",
+      "creatorId": "cr-0087"
+    },
+    {
+      "reference": "garupa:417",
+      "role": "composer",
+      "original": "前山田　健一",
+      "creatorId": "cr-0050"
+    },
+    {
+      "reference": "garupa:596",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:67",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:223",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:250",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "garupa:429",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:446",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:269",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:17",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:180",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:219",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:750",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:351",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:65",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:699",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:330",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:188",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:302",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:162",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:505",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:105",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:776",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:726",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:576",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:669",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:540",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:643",
+      "role": "composer",
+      "original": "竹田祐介（Elements Garden）",
+      "creatorId": "cr-0009"
+    },
+    {
+      "reference": "garupa:83",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:141",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:36",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:583",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:698",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:619",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:122",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:18",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:786",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:380",
+      "role": "composer",
+      "original": "近藤世真（Elements Garden）",
+      "creatorId": "cr-0011"
+    },
+    {
+      "reference": "garupa:418",
+      "role": "composer",
+      "original": "浅倉　大介",
+      "creatorId": "cr-0077"
+    },
+    {
+      "reference": "garupa:598",
+      "role": "composer",
+      "original": "Orangestar",
+      "creatorId": "cr-0036"
+    },
+    {
+      "reference": "garupa:480",
+      "role": "composer",
+      "original": "Giga",
+      "creatorId": "cr-0034"
+    },
+    {
+      "reference": "garupa:480",
+      "role": "composer",
+      "original": "TeddyLoid",
+      "creatorId": "cr-0031"
+    },
+    {
+      "reference": "garupa:735",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:730",
+      "role": "composer",
+      "original": "THE SPELLBOUND",
+      "creatorId": "cr-0070"
+    },
+    {
+      "reference": "garupa:627",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:523",
+      "role": "composer",
+      "original": "GEN",
+      "creatorId": "cr-0085"
+    },
+    {
+      "reference": "garupa:570",
+      "role": "composer",
+      "original": "ピノキオピー",
+      "creatorId": "cr-0032"
+    },
+    {
+      "reference": "garupa:547",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "garupa:236",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:445",
+      "role": "composer",
+      "original": "MYTH & ROID",
+      "creatorId": "cr-0057"
+    },
+    {
+      "reference": "garupa:747",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:460",
+      "role": "composer",
+      "original": "水野　良樹",
+      "creatorId": "cr-0047"
+    },
+    {
+      "reference": "garupa:358",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:661",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:738",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:722",
+      "role": "composer",
+      "original": "水野良樹",
+      "creatorId": "cr-0047"
+    },
+    {
+      "reference": "garupa:76",
+      "role": "composer",
+      "original": "岩橋星実（Elements Garden）",
+      "creatorId": "cr-0007"
+    },
+    {
+      "reference": "garupa:46",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:137",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:652",
+      "role": "composer",
+      "original": "都丸椋太（Elements Garden）",
+      "creatorId": "cr-0019"
+    },
+    {
+      "reference": "garupa:449",
+      "role": "composer",
+      "original": "神前 暁",
+      "creatorId": "cr-0043"
+    },
+    {
+      "reference": "garupa:737",
+      "role": "composer",
+      "original": "ORANGE RANGE",
+      "creatorId": "cr-0058"
+    },
+    {
+      "reference": "garupa:535",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "garupa:597",
+      "role": "composer",
+      "original": "金崎真士(SUPA LOVE)",
+      "creatorId": "cr-0045"
+    },
+    {
+      "reference": "garupa:489",
+      "role": "composer",
+      "original": "hisakuni(SUPA LOVE)",
+      "creatorId": "cr-0018"
+    },
+    {
+      "reference": "garupa:520",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "garupa:697",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:620",
+      "role": "composer",
+      "original": "庄司夏葵(SUPA LOVE)",
+      "creatorId": "cr-0089"
+    },
+    {
+      "reference": "garupa:694",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:677",
+      "role": "composer",
+      "original": "鈴木裕明(SUPA LOVE)",
+      "creatorId": "cr-0046"
+    },
+    {
+      "reference": "garupa:664",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:771",
+      "role": "composer",
+      "original": "庄司夏葵(SUPA LOVE)",
+      "creatorId": "cr-0089"
+    },
+    {
+      "reference": "garupa:497",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "garupa:732",
+      "role": "composer",
+      "original": "トミタカズキ(SUPA LOVE)",
+      "creatorId": "cr-0016"
+    },
+    {
+      "reference": "garupa:663",
+      "role": "composer",
+      "original": "トミタカズキ(SUPA LOVE)",
+      "creatorId": "cr-0016"
+    },
+    {
+      "reference": "garupa:563",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "garupa:473",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:510",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "garupa:613",
+      "role": "composer",
+      "original": "hisakuni(SUPA LOVE)",
+      "creatorId": "cr-0018"
+    },
+    {
+      "reference": "garupa:297",
+      "role": "composer",
+      "original": "Eve",
+      "creatorId": "cr-0035"
+    },
+    {
+      "reference": "garupa:42",
+      "role": "composer",
+      "original": "藤原基央",
+      "creatorId": "cr-0051"
+    },
+    {
+      "reference": "garupa:438",
+      "role": "composer",
+      "original": "志倉千代丸",
+      "creatorId": "cr-0082"
+    },
+    {
+      "reference": "garupa:61",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:736",
+      "role": "composer",
+      "original": "DECO*27 ",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:736",
+      "role": "composer",
+      "original": " ピノキオピー",
+      "creatorId": "cr-0032"
+    },
+    {
+      "reference": "garupa:121",
+      "role": "composer",
+      "original": "末益涼太（Elements Garden）",
+      "creatorId": "cr-0021"
+    },
+    {
+      "reference": "garupa:356",
+      "role": "composer",
+      "original": "HoneyWorks",
+      "creatorId": "cr-0025"
+    },
+    {
+      "reference": "garupa:637",
+      "role": "composer",
+      "original": "THE SPELLBOUND",
+      "creatorId": "cr-0070"
+    },
+    {
+      "reference": "garupa:344",
+      "role": "composer",
+      "original": "藤間仁（Elements Garden）",
+      "creatorId": "cr-0008"
+    },
+    {
+      "reference": "garupa:512",
+      "role": "composer",
+      "original": "shito",
+      "creatorId": "cr-0030"
+    },
+    {
+      "reference": "garupa:478",
+      "role": "composer",
+      "original": "みきとP",
+      "creatorId": "cr-0042"
+    },
+    {
+      "reference": "garupa:486",
+      "role": "composer",
+      "original": "ナユタン星人",
+      "creatorId": "cr-0061"
+    },
+    {
+      "reference": "garupa:731",
+      "role": "composer",
+      "original": "THE SPELLBOUND",
+      "creatorId": "cr-0070"
+    },
+    {
+      "reference": "garupa:541",
+      "role": "composer",
+      "original": "DECO*27",
+      "creatorId": "cr-0026"
+    },
+    {
+      "reference": "garupa:170",
+      "role": "composer",
+      "original": "田中公平",
+      "creatorId": "cr-0054"
+    },
+    {
+      "reference": "garupa:761",
+      "role": "composer",
+      "original": "日高勇輝（Elements Garden）",
+      "creatorId": "cr-0020"
+    },
+    {
+      "reference": "garupa:347",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:341",
+      "role": "composer",
+      "original": "笠井雄太（Elements Garden）",
+      "creatorId": "cr-0010"
+    },
+    {
+      "reference": "garupa:451",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "garupa:534",
+      "role": "composer",
+      "original": "片倉 三起也",
+      "creatorId": "cr-0048"
+    },
+    {
+      "reference": "garupa:475",
+      "role": "composer",
+      "original": "kemu",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "garupa:454",
+      "role": "composer",
+      "original": "ピノキオピー",
+      "creatorId": "cr-0032"
+    },
+    {
+      "reference": "garupa:628",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "garupa:70",
+      "role": "composer",
+      "original": "菊田大介（Elements Garden）",
+      "creatorId": "cr-0006"
+    },
+    {
+      "reference": "garupa:405",
+      "role": "composer",
+      "original": "佐藤　純一",
+      "creatorId": "cr-0053"
+    },
+    {
+      "reference": "garupa:799",
+      "role": "composer",
+      "original": "藤永龍太郎（Elements Garden）",
+      "creatorId": "cr-0005"
+    },
+    {
+      "reference": "ournotes:1",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:2",
+      "role": "composer",
+      "original": "hisakuni(SUPA LOVE)",
+      "creatorId": "cr-0018"
+    },
+    {
+      "reference": "ournotes:3",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "ournotes:4",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "ournotes:5",
+      "role": "composer",
+      "original": "鈴木裕明(SUPA LOVE)",
+      "creatorId": "cr-0046"
+    },
+    {
+      "reference": "ournotes:9",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "ournotes:10",
+      "role": "composer",
+      "original": "庄司夏葵(SUPA LOVE)",
+      "creatorId": "cr-0089"
+    },
+    {
+      "reference": "ournotes:11",
+      "role": "composer",
+      "original": "金崎真士(SUPA LOVE)",
+      "creatorId": "cr-0045"
+    },
+    {
+      "reference": "ournotes:12",
+      "role": "composer",
+      "original": "庄司夏葵(SUPA LOVE)",
+      "creatorId": "cr-0089"
+    },
+    {
+      "reference": "ournotes:13",
+      "role": "composer",
+      "original": "トミタカズキ(SUPA LOVE)",
+      "creatorId": "cr-0016"
+    },
+    {
+      "reference": "ournotes:15",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:16",
+      "role": "composer",
+      "original": "トミタカズキ(SUPA LOVE)",
+      "creatorId": "cr-0016"
+    },
+    {
+      "reference": "ournotes:18",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:22",
+      "role": "composer",
+      "original": "藤原 聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "ournotes:81",
+      "role": "composer",
+      "original": "秋田ひろむ",
+      "creatorId": "cr-0076"
+    },
+    {
+      "reference": "ournotes:24",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:24",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:25",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "ournotes:25",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:26",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:27",
+      "role": "composer",
+      "original": "あらケン(SUPA LOVE)",
+      "creatorId": "cr-0017"
+    },
+    {
+      "reference": "ournotes:27",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:28",
+      "role": "composer",
+      "original": "木下龍平(SUPA LOVE)",
+      "creatorId": "cr-0015"
+    },
+    {
+      "reference": "ournotes:28",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:29",
+      "role": "composer",
+      "original": "高橋涼(SUPA LOVE)",
+      "creatorId": "cr-0038"
+    },
+    {
+      "reference": "ournotes:29",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:30",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:30",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:31",
+      "role": "composer",
+      "original": "高橋涼(SUPA LOVE)",
+      "creatorId": "cr-0038"
+    },
+    {
+      "reference": "ournotes:32",
+      "role": "composer",
+      "original": "トミタカズキ(SUPA LOVE)",
+      "creatorId": "cr-0016"
+    },
+    {
+      "reference": "ournotes:32",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:34",
+      "role": "composer",
+      "original": "長谷川大介(SUPA LOVE)",
+      "creatorId": "cr-0013"
+    },
+    {
+      "reference": "ournotes:34",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:35",
+      "role": "composer",
+      "original": "賀佐泰洋(SUPA LOVE)",
+      "creatorId": "cr-0044"
+    },
+    {
+      "reference": "ournotes:37",
+      "role": "composer",
+      "original": "あらケン(SUPA LOVE)",
+      "creatorId": "cr-0017"
+    },
+    {
+      "reference": "ournotes:38",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:38",
+      "role": "composer",
+      "original": "松坂康司(SUPA LOVE)",
+      "creatorId": "cr-0014"
+    },
+    {
+      "reference": "ournotes:39",
+      "role": "composer",
+      "original": "Diggy-MO’",
+      "creatorId": "cr-0022"
+    },
+    {
+      "reference": "ournotes:42",
+      "role": "composer",
+      "original": "片倉三起也",
+      "creatorId": "cr-0048"
+    },
+    {
+      "reference": "ournotes:43",
+      "role": "composer",
+      "original": "atsuko",
+      "creatorId": "cr-0078"
+    },
+    {
+      "reference": "ournotes:43",
+      "role": "composer",
+      "original": "KATSU",
+      "creatorId": "cr-0079"
+    },
+    {
+      "reference": "ournotes:83",
+      "role": "composer",
+      "original": "キタニタツヤ",
+      "creatorId": "cr-0063"
+    },
+    {
+      "reference": "ournotes:44",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:47",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:47",
+      "role": "composer",
+      "original": "白神真志朗",
+      "creatorId": "cr-0074"
+    },
+    {
+      "reference": "ournotes:49",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:51",
+      "role": "composer",
+      "original": "田淵智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "ournotes:52",
+      "role": "composer",
+      "original": "sabio",
+      "creatorId": "cr-0071"
+    },
+    {
+      "reference": "ournotes:53",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:54",
+      "role": "composer",
+      "original": "TeddyLoid",
+      "creatorId": "cr-0031"
+    },
+    {
+      "reference": "ournotes:54",
+      "role": "composer",
+      "original": "堀江晶太",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:55",
+      "role": "composer",
+      "original": "sabio",
+      "creatorId": "cr-0071"
+    },
+    {
+      "reference": "ournotes:56",
+      "role": "composer",
+      "original": "白神真志朗",
+      "creatorId": "cr-0074"
+    },
+    {
+      "reference": "ournotes:57",
+      "role": "composer",
+      "original": "白神真志朗",
+      "creatorId": "cr-0074"
+    },
+    {
+      "reference": "ournotes:58",
+      "role": "composer",
+      "original": "sabio",
+      "creatorId": "cr-0071"
+    },
+    {
+      "reference": "ournotes:59",
+      "role": "composer",
+      "original": "Kemu",
+      "creatorId": "cr-0028"
+    },
+    {
+      "reference": "ournotes:60",
+      "role": "composer",
+      "original": "Giga ",
+      "creatorId": "cr-0034"
+    },
+    {
+      "reference": "ournotes:60",
+      "role": "composer",
+      "original": " TeddyLoid",
+      "creatorId": "cr-0031"
+    },
+    {
+      "reference": "ournotes:61",
+      "role": "composer",
+      "original": "田淵智也",
+      "creatorId": "cr-0027"
+    },
+    {
+      "reference": "ournotes:62",
+      "role": "composer",
+      "original": "Ayase",
+      "creatorId": "cr-0023"
+    },
+    {
+      "reference": "ournotes:63",
+      "role": "composer",
+      "original": "藤井健太郎",
+      "creatorId": "cr-0033"
+    },
+    {
+      "reference": "ournotes:64",
+      "role": "composer",
+      "original": "藤井健太郎",
+      "creatorId": "cr-0033"
+    },
+    {
+      "reference": "ournotes:67",
+      "role": "composer",
+      "original": "キタニタツヤ",
+      "creatorId": "cr-0063"
+    },
+    {
+      "reference": "ournotes:68",
+      "role": "composer",
+      "original": "藤原聡",
+      "creatorId": "cr-0024"
+    },
+    {
+      "reference": "ournotes:69",
+      "role": "composer",
+      "original": "TK",
+      "creatorId": "cr-0065"
+    },
+    {
+      "reference": "ournotes:71",
+      "role": "composer",
+      "original": "藤井健太郎",
+      "creatorId": "cr-0033"
+    },
+    {
+      "reference": "ournotes:73",
+      "role": "composer",
+      "original": "藤井健太郎",
+      "creatorId": "cr-0033"
+    },
+    {
+      "reference": "ournotes:72",
+      "role": "composer",
+      "original": "藤井健太郎",
+      "creatorId": "cr-0033"
+    },
+    {
+      "reference": "ournotes:76",
+      "role": "composer",
+      "original": "UZ",
+      "creatorId": "cr-0067"
+    },
+    {
+      "reference": "ournotes:77",
+      "role": "composer",
+      "original": "ORANGE RANGE",
+      "creatorId": "cr-0058"
+    }
+  ]
+}

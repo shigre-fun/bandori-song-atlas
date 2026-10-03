@@ -1098,3 +1098,78 @@ footer {
     border-radius: 8px;
   }
 }
+[hidden] {
+  display: none !important;
+}
+.creator-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: end;
+  margin: 1.5rem 0;
+}
+.creator-controls label {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+.creator-controls input,
+.creator-controls select {
+  max-width: 100%;
+  font: inherit;
+  padding: 0.65rem;
+}
+.creator-controls button {
+  padding: 0.7rem 1rem;
+  font: inherit;
+}
+.creator-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 1rem;
+}
+.creator-card h2,
+.creator-work h2 {
+  overflow-wrap: anywhere;
+}
+.creator-counts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+.creator-counts div {
+  min-width: 0;
+}
+.creator-counts dt {
+  font-size: 0.85rem;
+}
+.creator-counts dd {
+  margin: 0.3rem 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.creator-work li {
+  margin: 0.7rem 0;
+  overflow-wrap: anywhere;
+}
+.creator-work-list {
+  display: grid;
+  gap: 1rem;
+}
+.creator-controls :focus-visible {
+  outline: 3px solid #448abd;
+  outline-offset: 3px;
+}
+@media (max-width: 420px) {
+  .creator-counts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .creator-controls label {
+    width: 100%;
+  }
+  .creator-controls input,
+  .creator-controls select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

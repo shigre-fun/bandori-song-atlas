@@ -20,6 +20,9 @@ song.id = Math.max(
 );
 song.title = title;
 song.releaseOrder = null;
+const works = JSON.parse(fs.readFileSync("data/works.json", "utf8"));
+song.workId = `wk-${String(works.nextId++).padStart(4, "0")}`;
+works.works.push({ id: song.workId, title: song.title, source: "manual-new" });
 
 // ひな型のband・categoryを変更してから、同じグループで編集する。
 let group = data.groups.find(
@@ -32,6 +35,7 @@ if (!group) {
 const { band, category, ...entry } = song;
 group.songs.push(entry);
 fs.writeFileSync(GARUPA_SONGS_PATH, JSON.stringify(data, null, 2) + "\n");
+fs.writeFileSync("data/works.json", JSON.stringify(works, null, 2) + "\n");
 fs.writeFileSync(
   GARUPA_STATE_PATH,
   JSON.stringify(

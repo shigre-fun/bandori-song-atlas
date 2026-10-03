@@ -1,0 +1,4131 @@
+{
+  "version": 1,
+  "nextId": 824,
+  "works": [
+    {
+      "id": "wk-0001",
+      "title": "ときめきエクスペリエンス！",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0002",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0003",
+      "title": "Yes! BanG_Dream!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0004",
+      "title": "ティアドロップス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0005",
+      "title": "ぽっぴん’しゃっふる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0006",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0007",
+      "title": "夏空 SUN! SUN! SEVEN!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0008",
+      "title": "走り始めたばかりのキミに",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0009",
+      "title": "1000回潤んだ空",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0010",
+      "title": "Happy Happy Party！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0011",
+      "title": "That Is How I Roll!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0012",
+      "title": "True color",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0013",
+      "title": "しゅわりん☆どり〜みん",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0014",
+      "title": "パスパレボリューションず☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0015",
+      "title": "BLACK SHOUT",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0016",
+      "title": "Re:birth day",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0017",
+      "title": "えがおのオーケストラっ！",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0018",
+      "title": "ハピネスっ！ハピィーマジカルっ♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0019",
+      "title": "空色デイズ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0020",
+      "title": "Alchemy",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0021",
+      "title": "カルマ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0022",
+      "title": "Butter-Fly",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0023",
+      "title": "secret base ～君がくれたもの～",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0024",
+      "title": "ドリームパレード",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0025",
+      "title": "魂のルフラン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0026",
+      "title": "Hacking to the Gate",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0027",
+      "title": "シュガーソングとビターステップ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0028",
+      "title": "いーあるふぁんくらぶ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0029",
+      "title": "Don’t say “lazy”",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0030",
+      "title": "Don’t be afraid!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0031",
+      "title": "光るなら",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0032",
+      "title": "前へススメ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0033",
+      "title": "シルエット",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0034",
+      "title": "LOUDER",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0035",
+      "title": "そばかす",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0036",
+      "title": "ゴーカ！ごーかい！？ファントムシーフ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0037",
+      "title": "ETERNAL BLAZE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0038",
+      "title": "キミにもらったもの",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0039",
+      "title": "夢みるSunflower",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0040",
+      "title": "Little Busters!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0041",
+      "title": "正解はひとつ!じゃない!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0042",
+      "title": "天体観測",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0043",
+      "title": "Scarlet Sky",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0044",
+      "title": "MOON PRIDE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0045",
+      "title": "はなまる◎アンダンテ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0046",
+      "title": "どきどきSING OUT!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0047",
+      "title": "ハッピーサマーウェディング",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0048",
+      "title": "陽だまりロードナイト",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0049",
+      "title": "紅蓮の弓矢",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0050",
+      "title": "God knows...",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0051",
+      "title": "花園電気ギター！！！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0052",
+      "title": "great escape",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0053",
+      "title": "ゆら・ゆらRing-Dong-Dance",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0054",
+      "title": "ふわふわ時間",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0055",
+      "title": "夏のドーン！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0056",
+      "title": "ひまわりの約束",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0057",
+      "title": "The Everlasting Guilty Crown",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0058",
+      "title": "八月のif",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0059",
+      "title": "熱色スターマイン",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0060",
+      "title": "only my railgun",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0061",
+      "title": "チョコレイトの低音レシピ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0062",
+      "title": "Hey-day狂騒曲（カプリチオ）",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0063",
+      "title": "アスノヨゾラ哨戒班",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0064",
+      "title": "Time Lapse",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0065",
+      "title": "せかいのっびのびトレジャー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0066",
+      "title": "SURVIVOR ねばーぎぶあっぷ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0067",
+      "title": "YAPPY！SCHOOL CARNIVAL☆彡",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0068",
+      "title": "Red fraction",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0069",
+      "title": "はなまるぴっぴはよいこだけ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0070",
+      "title": "遠い音楽～ハートビート～",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0071",
+      "title": "－HEROIC ADVENT－",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0072",
+      "title": "Determination Symphony",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0073",
+      "title": "ロメオ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0074",
+      "title": "READY STEADY GO",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0075",
+      "title": "世界は恋に落ちている",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0076",
+      "title": "す、好きなんかじゃない！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0077",
+      "title": "千本桜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0078",
+      "title": "恋は渾沌の隷也",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0079",
+      "title": "クリスマスのうた",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0080",
+      "title": "B.O.F",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0081",
+      "title": "Y.O.L.O！！！！！",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0082",
+      "title": "深愛",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0083",
+      "title": "わちゃ・もちゃ・ぺったん行進曲",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0084",
+      "title": "ハッピーシンセサイザ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0085",
+      "title": "Dragon Night",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0086",
+      "title": "残酷な天使のテーゼ",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0087",
+      "title": "Redo",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0088",
+      "title": "君じゃなきゃダメみたい",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0089",
+      "title": "CiRCLING",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0090",
+      "title": "クインティプル☆すまいる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0091",
+      "title": "ONENESS",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0092",
+      "title": "Opera of the wasteland",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0093",
+      "title": "プライド革命",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0094",
+      "title": "メランコリック",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0095",
+      "title": "SAKURAスキップ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0096",
+      "title": "Wonderland Girl",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0097",
+      "title": "Shangri-La",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0098",
+      "title": "fantastic dreamer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0099",
+      "title": "ハレ晴レユカイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0100",
+      "title": "This game",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0101",
+      "title": "GLAMOROUS SKY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0102",
+      "title": "Jamboree!Journey!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0103",
+      "title": "軌跡",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0104",
+      "title": "天下トーイツA to Z☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0105",
+      "title": "ふわふわ☆ゆめいろサンドイッチ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0106",
+      "title": "Light Delight",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0107",
+      "title": "私の心はチョココロネ",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0108",
+      "title": "みくみくにしてあげる♪【してやんよ】",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0109",
+      "title": "二重の虹(ダブル レインボウ)",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0110",
+      "title": "気まぐれロマンティック",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0111",
+      "title": "Believe in my existence",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0112",
+      "title": "イマジネーション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0113",
+      "title": "Neo-Aspect",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0114",
+      "title": "Legendary",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0115",
+      "title": "太陽曰く燃えよカオス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0116",
+      "title": "六兆年と一夜物語",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0117",
+      "title": "Fantastic future",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0118",
+      "title": "最高(さあ行こう)！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0119",
+      "title": "もういちど ルミナス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0120",
+      "title": "DAYS",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0121",
+      "title": "ピコっと！パピっと！！ガルパ☆ピコ！！！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0122",
+      "title": "ハイファイブ∞あどべんちゃっ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0123",
+      "title": "Life Will Change",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0124",
+      "title": "Reach Out To The Truth",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0125",
+      "title": "キミの記憶",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0126",
+      "title": "夏祭り",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0127",
+      "title": "COMIC PANIC!!!",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0128",
+      "title": "シャルル",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0129",
+      "title": "GO! GO! MANIAC",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0130",
+      "title": "Sanctuary",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0131",
+      "title": "ロストワンの号哭",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0132",
+      "title": "エイリアンエイリアン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0133",
+      "title": "ロミオとシンデレラ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0134",
+      "title": "ガールズコード",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0135",
+      "title": "ツナグ、ソラモヨウ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0136",
+      "title": "DISCOTHEQUE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0137",
+      "title": "ひとりじゃないんだから",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0138",
+      "title": "新宝島",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0139",
+      "title": "ゼッタイ宣言～Recital～",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0140",
+      "title": "R",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0141",
+      "title": "キミがいなくちゃっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0142",
+      "title": "君に届け",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0143",
+      "title": "ゆりゆららららゆるゆり大事件",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0144",
+      "title": "PASSIONATE ANTHEM",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0145",
+      "title": "Crow Song",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0146",
+      "title": "Home Street",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0147",
+      "title": "ランブリングメモリー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0148",
+      "title": "キズナミュージック♪",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0149",
+      "title": "BRAVE JEWEL",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0150",
+      "title": "R·I·O·T",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0151",
+      "title": "エクストラ・マジック・アワー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0152",
+      "title": "ツキアカリのミチシルベ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0153",
+      "title": "奏（かなで）",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0154",
+      "title": "瞬間センチメンタル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0155",
+      "title": "Wake up!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0156",
+      "title": "名前のない怪物",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0157",
+      "title": "回レ！雪月花",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0158",
+      "title": "Q＆A　リサイタル！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0159",
+      "title": "Safe and Sound",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0160",
+      "title": "Jumpin'",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0161",
+      "title": "ぎゅっDAYS♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0162",
+      "title": "はれやか すこやか ぴかりんりん♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0163",
+      "title": "らしさ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0164",
+      "title": "夜行性ハイズ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0165",
+      "title": "オトモダチフィルム",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0166",
+      "title": "Ringing Bloom",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0167",
+      "title": "Baby Sweet Berry Love",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0168",
+      "title": "SAKURA MEMORIES",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0169",
+      "title": "革命デュアリズム",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0170",
+      "title": "檄！帝国華撃団",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0171",
+      "title": "Returns",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0172",
+      "title": "NO GIRL NO CRY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0173",
+      "title": "Dreamers Go!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0174",
+      "title": "StaRt",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0175",
+      "title": "ON YOUR MARK",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0176",
+      "title": "きゅ〜まい＊flower",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0177",
+      "title": "いつも通りのBrand new days",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0178",
+      "title": "緋色の空",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0179",
+      "title": "FIRE BIRD",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0180",
+      "title": "えがお･シング･あ･ソング",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0181",
+      "title": "Daydream café",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0182",
+      "title": "ノーポイッ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0183",
+      "title": "ときめきポポロン♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0184",
+      "title": "ワクワクmeetsトリップ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0185",
+      "title": "UNSTOPPABLE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0186",
+      "title": "チェリボム",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0187",
+      "title": "午夜の待ち合わせ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0188",
+      "title": "にこ×にこ＝ハイパースマイルパワー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0189",
+      "title": "春擬き",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0190",
+      "title": "ディスカバリー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0191",
+      "title": "約束",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0192",
+      "title": "恋愛裁判",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0193",
+      "title": "アニバーサリー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0194",
+      "title": "青い栞",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0195",
+      "title": "1/3の純情な感情",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0196",
+      "title": "海色",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0197",
+      "title": "上海ハニー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0198",
+      "title": "Easy come, Easy go！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0199",
+      "title": "ミュージック・アワー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0200",
+      "title": "あっつあつ 常夏 らぶ☆サマー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0201",
+      "title": "切ないSandglass",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0202",
+      "title": "スマイルブーケで た〜まや〜！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0203",
+      "title": "からくりピエロ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0204",
+      "title": "“UNIONS” Road",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0205",
+      "title": "アイのシナリオ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0206",
+      "title": "ファティマ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0207",
+      "title": "Hello! Wink!",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0208",
+      "title": "What's the POPIPA!?",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0209",
+      "title": "コレカラ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0210",
+      "title": "Sasanqua",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0211",
+      "title": "激動",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0212",
+      "title": "ブルーバード",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0213",
+      "title": "ゆめゆめグラデーション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0214",
+      "title": "Stay Alive",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0215",
+      "title": "Paradisus-Paradoxum",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0216",
+      "title": "おもいでイルミネーション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0217",
+      "title": "全力少年",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0218",
+      "title": "イニシャル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0219",
+      "title": "White Afternoon",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0220",
+      "title": "天ノ弱",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0221",
+      "title": "創聖のアクエリオン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0222",
+      "title": "GO!!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0223",
+      "title": "花ハ踊レヤいろはにほ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0224",
+      "title": "夢を撃ち抜く瞬間に！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0225",
+      "title": "開けたらDream!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0226",
+      "title": "甲賀忍法帖",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0227",
+      "title": "Wonderful Sweet!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0228",
+      "title": "Step×Step！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0229",
+      "title": "Song I am.",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0230",
+      "title": "ドレミファロンド",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0231",
+      "title": "TWiNKLE CiRCLE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0232",
+      "title": "Break your desire",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0233",
+      "title": "I love your way！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0234",
+      "title": "インフェルノ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0235",
+      "title": "Daylight -デイライト-",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0236",
+      "title": "金色へのプレリュード",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0237",
+      "title": "ロキ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0238",
+      "title": "POP TEAM EPIC",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0239",
+      "title": "メリッサ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0240",
+      "title": "Bad Apple!! feat. nomico",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0241",
+      "title": "chAngE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0242",
+      "title": "群青日和",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0243",
+      "title": "ルカルカ★ナイトフィーバー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0244",
+      "title": "うぃーきゃん☆フレフレっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0245",
+      "title": "ブルームブルーム",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0246",
+      "title": "Winking☆Cheer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0247",
+      "title": "ミライトレイン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0248",
+      "title": "Avant-garde HISTORY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0249",
+      "title": "A DECLARATION OF ×××",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0250",
+      "title": "UNION",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0251",
+      "title": "大盛り一丁！ガルパ☆ピコ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0252",
+      "title": "秒針を噛む",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0253",
+      "title": "RED RED RED",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0254",
+      "title": "Blessing Chord",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0255",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0256",
+      "title": "ヒトリノ夜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0257",
+      "title": "ノスタルジックレインフォール",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0258",
+      "title": "Breakthrough!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0259",
+      "title": "final phase",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0260",
+      "title": "LEVEL5 -judgelight-",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0261",
+      "title": "カサブタ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0262",
+      "title": "flame of hope",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0263",
+      "title": "えがお、み～っけた！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0264",
+      "title": "右肩の蝶",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0265",
+      "title": "深海少女",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0266",
+      "title": "劣等上等",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0267",
+      "title": "I knew it!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0268",
+      "title": "ウィーアー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0269",
+      "title": "青と夏",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0270",
+      "title": "Beautiful Birthday",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0271",
+      "title": "!NVADE SHOW!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0272",
+      "title": "恋しさと せつなさと 心強さと",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0273",
+      "title": "Power of LOVE!!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0274",
+      "title": "ZEAL of proud",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0275",
+      "title": "セツナトリップ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0276",
+      "title": "Nevereverland",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0277",
+      "title": "ONE OF US",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0278",
+      "title": "Photograph",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0279",
+      "title": "DANCE! おジャ魔女",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0280",
+      "title": "おジャ魔女カーニバル!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0281",
+      "title": "Rolling star",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0282",
+      "title": "ハーモニー・デイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0283",
+      "title": "mind of Prominence",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0284",
+      "title": "sister's noise",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0285",
+      "title": "TITLE IDOL",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0286",
+      "title": "好き！雪！本気マジック",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0287",
+      "title": "ブリキノダンス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0288",
+      "title": "SENSENFUKOKU",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0289",
+      "title": "SAVIOR OF SONG",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0290",
+      "title": "ムーンライト伝説",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0291",
+      "title": "ドラマツルギー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0292",
+      "title": "CQCQ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0293",
+      "title": "Northern lights",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0294",
+      "title": "Keep Heart",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0295",
+      "title": "Sweets BAN!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0296",
+      "title": "にこにこねくと！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0297",
+      "title": "OUTSIDER RODEO",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0298",
+      "title": "Make it!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0299",
+      "title": "オレンジ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0300",
+      "title": "イエスタデイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0301",
+      "title": "夜に駆ける",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0302",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0303",
+      "title": "SHINY DAYS",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0304",
+      "title": "アゲハ蝶",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0305",
+      "title": "DAYBREAK FRONTLINE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0306",
+      "title": "Synchrogazer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0307",
+      "title": "るんっ♪てぃてぃー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0308",
+      "title": "EXIST",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0309",
+      "title": "Live Beyond!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0310",
+      "title": "Sonorous",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0311",
+      "title": "Proud of oneself",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0312",
+      "title": "V.I.P",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0313",
+      "title": "Original Call",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0314",
+      "title": "ハウトゥー世界征服",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0315",
+      "title": "鳥の詩",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0316",
+      "title": "CORE PRIDE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0317",
+      "title": "Happy Girl",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0318",
+      "title": "春〜spring〜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0319",
+      "title": "ラムのラブソング",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0320",
+      "title": "overtuRe",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0321",
+      "title": "My Dearest",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0322",
+      "title": "Domination to world",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0323",
+      "title": "カナユメ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0324",
+      "title": "ないすみちゅっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0325",
+      "title": "大河よ共に泣いてくれ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0326",
+      "title": "徒花ネクロマンシー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0327",
+      "title": "Sing Alive",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0328",
+      "title": "ヒューマノイド",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0329",
+      "title": "ここから先は歌にならない",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0330",
+      "title": "Singing “OURS”",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0331",
+      "title": "Sprechchor",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0332",
+      "title": "Secret Dawn",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0333",
+      "title": "灼熱 Bonfire!",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0334",
+      "title": "DAYS of DASH",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0335",
+      "title": "絆色のアンサンブル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0336",
+      "title": "COLORFUL BOX",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0337",
+      "title": "夏に閉じこめて",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0338",
+      "title": "ラスハピーポー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0339",
+      "title": "Sacred world",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0340",
+      "title": "Trouble Joyful!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0341",
+      "title": "競宴Red×Violet",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0342",
+      "title": "ン・パカマーチ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0343",
+      "title": "HELL! or HELL?",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0344",
+      "title": "KING",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0345",
+      "title": "きらっ☆と キミフェス！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0346",
+      "title": "TOMORROW",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0347",
+      "title": "ピコたるもの、ふぃーばー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0348",
+      "title": "fly with the night",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0349",
+      "title": "Fateful...",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0350",
+      "title": "ファンサ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0351",
+      "title": "ぼなぺてぃーと♡Ｓ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0352",
+      "title": "あの夢をなぞって",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0353",
+      "title": "Embrace of light",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0354",
+      "title": "ナカナ イナ カナイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0355",
+      "title": "ベノム",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0356",
+      "title": "パッパレ☆人生！バーン万歳！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0357",
+      "title": "勇気Limit！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0358",
+      "title": "Off we go.",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0359",
+      "title": "イントロダクション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0360",
+      "title": "Our Carol",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0361",
+      "title": "怪物",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0362",
+      "title": "Keep the Heat and Fire Yourself Up",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0363",
+      "title": "COLORS",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0364",
+      "title": "SPARK-AGAIN",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0365",
+      "title": "CORUSCATE -DNA-",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0366",
+      "title": "DEPARTURES",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0367",
+      "title": "シル・ヴ・プレジデント",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0368",
+      "title": "ヒトリゴト",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0369",
+      "title": "ぽっぴん'どりーむ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0370",
+      "title": "グッバイ宣言",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0371",
+      "title": "曇天",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0372",
+      "title": "星の約束",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0373",
+      "title": "ハッピー☆マテリアル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0374",
+      "title": "現るっ！大怪盗ハロハッピー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0375",
+      "title": "Listen!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0376",
+      "title": "Just Awake",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0377",
+      "title": "One step at a time",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0378",
+      "title": "Repaint",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0379",
+      "title": "CATASTROPHE BANQUET",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0380",
+      "title": "月光花",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0381",
+      "title": "閃光",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0382",
+      "title": "CiRCLE THANKS MUSiC♪",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0383",
+      "title": "廻廻奇譚",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0384",
+      "title": "春を告げる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0385",
+      "title": "ヴァンパイア",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0386",
+      "title": "メンタルチェンソー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0387",
+      "title": "unravel",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0388",
+      "title": "DRIVE US CRAZY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0389",
+      "title": "Realize",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0390",
+      "title": "Brand new Pastel Road！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0391",
+      "title": "Sparkling Daydream",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0392",
+      "title": "脳漿炸裂ガール",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0393",
+      "title": "くちづけDiamond",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0394",
+      "title": "サクラゼンセン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0395",
+      "title": "Freedom",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0396",
+      "title": "THE HISTORIC...",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0397",
+      "title": "Light a fire",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0398",
+      "title": "青空のラプソディ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0399",
+      "title": "秘密の扉から会いにきて",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0400",
+      "title": "あこがれacross",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0401",
+      "title": "おもいやりハーモニー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0402",
+      "title": "トーキョーワンダー。",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0403",
+      "title": "Cry Baby",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0404",
+      "title": "ROZEN HORIZON",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0405",
+      "title": "ハレハレ☆フォーチュン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0406",
+      "title": "SWITCH ON NOW",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0407",
+      "title": "SOUL SOLDIER",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0408",
+      "title": "メギツネ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0409",
+      "title": "ボクノート",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0410",
+      "title": "Happy! Happier! Happiest!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0411",
+      "title": "Preserved Roses",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0412",
+      "title": "ヒャダインのじょーじょーゆーじょー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0413",
+      "title": "大好き！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0414",
+      "title": "Swear 〜Night & Day〜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0415",
+      "title": "寄る辺のSunny, Sunny",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0416",
+      "title": "カラフルリバティー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0417",
+      "title": "ハナヒバナ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0418",
+      "title": "STYX HELIX",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0419",
+      "title": "Memento",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0420",
+      "title": "THE WAY OF LIFE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0421",
+      "title": "独創収差",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0422",
+      "title": "うちゃパ！で ぱっぴかポーんっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0423",
+      "title": "abnormalize",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0424",
+      "title": "狂乱 Hey Kids!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0425",
+      "title": "The Circle Of Butterflies",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0426",
+      "title": "divine intervention",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0427",
+      "title": "Moonlight Walk",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0428",
+      "title": "Invincible Fighter",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0429",
+      "title": "Takin’ my Heart",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0430",
+      "title": "Punchline Halloween!!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0431",
+      "title": "スカイクラッドの観測者",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0432",
+      "title": "Future Place",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0433",
+      "title": "Storyteller",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0434",
+      "title": "Nameless Story",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0435",
+      "title": "Dear Gleam",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0436",
+      "title": "DEAD HEAT BEAT",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0437",
+      "title": "ミックスナッツ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0438",
+      "title": "VORACITY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0439",
+      "title": "えがお、あーゆーれでぃ???",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0440",
+      "title": "スターナイトスノウ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0441",
+      "title": "もってけ！セーラーふく",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0442",
+      "title": "乙女はサイコパス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0443",
+      "title": "群青",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0444",
+      "title": "フォニイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0445",
+      "title": "閃光",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0446",
+      "title": "転生林檎",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0447",
+      "title": "Five Letters",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0448",
+      "title": "IGNITE GLOW",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0449",
+      "title": "Sweet Cheers!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0450",
+      "title": "ようこそジャパリパークへ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0451",
+      "title": "一逢のFull Glory",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0452",
+      "title": "YELL",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0453",
+      "title": "See you! 〜それぞれの明日へ〜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0454",
+      "title": "RiNG A BELL",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0455",
+      "title": "Glee! Glee! Glee!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0456",
+      "title": "五等分の気持ち",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0457",
+      "title": "新時代",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0458",
+      "title": "命に嫌われている。",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0459",
+      "title": "＊ ～アスタリスク～",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0460",
+      "title": "ALIVE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0461",
+      "title": "ダーリンダンス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0462",
+      "title": "神っぽいな",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0463",
+      "title": "Made My Day",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0464",
+      "title": "迷星叫",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0465",
+      "title": "新しい季節に",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0466",
+      "title": "花呼ぶ声",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0467",
+      "title": "最強☆ソング",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0468",
+      "title": "ヒロイン育成計画",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0469",
+      "title": "少女レイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0470",
+      "title": "チューリングラブ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0471",
+      "title": "踊",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0472",
+      "title": "アイウエ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0473",
+      "title": "Call the shots",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0474",
+      "title": "DANCING DARING",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0475",
+      "title": "酔いどれ知らず",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0476",
+      "title": "Angel's Ladder",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0477",
+      "title": "惑星ループ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0478",
+      "title": "キミを れっつ・はぶ・ふぁん♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0479",
+      "title": "心絵",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0480",
+      "title": "壱雫空",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0481",
+      "title": "栞",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0482",
+      "title": "CHAINSAW BLOOD",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0483",
+      "title": "ファイトソング",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0484",
+      "title": "オドループ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0485",
+      "title": "QUEEN",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0486",
+      "title": "ペトリコール・オベーション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0487",
+      "title": "極彩色",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0488",
+      "title": "碧天伴走",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0489",
+      "title": "Sunlit Musical",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0490",
+      "title": "私色きらめき日和",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0491",
+      "title": "Get Wild",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0492",
+      "title": "愛のしるし",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0493",
+      "title": "HOT LIMIT",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0494",
+      "title": "詩超絆",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0495",
+      "title": "ボクらの夏's☆ショーたいむっ！！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0496",
+      "title": "ふぁいぶスマイル◯オールインっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0497",
+      "title": "ダンスホール",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0498",
+      "title": "ほな！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0499",
+      "title": "燦々",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0500",
+      "title": "チルドレンレコード(Re:boot)",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0501",
+      "title": "迷路日々",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0502",
+      "title": "祝福",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0503",
+      "title": "可愛くてごめん",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0504",
+      "title": "エゴロック",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0505",
+      "title": "D-tecnoLife",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0506",
+      "title": "サウダージ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0507",
+      "title": "ヒバナ-Reloaded-",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0508",
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0509",
+      "title": "音がえしのセレナーデ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0510",
+      "title": "Be born",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0511",
+      "title": "影色舞",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0512",
+      "title": "猛独が襲う",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0513",
+      "title": "歌いましょう鳴らしましょう",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0514",
+      "title": "swim",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0515",
+      "title": "THRONE OF ROSE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0516",
+      "title": "everyday flower",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0517",
+      "title": "ヴィラン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0518",
+      "title": "Ever Sky Blue",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0519",
+      "title": "BATTLE CRY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0520",
+      "title": "裸の勇者",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0521",
+      "title": "That's why I'm here",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0522",
+      "title": "テレキャスタービーボーイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0523",
+      "title": "青春 To Be Continued",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0524",
+      "title": "-N-E-M-E-S-I-S-",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0525",
+      "title": "聖少女領域",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0526",
+      "title": "処救生",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0527",
+      "title": "Chu Chueen!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0528",
+      "title": "東京テディベア",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0529",
+      "title": "Merry Merry Thanks!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0530",
+      "title": "覚悟のLiberation",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0531",
+      "title": "らいふ・いず・みゅーじかるっ♪♪♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0532",
+      "title": "擬態ごっこ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0533",
+      "title": "Stellar Stellar",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0534",
+      "title": "粉雪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0535",
+      "title": "強風オールバック",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0536",
+      "title": "第ゼロ感",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0537",
+      "title": "Overdose",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0538",
+      "title": "ホワイトノイズ",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0539",
+      "title": "カオスが極まる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0540",
+      "title": "slash",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0541",
+      "title": "私は最強",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0542",
+      "title": "魔法少女とチョコレゐト",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0543",
+      "title": "グッド・バイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0544",
+      "title": "Radiate Warriors",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0545",
+      "title": "Ahoy!! 我ら宝鐘海賊団☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0546",
+      "title": "Fleur",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0547",
+      "title": "Lioness' Pride",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0548",
+      "title": "A Sunset So Bright",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0549",
+      "title": "どりーみんチュチュ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0550",
+      "title": "ドラマチック！アライブ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0551",
+      "title": "ReReReエボリューションず☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0552",
+      "title": "Ray of hope",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0553",
+      "title": "VIOLET LINE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0554",
+      "title": "輪符雨",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0555",
+      "title": "蒼穹へのトレイル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0556",
+      "title": "Always recall.",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0557",
+      "title": "誓いのWingbeat",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0558",
+      "title": "アイドル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0559",
+      "title": "青のすみか",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0560",
+      "title": "乙女解剖",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0561",
+      "title": "ノンブレス・オブリージュ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0562",
+      "title": "きゅうくらりん",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0563",
+      "title": "かくれんぼ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0564",
+      "title": "ボッカデラベリタ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0565",
+      "title": "怪獣の花唄",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0566",
+      "title": "トレモロアイズ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0567",
+      "title": "むすんでわらって",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0568",
+      "title": "両翼のBrilliance",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0569",
+      "title": "Life on the Lotus",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0570",
+      "title": "「僕は...」",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0571",
+      "title": "トリドリ＊パレット",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0572",
+      "title": "メランコリックララバイ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0573",
+      "title": "V.I.P MONSTER",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0574",
+      "title": "サンバロハッピ〜！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0575",
+      "title": "SOUVENIR",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0576",
+      "title": "Floral Haven",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0577",
+      "title": "逆光",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0578",
+      "title": "フレっとパレットFight Song!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0579",
+      "title": "Glowing After",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0580",
+      "title": "Wreath of Brave",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0581",
+      "title": "ギミー！レボリューション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0582",
+      "title": "雨上がり、キミと",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0583",
+      "title": "SOULSOUP",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0584",
+      "title": "Sage der Rosen",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0585",
+      "title": "ココ☆ナツ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0586",
+      "title": "礎の花冠",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0587",
+      "title": "Listen to Smile!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0588",
+      "title": "名無声",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0589",
+      "title": "Surges",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0590",
+      "title": "With〜きみとわたしたちの物語〜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0591",
+      "title": "だから、ひとりじゃない",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0592",
+      "title": "Start as Usual",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0593",
+      "title": "Bad Kids All Bet",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0594",
+      "title": "ちゅ、多様性。",
+      "source": "existing-relatedSongIds",
+      "creditReview": {
+        "status": "resolved",
+        "basis": "confirmed-creator-ids",
+        "display": "record overrides retained"
+      }
+    },
+    {
+      "id": "wk-0595",
+      "title": "勇者",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0596",
+      "title": "オトナブルー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0597",
+      "title": "人マニア",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0598",
+      "title": "クラクラ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0599",
+      "title": "Bling-Bang-Bang-Born",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0600",
+      "title": "カゲロウデイズ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0601",
+      "title": "雑踏、僕らの街",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0602",
+      "title": "花咲く未来に",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0603",
+      "title": "輪舞-revolution",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0604",
+      "title": "過惰幻",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0605",
+      "title": "ティリカモニカリラ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0606",
+      "title": "サインはB",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0607",
+      "title": "FRONTIER FANTASIA",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0608",
+      "title": "ファタール",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0609",
+      "title": "すきっちゅーの！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0610",
+      "title": "ハイタッチ／＼びりーばーず☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0611",
+      "title": "歩拾道",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0612",
+      "title": "DOKI DOKI SCARY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0613",
+      "title": "遥か彼方",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0614",
+      "title": "ホワイト ノスタルジア",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0615",
+      "title": "JUST THE WAY I AM",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0616",
+      "title": "“Say cheese!!!!!”",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0617",
+      "title": "VIVID FIRST TIME",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0618",
+      "title": "Subtitle",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0619",
+      "title": "TARINAI",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0620",
+      "title": "愛包ダンスホール",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0621",
+      "title": "WELCOME TO PANDEMONIUM",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0622",
+      "title": "幾億光年",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0623",
+      "title": "Tempest",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0624",
+      "title": "シカ色デイズ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0625",
+      "title": "悪魔の子",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0626",
+      "title": "Ave Mujica",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0627",
+      "title": "マルカリアンチェイン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0628",
+      "title": "KiLLKiSS",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0629",
+      "title": "STEP by STEP UP↑↑↑↑",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0630",
+      "title": "Georgette Me, Georgette You",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0631",
+      "title": "Steer to Utopia",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0632",
+      "title": "れっつ・スマイル・すとり〜みんぐっ♪",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0633",
+      "title": "Grateful Melting",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0634",
+      "title": "花笑みのデュオ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0635",
+      "title": "春日影",
+      "source": "existing-relatedSongIds",
+      "creditReview": {
+        "status": "resolved",
+        "basis": "confirmed-creator-ids",
+        "display": "record overrides retained"
+      }
+    },
+    {
+      "id": "wk-0636",
+      "title": "音一会",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0637",
+      "title": "とっておきAnswer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0638",
+      "title": "Imprisoned XII",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0639",
+      "title": "Crucifix X",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0640",
+      "title": "HOWLING AMBITION",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0641",
+      "title": "はいよろこんで",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0642",
+      "title": "最上級にかわいいの！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0643",
+      "title": "オレンジ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0644",
+      "title": "again",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0645",
+      "title": "Reweave",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0646",
+      "title": "フィクション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0647",
+      "title": "第六感",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0648",
+      "title": "だれかの心臓になれたなら",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0649",
+      "title": "八芒星ダンス",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0650",
+      "title": "聿日箋秋",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0651",
+      "title": "焚音打",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0652",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0653",
+      "title": "顔",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0654",
+      "title": "天球(そら)のMúsica",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0655",
+      "title": "Second to None",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0656",
+      "title": "やっほー！いっぽ！わんだふぉー！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0657",
+      "title": "Polyphonyscape",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0658",
+      "title": "ロケットサイダー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0659",
+      "title": "REIGNING",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0660",
+      "title": "Bunny Girl",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0661",
+      "title": "Dazzle the Destiny",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0662",
+      "title": "最高到達点",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0663",
+      "title": "潜在表明",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0664",
+      "title": "雪華は無常に微笑む",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0665",
+      "title": "Portray Empathy",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0666",
+      "title": "Against the Light",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0667",
+      "title": "Tomorrow’s Door",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0668",
+      "title": "愛唄",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0669",
+      "title": "黒のバースデイ",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0670",
+      "title": "FIVE as ONE",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0671",
+      "title": "Requiem for Fate",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0672",
+      "title": "Feathered Dreams",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0673",
+      "title": "つよがるガール feat. もっさ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0674",
+      "title": "Shine ☆n My Life!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0675",
+      "title": "Drive Your Heart",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0676",
+      "title": "紫炎",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0677",
+      "title": "Steadfast Spirits",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0678",
+      "title": "残痕字",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0679",
+      "title": "アイワナムチュー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0680",
+      "title": "Color of Us",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0681",
+      "title": "往欄印",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0682",
+      "title": "スタ〜リング ☆じぶん☆",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0683",
+      "title": "とーくとぅみー・とーくとぅゆー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0684",
+      "title": "百花繚乱",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0685",
+      "title": "スキ×すき×カラフリィ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0686",
+      "title": "Resonant Strings",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0687",
+      "title": "'FIGHT' ADDICT",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0688",
+      "title": "季節は次々死んでいく",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0689",
+      "title": "ビューティ・フォー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0690",
+      "title": "オン・ザ・フロントライン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0691",
+      "title": "BROKEN GAMES",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0692",
+      "title": "恋愛サーキュレーション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0693",
+      "title": "Fallen",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0694",
+      "title": "怪獣",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0695",
+      "title": "POP IN 2",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0696",
+      "title": "エガクミライ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0697",
+      "title": "Velonica",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0698",
+      "title": "Feel so good!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0699",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0700",
+      "title": "Part of the Life",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0701",
+      "title": "BIBIBABI BRAVER",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0702",
+      "title": "元祖！バンドリちゃんのテーマ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0703",
+      "title": "世界中の青空をあつめて",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0704",
+      "title": "きみCharmin'",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0705",
+      "title": "Sincerely",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0706",
+      "title": "じょいふる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0707",
+      "title": "♡桃色片想い♡",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0708",
+      "title": "Fear Nothing",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0709",
+      "title": "白い雪のプリンセスは",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0710",
+      "title": "まぶしいねっ☆ そのえがお！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0711",
+      "title": "恋人がサンタクロース",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0712",
+      "title": "スマイリーキャロル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0713",
+      "title": "ミラクルペイント",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0714",
+      "title": "Singer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0715",
+      "title": "手を叩け今ここで祈るだけ願うだけ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0716",
+      "title": "端程山",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0717",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0718",
+      "title": "I wonder",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0719",
+      "title": "Same Blue",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0720",
+      "title": "デビルじゃないもん",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0721",
+      "title": "イケナイ太陽",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0722",
+      "title": "マツケンサンバII",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0723",
+      "title": "Shining Leaves",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0724",
+      "title": "START!! True dreams",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0725",
+      "title": "RUNAWAY STAR",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0726",
+      "title": "Choco Typhooooon!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0727",
+      "title": "どきどきデエト",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0728",
+      "title": "Wonder Night Land",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0729",
+      "title": "Talk to My Tone",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0730",
+      "title": "Thanks to you.",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0731",
+      "title": "かぽーんっと極楽☆ 湯〜とぴあ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0732",
+      "title": "MATSURI BAYASHI",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0733",
+      "title": "メロウ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0734",
+      "title": "DAY×DAY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0735",
+      "title": "革命道中",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0736",
+      "title": "HONEY",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0737",
+      "title": "金曜日のおはよう",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0738",
+      "title": "許婚っきゅん",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0739",
+      "title": "過去を喰らう",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0740",
+      "title": "Game Changer",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0741",
+      "title": "Painting New Dawn",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0742",
+      "title": "ヒカリへ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0743",
+      "title": "証は赫く",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0744",
+      "title": "絶対零度",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0745",
+      "title": "舞台に立って",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0746",
+      "title": "XV",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0747",
+      "title": "超最強",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0748",
+      "title": "ランデヴー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0749",
+      "title": "無路矢",
+      "source": "existing-relatedSongIds"
+    },
+    {
+      "id": "wk-0750",
+      "title": "ココロのちず",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0751",
+      "title": "胡蝶翔る星月夜",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0752",
+      "title": "WHAT AN EXPLOSION",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0753",
+      "title": "Come to see YOU!!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0754",
+      "title": "ほれぼれっ☆すまいるゴール！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0755",
+      "title": "Amore",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0756",
+      "title": "who we aRe",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0757",
+      "title": "Wings of the Lights",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0758",
+      "title": "スターラブレイション",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0759",
+      "title": "夕影と歌う この先も",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0760",
+      "title": "Rainbow of Dreams",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0761",
+      "title": "ポニーテールとシュシュ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0762",
+      "title": "I AM WHO I AM",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0763",
+      "title": "SUMMER SONG",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0764",
+      "title": "好き・スキ・だいすき〜ズっ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0765",
+      "title": "Resound the Way",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0766",
+      "title": "この蒼き闇と光",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0767",
+      "title": "勇侠青春謳",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0768",
+      "title": "盛れ！ミ・アモーレ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0769",
+      "title": "オー！リバル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0770",
+      "title": "浪漫飛行",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0771",
+      "title": "千の翼",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0772",
+      "title": "けっかおーらい",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0773",
+      "title": "悲しみなんて笑い飛ばせ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0774",
+      "title": "ライムライト",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0775",
+      "title": "炎と森のカーニバル",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0776",
+      "title": "砂寸奏",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0777",
+      "title": "証命讃歌",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0778",
+      "title": "ないものねだり",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0779",
+      "title": "青春コンプレックス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0780",
+      "title": "Symbol I : △",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0781",
+      "title": "Symbol II : Air",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0782",
+      "title": "Symbol III : ▽",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0783",
+      "title": "Symbol IV : Earth",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0784",
+      "title": "Ether",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0785",
+      "title": "Choir ‘S’ Choir",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0786",
+      "title": "碧い瞳の中に",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0787",
+      "title": "The Whole Blue World",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0788",
+      "title": "堕天",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0789",
+      "title": "暗黒天国",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0790",
+      "title": "KINGS",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0791",
+      "title": "✞animaるパーティ✞開催中✞",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0792",
+      "title": "エンプティパペット",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0793",
+      "title": "限界現実サバイブ天使",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0794",
+      "title": "ビッグマウス",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0795",
+      "title": "夢現妄想世界",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0796",
+      "title": "コハク",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0797",
+      "title": "真夜中遊園地",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0798",
+      "title": "これはぼくたちの生存のあらすじ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0799",
+      "title": "うちゅうのふしぎ",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0800",
+      "title": "チューニング",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0801",
+      "title": "超惑星Xへの旅",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0802",
+      "title": "TearJerker",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0803",
+      "title": "Face The Next",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0804",
+      "title": "in my words",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0805",
+      "title": "愛は衝動",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0806",
+      "title": "唱",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0807",
+      "title": "オリオンをなぞる",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0808",
+      "title": "UNDEAD",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0809",
+      "title": "起死開戦",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0810",
+      "title": "everscape",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0811",
+      "title": "鳴らす",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0812",
+      "title": "カーネーションの咲く日に",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0813",
+      "title": "Pretender",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0814",
+      "title": "ロウワー",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0815",
+      "title": "ホーミー・タイッ！！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0816",
+      "title": "ジャイアント・キラー・チューン",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0817",
+      "title": "ピースフル・ピーシーズ！",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0818",
+      "title": "Keep on Riddim",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0819",
+      "title": "Mela!",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0820",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0821",
+      "title": "空に歌えば",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0822",
+      "title": "微笑みの爆弾",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0823",
+      "title": "夢我夢中",
+      "source": "independent-record"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "inputHashes": {
+    "data/creators.json": "a659c6b44864eef407c9fa68203f2697a52da951058ed39aa2f36ea24f53ee67",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "1263fb2c6084222bbed085c6ca8dd4583919b2f5138d513699527675c1ef4fba",
+    "data/ournotes/songs.json": "5b9ce7e42ff16e8e342dccd7a0a5c756a4c497f5c4d28386cce0daa223e3f95a",
+    "docs/migrations/creator-map.json": "985b5ff4a0f4f2bc7f08a7d7c7030da2a892a8fbccdf0d0a634878b702538c5e",
+    "docs/migrations/creators-2026-10-02/creator-research.json": "306d1f7ea8dd9dfdae8735822370ec890fe185f870115a5bf17f457d524b1d3c",
+    "docs/migrations/creators-2026-10-02/human-review-input.json": "9e2771501ee26934b2e75f361eb70c641cdbfd023f857d0e70e33adf870a11c9"
+  },
+  "phase": "human-review",
+  "reviewDate": "2026-10-02",
+  "decisions": 18,
+  "masterBefore": 89,
+  "masterAfter": 91,
+  "addedCreators": [
+    {
+      "id": "cr-0090",
+      "slug": "creator-0090",
+      "name": "瀬名水紀",
+      "sortKey": "瀬名水紀",
+      "sortKeyStatus": "provisional-original",
+      "type": "person",
+      "aliases": ["瀬名水紀(Dream Monster)"]
+    },
+    {
+      "id": "cr-0091",
+      "slug": "john",
+      "name": "john",
+      "sortKey": "john",
+      "sortKeyStatus": "confirmed",
+      "type": "person",
+      "aliases": ["TOOBOE"]
+    }
+  ],
+  "updatedCreatorIds": [
+    "cr-0003",
+    "cr-0004",
+    "cr-0020",
+    "cr-0021",
+    "cr-0024",
+    "cr-0027",
+    "cr-0041",
+    "cr-0050",
+    "cr-0053",
+    "cr-0067",
+    "cr-0072",
+    "cr-0073",
+    "cr-0075",
+    "cr-0083",
+    "cr-0084"
+  ],
+  "slugChanges": [
+    {
+      "id": "cr-0003",
+      "name": "真部脩一",
+      "from": "creator-0003",
+      "to": "syuichi-mabe"
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "from": "creator-0020",
+      "to": "yuki-hidaka"
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "from": "creator-0021",
+      "to": "ryota-suematsu"
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "from": "creator-0024",
+      "to": "satoshi-fujihara"
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "from": "creator-0027",
+      "to": "tomoya-tabuchi"
+    },
+    {
+      "id": "cr-0041",
+      "name": "かいりきベア",
+      "from": "creator-0041",
+      "to": "kairiki-bear"
+    },
+    {
+      "id": "cr-0050",
+      "name": "前山田健一",
+      "from": "creator-0050",
+      "to": "kenichi-maeyamada"
+    },
+    {
+      "id": "cr-0053",
+      "name": "佐藤純一",
+      "from": "creator-0053",
+      "to": "junichi-sato"
+    },
+    {
+      "id": "cr-0072",
+      "name": "常田真太郎",
+      "from": "creator-0072",
+      "to": "shintaro-tokita"
+    },
+    {
+      "id": "cr-0073",
+      "name": "大橋卓弥",
+      "from": "creator-0073",
+      "to": "takuya-ohashi"
+    },
+    {
+      "id": "cr-0075",
+      "name": "目黒将司",
+      "from": "creator-0075",
+      "to": "shoji-meguro"
+    },
+    {
+      "id": "cr-0083",
+      "name": "篠崎あやと",
+      "from": "creator-0083",
+      "to": "ayato-shinozaki"
+    }
+  ],
+  "aliasesBefore": 58,
+  "aliasesAfter": 61,
+  "rawStrings": 342,
+  "resolvedRaw": 127,
+  "remainingRaw": 215,
+  "baselineRemainingRaw": 218,
+  "beforeCoverage": {
+    "recordings": 631,
+    "totalRecordings": 884,
+    "recordingPercent": 71.38,
+    "works": 578,
+    "totalWorks": 823,
+    "workPercent": 70.23
+  },
+  "afterCoverage": {
+    "recordings": 635,
+    "totalRecordings": 884,
+    "recordingPercent": 71.83,
+    "works": 582,
+    "totalWorks": 823,
+    "workPercent": 70.72
+  },
+  "idSlugs": [
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "slug": "creator-0048"
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "slug": "creator-0081"
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "slug": "creator-0082"
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "slug": "creator-0089"
+    },
+    {
+      "id": "cr-0090",
+      "name": "瀬名水紀",
+      "slug": "creator-0090"
+    }
+  ],
+  "provisionalSortKeys": 47,
+  "previousSlugs": [
+    {
+      "id": "cr-0003",
+      "from": "creator-0003",
+      "to": "syuichi-mabe"
+    },
+    {
+      "id": "cr-0004",
+      "from": "creator-0004",
+      "to": "junpei-fujita"
+    },
+    {
+      "id": "cr-0020",
+      "from": "creator-0020",
+      "to": "yuki-hidaka"
+    },
+    {
+      "id": "cr-0021",
+      "from": "creator-0021",
+      "to": "ryota-suematsu"
+    },
+    {
+      "id": "cr-0024",
+      "from": "creator-0024",
+      "to": "satoshi-fujihara"
+    },
+    {
+      "id": "cr-0027",
+      "from": "creator-0027",
+      "to": "tomoya-tabuchi"
+    },
+    {
+      "id": "cr-0041",
+      "from": "creator-0041",
+      "to": "kairiki-bear"
+    },
+    {
+      "id": "cr-0050",
+      "from": "creator-0050",
+      "to": "kenichi-maeyamada"
+    },
+    {
+      "id": "cr-0053",
+      "from": "creator-0053",
+      "to": "junichi-sato"
+    },
+    {
+      "id": "cr-0072",
+      "from": "creator-0072",
+      "to": "shintaro-tokita"
+    },
+    {
+      "id": "cr-0073",
+      "from": "creator-0073",
+      "to": "takuya-ohashi"
+    },
+    {
+      "id": "cr-0075",
+      "from": "creator-0075",
+      "to": "shoji-meguro"
+    },
+    {
+      "id": "cr-0083",
+      "from": "creator-0083",
+      "to": "ayato-shinozaki"
+    }
+  ],
+  "legacyDisplayComparisons": 2652,
+  "warnings": [],
+  "changedTokens": 5,
+  "changes": [
+    {
+      "reference": "garupa:552",
+      "role": "composer",
+      "original": "john",
+      "creatorId": "cr-0091"
+    },
+    {
+      "reference": "ournotes:65",
+      "role": "composer",
+      "original": "瀬名水紀(Dream Monster)",
+      "creatorId": "cr-0090"
+    },
+    {
+      "reference": "ournotes:66",
+      "role": "composer",
+      "original": "瀬名水紀(Dream Monster)",
+      "creatorId": "cr-0090"
+    },
+    {
+      "reference": "ournotes:64",
+      "role": "composer",
+      "original": "瀬名水紀(Dream Monster)",
+      "creatorId": "cr-0090"
+    },
+    {
+      "reference": "ournotes:74",
+      "role": "composer",
+      "original": "瀬名水紀(Dream Monster)",
+      "creatorId": "cr-0090"
+    }
+  ]
+}

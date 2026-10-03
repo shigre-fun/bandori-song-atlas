@@ -1,0 +1,144 @@
+{
+  "coverage": {
+    "recordings": 631,
+    "totalRecordings": 884,
+    "recordingPercent": 71.38,
+    "works": 578,
+    "totalWorks": 823,
+    "workPercent": 70.23
+  },
+  "deferredMap": [
+    {
+      "id": "cr-0079",
+      "name": "KATSU",
+      "type": "person",
+      "aliases": [],
+      "sortKey": "KATSU",
+      "sortKeyStatus": "confirmed",
+      "slug": "katsu-angela",
+      "researchStatus": "CONFIRMED",
+      "approvedReferences": ["garupa:97", "ournotes:43"],
+      "identityEvidence": "一次情報確認（2026-10-02）: creator-research.json / KATSU"
+    },
+    {
+      "id": "cr-0085",
+      "name": "GEN",
+      "type": "person",
+      "aliases": [],
+      "sortKey": "GEN",
+      "sortKeyStatus": "confirmed",
+      "slug": "gen-04-limited-sazabys",
+      "researchStatus": "CONFIRMED",
+      "approvedReferences": ["garupa:523"],
+      "identityEvidence": "一次情報確認（2026-10-02）: creator-research.json / GEN"
+    },
+    {
+      "id": "cr-0086",
+      "name": "ARM",
+      "type": "person",
+      "aliases": [],
+      "sortKey": "ARM",
+      "sortKeyStatus": "confirmed",
+      "slug": "arm-iosys",
+      "researchStatus": "CONFIRMED",
+      "approvedReferences": ["garupa:554"],
+      "identityEvidence": "一次情報確認（2026-10-02）: creator-research.json / ARM"
+    },
+    {
+      "id": "cr-0087",
+      "name": "TAKE",
+      "type": "person",
+      "aliases": [],
+      "sortKey": "TAKE",
+      "sortKeyStatus": "confirmed",
+      "slug": "take-flow",
+      "researchStatus": "CONFIRMED",
+      "approvedReferences": ["garupa:226"],
+      "identityEvidence": "一次情報確認（2026-10-02）: creator-research.json / TAKE"
+    },
+    {
+      "id": "cr-0088",
+      "name": "yasu",
+      "type": "person",
+      "aliases": [],
+      "sortKey": "yasu",
+      "sortKeyStatus": "confirmed",
+      "slug": "yasu-janne-da-arc",
+      "researchStatus": "CONFIRMED",
+      "approvedReferences": ["garupa:386"],
+      "identityEvidence": "一次情報確認（2026-10-02）: creator-research.json / yasu"
+    }
+  ],
+  "deferredRelations": {
+    "cr-0085": [
+      {
+        "reference": "garupa:523",
+        "workId": "wk-0514",
+        "relations": [
+          {
+            "creatorId": "cr-0085",
+            "roles": ["composer"]
+          }
+        ]
+      }
+    ],
+    "cr-0086": [
+      {
+        "reference": "garupa:554",
+        "workId": "wk-0545",
+        "relations": [
+          {
+            "creatorId": "cr-0086",
+            "roles": ["composer"]
+          }
+        ]
+      }
+    ],
+    "cr-0087": [
+      {
+        "reference": "garupa:226",
+        "workId": "wk-0222",
+        "relations": [
+          {
+            "creatorId": "cr-0087",
+            "roles": ["composer"]
+          }
+        ]
+      }
+    ],
+    "cr-0088": [
+      {
+        "reference": "garupa:386",
+        "workId": "wk-0380",
+        "relations": [
+          {
+            "creatorId": "cr-0088",
+            "roles": ["composer"]
+          }
+        ]
+      }
+    ],
+    "cr-0079": [
+      {
+        "reference": "garupa:97",
+        "workId": "wk-0097",
+        "relations": [
+          {
+            "creatorId": "cr-0079",
+            "roles": ["composer"]
+          }
+        ]
+      },
+      {
+        "reference": "ournotes:43",
+        "workId": "wk-0790",
+        "relations": [
+          {
+            "creatorId": "cr-0079",
+            "roles": ["composer"]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -30,7 +30,10 @@ test("generated canonical pages, structured data, links and sitemap are consiste
     result.redirects,
     legacy.reduce((n, entry) => n + entry.slugs.length, 0),
   );
-  assert.equal(result.pages, count + ournotesCount + 8);
+  const creators = JSON.parse(
+    fs.readFileSync("data/creators.json", "utf8"),
+  ).creators;
+  assert.equal(result.pages, count + ournotesCount + 8 + creators.length + 1);
 });
 
 test("only the six navigation pages omit the header search", () => {

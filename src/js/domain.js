@@ -158,7 +158,9 @@ export function matches(s, q) {
 }
 
 export function creditField(params) {
-  return ["composer", "artist"].includes(params.get("credit"))
+  return ["lyricist", "composer", "arranger", "artist"].includes(
+    params.get("credit"),
+  )
     ? params.get("credit")
     : null;
 }
@@ -168,7 +170,7 @@ export function crossGameSongs(catalogs, q, credit = null) {
   return Object.values(GAMES).flatMap((game) =>
     catalogs[game.id].songs
       .filter((song) =>
-        credit === "composer" || credit === "artist"
+        ["lyricist", "composer", "arranger", "artist"].includes(credit)
           ? matchesCredit(song[credit], q)
           : matches(song, q),
       )

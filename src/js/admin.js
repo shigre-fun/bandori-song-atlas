@@ -1,5 +1,6 @@
 import { validateSong } from "./song-schema.js";
 import { GitHubStore } from "./github-store.js";
+import { createCreatorPicker } from "./creator-picker.js";
 import { GAMES } from "./site-config.js";
 import { siteURL, songPath } from "./urls.js";
 import {
@@ -27,6 +28,12 @@ let connecting = false;
 let submissionId = crypto.randomUUID();
 let savedResult = null;
 let editing = null;
+const creatorPicker = createCreatorPicker({
+  form,
+  getStore: () => store,
+  getPrevious: () => editing?.song,
+  onChange: () => saveDraft(),
+});
 let songOptions = [];
 let relatedOptions = null;
 const editStatus = document.querySelector("#edit-status");
@@ -225,6 +232,7 @@ document.querySelector("#load-song").addEventListener("click", async () => {
     editing = loaded;
     form.reset();
     const song = loaded.song;
+    creatorPicker.setSong(song);
     for (const key of [
       "title",
       "reading",
@@ -427,6 +435,8 @@ function restoreDraft() {
       element.checked = value;
     else if (element.name === "relatedSongIds" && typeof value === "string") {
       setRelatedReferences(parseRelatedReferences(value));
+    } else if (element.name === "workId" && typeof value === "string") {
+      creatorPicker.setWork(value);
     } else if (element.name && typeof value === "string") element.value = value;
   }
   const savedDuration = Number(form.elements.durationSeconds.value);
@@ -440,6 +450,7 @@ function restoreDraft() {
   draftStatus.textContent = "前回の入力を復元しました。";
 }
 restoreDraft();
+creatorPicker.render();
 renderRelatedSelected();
 updateVisibility();
 updateMode();
@@ -464,6 +475,7 @@ function switchGame(nextGame) {
   draftStatus.textContent = "入力内容はこの端末に下書き保存されます。";
   renderGameFields();
   restoreDraft();
+  creatorPicker.render();
   renderRelatedSelected();
   updateVisibility();
   updateMode();
@@ -531,6 +543,7 @@ connection.addEventListener("submit", async (event) => {
     );
     const checked = await candidate.connect();
     store = candidate;
+    await creatorPicker.refresh();
     relatedOptions = null;
     storageWrite(settingsKey(), checked);
     connectionStatus.textContent = `${checked.owner}/${checked.repo}（${checked.branch}）に接続しました。`;
@@ -540,6 +553,8 @@ connection.addEventListener("submit", async (event) => {
     for (const element of connection.elements)
       if (element.name) element.disabled = true;
   } catch (error) {
+    if (store) store.token = "";
+    store = null;
     connectionStatus.textContent = error.message;
     connectionStatus.className = "message error";
   } finally {
@@ -614,8 +629,9 @@ function enteredSong() {
           : null,
       ]),
     ),
+    ...creatorPicker.entered(),
   };
-  validateSong(song, game.id);
+  validateSong({ ...song, workId: song.workId ?? "wk-0000" }, game.id);
   return { song };
 }
 
@@ -647,7 +663,10 @@ form.addEventListener("submit", async (event) => {
     const result = editing
       ? await store.updateSong(entry.song, editing, submissionId)
       : await store.addSong(entry.song, submissionId);
-    if (result.editing) editing = result.editing;
+    if (result.editing) {
+      editing = result.editing;
+      creatorPicker.setSong(editing.song);
+    }
     savedResult = { ...result, title: entry.song.title, ...store.settings };
     showResult(savedResult);
     message(
@@ -714,6 +733,7 @@ function startNewSong() {
   document.querySelector("#related-picker").hidden = true;
   editing = null;
   submissionId = crypto.randomUUID();
+  creatorPicker.reset();
   savedResult = null;
   document.querySelector("#result").hidden = true;
   updateVisibility();

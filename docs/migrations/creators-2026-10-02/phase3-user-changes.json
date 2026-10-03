@@ -1,0 +1,878 @@
+{
+  "checkedAt": "2026-10-02",
+  "basis": "ユーザー明示の並行変更保持。Creator作業が行った旧項目変更ではない。",
+  "changes": [
+    {
+      "title": "音一会",
+      "workId": "wk-0636",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 8,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": null
+        },
+        "HARD": {
+          "level": 18,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 8,
+          "notes": 422
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 568
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 831
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 1207
+        }
+      }
+    },
+    {
+      "title": "音一会",
+      "workId": "wk-0636",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["JUST", "JUST", "JUST"]
+    },
+    {
+      "title": "砂寸奏",
+      "workId": "wk-0776",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 6,
+          "notes": 208
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 322
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 532
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": 724
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 6,
+          "notes": 208
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 322
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 532
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": 725
+        }
+      }
+    },
+    {
+      "title": "焚音打",
+      "workId": "wk-0651",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 10,
+          "notes": 516
+        },
+        "NORMAL": {
+          "level": 15,
+          "notes": 974
+        },
+        "HARD": {
+          "level": 23,
+          "notes": 1175
+        },
+        "EXPERT": {
+          "level": 29,
+          "notes": 1776
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 10,
+          "notes": 516
+        },
+        "NORMAL": {
+          "level": 15,
+          "notes": 974
+        },
+        "HARD": {
+          "level": 23,
+          "notes": 1175
+        },
+        "EXPERT": {
+          "level": 29,
+          "notes": 1777
+        }
+      }
+    },
+    {
+      "title": "シャルル",
+      "workId": "wk-0128",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 6,
+          "notes": 215
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 376
+        },
+        "HARD": {
+          "level": 16,
+          "notes": 532
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 572
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 6,
+          "notes": 215
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 376
+        },
+        "HARD": {
+          "level": 16,
+          "notes": 532
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 573
+        }
+      }
+    },
+    {
+      "title": "KiLLKiSS",
+      "workId": "wk-0628",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 8,
+          "notes": 339
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 496
+        },
+        "HARD": {
+          "level": 21,
+          "notes": 657
+        },
+        "EXPERT": {
+          "level": 28,
+          "notes": 748
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 8,
+          "notes": 339
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 496
+        },
+        "HARD": {
+          "level": 21,
+          "notes": 657
+        },
+        "EXPERT": {
+          "level": 28,
+          "notes": 749
+        }
+      }
+    },
+    {
+      "title": "天球(そら)のMúsica",
+      "workId": "wk-0654",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 7,
+          "notes": 548
+        },
+        "NORMAL": {
+          "level": 15,
+          "notes": 664
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 1023
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 1228
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 7,
+          "notes": 548
+        },
+        "NORMAL": {
+          "level": 15,
+          "notes": 664
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 1023
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 1229
+        }
+      }
+    },
+    {
+      "title": "Ether",
+      "workId": "wk-0784",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 8,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 11,
+          "notes": null
+        },
+        "HARD": {
+          "level": 18,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 8,
+          "notes": 306
+        },
+        "NORMAL": {
+          "level": 11,
+          "notes": 486
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 664
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": 1020
+        }
+      }
+    },
+    {
+      "title": "Ether",
+      "workId": "wk-0784",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["LUCK", "COMBO", "JUST"]
+    },
+    {
+      "title": "碧い瞳の中に",
+      "workId": "wk-0786",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 5,
+          "notes": 184
+        },
+        "NORMAL": {
+          "level": 9,
+          "notes": 342
+        },
+        "HARD": {
+          "level": 15,
+          "notes": 416
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 496
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 5,
+          "notes": 184
+        },
+        "NORMAL": {
+          "level": 9,
+          "notes": 342
+        },
+        "HARD": {
+          "level": 15,
+          "notes": 416
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 497
+        }
+      }
+    },
+    {
+      "title": "KINGS",
+      "workId": "wk-0790",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 7,
+          "notes": 288
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 455
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 656
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": 848
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 7,
+          "notes": 288
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 455
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 656
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": 849
+        }
+      }
+    },
+    {
+      "title": "ファタール",
+      "workId": "wk-0608",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 7,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": null
+        },
+        "HARD": {
+          "level": 17,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 7,
+          "notes": 216
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 336
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 536
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 613
+        }
+      }
+    },
+    {
+      "title": "ファタール",
+      "workId": "wk-0608",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["COMBO", "COMBO", "COMBO"]
+    },
+    {
+      "title": "夢現妄想世界",
+      "workId": "wk-0795",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 6,
+          "notes": 220
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 360
+        },
+        "HARD": {
+          "level": 19,
+          "notes": 602
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": 832
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 6,
+          "notes": 220
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 360
+        },
+        "HARD": {
+          "level": 19,
+          "notes": 602
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": 833
+        }
+      }
+    },
+    {
+      "title": "真夜中遊園地",
+      "workId": "wk-0797",
+      "field": "id",
+      "before": 50,
+      "after": 52
+    },
+    {
+      "title": "真夜中遊園地",
+      "workId": "wk-0797",
+      "field": "releaseOrder",
+      "before": 50,
+      "after": 52
+    },
+    {
+      "title": "真夜中遊園地",
+      "workId": "wk-0797",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 9,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": null
+        },
+        "HARD": {
+          "level": 21,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 9,
+          "notes": 240
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 452
+        },
+        "HARD": {
+          "level": 21,
+          "notes": 566
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": 754
+        }
+      }
+    },
+    {
+      "title": "真夜中遊園地",
+      "workId": "wk-0797",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["COMBO", "COMBO", "COMBO"]
+    },
+    {
+      "title": "これはぼくたちの生存のあらすじ",
+      "workId": "wk-0798",
+      "field": "id",
+      "before": 51,
+      "after": 50
+    },
+    {
+      "title": "これはぼくたちの生存のあらすじ",
+      "workId": "wk-0798",
+      "field": "releaseOrder",
+      "before": 51,
+      "after": 50
+    },
+    {
+      "title": "うちゅうのふしぎ",
+      "workId": "wk-0799",
+      "field": "id",
+      "before": 52,
+      "after": 51
+    },
+    {
+      "title": "うちゅうのふしぎ",
+      "workId": "wk-0799",
+      "field": "releaseOrder",
+      "before": 52,
+      "after": 51
+    },
+    {
+      "title": "うちゅうのふしぎ",
+      "workId": "wk-0799",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 5,
+          "notes": 162
+        },
+        "NORMAL": {
+          "level": 10,
+          "notes": 206
+        },
+        "HARD": {
+          "level": 16,
+          "notes": 370
+        },
+        "EXPERT": {
+          "level": 22,
+          "notes": 480
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 5,
+          "notes": 162
+        },
+        "NORMAL": {
+          "level": 10,
+          "notes": 206
+        },
+        "HARD": {
+          "level": 16,
+          "notes": 370
+        },
+        "EXPERT": {
+          "level": 22,
+          "notes": 481
+        }
+      }
+    },
+    {
+      "title": "TearJerker",
+      "workId": "wk-0802",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 8,
+          "notes": 295
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 430
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 626
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 812
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 8,
+          "notes": 295
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 430
+        },
+        "HARD": {
+          "level": 18,
+          "notes": 626
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 813
+        }
+      }
+    },
+    {
+      "title": "カーネーションの咲く日に",
+      "workId": "wk-0812",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 7,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": null
+        },
+        "HARD": {
+          "level": 20,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 7,
+          "notes": 300
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 632
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 719
+        },
+        "EXPERT": {
+          "level": 26,
+          "notes": 878
+        }
+      }
+    },
+    {
+      "title": "カーネーションの咲く日に",
+      "workId": "wk-0812",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["LUCK", "JUST", "COMBO"]
+    },
+    {
+      "title": "Keep on Riddim",
+      "workId": "wk-0818",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 9,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": null
+        },
+        "HARD": {
+          "level": 22,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 27,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 9,
+          "notes": 411
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 672
+        },
+        "HARD": {
+          "level": 22,
+          "notes": 912
+        },
+        "EXPERT": {
+          "level": 27,
+          "notes": 1061
+        }
+      }
+    },
+    {
+      "title": "Keep on Riddim",
+      "workId": "wk-0818",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["COMBO", "COMBO", "COMBO"]
+    },
+    {
+      "title": "ジャイアント・キラー・チューン",
+      "workId": "wk-0816",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 5,
+          "notes": 143
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 470
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 548
+        },
+        "EXPERT": {
+          "level": 23,
+          "notes": 656
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 5,
+          "notes": 143
+        },
+        "NORMAL": {
+          "level": 14,
+          "notes": 470
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 548
+        },
+        "EXPERT": {
+          "level": 23,
+          "notes": 657
+        }
+      }
+    },
+    {
+      "title": "イケナイ太陽",
+      "workId": "wk-0721",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 8,
+          "notes": 236
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 572
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 662
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 708
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 8,
+          "notes": 236
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 572
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 662
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 709
+        }
+      }
+    },
+    {
+      "title": "微笑みの爆弾",
+      "workId": "wk-0822",
+      "field": "gekisouSections",
+      "before": [null, null, null],
+      "after": ["JUST", "JUST", "JUST"]
+    },
+    {
+      "title": "微笑みの爆弾",
+      "workId": "wk-0822",
+      "field": "difficulties",
+      "before": {
+        "EASY": {
+          "level": 7,
+          "notes": null
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": null
+        },
+        "HARD": {
+          "level": 17,
+          "notes": null
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": null
+        }
+      },
+      "after": {
+        "EASY": {
+          "level": 7,
+          "notes": 242
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 322
+        },
+        "HARD": {
+          "level": 17,
+          "notes": 520
+        },
+        "EXPERT": {
+          "level": 24,
+          "notes": 701
+        }
+      }
+    }
+  ],
+  "sourceLastWriteTime": "2026-10-02T13:31:46.864Z",
+  "notes": "ユーザーの並行編集保持指示後、最終照合で追加の譜面notes差分を検出。ID/title/Workは確認済み対応のまま。songsには書き戻さず、現実体と移行前の旧項目差分だけを更新。"
+}

@@ -1,0 +1,251 @@
+{
+  "checkedAt": "2026-10-02",
+  "research": {
+    "webResearchedSubjects": 91,
+    "baselineGroupsInvestigated": 93,
+    "statuses": {
+      "CONFIRMED": 87,
+      "PROBABLE": 2,
+      "UNRESOLVED": 2
+    },
+    "primarySourceUrls": 93,
+    "uninvestigatedAtLeastThreeRecords": []
+  },
+  "masterCount": 89,
+  "nextId": 90,
+  "types": {
+    "person": 83,
+    "unit": 5,
+    "organization": 1
+  },
+  "aliasesBefore": 5,
+  "aliasesAfter": 58,
+  "coverage": {
+    "recordings": 631,
+    "totalRecordings": 884,
+    "recordingPercent": 71.38,
+    "works": 578,
+    "totalWorks": 823,
+    "workPercent": 70.23
+  },
+  "reviewSummary": {
+    "creditStrings": 342,
+    "autoResolvedStrings": 124,
+    "reviewRecommendedStrings": 24,
+    "unresolvedStrings": 194,
+    "remainingUnidentifiedStrings": 218,
+    "candidateGroups": 321,
+    "groupCounts": {
+      "A": 0,
+      "B": 29,
+      "C": 44,
+      "D": 248
+    },
+    "candidateStatuses": {
+      "AUTO_RESOLVED": 88,
+      "REVIEW_RECOMMENDED": 22,
+      "UNRESOLVED": 211
+    },
+    "research": {
+      "webResearchedSubjects": 91,
+      "baselineGroupsInvestigated": 93,
+      "statuses": {
+        "CONFIRMED": 87,
+        "PROBABLE": 2,
+        "UNRESOLVED": 2
+      },
+      "primarySourceUrls": 93,
+      "uninvestigatedAtLeastThreeRecords": []
+    }
+  },
+  "reviewResearchStatuses": {
+    "CONFIRMED": 88,
+    "PROBABLE": 2,
+    "UNRESOLVED": 231
+  },
+  "provisionalSortKeys": 46,
+  "idSlugs": [
+    {
+      "id": "cr-0003",
+      "name": "真部脩一",
+      "slug": "creator-0003"
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "slug": "creator-0020"
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "slug": "creator-0021"
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "slug": "creator-0024"
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "slug": "creator-0027"
+    },
+    {
+      "id": "cr-0041",
+      "name": "かいりきベア",
+      "slug": "creator-0041"
+    },
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "slug": "creator-0048"
+    },
+    {
+      "id": "cr-0050",
+      "name": "前山田健一",
+      "slug": "creator-0050"
+    },
+    {
+      "id": "cr-0053",
+      "name": "佐藤純一",
+      "slug": "creator-0053"
+    },
+    {
+      "id": "cr-0072",
+      "name": "常田真太郎",
+      "slug": "creator-0072"
+    },
+    {
+      "id": "cr-0073",
+      "name": "大橋卓弥",
+      "slug": "creator-0073"
+    },
+    {
+      "id": "cr-0075",
+      "name": "目黒将司",
+      "slug": "creator-0075"
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "slug": "creator-0081"
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "slug": "creator-0082"
+    },
+    {
+      "id": "cr-0083",
+      "name": "篠崎あやと",
+      "slug": "creator-0083"
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "slug": "creator-0089"
+    }
+  ],
+  "publicCatalogsMatchSources": true,
+  "oldFieldsMatchBaselineExceptApprovedChanges": true,
+  "approvedUserFieldChanges": 32,
+  "workDataUnchanged": true,
+  "composerOnly": true,
+  "warnings": [],
+  "ssr": {
+    "masterBytes": 21493,
+    "listBootstrapBytes": 28698,
+    "detailBootstrapBytes": 227,
+    "controllerBytes": 3572,
+    "globalMasterOnDetail": false,
+    "unrelatedPagesWithoutCreatorBootstrap": true,
+    "researchFilesNotPublished": true
+  },
+  "sourceHashes": {
+    "data/creators.json": "a659c6b44864eef407c9fa68203f2697a52da951058ed39aa2f36ea24f53ee67",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "1263fb2c6084222bbed085c6ca8dd4583919b2f5138d513699527675c1ef4fba",
+    "data/ournotes/songs.json": "633d8f6ab6e14116464b2b71b175082f1325394c406df1a92e2bd7f712f13633"
+  },
+  "legacyDisplayComparisons": 2652,
+  "migrationVerifyPassed": true,
+  "reapplyChanges": 0,
+  "root": {
+    "buildPassed": true,
+    "allTests": {
+      "passed": 151,
+      "failed": 0
+    },
+    "seo": {
+      "pages": 982,
+      "details": 884,
+      "detailCounts": {
+        "garupa": 799,
+        "ournotes": 85
+      },
+      "redirects": 797,
+      "titleCount": 982
+    },
+    "sourceMatch": true
+  },
+  "subpath": {
+    "base": "/bandori-song-atlas/",
+    "buildPassed": true,
+    "latestOutput": ".cache/creator-phase3-subpath-final",
+    "seo": {
+      "pages": 982,
+      "details": 884,
+      "detailCounts": {
+        "garupa": 799,
+        "ournotes": 85
+      },
+      "redirects": 797,
+      "titleCount": 982
+    },
+    "sourceMatch": true,
+    "allTests": {
+      "passed": 151,
+      "failed": 0,
+      "beforeFinalAdditionalChartEdits": true
+    }
+  },
+  "functionsCompilePassed": true,
+  "browser": {
+    "surfaces": [
+      "public-list",
+      "public-detail",
+      "admin-creators",
+      "song-creator-picker"
+    ],
+    "fixtureCreatorCount": 500,
+    "githubWrites": "memory-mock-only",
+    "consoleErrors": 0,
+    "evidenceDirectory": ".cache/creator-phase3-ui",
+    "desktop500Tested": true,
+    "mobile500Tested": false
+  },
+  "publication": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "originalApplicationBackup": ".cache/creator-phase3-1790945274643/manifest.json",
+  "referenceUpdateBackup": ".cache/creator-phase3-reference-rebase-1790946528729/manifest.json",
+  "note": "適用時点のphase3-applied.jsonは履歴として不変。最終真部再確認とユーザー並行更新は本資料の状態。",
+  "finalCheckedAt": "2026-10-02T13:43:50.897Z",
+  "finalBuildSessions": {
+    "root": 33696,
+    "subpath": 99987
+  },
+  "syntax": {
+    "changedModules": 36,
+    "passed": true
+  },
+  "formatting": {
+    "creatorTaskFilesPassed": true,
+    "excludedConcurrentFile": "data/ournotes/songs.json",
+    "excludedFileStyleWarning": true,
+    "ournotesFileNotWritten": true
+  },
+  "diffCheckPassed": true
+}

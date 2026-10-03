@@ -1,0 +1,5799 @@
+[
+  {
+    "workId": "wk-0001",
+    "records": ["garupa:1", "garupa:763"],
+    "titles": [
+      "ときめきエクスペリエンス！",
+      "ときめきエクスペリエンス！ (月島まりなver.)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0002",
+    "records": ["garupa:2"],
+    "titles": ["キラキラだとか夢だとか ～Sing Girls～"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0003",
+    "records": ["garupa:3"],
+    "titles": ["Yes! BanG_Dream!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0004",
+    "records": ["garupa:4"],
+    "titles": ["ティアドロップス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0005",
+    "records": ["garupa:5"],
+    "titles": ["ぽっぴん’しゃっふる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0006",
+    "records": ["garupa:6"],
+    "titles": ["STAR BEAT!〜ホシノコドウ〜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0007",
+    "records": ["garupa:7"],
+    "titles": ["夏空 SUN! SUN! SEVEN!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0008",
+    "records": ["garupa:8", "garupa:689"],
+    "titles": [
+      "走り始めたばかりのキミに",
+      "走り始めたばかりのキミに(パラレルver.)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0009",
+    "records": ["garupa:9"],
+    "titles": ["1000回潤んだ空"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0010",
+    "records": ["garupa:10"],
+    "titles": ["Happy Happy Party！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0011",
+    "records": ["garupa:11"],
+    "titles": ["That Is How I Roll!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0012",
+    "records": ["garupa:12"],
+    "titles": ["True color"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0013",
+    "records": ["garupa:13"],
+    "titles": ["しゅわりん☆どり〜みん"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0014",
+    "records": ["garupa:14"],
+    "titles": ["パスパレボリューションず☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0015",
+    "records": ["garupa:15"],
+    "titles": ["BLACK SHOUT"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0016",
+    "records": ["garupa:16"],
+    "titles": ["Re:birth day"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0017",
+    "records": ["garupa:17", "garupa:661"],
+    "titles": [
+      "えがおのオーケストラっ！",
+      "えがおのオーケストラっ！(パラレルver.)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0018",
+    "records": ["garupa:18"],
+    "titles": ["ハピネスっ！ハピィーマジカルっ♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0019",
+    "records": ["garupa:19"],
+    "titles": ["空色デイズ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0020",
+    "records": ["garupa:20"],
+    "titles": ["Alchemy"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0021",
+    "records": ["garupa:21"],
+    "titles": ["カルマ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0022",
+    "records": ["garupa:22"],
+    "titles": ["Butter-Fly"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0023",
+    "records": ["garupa:23"],
+    "titles": ["secret base ～君がくれたもの～"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0024",
+    "records": ["garupa:24"],
+    "titles": ["ドリームパレード"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0025",
+    "records": ["garupa:25"],
+    "titles": ["魂のルフラン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0026",
+    "records": ["garupa:26"],
+    "titles": ["Hacking to the Gate"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0027",
+    "records": ["garupa:27"],
+    "titles": ["シュガーソングとビターステップ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0028",
+    "records": ["garupa:28"],
+    "titles": ["いーあるふぁんくらぶ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0029",
+    "records": ["garupa:29"],
+    "titles": ["Don’t say “lazy”"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0030",
+    "records": ["garupa:30"],
+    "titles": ["Don’t be afraid!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0031",
+    "records": ["garupa:31"],
+    "titles": ["光るなら"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0032",
+    "records": ["garupa:32"],
+    "titles": ["前へススメ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0033",
+    "records": ["garupa:33"],
+    "titles": ["シルエット"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0034",
+    "records": ["garupa:34"],
+    "titles": ["LOUDER"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0035",
+    "records": ["garupa:35"],
+    "titles": ["そばかす"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0036",
+    "records": ["garupa:36"],
+    "titles": ["ゴーカ！ごーかい！？ファントムシーフ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0037",
+    "records": ["garupa:37"],
+    "titles": ["ETERNAL BLAZE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0038",
+    "records": ["garupa:38"],
+    "titles": ["キミにもらったもの"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0039",
+    "records": ["garupa:39"],
+    "titles": ["夢みるSunflower"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0040",
+    "records": ["garupa:40"],
+    "titles": ["Little Busters!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0041",
+    "records": ["garupa:41"],
+    "titles": ["正解はひとつ!じゃない!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0042",
+    "records": ["garupa:42"],
+    "titles": ["天体観測"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0043",
+    "records": ["garupa:43"],
+    "titles": ["Scarlet Sky"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0044",
+    "records": ["garupa:44"],
+    "titles": ["MOON PRIDE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0045",
+    "records": ["garupa:45"],
+    "titles": ["はなまる◎アンダンテ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0046",
+    "records": ["garupa:46"],
+    "titles": ["どきどきSING OUT!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0047",
+    "records": ["garupa:47"],
+    "titles": ["ハッピーサマーウェディング"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0048",
+    "records": ["garupa:48"],
+    "titles": ["陽だまりロードナイト"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0049",
+    "records": ["garupa:49"],
+    "titles": ["紅蓮の弓矢"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0050",
+    "records": ["garupa:50"],
+    "titles": ["God knows..."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0051",
+    "records": ["garupa:51"],
+    "titles": ["花園電気ギター！！！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0052",
+    "records": ["garupa:52"],
+    "titles": ["great escape"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0053",
+    "records": ["garupa:53"],
+    "titles": ["ゆら・ゆらRing-Dong-Dance"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0054",
+    "records": ["garupa:54"],
+    "titles": ["ふわふわ時間"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0055",
+    "records": ["garupa:55"],
+    "titles": ["夏のドーン！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0056",
+    "records": ["garupa:56"],
+    "titles": ["ひまわりの約束"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0057",
+    "records": ["garupa:57"],
+    "titles": ["The Everlasting Guilty Crown"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0058",
+    "records": ["garupa:58"],
+    "titles": ["八月のif"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0059",
+    "records": ["garupa:59", "garupa:740"],
+    "titles": ["熱色スターマイン", "熱色スターマイン(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0060",
+    "records": ["garupa:60"],
+    "titles": ["only my railgun"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0061",
+    "records": ["garupa:61"],
+    "titles": ["チョコレイトの低音レシピ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0062",
+    "records": ["garupa:62"],
+    "titles": ["Hey-day狂騒曲（カプリチオ）"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0063",
+    "records": ["garupa:63"],
+    "titles": ["アスノヨゾラ哨戒班"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0064",
+    "records": ["garupa:64"],
+    "titles": ["Time Lapse"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0065",
+    "records": ["garupa:65"],
+    "titles": ["せかいのっびのびトレジャー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0066",
+    "records": ["garupa:66"],
+    "titles": ["SURVIVOR ねばーぎぶあっぷ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0067",
+    "records": ["garupa:67"],
+    "titles": ["YAPPY！SCHOOL CARNIVAL☆彡"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0068",
+    "records": ["garupa:68"],
+    "titles": ["Red fraction"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0069",
+    "records": ["garupa:69"],
+    "titles": ["はなまるぴっぴはよいこだけ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0070",
+    "records": ["garupa:70"],
+    "titles": ["遠い音楽～ハートビート～"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0071",
+    "records": ["garupa:71"],
+    "titles": ["－HEROIC ADVENT－"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0072",
+    "records": ["garupa:72", "garupa:739"],
+    "titles": [
+      "Determination Symphony",
+      "Determination Symphony(パラレルver.)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0073",
+    "records": ["garupa:73"],
+    "titles": ["ロメオ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0074",
+    "records": ["garupa:74"],
+    "titles": ["READY STEADY GO"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0075",
+    "records": ["garupa:75"],
+    "titles": ["世界は恋に落ちている"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0076",
+    "records": ["garupa:76"],
+    "titles": ["す、好きなんかじゃない！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0077",
+    "records": ["garupa:77"],
+    "titles": ["千本桜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0078",
+    "records": ["garupa:78"],
+    "titles": ["恋は渾沌の隷也"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0079",
+    "records": ["garupa:79"],
+    "titles": ["クリスマスのうた"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0080",
+    "records": ["garupa:80"],
+    "titles": ["B.O.F"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0081",
+    "records": ["garupa:81", "garupa:673"],
+    "titles": ["Y.O.L.O！！！！！", "Y.O.L.O！！！！！(パスパレver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0082",
+    "records": ["garupa:82"],
+    "titles": ["深愛"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0083",
+    "records": ["garupa:83"],
+    "titles": ["わちゃ・もちゃ・ぺったん行進曲"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0084",
+    "records": ["garupa:84"],
+    "titles": ["ハッピーシンセサイザ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0085",
+    "records": ["garupa:85"],
+    "titles": ["Dragon Night"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0086",
+    "records": ["garupa:86", "ournotes:40"],
+    "titles": ["残酷な天使のテーゼ", "残酷な天使のテーゼ"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0087",
+    "records": ["garupa:87"],
+    "titles": ["Redo"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0088",
+    "records": ["garupa:88"],
+    "titles": ["君じゃなきゃダメみたい"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0089",
+    "records": ["garupa:89"],
+    "titles": ["CiRCLING"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0090",
+    "records": ["garupa:90"],
+    "titles": ["クインティプル☆すまいる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0091",
+    "records": ["garupa:91"],
+    "titles": ["ONENESS"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0092",
+    "records": ["garupa:92"],
+    "titles": ["Opera of the wasteland"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0093",
+    "records": ["garupa:93"],
+    "titles": ["プライド革命"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0094",
+    "records": ["garupa:94"],
+    "titles": ["メランコリック"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0095",
+    "records": ["garupa:95"],
+    "titles": ["SAKURAスキップ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0096",
+    "records": ["garupa:96"],
+    "titles": ["Wonderland Girl"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0097",
+    "records": ["garupa:97"],
+    "titles": ["Shangri-La"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0098",
+    "records": ["garupa:98"],
+    "titles": ["fantastic dreamer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0099",
+    "records": ["garupa:99"],
+    "titles": ["ハレ晴レユカイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0100",
+    "records": ["garupa:100"],
+    "titles": ["This game"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0101",
+    "records": ["garupa:101"],
+    "titles": ["GLAMOROUS SKY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0102",
+    "records": ["garupa:102"],
+    "titles": ["Jamboree!Journey!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0103",
+    "records": ["garupa:103"],
+    "titles": ["軌跡"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0104",
+    "records": ["garupa:104"],
+    "titles": ["天下トーイツA to Z☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0105",
+    "records": ["garupa:105"],
+    "titles": ["ふわふわ☆ゆめいろサンドイッチ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0106",
+    "records": ["garupa:106"],
+    "titles": ["Light Delight"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0107",
+    "records": ["garupa:107", "garupa:787"],
+    "titles": ["私の心はチョココロネ", "私の心はチョココロネ(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0108",
+    "records": ["garupa:108"],
+    "titles": ["みくみくにしてあげる♪【してやんよ】"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0109",
+    "records": ["garupa:109", "garupa:205"],
+    "titles": [
+      "二重の虹(ダブル レインボウ)",
+      "[FULL] 二重の虹(ダブル レインボウ)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0110",
+    "records": ["garupa:110"],
+    "titles": ["気まぐれロマンティック"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0111",
+    "records": ["garupa:111"],
+    "titles": ["Believe in my existence"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0112",
+    "records": ["garupa:112"],
+    "titles": ["イマジネーション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0113",
+    "records": ["garupa:113"],
+    "titles": ["Neo-Aspect"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0114",
+    "records": ["garupa:114"],
+    "titles": ["Legendary"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0115",
+    "records": ["garupa:115"],
+    "titles": ["太陽曰く燃えよカオス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0116",
+    "records": ["garupa:116", "ournotes:59"],
+    "titles": ["六兆年と一夜物語", "六兆年と一夜物語"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0117",
+    "records": ["garupa:117"],
+    "titles": ["Fantastic future"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0118",
+    "records": ["garupa:118"],
+    "titles": ["最高(さあ行こう)！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0119",
+    "records": ["garupa:119"],
+    "titles": ["もういちど ルミナス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0120",
+    "records": ["garupa:120"],
+    "titles": ["DAYS"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0121",
+    "records": ["garupa:121"],
+    "titles": ["ピコっと！パピっと！！ガルパ☆ピコ！！！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0122",
+    "records": ["garupa:122"],
+    "titles": ["ハイファイブ∞あどべんちゃっ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0123",
+    "records": ["garupa:123"],
+    "titles": ["Life Will Change"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0124",
+    "records": ["garupa:124"],
+    "titles": ["Reach Out To The Truth"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0125",
+    "records": ["garupa:125"],
+    "titles": ["キミの記憶"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0126",
+    "records": ["garupa:126"],
+    "titles": ["夏祭り"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0127",
+    "records": ["garupa:127", "garupa:760"],
+    "titles": ["COMIC PANIC!!!", "COMIC PANIC!!!(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0128",
+    "records": ["garupa:128", "ournotes:20"],
+    "titles": ["シャルル", "シャルル"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0129",
+    "records": ["garupa:129"],
+    "titles": ["GO! GO! MANIAC"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0130",
+    "records": ["garupa:130"],
+    "titles": ["Sanctuary"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0131",
+    "records": ["garupa:131"],
+    "titles": ["ロストワンの号哭"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0132",
+    "records": ["garupa:132"],
+    "titles": ["エイリアンエイリアン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0133",
+    "records": ["garupa:133"],
+    "titles": ["ロミオとシンデレラ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0134",
+    "records": ["garupa:134"],
+    "titles": ["ガールズコード"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0135",
+    "records": ["garupa:135"],
+    "titles": ["ツナグ、ソラモヨウ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0136",
+    "records": ["garupa:136"],
+    "titles": ["DISCOTHEQUE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0137",
+    "records": ["garupa:137", "garupa:652"],
+    "titles": [
+      "ひとりじゃないんだから",
+      "ひとりじゃないんだから(パラレルver.)"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0138",
+    "records": ["garupa:138"],
+    "titles": ["新宝島"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0139",
+    "records": ["garupa:139"],
+    "titles": ["ゼッタイ宣言～Recital～"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0140",
+    "records": ["garupa:140"],
+    "titles": ["R"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0141",
+    "records": ["garupa:141"],
+    "titles": ["キミがいなくちゃっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0142",
+    "records": ["garupa:142"],
+    "titles": ["君に届け"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0143",
+    "records": ["garupa:143"],
+    "titles": ["ゆりゆららららゆるゆり大事件"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0144",
+    "records": ["garupa:144"],
+    "titles": ["PASSIONATE ANTHEM"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0145",
+    "records": ["garupa:145"],
+    "titles": ["Crow Song"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0146",
+    "records": ["garupa:146"],
+    "titles": ["Home Street"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0147",
+    "records": ["garupa:147"],
+    "titles": ["ランブリングメモリー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0148",
+    "records": ["garupa:148", "garupa:466", "garupa:237"],
+    "titles": [
+      "キズナミュージック♪",
+      "キズナミュージック♪（3Dライブモード対応）",
+      "[FULL] キズナミュージック♪"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0149",
+    "records": ["garupa:149"],
+    "titles": ["BRAVE JEWEL"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0150",
+    "records": ["garupa:150"],
+    "titles": ["R·I·O·T"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0151",
+    "records": ["garupa:151"],
+    "titles": ["エクストラ・マジック・アワー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0152",
+    "records": ["garupa:152"],
+    "titles": ["ツキアカリのミチシルベ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0153",
+    "records": ["garupa:153"],
+    "titles": ["奏（かなで）"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0154",
+    "records": ["garupa:154"],
+    "titles": ["瞬間センチメンタル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0155",
+    "records": ["garupa:155"],
+    "titles": ["Wake up!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0156",
+    "records": ["garupa:156"],
+    "titles": ["名前のない怪物"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0157",
+    "records": ["garupa:157"],
+    "titles": ["回レ！雪月花"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0158",
+    "records": ["garupa:158"],
+    "titles": ["Q＆A　リサイタル！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0159",
+    "records": ["garupa:159"],
+    "titles": ["Safe and Sound"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0160",
+    "records": ["garupa:160"],
+    "titles": ["Jumpin'"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0161",
+    "records": ["garupa:161"],
+    "titles": ["ぎゅっDAYS♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0162",
+    "records": ["garupa:162"],
+    "titles": ["はれやか すこやか ぴかりんりん♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0163",
+    "records": ["garupa:163"],
+    "titles": ["らしさ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0164",
+    "records": ["garupa:164"],
+    "titles": ["夜行性ハイズ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0165",
+    "records": ["garupa:165"],
+    "titles": ["オトモダチフィルム"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0166",
+    "records": ["garupa:166"],
+    "titles": ["Ringing Bloom"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0167",
+    "records": ["garupa:167"],
+    "titles": ["Baby Sweet Berry Love"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0168",
+    "records": ["garupa:168"],
+    "titles": ["SAKURA MEMORIES"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0169",
+    "records": ["garupa:169"],
+    "titles": ["革命デュアリズム"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0170",
+    "records": ["garupa:170"],
+    "titles": ["檄！帝国華撃団"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0171",
+    "records": ["garupa:171"],
+    "titles": ["Returns"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0172",
+    "records": ["garupa:172"],
+    "titles": ["NO GIRL NO CRY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0173",
+    "records": ["garupa:173"],
+    "titles": ["Dreamers Go!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0174",
+    "records": ["garupa:174"],
+    "titles": ["StaRt"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0175",
+    "records": ["garupa:175", "garupa:212"],
+    "titles": ["ON YOUR MARK", "[FULL] ON YOUR MARK"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0176",
+    "records": ["garupa:176", "garupa:738", "garupa:218"],
+    "titles": [
+      "きゅ〜まい＊flower",
+      "きゅ〜まい＊flower(パラレルver.)",
+      "[FULL] きゅ〜まい＊flower"
+    ],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0177",
+    "records": ["garupa:177"],
+    "titles": ["いつも通りのBrand new days"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0178",
+    "records": ["garupa:178"],
+    "titles": ["緋色の空"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0179",
+    "records": ["garupa:179", "garupa:230"],
+    "titles": ["FIRE BIRD", "[FULL] FIRE BIRD"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0180",
+    "records": ["garupa:180", "garupa:223"],
+    "titles": ["えがお･シング･あ･ソング", "[FULL] えがお･シング･あ･ソング"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0181",
+    "records": ["garupa:181"],
+    "titles": ["Daydream café"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0182",
+    "records": ["garupa:182"],
+    "titles": ["ノーポイッ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0183",
+    "records": ["garupa:183"],
+    "titles": ["ときめきポポロン♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0184",
+    "records": ["garupa:184"],
+    "titles": ["ワクワクmeetsトリップ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0185",
+    "records": ["garupa:185"],
+    "titles": ["UNSTOPPABLE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0186",
+    "records": ["garupa:186"],
+    "titles": ["チェリボム"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0187",
+    "records": ["garupa:187"],
+    "titles": ["午夜の待ち合わせ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0188",
+    "records": ["garupa:188"],
+    "titles": ["にこ×にこ＝ハイパースマイルパワー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0189",
+    "records": ["garupa:189"],
+    "titles": ["春擬き"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0190",
+    "records": ["garupa:190"],
+    "titles": ["ディスカバリー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0191",
+    "records": ["garupa:191"],
+    "titles": ["約束"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0192",
+    "records": ["garupa:192"],
+    "titles": ["恋愛裁判"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0193",
+    "records": ["garupa:193"],
+    "titles": ["アニバーサリー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0194",
+    "records": ["garupa:194"],
+    "titles": ["青い栞"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0195",
+    "records": ["garupa:195"],
+    "titles": ["1/3の純情な感情"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0196",
+    "records": ["garupa:196"],
+    "titles": ["海色"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0197",
+    "records": ["garupa:197"],
+    "titles": ["上海ハニー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0198",
+    "records": ["garupa:198"],
+    "titles": ["Easy come, Easy go！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0199",
+    "records": ["garupa:199"],
+    "titles": ["ミュージック・アワー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0200",
+    "records": ["garupa:200"],
+    "titles": ["あっつあつ 常夏 らぶ☆サマー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0201",
+    "records": ["garupa:201"],
+    "titles": ["切ないSandglass"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0202",
+    "records": ["garupa:202"],
+    "titles": ["スマイルブーケで た〜まや〜！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0203",
+    "records": ["garupa:203"],
+    "titles": ["からくりピエロ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0204",
+    "records": ["garupa:204"],
+    "titles": ["“UNIONS” Road"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0205",
+    "records": ["garupa:206"],
+    "titles": ["アイのシナリオ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0206",
+    "records": ["garupa:207"],
+    "titles": ["ファティマ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0207",
+    "records": ["garupa:208", "garupa:799"],
+    "titles": ["Hello! Wink!", "Hello! Wink!（パラレルver.）"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0208",
+    "records": ["garupa:209"],
+    "titles": ["What's the POPIPA!?"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0209",
+    "records": ["garupa:210"],
+    "titles": ["コレカラ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0210",
+    "records": ["garupa:211"],
+    "titles": ["Sasanqua"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0211",
+    "records": ["garupa:213"],
+    "titles": ["激動"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0212",
+    "records": ["garupa:214"],
+    "titles": ["ブルーバード"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0213",
+    "records": ["garupa:215"],
+    "titles": ["ゆめゆめグラデーション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0214",
+    "records": ["garupa:216"],
+    "titles": ["Stay Alive"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0215",
+    "records": ["garupa:217"],
+    "titles": ["Paradisus-Paradoxum"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0216",
+    "records": ["garupa:219"],
+    "titles": ["おもいでイルミネーション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0217",
+    "records": ["garupa:220"],
+    "titles": ["全力少年"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0218",
+    "records": ["garupa:221"],
+    "titles": ["イニシャル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0219",
+    "records": ["garupa:222"],
+    "titles": ["White Afternoon"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0220",
+    "records": ["garupa:224"],
+    "titles": ["天ノ弱"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0221",
+    "records": ["garupa:225"],
+    "titles": ["創聖のアクエリオン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0222",
+    "records": ["garupa:226"],
+    "titles": ["GO!!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0223",
+    "records": ["garupa:227"],
+    "titles": ["花ハ踊レヤいろはにほ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0224",
+    "records": ["garupa:228"],
+    "titles": ["夢を撃ち抜く瞬間に！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0225",
+    "records": ["garupa:229"],
+    "titles": ["開けたらDream!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0226",
+    "records": ["garupa:231"],
+    "titles": ["甲賀忍法帖"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0227",
+    "records": ["garupa:232"],
+    "titles": ["Wonderful Sweet!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0228",
+    "records": ["garupa:233"],
+    "titles": ["Step×Step！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0229",
+    "records": ["garupa:234"],
+    "titles": ["Song I am."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0230",
+    "records": ["garupa:235"],
+    "titles": ["ドレミファロンド"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0231",
+    "records": ["garupa:236"],
+    "titles": ["TWiNKLE CiRCLE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0232",
+    "records": ["garupa:238"],
+    "titles": ["Break your desire"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0233",
+    "records": ["garupa:239"],
+    "titles": ["I love your way！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0234",
+    "records": ["garupa:240"],
+    "titles": ["インフェルノ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0235",
+    "records": ["garupa:241"],
+    "titles": ["Daylight -デイライト-"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0236",
+    "records": ["garupa:242"],
+    "titles": ["金色へのプレリュード"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0237",
+    "records": ["garupa:243"],
+    "titles": ["ロキ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0238",
+    "records": ["garupa:244"],
+    "titles": ["POP TEAM EPIC"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0239",
+    "records": ["garupa:245"],
+    "titles": ["メリッサ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0240",
+    "records": ["garupa:246"],
+    "titles": ["Bad Apple!! feat. nomico"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0241",
+    "records": ["garupa:247"],
+    "titles": ["chAngE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0242",
+    "records": ["garupa:248"],
+    "titles": ["群青日和"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0243",
+    "records": ["garupa:249"],
+    "titles": ["ルカルカ★ナイトフィーバー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0244",
+    "records": ["garupa:250"],
+    "titles": ["うぃーきゃん☆フレフレっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0245",
+    "records": ["garupa:251"],
+    "titles": ["ブルームブルーム"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0246",
+    "records": ["garupa:252"],
+    "titles": ["Winking☆Cheer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0247",
+    "records": ["garupa:253"],
+    "titles": ["ミライトレイン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0248",
+    "records": ["garupa:254"],
+    "titles": ["Avant-garde HISTORY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0249",
+    "records": ["garupa:255"],
+    "titles": ["A DECLARATION OF ×××"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0250",
+    "records": ["garupa:256"],
+    "titles": ["UNION"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0251",
+    "records": ["garupa:257"],
+    "titles": ["大盛り一丁！ガルパ☆ピコ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0252",
+    "records": ["garupa:258"],
+    "titles": ["秒針を噛む"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0253",
+    "records": ["garupa:259"],
+    "titles": ["RED RED RED"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0254",
+    "records": ["garupa:260", "garupa:639"],
+    "titles": ["Blessing Chord", "Blessing Chord(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0255",
+    "records": ["garupa:261"],
+    "titles": ["EXPOSE ‘Burn out!!!’"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0256",
+    "records": ["garupa:262"],
+    "titles": ["ヒトリノ夜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0257",
+    "records": ["garupa:263"],
+    "titles": ["ノスタルジックレインフォール"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0258",
+    "records": ["garupa:264"],
+    "titles": ["Breakthrough!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0259",
+    "records": ["garupa:265"],
+    "titles": ["final phase"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0260",
+    "records": ["garupa:266"],
+    "titles": ["LEVEL5 -judgelight-"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0261",
+    "records": ["garupa:267"],
+    "titles": ["カサブタ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0262",
+    "records": ["garupa:268", "garupa:690"],
+    "titles": ["flame of hope", "flame of hope(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0263",
+    "records": ["garupa:269"],
+    "titles": ["えがお、み～っけた！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0264",
+    "records": ["garupa:270"],
+    "titles": ["右肩の蝶"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0265",
+    "records": ["garupa:271"],
+    "titles": ["深海少女"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0266",
+    "records": ["garupa:272"],
+    "titles": ["劣等上等"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0267",
+    "records": ["garupa:273"],
+    "titles": ["I knew it!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0268",
+    "records": ["garupa:274"],
+    "titles": ["ウィーアー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0269",
+    "records": ["garupa:275"],
+    "titles": ["青と夏"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0270",
+    "records": ["garupa:276"],
+    "titles": ["Beautiful Birthday"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0271",
+    "records": ["garupa:277"],
+    "titles": ["!NVADE SHOW!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0272",
+    "records": ["garupa:278"],
+    "titles": ["恋しさと せつなさと 心強さと"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0273",
+    "records": ["garupa:279"],
+    "titles": ["Power of LOVE!!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0274",
+    "records": ["garupa:280"],
+    "titles": ["ZEAL of proud"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0275",
+    "records": ["garupa:281"],
+    "titles": ["セツナトリップ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0276",
+    "records": ["garupa:282"],
+    "titles": ["Nevereverland"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0277",
+    "records": ["garupa:283"],
+    "titles": ["ONE OF US"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0278",
+    "records": ["garupa:284"],
+    "titles": ["Photograph"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0279",
+    "records": ["garupa:285"],
+    "titles": ["DANCE! おジャ魔女"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0280",
+    "records": ["garupa:286"],
+    "titles": ["おジャ魔女カーニバル!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0281",
+    "records": ["garupa:287"],
+    "titles": ["Rolling star"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0282",
+    "records": ["garupa:288"],
+    "titles": ["ハーモニー・デイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0283",
+    "records": ["garupa:289"],
+    "titles": ["mind of Prominence"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0284",
+    "records": ["garupa:290"],
+    "titles": ["sister's noise"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0285",
+    "records": ["garupa:291"],
+    "titles": ["TITLE IDOL"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0286",
+    "records": ["garupa:292"],
+    "titles": ["好き！雪！本気マジック"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0287",
+    "records": ["garupa:293"],
+    "titles": ["ブリキノダンス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0288",
+    "records": ["garupa:294"],
+    "titles": ["SENSENFUKOKU"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0289",
+    "records": ["garupa:295"],
+    "titles": ["SAVIOR OF SONG"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0290",
+    "records": ["garupa:296"],
+    "titles": ["ムーンライト伝説"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0291",
+    "records": ["garupa:297"],
+    "titles": ["ドラマツルギー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0292",
+    "records": ["garupa:298"],
+    "titles": ["CQCQ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0293",
+    "records": ["garupa:299"],
+    "titles": ["Northern lights"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0294",
+    "records": ["garupa:300"],
+    "titles": ["Keep Heart"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0295",
+    "records": ["garupa:301"],
+    "titles": ["Sweets BAN!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0296",
+    "records": ["garupa:302"],
+    "titles": ["にこにこねくと！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0297",
+    "records": ["garupa:303"],
+    "titles": ["OUTSIDER RODEO"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0298",
+    "records": ["garupa:304"],
+    "titles": ["Make it!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0299",
+    "records": ["garupa:305"],
+    "titles": ["オレンジ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0300",
+    "records": ["garupa:306"],
+    "titles": ["イエスタデイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0301",
+    "records": ["garupa:307"],
+    "titles": ["夜に駆ける"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0302",
+    "records": ["garupa:308"],
+    "titles": ["サムライハート(Some Like It Hot!!)"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0303",
+    "records": ["garupa:309"],
+    "titles": ["SHINY DAYS"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0304",
+    "records": ["garupa:310"],
+    "titles": ["アゲハ蝶"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0305",
+    "records": ["garupa:311"],
+    "titles": ["DAYBREAK FRONTLINE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0306",
+    "records": ["garupa:312"],
+    "titles": ["Synchrogazer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0307",
+    "records": ["garupa:313"],
+    "titles": ["るんっ♪てぃてぃー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0308",
+    "records": ["garupa:314"],
+    "titles": ["EXIST"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0309",
+    "records": ["garupa:315"],
+    "titles": ["Live Beyond!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0310",
+    "records": ["garupa:316"],
+    "titles": ["Sonorous"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0311",
+    "records": ["garupa:317"],
+    "titles": ["Proud of oneself"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0312",
+    "records": ["garupa:318"],
+    "titles": ["V.I.P"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0313",
+    "records": ["garupa:319"],
+    "titles": ["Original Call"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0314",
+    "records": ["garupa:320"],
+    "titles": ["ハウトゥー世界征服"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0315",
+    "records": ["garupa:321"],
+    "titles": ["鳥の詩"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0316",
+    "records": ["garupa:322"],
+    "titles": ["CORE PRIDE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0317",
+    "records": ["garupa:323"],
+    "titles": ["Happy Girl"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0318",
+    "records": ["garupa:324"],
+    "titles": ["春〜spring〜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0319",
+    "records": ["garupa:325"],
+    "titles": ["ラムのラブソング"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0320",
+    "records": ["garupa:326"],
+    "titles": ["overtuRe"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0321",
+    "records": ["garupa:327"],
+    "titles": ["My Dearest"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0322",
+    "records": ["garupa:328"],
+    "titles": ["Domination to world"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0323",
+    "records": ["garupa:329"],
+    "titles": ["カナユメ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0324",
+    "records": ["garupa:330"],
+    "titles": ["ないすみちゅっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0325",
+    "records": ["garupa:331"],
+    "titles": ["大河よ共に泣いてくれ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0326",
+    "records": ["garupa:332"],
+    "titles": ["徒花ネクロマンシー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0327",
+    "records": ["garupa:333"],
+    "titles": ["Sing Alive"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0328",
+    "records": ["garupa:334"],
+    "titles": ["ヒューマノイド"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0329",
+    "records": ["garupa:335"],
+    "titles": ["ここから先は歌にならない"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0330",
+    "records": ["garupa:336"],
+    "titles": ["Singing “OURS”"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0331",
+    "records": ["garupa:337"],
+    "titles": ["Sprechchor"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0332",
+    "records": ["garupa:338"],
+    "titles": ["Secret Dawn"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0333",
+    "records": ["garupa:339", "garupa:761"],
+    "titles": ["灼熱 Bonfire!", "灼熱 Bonfire!(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0334",
+    "records": ["garupa:340"],
+    "titles": ["DAYS of DASH"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0335",
+    "records": ["garupa:341"],
+    "titles": ["絆色のアンサンブル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0336",
+    "records": ["garupa:342"],
+    "titles": ["COLORFUL BOX"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0337",
+    "records": ["garupa:343"],
+    "titles": ["夏に閉じこめて"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0338",
+    "records": ["garupa:344"],
+    "titles": ["ラスハピーポー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0339",
+    "records": ["garupa:345"],
+    "titles": ["Sacred world"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0340",
+    "records": ["garupa:346"],
+    "titles": ["Trouble Joyful!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0341",
+    "records": ["garupa:347"],
+    "titles": ["競宴Red×Violet"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0342",
+    "records": ["garupa:348"],
+    "titles": ["ン・パカマーチ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0343",
+    "records": ["garupa:349"],
+    "titles": ["HELL! or HELL?"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0344",
+    "records": ["garupa:350"],
+    "titles": ["KING"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0345",
+    "records": ["garupa:351"],
+    "titles": ["きらっ☆と キミフェス！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0346",
+    "records": ["garupa:352"],
+    "titles": ["TOMORROW"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0347",
+    "records": ["garupa:353"],
+    "titles": ["ピコたるもの、ふぃーばー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0348",
+    "records": ["garupa:354"],
+    "titles": ["fly with the night"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0349",
+    "records": ["garupa:355"],
+    "titles": ["Fateful..."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0350",
+    "records": ["garupa:356"],
+    "titles": ["ファンサ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0351",
+    "records": ["garupa:357"],
+    "titles": ["ぼなぺてぃーと♡Ｓ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0352",
+    "records": ["garupa:358"],
+    "titles": ["あの夢をなぞって"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0353",
+    "records": ["garupa:359"],
+    "titles": ["Embrace of light"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0354",
+    "records": ["garupa:360"],
+    "titles": ["ナカナ イナ カナイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0355",
+    "records": ["garupa:361"],
+    "titles": ["ベノム"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0356",
+    "records": ["garupa:362"],
+    "titles": ["パッパレ☆人生！バーン万歳！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0357",
+    "records": ["garupa:363"],
+    "titles": ["勇気Limit！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0358",
+    "records": ["garupa:364"],
+    "titles": ["Off we go."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0359",
+    "records": ["garupa:365"],
+    "titles": ["イントロダクション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0360",
+    "records": ["garupa:366"],
+    "titles": ["Our Carol"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0361",
+    "records": ["garupa:367"],
+    "titles": ["怪物"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0362",
+    "records": ["garupa:368"],
+    "titles": ["Keep the Heat and Fire Yourself Up"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0363",
+    "records": ["garupa:369"],
+    "titles": ["COLORS"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0364",
+    "records": ["garupa:370"],
+    "titles": ["SPARK-AGAIN"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0365",
+    "records": ["garupa:371"],
+    "titles": ["CORUSCATE -DNA-"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0366",
+    "records": ["garupa:372"],
+    "titles": ["DEPARTURES"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0367",
+    "records": ["garupa:373", "garupa:448"],
+    "titles": ["シル・ヴ・プレジデント", "シル・ヴ・プレジデント"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0368",
+    "records": ["garupa:374"],
+    "titles": ["ヒトリゴト"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0369",
+    "records": ["garupa:375"],
+    "titles": ["ぽっぴん'どりーむ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0370",
+    "records": ["garupa:376"],
+    "titles": ["グッバイ宣言"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0371",
+    "records": ["garupa:377"],
+    "titles": ["曇天"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0372",
+    "records": ["garupa:378"],
+    "titles": ["星の約束"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0373",
+    "records": ["garupa:379"],
+    "titles": ["ハッピー☆マテリアル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0374",
+    "records": ["garupa:380"],
+    "titles": ["現るっ！大怪盗ハロハッピー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0375",
+    "records": ["garupa:381"],
+    "titles": ["Listen!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0376",
+    "records": ["garupa:382"],
+    "titles": ["Just Awake"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0377",
+    "records": ["garupa:383"],
+    "titles": ["One step at a time"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0378",
+    "records": ["garupa:384"],
+    "titles": ["Repaint"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0379",
+    "records": ["garupa:385"],
+    "titles": ["CATASTROPHE BANQUET"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0380",
+    "records": ["garupa:386"],
+    "titles": ["月光花"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0381",
+    "records": ["garupa:387"],
+    "titles": ["閃光"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0382",
+    "records": ["garupa:388", "garupa:397"],
+    "titles": ["CiRCLE THANKS MUSiC♪", "[FULL] CiRCLE THANKS MUSiC♪"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0383",
+    "records": ["garupa:389"],
+    "titles": ["廻廻奇譚"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0384",
+    "records": ["garupa:390"],
+    "titles": ["春を告げる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0385",
+    "records": ["garupa:391"],
+    "titles": ["ヴァンパイア"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0386",
+    "records": ["garupa:392"],
+    "titles": ["メンタルチェンソー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0387",
+    "records": ["garupa:393", "ournotes:69"],
+    "titles": ["unravel", "unravel"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0388",
+    "records": ["garupa:394"],
+    "titles": ["DRIVE US CRAZY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0389",
+    "records": ["garupa:395"],
+    "titles": ["Realize"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0390",
+    "records": ["garupa:396"],
+    "titles": ["Brand new Pastel Road！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0391",
+    "records": ["garupa:398"],
+    "titles": ["Sparkling Daydream"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0392",
+    "records": ["garupa:399"],
+    "titles": ["脳漿炸裂ガール"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0393",
+    "records": ["garupa:400"],
+    "titles": ["くちづけDiamond"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0394",
+    "records": ["garupa:401"],
+    "titles": ["サクラゼンセン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0395",
+    "records": ["garupa:402"],
+    "titles": ["Freedom"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0396",
+    "records": ["garupa:403"],
+    "titles": ["THE HISTORIC..."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0397",
+    "records": ["garupa:404"],
+    "titles": ["Light a fire"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0398",
+    "records": ["garupa:405"],
+    "titles": ["青空のラプソディ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0399",
+    "records": ["garupa:406"],
+    "titles": ["秘密の扉から会いにきて"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0400",
+    "records": ["garupa:407"],
+    "titles": ["あこがれacross"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0401",
+    "records": ["garupa:408"],
+    "titles": ["おもいやりハーモニー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0402",
+    "records": ["garupa:409"],
+    "titles": ["トーキョーワンダー。"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0403",
+    "records": ["garupa:410"],
+    "titles": ["Cry Baby"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0404",
+    "records": ["garupa:411"],
+    "titles": ["ROZEN HORIZON"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0405",
+    "records": ["garupa:412"],
+    "titles": ["ハレハレ☆フォーチュン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0406",
+    "records": ["garupa:413"],
+    "titles": ["SWITCH ON NOW"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0407",
+    "records": ["garupa:414"],
+    "titles": ["SOUL SOLDIER"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0408",
+    "records": ["garupa:415"],
+    "titles": ["メギツネ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0409",
+    "records": ["garupa:416"],
+    "titles": ["ボクノート"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0410",
+    "records": ["garupa:417"],
+    "titles": ["Happy! Happier! Happiest!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0411",
+    "records": ["garupa:418"],
+    "titles": ["Preserved Roses"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0412",
+    "records": ["garupa:419"],
+    "titles": ["ヒャダインのじょーじょーゆーじょー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0413",
+    "records": ["garupa:420"],
+    "titles": ["大好き！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0414",
+    "records": ["garupa:421"],
+    "titles": ["Swear 〜Night & Day〜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0415",
+    "records": ["garupa:422"],
+    "titles": ["寄る辺のSunny, Sunny"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0416",
+    "records": ["garupa:423"],
+    "titles": ["カラフルリバティー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0417",
+    "records": ["garupa:424"],
+    "titles": ["ハナヒバナ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0418",
+    "records": ["garupa:425"],
+    "titles": ["STYX HELIX"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0419",
+    "records": ["garupa:426"],
+    "titles": ["Memento"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0420",
+    "records": ["garupa:427"],
+    "titles": ["THE WAY OF LIFE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0421",
+    "records": ["garupa:428"],
+    "titles": ["独創収差"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0422",
+    "records": ["garupa:429"],
+    "titles": ["うちゃパ！で ぱっぴかポーんっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0423",
+    "records": ["garupa:430"],
+    "titles": ["abnormalize"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0424",
+    "records": ["garupa:431"],
+    "titles": ["狂乱 Hey Kids!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0425",
+    "records": ["garupa:432"],
+    "titles": ["The Circle Of Butterflies"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0426",
+    "records": ["garupa:433"],
+    "titles": ["divine intervention"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0427",
+    "records": ["garupa:434"],
+    "titles": ["Moonlight Walk"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0428",
+    "records": ["garupa:435"],
+    "titles": ["Invincible Fighter"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0429",
+    "records": ["garupa:436"],
+    "titles": ["Takin’ my Heart"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0430",
+    "records": ["garupa:437"],
+    "titles": ["Punchline Halloween!!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0431",
+    "records": ["garupa:438"],
+    "titles": ["スカイクラッドの観測者"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0432",
+    "records": ["garupa:439"],
+    "titles": ["Future Place"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0433",
+    "records": ["garupa:440"],
+    "titles": ["Storyteller"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0434",
+    "records": ["garupa:441"],
+    "titles": ["Nameless Story"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0435",
+    "records": ["garupa:442"],
+    "titles": ["Dear Gleam"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0436",
+    "records": ["garupa:443"],
+    "titles": ["DEAD HEAT BEAT"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0437",
+    "records": ["garupa:444"],
+    "titles": ["ミックスナッツ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0438",
+    "records": ["garupa:445"],
+    "titles": ["VORACITY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0439",
+    "records": ["garupa:446"],
+    "titles": ["えがお、あーゆーれでぃ???"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0440",
+    "records": ["garupa:447"],
+    "titles": ["スターナイトスノウ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0441",
+    "records": ["garupa:449"],
+    "titles": ["もってけ！セーラーふく"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0442",
+    "records": ["garupa:450"],
+    "titles": ["乙女はサイコパス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0443",
+    "records": ["garupa:451"],
+    "titles": ["群青"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0444",
+    "records": ["garupa:452"],
+    "titles": ["フォニイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0445",
+    "records": ["garupa:453"],
+    "titles": ["閃光"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0446",
+    "records": ["garupa:454"],
+    "titles": ["転生林檎"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0447",
+    "records": ["garupa:455"],
+    "titles": ["Five Letters"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0448",
+    "records": ["garupa:456"],
+    "titles": ["IGNITE GLOW"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0449",
+    "records": ["garupa:457"],
+    "titles": ["Sweet Cheers!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0450",
+    "records": ["garupa:458"],
+    "titles": ["ようこそジャパリパークへ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0451",
+    "records": ["garupa:459"],
+    "titles": ["一逢のFull Glory"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0452",
+    "records": ["garupa:460"],
+    "titles": ["YELL"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0453",
+    "records": ["garupa:461"],
+    "titles": ["See you! 〜それぞれの明日へ〜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0454",
+    "records": ["garupa:462"],
+    "titles": ["RiNG A BELL"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0455",
+    "records": ["garupa:463"],
+    "titles": ["Glee! Glee! Glee!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0456",
+    "records": ["garupa:464"],
+    "titles": ["五等分の気持ち"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0457",
+    "records": ["garupa:465"],
+    "titles": ["新時代"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0458",
+    "records": ["garupa:467"],
+    "titles": ["命に嫌われている。"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0459",
+    "records": ["garupa:468"],
+    "titles": ["＊ ～アスタリスク～"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0460",
+    "records": ["garupa:469"],
+    "titles": ["ALIVE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0461",
+    "records": ["garupa:470"],
+    "titles": ["ダーリンダンス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0462",
+    "records": ["garupa:471"],
+    "titles": ["神っぽいな"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0463",
+    "records": ["garupa:472"],
+    "titles": ["Made My Day"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0464",
+    "records": ["garupa:473", "ournotes:1", "garupa:628"],
+    "titles": ["迷星叫", "迷星叫", "迷星叫(パラレルver.)"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0465",
+    "records": ["garupa:474"],
+    "titles": ["新しい季節に"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0466",
+    "records": ["garupa:475"],
+    "titles": ["花呼ぶ声"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0467",
+    "records": ["garupa:476"],
+    "titles": ["最強☆ソング"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0468",
+    "records": ["garupa:477"],
+    "titles": ["ヒロイン育成計画"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0469",
+    "records": ["garupa:478"],
+    "titles": ["少女レイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0470",
+    "records": ["garupa:479"],
+    "titles": ["チューリングラブ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0471",
+    "records": ["garupa:480"],
+    "titles": ["踊"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0472",
+    "records": ["garupa:481"],
+    "titles": ["アイウエ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0473",
+    "records": ["garupa:482"],
+    "titles": ["Call the shots"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0474",
+    "records": ["garupa:483"],
+    "titles": ["DANCING DARING"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0475",
+    "records": ["garupa:484"],
+    "titles": ["酔いどれ知らず"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0476",
+    "records": ["garupa:485"],
+    "titles": ["Angel's Ladder"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0477",
+    "records": ["garupa:486"],
+    "titles": ["惑星ループ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0478",
+    "records": ["garupa:487"],
+    "titles": ["キミを れっつ・はぶ・ふぁん♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0479",
+    "records": ["garupa:488"],
+    "titles": ["心絵"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0480",
+    "records": ["garupa:489", "ournotes:2"],
+    "titles": ["壱雫空", "壱雫空"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0481",
+    "records": ["garupa:490"],
+    "titles": ["栞"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0482",
+    "records": ["garupa:491"],
+    "titles": ["CHAINSAW BLOOD"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0483",
+    "records": ["garupa:492"],
+    "titles": ["ファイトソング"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0484",
+    "records": ["garupa:493"],
+    "titles": ["オドループ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0485",
+    "records": ["garupa:494"],
+    "titles": ["QUEEN"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0486",
+    "records": ["garupa:495"],
+    "titles": ["ペトリコール・オベーション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0487",
+    "records": ["garupa:496"],
+    "titles": ["極彩色"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0488",
+    "records": ["garupa:497", "ournotes:3"],
+    "titles": ["碧天伴走", "碧天伴走"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0489",
+    "records": ["garupa:498"],
+    "titles": ["Sunlit Musical"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0490",
+    "records": ["garupa:499"],
+    "titles": ["私色きらめき日和"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0491",
+    "records": ["garupa:500"],
+    "titles": ["Get Wild"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0492",
+    "records": ["garupa:501"],
+    "titles": ["愛のしるし"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0493",
+    "records": ["garupa:502"],
+    "titles": ["HOT LIMIT"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0494",
+    "records": ["garupa:503", "ournotes:8"],
+    "titles": ["詩超絆", "詩超絆"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0495",
+    "records": ["garupa:504"],
+    "titles": ["ボクらの夏's☆ショーたいむっ！！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0496",
+    "records": ["garupa:505"],
+    "titles": ["ふぁいぶスマイル◯オールインっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0497",
+    "records": ["garupa:506"],
+    "titles": ["ダンスホール"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0498",
+    "records": ["garupa:507"],
+    "titles": ["ほな！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0499",
+    "records": ["garupa:508"],
+    "titles": ["燦々"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0500",
+    "records": ["garupa:509"],
+    "titles": ["チルドレンレコード(Re:boot)"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0501",
+    "records": ["garupa:510", "ournotes:9"],
+    "titles": ["迷路日々", "迷路日々"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0502",
+    "records": ["garupa:511"],
+    "titles": ["祝福"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0503",
+    "records": ["garupa:512"],
+    "titles": ["可愛くてごめん"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0504",
+    "records": ["garupa:513"],
+    "titles": ["エゴロック"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0505",
+    "records": ["garupa:514"],
+    "titles": ["D-tecnoLife"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0506",
+    "records": ["garupa:515"],
+    "titles": ["サウダージ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0507",
+    "records": ["garupa:516"],
+    "titles": ["ヒバナ-Reloaded-"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0508",
+    "records": ["garupa:517"],
+    "titles": ["トウキョウ・シャンディ・ランデヴ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0509",
+    "records": ["garupa:518"],
+    "titles": ["音がえしのセレナーデ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0510",
+    "records": ["garupa:519"],
+    "titles": ["Be born"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0511",
+    "records": ["garupa:520", "ournotes:4"],
+    "titles": ["影色舞", "影色舞"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0512",
+    "records": ["garupa:521"],
+    "titles": ["猛独が襲う"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0513",
+    "records": ["garupa:522"],
+    "titles": ["歌いましょう鳴らしましょう"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0514",
+    "records": ["garupa:523"],
+    "titles": ["swim"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0515",
+    "records": ["garupa:524"],
+    "titles": ["THRONE OF ROSE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0516",
+    "records": ["garupa:525"],
+    "titles": ["everyday flower"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0517",
+    "records": ["garupa:526"],
+    "titles": ["ヴィラン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0518",
+    "records": ["garupa:527"],
+    "titles": ["Ever Sky Blue"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0519",
+    "records": ["garupa:528"],
+    "titles": ["BATTLE CRY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0520",
+    "records": ["garupa:529"],
+    "titles": ["裸の勇者"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0521",
+    "records": ["garupa:530"],
+    "titles": ["That's why I'm here"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0522",
+    "records": ["garupa:531"],
+    "titles": ["テレキャスタービーボーイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0523",
+    "records": ["garupa:532"],
+    "titles": ["青春 To Be Continued"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0524",
+    "records": ["garupa:533"],
+    "titles": ["-N-E-M-E-S-I-S-"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0525",
+    "records": ["garupa:534"],
+    "titles": ["聖少女領域"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0526",
+    "records": ["garupa:535"],
+    "titles": ["処救生"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0527",
+    "records": ["garupa:536"],
+    "titles": ["Chu Chueen!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0528",
+    "records": ["garupa:537"],
+    "titles": ["東京テディベア"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0529",
+    "records": ["garupa:538"],
+    "titles": ["Merry Merry Thanks!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0530",
+    "records": ["garupa:539"],
+    "titles": ["覚悟のLiberation"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0531",
+    "records": ["garupa:540"],
+    "titles": ["らいふ・いず・みゅーじかるっ♪♪♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0532",
+    "records": ["garupa:541"],
+    "titles": ["擬態ごっこ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0533",
+    "records": ["garupa:542", "ournotes:82"],
+    "titles": ["Stellar Stellar", "Stellar Stellar"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0534",
+    "records": ["garupa:543"],
+    "titles": ["粉雪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0535",
+    "records": ["garupa:544"],
+    "titles": ["強風オールバック"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0536",
+    "records": ["garupa:545"],
+    "titles": ["第ゼロ感"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0537",
+    "records": ["garupa:546"],
+    "titles": ["Overdose"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0538",
+    "records": ["garupa:547", "ournotes:22"],
+    "titles": ["ホワイトノイズ", "ホワイトノイズ"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0539",
+    "records": ["garupa:548"],
+    "titles": ["カオスが極まる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0540",
+    "records": ["garupa:549"],
+    "titles": ["slash"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0541",
+    "records": ["garupa:550"],
+    "titles": ["私は最強"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0542",
+    "records": ["garupa:551"],
+    "titles": ["魔法少女とチョコレゐト"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0543",
+    "records": ["garupa:552"],
+    "titles": ["グッド・バイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0544",
+    "records": ["garupa:553"],
+    "titles": ["Radiate Warriors"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0545",
+    "records": ["garupa:554"],
+    "titles": ["Ahoy!! 我ら宝鐘海賊団☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0546",
+    "records": ["garupa:555"],
+    "titles": ["Fleur"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0547",
+    "records": ["garupa:556"],
+    "titles": ["Lioness' Pride"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0548",
+    "records": ["garupa:557"],
+    "titles": ["A Sunset So Bright"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0549",
+    "records": ["garupa:558"],
+    "titles": ["どりーみんチュチュ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0550",
+    "records": ["garupa:559"],
+    "titles": ["ドラマチック！アライブ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0551",
+    "records": ["garupa:560"],
+    "titles": ["ReReReエボリューションず☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0552",
+    "records": ["garupa:561"],
+    "titles": ["Ray of hope"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0553",
+    "records": ["garupa:562"],
+    "titles": ["VIOLET LINE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0554",
+    "records": ["garupa:563"],
+    "titles": ["輪符雨"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0555",
+    "records": ["garupa:564"],
+    "titles": ["蒼穹へのトレイル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0556",
+    "records": ["garupa:565"],
+    "titles": ["Always recall."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0557",
+    "records": ["garupa:566"],
+    "titles": ["誓いのWingbeat"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0558",
+    "records": ["garupa:567"],
+    "titles": ["アイドル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0559",
+    "records": ["garupa:568", "ournotes:67"],
+    "titles": ["青のすみか", "青のすみか"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0560",
+    "records": ["garupa:569"],
+    "titles": ["乙女解剖"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0561",
+    "records": ["garupa:570"],
+    "titles": ["ノンブレス・オブリージュ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0562",
+    "records": ["garupa:571"],
+    "titles": ["きゅうくらりん"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0563",
+    "records": ["garupa:572"],
+    "titles": ["かくれんぼ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0564",
+    "records": ["garupa:573"],
+    "titles": ["ボッカデラベリタ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0565",
+    "records": ["garupa:574"],
+    "titles": ["怪獣の花唄"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0566",
+    "records": ["garupa:575"],
+    "titles": ["トレモロアイズ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0567",
+    "records": ["garupa:576"],
+    "titles": ["むすんでわらって"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0568",
+    "records": ["garupa:577"],
+    "titles": ["両翼のBrilliance"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0569",
+    "records": ["garupa:578"],
+    "titles": ["Life on the Lotus"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0570",
+    "records": ["garupa:579"],
+    "titles": ["「僕は...」"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0571",
+    "records": ["garupa:580"],
+    "titles": ["トリドリ＊パレット"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0572",
+    "records": ["garupa:581"],
+    "titles": ["メランコリックララバイ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0573",
+    "records": ["garupa:582"],
+    "titles": ["V.I.P MONSTER"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0574",
+    "records": ["garupa:583"],
+    "titles": ["サンバロハッピ〜！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0575",
+    "records": ["garupa:584"],
+    "titles": ["SOUVENIR"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0576",
+    "records": ["garupa:585"],
+    "titles": ["Floral Haven"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0577",
+    "records": ["garupa:586"],
+    "titles": ["逆光"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0578",
+    "records": ["garupa:587"],
+    "titles": ["フレっとパレットFight Song!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0579",
+    "records": ["garupa:588"],
+    "titles": ["Glowing After"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0580",
+    "records": ["garupa:589"],
+    "titles": ["Wreath of Brave"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0581",
+    "records": ["garupa:590"],
+    "titles": ["ギミー！レボリューション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0582",
+    "records": ["garupa:591"],
+    "titles": ["雨上がり、キミと"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0583",
+    "records": ["garupa:592"],
+    "titles": ["SOULSOUP"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0584",
+    "records": ["garupa:593"],
+    "titles": ["Sage der Rosen"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0585",
+    "records": ["garupa:594"],
+    "titles": ["ココ☆ナツ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0586",
+    "records": ["garupa:595"],
+    "titles": ["礎の花冠"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0587",
+    "records": ["garupa:596"],
+    "titles": ["Listen to Smile!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0588",
+    "records": ["garupa:597", "ournotes:11"],
+    "titles": ["名無声", "名無声"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0589",
+    "records": ["garupa:598"],
+    "titles": ["Surges"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0590",
+    "records": ["garupa:599"],
+    "titles": ["With〜きみとわたしたちの物語〜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0591",
+    "records": ["garupa:600"],
+    "titles": ["だから、ひとりじゃない"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0592",
+    "records": ["garupa:601"],
+    "titles": ["Start as Usual"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0593",
+    "records": ["garupa:602"],
+    "titles": ["Bad Kids All Bet"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0594",
+    "records": ["garupa:603", "ournotes:80"],
+    "titles": ["ちゅ、多様性。", "ちゅ、多様性。"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false,
+    "creditReview": {
+      "status": "resolved",
+      "basis": "confirmed-creator-ids",
+      "display": "record overrides retained"
+    }
+  },
+  {
+    "workId": "wk-0595",
+    "records": ["garupa:604"],
+    "titles": ["勇者"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0596",
+    "records": ["garupa:605"],
+    "titles": ["オトナブルー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0597",
+    "records": ["garupa:606"],
+    "titles": ["人マニア"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0598",
+    "records": ["garupa:607"],
+    "titles": ["クラクラ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0599",
+    "records": ["garupa:608"],
+    "titles": ["Bling-Bang-Bang-Born"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0600",
+    "records": ["garupa:609"],
+    "titles": ["カゲロウデイズ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0601",
+    "records": ["garupa:610"],
+    "titles": ["雑踏、僕らの街"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0602",
+    "records": ["garupa:611"],
+    "titles": ["花咲く未来に"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0603",
+    "records": ["garupa:612"],
+    "titles": ["輪舞-revolution"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0604",
+    "records": ["garupa:613"],
+    "titles": ["過惰幻"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0605",
+    "records": ["garupa:614"],
+    "titles": ["ティリカモニカリラ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0606",
+    "records": ["garupa:615"],
+    "titles": ["サインはB"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0607",
+    "records": ["garupa:616"],
+    "titles": ["FRONTIER FANTASIA"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0608",
+    "records": ["garupa:617", "ournotes:83"],
+    "titles": ["ファタール", "ファタール"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0609",
+    "records": ["garupa:618"],
+    "titles": ["すきっちゅーの！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0610",
+    "records": ["garupa:619"],
+    "titles": ["ハイタッチ／＼びりーばーず☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0611",
+    "records": ["garupa:620", "ournotes:12"],
+    "titles": ["歩拾道", "歩拾道"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0612",
+    "records": ["garupa:621"],
+    "titles": ["DOKI DOKI SCARY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0613",
+    "records": ["garupa:622"],
+    "titles": ["遥か彼方"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0614",
+    "records": ["garupa:623"],
+    "titles": ["ホワイト ノスタルジア"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0615",
+    "records": ["garupa:624"],
+    "titles": ["JUST THE WAY I AM"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0616",
+    "records": ["garupa:625"],
+    "titles": ["“Say cheese!!!!!”"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0617",
+    "records": ["garupa:626"],
+    "titles": ["VIVID FIRST TIME"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0618",
+    "records": ["garupa:627"],
+    "titles": ["Subtitle"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0619",
+    "records": ["garupa:629"],
+    "titles": ["TARINAI"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0620",
+    "records": ["garupa:630"],
+    "titles": ["愛包ダンスホール"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0621",
+    "records": ["garupa:631"],
+    "titles": ["WELCOME TO PANDEMONIUM"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0622",
+    "records": ["garupa:632"],
+    "titles": ["幾億光年"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0623",
+    "records": ["garupa:633"],
+    "titles": ["Tempest"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0624",
+    "records": ["garupa:634"],
+    "titles": ["シカ色デイズ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0625",
+    "records": ["garupa:635"],
+    "titles": ["悪魔の子"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0626",
+    "records": ["garupa:636", "ournotes:23"],
+    "titles": ["Ave Mujica", "Ave Mujica"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0627",
+    "records": ["garupa:637"],
+    "titles": ["マルカリアンチェイン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0628",
+    "records": ["garupa:638", "ournotes:24"],
+    "titles": ["KiLLKiSS", "KiLLKiSS"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0629",
+    "records": ["garupa:640"],
+    "titles": ["STEP by STEP UP↑↑↑↑"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0630",
+    "records": ["garupa:641"],
+    "titles": ["Georgette Me, Georgette You"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0631",
+    "records": ["garupa:642"],
+    "titles": ["Steer to Utopia"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0632",
+    "records": ["garupa:643"],
+    "titles": ["れっつ・スマイル・すとり〜みんぐっ♪"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0633",
+    "records": ["garupa:644"],
+    "titles": ["Grateful Melting"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0634",
+    "records": ["garupa:645"],
+    "titles": ["花笑みのデュオ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0635",
+    "records": ["garupa:646", "ournotes:79", "ournotes:7"],
+    "titles": ["春日影", "春日影", "春日影（MyGO!!!!! ver.）"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false,
+    "creditReview": {
+      "status": "resolved",
+      "basis": "confirmed-creator-ids",
+      "display": "record overrides retained"
+    }
+  },
+  {
+    "workId": "wk-0636",
+    "records": ["garupa:647", "ournotes:6"],
+    "titles": ["音一会", "音一会"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0637",
+    "records": ["garupa:648"],
+    "titles": ["とっておきAnswer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0638",
+    "records": ["garupa:649", "ournotes:25"],
+    "titles": ["Imprisoned XII", "Imprisoned XII"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0639",
+    "records": ["garupa:650", "ournotes:26"],
+    "titles": ["Crucifix X", "Crucifix X"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0640",
+    "records": ["garupa:651"],
+    "titles": ["HOWLING AMBITION"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0641",
+    "records": ["garupa:653"],
+    "titles": ["はいよろこんで"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0642",
+    "records": ["garupa:654"],
+    "titles": ["最上級にかわいいの！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0643",
+    "records": ["garupa:655"],
+    "titles": ["オレンジ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0644",
+    "records": ["garupa:656"],
+    "titles": ["again"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0645",
+    "records": ["garupa:657"],
+    "titles": ["Reweave"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0646",
+    "records": ["garupa:658"],
+    "titles": ["フィクション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0647",
+    "records": ["garupa:659"],
+    "titles": ["第六感"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0648",
+    "records": ["garupa:660"],
+    "titles": ["だれかの心臓になれたなら"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0649",
+    "records": ["garupa:662", "ournotes:27"],
+    "titles": ["八芒星ダンス", "八芒星ダンス"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0650",
+    "records": ["garupa:663", "ournotes:16"],
+    "titles": ["聿日箋秋", "聿日箋秋"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0651",
+    "records": ["garupa:664", "ournotes:15"],
+    "titles": ["焚音打", "焚音打"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0652",
+    "records": ["garupa:665"],
+    "titles": ["デイオフ・ラフ・ラブ・サンクス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0653",
+    "records": ["garupa:666", "ournotes:28"],
+    "titles": ["顔", "顔"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0654",
+    "records": ["garupa:667", "ournotes:29"],
+    "titles": ["天球(そら)のMúsica", "天球(そら)のMúsica"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0655",
+    "records": ["garupa:668"],
+    "titles": ["Second to None"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0656",
+    "records": ["garupa:669"],
+    "titles": ["やっほー！いっぽ！わんだふぉー！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0657",
+    "records": ["garupa:670"],
+    "titles": ["Polyphonyscape"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0658",
+    "records": ["garupa:671"],
+    "titles": ["ロケットサイダー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0659",
+    "records": ["garupa:672"],
+    "titles": ["REIGNING"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0660",
+    "records": ["garupa:674"],
+    "titles": ["Bunny Girl"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0661",
+    "records": ["garupa:675"],
+    "titles": ["Dazzle the Destiny"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0662",
+    "records": ["garupa:676"],
+    "titles": ["最高到達点"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0663",
+    "records": ["garupa:677", "ournotes:5"],
+    "titles": ["潜在表明", "潜在表明"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0664",
+    "records": ["garupa:678"],
+    "titles": ["雪華は無常に微笑む"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0665",
+    "records": ["garupa:679"],
+    "titles": ["Portray Empathy"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0666",
+    "records": ["garupa:680"],
+    "titles": ["Against the Light"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0667",
+    "records": ["garupa:681"],
+    "titles": ["Tomorrow’s Door"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0668",
+    "records": ["garupa:682"],
+    "titles": ["愛唄"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0669",
+    "records": ["garupa:683", "ournotes:35"],
+    "titles": ["黒のバースデイ", "黒のバースデイ"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0670",
+    "records": ["garupa:684"],
+    "titles": ["FIVE as ONE"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0671",
+    "records": ["garupa:685"],
+    "titles": ["Requiem for Fate"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0672",
+    "records": ["garupa:686"],
+    "titles": ["Feathered Dreams"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0673",
+    "records": ["garupa:687"],
+    "titles": ["つよがるガール feat. もっさ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0674",
+    "records": ["garupa:688"],
+    "titles": ["Shine ☆n My Life!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0675",
+    "records": ["garupa:691"],
+    "titles": ["Drive Your Heart"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0676",
+    "records": ["garupa:692"],
+    "titles": ["紫炎"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0677",
+    "records": ["garupa:693"],
+    "titles": ["Steadfast Spirits"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0678",
+    "records": ["garupa:694"],
+    "titles": ["残痕字"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0679",
+    "records": ["garupa:695"],
+    "titles": ["アイワナムチュー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0680",
+    "records": ["garupa:696"],
+    "titles": ["Color of Us"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0681",
+    "records": ["garupa:697", "ournotes:18"],
+    "titles": ["往欄印", "往欄印"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0682",
+    "records": ["garupa:698"],
+    "titles": ["スタ〜リング ☆じぶん☆"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0683",
+    "records": ["garupa:699"],
+    "titles": ["とーくとぅみー・とーくとぅゆー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0684",
+    "records": ["garupa:700"],
+    "titles": ["百花繚乱"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0685",
+    "records": ["garupa:701"],
+    "titles": ["スキ×すき×カラフリィ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0686",
+    "records": ["garupa:702"],
+    "titles": ["Resonant Strings"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0687",
+    "records": ["garupa:703"],
+    "titles": ["'FIGHT' ADDICT"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0688",
+    "records": ["garupa:704"],
+    "titles": ["季節は次々死んでいく"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0689",
+    "records": ["garupa:705"],
+    "titles": ["ビューティ・フォー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0690",
+    "records": ["garupa:706"],
+    "titles": ["オン・ザ・フロントライン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0691",
+    "records": ["garupa:707"],
+    "titles": ["BROKEN GAMES"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0692",
+    "records": ["garupa:708"],
+    "titles": ["恋愛サーキュレーション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0693",
+    "records": ["garupa:709"],
+    "titles": ["Fallen"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0694",
+    "records": ["garupa:710"],
+    "titles": ["怪獣"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0695",
+    "records": ["garupa:711"],
+    "titles": ["POP IN 2"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0696",
+    "records": ["garupa:712"],
+    "titles": ["エガクミライ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0697",
+    "records": ["garupa:713"],
+    "titles": ["Velonica"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0698",
+    "records": ["garupa:714"],
+    "titles": ["Feel so good!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0699",
+    "records": ["garupa:715", "ournotes:37"],
+    "titles": ["Mas?uerade Rhapsody Re?uest", "Mas?uerade Rhapsody Re?uest"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0700",
+    "records": ["garupa:716"],
+    "titles": ["Part of the Life"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0701",
+    "records": ["garupa:717"],
+    "titles": ["BIBIBABI BRAVER"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0702",
+    "records": ["garupa:718"],
+    "titles": ["元祖！バンドリちゃんのテーマ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0703",
+    "records": ["garupa:719"],
+    "titles": ["世界中の青空をあつめて"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0704",
+    "records": ["garupa:720"],
+    "titles": ["きみCharmin'"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0705",
+    "records": ["garupa:721"],
+    "titles": ["Sincerely"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0706",
+    "records": ["garupa:722"],
+    "titles": ["じょいふる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0707",
+    "records": ["garupa:723"],
+    "titles": ["♡桃色片想い♡"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0708",
+    "records": ["garupa:724"],
+    "titles": ["Fear Nothing"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0709",
+    "records": ["garupa:725"],
+    "titles": ["白い雪のプリンセスは"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0710",
+    "records": ["garupa:726"],
+    "titles": ["まぶしいねっ☆ そのえがお！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0711",
+    "records": ["garupa:727"],
+    "titles": ["恋人がサンタクロース"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0712",
+    "records": ["garupa:728"],
+    "titles": ["スマイリーキャロル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0713",
+    "records": ["garupa:729"],
+    "titles": ["ミラクルペイント"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0714",
+    "records": ["garupa:730"],
+    "titles": ["Singer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0715",
+    "records": ["garupa:731"],
+    "titles": ["手を叩け今ここで祈るだけ願うだけ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0716",
+    "records": ["garupa:732", "ournotes:13"],
+    "titles": ["端程山", "端程山"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0717",
+    "records": ["garupa:733"],
+    "titles": ["Drown Out the Noise and Push Through the Trash"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0718",
+    "records": ["garupa:734"],
+    "titles": ["I wonder"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0719",
+    "records": ["garupa:735"],
+    "titles": ["Same Blue"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0720",
+    "records": ["garupa:736"],
+    "titles": ["デビルじゃないもん"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0721",
+    "records": ["garupa:737", "ournotes:77"],
+    "titles": ["イケナイ太陽", "イケナイ太陽"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0722",
+    "records": ["garupa:741"],
+    "titles": ["マツケンサンバII"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0723",
+    "records": ["garupa:742"],
+    "titles": ["Shining Leaves"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0724",
+    "records": ["garupa:743"],
+    "titles": ["START!! True dreams"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0725",
+    "records": ["garupa:744"],
+    "titles": ["RUNAWAY STAR"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0726",
+    "records": ["garupa:745"],
+    "titles": ["Choco Typhooooon!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0727",
+    "records": ["garupa:746"],
+    "titles": ["どきどきデエト"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0728",
+    "records": ["garupa:747"],
+    "titles": ["Wonder Night Land"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0729",
+    "records": ["garupa:748"],
+    "titles": ["Talk to My Tone"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0730",
+    "records": ["garupa:749"],
+    "titles": ["Thanks to you."],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0731",
+    "records": ["garupa:750"],
+    "titles": ["かぽーんっと極楽☆ 湯〜とぴあ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0732",
+    "records": ["garupa:751"],
+    "titles": ["MATSURI BAYASHI"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0733",
+    "records": ["garupa:752"],
+    "titles": ["メロウ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0734",
+    "records": ["garupa:753"],
+    "titles": ["DAY×DAY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0735",
+    "records": ["garupa:754", "ournotes:78"],
+    "titles": ["革命道中", "革命道中"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0736",
+    "records": ["garupa:755"],
+    "titles": ["HONEY"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0737",
+    "records": ["garupa:756"],
+    "titles": ["金曜日のおはよう"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0738",
+    "records": ["garupa:757"],
+    "titles": ["許婚っきゅん"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0739",
+    "records": ["garupa:758"],
+    "titles": ["過去を喰らう"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0740",
+    "records": ["garupa:759"],
+    "titles": ["Game Changer"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0741",
+    "records": ["garupa:762"],
+    "titles": ["Painting New Dawn"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0742",
+    "records": ["garupa:764"],
+    "titles": ["ヒカリへ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0743",
+    "records": ["garupa:765"],
+    "titles": ["証は赫く"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0744",
+    "records": ["garupa:766"],
+    "titles": ["絶対零度"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0745",
+    "records": ["garupa:767"],
+    "titles": ["舞台に立って"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0746",
+    "records": ["garupa:768"],
+    "titles": ["XV"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0747",
+    "records": ["garupa:769"],
+    "titles": ["超最強"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0748",
+    "records": ["garupa:770"],
+    "titles": ["ランデヴー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0749",
+    "records": ["garupa:771", "ournotes:10"],
+    "titles": ["無路矢", "無路矢"],
+    "basis": "既存明示相互リンク。タイトル一致は判定に使用しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0750",
+    "records": ["garupa:772"],
+    "titles": ["ココロのちず"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0751",
+    "records": ["garupa:773"],
+    "titles": ["胡蝶翔る星月夜"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0752",
+    "records": ["garupa:774"],
+    "titles": ["WHAT AN EXPLOSION"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0753",
+    "records": ["garupa:775"],
+    "titles": ["Come to see YOU!!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0754",
+    "records": ["garupa:776"],
+    "titles": ["ほれぼれっ☆すまいるゴール！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0755",
+    "records": ["garupa:777"],
+    "titles": ["Amore"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0756",
+    "records": ["garupa:778"],
+    "titles": ["who we aRe"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0757",
+    "records": ["garupa:779"],
+    "titles": ["Wings of the Lights"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0758",
+    "records": ["garupa:780"],
+    "titles": ["スターラブレイション"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0759",
+    "records": ["garupa:781"],
+    "titles": ["夕影と歌う この先も"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0760",
+    "records": ["garupa:782"],
+    "titles": ["Rainbow of Dreams"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0761",
+    "records": ["garupa:783"],
+    "titles": ["ポニーテールとシュシュ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0762",
+    "records": ["garupa:784"],
+    "titles": ["I AM WHO I AM"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0763",
+    "records": ["garupa:785"],
+    "titles": ["SUMMER SONG"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0764",
+    "records": ["garupa:786"],
+    "titles": ["好き・スキ・だいすき〜ズっ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0765",
+    "records": ["garupa:788"],
+    "titles": ["Resound the Way"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0766",
+    "records": ["garupa:789"],
+    "titles": ["この蒼き闇と光"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0767",
+    "records": ["garupa:790"],
+    "titles": ["勇侠青春謳"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0768",
+    "records": ["garupa:791"],
+    "titles": ["盛れ！ミ・アモーレ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0769",
+    "records": ["garupa:792"],
+    "titles": ["オー！リバル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0770",
+    "records": ["garupa:793"],
+    "titles": ["浪漫飛行"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0771",
+    "records": ["garupa:794"],
+    "titles": ["千の翼"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0772",
+    "records": ["garupa:795"],
+    "titles": ["けっかおーらい"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0773",
+    "records": ["garupa:796"],
+    "titles": ["悲しみなんて笑い飛ばせ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0774",
+    "records": ["garupa:797"],
+    "titles": ["ライムライト"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0775",
+    "records": ["garupa:798"],
+    "titles": ["炎と森のカーニバル"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0776",
+    "records": ["ournotes:14"],
+    "titles": ["砂寸奏"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0777",
+    "records": ["ournotes:17"],
+    "titles": ["証命讃歌"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0778",
+    "records": ["ournotes:19"],
+    "titles": ["ないものねだり"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0779",
+    "records": ["ournotes:21"],
+    "titles": ["青春コンプレックス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0780",
+    "records": ["ournotes:30"],
+    "titles": ["Symbol I : △"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0781",
+    "records": ["ournotes:31"],
+    "titles": ["Symbol II : Air"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0782",
+    "records": ["ournotes:32"],
+    "titles": ["Symbol III : ▽"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0783",
+    "records": ["ournotes:33"],
+    "titles": ["Symbol IV : Earth"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0784",
+    "records": ["ournotes:34"],
+    "titles": ["Ether"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0785",
+    "records": ["ournotes:36"],
+    "titles": ["Choir ‘S’ Choir"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0786",
+    "records": ["ournotes:38"],
+    "titles": ["碧い瞳の中に"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0787",
+    "records": ["ournotes:39"],
+    "titles": ["The Whole Blue World"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0788",
+    "records": ["ournotes:41"],
+    "titles": ["堕天"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0789",
+    "records": ["ournotes:42"],
+    "titles": ["暗黒天国"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0790",
+    "records": ["ournotes:43"],
+    "titles": ["KINGS"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0791",
+    "records": ["ournotes:44"],
+    "titles": ["✞animaるパーティ✞開催中✞"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0792",
+    "records": ["ournotes:45"],
+    "titles": ["エンプティパペット"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0793",
+    "records": ["ournotes:46"],
+    "titles": ["限界現実サバイブ天使"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0794",
+    "records": ["ournotes:47"],
+    "titles": ["ビッグマウス"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0795",
+    "records": ["ournotes:48"],
+    "titles": ["夢現妄想世界"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0796",
+    "records": ["ournotes:49"],
+    "titles": ["コハク"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0797",
+    "records": ["ournotes:52"],
+    "titles": ["真夜中遊園地"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0798",
+    "records": ["ournotes:50"],
+    "titles": ["これはぼくたちの生存のあらすじ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0799",
+    "records": ["ournotes:51"],
+    "titles": ["うちゅうのふしぎ"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0800",
+    "records": ["ournotes:53"],
+    "titles": ["チューニング"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0801",
+    "records": ["ournotes:54"],
+    "titles": ["超惑星Xへの旅"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0802",
+    "records": ["ournotes:55"],
+    "titles": ["TearJerker"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0803",
+    "records": ["ournotes:56"],
+    "titles": ["Face The Next"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0804",
+    "records": ["ournotes:57"],
+    "titles": ["in my words"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0805",
+    "records": ["ournotes:58"],
+    "titles": ["愛は衝動"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0806",
+    "records": ["ournotes:60"],
+    "titles": ["唱"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0807",
+    "records": ["ournotes:61"],
+    "titles": ["オリオンをなぞる"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0808",
+    "records": ["ournotes:62"],
+    "titles": ["UNDEAD"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0809",
+    "records": ["ournotes:63"],
+    "titles": ["起死開戦"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0810",
+    "records": ["ournotes:64"],
+    "titles": ["everscape"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0811",
+    "records": ["ournotes:65"],
+    "titles": ["鳴らす"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0812",
+    "records": ["ournotes:66"],
+    "titles": ["カーネーションの咲く日に"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0813",
+    "records": ["ournotes:68"],
+    "titles": ["Pretender"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0814",
+    "records": ["ournotes:70"],
+    "titles": ["ロウワー"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0815",
+    "records": ["ournotes:71"],
+    "titles": ["ホーミー・タイッ！！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0816",
+    "records": ["ournotes:72"],
+    "titles": ["ジャイアント・キラー・チューン"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0817",
+    "records": ["ournotes:73"],
+    "titles": ["ピースフル・ピーシーズ！"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0818",
+    "records": ["ournotes:74"],
+    "titles": ["Keep on Riddim"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0819",
+    "records": ["ournotes:75"],
+    "titles": ["Mela!"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0820",
+    "records": ["ournotes:76"],
+    "titles": ["サムライハート(Some Like It Hot!!)"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0821",
+    "records": ["ournotes:81"],
+    "titles": ["空に歌えば"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0822",
+    "records": ["ournotes:84"],
+    "titles": ["微笑みの爆弾"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  },
+  {
+    "workId": "wk-0823",
+    "records": ["ournotes:85"],
+    "titles": ["夢我夢中"],
+    "basis": "既存リンクなしの独立レコード。推測統合しない。",
+    "reviewRequired": false
+  }
+]

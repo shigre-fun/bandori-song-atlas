@@ -1,4 +1,5 @@
 // ブラウザーの管理画面とビルドで共用する入力規則。
+import { validateCreditStructure } from "./credit-structure.js";
 export const difficultyNames = ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"];
 export const ournotesSongTypes = ["紅赤", "紺碧", "翡翠", "山吹", "紫苑"];
 export const gekisouKinds = ["COMBO", "LUCK", "JUST"];
@@ -46,12 +47,21 @@ export function validateSong(song, game = "garupa") {
     (!Number.isSafeInteger(song.releaseOrder) || song.releaseOrder < 0)
   )
     fail("同時配信の順序は0以上の整数にしてください。");
-  for (const key of ["composer", "originalArtist", "originalWork"]) {
+  for (const key of [
+    "composer",
+    "originalArtist",
+    "originalWork",
+    ...["lyricist", "arranger"].filter((key) => Object.hasOwn(song, key)),
+  ]) {
     if (
       song[key] !== null &&
       (typeof song[key] !== "string" || song[key].length > 2000)
     )
       fail(`${key}は2000文字以内の文字列かnullです。`);
+  }
+  if (song.workId !== undefined || song.credits !== undefined) {
+    if (!/^wk-[0-9]{4,}$/.test(song.workId ?? "")) fail("workIdが不正です。");
+    validateCreditStructure(song);
   }
   if (
     !Array.isArray(song.aliases) ||

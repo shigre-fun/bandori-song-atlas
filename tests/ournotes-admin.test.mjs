@@ -14,6 +14,14 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
       fs.readFileSync(GAMES.garupa.dataFile, "utf8"),
     ),
   };
+  // このfixtureはCreator DB導入前のGitHub保存互換性を検証する。
+  for (const file of [game.dataFile, GAMES.garupa.dataFile])
+    for (const group of files[file].groups)
+      for (const song of group.songs) {
+        delete song.workId;
+        delete song.credits;
+        delete song.creditDisplay;
+      }
   const originalCount = listGarupaSongs(files[game.dataFile], game.id).length;
   const nextId = files[game.stateFile].nextId;
   const existingGarupaLinks = [

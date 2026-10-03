@@ -7,6 +7,7 @@ import {
 } from "./urls.js";
 import { GAMES } from "./site-config.js";
 import { creditParts } from "./credits.js";
+import { creditTokens, ROLE_LABELS } from "./credit-display.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import {
   typeNames,
@@ -80,12 +81,11 @@ export function renderCrossSearch(
   const pages = Math.max(1, Math.ceil(rows.length / 50));
   const page = searchPage(params, pages);
   const pageURL = (number) => e(crossSearchURL(q, number, base, credit));
-  const description =
-    credit === "composer"
-      ? `「${e(q)}」が作曲に関わった楽曲（共同作曲を含む）`
-      : credit === "artist"
-        ? `「${e(q)}」が原曲アーティストの楽曲（共演を含む）`
-        : `「${e(q)}」に一致する楽曲`;
+  const description = Object.hasOwn(ROLE_LABELS, credit)
+    ? `「${e(q)}」が${ROLE_LABELS[credit]}に関わった楽曲（共同制作を含む）`
+    : credit === "artist"
+      ? `「${e(q)}」が原曲アーティストの楽曲（共演を含む）`
+      : `「${e(q)}」に一致する楽曲`;
   const intro = `<section class="intro"><div><h2>検索結果</h2><p>${description}</p></div><div class="count">${rows.length}<small>件</small></div></section>`;
   if (!rows.length)
     return `${intro}<div class="panel empty"><h2>一致する楽曲はありません</h2><p>短い曲名や作品名で試してください。</p>${gameLinks}</div>`;
@@ -258,12 +258,26 @@ export function renderDetail(
   game = GAMES.garupa,
   related = [],
 ) {
+  const normalizedCredit = (role) => {
+    if (!s.creditDisplay || !data.creators) return creditLinks(s[role], role);
+    return (
+      creditTokens(s, role, data.creators)
+        .map((p) =>
+          p.creator
+            ? `<a class="credit-link" href="${e(siteURL(`creators/${p.creator.slug}/`, base))}">${e(p.text)}</a>`
+            : p.unresolved
+              ? creditLinks(p.text, role)
+              : e(p.text),
+        )
+        .join("") || "未確認"
+    );
+  };
   const creditLinks = (value, field) =>
     value
       ? creditParts(value)
           .map((part) =>
             part.name
-              ? `<a class="credit-link" href="${e(crossSearchURL(part.text.trim(), 1, base, field))}" aria-label="${e(`${part.text.trim()}の${field === "composer" ? "作曲に関わった" : "原曲アーティストの"}楽曲一覧`)}">${e(part.text)}</a>`
+              ? `<a class="credit-link" href="${e(crossSearchURL(part.text.trim(), 1, base, field))}" aria-label="${e(`${part.text.trim()}の${ROLE_LABELS[field] ? `${ROLE_LABELS[field]}に関わった` : "原曲アーティストの"}楽曲一覧`)}">${e(part.text)}</a>`
               : e(part.text),
           )
           .join("")
@@ -317,7 +331,7 @@ ${
 }
 ${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd>${e(s.band)}</dd>` : ""}
 <dt>${s.type === "normal" ? "作曲" : "原曲の作曲者"}</dt>
-<dd>${creditLinks(s.composer, "composer")}</dd>${
+<dd>${normalizedCredit("composer")}</dd><dt>作詞</dt><dd>${normalizedCredit("lyricist")}</dd><dt>編曲</dt><dd>${normalizedCredit("arranger")}</dd>${
     s.type === "normal"
       ? game.id === "garupa"
         ? `<dt>3Dライブ</dt>

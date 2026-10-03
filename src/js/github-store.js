@@ -1,6 +1,15 @@
 import { validateSong } from "./song-schema.js";
 import { GAMES } from "./site-config.js";
 import {
+  CREATORS_PATH,
+  WORKS_PATH,
+  CREDIT_ROLES,
+  validateCreators,
+  validateWorks,
+  validateCreatorDatabase,
+  creditText,
+} from "./creators-data.js";
+import {
   addGarupaSong,
   findGarupaSong,
   listGarupaSongs,
@@ -198,7 +207,14 @@ export class GitHubStore {
     if (!/^[a-zA-Z0-9-]{16,80}$/.test(submissionId))
       throw new Error("送信識別子が不正です。画面を再読み込みしてください。");
     // 入力不備はGitHubへの書き込み前に検出する。
-    validateSong({ ...input, id: 1 }, this.game.id);
+    validateSong(
+      {
+        ...input,
+        id: 1,
+        ...(input.credits && !input.workId ? { workId: "wk-0000" } : {}),
+      },
+      this.game.id,
+    );
     const snapshot = await this.snapshot();
     const data = await this.readJSON(snapshot, this.songsPath);
     const songs = listGarupaSongs(data, this.game.id);
@@ -223,9 +239,20 @@ export class GitHubStore {
       state.nextId >= Number.MAX_SAFE_INTEGER
     )
       throw new Error("管理用の番号データが不正です。");
-    const song = { ...input, id: state.nextId, submissionId };
+    const normalized = await this.prepareCreatorSong(snapshot, {
+      ...input,
+      id: state.nextId,
+      submissionId,
+    });
+    const song = normalized.song;
     addGarupaSong(data, song, this.game.id);
     const relatedEntries = await this.syncRelatedSongs(snapshot, data, song);
+    const creatorEntries = await this.validateCreatorSave(
+      snapshot,
+      data,
+      normalized,
+      relatedEntries,
+    );
     const nextState = {
       nextId: state.nextId + 1,
       updatedAt: new Date().toISOString(),
@@ -246,6 +273,7 @@ export class GitHubStore {
           content: JSON.stringify(nextState, null, 2) + "\n",
         },
         ...relatedEntries,
+        ...creatorEntries,
       ],
     });
     const commit = await this.request("/git/commits", "POST", {
@@ -284,7 +312,13 @@ export class GitHubStore {
 
   songOptions(data, targetGame) {
     return listGarupaSongs(data, targetGame.id, { validate: false })
-      .map(({ id, title, reading, band }) => ({ id, title, reading, band }))
+      .map(({ id, title, reading, band, workId }) => ({
+        id,
+        title,
+        reading,
+        band,
+        workId,
+      }))
       .sort((a, b) => a.id - b.id);
   }
 
@@ -335,7 +369,14 @@ export class GitHubStore {
         "読み込んだ楽曲と保存先が異なります。元の保存先に接続してください。",
       );
     const { id } = editing;
-    validateSong({ ...input, id }, this.game.id);
+    validateSong(
+      {
+        ...input,
+        id,
+        ...(input.credits && !input.workId ? { workId: "wk-0000" } : {}),
+      },
+      this.game.id,
+    );
     const snapshot = await this.snapshot();
     const data = await this.readJSON(snapshot, this.songsPath);
     listGarupaSongs(data, this.game.id);
@@ -358,18 +399,29 @@ export class GitHubStore {
       throw new Error(
         "この曲は読み込み後に変更されています。入力を控えてから、最新の曲を読み直して修正してください。上書きは行っていません。",
       );
-    const song = {
-      ...current,
-      ...input,
-      id,
-      revision: operationId,
-    };
+    const normalized = await this.prepareCreatorSong(
+      snapshot,
+      {
+        ...current,
+        ...input,
+        id,
+        revision: operationId,
+      },
+      current,
+    );
+    const song = normalized.song;
     updateGarupaSong(data, song, this.game.id);
     const relatedEntries = await this.syncRelatedSongs(
       snapshot,
       data,
       song,
       current.relatedSongIds ?? [],
+    );
+    const creatorEntries = await this.validateCreatorSave(
+      snapshot,
+      data,
+      normalized,
+      relatedEntries,
     );
     const state = await this.readJSON(snapshot, this.statePath);
     const tree = await this.request("/git/trees", "POST", {
@@ -393,6 +445,7 @@ export class GitHubStore {
             ) + "\n",
         },
         ...relatedEntries,
+        ...creatorEntries,
       ],
     });
     const commit = await this.request("/git/commits", "POST", {
@@ -417,5 +470,105 @@ export class GitHubStore {
       },
       alreadySaved: false,
     };
+  }
+
+  async loadCreatorOptions() {
+    const snapshot = await this.snapshot();
+    return {
+      creators: validateCreators(await this.readJSON(snapshot, CREATORS_PATH))
+        .creators,
+      works: validateWorks(await this.readJSON(snapshot, WORKS_PATH)).works,
+    };
+  }
+  async prepareCreatorSong(snapshot, song, previous = null) {
+    if (!snapshot.entries.some((e) => e.path === CREATORS_PATH)) {
+      if (song.credits !== undefined)
+        throw new Error("Creator DB対応版を保存先へ配置してください。");
+      return { song };
+    }
+    const creators = validateCreators(
+      await this.readJSON(snapshot, CREATORS_PATH),
+    );
+    const works = validateWorks(await this.readJSON(snapshot, WORKS_PATH));
+    if (!Array.isArray(song.credits) || !song.creditDisplay)
+      throw new Error("作詞・作曲・編曲は登録済みCreatorを選択してください。");
+    for (const role of CREDIT_ROLES) {
+      const parts = song.creditDisplay[role] ?? [];
+      if (previous?.creditDisplay?.[role]?.some((p) => p.unresolved)) {
+        if (
+          JSON.stringify(parts) !==
+            JSON.stringify(previous.creditDisplay[role]) ||
+          JSON.stringify(
+            song.credits
+              .filter((c) => c.roles.includes(role))
+              .map((c) => [c.creatorId, c.displayOverride ?? ""])
+              .sort(),
+          ) !==
+            JSON.stringify(
+              previous.credits
+                .filter((c) => c.roles.includes(role))
+                .map((c) => [c.creatorId, c.displayOverride ?? ""])
+                .sort(),
+            )
+        )
+          throw new Error(
+            "確認待ちクレジットはmigrationで解決してください。既存表記を保持します。",
+          );
+      } else if (
+        parts.some(
+          (p) =>
+            p.unresolved ||
+            (!p.creatorId && !/^[、\s,／/・&＆;；×]*$/u.test(p.text ?? "")),
+        )
+      )
+        throw new Error(
+          "自由文字列ではなく登録済みCreatorを選択してください。",
+        );
+      song[role] = creditText(song, role, creators.creators) || null;
+    }
+    let newWork = false;
+    if (!song.workId) {
+      song.workId = `wk-${String(works.nextId++).padStart(4, "0")}`;
+      works.works.push({
+        id: song.workId,
+        title: song.title,
+        source: "admin-explicit-new",
+      });
+      newWork = true;
+    }
+    if (!works.works.some((w) => w.id === song.workId))
+      throw new Error("登録済みWorkを選択してください。");
+    return { song, creators, works, newWork };
+  }
+  async validateCreatorSave(snapshot, data, normalized, relatedEntries) {
+    if (!normalized.creators) return [];
+    const documents = { [this.game.id]: data };
+    for (const g of Object.values(GAMES))
+      if (g.id !== this.game.id) {
+        const changed = relatedEntries.find((e) => e.path === g.dataFile);
+        documents[g.id] = changed
+          ? JSON.parse(changed.content)
+          : await this.readJSON(snapshot, g.dataFile);
+      }
+    validateCreatorDatabase(
+      normalized.creators,
+      normalized.works,
+      Object.values(GAMES).flatMap((g) =>
+        listGarupaSongs(documents[g.id], g.id).map((s) => ({
+          ...s,
+          gameId: g.id,
+        })),
+      ),
+    );
+    return normalized.newWork
+      ? [
+          {
+            path: WORKS_PATH,
+            mode: "100644",
+            type: "blob",
+            content: JSON.stringify(normalized.works, null, 2) + "\n",
+          },
+        ]
+      : [];
   }
 }

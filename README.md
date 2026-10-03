@@ -1,5 +1,15 @@
 # バンドリ楽曲録
 
+作詞・作曲・編曲の[Creator DBとWork仕様](docs/CREATORS.md)を追加しました。`/creators/` で参加作品を探し、`/admin/creators/` で確認済み主体を登録します。人物同定は段階migrationで進め、未確認表記を推測統合しません。
+
+作詞・編曲はデータセット全体の未整備を明示します。[第2フェーズ検証報告](docs/CREATOR_PHASE2_REPORT.md)と[同定候補レビュー](docs/migrations/creators-2026-10-02/creator-review.md)に確認済みの範囲と残件を記録しています。
+
+第3フェーズは公式・一次情報で確認したcomposerを89主体まで登録しています。[調査根拠](docs/migrations/creators-2026-10-02/creator-research.json)にCONFIRMED/PROBABLE/UNRESOLVEDと旧表記・対象曲の対応を保存しています。[第3フェーズ報告](docs/CREATOR_PHASE3_REPORT.md)に上位30件・カバレッジ・検証・公開前の確認事項を記録しました。保留主体を登録せず、既存の曲表示は維持します。
+
+人間レビュー反映後は91主体です。標準名・alias・slugを更新し、旧Creator URLの履歴と転送を追加しました。[人間レビュー反映報告](docs/CREATOR_HUMAN_REVIEW_REPORT.md)と[GEN / ARM / TAKE / yasu / KATSUの対象曲](docs/migrations/creators-2026-10-02/short-name-review.md)を確認してください。5主体の同定は据え置き、JACK / Louisは未同定のままです。
+
+ユーザー確認済みの最後の5slugを採用し、ID型slugは0件になりました。固定ID・読み・楽曲・Workを維持し、旧slug履歴18件、Cloudflare転送36規則、静的互換18ページを生成しています。[最終slug検証報告と公開判断](docs/CREATOR_FINAL_SLUG_REPORT.md)を参照してください。commit・push・本番公開は未実施です。
+
 ガルパとアワーノーツの楽曲情報を手動で編集し、静的なウェブサイトを生成するプロジェクトです。アワーノーツには、公式発表でリリース時の実装が確認できた78曲を登録しています。
 収録データはゲーム等で確認しながら修正してください。
 
@@ -7,7 +17,7 @@
 
 SEOとOGPの設計は[構成資料](docs/ARCHITECTURE.md)、Cloudflare Pagesでのビルドは[公開手順](docs/DEPLOYMENT.md)を参照してください。
 
-楽曲詳細の作曲者・原曲アーティスト名をクリックすると、その名前の役割に該当する曲を両ゲームから一覧表示します。複数名の共同作曲・共演は各名前から検索でき、単独・共同の両方を含みます。所属の括弧書きや空白・全角半角の違いは同じ名前として扱い、結果のページ切り替えと詳細からの戻り先にも検索条件を引き継ぎます。
+正規化済みの作詞・作曲・編曲者名はCreatorページへ移動します。未同定クレジット・原曲アーティストは従来の横断検索へ移動し、名前別の検索と詳細からの戻り先にも条件を引き継ぎます。検索時の表記差吸収は人物のID同定や自動統合には使用しません。
 
 一般利用者向けの `/contact/` は匿名で送信でき、返信希望時だけメールアドレスを入力します。送信はCloudflare Pages Functions、Turnstile、Resendで処理します。公開前の外部サービス・環境変数設定とローカル検証は[お問い合わせの設定・運用](docs/CONTACT.md)を参照してください。
 

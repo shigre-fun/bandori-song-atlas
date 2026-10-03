@@ -49,7 +49,26 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0464",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 2,
@@ -93,7 +112,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0480",
+          "credits": [
+            {
+              "creatorId": "cr-0018",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "hisakuni(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0018"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 3,
@@ -137,7 +175,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0488",
+          "credits": [
+            {
+              "creatorId": "cr-0015",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "木下龍平(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0015"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 4,
@@ -181,7 +238,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0511",
+          "credits": [
+            {
+              "creatorId": "cr-0015",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "木下龍平(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0015"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 5,
@@ -225,7 +301,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0663",
+          "credits": [
+            {
+              "creatorId": "cr-0046",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "鈴木裕明(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0046"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 6,
@@ -239,24 +334,24 @@
           "bpm": 200,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 120,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": null
+              "notes": 422
             },
             "NORMAL": {
               "level": 13,
-              "notes": null
+              "notes": 569
             },
             "HARD": {
               "level": 18,
-              "notes": null
+              "notes": 831
             },
             "EXPERT": {
               "level": 25,
-              "notes": null
+              "notes": 1207
             }
           },
           "mv": true,
@@ -265,10 +360,22 @@
           ],
           "songType": "翡翠",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "JUST",
+            "JUST",
+            "JUST"
+          ],
+          "workId": "wk-0636",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "尾崎豪(SUPA LOVE)",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 7,
@@ -313,7 +420,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0635",
+          "credits": [
+            {
+              "creatorId": "cr-0004",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "藤田淳平(Elements Garden)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0004"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 8,
@@ -357,7 +483,19 @@
             "LUCK",
             "LUCK"
           ],
-          "revision": "4ac26858-4d89-401b-bbfa-5bf2f2c8e95e"
+          "revision": "4ac26858-4d89-401b-bbfa-5bf2f2c8e95e",
+          "workId": "wk-0494",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "横地健太(SUPA LOVE)",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 9,
@@ -371,7 +509,7 @@
           "bpm": 260,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 136,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -400,7 +538,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0501",
+          "credits": [
+            {
+              "creatorId": "cr-0014",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "松坂康司(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0014"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 10,
@@ -414,7 +571,7 @@
           "bpm": 120,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 93,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -443,7 +600,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0749",
+          "credits": [
+            {
+              "creatorId": "cr-0089",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "庄司夏葵(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0089"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 11,
@@ -486,7 +662,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0588",
+          "credits": [
+            {
+              "creatorId": "cr-0045",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "金崎真士(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0045"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 12,
@@ -529,7 +724,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0611",
+          "credits": [
+            {
+              "creatorId": "cr-0089",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "庄司夏葵(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0089"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 13,
@@ -572,7 +786,26 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0716",
+          "credits": [
+            {
+              "creatorId": "cr-0016",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "トミタカズキ(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0016"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 14,
@@ -603,7 +836,7 @@
             },
             "EXPERT": {
               "level": 24,
-              "notes": 724
+              "notes": 725
             }
           },
           "mv": true,
@@ -612,7 +845,14 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0776",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [],
+            "arranger": []
+          }
         },
         {
           "id": 15,
@@ -643,7 +883,7 @@
             },
             "EXPERT": {
               "level": 29,
-              "notes": 1776
+              "notes": 1777
             }
           },
           "mv": true,
@@ -655,7 +895,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0651",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 16,
@@ -698,7 +957,26 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0650",
+          "credits": [
+            {
+              "creatorId": "cr-0016",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "トミタカズキ(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0016"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 17,
@@ -738,7 +1016,19 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0777",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "田邊駿一",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 18,
@@ -781,7 +1071,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0681",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -827,7 +1136,19 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0778",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "谷口鮪",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 20,
@@ -858,7 +1179,7 @@
             },
             "EXPERT": {
               "level": 21,
-              "notes": 572
+              "notes": 573
             }
           },
           "relatedSongIds": [
@@ -869,7 +1190,19 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0128",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "バルーン",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 21,
@@ -908,7 +1241,19 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0779",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "音羽-otoha-",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 22,
@@ -950,7 +1295,26 @@
             "COMBO",
             "LUCK",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0538",
+          "credits": [
+            {
+              "creatorId": "cr-0024",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "藤原 聡"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0024"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 81,
@@ -992,7 +1356,25 @@
             "COMBO",
             "LUCK",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0821",
+          "credits": [
+            {
+              "creatorId": "cr-0076",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0076"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -1042,7 +1424,26 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0626",
+          "credits": [
+            {
+              "creatorId": "cr-0001",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "上松範康（Elements Garden）"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0001"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 24,
@@ -1073,7 +1474,7 @@
             },
             "EXPERT": {
               "level": 28,
-              "notes": 748
+              "notes": 749
             }
           },
           "mv": true,
@@ -1085,7 +1486,38 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0628",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 25,
@@ -1128,7 +1560,38 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0638",
+          "credits": [
+            {
+              "creatorId": "cr-0014",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "松坂康司(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0014"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 26,
@@ -1171,7 +1634,32 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0639",
+          "credits": [
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "o-saka(SUPA LOVE)",
+                "unresolved": true
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 27,
@@ -1214,7 +1702,38 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0649",
+          "credits": [
+            {
+              "creatorId": "cr-0017",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "あらケン(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0017"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 28,
@@ -1257,7 +1776,38 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0653",
+          "credits": [
+            {
+              "creatorId": "cr-0015",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "木下龍平(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0015"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 29,
@@ -1288,7 +1838,7 @@
             },
             "EXPERT": {
               "level": 25,
-              "notes": 1228
+              "notes": 1229
             }
           },
           "mv": true,
@@ -1300,7 +1850,38 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0654",
+          "credits": [
+            {
+              "creatorId": "cr-0038",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "高橋涼(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0038"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 30,
@@ -1340,7 +1921,38 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0780",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 31,
@@ -1380,7 +1992,26 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0781",
+          "credits": [
+            {
+              "creatorId": "cr-0038",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "高橋涼(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0038"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 32,
@@ -1420,7 +2051,38 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0782",
+          "credits": [
+            {
+              "creatorId": "cr-0016",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "トミタカズキ(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0016"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 33,
@@ -1460,7 +2122,14 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0783",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [],
+            "arranger": []
+          }
         },
         {
           "id": 34,
@@ -1479,28 +2148,59 @@
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": null
+              "notes": 306
             },
             "NORMAL": {
               "level": 11,
-              "notes": null
+              "notes": 486
             },
             "HARD": {
               "level": 18,
-              "notes": null
+              "notes": 664
             },
             "EXPERT": {
               "level": 26,
-              "notes": null
+              "notes": 1020
             }
           },
           "mv": true,
           "songType": "紫苑",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "LUCK",
+            "COMBO",
+            "JUST"
+          ],
+          "workId": "wk-0784",
+          "credits": [
+            {
+              "creatorId": "cr-0013",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "長谷川大介(SUPA LOVE)"
+            },
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0013"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 35,
@@ -1543,7 +2243,26 @@
             "COMBO",
             "LUCK",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0669",
+          "credits": [
+            {
+              "creatorId": "cr-0044",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "賀佐泰洋(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0044"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 36,
@@ -1583,7 +2302,19 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0785",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "角本麻衣(SUPA LOVE)",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 37,
@@ -1626,7 +2357,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0699",
+          "credits": [
+            {
+              "creatorId": "cr-0017",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "あらケン(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0017"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 38,
@@ -1657,7 +2407,7 @@
             },
             "EXPERT": {
               "level": 21,
-              "notes": 496
+              "notes": 497
             }
           },
           "mv": false,
@@ -1666,7 +2416,38 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0786",
+          "credits": [
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0014",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "松坂康司(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0022"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0014"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 39,
@@ -1706,7 +2487,32 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0787",
+          "credits": [
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0022"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "text": "植木建象",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -1755,7 +2561,19 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0086",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "佐藤英敏",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 41,
@@ -1794,7 +2612,19 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0788",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "DJ松永",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 42,
@@ -1833,7 +2663,25 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0789",
+          "credits": [
+            {
+              "creatorId": "cr-0048",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0048"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 43,
@@ -1864,7 +2712,7 @@
             },
             "EXPERT": {
               "level": 24,
-              "notes": 848
+              "notes": 849
             }
           },
           "songType": "山吹",
@@ -1872,7 +2720,37 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0790",
+          "credits": [
+            {
+              "creatorId": "cr-0078",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0079",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0078"
+              },
+              {
+                "text": "/"
+              },
+              {
+                "creatorId": "cr-0079"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 83,
@@ -1895,28 +2773,46 @@
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": null
+              "notes": 216
             },
             "NORMAL": {
               "level": 13,
-              "notes": null
+              "notes": 336
             },
             "HARD": {
               "level": 17,
-              "notes": null
+              "notes": 536
             },
             "EXPERT": {
               "level": 25,
-              "notes": null
+              "notes": 613
             }
           },
           "submissionId": "f29a08c2-f1a0-4535-9e5f-0e318acf3be9",
           "songType": "紅赤",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ],
+          "workId": "wk-0608",
+          "credits": [
+            {
+              "creatorId": "cr-0063",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0063"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -1963,7 +2859,25 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0791",
+          "credits": [
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0028"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 45,
@@ -2003,7 +2917,19 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0792",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "eba",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 46,
@@ -2043,7 +2969,19 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0793",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "凍堂遊維",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 47,
@@ -2083,7 +3021,37 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0794",
+          "credits": [
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0074",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0028"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0074"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 48,
@@ -2114,7 +3082,7 @@
             },
             "EXPERT": {
               "level": 26,
-              "notes": 832
+              "notes": 833
             }
           },
           "mv": true,
@@ -2123,7 +3091,19 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0795",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "園田健太郎",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 49,
@@ -2163,14 +3143,32 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0796",
+          "credits": [
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0028"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
-          "id": 50,
+          "id": 52,
           "title": "真夜中遊園地",
           "reading": "マヨナカユウエンチ",
           "releaseDate": "2026-09-24T00:00:00+09:00",
-          "releaseOrder": 50,
+          "releaseOrder": 52,
           "composer": "哥丸雄貴",
           "originalArtist": null,
           "originalWork": null,
@@ -2182,35 +3180,47 @@
           "difficulties": {
             "EASY": {
               "level": 9,
-              "notes": null
+              "notes": 240
             },
             "NORMAL": {
               "level": 14,
-              "notes": null
+              "notes": 452
             },
             "HARD": {
               "level": 21,
-              "notes": null
+              "notes": 566
             },
             "EXPERT": {
               "level": 26,
-              "notes": null
+              "notes": 754
             }
           },
           "mv": true,
           "songType": "紫苑",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ],
+          "workId": "wk-0797",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "哥丸雄貴",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
-          "id": 51,
+          "id": 50,
           "title": "これはぼくたちの生存のあらすじ",
           "reading": "コレハボクタチノセイゾンノアラスジ",
           "releaseDate": "2026-09-24T00:00:00+09:00",
-          "releaseOrder": 51,
+          "releaseOrder": 50,
           "composer": "田淵智也",
           "originalArtist": null,
           "originalWork": null,
@@ -2243,14 +3253,32 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0798",
+          "credits": [
+            {
+              "creatorId": "cr-0027",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0027"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
-          "id": 52,
+          "id": 51,
           "title": "うちゅうのふしぎ",
           "reading": "ウチュウノフシギ",
           "releaseDate": "2026-09-24T00:00:00+09:00",
-          "releaseOrder": 52,
+          "releaseOrder": 51,
           "composer": "sabio",
           "originalArtist": null,
           "originalWork": null,
@@ -2274,7 +3302,7 @@
             },
             "EXPERT": {
               "level": 22,
-              "notes": 480
+              "notes": 481
             }
           },
           "mv": true,
@@ -2283,7 +3311,25 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0799",
+          "credits": [
+            {
+              "creatorId": "cr-0071",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0071"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 53,
@@ -2323,7 +3369,32 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0800",
+          "credits": [
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "千石ユノ",
+                "unresolved": true
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0028"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 54,
@@ -2363,7 +3434,37 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0801",
+          "credits": [
+            {
+              "creatorId": "cr-0031",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0031"
+              },
+              {
+                "text": "・"
+              },
+              {
+                "creatorId": "cr-0028"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 55,
@@ -2394,7 +3495,7 @@
             },
             "EXPERT": {
               "level": 25,
-              "notes": 812
+              "notes": 813
             }
           },
           "mv": true,
@@ -2403,7 +3504,25 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0802",
+          "credits": [
+            {
+              "creatorId": "cr-0071",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0071"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 56,
@@ -2443,7 +3562,32 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0803",
+          "credits": [
+            {
+              "creatorId": "cr-0074",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0074"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "text": "千石ユノ",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 57,
@@ -2483,7 +3627,25 @@
             "COMBO",
             "LUCK",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0804",
+          "credits": [
+            {
+              "creatorId": "cr-0074",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0074"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 58,
@@ -2523,7 +3685,25 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0805",
+          "credits": [
+            {
+              "creatorId": "cr-0071",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0071"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 85,
@@ -2565,7 +3745,19 @@
               "notes": 759
             }
           },
-          "submissionId": "2473504b-67c6-41f6-b122-09fd090b6cb1"
+          "submissionId": "2473504b-67c6-41f6-b122-09fd090b6cb1",
+          "workId": "wk-0823",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "ケンモチヒデフミ",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -2614,7 +3806,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0116",
+          "credits": [
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "Kemu"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0028"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 60,
@@ -2653,7 +3864,39 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0806",
+          "credits": [
+            {
+              "creatorId": "cr-0034",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "Giga "
+            },
+            {
+              "creatorId": "cr-0031",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": " TeddyLoid"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0034"
+              },
+              {
+                "text": "＆"
+              },
+              {
+                "creatorId": "cr-0031"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 61,
@@ -2692,7 +3935,25 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0807",
+          "credits": [
+            {
+              "creatorId": "cr-0027",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0027"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 62,
@@ -2731,7 +3992,25 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0808",
+          "credits": [
+            {
+              "creatorId": "cr-0023",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0023"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 80,
@@ -2776,7 +4055,25 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0594",
+          "credits": [
+            {
+              "creatorId": "cr-0003",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0003"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -2823,7 +4120,25 @@
             "LUCK",
             "COMBO",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0809",
+          "credits": [
+            {
+              "creatorId": "cr-0033",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0033"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 65,
@@ -2863,7 +4178,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0811",
+          "credits": [
+            {
+              "creatorId": "cr-0090",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "瀬名水紀(Dream Monster)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0090"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 66,
@@ -2882,28 +4216,54 @@
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": null
+              "notes": 300
             },
             "NORMAL": {
               "level": 14,
-              "notes": null
+              "notes": 632
             },
             "HARD": {
               "level": 20,
-              "notes": null
+              "notes": 719
             },
             "EXPERT": {
               "level": 26,
-              "notes": null
+              "notes": 878
             }
           },
           "mv": false,
           "songType": "紅赤",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "LUCK",
+            "JUST",
+            "COMBO"
+          ],
+          "workId": "wk-0812",
+          "credits": [
+            {
+              "creatorId": "cr-0090",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "瀬名水紀(Dream Monster)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0090"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "text": "Aira",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 64,
@@ -2943,7 +4303,38 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0810",
+          "credits": [
+            {
+              "creatorId": "cr-0033",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0090",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "瀬名水紀(Dream Monster)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0033"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0090"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -2992,7 +4383,25 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0559",
+          "credits": [
+            {
+              "creatorId": "cr-0063",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0063"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 68,
@@ -3031,7 +4440,25 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0813",
+          "credits": [
+            {
+              "creatorId": "cr-0024",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0024"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 69,
@@ -3073,7 +4500,25 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0387",
+          "credits": [
+            {
+              "creatorId": "cr-0065",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0065"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 70,
@@ -3112,7 +4557,19 @@
             "JUST",
             "LUCK",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0814",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "ぬゆり",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 82,
@@ -3156,7 +4613,19 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0533",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "TAKU INOUE",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -3203,7 +4672,25 @@
             "COMBO",
             "JUST",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0815",
+          "credits": [
+            {
+              "creatorId": "cr-0033",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0033"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 73,
@@ -3243,7 +4730,25 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0817",
+          "credits": [
+            {
+              "creatorId": "cr-0033",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0033"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 74,
@@ -3262,28 +4767,47 @@
           "difficulties": {
             "EASY": {
               "level": 9,
-              "notes": null
+              "notes": 411
             },
             "NORMAL": {
               "level": 14,
-              "notes": null
+              "notes": 672
             },
             "HARD": {
               "level": 22,
-              "notes": null
+              "notes": 912
             },
             "EXPERT": {
               "level": 27,
-              "notes": null
+              "notes": 1061
             }
           },
           "mv": false,
           "songType": "紅赤",
           "gekisouSections": [
-            null,
-            null,
-            null
-          ]
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ],
+          "workId": "wk-0818",
+          "credits": [
+            {
+              "creatorId": "cr-0090",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "瀬名水紀(Dream Monster)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0090"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 72,
@@ -3314,7 +4838,7 @@
             },
             "EXPERT": {
               "level": 23,
-              "notes": 656
+              "notes": 657
             }
           },
           "mv": false,
@@ -3323,7 +4847,25 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0816",
+          "credits": [
+            {
+              "creatorId": "cr-0033",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0033"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -3369,7 +4911,26 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0819",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "peppe",
+                "unresolved": true
+              },
+              {
+                "text": "／"
+              },
+              {
+                "text": "穴見真吾",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 76,
@@ -3408,7 +4969,25 @@
             "COMBO",
             "COMBO",
             "COMBO"
-          ]
+          ],
+          "workId": "wk-0820",
+          "credits": [
+            {
+              "creatorId": "cr-0067",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0067"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 77,
@@ -3439,7 +5018,7 @@
             },
             "EXPERT": {
               "level": 21,
-              "notes": 708
+              "notes": 709
             }
           },
           "relatedSongIds": [
@@ -3450,7 +5029,25 @@
             "LUCK",
             "LUCK",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0721",
+          "credits": [
+            {
+              "creatorId": "cr-0058",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0058"
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 78,
@@ -3492,7 +5089,26 @@
             "JUST",
             "JUST",
             "JUST"
-          ]
+          ],
+          "workId": "wk-0735",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "アイナ・ジ・エンド",
+                "unresolved": true
+              },
+              {
+                "text": "、"
+              },
+              {
+                "text": "Shin Sakiura",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         },
         {
           "id": 84,
@@ -3506,9 +5122,9 @@
           "mv": null,
           "songType": "紫苑",
           "gekisouSections": [
-            null,
-            null,
-            null
+            "JUST",
+            "JUST",
+            "JUST"
           ],
           "relatedSongIds": [],
           "bpm": 128,
@@ -3519,22 +5135,34 @@
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": null
+              "notes": 242
             },
             "NORMAL": {
               "level": 12,
-              "notes": null
+              "notes": 322
             },
             "HARD": {
               "level": 17,
-              "notes": null
+              "notes": 520
             },
             "EXPERT": {
               "level": 24,
-              "notes": null
+              "notes": 701
             }
           },
-          "submissionId": "126940b2-f1be-42f5-a46e-bdcf0a8c0e5c"
+          "submissionId": "126940b2-f1be-42f5-a46e-bdcf0a8c0e5c",
+          "workId": "wk-0822",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "馬渡松子",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },
@@ -3585,7 +5213,26 @@
             "JUST",
             "COMBO",
             "LUCK"
-          ]
+          ],
+          "workId": "wk-0635",
+          "credits": [
+            {
+              "creatorId": "cr-0004",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "藤田淳平（Elements Garden）"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "creatorId": "cr-0004"
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     }

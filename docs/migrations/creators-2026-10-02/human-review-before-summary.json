@@ -1,0 +1,30 @@
+{
+  "creditStrings": 342,
+  "autoResolvedStrings": 124,
+  "reviewRecommendedStrings": 24,
+  "unresolvedStrings": 194,
+  "remainingUnidentifiedStrings": 218,
+  "candidateGroups": 321,
+  "groupCounts": {
+    "A": 0,
+    "B": 29,
+    "C": 44,
+    "D": 248
+  },
+  "candidateStatuses": {
+    "AUTO_RESOLVED": 88,
+    "REVIEW_RECOMMENDED": 22,
+    "UNRESOLVED": 211
+  },
+  "research": {
+    "webResearchedSubjects": 91,
+    "baselineGroupsInvestigated": 93,
+    "statuses": {
+      "CONFIRMED": 87,
+      "PROBABLE": 2,
+      "UNRESOLVED": 2
+    },
+    "primarySourceUrls": 93,
+    "uninvestigatedAtLeastThreeRecords": []
+  }
+}
