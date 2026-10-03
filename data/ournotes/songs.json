@@ -688,7 +688,7 @@
           "id": 12,
           "title": "歩拾道",
           "reading": "スヒート",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 12,
           "composer": "庄司夏葵(SUPA LOVE)",
           "originalArtist": null,
@@ -696,7 +696,7 @@
           "bpm": 130,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 110,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -744,7 +744,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "6ebb9330-1b0a-49ad-9bca-06daad599084"
         },
         {
           "id": 13,
