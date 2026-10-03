@@ -1378,6 +1378,50 @@
             ],
             "arranger": []
           }
+        },
+        {
+          "id": 86,
+          "title": "過去を喰らう",
+          "reading": "カコヲクラウ",
+          "releaseDate": "2026-10-03T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "カンザキイオリ",
+          "originalArtist": "花譜",
+          "originalWork": null,
+          "mv": null,
+          "songType": "紫苑",
+          "gekisouSections": [
+            "COMBO",
+            "COMBO",
+            "COMBO"
+          ],
+          "relatedSongIds": [
+            "garupa:758"
+          ],
+          "bpm": 187,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": 126,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 323
+            },
+            "NORMAL": {
+              "level": 13,
+              "notes": 664
+            },
+            "HARD": {
+              "level": 19,
+              "notes": 917
+            },
+            "EXPERT": {
+              "level": 25,
+              "notes": 1144
+            }
+          },
+          "submissionId": "93f5e586-b01e-4a54-97eb-2c9816ade56d"
         }
       ]
     },
