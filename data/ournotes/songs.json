@@ -1260,7 +1260,7 @@
           "id": 22,
           "title": "ホワイトノイズ",
           "reading": "ホワイトノイス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 22,
           "composer": "藤原 聡",
           "originalArtist": "Official髭男dism",
@@ -1285,7 +1285,7 @@
             },
             "EXPERT": {
               "level": 24,
-              "notes": 768
+              "notes": 769
             }
           },
           "relatedSongIds": [
@@ -1315,7 +1315,9 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "mv": null,
+          "revision": "deffbeba-73bb-4009-8c3f-eaef71ca696e"
         },
         {
           "id": 81,
