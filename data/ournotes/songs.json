@@ -814,7 +814,7 @@
           "id": 14,
           "title": "砂寸奏",
           "reading": "サスライ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 14,
           "composer": null,
           "originalArtist": null,
@@ -822,16 +822,16 @@
           "bpm": 182,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 108,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 6,
-              "notes": 208
+              "notes": 209
             },
             "NORMAL": {
               "level": 13,
-              "notes": 322
+              "notes": 323
             },
             "HARD": {
               "level": 20,
@@ -855,7 +855,9 @@
             "lyricist": [],
             "composer": [],
             "arranger": []
-          }
+          },
+          "relatedSongIds": [],
+          "revision": "e24017c5-96d6-419b-8fc7-f29c8ea98e59"
         },
         {
           "id": 15,
