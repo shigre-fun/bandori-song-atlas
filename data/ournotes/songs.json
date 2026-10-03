@@ -625,7 +625,7 @@
           "id": 11,
           "title": "名無声",
           "reading": "ナモナキ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 11,
           "composer": "金崎真士(SUPA LOVE)",
           "originalArtist": null,
@@ -633,7 +633,7 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 111,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -642,7 +642,7 @@
             },
             "NORMAL": {
               "level": 10,
-              "notes": 568
+              "notes": 569
             },
             "HARD": {
               "level": 20,
@@ -681,7 +681,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "8abc736c-8a50-4657-81bb-51fe8a920b64"
         },
         {
           "id": 12,
