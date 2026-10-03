@@ -926,7 +926,7 @@
           "id": 16,
           "title": "聿日箋秋",
           "reading": "イチジツセンシュウ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 16,
           "composer": "トミタカズキ(SUPA LOVE)",
           "originalArtist": null,
@@ -934,7 +934,7 @@
           "bpm": 182,
           "bpmMin": 167,
           "bpmMax": 197,
-          "durationSeconds": null,
+          "durationSeconds": 92,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -982,7 +982,8 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "revision": "bfaa442b-e1a7-4716-9535-22f5f27a0438"
         },
         {
           "id": 17,
