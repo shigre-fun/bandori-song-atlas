@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-03T15:58:20.302Z",
+  "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+  "authenticated": true,
+  "runs": [
+    {
+      "id": 37134688084,
+      "name": "Publish song database",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084"
+    }
+  ],
+  "checks": [
+    {
+      "id": 111237161614,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084/job/111237161614",
+      "output": null
+    },
+    {
+      "id": 111237045026,
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/7eb06eab-e3f7-4e80-92db-feb8fbe80a7c",
+      "output": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>769bbed</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>🚫&nbsp; Build failed.</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/7eb06eab-e3f7-4e80-92db-feb8fbe80a7c)\n"
+    },
+    {
+      "id": 111236708330,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084/job/111236708330",
+      "output": null
+    }
+  ],
+  "status": {
+    "state": "pending",
+    "statuses": []
+  },
+  "deployments": [
+    {
+      "id": 6829735661,
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "environment": "github-pages",
+      "statuses_url": "https://api.github.com/repos/shigre-fun/bandori-song-atlas/deployments/6829735661/statuses"
+    }
+  ],
+  "diagnosis": {
+    "githubAnnotations": 0,
+    "cloudflareLogRead": "authentication required; browser login page",
+    "productionNotTested": true,
+    "rootCause": "Cloudflare Build command bypasses the pnpm test historical regression runner and applies historical expectations to current release data.",
+    "confirmedBy": "release-deployment-diagnosis.json"
+  }
+}

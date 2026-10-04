@@ -1,6 +1,6 @@
 # Phase B2 最終release状況（2026-10-04）
 
-公開前検証完了（commit以降は未実施）。Creator124／新33／next125／metadata BLOCKED0、Garupa799＋OurNotes86＝885収録、Work823 byte不変、Work警告0。
+公開完了。Creator124／新33／next125／metadata BLOCKED0、Garupa799＋OurNotes86＝885収録、Work823 byte不変、Work警告0。
 
 metadata-only14 record-role（宮崎8編曲、母里4編曲＋2作曲）と、人間が訂正後に承認した川渕6共同編曲（220/231/243/246/248/272）を正式化。220の都丸椋太はcr-0019、224/250へ波及適用0。rawの空白・区切り・順序を維持。既存121 metadataとA/B1全452file SHA不変。
 
@@ -19,7 +19,7 @@ metadata-only14 record-role（宮崎8編曲、母里4編曲＋2作曲）と、�
 
 新3名の統計：宮崎京一 8 Work/8収録（L0/C0/A8）、母里治樹 4 Work/4収録（L0/C2/A4）、川渕龍成 6 Work/6収録（L0/C0/A6）。
 
-根拠：[release-verification.json](release-verification.json)、[human-review.json](human-review.json)、[release-parallel-preservation.json](release-parallel-preservation.json)、[CREATOR_CREDITS_RELEASE_REPORT.md](CREATOR_CREDITS_RELEASE_REPORT.md)。次：1release-ready commit→通常push→CI/既存Cloudflare Git連携のSHA確認→本番read-only→65report完成。
+根拠：[release-verification.json](release-verification.json)、[human-review.json](human-review.json)、[release-parallel-preservation.json](release-parallel-preservation.json)、[CREATOR_CREDITS_RELEASE_REPORT.md](CREATOR_CREDITS_RELEASE_REPORT.md)。公開SHA 769bbed983c7ec828c16cd57dadcef0725048443。
 
 ---
 

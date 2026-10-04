@@ -1,6 +1,6 @@
-# Creator credits release report（公開前検証完了（commit以降は未実施））
+# Creator credits release report（公開完了）
 
-根拠：[release-verification.json](release-verification.json)、[release-requirements-audit.md](release-requirements-audit.md)。原B2履歴はPHASE_B2_REPORT下部・fixtureへ保持。
+根拠：[release-verification.json](release-verification.json)、[release-requirements-audit.md](release-requirements-audit.md)、[release-deployment-verification.json](release-deployment-verification.json)、[production-verification.json](production-verification.json)、[production-browser-verification.json](production-browser-verification.json)、[production-assets-verification.json](production-assets-verification.json)、[production-admin-read-verification.json](production-admin-read-verification.json)。原B2履歴はPHASE_B2_REPORT下部・fixtureへ保持。
 
 ## 1. release date
 
@@ -8,7 +8,7 @@
 
 ## 2. final commit SHA
 
-公開前・未commit
+769bbed983c7ec828c16cd57dadcef0725048443（公開コードcommit。終了検証文書は別のaudit-only commitで同期）
 
 ## 3. commit message
 
@@ -20,15 +20,15 @@ main → origin/main、通常push。公開済み10commitを祖先に保持。
 
 ## 5. CI status
 
-未push
+成功。[Actions](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084)
 
 ## 6. Cloudflare deployment status
 
-未deploy
+既存Git連携成功。[Cloudflare](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/1b5dc9d8-e4f8-4a94-9737-30c83bb254d1)
 
 ## 7. deployed SHA
 
-未deploy
+769bbed983c7ec828c16cd57dadcef0725048443
 
 ## 8. production domain
 
@@ -128,7 +128,7 @@ L/C両game ready、編曲GP ready/Own partial
 
 ## 32. old display comparison
 
-旧2652非空表示変更・消失0、現在2655比較。原旧空1591＋人間作曲2補完は別分類。
+旧2652比較で既存の非空表示変更・消失0、現在2655比較。原旧空1591＋人間作曲2補完は別分類。
 
 ## 33. OurNotes parallel edits preserved
 
@@ -136,7 +136,7 @@ OurNotes50/51/52全field保持。最新9曲non-credit＋86新曲＋GP758相互�
 
 ## 34. tests
 
-253/253成功（旧194＋旧B2 35assert不変＋新24）。最終並行編集後release24も再成功。
+253/253成功（旧194＋旧B2 35assert不変＋新24）。最終並行編集後release24も再成功。CIとCloudflareも同じ253件全成功。
 
 ## 35. root build
 
@@ -156,51 +156,51 @@ rootと同件数、origin/base canonical一致
 
 ## 39. Functions compile
 
-Wrangler4.143.0 compile成功
+Wrangler4.143.0 compile成功。Cloudflare Wrangler3.114.17も成功。
 
 ## 40. production /creators/
 
-公開後に実測して更新。
+HTTP200、124 Creator
 
 ## 41. new 3 Creator pages
 
-公開後に実測して更新。
+3名200、current canonical一致
 
 ## 42. representative Creator pages
 
-公開後に実測して更新。
+asuka-oda/kou-nakamura/kotaro-shimoda/spirit-garden/samfree/aira 200
 
 ## 43. sitemap
 
-公開後に実測して更新。
+124 current Creator URL、1018 canonical、候補URL0
 
 ## 44. canonical
 
-公開後に実測して更新。
+全124 Creator current URLとcanonical一致
 
 ## 45. Mela!
 
-公開後に実測して更新。
+長屋晴子→小林壱誓／peppe→穴見真吾、順序・リンク保持
 
 ## 46. きゅ〜まい＊flower
 
-公開後に実測して更新。
+3収録の末益涼太・竹田祐介リンク正常
 
 ## 47. ルカルカ★ナイトフィーバー
 
-公開後に実測して更新。
+samfree identityリンク、SAM(samfree)原文保持
 
 ## 48. 砂寸奏
 
-公開後に実測して更新。
+槇島隆人作曲リンク正常
 
 ## 49. Symbol IV : Earth
 
-公開後に実測して更新。
+長谷川大介→Diggy-MO’共同作曲順序保持
 
 ## 50. カーネーションの咲く日に
 
-公開後に実測して更新。
+Aira作詞、瀬名水紀→Aira作曲
 
 ## 51. affiliation double count 0
 
@@ -208,47 +208,47 @@ Wrangler4.143.0 compile成功
 
 ## 52. fallback production
 
-公開後に実測して更新。
+未同定rawとlegacy cross-search保持、誤Creatorリンク0
 
 ## 53. OurNotes partial UI
 
-公開後に実測して更新。
+編曲一部登録と全81未整備・確認中表示、編曲者なし誤表示0
 
 ## 54. admin smoke
 
-公開後に実測して更新。
+3admin200。Creator124件は同じ管理読取実装とユーザーの接続後画面表示で確認。GitHub GETのみ、保存0。
 
 ## 55. contact smoke
 
-公開後に実測して更新。
+/contact/200、GET /api/contact405、メール送信0
 
 ## 56. static assets
 
-公開後に実測して更新。
+全33 JS/CSS 200・公開commitのGit blobと厳密一致。環境別asset識別子もbuild入力から再計算一致。
 
 ## 57. browser console
 
-公開後に実測して更新。
+代表4ページの重大console error0
 
 ## 58. responsive
 
-公開後に実測して更新。
+390/1280の一覧・詳細・曲ページoverflow0
 
 ## 59. redirects
 
-公開後に実測して更新。
+18旧slug×2形式＝36、direct301→current1hop。新3のredirect追加0
 
 ## 60. research leakage
 
-公開後に実測して更新。
+両build2777file/20JSON非混入、本番内部research URL非配信
 
 ## 61. production bug有無
 
-本番未検証
+本番重大bug0。remote新86 workId未整備によるbuild失敗は今回の明示Work付与で解消。
 
 ## 62. post-release correction有無
 
-未公開
+製品hotfixなし。Cloudflare初回は旧Build commandが歴史fixtureを迂回し237件中25失敗。設定をpnpm test経由へ修正し、同769bbedで253件成功・公開成功。履歴guardの弱体化0。
 
 ## 63. remaining unresolved
 
@@ -260,4 +260,4 @@ Wrangler4.143.0 compile成功
 
 ## 65. final release judgment
 
-公開前gate成功、commit/push/CI/CF/本番確認を継続。
+全release gate成功、公開完了。

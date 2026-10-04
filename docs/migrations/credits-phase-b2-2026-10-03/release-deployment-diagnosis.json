@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-03T16:16:06.569Z",
+  "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+  "sourceType": "user-provided-build-log",
+  "deploymentId": "7eb06eab-e3f7-4e80-92db-feb8fbe80a7c",
+  "build": {
+    "startedAt": "2026-10-03T15:50:56.056203Z",
+    "headLine": "HEAD is now at 769bbed feat: add lyricist and arranger creator credits",
+    "node": "22.16.0",
+    "pnpm": "10.11.1",
+    "command": "node scripts/build.mjs && node --test tests/*.test.mjs",
+    "recordCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "tests": 237,
+    "passed": 212,
+    "failed": 25,
+    "exitCode": 1
+  },
+  "rootCause": "Cloudflare Build command bypasses the pnpm test historical regression runner and applies historical expectations to current release data.",
+  "examples": [
+    {
+      "test": "creator-final-slugs.test.mjs",
+      "expectedCreators": 91,
+      "actualCreators": 124
+    },
+    {
+      "test": "creator-human-review.test.mjs",
+      "expectedRecords": 884,
+      "actualRecords": 885
+    },
+    {
+      "test": "credits-phase-b2.test.mjs",
+      "expectedUncollectedOwnArrangers": 80,
+      "actualUncollectedOwnArrangers": 81
+    },
+    {
+      "test": "credits-phase-b1.test.mjs",
+      "expectedGarupaSha256": "adac7542850ed434adabd40814bff035b251347ff6d6c1051b5232cf6e3ccf4f",
+      "actualGarupaSha256": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623"
+    }
+  ],
+  "localReproduction": {
+    "command": "node --test tests/credits-phase-b2.test.mjs",
+    "workspace": ".cache/cf-build-command-diagnosis",
+    "tests": 35,
+    "passed": 31,
+    "failed": 4,
+    "exitCode": 1,
+    "liveSourceWrites": 0,
+    "logSha256": "23a6e24657e70143dba0016200da2caf90e598333a32c3f4993b2dece4c3e6b8"
+  },
+  "githubCI": {
+    "id": 37134688084,
+    "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+    "conclusion": "success",
+    "tests": 253,
+    "passed": 253,
+    "failed": 0,
+    "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084"
+  },
+  "remediation": {
+    "buildCommand": "node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /",
+    "outputDirectory": "dist",
+    "retryCommit": "769bbed983c7ec828c16cd57dadcef0725048443",
+    "dashboardSettingChanged": true,
+    "retryRequested": true,
+    "requiredOperatorAction": "Authenticated Cloudflare project Build command update, then retry this release SHA through existing Git integration.",
+    "codeHotfixes": 0,
+    "assertionsChanged": 0,
+    "retryConclusion": "success",
+    "successDeployment": "1b5dc9d8-e4f8-4a94-9737-30c83bb254d1",
+    "successEvidence": "release-deployment-verification.json"
+  },
+  "previousUserLog": {
+    "sha": "f7019b3d2088a2036650adbc4d241a5f79757a8e",
+    "irrelevantToCurrentFailure": true
+  },
+  "productionVerified": true,
+  "productionEvidence": "production-verification.json",
+  "finalizedAt": "2026-10-04T00:11:21.986Z"
+}

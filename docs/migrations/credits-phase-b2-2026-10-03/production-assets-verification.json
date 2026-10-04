@@ -1,0 +1,208 @@
+{
+  "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+  "assetVersion": "548371f6b6c6",
+  "files": 33,
+  "allEqualCommittedReleaseSource": true,
+  "localVersion": "0ea42d125106",
+  "differenceExplanation": "The asset version hashes raw source bytes; Windows checkout line endings differ from Linux Git blobs. Production assets match the committed release blobs and their own calculated version exactly.",
+  "checks": [
+    {
+      "path": "/app.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "50ec42ff840333a03ffb16cbc4e80f56cdd48e0dd60944f71ea7ed185cb84a77",
+      "source": "src/js/app.js"
+    },
+    {
+      "path": "/cross-search.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "4786ac7880fdb52af0c8ca9590380acdf415cc1521a02e673f5d7318fee3686b",
+      "source": "src/js/cross-search.js"
+    },
+    {
+      "path": "/domain.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "79f2df7a9e5b0020fc97b6a4fe2d0805576fbec1a13748dd8eee4cba0ee05eb0",
+      "source": "src/js/domain.js"
+    },
+    {
+      "path": "/credits.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "7aaa66f2ad614f5b272fd3e3973694048c263592da471d2610a8ccbd56f18a56",
+      "source": "src/js/credits.js"
+    },
+    {
+      "path": "/creators-data.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "57c60fd22682e0cf6195c6a670648ee0c7a7a6b295179a1be1ab3cfc0aaba460",
+      "source": "src/js/creators-data.js"
+    },
+    {
+      "path": "/credit-display.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "3e5489789e1a1f82c5565d659610ff10a0192637f2eb0a6f5b46782e6edd885a",
+      "source": "src/js/credit-display.js"
+    },
+    {
+      "path": "/credit-structure.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "5b1480ea0491fca63c032774cf05371de131465e7c8c0431ae8f3ebeded734fd",
+      "source": "src/js/credit-structure.js"
+    },
+    {
+      "path": "/credit-coverage.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "286f68eebd03acdb11b58e0ebb728a2278018ce6091a0b91a772b4cc9e6f26b9",
+      "source": "src/js/credit-coverage.js"
+    },
+    {
+      "path": "/creator-views.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "f3ff562c7c67e924d84ce94b14338960a8626b5071d211aeba991821f6697ea5",
+      "source": "src/js/creator-views.js"
+    },
+    {
+      "path": "/creators.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "eb58cde1ee4d80ee1fb78d7787d7467f483747e8ea24b77959935d957193a8a5",
+      "source": "src/js/creators.js"
+    },
+    {
+      "path": "/github-creator-store.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "f016ab436971b550d21a125537779077e900916ab1fd06c7f463752e952f61fb",
+      "source": "src/js/github-creator-store.js"
+    },
+    {
+      "path": "/admin-creators.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "fca8acd15dcf8c07c618041ea3228f327f27eaf1f2afb22439b79e90405e7138",
+      "source": "src/js/admin-creators.js"
+    },
+    {
+      "path": "/creator-picker.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "17bb40841fe8331159e99523199d9317aec28b786d68e2b4bb01e46203cd08d8",
+      "source": "src/js/creator-picker.js"
+    },
+    {
+      "path": "/views.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "612f09fd62c6df3b67126b6710d1ed6c624d4a41e3af792ad145b71db2758d06",
+      "source": "src/js/views.js"
+    },
+    {
+      "path": "/related-songs.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "e28c8f4fcb5d6cb4a6ab462de039cab135b300374abf91733fe1267056002412",
+      "source": "src/js/related-songs.js"
+    },
+    {
+      "path": "/urls.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "8336e9cccd77108932f4f63b33dd2e8745651fa1c24a42525f3a7f7d95cec8da",
+      "source": "src/js/urls.js"
+    },
+    {
+      "path": "/site-config.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "15cef152918c2321e9559019ce5bacf486746946acd1b5e007dcd610629457c1",
+      "source": "src/js/site-config.js"
+    },
+    {
+      "path": "/seo.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "18e9fbb4ab5f3f014a9402f7b7db5a510805488f4302ea3db8af4d4c5d4dc575",
+      "source": "src/js/seo.js"
+    },
+    {
+      "path": "/song-schema.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "f4ce92ebb74b1b96adaa55765c330de4d7daf164b5f392630d1abb177835fa9a",
+      "source": "src/js/song-schema.js"
+    },
+    {
+      "path": "/garupa-data.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "b3b071d472a08366603f1bb7be1b3d67099c0dd552e793fcd51ae4196f86e03a",
+      "source": "src/js/garupa-data.js"
+    },
+    {
+      "path": "/github-store.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "4ea1b5087f1103964c8a3e3a31e99428ccb9cd474bf4b468974e4694f54e9af4",
+      "source": "src/js/github-store.js"
+    },
+    {
+      "path": "/github-news-store.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "a5ae952ae4b16221068de5f849499c466a3f4c3e6f44141bc881c635104ff26f",
+      "source": "src/js/github-news-store.js"
+    },
+    {
+      "path": "/admin.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "dfb45e92031361344fc1d671ab363184f7617c27c62ee58b419bb4e37ece84a5",
+      "source": "src/js/admin.js"
+    },
+    {
+      "path": "/admin-news.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "b270421a360c22ad1e0a82c5ea855a66fb5e8125e21de2455608344dab4f89ae",
+      "source": "src/js/admin-news.js"
+    },
+    {
+      "path": "/news-data.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "79aaaade26d1e6a66882e8f03d0e507035c48940bb21e65b2407a7f511d096f7",
+      "source": "src/js/news-data.js"
+    },
+    {
+      "path": "/related-song-picker.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "40c2c08a91ddc0d813c1322c5c954a36147a83a30ab9d159a41e0468ef4fbb89",
+      "source": "src/js/related-song-picker.js"
+    },
+    {
+      "path": "/query-index.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "ae2dcadd6707c94176915fe3ee23283e149c560c260aa080096fc14577d73388",
+      "source": "src/js/query-index.js"
+    },
+    {
+      "path": "/legacy-redirect.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "3b5dedf58af0de02eff876273f036c1a395355c52a02c1150cae284345c23444",
+      "source": "src/js/legacy-redirect.js"
+    },
+    {
+      "path": "/contact.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "fa4467a0740ab77f071b4d3d9e6a8b55b464d60c22f743c89a3997f0838384ff",
+      "source": "src/js/contact.js"
+    },
+    {
+      "path": "/contact-validation.js?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "900ff5ef4896d7e37764d35011663c359b7f5e1d2edc78804c962bd1fbc21067",
+      "source": "src/js/contact-validation.js"
+    },
+    {
+      "path": "/style.css?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "ab140f18ada2a1f878aa81fab3195b7bb646fccf6f1de7f6850f2f0ab98638eb",
+      "source": "src/styles/style.css"
+    },
+    {
+      "path": "/mobile.css?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "693f7fc063a2807252e5e9c3ebcdcb5bec21485c61d200a52b80f900cd870a62",
+      "source": "src/styles/mobile.css"
+    },
+    {
+      "path": "/admin.css?v=548371f6b6c6",
+      "status": 200,
+      "sha256": "5ddb8d0b31e3b01facc9c5dc5e33d883f61fc9f00ffe7ab23dc55d89ef0a4800",
+      "source": "src/styles/admin.css"
+    }
+  ]
+}

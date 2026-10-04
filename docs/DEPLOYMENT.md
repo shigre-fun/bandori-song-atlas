@@ -6,7 +6,15 @@
 
 ## ビルド
 
-Node.js 22以上と `pnpm-lock.yaml` に固定された依存関係を使用します。Cloudflare Pagesのビルドコマンドは `node scripts/build.mjs && node --test tests/*.test.mjs && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /`、出力ディレクトリは `dist` です。失敗した画像生成はビルドを終了コード0にしません。公開環境で `SITE_ORIGIN` を指定する場合は `https://tanimachi-bdsongs.com`、`BASE_PATH` は `/` にしてください。旧 `SITE_BASE_PATH` が設定されている場合は同じ `/` と一致させます。
+Node.js 22以上と `pnpm-lock.yaml` に固定された依存関係を使用します。Phase B2以降のCloudflare Pagesのビルドコマンドは次のとおりです。出力ディレクトリは `dist` です。
+
+```sh
+node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /
+```
+
+`pnpm test` は既存229件のassertを維持した履歴入力で回帰検証し、現在のreleaseデータも24件のテストで検証します。以前の `node --test tests/*.test.mjs` は履歴段階の件数・予約IDを現行データに対して直接検証してしまうため、CloudflareのBuild command設定も更新してください。再試行するdeploymentのcommit SHAが目的のrelease SHAと一致することを確認します。過去のdeploymentのRetryはその過去のcommitを再buildします。
+
+失敗した画像生成はビルドを終了コード0にしません。公開環境で `SITE_ORIGIN` を指定する場合は `https://tanimachi-bdsongs.com`、`BASE_PATH` は `/` にしてください。旧 `SITE_BASE_PATH` が設定されている場合は同じ `/` と一致させます。
 
 `@napi-rs/canvas` はOGPとアイコンのPNG描画用です。`assets/fonts/` に同梱したNoto Sans JPのRegular/Boldとライセンスを使用するため、CloudflareのシステムフォントやPython/Pillowの有無に依存しません。生成された画像は `dist/assets/og/` にあり、楽曲名等の変更でハッシュが変わります。ビルドは `dist` を消してから再生成するので旧ハッシュ画像は公開物へ混入しません。
 

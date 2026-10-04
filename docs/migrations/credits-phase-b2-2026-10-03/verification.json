@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-04",
-  "status": "PRE_RELEASE_VERIFIED",
+  "status": "RELEASED",
   "verify": {
     "newCreators": 33,
     "creators": 124,
@@ -184,12 +184,12 @@
     }
   },
   "scope": {
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-04",
     "creatorGameRoleCombinations": 744,
     "filterMismatches": 0,
     "publicJsonFilesInspected": 20,
     "publicResearchFields": 0,
-    "historicalAndReleaseBackupFilesVerified": 9,
+    "historicalAndReleaseBackupFilesVerified": 11,
     "protectedResearch": 452
   },
   "admin": {
@@ -211,10 +211,7 @@
     }
   },
   "localBrowser": {
-    "widths": [
-      390,
-      1280
-    ],
+    "widths": [390, 1280],
     "pages": [
       "/creators/",
       "/creators/kyoichi-miyazaki/",
@@ -234,21 +231,10 @@
     "composerRawPreserved": true,
     "oldUncollectedArrangers": 80,
     "newUncollected": 1,
-    "intentionalIds": [
-      50,
-      51,
-      52
-    ]
+    "intentionalIds": [50, 51, 52]
   },
   "jointArrangers": {
-    "ids": [
-      220,
-      231,
-      243,
-      246,
-      248,
-      272
-    ],
+    "ids": [220, 231, 243, 246, 248, 272],
     "record220Creator": "cr-0019",
     "rawAndOrderPreserved": true
   },
@@ -289,8 +275,2698 @@
       "ournotes:arranger": 2
     }
   },
-  "publication": null,
-  "production": null,
+  "publication": {
+    "checkedAt": "2026-10-03T16:20:59.175Z",
+    "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+    "commitMessage": "feat: add lyricist and arranger creator credits",
+    "branch": "main",
+    "ciConclusion": "success",
+    "actionsRun": 37134688084,
+    "actionsUrl": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084",
+    "cloudflareConclusion": "success",
+    "cloudflareCheck": 111241616833,
+    "cloudflareUrl": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/1b5dc9d8-e4f8-4a94-9737-30c83bb254d1",
+    "deploymentId": "1b5dc9d8-e4f8-4a94-9737-30c83bb254d1",
+    "origin": "https://tanimachi-bdsongs.com",
+    "providerChecks": {
+      "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "authenticated": true,
+      "runs": [
+        {
+          "id": 37134688084,
+          "name": "Publish song database",
+          "status": "completed",
+          "conclusion": "success",
+          "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+          "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084"
+        }
+      ],
+      "checks": [
+        {
+          "id": 111241616833,
+          "name": "Cloudflare Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+          "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/1b5dc9d8-e4f8-4a94-9737-30c83bb254d1",
+          "output": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>769bbed</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://1b5dc9d8.garupa-song-atlas.pages.dev'>https://1b5dc9d8.garupa-song-atlas.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/1b5dc9d8-e4f8-4a94-9737-30c83bb254d1)\n"
+        },
+        {
+          "id": 111237161614,
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success",
+          "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+          "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084/job/111237161614",
+          "output": null
+        },
+        {
+          "id": 111236708330,
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success",
+          "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+          "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37134688084/job/111236708330",
+          "output": null
+        }
+      ],
+      "status": {
+        "state": "pending",
+        "statuses": []
+      },
+      "deployments": [
+        {
+          "id": 6829735661,
+          "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+          "environment": "github-pages",
+          "statuses_url": "https://api.github.com/repos/shigre-fun/bandori-song-atlas/deployments/6829735661/statuses"
+        }
+      ]
+    },
+    "userProvidedLog": {
+      "sourceType": "user-provided-build-log",
+      "head": "769bbed983c7ec828c16cd57dadcef0725048443",
+      "buildCommand": "node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /",
+      "tests": [
+        {
+          "total": 194,
+          "passed": 194,
+          "failed": 0
+        },
+        {
+          "total": 35,
+          "passed": 35,
+          "failed": 0
+        },
+        {
+          "total": 24,
+          "passed": 24,
+          "failed": 0
+        }
+      ],
+      "seo": {
+        "pages": 1018,
+        "details": 885,
+        "garupa": 799,
+        "ournotes": 86,
+        "legacySongs": 797,
+        "legacyCreators": 18
+      },
+      "functionsCompile": "success",
+      "cloudflareWrangler": "3.114.17",
+      "assetFiles": 2774,
+      "redirectRules": 36,
+      "publishedAt": "2026-10-03T16:18:31.926452Z",
+      "successAt": "2026-10-03T16:18:33.090192Z"
+    },
+    "firstFailedDeployment": "release-first-deployment-failure.json",
+    "rootCause": "release-deployment-diagnosis.json",
+    "productHotfixes": 0
+  },
+  "production": {
+    "checkedAt": "2026-10-03T16:34:51.702Z",
+    "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+    "origin": "https://tanimachi-bdsongs.com",
+    "records": 885,
+    "garupaRecords": 799,
+    "ournotesRecords": 86,
+    "works": 823,
+    "creators": 124,
+    "nextId": 125,
+    "publicDataEqualsReleaseBuild": true,
+    "workWarnings": 0,
+    "invalidStates": 0,
+    "creatorPages": 124,
+    "canonicalMismatches": 0,
+    "sitemapCreatorUrls": 124,
+    "sitemapPages": 1018,
+    "representativeStatistics": [
+      {
+        "id": "cr-0092",
+        "name": "織田あすか",
+        "total": 253,
+        "recordings": 270,
+        "lyricist": 253,
+        "composer": 0,
+        "arranger": 0
+      },
+      {
+        "id": "cr-0093",
+        "name": "中村航",
+        "total": 77,
+        "recordings": 83,
+        "lyricist": 77,
+        "composer": 0,
+        "arranger": 0
+      },
+      {
+        "id": "cr-0094",
+        "name": "下田晃太郎",
+        "total": 38,
+        "recordings": 39,
+        "lyricist": 0,
+        "composer": 2,
+        "arranger": 38
+      },
+      {
+        "id": "cr-0118",
+        "name": "宮崎京一",
+        "total": 8,
+        "recordings": 8,
+        "lyricist": 0,
+        "composer": 0,
+        "arranger": 8
+      },
+      {
+        "id": "cr-0119",
+        "name": "母里治樹",
+        "total": 4,
+        "recordings": 4,
+        "lyricist": 0,
+        "composer": 2,
+        "arranger": 4
+      },
+      {
+        "id": "cr-0120",
+        "name": "川渕龍成",
+        "total": 6,
+        "recordings": 6,
+        "lyricist": 0,
+        "composer": 0,
+        "arranger": 6
+      }
+    ],
+    "representativeCreditsChecked": 29,
+    "oldDisplayChanges": 0,
+    "unknownOwnArrangersVerified": 81,
+    "partialNotice": true,
+    "contact": {
+      "page": 200,
+      "getApi": 405,
+      "emailsSent": 0
+    },
+    "admin": {
+      "pages": [200, 200, 200],
+      "saves": 0,
+      "creatorLoad": "verified read-only",
+      "readImplementationProof": "production-admin-read-verification.json",
+      "creatorCount": 124,
+      "uiVerification": {
+        "recordedAt": "2026-10-04T00:08:42.033Z",
+        "source": "user confirmation of connected production admin display",
+        "page": "https://tanimachi-bdsongs.com/admin/creators/",
+        "statement": "124件を確認しました",
+        "creatorCount": 124,
+        "readOnlyRequested": true,
+        "productionSaveRequestsByAgent": 0
+      }
+    },
+    "staticAssets": [
+      "/style.css?v=548371f6b6c6",
+      "/mobile.css?v=548371f6b6c6",
+      "/creators.js?v=548371f6b6c6",
+      "/admin.css?v=548371f6b6c6",
+      "/admin-creators.js?v=548371f6b6c6",
+      "/contact.js?v=548371f6b6c6",
+      "/app.js?v=548371f6b6c6"
+    ],
+    "redirects": [
+      {
+        "from": "/creators/creator-0003/",
+        "to": "https://tanimachi-bdsongs.com/creators/syuichi-mabe/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0003",
+        "to": "https://tanimachi-bdsongs.com/creators/syuichi-mabe/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0004/",
+        "to": "https://tanimachi-bdsongs.com/creators/junpei-fujita/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0004",
+        "to": "https://tanimachi-bdsongs.com/creators/junpei-fujita/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0020/",
+        "to": "https://tanimachi-bdsongs.com/creators/yuki-hidaka/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0020",
+        "to": "https://tanimachi-bdsongs.com/creators/yuki-hidaka/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0021/",
+        "to": "https://tanimachi-bdsongs.com/creators/ryota-suematsu/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0021",
+        "to": "https://tanimachi-bdsongs.com/creators/ryota-suematsu/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0024/",
+        "to": "https://tanimachi-bdsongs.com/creators/satoshi-fujihara/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0024",
+        "to": "https://tanimachi-bdsongs.com/creators/satoshi-fujihara/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0027/",
+        "to": "https://tanimachi-bdsongs.com/creators/tomoya-tabuchi/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0027",
+        "to": "https://tanimachi-bdsongs.com/creators/tomoya-tabuchi/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0041/",
+        "to": "https://tanimachi-bdsongs.com/creators/kairiki-bear/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0041",
+        "to": "https://tanimachi-bdsongs.com/creators/kairiki-bear/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0048/",
+        "to": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0048",
+        "to": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0050/",
+        "to": "https://tanimachi-bdsongs.com/creators/kenichi-maeyamada/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0050",
+        "to": "https://tanimachi-bdsongs.com/creators/kenichi-maeyamada/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0053/",
+        "to": "https://tanimachi-bdsongs.com/creators/junichi-sato/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0053",
+        "to": "https://tanimachi-bdsongs.com/creators/junichi-sato/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0072/",
+        "to": "https://tanimachi-bdsongs.com/creators/shintaro-tokita/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0072",
+        "to": "https://tanimachi-bdsongs.com/creators/shintaro-tokita/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0073/",
+        "to": "https://tanimachi-bdsongs.com/creators/takuya-ohashi/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0073",
+        "to": "https://tanimachi-bdsongs.com/creators/takuya-ohashi/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0075/",
+        "to": "https://tanimachi-bdsongs.com/creators/shoji-meguro/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0075",
+        "to": "https://tanimachi-bdsongs.com/creators/shoji-meguro/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0081/",
+        "to": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0081",
+        "to": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0082/",
+        "to": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0082",
+        "to": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0083/",
+        "to": "https://tanimachi-bdsongs.com/creators/ayato-shinozaki/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0083",
+        "to": "https://tanimachi-bdsongs.com/creators/ayato-shinozaki/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0089/",
+        "to": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0089",
+        "to": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0090/",
+        "to": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "status": 301,
+        "hops": 1
+      },
+      {
+        "from": "/creators/creator-0090",
+        "to": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "status": 301,
+        "hops": 1
+      }
+    ],
+    "researchLeakage": {
+      "paths": [
+        "/docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+        "/docs/migrations/credits-phase-b1-2026-10-03/identity-evidence.json",
+        "/docs/migrations/credits-phase-b2-2026-10-03/human-review.json",
+        "/docs/migrations/credits-phase-b2-2026-10-03/release-parallel-preservation.json",
+        "/docs/migrations/credits-phase-a-2026-10-03/manual-arranger-review.json"
+      ],
+      "served": 0
+    },
+    "browser": {
+      "status": "verified",
+      "proof": "production-browser-verification.json",
+      "pages": 12,
+      "widths": [390, 1280],
+      "filters": 8,
+      "filterMismatches": 0,
+      "consoleErrors": 0,
+      "overflow": 0,
+      "searchVerified": true
+    },
+    "majorBugs": 0,
+    "hotfixes": 0,
+    "requests": [
+      {
+        "path": "/creators.json",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators.json",
+        "location": null,
+        "contentType": "application/json",
+        "sha256": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a"
+      },
+      {
+        "path": "/works.json",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/works.json",
+        "location": null,
+        "contentType": "application/json",
+        "sha256": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa"
+      },
+      {
+        "path": "/garupa/songs.json",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs.json",
+        "location": null,
+        "contentType": "application/json",
+        "sha256": "3b41fa16bc3ba9943fccf68ca98b08e9ed691d673bb1f01905f7c693b31ffb22"
+      },
+      {
+        "path": "/ournotes/songs.json",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs.json",
+        "location": null,
+        "contentType": "application/json",
+        "sha256": "934786ad885f557fbd3ffa207591415f27b4699682ecd5a20ae8265e28cb54f3"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/sitemap.xml",
+        "location": null,
+        "contentType": "application/xml",
+        "sha256": "8afb96f8d15528ead0540828f87c7f44e3190b9e4fad360c6770f79fd0189442"
+      },
+      {
+        "path": "/admin/creators/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/admin/creators/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9d9301e3afb1a7e66e84e6c3b330f2c0a34a0ab647909fa70ae49a76bc445311"
+      },
+      {
+        "path": "/admin/news/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/admin/news/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "b063865878a95bd0fe5fa1d6fb01e95633f70c165246b557c079ba5fb4efae8f"
+      },
+      {
+        "path": "/contact/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/contact/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "41bc40724219444ee5b3ff1daa69d4bdc882492045b03e72ffcd43c7df2337ad"
+      },
+      {
+        "path": "/creators/elements-garden/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/elements-garden/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7eccc29e9f5480220fb698165622129e6e45512114bc025dc9eb7c800ca670fa"
+      },
+      {
+        "path": "/creators/syuichi-mabe/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/syuichi-mabe/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8d477d90130be2cfa9af5c4bc6a9f52544d4927650fe16f213794f43ba35a536"
+      },
+      {
+        "path": "/creators/noriyasu-agematsu/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/noriyasu-agematsu/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7ed6f659fc86416766d6697a2acd76bde57983c55f13908061df202a6c0b19cb"
+      },
+      {
+        "path": "/admin/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/admin/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5c35f933587860cf58bcf4a790b444e5148a5ecae9a28e76f04e05c2159425d7"
+      },
+      {
+        "path": "/creators/junpei-fujita/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/junpei-fujita/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e3f03a68ac39da8c59fedad582417db58e5bd4ddee7721cc5bd1a8366c0caa29"
+      },
+      {
+        "path": "/creators/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0e55486471afafe1ebc7ff91f44677dba8c07651faf0d4da8a707a25d4167ff1"
+      },
+      {
+        "path": "/creators/hitoshi-fujima/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hitoshi-fujima/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "81be4ce75c877137a9131ea0458f6dcc0bdd168cf0191b830dd34f83457f9194"
+      },
+      {
+        "path": "/creators/seima-kondo/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/seima-kondo/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "734a33ea2b51c4c951dedd375e4d338556b8e57b015ae2478f89e8022afc4d7c"
+      },
+      {
+        "path": "/creators/daisuke-kikuta/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/daisuke-kikuta/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8a5250676c59d65cfd186de60086ca3c98a32f9396cb9d0d8d4380b0bd7fbd2e"
+      },
+      {
+        "path": "/creators/yusuke-takeda/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yusuke-takeda/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d4fd1578cb183ca97e479a0ea40e050e077d6b1b59ac79cb1e4ef93cda19ccf9"
+      },
+      {
+        "path": "/creators/yuta-kasai/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yuta-kasai/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "141db8a9c1e070d62b92da0be1eaa4084838e9340939aff41d0aeb5238080a46"
+      },
+      {
+        "path": "/creators/seima-iwahashi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/seima-iwahashi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a37515519901340df31392f2a9815969b1010409255c3572b700cd2e3869c51a"
+      },
+      {
+        "path": "/creators/ryutaro-fujinaga/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ryutaro-fujinaga/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "96218db8ddedceca0ccb022ad928e6a9bb15628ce4160bcb5d5d49c1088e95d9"
+      },
+      {
+        "path": "/creators/daisuke-horikawa/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/daisuke-horikawa/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cad2afd72b53e2e6f028fdf8886f961780436bc8670cc3b903357dc5e91bf8ba"
+      },
+      {
+        "path": "/creators/kinoshita-ryuhei/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kinoshita-ryuhei/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9edcc6f6f125765263f9afbf823013ff371e00e4a04a966feb5b57d09cf31bec"
+      },
+      {
+        "path": "/creators/koji-matsuzaka/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/koji-matsuzaka/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a9585664b7735308b0d75ff8d90846ebcdc77b507f6ff9f4eaef1b3eda0333b0"
+      },
+      {
+        "path": "/creators/hisakuni/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hisakuni/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "32f5c0f37eca2c573dc2bba446077a15b8f47868c29a606e8001f288c48be961"
+      },
+      {
+        "path": "/creators/yuki-hidaka/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yuki-hidaka/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6265ceb7710720051bfa0f4bcbb820da2b4c438743d4b661b239d2d96aaa6d13"
+      },
+      {
+        "path": "/creators/araken/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/araken/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a3ea63f01bb743bffc1d66eef74824c17ea064594d4a18df628206ea9289908e"
+      },
+      {
+        "path": "/creators/hasegawa-daisuke/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hasegawa-daisuke/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "df7acb575371c25555f3fdb9078bcf025d06c98a2c7262e7ae9e336b6cbad391"
+      },
+      {
+        "path": "/creators/ryota-tomaru/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ryota-tomaru/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e5dfb49ac4724e76bf8ac1902bab7d01ef496d7bc9b78854865d745b19101a50"
+      },
+      {
+        "path": "/creators/tomita-kazuki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tomita-kazuki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "b8576ad6bd26ef8290a2a70681940ee133584e13807c9b0e236e04ac3d6e390a"
+      },
+      {
+        "path": "/creators/deco27/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/deco27/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1824d9979aa1bb61a897bf5644cc200081a346196a8051eea7cc7264319a1e6c"
+      },
+      {
+        "path": "/creators/ryota-suematsu/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ryota-suematsu/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "64a247b3037d54dc23962eb16813bc01a3c5f8938025a5a7f70c2c50aaa3f0d0"
+      },
+      {
+        "path": "/creators/satoshi-fujihara/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/satoshi-fujihara/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4ed21183f7ed8a094f833389321497810ec7a8c967e2a917b82019c97095c86a"
+      },
+      {
+        "path": "/creators/ayase/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ayase/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "fc3bad47b685e530897d0e4666c708b9eeff53e61b57b0b2361aca292d322624"
+      },
+      {
+        "path": "/creators/honeyworks/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/honeyworks/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2e3891472268ac9f234d0becad8c10b809306f501ea19b6c49b7ec67fce9bf34"
+      },
+      {
+        "path": "/creators/tomoya-tabuchi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tomoya-tabuchi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1058ee34aa6dde393d394aa9134db8e3f83e7edf15eb75822f35e5ef3688b92f"
+      },
+      {
+        "path": "/creators/diggy-mo/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/diggy-mo/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c37aac69871e3c9250648440e734b3db2633a0873fdb25e30123ca3fd983f9f2"
+      },
+      {
+        "path": "/creators/shota-horie/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shota-horie/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cecdb79c30d6406775a3a247d30b091614c9facaac01942343a2db8eae3a7a6b"
+      },
+      {
+        "path": "/creators/motoki-ohmori/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/motoki-ohmori/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "51edb5c4f4a39a9ef03168d6c41edd1e77792c4af50781eff49eed3b50b8b6e1"
+      },
+      {
+        "path": "/creators/pinocchiop/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/pinocchiop/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e495b7411dff0acc7b9a2d19649b4e4aac35fdca1420f04f79a8af74633944b6"
+      },
+      {
+        "path": "/creators/shito/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shito/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8319246b2eed937b059d61649e38ee3812230de68e2f2fa18da1fc9cd3fd5139"
+      },
+      {
+        "path": "/creators/giga/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/giga/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2c846f6dc345becd9fbaf73ae45eb2bc5458889531e3cb65818501d3732780a9"
+      },
+      {
+        "path": "/creators/orangestar/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/orangestar/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d09c5d1b63e93160a74c4f6cff073298cb4d61543866625abf8b7b8b3dd4ffa3"
+      },
+      {
+        "path": "/creators/kentaro-fujii/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kentaro-fujii/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "20b7bd62f44fa090a5fc50ea80f86c871353ab642b80d54385c110d89426d666"
+      },
+      {
+        "path": "/creators/eve/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/eve/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "697c80eafd80481a68216a4daef6fb98e17dc1538146d4a7e4b2a6e51877aff7"
+      },
+      {
+        "path": "/creators/teddyloid/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/teddyloid/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5fd057457819b6ae773ba928f67a019d624a635833f64bb9ce08b0f7a96cce4d"
+      },
+      {
+        "path": "/creators/vaundy/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/vaundy/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a70dfe0494cca7a8c09915351357e821a61f4ce214f3cc0deeebcfa70e129208"
+      },
+      {
+        "path": "/creators/mikitop/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/mikitop/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "29878c509001ed89a1cadf26e989fe967f585731e291acb39a081d7913be4e63"
+      },
+      {
+        "path": "/creators/40mp/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/40mp/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cb64ce70ea12a450ca61c731a7ece331931d4233708eda35682103065d289b4e"
+      },
+      {
+        "path": "/creators/neru/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/neru/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "610c96ea4f6ed8f764f6afd86d4fb6e5f0674cfb13025211045de88f19c36dfd"
+      },
+      {
+        "path": "/creators/gasa-yasuhiro/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/gasa-yasuhiro/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "627beba7749fac7db55929e5837cd41d1a680fe65878891f570956a21096163a"
+      },
+      {
+        "path": "/creators/takahashi-ryo/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/takahashi-ryo/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "579630d802c6a844417ddfea646ffd7be522a203ddb9a317f1b293d7e4c57543"
+      },
+      {
+        "path": "/creators/kosaki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kosaki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0a4a6ff04cad2d26af55058c93a67c944fe8f93ba41838211920f60f64a3f25a"
+      },
+      {
+        "path": "/creators/kairiki-bear/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kairiki-bear/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2ab53a73780997dbbe523cbbc2c59dbd4362251eb69a8a2c72814d6e4198153f"
+      },
+      {
+        "path": "/creators/kanasaki-masashi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kanasaki-masashi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a450b9381e2c6d4ee7abafe0fffe891c95c7aaa68ffc82721f2bd84c14ed01c2"
+      },
+      {
+        "path": "/creators/motoo-fujiwara/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/motoo-fujiwara/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "43500f1f1272bb31bcfcf313952351cc7865653849a8984e6e4a803b469217b2"
+      },
+      {
+        "path": "/creators/mikiya-katakura/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/mikiya-katakura/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "eb56fd519ec5ed7d4ca51ba2320d7289173ef3b42e53575b427beec567e9d5c0"
+      },
+      {
+        "path": "/creators/hiroaki-suzuki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hiroaki-suzuki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "16962955fa294d13f5b7cfe71b1cb9dfa45350e2e9bb21bce5d158b848579d7e"
+      },
+      {
+        "path": "/creators/yoshiki-mizuno/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yoshiki-mizuno/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "bf9788b4194638dcd07ebeb6cafcb360617215bb4919aa15fe591d7a17d7c922"
+      },
+      {
+        "path": "/creators/kenichi-maeyamada/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kenichi-maeyamada/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f3b5d4128ac18e7cde343fd4ab06338192bbd7719099117e2c2fadef4bfbaea4"
+      },
+      {
+        "path": "/creators/hyde/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hyde/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0cabf01cbc15426c87a0dce46f58dab69a477f7e82ecf25669338086b9efa30d"
+      },
+      {
+        "path": "/creators/tetsuya-komuro/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tetsuya-komuro/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0bf53535706e52722a656429de8e81bd0632b007283779d06628c08678464920"
+      },
+      {
+        "path": "/creators/junichi-sato/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/junichi-sato/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4072d899a17fa2832717f3f684ce48d83df0b7475dc4ef1c007e50a1a7094866"
+      },
+      {
+        "path": "/creators/tom-hack/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tom-hack/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9cd76e7e883e8730be30aa876d01186bbdc4b4ea387f9b64a310e1c5bb985918"
+      },
+      {
+        "path": "/creators/orange-range/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/orange-range/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0665b9e57828c9805ef38776d998700cb27fd1dd06ac941e061a22e437182a18"
+      },
+      {
+        "path": "/creators/kohei-tanaka/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kohei-tanaka/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0e2fab85f9c8aaa60a48810140a8d4f9e26c4c54852556e6322c84953bfc01f6"
+      },
+      {
+        "path": "/creators/hidekazu-tanaka/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hidekazu-tanaka/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6cc3070acdb776416d62f1aecf3a01fea7327b1c817bbd848d3acd1850e73a06"
+      },
+      {
+        "path": "/creators/threee/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/threee/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c881a7994edbc4fa06a3af669f40eab432511345a0e1f8a4180574638c511f28"
+      },
+      {
+        "path": "/creators/myth-and-roid/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/myth-and-roid/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d9d388c2223259cbb23ea180ceb5a2a74092df8aef210c3ef03684a578fe4f40"
+      },
+      {
+        "path": "/creators/fear-and-loathing-in-las-vegas/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/fear-and-loathing-in-las-vegas/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1c57fd82f1783ad4f280311737d431991f4287d44f1892438a180aeceafbd240"
+      },
+      {
+        "path": "/creators/nayutalien/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/nayutalien/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "961849886e632b9f118503551530d9db1335250f0608da082cefe7fcdb34f3bf"
+      },
+      {
+        "path": "/creators/masayoshi-oishi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/masayoshi-oishi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1ef08b360d80fb9b92c753fbdf1868db4b15c617da647c4cfe19aa5e6bd1a257"
+      },
+      {
+        "path": "/creators/kanaria/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kanaria/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9cb655de00e01dc6e09f062f44ffb0f5df3fd6b439f70dfb1c57baa5dbaf4e81"
+      },
+      {
+        "path": "/creators/tatsuya-kitani/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tatsuya-kitani/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f08d97e27ad380b37f88492e2e942b26146ce873b0acf1ee9860d0bed1514fb5"
+      },
+      {
+        "path": "/creators/uz/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/uz/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "92e03bf91980ee0499d1682e12bc603e2afa508b336c0370e9cc235d21e9a566"
+      },
+      {
+        "path": "/creators/tk/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/tk/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "b2f2839251a40661183df951633ee03ad6ddfa25551c6645f621ab29e2d1b197"
+      },
+      {
+        "path": "/creators/satoshi-yaginuma/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/satoshi-yaginuma/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "559ca1d40a25690c4a3f090da880fb046f189427a0a023f02e07f672ba6eb44a"
+      },
+      {
+        "path": "/creators/yui/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yui/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "09f81fde70bf4a567b06d13ea1874d349896765144f5a1f07fc1f98f17901362"
+      },
+      {
+        "path": "/creators/the-spellbound/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/the-spellbound/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "69dac113ab8ed1f881c3c8b218974fc7bad14df7d95975f6e86e86e99eb347ba"
+      },
+      {
+        "path": "/creators/takuya-uverworld/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/takuya-uverworld/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1dfda6f70daa7156821d48273de9537155ddcecce87b3f518ea25f12356dd833"
+      },
+      {
+        "path": "/creators/shintaro-tokita/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shintaro-tokita/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "bc8918a2f69ac76b27d85043d4b8afadb37d7b13ff29d12c88395114331b709d"
+      },
+      {
+        "path": "/creators/sabio/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/sabio/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "34a85f41753eaef15732bd9d64501e5554f681ba04570ad2b50e828e3087c489"
+      },
+      {
+        "path": "/creators/takuya-ohashi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/takuya-ohashi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e34bfb12d69df586d067230a00d0b0827bc7346117619ddeaa75be0aa951e03f"
+      },
+      {
+        "path": "/creators/shoji-meguro/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shoji-meguro/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3e7547135f5ada45757dffdf98f5b48b5f52348f88a893af32c3ca8147df8c8f"
+      },
+      {
+        "path": "/creators/mashiro-shirakami/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/mashiro-shirakami/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "54aa3b1466769fbeba57d7e14b6693da89528b8c9c7ed5c1a67db39b4a9fe05c"
+      },
+      {
+        "path": "/creators/hiromu-akita/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hiromu-akita/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "978f295a0c9385fd5606ec1c04680732c596c411594e11059b46c7c191b0a447"
+      },
+      {
+        "path": "/creators/daisuke-asakura/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/daisuke-asakura/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4b635a616ecb123fc1c14abc1a30b88c000e76888f54e138dcf63c88b8b582d9"
+      },
+      {
+        "path": "/creators/atsuko-angela/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/atsuko-angela/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "ba3abc791d1025878cf77bd27e9e09ebe7781659f061121b7da18d814004da4b"
+      },
+      {
+        "path": "/creators/ak-homma/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ak-homma/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "27ed0fa5ca3cce9ab6bfafd59bb242820d2c7a1be47cfc38b7a5fb34b0c89487"
+      },
+      {
+        "path": "/creators/katsu-angela/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/katsu-angela/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "19473a92fe5c135b7a62d7e276d50195820eb7444e573c59d6998759b7827c62"
+      },
+      {
+        "path": "/creators/chiyomaru-shikura/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/chiyomaru-shikura/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4e83088c7ba95193c3fd10ca5d1f9a4b121e00f31866f927e148991afb77f2f3"
+      },
+      {
+        "path": "/creators/hiroyuki-maezawa/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hiroyuki-maezawa/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6b8b913b51edf692e11f32d9357a8f714eb2e632294a61d4825534766ffda7e3"
+      },
+      {
+        "path": "/creators/ayato-shinozaki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ayato-shinozaki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6ad186339b496ec1e17490ff3d37018cbea109dcc31f81f53dca2f0a96b89787"
+      },
+      {
+        "path": "/creators/ryo-supercell/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ryo-supercell/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7f83cd972adf96ea1fff92b4e89c6f47d65a660d26492f896fd0e86177d2f433"
+      },
+      {
+        "path": "/creators/arm-iosys/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/arm-iosys/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "231e5a9c086703a82785bad437c568a793568a38b344ea3eb43d2b70c75b9da9"
+      },
+      {
+        "path": "/creators/gen-04-limited-sazabys/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/gen-04-limited-sazabys/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cb75237c72a7ee91f02adcd1ef942f1c5fd5a1f0bd1a422ad2e85d022c34e6b5"
+      },
+      {
+        "path": "/creators/yasu-janne-da-arc/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/yasu-janne-da-arc/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "ff7292fed5e0c04379af58058cf6b0660d810a87db75331fee45062cfc752ea7"
+      },
+      {
+        "path": "/creators/mizuki-sena/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/mizuki-sena/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e62deca20bbde14b7f7fdf9b045788d9b39675838b8342c247407cfdc47e2094"
+      },
+      {
+        "path": "/creators/take-flow/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/take-flow/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "527cebf50543bcbf9934c3f26d090d608daa054586f69ea1c7806670caea7371"
+      },
+      {
+        "path": "/creators/natsuki-shoji/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/natsuki-shoji/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c53a70fd651a69305ec0e862d836ae06979dd122d02f965f15f02b9dc9811559"
+      },
+      {
+        "path": "/creators/john/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/john/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "00a327711dcef7102f35120012c4a3d9ab6740edd23d74438253c5099c1ebe5f"
+      },
+      {
+        "path": "/creators/asuka-oda/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/asuka-oda/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "839ecda4959a4287585c4422aaa7cf19620c6e5f2c064bc8f62be40072620afd"
+      },
+      {
+        "path": "/creators/kou-nakamura/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kou-nakamura/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "af8111a3461d46e5eddf3bea8a622cd5a1fb2ef7c25256b91a267946ed67e742"
+      },
+      {
+        "path": "/creators/spirit-garden/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/spirit-garden/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2ccf02f37a84c74acc489807ae2b53156c9632b182bb508d6ee4a537625beb63"
+      },
+      {
+        "path": "/creators/kenzo-ueki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kenzo-ueki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "dc0c8f60a7639841627a4c6393cc40b410dfefd4e2e9618dbccb43d38af540ab"
+      },
+      {
+        "path": "/creators/masaki-fujiwara/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/masaki-fujiwara/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "71fd7a5c19328891757d8d5288fafb7b330670357d91395e0af9d5761d7cafc5"
+      },
+      {
+        "path": "/creators/shoko-oomori/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shoko-oomori/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1e29f0a57502009baae9cd110d6ec98438d361899a77a7ee152851c054f80aae"
+      },
+      {
+        "path": "/creators/seonoo-kim/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/seonoo-kim/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2b26a23307d1befc3c29a688577fbcd4a7e485e935212781767617a0f8299c75"
+      },
+      {
+        "path": "/creators/aki-hata/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/aki-hata/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6d0c5f203b2a164ca2ddd4c00fd1c3c5d61efe4ad9a27478038b45af82482f64"
+      },
+      {
+        "path": "/creators/kotaro-shimoda/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kotaro-shimoda/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "98f53b0329d4c24d49180ffece33fc56e128c1cf6f8f5027d9dfef773b356ddd"
+      },
+      {
+        "path": "/creators/momiken/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/momiken/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4f2c81261fdcb94c77a34d0094d32e8884b2123bb09da9fc8afb5dee901fff61"
+      },
+      {
+        "path": "/creators/john-kanda/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/john-kanda/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "abe7f87cc8fec4f2a8e04deae16a44aed9ce04339eb4fae919cbd4cd35ed9b78"
+      },
+      {
+        "path": "/creators/neko-oikawa/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/neko-oikawa/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "325ef3b922fa5507ec7e4e1f41f629d1349a97ed9f6150d59a160f658833f8c1"
+      },
+      {
+        "path": "/creators/jun-maeda/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/jun-maeda/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d91f77328b5320cc47bf7be2bc132d52f9ddae4d2cbdd10a0ce2450e05e5fabd"
+      },
+      {
+        "path": "/creators/gakushi-ogi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/gakushi-ogi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5f61355ee7884658c3b58a1ddca8d48d8b10b5ffd47324004dd5d1b47f4f07d3"
+      },
+      {
+        "path": "/creators/arale-nakamachi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/arale-nakamachi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "75d0c00dff4237bb54f963797683e800196fd5e0f7dfc349ff7b4b2021274d4c"
+      },
+      {
+        "path": "/creators/ano/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ano/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0a121134793e001a86428a8d47765735f33ca77d06cff2c6dc9014318b5c91eb"
+      },
+      {
+        "path": "/creators/nana-mizuki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/nana-mizuki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "748d0a8db037fc5c979d160eb8f1f97f461c9af9da5b6a8cc610506acf4b4c7a"
+      },
+      {
+        "path": "/creators/aira/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/aira/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "66ce00471c494e2e42b25f7bf3a813f935e37cd78510a884aa1dcfc8f1ed6eca"
+      },
+      {
+        "path": "/creators/shingo-anami/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/shingo-anami/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "77d3d6e150d9ec07716a4d91f4dec480cdd2c343898761a23499f4f3c8c236bf"
+      },
+      {
+        "path": "/creators/issey-kobayashi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/issey-kobayashi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "eb4c11db90edde1d4b3a64b3592a120013a286d5dd3e0f797bff18037c6941ae"
+      },
+      {
+        "path": "/creators/gom/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/gom/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f67744d6a3c1f9b9b11c42d92cafbdcb01f80e48adf7e9354f08bfe2cde0a577"
+      },
+      {
+        "path": "/creators/peppe/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/peppe/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6ce8cce61928dda42a343a4f8517f7144687594fb128e008038ae64da490253d"
+      },
+      {
+        "path": "/creators/samfree/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/samfree/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0baa48e8b51bd2ecd1699f511f52d020206c7ee53c23bdec0d22a0bc3ad350ca"
+      },
+      {
+        "path": "/creators/hidetoshi-sato/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hidetoshi-sato/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0ec92fc9d6ec851c45273f72f96c429e53d5b2b34c8db0f63bb305154a859b8f"
+      },
+      {
+        "path": "/creators/haruko-nagaya/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/haruko-nagaya/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "fa76d4f4f31ebdbb0793b20561fdcd6a8bf99e3dda70aa92177fa9e81d231105"
+      },
+      {
+        "path": "/creators/kyoichi-miyazaki/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/kyoichi-miyazaki/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0b3f10d6907d3e0d77f66f9e39f4060334f06b5f43eb01c7f656c3aff8bf3f60"
+      },
+      {
+        "path": "/creators/takahito-makishima/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/takahito-makishima/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4e925edf90c8b2d1b75611c70b054b71b764fe6379d4cca40f785a9dd4e81f59"
+      },
+      {
+        "path": "/creators/hideki-hayashi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/hideki-hayashi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c0eb19ca6c4e26e1baa953ce4f944a18bc78f1b61ce2f75c2c112f05d5141f89"
+      },
+      {
+        "path": "/creators/haruki-mori/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/haruki-mori/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "25d81815c3591b78ecd3f8d5d32f3f28a111d249c7350ad5ed8f3de09b1c1576"
+      },
+      {
+        "path": "/creators/karasuya-sabou/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/karasuya-sabou/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "01cbbbf833b0052e85d0090c7b9e07e7c315fdd81cf899e39f48c984dc8c9b7b"
+      },
+      {
+        "path": "/creators/ryusei-kawabuchi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/ryusei-kawabuchi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9ee8374708cf02503d2c40965ba14df2bb3dba2efbe3d5aebeeb96190a537002"
+      },
+      {
+        "path": "/creators/haruichi/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/haruichi/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c70c6f19662fb23db74df79e248950626163b7bb18d1ff8429b24555ceb1642d"
+      },
+      {
+        "path": "/creators/o-saka/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/creators/o-saka/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0eb34d14cd8c48d3ee96b30aba862e249bd6430a2ce6b4ddb0de27bae8265276"
+      },
+      {
+        "path": "/ournotes/songs/75/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/75/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1352d6cc18fbff6845a6594116b173952ce190d4be889a6475e3ccf05252993f"
+      },
+      {
+        "path": "/garupa/songs/249/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/249/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3a67a9ff72673e6da5d12423ddecc99db9a590bb8b7f49d1c645c6328f27f207"
+      },
+      {
+        "path": "/garupa/songs/738/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/738/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "440f0c1ee8bfceb368d9b07dc8ee79f1f9edccbe10927caea301595d61abf279"
+      },
+      {
+        "path": "/ournotes/songs/66/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/66/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f9c470b6c2a3d275fba8b5c95504030465616914a27e299ac032e36b999bc9dc"
+      },
+      {
+        "path": "/ournotes/songs/33/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/33/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a244b1ee6faac6cd4299bf20b51d621bccbe021e388693138e83c41b681620d0"
+      },
+      {
+        "path": "/garupa/songs/218/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/218/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "98de237ce3c0049df738c73b6c19316e1774c9b8da91016a4d0bbb57c420481c"
+      },
+      {
+        "path": "/ournotes/songs/86/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/86/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8fef1a30590bdf11bcb44dd166f82f6c3f53e457b1b2b82e85afe5e3792e9917"
+      },
+      {
+        "path": "/ournotes/songs/14/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/14/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c1ed876a33f2a4fa0c96f0d1740d3852501f0e1901afd1b975cbd1dd0a954cab"
+      },
+      {
+        "path": "/garupa/songs/176/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/176/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3f9a5836feb0a14d5ef00182c23ea4d85a038bf31b93eecdfb6021db5d617ae1"
+      },
+      {
+        "path": "/garupa/songs/44/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/44/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e66d16a6085ab2585e0329806cda74078fa4775e1b60bf54fdb719141cefb989"
+      },
+      {
+        "path": "/garupa/songs/85/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/85/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d59d6f2ab048b1ddb7fc10a35b2798d9a0ab4d74afb01eca5493dc2f984b5897"
+      },
+      {
+        "path": "/garupa/songs/23/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/23/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "63c672451f9dad7fe113dfbffabb27d2fac60a38d8a91037e77e7990f616493b"
+      },
+      {
+        "path": "/garupa/songs/38/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/38/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a316a153e407344ad5b80a126db789bf85efe64ba09a1becb74aef74d057c1bf"
+      },
+      {
+        "path": "/garupa/songs/35/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/35/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "470689cec7e3aef80ab30016f8c938176af6db071a1e2cf6c3554510f5174e80"
+      },
+      {
+        "path": "/garupa/songs/24/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/24/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "72feb3aaa1b8bb3c709fa3a6d86f813706d94196e34ebe02580e6f64c3b82da3"
+      },
+      {
+        "path": "/garupa/songs/28/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/28/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "b8c1f7eec2ff2140af48e030eefe30191c63ffcdb797adea94b76005acba1b04"
+      },
+      {
+        "path": "/garupa/songs/27/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/27/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4b0e2b52797e0c4460900c1f843913e708faf458b4de48234c9cce91b87e4b7a"
+      },
+      {
+        "path": "/garupa/songs/243/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/243/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "74f8ca580a4f39248427c67ac37d04aeae8f4423fedc33a5605196e74bb35b32"
+      },
+      {
+        "path": "/garupa/songs/231/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/231/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "465bbe8c4b358e62a73305663d6bacdd0a78e1e431d0ca9e5db3ed5ac1c599fe"
+      },
+      {
+        "path": "/garupa/songs/33/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/33/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7d9783499213bf4d1c86b4d7d147f3133a5fa66e379368a59ff2a687299e970d"
+      },
+      {
+        "path": "/garupa/songs/51/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/51/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "dee815a86cb1c300bfc7cab564cd316b3ae2733a0c88d0a2d91adc80f27ae4bd"
+      },
+      {
+        "path": "/garupa/songs/47/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/47/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5f6b5abb3702af57298f6d86e03ab3807b7d6905bfed3103121cf29e72e986a4"
+      },
+      {
+        "path": "/garupa/songs/220/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/220/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8bd8b7d4cc54b7d07d016dabde8da9e2601524f805663616cbad34b67c652653"
+      },
+      {
+        "path": "/garupa/songs/78/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/78/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2a0cabdef666587cb55c480f9f3f1bdfa87c4600569599e29d57d4e747703dfa"
+      },
+      {
+        "path": "/garupa/songs/246/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/246/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "56b78291962ec15688dc3c3687a16ac6761b2f817edbb7b0bc3f58192d257d4a"
+      },
+      {
+        "path": "/ournotes/songs/4/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/4/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3e0e09712eb9a4226d110dc80a16e1bd0d1b3d2ee49741c44ebf87255b5aa82e"
+      },
+      {
+        "path": "/ournotes/songs/3/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/3/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "76ac81548a6118f8eba5eac63d84d0d739213b21b00591f5808f05eed4f31d80"
+      },
+      {
+        "path": "/ournotes/songs/1/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/1/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d946e3367456bd9f2c455d7d2fe84a78272635eef3d9762f8c7f8eac540a6e9c"
+      },
+      {
+        "path": "/ournotes/songs/2/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/2/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "83fb88b1e1735874326ca6f0fbc1d29016c214b35361c0a2d0221832051264e1"
+      },
+      {
+        "path": "/garupa/songs/248/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/248/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "990838117118bbede70b7802cf43532e4f29927df49e56f136ec60384c689f67"
+      },
+      {
+        "path": "/garupa/songs/272/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/garupa/songs/272/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4586f82b1c751deda9d82f5ebcdf696dc6adb539cf0833b17f4cb566a8da834b"
+      },
+      {
+        "path": "/ournotes/songs/5/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/5/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "dc71876e6cf03a422d5d92016d35ab0c398fb0c45d1d392aaa94142d6b645deb"
+      },
+      {
+        "path": "/ournotes/songs/9/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/9/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7ebe799ba73503522e53193e409a90c6af46a6031dc179393e67892971047ccf"
+      },
+      {
+        "path": "/ournotes/songs/12/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/12/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "252eeff8b19f088a55ce258043b483af243ff0b4a5a23b4ecb50c43dbf9e1989"
+      },
+      {
+        "path": "/ournotes/songs/6/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/6/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4bf4764df086fb4e108ec1974e5c427c61af413e0ebb6be6d1f95d2c25ba2490"
+      },
+      {
+        "path": "/ournotes/songs/11/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/11/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cef30f5202ef9ca912bdc27ea9fe94b785be120f1d3534b5b944fac780095180"
+      },
+      {
+        "path": "/ournotes/songs/7/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/7/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "80f6430f6c7fbecf85091b905ac4581b77deeeae26c8cdac9b35fa943268ce9b"
+      },
+      {
+        "path": "/ournotes/songs/13/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/13/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c1b4f5e1726bfd3599861951037ac1a9e2187d3f0751012d66485489104ba9b2"
+      },
+      {
+        "path": "/ournotes/songs/8/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/8/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6f3545df323db2f264f37cccf16ccabeb3991884bfb42ddf168a0d3f8d9e978d"
+      },
+      {
+        "path": "/ournotes/songs/10/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/10/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1625c13435a2d7ca2571515ff4d8f587d5797e5d25bfa765b110ab3175e8fc48"
+      },
+      {
+        "path": "/ournotes/songs/19/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/19/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3da3bc241dd7324797ee3387f651f200a993f4b0be519c917f3dad5c90b4e6e4"
+      },
+      {
+        "path": "/ournotes/songs/16/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/16/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "62be8ed7973b2e59effa85de70f85c1dc5e6ad805e6249621b441b11c90e1a88"
+      },
+      {
+        "path": "/ournotes/songs/81/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/81/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cf2b571d5a5a85787edc5105269b1b28bc59a1e68fff09bee538b74d5efe59e6"
+      },
+      {
+        "path": "/ournotes/songs/22/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/22/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7bfccb01e733d52963e52e3f87959e8e16b49141e3c9c095ac8ed47046637209"
+      },
+      {
+        "path": "/ournotes/songs/20/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/20/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "7d9a75f31a3d62dae56dd88444603ae329f8b2670bbfbdc899a45a455bbf0728"
+      },
+      {
+        "path": "/ournotes/songs/17/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/17/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "345c20b5d9403fc8f5380c688e33a1de3a84cef93d58a40b408e353116cf8c6b"
+      },
+      {
+        "path": "/ournotes/songs/15/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/15/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "16ab27febb9460b60a4ab46c191cebf2b243f52732ca499b1c41bb7c1b663f33"
+      },
+      {
+        "path": "/ournotes/songs/18/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/18/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a02dab9c2677bd37fea572f9bfdf66c1f15317dda1120ad7f9b937d55f280866"
+      },
+      {
+        "path": "/ournotes/songs/23/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/23/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6f0c33c017282359b891fdcbfa7b4cec9cc8e3e1f73ad3369f17354b3667b0d4"
+      },
+      {
+        "path": "/ournotes/songs/28/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/28/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "f097c4ba908a1bddfd98bcb09eefe038b695ffa66ebc693aa08b644c3860c271"
+      },
+      {
+        "path": "/ournotes/songs/27/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/27/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a7515d40ddb40a8a6b94476b36a8203cfa9f2ef4b3ca07c986069cb1f053f429"
+      },
+      {
+        "path": "/ournotes/songs/26/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/26/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "47ac238b0e27fb388e3235ca219c365beac081b3fd78dbf6efd840d86bdcfaf8"
+      },
+      {
+        "path": "/ournotes/songs/24/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/24/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "18514e0731afb52bd7befceb132eebc1af4bd88fee439e1cdf2e6d400bd5748f"
+      },
+      {
+        "path": "/ournotes/songs/29/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/29/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "52eabf0f531c36b0609bcb4f1dfbc42af3044c8c09354507d81a194d3195358f"
+      },
+      {
+        "path": "/ournotes/songs/25/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/25/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "77823ec1df1303dbb05d4f63748b584c4a23625e090959fb96ad0d74654f82a6"
+      },
+      {
+        "path": "/ournotes/songs/32/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/32/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "088e229e19eb366d49ba93ddf97654797a197d596a6c78f493c9d04fae644f98"
+      },
+      {
+        "path": "/ournotes/songs/36/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/36/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "76399ffd225f70ea927061949174602a788b72412cef399d6ce1f68b14b91920"
+      },
+      {
+        "path": "/ournotes/songs/37/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/37/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "439cf2b0383e20283a3f964436225c6155fe2c506ab1bde32d8053c89724b595"
+      },
+      {
+        "path": "/ournotes/songs/31/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/31/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "37d0a4eca2a7a1f5f38e4a6e35d0f9f76ea40fda58c1b5d388aa4abd866b82f7"
+      },
+      {
+        "path": "/ournotes/songs/38/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/38/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "3c0c0272d7d7542006ac0cdc0c60911e213b623e4b4c3b92550d51c0a043ae1a"
+      },
+      {
+        "path": "/ournotes/songs/35/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/35/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e18bee856ff02832230a622e114d1adfcb667e621b022b341d8c07f36f0dbb87"
+      },
+      {
+        "path": "/ournotes/songs/30/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/30/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "0b98c7e58a4480cb308f2d54d054201282cca72480762133dcd5a7aee803a130"
+      },
+      {
+        "path": "/ournotes/songs/34/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/34/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "84da9b25cf8e1f951f49a8c01dd29f4f0dcfac1f31434101f2828cd86725c392"
+      },
+      {
+        "path": "/ournotes/songs/42/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/42/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e6d34a6c1f66206c0f45478d662a2957912422a2964c991c452b062fc7950826"
+      },
+      {
+        "path": "/ournotes/songs/44/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/44/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5985583813b41fa8bb3a6e773e92264958958fc4e59bfebe0504222dd361a958"
+      },
+      {
+        "path": "/ournotes/songs/46/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/46/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "11ffa9c06cf50dead6e53e616d21bf00bc7bc9d062dbb5807a245007befd9448"
+      },
+      {
+        "path": "/ournotes/songs/41/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/41/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "70760c09d2ffdb1ac3e9bd9ca20942243ba2fdb33b27b90fe10974d2e9b4b8c7"
+      },
+      {
+        "path": "/ournotes/songs/83/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/83/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "49e0b20f9222f8564572b083c0dbfa9947a3317b582ae4fd318ca16975044496"
+      },
+      {
+        "path": "/ournotes/songs/39/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/39/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8ad2ed3e35449f3983c8eb217f2ea930dd0f55b931b9269df42eeebad5c032f2"
+      },
+      {
+        "path": "/ournotes/songs/45/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/45/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "48f356e6fc5107a0099a0dd363b95aa9a364753dd23d490f9d2db46170226cc5"
+      },
+      {
+        "path": "/ournotes/songs/43/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/43/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "549e955ebe854bad3bd9913c950c8b2116a21f6f04cb9ad13b439896573a0ceb"
+      },
+      {
+        "path": "/ournotes/songs/49/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/49/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9a58e1b654a94c3733a0af404c891597e95cc7ccfbe67177e7cb63797f2ca013"
+      },
+      {
+        "path": "/ournotes/songs/47/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/47/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "fa5e54260a2ff78b723e05ab7b368a3e33f8d83e59b19ef05ee806c4dc5ae199"
+      },
+      {
+        "path": "/ournotes/songs/51/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/51/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2421bc27a032f5077c24e584b3a2ebd1820eba42ae91f7fc815e0b354d9f3a08"
+      },
+      {
+        "path": "/ournotes/songs/52/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/52/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cbf1e273a6613e3aea3a9ce28aa8f06685f88759e544ca528502ac1f6bae5598"
+      },
+      {
+        "path": "/ournotes/songs/48/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/48/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "5e0f09665e51e4fbf485de1dd64b0eb6cad87d4d659515bda76bb330da5b13b5"
+      },
+      {
+        "path": "/ournotes/songs/54/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/54/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "04c3139cd4540935371ed62eea002e4c4a1364553555945318520bd6194a919f"
+      },
+      {
+        "path": "/ournotes/songs/50/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/50/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "72e872c78e188f4c4cf0355dbafcd79d663a89664688c86fc83cf2e4d82e00f1"
+      },
+      {
+        "path": "/ournotes/songs/53/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/53/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "aa65e8843f7d255ac65e6bd2bea6d86d147127da00bc3cd7cf56db247950787c"
+      },
+      {
+        "path": "/ournotes/songs/56/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/56/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d3b2c6db1dc06a19b64a6edafbb240347bed5d78a1eebedd815d7f9088766a83"
+      },
+      {
+        "path": "/ournotes/songs/62/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/62/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e896dbeecbba9fa6e8af8e58dc3ff5c83af68bd87539dee99282a827bdac7f87"
+      },
+      {
+        "path": "/ournotes/songs/57/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/57/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "da558a6a21c290ff741091036d232b10b1a058eaa7fee40182a23f3fc69899c8"
+      },
+      {
+        "path": "/ournotes/songs/59/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/59/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "6bf0b4084722cddb8b55438494bea1b91b68a13596e3ac13edd285f31f9969f7"
+      },
+      {
+        "path": "/ournotes/songs/58/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/58/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "99567999e7e8b9eaf140a21b05d924a37edcb01070a2caa22aca2568dfb29fb2"
+      },
+      {
+        "path": "/ournotes/songs/55/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/55/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "36d66f5f57d8d92d2221207545dc575cd0295cba978808281058af0e5699dd78"
+      },
+      {
+        "path": "/ournotes/songs/60/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/60/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4d3e9ab902e0abe1a0c0385ad3252732a6339d547b7b225e2e5bfa03e2efe646"
+      },
+      {
+        "path": "/ournotes/songs/80/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/80/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "15c136a4cc4c67f135d77c9f67d9578f3a66907e4e09f4417eadb438eac3f38c"
+      },
+      {
+        "path": "/ournotes/songs/85/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/85/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "cd6649238b91f80bfd34a38c49ae608db8a20ec57012ea48df90197af04232b6"
+      },
+      {
+        "path": "/ournotes/songs/64/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/64/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2520235227e525e49d26c837c54884da9b4e034cd8f2786eec231af15c96503b"
+      },
+      {
+        "path": "/ournotes/songs/67/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/67/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "191c8d8449ecffe672917fbbda50095234b32b7c19c99ad3b4173cdade781477"
+      },
+      {
+        "path": "/ournotes/songs/69/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/69/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "35e5033847d62d0cb5a52b0c922eb93bc3e780eaf2346b70c18c0abb2a2a6cb1"
+      },
+      {
+        "path": "/ournotes/songs/63/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/63/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "770d148eb47ff8a6466ba70d5b249e71eb58d7350dae10dc0ba17309462f7ebe"
+      },
+      {
+        "path": "/ournotes/songs/65/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/65/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "89a5efe6ab247af26204e1c02de0d4839ddd849eb9594d954c7dcf60a38a91fc"
+      },
+      {
+        "path": "/ournotes/songs/68/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/68/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "9d8819beff9bd52df34e75173d952467c20e561ed705a4df94f9f17772d50f7e"
+      },
+      {
+        "path": "/ournotes/songs/71/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/71/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "46c69b9e33ebf55a422e08e048f7b7c5e5607f084855acf372605df0780b9f53"
+      },
+      {
+        "path": "/ournotes/songs/73/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/73/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "195dcbfeb1587b2adbe0a78048f91939aa2c3b32220d8175779a139e001203f1"
+      },
+      {
+        "path": "/ournotes/songs/74/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/74/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "732051f2e6b86fb63aa9ed96be3ba0f3e602ebb94bda54eb3951ee98ac4332c8"
+      },
+      {
+        "path": "/ournotes/songs/82/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/82/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "c0be71f0ac64ec028c6dddc526801a2ab1147f1e3cd7a9a15f4f1fc957e923a9"
+      },
+      {
+        "path": "/ournotes/songs/72/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/72/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "1a8bc99df5f85fc106479de33f7e6f56a42dcd8bfff1758c236547ce77eaa257"
+      },
+      {
+        "path": "/ournotes/songs/76/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/76/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "96e4c8c30d494fa45492a8afc7d3cea68bbcb43d0e86e349370e607626deb70f"
+      },
+      {
+        "path": "/ournotes/songs/78/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/78/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d2b609ee63e7cf47ea44abd2f4f99d6cca35b96ed9422797555a62414f17738c"
+      },
+      {
+        "path": "/ournotes/songs/84/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/84/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "8418f780ffb365aea79ac3d571e80f6adc9c6752163fa226098d950963875709"
+      },
+      {
+        "path": "/ournotes/songs/79/",
+        "status": 200,
+        "url": "https://tanimachi-bdsongs.com/ournotes/songs/79/",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "4232dae585fdccb036e0b2c20ca9b74315c0850cf282fb61e406a68610d3c542"
+      },
+      {
+        "path": "/api/contact",
+        "status": 405,
+        "url": "https://tanimachi-bdsongs.com/api/contact",
+        "location": null,
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "2352868e88eee34751f9186d8eb8a0d07db8cc172ad241e507fa184f13072e59"
+      },
+      {
+        "path": "/creators/creator-0003/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0003/",
+        "location": "/creators/syuichi-mabe/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "3295e0ecf03e54a3b2e74468924cd27c1fe5d2c492504caa9fafe1c791a227a3"
+      },
+      {
+        "path": "/creators/creator-0003",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0003",
+        "location": "/creators/syuichi-mabe/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "3295e0ecf03e54a3b2e74468924cd27c1fe5d2c492504caa9fafe1c791a227a3"
+      },
+      {
+        "path": "/creators/creator-0004/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0004/",
+        "location": "/creators/junpei-fujita/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "f03e8a1664f1a32b4e881c575ae3c5b75766239427e728734d4561465272832c"
+      },
+      {
+        "path": "/creators/creator-0004",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0004",
+        "location": "/creators/junpei-fujita/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "f03e8a1664f1a32b4e881c575ae3c5b75766239427e728734d4561465272832c"
+      },
+      {
+        "path": "/creators/creator-0020/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0020/",
+        "location": "/creators/yuki-hidaka/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "142aabd7544f775afd14a71ab6ec5188360d4ecae1cf45065143d8d473edfa25"
+      },
+      {
+        "path": "/creators/creator-0020",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0020",
+        "location": "/creators/yuki-hidaka/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "142aabd7544f775afd14a71ab6ec5188360d4ecae1cf45065143d8d473edfa25"
+      },
+      {
+        "path": "/creators/creator-0021/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0021/",
+        "location": "/creators/ryota-suematsu/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "1f4c33a0eef208ed20423df06431ed2af6efca5d1ebfecebaa3d3ca63b612873"
+      },
+      {
+        "path": "/creators/creator-0021",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0021",
+        "location": "/creators/ryota-suematsu/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "1f4c33a0eef208ed20423df06431ed2af6efca5d1ebfecebaa3d3ca63b612873"
+      },
+      {
+        "path": "/creators/creator-0024/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0024/",
+        "location": "/creators/satoshi-fujihara/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "78fb9501ac0371ba6ef7b63ec390385ca232860f5680b58d650bf8d98683f643"
+      },
+      {
+        "path": "/creators/creator-0024",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0024",
+        "location": "/creators/satoshi-fujihara/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "78fb9501ac0371ba6ef7b63ec390385ca232860f5680b58d650bf8d98683f643"
+      },
+      {
+        "path": "/creators/creator-0027/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0027/",
+        "location": "/creators/tomoya-tabuchi/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "2bd1dd7350740cf626ee83f9f940594e66f6384c04fda20e18f312247358979a"
+      },
+      {
+        "path": "/creators/creator-0027",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0027",
+        "location": "/creators/tomoya-tabuchi/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "2bd1dd7350740cf626ee83f9f940594e66f6384c04fda20e18f312247358979a"
+      },
+      {
+        "path": "/creators/creator-0041/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0041/",
+        "location": "/creators/kairiki-bear/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "9a0cdd17c1dc1f98e3fe8e3e37d7c2155449c303afa5b24d65234fc3106547ea"
+      },
+      {
+        "path": "/creators/creator-0041",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0041",
+        "location": "/creators/kairiki-bear/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "9a0cdd17c1dc1f98e3fe8e3e37d7c2155449c303afa5b24d65234fc3106547ea"
+      },
+      {
+        "path": "/creators/creator-0048/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0048/",
+        "location": "/creators/mikiya-katakura/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "2f088410491b52903ca5a79c071202d88f90cb89a30e04cc9fff061418e6e46a"
+      },
+      {
+        "path": "/creators/creator-0048",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0048",
+        "location": "/creators/mikiya-katakura/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "2f088410491b52903ca5a79c071202d88f90cb89a30e04cc9fff061418e6e46a"
+      },
+      {
+        "path": "/creators/creator-0050/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0050/",
+        "location": "/creators/kenichi-maeyamada/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "501b5fc6a1a292239b3014bd59e54856fb14df99f3005644f89ac68b2d19f7b9"
+      },
+      {
+        "path": "/creators/creator-0050",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0050",
+        "location": "/creators/kenichi-maeyamada/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "501b5fc6a1a292239b3014bd59e54856fb14df99f3005644f89ac68b2d19f7b9"
+      },
+      {
+        "path": "/creators/creator-0053/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0053/",
+        "location": "/creators/junichi-sato/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "b680a6659a7d08d96aed1133091bb4388091992bcb9e6572b26820af8daa903c"
+      },
+      {
+        "path": "/creators/creator-0053",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0053",
+        "location": "/creators/junichi-sato/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "b680a6659a7d08d96aed1133091bb4388091992bcb9e6572b26820af8daa903c"
+      },
+      {
+        "path": "/creators/creator-0072/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0072/",
+        "location": "/creators/shintaro-tokita/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "5c7a60d4f4c355a0a2e9eff3e03c8af30dd52b1c042a64468d16537da835e1ae"
+      },
+      {
+        "path": "/creators/creator-0072",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0072",
+        "location": "/creators/shintaro-tokita/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "5c7a60d4f4c355a0a2e9eff3e03c8af30dd52b1c042a64468d16537da835e1ae"
+      },
+      {
+        "path": "/creators/creator-0073/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0073/",
+        "location": "/creators/takuya-ohashi/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "71267373ee4ad80310a4b333475c165a45b5499d6c2bfb8ea286a3736ee7ded2"
+      },
+      {
+        "path": "/creators/creator-0073",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0073",
+        "location": "/creators/takuya-ohashi/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "71267373ee4ad80310a4b333475c165a45b5499d6c2bfb8ea286a3736ee7ded2"
+      },
+      {
+        "path": "/creators/creator-0075/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0075/",
+        "location": "/creators/shoji-meguro/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "22e3588dc18aaf5ef8677d091efef6aa6bf2cb00f0ef3aca5f93225239060fda"
+      },
+      {
+        "path": "/creators/creator-0075",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0075",
+        "location": "/creators/shoji-meguro/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "22e3588dc18aaf5ef8677d091efef6aa6bf2cb00f0ef3aca5f93225239060fda"
+      },
+      {
+        "path": "/creators/creator-0081/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0081/",
+        "location": "/creators/hiroyuki-maezawa/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "a0cb60453e5904c106612bc2cd0c4644b91ed9bdc3b7015080cf3711acad472e"
+      },
+      {
+        "path": "/creators/creator-0081",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0081",
+        "location": "/creators/hiroyuki-maezawa/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "a0cb60453e5904c106612bc2cd0c4644b91ed9bdc3b7015080cf3711acad472e"
+      },
+      {
+        "path": "/creators/creator-0082/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0082/",
+        "location": "/creators/chiyomaru-shikura/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "7c6f88890adc4d1cf009e4e3267ce3b38422582e9e434cb386158cc59e835e51"
+      },
+      {
+        "path": "/creators/creator-0082",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0082",
+        "location": "/creators/chiyomaru-shikura/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "7c6f88890adc4d1cf009e4e3267ce3b38422582e9e434cb386158cc59e835e51"
+      },
+      {
+        "path": "/creators/creator-0083/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0083/",
+        "location": "/creators/ayato-shinozaki/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "fb1aa01ff3b8d5f5398816bbc9251f2b2b5bbb547cd5e2f8e192ad8502f70dfb"
+      },
+      {
+        "path": "/creators/creator-0083",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0083",
+        "location": "/creators/ayato-shinozaki/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "fb1aa01ff3b8d5f5398816bbc9251f2b2b5bbb547cd5e2f8e192ad8502f70dfb"
+      },
+      {
+        "path": "/creators/creator-0089/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0089/",
+        "location": "/creators/natsuki-shoji/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "62d4c25db268703542625b4177b49376c6308a7152f3aadf6fbadcd1bbb57dcd"
+      },
+      {
+        "path": "/creators/creator-0089",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0089",
+        "location": "/creators/natsuki-shoji/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "62d4c25db268703542625b4177b49376c6308a7152f3aadf6fbadcd1bbb57dcd"
+      },
+      {
+        "path": "/creators/creator-0090/",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0090/",
+        "location": "/creators/mizuki-sena/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "eb3c6cffc52a8b2b5d9742faa669a3fd6027b16f9699aa49604fc4393a521549"
+      },
+      {
+        "path": "/creators/creator-0090",
+        "status": 301,
+        "url": "https://tanimachi-bdsongs.com/creators/creator-0090",
+        "location": "/creators/mizuki-sena/",
+        "contentType": "text/plain;charset=UTF-8",
+        "sha256": "eb3c6cffc52a8b2b5d9742faa669a3fd6027b16f9699aa49604fc4393a521549"
+      },
+      {
+        "path": "/docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+        "status": 404,
+        "url": "https://tanimachi-bdsongs.com/docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a18604856d3c90883a82be991da1136c34f00c076404b1eb329371375b93a4f6"
+      },
+      {
+        "path": "/docs/migrations/credits-phase-b1-2026-10-03/identity-evidence.json",
+        "status": 404,
+        "url": "https://tanimachi-bdsongs.com/docs/migrations/credits-phase-b1-2026-10-03/identity-evidence.json",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a18604856d3c90883a82be991da1136c34f00c076404b1eb329371375b93a4f6"
+      },
+      {
+        "path": "/docs/migrations/credits-phase-b2-2026-10-03/human-review.json",
+        "status": 404,
+        "url": "https://tanimachi-bdsongs.com/docs/migrations/credits-phase-b2-2026-10-03/human-review.json",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a18604856d3c90883a82be991da1136c34f00c076404b1eb329371375b93a4f6"
+      },
+      {
+        "path": "/docs/migrations/credits-phase-b2-2026-10-03/release-parallel-preservation.json",
+        "status": 404,
+        "url": "https://tanimachi-bdsongs.com/docs/migrations/credits-phase-b2-2026-10-03/release-parallel-preservation.json",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a18604856d3c90883a82be991da1136c34f00c076404b1eb329371375b93a4f6"
+      },
+      {
+        "path": "/docs/migrations/credits-phase-a-2026-10-03/manual-arranger-review.json",
+        "status": 404,
+        "url": "https://tanimachi-bdsongs.com/docs/migrations/credits-phase-a-2026-10-03/manual-arranger-review.json",
+        "location": null,
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "a18604856d3c90883a82be991da1136c34f00c076404b1eb329371375b93a4f6"
+      }
+    ],
+    "staticAssetsProof": "production-assets-verification.json"
+  },
   "history": {
     "originalB2": "pre-release-b2-sources.json.gz",
     "metadataRelease": "release-verification-before-joint.json",
@@ -302,14 +2978,14 @@
     ]
   },
   "remaining": [
-    "commit",
-    "normal push",
-    "CI/Cloudflare SHA",
-    "production verification",
-    "65 final report"
+    "identity/split raw fallback",
+    "OurNotes80+new1 in-game arranger collection"
   ],
   "failuresAndRecovery": [
-    "This resume: inline node quoting failed; saved script used. New composer master match was zero; preserved raw instead of inventing Creator. Functions pnpm exec lacked local binary, npx absent, pnpm --offline dlx unsupported; known pnpm dlx4.143.0 command succeeded. UI navigation during rebuild was blocked; no security bypass. Latest remote 往欄印 retained and rebuilt."
+    "This resume: inline node quoting failed; saved script used. New composer master match was zero; preserved raw instead of inventing Creator. Functions pnpm exec lacked local binary, npx absent, pnpm --offline dlx unsupported; known pnpm dlx4.143.0 command succeeded. UI navigation during rebuild was blocked; no security bypass. Latest remote 往欄印 retained and rebuilt.",
+    "Cloudflare release769bbed used direct old test command:237 tests/212 pass/25 fail from historical/current-data mismatch. Required pnpm test command documented; authenticated dashboard change pending.",
+    "This resume: inline node quoting failed; saved script used. New composer master match was zero; preserved raw instead of inventing Creator. Functions pnpm exec lacked local binary, npx absent, pnpm --offline dlx unsupported; known pnpm dlx4.143.0 command succeeded. UI navigation during rebuild was blocked; no security bypass. Latest remote 往欄印 retained and rebuilt.",
+    "Cloudflare first attempt bypassed the historical fixture runner: 237 tests, 25 failures. Build command switched to pnpm test, same 769bbed retried, 253 tests and deploy passed. No product hotfix. Production QA strict HTML adjacency failed on whitespace, corrected without weakening value checks. Local/deployed asset versions differed because raw input line endings differ; all 33 deployed assets verified exactly against release Git blobs and the calculated Linux version. Viewport override applied to selected tab only; reran 12 displays asserting actual 390/1280 widths."
   ],
   "approvalReviewRejections": 0
 }

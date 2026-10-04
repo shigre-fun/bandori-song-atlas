@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-03T16:36:22.030Z",
+  "sha": "769bbed983c7ec828c16cd57dadcef0725048443",
+  "creatorCount": 124,
+  "nextId": 125,
+  "dataEqualsLocalRelease": true,
+  "implementation": "GitHubCreatorStore.connect/loadCreators (same module served by production admin)",
+  "requests": [
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/ref/heads/main",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/commits/769bbed983c7ec828c16cd57dadcef0725048443",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/trees/3aab17c30878f2e6140453d3a0940e64fa6d65e6",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/ref/heads/main",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/commits/769bbed983c7ec828c16cd57dadcef0725048443",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/trees/3aab17c30878f2e6140453d3a0940e64fa6d65e6",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/blobs/66fa83a60ef9cef045bacaf11ac465205b349bff",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/ref/heads/main",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/commits/769bbed983c7ec828c16cd57dadcef0725048443",
+      "method": "GET"
+    },
+    {
+      "path": "/repos/shigre-fun/bandori-song-atlas/git/trees/3aab17c30878f2e6140453d3a0940e64fa6d65e6",
+      "method": "GET"
+    }
+  ],
+  "saves": 0,
+  "nonGetRequests": 0,
+  "credentialPersistence": false,
+  "browserDisplay": "verified by user: 124 creators in connected production admin",
+  "uiVerification": {
+    "recordedAt": "2026-10-04T00:08:42.033Z",
+    "source": "user confirmation of connected production admin display",
+    "page": "https://tanimachi-bdsongs.com/admin/creators/",
+    "statement": "124件を確認しました",
+    "creatorCount": 124,
+    "readOnlyRequested": true,
+    "productionSaveRequestsByAgent": 0
+  }
+}
