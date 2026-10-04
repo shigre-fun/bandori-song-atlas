@@ -1426,7 +1426,7 @@
           "id": 20,
           "title": "シャルル",
           "reading": "シャルル",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 20,
           "composer": "バルーン",
           "originalArtist": "バルーン feat.v flower",
@@ -1434,7 +1434,7 @@
           "bpm": 145,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 95,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1447,7 +1447,7 @@
             },
             "HARD": {
               "level": 16,
-              "notes": 532
+              "notes": 533
             },
             "EXPERT": {
               "level": 21,
@@ -1480,7 +1480,10 @@
             ],
             "arranger": []
           },
-          "lyricist": "バルーン"
+          "lyricist": "バルーン",
+          "mv": null,
+          "arranger": null,
+          "revision": "1575b9d2-c833-4668-a872-9ed82a0b74d9"
         },
         {
           "id": 21,
