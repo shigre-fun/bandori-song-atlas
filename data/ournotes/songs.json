@@ -1489,7 +1489,7 @@
           "id": 21,
           "title": "青春コンプレックス",
           "reading": "セイシュンコンプレックス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 21,
           "composer": "音羽-otoha-",
           "originalArtist": "結束バンド",
@@ -1497,7 +1497,7 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 138,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1510,7 +1510,7 @@
             },
             "HARD": {
               "level": 20,
-              "notes": 856
+              "notes": 857
             },
             "EXPERT": {
               "level": 25,
@@ -1536,9 +1536,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "神田ジョン(from PENGUIN RESEARCH)"
-              }
+              "displayOverride": "神田ジョン(from PENGUIN RESEARCH)"
             }
           ],
           "creditDisplay": {
@@ -1567,7 +1565,10 @@
             ]
           },
           "lyricist": "樋口愛",
-          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "f3ac6360-8c30-4281-a589-4ae50e0ea835"
         },
         {
           "id": 22,
