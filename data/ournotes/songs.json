@@ -4368,7 +4368,7 @@
           "bpm": 153,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 102,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4406,7 +4406,8 @@
             ],
             "arranger": []
           },
-          "lyricist": "ケンモチヒデフミ"
+          "lyricist": "ケンモチヒデフミ",
+          "revision": "20a29f2f-b0b9-4072-9b24-5b9aced33f66"
         }
       ]
     },
