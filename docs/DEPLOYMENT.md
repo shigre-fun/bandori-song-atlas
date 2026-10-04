@@ -12,7 +12,7 @@ Node.js 22以上と `pnpm-lock.yaml` に固定された依存関係を使用し�
 node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /
 ```
 
-`pnpm test` は既存229件のassertを維持した履歴入力で回帰検証し、現在のreleaseデータも24件のテストで検証します。以前の `node --test tests/*.test.mjs` は履歴段階の件数・予約IDを現行データに対して直接検証してしまうため、CloudflareのBuild command設定も更新してください。再試行するdeploymentのcommit SHAが目的のrelease SHAと一致することを確認します。過去のdeploymentのRetryはその過去のcommitを再buildします。
+`pnpm test` は既存253件のassertを維持した履歴入力で回帰検証します。Creator公開時の24件は、公開commit `769bbed` のSHA検証済みfixtureで実行します。通常の管理画面編集後のデータは、現在の参照整合性・採番・生成カタログ一致とトップページのテストで別途検証します。公開当時の演奏時間や更新日時を現行データへ戻す必要はありません。以前の `node --test tests/*.test.mjs` は履歴段階の件数・予約IDを現行データに対して直接検証してしまうため、CloudflareのBuild command設定も更新してください。再試行するdeploymentのcommit SHAが目的のrelease SHAと一致することを確認します。過去のdeploymentのRetryはその過去のcommitを再buildします。
 
 失敗した画像生成はビルドを終了コード0にしません。公開環境で `SITE_ORIGIN` を指定する場合は `https://tanimachi-bdsongs.com`、`BASE_PATH` は `/` にしてください。旧 `SITE_BASE_PATH` が設定されている場合は同じ `/` と一致させます。
 

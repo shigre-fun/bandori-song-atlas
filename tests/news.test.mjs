@@ -68,8 +68,7 @@ test("home and news page use the same source and expose the configured X profile
       home.indexOf('class="panel home-news"'),
   );
   assert.ok(
-    home.indexOf('class="panel home-news"') <
-      home.indexOf('class="panel home-x"'),
+    home.indexOf('class="panel home-news"') < home.indexOf('class="home-x"'),
   );
   assert.ok(home.includes(`href="${OPERATOR_X_URL}"`));
   assert.ok(about.includes(`href="${OPERATOR_X_URL}"`));

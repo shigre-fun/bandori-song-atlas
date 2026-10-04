@@ -21,7 +21,8 @@ for (const directory of [
     force: true,
     filter: (p) =>
       !p.endsWith("credits-phase-b2.test.mjs") &&
-      !p.endsWith("creator-credits-release.test.mjs"),
+      !p.endsWith("creator-credits-release.test.mjs") &&
+      !p.endsWith("live-database.test.mjs"),
   });
 }
 for (const file of [
@@ -70,7 +71,8 @@ const testFiles = fs
     (n) =>
       n.endsWith(".test.mjs") &&
       n !== "credits-phase-b2.test.mjs" &&
-      n !== "creator-credits-release.test.mjs",
+      n !== "creator-credits-release.test.mjs" &&
+      n !== "live-database.test.mjs",
   )
   .map((n) => "tests/" + n);
 await run(["--test", ...testFiles]);

@@ -15,6 +15,11 @@ import {
   creatorPath,
 } from "../src/js/creator-views.js";
 import { loadNews, renderNewsItems } from "./news.mjs";
+import {
+  HOME_DESCRIPTION,
+  HERO_DESCRIPTION,
+  renderHomeCreators,
+} from "./home.mjs";
 import { renderContact } from "./contact.mjs";
 import { generateBrandAssets } from "./assets/create-brand-assets.mjs";
 import {
@@ -349,13 +354,13 @@ await page({
   pagePath: "",
   headerSearch: false,
   title: `${settings.name} | バンドリ楽曲データベース`,
-  description:
-    "ガルパとアワーノーツの楽曲をまとめて検索できる非公式データベース。ゲームごとの楽曲一覧と情報も公開しています。",
-  content: `<section class="intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>ガルパ・アワーノーツの楽曲情報をまとめて探せます。</p></div></section>
+  description: HOME_DESCRIPTION,
+  content: `<section class="intro home-intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>${HERO_DESCRIPTION}</p></div></section>
 <section class="panel home-search" aria-labelledby="home-search-title"><h2 id="home-search-title">全ゲームから楽曲を検索</h2><form action="${local("search/")}" role="search"><label class="sr-only" for="all-games-search">全ゲームの楽曲名・原曲の作品名で検索</label><input id="all-games-search" name="q" type="search" placeholder="楽曲名・作品名で検索" autocomplete="off"><button type="submit">検索</button></form><p class="notice">曲名・読み・別名・原曲アーティスト・作品名で、両ゲームをまとめて検索できます。</p></section>
 <div class="game-cards">${games.map((game) => `<section class="panel"><h2>${escapeHTML(game.name)}</h2><p>${catalogs[game.id].length}曲を掲載しています。</p><a href="${local(songListPath(game))}">楽曲一覧を見る</a></section>`).join("")}</div>
+${renderHomeCreators(creatorData.creators, settings.basePath)}
 <section class="panel home-news" aria-labelledby="home-news-title"><h2 id="home-news-title">お知らせ</h2>${renderNewsItems(news.slice(0, 3), { compact: true })}<a class="news-more" href="${local("news/")}">お知らせ一覧を見る</a></section>
-<aside class="panel home-x"><h2>運営者のX</h2><p>タニマチがガルパ・アワーノーツやサイトの更新について投稿しています。</p><a href="${escapeHTML(OPERATOR_X_URL)}">タニマチのXを見る（外部サイト）</a></aside>`,
+<aside class="home-x" aria-label="運営者情報"><p>運営者：タニマチ</p><a href="${escapeHTML(OPERATOR_X_URL)}">X<span class="sr-only">（タニマチ・外部サイト）</span></a></aside>`,
   scripts: ["query-index.js", "app.js"],
   jsonld: [
     {
