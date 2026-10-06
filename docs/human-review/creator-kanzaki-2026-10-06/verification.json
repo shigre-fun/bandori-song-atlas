@@ -187,7 +187,10 @@
       "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37485376436"
     },
     "publicAudit": "docs/human-review/creator-kanzaki-2026-10-06/public-audit.json",
-    "verifiedAt": "2026-10-06T15:16:37.205Z"
+    "verifiedAt": "2026-10-06T15:16:37.205Z",
+    "documentationCommit": "09ed677def2183a2147c48af928a4f5d937ba149",
+    "documentationPushed": true,
+    "productFilesEqualDeployedCommit": true
   },
   "unverified": [
     "実ゲームの追加観察（今回の人間回答を根拠として適用）"

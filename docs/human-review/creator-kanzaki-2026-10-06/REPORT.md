@@ -20,4 +20,4 @@
 
 本番の125件表示、[カンザキイオリ](https://tanimachi-bdsongs.com/creators/iori-kanzaki/)の2楽曲/3収録/作詞・作曲各2、3収録の6リンクを確認しました。18 HTTPすべて200、全885公開record・Creator/Workの値が検証済みbuildと一致し、先行3曲の更新も保持されています。[deployment証拠](deployment-status.json)と[本番照合](public-audit.json)を保存しました。
 
-終了時の追加commitは検証記録のみです。公開済みa1a9bbaの製品ファイルと一致を確認し、再buildを省略する[Cloudflareのcommit prefix](https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/#skipping-a-build-via-a-commit-message)とGitHubのskip指定を付けて保存します。
+終了時の追加commitは検証記録のみです。公開済みa1a9bbaの製品ファイルと一致を確認し、再buildを省略する[Cloudflareのcommit prefix](https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/#skipping-a-build-via-a-commit-message)とGitHubのskip指定を付け、09ed677でcommit/pushしました。公開済み製品とのdiffは0です。
