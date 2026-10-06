@@ -300,7 +300,7 @@
     "data/creators.json",
     "data/garupa/songs.json"
   ],
-  "commitPushDeployPerformed": false,
+  "commitPushDeployPerformed": true,
   "validation": {
     "existingTests": {
       "unique": 264,
@@ -376,11 +376,38 @@
   },
   "publication": {
     "authorizedByUser": true,
-    "status": "READY_TO_COMMIT_PUSH_DEPLOY",
-    "prePublicationHead": "e014091046bab48008084a5fa9f01076c5a9f693",
-    "remoteUpdates": 0,
-    "sourceChangedSinceValidation": 0,
-    "guardTests": 20,
-    "priorReviewTests": 31
+    "status": "DEPLOYED_AND_VERIFIED",
+    "commit": "87774f49e7feccb8b753af6bb5bb5e234613c427",
+    "cloudflare": {
+      "status": "success",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/0488f29a-37ba-4f28-aaac-cd7dbf6c4a05"
+    },
+    "githubActions": {
+      "status": "success",
+      "runId": 37492261768,
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37492261768"
+    },
+    "githubPages": {
+      "status": "success",
+      "deployments": [
+        6888941805
+      ]
+    },
+    "publicAudit": "docs/human-review/creator-kanow-p1-2026-10-07/public-audit.json",
+    "verifiedAt": "2026-10-06T16:03:55.046Z"
+  },
+  "publicationEvidenceHashes": {
+    "deployment-status.json": "4f05dfbf078ce1dda2ac92fede4b3ac2ea7b097e17ac09adb68ede1278f15a9f",
+    "public-audit.json": "11364fc58f059d6225929ff78a50db6a544ee07147a0ea886d2b42c119f03331",
+    "github-pages-public-audit.json": "fb73bdd328fe3edd03be99fcb3eaa04e8c1c281dcd459eb72e43ac43bce371fb",
+    "validation/public-deployment-status.txt": "2b3d8518ac1e8e3aed73e97f89e717106799f481d6e3be67613b8eaf1041d8f6",
+    "validation/public-github-pages-http.txt": "fe9cdfdb5123b0816e332b491fec73d958c48066d701264e3a013121cdafd9e6",
+    "validation/public-http.txt": "a5235716faf7370ddc8e26cd690eba33a4864521e0091288ca1f058dbbf914ec",
+    "validation/publish-format-check.txt": "f20510a9da4717c51c4cffee6d0dd88d6c9a723d0a83711d01216f5b48961283",
+    "validation/publish-guard-tests.txt": "e2b01966956b960bb6df8470b3f6b99c2eda3799738a3d97c4f73fbf52eea061",
+    "validation/publish-post-commit-todo.txt": "51bc209c8eae93e2005a3d494aa03aa23c86fc43f55b7b4eb54d5d6cd5857deb",
+    "validation/publish-prior-review-tests.txt": "0afd8fec1f38e57ad58f7920acb5b18e22d65440cd0925144aa9fc42ce82523c",
+    "validation/staged-byte-audit-first.txt": "861eebd91fd7fbc6771d045c4e6f24c398460bcc6d122e4d4265984b90f7f2b6",
+    "validation/staged-byte-audit.txt": "91eac0271ff976c5f280df5b5a95c7f15304c7265cb04b123562ad1a7f91dc83"
   }
 }

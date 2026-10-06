@@ -1,0 +1,42 @@
+{
+  "mode": "verify",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 126,
+  "currentWorkCount": 823,
+  "currentNextId": 127,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 332,
+  "totalSongTasks": 1305,
+  "totalCreatorCandidates": 343,
+  "threePlusRecordCreators": 7,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 284,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 12,
+  "unregisteredCreatorCandidates": 331,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 53,
+  "currentRawSplitReviewTasks": 53,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 522,
+    "CREATOR_REGISTRATION": 522,
+    "SPLIT_REVIEW": 53,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 68,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 595,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1570,
+  "excludedResolvedSourceEntries": 252,
+  "unmappedCurrentUnresolved": 0
+}

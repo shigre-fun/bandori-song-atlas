@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "commit": "87774f49e7feccb8b753af6bb5bb5e234613c427",
+  "url": "https://shigre-fun.github.io/bandori-song-atlas/",
+  "http": [
+    {
+      "path": "creators/nozomu-kanow/",
+      "status": 200
+    },
+    {
+      "path": "garupa/songs/19/",
+      "status": 200
+    },
+    {
+      "path": "creators.json",
+      "status": 200
+    },
+    {
+      "path": "works.json",
+      "status": 200
+    },
+    {
+      "path": "garupa/songs.json",
+      "status": 200
+    },
+    {
+      "path": "ournotes/songs.json",
+      "status": 200
+    }
+  ],
+  "all885RecordsCreatorWorkEqualValidatedSubpathBuild": true
+}

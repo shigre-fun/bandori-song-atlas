@@ -1,5 +1,7 @@
 # P1 加納望 人間回答適用・検証報告
 
+**公開完了：製品commit 87774f4、同SHAのCloudflare Pages・GitHub Actions・GitHub Pagesすべて成功。本番の加納望10Work/10収録/編曲10と全885公開recordを検証済みbuildに照合しました。**
+
 2026-10-07（日本時間）、回答者：タニマチ。最新repository HEAD e014091046bab48008084a5fa9f01076c5a9f693の台帳・実sourceを確認し、P1が加納望1候補のみ、candidateKey b1-e8ea1c155638e47d4330と10recordが一致してから適用しました。
 
 ## 受理・登録
@@ -113,4 +115,14 @@ data差分はdata/creators.json（1Creator追加・nextId増分）とdata/garupa
 
 ## 公開への追加指示（2026-10-07）
 
-ユーザーが全変更・全テスト/確認完了後のcommit・push・deployを明示許可しました。origin/mainに先行更新は0。既存305固有テスト・両build/SEO・Functions・全5310原文と公開catalogの検証済みSHAを再照合し、変更0を確認。公開後も同じsnapshotを再検証できるよう、初回適用にはexact HEADを要求し、適用後はそのHEADのancestor保持を要求するguardへ変更。台帳は入力SHA不変時に生成基準HEADを保持し、実行中HEAD不変・全出力byte・current入力SHAの検証を継続します。guard/現行ToDo20件＋旧レビュー31件を再実行し全成功。既存src/データ/ビルド入力は前回検証時と同一です。現在：commit/push→同SHA GitHub Actions/Cloudflare/GitHub Pages→本番126Creator/10編曲確認。
+ユーザーが全変更・全テスト/確認完了後のcommit・push・deployを明示許可しました。origin/mainに先行更新は0。既存305固有テスト・両build/SEO・Functions・全5310原文と公開catalogの検証済みSHAを再照合し、変更0を確認。公開後も同じsnapshotを再検証できるよう、初回適用にはexact HEADを要求し、適用後はそのHEADのancestor保持を要求するguardへ変更。台帳は入力SHA不変時に生成基準HEADを保持し、実行中HEAD不変・全出力byte・current入力SHAの検証を継続します。guard/現行ToDo20件＋旧レビュー31件を再実行し全成功。既存src/データ/ビルド入力は前回検証時と同一です。製品commit **87774f4** を通常pushし、同SHAのGitHub Actions build/deploy、Cloudflare Pages、GitHub Pages deploymentを成功確認しました。
+
+### 本番検証完了
+
+[加納望ページ](https://tanimachi-bdsongs.com/creators/nozomu-kanow/)の10Work/10収録/編曲10、全対象10曲の加納望リンクと既存共同者リンク20件、原文10件の完全維持、Creator126/next127、sitemap/canonical・管理noindexを確認。24 HTTPすべて200、全885公開record・Creator/Workの全値が検証済みbuildへ一致。先行OurNotes3曲の演奏時間118/95/138秒・HARDノーツ533/857も保持。[デプロイ証拠](deployment-status.json)と[本番監査](public-audit.json)を保存しました。
+
+commit/push/deployは追加指示に従い完了。最後のdocs保存は検証記録のみで、公開済み製品commitのdata/src/scripts/Functions等のbyte不変を確認し、既存運用のskip付きdocs commitで保存します。公開後も登録verify・台帳verifyが成功し、検証済みsnapshotの記録HEADを維持しています。未完了の今回公開条件0。元human-review receiptは適用時点の記録として変更していません。
+
+公開準備時のGit blob照合では、未変更Garupa admin-stateのWindows checkout CRLFとGit LF差を初回helperが拒否。初回失敗ログを保持し、そのfileのGit blobを開始HEADへ完全一致・checkout差を改行だけと確認、stage/内容変更0で回復しました。変更した全fileはworking copyとGit indexのbyte完全一致です。
+
+GitHub Pagesのサブパス配信も6HTTP200・新Creator/対象19リンク・全4JSONの885収録/Creator/Workが検証済みsubpath buildと一致。[サブパス本番監査](github-pages-public-audit.json)を保存しました。
