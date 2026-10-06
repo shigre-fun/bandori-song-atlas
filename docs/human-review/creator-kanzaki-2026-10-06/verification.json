@@ -6,8 +6,8 @@
     "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
     "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
-    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8",
-    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9",
+    "data/ournotes/admin-state.json": "ede3123a2649c87304d8e9a4b37740e5f4962916cbe60fe2abc5a3261e89c7bd"
   },
   "creator": {
     "id": "cr-0125",
@@ -36,8 +36,8 @@
   "priorReviewFilesUnchanged": 30,
   "tests": {
     "existing": 264,
-    "research": 30,
-    "total": 294,
+    "research": 31,
+    "total": 295,
     "failed": 0
   },
   "builds": {
@@ -176,7 +176,7 @@
   },
   "publication": {
     "authorizedByUser": true,
-    "status": "PENDING_REMOTE_MERGE_AND_REVALIDATION"
+    "status": "PENDING_PUSH_AND_DEPLOYMENT"
   },
   "unverified": [
     "実ゲームの追加観察（今回の人間回答を根拠として適用）",
@@ -198,6 +198,111 @@
     {
       "issue": "大きなassert差分展開中のWindowsページング不足os1455/code-mode host終了",
       "resolution": "当該処理停止、復帰後に比較単位を限定。sourceへの影響0、承認拒否0"
+    },
+    {
+      "issue": "remote OurNotes3曲の競合、空lyricist:null guard、Git show ENOBUFS、admin CRLF/LF",
+      "resolution": "3曲17項目/adminを取り込み、人間raw/role順を保持、SHA検証fixtureと拒否mutationを保存。Git読取bufferを拡張、adminの同値JSONを確認。"
+    },
+    {
+      "issue": "通常権限のpnpm testで既存Prettier junction読取がERR_MODULE_NOT_FOUND",
+      "resolution": "同テストを対象読取の承認実行で再実行し264件成功"
+    },
+    {
+      "issue": "前commitのdiffcheck失敗後もPowerShellがcommitを続行",
+      "resolution": "原本CRLFをgitattributes cr-at-eolで保持、token末尾を引用内へ保持。現在のstage差分checkを独立成功条件に変更。"
+    },
+    {
+      "issue": "旧P0 inputと検証logのGit newline変換が原本SHAと不一致",
+      "resolution": "人間reviewの-text属性を適用して限定renormalizeし、全482旧資料・5source・新入力/2fixture/全21validation原本のGit blob SHA一致を確認"
     }
-  ]
+  ],
+  "originalRegistrationSourceHashes": {
+    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "parallelPublication": {
+    "result": "PASS",
+    "remoteHead": "4e72a1181bbe0af6ade9ec654a32fb362b8d8d37",
+    "patchRecords": [
+      19,
+      20,
+      21
+    ],
+    "acceptedRemoteFields": 17,
+    "preservedHumanCreditConflicts": 3,
+    "adminUpdateRetained": true,
+    "humanCreditDisplaysChanged": 0,
+    "humanRelationsChanged": 0
+  },
+  "postMergeEvidence": {
+    "project-tests-approved": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-project-tests-approved.txt",
+      "sha256": "36e6ca24b8074f205c13aed29e862b7db6bae42adabedc785ffae688c567235c"
+    },
+    "project-tests": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-project-tests.txt",
+      "sha256": "b072e5b4d6476b69300697510fc2f5b6228050ed59058e66a2ba26eb34a40e87"
+    },
+    "research-tests": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-research-tests.txt",
+      "sha256": "5292176e146f84868f8f4b1741b3b56ea941814e285d2d08f85db992f5c01153"
+    },
+    "root-build": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-root-build.txt",
+      "sha256": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749"
+    },
+    "subpath-build": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-subpath-build.txt",
+      "sha256": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749"
+    },
+    "root-seo": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-root-seo.txt",
+      "sha256": "8e17a5a68e151731ae791a18d68105268d10158bb783ee844cd6f8f7f986ecdc"
+    },
+    "subpath-seo": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-subpath-seo.txt",
+      "sha256": "8e17a5a68e151731ae791a18d68105268d10158bb783ee844cd6f8f7f986ecdc"
+    },
+    "page-audit": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-page-audit.txt",
+      "sha256": "dd3c170e198d43bfc8fbd89479b7f88807271dddb55f8c22d0b29879049f5547"
+    },
+    "repeat-apply": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-repeat-apply.txt",
+      "sha256": "da2ea99769f66c16d6be289cd90e6d4c11fe4c0469d6edc9d774908097ba1a24"
+    },
+    "ledger": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-ledger.txt",
+      "sha256": "1e4a5cee6299761e03226aaa2a93afe85314ffb18e863062993e0ead4ea9a077"
+    },
+    "ledger-verify": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/publish-ledger-verify.txt",
+      "sha256": "ff5f353c67b63f9dd9644318fddffd5dcd61f9875346fba80828b6c69a690dbf"
+    }
+  },
+  "gitPublicationByteAudit": {
+    "result": "PASS",
+    "sourceFiles": 5,
+    "protectedEvidence": 482,
+    "validationFiles": 21,
+    "newHumanInput": true,
+    "fixtures": 2,
+    "evidence": {
+      "kanzaki-git-byte-audit.log": {
+        "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-git-byte-audit.txt",
+        "sha256": "f4afb924c01f703dbfcde64995cc1d5b5eea0d9c85c74dca5e02d2491e6e7fdf"
+      },
+      "kanzaki-git-byte-audit-complete.log": {
+        "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-git-byte-audit-complete.txt",
+        "sha256": "ecb431fc2b0a6eeb9261d1ba690202458bb251836682334220e3c85b6a042876"
+      },
+      "kanzaki-validation-git-byte.log": {
+        "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-validation-git-byte.txt",
+        "sha256": "67e8dd41a9b91224c6f29a7d85807dffc77cb83d20c800db502aa3318ecb8ec6"
+      }
+    }
+  }
 }

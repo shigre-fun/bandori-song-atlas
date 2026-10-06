@@ -1,5 +1,5 @@
 {
-  "mode": "verify",
+  "mode": "generate",
   "currentRecordCount": 885,
   "currentCreatorCount": 125,
   "currentWorkCount": 823,

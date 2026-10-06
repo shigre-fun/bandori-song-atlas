@@ -7,7 +7,11 @@ import { execFileSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
 import { creditText, CREDIT_ROLES } from "../../src/js/credit-display.js";
 import { validateCreatorDatabase } from "../../src/js/creators-data.js";
-import { locateJSON, patchCreditFields } from "./credit-field-patch.mjs";
+import {
+  locateJSON,
+  patchCreditFields,
+  patchSongFields,
+} from "./credit-field-patch.mjs";
 
 export const REGISTRATION_DIR = "docs/human-review/creator-kanzaki-2026-10-06";
 const sha = (v) => createHash("sha256").update(v).digest("hex");
@@ -43,6 +47,175 @@ export function loadRegistrationBefore() {
     "Human followup input",
   );
   return { baseline, before };
+}
+
+// Reconcile the three earlier administrator edits without reverting the later human credits.
+export function planPublicationIntegration(registered, baseFiles, remoteFiles) {
+  const source = "data/ournotes/songs.json",
+    admin = "data/ournotes/admin-state.json";
+  const base = JSON.parse(baseFiles[source]),
+    remote = JSON.parse(remoteFiles[source]),
+    local = JSON.parse(registered[source]);
+  const songs = (db) => db.groups.flatMap((g) => g.songs);
+  const originals = new Map(songs(base).map((s) => [s.id, s])),
+    current = new Map(songs(local).map((s) => [s.id, s]));
+  assert.deepEqual({ ...remote, groups: null }, { ...base, groups: null });
+  assert.deepEqual(
+    remote.groups.map((g) => ({ ...g, songs: g.songs.map((s) => s.id) })),
+    base.groups.map((g) => ({ ...g, songs: g.songs.map((s) => s.id) })),
+  );
+  const allowed = [
+    "releaseDate",
+    "durationSeconds",
+    "difficulties",
+    "mv",
+    "relatedSongIds",
+    "revision",
+  ];
+  const patches = new Map(),
+    decisions = [];
+  for (const later of songs(remote)) {
+    const old = originals.get(later.id),
+      now = current.get(later.id);
+    for (const field of new Set([...Object.keys(old), ...Object.keys(later)])) {
+      if (JSON.stringify(old[field]) === JSON.stringify(later[field])) continue;
+      assert.ok([19, 20, 21].includes(later.id), "Unreviewed remote record");
+      if (
+        ([19, 20].includes(later.id) &&
+          field === "arranger" &&
+          later[field] === null) ||
+        (later.id === 21 && field === "credits")
+      ) {
+        if (field === "arranger")
+          assert.ok(now.arranger, "Missing later human arranger");
+        else {
+          const normalize = (credits) =>
+            credits.map((c) => {
+              const { displayOverride, displayOverrides, ...identity } = c;
+              return {
+                ...identity,
+                displayOverrides:
+                  displayOverrides ??
+                  (displayOverride === undefined
+                    ? {}
+                    : Object.fromEntries(
+                        c.roles.map((r) => [r, displayOverride]),
+                      )),
+              };
+            });
+          assert.deepEqual(
+            normalize(later.credits),
+            normalize(old.credits),
+            "Remote credits must be display-equivalent",
+          );
+        }
+        decisions.push({
+          recordId: later.id,
+          field,
+          decision: "KEEP_OCT6_HUMAN_CREDIT",
+        });
+        continue;
+      }
+      const emptyLyricist =
+        later.id === 19 &&
+        field === "lyricist" &&
+        later.lyricist === null &&
+        !old.lyricist &&
+        !now.lyricist;
+      assert.ok(
+        allowed.includes(field) || emptyLyricist,
+        "Unreviewed remote field " + later.id + ":" + field,
+      );
+      assert.ok(
+        JSON.stringify(now[field]) === JSON.stringify(old[field]) ||
+          JSON.stringify(now[field]) === JSON.stringify(later[field]),
+        "Concurrent non-credit edit",
+      );
+      const patch = patches.get(later.id) ?? {
+        title: now.title,
+        workId: now.workId,
+        fields: {},
+      };
+      patch.fields[field] = later[field];
+      patches.set(later.id, patch);
+      decisions.push({
+        recordId: later.id,
+        field,
+        decision: "ACCEPT_REMOTE_USER_EDIT",
+        value: later[field],
+      });
+    }
+  }
+  const result = patchSongFields(registered[source], patches, [
+    ...allowed,
+    "lyricist",
+  ]);
+  const output = {
+    ...registered,
+    [source]: result.text,
+    [admin]: remoteFiles[admin],
+  };
+  const previousAdmin = JSON.parse(baseFiles[admin]),
+    remoteAdmin = JSON.parse(remoteFiles[admin]);
+  assert.deepEqual(
+    { ...remoteAdmin, updatedAt: null },
+    { ...previousAdmin, updatedAt: null },
+  );
+  assert.deepEqual(
+    JSON.parse(registered[admin]),
+    previousAdmin,
+    "Registration does not edit administrator state",
+  );
+  const creators = JSON.parse(registered["data/creators.json"]).creators;
+  for (const song of songs(JSON.parse(result.text))) {
+    const original = current.get(song.id);
+    assert.deepEqual(
+      song.credits,
+      original.credits,
+      "Human credit relations retained",
+    );
+    assert.deepEqual(
+      song.creditDisplay,
+      original.creditDisplay,
+      "Human role order retained",
+    );
+    for (const role of CREDIT_ROLES)
+      assert.equal(
+        creditText(song, role, creators),
+        creditText(original, role, creators),
+        "Human raw display retained",
+      );
+  }
+  return { output, decisions, patchRecords: [...patches.keys()] };
+}
+
+export function loadPublicationOutput(registered) {
+  const receiptPath = REGISTRATION_DIR + "/remote-integration.json";
+  if (!fs.existsSync(receiptPath)) return registered;
+  const receipt = json(receiptPath),
+    bytes = fs.readFileSync(REGISTRATION_DIR + "/remote-inputs.json.gz");
+  assert.equal(sha(bytes), receipt.fixtureHash, "Immutable remote input");
+  const snapshot = JSON.parse(gunzipSync(bytes));
+  assert.equal(
+    snapshot.baseHead,
+    json(REGISTRATION_DIR + "/baseline.json").head,
+  );
+  assert.equal(snapshot.remoteHead, receipt.remoteHead);
+  for (const [kind, files] of Object.entries({
+    baseFiles: snapshot.baseFiles,
+    remoteFiles: snapshot.remoteFiles,
+  }))
+    for (const [p, t] of Object.entries(files))
+      assert.equal(sha(t), receipt.inputHashes[kind][p]);
+  const plan = planPublicationIntegration(
+    registered,
+    snapshot.baseFiles,
+    snapshot.remoteFiles,
+  );
+  for (const [p, t] of Object.entries(plan.output))
+    assert.equal(sha(t), receipt.outputHashes[p], p);
+  assert.deepEqual(plan.decisions, receipt.decisions);
+  return plan.output;
 }
 
 export function registrationAnswers(text, priorReview) {
@@ -338,6 +511,7 @@ export function runRegistration(mode = "verify") {
     before.priorReview,
   );
   const plan = planRegistration(before.files, answers);
+  const published = loadPublicationOutput(plan.output);
   for (const [p, h] of Object.entries({
     ...baseline.protectedResearch,
     ...baseline.priorReviewHashes,
@@ -354,7 +528,7 @@ export function runRegistration(mode = "verify") {
     ([p, t]) => t === before.files[p],
   );
   const matchesAfter = Object.entries(current).every(
-    ([p, t]) => t === plan.output[p],
+    ([p, t]) => t === published[p],
   );
   if (matchesBefore && !matchesAfter)
     assert.equal(
@@ -413,7 +587,7 @@ export function runRegistration(mode = "verify") {
   }
   if (mode === "verify") {
     assert.ok(matchesAfter, "Not applied");
-    verifyRegistrationPreservation(before.files, current, plan.scopes);
+    verifyRegistrationPreservation(before.files, plan.output, plan.scopes);
     assert.deepEqual(
       json(REGISTRATION_DIR + "/review.json").creator,
       plan.creator,

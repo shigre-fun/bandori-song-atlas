@@ -1,8 +1,16 @@
 # 作業記録
 
-最終更新：2026-10-06（日本時間）
+最終更新：2026-10-07（日本時間）
 
 ## 現在地
+
+- 2026-10-07 Git公開byte確認完了：indexの全5source/保護482資料（A/B1全452＋旧P030、ignored logは同SHA txt）/新入力/原・remote2fixture/全21validation原本が予定SHAと一致。旧P0 inputと一部logは先のcommitで改行正規化されていたため、-text属性適用下で限定renormalizeし原本のbyteへ戻した（作業中原本変更0）。全a98f9bf以降diffcheck/現在stage check成功。直前fetchでorigin/mainとMERGE_HEADとも4e72a11、追加remote更新なし。現在：merge commit→通常push→同SHA Actions/Cloudflare→本番18HTTPと全885catalog照合。未完了：公開検証と終了記録、auto-review拒否0。
+
+- 2026-10-07 公開差分の追加確認：全a98f9bf以降のdiffcheckで初回失敗TAP原本tests-first.txtのspace-only2行を検出。証拠byteを編集せず当該1fileだけwhitespace attributeを無効化し、他のsource/資料のcheckは保持。現在Git indexの全5source/旧P030/A-B1全452のbyte照合中（session53262）。公開前checkとしてこれとfull diffcheckの成功が必要。commit/push/deployは未達のまま継続。
+
+- 2026-10-07 統合後の検証完了：既存pnpm test264/台帳・P0・登録31＝295件すべて成功、両build/SEO1019/885・公開catalog全値と6link・再apply0・台帳unmapped0/旧3432task対応・原P030資料/A-B1全452保持を再確認。validation/publish-*.txtとverification/REPORTへ記録。通常権限pnpmのPrettier junction読取ERR_MODULE_NOT_FOUNDは対象権限で再実行し成功。現在：merge結果をstageしGit blobのsourceSHA/証拠byte/diffcheckを確認、成功後通常push・同SHA Actions/Cloudflare、本番125/6link/remote3曲確認。未完了：公開完了と終了記録。次：stage→check→merge commit→push→deployment/HTTP監査。Functions/UI変更0、研究以外の製品実装変更0、実ゲーム追加観察は人間回答を根拠とし未実施。
+
+- 2026-10-06 公開統合を完了：登録/P0成果をfc747dcへcommit、origin/main 4e72a11の3commitをmerge中。OurNotes競合をSHA付きremote-inputs/remote-integrationで再現検証し、19/20/21の17項目・admin更新を取り込み、Oct6編曲raw/全relation/表示順を保持（旧null2件・同値serialization1件は適用しない）。現在：統合後295test（追加競合mutation1件）/両build/SEO/page audit、成功後merge commit/通常push/同SHA deployment/本番125。次：format→台帳generate/verify→build/test→diffcheck→commit/push。失敗と修正：merge-previewの空lyricist:null guard拒否を限定19/空表示だけへ対応、Git show ENOBUFSを32MiBへ拡張、admin CRLF/LFは値同一を確認してremote LF採用。apply_patch重複target拒否/途中反映は実読取して修復。前commitのdiffcheckは原本CRLFとtoken末尾空白で失敗したがPowerShell逐次実行によりcommitまで進んだため、原本byteを保持するgitattributes cr-at-eolとtoken引用表記へ修正し、今後check失敗時はcommitしない。公開write未実施・承認拒否0。
 
 - 2026-10-06 追加指示によりcommit/push/deployを許可。直前の公開禁止はこの指示で解除。ローカル294test/両build/SEO/最終page audit/再apply0は成功、カンザキREPORT/verification/validationを保存。fetchでorigin/main先行3commit（e86ea37/b16b97d/4e72a11、Our19/20/21とadmin timestamp）を確認。現在：登録成果を安全にcommitし先行更新をmerge、演奏時間118/95/138・HARDノーツ533/857等を保持、Oct6の人間creditをOct4のnull/古いserializationで戻さない。未完了：統合後の全検証と非強制push、同SHA Actions/CFsuccess、本番125/新Creator/6リンク確認、終了記録。次：commit→merge→scope限定競合解消→294test/build/SEO→push→deployment/API/本番監査。HEAD継承は元baselineのancestorを確認し、初回適用前のみexactHEADを要求する設計へ更新。稼働中processなし。
 

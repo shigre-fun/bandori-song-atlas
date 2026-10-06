@@ -2,6 +2,7 @@ import { test, after } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { createHash } from "node:crypto";
+import { gunzipSync } from "node:zlib";
 import {
   REGISTRATION_DIR,
   loadRegistrationBefore,
@@ -11,6 +12,8 @@ import {
   runRegistration,
   registrationTaskCorrespondence,
   protectedEvidencePath,
+  loadPublicationOutput,
+  planPublicationIntegration,
 } from "../../scripts/migrations/register-kanzaki-creator.mjs";
 import {
   DATA_FILES,
@@ -84,8 +87,38 @@ test("new fixed ID and metadata append preserves every existing Creator and unre
   );
   assert.deepEqual(
     actual,
-    plan.output,
+    loadPublicationOutput(plan.output),
     "Applied sources equal exact guarded plan",
+  );
+});
+
+test("parallel publication retains three administrator edits and refuses an unreviewed credit overwrite", () => {
+  const output = loadPublicationOutput(plan.output);
+  for (const [id, seconds] of [
+    [19, 118],
+    [20, 95],
+    [21, 138],
+  ]) {
+    const song = record(output, "ournotes", id);
+    assert.equal(song.durationSeconds, seconds);
+    assert.deepEqual(song.credits, record(plan.output, "ournotes", id).credits);
+    assert.deepEqual(
+      song.creditDisplay,
+      record(plan.output, "ournotes", id).creditDisplay,
+    );
+  }
+  assert.equal(record(output, "ournotes", 20).difficulties.HARD.notes, 533);
+  assert.equal(record(output, "ournotes", 21).difficulties.HARD.notes, 857);
+  const { baseFiles, remoteFiles } = JSON.parse(
+    gunzipSync(fs.readFileSync(REGISTRATION_DIR + "/remote-inputs.json.gz")),
+  );
+  const bad = { ...remoteFiles },
+    db = JSON.parse(bad["data/ournotes/songs.json"]);
+  db.groups.flatMap((g) => g.songs).find((s) => s.id === 19).composer = "別人";
+  bad["data/ournotes/songs.json"] = JSON.stringify(db);
+  assert.throws(
+    () => planPublicationIntegration(plan.output, baseFiles, bad),
+    /Unreviewed remote field/,
   );
 });
 

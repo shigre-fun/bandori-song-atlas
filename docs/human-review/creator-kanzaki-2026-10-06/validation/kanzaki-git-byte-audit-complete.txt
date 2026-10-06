@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "sourceFiles": 5,
+  "protectedEvidence": 482,
+  "newHumanInput": true,
+  "fixtures": 2,
+  "validationFiles": 13
+}

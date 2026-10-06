@@ -1,0 +1,31 @@
+$ node scripts/migrations/b2-test.mjs
+node:internal/modules/esm/resolve:201
+  const resolvedOption = FSLegacyMainResolve(pkgPath, packageConfig.main, baseStringified);
+                         ^
+
+Error: Cannot find package 'C:\MyProgramming\BangDream_Website\.cache\b2-historical-regression\node_modules\prettier\index.js' imported from C:\MyProgramming\BangDream_Website\.cache\b2-historical-regression\scripts\build.mjs
+    at legacyMainResolve (node:internal/modules/esm/resolve:201:26)
+    at packageResolve (node:internal/modules/esm/resolve:778:12)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+file:///C:/MyProgramming/BangDream_Website/scripts/migrations/b2-historical-regression.mjs:64
+      code === 0 ? resolve() : reject(new Error(args[0] + " exited " + code)),
+                                      ^
+
+Error: scripts/build.mjs exited 1
+    at ChildProcess.<anonymous> (file:///C:/MyProgramming/BangDream_Website/scripts/migrations/b2-historical-regression.mjs:64:39)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0
+[ELIFECYCLE] Test failed. See above for more details.

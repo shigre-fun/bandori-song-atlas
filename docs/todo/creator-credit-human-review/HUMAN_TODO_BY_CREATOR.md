@@ -1,6 +1,6 @@
 # 人間確認ToDo・Creator候補別完全台帳
 
-基準HEAD: a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c。候補群は人物同一性の断定ではない。既存B1 identity groupを維持し、境界が未確定なら候補tokenの同定とsplit承認を別に回答する。発売版参考だけの候補はゲーム内確認を先に行う。priority → affectedRecordCount降順 → standardName順。
+基準HEAD: fc747dc0cbc8939daea54e781ec1ca841d3331ca。候補群は人物同一性の断定ではない。既存B1 identity groupを維持し、境界が未確定なら候補tokenの同定とsplit承認を別に回答する。発売版参考だけの候補はゲーム内確認を先に行う。priority → affectedRecordCount降順 → standardName順。
 
 ## 3収録以上
 

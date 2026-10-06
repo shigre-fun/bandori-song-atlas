@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "result": "PASS",
-  "sourceHead": "a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c",
+  "sourceHead": "fc747dc0cbc8939daea54e781ec1ca841d3331ca",
   "metrics": {
     "currentRecordCount": 885,
     "currentCreatorCount": 125,
@@ -66348,20 +66348,20 @@
     "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
     "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
-    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8"
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9"
   },
   "sourceDataHashesAfter": {
     "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
     "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
-    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8"
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9"
   },
   "currentDataChanged": 0,
   "inputHashes": {
     "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
     "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
-    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8",
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9",
     "docs/migrations/credits-phase-a-2026-10-03/credit-research.json": "6025759458285051b202efdaf32cd40c2951f67a5314bb42ca37b56cc7c2160d",
     "docs/migrations/credits-phase-a-2026-10-03/unresolved.json": "3e01f471bb96ef5ab9e05501cc12ad55422c95a92ec6a81c00ecde8e27aae5e4",
     "docs/migrations/credits-phase-a-2026-10-03/composer-audit.json": "533a966f72d449159db67f9d37d93c6b6af7163ee1cf8cc416a1a7db9f3506a9",
@@ -66867,19 +66867,19 @@
       "bytes": 4576
     },
     "HUMAN_TODO_BY_SONG.md": {
-      "sha256": "8bb25cc6d7d86d80f54b9e32b313eca21ff53c4435d07bf3a55079a0acd111c3",
-      "bytes": 3129865
+      "sha256": "4013523a9113521863d7c7fe1bb1375e14056e42e91c4288efeb4431327a7597",
+      "bytes": 3132690
     },
     "HUMAN_TODO_BY_CREATOR.md": {
-      "sha256": "4a1845e4486d0a282b2b5ed33e7117bd753ecc317317a0f8188256615e564a59",
+      "sha256": "ca569dcd5cfcfc8c83eb2af8c3134cf4bccf30bb134a0939ad2239cd007a3576",
       "bytes": 3261227
     },
     "HUMAN_TODO_BY_SONG.json": {
-      "sha256": "5beacd082ae277f327689e8a7149cc90f33f28729f1b05bb4f66922115981453",
+      "sha256": "408f1d85be6d3ee266d2b71488fa263566e3244feb4639aa86e934caa0b15cf3",
       "bytes": 5007492
     },
     "HUMAN_TODO_BY_CREATOR.json": {
-      "sha256": "081cbfd2f62b131df4e8eec5cfafa39d016fe7775484aaf7a8a6d0d5b0cf4966",
+      "sha256": "b650a92faf73843d0d1e8066288ecfaf8de11cea50701f1f5265e50c61b988cc",
       "bytes": 5161160
     },
     "HUMAN_TODO_SUMMARY.md": {

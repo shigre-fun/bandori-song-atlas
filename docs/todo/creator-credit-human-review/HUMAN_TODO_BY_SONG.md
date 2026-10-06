@@ -1,6 +1,6 @@
 # 人間確認ToDo・曲別完全台帳
 
-基準HEAD: a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c。現行raw・formal参照を正とする。各recordの完全なtask本文は一か所だけに置く。以下の分類章は同じファイル内の完全本文への索引。taskの回答を揃えてrecordのcheckboxを完了する。未回答はNEEDS_HUMAN、発売版だけの候補登録はBLOCKED。今回の適用はない。
+基準HEAD: fc747dc0cbc8939daea54e781ec1ca841d3331ca。現行raw・formal参照を正とする。各recordの完全なtask本文は一か所だけに置く。以下の分類章は同じファイル内の完全本文への索引。taskの回答を揃えてrecordのcheckboxを完了する。未回答はNEEDS_HUMAN、発売版だけの候補登録はBLOCKED。今回の適用はない。
 
 ## P0 最新・ゲーム内手動確認
 
@@ -628,7 +628,7 @@ game=Garupa / recordId=503 / band=MyGO!!!!! / workId=wk-0494 / priority=P0
 
 taskId: garupa:503:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
 
-raw: 横地健太(SUPA LOVE) / 主体token: 横地健太(SUPA LOVE)
+raw: 横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -674,7 +674,7 @@ Creator候補: [b1-6c54c616bf3d724cda81](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:503:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
 
-raw: 横地健太(SUPA LOVE) / 主体token: 横地健太(SUPA LOVE)
+raw: 横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -733,7 +733,7 @@ game=Garupa / recordId=579 / band=MyGO!!!!! / workId=wk-0570 / priority=P0
 
 taskId: garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
 
-raw: 植木建象/加藤貴之 / 主体token: 加藤貴之
+raw: 植木建象/加藤貴之 / 主体token:「加藤貴之」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -779,7 +779,7 @@ Creator候補: [b1-738ccdae4df4a8aa4aad](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:579:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象/加藤貴之 / 主体token: 植木建象
+raw: 植木建象/加藤貴之 / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -823,7 +823,7 @@ Creator候補: [b1-f27622614d9cfe966501](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:579:composer:CREATOR_IDENTITY-b1-2869fa462d98ce2cbbd7
 
-raw: ひとみ / 主体token: ひとみ
+raw: ひとみ / 主体token:「ひとみ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -869,7 +869,7 @@ Creator候補: [b1-2869fa462d98ce2cbbd7](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:579:lyricist:CREATOR_IDENTITY-b1-2869fa462d98ce2cbbd7
 
-raw: ひとみ / 主体token: ひとみ
+raw: ひとみ / 主体token:「ひとみ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -928,7 +928,7 @@ game=Garupa / recordId=610 / band=MyGO!!!!! / workId=wk-0601 / priority=P0
 
 taskId: garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
 
-raw: 植木建象、加藤貴之 / 主体token: 加藤貴之
+raw: 植木建象、加藤貴之 / 主体token:「加藤貴之」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -974,7 +974,7 @@ Creator候補: [b1-738ccdae4df4a8aa4aad](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:610:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象、加藤貴之 / 主体token: 植木建象
+raw: 植木建象、加藤貴之 / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -1018,7 +1018,7 @@ Creator候補: [b1-f27622614d9cfe966501](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:610:composer:CREATOR_IDENTITY-b1-a18f30071e2f4b7f0834
 
-raw: 大濱 健悟 / 主体token: 大濱 健悟
+raw: 大濱 健悟 / 主体token:「大濱 健悟」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1064,7 +1064,7 @@ Creator候補: [b1-a18f30071e2f4b7f0834](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:610:lyricist:CREATOR_IDENTITY-b1-a18f30071e2f4b7f0834
 
-raw: 大濱 健悟 / 主体token: 大濱 健悟
+raw: 大濱 健悟 / 主体token:「大濱 健悟」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1123,7 +1123,7 @@ game=Garupa / recordId=647 / band=MyGO!!!!! / workId=wk-0636 / priority=P0
 
 taskId: garupa:647:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
 
-raw: 尾崎豪(SUPA LOVE) / 主体token: 尾崎豪(SUPA LOVE)
+raw: 尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1169,7 +1169,7 @@ Creator候補: [b1-decc904f4ad5d1c72ca9](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:647:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
 
-raw: 尾崎豪(SUPA LOVE) / 主体token: 尾崎豪(SUPA LOVE)
+raw: 尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1364,7 +1364,7 @@ game=OurNotes / recordId=6 / band=MyGO!!!!! / workId=wk-0636 / priority=P0
 
 taskId: ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
 
-raw: 尾崎豪（SUPA LOVE） / 主体token: 尾崎豪（SUPA LOVE）
+raw: 尾崎豪（SUPA LOVE） / 主体token:「尾崎豪（SUPA LOVE）」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -1433,7 +1433,7 @@ raw: 尾崎豪（SUPA LOVE）
 
 taskId: ournotes:6:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
 
-raw: 尾崎豪(SUPA LOVE) / 主体token: 尾崎豪 (SUPA LOVE)
+raw: 尾崎豪(SUPA LOVE) / 主体token:「尾崎豪 (SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1547,7 +1547,7 @@ game=OurNotes / recordId=8 / band=MyGO!!!!! / workId=wk-0494 / priority=P0
 
 taskId: ournotes:8:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
 
-raw: 横地健太(SUPA LOVE) / 主体token: 横地健太(SUPA LOVE)
+raw: 横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -1595,7 +1595,7 @@ Creator候補: [b1-6c54c616bf3d724cda81](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: ournotes:8:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
 
-raw: 横地健太(SUPA LOVE) / 主体token: 横地健太(SUPA LOVE)
+raw: 横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -1756,7 +1756,7 @@ game=OurNotes / recordId=14 / band=MyGO!!!!! / workId=wk-0776 / priority=P0
 
 taskId: ournotes:14:arranger:CREATOR_IDENTITY-review-3e091e2967af836b05f0
 
-raw: 槙島隆人（SUPA LOVE） / 主体token: 槙島隆人（SUPA LOVE）
+raw: 槙島隆人（SUPA LOVE） / 主体token:「槙島隆人（SUPA LOVE）」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -1948,7 +1948,7 @@ raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)
 
 taskId: ournotes:19:composer:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0
 
-raw: 谷口鮪 / 主体token: 谷口鮪
+raw: 谷口鮪 / 主体token:「谷口鮪」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -2068,7 +2068,7 @@ raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)
 
 taskId: ournotes:20:composer:CREATOR_IDENTITY-b1-237bb622433f04e6517e
 
-raw: バルーン / 主体token: バルーン
+raw: バルーン / 主体token:「バルーン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -2114,7 +2114,7 @@ Creator候補: [b1-237bb622433f04e6517e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:20:lyricist:CREATOR_IDENTITY-b1-237bb622433f04e6517e
 
-raw: バルーン / 主体token: バルーン
+raw: バルーン / 主体token:「バルーン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -2309,7 +2309,7 @@ game=OurNotes / recordId=36 / band=Ave Mujica / workId=wk-0785 / priority=P0
 
 taskId: ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba
 
-raw: 角本麻衣（SUPA LOVE） / 主体token: 角本麻衣（SUPA LOVE）
+raw: 角本麻衣（SUPA LOVE） / 主体token:「角本麻衣（SUPA LOVE）」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -2439,7 +2439,7 @@ raw: 未収集/未決定
 
 taskId: ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b
 
-raw: 角本麻衣(SUPA LOVE) / 主体token: 角本麻衣(SUPA LOVE)
+raw: 角本麻衣(SUPA LOVE) / 主体token:「角本麻衣(SUPA LOVE)」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -2553,7 +2553,7 @@ raw: Diggy-MO'
 
 taskId: ournotes:39:composer:ALIAS_REVIEW-b1-f27622614d9cfe966501
 
-raw: Diggy-MO’、植木建象 / 主体token: 植木建象
+raw: Diggy-MO’、植木建象 / 主体token:「植木建象」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -2628,7 +2628,7 @@ game=OurNotes / recordId=41 / band=Ave Mujica / workId=wk-0788 / priority=P0
 
 taskId: ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
 
-raw: UYKADO / 主体token: UYKADO
+raw: UYKADO / 主体token:「UYKADO」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -2718,7 +2718,7 @@ raw: UYKADO
 
 taskId: ournotes:41:composer:CREATOR_IDENTITY-b1-64fd16565a9247308ee5
 
-raw: DJ松永 / 主体token: DJ松永
+raw: DJ松永 / 主体token:「DJ松永」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -2817,7 +2817,7 @@ game=OurNotes / recordId=42 / band=Ave Mujica / workId=wk-0789 / priority=P0
 
 taskId: ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
 
-raw: UYKADO / 主体token: UYKADO
+raw: UYKADO / 主体token:「UYKADO」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -2940,7 +2940,7 @@ game=OurNotes / recordId=43 / band=Ave Mujica / workId=wk-0790 / priority=P0
 
 taskId: ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
 
-raw: UYKADO / 主体token: UYKADO
+raw: UYKADO / 主体token:「UYKADO」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3117,7 +3117,7 @@ game=OurNotes / recordId=45 / band=夢限大みゅーたいぷ / workId=wk-0792 
 
 taskId: ournotes:45:arranger:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932
 
-raw: eba / 主体token: eba
+raw: eba / 主体token:「eba」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3165,7 +3165,7 @@ Creator候補: [b1-8545f46d0c3a6cb00932](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: ournotes:45:composer:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932
 
-raw: eba / 主体token: eba
+raw: eba / 主体token:「eba」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -3211,7 +3211,7 @@ Creator候補: [b1-8545f46d0c3a6cb00932](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: ournotes:45:lyricist:CREATOR_IDENTITY-b1-58c4e8f1ec4142a18174
 
-raw: 吾龍 / 主体token: 吾龍
+raw: 吾龍 / 主体token:「吾龍」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3270,7 +3270,7 @@ game=OurNotes / recordId=46 / band=夢限大みゅーたいぷ / workId=wk-0793 
 
 taskId: ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039
 
-raw: Nor、堀江晶太 / 主体token: Nor
+raw: Nor、堀江晶太 / 主体token:「Nor」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3339,7 +3339,7 @@ raw: Nor、堀江晶太
 
 taskId: ournotes:46:composer:CREATOR_IDENTITY-b1-afc87da155e26b71d37d
 
-raw: 凍堂遊維 / 主体token: 凍堂遊維
+raw: 凍堂遊維 / 主体token:「凍堂遊維」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3385,7 +3385,7 @@ Creator候補: [b1-afc87da155e26b71d37d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:46:lyricist:CREATOR_IDENTITY-b1-afc87da155e26b71d37d
 
-raw: 凍堂遊維 / 主体token: 凍堂遊維
+raw: 凍堂遊維 / 主体token:「凍堂遊維」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3444,7 +3444,7 @@ game=OurNotes / recordId=47 / band=夢限大みゅーたいぷ / workId=wk-0794 
 
 taskId: ournotes:47:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039
 
-raw: 堀江晶太、Nor / 主体token: Nor
+raw: 堀江晶太、Nor / 主体token:「Nor」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3492,7 +3492,7 @@ Creator候補: [b1-bc4eb6a5c9c4fe339039](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: ournotes:47:lyricist:ROLE_REVIEW-cr-0074
 
-raw: 白神真志朗、 Sekimen / 主体token: 白神真志朗
+raw: 白神真志朗、 Sekimen / 主体token:「白神真志朗」
 
 理由: identityはcr-0074で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -3536,7 +3536,7 @@ Creator候補: [cr-0074](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0074) / [b1-92bd2
 
 taskId: ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1
 
-raw: 白神真志朗、 Sekimen / 主体token:  Sekimen
+raw: 白神真志朗、 Sekimen / 主体token:「 Sekimen」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3595,7 +3595,7 @@ game=OurNotes / recordId=48 / band=夢限大みゅーたいぷ / workId=wk-0795 
 
 taskId: ournotes:48:arranger:CREATOR_IDENTITY-b1-36456c709118f3609c80
 
-raw: 園田健太郎 / 主体token: 園田健太郎
+raw: 園田健太郎 / 主体token:「園田健太郎」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3643,7 +3643,7 @@ Creator候補: [b1-36456c709118f3609c80](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: ournotes:48:composer:CREATOR_IDENTITY-b1-36456c709118f3609c80
 
-raw: 園田健太郎 / 主体token: 園田健太郎
+raw: 園田健太郎 / 主体token:「園田健太郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3689,7 +3689,7 @@ Creator候補: [b1-36456c709118f3609c80](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: ournotes:48:lyricist:CREATOR_IDENTITY-b1-dfdd5b3223fdccd4210a
 
-raw: やしきん / 主体token: やしきん
+raw: やしきん / 主体token:「やしきん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3748,7 +3748,7 @@ game=OurNotes / recordId=52 / band=夢限大みゅーたいぷ / workId=wk-0797 
 
 taskId: ournotes:52:arranger:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e
 
-raw: 哥丸雄貴、堀江晶太 / 主体token: 哥丸雄貴
+raw: 哥丸雄貴、堀江晶太 / 主体token:「哥丸雄貴」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3796,7 +3796,7 @@ Creator候補: [b1-7c7ede552b3bb6d16e8e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: ournotes:52:composer:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e
 
-raw: 哥丸雄貴 / 主体token: 哥丸雄貴
+raw: 哥丸雄貴 / 主体token:「哥丸雄貴」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3855,7 +3855,7 @@ game=OurNotes / recordId=53 / band=夢限大みゅーたいぷ / workId=wk-0800 
 
 taskId: ournotes:53:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
 
-raw: 堀江晶太、千石ユノ / 主体token: 千石ユノ
+raw: 堀江晶太、千石ユノ / 主体token:「千石ユノ」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -3903,7 +3903,7 @@ Creator候補: [b1-a60c08d1db0c515831cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
 
-raw: 千石ユノ、堀江晶太 / 主体token: 千石ユノ
+raw: 千石ユノ、堀江晶太 / 主体token:「千石ユノ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -3949,7 +3949,7 @@ Creator候補: [b1-a60c08d1db0c515831cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
 
-raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token: 千石ユノ
+raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token:「千石ユノ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -4017,7 +4017,7 @@ Creator候補: [b1-a60c08d1db0c515831cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:53:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66
 
-raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token: 仲町あられ
+raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token:「仲町あられ」
 
 理由: identityはcr-0105で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -4039,7 +4039,7 @@ Creator候補: [b1-6f1dda77863c0f86ef66](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: ournotes:53:lyricist:ROLE_REVIEW-cr-0028
 
-raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token: 堀江晶太
+raw: 仲町あられ、千石ユノ、堀江晶太 / 主体token:「堀江晶太」
 
 理由: identityはcr-0028で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -4150,7 +4150,7 @@ game=OurNotes / recordId=56 / band=夢限大みゅーたいぷ / workId=wk-0803 
 
 taskId: ournotes:56:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
 
-raw: 白神真志朗、千石ユノ / 主体token: 千石ユノ
+raw: 白神真志朗、千石ユノ / 主体token:「千石ユノ」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4198,7 +4198,7 @@ Creator候補: [b1-a60c08d1db0c515831cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
 
-raw: 白神真志朗、千石ユノ / 主体token: 千石ユノ
+raw: 白神真志朗、千石ユノ / 主体token:「千石ユノ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -4266,7 +4266,7 @@ Creator候補: [b1-a60c08d1db0c515831cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:56:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66
 
-raw: 白神真志朗、仲町あられ / 主体token: 仲町あられ
+raw: 白神真志朗、仲町あられ / 主体token:「仲町あられ」
 
 理由: identityはcr-0105で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -4288,7 +4288,7 @@ Creator候補: [b1-6f1dda77863c0f86ef66](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: ournotes:56:lyricist:ROLE_REVIEW-cr-0074
 
-raw: 白神真志朗、仲町あられ / 主体token: 白神真志朗
+raw: 白神真志朗、仲町あられ / 主体token:「白神真志朗」
 
 理由: identityはcr-0074で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -4345,7 +4345,7 @@ game=OurNotes / recordId=59 / band=夢限大みゅーたいぷ / workId=wk-0116 
 
 taskId: ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c
 
-raw: sabio/高村風太 / 主体token: 高村風太
+raw: sabio/高村風太 / 主体token:「高村風太」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4448,7 +4448,7 @@ game=OurNotes / recordId=60 / band=夢限大みゅーたいぷ / workId=wk-0806 
 
 taskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-2cf6830ef29337b77619
 
-raw: DjeDje、KENSEI、三村一輝 / 主体token: KENSEI
+raw: DjeDje、KENSEI、三村一輝 / 主体token:「KENSEI」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4471,7 +4471,7 @@ Creator候補: [b1-2cf6830ef29337b77619](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0
 
-raw: DjeDje、KENSEI、三村一輝 / 主体token: 三村一輝
+raw: DjeDje、KENSEI、三村一輝 / 主体token:「三村一輝」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4494,7 +4494,7 @@ Creator候補: [b1-7e0183b00fe393a031a0](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8
 
-raw: DjeDje、KENSEI、三村一輝 / 主体token: DjeDje
+raw: DjeDje、KENSEI、三村一輝 / 主体token:「DjeDje」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4592,7 +4592,7 @@ Creator候補: [b1-a95af7013f3fdd519cf8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:60:lyricist:CREATOR_IDENTITY-b1-0ec58293315022176bde
 
-raw: TOPHAMHAT-KYO (FAKE TYPE.) / 主体token: TOPHAMHAT-KYO (FAKE TYPE.)
+raw: TOPHAMHAT-KYO (FAKE TYPE.) / 主体token:「TOPHAMHAT-KYO (FAKE TYPE.)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -4651,7 +4651,7 @@ game=OurNotes / recordId=62 / band=夢限大みゅーたいぷ / workId=wk-0808 
 
 taskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0
 
-raw: DjeDje、三村一輝 / 主体token: 三村一輝
+raw: DjeDje、三村一輝 / 主体token:「三村一輝」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4674,7 +4674,7 @@ Creator候補: [b1-7e0183b00fe393a031a0](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8
 
-raw: DjeDje、三村一輝 / 主体token: DjeDje
+raw: DjeDje、三村一輝 / 主体token:「DjeDje」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -4856,7 +4856,7 @@ game=OurNotes / recordId=68 / band=millsage / workId=wk-0813 / priority=P0
 
 taskId: ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1
 
-raw: 石倉まろ / 主体token: 石倉まろ
+raw: 石倉まろ / 主体token:「石倉まろ」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5033,7 +5033,7 @@ game=OurNotes / recordId=75 / band=一家Dumb Rock! / workId=wk-0819 / priority=
 
 taskId: ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2
 
-raw: 石倉まろ / 主体token: 石倉まろ
+raw: 石倉まろ / 主体token:「石倉まろ」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5190,7 +5190,7 @@ game=OurNotes / recordId=78 / band=一家Dumb Rock! / workId=wk-0735 / priority=
 
 taskId: ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
 
-raw: 牧野太洋 / 主体token: 牧野太洋
+raw: 牧野太洋 / 主体token:「牧野太洋」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5280,7 +5280,7 @@ raw: 牧野太洋
 
 taskId: ournotes:78:composer:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: アイナ・ジ・エンド
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「アイナ・ジ・エンド」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5302,7 +5302,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:78:composer:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: Shin Sakiura
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「Shin Sakiura」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5394,7 +5394,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:78:lyricist:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: アイナ・ジ・エンド
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「アイナ・ジ・エンド」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5416,7 +5416,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:78:lyricist:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: Shin Sakiura
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「Shin Sakiura」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5643,7 +5643,7 @@ game=OurNotes / recordId=82 / band=millsage / workId=wk-0533 / priority=P0
 
 taskId: ournotes:82:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
 
-raw: 牧野太洋 / 主体token: 牧野太洋
+raw: 牧野太洋 / 主体token:「牧野太洋」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5691,7 +5691,7 @@ Creator候補: [b1-217be10299dcfad8a87d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:82:composer:CREATOR_IDENTITY-b1-2fda3103506ae71e0c97
 
-raw: TAKU INOUE / 主体token: TAKU INOUE
+raw: TAKU INOUE / 主体token:「TAKU INOUE」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5737,7 +5737,7 @@ Creator候補: [b1-2fda3103506ae71e0c97](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:82:lyricist:CREATOR_IDENTITY-b1-0b22695f4ac9ec8a9b01
 
-raw: 星街すいせい / 主体token: 星街すいせい
+raw: 星街すいせい / 主体token:「星街すいせい」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5796,7 +5796,7 @@ game=OurNotes / recordId=83 / band=Ave Mujica / workId=wk-0608 / priority=P0
 
 taskId: ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
 
-raw: 植木建象、加藤貴之 / 主体token: 加藤貴之
+raw: 植木建象、加藤貴之 / 主体token:「加藤貴之」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5899,7 +5899,7 @@ game=OurNotes / recordId=84 / band=一家Dumb Rock! / workId=wk-0822 / priority=
 
 taskId: ournotes:84:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
 
-raw: 牧野太洋 / 主体token: 牧野太洋
+raw: 牧野太洋 / 主体token:「牧野太洋」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -5947,7 +5947,7 @@ Creator候補: [b1-217be10299dcfad8a87d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:84:composer:CREATOR_IDENTITY-b1-051703cee9b46227cad9
 
-raw: 馬渡松子 / 主体token: 馬渡 松子
+raw: 馬渡松子 / 主体token:「馬渡 松子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -5993,7 +5993,7 @@ Creator候補: [b1-051703cee9b46227cad9](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: ournotes:84:lyricist:CREATOR_IDENTITY-b1-49085675e88a4c3d178b
 
-raw: リーシャウロン / 主体token: リーシャウロン
+raw: リーシャウロン / 主体token:「リーシャウロン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6052,7 +6052,7 @@ game=OurNotes / recordId=85 / band=夢限大みゅーたいぷ / workId=wk-0823 
 
 taskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-2e9d852ee7948d105768
 
-raw: ケンモチヒデフミ、Skye K / 主体token: Skye K
+raw: ケンモチヒデフミ、Skye K / 主体token:「Skye K」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -6075,7 +6075,7 @@ Creator候補: [b1-2e9d852ee7948d105768](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
 
-raw: ケンモチヒデフミ、Skye K / 主体token: ケンモチヒデフミ
+raw: ケンモチヒデフミ、Skye K / 主体token:「ケンモチヒデフミ」
 
 理由: ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。
 
@@ -6148,7 +6148,7 @@ Creator候補: [b1-9df1869e3b7b1c2b11d5](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: ournotes:85:composer:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
 
-raw: ケンモチヒデフミ / 主体token: ケンモチヒデフミ
+raw: ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6194,7 +6194,7 @@ Creator候補: [b1-9df1869e3b7b1c2b11d5](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: ournotes:85:lyricist:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
 
-raw: ケンモチヒデフミ / 主体token: ケンモチヒデフミ
+raw: ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6286,7 +6286,7 @@ game=Garupa / recordId=19 / band=Poppin'Party / workId=wk-0019 / priority=P1
 
 taskId: garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -6332,7 +6332,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:19:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -6376,7 +6376,7 @@ Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1
 
 taskId: garupa:19:lyricist:CREATOR_IDENTITY-b1-071012322fa1f3f02fab
 
-raw: meg rock / 主体token: meg rock
+raw: meg rock / 主体token:「meg rock」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6422,7 +6422,7 @@ Creator候補: [b1-071012322fa1f3f02fab](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:19:composer:CREATOR_IDENTITY-b1-33c296b2593f25456547
 
-raw: 齋藤真也 / 主体token: 齋藤真也
+raw: 齋藤真也 / 主体token:「齋藤真也」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6481,7 +6481,7 @@ game=Garupa / recordId=20 / band=Poppin'Party / workId=wk-0020 / priority=P1
 
 taskId: garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -6527,7 +6527,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:20:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -6584,7 +6584,7 @@ game=Garupa / recordId=21 / band=Afterglow / workId=wk-0021 / priority=P1
 
 taskId: garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 加納望
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -6630,7 +6630,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 母里治樹（Elements Garden）
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
 
 理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -6687,7 +6687,7 @@ game=Garupa / recordId=22 / band=Afterglow / workId=wk-0022 / priority=P1
 
 taskId: garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 加納望
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -6733,7 +6733,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 母里治樹（Elements Garden）
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
 
 理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -6777,7 +6777,7 @@ Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:22:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944
 
-raw: 千綿偉功 / 主体token: 千綿偉功
+raw: 千綿偉功 / 主体token:「千綿偉功」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6823,7 +6823,7 @@ Creator候補: [b1-01ca05ebdfc1dba3b944](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:22:lyricist:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944
 
-raw: 千綿偉功 / 主体token: 千綿偉功
+raw: 千綿偉功 / 主体token:「千綿偉功」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -6882,7 +6882,7 @@ game=Garupa / recordId=25 / band=Roselia / workId=wk-0025 / priority=P1
 
 taskId: garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -6928,7 +6928,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:25:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -6972,7 +6972,7 @@ Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1
 
 taskId: garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334
 
-raw: 大森俊之 / 主体token: 大森俊之
+raw: 大森俊之 / 主体token:「大森俊之」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7031,7 +7031,7 @@ game=Garupa / recordId=26 / band=Roselia / workId=wk-0026 / priority=P1
 
 taskId: garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -7077,7 +7077,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:26:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -7134,7 +7134,7 @@ game=Garupa / recordId=29 / band=Afterglow / workId=wk-0029 / priority=P1
 
 taskId: garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 加納望
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -7180,7 +7180,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
 
-raw: 母里治樹（Elements Garden）/加納望 / 主体token: 母里治樹（Elements Garden）
+raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
 
 理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -7237,7 +7237,7 @@ game=Garupa / recordId=31 / band=Poppin'Party / workId=wk-0031 / priority=P1
 
 taskId: garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -7283,7 +7283,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:31:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -7327,7 +7327,7 @@ Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1
 
 taskId: garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50
 
-raw: Goose house / 主体token: Goose house
+raw: Goose house / 主体token:「Goose house」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7373,7 +7373,7 @@ Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50
 
-raw: Goose house / 主体token: Goose house
+raw: Goose house / 主体token:「Goose house」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7432,7 +7432,7 @@ game=Garupa / recordId=37 / band=Roselia / workId=wk-0037 / priority=P1
 
 taskId: garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 加納望
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -7478,7 +7478,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:37:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -7535,7 +7535,7 @@ game=Garupa / recordId=40 / band=Poppin'Party / workId=wk-0040 / priority=P1
 
 taskId: garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
 
-raw: 母里治樹（Elements Garden）／加納望 / 主体token: 加納望
+raw: 母里治樹（Elements Garden）／加納望 / 主体token:「加納望」
 
 理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
 
@@ -7581,7 +7581,7 @@ Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
 
-raw: 母里治樹（Elements Garden）／加納望 / 主体token: 母里治樹（Elements Garden）
+raw: 母里治樹（Elements Garden）／加納望 / 主体token:「母里治樹（Elements Garden）」
 
 理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -7638,7 +7638,7 @@ game=Garupa / recordId=24 / band=Pastel＊Palettes / workId=wk-0024 / priority=P
 
 taskId: garupa:24:composer:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b
 
-raw: 渡辺徹 / 主体token: 渡辺徹
+raw: 渡辺徹 / 主体token:「渡辺徹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7684,7 +7684,7 @@ Creator候補: [b1-6a593dbe37ab11538c6b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:24:lyricist:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b
 
-raw: 渡辺徹/森月キャス / 主体token: 渡辺徹
+raw: 渡辺徹/森月キャス / 主体token:「渡辺徹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7706,7 +7706,7 @@ Creator候補: [b1-6a593dbe37ab11538c6b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:24:lyricist:CREATOR_IDENTITY-b1-75a7de3e9e79dd6de1c0
 
-raw: 渡辺徹/森月キャス / 主体token: 森月キャス
+raw: 渡辺徹/森月キャス / 主体token:「森月キャス」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7811,7 +7811,7 @@ game=Garupa / recordId=33 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:33:composer:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0
 
-raw: 谷口鮪 / 主体token: 谷口鮪
+raw: 谷口鮪 / 主体token:「谷口鮪」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -7857,7 +7857,7 @@ Creator候補: [b1-145122f57cd75aa7c5a0](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:33:lyricist:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0
 
-raw: 谷口鮪 / 主体token: 谷口鮪
+raw: 谷口鮪 / 主体token:「谷口鮪」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8000,7 +8000,7 @@ raw: 未収集/未決定
 
 taskId: garupa:41:composer:CREATOR_IDENTITY-b1-e0e4fbcbcc8438101706
 
-raw: 山口朗彦 / 主体token: 山口朗彦
+raw: 山口朗彦 / 主体token:「山口朗彦」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8156,7 +8156,7 @@ game=Garupa / recordId=44 / band=Pastel＊Palettes / workId=wk-0044 / priority=P
 
 taskId: garupa:44:composer:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032
 
-raw: Revo / 主体token: Revo
+raw: Revo / 主体token:「Revo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -8202,7 +8202,7 @@ Creator候補: [b1-4f91af38c06b9f63e032](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:44:lyricist:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032
 
-raw: Revo / 主体token: Revo
+raw: Revo / 主体token:「Revo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -8261,7 +8261,7 @@ game=Garupa / recordId=47 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:47:composer:CREATOR_IDENTITY-b1-ac279f73d5b14a694999
 
-raw: つんく / 主体token: つんく
+raw: つんく / 主体token:「つんく」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8307,7 +8307,7 @@ Creator候補: [b1-ac279f73d5b14a694999](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:47:lyricist:CREATOR_IDENTITY-b1-ac279f73d5b14a694999
 
-raw: つんく / 主体token: つんく
+raw: つんく / 主体token:「つんく」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8366,7 +8366,7 @@ game=Garupa / recordId=49 / band=Roselia / workId=wk-0049 / priority=P2
 
 taskId: garupa:49:composer:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032
 
-raw: Revo / 主体token: Revo
+raw: Revo / 主体token:「Revo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -8412,7 +8412,7 @@ Creator候補: [b1-4f91af38c06b9f63e032](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:49:lyricist:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032
 
-raw: Revo / 主体token: Revo
+raw: Revo / 主体token:「Revo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -8471,7 +8471,7 @@ game=Garupa / recordId=85 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:85:composer:CREATOR_IDENTITY-b1-96b50efd44763aae3629
 
-raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token: Fukase
+raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Fukase」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8539,7 +8539,7 @@ Creator候補: [b1-96b50efd44763aae3629](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:85:lyricist:CREATOR_IDENTITY-b1-96b50efd44763aae3629
 
-raw: Fukase / 主体token: Fukase
+raw: Fukase / 主体token:「Fukase」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8585,7 +8585,7 @@ Creator候補: [b1-96b50efd44763aae3629](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d
 
-raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token: Marcus Van Wattum
+raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Marcus Van Wattum」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8607,7 +8607,7 @@ Creator候補: [b1-1ecce8410c57e1cd807d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210
 
-raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token: Nick Rotteveel
+raw: Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Nick Rotteveel」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8712,7 +8712,7 @@ Creator候補: [b1-4661c230c3e336fc66a8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:111:composer:CREATOR_IDENTITY-b1-4661c230c3e336fc66a8
 
-raw: 影山ヒロノブ・きただにひろし / 主体token: 影山ヒロノブ・きただにひろし
+raw: 影山ヒロノブ・きただにひろし / 主体token:「影山ヒロノブ・きただにひろし」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8758,7 +8758,7 @@ Creator候補: [b1-4661c230c3e336fc66a8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:111:lyricist:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07
 
-raw: 影山ヒロノブ / 主体token: 影山ヒロノブ
+raw: 影山ヒロノブ / 主体token:「影山ヒロノブ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8817,7 +8817,7 @@ game=Garupa / recordId=117 / band=Pastel＊Palettes / workId=wk-0117 / priority=
 
 taskId: garupa:117:composer:CREATOR_IDENTITY-b1-2f7ae9409f43227c175f
 
-raw: 太田雅友 / 主体token: 太田雅友
+raw: 太田雅友 / 主体token:「太田雅友」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8876,7 +8876,7 @@ game=Garupa / recordId=120 / band=Poppin'Party / workId=wk-0120 / priority=P2
 
 taskId: garupa:120:composer:CREATOR_IDENTITY-b1-e21b22645f7dbe1b0211
 
-raw: TAKESHI ASAKAWA / 主体token: TAKESHI ASAKAWA
+raw: TAKESHI ASAKAWA / 主体token:「TAKESHI ASAKAWA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -8922,7 +8922,7 @@ Creator候補: [b1-e21b22645f7dbe1b0211](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:120:lyricist:CREATOR_IDENTITY-b1-aed4f55bb80088cd7920
 
-raw: KEIGO HAYASHI KOHSHI ASAKAWA / 主体token: KEIGO HAYASHI KOHSHI ASAKAWA
+raw: KEIGO HAYASHI KOHSHI ASAKAWA / 主体token:「KEIGO HAYASHI KOHSHI ASAKAWA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9003,7 +9003,7 @@ Creator候補: [b1-c9462aa47a3a10f7ffee](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a
 
-raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token: Lotus Juice
+raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token:「Lotus Juice」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9025,7 +9025,7 @@ Creator候補: [b1-6420aa21ede7b2dbc58a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee
 
-raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token: 田中怜子
+raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token:「田中怜子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9047,7 +9047,7 @@ Creator候補: [b1-c9462aa47a3a10f7ffee](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955
 
-raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token: 小林鉄兵
+raw: 田中怜子、小林鉄兵、Lotus Juice / 主体token:「小林鉄兵」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9154,7 +9154,7 @@ game=Garupa / recordId=128 / band=Roselia / workId=wk-0128 / priority=P2
 
 taskId: garupa:128:composer:CREATOR_IDENTITY-b1-237bb622433f04e6517e
 
-raw: バルーン / 主体token: バルーン
+raw: バルーン / 主体token:「バルーン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9200,7 +9200,7 @@ Creator候補: [b1-237bb622433f04e6517e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:128:lyricist:CREATOR_IDENTITY-b1-237bb622433f04e6517e
 
-raw: バルーン / 主体token: バルーン
+raw: バルーン / 主体token:「バルーン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9259,7 +9259,7 @@ game=Garupa / recordId=138 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:138:composer:CREATOR_IDENTITY-b1-a67418bf2ddb96281048
 
-raw: 山口一郎 / 主体token: 山口一郎
+raw: 山口一郎 / 主体token:「山口一郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9305,7 +9305,7 @@ Creator候補: [b1-a67418bf2ddb96281048](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:138:lyricist:CREATOR_IDENTITY-b1-a67418bf2ddb96281048
 
-raw: 山口一郎 / 主体token: 山口一郎
+raw: 山口一郎 / 主体token:「山口一郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9364,7 +9364,7 @@ game=Garupa / recordId=151 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:151:lyricist:CREATOR_IDENTITY-b1-046f9b565d191b79c3c1
 
-raw: 藤林聖子 / 主体token: 藤林聖子
+raw: 藤林聖子 / 主体token:「藤林聖子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9410,7 +9410,7 @@ Creator候補: [b1-046f9b565d191b79c3c1](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:151:composer:CREATOR_IDENTITY-b1-636f43e334809fe1e551
 
-raw: 鴇沢直 / 主体token: 鴇沢直
+raw: 鴇沢直 / 主体token:「鴇沢直」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9469,7 +9469,7 @@ game=Garupa / recordId=153 / band=Pastel＊Palettes / workId=wk-0153 / priority=
 
 taskId: garupa:153:lyricist:CREATOR_IDENTITY-b1-70bce471503e4742f5a8
 
-raw: 大橋卓弥 常田真太郎 / 主体token: 大橋卓弥 常田真太郎
+raw: 大橋卓弥 常田真太郎 / 主体token:「大橋卓弥 常田真太郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9528,7 +9528,7 @@ game=Garupa / recordId=157 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:157:composer:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92
 
-raw: ヒゲドライバー / 主体token: ヒゲドライバー
+raw: ヒゲドライバー / 主体token:「ヒゲドライバー」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9574,7 +9574,7 @@ Creator候補: [b1-009f8c48f3ae4bb81b92](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:157:lyricist:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92
 
-raw: ヒゲドライバー / 主体token: ヒゲドライバー
+raw: ヒゲドライバー / 主体token:「ヒゲドライバー」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9633,7 +9633,7 @@ game=Garupa / recordId=181 / band=Poppin'Party / workId=wk-0181 / priority=P2
 
 taskId: garupa:181:composer:CREATOR_IDENTITY-b1-974e13f25b0ae48f4f00
 
-raw: 大久保 薫 / 主体token: 大久保 薫
+raw: 大久保 薫 / 主体token:「大久保 薫」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9692,7 +9692,7 @@ game=Garupa / recordId=182 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:182:composer:CREATOR_IDENTITY-b1-974e13f25b0ae48f4f00
 
-raw: 大久保 薫 / 主体token: 大久保 薫
+raw: 大久保 薫 / 主体token:「大久保 薫」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9751,7 +9751,7 @@ game=Garupa / recordId=183 / band=Pastel＊Palettes / workId=wk-0183 / priority=
 
 taskId: garupa:183:lyricist:CREATOR_IDENTITY-b1-15f5b9d2444835a217f8
 
-raw: うらん / 主体token: うらん
+raw: うらん / 主体token:「うらん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -9797,7 +9797,7 @@ Creator候補: [b1-15f5b9d2444835a217f8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:183:composer:CREATOR_IDENTITY-b1-1984c24040720af6ca55
 
-raw: 大隅知宇 / 主体token: 大隅知宇
+raw: 大隅知宇 / 主体token:「大隅知宇」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10250,7 +10250,7 @@ Creator候補: [b1-dbfdc774efedb688b039](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578
 
-raw: ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token: Masayoshi Minoshima（Alstroemeria Records）
+raw: ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「Masayoshi Minoshima（Alstroemeria Records）」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10272,7 +10272,7 @@ Creator候補: [b1-9c5f42c13c6a91bd2578](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039
 
-raw: ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token: ZUN
+raw: ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「ZUN」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -10342,7 +10342,7 @@ Creator候補: [b1-dbfdc774efedb688b039](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:246:lyricist:CREATOR_IDENTITY-b1-3b001de367575133b6ac
 
-raw: Haruka / 主体token: Haruka
+raw: Haruka / 主体token:「Haruka」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10401,7 +10401,7 @@ game=Garupa / recordId=247 / band=Morfonica / workId=wk-0241 / priority=P2
 
 taskId: garupa:247:composer:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72
 
-raw: miwa / 主体token: miwa
+raw: miwa / 主体token:「miwa」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -10447,7 +10447,7 @@ Creator候補: [b1-5ea0f6be73c39d0dcd72](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:247:lyricist:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72
 
-raw: miwa / 主体token: miwa
+raw: miwa / 主体token:「miwa」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -10528,7 +10528,7 @@ Creator候補: [b1-2b3383b864ea21f178d3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:258:lyricist:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d
 
-raw: ACAね / 主体token: ACAね
+raw: ACAね / 主体token:「ACAね」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10574,7 +10574,7 @@ Creator候補: [b1-420062bf3a60b6fc2c0d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:258:composer:CREATOR_IDENTITY-b1-2b3383b864ea21f178d3
 
-raw: ACAね×ぬゆり / 主体token: ACAね×ぬゆり
+raw: ACAね×ぬゆり / 主体token:「ACAね×ぬゆり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10633,7 +10633,7 @@ game=Garupa / recordId=263 / band=Pastel＊Palettes / workId=wk-0257 / priority=
 
 taskId: garupa:263:arranger:ROLE_REVIEW-cr-0019
 
-raw: 都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token: 都丸椋太（Elements Garden）
+raw: 都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token:「都丸椋太（Elements Garden）」
 
 理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -10677,7 +10677,7 @@ Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-323bf
 
 taskId: garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32
 
-raw: 都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token: 櫻澤ヒカル
+raw: 都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token:「櫻澤ヒカル」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10736,7 +10736,7 @@ game=Garupa / recordId=267 / band=Afterglow / workId=wk-0261 / priority=P2
 
 taskId: garupa:267:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944
 
-raw: 千綿偉功 / 主体token: 千綿偉功
+raw: 千綿偉功 / 主体token:「千綿偉功」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10782,7 +10782,7 @@ Creator候補: [b1-01ca05ebdfc1dba3b944](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:267:lyricist:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944
 
-raw: 千綿偉功 / 主体token: 千綿偉功
+raw: 千綿偉功 / 主体token:「千綿偉功」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10841,7 +10841,7 @@ game=Garupa / recordId=272 / band=RAISE A SUILEN / workId=wk-0266 / priority=P2
 
 taskId: garupa:272:lyricist:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d
 
-raw: Reol / 主体token: Reol
+raw: Reol / 主体token:「Reol」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -10900,7 +10900,7 @@ game=Garupa / recordId=274 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:274:lyricist:CREATOR_IDENTITY-b1-046f9b565d191b79c3c1
 
-raw: 藤林　聖子 / 主体token: 藤林　聖子
+raw: 藤林　聖子 / 主体token:「藤林　聖子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -10959,7 +10959,7 @@ game=Garupa / recordId=278 / band=RAISE A SUILEN / workId=wk-0272 / priority=P2
 
 taskId: garupa:278:arranger:CREATOR_IDENTITY-b1-2a52f798ceb56249a012
 
-raw: ZENTA / 主体token: ZENTA
+raw: ZENTA / 主体token:「ZENTA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11018,7 +11018,7 @@ game=Garupa / recordId=282 / band=Morfonica / workId=wk-0276 / priority=P2
 
 taskId: garupa:282:lyricist:CREATOR_IDENTITY-b1-5e6a5c3f8ee646b1d7be
 
-raw: ナノ / 主体token: ナノ
+raw: ナノ / 主体token:「ナノ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -11064,7 +11064,7 @@ Creator候補: [b1-5e6a5c3f8ee646b1d7be](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:282:composer:CREATOR_IDENTITY-b1-f40708ee188a6066b91e
 
-raw: 伊藤直樹 / 主体token: 伊藤直樹
+raw: 伊藤直樹 / 主体token:「伊藤直樹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11123,7 +11123,7 @@ game=Garupa / recordId=295 / band=RAISE A SUILEN×友希那 / workId=wk-0289 / p
 
 taskId: garupa:295:lyricist:CREATOR_IDENTITY-b1-5e6a5c3f8ee646b1d7be
 
-raw: ナノ / 主体token: ナノ
+raw: ナノ / 主体token:「ナノ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -11169,7 +11169,7 @@ Creator候補: [b1-5e6a5c3f8ee646b1d7be](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:295:composer:CREATOR_IDENTITY-b1-b7ad7f651eb3cfa700f8
 
-raw: MY FIRST STORY / 主体token: MY FIRST STORY
+raw: MY FIRST STORY / 主体token:「MY FIRST STORY」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11228,7 +11228,7 @@ game=Garupa / recordId=304 / band=Pastel＊Palettes / workId=wk-0298 / priority=
 
 taskId: garupa:304:composer:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b
 
-raw: 渡辺徹 / 主体token: 渡辺徹
+raw: 渡辺徹 / 主体token:「渡辺徹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11274,7 +11274,7 @@ Creator候補: [b1-6a593dbe37ab11538c6b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:304:lyricist:CREATOR_IDENTITY-b1-75a7de3e9e79dd6de1c0
 
-raw: 森月キャス / 主体token: 森月キャス
+raw: 森月キャス / 主体token:「森月キャス」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11355,7 +11355,7 @@ Creator候補: [b1-8093a5e3afbe19e86dc3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3
 
-raw: TAKUYA∞、彰 / 主体token: 彰
+raw: TAKUYA∞、彰 / 主体token:「彰」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11414,7 +11414,7 @@ game=Garupa / recordId=331 / band=Poppin'Party / workId=wk-0325 / priority=P2
 
 taskId: garupa:331:composer:CREATOR_IDENTITY-b1-71bce9d8bce518f2741b
 
-raw: 加藤裕介 / 主体token: 加藤裕介
+raw: 加藤裕介 / 主体token:「加藤裕介」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11460,7 +11460,7 @@ Creator候補: [b1-71bce9d8bce518f2741b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:331:lyricist:CREATOR_IDENTITY-b1-90c023a0cfc23c4df8a9
 
-raw: 古屋真 / 主体token: 古屋真
+raw: 古屋真 / 主体token:「古屋真」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11519,7 +11519,7 @@ game=Garupa / recordId=332 / band=Pastel＊Palettes / workId=wk-0326 / priority=
 
 taskId: garupa:332:composer:CREATOR_IDENTITY-b1-71bce9d8bce518f2741b
 
-raw: 加藤裕介 / 主体token: 加藤裕介
+raw: 加藤裕介 / 主体token:「加藤裕介」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11565,7 +11565,7 @@ Creator候補: [b1-71bce9d8bce518f2741b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:332:lyricist:CREATOR_IDENTITY-b1-90c023a0cfc23c4df8a9
 
-raw: 古屋真 / 主体token: 古屋真
+raw: 古屋真 / 主体token:「古屋真」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11624,7 +11624,7 @@ game=Garupa / recordId=334 / band=Afterglow / workId=wk-0328 / priority=P2
 
 taskId: garupa:334:composer:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d
 
-raw: ACAね / 主体token: ACAね
+raw: ACAね / 主体token:「ACAね」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11670,7 +11670,7 @@ Creator候補: [b1-420062bf3a60b6fc2c0d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:334:lyricist:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d
 
-raw: ACAね / 主体token: ACAね
+raw: ACAね / 主体token:「ACAね」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11729,7 +11729,7 @@ game=Garupa / recordId=357 / band=ハロー、ハッピーワールド！×白�
 
 taskId: garupa:357:lyricist:CREATOR_IDENTITY-b1-b9e909de40b4b435c767
 
-raw: こだまさおり / 主体token: こだまさおり
+raw: こだまさおり / 主体token:「こだまさおり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11775,7 +11775,7 @@ Creator候補: [b1-b9e909de40b4b435c767](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:357:composer:CREATOR_IDENTITY-b1-3a0f9837119725f4e276
 
-raw: y0c1e / 主体token: y0c1e
+raw: y0c1e / 主体token:「y0c1e」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11834,7 +11834,7 @@ game=Garupa / recordId=365 / band=Poppin'Party / workId=wk-0359 / priority=P2
 
 taskId: garupa:365:arranger:ROLE_REVIEW-cr-0004
 
-raw: Ayase/藤田淳平（Elements Garden） / 主体token: 藤田淳平（Elements Garden）
+raw: Ayase/藤田淳平（Elements Garden） / 主体token:「藤田淳平（Elements Garden）」
 
 理由: identityはcr-0004で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -11856,7 +11856,7 @@ Creator候補: [cr-0004](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0004)
 
 taskId: garupa:365:arranger:ROLE_REVIEW-cr-0023
 
-raw: Ayase/藤田淳平（Elements Garden） / 主体token: Ayase
+raw: Ayase/藤田淳平（Elements Garden） / 主体token:「Ayase」
 
 理由: identityはcr-0023で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -11913,7 +11913,7 @@ game=Garupa / recordId=369 / band=Afterglow×FLOW / workId=wk-0363 / priority=P2
 
 taskId: garupa:369:composer:CREATOR_IDENTITY-b1-e21b22645f7dbe1b0211
 
-raw: TAKESHI ASAKAWA / 主体token: TAKESHI ASAKAWA
+raw: TAKESHI ASAKAWA / 主体token:「TAKESHI ASAKAWA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -11981,7 +11981,7 @@ Creator候補: [b1-989dce92190bf023f39a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:369:lyricist:CREATOR_IDENTITY-b1-989dce92190bf023f39a
 
-raw: KOHSHI ASAKAWA・KEIGO HAYASHI / 主体token: KOHSHI ASAKAWA・KEIGO HAYASHI
+raw: KOHSHI ASAKAWA・KEIGO HAYASHI / 主体token:「KOHSHI ASAKAWA・KEIGO HAYASHI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12040,7 +12040,7 @@ game=Garupa / recordId=372 / band=RAISE A SUILEN / workId=wk-0366 / priority=P2
 
 taskId: garupa:372:arranger:CREATOR_IDENTITY-b1-2a52f798ceb56249a012
 
-raw: ZENTA / 主体token: ZENTA
+raw: ZENTA / 主体token:「ZENTA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12099,7 +12099,7 @@ game=Garupa / recordId=373 / band=ハロー、ハッピーワールド！×彩×
 
 taskId: garupa:373:composer:CREATOR_IDENTITY-b1-8e00fe4d903f403579aa
 
-raw: 岩見陸 / 主体token: 岩見陸
+raw: 岩見陸 / 主体token:「岩見陸」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12145,7 +12145,7 @@ Creator候補: [b1-8e00fe4d903f403579aa](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:373:lyricist:CREATOR_IDENTITY-b1-1d4523c52c9646f14a3b
 
-raw: ナナホシ管弦楽団 / 主体token: ナナホシ管弦楽団
+raw: ナナホシ管弦楽団 / 主体token:「ナナホシ管弦楽団」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12204,7 +12204,7 @@ game=Garupa / recordId=379 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:379:lyricist:CREATOR_IDENTITY-b1-15f5b9d2444835a217f8
 
-raw: うらん / 主体token: うらん
+raw: うらん / 主体token:「うらん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12250,7 +12250,7 @@ Creator候補: [b1-15f5b9d2444835a217f8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:379:composer:CREATOR_IDENTITY-b1-8a1411dd27ebc65e0445
 
-raw: 大川 茂伸 / 主体token: 大川 茂伸
+raw: 大川 茂伸 / 主体token:「大川 茂伸」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12331,7 +12331,7 @@ Creator候補: [b1-0e3ca7292ba5e3406c39](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:395:lyricist:ROLE_REVIEW-cr-0083
 
-raw: 篠崎あやと、橘 亮祐 / 主体token: 篠崎あやと
+raw: 篠崎あやと、橘 亮祐 / 主体token:「篠崎あやと」
 
 理由: identityはcr-0083で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -12375,7 +12375,7 @@ Creator候補: [cr-0083](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0083) / [b1-0e3ca
 
 taskId: garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39
 
-raw: 篠崎あやと、橘 亮祐 / 主体token: 橘 亮祐
+raw: 篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12421,7 +12421,7 @@ Creator候補: [b1-0e3ca7292ba5e3406c39](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39
 
-raw: 篠崎あやと、橘 亮祐 / 主体token: 橘 亮祐
+raw: 篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12480,7 +12480,7 @@ game=Garupa / recordId=396 / band=Pastel＊Palettes / workId=wk-0390 / priority=
 
 taskId: garupa:396:arranger:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3
 
-raw: ZAQ / 主体token: ZAQ
+raw: ZAQ / 主体token:「ZAQ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -12526,7 +12526,7 @@ Creator候補: [b1-f3428a65accdbe2109a3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:396:composer:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3
 
-raw: ZAQ / 主体token: ZAQ
+raw: ZAQ / 主体token:「ZAQ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -12572,7 +12572,7 @@ Creator候補: [b1-f3428a65accdbe2109a3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:396:lyricist:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3
 
-raw: ZAQ / 主体token: ZAQ
+raw: ZAQ / 主体token:「ZAQ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -12686,7 +12686,7 @@ game=Garupa / recordId=398 / band=Pastel＊Palettes / workId=wk-0391 / priority=
 
 taskId: garupa:398:composer:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3
 
-raw: ZAQ / 主体token: ZAQ
+raw: ZAQ / 主体token:「ZAQ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -12732,7 +12732,7 @@ Creator候補: [b1-f3428a65accdbe2109a3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:398:lyricist:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3
 
-raw: ZAQ / 主体token: ZAQ
+raw: ZAQ / 主体token:「ZAQ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -12791,7 +12791,7 @@ game=Garupa / recordId=406 / band=Pastel＊Palettes / workId=wk-0399 / priority=
 
 taskId: garupa:406:composer:CREATOR_IDENTITY-b1-2f7ae9409f43227c175f
 
-raw: 太田雅友 / 主体token: 太田雅友
+raw: 太田雅友 / 主体token:「太田雅友」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12872,7 +12872,7 @@ Creator候補: [b1-dac3eff30ee04711ee16](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:415:composer:CREATOR_IDENTITY-b1-802fd809223acb08804e
 
-raw: NORiMETAL / 主体token: NORiMETAL
+raw: NORiMETAL / 主体token:「NORiMETAL」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12918,7 +12918,7 @@ Creator候補: [b1-802fd809223acb08804e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:415:lyricist:CREATOR_IDENTITY-b1-dac3eff30ee04711ee16
 
-raw: MK-METAL・NORiMETAL / 主体token: MK-METAL・NORiMETAL
+raw: MK-METAL・NORiMETAL / 主体token:「MK-METAL・NORiMETAL」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -12977,7 +12977,7 @@ game=Garupa / recordId=416 / band=Morfonica / workId=wk-0409 / priority=P2
 
 taskId: garupa:416:lyricist:CREATOR_IDENTITY-b1-70bce471503e4742f5a8
 
-raw: 大橋卓弥 常田真太郎 / 主体token: 大橋卓弥 常田真太郎
+raw: 大橋卓弥 常田真太郎 / 主体token:「大橋卓弥 常田真太郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13036,7 +13036,7 @@ game=Garupa / recordId=418 / band=Roselia×蘭 / workId=wk-0411 / priority=P2
 
 taskId: garupa:418:lyricist:CREATOR_IDENTITY-b1-aa78c4e37112cd48f2cf
 
-raw: 井上　秋緒 / 主体token: 井上　秋緒
+raw: 井上　秋緒 / 主体token:「井上　秋緒」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13117,7 +13117,7 @@ Creator候補: [b1-43f4312a8488e14c23f3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:447:lyricist:CREATOR_IDENTITY-b1-43f4312a8488e14c23f3
 
-raw: n-buna・Orangestar / 主体token: n-buna・Orangestar
+raw: n-buna・Orangestar / 主体token:「n-buna・Orangestar」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13176,7 +13176,7 @@ game=Garupa / recordId=448 / band=ハロー、ハッピーワールド！×P丸�
 
 taskId: garupa:448:composer:CREATOR_IDENTITY-b1-8e00fe4d903f403579aa
 
-raw: 岩見陸 / 主体token: 岩見陸
+raw: 岩見陸 / 主体token:「岩見陸」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13222,7 +13222,7 @@ Creator候補: [b1-8e00fe4d903f403579aa](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:448:lyricist:CREATOR_IDENTITY-b1-1d4523c52c9646f14a3b
 
-raw: ナナホシ管弦楽団 / 主体token: ナナホシ管弦楽団
+raw: ナナホシ管弦楽団 / 主体token:「ナナホシ管弦楽団」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13281,7 +13281,7 @@ game=Garupa / recordId=450 / band=Poppin'Party×P丸様。 / workId=wk-0442 / pr
 
 taskId: garupa:450:composer:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2
 
-raw: コレサワ / 主体token: コレサワ
+raw: コレサワ / 主体token:「コレサワ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13327,7 +13327,7 @@ Creator候補: [b1-0ee91f9d51c5f2763ea2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:450:lyricist:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2
 
-raw: コレサワ / 主体token: コレサワ
+raw: コレサワ / 主体token:「コレサワ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13386,7 +13386,7 @@ game=Garupa / recordId=452 / band=Afterglow×96猫 / workId=wk-0444 / priority=P
 
 taskId: garupa:452:composer:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d
 
-raw: ツミキ / 主体token: ツミキ
+raw: ツミキ / 主体token:「ツミキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13432,7 +13432,7 @@ Creator候補: [b1-14144a962dfdc95fdb6d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:452:lyricist:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d
 
-raw: ツミキ / 主体token: ツミキ
+raw: ツミキ / 主体token:「ツミキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13762,7 +13762,7 @@ Creator候補: [b1-5377ee054e378e78dda4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:479:composer:CREATOR_IDENTITY-b1-5377ee054e378e78dda4
 
-raw: ナユタセイジ / 主体token: ナユタセイジ
+raw: ナユタセイジ / 主体token:「ナユタセイジ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13808,7 +13808,7 @@ Creator候補: [b1-5377ee054e378e78dda4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4
 
-raw: ナユタセイジ / ナナヲアカリ / 主体token: ナユタセイジ 
+raw: ナユタセイジ / ナナヲアカリ / 主体token:「ナユタセイジ 」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13830,7 +13830,7 @@ Creator候補: [b1-5377ee054e378e78dda4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e
 
-raw: ナユタセイジ / ナナヲアカリ / 主体token:  ナナヲアカリ
+raw: ナユタセイジ / ナナヲアカリ / 主体token:「 ナナヲアカリ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13957,7 +13957,7 @@ Creator候補: [b1-f39b5a992dce3f610433](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084
 
-raw: SAKURAmoti / 美波 / 主体token:  美波
+raw: SAKURAmoti / 美波 / 主体token:「 美波」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -13979,7 +13979,7 @@ Creator候補: [b1-28990d5c41d9e767f084](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433
 
-raw: SAKURAmoti / 美波 / 主体token: SAKURAmoti 
+raw: SAKURAmoti / 美波 / 主体token:「SAKURAmoti 」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14049,7 +14049,7 @@ Creator候補: [b1-f39b5a992dce3f610433](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084
 
-raw: SAKURAmoti / 美波 / 主体token:  美波
+raw: SAKURAmoti / 美波 / 主体token:「 美波」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14071,7 +14071,7 @@ Creator候補: [b1-28990d5c41d9e767f084](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433
 
-raw: SAKURAmoti / 美波 / 主体token: SAKURAmoti 
+raw: SAKURAmoti / 美波 / 主体token:「SAKURAmoti 」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14154,7 +14154,7 @@ game=Garupa / recordId=502 / band=Poppin'Party / workId=wk-0493 / priority=P2
 
 taskId: garupa:502:lyricist:CREATOR_IDENTITY-b1-aa78c4e37112cd48f2cf
 
-raw: 井上秋緒 / 主体token: 井上秋緒
+raw: 井上秋緒 / 主体token:「井上秋緒」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14213,7 +14213,7 @@ game=Garupa / recordId=508 / band=Afterglow / workId=wk-0499 / priority=P2
 
 taskId: garupa:508:composer:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e
 
-raw: じん / 主体token: じん
+raw: じん / 主体token:「じん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -14259,7 +14259,7 @@ Creator候補: [b1-cb9773dca1bd6f223c3e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:508:lyricist:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e
 
-raw: じん / 主体token: じん
+raw: じん / 主体token:「じん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -14305,7 +14305,7 @@ Creator候補: [b1-cb9773dca1bd6f223c3e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:508:arranger:CREATOR_IDENTITY-b1-b64c1d7972f2f059bcab
 
-raw: 廣澤優也(HANO) / 主体token: 廣澤優也(HANO)
+raw: 廣澤優也(HANO) / 主体token:「廣澤優也(HANO)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14364,7 +14364,7 @@ game=Garupa / recordId=509 / band=Afterglow / workId=wk-0500 / priority=P2
 
 taskId: garupa:509:composer:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e
 
-raw: じん / 主体token: じん
+raw: じん / 主体token:「じん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -14410,7 +14410,7 @@ Creator候補: [b1-cb9773dca1bd6f223c3e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:509:lyricist:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e
 
-raw: じん / 主体token: じん
+raw: じん / 主体token:「じん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -14469,7 +14469,7 @@ game=Garupa / recordId=517 / band=Poppin'Party / workId=wk-0508 / priority=P2
 
 taskId: garupa:517:composer:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d
 
-raw: ツミキ / 主体token: ツミキ
+raw: ツミキ / 主体token:「ツミキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14515,7 +14515,7 @@ Creator候補: [b1-14144a962dfdc95fdb6d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:517:lyricist:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d
 
-raw: ツミキ / 主体token: ツミキ
+raw: ツミキ / 主体token:「ツミキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14574,7 +14574,7 @@ game=Garupa / recordId=519 / band=メガテラ・ゼロ feat. 夢ノ結唱 POPY 
 
 taskId: garupa:519:arranger:CREATOR_IDENTITY-b1-b5f723777c02e993f081
 
-raw: メガテラ・ゼロ / 主体token: メガテラ・ゼロ
+raw: メガテラ・ゼロ / 主体token:「メガテラ・ゼロ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14642,7 +14642,7 @@ Creator候補: [b1-b5f723777c02e993f081](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:519:composer:CREATOR_IDENTITY-b1-b5f723777c02e993f081
 
-raw: メガテラ・ゼロ / 主体token: メガテラ・ゼロ
+raw: メガテラ・ゼロ / 主体token:「メガテラ・ゼロ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14710,7 +14710,7 @@ Creator候補: [b1-b5f723777c02e993f081](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:519:lyricist:CREATOR_IDENTITY-b1-b5f723777c02e993f081
 
-raw: メガテラ・ゼロ / 主体token: メガテラ・ゼロ
+raw: メガテラ・ゼロ / 主体token:「メガテラ・ゼロ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14791,7 +14791,7 @@ game=Garupa / recordId=522 / band=MyGO!!!!! / workId=wk-0513 / priority=P2
 
 taskId: garupa:522:composer:CREATOR_IDENTITY-b1-b5f723777c02e993f081
 
-raw: メガテラ・ゼロ / 主体token: メガテラ・ゼロ
+raw: メガテラ・ゼロ / 主体token:「メガテラ・ゼロ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14859,7 +14859,7 @@ Creator候補: [b1-b5f723777c02e993f081](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:522:lyricist:CREATOR_IDENTITY-b1-b5f723777c02e993f081
 
-raw: メガテラ・ゼロ / 主体token: メガテラ・ゼロ
+raw: メガテラ・ゼロ / 主体token:「メガテラ・ゼロ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14927,7 +14927,7 @@ Creator候補: [b1-b5f723777c02e993f081](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:522:arranger:CREATOR_IDENTITY-b1-2f6305af972cb9235148
 
-raw: Mr.FanTastiC / 主体token: Mr.FanTastiC
+raw: Mr.FanTastiC / 主体token:「Mr.FanTastiC」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -14986,7 +14986,7 @@ game=Garupa / recordId=542 / band=RAISE A SUILEN×星街すいせい / workId=wk
 
 taskId: garupa:542:composer:CREATOR_IDENTITY-b1-2fda3103506ae71e0c97
 
-raw: TAKU INOUE / 主体token: TAKU INOUE
+raw: TAKU INOUE / 主体token:「TAKU INOUE」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15032,7 +15032,7 @@ Creator候補: [b1-2fda3103506ae71e0c97](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:542:lyricist:CREATOR_IDENTITY-b1-0b22695f4ac9ec8a9b01
 
-raw: 星街すいせい / 主体token: 星街すいせい
+raw: 星街すいせい / 主体token:「星街すいせい」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15091,7 +15091,7 @@ game=Garupa / recordId=546 / band=Morfonica / workId=wk-0537 / priority=P2
 
 taskId: garupa:546:composer:CREATOR_IDENTITY-b1-c618605e1e385961159a
 
-raw: なとり / 主体token: なとり
+raw: なとり / 主体token:「なとり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15137,7 +15137,7 @@ Creator候補: [b1-c618605e1e385961159a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:546:lyricist:CREATOR_IDENTITY-b1-c618605e1e385961159a
 
-raw: なとり / 主体token: なとり
+raw: なとり / 主体token:「なとり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15218,7 +15218,7 @@ Creator候補: [b1-e7a81fcda1323ca4ecd2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573
 
-raw: 馬場　龍樹／遠藤　ナオキ / 主体token: 遠藤　ナオキ
+raw: 馬場　龍樹／遠藤　ナオキ / 主体token:「遠藤　ナオキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15240,7 +15240,7 @@ Creator候補: [b1-85766a26b6c559ab7573](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2
 
-raw: 馬場　龍樹／遠藤　ナオキ / 主体token: 馬場　龍樹
+raw: 馬場　龍樹／遠藤　ナオキ / 主体token:「馬場　龍樹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15310,7 +15310,7 @@ Creator候補: [b1-e7a81fcda1323ca4ecd2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:549:lyricist:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2
 
-raw: 馬場　龍樹 / 主体token: 馬場　龍樹
+raw: 馬場　龍樹 / 主体token:「馬場　龍樹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15369,7 +15369,7 @@ game=Garupa / recordId=590 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:590:lyricist:CREATOR_IDENTITY-b1-b9e909de40b4b435c767
 
-raw: こだまさおり / 主体token: こだまさおり
+raw: こだまさおり / 主体token:「こだまさおり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15472,7 +15472,7 @@ Creator候補: [b1-cda1ae2ddd6c3e38358e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:600:composer:CREATOR_IDENTITY-b1-69b1738cdadd4da235b4
 
-raw: Carlos K.・加賀爪 タッド / 主体token: Carlos K.・加賀爪 タッド
+raw: Carlos K.・加賀爪 タッド / 主体token:「Carlos K.・加賀爪 タッド」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15518,7 +15518,7 @@ Creator候補: [b1-69b1738cdadd4da235b4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:600:lyricist:CREATOR_IDENTITY-b1-cda1ae2ddd6c3e38358e
 
-raw: KANATA OKAJIMA・Carlos K. / 主体token: KANATA OKAJIMA・Carlos K.
+raw: KANATA OKAJIMA・Carlos K. / 主体token:「KANATA OKAJIMA・Carlos K.」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15577,7 +15577,7 @@ game=Garupa / recordId=608 / band=RAISE A SUILEN / workId=wk-0599 / priority=P2
 
 taskId: garupa:608:composer:CREATOR_IDENTITY-b1-64fd16565a9247308ee5
 
-raw: DJ松永 / 主体token: DJ松永
+raw: DJ松永 / 主体token:「DJ松永」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15623,7 +15623,7 @@ Creator候補: [b1-64fd16565a9247308ee5](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:608:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592
 
-raw: R-指定 / 主体token: R-指定
+raw: R-指定 / 主体token:「R-指定」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15682,7 +15682,7 @@ game=Garupa / recordId=622 / band=MyGO!!!!! / workId=wk-0613 / priority=P2
 
 taskId: garupa:622:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678
 
-raw: 植木建象、冬真 / 主体token: 冬真
+raw: 植木建象、冬真 / 主体token:「冬真」
 
 理由: 植木建象とのゲーム共同編曲2件、OurNotes発売版1件。本人候補公式ショップ本文Cache miss、演奏者一覧だけでCreator同一性を確定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -15728,7 +15728,7 @@ Creator候補: [b1-737ea160bdb3018aa678](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:622:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象、冬真 / 主体token: 植木建象
+raw: 植木建象、冬真 / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -15772,7 +15772,7 @@ Creator候補: [b1-f27622614d9cfe966501](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:622:composer:CREATOR_IDENTITY-b1-e5334ebf6d7e06f9e914
 
-raw: 後藤 正文 / 主体token: 後藤 正文
+raw: 後藤 正文 / 主体token:「後藤 正文」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15818,7 +15818,7 @@ Creator候補: [b1-e5334ebf6d7e06f9e914](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:622:lyricist:CREATOR_IDENTITY-b1-e5334ebf6d7e06f9e914
 
-raw: 後藤 正文 / 主体token: 後藤 正文
+raw: 後藤 正文 / 主体token:「後藤 正文」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -15877,7 +15877,7 @@ game=Garupa / recordId=627 / band=MyGO!!!!! / workId=wk-0618 / priority=P2
 
 taskId: garupa:627:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678
 
-raw: 植木建象、冬真 / 主体token: 冬真
+raw: 植木建象、冬真 / 主体token:「冬真」
 
 理由: 植木建象とのゲーム共同編曲2件、OurNotes発売版1件。本人候補公式ショップ本文Cache miss、演奏者一覧だけでCreator同一性を確定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -15923,7 +15923,7 @@ Creator候補: [b1-737ea160bdb3018aa678](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:627:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象、冬真 / 主体token: 植木建象
+raw: 植木建象、冬真 / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -16002,7 +16002,7 @@ Creator候補: [b1-0af645346cf42d76ef7a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a
 
-raw: 涼木シンジ、Gohgo / 主体token: 涼木シンジ
+raw: 涼木シンジ、Gohgo / 主体token:「涼木シンジ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16024,7 +16024,7 @@ Creator候補: [b1-0af645346cf42d76ef7a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3
 
-raw: 涼木シンジ、Gohgo / 主体token: Gohgo
+raw: 涼木シンジ、Gohgo / 主体token:「Gohgo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16094,7 +16094,7 @@ Creator候補: [b1-1e4e5828085e567ebff3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:630:lyricist:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3
 
-raw: Gohgo / 主体token: Gohgo
+raw: Gohgo / 主体token:「Gohgo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16153,7 +16153,7 @@ game=Garupa / recordId=640 / band=Poppin'Party / workId=wk-0629 / priority=P2
 
 taskId: garupa:640:composer:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92
 
-raw: 篠崎 あやと、ヒゲドライバー / 主体token: ヒゲドライバー
+raw: 篠崎 あやと、ヒゲドライバー / 主体token:「ヒゲドライバー」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16221,7 +16221,7 @@ Creator候補: [b1-009f8c48f3ae4bb81b92](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:640:lyricist:ROLE_REVIEW-b1-397cc1de0e1b600bf103
 
-raw: 烏屋 茶房、篠崎 あやと / 主体token: 烏屋 茶房
+raw: 烏屋 茶房、篠崎 あやと / 主体token:「烏屋 茶房」
 
 理由: identityはcr-0122で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -16243,7 +16243,7 @@ Creator候補: [b1-397cc1de0e1b600bf103](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:640:lyricist:ROLE_REVIEW-cr-0083
 
-raw: 烏屋 茶房、篠崎 あやと / 主体token: 篠崎 あやと
+raw: 烏屋 茶房、篠崎 あやと / 主体token:「篠崎 あやと」
 
 理由: identityはcr-0083で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -16300,7 +16300,7 @@ game=Garupa / recordId=653 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:653:composer:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c
 
-raw: こっちのけんと / GRP / 主体token: こっちのけんと 
+raw: こっちのけんと / GRP / 主体token:「こっちのけんと 」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16322,7 +16322,7 @@ Creator候補: [b1-18eb03642f28fcb3973c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:653:composer:CREATOR_IDENTITY-b1-e12eda6ee4265889dc55
 
-raw: こっちのけんと / GRP / 主体token:  GRP
+raw: こっちのけんと / GRP / 主体token:「 GRP」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -16414,7 +16414,7 @@ Creator候補: [b1-18eb03642f28fcb3973c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:653:lyricist:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c
 
-raw: こっちのけんと / 主体token: こっちのけんと
+raw: こっちのけんと / 主体token:「こっちのけんと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16473,7 +16473,7 @@ game=Garupa / recordId=654 / band=Pastel＊Palettes / workId=wk-0642 / priority=
 
 taskId: garupa:654:composer:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2
 
-raw: コレサワ / 主体token: コレサワ
+raw: コレサワ / 主体token:「コレサワ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16519,7 +16519,7 @@ Creator候補: [b1-0ee91f9d51c5f2763ea2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:654:lyricist:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2
 
-raw: コレサワ / 主体token: コレサワ
+raw: コレサワ / 主体token:「コレサワ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16578,7 +16578,7 @@ game=Garupa / recordId=659 / band=RAISE A SUILEN / workId=wk-0647 / priority=P2
 
 taskId: garupa:659:composer:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d
 
-raw: Reol、Giga / 主体token: Reol
+raw: Reol、Giga / 主体token:「Reol」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -16646,7 +16646,7 @@ Creator候補: [b1-fdb3b03e87813e0b214d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:659:lyricist:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d
 
-raw: Reol / 主体token: Reol
+raw: Reol / 主体token:「Reol」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -16705,7 +16705,7 @@ game=Garupa / recordId=660 / band=MyGO!!!!! / workId=wk-0648 / priority=P2
 
 taskId: garupa:660:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象、YOUSAY / 主体token: 植木建象
+raw: 植木建象、YOUSAY / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -16793,7 +16793,7 @@ Creator候補: [b1-328527062c7ca6acd161](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45
 
-raw: 植木建象、YOUSAY / 主体token: YOUSAY
+raw: 植木建象、YOUSAY / 主体token:「YOUSAY」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16839,7 +16839,7 @@ Creator候補: [b1-2ef871fe8f36a20afb45](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161
 
-raw: ユリイ・カノン / 主体token: ユリイ・カノン
+raw: ユリイ・カノン / 主体token:「ユリイ・カノン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16885,7 +16885,7 @@ Creator候補: [b1-328527062c7ca6acd161](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161
 
-raw: ユリイ・カノン / 主体token: ユリイ・カノン
+raw: ユリイ・カノン / 主体token:「ユリイ・カノン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -16997,7 +16997,7 @@ game=Garupa / recordId=676 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:676:lyricist:CREATOR_IDENTITY-b1-96b50efd44763aae3629
 
-raw: Fukase / 主体token: Fukase
+raw: Fukase / 主体token:「Fukase」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17043,7 +17043,7 @@ Creator候補: [b1-96b50efd44763aae3629](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:676:composer:CREATOR_IDENTITY-b1-37f9c59bed86e03ee448
 
-raw: Nakajin / 主体token: Nakajin
+raw: Nakajin / 主体token:「Nakajin」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17102,7 +17102,7 @@ game=Garupa / recordId=705 / band=Morfonica / workId=wk-0689 / priority=P2
 
 taskId: garupa:705:composer:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e
 
-raw: シノダ / 主体token: シノダ
+raw: シノダ / 主体token:「シノダ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17148,7 +17148,7 @@ Creator候補: [b1-28d943cf81a349c81d5e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:705:lyricist:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e
 
-raw: シノダ / 主体token: シノダ
+raw: シノダ / 主体token:「シノダ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17194,7 +17194,7 @@ Creator候補: [b1-28d943cf81a349c81d5e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:705:arranger:CREATOR_IDENTITY-b1-65867bc4fcc81fd53dde
 
-raw: ヒトリエ / 主体token: ヒトリエ
+raw: ヒトリエ / 主体token:「ヒトリエ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17253,7 +17253,7 @@ game=Garupa / recordId=706 / band=Morfonica / workId=wk-0690 / priority=P2
 
 taskId: garupa:706:lyricist:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e
 
-raw: シノダ / 主体token: シノダ
+raw: シノダ / 主体token:「シノダ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17299,7 +17299,7 @@ Creator候補: [b1-28d943cf81a349c81d5e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:706:composer:CREATOR_IDENTITY-b1-5ef5ea3cf0b4b5464512
 
-raw: ゆーまお / 主体token: ゆーまお
+raw: ゆーまお / 主体token:「ゆーまお」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17402,7 +17402,7 @@ Creator候補: [b1-6113e4054a7a319f9025](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025
 
-raw: MAQUMA, JACK / 主体token: MAQUMA
+raw: MAQUMA, JACK / 主体token:「MAQUMA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17424,7 +17424,7 @@ Creator候補: [b1-6113e4054a7a319f9025](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b
 
-raw: MAQUMA, JACK / 主体token:  JACK
+raw: MAQUMA, JACK / 主体token:「 JACK」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -17494,7 +17494,7 @@ Creator候補: [b1-7d83e3978b7ba912598b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025
 
-raw: MAQUMA, JACK / 主体token: MAQUMA
+raw: MAQUMA, JACK / 主体token:「MAQUMA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17516,7 +17516,7 @@ Creator候補: [b1-6113e4054a7a319f9025](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b
 
-raw: MAQUMA, JACK / 主体token:  JACK
+raw: MAQUMA, JACK / 主体token:「 JACK」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -17599,7 +17599,7 @@ game=Garupa / recordId=708 / band=Pastel＊Palettes / workId=wk-0692 / priority=
 
 taskId: garupa:708:lyricist:CREATOR_IDENTITY-b1-071012322fa1f3f02fab
 
-raw: meg rock / 主体token: meg rock
+raw: meg rock / 主体token:「meg rock」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17645,7 +17645,7 @@ Creator候補: [b1-071012322fa1f3f02fab](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:708:composer:CREATOR_IDENTITY-b1-523fd8c7f3fc4ee47897
 
-raw: 神前 暁（MONACA） / 主体token: 神前 暁（MONACA）
+raw: 神前 暁（MONACA） / 主体token:「神前 暁（MONACA）」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17704,7 +17704,7 @@ game=Garupa / recordId=710 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:710:composer:CREATOR_IDENTITY-b1-a67418bf2ddb96281048
 
-raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token: 山口一郎
+raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「山口一郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17772,7 +17772,7 @@ Creator候補: [b1-a67418bf2ddb96281048](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:710:lyricist:CREATOR_IDENTITY-b1-a67418bf2ddb96281048
 
-raw: 山口一郎 / 主体token: 山口一郎
+raw: 山口一郎 / 主体token:「山口一郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17818,7 +17818,7 @@ Creator候補: [b1-a67418bf2ddb96281048](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602
 
-raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token: 江島啓一
+raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「江島啓一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17840,7 +17840,7 @@ Creator候補: [b1-1a0701568d79d8add602](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078
 
-raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token: 岡崎英美
+raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岡崎英美」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17862,7 +17862,7 @@ Creator候補: [b1-1f14693923b26c575078](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb
 
-raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token: 岩寺基晴
+raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岩寺基晴」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -17884,7 +17884,7 @@ Creator候補: [b1-99d1ab24fe859adecafb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f
 
-raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token: 草刈愛美
+raw: 山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「草刈愛美」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18037,7 +18037,7 @@ Creator候補: [b1-42a5b3ea6680d1200cb7](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7
 
-raw: 久下真音、つむぎしゃち / 主体token: 久下真音
+raw: 久下真音、つむぎしゃち / 主体token:「久下真音」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18059,7 +18059,7 @@ Creator候補: [b1-42a5b3ea6680d1200cb7](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071
 
-raw: 久下真音、つむぎしゃち / 主体token: つむぎしゃち
+raw: 久下真音、つむぎしゃち / 主体token:「つむぎしゃち」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18129,7 +18129,7 @@ Creator候補: [b1-6899171acbfe7270e071](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:711:lyricist:CREATOR_IDENTITY-b1-6899171acbfe7270e071
 
-raw: つむぎしゃち / 主体token: つむぎしゃち
+raw: つむぎしゃち / 主体token:「つむぎしゃち」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18314,7 +18314,7 @@ raw: 未収集/未決定
 
 taskId: garupa:723:composer:CREATOR_IDENTITY-b1-ac279f73d5b14a694999
 
-raw: つんく / 主体token: つんく
+raw: つんく / 主体token:「つんく」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -18526,7 +18526,7 @@ raw: 未収集/未決定
 
 taskId: garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526
 
-raw: 松任谷　由実 / 主体token: 松任谷　由実
+raw: 松任谷　由実 / 主体token:「松任谷　由実」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -18627,7 +18627,7 @@ raw: 未収集/未決定
 
 taskId: garupa:728:composer:CREATOR_IDENTITY-b1-0abbc860daeec295ea85
 
-raw: OSTER project / 主体token: OSTER project
+raw: OSTER project / 主体token:「OSTER project」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18673,7 +18673,7 @@ Creator候補: [b1-0abbc860daeec295ea85](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:728:lyricist:CREATOR_IDENTITY-b1-0abbc860daeec295ea85
 
-raw: OSTER project / 主体token: OSTER project
+raw: OSTER project / 主体token:「OSTER project」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -18752,7 +18752,7 @@ raw: 未収集/未決定
 
 taskId: garupa:729:composer:CREATOR_IDENTITY-b1-0abbc860daeec295ea85
 
-raw: OSTER project / 主体token: OSTER project
+raw: OSTER project / 主体token:「OSTER project」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -19103,7 +19103,7 @@ raw: 未収集/未決定
 
 taskId: garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f
 
-raw: 花村想太 / MEG.ME / Louis / 主体token:  MEG.ME 
+raw: 花村想太 / MEG.ME / Louis / 主体token:「 MEG.ME 」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -19125,7 +19125,7 @@ Creator候補: [current-52f8d22524596db0e37f](HUMAN_TODO_BY_CREATOR.md#candidate
 
 taskId: garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462
 
-raw: 花村想太 / MEG.ME / Louis / 主体token: 花村想太 
+raw: 花村想太 / MEG.ME / Louis / 主体token:「花村想太 」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -19147,7 +19147,7 @@ Creator候補: [current-6e4aaff5404f9c7e9462](HUMAN_TODO_BY_CREATOR.md#candidate
 
 taskId: garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f
 
-raw: 花村想太 / MEG.ME / Louis / 主体token:  Louis
+raw: 花村想太 / MEG.ME / Louis / 主体token:「 Louis」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -19307,7 +19307,7 @@ game=Garupa / recordId=753 / band=Afterglow / workId=wk-0734 / priority=P2
 
 taskId: garupa:753:composer:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e
 
-raw: 田邊駿一 / 主体token: 田邊駿一
+raw: 田邊駿一 / 主体token:「田邊駿一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19353,7 +19353,7 @@ Creator候補: [b1-b5a7696df411f41fb21e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:753:lyricist:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e
 
-raw: 田邊駿一 / 主体token: 田邊駿一
+raw: 田邊駿一 / 主体token:「田邊駿一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19412,7 +19412,7 @@ game=Garupa / recordId=754 / band=RAISE A SUILEN / workId=wk-0735 / priority=P2
 
 taskId: garupa:754:composer:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: アイナ・ジ・エンド
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「アイナ・ジ・エンド」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19434,7 +19434,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:754:composer:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: Shin Sakiura
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「Shin Sakiura」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19526,7 +19526,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:754:lyricist:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: アイナ・ジ・エンド
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「アイナ・ジ・エンド」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19548,7 +19548,7 @@ Creator候補: [b1-2036c7c5eacf8591e349](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:754:lyricist:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6
 
-raw: アイナ・ジ・エンド、Shin Sakiura / 主体token: Shin Sakiura
+raw: アイナ・ジ・エンド、Shin Sakiura / 主体token:「Shin Sakiura」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19686,7 +19686,7 @@ game=Garupa / recordId=764 / band=Pastel＊Palettes / workId=wk-0742 / priority=
 
 taskId: garupa:764:composer:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72
 
-raw: miwa / 主体token: miwa
+raw: miwa / 主体token:「miwa」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -19732,7 +19732,7 @@ Creator候補: [b1-5ea0f6be73c39d0dcd72](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:764:lyricist:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72
 
-raw: miwa / 主体token: miwa
+raw: miwa / 主体token:「miwa」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -19811,7 +19811,7 @@ raw: 未収集/未決定
 
 taskId: garupa:766:composer:CREATOR_IDENTITY-b1-c618605e1e385961159a
 
-raw: なとり / 主体token: なとり
+raw: なとり / 主体token:「なとり」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -19932,7 +19932,7 @@ Creator候補: [b1-4f5bde2d6672e4ad9ab4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a
 
-raw: 安部大希-amazuti-/宮崎諒-amazuti- / 主体token: 宮崎諒-amazuti-
+raw: 安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「宮崎諒-amazuti-」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -19954,7 +19954,7 @@ Creator候補: [b1-058a34802803a45d121a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4
 
-raw: 安部大希-amazuti-/宮崎諒-amazuti- / 主体token: 安部大希-amazuti-
+raw: 安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「安部大希-amazuti-」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -20024,7 +20024,7 @@ Creator候補: [b1-4f5bde2d6672e4ad9ab4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:769:lyricist:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4
 
-raw: 安部大希-amazuti- / 主体token: 安部大希-amazuti-
+raw: 安部大希-amazuti- / 主体token:「安部大希-amazuti-」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -20143,7 +20143,7 @@ raw: 未収集/未決定
 
 taskId: garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe
 
-raw: ふるっぺ / 主体token: ふるっぺ
+raw: ふるっぺ / 主体token:「ふるっぺ」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -20368,7 +20368,7 @@ raw: 未収集/未決定
 
 taskId: garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb
 
-raw: 多田 慎也 / 主体token: 多田 慎也
+raw: 多田 慎也 / 主体token:「多田 慎也」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -20838,7 +20838,7 @@ raw: 未収集/未決定
 
 taskId: garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb
 
-raw: 山崎あおい / 主体token: 山崎あおい
+raw: 山崎あおい / 主体token:「山崎あおい」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -20957,7 +20957,7 @@ raw: 未収集/未決定
 
 taskId: garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850
 
-raw: 岡野昭仁 / 主体token: 岡野昭仁
+raw: 岡野昭仁 / 主体token:「岡野昭仁」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21076,7 +21076,7 @@ raw: 未収集/未決定
 
 taskId: garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf
 
-raw: 米米CLUB / 主体token: 米米CLUB
+raw: 米米CLUB / 主体token:「米米CLUB」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21195,7 +21195,7 @@ raw: 未収集/未決定
 
 taskId: garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58
 
-raw: kz / 主体token: kz
+raw: kz / 主体token:「kz」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21274,7 +21274,7 @@ raw: 未収集/未決定
 
 taskId: garupa:795:composer:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c
 
-raw: こっちのけんと / GRP / 主体token: こっちのけんと 
+raw: こっちのけんと / GRP / 主体token:「こっちのけんと 」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21296,7 +21296,7 @@ Creator候補: [b1-18eb03642f28fcb3973c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:795:composer:CREATOR_IDENTITY-b1-e12eda6ee4265889dc55
 
-raw: こっちのけんと / GRP / 主体token:  GRP
+raw: こっちのけんと / GRP / 主体token:「 GRP」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21479,7 +21479,7 @@ raw: 未収集/未決定
 
 taskId: garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b
 
-raw: FUNKY MONKEY BABYS/Naoki-T / 主体token: Naoki-T
+raw: FUNKY MONKEY BABYS/Naoki-T / 主体token:「Naoki-T」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21501,7 +21501,7 @@ Creator候補: [current-45f43879e01100c0453b](HUMAN_TODO_BY_CREATOR.md#candidate
 
 taskId: garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41
 
-raw: FUNKY MONKEY BABYS/Naoki-T / 主体token: FUNKY MONKEY BABYS
+raw: FUNKY MONKEY BABYS/Naoki-T / 主体token:「FUNKY MONKEY BABYS」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21657,7 +21657,7 @@ raw: 未収集/未決定
 
 taskId: garupa:798:composer:CREATOR_IDENTITY-b1-96b50efd44763aae3629
 
-raw: Fukase / 主体token: Fukase
+raw: Fukase / 主体token:「Fukase」
 
 理由: 現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。
 
@@ -21789,7 +21789,7 @@ game=OurNotes / recordId=17 / band=MyGO!!!!! / workId=wk-0777 / priority=P2
 
 taskId: ournotes:17:composer:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e
 
-raw: 田邊駿一 / 主体token: 田邊駿一
+raw: 田邊駿一 / 主体token:「田邊駿一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -21835,7 +21835,7 @@ Creator候補: [b1-b5a7696df411f41fb21e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: ournotes:17:lyricist:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e
 
-raw: 田邊駿一 / 主体token: 田邊駿一
+raw: 田邊駿一 / 主体token:「田邊駿一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -21894,7 +21894,7 @@ game=OurNotes / recordId=40 / band=Ave Mujica / workId=wk-0086 / priority=P2
 
 taskId: ournotes:40:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678
 
-raw: 植木建象、冬真 / 主体token: 冬真
+raw: 植木建象、冬真 / 主体token:「冬真」
 
 理由: 植木建象とのゲーム共同編曲2件、OurNotes発売版1件。本人候補公式ショップ本文Cache miss、演奏者一覧だけでCreator同一性を確定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -21940,7 +21940,7 @@ Creator候補: [b1-737ea160bdb3018aa678](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: ournotes:40:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501
 
-raw: 植木建象、冬真 / 主体token: 植木建象
+raw: 植木建象、冬真 / 主体token:「植木建象」
 
 理由: identityはcr-0098で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -21997,7 +21997,7 @@ game=OurNotes / recordId=49 / band=夢限大みゅーたいぷ / workId=wk-0796 
 
 taskId: ournotes:49:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66
 
-raw: 仲町あられ、堀江晶太 / 主体token: 仲町あられ
+raw: 仲町あられ、堀江晶太 / 主体token:「仲町あられ」
 
 理由: identityはcr-0105で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -22019,7 +22019,7 @@ Creator候補: [b1-6f1dda77863c0f86ef66](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: ournotes:49:lyricist:ROLE_REVIEW-cr-0028
 
-raw: 仲町あられ、堀江晶太 / 主体token: 堀江晶太
+raw: 仲町あられ、堀江晶太 / 主体token:「堀江晶太」
 
 理由: identityはcr-0028で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
 
@@ -22076,7 +22076,7 @@ game=Garupa / recordId=23 / band=Pastel＊Palettes / workId=wk-0023 / priority=P
 
 taskId: garupa:23:composer:CREATOR_IDENTITY-b1-5daf7521e275422c1a63
 
-raw: 町田紀彦 / 主体token: 町田紀彦
+raw: 町田紀彦 / 主体token:「町田紀彦」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22122,7 +22122,7 @@ Creator候補: [b1-5daf7521e275422c1a63](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:23:lyricist:CREATOR_IDENTITY-b1-5daf7521e275422c1a63
 
-raw: 町田紀彦 / 主体token: 町田紀彦
+raw: 町田紀彦 / 主体token:「町田紀彦」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22181,7 +22181,7 @@ game=Garupa / recordId=35 / band=Pastel＊Palettes / workId=wk-0035 / priority=P
 
 taskId: garupa:35:composer:CREATOR_IDENTITY-b1-547bed634aa8f30e061c
 
-raw: 恩田快人 / 主体token: 恩田快人
+raw: 恩田快人 / 主体token:「恩田快人」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22227,7 +22227,7 @@ Creator候補: [b1-547bed634aa8f30e061c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:35:lyricist:CREATOR_IDENTITY-b1-ae6e4b8c51d53a40a5cd
 
-raw: YUKI / 主体token: YUKI
+raw: YUKI / 主体token:「YUKI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -22286,7 +22286,7 @@ game=Garupa / recordId=52 / band=Afterglow / workId=wk-0052 / priority=P3
 
 taskId: garupa:52:composer:CREATOR_IDENTITY-b1-09372580cbe58129449a
 
-raw: cinema staff / 主体token: cinema staff
+raw: cinema staff / 主体token:「cinema staff」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22332,7 +22332,7 @@ Creator候補: [b1-09372580cbe58129449a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:52:lyricist:CREATOR_IDENTITY-b1-d338d3a3f4686b7ba574
 
-raw: 三島想平 / 主体token: 三島想平
+raw: 三島想平 / 主体token:「三島想平」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22391,7 +22391,7 @@ game=Garupa / recordId=54 / band=Pastel＊Palettes / workId=wk-0054 / priority=P
 
 taskId: garupa:54:lyricist:CREATOR_IDENTITY-b1-6c645a49994fe5f741d7
 
-raw: 秋山澪 / 主体token: 秋山澪
+raw: 秋山澪 / 主体token:「秋山澪」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22450,7 +22450,7 @@ game=Garupa / recordId=56 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:56:composer:CREATOR_IDENTITY-b1-bf111c009024f8941564
 
-raw: 秦基博 / 主体token: 秦基博
+raw: 秦基博 / 主体token:「秦基博」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22496,7 +22496,7 @@ Creator候補: [b1-bf111c009024f8941564](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:56:lyricist:CREATOR_IDENTITY-b1-bf111c009024f8941564
 
-raw: 秦基博 / 主体token: 秦基博
+raw: 秦基博 / 主体token:「秦基博」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22555,7 +22555,7 @@ game=Garupa / recordId=60 / band=Poppin'Party / workId=wk-0060 / priority=P3
 
 taskId: garupa:60:lyricist:CREATOR_IDENTITY-b1-be2f872b0d4ba21abd2f
 
-raw: 八木沼悟志 yuki-ka / 主体token: 八木沼悟志 yuki-ka
+raw: 八木沼悟志 yuki-ka / 主体token:「八木沼悟志 yuki-ka」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22614,7 +22614,7 @@ game=Garupa / recordId=68 / band=Roselia / workId=wk-0068 / priority=P3
 
 taskId: garupa:68:composer:CREATOR_IDENTITY-b1-dac67868e6e4a69b10de
 
-raw: 高瀬一矢 / 主体token: 高瀬一矢
+raw: 高瀬一矢 / 主体token:「高瀬一矢」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22660,7 +22660,7 @@ Creator候補: [b1-dac67868e6e4a69b10de](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:68:lyricist:CREATOR_IDENTITY-b1-fd13cfd88311eea8c167
 
-raw: MELL / 主体token: MELL
+raw: MELL / 主体token:「MELL」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -22719,7 +22719,7 @@ game=Garupa / recordId=69 / band=Pastel＊Palettes / workId=wk-0069 / priority=P
 
 taskId: garupa:69:composer:CREATOR_IDENTITY-b1-7b1a278f5abe8e9da907
 
-raw: 96 / 主体token: 96
+raw: 96 / 主体token:「96」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -22765,7 +22765,7 @@ Creator候補: [b1-7b1a278f5abe8e9da907](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:69:lyricist:CREATOR_IDENTITY-b1-cd8f0145bb1473eb6e44
 
-raw: あさき / 主体token: あさき
+raw: あさき / 主体token:「あさき」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22824,7 +22824,7 @@ game=Garupa / recordId=74 / band=Afterglow / workId=wk-0074 / priority=P3
 
 taskId: garupa:74:composer:CREATOR_IDENTITY-b1-f78f07deae513900d47c
 
-raw: tetsuya / 主体token: tetsuya
+raw: tetsuya / 主体token:「tetsuya」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22870,7 +22870,7 @@ Creator候補: [b1-f78f07deae513900d47c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:74:lyricist:ALIAS_REVIEW-cr-0052
 
-raw: hyde / 主体token: hyde
+raw: hyde / 主体token:「hyde」
 
 理由: 既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -22905,7 +22905,7 @@ game=Garupa / recordId=77 / band=Poppin'Party / workId=wk-0077 / priority=P3
 
 taskId: garupa:77:composer:CREATOR_IDENTITY-b1-6427ee4579abe0368f2d
 
-raw: 黒うさ / 主体token: 黒うさ
+raw: 黒うさ / 主体token:「黒うさ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -22951,7 +22951,7 @@ Creator候補: [b1-6427ee4579abe0368f2d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:77:lyricist:CREATOR_IDENTITY-b1-6427ee4579abe0368f2d
 
-raw: 黒うさ / 主体token: 黒うさ
+raw: 黒うさ / 主体token:「黒うさ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23010,7 +23010,7 @@ game=Garupa / recordId=78 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:78:composer:CREATOR_IDENTITY-b1-10ee6df825a6122bfabf
 
-raw: 田中秀和(MONACA) / 主体token: 田中秀和(MONACA)
+raw: 田中秀和(MONACA) / 主体token:「田中秀和(MONACA)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23069,7 +23069,7 @@ game=Garupa / recordId=80 / band=Poppin'Party / workId=wk-0080 / priority=P3
 
 taskId: garupa:80:arranger:CREATOR_IDENTITY-b1-75bc6f55895854797a5f
 
-raw: 宅見将典 / 主体token: 宅見将典
+raw: 宅見将典 / 主体token:「宅見将典」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23115,7 +23115,7 @@ Creator候補: [b1-75bc6f55895854797a5f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:80:composer:CREATOR_IDENTITY-b1-d4a148019c1483c7170e
 
-raw: DAIGO / 主体token: DAIGO
+raw: DAIGO / 主体token:「DAIGO」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23174,7 +23174,7 @@ game=Garupa / recordId=84 / band=Pastel＊Palettes / workId=wk-0084 / priority=P
 
 taskId: garupa:84:composer:CREATOR_IDENTITY-b1-58a727440f942bbd8466
 
-raw: BETTI / 主体token: BETTI
+raw: BETTI / 主体token:「BETTI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23220,7 +23220,7 @@ Creator候補: [b1-58a727440f942bbd8466](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:84:lyricist:CREATOR_IDENTITY-b1-58a727440f942bbd8466
 
-raw: BETTI / 主体token: BETTI
+raw: BETTI / 主体token:「BETTI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23279,7 +23279,7 @@ game=Garupa / recordId=87 / band=Afterglow / workId=wk-0087 / priority=P3
 
 taskId: garupa:87:composer:CREATOR_IDENTITY-b1-67e2d167cfeb49f8ef70
 
-raw: 宮崎誠 / 主体token: 宮崎誠
+raw: 宮崎誠 / 主体token:「宮崎誠」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23325,7 +23325,7 @@ Creator候補: [b1-67e2d167cfeb49f8ef70](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:87:lyricist:CREATOR_IDENTITY-b1-d82e3bf66ae81c35d3da
 
-raw: ミズノゲンキ / 主体token: ミズノゲンキ
+raw: ミズノゲンキ / 主体token:「ミズノゲンキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23384,7 +23384,7 @@ game=Garupa / recordId=94 / band=Poppin'Party / workId=wk-0094 / priority=P3
 
 taskId: garupa:94:composer:CREATOR_IDENTITY-b1-80e30b728decd023a8e5
 
-raw: Junky / 主体token: Junky
+raw: Junky / 主体token:「Junky」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23430,7 +23430,7 @@ Creator候補: [b1-80e30b728decd023a8e5](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:94:lyricist:CREATOR_IDENTITY-b1-80e30b728decd023a8e5
 
-raw: Junky / 主体token: Junky
+raw: Junky / 主体token:「Junky」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23489,7 +23489,7 @@ game=Garupa / recordId=95 / band=Pastel＊Palettes / workId=wk-0095 / priority=P
 
 taskId: garupa:95:composer:CREATOR_IDENTITY-b1-2e603f1957aca0f40651
 
-raw: 奥井康介 / 主体token: 奥井康介
+raw: 奥井康介 / 主体token:「奥井康介」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23535,7 +23535,7 @@ Creator候補: [b1-2e603f1957aca0f40651](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:95:lyricist:CREATOR_IDENTITY-b1-a0c91d44359a21555daa
 
-raw: KOCHO / 主体token: KOCHO
+raw: KOCHO / 主体token:「KOCHO」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23594,7 +23594,7 @@ game=Garupa / recordId=98 / band=ハロー、ハッピーワールド！ / workI
 
 taskId: garupa:98:composer:CREATOR_IDENTITY-b1-f642705165cefc663b90
 
-raw: 園田智也 / 主体token: 園田智也
+raw: 園田智也 / 主体token:「園田智也」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23640,7 +23640,7 @@ Creator候補: [b1-f642705165cefc663b90](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:98:lyricist:CREATOR_IDENTITY-b1-f642705165cefc663b90
 
-raw: 園田智也 / 主体token: 園田智也
+raw: 園田智也 / 主体token:「園田智也」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23699,7 +23699,7 @@ game=Garupa / recordId=99 / band=ハロー、ハッピーワールド！×蘭×�
 
 taskId: garupa:99:composer:CREATOR_IDENTITY-b1-438e0b66f47ebd93d1ac
 
-raw: 田代智一 / 主体token: 田代智一
+raw: 田代智一 / 主体token:「田代智一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23758,7 +23758,7 @@ game=Garupa / recordId=100 / band=Roselia / workId=wk-0100 / priority=P3
 
 taskId: garupa:100:composer:CREATOR_IDENTITY-b1-158501827418558fd102
 
-raw: 若林充 / 主体token: 若林充
+raw: 若林充 / 主体token:「若林充」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23804,7 +23804,7 @@ Creator候補: [b1-158501827418558fd102](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:100:lyricist:CREATOR_IDENTITY-b1-b2716bd1b6b1586e987f
 
-raw: 深青結希 / 主体token: 深青結希
+raw: 深青結希 / 主体token:「深青結希」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23863,7 +23863,7 @@ game=Garupa / recordId=101 / band=Poppin'Party / workId=wk-0101 / priority=P3
 
 taskId: garupa:101:lyricist:CREATOR_IDENTITY-b1-afb9ede13d72694476ad
 
-raw: AI YAZAWA / 主体token: AI YAZAWA
+raw: AI YAZAWA / 主体token:「AI YAZAWA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23922,7 +23922,7 @@ game=Garupa / recordId=108 / band=Pastel＊Palettes / workId=wk-0108 / priority=
 
 taskId: garupa:108:composer:CREATOR_IDENTITY-b1-112bef0ce9ee1d577b32
 
-raw: ika_mo / 主体token: ika_mo
+raw: ika_mo / 主体token:「ika_mo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -23968,7 +23968,7 @@ Creator候補: [b1-112bef0ce9ee1d577b32](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:108:lyricist:CREATOR_IDENTITY-b1-112bef0ce9ee1d577b32
 
-raw: ika_mo / 主体token: ika_mo
+raw: ika_mo / 主体token:「ika_mo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24027,7 +24027,7 @@ game=Garupa / recordId=112 / band=Afterglow / workId=wk-0112 / priority=P3
 
 taskId: garupa:112:composer:ALIAS_REVIEW-cr-0067
 
-raw: UZ(SPYAIR) / 主体token: UZ(SPYAIR)
+raw: UZ(SPYAIR) / 主体token:「UZ(SPYAIR)」
 
 理由: 既存name/aliasまたは人間確認済み所属を除いたnameとの完全一致。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -24062,7 +24062,7 @@ game=Garupa / recordId=123 / band=Poppin'Party / workId=wk-0123 / priority=P3
 
 taskId: garupa:123:lyricist:CREATOR_IDENTITY-b1-778261d5431d1cdd092e
 
-raw: Benjamin Franklin / 主体token: Benjamin Franklin
+raw: Benjamin Franklin / 主体token:「Benjamin Franklin」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24121,7 +24121,7 @@ game=Garupa / recordId=125 / band=Roselia / workId=wk-0125 / priority=P3
 
 taskId: garupa:125:lyricist:CREATOR_IDENTITY-b1-d8753949d707d73cedda
 
-raw: 小森成雄 / 主体token: 小森成雄
+raw: 小森成雄 / 主体token:「小森成雄」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24180,7 +24180,7 @@ game=Garupa / recordId=126 / band=Poppin'Party / workId=wk-0126 / priority=P3
 
 taskId: garupa:126:composer:CREATOR_IDENTITY-b1-fa3e5baefa529e9ab3da
 
-raw: 破矢ジンタ / 主体token: 破矢ジンタ
+raw: 破矢ジンタ / 主体token:「破矢ジンタ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24226,7 +24226,7 @@ Creator候補: [b1-fa3e5baefa529e9ab3da](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:126:lyricist:CREATOR_IDENTITY-b1-fa3e5baefa529e9ab3da
 
-raw: 破矢ジンタ / 主体token: 破矢ジンタ
+raw: 破矢ジンタ / 主体token:「破矢ジンタ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24285,7 +24285,7 @@ game=Garupa / recordId=133 / band=Poppin'Party / workId=wk-0133 / priority=P3
 
 taskId: garupa:133:composer:CREATOR_IDENTITY-b1-8e22ba6db7d43abd4e92
 
-raw: doriko / 主体token: doriko
+raw: doriko / 主体token:「doriko」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24331,7 +24331,7 @@ Creator候補: [b1-8e22ba6db7d43abd4e92](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:133:lyricist:CREATOR_IDENTITY-b1-8e22ba6db7d43abd4e92
 
-raw: doriko / 主体token: doriko
+raw: doriko / 主体token:「doriko」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24390,7 +24390,7 @@ game=Garupa / recordId=136 / band=Pastel＊Palettes / workId=wk-0136 / priority=
 
 taskId: garupa:136:lyricist:CREATOR_IDENTITY-b1-1a281a5c5f73908e2ea7
 
-raw: 園田凌士 / 主体token: 園田凌士
+raw: 園田凌士 / 主体token:「園田凌士」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24449,7 +24449,7 @@ game=Garupa / recordId=142 / band=Poppin'Party / workId=wk-0142 / priority=P3
 
 taskId: garupa:142:composer:CREATOR_IDENTITY-b1-a65ed011ff40b6d7fbfc
 
-raw: 阪井　一生 / 主体token: 阪井　一生
+raw: 阪井　一生 / 主体token:「阪井　一生」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24495,7 +24495,7 @@ Creator候補: [b1-a65ed011ff40b6d7fbfc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:142:lyricist:CREATOR_IDENTITY-b1-f3c23daeb80fc5101189
 
-raw: 山村　隆太 / 主体token: 山村　隆太
+raw: 山村　隆太 / 主体token:「山村　隆太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24554,7 +24554,7 @@ game=Garupa / recordId=143 / band=Pastel＊Palettes / workId=wk-0143 / priority=
 
 taskId: garupa:143:composer:CREATOR_IDENTITY-b1-fb55f537527b543ca57d
 
-raw: イイジマケン / 主体token: イイジマケン
+raw: イイジマケン / 主体token:「イイジマケン」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24600,7 +24600,7 @@ Creator候補: [b1-fb55f537527b543ca57d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:143:lyricist:CREATOR_IDENTITY-b1-5c26d2903c02f84503f5
 
-raw: 三弥 / 主体token: 三弥
+raw: 三弥 / 主体token:「三弥」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24659,7 +24659,7 @@ game=Garupa / recordId=145 / band=Afterglow / workId=wk-0145 / priority=P3
 
 taskId: garupa:145:composer:CREATOR_IDENTITY-b1-883fb561e5bf9e3d9a36
 
-raw: Jun Maeda / 主体token: Jun Maeda
+raw: Jun Maeda / 主体token:「Jun Maeda」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24705,7 +24705,7 @@ Creator候補: [b1-883fb561e5bf9e3d9a36](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:145:lyricist:CREATOR_IDENTITY-b1-883fb561e5bf9e3d9a36
 
-raw: Jun Maeda / 主体token: Jun Maeda
+raw: Jun Maeda / 主体token:「Jun Maeda」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24764,7 +24764,7 @@ game=Garupa / recordId=152 / band=Roselia / workId=wk-0152 / priority=P3
 
 taskId: garupa:152:composer:CREATOR_IDENTITY-b1-e968de2a8620232102ff
 
-raw: AIMI / 主体token: AIMI
+raw: AIMI / 主体token:「AIMI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -24810,7 +24810,7 @@ Creator候補: [b1-e968de2a8620232102ff](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:152:lyricist:CREATOR_IDENTITY-b1-e968de2a8620232102ff
 
-raw: AIMI / 主体token: AIMI
+raw: AIMI / 主体token:「AIMI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -24869,7 +24869,7 @@ game=Garupa / recordId=154 / band=Afterglow / workId=wk-0154 / priority=P3
 
 taskId: garupa:154:composer:CREATOR_IDENTITY-b1-c4b2184e8f3d50aa7f4d
 
-raw: 田鹿祐一 / 主体token: 田鹿祐一
+raw: 田鹿祐一 / 主体token:「田鹿祐一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24915,7 +24915,7 @@ Creator候補: [b1-c4b2184e8f3d50aa7f4d](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:154:lyricist:CREATOR_IDENTITY-b1-1a9fe1a6e3fafddeed48
 
-raw: SCANDAL 小林夏海 / 主体token: SCANDAL 小林夏海
+raw: SCANDAL 小林夏海 / 主体token:「SCANDAL 小林夏海」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -24974,7 +24974,7 @@ game=Garupa / recordId=155 / band=Poppin'Party / workId=wk-0155 / priority=P3
 
 taskId: garupa:155:composer:CREATOR_IDENTITY-b1-1813882e3feafbf985de
 
-raw: 日比野裕史 / 主体token: 日比野裕史
+raw: 日比野裕史 / 主体token:「日比野裕史」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25020,7 +25020,7 @@ Creator候補: [b1-1813882e3feafbf985de](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:155:lyricist:CREATOR_IDENTITY-b1-31cc6557090414795a7e
 
-raw: leonn / 主体token: leonn
+raw: leonn / 主体token:「leonn」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25079,7 +25079,7 @@ game=Garupa / recordId=163 / band=Afterglow / workId=wk-0163 / priority=P3
 
 taskId: garupa:163:composer:CREATOR_IDENTITY-b1-a419967b1fc00f1e3fef
 
-raw: 柳沢亮太 / 主体token: 柳沢亮太
+raw: 柳沢亮太 / 主体token:「柳沢亮太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25125,7 +25125,7 @@ Creator候補: [b1-a419967b1fc00f1e3fef](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:163:lyricist:CREATOR_IDENTITY-b1-a419967b1fc00f1e3fef
 
-raw: 柳沢亮太 / 主体token: 柳沢亮太
+raw: 柳沢亮太 / 主体token:「柳沢亮太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25184,7 +25184,7 @@ game=Garupa / recordId=167 / band=Pastel＊Palettes / workId=wk-0167 / priority=
 
 taskId: garupa:167:composer:CREATOR_IDENTITY-b1-4bcc6d97ffede58560c9
 
-raw: 俊龍 / 主体token: 俊龍
+raw: 俊龍 / 主体token:「俊龍」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25230,7 +25230,7 @@ Creator候補: [b1-4bcc6d97ffede58560c9](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:167:lyricist:CREATOR_IDENTITY-b1-d45c84b3f81753e6a7f0
 
-raw: 山崎寛子 / 主体token: 山崎寛子
+raw: 山崎寛子 / 主体token:「山崎寛子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25289,7 +25289,7 @@ game=Garupa / recordId=169 / band=Roselia×蘭 / workId=wk-0169 / priority=P3
 
 taskId: garupa:169:lyricist:CREATOR_IDENTITY-b1-8f524c800339a70fea2b
 
-raw: Hibiki / 主体token: Hibiki
+raw: Hibiki / 主体token:「Hibiki」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25348,7 +25348,7 @@ game=Garupa / recordId=170 / band=Poppin'Party×彩×こころ / workId=wk-0170 
 
 taskId: garupa:170:lyricist:CREATOR_IDENTITY-b1-56298a71ec9a5dc3d23f
 
-raw: 広井王子 / 主体token: 広井王子
+raw: 広井王子 / 主体token:「広井王子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25407,7 +25407,7 @@ game=Garupa / recordId=178 / band=Roselia / workId=wk-0178 / priority=P3
 
 taskId: garupa:178:composer:CREATOR_IDENTITY-b1-16c624d3b67ebe9baa35
 
-raw: 中沢伴行 / 主体token: 中沢伴行
+raw: 中沢伴行 / 主体token:「中沢伴行」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25453,7 +25453,7 @@ Creator候補: [b1-16c624d3b67ebe9baa35](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:178:lyricist:CREATOR_IDENTITY-b1-3c164a01efbd4d649ded
 
-raw: 川田まみ / 主体token: 川田まみ
+raw: 川田まみ / 主体token:「川田まみ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25512,7 +25512,7 @@ game=Garupa / recordId=186 / band=Poppin'Party / workId=wk-0186 / priority=P3
 
 taskId: garupa:186:composer:CREATOR_IDENTITY-b1-fe9ebbac0b25eb005a1c
 
-raw: クボナオキ / 主体token: クボナオキ
+raw: クボナオキ / 主体token:「クボナオキ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25558,7 +25558,7 @@ Creator候補: [b1-fe9ebbac0b25eb005a1c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:186:lyricist:CREATOR_IDENTITY-b1-39e4a2098e4f3f26f64c
 
-raw: すぅ / 主体token: すぅ
+raw: すぅ / 主体token:「すぅ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25617,7 +25617,7 @@ game=Garupa / recordId=187 / band=Afterglow / workId=wk-0187 / priority=P3
 
 taskId: garupa:187:composer:CREATOR_IDENTITY-b1-6eadeb21499235dc66af
 
-raw: シュンタロウ / 主体token: シュンタロウ
+raw: シュンタロウ / 主体token:「シュンタロウ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25663,7 +25663,7 @@ Creator候補: [b1-6eadeb21499235dc66af](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:187:lyricist:CREATOR_IDENTITY-b1-6eadeb21499235dc66af
 
-raw: シュンタロウ / 主体token: シュンタロウ
+raw: シュンタロウ / 主体token:「シュンタロウ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25722,7 +25722,7 @@ game=Garupa / recordId=189 / band=Pastel＊Palettes / workId=wk-0189 / priority=
 
 taskId: garupa:189:composer:CREATOR_IDENTITY-b1-f108d96030d53d2e9701
 
-raw: 北川勝利 / 主体token: 北川勝利
+raw: 北川勝利 / 主体token:「北川勝利」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25768,7 +25768,7 @@ Creator候補: [b1-f108d96030d53d2e9701](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:189:lyricist:CREATOR_IDENTITY-b1-66ae897b64d629d7c4dc
 
-raw: やなぎなぎ / 主体token: やなぎなぎ
+raw: やなぎなぎ / 主体token:「やなぎなぎ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25827,7 +25827,7 @@ game=Garupa / recordId=190 / band=Poppin'Party / workId=wk-0190 / priority=P3
 
 taskId: garupa:190:composer:CREATOR_IDENTITY-b1-4ceb137471977e31a503
 
-raw: 本多友紀(Arte Refact) / 主体token: 本多友紀(Arte Refact)
+raw: 本多友紀(Arte Refact) / 主体token:「本多友紀(Arte Refact)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25873,7 +25873,7 @@ Creator候補: [b1-4ceb137471977e31a503](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:190:lyricist:CREATOR_IDENTITY-b1-73cecab2e5e9bcaff092
 
-raw: 中村彼方 / 主体token: 中村彼方
+raw: 中村彼方 / 主体token:「中村彼方」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25932,7 +25932,7 @@ game=Garupa / recordId=194 / band=Afterglow / workId=wk-0194 / priority=P3
 
 taskId: garupa:194:composer:CREATOR_IDENTITY-b1-bd5bebe91cbf85233f57
 
-raw: 尾崎雄貴 / 主体token: 尾崎雄貴
+raw: 尾崎雄貴 / 主体token:「尾崎雄貴」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -25978,7 +25978,7 @@ Creator候補: [b1-bd5bebe91cbf85233f57](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:194:lyricist:CREATOR_IDENTITY-b1-bd5bebe91cbf85233f57
 
-raw: 尾崎雄貴 / 主体token: 尾崎雄貴
+raw: 尾崎雄貴 / 主体token:「尾崎雄貴」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26037,7 +26037,7 @@ game=Garupa / recordId=195 / band=RAISE A SUILEN / workId=wk-0195 / priority=P3
 
 taskId: garupa:195:composer:CREATOR_IDENTITY-b1-1b9b5c3f1532917b8f32
 
-raw: SIAM SHADE / 主体token: SIAM SHADE
+raw: SIAM SHADE / 主体token:「SIAM SHADE」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26083,7 +26083,7 @@ Creator候補: [b1-1b9b5c3f1532917b8f32](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:195:lyricist:CREATOR_IDENTITY-b1-1b9b5c3f1532917b8f32
 
-raw: SIAM SHADE / 主体token: SIAM SHADE
+raw: SIAM SHADE / 主体token:「SIAM SHADE」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26142,7 +26142,7 @@ game=Garupa / recordId=196 / band=Roselia / workId=wk-0196 / priority=P3
 
 taskId: garupa:196:composer:CREATOR_IDENTITY-b1-126d167d578a8a96389a
 
-raw: WEST GROUND / 主体token: WEST GROUND
+raw: WEST GROUND / 主体token:「WEST GROUND」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26188,7 +26188,7 @@ Creator候補: [b1-126d167d578a8a96389a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:196:lyricist:CREATOR_IDENTITY-b1-582283cb3ac3830eaeb5
 
-raw: minatoku / 主体token: minatoku
+raw: minatoku / 主体token:「minatoku」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26247,7 +26247,7 @@ game=Garupa / recordId=210 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:210:composer:CREATOR_IDENTITY-b1-3a954d4780af7acc3412
 
-raw: 馬渕直純 / 主体token: 馬渕直純
+raw: 馬渕直純 / 主体token:「馬渕直純」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26293,7 +26293,7 @@ Creator候補: [b1-3a954d4780af7acc3412](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:210:lyricist:CREATOR_IDENTITY-b1-3c1eea032a46d214daa8
 
-raw: 森由里子 / 主体token: 森由里子
+raw: 森由里子 / 主体token:「森由里子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26352,7 +26352,7 @@ game=Garupa / recordId=216 / band=Pastel＊Palettes / workId=wk-0214 / priority=
 
 taskId: garupa:216:composer:CREATOR_IDENTITY-b1-3da3ce9a9f923fdf74ee
 
-raw: Heart's Cry / 主体token: Heart's Cry
+raw: Heart's Cry / 主体token:「Heart's Cry」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26398,7 +26398,7 @@ Creator候補: [b1-3da3ce9a9f923fdf74ee](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:216:lyricist:CREATOR_IDENTITY-b1-3da3ce9a9f923fdf74ee
 
-raw: Heart's Cry / 主体token: Heart's Cry
+raw: Heart's Cry / 主体token:「Heart's Cry」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26457,7 +26457,7 @@ game=Garupa / recordId=224 / band=Afterglow / workId=wk-0220 / priority=P3
 
 taskId: garupa:224:composer:CREATOR_IDENTITY-b1-3f9807cb9ae9fb6c3094
 
-raw: 164 / 主体token: 164
+raw: 164 / 主体token:「164」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -26503,7 +26503,7 @@ Creator候補: [b1-3f9807cb9ae9fb6c3094](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:224:lyricist:CREATOR_IDENTITY-b1-3f9807cb9ae9fb6c3094
 
-raw: 164 / 主体token: 164
+raw: 164 / 主体token:「164」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -26562,7 +26562,7 @@ game=Garupa / recordId=225 / band=Poppin'Party×友希那 / workId=wk-0221 / pri
 
 taskId: garupa:225:composer:CREATOR_IDENTITY-b1-490001dbd44591918dd2
 
-raw: 菅野よう子 / 主体token: 菅野よう子
+raw: 菅野よう子 / 主体token:「菅野よう子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26608,7 +26608,7 @@ Creator候補: [b1-490001dbd44591918dd2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:225:lyricist:CREATOR_IDENTITY-b1-33fff21d0d0e10ccfbc5
 
-raw: 岩里祐穂 / 主体token: 岩里祐穂
+raw: 岩里祐穂 / 主体token:「岩里祐穂」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26667,7 +26667,7 @@ game=Garupa / recordId=226 / band=Afterglow×こころ / workId=wk-0222 / priori
 
 taskId: garupa:226:lyricist:CREATOR_IDENTITY-b1-0453649b5d96b1b9f98d
 
-raw: KOHSHI / 主体token: KOHSHI
+raw: KOHSHI / 主体token:「KOHSHI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26726,7 +26726,7 @@ game=Garupa / recordId=231 / band=Roselia / workId=wk-0226 / priority=P3
 
 taskId: garupa:231:composer:CREATOR_IDENTITY-b1-0bbc4359dc2b9de710fd
 
-raw: 瞬火 / 主体token: 瞬火
+raw: 瞬火 / 主体token:「瞬火」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26772,7 +26772,7 @@ Creator候補: [b1-0bbc4359dc2b9de710fd](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:231:lyricist:CREATOR_IDENTITY-b1-0bbc4359dc2b9de710fd
 
-raw: 瞬火 / 主体token: 瞬火
+raw: 瞬火 / 主体token:「瞬火」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26831,7 +26831,7 @@ game=Garupa / recordId=244 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:244:composer:CREATOR_IDENTITY-b1-247410cd6f20cb61fd05
 
-raw: 吟(BUSTED ROSE) / 主体token: 吟(BUSTED ROSE)
+raw: 吟(BUSTED ROSE) / 主体token:「吟(BUSTED ROSE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26877,7 +26877,7 @@ Creator候補: [b1-247410cd6f20cb61fd05](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:244:lyricist:CREATOR_IDENTITY-b1-247410cd6f20cb61fd05
 
-raw: 吟(BUSTED ROSE) / 主体token: 吟(BUSTED ROSE)
+raw: 吟(BUSTED ROSE) / 主体token:「吟(BUSTED ROSE)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26936,7 +26936,7 @@ game=Garupa / recordId=248 / band=Poppin'Party / workId=wk-0242 / priority=P3
 
 taskId: garupa:248:composer:CREATOR_IDENTITY-b1-b08b742db21de1e1757f
 
-raw: H是都M / 主体token: H是都M
+raw: H是都M / 主体token:「H是都M」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -26982,7 +26982,7 @@ Creator候補: [b1-b08b742db21de1e1757f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:248:lyricist:CREATOR_IDENTITY-b1-fa3db4ea94453fe0d0f5
 
-raw: 椎名林檎 / 主体token: 椎名林檎
+raw: 椎名林檎 / 主体token:「椎名林檎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27041,7 +27041,7 @@ game=Garupa / recordId=266 / band=Morfonica / workId=wk-0260 / priority=P3
 
 taskId: garupa:266:lyricist:CREATOR_IDENTITY-b1-428b9226573129b00d8b
 
-raw: fripSide / 主体token: fripSide
+raw: fripSide / 主体token:「fripSide」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27100,7 +27100,7 @@ game=Garupa / recordId=270 / band=Roselia / workId=wk-0264 / priority=P3
 
 taskId: garupa:270:composer:CREATOR_IDENTITY-b1-8b0aa3b66381891a7464
 
-raw: のりぴー / 主体token: のりぴー
+raw: のりぴー / 主体token:「のりぴー」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27146,7 +27146,7 @@ Creator候補: [b1-8b0aa3b66381891a7464](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:270:lyricist:CREATOR_IDENTITY-b1-cf8fdb25efcc0247f13d
 
-raw: 水野悠良 / 主体token: 水野悠良
+raw: 水野悠良 / 主体token:「水野悠良」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27205,7 +27205,7 @@ game=Garupa / recordId=271 / band=Morfonica / workId=wk-0265 / priority=P3
 
 taskId: garupa:271:composer:CREATOR_IDENTITY-b1-393ca9c492828f6a46db
 
-raw: ゆうゆ / 主体token: ゆうゆ
+raw: ゆうゆ / 主体token:「ゆうゆ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27251,7 +27251,7 @@ Creator候補: [b1-393ca9c492828f6a46db](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:271:lyricist:CREATOR_IDENTITY-b1-393ca9c492828f6a46db
 
-raw: ゆうゆ / 主体token: ゆうゆ
+raw: ゆうゆ / 主体token:「ゆうゆ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27310,7 +27310,7 @@ game=Garupa / recordId=281 / band=Poppin'Party / workId=wk-0275 / priority=P3
 
 taskId: garupa:281:composer:CREATOR_IDENTITY-b1-fce21d77e4a7daaa0b33
 
-raw: Last Note. / 主体token: Last Note.
+raw: Last Note. / 主体token:「Last Note.」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27356,7 +27356,7 @@ Creator候補: [b1-fce21d77e4a7daaa0b33](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:281:lyricist:CREATOR_IDENTITY-b1-fce21d77e4a7daaa0b33
 
-raw: Last Note. / 主体token: Last Note.
+raw: Last Note. / 主体token:「Last Note.」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27415,7 +27415,7 @@ game=Garupa / recordId=285 / band=Pastel＊Palettes / workId=wk-0279 / priority=
 
 taskId: garupa:285:composer:CREATOR_IDENTITY-b1-fa7b1e6d67df1191ad35
 
-raw: 小杉保夫 / 主体token: 小杉保夫
+raw: 小杉保夫 / 主体token:「小杉保夫」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27461,7 +27461,7 @@ Creator候補: [b1-fa7b1e6d67df1191ad35](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:285:lyricist:CREATOR_IDENTITY-b1-5d3d77f92a985df00f0e
 
-raw: もりちよこ / 主体token: もりちよこ
+raw: もりちよこ / 主体token:「もりちよこ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27520,7 +27520,7 @@ game=Garupa / recordId=286 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:286:composer:CREATOR_IDENTITY-b1-0afdac97bfa197941f99
 
-raw: 池毅 / 主体token: 池毅
+raw: 池毅 / 主体token:「池毅」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27579,7 +27579,7 @@ game=Garupa / recordId=292 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:292:composer:CREATOR_IDENTITY-b1-a21ffa34b11778c37450
 
-raw: Mitchie M / 主体token: Mitchie M
+raw: Mitchie M / 主体token:「Mitchie M」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27625,7 +27625,7 @@ Creator候補: [b1-a21ffa34b11778c37450](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:292:lyricist:CREATOR_IDENTITY-b1-a21ffa34b11778c37450
 
-raw: Mitchie M / 主体token: Mitchie M
+raw: Mitchie M / 主体token:「Mitchie M」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27684,7 +27684,7 @@ game=Garupa / recordId=293 / band=RAISE A SUILEN / workId=wk-0287 / priority=P3
 
 taskId: garupa:293:composer:CREATOR_IDENTITY-b1-699671a1485c6747c725
 
-raw: 日向電工 / 主体token: 日向電工
+raw: 日向電工 / 主体token:「日向電工」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27730,7 +27730,7 @@ Creator候補: [b1-699671a1485c6747c725](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:293:lyricist:CREATOR_IDENTITY-b1-699671a1485c6747c725
 
-raw: 日向電工 / 主体token: 日向電工
+raw: 日向電工 / 主体token:「日向電工」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27789,7 +27789,7 @@ game=Garupa / recordId=296 / band=Pastel＊Palettes×こころ×ましろ / work
 
 taskId: garupa:296:composer:CREATOR_IDENTITY-b1-8db9cda13f9fa81530d7
 
-raw: 小諸鉄矢 / 主体token: 小諸鉄矢
+raw: 小諸鉄矢 / 主体token:「小諸鉄矢」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27835,7 +27835,7 @@ Creator候補: [b1-8db9cda13f9fa81530d7](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:296:lyricist:CREATOR_IDENTITY-b1-eeed6f899e58708cac5e
 
-raw: 小田佳奈子 / 主体token: 小田佳奈子
+raw: 小田佳奈子 / 主体token:「小田佳奈子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27894,7 +27894,7 @@ game=Garupa / recordId=298 / band=Morfonica / workId=wk-0292 / priority=P3
 
 taskId: garupa:298:composer:CREATOR_IDENTITY-b1-501d913437bbf5f7b9da
 
-raw: 東野へいと / 主体token: 東野へいと
+raw: 東野へいと / 主体token:「東野へいと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27940,7 +27940,7 @@ Creator候補: [b1-501d913437bbf5f7b9da](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:298:lyricist:CREATOR_IDENTITY-b1-501d913437bbf5f7b9da
 
-raw: 東野へいと / 主体token: 東野へいと
+raw: 東野へいと / 主体token:「東野へいと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -27999,7 +27999,7 @@ game=Garupa / recordId=299 / band=Afterglow / workId=wk-0293 / priority=P3
 
 taskId: garupa:299:composer:CREATOR_IDENTITY-b1-d4592b0fdc2ad89d7c56
 
-raw: たかはし　ごう / 主体token: たかはし　ごう
+raw: たかはし　ごう / 主体token:「たかはし　ごう」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28045,7 +28045,7 @@ Creator候補: [b1-d4592b0fdc2ad89d7c56](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:299:lyricist:CREATOR_IDENTITY-b1-7fa46ce50a1a1466c6bb
 
-raw: MEGUMI / 主体token: MEGUMI
+raw: MEGUMI / 主体token:「MEGUMI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28104,7 +28104,7 @@ game=Garupa / recordId=305 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:305:composer:CREATOR_IDENTITY-b1-9026987ff30606eaae3a
 
-raw: Funta3 / 主体token: Funta3
+raw: Funta3 / 主体token:「Funta3」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28150,7 +28150,7 @@ Creator候補: [b1-9026987ff30606eaae3a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:305:lyricist:CREATOR_IDENTITY-b1-954e6a4aaf371bb3f0f0
 
-raw: 渡邊亜希子 / 主体token: 渡邊亜希子
+raw: 渡邊亜希子 / 主体token:「渡邊亜希子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28209,7 +28209,7 @@ game=Garupa / recordId=308 / band=Afterglow / workId=wk-0302 / priority=P3
 
 taskId: garupa:308:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce
 
-raw: ＭＯＭＩＫＥＮ / 主体token: ＭＯＭＩＫＥＮ
+raw: ＭＯＭＩＫＥＮ / 主体token:「ＭＯＭＩＫＥＮ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28244,7 +28244,7 @@ game=Garupa / recordId=309 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:309:composer:CREATOR_IDENTITY-b1-2bfb52ad85bba72d6bfb
 
-raw: 新田目翔 / 主体token: 新田目翔
+raw: 新田目翔 / 主体token:「新田目翔」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28290,7 +28290,7 @@ Creator候補: [b1-2bfb52ad85bba72d6bfb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-2
 
 taskId: garupa:309:lyricist:CREATOR_IDENTITY-b1-539d1814a7a68c8c1002
 
-raw: 永塚健登 / 主体token: 永塚健登
+raw: 永塚健登 / 主体token:「永塚健登」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28349,7 +28349,7 @@ game=Garupa / recordId=318 / band=Morfonica / workId=wk-0312 / priority=P3
 
 taskId: garupa:318:composer:CREATOR_IDENTITY-b1-0a70b158510ce27c3524
 
-raw: 御恵明希 / 主体token: 御恵明希
+raw: 御恵明希 / 主体token:「御恵明希」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28395,7 +28395,7 @@ Creator候補: [b1-0a70b158510ce27c3524](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:318:lyricist:CREATOR_IDENTITY-b1-6723de6793ab3c3c6eaf
 
-raw: マオ / 主体token: マオ
+raw: マオ / 主体token:「マオ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28454,7 +28454,7 @@ game=Garupa / recordId=321 / band=Roselia / workId=wk-0315 / priority=P3
 
 taskId: garupa:321:composer:CREATOR_IDENTITY-b1-fd141d95f7b33a98b371
 
-raw: 折戸伸治 / 主体token: 折戸伸治
+raw: 折戸伸治 / 主体token:「折戸伸治」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28513,7 +28513,7 @@ game=Garupa / recordId=323 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:323:composer:CREATOR_IDENTITY-b1-afc9132db9ee8076160c
 
-raw: 河合英嗣 / 主体token: 河合英嗣
+raw: 河合英嗣 / 主体token:「河合英嗣」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28572,7 +28572,7 @@ game=Garupa / recordId=324 / band=Poppin'Party / workId=wk-0318 / priority=P3
 
 taskId: garupa:324:composer:CREATOR_IDENTITY-b1-e16d913a5bd83262763e
 
-raw: たくや / 主体token: たくや
+raw: たくや / 主体token:「たくや」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28618,7 +28618,7 @@ Creator候補: [b1-e16d913a5bd83262763e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:324:lyricist:CREATOR_IDENTITY-b1-e16d913a5bd83262763e
 
-raw: たくや / 主体token: たくや
+raw: たくや / 主体token:「たくや」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28677,7 +28677,7 @@ game=Garupa / recordId=325 / band=Pastel＊Palettes / workId=wk-0319 / priority=
 
 taskId: garupa:325:composer:CREATOR_IDENTITY-b1-d9483c67658a14dccf0f
 
-raw: 小林　泉美 / 主体token: 小林　泉美
+raw: 小林　泉美 / 主体token:「小林　泉美」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28723,7 +28723,7 @@ Creator候補: [b1-d9483c67658a14dccf0f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:325:lyricist:CREATOR_IDENTITY-b1-cd84bc4e61f65e090614
 
-raw: 伊藤　アキラ / 主体token: 伊藤　アキラ
+raw: 伊藤　アキラ / 主体token:「伊藤　アキラ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28782,7 +28782,7 @@ game=Garupa / recordId=340 / band=Poppin'Party×鈴木このみ / workId=wk-0334
 
 taskId: garupa:340:composer:CREATOR_IDENTITY-b1-86144e49c6797673c312
 
-raw: 白戸佑輔 / 主体token: 白戸佑輔
+raw: 白戸佑輔 / 主体token:「白戸佑輔」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28841,7 +28841,7 @@ game=Garupa / recordId=342 / band=Morfonica / workId=wk-0336 / priority=P3
 
 taskId: garupa:342:composer:CREATOR_IDENTITY-b1-e71861f1e699808f1178
 
-raw: カヨコ / 主体token: カヨコ
+raw: カヨコ / 主体token:「カヨコ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28887,7 +28887,7 @@ Creator候補: [b1-e71861f1e699808f1178](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:342:lyricist:CREATOR_IDENTITY-b1-8a6fce8454111f1ee43d
 
-raw: 分島花音 / 主体token: 分島花音
+raw: 分島花音 / 主体token:「分島花音」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28946,7 +28946,7 @@ game=Garupa / recordId=348 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:348:composer:CREATOR_IDENTITY-b1-868a2661ad6e8d00e4a4
 
-raw: 有澤孝紀 / 主体token: 有澤孝紀
+raw: 有澤孝紀 / 主体token:「有澤孝紀」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -28992,7 +28992,7 @@ Creator候補: [b1-868a2661ad6e8d00e4a4](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:348:lyricist:CREATOR_IDENTITY-b1-3857adbb5b4613114050
 
-raw: 森林檎 / 主体token: 森林檎
+raw: 森林檎 / 主体token:「森林檎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29051,7 +29051,7 @@ game=Garupa / recordId=352 / band=ハロー、ハッピーワールド！×Machi
 
 taskId: garupa:352:composer:CREATOR_IDENTITY-b1-d109fe1b6d1464f7d731
 
-raw: 岡野裕次郎(TRYTONELABO) / 主体token: 岡野裕次郎(TRYTONELABO)
+raw: 岡野裕次郎(TRYTONELABO) / 主体token:「岡野裕次郎(TRYTONELABO)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29097,7 +29097,7 @@ Creator候補: [b1-d109fe1b6d1464f7d731](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:352:lyricist:CREATOR_IDENTITY-b1-3caa459bd5005108c170
 
-raw: 桜アス恵(TRYTONELABO) / 主体token: 桜アス恵(TRYTONELABO)
+raw: 桜アス恵(TRYTONELABO) / 主体token:「桜アス恵(TRYTONELABO)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29156,7 +29156,7 @@ game=Garupa / recordId=370 / band=Roselia / workId=wk-0364 / priority=P3
 
 taskId: garupa:370:composer:CREATOR_IDENTITY-b1-f5cc9aecf3fc016c8ad6
 
-raw: 飛内将大 / 主体token: 飛内将大
+raw: 飛内将大 / 主体token:「飛内将大」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29202,7 +29202,7 @@ Creator候補: [b1-f5cc9aecf3fc016c8ad6](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:370:lyricist:CREATOR_IDENTITY-b1-8073219154263565a2c6
 
-raw: aimerrhythm / 主体token: aimerrhythm
+raw: aimerrhythm / 主体token:「aimerrhythm」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29261,7 +29261,7 @@ game=Garupa / recordId=374 / band=Pastel＊Palettes×ClariS / workId=wk-0368 / p
 
 taskId: garupa:374:composer:CREATOR_IDENTITY-b1-62c7660fd4f83894e94f
 
-raw: 野村陽一郎 / 主体token: 野村陽一郎
+raw: 野村陽一郎 / 主体token:「野村陽一郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29307,7 +29307,7 @@ Creator候補: [b1-62c7660fd4f83894e94f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:374:lyricist:CREATOR_IDENTITY-b1-c6c634130b4628d56dc4
 
-raw: ケリー / 主体token: ケリー
+raw: ケリー / 主体token:「ケリー」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29366,7 +29366,7 @@ game=Garupa / recordId=376 / band=Afterglow×香澄 / workId=wk-0370 / priority=
 
 taskId: garupa:376:composer:CREATOR_IDENTITY-b1-df71e4f0063c7b2e5d6f
 
-raw: Chinozo / 主体token: Chinozo
+raw: Chinozo / 主体token:「Chinozo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29412,7 +29412,7 @@ Creator候補: [b1-df71e4f0063c7b2e5d6f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:376:lyricist:CREATOR_IDENTITY-b1-df71e4f0063c7b2e5d6f
 
-raw: Chinozo / 主体token: Chinozo
+raw: Chinozo / 主体token:「Chinozo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29471,7 +29471,7 @@ game=Garupa / recordId=377 / band=Roselia×レイヤ / workId=wk-0371 / priority
 
 taskId: garupa:377:composer:CREATOR_IDENTITY-b1-e20af8f5dbaccec9923f
 
-raw: 氏原 ワタル / 主体token: 氏原 ワタル
+raw: 氏原 ワタル / 主体token:「氏原 ワタル」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29517,7 +29517,7 @@ Creator候補: [b1-e20af8f5dbaccec9923f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:377:lyricist:CREATOR_IDENTITY-b1-e20af8f5dbaccec9923f
 
-raw: 氏原 ワタル / 主体token: 氏原 ワタル
+raw: 氏原 ワタル / 主体token:「氏原 ワタル」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29576,7 +29576,7 @@ game=Garupa / recordId=387 / band=Roselia / workId=wk-0381 / priority=P3
 
 taskId: garupa:387:arranger:CREATOR_IDENTITY-b1-d65ecfbc0991662fbe12
 
-raw: Numa / 主体token: Numa
+raw: Numa / 主体token:「Numa」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -29635,7 +29635,7 @@ game=Garupa / recordId=390 / band=Pastel＊Palettes / workId=wk-0384 / priority=
 
 taskId: garupa:390:composer:CREATOR_IDENTITY-b1-74f85f9b231edd5248d1
 
-raw: くじら / 主体token: くじら
+raw: くじら / 主体token:「くじら」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29681,7 +29681,7 @@ Creator候補: [b1-74f85f9b231edd5248d1](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:390:lyricist:CREATOR_IDENTITY-b1-74f85f9b231edd5248d1
 
-raw: くじら / 主体token: くじら
+raw: くじら / 主体token:「くじら」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29740,7 +29740,7 @@ game=Garupa / recordId=399 / band=RAISE A SUILEN / workId=wk-0392 / priority=P3
 
 taskId: garupa:399:composer:CREATOR_IDENTITY-b1-43e464089d468fe7f261
 
-raw: れるりり / 主体token: れるりり
+raw: れるりり / 主体token:「れるりり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29786,7 +29786,7 @@ Creator候補: [b1-43e464089d468fe7f261](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:399:lyricist:CREATOR_IDENTITY-b1-43e464089d468fe7f261
 
-raw: れるりり / 主体token: れるりり
+raw: れるりり / 主体token:「れるりり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29845,7 +29845,7 @@ game=Garupa / recordId=400 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:400:composer:CREATOR_IDENTITY-b1-f592642bee4246b5b891
 
-raw: 杉本　雄治 / 主体token: 杉本　雄治
+raw: 杉本　雄治 / 主体token:「杉本　雄治」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29891,7 +29891,7 @@ Creator候補: [b1-f592642bee4246b5b891](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:400:lyricist:CREATOR_IDENTITY-b1-462beeb35c15ad9bc793
 
-raw: 河邉　徹 / 主体token: 河邉　徹
+raw: 河邉　徹 / 主体token:「河邉　徹」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29950,7 +29950,7 @@ game=Garupa / recordId=409 / band=Afterglow / workId=wk-0402 / priority=P3
 
 taskId: garupa:409:composer:CREATOR_IDENTITY-b1-a4866ce15f60372de1be
 
-raw: 泣き虫 / 主体token: 泣き虫
+raw: 泣き虫 / 主体token:「泣き虫」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -29996,7 +29996,7 @@ Creator候補: [b1-a4866ce15f60372de1be](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:409:lyricist:CREATOR_IDENTITY-b1-a4866ce15f60372de1be
 
-raw: 泣き虫 / 主体token: 泣き虫
+raw: 泣き虫 / 主体token:「泣き虫」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30055,7 +30055,7 @@ game=Garupa / recordId=417 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:417:arranger:CREATOR_IDENTITY-b1-9d771697429c1277b691
 
-raw: 藤原燈太 / 主体token: 藤原燈太
+raw: 藤原燈太 / 主体token:「藤原燈太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30114,7 +30114,7 @@ game=Garupa / recordId=426 / band=Morfonica / workId=wk-0419 / priority=P3
 
 taskId: garupa:426:lyricist:CREATOR_IDENTITY-b1-d384ec5aed7cc25d6bf1
 
-raw: hotaru / 主体token: hotaru
+raw: hotaru / 主体token:「hotaru」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30173,7 +30173,7 @@ game=Garupa / recordId=431 / band=RAISE A SUILEN / workId=wk-0424 / priority=P3
 
 taskId: garupa:431:composer:CREATOR_IDENTITY-b1-931fef77b702d10b3feb
 
-raw: 山中拓也 / 主体token: 山中拓也
+raw: 山中拓也 / 主体token:「山中拓也」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30219,7 +30219,7 @@ Creator候補: [b1-931fef77b702d10b3feb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:431:lyricist:CREATOR_IDENTITY-b1-931fef77b702d10b3feb
 
-raw: 山中拓也 / 主体token: 山中拓也
+raw: 山中拓也 / 主体token:「山中拓也」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30278,7 +30278,7 @@ game=Garupa / recordId=432 / band=Morfonica / workId=wk-0425 / priority=P3
 
 taskId: garupa:432:arranger:CREATOR_IDENTITY-b1-65d09c562afaab97af82
 
-raw: 佐藤純一(fhána) / 主体token: 佐藤純一(fhána)
+raw: 佐藤純一(fhána) / 主体token:「佐藤純一(fhána)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30324,7 +30324,7 @@ Creator候補: [b1-65d09c562afaab97af82](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:432:composer:CREATOR_IDENTITY-b1-65d09c562afaab97af82
 
-raw: 佐藤純一(fhána) / 主体token: 佐藤純一(fhána)
+raw: 佐藤純一(fhána) / 主体token:「佐藤純一(fhána)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30383,7 +30383,7 @@ game=Garupa / recordId=440 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:440:composer:CREATOR_IDENTITY-b1-621ab783881d2aee2b9a
 
-raw: 津波幸平 / 主体token: 津波幸平
+raw: 津波幸平 / 主体token:「津波幸平」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30429,7 +30429,7 @@ Creator候補: [b1-621ab783881d2aee2b9a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:440:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878
 
-raw: 唐沢美帆 / 主体token: 唐沢美帆
+raw: 唐沢美帆 / 主体token:「唐沢美帆」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30488,7 +30488,7 @@ game=Garupa / recordId=441 / band=Morfonica / workId=wk-0434 / priority=P3
 
 taskId: garupa:441:lyricist:CREATOR_IDENTITY-b1-7776a76b048a03529657
 
-raw: 寺島拓篤 / 主体token: 寺島拓篤
+raw: 寺島拓篤 / 主体token:「寺島拓篤」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30547,7 +30547,7 @@ game=Garupa / recordId=453 / band=Afterglow×レイヤ / workId=wk-0445 / priori
 
 taskId: garupa:453:composer:CREATOR_IDENTITY-b1-9d50ab729ba903afa27a
 
-raw: 川上洋平 / 主体token: 川上洋平
+raw: 川上洋平 / 主体token:「川上洋平」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30593,7 +30593,7 @@ Creator候補: [b1-9d50ab729ba903afa27a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:453:lyricist:CREATOR_IDENTITY-b1-9d50ab729ba903afa27a
 
-raw: 川上洋平 / 主体token: 川上洋平
+raw: 川上洋平 / 主体token:「川上洋平」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30652,7 +30652,7 @@ game=Garupa / recordId=464 / band=Pastel＊Palettes×有咲×つぐみ×まし�
 
 taskId: garupa:464:composer:CREATOR_IDENTITY-b1-cd4a20c9309da244ec94
 
-raw: 齊藤　信治 / 主体token: 齊藤　信治
+raw: 齊藤　信治 / 主体token:「齊藤　信治」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30698,7 +30698,7 @@ Creator候補: [b1-cd4a20c9309da244ec94](HUMAN_TODO_BY_CREATOR.md#candidate-b1-c
 
 taskId: garupa:464:lyricist:CREATOR_IDENTITY-b1-cd4a20c9309da244ec94
 
-raw: 齊藤　信治 / 主体token: 齊藤　信治
+raw: 齊藤　信治 / 主体token:「齊藤　信治」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30757,7 +30757,7 @@ game=Garupa / recordId=465 / band=Roselia / workId=wk-0457 / priority=P3
 
 taskId: garupa:465:composer:CREATOR_IDENTITY-b1-9adc901b0db1eb46210f
 
-raw: 中田ヤスタカ / 主体token: 中田ヤスタカ
+raw: 中田ヤスタカ / 主体token:「中田ヤスタカ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30803,7 +30803,7 @@ Creator候補: [b1-9adc901b0db1eb46210f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:465:lyricist:CREATOR_IDENTITY-b1-9adc901b0db1eb46210f
 
-raw: 中田ヤスタカ / 主体token: 中田ヤスタカ
+raw: 中田ヤスタカ / 主体token:「中田ヤスタカ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30862,7 +30862,7 @@ game=Garupa / recordId=469 / band=Morfonica / workId=wk-0460 / priority=P3
 
 taskId: garupa:469:composer:CREATOR_IDENTITY-b1-075f3cf0b1bb4831fbb1
 
-raw: 重永亮介 / 主体token: 重永亮介
+raw: 重永亮介 / 主体token:「重永亮介」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30908,7 +30908,7 @@ Creator候補: [b1-075f3cf0b1bb4831fbb1](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:469:lyricist:CREATOR_IDENTITY-b1-075f3cf0b1bb4831fbb1
 
-raw: 重永亮介 / 主体token: 重永亮介
+raw: 重永亮介 / 主体token:「重永亮介」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -30967,7 +30967,7 @@ game=Garupa / recordId=488 / band=Poppin'Party / workId=wk-0479 / priority=P3
 
 taskId: garupa:488:composer:CREATOR_IDENTITY-b1-576bdbcc5ebd9c33a362
 
-raw: 北川　賢一 / 主体token: 北川　賢一
+raw: 北川　賢一 / 主体token:「北川　賢一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31013,7 +31013,7 @@ Creator候補: [b1-576bdbcc5ebd9c33a362](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:488:lyricist:CREATOR_IDENTITY-b1-576bdbcc5ebd9c33a362
 
-raw: 北川　賢一 / 主体token: 北川　賢一
+raw: 北川　賢一 / 主体token:「北川　賢一」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31072,7 +31072,7 @@ game=Garupa / recordId=493 / band=Poppin'Party / workId=wk-0484 / priority=P3
 
 taskId: garupa:493:composer:CREATOR_IDENTITY-b1-4b07d0bd173c99c9d368
 
-raw: Koji Mihara / 主体token: Koji Mihara
+raw: Koji Mihara / 主体token:「Koji Mihara」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31118,7 +31118,7 @@ Creator候補: [b1-4b07d0bd173c99c9d368](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:493:lyricist:CREATOR_IDENTITY-b1-4b07d0bd173c99c9d368
 
-raw: Koji Mihara / 主体token: Koji Mihara
+raw: Koji Mihara / 主体token:「Koji Mihara」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31177,7 +31177,7 @@ game=Garupa / recordId=499 / band=ますかっと feat. 夢ノ結唱 POPY / work
 
 taskId: garupa:499:arranger:CREATOR_IDENTITY-b1-916988e9faa29633dc94
 
-raw: ますかっと / 主体token: ますかっと
+raw: ますかっと / 主体token:「ますかっと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31223,7 +31223,7 @@ Creator候補: [b1-916988e9faa29633dc94](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:499:composer:CREATOR_IDENTITY-b1-916988e9faa29633dc94
 
-raw: ますかっと / 主体token: ますかっと
+raw: ますかっと / 主体token:「ますかっと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31269,7 +31269,7 @@ Creator候補: [b1-916988e9faa29633dc94](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:499:lyricist:CREATOR_IDENTITY-b1-916988e9faa29633dc94
 
-raw: ますかっと / 主体token: ますかっと
+raw: ますかっと / 主体token:「ますかっと」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31328,7 +31328,7 @@ game=Garupa / recordId=500 / band=RAISE A SUILEN / workId=wk-0491 / priority=P3
 
 taskId: garupa:500:lyricist:CREATOR_IDENTITY-b1-3d560669355ab3461623
 
-raw: 小室 みつ子 / 主体token: 小室 みつ子
+raw: 小室 みつ子 / 主体token:「小室 みつ子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31387,7 +31387,7 @@ game=Garupa / recordId=501 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:501:composer:CREATOR_IDENTITY-b1-a074d1e8e33bb3323999
 
-raw: 草野 正宗 / 主体token: 草野 正宗
+raw: 草野 正宗 / 主体token:「草野 正宗」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31433,7 +31433,7 @@ Creator候補: [b1-a074d1e8e33bb3323999](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:501:lyricist:CREATOR_IDENTITY-b1-a074d1e8e33bb3323999
 
-raw: 草野 正宗 / 主体token: 草野 正宗
+raw: 草野 正宗 / 主体token:「草野 正宗」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31492,7 +31492,7 @@ game=Garupa / recordId=521 / band=MyGO!!!!! / workId=wk-0512 / priority=P3
 
 taskId: garupa:521:composer:CREATOR_IDENTITY-b1-4fc9d8955b6155d931b2
 
-raw: 一二三 / 主体token: 一二三
+raw: 一二三 / 主体token:「一二三」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31538,7 +31538,7 @@ Creator候補: [b1-4fc9d8955b6155d931b2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-4
 
 taskId: garupa:521:lyricist:CREATOR_IDENTITY-b1-4fc9d8955b6155d931b2
 
-raw: 一二三 / 主体token: 一二三
+raw: 一二三 / 主体token:「一二三」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31597,7 +31597,7 @@ game=Garupa / recordId=523 / band=MyGO!!!!! / workId=wk-0514 / priority=P3
 
 taskId: garupa:523:arranger:CREATOR_IDENTITY-b1-bbe34b18399ba4e58e76
 
-raw: 森本練 / 主体token: 森本練
+raw: 森本練 / 主体token:「森本練」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31656,7 +31656,7 @@ game=Garupa / recordId=526 / band=Afterglow / workId=wk-0517 / priority=P3
 
 taskId: garupa:526:composer:CREATOR_IDENTITY-b1-9d081fc740227451cca6
 
-raw: てにをは / 主体token: てにをは
+raw: てにをは / 主体token:「てにをは」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31702,7 +31702,7 @@ Creator候補: [b1-9d081fc740227451cca6](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:526:lyricist:CREATOR_IDENTITY-b1-9d081fc740227451cca6
 
-raw: てにをは / 主体token: てにをは
+raw: てにをは / 主体token:「てにをは」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31761,7 +31761,7 @@ game=Garupa / recordId=534 / band=Roselia×ロボ子さん×常闇トワ×沙花
 
 taskId: garupa:534:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a
 
-raw: 宝野 アリカ / 主体token: 宝野 アリカ
+raw: 宝野 アリカ / 主体token:「宝野 アリカ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31820,7 +31820,7 @@ game=Garupa / recordId=543 / band=Afterglow / workId=wk-0534 / priority=P3
 
 taskId: garupa:543:composer:CREATOR_IDENTITY-b1-3fd908e7c5fc188516cc
 
-raw: 藤巻 亮太 / 主体token: 藤巻 亮太
+raw: 藤巻 亮太 / 主体token:「藤巻 亮太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31866,7 +31866,7 @@ Creator候補: [b1-3fd908e7c5fc188516cc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:543:lyricist:CREATOR_IDENTITY-b1-3fd908e7c5fc188516cc
 
-raw: 藤巻 亮太 / 主体token: 藤巻 亮太
+raw: 藤巻 亮太 / 主体token:「藤巻 亮太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31925,7 +31925,7 @@ game=Garupa / recordId=544 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:544:composer:CREATOR_IDENTITY-b1-91f50ceabaf21b5972c7
 
-raw: ゆこぴ / 主体token: ゆこぴ
+raw: ゆこぴ / 主体token:「ゆこぴ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -31971,7 +31971,7 @@ Creator候補: [b1-91f50ceabaf21b5972c7](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:544:lyricist:CREATOR_IDENTITY-b1-91f50ceabaf21b5972c7
 
-raw: ゆこぴ / 主体token: ゆこぴ
+raw: ゆこぴ / 主体token:「ゆこぴ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32030,7 +32030,7 @@ game=Garupa / recordId=545 / band=RAISE A SUILEN / workId=wk-0536 / priority=P3
 
 taskId: garupa:545:composer:CREATOR_IDENTITY-b1-6c8f6bb02295107ff720
 
-raw: TAKUMA / 主体token: TAKUMA
+raw: TAKUMA / 主体token:「TAKUMA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32076,7 +32076,7 @@ Creator候補: [b1-6c8f6bb02295107ff720](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:545:lyricist:CREATOR_IDENTITY-b1-6c8f6bb02295107ff720
 
-raw: TAKUMA / 主体token: TAKUMA
+raw: TAKUMA / 主体token:「TAKUMA」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32135,7 +32135,7 @@ game=Garupa / recordId=554 / band=Afterglow×宝鐘マリン / workId=wk-0545 / 
 
 taskId: garupa:554:lyricist:CREATOR_IDENTITY-b1-da11453717c55eb98a2f
 
-raw: まろん / 主体token: まろん
+raw: まろん / 主体token:「まろん」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32194,7 +32194,7 @@ game=Garupa / recordId=555 / band=Morfonica×雪花ラミィ / workId=wk-0546 / 
 
 taskId: garupa:555:composer:CREATOR_IDENTITY-b1-3586b93d2c188cd58474
 
-raw: 山田 高弘 / 主体token: 山田 高弘
+raw: 山田 高弘 / 主体token:「山田 高弘」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32240,7 +32240,7 @@ Creator候補: [b1-3586b93d2c188cd58474](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:555:lyricist:CREATOR_IDENTITY-b1-489272dfb926663743ff
 
-raw: Neko Hacker / 主体token: Neko Hacker
+raw: Neko Hacker / 主体token:「Neko Hacker」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32299,7 +32299,7 @@ game=Garupa / recordId=556 / band=MyGO!!!!!×獅白ぼたん / workId=wk-0547 / 
 
 taskId: garupa:556:composer:CREATOR_IDENTITY-b1-1ff4b12fd0cc1b641ed8
 
-raw: かめりあ / 主体token: かめりあ
+raw: かめりあ / 主体token:「かめりあ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32345,7 +32345,7 @@ Creator候補: [b1-1ff4b12fd0cc1b641ed8](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:556:lyricist:CREATOR_IDENTITY-b1-1ff4b12fd0cc1b641ed8
 
-raw: かめりあ / 主体token: かめりあ
+raw: かめりあ / 主体token:「かめりあ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32404,7 +32404,7 @@ game=Garupa / recordId=558 / band=Pastel＊Palettes×花音 / workId=wk-0549 / p
 
 taskId: garupa:558:composer:CREATOR_IDENTITY-b1-1064da61274853d9c808
 
-raw: emon(Tes.) / 主体token: emon(Tes.)
+raw: emon(Tes.) / 主体token:「emon(Tes.)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32450,7 +32450,7 @@ Creator候補: [b1-1064da61274853d9c808](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:558:lyricist:CREATOR_IDENTITY-b1-1064da61274853d9c808
 
-raw: emon(Tes.) / 主体token: emon(Tes.)
+raw: emon(Tes.) / 主体token:「emon(Tes.)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32509,7 +32509,7 @@ game=Garupa / recordId=571 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:571:composer:CREATOR_IDENTITY-b1-5e7e1fd7884f3134a285
 
-raw: いよわ / 主体token: いよわ
+raw: いよわ / 主体token:「いよわ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32555,7 +32555,7 @@ Creator候補: [b1-5e7e1fd7884f3134a285](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:571:lyricist:CREATOR_IDENTITY-b1-5e7e1fd7884f3134a285
 
-raw: いよわ / 主体token: いよわ
+raw: いよわ / 主体token:「いよわ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32614,7 +32614,7 @@ game=Garupa / recordId=572 / band=Morfonica / workId=wk-0563 / priority=P3
 
 taskId: garupa:572:composer:CREATOR_IDENTITY-b1-3005c0843386dbed3c69
 
-raw: EREN / 主体token: EREN
+raw: EREN / 主体token:「EREN」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -32660,7 +32660,7 @@ Creator候補: [b1-3005c0843386dbed3c69](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:572:lyricist:CREATOR_IDENTITY-b1-30952a0e8161628d92ae
 
-raw: TKT / 主体token: TKT
+raw: TKT / 主体token:「TKT」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。 短名は既存確認済みrecordまたは一次role文脈が必要。
 
@@ -32719,7 +32719,7 @@ game=Garupa / recordId=573 / band=RAISE A SUILEN / workId=wk-0564 / priority=P3
 
 taskId: garupa:573:composer:CREATOR_IDENTITY-b1-35944f967fbfeb861c2c
 
-raw: 柊キライ / 主体token: 柊キライ
+raw: 柊キライ / 主体token:「柊キライ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32765,7 +32765,7 @@ Creator候補: [b1-35944f967fbfeb861c2c](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:573:lyricist:CREATOR_IDENTITY-b1-35944f967fbfeb861c2c
 
-raw: 柊キライ / 主体token: 柊キライ
+raw: 柊キライ / 主体token:「柊キライ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32824,7 +32824,7 @@ game=Garupa / recordId=605 / band=Pastel＊Palettes / workId=wk-0596 / priority=
 
 taskId: garupa:605:composer:CREATOR_IDENTITY-b1-fbd51916f11ea7f49d3e
 
-raw: YONKEY / 主体token: YONKEY
+raw: YONKEY / 主体token:「YONKEY」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32870,7 +32870,7 @@ Creator候補: [b1-fbd51916f11ea7f49d3e](HUMAN_TODO_BY_CREATOR.md#candidate-b1-f
 
 taskId: garupa:605:lyricist:CREATOR_IDENTITY-b1-fc8f789173c4057f030c
 
-raw: 新しい学校のリーダー達 / 主体token: 新しい学校のリーダー達
+raw: 新しい学校のリーダー達 / 主体token:「新しい学校のリーダー達」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32929,7 +32929,7 @@ game=Garupa / recordId=606 / band=Roselia / workId=wk-0597 / priority=P3
 
 taskId: garupa:606:composer:CREATOR_IDENTITY-b1-e5c0adced4116a728dfc
 
-raw: 原口 沙輔 / 主体token: 原口 沙輔
+raw: 原口 沙輔 / 主体token:「原口 沙輔」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -32975,7 +32975,7 @@ Creator候補: [b1-e5c0adced4116a728dfc](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:606:lyricist:CREATOR_IDENTITY-b1-e5c0adced4116a728dfc
 
-raw: 原口 沙輔 / 主体token: 原口 沙輔
+raw: 原口 沙輔 / 主体token:「原口 沙輔」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33034,7 +33034,7 @@ game=Garupa / recordId=607 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:607:composer:CREATOR_IDENTITY-b1-3451e57cfcfa28fb2fb6
 
-raw: meiyo / 主体token: meiyo
+raw: meiyo / 主体token:「meiyo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33080,7 +33080,7 @@ Creator候補: [b1-3451e57cfcfa28fb2fb6](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:607:lyricist:CREATOR_IDENTITY-b1-3451e57cfcfa28fb2fb6
 
-raw: meiyo / 主体token: meiyo
+raw: meiyo / 主体token:「meiyo」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33139,7 +33139,7 @@ game=Garupa / recordId=609 / band=Afterglow / workId=wk-0600 / priority=P3
 
 taskId: garupa:609:composer:CREATOR_IDENTITY-b1-9cabdf0f7aeba9563100
 
-raw: じん（自然の敵Ｐ） / 主体token: じん（自然の敵Ｐ）
+raw: じん（自然の敵Ｐ） / 主体token:「じん（自然の敵Ｐ）」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33185,7 +33185,7 @@ Creator候補: [b1-9cabdf0f7aeba9563100](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:609:lyricist:CREATOR_IDENTITY-b1-9cabdf0f7aeba9563100
 
-raw: じん（自然の敵Ｐ） / 主体token: じん（自然の敵Ｐ）
+raw: じん（自然の敵Ｐ） / 主体token:「じん（自然の敵Ｐ）」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33244,7 +33244,7 @@ game=Garupa / recordId=612 / band=Morfonica / workId=wk-0603 / priority=P3
 
 taskId: garupa:612:composer:CREATOR_IDENTITY-b1-62c4c54a5d9446005e41
 
-raw: 矢吹 俊郎 / 主体token: 矢吹 俊郎
+raw: 矢吹 俊郎 / 主体token:「矢吹 俊郎」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33290,7 +33290,7 @@ Creator候補: [b1-62c4c54a5d9446005e41](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:612:lyricist:CREATOR_IDENTITY-b1-16b4e731162c549c9bd9
 
-raw: 奥井 雅美 / 主体token: 奥井 雅美
+raw: 奥井 雅美 / 主体token:「奥井 雅美」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33349,7 +33349,7 @@ game=Garupa / recordId=632 / band=Poppin'Party×燈 / workId=wk-0622 / priority=
 
 taskId: garupa:632:composer:CREATOR_IDENTITY-b1-e967626007b8a252bcf0
 
-raw: 藤井 怜央 / 主体token: 藤井 怜央
+raw: 藤井 怜央 / 主体token:「藤井 怜央」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33395,7 +33395,7 @@ Creator候補: [b1-e967626007b8a252bcf0](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e
 
 taskId: garupa:632:lyricist:CREATOR_IDENTITY-b1-11a3aca575c88ab5200a
 
-raw: 福島 智朗 / 主体token: 福島 智朗
+raw: 福島 智朗 / 主体token:「福島 智朗」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33454,7 +33454,7 @@ game=Garupa / recordId=634 / band=ハロー、ハッピーワールド！×ま�
 
 taskId: garupa:634:composer:CREATOR_IDENTITY-b1-02daacea7527a8111eea
 
-raw: 和賀裕希 / 主体token: 和賀裕希
+raw: 和賀裕希 / 主体token:「和賀裕希」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33500,7 +33500,7 @@ Creator候補: [b1-02daacea7527a8111eea](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
 
 taskId: garupa:634:lyricist:CREATOR_IDENTITY-b1-4fd965ee59cbbc17175f
 
-raw: やぎぬまかな / 主体token: やぎぬまかな
+raw: やぎぬまかな / 主体token:「やぎぬまかな」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33559,7 +33559,7 @@ game=Garupa / recordId=635 / band=Roselia×レイヤ / workId=wk-0625 / priority
 
 taskId: garupa:635:composer:CREATOR_IDENTITY-b1-321672e2a4b0c8e50c92
 
-raw: ヒグチアイ / 主体token: ヒグチアイ
+raw: ヒグチアイ / 主体token:「ヒグチアイ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33605,7 +33605,7 @@ Creator候補: [b1-321672e2a4b0c8e50c92](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:635:lyricist:CREATOR_IDENTITY-b1-321672e2a4b0c8e50c92
 
-raw: ヒグチアイ / 主体token: ヒグチアイ
+raw: ヒグチアイ / 主体token:「ヒグチアイ」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33664,7 +33664,7 @@ game=Garupa / recordId=658 / band=Poppin'Party / workId=wk-0646 / priority=P3
 
 taskId: garupa:658:composer:CREATOR_IDENTITY-b1-a325dd67f7c75e2880fe
 
-raw: 片岡　健太 / 主体token: 片岡　健太
+raw: 片岡　健太 / 主体token:「片岡　健太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33710,7 +33710,7 @@ Creator候補: [b1-a325dd67f7c75e2880fe](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: garupa:658:lyricist:CREATOR_IDENTITY-b1-a325dd67f7c75e2880fe
 
-raw: 片岡　健太 / 主体token: 片岡　健太
+raw: 片岡　健太 / 主体token:「片岡　健太」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33769,7 +33769,7 @@ game=Garupa / recordId=674 / band=Afterglow / workId=wk-0660 / priority=P3
 
 taskId: garupa:674:composer:CREATOR_IDENTITY-b1-391cf2d396c481875a45
 
-raw: AKASAKI / 主体token: AKASAKI
+raw: AKASAKI / 主体token:「AKASAKI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33815,7 +33815,7 @@ Creator候補: [b1-391cf2d396c481875a45](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: garupa:674:lyricist:CREATOR_IDENTITY-b1-391cf2d396c481875a45
 
-raw: AKASAKI / 主体token: AKASAKI
+raw: AKASAKI / 主体token:「AKASAKI」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33874,7 +33874,7 @@ game=Garupa / recordId=682 / band=Afterglow / workId=wk-0668 / priority=P3
 
 taskId: garupa:682:composer:CREATOR_IDENTITY-b1-ba04fa78033b212b7eed
 
-raw: GReeeeN / 主体token: GReeeeN
+raw: GReeeeN / 主体token:「GReeeeN」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33920,7 +33920,7 @@ Creator候補: [b1-ba04fa78033b212b7eed](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:682:lyricist:CREATOR_IDENTITY-b1-ba04fa78033b212b7eed
 
-raw: GReeeeN / 主体token: GReeeeN
+raw: GReeeeN / 主体token:「GReeeeN」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -33979,7 +33979,7 @@ game=Garupa / recordId=687 / band=Poppin'Party / workId=wk-0673 / priority=P3
 
 taskId: garupa:687:composer:CREATOR_IDENTITY-b1-6bcc0006d9efcb7a22e3
 
-raw: ぼっちぼろまる / 主体token: ぼっちぼろまる
+raw: ぼっちぼろまる / 主体token:「ぼっちぼろまる」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34025,7 +34025,7 @@ Creator候補: [b1-6bcc0006d9efcb7a22e3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-6
 
 taskId: garupa:687:lyricist:CREATOR_IDENTITY-b1-6bcc0006d9efcb7a22e3
 
-raw: ぼっちぼろまる / 主体token: ぼっちぼろまる
+raw: ぼっちぼろまる / 主体token:「ぼっちぼろまる」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34084,7 +34084,7 @@ game=Garupa / recordId=700 / band=RAISE A SUILEN / workId=wk-0684 / priority=P3
 
 taskId: garupa:700:composer:CREATOR_IDENTITY-b1-5adf90f4304bc8e12285
 
-raw: 幾田 りら / 主体token: 幾田 りら
+raw: 幾田 りら / 主体token:「幾田 りら」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34130,7 +34130,7 @@ Creator候補: [b1-5adf90f4304bc8e12285](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:700:lyricist:CREATOR_IDENTITY-b1-5adf90f4304bc8e12285
 
-raw: 幾田 りら / 主体token: 幾田 りら
+raw: 幾田 りら / 主体token:「幾田 りら」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34189,7 +34189,7 @@ game=Garupa / recordId=712 / band=MyGO!!!!! / workId=wk-0696 / priority=P3
 
 taskId: garupa:712:arranger:CREATOR_IDENTITY-b1-76e2837f2f0ba6485178
 
-raw: 大介(Aqua Timez) / 主体token: 大介(Aqua Timez)
+raw: 大介(Aqua Timez) / 主体token:「大介(Aqua Timez)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34235,7 +34235,7 @@ Creator候補: [b1-76e2837f2f0ba6485178](HUMAN_TODO_BY_CREATOR.md#candidate-b1-7
 
 taskId: garupa:712:composer:CREATOR_IDENTITY-b1-b95ae14fa97a45d1a0f2
 
-raw: 太志(Aqua Timez) / 主体token: 太志(Aqua Timez)
+raw: 太志(Aqua Timez) / 主体token:「太志(Aqua Timez)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34281,7 +34281,7 @@ Creator候補: [b1-b95ae14fa97a45d1a0f2](HUMAN_TODO_BY_CREATOR.md#candidate-b1-b
 
 taskId: garupa:712:lyricist:CREATOR_IDENTITY-b1-b95ae14fa97a45d1a0f2
 
-raw: 太志(Aqua Timez) / 主体token: 太志(Aqua Timez)
+raw: 太志(Aqua Timez) / 主体token:「太志(Aqua Timez)」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34340,7 +34340,7 @@ game=Garupa / recordId=713 / band=MyGO!!!!! / workId=wk-0697 / priority=P3
 
 taskId: garupa:713:composer:CREATOR_IDENTITY-b1-886967a1fc0d2d7a2f34
 
-raw: Aqua Timez / 主体token: Aqua Timez
+raw: Aqua Timez / 主体token:「Aqua Timez」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34386,7 +34386,7 @@ Creator候補: [b1-886967a1fc0d2d7a2f34](HUMAN_TODO_BY_CREATOR.md#candidate-b1-8
 
 taskId: garupa:713:lyricist:CREATOR_IDENTITY-b1-e810dc473c5fe705898a
 
-raw: 太志 / 主体token: 太志
+raw: 太志 / 主体token:「太志」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34445,7 +34445,7 @@ game=Garupa / recordId=725 / band=Morfonica / workId=wk-0709 / priority=P3
 
 taskId: garupa:725:composer:CREATOR_IDENTITY-b1-1fcb8e10015b021ff85f
 
-raw: のぼる↑ / 主体token: のぼる↑
+raw: のぼる↑ / 主体token:「のぼる↑」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34491,7 +34491,7 @@ Creator候補: [b1-1fcb8e10015b021ff85f](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:725:lyricist:CREATOR_IDENTITY-b1-1fcb8e10015b021ff85f
 
-raw: のぼる↑ / 主体token: のぼる↑
+raw: のぼる↑ / 主体token:「のぼる↑」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34550,7 +34550,7 @@ game=Garupa / recordId=741 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:741:composer:CREATOR_IDENTITY-b1-12041d6c03c1f944995b
 
-raw: 宮川彬良 / 主体token: 宮川彬良
+raw: 宮川彬良 / 主体token:「宮川彬良」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34596,7 +34596,7 @@ Creator候補: [b1-12041d6c03c1f944995b](HUMAN_TODO_BY_CREATOR.md#candidate-b1-1
 
 taskId: garupa:741:lyricist:CREATOR_IDENTITY-b1-e7d70e4069580c6f07b9
 
-raw: 吉峯　暁子 / 主体token: 吉峯　暁子
+raw: 吉峯　暁子 / 主体token:「吉峯　暁子」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34655,7 +34655,7 @@ game=Garupa / recordId=743 / band=Poppin'Party / workId=wk-0724 / priority=P3
 
 taskId: garupa:743:composer:CREATOR_IDENTITY-b1-5bef31c99954be96192b
 
-raw: 小幡康裕 / 主体token: 小幡康裕
+raw: 小幡康裕 / 主体token:「小幡康裕」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34714,7 +34714,7 @@ game=Garupa / recordId=751 / band=Poppin'Party / workId=wk-0732 / priority=P3
 
 taskId: garupa:751:composer:CREATOR_IDENTITY-b1-938c2a2435195af49776
 
-raw: 寺中友将 / 主体token: 寺中友将
+raw: 寺中友将 / 主体token:「寺中友将」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34760,7 +34760,7 @@ Creator候補: [b1-938c2a2435195af49776](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:751:lyricist:CREATOR_IDENTITY-b1-938c2a2435195af49776
 
-raw: 寺中友将 / 主体token: 寺中友将
+raw: 寺中友将 / 主体token:「寺中友将」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34819,7 +34819,7 @@ game=Garupa / recordId=752 / band=Morfonica / workId=wk-0733 / priority=P3
 
 taskId: garupa:752:composer:CREATOR_IDENTITY-b1-d89650a088c4113529dd
 
-raw: 須田景凪 / 主体token: 須田景凪
+raw: 須田景凪 / 主体token:「須田景凪」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34865,7 +34865,7 @@ Creator候補: [b1-d89650a088c4113529dd](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d
 
 taskId: garupa:752:lyricist:CREATOR_IDENTITY-b1-d89650a088c4113529dd
 
-raw: 須田景凪 / 主体token: 須田景凪
+raw: 須田景凪 / 主体token:「須田景凪」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34924,7 +34924,7 @@ game=Garupa / recordId=770 / band=Afterglow / workId=wk-0748 / priority=P3
 
 taskId: garupa:770:composer:CREATOR_IDENTITY-b1-9c247cabcb5162543d57
 
-raw: 佐々木 想 / 主体token: 佐々木 想
+raw: 佐々木 想 / 主体token:「佐々木 想」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -34970,7 +34970,7 @@ Creator候補: [b1-9c247cabcb5162543d57](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: garupa:770:lyricist:CREATOR_IDENTITY-b1-9c247cabcb5162543d57
 
-raw: 佐々木 想 / 主体token: 佐々木 想
+raw: 佐々木 想 / 主体token:「佐々木 想」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35029,7 +35029,7 @@ game=Garupa / recordId=772 / band=ハロー、ハッピーワールド！ / work
 
 taskId: garupa:772:composer:CREATOR_IDENTITY-b1-5939e173aec80f96c20a
 
-raw: 渡辺和紀 / 主体token: 渡辺和紀
+raw: 渡辺和紀 / 主体token:「渡辺和紀」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35075,7 +35075,7 @@ Creator候補: [b1-5939e173aec80f96c20a](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
 
 taskId: garupa:772:lyricist:CREATOR_IDENTITY-b1-60b067d81b060707b4cc
 
-raw: MIZUE / 主体token: MIZUE
+raw: MIZUE / 主体token:「MIZUE」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35134,7 +35134,7 @@ game=OurNotes / recordId=21 / band=MyGO!!!!! / workId=wk-0779 / priority=P3
 
 taskId: ournotes:21:composer:CREATOR_IDENTITY-b1-37671b68711a20f0cc17
 
-raw: 音羽-otoha- / 主体token: 音羽-otoha-
+raw: 音羽-otoha- / 主体token:「音羽-otoha-」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35180,7 +35180,7 @@ Creator候補: [b1-37671b68711a20f0cc17](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
 
 taskId: ournotes:21:lyricist:CREATOR_IDENTITY-b1-e25846bcdfb4a607d88f
 
-raw: 樋口愛 / 主体token: 樋口愛
+raw: 樋口愛 / 主体token:「樋口愛」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35239,7 +35239,7 @@ game=OurNotes / recordId=61 / band=夢限大みゅーたいぷ / workId=wk-0807 
 
 taskId: ournotes:61:arranger:CREATOR_IDENTITY-b1-c15ae48ae321e9d78f18
 
-raw: 岡村大輔 / 主体token: 岡村大輔
+raw: 岡村大輔 / 主体token:「岡村大輔」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35298,7 +35298,7 @@ game=OurNotes / recordId=70 / band=millsage / workId=wk-0814 / priority=P3
 
 taskId: ournotes:70:arranger:CREATOR_IDENTITY-b1-af681154dccfc0265175
 
-raw: 太田雄大 / 主体token: 太田雄大
+raw: 太田雄大 / 主体token:「太田雄大」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35344,7 +35344,7 @@ Creator候補: [b1-af681154dccfc0265175](HUMAN_TODO_BY_CREATOR.md#candidate-b1-a
 
 taskId: ournotes:70:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3
 
-raw: ぬゆり / 主体token: ぬゆり
+raw: ぬゆり / 主体token:「ぬゆり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 
@@ -35390,7 +35390,7 @@ Creator候補: [b1-9637211e2855d7f0cee3](HUMAN_TODO_BY_CREATOR.md#candidate-b1-9
 
 taskId: ournotes:70:lyricist:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3
 
-raw: ぬゆり / 主体token: ぬゆり
+raw: ぬゆり / 主体token:「ぬゆり」
 
 理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
 

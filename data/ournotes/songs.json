@@ -1529,7 +1529,7 @@
           "id": 19,
           "title": "ないものねだり",
           "reading": "ナイモノネダリ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 19,
           "composer": "谷口鮪",
           "originalArtist": "KANA-BOON",
@@ -1537,7 +1537,7 @@
           "bpm": 175,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 118,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1604,13 +1604,17 @@
               }
             ]
           },
-          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "mv": null,
+          "relatedSongIds": [],
+          "lyricist": null,
+          "revision": "6549524e-b012-4c4a-9cac-941fd107c257"
         },
         {
           "id": 20,
           "title": "シャルル",
           "reading": "シャルル",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 20,
           "composer": "バルーン",
           "originalArtist": "バルーン feat.v flower",
@@ -1618,7 +1622,7 @@
           "bpm": 145,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 95,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1631,7 +1635,7 @@
             },
             "HARD": {
               "level": 16,
-              "notes": 532
+              "notes": 533
             },
             "EXPERT": {
               "level": 21,
@@ -1694,13 +1698,15 @@
             ]
           },
           "lyricist": "バルーン",
-          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "mv": null,
+          "revision": "1575b9d2-c833-4668-a872-9ed82a0b74d9"
         },
         {
           "id": 21,
           "title": "青春コンプレックス",
           "reading": "セイシュンコンプレックス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 21,
           "composer": "音羽-otoha-",
           "originalArtist": "結束バンド",
@@ -1708,7 +1714,7 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 138,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1721,7 +1727,7 @@
             },
             "HARD": {
               "level": 20,
-              "notes": 856
+              "notes": 857
             },
             "EXPERT": {
               "level": 25,
@@ -1778,7 +1784,10 @@
             ]
           },
           "lyricist": "樋口愛",
-          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "f3ac6360-8c30-4281-a589-4ae50e0ea835"
         },
         {
           "id": 22,

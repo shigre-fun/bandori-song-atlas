@@ -1,2 +1,4 @@
 # Human review receipts verify exact bytes, including original validation output.
-docs/human-review/** -text
+docs/human-review/** -text whitespace=cr-at-eol
+# The original failed TAP output contains two space-only lines; retain its exact evidence bytes.
+docs/human-review/creator-kanzaki-2026-10-06/validation/tests-first.txt -whitespace

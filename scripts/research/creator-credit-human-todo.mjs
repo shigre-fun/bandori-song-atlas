@@ -1600,7 +1600,7 @@ function songSection(s) {
       "",
       `taskId: ${t.taskId}`,
       "",
-      `raw: ${md(t.raw)}${t.tokenRaw ? ` / 主体token: ${md(t.tokenRaw)}` : ""}`,
+      `raw: ${md(t.raw)}${t.tokenRaw ? ` / 主体token:「${md(t.tokenRaw)}」` : ""}`,
       "",
       `理由: ${md(t.reason)}`,
       "",

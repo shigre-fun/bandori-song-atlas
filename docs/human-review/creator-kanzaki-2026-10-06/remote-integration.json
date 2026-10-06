@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "remoteHead": "4e72a1181bbe0af6ade9ec654a32fb362b8d8d37",
+  "implementationHead": "fc747dc0cbc8939daea54e781ec1ca841d3331ca",
+  "fixtureHash": "776938cf4f76b64068e0050ccd3e4f5d6eea0911971d8d743081002fd47320b3",
+  "inputHashes": {
+    "baseFiles": {
+      "data/ournotes/songs.json": "f0af5e594b87ad5791d079572020744165e059e886b8ce4428bc517b42dadab1",
+      "data/ournotes/admin-state.json": "8b412cc539a59dec7a2296608d4c9f6e4b74b16a4edd4f0e7688957b187107ad"
+    },
+    "remoteFiles": {
+      "data/ournotes/songs.json": "e470b454fac18e29cfe8a7eeaa221a7edd6ad0ff79623b2e983a5ea0ebe587a8",
+      "data/ournotes/admin-state.json": "ede3123a2649c87304d8e9a4b37740e5f4962916cbe60fe2abc5a3261e89c7bd"
+    }
+  },
+  "outputHashes": {
+    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9",
+    "data/ournotes/admin-state.json": "ede3123a2649c87304d8e9a4b37740e5f4962916cbe60fe2abc5a3261e89c7bd"
+  },
+  "decisions": [
+    {
+      "recordId": 19,
+      "field": "releaseDate",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "2026-09-24T00:00+09:00"
+    },
+    {
+      "recordId": 19,
+      "field": "durationSeconds",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": 118
+    },
+    {
+      "recordId": 19,
+      "field": "mv",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": null
+    },
+    {
+      "recordId": 19,
+      "field": "relatedSongIds",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": []
+    },
+    {
+      "recordId": 19,
+      "field": "lyricist",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": null
+    },
+    {
+      "recordId": 19,
+      "field": "arranger",
+      "decision": "KEEP_OCT6_HUMAN_CREDIT"
+    },
+    {
+      "recordId": 19,
+      "field": "revision",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "6549524e-b012-4c4a-9cac-941fd107c257"
+    },
+    {
+      "recordId": 20,
+      "field": "releaseDate",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "2026-09-24T00:00+09:00"
+    },
+    {
+      "recordId": 20,
+      "field": "durationSeconds",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": 95
+    },
+    {
+      "recordId": 20,
+      "field": "difficulties",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": {
+        "EASY": {
+          "level": 6,
+          "notes": 215
+        },
+        "NORMAL": {
+          "level": 12,
+          "notes": 376
+        },
+        "HARD": {
+          "level": 16,
+          "notes": 533
+        },
+        "EXPERT": {
+          "level": 21,
+          "notes": 573
+        }
+      }
+    },
+    {
+      "recordId": 20,
+      "field": "mv",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": null
+    },
+    {
+      "recordId": 20,
+      "field": "arranger",
+      "decision": "KEEP_OCT6_HUMAN_CREDIT"
+    },
+    {
+      "recordId": 20,
+      "field": "revision",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "1575b9d2-c833-4668-a872-9ed82a0b74d9"
+    },
+    {
+      "recordId": 21,
+      "field": "releaseDate",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "2026-09-24T00:00+09:00"
+    },
+    {
+      "recordId": 21,
+      "field": "durationSeconds",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": 138
+    },
+    {
+      "recordId": 21,
+      "field": "difficulties",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": {
+        "EASY": {
+          "level": 8,
+          "notes": 515
+        },
+        "NORMAL": {
+          "level": 13,
+          "notes": 538
+        },
+        "HARD": {
+          "level": 20,
+          "notes": 857
+        },
+        "EXPERT": {
+          "level": 25,
+          "notes": 1100
+        }
+      }
+    },
+    {
+      "recordId": 21,
+      "field": "credits",
+      "decision": "KEEP_OCT6_HUMAN_CREDIT"
+    },
+    {
+      "recordId": 21,
+      "field": "mv",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": null
+    },
+    {
+      "recordId": 21,
+      "field": "relatedSongIds",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": []
+    },
+    {
+      "recordId": 21,
+      "field": "revision",
+      "decision": "ACCEPT_REMOTE_USER_EDIT",
+      "value": "f3ac6360-8c30-4281-a589-4ae50e0ea835"
+    }
+  ],
+  "patchRecords": [
+    19,
+    20,
+    21
+  ],
+  "humanCreditDisplaysChanged": 0,
+  "humanRelationsChanged": 0
+}
