@@ -1,0 +1,4879 @@
+{
+  "schemaVersion": 1,
+  "sourceType": "human-review",
+  "reviewer": "タニマチ",
+  "humanReviewDate": null,
+  "receivedAt": "2026-10-06T13:20:45.955Z",
+  "inputSha256": "b5f481dc361f49744f392f669ca03a83d5309abfb328f8d96b7b00084722ee91",
+  "sourceHead": "a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c",
+  "answers": {
+    "schemaVersion": 1,
+    "reviewer": "タニマチ",
+    "humanReviewDate": null,
+    "fields": {
+      "humanReviewDate": null,
+      "reviewer": "タニマチ",
+      "identityConfirmed": "はい",
+      "samePersonAs": "既存IDなし",
+      "standardName": "カンザキイオリ",
+      "reading": "かんざきいおり",
+      "sortKey": "かんざきいおり",
+      "slug": "iori-kanzaki",
+      "type": "person",
+      "aliases": [],
+      "affiliation": null,
+      "根拠URL・資料": null,
+      "備考": null
+    },
+    "scopeConfirmations": [
+      {
+        "game": "garupa",
+        "recordId": 467,
+        "title": "命に嫌われている。",
+        "role": "lyricist",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 54
+      },
+      {
+        "game": "garupa",
+        "recordId": 467,
+        "title": "命に嫌われている。",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 55
+      },
+      {
+        "game": "garupa",
+        "recordId": 758,
+        "title": "過去を喰らう",
+        "role": "lyricist",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 57
+      },
+      {
+        "game": "garupa",
+        "recordId": 758,
+        "title": "過去を喰らう",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 58
+      },
+      {
+        "game": "ournotes",
+        "recordId": 86,
+        "title": "過去を喰らう",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 60
+      }
+    ],
+    "records": [
+      {
+        "game": "ournotes",
+        "recordId": 86,
+        "title": "過去を喰らう",
+        "role": "lyricist",
+        "raw": "カンザキイオリ",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          65
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 86,
+        "title": "過去を喰らう",
+        "role": "arranger",
+        "raw": "植木建象、神田ジョン（from PENGUIN RESEARCH）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          66,
+          371
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 1,
+        "title": "迷星叫",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          75
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 2,
+        "title": "壱雫空",
+        "role": "arranger",
+        "raw": "hisakuni(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          77
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 3,
+        "title": "碧天伴走",
+        "role": "arranger",
+        "raw": "木下龍平(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "木下龍平(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          79
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 4,
+        "title": "影色舞",
+        "role": "arranger",
+        "raw": "木下龍平(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          83
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 5,
+        "title": "潜在表明",
+        "role": "arranger",
+        "raw": "鈴木裕明(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          85
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 6,
+        "title": "音一会",
+        "role": "arranger",
+        "raw": "尾崎豪（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          87
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 7,
+        "title": "春日影（MyGO!!!!! ver.）",
+        "role": "arranger",
+        "raw": "藤田淳平（Elements Garden）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          89
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 8,
+        "title": "詩超絆",
+        "role": "arranger",
+        "raw": "横地健太(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "横地健太(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          91
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 9,
+        "title": "迷路日々",
+        "role": "arranger",
+        "raw": "松坂康司(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "松坂康司(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          95
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 10,
+        "title": "無路矢",
+        "role": "arranger",
+        "raw": "庄司夏葵（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          99
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 11,
+        "title": "名無声",
+        "role": "arranger",
+        "raw": "金崎真士(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          101
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 12,
+        "title": "歩拾道",
+        "role": "arranger",
+        "raw": "庄司夏葵(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "庄司夏葵(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          103
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 13,
+        "title": "端程山",
+        "role": "arranger",
+        "raw": "トミタカズキ(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          107
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 14,
+        "title": "砂寸奏",
+        "role": "arranger",
+        "raw": "槙島隆人（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          109
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 15,
+        "title": "焚音打",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          111
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 16,
+        "title": "聿日箋秋",
+        "role": "arranger",
+        "raw": "トミタカズキ(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "トミタカズキ(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          113
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 17,
+        "title": "証命讃歌",
+        "role": "arranger",
+        "raw": "高橋涼（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": "高橋涼 (SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          117
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 18,
+        "title": "往欄印",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          121
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 19,
+        "title": "ないものねだり",
+        "role": "arranger",
+        "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          123
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 20,
+        "title": "シャルル",
+        "role": "arranger",
+        "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          125
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 22,
+        "title": "ホワイトノイズ",
+        "role": "arranger",
+        "raw": "小木岳司",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          127
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 23,
+        "title": "Ave Mujica",
+        "role": "arranger",
+        "raw": "藤間仁（Elements Garden）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          133
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 24,
+        "title": "KiLLKiSS",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "長谷川大介(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          135
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 25,
+        "title": "Imprisoned XII",
+        "role": "arranger",
+        "raw": "松坂康司(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "松坂康司(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          139
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 26,
+        "title": "Crucifix X",
+        "role": "arranger",
+        "raw": "o-saka(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "o-saka(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          143
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 27,
+        "title": "八芒星ダンス",
+        "role": "arranger",
+        "raw": "あらケン(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          147
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 28,
+        "title": "顔",
+        "role": "arranger",
+        "raw": "木下龍平(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "木下龍平(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          149
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 29,
+        "title": "天球(そら)のMúsica",
+        "role": "arranger",
+        "raw": "高橋涼(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "高橋涼(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          153
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 30,
+        "title": "Symbol I : △",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "長谷川大介 (SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          157
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 31,
+        "title": "Symbol II : Air",
+        "role": "arranger",
+        "raw": "高橋涼(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "高橋涼(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          161
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 32,
+        "title": "Symbol III : ▽",
+        "role": "arranger",
+        "raw": "トミタカズキ(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "トミタカズキ (SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          165
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 33,
+        "title": "Symbol IV : Earth",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "長谷川大介(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          169
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 34,
+        "title": "Ether",
+        "role": "arranger",
+        "raw": "長谷川大介(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "長谷川大介(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          173
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 35,
+        "title": "黒のバースデイ",
+        "role": "arranger",
+        "raw": "賀佐泰洋（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          177
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 36,
+        "title": "Choir ‘S’ Choir",
+        "role": "arranger",
+        "raw": "角本麻衣（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          179
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 37,
+        "title": "Mas?uerade Rhapsody Re?uest",
+        "role": "arranger",
+        "raw": "あらケン（SUPA LOVE）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          181
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 38,
+        "title": "碧い瞳の中に",
+        "role": "arranger",
+        "raw": "Diggy-MO'、松坂康司(SUPA LOVE)",
+        "fieldAbsent": false,
+        "releaseReference": "Diggy-MO'、松坂康司(SUPA LOVE)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          183
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 39,
+        "title": "The Whole Blue World",
+        "role": "arranger",
+        "raw": "Diggy-MO'",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          187
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 41,
+        "title": "堕天",
+        "role": "arranger",
+        "raw": "UYKADO",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          189
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 42,
+        "title": "暗黒天国",
+        "role": "arranger",
+        "raw": "UYKADO",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          191
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 43,
+        "title": "KINGS",
+        "role": "arranger",
+        "raw": "UYKADO",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          193
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 44,
+        "title": "✞animaるパーティ✞開催中✞",
+        "role": "arranger",
+        "raw": "堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          199
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 45,
+        "title": "エンプティパペット",
+        "role": "arranger",
+        "raw": "eba",
+        "fieldAbsent": false,
+        "releaseReference": "eba",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          201
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 46,
+        "title": "限界現実サバイブ天使",
+        "role": "arranger",
+        "raw": "Nor、堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": "Nor, 堀江晶太",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          205
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 47,
+        "title": "ビッグマウス",
+        "role": "arranger",
+        "raw": "堀江晶太、Nor",
+        "fieldAbsent": false,
+        "releaseReference": "堀江晶太、Nor",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          209
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 48,
+        "title": "夢現妄想世界",
+        "role": "arranger",
+        "raw": "園田健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "園田健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          213
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 49,
+        "title": "コハク",
+        "role": "arranger",
+        "raw": "堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": "堀江晶太",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          217
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 50,
+        "title": "これはぼくたちの生存のあらすじ",
+        "role": "arranger",
+        "raw": "堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": "堀江晶太",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          221
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 51,
+        "title": "うちゅうのふしぎ",
+        "role": "arranger",
+        "raw": "sabio",
+        "fieldAbsent": false,
+        "releaseReference": "sabio",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          225
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 52,
+        "title": "真夜中遊園地",
+        "role": "arranger",
+        "raw": "哥丸雄貴、堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": "哥丸雄貴、堀江晶太",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          229
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 53,
+        "title": "チューニング",
+        "role": "arranger",
+        "raw": "堀江晶太、千石ユノ",
+        "fieldAbsent": false,
+        "releaseReference": "堀江晶太、千石ユノ",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          233
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 54,
+        "title": "超惑星Xへの旅",
+        "role": "arranger",
+        "raw": "TeddyLoid・堀江晶太",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          237
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 55,
+        "title": "TearJerker",
+        "role": "arranger",
+        "raw": "sabio",
+        "fieldAbsent": false,
+        "releaseReference": "sabio",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          239
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 56,
+        "title": "Face The Next",
+        "role": "arranger",
+        "raw": "白神真志朗、千石ユノ",
+        "fieldAbsent": false,
+        "releaseReference": "白神真志朗、千石ユノ",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          243
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 57,
+        "title": "in my words",
+        "role": "arranger",
+        "raw": "白神真志朗",
+        "fieldAbsent": false,
+        "releaseReference": "白神真志朗",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          247
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 58,
+        "title": "愛は衝動",
+        "role": "arranger",
+        "raw": "sabio",
+        "fieldAbsent": false,
+        "releaseReference": "sabio",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          251
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 59,
+        "title": "六兆年と一夜物語",
+        "role": "arranger",
+        "raw": "sabio/高村風太",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          255
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 60,
+        "title": "唱",
+        "role": "arranger",
+        "raw": "DjeDje、KENSEI、三村一輝",
+        "fieldAbsent": false,
+        "releaseReference": "DjeDje、KENSEI、三村一輝",
+        "relationshipAnswer": "3人とも同じ",
+        "inputLines": [
+          257
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 62,
+        "title": "UNDEAD",
+        "role": "arranger",
+        "raw": "DjeDje、三村一輝",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          261
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 63,
+        "title": "起死開戦",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          267
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 64,
+        "title": "everscape",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          271
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 65,
+        "title": "鳴らす",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          275
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 66,
+        "title": "カーネーションの咲く日に",
+        "role": "arranger",
+        "raw": "瀬名水紀(Dream Monster)、Aira",
+        "fieldAbsent": false,
+        "releaseReference": "瀬名水紀(Dream Monster)、Aira(Dream Monster) / 瀬名水紀、Aira",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          277
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 67,
+        "title": "青のすみか",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          281
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 68,
+        "title": "Pretender",
+        "role": "arranger",
+        "raw": "石倉まろ",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          285
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 69,
+        "title": "unravel",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          287
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 71,
+        "title": "ホーミー・タイッ！！",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          295
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 72,
+        "title": "ジャイアント・キラー・チューン",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          299
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 73,
+        "title": "ピースフル・ピーシーズ！",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          303
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 74,
+        "title": "Keep on Riddim",
+        "role": "arranger",
+        "raw": "瀬名水紀(Dream Monster)",
+        "fieldAbsent": false,
+        "releaseReference": "瀬名水紀(Dream Monster)",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          305
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 75,
+        "title": "Mela!",
+        "role": "arranger",
+        "raw": "石倉まろ",
+        "fieldAbsent": false,
+        "releaseReference": "石倉誉之",
+        "relationshipAnswer": "同一人物だが現在は石倉まろ名義のみを使用",
+        "inputLines": [
+          309
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 76,
+        "title": "サムライハート(Some Like It Hot!!)",
+        "role": "arranger",
+        "raw": "藤井健太郎",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          313
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 78,
+        "title": "革命道中",
+        "role": "arranger",
+        "raw": "牧野太洋",
+        "fieldAbsent": false,
+        "releaseReference": "藤井健太郎",
+        "relationshipAnswer": "別の人物、牧野太洋が正しい",
+        "inputLines": [
+          315
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 79,
+        "title": "春日影",
+        "role": "arranger",
+        "raw": "藤田淳平（Elements Garden）",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          323
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 80,
+        "title": "ちゅ、多様性。",
+        "role": "arranger",
+        "raw": "白神真志朗",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          329
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 81,
+        "title": "空に歌えば",
+        "role": "arranger",
+        "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          335
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 82,
+        "title": "Stellar Stellar",
+        "role": "arranger",
+        "raw": "牧野太洋",
+        "fieldAbsent": false,
+        "releaseReference": "牧野太洋",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          341
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 83,
+        "title": "ファタール",
+        "role": "arranger",
+        "raw": "植木建象、加藤貴之",
+        "fieldAbsent": false,
+        "releaseReference": null,
+        "relationshipAnswer": null,
+        "inputLines": [
+          349
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 84,
+        "title": "微笑みの爆弾",
+        "role": "arranger",
+        "raw": "牧野太洋",
+        "fieldAbsent": false,
+        "releaseReference": "牧野太洋",
+        "relationshipAnswer": "同じ",
+        "inputLines": [
+          355
+        ]
+      },
+      {
+        "game": "ournotes",
+        "recordId": 85,
+        "title": "夢我夢中",
+        "role": "arranger",
+        "raw": "ケンモチヒデフミ、Skye K",
+        "fieldAbsent": false,
+        "releaseReference": "ケンモチヒデフミ、Skye K",
+        "relationshipAnswer": "2人とも同じ",
+        "inputLines": [
+          363
+        ]
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "game": "ournotes",
+      "recordId": 86,
+      "title": "過去を喰らう",
+      "role": "lyricist",
+      "raw": "カンザキイオリ",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        65
+      ],
+      "workId": "wk-0739",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "カンザキイオリ",
+          "normalized": "カンザキイオリ",
+          "affiliation": null,
+          "standardName": "カンザキイオリ",
+          "identityKey": "b1-19d8876cf3cbcb75c068",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-19d8876cf3cbcb75c068 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:86:lyricist / line 65",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 86,
+      "title": "過去を喰らう",
+      "role": "arranger",
+      "raw": "植木建象、神田ジョン（from PENGUIN RESEARCH）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        66,
+        371
+      ],
+      "workId": "wk-0739",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "植木建象",
+          "normalized": "植木建象",
+          "affiliation": null,
+          "standardName": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "creatorId": "cr-0098",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-f27622614d9cfe966501 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:86:arranger / line 66,371",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "神田ジョン（from PENGUIN RESEARCH）",
+          "normalized": "神田ジョン（from PENGUIN RESEARCH）",
+          "affiliation": null,
+          "standardName": "神田ジョン（from PENGUIN RESEARCH）",
+          "identityKey": "b1-47763b21b3c13fee3141",
+          "creatorId": "cr-0103",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-47763b21b3c13fee3141 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:86:arranger / line 66,371",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 1,
+      "title": "迷星叫",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        75
+      ],
+      "workId": "wk-0464",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:1:arranger / line 75",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 2,
+      "title": "壱雫空",
+      "role": "arranger",
+      "raw": "hisakuni(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        77
+      ],
+      "workId": "wk-0480",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "hisakuni(SUPA LOVE)",
+          "normalized": "hisakuni",
+          "affiliation": "SUPA LOVE",
+          "standardName": "hisakuni",
+          "identityKey": "cr-0018",
+          "creatorId": "cr-0018",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0018 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:2:arranger / line 77",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 3,
+      "title": "碧天伴走",
+      "role": "arranger",
+      "raw": "木下龍平(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "木下龍平(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        79
+      ],
+      "workId": "wk-0488",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "木下龍平(SUPA LOVE)",
+          "normalized": "木下龍平",
+          "affiliation": "SUPA LOVE",
+          "standardName": "木下龍平",
+          "identityKey": "cr-0015",
+          "creatorId": "cr-0015",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0015 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:3:arranger / line 79",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 4,
+      "title": "影色舞",
+      "role": "arranger",
+      "raw": "木下龍平(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        83
+      ],
+      "workId": "wk-0511",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "木下龍平(SUPA LOVE)",
+          "normalized": "木下龍平",
+          "affiliation": "SUPA LOVE",
+          "standardName": "木下龍平",
+          "identityKey": "cr-0015",
+          "creatorId": "cr-0015",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0015 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:4:arranger / line 83",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 5,
+      "title": "潜在表明",
+      "role": "arranger",
+      "raw": "鈴木裕明(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        85
+      ],
+      "workId": "wk-0663",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "鈴木裕明(SUPA LOVE)",
+          "normalized": "鈴木裕明",
+          "affiliation": "SUPA LOVE",
+          "standardName": "鈴木裕明",
+          "identityKey": "cr-0046",
+          "creatorId": "cr-0046",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0046 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:5:arranger / line 85",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 6,
+      "title": "音一会",
+      "role": "arranger",
+      "raw": "尾崎豪（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        87
+      ],
+      "workId": "wk-0636",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "尾崎豪（SUPA LOVE）",
+          "normalized": "尾崎豪",
+          "affiliation": "SUPA LOVE",
+          "standardName": "尾崎豪",
+          "identityKey": "b1-decc904f4ad5d1c72ca9",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-decc904f4ad5d1c72ca9 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:6:arranger / line 87",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 7,
+      "title": "春日影（MyGO!!!!! ver.）",
+      "role": "arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        89
+      ],
+      "workId": "wk-0635",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤田淳平（Elements Garden）",
+          "normalized": "藤田淳平",
+          "affiliation": "Elements Garden",
+          "standardName": "藤田淳平",
+          "identityKey": "cr-0004",
+          "creatorId": "cr-0004",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0004 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:7:arranger / line 89",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 8,
+      "title": "詩超絆",
+      "role": "arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "横地健太(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        91
+      ],
+      "workId": "wk-0494",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "横地健太(SUPA LOVE)",
+          "normalized": "横地健太",
+          "affiliation": "SUPA LOVE",
+          "standardName": "横地健太",
+          "identityKey": "b1-6c54c616bf3d724cda81",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-6c54c616bf3d724cda81 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:8:arranger / line 91",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 9,
+      "title": "迷路日々",
+      "role": "arranger",
+      "raw": "松坂康司(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "松坂康司(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        95
+      ],
+      "workId": "wk-0501",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "松坂康司(SUPA LOVE)",
+          "normalized": "松坂康司",
+          "affiliation": "SUPA LOVE",
+          "standardName": "松坂康司",
+          "identityKey": "cr-0014",
+          "creatorId": "cr-0014",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0014 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:9:arranger / line 95",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 10,
+      "title": "無路矢",
+      "role": "arranger",
+      "raw": "庄司夏葵（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        99
+      ],
+      "workId": "wk-0749",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "庄司夏葵（SUPA LOVE）",
+          "normalized": "庄司夏葵",
+          "affiliation": "SUPA LOVE",
+          "standardName": "庄司夏葵",
+          "identityKey": "cr-0089",
+          "creatorId": "cr-0089",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0089 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:10:arranger / line 99",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 11,
+      "title": "名無声",
+      "role": "arranger",
+      "raw": "金崎真士(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        101
+      ],
+      "workId": "wk-0588",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "金崎真士(SUPA LOVE)",
+          "normalized": "金崎真士",
+          "affiliation": "SUPA LOVE",
+          "standardName": "金崎真士",
+          "identityKey": "cr-0045",
+          "creatorId": "cr-0045",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0045 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:11:arranger / line 101",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 12,
+      "title": "歩拾道",
+      "role": "arranger",
+      "raw": "庄司夏葵(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "庄司夏葵(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        103
+      ],
+      "workId": "wk-0611",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "庄司夏葵(SUPA LOVE)",
+          "normalized": "庄司夏葵",
+          "affiliation": "SUPA LOVE",
+          "standardName": "庄司夏葵",
+          "identityKey": "cr-0089",
+          "creatorId": "cr-0089",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0089 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:12:arranger / line 103",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 13,
+      "title": "端程山",
+      "role": "arranger",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        107
+      ],
+      "workId": "wk-0716",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "トミタカズキ(SUPA LOVE)",
+          "normalized": "トミタカズキ",
+          "affiliation": "SUPA LOVE",
+          "standardName": "トミタカズキ",
+          "identityKey": "cr-0016",
+          "creatorId": "cr-0016",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0016 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:13:arranger / line 107",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 14,
+      "title": "砂寸奏",
+      "role": "arranger",
+      "raw": "槙島隆人（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        109
+      ],
+      "workId": "wk-0776",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "槙島隆人（SUPA LOVE）",
+          "normalized": "槙島隆人",
+          "affiliation": "SUPA LOVE",
+          "standardName": "槙島隆人",
+          "identityKey": "review-3e091e2967af836b05f0",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:14:arranger / line 109",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 15,
+      "title": "焚音打",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        111
+      ],
+      "workId": "wk-0651",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:15:arranger / line 111",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 16,
+      "title": "聿日箋秋",
+      "role": "arranger",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "トミタカズキ(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        113
+      ],
+      "workId": "wk-0650",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "トミタカズキ(SUPA LOVE)",
+          "normalized": "トミタカズキ",
+          "affiliation": "SUPA LOVE",
+          "standardName": "トミタカズキ",
+          "identityKey": "cr-0016",
+          "creatorId": "cr-0016",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0016 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:16:arranger / line 113",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 17,
+      "title": "証命讃歌",
+      "role": "arranger",
+      "raw": "高橋涼（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": "高橋涼 (SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        117
+      ],
+      "workId": "wk-0777",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "高橋涼（SUPA LOVE）",
+          "normalized": "高橋涼",
+          "affiliation": "SUPA LOVE",
+          "standardName": "高橋涼",
+          "identityKey": "cr-0038",
+          "creatorId": "cr-0038",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0038 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:17:arranger / line 117",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 18,
+      "title": "往欄印",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        121
+      ],
+      "workId": "wk-0681",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:18:arranger / line 121",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 19,
+      "title": "ないものねだり",
+      "role": "arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        123
+      ],
+      "workId": "wk-0778",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "植木建象",
+          "normalized": "植木建象",
+          "affiliation": null,
+          "standardName": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "creatorId": "cr-0098",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-f27622614d9cfe966501 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:19:arranger / line 123",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "神田ジョン(from PENGUIN RESEARCH)",
+          "normalized": "神田ジョン(from PENGUIN RESEARCH)",
+          "affiliation": null,
+          "standardName": "神田ジョン(from PENGUIN RESEARCH)",
+          "identityKey": "b1-47763b21b3c13fee3141",
+          "creatorId": "cr-0103",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-47763b21b3c13fee3141 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:19:arranger / line 123",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 20,
+      "title": "シャルル",
+      "role": "arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        125
+      ],
+      "workId": "wk-0128",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "植木建象",
+          "normalized": "植木建象",
+          "affiliation": null,
+          "standardName": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "creatorId": "cr-0098",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-f27622614d9cfe966501 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:20:arranger / line 125",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "神田ジョン(from PENGUIN RESEARCH)",
+          "normalized": "神田ジョン(from PENGUIN RESEARCH)",
+          "affiliation": null,
+          "standardName": "神田ジョン(from PENGUIN RESEARCH)",
+          "identityKey": "b1-47763b21b3c13fee3141",
+          "creatorId": "cr-0103",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-47763b21b3c13fee3141 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:20:arranger / line 125",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 22,
+      "title": "ホワイトノイズ",
+      "role": "arranger",
+      "raw": "小木岳司",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        127
+      ],
+      "workId": "wk-0538",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "小木岳司",
+          "normalized": "小木岳司",
+          "affiliation": null,
+          "standardName": "小木岳司",
+          "identityKey": "b1-3b0e5a5bfe76a5eb6303",
+          "creatorId": "cr-0101",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-3b0e5a5bfe76a5eb6303 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:22:arranger / line 127",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 23,
+      "title": "Ave Mujica",
+      "role": "arranger",
+      "raw": "藤間仁（Elements Garden）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        133
+      ],
+      "workId": "wk-0626",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤間仁（Elements Garden）",
+          "normalized": "藤間仁",
+          "affiliation": "Elements Garden",
+          "standardName": "藤間仁",
+          "identityKey": "cr-0008",
+          "creatorId": "cr-0008",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0008 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:23:arranger / line 133",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 24,
+      "title": "KiLLKiSS",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "長谷川大介(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        135
+      ],
+      "workId": "wk-0628",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:24:arranger / line 135",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 25,
+      "title": "Imprisoned XII",
+      "role": "arranger",
+      "raw": "松坂康司(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "松坂康司(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        139
+      ],
+      "workId": "wk-0638",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "松坂康司(SUPA LOVE)",
+          "normalized": "松坂康司",
+          "affiliation": "SUPA LOVE",
+          "standardName": "松坂康司",
+          "identityKey": "cr-0014",
+          "creatorId": "cr-0014",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0014 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:25:arranger / line 139",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 26,
+      "title": "Crucifix X",
+      "role": "arranger",
+      "raw": "o-saka(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "o-saka(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        143
+      ],
+      "workId": "wk-0639",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "o-saka(SUPA LOVE)",
+          "normalized": "o-saka",
+          "affiliation": "SUPA LOVE",
+          "standardName": "o-saka",
+          "identityKey": "b1-e8ae9d1e92b80dadf59e",
+          "creatorId": "cr-0124",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-e8ae9d1e92b80dadf59e との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:26:arranger / line 143",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 27,
+      "title": "八芒星ダンス",
+      "role": "arranger",
+      "raw": "あらケン(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        147
+      ],
+      "workId": "wk-0649",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "あらケン(SUPA LOVE)",
+          "normalized": "あらケン",
+          "affiliation": "SUPA LOVE",
+          "standardName": "あらケン",
+          "identityKey": "cr-0017",
+          "creatorId": "cr-0017",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0017 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:27:arranger / line 147",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 28,
+      "title": "顔",
+      "role": "arranger",
+      "raw": "木下龍平(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "木下龍平(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        149
+      ],
+      "workId": "wk-0653",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "木下龍平(SUPA LOVE)",
+          "normalized": "木下龍平",
+          "affiliation": "SUPA LOVE",
+          "standardName": "木下龍平",
+          "identityKey": "cr-0015",
+          "creatorId": "cr-0015",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0015 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:28:arranger / line 149",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 29,
+      "title": "天球(そら)のMúsica",
+      "role": "arranger",
+      "raw": "高橋涼(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "高橋涼(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        153
+      ],
+      "workId": "wk-0654",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "高橋涼(SUPA LOVE)",
+          "normalized": "高橋涼",
+          "affiliation": "SUPA LOVE",
+          "standardName": "高橋涼",
+          "identityKey": "cr-0038",
+          "creatorId": "cr-0038",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0038 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:29:arranger / line 153",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 30,
+      "title": "Symbol I : △",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "長谷川大介 (SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        157
+      ],
+      "workId": "wk-0780",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:30:arranger / line 157",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 31,
+      "title": "Symbol II : Air",
+      "role": "arranger",
+      "raw": "高橋涼(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "高橋涼(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        161
+      ],
+      "workId": "wk-0781",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "高橋涼(SUPA LOVE)",
+          "normalized": "高橋涼",
+          "affiliation": "SUPA LOVE",
+          "standardName": "高橋涼",
+          "identityKey": "cr-0038",
+          "creatorId": "cr-0038",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0038 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:31:arranger / line 161",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 32,
+      "title": "Symbol III : ▽",
+      "role": "arranger",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "トミタカズキ (SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        165
+      ],
+      "workId": "wk-0782",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "トミタカズキ(SUPA LOVE)",
+          "normalized": "トミタカズキ",
+          "affiliation": "SUPA LOVE",
+          "standardName": "トミタカズキ",
+          "identityKey": "cr-0016",
+          "creatorId": "cr-0016",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0016 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:32:arranger / line 165",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 33,
+      "title": "Symbol IV : Earth",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "長谷川大介(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        169
+      ],
+      "workId": "wk-0783",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:33:arranger / line 169",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 34,
+      "title": "Ether",
+      "role": "arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "長谷川大介(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        173
+      ],
+      "workId": "wk-0784",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "長谷川大介(SUPA LOVE)",
+          "normalized": "長谷川大介",
+          "affiliation": "SUPA LOVE",
+          "standardName": "長谷川大介",
+          "identityKey": "cr-0013",
+          "creatorId": "cr-0013",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0013 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:34:arranger / line 173",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 35,
+      "title": "黒のバースデイ",
+      "role": "arranger",
+      "raw": "賀佐泰洋（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        177
+      ],
+      "workId": "wk-0669",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "賀佐泰洋（SUPA LOVE）",
+          "normalized": "賀佐泰洋",
+          "affiliation": "SUPA LOVE",
+          "standardName": "賀佐泰洋",
+          "identityKey": "cr-0044",
+          "creatorId": "cr-0044",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0044 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:35:arranger / line 177",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "title": "Choir ‘S’ Choir",
+      "role": "arranger",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        179
+      ],
+      "workId": "wk-0785",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "角本麻衣（SUPA LOVE）",
+          "normalized": "角本麻衣",
+          "affiliation": "SUPA LOVE",
+          "standardName": "角本麻衣",
+          "identityKey": "review-0483bc48120cfc2a4fba",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:36:arranger / line 179",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 37,
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "role": "arranger",
+      "raw": "あらケン（SUPA LOVE）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        181
+      ],
+      "workId": "wk-0699",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "あらケン（SUPA LOVE）",
+          "normalized": "あらケン",
+          "affiliation": "SUPA LOVE",
+          "standardName": "あらケン",
+          "identityKey": "cr-0017",
+          "creatorId": "cr-0017",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0017 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:37:arranger / line 181",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 38,
+      "title": "碧い瞳の中に",
+      "role": "arranger",
+      "raw": "Diggy-MO'、松坂康司(SUPA LOVE)",
+      "fieldAbsent": false,
+      "releaseReference": "Diggy-MO'、松坂康司(SUPA LOVE)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        183
+      ],
+      "workId": "wk-0786",
+      "band": "Ave Mujica",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "Diggy-MO'",
+          "normalized": "Diggy-MO'",
+          "affiliation": null,
+          "standardName": "Diggy-MO'",
+          "identityKey": "cr-0022",
+          "creatorId": "cr-0022",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0022 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:38:arranger / line 183",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "松坂康司(SUPA LOVE)",
+          "normalized": "松坂康司",
+          "affiliation": "SUPA LOVE",
+          "standardName": "松坂康司",
+          "identityKey": "cr-0014",
+          "creatorId": "cr-0014",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0014 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:38:arranger / line 183",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 39,
+      "title": "The Whole Blue World",
+      "role": "arranger",
+      "raw": "Diggy-MO'",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        187
+      ],
+      "workId": "wk-0787",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "Diggy-MO'",
+          "normalized": "Diggy-MO'",
+          "affiliation": null,
+          "standardName": "Diggy-MO'",
+          "identityKey": "cr-0022",
+          "creatorId": "cr-0022",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0022 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:39:arranger / line 187",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 41,
+      "title": "堕天",
+      "role": "arranger",
+      "raw": "UYKADO",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        189
+      ],
+      "workId": "wk-0788",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "UYKADO",
+          "normalized": "UYKADO",
+          "affiliation": null,
+          "standardName": "UYKADO",
+          "identityKey": "review-9cda2256d6c7162d42ad",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:41:arranger / line 189",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 42,
+      "title": "暗黒天国",
+      "role": "arranger",
+      "raw": "UYKADO",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        191
+      ],
+      "workId": "wk-0789",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "UYKADO",
+          "normalized": "UYKADO",
+          "affiliation": null,
+          "standardName": "UYKADO",
+          "identityKey": "review-9cda2256d6c7162d42ad",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:42:arranger / line 191",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 43,
+      "title": "KINGS",
+      "role": "arranger",
+      "raw": "UYKADO",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        193
+      ],
+      "workId": "wk-0790",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "UYKADO",
+          "normalized": "UYKADO",
+          "affiliation": null,
+          "standardName": "UYKADO",
+          "identityKey": "review-9cda2256d6c7162d42ad",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:43:arranger / line 193",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 44,
+      "title": "✞animaるパーティ✞開催中✞",
+      "role": "arranger",
+      "raw": "堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        199
+      ],
+      "workId": "wk-0791",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:44:arranger / line 199",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "title": "エンプティパペット",
+      "role": "arranger",
+      "raw": "eba",
+      "fieldAbsent": false,
+      "releaseReference": "eba",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        201
+      ],
+      "workId": "wk-0792",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "eba",
+          "normalized": "eba",
+          "affiliation": null,
+          "standardName": "eba",
+          "identityKey": "b1-8545f46d0c3a6cb00932",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-8545f46d0c3a6cb00932 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:45:arranger / line 201",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "title": "限界現実サバイブ天使",
+      "role": "arranger",
+      "raw": "Nor、堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": "Nor, 堀江晶太",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        205
+      ],
+      "workId": "wk-0793",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "Nor",
+          "normalized": "Nor",
+          "affiliation": null,
+          "standardName": "Nor",
+          "identityKey": "b1-bc4eb6a5c9c4fe339039",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-bc4eb6a5c9c4fe339039 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:46:arranger / line 205",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:46:arranger / line 205",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "role": "arranger",
+      "raw": "堀江晶太、Nor",
+      "fieldAbsent": false,
+      "releaseReference": "堀江晶太、Nor",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        209
+      ],
+      "workId": "wk-0794",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:47:arranger / line 209",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "Nor",
+          "normalized": "Nor",
+          "affiliation": null,
+          "standardName": "Nor",
+          "identityKey": "b1-bc4eb6a5c9c4fe339039",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-bc4eb6a5c9c4fe339039 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:47:arranger / line 209",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 48,
+      "title": "夢現妄想世界",
+      "role": "arranger",
+      "raw": "園田健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "園田健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        213
+      ],
+      "workId": "wk-0795",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "園田健太郎",
+          "normalized": "園田健太郎",
+          "affiliation": null,
+          "standardName": "園田健太郎",
+          "identityKey": "b1-36456c709118f3609c80",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-36456c709118f3609c80 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:48:arranger / line 213",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 49,
+      "title": "コハク",
+      "role": "arranger",
+      "raw": "堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": "堀江晶太",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        217
+      ],
+      "workId": "wk-0796",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:49:arranger / line 217",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 50,
+      "title": "これはぼくたちの生存のあらすじ",
+      "role": "arranger",
+      "raw": "堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": "堀江晶太",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        221
+      ],
+      "workId": "wk-0798",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:50:arranger / line 221",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 51,
+      "title": "うちゅうのふしぎ",
+      "role": "arranger",
+      "raw": "sabio",
+      "fieldAbsent": false,
+      "releaseReference": "sabio",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        225
+      ],
+      "workId": "wk-0799",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "sabio",
+          "normalized": "sabio",
+          "affiliation": null,
+          "standardName": "sabio",
+          "identityKey": "cr-0071",
+          "creatorId": "cr-0071",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0071 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:51:arranger / line 225",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 52,
+      "title": "真夜中遊園地",
+      "role": "arranger",
+      "raw": "哥丸雄貴、堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": "哥丸雄貴、堀江晶太",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        229
+      ],
+      "workId": "wk-0797",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "哥丸雄貴",
+          "normalized": "哥丸雄貴",
+          "affiliation": null,
+          "standardName": "哥丸雄貴",
+          "identityKey": "b1-7c7ede552b3bb6d16e8e",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-7c7ede552b3bb6d16e8e との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:52:arranger / line 229",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:52:arranger / line 229",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "title": "チューニング",
+      "role": "arranger",
+      "raw": "堀江晶太、千石ユノ",
+      "fieldAbsent": false,
+      "releaseReference": "堀江晶太、千石ユノ",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        233
+      ],
+      "workId": "wk-0800",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:53:arranger / line 233",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "千石ユノ",
+          "normalized": "千石ユノ",
+          "affiliation": null,
+          "standardName": "千石ユノ",
+          "identityKey": "b1-a60c08d1db0c515831cc",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-a60c08d1db0c515831cc との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:53:arranger / line 233",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 54,
+      "title": "超惑星Xへの旅",
+      "role": "arranger",
+      "raw": "TeddyLoid・堀江晶太",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        237
+      ],
+      "workId": "wk-0801",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "TeddyLoid",
+          "normalized": "TeddyLoid",
+          "affiliation": null,
+          "standardName": "TeddyLoid",
+          "identityKey": "cr-0031",
+          "creatorId": "cr-0031",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0031 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:54:arranger / line 237",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "堀江晶太",
+          "normalized": "堀江晶太",
+          "affiliation": null,
+          "standardName": "堀江晶太",
+          "identityKey": "cr-0028",
+          "creatorId": "cr-0028",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0028 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:54:arranger / line 237",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 55,
+      "title": "TearJerker",
+      "role": "arranger",
+      "raw": "sabio",
+      "fieldAbsent": false,
+      "releaseReference": "sabio",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        239
+      ],
+      "workId": "wk-0802",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "sabio",
+          "normalized": "sabio",
+          "affiliation": null,
+          "standardName": "sabio",
+          "identityKey": "cr-0071",
+          "creatorId": "cr-0071",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0071 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:55:arranger / line 239",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "title": "Face The Next",
+      "role": "arranger",
+      "raw": "白神真志朗、千石ユノ",
+      "fieldAbsent": false,
+      "releaseReference": "白神真志朗、千石ユノ",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        243
+      ],
+      "workId": "wk-0803",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "白神真志朗",
+          "normalized": "白神真志朗",
+          "affiliation": null,
+          "standardName": "白神真志朗",
+          "identityKey": "cr-0074",
+          "creatorId": "cr-0074",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0074 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:56:arranger / line 243",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "千石ユノ",
+          "normalized": "千石ユノ",
+          "affiliation": null,
+          "standardName": "千石ユノ",
+          "identityKey": "b1-a60c08d1db0c515831cc",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-a60c08d1db0c515831cc との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:56:arranger / line 243",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 57,
+      "title": "in my words",
+      "role": "arranger",
+      "raw": "白神真志朗",
+      "fieldAbsent": false,
+      "releaseReference": "白神真志朗",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        247
+      ],
+      "workId": "wk-0804",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "白神真志朗",
+          "normalized": "白神真志朗",
+          "affiliation": null,
+          "standardName": "白神真志朗",
+          "identityKey": "cr-0074",
+          "creatorId": "cr-0074",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0074 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:57:arranger / line 247",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 58,
+      "title": "愛は衝動",
+      "role": "arranger",
+      "raw": "sabio",
+      "fieldAbsent": false,
+      "releaseReference": "sabio",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        251
+      ],
+      "workId": "wk-0805",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "sabio",
+          "normalized": "sabio",
+          "affiliation": null,
+          "standardName": "sabio",
+          "identityKey": "cr-0071",
+          "creatorId": "cr-0071",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0071 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:58:arranger / line 251",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 59,
+      "title": "六兆年と一夜物語",
+      "role": "arranger",
+      "raw": "sabio/高村風太",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        255
+      ],
+      "workId": "wk-0116",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "sabio",
+          "normalized": "sabio",
+          "affiliation": null,
+          "standardName": "sabio",
+          "identityKey": "cr-0071",
+          "creatorId": "cr-0071",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0071 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:59:arranger / line 255",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "高村風太",
+          "normalized": "高村風太",
+          "affiliation": null,
+          "standardName": "高村風太",
+          "identityKey": "review-589e9fbfb8b6c014ad7c",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:59:arranger / line 255",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "title": "唱",
+      "role": "arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "fieldAbsent": false,
+      "releaseReference": "DjeDje、KENSEI、三村一輝",
+      "relationshipAnswer": "3人とも同じ",
+      "inputLines": [
+        257
+      ],
+      "workId": "wk-0806",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "DjeDje",
+          "normalized": "DjeDje",
+          "affiliation": null,
+          "standardName": "DjeDje",
+          "identityKey": "b1-a95af7013f3fdd519cf8",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-a95af7013f3fdd519cf8 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:60:arranger / line 257",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "KENSEI",
+          "normalized": "KENSEI",
+          "affiliation": null,
+          "standardName": "KENSEI",
+          "identityKey": "b1-2cf6830ef29337b77619",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-2cf6830ef29337b77619 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:60:arranger / line 257",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "三村一輝",
+          "normalized": "三村一輝",
+          "affiliation": null,
+          "standardName": "三村一輝",
+          "identityKey": "b1-7e0183b00fe393a031a0",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-7e0183b00fe393a031a0 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:60:arranger / line 257",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 62,
+      "title": "UNDEAD",
+      "role": "arranger",
+      "raw": "DjeDje、三村一輝",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        261
+      ],
+      "workId": "wk-0808",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "DjeDje",
+          "normalized": "DjeDje",
+          "affiliation": null,
+          "standardName": "DjeDje",
+          "identityKey": "b1-a95af7013f3fdd519cf8",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-a95af7013f3fdd519cf8 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:62:arranger / line 261",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "三村一輝",
+          "normalized": "三村一輝",
+          "affiliation": null,
+          "standardName": "三村一輝",
+          "identityKey": "b1-7e0183b00fe393a031a0",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-7e0183b00fe393a031a0 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:62:arranger / line 261",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 63,
+      "title": "起死開戦",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        267
+      ],
+      "workId": "wk-0809",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:63:arranger / line 267",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 64,
+      "title": "everscape",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        271
+      ],
+      "workId": "wk-0810",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:64:arranger / line 271",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 65,
+      "title": "鳴らす",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        275
+      ],
+      "workId": "wk-0811",
+      "band": "millsage",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:65:arranger / line 275",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 66,
+      "title": "カーネーションの咲く日に",
+      "role": "arranger",
+      "raw": "瀬名水紀(Dream Monster)、Aira",
+      "fieldAbsent": false,
+      "releaseReference": "瀬名水紀(Dream Monster)、Aira(Dream Monster) / 瀬名水紀、Aira",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        277
+      ],
+      "workId": "wk-0812",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "瀬名水紀(Dream Monster)",
+          "normalized": "瀬名水紀",
+          "affiliation": "Dream Monster",
+          "standardName": "瀬名水紀",
+          "identityKey": "cr-0090",
+          "creatorId": "cr-0090",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0090 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:66:arranger / line 277",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "Aira",
+          "normalized": "Aira",
+          "affiliation": null,
+          "standardName": "Aira",
+          "identityKey": "b1-a44a526d6bab744bdff0",
+          "creatorId": "cr-0111",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-a44a526d6bab744bdff0 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:66:arranger / line 277",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 67,
+      "title": "青のすみか",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        281
+      ],
+      "workId": "wk-0559",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:67:arranger / line 281",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 68,
+      "title": "Pretender",
+      "role": "arranger",
+      "raw": "石倉まろ",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        285
+      ],
+      "workId": "wk-0813",
+      "band": "millsage",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "石倉まろ",
+          "normalized": "石倉まろ",
+          "affiliation": null,
+          "standardName": "石倉まろ",
+          "identityKey": "review-d5df0d8b84a91cab20e1",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "人間回答のゲームrawから作成した候補群（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:68:arranger / line 285",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 69,
+      "title": "unravel",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        287
+      ],
+      "workId": "wk-0387",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:69:arranger / line 287",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 71,
+      "title": "ホーミー・タイッ！！",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        295
+      ],
+      "workId": "wk-0815",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:71:arranger / line 295",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 72,
+      "title": "ジャイアント・キラー・チューン",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        299
+      ],
+      "workId": "wk-0816",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:72:arranger / line 299",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 73,
+      "title": "ピースフル・ピーシーズ！",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        303
+      ],
+      "workId": "wk-0817",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:73:arranger / line 303",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 74,
+      "title": "Keep on Riddim",
+      "role": "arranger",
+      "raw": "瀬名水紀(Dream Monster)",
+      "fieldAbsent": false,
+      "releaseReference": "瀬名水紀(Dream Monster)",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        305
+      ],
+      "workId": "wk-0818",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "瀬名水紀(Dream Monster)",
+          "normalized": "瀬名水紀",
+          "affiliation": "Dream Monster",
+          "standardName": "瀬名水紀",
+          "identityKey": "cr-0090",
+          "creatorId": "cr-0090",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0090 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:74:arranger / line 305",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 75,
+      "title": "Mela!",
+      "role": "arranger",
+      "raw": "石倉まろ",
+      "fieldAbsent": false,
+      "releaseReference": "石倉誉之",
+      "relationshipAnswer": "同一人物だが現在は石倉まろ名義のみを使用",
+      "inputLines": [
+        309
+      ],
+      "workId": "wk-0819",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "SAME_PERSON_CONFIRMED_ARRANGEMENT_UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "石倉まろ",
+          "normalized": "石倉まろ",
+          "affiliation": null,
+          "standardName": "石倉まろ",
+          "identityKey": "b1-1556a9939a4521612fe2",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-1556a9939a4521612fe2 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:75:arranger / line 309",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 76,
+      "title": "サムライハート(Some Like It Hot!!)",
+      "role": "arranger",
+      "raw": "藤井健太郎",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        313
+      ],
+      "workId": "wk-0820",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤井健太郎",
+          "normalized": "藤井健太郎",
+          "affiliation": null,
+          "standardName": "藤井健太郎",
+          "identityKey": "cr-0033",
+          "creatorId": "cr-0033",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0033 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:76:arranger / line 313",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "title": "革命道中",
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "fieldAbsent": false,
+      "releaseReference": "藤井健太郎",
+      "relationshipAnswer": "別の人物、牧野太洋が正しい",
+      "inputLines": [
+        315
+      ],
+      "workId": "wk-0735",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "CREDIT_CORRECTION_CONFIRMED_ARRANGEMENT_UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "normalized": "牧野太洋",
+          "affiliation": null,
+          "standardName": "牧野太洋",
+          "identityKey": "b1-217be10299dcfad8a87d",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-217be10299dcfad8a87d との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:78:arranger / line 315",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 79,
+      "title": "春日影",
+      "role": "arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        323
+      ],
+      "workId": "wk-0635",
+      "band": "CRYCHIC",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "藤田淳平（Elements Garden）",
+          "normalized": "藤田淳平",
+          "affiliation": "Elements Garden",
+          "standardName": "藤田淳平",
+          "identityKey": "cr-0004",
+          "creatorId": "cr-0004",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0004 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:79:arranger / line 323",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 80,
+      "title": "ちゅ、多様性。",
+      "role": "arranger",
+      "raw": "白神真志朗",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        329
+      ],
+      "workId": "wk-0594",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "白神真志朗",
+          "normalized": "白神真志朗",
+          "affiliation": null,
+          "standardName": "白神真志朗",
+          "identityKey": "cr-0074",
+          "creatorId": "cr-0074",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 cr-0074 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:80:arranger / line 329",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 81,
+      "title": "空に歌えば",
+      "role": "arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        335
+      ],
+      "workId": "wk-0821",
+      "band": "MyGO!!!!!",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "植木建象",
+          "normalized": "植木建象",
+          "affiliation": null,
+          "standardName": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "creatorId": "cr-0098",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-f27622614d9cfe966501 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:81:arranger / line 335",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "神田ジョン(from PENGUIN RESEARCH)",
+          "normalized": "神田ジョン(from PENGUIN RESEARCH)",
+          "affiliation": null,
+          "standardName": "神田ジョン(from PENGUIN RESEARCH)",
+          "identityKey": "b1-47763b21b3c13fee3141",
+          "creatorId": "cr-0103",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-47763b21b3c13fee3141 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:81:arranger / line 335",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 82,
+      "title": "Stellar Stellar",
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "fieldAbsent": false,
+      "releaseReference": "牧野太洋",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        341
+      ],
+      "workId": "wk-0533",
+      "band": "millsage",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "normalized": "牧野太洋",
+          "affiliation": null,
+          "standardName": "牧野太洋",
+          "identityKey": "b1-217be10299dcfad8a87d",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-217be10299dcfad8a87d との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:82:arranger / line 341",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 83,
+      "title": "ファタール",
+      "role": "arranger",
+      "raw": "植木建象、加藤貴之",
+      "fieldAbsent": false,
+      "releaseReference": null,
+      "relationshipAnswer": null,
+      "inputLines": [
+        349
+      ],
+      "workId": "wk-0608",
+      "band": "Ave Mujica",
+      "relationshipStatus": "UNRESOLVED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "植木建象",
+          "normalized": "植木建象",
+          "affiliation": null,
+          "standardName": "植木建象",
+          "identityKey": "b1-f27622614d9cfe966501",
+          "creatorId": "cr-0098",
+          "confidence": "CONFIRMED",
+          "safeMappingBasis": "EXACT_EXISTING_NAME_OR_APPROVED_ALIAS_WITH_FORMAT_EQUIVALENCE",
+          "groupBasis": "既存候補 b1-f27622614d9cfe966501 との照合仮説（formal同定ではない）",
+          "reason": "入力したゲーム担当と既存の承認済みname/aliasが一致。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:83:arranger / line 349",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "加藤貴之",
+          "normalized": "加藤貴之",
+          "affiliation": null,
+          "standardName": "加藤貴之",
+          "identityKey": "b1-738ccdae4df4a8aa4aad",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-738ccdae4df4a8aa4aad との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:83:arranger / line 349",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 84,
+      "title": "微笑みの爆弾",
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "fieldAbsent": false,
+      "releaseReference": "牧野太洋",
+      "relationshipAnswer": "同じ",
+      "inputLines": [
+        355
+      ],
+      "workId": "wk-0822",
+      "band": "一家Dumb Rock!",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "normalized": "牧野太洋",
+          "affiliation": null,
+          "standardName": "牧野太洋",
+          "identityKey": "b1-217be10299dcfad8a87d",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-217be10299dcfad8a87d との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:84:arranger / line 355",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "title": "夢我夢中",
+      "role": "arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "fieldAbsent": false,
+      "releaseReference": "ケンモチヒデフミ、Skye K",
+      "relationshipAnswer": "2人とも同じ",
+      "inputLines": [
+        363
+      ],
+      "workId": "wk-0823",
+      "band": "夢限大みゅーたいぷ",
+      "relationshipStatus": "SAME_ARRANGEMENT_CONFIRMED",
+      "splitBoundaryStatus": "HUMAN_GAME_RAW_PARTS_RECORDED",
+      "actors": [
+        {
+          "raw": "ケンモチヒデフミ",
+          "normalized": "ケンモチヒデフミ",
+          "affiliation": null,
+          "standardName": "ケンモチヒデフミ",
+          "identityKey": "b1-9df1869e3b7b1c2b11d5",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-9df1869e3b7b1c2b11d5 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:85:arranger / line 363",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        },
+        {
+          "raw": "Skye K",
+          "normalized": "Skye K",
+          "affiliation": null,
+          "standardName": "Skye K",
+          "identityKey": "b1-2e9d852ee7948d105768",
+          "creatorId": null,
+          "confidence": "UNRESOLVED",
+          "safeMappingBasis": null,
+          "groupBasis": "既存候補 b1-2e9d852ee7948d105768 との照合仮説（formal同定ではない）",
+          "reason": "ゲーム原文は人間確認済み。主体の本人情報・既存ID対応・登録情報は未確認。",
+          "evidence": [
+            {
+              "document": "docs/human-review/creator-credits-p0-2026-10-06/input.txt",
+              "locator": "ournotes:85:arranger / line 363",
+              "sourceType": "human-review",
+              "reviewer": "タニマチ",
+              "checkedAt": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "registration": {
+    "name": "カンザキイオリ",
+    "status": "BLOCKED_INCOMPLETE_CREATOR_FIELDS",
+    "missingFields": [
+      "affiliation",
+      "根拠URL・資料",
+      "備考"
+    ],
+    "suppliedFields": {
+      "humanReviewDate": null,
+      "reviewer": "タニマチ",
+      "identityConfirmed": "はい",
+      "samePersonAs": "既存IDなし",
+      "standardName": "カンザキイオリ",
+      "reading": "かんざきいおり",
+      "sortKey": "かんざきいおり",
+      "slug": "iori-kanzaki",
+      "type": "person",
+      "aliases": [],
+      "affiliation": null,
+      "根拠URL・資料": null,
+      "備考": null
+    },
+    "suppliedScopes": [
+      {
+        "game": "garupa",
+        "recordId": 467,
+        "title": "命に嫌われている。",
+        "role": "lyricist",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 54
+      },
+      {
+        "game": "garupa",
+        "recordId": 467,
+        "title": "命に嫌われている。",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 55
+      },
+      {
+        "game": "garupa",
+        "recordId": 758,
+        "title": "過去を喰らう",
+        "role": "lyricist",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 57
+      },
+      {
+        "game": "garupa",
+        "recordId": 758,
+        "title": "過去を喰らう",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 58
+      },
+      {
+        "game": "ournotes",
+        "recordId": 86,
+        "title": "過去を喰らう",
+        "role": "composer",
+        "raw": "カンザキイオリ",
+        "answer": "はい",
+        "inputLine": 60
+      }
+    ],
+    "creatorAdded": false,
+    "reason": "回答ルール10の全欄条件に空欄がある。推測補完せず、入力されたOurNotes:86作詞rawのみ適用。"
+  }
+}

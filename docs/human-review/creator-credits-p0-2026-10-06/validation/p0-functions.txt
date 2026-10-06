@@ -1,0 +1,15 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 46, reused 16, downloaded 0, added 0
+Progress: resolved 47, reused 17, downloaded 0, added 0
+Progress: resolved 74, reused 20, downloaded 0, added 0
+Progress: resolved 90, reused 36, downloaded 0, added 0
+Packages: +34
+++++++++++++++++++++++++++++++++++
+Progress: resolved 91, reused 37, downloaded 0, added 3
+Progress: resolved 91, reused 37, downloaded 0, added 4
+Progress: resolved 91, reused 37, downloaded 0, added 5
+Progress: resolved 91, reused 37, downloaded 0, added 5, done
+
+ ⛅️ wrangler 4.143.0
+────────────────────
+✨ Compiled Worker successfully

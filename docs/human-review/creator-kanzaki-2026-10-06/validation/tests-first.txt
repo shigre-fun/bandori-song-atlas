@@ -1,0 +1,42 @@
+✔ explicit none and user-approved evidence omission are distinct from missing answers (1.7954ms)
+✔ new fixed ID and metadata append preserves every existing Creator and unrelated source byte (63.9403ms)
+✔ only six approved songwriter bindings change; exact raw and existing arranger order remain (24.0889ms)
+✔ scope substitutions, changed recording evidence, occupied IDs and historical slug reuse reject (42.4406ms)
+✔ repeated registration produces identical bytes and zero structural edits (161.5328ms)
+✔ current ledger removes resolved identity and registration tasks while keeping all 39 version reviews (455.3177ms)
+✔ independent verification detects lost bindings, extra roles, and altered registration metadata (3807.2278ms)
+✖ immutable original P0 and research evidence remains byte-verified after registration (138.5832ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 7
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6377.8535
+
+✖ failing tests:
+
+test at tests\research\creator-kanzaki-registration.test.mjs:108:1
+✖ immutable original P0 and research evidence remains byte-verified after registration (138.5832ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'BLOCKED_INCOMPLETE_CREATOR_FIELDS'
+  - 'BLOCKED_MISSING_REQUIRED_FIELDS'
+             ^
+  
+      at TestContext.<anonymous> (file:///C:/MyProgramming/BangDream_Website/tests/research/creator-kanzaki-registration.test.mjs:111:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'BLOCKED_INCOMPLETE_CREATOR_FIELDS',
+    expected: 'BLOCKED_MISSING_REQUIRED_FIELDS',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

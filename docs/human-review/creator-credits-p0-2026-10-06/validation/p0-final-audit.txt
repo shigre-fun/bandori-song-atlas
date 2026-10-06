@@ -1,0 +1,108 @@
+warning: in the working copy of 'WORK_LOG.md', LF will be replaced by CRLF the next time Git touches it
+{
+  "result": "PASS",
+  "sourceHashes": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "79bfea3254e50f5eebc56f32f5b3af6f81b883b61d5b9f73a07a8f49d37aece0",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "counts": {
+    "currentRecordCount": 885,
+    "currentCreatorCount": 124,
+    "currentWorkCount": 823,
+    "currentNextId": 125,
+    "currentGameCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "totalSongTodoRecords": 340,
+    "totalSongTasks": 1353,
+    "totalCreatorCandidates": 346,
+    "threePlusRecordCreators": 11,
+    "twoRecordCreators": 52,
+    "oneRecordCreators": 283,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 13,
+    "unregisteredCreatorCandidates": 333,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 49,
+    "garupaArrangerCollectionSongs": 48,
+    "splitReviewTasks": 63,
+    "currentRawSplitReviewTasks": 63,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 97,
+      "CREATOR_IDENTITY": 533,
+      "CREATOR_REGISTRATION": 538,
+      "SPLIT_REVIEW": 63,
+      "ALIAS_REVIEW": 4,
+      "ROLE_REVIEW": 79,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 611,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1616,
+    "excludedResolvedSourceEntries": 206,
+    "unmappedCurrentUnresolved": 0
+  },
+  "applied": {
+    "recordRoles": 82,
+    "arranger": 81,
+    "lyricist": 1,
+    "formalArrangerActorBindings": 71,
+    "newCreators": 0,
+    "structuralValueEdits": 226,
+    "unrelatedFieldsChanged": 0,
+    "unansweredFieldsChanged": 0,
+    "otherRoleDisplaysAndRelationsChanged": 0,
+    "orderChanged": false,
+    "creatorMetadataChanged": false,
+    "workIdentityChanged": false,
+    "repeatApplyValueEdits": 0
+  },
+  "pending": {
+    "kanzakiRegistration": {
+      "status": "BLOCKED_INCOMPLETE_CREATOR_FIELDS",
+      "missingFields": [
+        "affiliation",
+        "根拠URL・資料",
+        "備考"
+      ],
+      "confirmedIdentityScopes": 5,
+      "ournotes86LyricistIdentityConfirmed": false
+    },
+    "gameVersionReview": 39,
+    "unresolvedRawNames": [
+      "カンザキイオリ",
+      "尾崎豪（SUPA LOVE）",
+      "横地健太(SUPA LOVE)",
+      "槙島隆人（SUPA LOVE）",
+      "角本麻衣（SUPA LOVE）",
+      "UYKADO",
+      "eba",
+      "Nor",
+      "園田健太郎",
+      "哥丸雄貴",
+      "千石ユノ",
+      "高村風太",
+      "DjeDje",
+      "KENSEI",
+      "三村一輝",
+      "石倉まろ",
+      "牧野太洋",
+      "加藤貴之",
+      "ケンモチヒデフミ",
+      "Skye K"
+    ]
+  },
+  "protectedFiles": 452,
+  "publicComparisons": 168,
+  "tests": 285,
+  "oldTaskCount": 3432,
+  "oldP0TaskCount": 142,
+  "report": "docs/human-review/creator-credits-p0-2026-10-06/REPORT.md"
+}

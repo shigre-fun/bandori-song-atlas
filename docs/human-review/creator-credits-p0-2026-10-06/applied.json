@@ -1,0 +1,3736 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "sourceHashesBefore": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "f0af5e594b87ad5791d079572020744165e059e886b8ce4428bc517b42dadab1",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "sourceHashesAfter": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "79bfea3254e50f5eebc56f32f5b3af6f81b883b61d5b9f73a07a8f49d37aece0",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "patches": [
+    {
+      "recordId": 86,
+      "title": "過去を喰らう",
+      "workId": "wk-0739",
+      "fields": {
+        "lyricist": "カンザキイオリ",
+        "arranger": "植木建象、神田ジョン（from PENGUIN RESEARCH）",
+        "credits": [
+          {
+            "creatorId": "cr-0098",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "植木建象"
+            }
+          },
+          {
+            "creatorId": "cr-0103",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "神田ジョン（from PENGUIN RESEARCH）"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "カンザキイオリ",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "カンザキイオリ",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0098"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0103"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 1,
+      "title": "迷星叫",
+      "workId": "wk-0464",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 2,
+      "title": "壱雫空",
+      "workId": "wk-0480",
+      "fields": {
+        "arranger": "hisakuni(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0018",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "hisakuni(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "hisakuni(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0018"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0018"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 3,
+      "title": "碧天伴走",
+      "workId": "wk-0488",
+      "fields": {
+        "arranger": "木下龍平(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0015",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "木下龍平(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "木下龍平(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0015"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0015"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 4,
+      "title": "影色舞",
+      "workId": "wk-0511",
+      "fields": {
+        "arranger": "木下龍平(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0015",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "木下龍平(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "木下龍平(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0015"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0015"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 5,
+      "title": "潜在表明",
+      "workId": "wk-0663",
+      "fields": {
+        "arranger": "鈴木裕明(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0046",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "鈴木裕明(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "鈴木裕明(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0046"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0046"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 6,
+      "title": "音一会",
+      "workId": "wk-0636",
+      "fields": {
+        "arranger": "尾崎豪（SUPA LOVE）",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "text": "尾崎豪(SUPA LOVE)",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "尾崎豪（SUPA LOVE）",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 7,
+      "title": "春日影（MyGO!!!!! ver.）",
+      "workId": "wk-0635",
+      "fields": {
+        "arranger": "藤田淳平（Elements Garden）",
+        "credits": [
+          {
+            "creatorId": "cr-0004",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "藤田淳平(Elements Garden)",
+            "displayOverrides": {
+              "arranger": "藤田淳平（Elements Garden）"
+            }
+          },
+          {
+            "creatorId": "cr-0092",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "織田あすか（Elements Garden）"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0092"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0004"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0004"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 8,
+      "title": "詩超絆",
+      "workId": "wk-0494",
+      "fields": {
+        "arranger": "横地健太(SUPA LOVE)",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "text": "横地健太(SUPA LOVE)",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "横地健太(SUPA LOVE)",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 9,
+      "title": "迷路日々",
+      "workId": "wk-0501",
+      "fields": {
+        "arranger": "松坂康司(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0014",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "松坂康司(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "松坂康司(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0014"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0014"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 10,
+      "title": "無路矢",
+      "workId": "wk-0749",
+      "fields": {
+        "arranger": "庄司夏葵（SUPA LOVE）",
+        "credits": [
+          {
+            "creatorId": "cr-0089",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "庄司夏葵(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "庄司夏葵（SUPA LOVE）"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0089"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0089"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 11,
+      "title": "名無声",
+      "workId": "wk-0588",
+      "fields": {
+        "arranger": "金崎真士(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0045",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "金崎真士(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "金崎真士(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0045"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0045"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 12,
+      "title": "歩拾道",
+      "workId": "wk-0611",
+      "fields": {
+        "arranger": "庄司夏葵(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0089",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "庄司夏葵(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "庄司夏葵(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0089"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0089"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 13,
+      "title": "端程山",
+      "workId": "wk-0716",
+      "fields": {
+        "arranger": "トミタカズキ(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0016",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "トミタカズキ(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "トミタカズキ(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0016"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0016"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 14,
+      "title": "砂寸奏",
+      "workId": "wk-0776",
+      "fields": {
+        "arranger": "槙島隆人（SUPA LOVE）",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0117"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "槙島隆人（SUPA LOVE）",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 15,
+      "title": "焚音打",
+      "workId": "wk-0651",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 16,
+      "title": "聿日箋秋",
+      "workId": "wk-0650",
+      "fields": {
+        "arranger": "トミタカズキ(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0016",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "トミタカズキ(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "トミタカズキ(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0016"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0016"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 17,
+      "title": "証命讃歌",
+      "workId": "wk-0777",
+      "fields": {
+        "arranger": "高橋涼（SUPA LOVE）",
+        "credits": [
+          {
+            "creatorId": "cr-0038",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "高橋涼（SUPA LOVE）"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "田邊駿一",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "田邊駿一",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0038"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 18,
+      "title": "往欄印",
+      "workId": "wk-0681",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0095",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "藤原優樹(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0095"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 19,
+      "title": "ないものねだり",
+      "workId": "wk-0778",
+      "fields": {
+        "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "credits": [
+          {
+            "creatorId": "cr-0098",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "植木建象"
+            }
+          },
+          {
+            "creatorId": "cr-0103",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "神田ジョン(from PENGUIN RESEARCH)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "text": "谷口鮪",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0098"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0103"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 20,
+      "title": "シャルル",
+      "workId": "wk-0128",
+      "fields": {
+        "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "credits": [
+          {
+            "creatorId": "cr-0098",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "植木建象"
+            }
+          },
+          {
+            "creatorId": "cr-0103",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "神田ジョン(from PENGUIN RESEARCH)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "バルーン",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "バルーン",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0098"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0103"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 22,
+      "title": "ホワイトノイズ",
+      "workId": "wk-0538",
+      "fields": {
+        "arranger": "小木岳司",
+        "credits": [
+          {
+            "creatorId": "cr-0024",
+            "roles": [
+              "composer",
+              "lyricist"
+            ],
+            "displayOverride": "藤原 聡"
+          },
+          {
+            "creatorId": "cr-0101",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "小木岳司"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0024"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0024"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0101"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 23,
+      "title": "Ave Mujica",
+      "workId": "wk-0626",
+      "fields": {
+        "arranger": "藤間仁（Elements Garden）",
+        "credits": [
+          {
+            "creatorId": "cr-0001",
+            "roles": [
+              "composer",
+              "lyricist"
+            ],
+            "displayOverride": "上松範康（Elements Garden）"
+          },
+          {
+            "creatorId": "cr-0092",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "織田あすか（Elements Garden）"
+            }
+          },
+          {
+            "creatorId": "cr-0008",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤間仁（Elements Garden）"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0001"
+            },
+            {
+              "text": "/"
+            },
+            {
+              "creatorId": "cr-0092"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0001"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0008"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 24,
+      "title": "KiLLKiSS",
+      "workId": "wk-0628",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 25,
+      "title": "Imprisoned XII",
+      "workId": "wk-0638",
+      "fields": {
+        "arranger": "松坂康司(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0014",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "松坂康司(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "松坂康司(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0014"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0014"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 26,
+      "title": "Crucifix X",
+      "workId": "wk-0639",
+      "fields": {
+        "arranger": "o-saka(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0124",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "composer": "o-saka(SUPA LOVE)",
+              "arranger": "o-saka(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0124"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0124"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 27,
+      "title": "八芒星ダンス",
+      "workId": "wk-0649",
+      "fields": {
+        "arranger": "あらケン(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0017",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "あらケン(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "あらケン(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0017"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0017"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 28,
+      "title": "顔",
+      "workId": "wk-0653",
+      "fields": {
+        "arranger": "木下龍平(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0015",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "木下龍平(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "木下龍平(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0015"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0015"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 29,
+      "title": "天球(そら)のMúsica",
+      "workId": "wk-0654",
+      "fields": {
+        "arranger": "高橋涼(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0038",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "高橋涼(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "高橋涼(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0038"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0038"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 30,
+      "title": "Symbol I : △",
+      "workId": "wk-0780",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 31,
+      "title": "Symbol II : Air",
+      "workId": "wk-0781",
+      "fields": {
+        "arranger": "高橋涼(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0038",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "高橋涼(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "高橋涼(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0038"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0038"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 32,
+      "title": "Symbol III : ▽",
+      "workId": "wk-0782",
+      "fields": {
+        "arranger": "トミタカズキ(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0016",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "トミタカズキ(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "トミタカズキ(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0016"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0016"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 33,
+      "title": "Symbol IV : Earth",
+      "workId": "wk-0783",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "lyricist",
+              "composer"
+            ],
+            "displayOverrides": {
+              "composer": "Diggy-MO'"
+            }
+          },
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 34,
+      "title": "Ether",
+      "workId": "wk-0784",
+      "fields": {
+        "arranger": "長谷川大介(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0013",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "長谷川大介(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "長谷川大介(SUPA LOVE)"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0013"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0013"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 35,
+      "title": "黒のバースデイ",
+      "workId": "wk-0669",
+      "fields": {
+        "arranger": "賀佐泰洋（SUPA LOVE）",
+        "credits": [
+          {
+            "creatorId": "cr-0044",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "賀佐泰洋(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "賀佐泰洋（SUPA LOVE）"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0044"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0044"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 36,
+      "title": "Choir ‘S’ Choir",
+      "workId": "wk-0785",
+      "fields": {
+        "arranger": "角本麻衣（SUPA LOVE）",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "text": "角本麻衣(SUPA LOVE)",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "角本麻衣（SUPA LOVE）",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 37,
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "workId": "wk-0699",
+      "fields": {
+        "arranger": "あらケン（SUPA LOVE）",
+        "credits": [
+          {
+            "creatorId": "cr-0017",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "あらケン(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "あらケン（SUPA LOVE）"
+            }
+          },
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "lyricist"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0017"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0017"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 38,
+      "title": "碧い瞳の中に",
+      "workId": "wk-0786",
+      "fields": {
+        "arranger": "Diggy-MO'、松坂康司(SUPA LOVE)",
+        "credits": [
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "lyricist": "Diggy-MO'",
+              "arranger": "Diggy-MO'"
+            }
+          },
+          {
+            "creatorId": "cr-0014",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "松坂康司(SUPA LOVE)",
+            "displayOverrides": {
+              "arranger": "松坂康司(SUPA LOVE)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0022"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0014"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0022"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0014"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 39,
+      "title": "The Whole Blue World",
+      "workId": "wk-0787",
+      "fields": {
+        "arranger": "Diggy-MO'",
+        "credits": [
+          {
+            "creatorId": "cr-0022",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "Diggy-MO'"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0022"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "植木建象",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0022"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 41,
+      "title": "堕天",
+      "workId": "wk-0788",
+      "fields": {
+        "arranger": "UYKADO",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "text": "DJ松永",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "UYKADO",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 42,
+      "title": "暗黒天国",
+      "workId": "wk-0789",
+      "fields": {
+        "arranger": "UYKADO",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0048"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "UYKADO",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 43,
+      "title": "KINGS",
+      "workId": "wk-0790",
+      "fields": {
+        "arranger": "UYKADO",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0078"
+            },
+            {
+              "text": "/"
+            },
+            {
+              "creatorId": "cr-0079"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "UYKADO",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 44,
+      "title": "✞animaるパーティ✞開催中✞",
+      "workId": "wk-0791",
+      "fields": {
+        "arranger": "堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 45,
+      "title": "エンプティパペット",
+      "workId": "wk-0792",
+      "fields": {
+        "arranger": "eba",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "吾龍",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "eba",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "eba",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 46,
+      "title": "限界現実サバイブ天使",
+      "workId": "wk-0793",
+      "fields": {
+        "arranger": "Nor、堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "凍堂遊維",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "凍堂遊維",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "Nor",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 47,
+      "title": "ビッグマウス",
+      "workId": "wk-0794",
+      "fields": {
+        "arranger": "堀江晶太、Nor",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          },
+          {
+            "creatorId": "cr-0074",
+            "roles": [
+              "composer"
+            ]
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "白神真志朗、 Sekimen",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0028"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0074"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0028"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "Nor",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 48,
+      "title": "夢現妄想世界",
+      "workId": "wk-0795",
+      "fields": {
+        "arranger": "園田健太郎",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "やしきん",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "園田健太郎",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "園田健太郎",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 49,
+      "title": "コハク",
+      "workId": "wk-0796",
+      "fields": {
+        "arranger": "堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "仲町あられ、堀江晶太",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 50,
+      "title": "これはぼくたちの生存のあらすじ",
+      "workId": "wk-0798",
+      "fields": {
+        "arranger": "堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0027",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0027"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0027"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 51,
+      "title": "うちゅうのふしぎ",
+      "workId": "wk-0799",
+      "fields": {
+        "arranger": "sabio",
+        "credits": [
+          {
+            "creatorId": "cr-0071",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "sabio"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 52,
+      "title": "真夜中遊園地",
+      "workId": "wk-0797",
+      "fields": {
+        "arranger": "哥丸雄貴、堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0122",
+            "roles": [
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0122"
+            }
+          ],
+          "composer": [
+            {
+              "text": "哥丸雄貴",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "哥丸雄貴",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 53,
+      "title": "チューニング",
+      "workId": "wk-0800",
+      "fields": {
+        "arranger": "堀江晶太、千石ユノ",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "仲町あられ、千石ユノ、堀江晶太",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "千石ユノ",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0028"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "千石ユノ",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 54,
+      "title": "超惑星Xへの旅",
+      "workId": "wk-0801",
+      "fields": {
+        "arranger": "TeddyLoid・堀江晶太",
+        "credits": [
+          {
+            "creatorId": "cr-0031",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "TeddyLoid"
+            }
+          },
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "堀江晶太"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0031"
+            },
+            {
+              "text": "・"
+            },
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0031"
+            },
+            {
+              "text": "・"
+            },
+            {
+              "creatorId": "cr-0028"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 55,
+      "title": "TearJerker",
+      "workId": "wk-0802",
+      "fields": {
+        "arranger": "sabio",
+        "credits": [
+          {
+            "creatorId": "cr-0071",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "sabio"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 56,
+      "title": "Face The Next",
+      "workId": "wk-0803",
+      "fields": {
+        "arranger": "白神真志朗、千石ユノ",
+        "credits": [
+          {
+            "creatorId": "cr-0074",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "白神真志朗"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "白神真志朗、仲町あられ",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0074"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "千石ユノ",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0074"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "千石ユノ",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 57,
+      "title": "in my words",
+      "workId": "wk-0804",
+      "fields": {
+        "arranger": "白神真志朗",
+        "credits": [
+          {
+            "creatorId": "cr-0074",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "白神真志朗"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0074"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0074"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0074"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 58,
+      "title": "愛は衝動",
+      "workId": "wk-0805",
+      "fields": {
+        "arranger": "sabio",
+        "credits": [
+          {
+            "creatorId": "cr-0071",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "sabio"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0071"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 59,
+      "title": "六兆年と一夜物語",
+      "workId": "wk-0116",
+      "fields": {
+        "arranger": "sabio/高村風太",
+        "credits": [
+          {
+            "creatorId": "cr-0028",
+            "roles": [
+              "composer",
+              "lyricist"
+            ],
+            "displayOverride": "Kemu"
+          },
+          {
+            "creatorId": "cr-0071",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "sabio"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0028"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0071"
+            },
+            {
+              "text": "/"
+            },
+            {
+              "text": "高村風太",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 60,
+      "title": "唱",
+      "workId": "wk-0806",
+      "fields": {
+        "arranger": "DjeDje、KENSEI、三村一輝",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "TOPHAMHAT-KYO (FAKE TYPE.)",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0034"
+            },
+            {
+              "text": "＆"
+            },
+            {
+              "creatorId": "cr-0031"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "DjeDje",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "KENSEI",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "三村一輝",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 62,
+      "title": "UNDEAD",
+      "workId": "wk-0808",
+      "fields": {
+        "arranger": "DjeDje、三村一輝",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0023"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "DjeDje",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "三村一輝",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 63,
+      "title": "起死開戦",
+      "workId": "wk-0809",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 64,
+      "title": "everscape",
+      "workId": "wk-0810",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          },
+          {
+            "creatorId": "cr-0090",
+            "roles": [
+              "composer"
+            ],
+            "displayOverride": "瀬名水紀(Dream Monster)"
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0033"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0090"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 65,
+      "title": "鳴らす",
+      "workId": "wk-0811",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0090",
+            "roles": [
+              "composer",
+              "lyricist"
+            ],
+            "displayOverride": "瀬名水紀(Dream Monster)",
+            "displayOverrides": {
+              "lyricist": "瀬名水紀"
+            }
+          },
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0090"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0090"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 66,
+      "title": "カーネーションの咲く日に",
+      "workId": "wk-0812",
+      "fields": {
+        "arranger": "瀬名水紀(Dream Monster)、Aira",
+        "credits": [
+          {
+            "creatorId": "cr-0090",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "瀬名水紀(Dream Monster)",
+            "displayOverrides": {
+              "arranger": "瀬名水紀(Dream Monster)"
+            }
+          },
+          {
+            "creatorId": "cr-0111",
+            "roles": [
+              "lyricist",
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "Aira"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0111"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0090"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0111"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0090"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0111"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 67,
+      "title": "青のすみか",
+      "workId": "wk-0559",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0063",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0063"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0063"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 68,
+      "title": "Pretender",
+      "workId": "wk-0813",
+      "fields": {
+        "arranger": "石倉まろ",
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0024"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "石倉まろ",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 69,
+      "title": "unravel",
+      "workId": "wk-0387",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0065",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0065"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0065"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 71,
+      "title": "ホーミー・タイッ！！",
+      "workId": "wk-0815",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 72,
+      "title": "ジャイアント・キラー・チューン",
+      "workId": "wk-0816",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 73,
+      "title": "ピースフル・ピーシーズ！",
+      "workId": "wk-0817",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 74,
+      "title": "Keep on Riddim",
+      "workId": "wk-0818",
+      "fields": {
+        "arranger": "瀬名水紀(Dream Monster)",
+        "credits": [
+          {
+            "creatorId": "cr-0090",
+            "roles": [
+              "composer",
+              "lyricist",
+              "arranger"
+            ],
+            "displayOverride": "瀬名水紀(Dream Monster)",
+            "displayOverrides": {
+              "arranger": "瀬名水紀(Dream Monster)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0090"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0090"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0090"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 75,
+      "title": "Mela!",
+      "workId": "wk-0819",
+      "fields": {
+        "arranger": "石倉まろ",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0116"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0115"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0112"
+            },
+            {
+              "text": "／"
+            },
+            {
+              "creatorId": "cr-0114"
+            }
+          ],
+          "arranger": [
+            {
+              "text": "石倉まろ",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 76,
+      "title": "サムライハート(Some Like It Hot!!)",
+      "workId": "wk-0820",
+      "fields": {
+        "arranger": "藤井健太郎",
+        "credits": [
+          {
+            "creatorId": "cr-0067",
+            "roles": [
+              "composer"
+            ]
+          },
+          {
+            "creatorId": "cr-0033",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "藤井健太郎"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0067"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0033"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 78,
+      "title": "革命道中",
+      "workId": "wk-0735",
+      "fields": {
+        "arranger": "牧野太洋",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "アイナ・ジ・エンド、Shin Sakiura",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "アイナ・ジ・エンド",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "Shin Sakiura",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "牧野太洋",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 79,
+      "title": "春日影",
+      "workId": "wk-0635",
+      "fields": {
+        "arranger": "藤田淳平（Elements Garden）",
+        "credits": [
+          {
+            "creatorId": "cr-0004",
+            "roles": [
+              "composer",
+              "arranger"
+            ],
+            "displayOverride": "藤田淳平（Elements Garden）",
+            "displayOverrides": {
+              "arranger": "藤田淳平（Elements Garden）"
+            }
+          },
+          {
+            "creatorId": "cr-0092",
+            "roles": [
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "織田あすか（Elements Garden）"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0092"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0004"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0004"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 80,
+      "title": "ちゅ、多様性。",
+      "workId": "wk-0594",
+      "fields": {
+        "arranger": "白神真志朗",
+        "credits": [
+          {
+            "creatorId": "cr-0003",
+            "roles": [
+              "composer",
+              "lyricist"
+            ],
+            "displayOverrides": {
+              "lyricist": "真部 脩一"
+            }
+          },
+          {
+            "creatorId": "cr-0107",
+            "roles": [
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0074",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "白神真志朗"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0107"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0003"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0003"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0074"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 81,
+      "title": "空に歌えば",
+      "workId": "wk-0821",
+      "fields": {
+        "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+        "credits": [
+          {
+            "creatorId": "cr-0076",
+            "roles": [
+              "composer"
+            ]
+          },
+          {
+            "creatorId": "cr-0098",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "植木建象"
+            }
+          },
+          {
+            "creatorId": "cr-0103",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "神田ジョン(from PENGUIN RESEARCH)"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [],
+          "composer": [
+            {
+              "creatorId": "cr-0076"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0098"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "creatorId": "cr-0103"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 82,
+      "title": "Stellar Stellar",
+      "workId": "wk-0533",
+      "fields": {
+        "arranger": "牧野太洋",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "星街すいせい",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "TAKU INOUE",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "牧野太洋",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 83,
+      "title": "ファタール",
+      "workId": "wk-0608",
+      "fields": {
+        "arranger": "植木建象、加藤貴之",
+        "credits": [
+          {
+            "creatorId": "cr-0063",
+            "roles": [
+              "composer",
+              "lyricist"
+            ]
+          },
+          {
+            "creatorId": "cr-0098",
+            "roles": [
+              "arranger"
+            ],
+            "displayOverrides": {
+              "arranger": "植木建象"
+            }
+          }
+        ],
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "creatorId": "cr-0063"
+            }
+          ],
+          "composer": [
+            {
+              "creatorId": "cr-0063"
+            }
+          ],
+          "arranger": [
+            {
+              "creatorId": "cr-0098"
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "加藤貴之",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 84,
+      "title": "微笑みの爆弾",
+      "workId": "wk-0822",
+      "fields": {
+        "arranger": "牧野太洋",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "リーシャウロン",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "馬渡松子",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "牧野太洋",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "recordId": 85,
+      "title": "夢我夢中",
+      "workId": "wk-0823",
+      "fields": {
+        "arranger": "ケンモチヒデフミ、Skye K",
+        "creditDisplay": {
+          "lyricist": [
+            {
+              "text": "ケンモチヒデフミ",
+              "unresolved": true
+            }
+          ],
+          "composer": [
+            {
+              "text": "ケンモチヒデフミ",
+              "unresolved": true
+            }
+          ],
+          "arranger": [
+            {
+              "text": "ケンモチヒデフミ",
+              "unresolved": true
+            },
+            {
+              "text": "、"
+            },
+            {
+              "text": "Skye K",
+              "unresolved": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "structuralValueEdits": 226,
+  "reviewedRecordRoles": 82,
+  "arrangerAnswers": 81,
+  "lyricistAnswers": 1,
+  "formalArrangerBindings": 71,
+  "unresolvedActors": [
+    {
+      "game": "ournotes",
+      "recordId": 86,
+      "role": "lyricist",
+      "raw": "カンザキイオリ",
+      "identityKey": "b1-19d8876cf3cbcb75c068"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 6,
+      "role": "arranger",
+      "raw": "尾崎豪（SUPA LOVE）",
+      "identityKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 8,
+      "role": "arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "identityKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 14,
+      "role": "arranger",
+      "raw": "槙島隆人（SUPA LOVE）",
+      "identityKey": "review-3e091e2967af836b05f0"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 36,
+      "role": "arranger",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "identityKey": "review-0483bc48120cfc2a4fba"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "arranger",
+      "raw": "UYKADO",
+      "identityKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 42,
+      "role": "arranger",
+      "raw": "UYKADO",
+      "identityKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 43,
+      "role": "arranger",
+      "raw": "UYKADO",
+      "identityKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 45,
+      "role": "arranger",
+      "raw": "eba",
+      "identityKey": "b1-8545f46d0c3a6cb00932"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 46,
+      "role": "arranger",
+      "raw": "Nor",
+      "identityKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 47,
+      "role": "arranger",
+      "raw": "Nor",
+      "identityKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 48,
+      "role": "arranger",
+      "raw": "園田健太郎",
+      "identityKey": "b1-36456c709118f3609c80"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 52,
+      "role": "arranger",
+      "raw": "哥丸雄貴",
+      "identityKey": "b1-7c7ede552b3bb6d16e8e"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 53,
+      "role": "arranger",
+      "raw": "千石ユノ",
+      "identityKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 56,
+      "role": "arranger",
+      "raw": "千石ユノ",
+      "identityKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 59,
+      "role": "arranger",
+      "raw": "高村風太",
+      "identityKey": "review-589e9fbfb8b6c014ad7c"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "role": "arranger",
+      "raw": "DjeDje",
+      "identityKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "role": "arranger",
+      "raw": "KENSEI",
+      "identityKey": "b1-2cf6830ef29337b77619"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 60,
+      "role": "arranger",
+      "raw": "三村一輝",
+      "identityKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 62,
+      "role": "arranger",
+      "raw": "DjeDje",
+      "identityKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 62,
+      "role": "arranger",
+      "raw": "三村一輝",
+      "identityKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 68,
+      "role": "arranger",
+      "raw": "石倉まろ",
+      "identityKey": "review-d5df0d8b84a91cab20e1"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 75,
+      "role": "arranger",
+      "raw": "石倉まろ",
+      "identityKey": "b1-1556a9939a4521612fe2"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "identityKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 82,
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "identityKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 83,
+      "role": "arranger",
+      "raw": "加藤貴之",
+      "identityKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 84,
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "identityKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "role": "arranger",
+      "raw": "ケンモチヒデフミ",
+      "identityKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 85,
+      "role": "arranger",
+      "raw": "Skye K",
+      "identityKey": "b1-2e9d852ee7948d105768"
+    }
+  ],
+  "gameVersionConfirmed": 42,
+  "gameVersionUnresolved": 39,
+  "unrelatedFieldsChanged": 0,
+  "workIdentityChanged": 0,
+  "existingCreatorMetadataChanged": 0,
+  "newCreators": 0,
+  "commitPushDeployPerformed": false
+}

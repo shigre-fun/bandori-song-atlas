@@ -41229,19 +41229,28 @@
               "roles": [
                 "arranger"
               ]
+            },
+            {
+              "creatorId": "cr-0125",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverrides": {
+                "lyricist": "カンザキイオリ",
+                "composer": "カンザキイオリ"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "カンザキイオリ",
-                "unresolved": true
+                "creatorId": "cr-0125"
               }
             ],
             "composer": [
               {
-                "text": "カンザキイオリ",
-                "unresolved": true
+                "creatorId": "cr-0125"
               }
             ],
             "arranger": [
@@ -51164,19 +51173,28 @@
               "roles": [
                 "arranger"
               ]
+            },
+            {
+              "creatorId": "cr-0125",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverrides": {
+                "lyricist": "カンザキイオリ",
+                "composer": "カンザキイオリ"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "カンザキイオリ",
-                "unresolved": true
+                "creatorId": "cr-0125"
               }
             ],
             "composer": [
               {
-                "text": "カンザキイオリ",
-                "unresolved": true
+                "creatorId": "cr-0125"
               }
             ],
             "arranger": [

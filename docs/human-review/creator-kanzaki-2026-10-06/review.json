@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "status": "APPLIED",
+  "reviewer": "タニマチ",
+  "humanReviewDate": null,
+  "receivedAt": "2026-10-06T14:12:04.962Z",
+  "inputSha256": "faf178155027cd791e85acd7fd4e992f50d050f560240230070d6741a96c3dff",
+  "sourceHead": "a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c",
+  "creator": {
+    "id": "cr-0125",
+    "name": "カンザキイオリ",
+    "slug": "iori-kanzaki",
+    "type": "person",
+    "reading": "かんざきいおり",
+    "sortKey": "かんざきいおり",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "explicitDecisions": {
+    "affiliation": {
+      "value": "",
+      "status": "EXPLICIT_NONE"
+    },
+    "根拠URL・資料": {
+      "value": "",
+      "status": "USER_APPROVED_OMISSION"
+    },
+    "備考": {
+      "value": "",
+      "status": "EXPLICIT_NONE"
+    }
+  },
+  "scopes": [
+    {
+      "game": "garupa",
+      "recordId": 467,
+      "title": "命に嫌われている。",
+      "role": "lyricist",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "inputLine": 54,
+      "workId": "wk-0458",
+      "creatorId": "cr-0125",
+      "sourceDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json"
+    },
+    {
+      "game": "garupa",
+      "recordId": 467,
+      "title": "命に嫌われている。",
+      "role": "composer",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "inputLine": 55,
+      "workId": "wk-0458",
+      "creatorId": "cr-0125",
+      "sourceDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json"
+    },
+    {
+      "game": "garupa",
+      "recordId": 758,
+      "title": "過去を喰らう",
+      "role": "lyricist",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "inputLine": 57,
+      "workId": "wk-0739",
+      "creatorId": "cr-0125",
+      "sourceDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json"
+    },
+    {
+      "game": "garupa",
+      "recordId": 758,
+      "title": "過去を喰らう",
+      "role": "composer",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "inputLine": 58,
+      "workId": "wk-0739",
+      "creatorId": "cr-0125",
+      "sourceDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 86,
+      "title": "過去を喰らう",
+      "role": "composer",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "inputLine": 60,
+      "workId": "wk-0739",
+      "creatorId": "cr-0125",
+      "sourceDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json"
+    },
+    {
+      "game": "ournotes",
+      "recordId": 86,
+      "title": "過去を喰らう",
+      "role": "lyricist",
+      "raw": "カンザキイオリ",
+      "answer": "はい",
+      "sourceDocument": "docs/human-review/creator-kanzaki-2026-10-06/input.txt",
+      "workId": "wk-0739",
+      "creatorId": "cr-0125"
+    }
+  ],
+  "priorReviewDocument": "docs/human-review/creator-credits-p0-2026-10-06/review.json",
+  "evidenceUrlOmissionApprovedByUser": true,
+  "missingFields": [],
+  "commitPushDeployPerformed": false
+}

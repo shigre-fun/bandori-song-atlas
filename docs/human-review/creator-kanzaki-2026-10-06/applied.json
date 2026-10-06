@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "sourceHashesBefore": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "79bfea3254e50f5eebc56f32f5b3af6f81b883b61d5b9f73a07a8f49d37aece0",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "sourceHashesAfter": {
+    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "creator": {
+    "id": "cr-0125",
+    "name": "カンザキイオリ",
+    "slug": "iori-kanzaki",
+    "type": "person",
+    "reading": "かんざきいおり",
+    "sortKey": "かんざきいおり",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "creatorCount": 125,
+  "nextId": 126,
+  "workCount": 823,
+  "recordCount": 885,
+  "scopedRelations": 6,
+  "recordCountPatched": 3,
+  "creatorEdits": 2,
+  "songEdits": 6,
+  "unrelatedFieldsChanged": 0,
+  "rawDisplaysChanged": 0,
+  "existingCreatorMetadataChanged": 0,
+  "commitPushDeployPerformed": false
+}

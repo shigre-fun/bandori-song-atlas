@@ -1,10 +1,2 @@
-# Keep recorded migration SHA-256 bytes identical on Windows and CI.
-docs/migrations/credits-phase-a-2026-10-03/** -text
-docs/migrations/credits-phase-b1-2026-10-03/** -text
-docs/migrations/credits-phase-b2-2026-10-03/** -text
-data/creators.json -text
-data/works.json -text
-data/garupa/songs.json -text
-data/ournotes/songs.json -text
-# This immutable B1 source already ends with a blank line; retain its recorded bytes.
-docs/migrations/credits-phase-b1-2026-10-03/unresolved-creators.md whitespace=-blank-at-eof
+# Human review receipts verify exact bytes, including original validation output.
+docs/human-review/** -text

@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "results": [
+    {
+      "directory": "dist",
+      "base": "/",
+      "creatorCount": 125,
+      "works": 2,
+      "recordings": 3,
+      "lyricist": 2,
+      "composer": 2,
+      "scopedDisplayChecks": 6,
+      "canonicalAndSitemap": true,
+      "allScopedSongLinks": true,
+      "publishedCatalogsEqualSource": true
+    },
+    {
+      "directory": ".cache/kanzaki-subpath",
+      "base": "/bandori-song-atlas/",
+      "creatorCount": 125,
+      "works": 2,
+      "recordings": 3,
+      "lyricist": 2,
+      "composer": 2,
+      "scopedDisplayChecks": 6,
+      "canonicalAndSitemap": true,
+      "allScopedSongLinks": true,
+      "publishedCatalogsEqualSource": true
+    }
+  ]
+}

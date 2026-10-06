@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "localResult": "PASS",
+  "sourceHead": "a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c",
+  "sourceHashes": {
+    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/ournotes/songs.json": "1c68d8833c156ffc8f57bac8075eb5a7f66d6da62d1b4fd367ae1a5cd11cb4c8",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "creator": {
+    "id": "cr-0125",
+    "name": "カンザキイオリ",
+    "slug": "iori-kanzaki",
+    "type": "person",
+    "reading": "かんざきいおり",
+    "sortKey": "かんざきいおり",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "creatorCount": 125,
+  "nextId": 126,
+  "workCount": 823,
+  "records": {
+    "total": 885,
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "scopedRelations": 6,
+  "recordCountPatched": 3,
+  "rawDisplaysChanged": 0,
+  "existingCreatorMetadataChanged": 0,
+  "otherFieldsChangedDuringRegistration": 0,
+  "protectedResearchFiles": 452,
+  "priorReviewFilesUnchanged": 30,
+  "tests": {
+    "existing": 264,
+    "research": 30,
+    "total": 294,
+    "failed": 0
+  },
+  "builds": {
+    "root": {
+      "pages": 1019,
+      "details": 885,
+      "seo": "PASS"
+    },
+    "subpath": {
+      "pages": 1019,
+      "details": 885,
+      "seo": "PASS"
+    }
+  },
+  "pageAudit": {
+    "result": "PASS",
+    "results": [
+      {
+        "directory": "dist",
+        "base": "/",
+        "creatorCount": 125,
+        "works": 2,
+        "recordings": 3,
+        "lyricist": 2,
+        "composer": 2,
+        "scopedDisplayChecks": 6,
+        "canonicalAndSitemap": true,
+        "allScopedSongLinks": true,
+        "publishedCatalogsEqualSource": true
+      },
+      {
+        "directory": ".cache/kanzaki-subpath",
+        "base": "/bandori-song-atlas/",
+        "creatorCount": 125,
+        "works": 2,
+        "recordings": 3,
+        "lyricist": 2,
+        "composer": 2,
+        "scopedDisplayChecks": 6,
+        "canonicalAndSitemap": true,
+        "allScopedSongLinks": true,
+        "publishedCatalogsEqualSource": true
+      }
+    ]
+  },
+  "ledger": {
+    "currentRecordCount": 885,
+    "currentCreatorCount": 125,
+    "currentWorkCount": 823,
+    "currentNextId": 126,
+    "currentGameCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "totalSongTodoRecords": 338,
+    "totalSongTasks": 1345,
+    "totalCreatorCandidates": 345,
+    "threePlusRecordCreators": 10,
+    "twoRecordCreators": 52,
+    "oneRecordCreators": 283,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 13,
+    "unregisteredCreatorCandidates": 332,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 49,
+    "garupaArrangerCollectionSongs": 48,
+    "splitReviewTasks": 63,
+    "currentRawSplitReviewTasks": 63,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 97,
+      "CREATOR_IDENTITY": 532,
+      "CREATOR_REGISTRATION": 532,
+      "SPLIT_REVIEW": 63,
+      "ALIAS_REVIEW": 4,
+      "ROLE_REVIEW": 78,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 605,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1604,
+    "excludedResolvedSourceEntries": 218,
+    "unmappedCurrentUnresolved": 0
+  },
+  "taskCorrespondence": {
+    "oldTasks": 3366,
+    "resolved": 12,
+    "current": 3354,
+    "originalTasks": 3432,
+    "unmapped": 0
+  },
+  "repeatApplyFilesChanged": 0,
+  "evidence": {
+    "project-tests": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/project-tests.txt",
+      "sha256": "a9d89712ff873c030a025b18c947dfa88cde62cfb63d17150fe24a83d09362bb"
+    },
+    "research-tests": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/research-tests.txt",
+      "sha256": "4bf83f5b8d9fb395ece02daeb203c59cd97fd3c56d0202422a24eacb68349650"
+    },
+    "root-build": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/root-build.txt",
+      "sha256": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749"
+    },
+    "subpath-build": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/subpath-build.txt",
+      "sha256": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749"
+    },
+    "root-seo": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/root-seo.txt",
+      "sha256": "8e17a5a68e151731ae791a18d68105268d10158bb783ee844cd6f8f7f986ecdc"
+    },
+    "subpath-seo": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/subpath-seo.txt",
+      "sha256": "8e17a5a68e151731ae791a18d68105268d10158bb783ee844cd6f8f7f986ecdc"
+    },
+    "page-audit": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/page-audit.txt",
+      "sha256": "dd3c170e198d43bfc8fbd89479b7f88807271dddb55f8c22d0b29879049f5547"
+    },
+    "repeat-apply": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/repeat-apply.txt",
+      "sha256": "da2ea99769f66c16d6be289cd90e6d4c11fe4c0469d6edc9d774908097ba1a24"
+    },
+    "ledger-final": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/ledger-final.txt",
+      "sha256": "ff5f353c67b63f9dd9644318fddffd5dcd61f9875346fba80828b6c69a690dbf"
+    },
+    "tests-first": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/tests-first.txt",
+      "sha256": "9ab393b3287c148ed6b674d2f53043a890e6131a7651db849ca8a75f293bcc89"
+    }
+  },
+  "publication": {
+    "authorizedByUser": true,
+    "status": "PENDING_REMOTE_MERGE_AND_REVALIDATION"
+  },
+  "unverified": [
+    "実ゲームの追加観察（今回の人間回答を根拠として適用）",
+    "本番反映（公開作業へ継続）"
+  ],
+  "issues": [
+    {
+      "issue": "初回専用test7/8：旧review status期待文字列の誤記",
+      "resolution": "実証拠のBLOCKED_INCOMPLETE_CREATOR_FIELDSへ訂正、全30成功"
+    },
+    {
+      "issue": "Our86作詞ROLE_REVIEWに候補keyがなく対応表guard拒否",
+      "resolution": "今回承認された正確なOur86/lyricist/rawだけを明示対応、全旧3366/原3432漏れ0"
+    },
+    {
+      "issue": "補助ページauditのJSON空白仮定/公開catalog wrapper誤認",
+      "resolution": "JSON.parseと実loadGameCatalog songs配列の曲単位照合へ訂正、両base成功"
+    },
+    {
+      "issue": "大きなassert差分展開中のWindowsページング不足os1455/code-mode host終了",
+      "resolution": "当該処理停止、復帰後に比較単位を限定。sourceへの影響0、承認拒否0"
+    }
+  ]
+}

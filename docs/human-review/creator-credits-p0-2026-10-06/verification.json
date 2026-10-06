@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "result": "PASS",
+  "scope": "APPLIED_AVAILABLE_P0_ANSWERS_WITH_UNANSWERED_TASKS_PRESERVED",
+  "verifiedAt": "2026-10-06T13:49:15.685Z",
+  "sourceHead": "a98f9bf4f2735e07f2c144cb7d3cf26dc4109f5c",
+  "sourceHashesBefore": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "f0af5e594b87ad5791d079572020744165e059e886b8ce4428bc517b42dadab1",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "sourceHashesAfter": {
+    "data/creators.json": "22bdca20b5d7ba45f03bb5d55c998a2b00448f2bfc1bff5959a80090b6ec522a",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "06edd7e9c4b5e3fd06096f9ebcab07b7f96828b31fa7d9974064cf16c7ac3623",
+    "data/ournotes/songs.json": "79bfea3254e50f5eebc56f32f5b3af6f81b883b61d5b9f73a07a8f49d37aece0",
+    "data/ournotes/admin-state.json": "a86e215d97ac90d00177409167afb4941adc4f5b35b8eee2eb354a0ae160dea7"
+  },
+  "ledgerDataHashesMatchedAtStart": true,
+  "answerInputSha256": "b5f481dc361f49744f392f669ca03a83d5309abfb328f8d96b7b00084722ee91",
+  "humanReviewDate": null,
+  "reviewer": "タニマチ",
+  "applied": {
+    "recordRoles": 82,
+    "arranger": 81,
+    "lyricist": 1,
+    "formalArrangerActorBindings": 71,
+    "newCreators": 0,
+    "structuralValueEdits": 226,
+    "unrelatedFieldsChanged": 0,
+    "unansweredFieldsChanged": 0,
+    "otherRoleDisplaysAndRelationsChanged": 0,
+    "orderChanged": false,
+    "creatorMetadataChanged": false,
+    "workIdentityChanged": false,
+    "repeatApplyValueEdits": 0
+  },
+  "pending": {
+    "kanzakiRegistration": {
+      "status": "BLOCKED_INCOMPLETE_CREATOR_FIELDS",
+      "missingFields": [
+        "affiliation",
+        "根拠URL・資料",
+        "備考"
+      ],
+      "confirmedIdentityScopes": 5,
+      "ournotes86LyricistIdentityConfirmed": false
+    },
+    "gameVersionReview": 39,
+    "unresolvedRawNames": [
+      "カンザキイオリ",
+      "尾崎豪（SUPA LOVE）",
+      "横地健太(SUPA LOVE)",
+      "槙島隆人（SUPA LOVE）",
+      "角本麻衣（SUPA LOVE）",
+      "UYKADO",
+      "eba",
+      "Nor",
+      "園田健太郎",
+      "哥丸雄貴",
+      "千石ユノ",
+      "高村風太",
+      "DjeDje",
+      "KENSEI",
+      "三村一輝",
+      "石倉まろ",
+      "牧野太洋",
+      "加藤貴之",
+      "ケンモチヒデフミ",
+      "Skye K"
+    ]
+  },
+  "ledger": {
+    "currentRecordCount": 885,
+    "currentCreatorCount": 124,
+    "currentWorkCount": 823,
+    "currentNextId": 125,
+    "currentGameCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "totalSongTodoRecords": 340,
+    "totalSongTasks": 1353,
+    "totalCreatorCandidates": 346,
+    "threePlusRecordCreators": 11,
+    "twoRecordCreators": 52,
+    "oneRecordCreators": 283,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 13,
+    "unregisteredCreatorCandidates": 333,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 49,
+    "garupaArrangerCollectionSongs": 48,
+    "splitReviewTasks": 63,
+    "currentRawSplitReviewTasks": 63,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 97,
+      "CREATOR_IDENTITY": 533,
+      "CREATOR_REGISTRATION": 538,
+      "SPLIT_REVIEW": 63,
+      "ALIAS_REVIEW": 4,
+      "ROLE_REVIEW": 79,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 611,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1616,
+    "excludedResolvedSourceEntries": 206,
+    "unmappedCurrentUnresolved": 0
+  },
+  "taskCorrespondence": {
+    "oldTaskCount": 3432,
+    "oldP0TaskCount": 142,
+    "mappedOldP0TaskCount": 142,
+    "unmappedOldTasks": 0,
+    "allOldIdsChecked": true,
+    "allPendingLinksChecked": true
+  },
+  "preservation": {
+    "protectedResearchFiles": 452,
+    "allProtectedHashesUnchanged": true,
+    "immutableBeforeFixtureVerified": true,
+    "oldSevenLedgerArtifactsVerified": true,
+    "headUnchanged": true,
+    "indexEmpty": true,
+    "trackedChanges": [
+      "WORK_LOG.md",
+      "data/ournotes/songs.json"
+    ]
+  },
+  "tests": {
+    "existing": {
+      "suites": [
+        198,
+        35,
+        24,
+        7
+      ],
+      "passed": 264,
+      "failed": 0
+    },
+    "todoAndP0": {
+      "passed": 21,
+      "failed": 0
+    },
+    "totalPassed": 285
+  },
+  "builds": {
+    "root": {
+      "directory": "dist",
+      "pages": 1018,
+      "details": 885,
+      "garupa": 799,
+      "ournotes": 86,
+      "seo": "PASS"
+    },
+    "subpath": {
+      "directory": ".cache/p0-subpath",
+      "basePath": "/bandori-song-atlas/",
+      "pages": 1018,
+      "details": 885,
+      "garupa": 799,
+      "ournotes": 86,
+      "seo": "PASS"
+    },
+    "catalogComparisons": 168,
+    "allPublicCatalogValuesAndRawDisplaysMatch": true,
+    "functions": {
+      "compiled": true,
+      "wrangler": "4.143.0"
+    }
+  },
+  "evidence": {
+    "existing-tests": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-existing-tests.txt",
+      "sha256": "828f7307e874e8af492a1429321917333baa52d35a626534230ee19d522192df"
+    },
+    "todo-tests": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-todo-tests-complete.txt",
+      "sha256": "54fe77b615b6d2bbd3277e672d9e0c9f592188c3feba461bb53c1ed2dffbff71"
+    },
+    "root-build": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-root-build.txt",
+      "sha256": "966f50a21f97a72d950b9a14b611582e1b758b5bddfe326a28cdb0e51226da37"
+    },
+    "root-seo": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-root-seo.txt",
+      "sha256": "28a1d6f0858c66851e871c1bc2fbee75e15578605b6a139d3bc2ff753cc73474"
+    },
+    "subpath-build": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-subpath-build.txt",
+      "sha256": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749"
+    },
+    "subpath-seo": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-subpath-seo.txt",
+      "sha256": "28a1d6f0858c66851e871c1bc2fbee75e15578605b6a139d3bc2ff753cc73474"
+    },
+    "functions": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-functions.txt",
+      "sha256": "34e9a179b81ee500368bbe81b6349f8fb0c0f63abb41bca7d7f83136ec64651f"
+    },
+    "reapply": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-reapply.txt",
+      "sha256": "2779f95ac426902aef434b2340347188aae9f3ed7d2be3c4ce9bf41739ab739f"
+    },
+    "ledger-verify": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-ledger-verify.txt",
+      "sha256": "8bef6cca1061d1dc14bd4bff07a65042e90be1f4d0327961da89cbd1ebcefe9f"
+    },
+    "format": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-format-check.txt",
+      "sha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+    },
+    "finalAudit": {
+      "file": "docs/human-review/creator-credits-p0-2026-10-06/validation/p0-final-audit.txt",
+      "sha256": "880900ea6cbfbc7c6a542461e730ad24af5ca9112bb0b85afed1897c7b601fe2"
+    }
+  },
+  "artifactHashes": {
+    "input.txt": "b5f481dc361f49744f392f669ca03a83d5309abfb328f8d96b7b00084722ee91",
+    "baseline.json": "fb8f356964c91d41c57c8d11d46563548e5ba84bd73aece900c5233f88e10c5f",
+    "before.json.gz": "c1b52dfe5c3c726371d9e1be495dd7a1b49406f91de67eb846a9c4baa63adb47",
+    "review.json": "35d6ab2b139f640ee71040c6c67945148dc743df2de26870d189ea9c29d93c12",
+    "applied.json": "7cf32a54de046e30a076ab193d04b4dc4e77f3982c5ab347da6f72a213dee222",
+    "P0_TASK_CORRESPONDENCE.json": "07170ca6c8530c91720b71be6fb22639a505878734cadce279a483231c78f2a2",
+    "REPORT.md": "9cd8298e977cdaf02b943c6c52901b81393c10b78e67d73239b68031580e925b"
+  },
+  "commitPushDeployPerformed": false,
+  "productionVerificationPerformed": false,
+  "formatCheck": "PASS",
+  "diffCheck": "PASS",
+  "formatCheckedFiles": [
+    "scripts/migrations/creator-credit-p0-review.mjs",
+    "scripts/research/creator-credit-human-todo.mjs",
+    "tests/research/creator-credit-human-todo.test.mjs",
+    "tests/research/creator-credit-p0-review.test.mjs"
+  ],
+  "trackedDiff": {
+    "ournotesSongs": {
+      "addedLines": 1212,
+      "deletedLines": 276
+    },
+    "workLog": "progress and completion documentation"
+  },
+  "finalAudit": "PASS",
+  "artifactLinksChecked": 20,
+  "evidenceStorage": "Validation log copies use .txt to avoid the repository global *.log ignore rule."
+}

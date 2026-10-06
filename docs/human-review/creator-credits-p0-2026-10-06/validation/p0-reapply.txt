@@ -1,0 +1,29 @@
+{
+  "mode": "apply",
+  "alreadyApplied": true,
+  "changedFiles": 0,
+  "reviewedRecordRoles": 82,
+  "registration": "BLOCKED_INCOMPLETE_CREATOR_FIELDS",
+  "unresolvedActorNames": [
+    "カンザキイオリ",
+    "尾崎豪（SUPA LOVE）",
+    "横地健太(SUPA LOVE)",
+    "槙島隆人（SUPA LOVE）",
+    "角本麻衣（SUPA LOVE）",
+    "UYKADO",
+    "eba",
+    "Nor",
+    "園田健太郎",
+    "哥丸雄貴",
+    "千石ユノ",
+    "高村風太",
+    "DjeDje",
+    "KENSEI",
+    "三村一輝",
+    "石倉まろ",
+    "牧野太洋",
+    "加藤貴之",
+    "ケンモチヒデフミ",
+    "Skye K"
+  ]
+}

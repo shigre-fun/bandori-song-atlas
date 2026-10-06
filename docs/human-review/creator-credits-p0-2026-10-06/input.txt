@@ -1,0 +1,397 @@
+# バンドリ楽曲録 P0 人間確認回答
+
+【Codexへの指示】
+
+これは creator-credit-human-review のP0項目に対する人間確認結果です。
+
+以下のルールで適用してください。
+
+1. "" の中に値が入っている項目だけhuman-reviewとして扱う。
+2. "" が空の項目は未確認のまま維持し、推測・自動補完しない。
+3. ゲーム内creditは、記載された文字列を空白・記号・括弧・所属表記を含め原文のまま保存する。
+4. 「欄なし」と記載した場合だけ、「ゲーム画面を確認したがそのrole欄が存在しなかった」というhuman-reviewとして扱う。空欄と「欄なし」を混同しない。
+5. OurNotesの編曲は今回入力したゲーム内表示を正とする。発売版参考値をゲーム版へ自動転記しない。
+6. 「発売版との関係」が空欄または「不明」の場合でも、ゲーム内編曲原文自体は適用してよい。ただしGAME_VERSION_REVIEWは未解決のまま残す。
+7. 「発売版との関係」は以下のいずれかを想定する。
+    - 同一編曲と確認
+    - 別編曲と確認
+    - 不明
+8. 入力された編曲者が既存Creatorへ安全に対応できる場合だけformal Creator relationを付ける。
+9. 新しいCreator名が出た場合、名前だけを理由にCreatorを新規登録しない。raw creditは適用し、新しいCREATOR_IDENTITY / CREATOR_REGISTRATION ToDoとして残す。
+10. カンザキイオリについては下記Creator確認欄がすべて揃っている場合のみ正式Creator化する。
+11. 既存Creator ID、Work、他のcredit、OurNotesのnon-credit fieldを変更しない。
+12. 適用後にHuman ToDo台帳を再生成し、今回解決したP0を除外し、新たに発生したCreator同定課題を追加する。
+13. current repositoryとのSHA差分を最初に確認し、台帳生成時からデータが変わっている場合はrecord ID・title・workIdを照合してfield-level patchする。
+14. commit / push / deployは、別途明示的に指示しない限り行わない。
+
+# ==================================================
+■ A. 人間確認情報
+
+humanReviewDate=""
+reviewer="タニマチ"
+
+※ humanReviewDate は、この回答をCodexへ渡す日で構いません。
+
+# ==================================================
+■ B. カンザキイオリ Creator確認
+
+【主体情報】
+
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="カンザキイオリ"
+reading="かんざきいおり"
+sortKey="かんざきいおり"
+slug="iori-kanzaki"
+type="person"
+aliases=[]
+affiliation=""
+根拠URL・資料=""
+備考=""
+
+【対象creditごとの同一性確認】
+
+Garupa:467 命に嫌われている。／作詞「カンザキイオリ」は上記Creatorと同一="はい"
+Garupa:467 命に嫌われている。／作曲「カンザキイオリ」は上記Creatorと同一="はい"
+
+Garupa:758 過去を喰らう／作詞「カンザキイオリ」は上記Creatorと同一="はい"
+Garupa:758 過去を喰らう／作曲「カンザキイオリ」は上記Creatorと同一="はい"
+
+OurNotes:86 過去を喰らう／作曲「カンザキイオリ」は上記Creatorと同一="はい"
+
+# ==================================================
+■ C. OurNotes:86 追加credit
+
+OurNotes:86 過去を喰らう：作詞者="カンザキイオリ"
+OurNotes:86 過去を喰らう：編曲者="植木建象、神田ジョン（from PENGUIN RESEARCH）"
+
+# ==================================================
+■ D. OurNotes 編曲ゲーム内確認 81曲
+
+---
+
+## MyGO!!!!!
+
+OurNotes:1 迷星叫：編曲者="長谷川大介(SUPA LOVE)"
+
+OurNotes:2 壱雫空：編曲者="hisakuni(SUPA LOVE)"
+
+OurNotes:3 碧天伴走：編曲者="木下龍平(SUPA LOVE)"
+発売版参考="木下龍平(SUPA LOVE)"
+発売版との関係=”同じ"
+
+OurNotes:4 影色舞：編曲者="木下龍平(SUPA LOVE)"
+
+OurNotes:5 潜在表明：編曲者="鈴木裕明(SUPA LOVE)"
+
+OurNotes:6 音一会：編曲者="尾崎豪（SUPA LOVE）"
+
+OurNotes:7 春日影（MyGO!!!!! ver.）：編曲者="藤田淳平（Elements Garden）"
+
+OurNotes:8 詩超絆：編曲者="横地健太(SUPA LOVE)"
+発売版参考="横地健太(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:9 迷路日々：編曲者="松坂康司(SUPA LOVE)"
+発売版参考="松坂康司(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:10 無路矢：編曲者="庄司夏葵（SUPA LOVE）"
+
+OurNotes:11 名無声：編曲者="金崎真士(SUPA LOVE)"
+
+OurNotes:12 歩拾道：編曲者="庄司夏葵(SUPA LOVE)"
+発売版参考="庄司夏葵(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:13 端程山：編曲者="トミタカズキ(SUPA LOVE)"
+
+OurNotes:14 砂寸奏：編曲者="槙島隆人（SUPA LOVE）"
+
+OurNotes:15 焚音打：編曲者="長谷川大介(SUPA LOVE)"
+
+OurNotes:16 聿日箋秋：編曲者="トミタカズキ(SUPA LOVE)"
+発売版参考="トミタカズキ(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:17 証命讃歌：編曲者="高橋涼（SUPA LOVE）"
+発売版参考="高橋涼 (SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:18 往欄印：編曲者="長谷川大介(SUPA LOVE)"
+
+OurNotes:19 ないものねだり：編曲者="植木建象、神田ジョン(from PENGUIN RESEARCH)"
+
+OurNotes:20 シャルル：編曲者="植木建象、神田ジョン(from PENGUIN RESEARCH)"
+
+OurNotes:22 ホワイトノイズ：編曲者=”小木岳司"
+
+---
+
+## Ave Mujica
+
+OurNotes:23 Ave Mujica：編曲者="藤間仁（Elements Garden）"
+
+OurNotes:24 KiLLKiSS：編曲者="長谷川大介(SUPA LOVE)"
+発売版参考="長谷川大介(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:25 Imprisoned XII：編曲者="松坂康司(SUPA LOVE)"
+発売版参考="松坂康司(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:26 Crucifix X：編曲者="o-saka(SUPA LOVE)"
+発売版参考="o-saka(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:27 八芒星ダンス：編曲者="あらケン(SUPA LOVE)"
+
+OurNotes:28 顔：編曲者="木下龍平(SUPA LOVE)"
+発売版参考="木下龍平(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:29 天球(そら)のMúsica：編曲者="高橋涼(SUPA LOVE)"
+発売版参考="高橋涼(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:30 Symbol I : △：編曲者="長谷川大介(SUPA LOVE)"
+発売版参考="長谷川大介 (SUPA LOVE)"
+発売版との関係=”同じ"
+
+OurNotes:31 Symbol II : Air：編曲者="高橋涼(SUPA LOVE)"
+発売版参考="高橋涼(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:32 Symbol III : ▽：編曲者="トミタカズキ(SUPA LOVE)"
+発売版参考="トミタカズキ (SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:33 Symbol IV : Earth：編曲者="長谷川大介(SUPA LOVE)"
+発売版参考="長谷川大介(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:34 Ether：編曲者="長谷川大介(SUPA LOVE)"
+発売版参考="長谷川大介(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:35 黒のバースデイ：編曲者="賀佐泰洋（SUPA LOVE）"
+
+OurNotes:36 Choir ‘S’ Choir：編曲者="角本麻衣（SUPA LOVE）"
+
+OurNotes:37 Mas?uerade Rhapsody Re?uest：編曲者="あらケン（SUPA LOVE）"
+
+OurNotes:38 碧い瞳の中に：編曲者="Diggy-MO'、松坂康司(SUPA LOVE)"
+発売版参考="Diggy-MO'、松坂康司(SUPA LOVE)"
+発売版との関係="同じ"
+
+OurNotes:39 The Whole Blue World：編曲者="Diggy-MO'"
+
+OurNotes:41 堕天：編曲者="UYKADO"
+
+OurNotes:42 暗黒天国：編曲者="UYKADO"
+
+OurNotes:43 KINGS：編曲者="UYKADO"
+
+---
+
+## 夢限大みゅーたいぷ
+
+OurNotes:44 ✞animaるパーティ✞開催中✞：編曲者="堀江晶太"
+
+OurNotes:45 エンプティパペット：編曲者="eba"
+発売版参考="eba"
+発売版との関係="同じ"
+
+OurNotes:46 限界現実サバイブ天使：編曲者="Nor、堀江晶太"
+発売版参考="Nor, 堀江晶太"
+発売版との関係="2人とも同じ"
+
+OurNotes:47 ビッグマウス：編曲者="堀江晶太、Nor"
+発売版参考="堀江晶太、Nor"
+発売版との関係="2人とも同じ"
+
+OurNotes:48 夢現妄想世界：編曲者="園田健太郎"
+発売版参考="園田健太郎"
+発売版との関係="同じ"
+
+OurNotes:49 コハク：編曲者="堀江晶太"
+発売版参考="堀江晶太"
+発売版との関係="同じ"
+
+OurNotes:50 これはぼくたちの生存のあらすじ：編曲者="堀江晶太"
+発売版参考="堀江晶太"
+発売版との関係="同じ"
+
+OurNotes:51 うちゅうのふしぎ：編曲者="sabio"
+発売版参考="sabio"
+発売版との関係="同じ"
+
+OurNotes:52 真夜中遊園地：編曲者="哥丸雄貴、堀江晶太"
+発売版参考="哥丸雄貴、堀江晶太"
+発売版との関係="2人とも同じ"
+
+OurNotes:53 チューニング：編曲者="堀江晶太、千石ユノ"
+発売版参考="堀江晶太、千石ユノ"
+発売版との関係="同じ"
+
+OurNotes:54 超惑星Xへの旅：編曲者="TeddyLoid・堀江晶太"
+
+OurNotes:55 TearJerker：編曲者="sabio"
+発売版参考="sabio"
+発売版との関係="同じ"
+
+OurNotes:56 Face The Next：編曲者="白神真志朗、千石ユノ"
+発売版参考="白神真志朗、千石ユノ"
+発売版との関係="2人とも同じ"
+
+OurNotes:57 in my words：編曲者="白神真志朗"
+発売版参考="白神真志朗"
+発売版との関係="同じ"
+
+OurNotes:58 愛は衝動：編曲者="sabio"
+発売版参考="sabio"
+発売版との関係="同じ"
+
+OurNotes:59 六兆年と一夜物語：編曲者="sabio/高村風太"
+
+OurNotes:60 唱：編曲者="DjeDje、KENSEI、三村一輝"
+発売版参考="DjeDje、KENSEI、三村一輝"
+発売版との関係="3人とも同じ"
+
+OurNotes:62 UNDEAD：編曲者="DjeDje、三村一輝"
+
+---
+
+## millsage
+
+OurNotes:63 起死開戦：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+OurNotes:64 everscape：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+OurNotes:65 鳴らす：編曲者="藤井健太郎"
+
+OurNotes:66 カーネーションの咲く日に：編曲者="瀬名水紀(Dream Monster)、Aira"
+発売版参考="瀬名水紀(Dream Monster)、Aira(Dream Monster) / 瀬名水紀、Aira"
+発売版との関係="2人とも同じ"
+
+OurNotes:67 青のすみか：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+OurNotes:68 Pretender：編曲者="石倉まろ"
+
+OurNotes:69 unravel：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+---
+
+## 一家Dumb Rock!
+
+OurNotes:71 ホーミー・タイッ！！：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+OurNotes:72 ジャイアント・キラー・チューン：編曲者="藤井健太郎"
+発売版参考="藤井健太郎"
+発売版との関係="同じ"
+
+OurNotes:73 ピースフル・ピーシーズ！：編曲者="藤井健太郎"
+
+OurNotes:74 Keep on Riddim：編曲者="瀬名水紀(Dream Monster)"
+発売版参考="瀬名水紀(Dream Monster)"
+発売版との関係="同じ"
+
+OurNotes:75 Mela!：編曲者="石倉まろ"
+発売版参考="石倉誉之"
+発売版との関係=”同一人物だが現在は石倉まろ名義のみを使用"
+
+OurNotes:76 サムライハート(Some Like It Hot!!)：編曲者=”藤井健太郎"
+
+OurNotes:78 革命道中：編曲者=”牧野太洋"
+発売版参考="藤井健太郎"
+発売版との関係=”別の人物、牧野太洋が正しい"
+
+---
+
+## CRYCHIC
+
+OurNotes:79 春日影：編曲者="藤田淳平（Elements Garden）"
+
+---
+
+## 夢限大みゅーたいぷ
+
+OurNotes:80 ちゅ、多様性。：編曲者=”白神真志朗"
+
+---
+
+## MyGO!!!!!
+
+OurNotes:81 空に歌えば：編曲者="植木建象、神田ジョン(from PENGUIN RESEARCH)"
+
+---
+
+## millsage
+
+OurNotes:82 Stellar Stellar：編曲者="牧野太洋"
+発売版参考="牧野太洋"
+発売版との関係="同じ"
+
+---
+
+## Ave Mujica
+
+OurNotes:83 ファタール：編曲者="植木建象、加藤貴之"
+
+---
+
+## 一家Dumb Rock!
+
+OurNotes:84 微笑みの爆弾：編曲者="牧野太洋"
+発売版参考="牧野太洋"
+発売版との関係="同じ"
+
+---
+
+## 夢限大みゅーたいぷ
+
+OurNotes:85 夢我夢中：編曲者="ケンモチヒデフミ、Skye K"
+発売版参考="ケンモチヒデフミ、Skye K"
+発売版との関係="2人とも同じ"
+
+---
+
+## MyGO!!!!!
+
+OurNotes:86 過去を喰らう：編曲者="植木建象、神田ジョン（from PENGUIN RESEARCH）"
+
+# ==================================================
+■ E. 最終適用時のCodex検証
+
+入力済み項目について以下を実施してください。
+
+- human-review資料へ回答を保存
+- P0 taskIdとの対応を維持
+- OurNotesゲーム内編曲rawをfield-level patch
+- 既存Creatorと確実に一致するものだけrelation化
+- 未登録Creatorは新しい人間ToDoとして残す
+- カンザキイオリはB節の回答条件を満たした場合だけ正式登録・relation適用
+- OurNotes:86の作詞をC節の回答がある場合だけ適用
+- 発売版との関係が回答済みならGAME_VERSION_REVIEWを更新
+- 空欄項目は一切変更しない
+- 全曲の表示順・raw表示を保持
+- data/works.jsonのWork identityを変更しない
+- unrelated field変更0を確認
+- HUMAN_TODO_BY_SONG / HUMAN_TODO_BY_CREATORを再生成
+- 解決済みtaskを除外
+- 新たに判明した未登録Creatorを適切なpriorityへ追加
+- verifyで unmappedCurrentUnresolved=0 を維持
+- 全既存test＋ToDo台帳testを実行
+- build / SEO / Functions compileを実行
+- 最終diffを報告
+- commit / push / deployは行わない

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 125,
+  "nextId": 126,
   "creators": [
     {
       "id": "cr-0001",
@@ -1342,6 +1342,16 @@
       "aliases": [
         "o-saka(SUPA LOVE)"
       ]
+    },
+    {
+      "id": "cr-0125",
+      "name": "カンザキイオリ",
+      "slug": "iori-kanzaki",
+      "type": "person",
+      "reading": "かんざきいおり",
+      "sortKey": "かんざきいおり",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
     }
   ],
   "roleCoverage": {
