@@ -2,3 +2,6 @@
 docs/human-review/** -text whitespace=cr-at-eol
 # The original failed TAP output contains two space-only lines; retain its exact evidence bytes.
 docs/human-review/creator-kanzaki-2026-10-06/validation/tests-first.txt -whitespace
+# Preserve the original P1 failed TAP output, including its space-only diff lines.
+docs/human-review/creator-kanow-p1-2026-10-07/validation/prior-todo-tests-first.txt -whitespace
+docs/human-review/creator-kanow-p1-2026-10-07/validation/prior-todo-tests-second.txt -whitespace

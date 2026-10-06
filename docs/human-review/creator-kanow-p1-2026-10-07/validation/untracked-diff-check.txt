@@ -1,0 +1,2 @@
+PASS: 29 untracked files checked (no-index ordinary differences accepted; whitespace errors rejected).
+Original failed TAP whitespace exemptions are limited to prior-todo-tests-first.txt and prior-todo-tests-second.txt.

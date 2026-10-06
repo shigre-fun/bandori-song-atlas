@@ -3297,6 +3297,24 @@
                 "lyricist",
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -3312,8 +3330,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -3809,6 +3832,24 @@
                 "lyricist",
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0119",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "母里治樹（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -3824,8 +3865,13 @@
             ],
             "arranger": [
               {
-                "text": "母里治樹（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0119"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -5889,7 +5935,26 @@
           "bpmMax": 160,
           "durationSeconds": 115,
           "workId": "wk-0031",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
@@ -5905,8 +5970,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -6825,7 +6895,26 @@
           "bpmMax": 174,
           "durationSeconds": 104,
           "workId": "wk-0019",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
@@ -6841,8 +6930,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -31986,6 +32080,24 @@
               "roles": [
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -32001,8 +32113,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -32199,6 +32316,24 @@
                 "composer",
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -32214,8 +32349,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -35025,6 +35165,24 @@
               "roles": [
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -35041,8 +35199,13 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）／加納望",
-                "unresolved": true
+                "creatorId": "cr-0019"
+              },
+              {
+                "text": "／"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -38436,7 +38599,26 @@
           "bpmMax": 171,
           "durationSeconds": 116,
           "workId": "wk-0022",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0119",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "母里治樹（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
@@ -38452,8 +38634,13 @@
             ],
             "arranger": [
               {
-                "text": "母里治樹（Elements Garden）/加納望",
-                "unresolved": true
+                "creatorId": "cr-0119"
+              },
+              {
+                "text": "/"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -38719,6 +38906,24 @@
               "roles": [
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0119",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "母里治樹（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -38734,8 +38939,13 @@
             ],
             "arranger": [
               {
-                "text": "母里治樹（Elements Garden）/加納望",
-                "unresolved": true
+                "creatorId": "cr-0119"
+              },
+              {
+                "text": "/"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },
@@ -40020,6 +40230,24 @@
                 "composer",
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0119",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "母里治樹（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0126",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "加納望"
+              }
             }
           ],
           "creditDisplay": {
@@ -40035,8 +40263,13 @@
             ],
             "arranger": [
               {
-                "text": "母里治樹（Elements Garden）/加納望",
-                "unresolved": true
+                "creatorId": "cr-0119"
+              },
+              {
+                "text": "/"
+              },
+              {
+                "creatorId": "cr-0126"
               }
             ]
           },

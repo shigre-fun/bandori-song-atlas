@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "stagedFiles": 46,
+  "sourceFiles": 6,
+  "unchangedGitBlobsWithCheckoutEol": [
+    "data/garupa/admin-state.json"
+  ],
+  "protectedEvidence": 592,
+  "reviewEvidence": 27,
+  "allStagedBytesEqualWorkingCopy": true
+}

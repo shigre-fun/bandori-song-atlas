@@ -1,0 +1,79 @@
+{
+  "mode": "verify",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 126,
+  "currentWorkCount": 823,
+  "currentNextId": 127,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 332,
+  "totalSongTasks": 1305,
+  "totalCreatorCandidates": 343,
+  "threePlusRecordCreators": 7,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 284,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 12,
+  "unregisteredCreatorCandidates": 331,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 53,
+  "currentRawSplitReviewTasks": 53,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 522,
+    "CREATOR_REGISTRATION": 522,
+    "SPLIT_REVIEW": 53,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 68,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 595,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1570,
+  "excludedResolvedSourceEntries": 252,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "mode": "verify",
+  "creator": {
+    "id": "cr-0126",
+    "name": "加納望",
+    "slug": "nozomu-kanow",
+    "type": "person",
+    "reading": "かのうのぞむ",
+    "sortKey": "かのうのぞむ",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "relationRecords": 10,
+  "splitResolved": 10,
+  "changedFiles": [],
+  "unprovidedOptionalFields": [
+    "備考"
+  ]
+}
+✔ blank affiliation requires explicit followup, blank notes stays unanswered and global answer is not record approval (2.4893ms)
+✔ latest P1 identity, candidate key, exact records, titles and Works must match (108.0575ms)
+✔ dynamic nextId, metadata, all previous creators and two-file-only data patch validate (93.8494ms)
+✔ ten arranger relations preserve both co-arrangers, exact raw punctuation and affiliation without organization duplication (0.308ms)
+✔ denied, deferred or empty identity/split answers never attach a relation or resolve that record (1609.5456ms)
+✔ ID/slug collisions, changed scope evidence and unapproved record substitution reject (32.4491ms)
+✔ existing ID path reuses Creator and repeated plan changes no bytes or IDs (431.4277ms)
+✔ current ledger excludes resolved P1 and exactly ten splits, preserves unrelated tasks and all prior 3432 task provenance (4924.3894ms)
+✔ independent preservation rejects lost co-arranger, extra Creator roles, punctuation, Works and unrelated edits (187.5712ms)
+✔ all earlier research/review evidence stays immutable and applied result matches guarded plan (960.8554ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10504.1076

@@ -1,0 +1,13 @@
+PASS: git diff --check
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'WORK_LOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/creators.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/garupa/songs.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_SUMMARY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_VERIFICATION.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/research/creator-credit-human-todo.mjs', LF will be replaced by CRLF the next time Git touches it

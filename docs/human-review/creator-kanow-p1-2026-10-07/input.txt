@@ -1,0 +1,334 @@
+# バンドリ楽曲録 P1 人間確認回答
+
+【Codexへの指示】
+
+これは creator-credit-human-review のP1項目に対する人間確認結果です。
+
+今回のP1対象は、最新ToDo台帳で
+candidateKey:
+
+b1-e8ea1c155638e47d4330
+
+として管理されている「加納望」です。
+
+適用前に必ずcurrent repositoryの最新
+HUMAN_TODO_BY_CREATOR / HUMAN_TODO_BY_SONG
+を確認してください。
+
+もし最新台帳で、
+
+- 加納望がすでに解決済み
+- candidateKeyが変更されている
+- P1に加納望以外の新しい対象が追加されている
+
+場合は、推測して適用せず差分を報告してください。
+
+以下のルールで処理してください。
+
+1. "" の中に回答がある項目だけhuman-reviewとして扱う。
+2. "" が空の項目は未回答のまま保持し、自動補完しない。
+3. 「はい」は人間が明示承認したものとして扱う。
+4. 「いいえ」は否定判断として保存し、relationを付けない。
+5. 「保留」は未解決ToDoとして残す。
+6. 加納望を正式Creator登録するのは、identityおよび登録必須情報が十分に揃った場合だけ。
+7. 既存Creatorと同一だと回答された場合は新規Creatorを作らず既存IDを使用する。
+8. 対象10曲すべてについて、record単位の同一性回答を尊重する。
+9. 共同編曲のsplitは各曲の回答が「はい」の場合だけformal relationへ反映する。
+10. 「／」「/」「（Elements Garden）」など既存のcreditDisplay原文は変更しない。
+11. Elements Gardenは都丸椋太・母里治樹の所属表記であり、組織Creatorを共同編曲者として二重計上しない。
+12. 今回回答されていない他Creator・他楽曲へ加納望の判断をglobal展開しない。
+13. data/works.jsonのWork identityを変更しない。
+14. unrelated fieldを変更しない。
+15. 適用後に人間ToDo台帳を再生成する。
+16. 解決したP1 taskを除外し、未解決項目は残す。
+17. unmappedCurrentUnresolved=0を維持する。
+18. 全既存test・ToDo test・build・SEO・Functionsを検証する。
+19. commit / push / deployは別途明示指示がない限り行わない。
+
+# ==================================================
+■ A. 人間確認情報
+
+humanReviewDate="2026/10/07"
+reviewer="タニマチ"
+
+# ==================================================
+■ B. 加納望 Creator主体確認
+
+candidateKey="b1-e8ea1c155638e47d4330"
+
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="加納望"
+reading="かのうのぞむ"
+sortKey="かのうのぞむ"
+slug="nozomu-kanow"
+type="person"
+aliases=[]
+affiliation="”（なし）
+備考=""（なし）
+
+# ==================================================
+■ C. 10収録の同一性・split確認
+
+※ 「加納望は上記Creatorと同一」は
+"はい" / "いいえ" / "保留"
+
+※ 「共同編曲split」は、
+表示されている2主体を別々の共同編曲者として
+formal relation化してよい場合 "はい"。
+
+※ credit原文そのものを修正する欄ではありません。
+
+---
+
+## Garupa:19 空色デイズ
+Poppin'Party / wk-0019
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:20 Alchemy
+Poppin'Party / wk-0020
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:21 カルマ
+Afterglow / wk-0021
+
+現在の編曲原文：
+母里治樹（Elements Garden）/加納望
+
+加納望は上記Creatorと同一="はい"
+「母里治樹」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:22 Butter-Fly
+Afterglow / wk-0022
+
+現在の編曲原文：
+母里治樹（Elements Garden）/加納望
+
+加納望は上記Creatorと同一="はい"
+「母里治樹」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:25 魂のルフラン
+Roselia / wk-0025
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:26 Hacking to the Gate
+Roselia / wk-0026
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:29 Don’t say “lazy”
+Afterglow / wk-0029
+
+現在の編曲原文：
+母里治樹（Elements Garden）/加納望
+
+加納望は上記Creatorと同一="はい"
+「母里治樹」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:31 光るなら
+Poppin'Party / wk-0031
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:37 ETERNAL BLAZE
+Roselia / wk-0037
+
+現在の編曲原文：
+都丸椋太（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「都丸椋太」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+---
+
+## Garupa:40 Little Busters!
+Poppin'Party / wk-0040
+
+現在の編曲原文：
+母里治樹（Elements Garden）／加納望
+
+加納望は上記Creatorと同一="はい"
+「母里治樹」と「加納望」の共同編曲としてsplitしてよい="はい"
+
+# ==================================================
+■ D. 全10曲をまとめた最終確認
+
+上記10収録の「加納望」はすべて同一Creatorである="はい"
+
+上記10収録すべてで加納望を編曲者としてformal relation化してよい="はい"
+
+加納望について今回確認した10収録以外へ自動適用してよい="はい"
+
+# ==================================================
+■ E. Codex適用ルール
+
+B・C・Dの回答を解析し、
+回答済み範囲だけ適用してください。
+
+【Creator登録】
+
+以下が十分揃っている場合のみCreator masterへ登録：
+
+- identityConfirmed="はい"
+- samePersonAs
+- standardName
+- reading
+- sortKey
+- slug
+- type
+- aliases
+- affiliationについて回答済み
+
+samePersonAs="既存IDなし"
+の場合のみ新規Creator IDを採番する。
+
+nextIdはcurrent repositoryから取得し、
+固定値を想定しない。
+
+【各recordへの適用】
+
+各曲について、
+
+加納望は上記Creatorと同一="はい"
+
+かつ、
+
+共同編曲としてsplitしてよい="はい"
+
+の場合のみ、
+そのrecordのarranger relationへ加納望を追加する。
+
+既存共同編曲者：
+
+都丸椋太
+または
+母里治樹
+
+のrelationを保持する。
+
+原文表示：
+
+都丸椋太（Elements Garden）／加納望
+母里治樹（Elements Garden）/加納望
+等は既存表示を保持する。
+
+記号の統一・括弧の変更・スペース修正を勝手に行わない。
+
+【split】
+
+今回の10recordについて、
+共同編曲境界を人間が承認したものだけ
+SPLIT_REVIEWを解決する。
+
+他のsplit taskへ波及させない。
+
+# ==================================================
+■ F. 適用後検証
+
+適用後、最低限以下を確認してください。
+
+- Creator master件数
+- nextId
+- duplicate Creator ID 0
+- duplicate slug 0
+- dangling reference 0
+- 加納望Creatorページ生成
+- 加納望のWork数
+- 加納望のrecord数
+- arranger count
+- 対象10曲のrelation
+- 対象10曲の表示原文完全維持
+- 都丸椋太relation維持
+- 母里治樹relation維持
+- Elements Garden二重計上0
+- 他曲への加納望誤適用0
+- Work identity変更0
+- unrelated credit変更0
+- unrelated non-credit変更0
+- HUMAN_TODO_BY_SONG再生成
+- HUMAN_TODO_BY_CREATOR再生成
+- 解決済みP1除外
+- unmappedCurrentUnresolved=0
+
+その後：
+
+- pnpm test
+- ToDo専用test
+- root build
+- subpath build
+- root SEO
+- subpath SEO
+- Functions compile
+- git diff --check
+
+を実行してください。
+
+# ==================================================
+■ G. 最終報告
+
+以下を報告してください。
+
+- P1回答の受理件数
+- 加納望を正式Creator登録したか
+- 新しいCreator ID
+- standardName
+- slug
+- type
+- aliases
+- 対象10recordのうちrelation適用件数
+- split解決件数
+- 未解決として残した項目
+- Creator総数 before / after
+- nextId before / after
+- ToDo曲数 before / after
+- ToDo task数 before / after
+- Creator候補数 before / after
+- unmappedCurrentUnresolved
+- test結果
+- build結果
+- SEO結果
+- Functions結果
+- data差分
+- commit / push / deploy未実施
+
+今回も、明示的な追加指示がない限り
+commit / push / deployは行わないでください。

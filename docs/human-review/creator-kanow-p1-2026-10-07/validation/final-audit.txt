@@ -1,0 +1,157 @@
+{
+  "mode": "verify",
+  "creator": {
+    "id": "cr-0126",
+    "name": "加納望",
+    "slug": "nozomu-kanow",
+    "type": "person",
+    "reading": "かのうのぞむ",
+    "sortKey": "かのうのぞむ",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "relationRecords": 10,
+  "splitResolved": 10,
+  "changedFiles": [],
+  "unprovidedOptionalFields": [
+    "備考"
+  ]
+}
+{
+  "mode": "apply",
+  "creator": {
+    "id": "cr-0126",
+    "name": "加納望",
+    "slug": "nozomu-kanow",
+    "type": "person",
+    "reading": "かのうのぞむ",
+    "sortKey": "かのうのぞむ",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "relationRecords": 10,
+  "splitResolved": 10,
+  "changedFiles": [],
+  "unprovidedOptionalFields": [
+    "備考"
+  ]
+}
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 126,
+  "currentWorkCount": 823,
+  "currentNextId": 127,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 332,
+  "totalSongTasks": 1305,
+  "totalCreatorCandidates": 343,
+  "threePlusRecordCreators": 7,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 284,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 12,
+  "unregisteredCreatorCandidates": 331,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 53,
+  "currentRawSplitReviewTasks": 53,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 522,
+    "CREATOR_REGISTRATION": 522,
+    "SPLIT_REVIEW": 53,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 68,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 595,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1570,
+  "excludedResolvedSourceEntries": 252,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "mode": "verify",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 126,
+  "currentWorkCount": 823,
+  "currentNextId": 127,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 332,
+  "totalSongTasks": 1305,
+  "totalCreatorCandidates": 343,
+  "threePlusRecordCreators": 7,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 284,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 12,
+  "unregisteredCreatorCandidates": 331,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 53,
+  "currentRawSplitReviewTasks": 53,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 522,
+    "CREATOR_REGISTRATION": 522,
+    "SPLIT_REVIEW": 53,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 68,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 595,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1570,
+  "excludedResolvedSourceEntries": 252,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "result": "PASS",
+  "preservation": {
+    "displayComparisons": 5310,
+    "detailLinks": 40,
+    "WorkIdentityChanges": 0,
+    "unrelatedCreditChanges": 0,
+    "unrelatedNonCreditChanges": 0,
+    "unexpectedCreatorBindings": 0,
+    "ElementsGardenDoubleCounting": 0,
+    "duplicateCreatorIds": 0,
+    "duplicateSlugs": 0,
+    "danglingReferences": 0,
+    "protectedEvidenceFiles": 592,
+    "protectedEvidenceChanged": 0
+  },
+  "builds": [
+    {
+      "directory": "dist",
+      "base": "/",
+      "creatorWorks": 10,
+      "creatorRecords": 10,
+      "arrangerWorks": 10,
+      "recordCount": 885
+    },
+    {
+      "directory": ".cache/kanow-p1-subpath",
+      "base": "/bandori-song-atlas/",
+      "creatorWorks": 10,
+      "creatorRecords": 10,
+      "arrangerWorks": 10,
+      "recordCount": 885
+    }
+  ]
+}

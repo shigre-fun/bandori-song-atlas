@@ -1,6 +1,6 @@
 # 人間確認ToDo・曲別完全台帳
 
-基準HEAD: fc747dc0cbc8939daea54e781ec1ca841d3331ca。現行raw・formal参照を正とする。各recordの完全なtask本文は一か所だけに置く。以下の分類章は同じファイル内の完全本文への索引。taskの回答を揃えてrecordのcheckboxを完了する。未回答はNEEDS_HUMAN、発売版だけの候補登録はBLOCKED。今回の適用はない。
+基準HEAD: e014091046bab48008084a5fa9f01076c5a9f693。現行raw・formal参照を正とする。各recordの完全なtask本文は一か所だけに置く。以下の分類章は同じファイル内の完全本文への索引。taskの回答を揃えてrecordのcheckboxを完了する。未回答はNEEDS_HUMAN、発売版だけの候補登録はBLOCKED。今回の適用はない。
 
 ## P0 最新・ゲーム内手動確認
 
@@ -207,16 +207,8 @@
 | [OurNotes:83 ファタール](#ournotes-83) | Ave Mujica / wk-0608 | arranger / CREATOR_IDENTITY / P0； arranger / CREATOR_REGISTRATION / P0 |
 | [OurNotes:84 微笑みの爆弾](#ournotes-84) | 一家Dumb Rock! / wk-0822 | arranger / CREATOR_IDENTITY / P0； arranger / CREATOR_REGISTRATION / P0； composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
 | [OurNotes:85 夢我夢中](#ournotes-85) | 夢限大みゅーたいぷ / wk-0823 | arranger / CREATOR_IDENTITY / P0； arranger / CREATOR_IDENTITY / P0； arranger / CREATOR_REGISTRATION / P0； arranger / CREATOR_REGISTRATION / P0； composer / CREATOR_IDENTITY / P0； composer / CREATOR_REGISTRATION / P0； lyricist / CREATOR_IDENTITY / P0； lyricist / CREATOR_REGISTRATION / P0 |
-| [Garupa:19 空色デイズ](#garupa-19) | Poppin'Party / wk-0019 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2； composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3 |
-| [Garupa:20 Alchemy](#garupa-20) | Poppin'Party / wk-0020 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
-| [Garupa:21 カルマ](#garupa-21) | Afterglow / wk-0021 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
-| [Garupa:22 Butter-Fly](#garupa-22) | Afterglow / wk-0022 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1； composer / CREATOR_IDENTITY / P2； composer / CREATOR_REGISTRATION / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2 |
-| [Garupa:25 魂のルフラン](#garupa-25) | Roselia / wk-0025 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1； composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3 |
-| [Garupa:26 Hacking to the Gate](#garupa-26) | Roselia / wk-0026 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
-| [Garupa:29 Don’t say “lazy”](#garupa-29) | Afterglow / wk-0029 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
-| [Garupa:31 光るなら](#garupa-31) | Poppin'Party / wk-0031 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1； composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
-| [Garupa:37 ETERNAL BLAZE](#garupa-37) | Roselia / wk-0037 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
-| [Garupa:40 Little Busters!](#garupa-40) | Poppin'Party / wk-0040 | arranger / CREATOR_IDENTITY / P1； arranger / CREATOR_REGISTRATION / P1 |
+| [Garupa:19 空色デイズ](#garupa-19) | Poppin'Party / wk-0019 | lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2； composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3 |
+| [Garupa:22 Butter-Fly](#garupa-22) | Afterglow / wk-0022 | composer / CREATOR_IDENTITY / P2； composer / CREATOR_REGISTRATION / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2 |
 | [Garupa:24 ドリームパレード](#garupa-24) | Pastel＊Palettes / wk-0024 | composer / CREATOR_IDENTITY / P2； composer / CREATOR_REGISTRATION / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2； lyricist / CREATOR_REGISTRATION / P2 |
 | [Garupa:33 シルエット](#garupa-33) | ハロー、ハッピーワールド！ / wk-0033 | composer / CREATOR_IDENTITY / P2； composer / CREATOR_REGISTRATION / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2 |
 | [Garupa:41 正解はひとつ!じゃない!!](#garupa-41) | Poppin'Party×グリグリ / wk-0041 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3 |
@@ -318,6 +310,8 @@
 | [OurNotes:17 証命讃歌](#ournotes-17) | MyGO!!!!! / wk-0777 | composer / CREATOR_IDENTITY / P2； composer / CREATOR_REGISTRATION / P2； lyricist / CREATOR_IDENTITY / P2； lyricist / CREATOR_REGISTRATION / P2 |
 | [OurNotes:40 残酷な天使のテーゼ](#ournotes-40) | Ave Mujica / wk-0086 | arranger / CREATOR_IDENTITY / P2； arranger / CREATOR_REGISTRATION / P2 |
 | [Garupa:23 secret base ～君がくれたもの～](#garupa-23) | Pastel＊Palettes / wk-0023 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
+| [Garupa:25 魂のルフラン](#garupa-25) | Roselia / wk-0025 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3 |
+| [Garupa:31 光るなら](#garupa-31) | Poppin'Party / wk-0031 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
 | [Garupa:35 そばかす](#garupa-35) | Pastel＊Palettes / wk-0035 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
 | [Garupa:52 great escape](#garupa-52) | Afterglow / wk-0052 | composer / CREATOR_IDENTITY / P3； composer / CREATOR_REGISTRATION / P3； lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
 | [Garupa:54 ふわふわ時間](#garupa-54) | Pastel＊Palettes / wk-0054 | lyricist / CREATOR_IDENTITY / P3； lyricist / CREATOR_REGISTRATION / P3 |
@@ -467,16 +461,6 @@
 | [OurNotes:53 チューニング](#ournotes-53) | 夢限大みゅーたいぷ / wk-0800 | composer / SPLIT_REVIEW / P2； lyricist / SPLIT_REVIEW / P2 |
 | [OurNotes:56 Face The Next](#ournotes-56) | 夢限大みゅーたいぷ / wk-0803 | composer / SPLIT_REVIEW / P2； lyricist / SPLIT_REVIEW / P2 |
 | [OurNotes:78 革命道中](#ournotes-78) | 一家Dumb Rock! / wk-0735 | composer / SPLIT_REVIEW / P2； lyricist / SPLIT_REVIEW / P2 |
-| [Garupa:19 空色デイズ](#garupa-19) | Poppin'Party / wk-0019 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:20 Alchemy](#garupa-20) | Poppin'Party / wk-0020 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:21 カルマ](#garupa-21) | Afterglow / wk-0021 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:22 Butter-Fly](#garupa-22) | Afterglow / wk-0022 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:25 魂のルフラン](#garupa-25) | Roselia / wk-0025 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:26 Hacking to the Gate](#garupa-26) | Roselia / wk-0026 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:29 Don’t say “lazy”](#garupa-29) | Afterglow / wk-0029 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:31 光るなら](#garupa-31) | Poppin'Party / wk-0031 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:37 ETERNAL BLAZE](#garupa-37) | Roselia / wk-0037 | arranger / SPLIT_REVIEW / P2 |
-| [Garupa:40 Little Busters!](#garupa-40) | Poppin'Party / wk-0040 | arranger / SPLIT_REVIEW / P2 |
 | [Garupa:24 ドリームパレード](#garupa-24) | Pastel＊Palettes / wk-0024 | lyricist / SPLIT_REVIEW / P2 |
 | [Garupa:85 Dragon Night](#garupa-85) | ハロー、ハッピーワールド！ / wk-0085 | composer / SPLIT_REVIEW / P2 |
 | [Garupa:111 Believe in my existence](#garupa-111) | Roselia / wk-0111 | composer / SPLIT_REVIEW / P2 |
@@ -560,16 +544,6 @@
 | [OurNotes:81 空に歌えば](#ournotes-81) | MyGO!!!!! / wk-0821 | arranger / GAME_VERSION_REVIEW / P0 |
 | [OurNotes:83 ファタール](#ournotes-83) | Ave Mujica / wk-0608 | arranger / GAME_VERSION_REVIEW / P0； arranger / ROLE_REVIEW / P2 |
 | [OurNotes:86 過去を喰らう](#ournotes-86) | MyGO!!!!! / wk-0739 | arranger / GAME_VERSION_REVIEW / P0 |
-| [Garupa:19 空色デイズ](#garupa-19) | Poppin'Party / wk-0019 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:20 Alchemy](#garupa-20) | Poppin'Party / wk-0020 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:21 カルマ](#garupa-21) | Afterglow / wk-0021 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:22 Butter-Fly](#garupa-22) | Afterglow / wk-0022 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:25 魂のルフラン](#garupa-25) | Roselia / wk-0025 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:26 Hacking to the Gate](#garupa-26) | Roselia / wk-0026 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:29 Don’t say “lazy”](#garupa-29) | Afterglow / wk-0029 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:31 光るなら](#garupa-31) | Poppin'Party / wk-0031 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:37 ETERNAL BLAZE](#garupa-37) | Roselia / wk-0037 | arranger / ROLE_REVIEW / P2 |
-| [Garupa:40 Little Busters!](#garupa-40) | Poppin'Party / wk-0040 | arranger / ROLE_REVIEW / P2 |
 | [Garupa:41 正解はひとつ!じゃない!!](#garupa-41) | Poppin'Party×グリグリ / wk-0041 | arranger / ROLE_REVIEW / P2； lyricist / ROLE_REVIEW / P2 |
 | [Garupa:42 天体観測](#garupa-42) | Afterglow×香澄 / wk-0042 | arranger / ROLE_REVIEW / P2； lyricist / ROLE_REVIEW / P2 |
 | [Garupa:205 [FULL] 二重の虹(ダブル レインボウ)](#garupa-205) | Poppin'Party / wk-0109 | arranger / ROLE_REVIEW / P2 |
@@ -6274,103 +6248,13 @@ raw: 植木建象、神田ジョン（from PENGUIN RESEARCH）
 
 - [ ] Garupa:19「空色デイズ」の下記回答を完了する
 
-game=Garupa / recordId=19 / band=Poppin'Party / workId=wk-0019 / priority=P1
+game=Garupa / recordId=19 / band=Poppin'Party / workId=wk-0019 / priority=P2
 
 | role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
 | --- | --- | --- | --- | --- |
 | 作詞 / lyricist | meg rock | 正式参照なし | なし | meg rock |
 | 作曲 / composer | 齋藤真也 | 正式参照なし | なし | 齋藤真也 |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:19「空色デイズ」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:19 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:19 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-0d399ac6ae79d34cba41 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:19 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:19「空色デイズ」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:19 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:19 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-0d399ac6ae79d34cba41 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:19 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:19:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:19 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:19 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-0d399ac6ae79d34cba41 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:19 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:19:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:19「空色デイズ」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:19 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:19 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-0d399ac6ae79d34cba41 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:19 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | cr-0019 都丸椋太（表示 都丸椋太（Elements Garden）） / cr-0126 加納望（表示 加納望） | なし | なし |
 
 #### CREATOR_IDENTITY / lyricist / P2 / NEEDS_HUMAN
 
@@ -6464,314 +6348,18 @@ Creator候補: [b1-33c296b2593f25456547](HUMAN_TODO_BY_CREATOR.md#candidate-b1-3
   - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:19 / roles.composer； status=CONFIRMED； raw=齋藤真也； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=齋藤真也 [https://bang-dream.bushimo.jp/music/ / e-0d399ac6ae79d34cba41 / record / applicable]
   - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:19 / roles.composer； status=reviewed-package； raw=齋藤真也； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
 
-<a id="garupa-20"></a>
-### Garupa:20 Alchemy
-
-- [ ] Garupa:20「Alchemy」の下記回答を完了する
-
-game=Garupa / recordId=20 / band=Poppin'Party / workId=wk-0020 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 麻枝准 | cr-0106 麻枝准（表示 麻枝准） | なし | なし |
-| 作曲 / composer | 麻枝准 | cr-0106 麻枝准（表示 麻枝准） | なし | なし |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:20「Alchemy」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:20 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:20 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-64c71a84777cd20d2529 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:20 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:20「Alchemy」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:20 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:20 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-64c71a84777cd20d2529 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:20 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:20:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:20 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:20 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-64c71a84777cd20d2529 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:20 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:20:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:20「Alchemy」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:20 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:20 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-64c71a84777cd20d2529 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:20 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-21"></a>
-### Garupa:21 カルマ
-
-- [ ] Garupa:21「カルマ」の下記回答を完了する
-
-game=Garupa / recordId=21 / band=Afterglow / workId=wk-0021 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 藤原基央 | cr-0051 藤原基央（表示 藤原基央） | なし | なし |
-| 作曲 / composer | 藤原基央 | cr-0051 藤原基央（表示 藤原基央） | なし | なし |
-| 編曲 / arranger | 母里治樹（Elements Garden）/加納望 | 正式参照なし | 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。 | 母里治樹（Elements Garden）/加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:21「カルマ」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:21 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:21 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-453c707ed89ec7671c2d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:21 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:21「カルマ」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:21 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:21 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-453c707ed89ec7671c2d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:21 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
-
-理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:21 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:21 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-453c707ed89ec7671c2d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:21 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:21:arranger:SPLIT_REVIEW
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:21「カルマ」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:21 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:21 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-453c707ed89ec7671c2d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:21 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
 <a id="garupa-22"></a>
 ### Garupa:22 Butter-Fly
 
 - [ ] Garupa:22「Butter-Fly」の下記回答を完了する
 
-game=Garupa / recordId=22 / band=Afterglow / workId=wk-0022 / priority=P1
+game=Garupa / recordId=22 / band=Afterglow / workId=wk-0022 / priority=P2
 
 | role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
 | --- | --- | --- | --- | --- |
 | 作詞 / lyricist | 千綿偉功 | 正式参照なし | なし | 千綿偉功 |
 | 作曲 / composer | 千綿偉功 | 正式参照なし | なし | 千綿偉功 |
-| 編曲 / arranger | 母里治樹（Elements Garden）/加納望 | 正式参照なし | 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。 | 母里治樹（Elements Garden）/加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:22「Butter-Fly」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:22 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:22 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-3c1ce3608c42ff6b018d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:22 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:22「Butter-Fly」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:22 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:22 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-3c1ce3608c42ff6b018d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:22 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
-
-理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:22 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:22 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-3c1ce3608c42ff6b018d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:22 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:22:arranger:SPLIT_REVIEW
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:22「Butter-Fly」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:22 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:22 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-3c1ce3608c42ff6b018d / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:22 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+| 編曲 / arranger | 母里治樹（Elements Garden）/加納望 | cr-0119 母里治樹（表示 母里治樹（Elements Garden）） / cr-0126 加納望（表示 加納望） | なし | なし |
 
 #### CREATOR_IDENTITY / composer / P2 / NEEDS_HUMAN
 
@@ -6864,762 +6452,6 @@ Creator候補: [b1-01ca05ebdfc1dba3b944](HUMAN_TODO_BY_CREATOR.md#candidate-b1-0
   - data/garupa/songs.json； garupa:22 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
   - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:22 / roles.lyricist； status=CONFIRMED； raw=千綿偉功； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=千綿偉功 [https://bang-dream.bushimo.jp/music/ / e-3c1ce3608c42ff6b018d / record / applicable]
   - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:22 / roles.lyricist； status=reviewed-package； raw=千綿偉功； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-25"></a>
-### Garupa:25 魂のルフラン
-
-- [ ] Garupa:25「魂のルフラン」の下記回答を完了する
-
-game=Garupa / recordId=25 / band=Roselia / workId=wk-0025 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 及川眠子 | cr-0108 及川眠子（表示 及川眠子） | なし | なし |
-| 作曲 / composer | 大森俊之 | 正式参照なし | なし | 大森俊之 |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:25「魂のルフラン」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:25:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:25:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:25「魂のルフラン」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_IDENTITY / composer / P3 / NEEDS_HUMAN
-
-taskId: garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334
-
-raw: 大森俊之 / 主体token:「大森俊之」
-
-理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
-
-実行: raw「大森俊之」が Garupa:25「魂のルフラン」（Roselia）の作曲主体を指すことを確認し、大森俊之をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-ff110ed004deb3a8f334](HUMAN_TODO_BY_CREATOR.md#candidate-b1-ff110ed004deb3a8f334)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.composer； status=CONFIRMED； raw=大森俊之； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=大森俊之 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.composer； status=reviewed-package； raw=大森俊之； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / composer / P3 / NEEDS_HUMAN
-
-taskId: garupa:25:composer:CREATOR_REGISTRATION-b1-ff110ed004deb3a8f334
-
-raw: 大森俊之
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「大森俊之」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/作曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-ff110ed004deb3a8f334](HUMAN_TODO_BY_CREATOR.md#candidate-b1-ff110ed004deb3a8f334)
-
-先に回答するtask: garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334
-
-根拠:
-
-  - data/garupa/songs.json； garupa:25 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.composer； status=CONFIRMED； raw=大森俊之； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=大森俊之 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.composer； status=reviewed-package； raw=大森俊之； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-26"></a>
-### Garupa:26 Hacking to the Gate
-
-- [ ] Garupa:26「Hacking to the Gate」の下記回答を完了する
-
-game=Garupa / recordId=26 / band=Roselia / workId=wk-0026 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 志倉千代丸 | cr-0082 志倉千代丸（表示 志倉千代丸） | なし | なし |
-| 作曲 / composer | 志倉千代丸 | cr-0082 志倉千代丸（表示 志倉千代丸） | なし | なし |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:26「Hacking to the Gate」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:26 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:26 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-b14f11a16ce7cf13a014 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:26 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:26「Hacking to the Gate」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:26 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:26 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-b14f11a16ce7cf13a014 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:26 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:26:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:26 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:26 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-b14f11a16ce7cf13a014 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:26 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:26:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:26「Hacking to the Gate」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:26 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:26 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-b14f11a16ce7cf13a014 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:26 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-29"></a>
-### Garupa:29 Don’t say “lazy”
-
-- [ ] Garupa:29「Don’t say “lazy”」の下記回答を完了する
-
-game=Garupa / recordId=29 / band=Afterglow / workId=wk-0029 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 大森祥子 | cr-0100 大森祥子（表示 大森祥子） | なし | なし |
-| 作曲 / composer | 前澤寛之 | cr-0081 前澤寛之（表示 前澤寛之） | なし | なし |
-| 編曲 / arranger | 母里治樹（Elements Garden）/加納望 | 正式参照なし | 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。 | 母里治樹（Elements Garden）/加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:29「Don’t say “lazy”」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:29 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:29 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-688f0d30c470ac34aaeb / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:29 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:29「Don’t say “lazy”」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:29 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:29 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-688f0d30c470ac34aaeb / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:29 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
-
-raw: 母里治樹（Elements Garden）/加納望 / 主体token:「母里治樹（Elements Garden）」
-
-理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:29 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:29 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-688f0d30c470ac34aaeb / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:29 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:29:arranger:SPLIT_REVIEW
-
-raw: 母里治樹（Elements Garden）/加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:29「Don’t say “lazy”」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:29 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:29 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）/加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）/加納望 [https://bang-dream.bushimo.jp/music/ / e-688f0d30c470ac34aaeb / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:29 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）/加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-31"></a>
-### Garupa:31 光るなら
-
-- [ ] Garupa:31「光るなら」の下記回答を完了する
-
-game=Garupa / recordId=31 / band=Poppin'Party / workId=wk-0031 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | Goose house | 正式参照なし | なし | Goose house |
-| 作曲 / composer | Goose house | 正式参照なし | なし | Goose house |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:31「光るなら」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:31:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:31:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:31「光るなら」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_IDENTITY / composer / P3 / NEEDS_HUMAN
-
-taskId: garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50
-
-raw: Goose house / 主体token:「Goose house」
-
-理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
-
-実行: raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作曲主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.composer； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.composer； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / composer / P3 / NEEDS_HUMAN
-
-taskId: garupa:31:composer:CREATOR_REGISTRATION-b1-627e2799e99aef187f50
-
-raw: Goose house
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
-
-先に回答するtask: garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.composer； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.composer； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_IDENTITY / lyricist / P3 / NEEDS_HUMAN
-
-taskId: garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50
-
-raw: Goose house / 主体token:「Goose house」
-
-理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
-
-実行: raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作詞主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.lyricist； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.lyricist； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / lyricist / P3 / NEEDS_HUMAN
-
-taskId: garupa:31:lyricist:CREATOR_REGISTRATION-b1-627e2799e99aef187f50
-
-raw: Goose house
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作詞 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
-
-先に回答するtask: garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50
-
-根拠:
-
-  - data/garupa/songs.json； garupa:31 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.lyricist； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.lyricist； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-37"></a>
-### Garupa:37 ETERNAL BLAZE
-
-- [ ] Garupa:37「ETERNAL BLAZE」の下記回答を完了する
-
-game=Garupa / recordId=37 / band=Roselia / workId=wk-0037 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 水樹奈々 | cr-0104 水樹奈々（表示 水樹奈々） | なし | なし |
-| 作曲 / composer | 上松範康（Elements Garden） | cr-0001 上松範康（表示 上松範康（Elements Garden）） | なし | なし |
-| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | 正式参照なし | 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 都丸椋太（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:37「ETERNAL BLAZE」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:37 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:37 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-ae306f36893d4c8a96a0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:37 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:37「ETERNAL BLAZE」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:37 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:37 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-ae306f36893d4c8a96a0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:37 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:37:arranger:ROLE_REVIEW-cr-0019
-
-raw: 都丸椋太（Elements Garden）／加納望 / 主体token:「都丸椋太（Elements Garden）」
-
-理由: identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:37 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:37 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-ae306f36893d4c8a96a0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:37 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:37:arranger:SPLIT_REVIEW
-
-raw: 都丸椋太（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:37「ETERNAL BLAZE」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [cr-0019](HUMAN_TODO_BY_CREATOR.md#candidate-cr-0019) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:37 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:37 / roles.arranger； status=CONFIRMED； raw=都丸椋太（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=都丸椋太（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-ae306f36893d4c8a96a0 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:37 / roles.arranger； status=reviewed-package； raw=都丸椋太（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-<a id="garupa-40"></a>
-### Garupa:40 Little Busters!
-
-- [ ] Garupa:40「Little Busters!」の下記回答を完了する
-
-game=Garupa / recordId=40 / band=Poppin'Party / workId=wk-0040 / priority=P1
-
-| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
-| --- | --- | --- | --- | --- |
-| 作詞 / lyricist | 麻枝准 | cr-0106 麻枝准（表示 麻枝准） | なし | なし |
-| 作曲 / composer | 麻枝准 | cr-0106 麻枝准（表示 麻枝准） | なし | なし |
-| 編曲 / arranger | 母里治樹（Elements Garden）／加納望 | 正式参照なし | 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。 | 母里治樹（Elements Garden）／加納望 |
-
-#### CREATOR_IDENTITY / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）／加納望 / 主体token:「加納望」
-
-理由: ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。
-
-実行: raw「加納望」が Garupa:40「Little Busters!」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
-
-完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:40 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:40 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-16da33d70b9090f88004 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:40 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### CREATOR_REGISTRATION / arranger / P1 / NEEDS_HUMAN
-
-taskId: garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330
-
-raw: 母里治樹（Elements Garden）／加納望
-
-理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
-
-実行: 「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:40「Little Busters!」/編曲 への適用範囲を記録する。
-
-完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-先に回答するtask: garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330
-
-根拠:
-
-  - data/garupa/songs.json； garupa:40 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:40 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-16da33d70b9090f88004 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:40 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### ROLE_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb
-
-raw: 母里治樹（Elements Garden）／加納望 / 主体token:「母里治樹（Elements Garden）」
-
-理由: identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。
-
-実行: 既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。
-
-完了条件: この曲・担当・位置の一次根拠と既存ID対応を回答済み。
-
-回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:40 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:40 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-16da33d70b9090f88004 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:40 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
-
-#### SPLIT_REVIEW / arranger / P2 / NEEDS_HUMAN
-
-taskId: garupa:40:arranger:SPLIT_REVIEW
-
-raw: 母里治樹（Elements Garden）／加納望
-
-理由: 過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。
-
-実行: Garupa:40「Little Busters!」（Poppin'Party）/編曲 のraw「母里治樹（Elements Garden）／加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。
-
-完了条件: confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。
-
-回答欄: confirmedParts: 未収集/未決定； keepWholeAsSingleCreator: 未収集/未決定； creatorIdsOrCandidateKeys: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
-
-Creator候補: [b1-d43891f53862909d7abb](HUMAN_TODO_BY_CREATOR.md#candidate-b1-d43891f53862909d7abb) / [b1-e8ea1c155638e47d4330](HUMAN_TODO_BY_CREATOR.md#candidate-b1-e8ea1c155638e47d4330)
-
-根拠:
-
-  - data/garupa/songs.json； garupa:40 / arranger； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
-  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:40 / roles.arranger； status=CONFIRMED； raw=母里治樹（Elements Garden）／加納望； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=母里治樹（Elements Garden）／加納望 [https://bang-dream.bushimo.jp/music/ / e-16da33d70b9090f88004 / record / applicable]
-  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:40 / roles.arranger； status=reviewed-package； raw=母里治樹（Elements Garden）／加納望； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
 
 <a id="garupa-24"></a>
 ### Garupa:24 ドリームパレード
@@ -22163,6 +20995,170 @@ Creator候補: [b1-5daf7521e275422c1a63](HUMAN_TODO_BY_CREATOR.md#candidate-b1-5
   - data/garupa/songs.json； garupa:23 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
   - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:23 / roles.lyricist； status=CONFIRMED； raw=町田紀彦； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=町田紀彦 [https://bang-dream.bushimo.jp/music/ / e-5702e6f4d3a029c34177 / record / applicable]
   - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:23 / roles.lyricist； status=reviewed-package； raw=町田紀彦； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+<a id="garupa-25"></a>
+### Garupa:25 魂のルフラン
+
+- [ ] Garupa:25「魂のルフラン」の下記回答を完了する
+
+game=Garupa / recordId=25 / band=Roselia / workId=wk-0025 / priority=P3
+
+| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
+| --- | --- | --- | --- | --- |
+| 作詞 / lyricist | 及川眠子 | cr-0108 及川眠子（表示 及川眠子） | なし | なし |
+| 作曲 / composer | 大森俊之 | 正式参照なし | なし | 大森俊之 |
+| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | cr-0019 都丸椋太（表示 都丸椋太（Elements Garden）） / cr-0126 加納望（表示 加納望） | なし | なし |
+
+#### CREATOR_IDENTITY / composer / P3 / NEEDS_HUMAN
+
+taskId: garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334
+
+raw: 大森俊之 / 主体token:「大森俊之」
+
+理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
+
+実行: raw「大森俊之」が Garupa:25「魂のルフラン」（Roselia）の作曲主体を指すことを確認し、大森俊之をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
+
+完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
+
+Creator候補: [b1-ff110ed004deb3a8f334](HUMAN_TODO_BY_CREATOR.md#candidate-b1-ff110ed004deb3a8f334)
+
+根拠:
+
+  - data/garupa/songs.json； garupa:25 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.composer； status=CONFIRMED； raw=大森俊之； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=大森俊之 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.composer； status=reviewed-package； raw=大森俊之； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+#### CREATOR_REGISTRATION / composer / P3 / NEEDS_HUMAN
+
+taskId: garupa:25:composer:CREATOR_REGISTRATION-b1-ff110ed004deb3a8f334
+
+raw: 大森俊之
+
+理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
+
+実行: 「大森俊之」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/作曲 への適用範囲を記録する。
+
+完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
+
+Creator候補: [b1-ff110ed004deb3a8f334](HUMAN_TODO_BY_CREATOR.md#candidate-b1-ff110ed004deb3a8f334)
+
+先に回答するtask: garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334
+
+根拠:
+
+  - data/garupa/songs.json； garupa:25 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:25 / roles.composer； status=CONFIRMED； raw=大森俊之； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=大森俊之 [https://bang-dream.bushimo.jp/music/ / e-db1372ced6f7205855bd / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:25 / roles.composer； status=reviewed-package； raw=大森俊之； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+<a id="garupa-31"></a>
+### Garupa:31 光るなら
+
+- [ ] Garupa:31「光るなら」の下記回答を完了する
+
+game=Garupa / recordId=31 / band=Poppin'Party / workId=wk-0031 / priority=P3
+
+| role | current raw | 現行formal Creator | identity確認済み・欄全体未ID化 | unresolved表示部分 |
+| --- | --- | --- | --- | --- |
+| 作詞 / lyricist | Goose house | 正式参照なし | なし | Goose house |
+| 作曲 / composer | Goose house | 正式参照なし | なし | Goose house |
+| 編曲 / arranger | 都丸椋太（Elements Garden）／加納望 | cr-0019 都丸椋太（表示 都丸椋太（Elements Garden）） / cr-0126 加納望（表示 加納望） | なし | なし |
+
+#### CREATOR_IDENTITY / composer / P3 / NEEDS_HUMAN
+
+taskId: garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50
+
+raw: Goose house / 主体token:「Goose house」
+
+理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
+
+実行: raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作曲主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
+
+完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
+
+Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
+
+根拠:
+
+  - data/garupa/songs.json； garupa:31 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.composer； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.composer； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+#### CREATOR_REGISTRATION / composer / P3 / NEEDS_HUMAN
+
+taskId: garupa:31:composer:CREATOR_REGISTRATION-b1-627e2799e99aef187f50
+
+raw: Goose house
+
+理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
+
+実行: 「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作曲 への適用範囲を記録する。
+
+完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
+
+Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
+
+先に回答するtask: garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50
+
+根拠:
+
+  - data/garupa/songs.json； garupa:31 / composer； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.composer； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.composer； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+#### CREATOR_IDENTITY / lyricist / P3 / NEEDS_HUMAN
+
+taskId: garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50
+
+raw: Goose house / 主体token:「Goose house」
+
+理由: 一次identity情報不足。原文role以外の同一性・typeを断定しない。
+
+実行: raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作詞主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。
+
+完了条件: 対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定； gameCreditDisplay: 未収集/未決定； roleConfirmed: 未収集/未決定
+
+Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
+
+根拠:
+
+  - data/garupa/songs.json； garupa:31 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.lyricist； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.lyricist； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
+
+#### CREATOR_REGISTRATION / lyricist / P3 / NEEDS_HUMAN
+
+taskId: garupa:31:lyricist:CREATOR_REGISTRATION-b1-627e2799e99aef187f50
+
+raw: Goose house
+
+理由: 現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。
+
+実行: 「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作詞 への適用範囲を記録する。
+
+完了条件: identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。
+
+回答欄: identityConfirmed: 未収集/未決定； samePersonAs: 未収集/未決定； standardName: 未収集/未決定； reading: 未収集/未決定； sortKey: 未収集/未決定； slug: 未収集/未決定； type: 未収集/未決定； aliases: 未収集/未決定； affiliation: 未収集/未決定； checkedAt: 未収集/未決定； sourceNote: 未収集/未決定； notes: 未収集/未決定
+
+Creator候補: [b1-627e2799e99aef187f50](HUMAN_TODO_BY_CREATOR.md#candidate-b1-627e2799e99aef187f50)
+
+先に回答するtask: garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50
+
+根拠:
+
+  - data/garupa/songs.json； garupa:31 / lyricist； status=current-repository； raw=； reason=； checkedAt=未収集/未決定
+  - docs/migrations/credits-phase-a-2026-10-03/credit-research.json； garupa:31 / roles.lyricist； status=CONFIRMED； raw=Goose house； reason=一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。； checkedAt=未収集/未決定； URLs=https://bang-dream.bushimo.jp/music/； variants=Goose house [https://bang-dream.bushimo.jp/music/ / e-2abae0d91a13963aa1f0 / record / applicable]
+  - docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json； garupa:31 / roles.lyricist； status=reviewed-package； raw=Goose house； reason=splitまたはidentityが未確定； checkedAt=未収集/未決定
 
 <a id="garupa-35"></a>
 ### Garupa:35 そばかす

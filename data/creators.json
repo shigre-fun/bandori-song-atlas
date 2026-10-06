@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 126,
+  "nextId": 127,
   "creators": [
     {
       "id": "cr-0001",
@@ -1350,6 +1350,16 @@
       "type": "person",
       "reading": "かんざきいおり",
       "sortKey": "かんざきいおり",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0126",
+      "name": "加納望",
+      "slug": "nozomu-kanow",
+      "type": "person",
+      "reading": "かのうのぞむ",
+      "sortKey": "かのうのぞむ",
       "sortKeyStatus": "confirmed",
       "aliases": []
     }

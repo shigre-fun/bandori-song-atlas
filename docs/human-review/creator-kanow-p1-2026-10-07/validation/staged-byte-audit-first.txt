@@ -1,0 +1,23 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Staged source data/garupa/admin-state.json
++ actual - expected
+
++ '44ee983dcbca08e0c888e33820eca2030b754e35310c2da11a789732514174a5'
+- 'dc47c2a3b0a0c6519995bb696bb933f8fba14312aea3c03c035bdb928e8c842d'
+
+    at file:///C:/MyProgramming/BangDream_Website/.cache/p1-staged-audit.mjs:9:62
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '44ee983dcbca08e0c888e33820eca2030b754e35310c2da11a789732514174a5',
+  expected: 'dc47c2a3b0a0c6519995bb696bb933f8fba14312aea3c03c035bdb928e8c842d',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

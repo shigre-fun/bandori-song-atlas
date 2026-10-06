@@ -1,0 +1,139 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 125,
+  "currentWorkCount": 823,
+  "currentNextId": 126,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 338,
+  "totalSongTasks": 1345,
+  "totalCreatorCandidates": 345,
+  "threePlusRecordCreators": 10,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 283,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 13,
+  "unregisteredCreatorCandidates": 332,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 63,
+  "currentRawSplitReviewTasks": 63,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 532,
+    "CREATOR_REGISTRATION": 532,
+    "SPLIT_REVIEW": 63,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 78,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 605,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1604,
+  "excludedResolvedSourceEntries": 218,
+  "unmappedCurrentUnresolved": 0
+}
+✔ every current missing credit has a complete task; historical resolved entries stay excluded (573.7402ms)
+✔ manual OurNotes chapter lists every live empty arranger once, including newest record and exact input fields (53.6456ms)
+✔ single-record subjects and short names are fully scoped; known 植木, unknown 冬真 and their boundary remain separate (23.5919ms)
+✔ conflicting release-only arranger variants preserve game collection and blocked split dependencies (0.3317ms)
+✔ completeness verifier rejects an omitted latest record (511.0908ms)
+✔ completeness verifier rejects a removed subject even when all dangling links and its identity tasks are removed (140.2016ms)
+✔ completeness verifier rejects a forgotten conditional split even when its parent collection remains (641.7376ms)
+✔ a new current record absent from migrations receives collection and a new record-scoped identity candidate (1676.9389ms)
+✔ answer protection refuses JSON answers, ready status, checked Markdown and edits with unchecked boxes (87.4714ms)
+✖ repeated generation preserves every artifact byte and all source data (4202.6236ms)
+✔ all 81 game arranger answers, duplicate 86, curly opening quotes and empty human fields are preserved (2.4991ms)
+✔ game raw and creditDisplay retain every exact byte and participant order (1.8626ms)
+✔ only exact approved aliases produce formal IDs; unknown names and Kanji variants cannot register or merge (1.0066ms)
+✔ unanswered arrangement relations remain tasks even for fully resolved formal game credits (0.4132ms)
+✔ new game participants are full identity/registration todos; old conditional release tasks are removed (621.4185ms)
+✔ Kanzaki supplied metadata and five identity answers are retained while missing fields block registration (0.3962ms)
+✔ field patch preserves all unrelated values, pre-existing roles, Works, metadata, IDs and intentional administrator edits (19.8193ms)
+✔ completeness checks reject deleting new identity or a version task whose formal game raw is already resolved (721.7307ms)
+✔ applying the same reviewed fields to applied output performs zero structural writes (195.9922ms)
+✔ interrupted generation accepts only exact expected bytes and still protects every other edit (32.9959ms)
+✔ all old P0 task IDs and resolutions retain provenance and valid pending task links (42.6833ms)
+{
+  "mode": "verify",
+  "alreadyApplied": true,
+  "changedFiles": 0,
+  "creatorId": "cr-0125",
+  "slug": "iori-kanzaki",
+  "creatorCount": 125,
+  "nextId": 126,
+  "relations": 6
+}
+✔ explicit none and user-approved evidence omission are distinct from missing answers (2.3712ms)
+✔ new fixed ID and metadata append preserves every existing Creator and unrelated source byte (152.2314ms)
+✔ parallel publication retains three administrator edits and refuses an unreviewed credit overwrite (40.7073ms)
+✔ only six approved songwriter bindings change; exact raw and existing arranger order remain (33.0749ms)
+✔ scope substitutions, changed recording evidence, occupied IDs and historical slug reuse reject (54.105ms)
+✔ repeated registration produces identical bytes and zero structural edits (227.9512ms)
+✔ current ledger removes resolved identity and registration tasks while keeping all 39 version reviews (622.5558ms)
+✔ independent verification detects lost bindings, extra roles, and altered registration metadata (3508.8729ms)
+✔ immutable original P0 and research evidence remains byte-verified after registration (1035.8911ms)
+✔ every prior task remains mapped or resolved by this explicit registration (67.3601ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 30
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14529.6342
+
+✖ failing tests:
+
+test at tests\research\creator-credit-human-todo.test.mjs:388:1
+✖ repeated generation preserves every artifact byte and all source data (4202.6236ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.json': '39ed0eac1fa7b130affd7c40d3d05a514d9109a121b8b8e1767846a8ba964405',
+  +   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.md': 'f72aa0d4e3e8608452df61d4fa76cacfdbc29c6254836b3aef9fe8c7bf46590b',
+  +   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.json': '8e48e7fcca13f14c77c932e5483ed8bf84d91e41dcf7b854913e01a1c3eb05f2',
+  +   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.md': 'f6717936eb7b8886791d1818453500063046ba8be28bf7b8555540a4396a678e',
+  -   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.json': 'b650a92faf73843d0d1e8066288ecfaf8de11cea50701f1f5265e50c61b988cc',
+  -   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.md': 'ca569dcd5cfcfc8c83eb2af8c3134cf4bccf30bb134a0939ad2239cd007a3576',
+  -   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.json': '408f1d85be6d3ee266d2b71488fa263566e3244feb4639aa86e934caa0b15cf3',
+  -   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.md': '4013523a9113521863d7c7fe1bb1375e14056e42e91c4288efeb4431327a7597',
+      'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_SUMMARY.md': '07834cb890e3518cb2a710dad7971639f8bdeb056abd37586d1f064e63693720',
+  +   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_VERIFICATION.json': '480a1f88dccf744439ac4c17c576feba275ed326da261f8465cf59970fe94c75',
+  +   'docs\\todo\\creator-credit-human-review\\README.md': 'c343b9d46b3ff34117370c80efa4bb0707dccb056b8c447f3d384e9b8d7f2fcb'
+  -   'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_VERIFICATION.json': '3499a8e1cd824811fed4e10e512e37f6b7d0c8cbe1029db7dc2ad5b2a5c079e1',
+  -   'docs\\todo\\creator-credit-human-review\\README.md': 'c9884458f56eff89c702a86b1b1d3b5d47af0d46a911063d8784ce9d44c669f6'
+    }
+  
+      at TestContext.<anonymous> (file:///C:/MyProgramming/BangDream_Website/.cache/creator-review-regression/tests/research/creator-credit-human-todo.test.mjs:393:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.json': '39ed0eac1fa7b130affd7c40d3d05a514d9109a121b8b8e1767846a8ba964405', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.md': 'f72aa0d4e3e8608452df61d4fa76cacfdbc29c6254836b3aef9fe8c7bf46590b', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.json': '8e48e7fcca13f14c77c932e5483ed8bf84d91e41dcf7b854913e01a1c3eb05f2', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.md': 'f6717936eb7b8886791d1818453500063046ba8be28bf7b8555540a4396a678e', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_SUMMARY.md': '07834cb890e3518cb2a710dad7971639f8bdeb056abd37586d1f064e63693720', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_VERIFICATION.json': '480a1f88dccf744439ac4c17c576feba275ed326da261f8465cf59970fe94c75', 'docs\\todo\\creator-credit-human-review\\README.md': 'c343b9d46b3ff34117370c80efa4bb0707dccb056b8c447f3d384e9b8d7f2fcb' },
+    expected: { 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.json': 'b650a92faf73843d0d1e8066288ecfaf8de11cea50701f1f5265e50c61b988cc', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_CREATOR.md': 'ca569dcd5cfcfc8c83eb2af8c3134cf4bccf30bb134a0939ad2239cd007a3576', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.json': '408f1d85be6d3ee266d2b71488fa263566e3244feb4639aa86e934caa0b15cf3', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_BY_SONG.md': '4013523a9113521863d7c7fe1bb1375e14056e42e91c4288efeb4431327a7597', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_SUMMARY.md': '07834cb890e3518cb2a710dad7971639f8bdeb056abd37586d1f064e63693720', 'docs\\todo\\creator-credit-human-review\\HUMAN_TODO_VERIFICATION.json': '3499a8e1cd824811fed4e10e512e37f6b7d0c8cbe1029db7dc2ad5b2a5c079e1', 'docs\\todo\\creator-credit-human-review\\README.md': 'c9884458f56eff89c702a86b1b1d3b5d47af0d46a911063d8784ce9d44c669f6' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+file:///C:/MyProgramming/BangDream_Website/scripts/migrations/creator-review-regression.mjs:41
+      : reject(new Error("Prior review regression exited " + code)),
+               ^
+
+Error: Prior review regression exited 1
+    at ChildProcess.<anonymous> (file:///C:/MyProgramming/BangDream_Website/scripts/migrations/creator-review-regression.mjs:41:16)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

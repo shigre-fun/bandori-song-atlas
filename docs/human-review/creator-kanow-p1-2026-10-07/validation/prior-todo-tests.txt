@@ -1,0 +1,175 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 125,
+  "currentWorkCount": 823,
+  "currentNextId": 126,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 338,
+  "totalSongTasks": 1345,
+  "totalCreatorCandidates": 345,
+  "threePlusRecordCreators": 10,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 283,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 13,
+  "unregisteredCreatorCandidates": 332,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 63,
+  "currentRawSplitReviewTasks": 63,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 532,
+    "CREATOR_REGISTRATION": 532,
+    "SPLIT_REVIEW": 63,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 78,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 605,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1604,
+  "excludedResolvedSourceEntries": 218,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 125,
+  "currentWorkCount": 823,
+  "currentNextId": 126,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 338,
+  "totalSongTasks": 1345,
+  "totalCreatorCandidates": 345,
+  "threePlusRecordCreators": 10,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 283,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 13,
+  "unregisteredCreatorCandidates": 332,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 63,
+  "currentRawSplitReviewTasks": 63,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 532,
+    "CREATOR_REGISTRATION": 532,
+    "SPLIT_REVIEW": 63,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 78,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 605,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1604,
+  "excludedResolvedSourceEntries": 218,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "mode": "verify",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 125,
+  "currentWorkCount": 823,
+  "currentNextId": 126,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 338,
+  "totalSongTasks": 1345,
+  "totalCreatorCandidates": 345,
+  "threePlusRecordCreators": 10,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 283,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 13,
+  "unregisteredCreatorCandidates": 332,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 63,
+  "currentRawSplitReviewTasks": 63,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 532,
+    "CREATOR_REGISTRATION": 532,
+    "SPLIT_REVIEW": 63,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 78,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 605,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1604,
+  "excludedResolvedSourceEntries": 218,
+  "unmappedCurrentUnresolved": 0
+}
+✔ every current missing credit has a complete task; historical resolved entries stay excluded (689.8244ms)
+✔ manual OurNotes chapter lists every live empty arranger once, including newest record and exact input fields (90.5492ms)
+✔ single-record subjects and short names are fully scoped; known 植木, unknown 冬真 and their boundary remain separate (27.1888ms)
+✔ conflicting release-only arranger variants preserve game collection and blocked split dependencies (0.351ms)
+✔ completeness verifier rejects an omitted latest record (611.7235ms)
+✔ completeness verifier rejects a removed subject even when all dangling links and its identity tasks are removed (144.0458ms)
+✔ completeness verifier rejects a forgotten conditional split even when its parent collection remains (813.9303ms)
+✔ a new current record absent from migrations receives collection and a new record-scoped identity candidate (1884.0489ms)
+✔ answer protection refuses JSON answers, ready status, checked Markdown and edits with unchecked boxes (45.4983ms)
+✔ repeated generation preserves every artifact byte and all source data (7467.1046ms)
+✔ all 81 game arranger answers, duplicate 86, curly opening quotes and empty human fields are preserved (2.6071ms)
+✔ game raw and creditDisplay retain every exact byte and participant order (3.8476ms)
+✔ only exact approved aliases produce formal IDs; unknown names and Kanji variants cannot register or merge (1.1269ms)
+✔ unanswered arrangement relations remain tasks even for fully resolved formal game credits (0.4334ms)
+✔ new game participants are full identity/registration todos; old conditional release tasks are removed (834.5509ms)
+✔ Kanzaki supplied metadata and five identity answers are retained while missing fields block registration (0.4248ms)
+✔ field patch preserves all unrelated values, pre-existing roles, Works, metadata, IDs and intentional administrator edits (27.8409ms)
+✔ completeness checks reject deleting new identity or a version task whose formal game raw is already resolved (890.1194ms)
+✔ applying the same reviewed fields to applied output performs zero structural writes (272.9394ms)
+✔ interrupted generation accepts only exact expected bytes and still protects every other edit (33.1855ms)
+✔ all old P0 task IDs and resolutions retain provenance and valid pending task links (54.272ms)
+{
+  "mode": "verify",
+  "alreadyApplied": true,
+  "changedFiles": 0,
+  "creatorId": "cr-0125",
+  "slug": "iori-kanzaki",
+  "creatorCount": 125,
+  "nextId": 126,
+  "relations": 6
+}
+✔ explicit none and user-approved evidence omission are distinct from missing answers (2.8971ms)
+✔ new fixed ID and metadata append preserves every existing Creator and unrelated source byte (187.7218ms)
+✔ parallel publication retains three administrator edits and refuses an unreviewed credit overwrite (73.0629ms)
+✔ only six approved songwriter bindings change; exact raw and existing arranger order remain (54.799ms)
+✔ scope substitutions, changed recording evidence, occupied IDs and historical slug reuse reject (79.516ms)
+✔ repeated registration produces identical bytes and zero structural edits (230.6267ms)
+✔ current ledger removes resolved identity and registration tasks while keeping all 39 version reviews (917.3557ms)
+✔ independent verification detects lost bindings, extra roles, and altered registration metadata (3849.7615ms)
+✔ immutable original P0 and research evidence remains byte-verified after registration (1078.0485ms)
+✔ every prior task remains mapped or resolved by this explicit registration (72.125ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14333.2183

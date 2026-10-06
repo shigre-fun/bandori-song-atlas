@@ -1,0 +1,4 @@
+scripts/migrations/register-kanow-creator.mjs: syntax PASS
+scripts/migrations/creator-review-regression.mjs: syntax PASS
+scripts/research/creator-credit-human-todo.mjs: syntax PASS
+tests/research/creator-kanow-registration.test.mjs: syntax PASS

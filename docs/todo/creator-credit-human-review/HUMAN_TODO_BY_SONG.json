@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "sourceHead": "fc747dc0cbc8939daea54e781ec1ca841d3331ca",
+  "sourceHead": "e014091046bab48008084a5fa9f01076c5a9f693",
   "sourceDataHashes": {
-    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
-    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/garupa/songs.json": "b2605bc55e5a4898644d3527cccd6a630d02ab949573acd99aa7703b7a9e4c99",
     "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9"
   },
   "records": [
@@ -19016,314 +19016,24 @@
         "arranger": {
           "raw": "都丸椋太（Elements Garden）／加納望",
           "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
+          "resolvedCreators": [
+            {
+              "creatorId": "cr-0019",
+              "name": "都丸椋太",
+              "displayedText": "都丸椋太（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0126",
+              "name": "加納望",
+              "displayedText": "加納望"
+            }
           ],
+          "unresolvedParts": [],
           "empty": false,
-          "pending": true
+          "pending": false
         }
       },
       "tasks": [
-        {
-          "taskId": "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:19「空色デイズ」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:19 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-0d399ac6ae79d34cba41",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:19「空色デイズ」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:19 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-0d399ac6ae79d34cba41",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:19 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-0d399ac6ae79d34cba41",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:19:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:19「空色デイズ」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:19 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-0d399ac6ae79d34cba41",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:19 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        },
         {
           "taskId": "garupa:19:lyricist:CREATOR_IDENTITY-b1-071012322fa1f3f02fab",
           "category": "CREATOR_IDENTITY",
@@ -19633,707 +19343,7 @@
           "remainingCreatorFields": null
         }
       ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 20,
-      "title": "Alchemy",
-      "band": "Poppin'Party",
-      "workId": "wk-0020",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "麻枝准",
-          "displayedText": "麻枝准",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0106",
-              "name": "麻枝准",
-              "displayedText": "麻枝准"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "麻枝准",
-          "displayedText": "麻枝准",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0106",
-              "name": "麻枝准",
-              "displayedText": "麻枝准"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:20「Alchemy」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:20 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-64c71a84777cd20d2529",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:20「Alchemy」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:20 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-64c71a84777cd20d2529",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:20 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-64c71a84777cd20d2529",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:20:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:20「Alchemy」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:20 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-64c71a84777cd20d2529",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:20 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 21,
-      "title": "カルマ",
-      "band": "Afterglow",
-      "workId": "wk-0021",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "藤原基央",
-          "displayedText": "藤原基央",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0051",
-              "name": "藤原基央",
-              "displayedText": "藤原基央"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "藤原基央",
-          "displayedText": "藤原基央",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0051",
-              "name": "藤原基央",
-              "displayedText": "藤原基央"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "displayedText": "母里治樹（Elements Garden）/加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "母里治樹（Elements Garden）/加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:21「カルマ」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:21 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-453c707ed89ec7671c2d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:21「カルマ」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:21 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-453c707ed89ec7671c2d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "b1-d43891f53862909d7abb",
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:21 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-453c707ed89ec7671c2d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "母里治樹（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:21:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:21「カルマ」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:21 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-453c707ed89ec7671c2d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:21 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
+      "priority": "P2"
     },
     {
       "game": "garupa",
@@ -20366,314 +19376,24 @@
         "arranger": {
           "raw": "母里治樹（Elements Garden）/加納望",
           "displayedText": "母里治樹（Elements Garden）/加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "母里治樹（Elements Garden）/加納望"
+          "resolvedCreators": [
+            {
+              "creatorId": "cr-0119",
+              "name": "母里治樹",
+              "displayedText": "母里治樹（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0126",
+              "name": "加納望",
+              "displayedText": "加納望"
+            }
           ],
+          "unresolvedParts": [],
           "empty": false,
-          "pending": true
+          "pending": false
         }
       },
       "tasks": [
-        {
-          "taskId": "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:22「Butter-Fly」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:22 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-3c1ce3608c42ff6b018d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:22「Butter-Fly」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:22 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-3c1ce3608c42ff6b018d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "b1-d43891f53862909d7abb",
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:22 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-3c1ce3608c42ff6b018d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "母里治樹（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:22:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:22「Butter-Fly」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:22 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-3c1ce3608c42ff6b018d",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:22 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        },
         {
           "taskId": "garupa:22:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
           "category": "CREATOR_IDENTITY",
@@ -20983,2557 +19703,7 @@
           "remainingCreatorFields": null
         }
       ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 25,
-      "title": "魂のルフラン",
-      "band": "Roselia",
-      "workId": "wk-0025",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "及川眠子",
-          "displayedText": "及川眠子",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0108",
-              "name": "及川眠子",
-              "displayedText": "及川眠子"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "大森俊之",
-          "displayedText": "大森俊之",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "大森俊之"
-          ],
-          "empty": false,
-          "pending": true
-        },
-        "arranger": {
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:25「魂のルフラン」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:25:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:25「魂のルフラン」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        },
-        {
-          "taskId": "garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334",
-          "category": "CREATOR_IDENTITY",
-          "role": "composer",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "大森俊之",
-          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
-          "action": "raw「大森俊之」が Garupa:25「魂のルフラン」（Roselia）の作曲主体を指すことを確認し、大森俊之をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-ff110ed004deb3a8f334",
-          "creatorCandidateKeys": [
-            "b1-ff110ed004deb3a8f334"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / composer",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.composer",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "大森俊之",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "大森俊之",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.composer",
-              "sourceType": "reviewed-package",
-              "raw": "大森俊之",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "大森俊之",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:25:composer:CREATOR_REGISTRATION-b1-ff110ed004deb3a8f334",
-          "category": "CREATOR_REGISTRATION",
-          "role": "composer",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "大森俊之",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「大森俊之」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/作曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-ff110ed004deb3a8f334",
-          "creatorCandidateKeys": [
-            "b1-ff110ed004deb3a8f334"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:25 / composer",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:25 / roles.composer",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "大森俊之",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "大森俊之",
-                  "evidenceId": "e-db1372ced6f7205855bd",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:25 / roles.composer",
-              "sourceType": "reviewed-package",
-              "raw": "大森俊之",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 26,
-      "title": "Hacking to the Gate",
-      "band": "Roselia",
-      "workId": "wk-0026",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "志倉千代丸",
-          "displayedText": "志倉千代丸",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0082",
-              "name": "志倉千代丸",
-              "displayedText": "志倉千代丸"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "志倉千代丸",
-          "displayedText": "志倉千代丸",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0082",
-              "name": "志倉千代丸",
-              "displayedText": "志倉千代丸"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:26「Hacking to the Gate」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:26 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-b14f11a16ce7cf13a014",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:26「Hacking to the Gate」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:26 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-b14f11a16ce7cf13a014",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:26 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-b14f11a16ce7cf13a014",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:26:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:26「Hacking to the Gate」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:26 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-b14f11a16ce7cf13a014",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:26 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 29,
-      "title": "Don’t say “lazy”",
-      "band": "Afterglow",
-      "workId": "wk-0029",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "大森祥子",
-          "displayedText": "大森祥子",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0100",
-              "name": "大森祥子",
-              "displayedText": "大森祥子"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "前澤寛之",
-          "displayedText": "前澤寛之",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0081",
-              "name": "前澤寛之",
-              "displayedText": "前澤寛之"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "displayedText": "母里治樹（Elements Garden）/加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "母里治樹（Elements Garden）/加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:29「Don’t say “lazy”」（Afterglow）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:29 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-688f0d30c470ac34aaeb",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:29「Don’t say “lazy”」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:29 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-688f0d30c470ac34aaeb",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）/加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "b1-d43891f53862909d7abb",
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:29 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-688f0d30c470ac34aaeb",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "母里治樹（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:29:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）/加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:29「Don’t say “lazy”」（Afterglow）/編曲 のraw「母里治樹（Elements Garden）/加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:29 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）/加納望",
-                  "evidenceId": "e-688f0d30c470ac34aaeb",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:29 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）/加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 31,
-      "title": "光るなら",
-      "band": "Poppin'Party",
-      "workId": "wk-0031",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "Goose house",
-          "displayedText": "Goose house",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "Goose house"
-          ],
-          "empty": false,
-          "pending": true
-        },
-        "composer": {
-          "raw": "Goose house",
-          "displayedText": "Goose house",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "Goose house"
-          ],
-          "empty": false,
-          "pending": true
-        },
-        "arranger": {
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:31「光るなら」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:31:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:31「光るなら」（Poppin'Party）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        },
-        {
-          "taskId": "garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50",
-          "category": "CREATOR_IDENTITY",
-          "role": "composer",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "Goose house",
-          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
-          "action": "raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作曲主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-627e2799e99aef187f50",
-          "creatorCandidateKeys": [
-            "b1-627e2799e99aef187f50"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / composer",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.composer",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "Goose house",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "Goose house",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.composer",
-              "sourceType": "reviewed-package",
-              "raw": "Goose house",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "Goose house",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:31:composer:CREATOR_REGISTRATION-b1-627e2799e99aef187f50",
-          "category": "CREATOR_REGISTRATION",
-          "role": "composer",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "Goose house",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-627e2799e99aef187f50",
-          "creatorCandidateKeys": [
-            "b1-627e2799e99aef187f50"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / composer",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.composer",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "Goose house",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "Goose house",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.composer",
-              "sourceType": "reviewed-package",
-              "raw": "Goose house",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50",
-          "category": "CREATOR_IDENTITY",
-          "role": "lyricist",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "Goose house",
-          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
-          "action": "raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作詞主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-627e2799e99aef187f50",
-          "creatorCandidateKeys": [
-            "b1-627e2799e99aef187f50"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / lyricist",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.lyricist",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "Goose house",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "Goose house",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.lyricist",
-              "sourceType": "reviewed-package",
-              "raw": "Goose house",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "Goose house",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:31:lyricist:CREATOR_REGISTRATION-b1-627e2799e99aef187f50",
-          "category": "CREATOR_REGISTRATION",
-          "role": "lyricist",
-          "priority": "P3",
-          "status": "NEEDS_HUMAN",
-          "raw": "Goose house",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作詞 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-627e2799e99aef187f50",
-          "creatorCandidateKeys": [
-            "b1-627e2799e99aef187f50"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:31 / lyricist",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:31 / roles.lyricist",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "Goose house",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "Goose house",
-                  "evidenceId": "e-2abae0d91a13963aa1f0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:31 / roles.lyricist",
-              "sourceType": "reviewed-package",
-              "raw": "Goose house",
-              "splitStatus": "CONFIRMED_SINGLE",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 37,
-      "title": "ETERNAL BLAZE",
-      "band": "Roselia",
-      "workId": "wk-0037",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "水樹奈々",
-          "displayedText": "水樹奈々",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0104",
-              "name": "水樹奈々",
-              "displayedText": "水樹奈々"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "上松範康（Elements Garden）",
-          "displayedText": "上松範康（Elements Garden）",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0001",
-              "name": "上松範康",
-              "displayedText": "上松範康（Elements Garden）"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "displayedText": "都丸椋太（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "都丸椋太（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:37「ETERNAL BLAZE」（Roselia）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:37 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-ae306f36893d4c8a96a0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:37「ETERNAL BLAZE」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:37 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-ae306f36893d4c8a96a0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "identityはcr-0019で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0019「都丸椋太」の編曲参加と共同欄「都丸椋太（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "cr-0019",
-          "creatorCandidateKeys": [
-            "cr-0019"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:37 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-ae306f36893d4c8a96a0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "都丸椋太（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:37:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "都丸椋太（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:37「ETERNAL BLAZE」（Roselia）/編曲 のraw「都丸椋太（Elements Garden）／加納望」を、候補 「都丸椋太（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "cr-0019",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:37 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "都丸椋太（Elements Garden）／加納望",
-                  "evidenceId": "e-ae306f36893d4c8a96a0",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:37 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "都丸椋太（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
-    },
-    {
-      "game": "garupa",
-      "recordId": 40,
-      "title": "Little Busters!",
-      "band": "Poppin'Party",
-      "workId": "wk-0040",
-      "latestAfterPhaseA": false,
-      "currentCredits": {
-        "lyricist": {
-          "raw": "麻枝准",
-          "displayedText": "麻枝准",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0106",
-              "name": "麻枝准",
-              "displayedText": "麻枝准"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "composer": {
-          "raw": "麻枝准",
-          "displayedText": "麻枝准",
-          "resolvedCreators": [
-            {
-              "creatorId": "cr-0106",
-              "name": "麻枝准",
-              "displayedText": "麻枝准"
-            }
-          ],
-          "unresolvedParts": [],
-          "empty": false,
-          "pending": false
-        },
-        "arranger": {
-          "raw": "母里治樹（Elements Garden）／加納望",
-          "displayedText": "母里治樹（Elements Garden）／加納望",
-          "resolvedCreators": [],
-          "unresolvedParts": [
-            "母里治樹（Elements Garden）／加納望"
-          ],
-          "empty": false,
-          "pending": true
-        }
-      },
-      "tasks": [
-        {
-          "taskId": "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_IDENTITY",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）／加納望",
-          "reason": "ゲームの明示編曲欄に10record。本人候補URL取得不可、同名の非音楽人物が存在するため断定しない。",
-          "action": "raw「加納望」が Garupa:40「Little Busters!」（Poppin'Party）の編曲主体を指すことを確認し、加納望をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
-          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:40 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）／加納望",
-                  "evidenceId": "e-16da33d70b9090f88004",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "加納望",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-          "category": "CREATOR_REGISTRATION",
-          "role": "arranger",
-          "priority": "P1",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）／加納望",
-          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
-          "action": "「加納望」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:40「Little Busters!」/編曲 への適用範囲を記録する。",
-          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
-          "creatorCandidateKey": "b1-e8ea1c155638e47d4330",
-          "creatorCandidateKeys": [
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:40 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）／加納望",
-                  "evidenceId": "e-16da33d70b9090f88004",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": [
-            "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330"
-          ],
-          "recordedIdentityConfirmation": false,
-          "remainingCreatorFields": null
-        },
-        {
-          "taskId": "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-          "category": "ROLE_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）／加納望",
-          "reason": "identityはcr-0119で承認済み。現行のこの共同欄/担当はformal参照未反映。人物の新規登録は不要。",
-          "action": "既存cr-0119「母里治樹」の編曲参加と共同欄「母里治樹（Elements Garden）／加納望」内の位置をこの曲の一次資料で確認する。",
-          "completionCondition": "この曲・担当・位置の一次根拠と既存ID対応を回答済み。",
-          "creatorCandidateKey": "b1-d43891f53862909d7abb",
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:40 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）／加納望",
-                  "evidenceId": "e-16da33d70b9090f88004",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "identityConfirmed": null,
-            "samePersonAs": null,
-            "standardName": null,
-            "reading": null,
-            "sortKey": null,
-            "slug": null,
-            "type": null,
-            "aliases": null,
-            "affiliation": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null,
-            "gameCreditDisplay": null,
-            "roleConfirmed": null
-          },
-          "dependencies": [],
-          "tokenRaw": "母里治樹（Elements Garden）",
-          "evidenceContext": "CURRENT_RAW"
-        },
-        {
-          "taskId": "garupa:40:arranger:SPLIT_REVIEW",
-          "category": "SPLIT_REVIEW",
-          "role": "arranger",
-          "priority": "P2",
-          "status": "NEEDS_HUMAN",
-          "raw": "母里治樹（Elements Garden）／加納望",
-          "reason": "過去資料は分割候補を示すが現行表示は共同欄全体が未ID化。未解決主体と境界/順序の承認を区別する。",
-          "action": "Garupa:40「Little Busters!」（Poppin'Party）/編曲 のraw「母里治樹（Elements Garden）／加納望」を、候補 「母里治樹（Elements Garden）」 + 「加納望」 として分割してよいか、名前内部の記号/所属/共同作者境界を一次資料で確認し、順序を回答する。単一主体なら全体を1名と回答する。",
-          "completionCondition": "confirmedPartsを順序付きで回答し、各部分の主体/既存ID/未同定候補とroleの根拠が記録済み。",
-          "creatorCandidateKey": null,
-          "creatorCandidateKeys": [
-            "b1-d43891f53862909d7abb",
-            "b1-e8ea1c155638e47d4330"
-          ],
-          "evidence": [
-            {
-              "document": "data/garupa/songs.json",
-              "locator": "garupa:40 / arranger",
-              "sourceType": "current-repository",
-              "supports": "現在の表示・role・Creator参照",
-              "checkedAt": null
-            },
-            {
-              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "historical-credit-evidence",
-              "status": "CONFIRMED",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
-              "sourceUrls": [
-                "https://bang-dream.bushimo.jp/music/"
-              ],
-              "variants": [
-                {
-                  "raw": "母里治樹（Elements Garden）／加納望",
-                  "evidenceId": "e-16da33d70b9090f88004",
-                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
-                  "sourceType": "game-official",
-                  "checkedAt": "2026-10-03T03:40:13.182Z",
-                  "sourceScope": "record",
-                  "sourceGame": "garupa",
-                  "applicability": "applicable",
-                  "notes": ""
-                }
-              ]
-            },
-            {
-              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
-              "locator": "garupa:40 / roles.arranger",
-              "sourceType": "reviewed-package",
-              "raw": "母里治樹（Elements Garden）／加納望",
-              "splitStatus": "CONFIRMED_SPLIT",
-              "reason": "splitまたはidentityが未確定",
-              "humanReviewId": null,
-              "humanEvidence": []
-            }
-          ],
-          "humanAnswerFields": {
-            "confirmedParts": null,
-            "keepWholeAsSingleCreator": null,
-            "creatorIdsOrCandidateKeys": null,
-            "checkedAt": null,
-            "sourceNote": null,
-            "notes": null
-          },
-          "dependencies": []
-        }
-      ],
-      "priority": "P1"
+      "priority": "P2"
     },
     {
       "game": "garupa",
@@ -70754,6 +66924,576 @@
           },
           "dependencies": [
             "garupa:23:lyricist:CREATOR_IDENTITY-b1-5daf7521e275422c1a63"
+          ],
+          "recordedIdentityConfirmation": false,
+          "remainingCreatorFields": null
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "game": "garupa",
+      "recordId": 25,
+      "title": "魂のルフラン",
+      "band": "Roselia",
+      "workId": "wk-0025",
+      "latestAfterPhaseA": false,
+      "currentCredits": {
+        "lyricist": {
+          "raw": "及川眠子",
+          "displayedText": "及川眠子",
+          "resolvedCreators": [
+            {
+              "creatorId": "cr-0108",
+              "name": "及川眠子",
+              "displayedText": "及川眠子"
+            }
+          ],
+          "unresolvedParts": [],
+          "empty": false,
+          "pending": false
+        },
+        "composer": {
+          "raw": "大森俊之",
+          "displayedText": "大森俊之",
+          "resolvedCreators": [],
+          "unresolvedParts": [
+            "大森俊之"
+          ],
+          "empty": false,
+          "pending": true
+        },
+        "arranger": {
+          "raw": "都丸椋太（Elements Garden）／加納望",
+          "displayedText": "都丸椋太（Elements Garden）／加納望",
+          "resolvedCreators": [
+            {
+              "creatorId": "cr-0019",
+              "name": "都丸椋太",
+              "displayedText": "都丸椋太（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0126",
+              "name": "加納望",
+              "displayedText": "加納望"
+            }
+          ],
+          "unresolvedParts": [],
+          "empty": false,
+          "pending": false
+        }
+      },
+      "tasks": [
+        {
+          "taskId": "garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334",
+          "category": "CREATOR_IDENTITY",
+          "role": "composer",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "大森俊之",
+          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
+          "action": "raw「大森俊之」が Garupa:25「魂のルフラン」（Roselia）の作曲主体を指すことを確認し、大森俊之をCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
+          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+          "creatorCandidateKey": "b1-ff110ed004deb3a8f334",
+          "creatorCandidateKeys": [
+            "b1-ff110ed004deb3a8f334"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:25 / composer",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:25 / roles.composer",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "大森俊之",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "大森俊之",
+                  "evidenceId": "e-db1372ced6f7205855bd",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:25 / roles.composer",
+              "sourceType": "reviewed-package",
+              "raw": "大森俊之",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null,
+            "gameCreditDisplay": null,
+            "roleConfirmed": null
+          },
+          "dependencies": [],
+          "tokenRaw": "大森俊之",
+          "evidenceContext": "CURRENT_RAW"
+        },
+        {
+          "taskId": "garupa:25:composer:CREATOR_REGISTRATION-b1-ff110ed004deb3a8f334",
+          "category": "CREATOR_REGISTRATION",
+          "role": "composer",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "大森俊之",
+          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
+          "action": "「大森俊之」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:25「魂のルフラン」/作曲 への適用範囲を記録する。",
+          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
+          "creatorCandidateKey": "b1-ff110ed004deb3a8f334",
+          "creatorCandidateKeys": [
+            "b1-ff110ed004deb3a8f334"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:25 / composer",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:25 / roles.composer",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "大森俊之",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "大森俊之",
+                  "evidenceId": "e-db1372ced6f7205855bd",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:25 / roles.composer",
+              "sourceType": "reviewed-package",
+              "raw": "大森俊之",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null
+          },
+          "dependencies": [
+            "garupa:25:composer:CREATOR_IDENTITY-b1-ff110ed004deb3a8f334"
+          ],
+          "recordedIdentityConfirmation": false,
+          "remainingCreatorFields": null
+        }
+      ],
+      "priority": "P3"
+    },
+    {
+      "game": "garupa",
+      "recordId": 31,
+      "title": "光るなら",
+      "band": "Poppin'Party",
+      "workId": "wk-0031",
+      "latestAfterPhaseA": false,
+      "currentCredits": {
+        "lyricist": {
+          "raw": "Goose house",
+          "displayedText": "Goose house",
+          "resolvedCreators": [],
+          "unresolvedParts": [
+            "Goose house"
+          ],
+          "empty": false,
+          "pending": true
+        },
+        "composer": {
+          "raw": "Goose house",
+          "displayedText": "Goose house",
+          "resolvedCreators": [],
+          "unresolvedParts": [
+            "Goose house"
+          ],
+          "empty": false,
+          "pending": true
+        },
+        "arranger": {
+          "raw": "都丸椋太（Elements Garden）／加納望",
+          "displayedText": "都丸椋太（Elements Garden）／加納望",
+          "resolvedCreators": [
+            {
+              "creatorId": "cr-0019",
+              "name": "都丸椋太",
+              "displayedText": "都丸椋太（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0126",
+              "name": "加納望",
+              "displayedText": "加納望"
+            }
+          ],
+          "unresolvedParts": [],
+          "empty": false,
+          "pending": false
+        }
+      },
+      "tasks": [
+        {
+          "taskId": "garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50",
+          "category": "CREATOR_IDENTITY",
+          "role": "composer",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "Goose house",
+          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
+          "action": "raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作曲主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
+          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+          "creatorCandidateKey": "b1-627e2799e99aef187f50",
+          "creatorCandidateKeys": [
+            "b1-627e2799e99aef187f50"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:31 / composer",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:31 / roles.composer",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "Goose house",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "Goose house",
+                  "evidenceId": "e-2abae0d91a13963aa1f0",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:31 / roles.composer",
+              "sourceType": "reviewed-package",
+              "raw": "Goose house",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null,
+            "gameCreditDisplay": null,
+            "roleConfirmed": null
+          },
+          "dependencies": [],
+          "tokenRaw": "Goose house",
+          "evidenceContext": "CURRENT_RAW"
+        },
+        {
+          "taskId": "garupa:31:composer:CREATOR_REGISTRATION-b1-627e2799e99aef187f50",
+          "category": "CREATOR_REGISTRATION",
+          "role": "composer",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "Goose house",
+          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
+          "action": "「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作曲 への適用範囲を記録する。",
+          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
+          "creatorCandidateKey": "b1-627e2799e99aef187f50",
+          "creatorCandidateKeys": [
+            "b1-627e2799e99aef187f50"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:31 / composer",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:31 / roles.composer",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "Goose house",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "Goose house",
+                  "evidenceId": "e-2abae0d91a13963aa1f0",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:31 / roles.composer",
+              "sourceType": "reviewed-package",
+              "raw": "Goose house",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null
+          },
+          "dependencies": [
+            "garupa:31:composer:CREATOR_IDENTITY-b1-627e2799e99aef187f50"
+          ],
+          "recordedIdentityConfirmation": false,
+          "remainingCreatorFields": null
+        },
+        {
+          "taskId": "garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50",
+          "category": "CREATOR_IDENTITY",
+          "role": "lyricist",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "Goose house",
+          "reason": "一次identity情報不足。原文role以外の同一性・typeを断定しない。",
+          "action": "raw「Goose house」が Garupa:31「光るなら」（Poppin'Party）の作詞主体を指すことを確認し、Goose houseをCreator masterへ登録可能か判断する。standardName・読み/sortKey・slug・type・aliasesと根拠を回答する。",
+          "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+          "creatorCandidateKey": "b1-627e2799e99aef187f50",
+          "creatorCandidateKeys": [
+            "b1-627e2799e99aef187f50"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:31 / lyricist",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:31 / roles.lyricist",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "Goose house",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "Goose house",
+                  "evidenceId": "e-2abae0d91a13963aa1f0",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:31 / roles.lyricist",
+              "sourceType": "reviewed-package",
+              "raw": "Goose house",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null,
+            "gameCreditDisplay": null,
+            "roleConfirmed": null
+          },
+          "dependencies": [],
+          "tokenRaw": "Goose house",
+          "evidenceContext": "CURRENT_RAW"
+        },
+        {
+          "taskId": "garupa:31:lyricist:CREATOR_REGISTRATION-b1-627e2799e99aef187f50",
+          "category": "CREATOR_REGISTRATION",
+          "role": "lyricist",
+          "priority": "P3",
+          "status": "NEEDS_HUMAN",
+          "raw": "Goose house",
+          "reason": "現在masterにこの候補の正式IDがない。候補名・暫定読み/slug/typeをそのまま登録しない。",
+          "action": "「Goose house」のstandardName、reading/sortKey、slug、type(person/unit/organization)、必要aliasesを個別に決定する。各値の根拠と対象 Garupa:31「光るなら」/作詞 への適用範囲を記録する。",
+          "completionCondition": "identity確認後に必須5項目と根拠が回答済み。slugのcurrent/previous名前空間との衝突なしを後続適用時に検証できる。",
+          "creatorCandidateKey": "b1-627e2799e99aef187f50",
+          "creatorCandidateKeys": [
+            "b1-627e2799e99aef187f50"
+          ],
+          "evidence": [
+            {
+              "document": "data/garupa/songs.json",
+              "locator": "garupa:31 / lyricist",
+              "sourceType": "current-repository",
+              "supports": "現在の表示・role・Creator参照",
+              "checkedAt": null
+            },
+            {
+              "document": "docs/migrations/credits-phase-a-2026-10-03/credit-research.json",
+              "locator": "garupa:31 / roles.lyricist",
+              "sourceType": "historical-credit-evidence",
+              "status": "CONFIRMED",
+              "raw": "Goose house",
+              "reason": "一次資料の明示role欄を曲名・歌唱主体・game/release contextで対応。",
+              "sourceUrls": [
+                "https://bang-dream.bushimo.jp/music/"
+              ],
+              "variants": [
+                {
+                  "raw": "Goose house",
+                  "evidenceId": "e-2abae0d91a13963aa1f0",
+                  "sourceUrl": "https://bang-dream.bushimo.jp/music/",
+                  "sourceType": "game-official",
+                  "checkedAt": "2026-10-03T03:40:13.182Z",
+                  "sourceScope": "record",
+                  "sourceGame": "garupa",
+                  "applicability": "applicable",
+                  "notes": ""
+                }
+              ]
+            },
+            {
+              "document": "docs/migrations/credits-phase-b2-2026-10-03/phase-b2-effective-package.json",
+              "locator": "garupa:31 / roles.lyricist",
+              "sourceType": "reviewed-package",
+              "raw": "Goose house",
+              "splitStatus": "CONFIRMED_SINGLE",
+              "reason": "splitまたはidentityが未確定",
+              "humanReviewId": null,
+              "humanEvidence": []
+            }
+          ],
+          "humanAnswerFields": {
+            "identityConfirmed": null,
+            "samePersonAs": null,
+            "standardName": null,
+            "reading": null,
+            "sortKey": null,
+            "slug": null,
+            "type": null,
+            "aliases": null,
+            "affiliation": null,
+            "checkedAt": null,
+            "sourceNote": null,
+            "notes": null
+          },
+          "dependencies": [
+            "garupa:31:lyricist:CREATOR_IDENTITY-b1-627e2799e99aef187f50"
           ],
           "recordedIdentityConfirmation": false,
           "remainingCreatorFields": null

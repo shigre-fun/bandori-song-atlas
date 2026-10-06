@@ -1,0 +1,386 @@
+{
+  "result": "PASS",
+  "date": "2026-10-07",
+  "head": "e014091046bab48008084a5fa9f01076c5a9f693",
+  "creator": {
+    "id": "cr-0126",
+    "name": "加納望",
+    "slug": "nozomu-kanow",
+    "type": "person",
+    "reading": "かのうのぞむ",
+    "sortKey": "かのうのぞむ",
+    "sortKeyStatus": "confirmed",
+    "aliases": []
+  },
+  "accepted": {
+    "candidateIdentity": 1,
+    "recordIdentities": 10,
+    "recordSplits": 10,
+    "aggregateAnswers": 3,
+    "affiliationFollowup": 1
+  },
+  "before": {
+    "currentRecordCount": 885,
+    "currentCreatorCount": 125,
+    "currentWorkCount": 823,
+    "currentNextId": 126,
+    "currentGameCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "totalSongTodoRecords": 338,
+    "totalSongTasks": 1345,
+    "totalCreatorCandidates": 345,
+    "threePlusRecordCreators": 10,
+    "twoRecordCreators": 52,
+    "oneRecordCreators": 283,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 13,
+    "unregisteredCreatorCandidates": 332,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 49,
+    "garupaArrangerCollectionSongs": 48,
+    "splitReviewTasks": 63,
+    "currentRawSplitReviewTasks": 63,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 97,
+      "CREATOR_IDENTITY": 532,
+      "CREATOR_REGISTRATION": 532,
+      "SPLIT_REVIEW": 63,
+      "ALIAS_REVIEW": 4,
+      "ROLE_REVIEW": 78,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 605,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1604,
+    "excludedResolvedSourceEntries": 218,
+    "unmappedCurrentUnresolved": 0
+  },
+  "after": {
+    "currentRecordCount": 885,
+    "currentCreatorCount": 126,
+    "currentWorkCount": 823,
+    "currentNextId": 127,
+    "currentGameCounts": {
+      "garupa": 799,
+      "ournotes": 86
+    },
+    "totalSongTodoRecords": 332,
+    "totalSongTasks": 1305,
+    "totalCreatorCandidates": 343,
+    "threePlusRecordCreators": 7,
+    "twoRecordCreators": 52,
+    "oneRecordCreators": 284,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 12,
+    "unregisteredCreatorCandidates": 331,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 49,
+    "garupaArrangerCollectionSongs": 48,
+    "splitReviewTasks": 53,
+    "currentRawSplitReviewTasks": 53,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 97,
+      "CREATOR_IDENTITY": 522,
+      "CREATOR_REGISTRATION": 522,
+      "SPLIT_REVIEW": 53,
+      "ALIAS_REVIEW": 4,
+      "ROLE_REVIEW": 68,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 595,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1570,
+    "excludedResolvedSourceEntries": 252,
+    "unmappedCurrentUnresolved": 0
+  },
+  "scopes": [
+    {
+      "game": "garupa",
+      "recordId": 19,
+      "title": "空色デイズ",
+      "band": "Poppin'Party",
+      "workId": "wk-0019",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 20,
+      "title": "Alchemy",
+      "band": "Poppin'Party",
+      "workId": "wk-0020",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 21,
+      "title": "カルマ",
+      "band": "Afterglow",
+      "workId": "wk-0021",
+      "role": "arranger",
+      "raw": "母里治樹（Elements Garden）/加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0119",
+      "partnerName": "母里治樹"
+    },
+    {
+      "game": "garupa",
+      "recordId": 22,
+      "title": "Butter-Fly",
+      "band": "Afterglow",
+      "workId": "wk-0022",
+      "role": "arranger",
+      "raw": "母里治樹（Elements Garden）/加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0119",
+      "partnerName": "母里治樹"
+    },
+    {
+      "game": "garupa",
+      "recordId": 25,
+      "title": "魂のルフラン",
+      "band": "Roselia",
+      "workId": "wk-0025",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 26,
+      "title": "Hacking to the Gate",
+      "band": "Roselia",
+      "workId": "wk-0026",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 29,
+      "title": "Don’t say “lazy”",
+      "band": "Afterglow",
+      "workId": "wk-0029",
+      "role": "arranger",
+      "raw": "母里治樹（Elements Garden）/加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0119",
+      "partnerName": "母里治樹"
+    },
+    {
+      "game": "garupa",
+      "recordId": 31,
+      "title": "光るなら",
+      "band": "Poppin'Party",
+      "workId": "wk-0031",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 37,
+      "title": "ETERNAL BLAZE",
+      "band": "Roselia",
+      "workId": "wk-0037",
+      "role": "arranger",
+      "raw": "都丸椋太（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0019",
+      "partnerName": "都丸椋太"
+    },
+    {
+      "game": "garupa",
+      "recordId": 40,
+      "title": "Little Busters!",
+      "band": "Poppin'Party",
+      "workId": "wk-0040",
+      "role": "arranger",
+      "raw": "母里治樹（Elements Garden）／加納望",
+      "identity": "はい",
+      "split": "はい",
+      "creatorId": "cr-0126",
+      "partnerId": "cr-0119",
+      "partnerName": "母里治樹"
+    }
+  ],
+  "preservation": {
+    "displayComparisons": 5310,
+    "detailLinks": 40,
+    "WorkIdentityChanges": 0,
+    "unrelatedCreditChanges": 0,
+    "unrelatedNonCreditChanges": 0,
+    "unexpectedCreatorBindings": 0,
+    "ElementsGardenDoubleCounting": 0,
+    "duplicateCreatorIds": 0,
+    "duplicateSlugs": 0,
+    "danglingReferences": 0,
+    "protectedEvidenceFiles": 592,
+    "protectedEvidenceChanged": 0
+  },
+  "builds": [
+    {
+      "directory": "dist",
+      "base": "/",
+      "creatorWorks": 10,
+      "creatorRecords": 10,
+      "arrangerWorks": 10,
+      "recordCount": 885
+    },
+    {
+      "directory": ".cache/kanow-p1-subpath",
+      "base": "/bandori-song-atlas/",
+      "creatorWorks": 10,
+      "creatorRecords": 10,
+      "arrangerWorks": 10,
+      "recordCount": 885
+    }
+  ],
+  "repeatedApplyChangedFiles": 0,
+  "repeatedGenerateChangedFiles": 0,
+  "unprovidedOptionalFields": [
+    "備考"
+  ],
+  "unresolvedRequiredP1Tasks": 0,
+  "correspondence": {
+    "oldTasks": 3354,
+    "continuing": 3307,
+    "resolved": 47,
+    "originalLedgerTasks": 3432,
+    "unmapped": 0
+  },
+  "sourceHashes": {
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
+    "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
+    "data/garupa/songs.json": "b2605bc55e5a4898644d3527cccd6a630d02ab949573acd99aa7703b7a9e4c99",
+    "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9",
+    "data/garupa/admin-state.json": "dc47c2a3b0a0c6519995bb696bb933f8fba14312aea3c03c035bdb928e8c842d",
+    "data/ournotes/admin-state.json": "ede3123a2649c87304d8e9a4b37740e5f4962916cbe60fe2abc5a3261e89c7bd"
+  },
+  "changedDataFiles": [
+    "data/creators.json",
+    "data/garupa/songs.json"
+  ],
+  "commitPushDeployPerformed": false,
+  "validation": {
+    "existingTests": {
+      "unique": 264,
+      "pass": 264
+    },
+    "priorReviewTests": {
+      "unique": 31,
+      "pass": 31
+    },
+    "P1Tests": {
+      "unique": 10,
+      "pass": 10
+    },
+    "currentTodoTests": {
+      "pass": 10,
+      "uniqueIncludedInPrior31": true
+    },
+    "uniqueTestCount": 305,
+    "builds": {
+      "root": "PASS",
+      "subpath": "PASS"
+    },
+    "seo": {
+      "root": {
+        "pages": 1020,
+        "details": 885
+      },
+      "subpath": {
+        "pages": 1020,
+        "details": 885
+      }
+    },
+    "functions": {
+      "version": "4.143.0",
+      "compiled": true
+    },
+    "codeFormat": "PASS (4 modified code files; pre-existing master style retained)",
+    "diffCheck": "PASS",
+    "syntax": "PASS",
+    "untrackedDiffCheck": {
+      "status": "PASS",
+      "files": 29
+    }
+  },
+  "evidenceHashes": {
+    "input.txt": "26e13c91739fa758700bdb6398bbcda7b3c35913758ff90a8fd86859183286a5",
+    "clarification.json": "a9ac9329ba921fa9513d08cab543f1ed3e306d56249be0f3fc14e3f881779edc",
+    "baseline.json": "786b2db896c3b32f6fef841c8db836ced208c46262f1e9c872bf8d9b75b6bea8",
+    "before.json.gz": "13228742321ac413b45b792d67e6601f6606becea97becbbaa9e179fcf6149da",
+    "review.json": "81ba2dadc36506db19cc7ac2356b61805e7c4989c51c615ba62f7987bf7b55c9",
+    "TASK_CORRESPONDENCE.json": "a08d48b08505f842d405bb5074b57c909e33e89bf5f6f34995f5d8fcbe7af5ef",
+    "validation/current-todo-tests.txt": "5353d831feade28639661178efe5b9b572baac8491e1203c9ac4b392ebc1dffa",
+    "validation/diff-check.txt": "aeb2ed647562a3edae6a94b03c2ca5b429628ba79768eef16f12d7834f4fc32f",
+    "validation/existing-tests.txt": "07895466800dfa29f96c525a1a7263c54da796ed66b26c6c67753083a2bd65c2",
+    "validation/final-audit.txt": "5a6049fcaeb569a3ca626ff181dd41e7d7d0a738ef4aef7a6e6ebcac44e20c2a",
+    "validation/format-check-first.txt": "961d34740aed0fd594e890dd1b7bab51dad81c74e851d2c9b5a24f93d9f817c6",
+    "validation/format-check.txt": "f20510a9da4717c51c4cffee6d0dd88d6c9a723d0a83711d01216f5b48961283",
+    "validation/functions.txt": "63c61fb1421092edae108d1e8cb5040a789e65945ba381a54e53f767b896f629",
+    "validation/p1-tests-before-guard.txt": "744ec31ca90699b1258416b5bebf226e0005acdc75da1307f8d657b077fa9dfc",
+    "validation/p1-tests-first.txt": "7d2a1ec4543a2b67777569254c3e52517ae4438f0eb7143a2955fa3f7c9c8bc0",
+    "validation/p1-tests.txt": "2c2159e283ac5546295af2e042feceea529a6402df0687cc51f56c90abb6ddf5",
+    "validation/prior-todo-tests-first.txt": "b38a4631df258a3bcc9e72e67c4289a5d1b98becdad5622f9d1738f1d3795e0c",
+    "validation/prior-todo-tests-second.txt": "6c821ebaa860195772a40857a5b3665a504d5d9e7812feb5146d63ca821ca3ab",
+    "validation/prior-todo-tests.txt": "ab5899aa0605097459f72b05658ecceaa684f4af5092073d47e5bb825573f763",
+    "validation/root-build.txt": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749",
+    "validation/root-seo.txt": "456544a59826b4252c9550c9ef17c74af8eaac950e15eb9315541193287a3825",
+    "validation/subpath-build.txt": "acc8bb5a584c31cc98e8adb150efa5e28d48a655de6cece57aa87948443df749",
+    "validation/subpath-seo.txt": "456544a59826b4252c9550c9ef17c74af8eaac950e15eb9315541193287a3825",
+    "validation/syntax-check.txt": "5adad65892c68db329da9dc540eb3df91b214f21e92831df182e9cb93607d3db",
+    "validation/untracked-diff-check.txt": "1e8102fe7d75e26ca3e35625b7a9b92265d6306e94ee1df30501a57e17ed57da",
+    "validation/publish-guard-tests.txt": "e2b01966956b960bb6df8470b3f6b99c2eda3799738a3d97c4f73fbf52eea061",
+    "validation/publish-prior-review-tests.txt": "0afd8fec1f38e57ad58f7920acb5b18e22d65440cd0925144aa9fc42ce82523c"
+  },
+  "publication": {
+    "authorizedByUser": true,
+    "status": "READY_TO_COMMIT_PUSH_DEPLOY",
+    "prePublicationHead": "e014091046bab48008084a5fa9f01076c5a9f693",
+    "remoteUpdates": 0,
+    "sourceChangedSinceValidation": 0,
+    "guardTests": 20,
+    "priorReviewTests": 31
+  }
+}

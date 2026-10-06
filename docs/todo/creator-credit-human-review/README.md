@@ -16,6 +16,7 @@ JSONを編集する場合、taskIdとcandidateKeyを変更しない。song task�
 
 2026-10-06 P0回答のゲーム編曲81担当とOurNotes:86作詞原文を適用済み。回答原本・旧taskId対応・当時の不足欄・検証は [人間レビュー](../../human-review/creator-credits-p0-2026-10-06/REPORT.md) に保存。ゲーム原文が正式参照で解決しても、未回答の発売版との編曲同一性はGAME_VERSION_REVIEWに残す。
 カンザキイオリの追加回答を適用し、cr-0125として正式登録。指定3曲の作詞・作曲6担当を紐付け、登録・同定残件を解決。[追加回答と検証](../../human-review/creator-kanzaki-2026-10-06/REPORT.md)。
+加納望のP1回答と所属「なし」の追加回答を適用し、cr-0126として正式登録。明示承認されたGarupaの10収録だけに共同編曲relationを適用。原文・所属表記・順序を保持し、未回答の備考や他曲へ補完・展開しない。[P1回答と検証](../../human-review/creator-kanow-p1-2026-10-07/REPORT.md)。
 
 生成：node scripts/research/creator-credit-human-todo.mjs generate
 

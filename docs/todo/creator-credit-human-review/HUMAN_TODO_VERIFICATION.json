@@ -1,53 +1,53 @@
 {
   "schemaVersion": 1,
   "result": "PASS",
-  "sourceHead": "fc747dc0cbc8939daea54e781ec1ca841d3331ca",
+  "sourceHead": "e014091046bab48008084a5fa9f01076c5a9f693",
   "metrics": {
     "currentRecordCount": 885,
-    "currentCreatorCount": 125,
+    "currentCreatorCount": 126,
     "currentWorkCount": 823,
-    "currentNextId": 126,
+    "currentNextId": 127,
     "currentGameCounts": {
       "garupa": 799,
       "ournotes": 86
     },
-    "totalSongTodoRecords": 338,
-    "totalSongTasks": 1345,
-    "totalCreatorCandidates": 345,
-    "threePlusRecordCreators": 10,
+    "totalSongTodoRecords": 332,
+    "totalSongTasks": 1305,
+    "totalCreatorCandidates": 343,
+    "threePlusRecordCreators": 7,
     "twoRecordCreators": 52,
-    "oneRecordCreators": 283,
+    "oneRecordCreators": 284,
     "referenceOnlyCreatorCandidates": 0,
-    "existingCreatorRoleCandidates": 13,
-    "unregisteredCreatorCandidates": 332,
+    "existingCreatorRoleCandidates": 12,
+    "unregisteredCreatorCandidates": 331,
     "ournotesArrangerManualSongs": 0,
     "lyricistCollectionSongs": 49,
     "garupaArrangerCollectionSongs": 48,
-    "splitReviewTasks": 63,
-    "currentRawSplitReviewTasks": 63,
+    "splitReviewTasks": 53,
+    "currentRawSplitReviewTasks": 53,
     "conditionalReleaseSplitReviewTasks": 0,
     "categoryTaskCounts": {
       "CREDIT_COLLECTION": 97,
-      "CREATOR_IDENTITY": 532,
-      "CREATOR_REGISTRATION": 532,
-      "SPLIT_REVIEW": 63,
+      "CREATOR_IDENTITY": 522,
+      "CREATOR_REGISTRATION": 522,
+      "SPLIT_REVIEW": 53,
       "ALIAS_REVIEW": 4,
-      "ROLE_REVIEW": 78,
+      "ROLE_REVIEW": 68,
       "DISPLAY_REVIEW": 0,
       "GAME_VERSION_REVIEW": 39,
       "METADATA_REVIEW": 0
     },
-    "currentUnresolvedRecordRoles": 605,
+    "currentUnresolvedRecordRoles": 595,
     "sourceUnresolvedEntries": 1822,
-    "mappedTodoEntries": 1604,
-    "excludedResolvedSourceEntries": 218,
+    "mappedTodoEntries": 1570,
+    "excludedResolvedSourceEntries": 252,
     "unmappedCurrentUnresolved": 0
   },
   "sourceCategoryCounts": {
     "unresolved-after-b2": {
       "total": 703,
-      "mapped": 605,
-      "excludedCurrentResolved": 98,
+      "mapped": 595,
+      "excludedCurrentResolved": 108,
       "unmapped": 0
     },
     "unresolved-index/lyricist": {
@@ -58,8 +58,8 @@
     },
     "unresolved-index/garupaArranger": {
       "total": 33,
-      "mapped": 33,
-      "excludedCurrentResolved": 0,
+      "mapped": 23,
+      "excludedCurrentResolved": 10,
       "unmapped": 0
     },
     "unresolved-index/ournotesArranger": {
@@ -100,8 +100,8 @@
     },
     "uncertain-token-occurrences": {
       "total": 555,
-      "mapped": 510,
-      "excludedCurrentResolved": 45,
+      "mapped": 496,
+      "excludedCurrentResolved": 59,
       "unmapped": 0
     }
   },
@@ -159,23 +159,6 @@
       "raw": null,
       "taskIds": [
         "garupa:784:arranger:CREDIT_COLLECTION"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:20:arranger",
-      "game": "garupa",
-      "recordId": 20,
-      "title": "Alchemy",
-      "band": "Poppin'Party",
-      "workId": "wk-0020",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:20:arranger:SPLIT_REVIEW"
       ],
       "status": "MAPPED"
     },
@@ -266,23 +249,6 @@
       "taskIds": [
         "garupa:123:lyricist:CREATOR_IDENTITY-b1-778261d5431d1cdd092e",
         "garupa:123:lyricist:CREATOR_REGISTRATION-b1-778261d5431d1cdd092e"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:40:arranger",
-      "game": "garupa",
-      "recordId": 40,
-      "title": "Little Busters!",
-      "band": "Poppin'Party",
-      "workId": "wk-0040",
-      "role": "arranger",
-      "raw": "母里治樹（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW"
       ],
       "status": "MAPPED"
     },
@@ -802,23 +768,6 @@
       "status": "MAPPED"
     },
     {
-      "sourceKey": "current:garupa:31:arranger",
-      "game": "garupa",
-      "recordId": 31,
-      "title": "光るなら",
-      "band": "Poppin'Party",
-      "workId": "wk-0031",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:31:arranger:SPLIT_REVIEW"
-      ],
-      "status": "MAPPED"
-    },
-    {
       "sourceKey": "current:garupa:77:lyricist",
       "game": "garupa",
       "recordId": 77,
@@ -1113,23 +1062,6 @@
       "taskIds": [
         "garupa:19:composer:CREATOR_IDENTITY-b1-33c296b2593f25456547",
         "garupa:19:composer:CREATOR_REGISTRATION-b1-33c296b2593f25456547"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:19:arranger",
-      "game": "garupa",
-      "recordId": 19,
-      "title": "空色デイズ",
-      "band": "Poppin'Party",
-      "workId": "wk-0019",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:19:arranger:SPLIT_REVIEW"
       ],
       "status": "MAPPED"
     },
@@ -3670,40 +3602,6 @@
       "status": "MAPPED"
     },
     {
-      "sourceKey": "current:garupa:37:arranger",
-      "game": "garupa",
-      "recordId": 37,
-      "title": "ETERNAL BLAZE",
-      "band": "Roselia",
-      "workId": "wk-0037",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:37:arranger:SPLIT_REVIEW"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:26:arranger",
-      "game": "garupa",
-      "recordId": 26,
-      "title": "Hacking to the Gate",
-      "band": "Roselia",
-      "workId": "wk-0026",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:26:arranger:SPLIT_REVIEW"
-      ],
-      "status": "MAPPED"
-    },
-    {
       "sourceKey": "current:garupa:395:lyricist",
       "game": "garupa",
       "recordId": 395,
@@ -4216,23 +4114,6 @@
       "status": "MAPPED"
     },
     {
-      "sourceKey": "current:garupa:25:arranger",
-      "game": "garupa",
-      "recordId": 25,
-      "title": "魂のルフラン",
-      "band": "Roselia",
-      "workId": "wk-0025",
-      "role": "arranger",
-      "raw": "都丸椋太（Elements Garden）／加納望",
-      "taskIds": [
-        "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:25:arranger:SPLIT_REVIEW"
-      ],
-      "status": "MAPPED"
-    },
-    {
       "sourceKey": "current:garupa:321:composer",
       "game": "garupa",
       "recordId": 321,
@@ -4457,23 +4338,6 @@
       "status": "MAPPED"
     },
     {
-      "sourceKey": "current:garupa:22:arranger",
-      "game": "garupa",
-      "recordId": 22,
-      "title": "Butter-Fly",
-      "band": "Afterglow",
-      "workId": "wk-0022",
-      "role": "arranger",
-      "raw": "母里治樹（Elements Garden）/加納望",
-      "taskIds": [
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW"
-      ],
-      "status": "MAPPED"
-    },
-    {
       "sourceKey": "current:garupa:145:lyricist",
       "game": "garupa",
       "recordId": 145,
@@ -4530,23 +4394,6 @@
       "taskIds": [
         "garupa:753:composer:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e",
         "garupa:753:composer:CREATOR_REGISTRATION-b1-b5a7696df411f41fb21e"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:29:arranger",
-      "game": "garupa",
-      "recordId": 29,
-      "title": "Don’t say “lazy”",
-      "band": "Afterglow",
-      "workId": "wk-0029",
-      "role": "arranger",
-      "raw": "母里治樹（Elements Garden）/加納望",
-      "taskIds": [
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW"
       ],
       "status": "MAPPED"
     },
@@ -4790,23 +4637,6 @@
       "taskIds": [
         "garupa:267:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
         "garupa:267:composer:CREATOR_REGISTRATION-b1-01ca05ebdfc1dba3b944"
-      ],
-      "status": "MAPPED"
-    },
-    {
-      "sourceKey": "current:garupa:21:arranger",
-      "game": "garupa",
-      "recordId": 21,
-      "title": "カルマ",
-      "band": "Afterglow",
-      "workId": "wk-0021",
-      "role": "arranger",
-      "raw": "母里治樹（Elements Garden）/加納望",
-      "taskIds": [
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
       ],
       "status": "MAPPED"
     },
@@ -9414,14 +9244,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0020",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:20:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:7",
@@ -9556,14 +9381,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0040",
       "currentRaw": "母里治樹（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:14",
@@ -10263,14 +10083,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0031",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:31:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:49",
@@ -10683,14 +10498,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0019",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:19:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:70",
@@ -14217,14 +14027,9 @@
       "band": "Roselia",
       "workId": "wk-0037",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:37:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:247",
@@ -14239,14 +14044,9 @@
       "band": "Roselia",
       "workId": "wk-0026",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:26:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:248",
@@ -14977,14 +14777,9 @@
       "band": "Roselia",
       "workId": "wk-0025",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:25:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:285",
@@ -15332,14 +15127,9 @@
       "band": "Afterglow",
       "workId": "wk-0022",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:303",
@@ -15434,14 +15224,9 @@
       "band": "Afterglow",
       "workId": "wk-0029",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:308",
@@ -15779,14 +15564,9 @@
       "band": "Afterglow",
       "workId": "wk-0021",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-after-b2:325",
@@ -27610,14 +27390,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0020",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:20:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:1",
@@ -27632,14 +27407,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0040",
       "currentRaw": "母里治樹（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:2",
@@ -27654,14 +27424,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0031",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:31:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:3",
@@ -27676,14 +27441,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0019",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:19:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:4",
@@ -27881,14 +27641,9 @@
       "band": "Roselia",
       "workId": "wk-0037",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:37:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:14",
@@ -27903,14 +27658,9 @@
       "band": "Roselia",
       "workId": "wk-0026",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:26:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:15",
@@ -27925,14 +27675,9 @@
       "band": "Roselia",
       "workId": "wk-0025",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:25:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:16",
@@ -27988,14 +27733,9 @@
       "band": "Afterglow",
       "workId": "wk-0022",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:19",
@@ -28010,14 +27750,9 @@
       "band": "Afterglow",
       "workId": "wk-0029",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:20",
@@ -28032,14 +27767,9 @@
       "band": "Afterglow",
       "workId": "wk-0021",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "unresolved-index/garupaArranger:21",
@@ -39458,14 +39188,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0040",
       "currentRaw": "母里治樹（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:243",
@@ -39480,14 +39205,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0040",
       "currentRaw": "母里治樹（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:244",
@@ -42886,14 +42606,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0020",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:20:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:414",
@@ -42908,14 +42623,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0031",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:31:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:415",
@@ -42930,14 +42640,9 @@
       "band": "Poppin'Party",
       "workId": "wk-0019",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:19:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:416",
@@ -42952,14 +42657,9 @@
       "band": "Roselia",
       "workId": "wk-0037",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:37:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:417",
@@ -42974,14 +42674,9 @@
       "band": "Roselia",
       "workId": "wk-0026",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:26:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:418",
@@ -42996,14 +42691,9 @@
       "band": "Roselia",
       "workId": "wk-0025",
       "currentRaw": "都丸椋太（Elements Garden）／加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:25:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:419",
@@ -44105,14 +43795,9 @@
       "band": "Afterglow",
       "workId": "wk-0022",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:474",
@@ -44127,14 +43812,9 @@
       "band": "Afterglow",
       "workId": "wk-0022",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:475",
@@ -44149,14 +43829,9 @@
       "band": "Afterglow",
       "workId": "wk-0029",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:476",
@@ -44171,14 +43846,9 @@
       "band": "Afterglow",
       "workId": "wk-0029",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:477",
@@ -44193,14 +43863,9 @@
       "band": "Afterglow",
       "workId": "wk-0021",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:478",
@@ -44215,14 +43880,9 @@
       "band": "Afterglow",
       "workId": "wk-0021",
       "currentRaw": "母里治樹（Elements Garden）/加納望",
-      "status": "MAPPED_CURRENT_UNRESOLVED",
-      "taskIds": [
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現行でも当該担当に人間作業が残る。"
+      "status": "EXCLUDED_CURRENT_RESOLVED",
+      "taskIds": [],
+      "reason": "現行formal Creator参照で当該担当が解決済み。過去未解決項目を復活させない。"
     },
     {
       "sourceKey": "uncertain-token-occurrences:479",
@@ -47704,6 +47364,13 @@
         },
         {
           "game": "garupa",
+          "recordId": 20,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
           "recordId": 120,
           "role": "arranger",
           "displayedText": "都丸椋太（Elements Garden）",
@@ -47753,7 +47420,21 @@
         },
         {
           "game": "garupa",
+          "recordId": 31,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
           "recordId": 164,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
+          "recordId": 19,
           "role": "arranger",
           "displayedText": "都丸椋太（Elements Garden）",
           "creatorId": "cr-0019"
@@ -48033,7 +47714,21 @@
         },
         {
           "game": "garupa",
+          "recordId": 37,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
           "recordId": 755,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
+          "recordId": 26,
           "role": "arranger",
           "displayedText": "都丸椋太（Elements Garden）",
           "creatorId": "cr-0019"
@@ -48111,6 +47806,13 @@
         {
           "game": "garupa",
           "recordId": 49,
+          "role": "arranger",
+          "displayedText": "都丸椋太（Elements Garden）",
+          "creatorId": "cr-0019"
+        },
+        {
+          "game": "garupa",
+          "recordId": 25,
           "role": "arranger",
           "displayedText": "都丸椋太（Elements Garden）",
           "creatorId": "cr-0019"
@@ -48482,20 +48184,8 @@
       ],
       "candidateKey": "cr-0019",
       "songTaskIds": [
-        "garupa:20:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:20:arranger:SPLIT_REVIEW",
-        "garupa:31:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:31:arranger:SPLIT_REVIEW",
-        "garupa:19:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:19:arranger:SPLIT_REVIEW",
         "garupa:263:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:263:arranger:SPLIT_REVIEW",
-        "garupa:37:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:37:arranger:SPLIT_REVIEW",
-        "garupa:26:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:26:arranger:SPLIT_REVIEW",
-        "garupa:25:arranger:ROLE_REVIEW-cr-0019",
-        "garupa:25:arranger:SPLIT_REVIEW"
+        "garupa:263:arranger:SPLIT_REVIEW"
       ],
       "reason": "現在の未ID化raw/未確認role/発売版参考に残る課題を候補台帳へ対応。"
     },
@@ -56705,43 +56395,83 @@
     {
       "sourceKey": "b1-e8ea1c155638e47d4330",
       "standardName": "加納望",
-      "status": "MAPPED_PENDING_TASKS",
-      "existingCreatorId": null,
-      "approvedCurrentBindings": [],
-      "candidateKey": "b1-e8ea1c155638e47d4330",
-      "songTaskIds": [
-        "garupa:20:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:20:arranger:SPLIT_REVIEW",
-        "garupa:40:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:40:arranger:SPLIT_REVIEW",
-        "garupa:31:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:31:arranger:SPLIT_REVIEW",
-        "garupa:19:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:19:arranger:SPLIT_REVIEW",
-        "garupa:37:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:37:arranger:SPLIT_REVIEW",
-        "garupa:26:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:26:arranger:SPLIT_REVIEW",
-        "garupa:25:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:25:arranger:SPLIT_REVIEW",
-        "garupa:22:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:22:arranger:SPLIT_REVIEW",
-        "garupa:29:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:29:arranger:SPLIT_REVIEW",
-        "garupa:21:arranger:CREATOR_IDENTITY-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:CREATOR_REGISTRATION-b1-e8ea1c155638e47d4330",
-        "garupa:21:arranger:SPLIT_REVIEW"
+      "status": "EXCLUDED_CURRENT_REGISTERED_AND_RESOLVED",
+      "existingCreatorId": "cr-0126",
+      "approvedCurrentBindings": [
+        {
+          "game": "garupa",
+          "recordId": 20,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 40,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 31,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 19,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 37,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 26,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 25,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 22,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 29,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        },
+        {
+          "game": "garupa",
+          "recordId": 21,
+          "role": "arranger",
+          "displayedText": "加納望",
+          "creatorId": "cr-0126"
+        }
       ],
-      "reason": "現在の未ID化raw/未確認role/発売版参考に残る課題を候補台帳へ対応。"
+      "candidateKey": null,
+      "songTaskIds": [],
+      "reason": "現行masterに登録済みで、現行の当該対象に未承認課題なし。"
     },
     {
       "sourceKey": "cr-0023",
@@ -57250,9 +56980,16 @@
     {
       "sourceKey": "b1-d43891f53862909d7abb",
       "standardName": "母里治樹",
-      "status": "MAPPED_PENDING_TASKS",
+      "status": "EXCLUDED_CURRENT_REGISTERED_AND_RESOLVED",
       "existingCreatorId": "cr-0119",
       "approvedCurrentBindings": [
+        {
+          "game": "garupa",
+          "recordId": 40,
+          "role": "arranger",
+          "displayedText": "母里治樹（Elements Garden）",
+          "creatorId": "cr-0119"
+        },
         {
           "game": "garupa",
           "recordId": 38,
@@ -57263,6 +57000,27 @@
         {
           "game": "garupa",
           "recordId": 38,
+          "role": "arranger",
+          "displayedText": "母里治樹（Elements Garden）",
+          "creatorId": "cr-0119"
+        },
+        {
+          "game": "garupa",
+          "recordId": 22,
+          "role": "arranger",
+          "displayedText": "母里治樹（Elements Garden）",
+          "creatorId": "cr-0119"
+        },
+        {
+          "game": "garupa",
+          "recordId": 29,
+          "role": "arranger",
+          "displayedText": "母里治樹（Elements Garden）",
+          "creatorId": "cr-0119"
+        },
+        {
+          "game": "garupa",
+          "recordId": 21,
           "role": "arranger",
           "displayedText": "母里治樹（Elements Garden）",
           "creatorId": "cr-0119"
@@ -57296,18 +57054,9 @@
           "creatorId": "cr-0119"
         }
       ],
-      "candidateKey": "b1-d43891f53862909d7abb",
-      "songTaskIds": [
-        "garupa:40:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:40:arranger:SPLIT_REVIEW",
-        "garupa:22:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:22:arranger:SPLIT_REVIEW",
-        "garupa:29:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:29:arranger:SPLIT_REVIEW",
-        "garupa:21:arranger:ROLE_REVIEW-b1-d43891f53862909d7abb",
-        "garupa:21:arranger:SPLIT_REVIEW"
-      ],
-      "reason": "現在の未ID化raw/未確認role/発売版参考に残る課題を候補台帳へ対応。"
+      "candidateKey": null,
+      "songTaskIds": [],
+      "reason": "現行masterに登録済みで、現行の当該対象に未承認課題なし。"
     },
     {
       "sourceKey": "b1-2f3ac0aa9377ae457894",
@@ -66345,22 +66094,22 @@
     "sortedByPriority": true
   },
   "sourceDataHashesBefore": {
-    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
-    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/garupa/songs.json": "b2605bc55e5a4898644d3527cccd6a630d02ab949573acd99aa7703b7a9e4c99",
     "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9"
   },
   "sourceDataHashesAfter": {
-    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
-    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/garupa/songs.json": "b2605bc55e5a4898644d3527cccd6a630d02ab949573acd99aa7703b7a9e4c99",
     "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9"
   },
   "currentDataChanged": 0,
   "inputHashes": {
-    "data/creators.json": "08f866c648291f75062fa3c716fca5b4b12260e3f4689036c34cfe74b946c3b5",
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
     "data/works.json": "0d11445f079f14631de361259277ed24076151dfe6ca7c920d6bcd13e6f379fa",
-    "data/garupa/songs.json": "cf4ae25aca3f9f157c7001cc747005e82ecc182b95a965d17204f0d4ac60a604",
+    "data/garupa/songs.json": "b2605bc55e5a4898644d3527cccd6a630d02ab949573acd99aa7703b7a9e4c99",
     "data/ournotes/songs.json": "1ee6509381a39c5331ef26b14e3201ae58d6df0e83c28bfbddfbb30c3e6ecfd9",
     "docs/migrations/credits-phase-a-2026-10-03/credit-research.json": "6025759458285051b202efdaf32cd40c2951f67a5314bb42ca37b56cc7c2160d",
     "docs/migrations/credits-phase-a-2026-10-03/unresolved.json": "3e01f471bb96ef5ab9e05501cc12ad55422c95a92ec6a81c00ecde8e27aae5e4",
@@ -66387,7 +66136,8 @@
     "docs/migrations/credits-phase-b2-2026-10-03/baseline.json": "0e1070e39bd7ee6dd73480d597c327217a57eece0279cd6af1237dbb6b28cd8f",
     "docs/migrations/creators-2026-10-02/creator-review.json": "ec696594f1e13e15ba24c76b4561a1610b1705b07f6382a65c537dd911b5fcb1",
     "docs/human-review/creator-credits-p0-2026-10-06/review.json": "35d6ab2b139f640ee71040c6c67945148dc743df2de26870d189ea9c29d93c12",
-    "docs/human-review/creator-kanzaki-2026-10-06/review.json": "dd09067badb2099a5dc76288c913ebb762e7d67e016b60d633556d87d64e5e4e"
+    "docs/human-review/creator-kanzaki-2026-10-06/review.json": "dd09067badb2099a5dc76288c913ebb762e7d67e016b60d633556d87d64e5e4e",
+    "docs/human-review/creator-kanow-p1-2026-10-07/review.json": "81ba2dadc36506db19cc7ac2356b61805e7c4989c51c615ba62f7987bf7b55c9"
   },
   "protectedResearchFileCount": 452,
   "protectedResearchHashes": {
@@ -66861,30 +66611,40 @@
     "scopedRelations": 6,
     "missingFields": []
   },
+  "appliedP1Registration": {
+    "document": "docs/human-review/creator-kanow-p1-2026-10-07/review.json",
+    "inputSha256": "26e13c91739fa758700bdb6398bbcda7b3c35913758ff90a8fd86859183286a5",
+    "clarificationSha256": "a9ac9329ba921fa9513d08cab543f1ed3e306d56249be0f3fc14e3f881779edc",
+    "creatorId": "cr-0126",
+    "scopedRecords": 10,
+    "unprovidedOptionalFields": [
+      "備考"
+    ]
+  },
   "generatedArtifacts": {
     "README.md": {
-      "sha256": "c9884458f56eff89c702a86b1b1d3b5d47af0d46a911063d8784ce9d44c669f6",
-      "bytes": 4576
+      "sha256": "05c554dc1afea4d389a388413f19514eea643c29c3bed0ac1caec306f4f6f8f7",
+      "bytes": 4940
     },
     "HUMAN_TODO_BY_SONG.md": {
-      "sha256": "4013523a9113521863d7c7fe1bb1375e14056e42e91c4288efeb4431327a7597",
-      "bytes": 3132690
+      "sha256": "79a052c0423b19feeee54be6ca60053eea33a5d151853fd71f8e734f27346ce6",
+      "bytes": 3037343
     },
     "HUMAN_TODO_BY_CREATOR.md": {
-      "sha256": "ca569dcd5cfcfc8c83eb2af8c3134cf4bccf30bb134a0939ad2239cd007a3576",
-      "bytes": 3261227
+      "sha256": "fd8d20aaed2371ad49cedc82bae31d6fcdb84c2098a0acfb682f6c8d3bd99c8c",
+      "bytes": 3216192
     },
     "HUMAN_TODO_BY_SONG.json": {
-      "sha256": "408f1d85be6d3ee266d2b71488fa263566e3244feb4639aa86e934caa0b15cf3",
-      "bytes": 5007492
+      "sha256": "20d63811ba663f1753e1452134c822fdf8e9622b3833de35d1a892474e5bc9a6",
+      "bytes": 4861170
     },
     "HUMAN_TODO_BY_CREATOR.json": {
-      "sha256": "b650a92faf73843d0d1e8066288ecfaf8de11cea50701f1f5265e50c61b988cc",
-      "bytes": 5161160
+      "sha256": "3d3a450448267a57ed606a146c491bbc27d603769ab2ca1370f3175a76ebbaef",
+      "bytes": 5082856
     },
     "HUMAN_TODO_SUMMARY.md": {
-      "sha256": "07834cb890e3518cb2a710dad7971639f8bdeb056abd37586d1f064e63693720",
-      "bytes": 3153
+      "sha256": "ba87fd697fb0cd2e5fa35ca8b2b7923188ec2a9bbfa69a608a4f29ba0152aa44",
+      "bytes": 3154
     }
   }
 }
