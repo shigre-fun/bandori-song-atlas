@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-07 公開・本番検証完了：製品commit a1a9bbab6043975ff10e4d46e19620b58603b7f0をpush、同SHAのCloudflare成功/Actions run37485376436 build+deploy成功/GitHub Pages deployment6887819605成功。Cloudflare本番18HTTP200、125Creator/next126、カンザキcr0125の2Work/3収録/6L-Cリンク、全885公開record・Creator/Work全値・remote3曲更新を検証済みbuildと一致確認。REPORT/verification/deployment-status/public-audit/成功失敗HTTPlogを保存。全295test・両build/SEO1019/885・反復0・台帳漏れ0・452+30原資料byteと既存124metadata保護は成功済み。現在：この検証記録のみを最後のdocs commit/pushへ保存、製品pathの差分0を確認して終了。未完了：最終docs保存だけ。次：docs限定diffcheck→skip付きcommit/push→HEAD/origin一致/working tree空。追加の実ゲーム観察は未実施（ユーザー回答で確定）、版関係39件等の未回答は将来台帳に保持。途中失敗・対処は履歴/verification/原logへ保存、承認拒否0、強制push0、server0。
+
+- 2026-10-07 Cloudflare同SHA a1a9bbaのdeployment49e6ed0f成功。本番18GETはすべて200、125/next126・cr0125ページ2楽曲/3収録/作詞作曲各2・3収録の6link・canonical/sitemap・管理noindex・全885公開catalogとCreator/Work全値が検証済みdistに一致。先行3曲の118/95/138秒・HARD533/857保持。補助HTTP auditの難易度キーHARD参照は公開配列schemaと異なりTypeError→site-configのHARD index2へ訂正し最終PASS（製品修正0）。現在：同SHA GitHub Actions完了待ち、結果を保存して記録だけの最終commit/push、公開済み製品byte不変確認。未完了：Actionsと終了記録。次：API status→REPORT/verification保存→docsのみcommit/push→終了diff/HEAD照合。
+
+- 2026-10-07 検証済みmerge a1a9bbab6043975ff10e4d46e19620b58603b7f0を通常push成功（origin/main同SHA、stage/working tree空）。Actions run37485376436/buildとCloudflare deployment49e6ed0f-d95f-4303-860b-4f33a838447eが同SHAでin_progress、既存Git連携公開が開始したことをAPIで確認。現在：完了待ち→本番18HTTP・885catalog/125master・6songwriter link・remote3曲値を確認→公開結果をREPORT/verification/WORK_LOGへ保存。未完了：同SHAsuccess/本番/最終記録。次：適度に間隔を空けAPI確認、失敗時は実ログで修復。自作serverなし、test/buildセッションは全終了。
+
 - 2026-10-07 Git公開byte確認完了：indexの全5source/保護482資料（A/B1全452＋旧P030、ignored logは同SHA txt）/新入力/原・remote2fixture/全21validation原本が予定SHAと一致。旧P0 inputと一部logは先のcommitで改行正規化されていたため、-text属性適用下で限定renormalizeし原本のbyteへ戻した（作業中原本変更0）。全a98f9bf以降diffcheck/現在stage check成功。直前fetchでorigin/mainとMERGE_HEADとも4e72a11、追加remote更新なし。現在：merge commit→通常push→同SHA Actions/Cloudflare→本番18HTTPと全885catalog照合。未完了：公開検証と終了記録、auto-review拒否0。
 
 - 2026-10-07 公開差分の追加確認：全a98f9bf以降のdiffcheckで初回失敗TAP原本tests-first.txtのspace-only2行を検出。証拠byteを編集せず当該1fileだけwhitespace attributeを無効化し、他のsource/資料のcheckは保持。現在Git indexの全5source/旧P030/A-B1全452のbyte照合中（session53262）。公開前checkとしてこれとfull diffcheckの成功が必要。commit/push/deployは未達のまま継続。

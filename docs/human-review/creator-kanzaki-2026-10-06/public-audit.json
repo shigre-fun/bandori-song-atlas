@@ -1,0 +1,89 @@
+{
+  "result": "PASS",
+  "verifiedAt": "2026-10-06T15:16:37.205Z",
+  "commit": "a1a9bbab6043975ff10e4d46e19620b58603b7f0",
+  "origin": "https://tanimachi-bdsongs.com",
+  "http": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/admin/",
+      "status": 200
+    },
+    {
+      "path": "/admin/creators/",
+      "status": 200
+    },
+    {
+      "path": "/contact/",
+      "status": 200
+    },
+    {
+      "path": "/creators.json",
+      "status": 200
+    },
+    {
+      "path": "/creators/",
+      "status": 200
+    },
+    {
+      "path": "/creators/iori-kanzaki/",
+      "status": 200
+    },
+    {
+      "path": "/garupa/songs.json",
+      "status": 200
+    },
+    {
+      "path": "/garupa/songs/467/",
+      "status": 200
+    },
+    {
+      "path": "/garupa/songs/758/",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs.json",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs/19/",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs/20/",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs/21/",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs/86/",
+      "status": 200
+    },
+    {
+      "path": "/search/",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/works.json",
+      "status": 200
+    }
+  ],
+  "creatorCount": 125,
+  "nextId": 126,
+  "creatorId": "cr-0125",
+  "scopedSongwriterLinks": 6,
+  "works": 2,
+  "recordings": 3,
+  "all885PublishedRecordsEqualValidatedBuild": true,
+  "allCreatorAndWorkMetadataEqualValidatedBuild": true,
+  "parallelSongEditsRetained": true
+}

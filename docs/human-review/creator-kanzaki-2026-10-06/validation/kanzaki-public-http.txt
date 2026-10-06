@@ -1,0 +1,9 @@
+file:///C:/MyProgramming/BangDream_Website/.cache/kanzaki-public-http.mjs:16
+assert.equal(songs.find(s=>s.id===20).difficulties.HARD.notes,533);assert.equal(songs.find(s=>s.id===21).difficulties.HARD.notes,857);
+                                                       ^
+
+TypeError: Cannot read properties of undefined (reading 'notes')
+    at file:///C:/MyProgramming/BangDream_Website/.cache/kanzaki-public-http.mjs:16:56
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v24.19.0

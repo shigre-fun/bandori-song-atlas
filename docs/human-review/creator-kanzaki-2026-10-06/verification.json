@@ -176,11 +176,21 @@
   },
   "publication": {
     "authorizedByUser": true,
-    "status": "PENDING_PUSH_AND_DEPLOYMENT"
+    "status": "DEPLOYED_AND_VERIFIED",
+    "commit": "a1a9bbab6043975ff10e4d46e19620b58603b7f0",
+    "cloudflare": {
+      "status": "success",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/49e6ed0f-d95f-4303-860b-4f33a838447e"
+    },
+    "githubActions": {
+      "status": "success",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/37485376436"
+    },
+    "publicAudit": "docs/human-review/creator-kanzaki-2026-10-06/public-audit.json",
+    "verifiedAt": "2026-10-06T15:16:37.205Z"
   },
   "unverified": [
-    "実ゲームの追加観察（今回の人間回答を根拠として適用）",
-    "本番反映（公開作業へ継続）"
+    "実ゲームの追加観察（今回の人間回答を根拠として適用）"
   ],
   "issues": [
     {
@@ -214,6 +224,10 @@
     {
       "issue": "旧P0 inputと検証logのGit newline変換が原本SHAと不一致",
       "resolution": "人間reviewの-text属性を適用して限定renormalizeし、全482旧資料・5source・新入力/2fixture/全21validation原本のGit blob SHA一致を確認"
+    },
+    {
+      "issue": "本番監査のHARD property期待が公開difficulties配列と異なりTypeError",
+      "resolution": "site-configでHARDがindex2と確認、補助auditのみ訂正。全18GET/885曲/125Creator/6link/remote値の再照合PASS、製品変更0"
     }
   ],
   "originalRegistrationSourceHashes": {
@@ -303,6 +317,16 @@
         "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-validation-git-byte.txt",
         "sha256": "67e8dd41a9b91224c6f29a7d85807dffc77cb83d20c800db502aa3318ecb8ec6"
       }
+    }
+  },
+  "publicAuditEvidence": {
+    "kanzaki-public-http.log": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-public-http.txt",
+      "sha256": "18397ff77186cd4132f54e92889351c5357c49fcccfd60554edb5ff75a1d0898"
+    },
+    "kanzaki-public-http-final.log": {
+      "file": "docs/human-review/creator-kanzaki-2026-10-06/validation/kanzaki-public-http-final.txt",
+      "sha256": "f050e5ce6fd738a0b503a81ced05a5ddd696522b1c2a4a555de09544ab78d98c"
     }
   }
 }
