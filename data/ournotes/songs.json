@@ -5903,6 +5903,48 @@
           },
           "lyricist": "藤井健太郎",
           "arranger": "藤井健太郎"
+        },
+        {
+          "id": 87,
+          "title": "Odd Dice",
+          "reading": "オットタイス",
+          "releaseDate": "2026-10-09T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "アザミ",
+          "originalArtist": null,
+          "originalWork": null,
+          "mv": null,
+          "songType": "紅赤",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ],
+          "relatedSongIds": [],
+          "bpm": null,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": null,
+              "notes": null
+            },
+            "NORMAL": {
+              "level": null,
+              "notes": null
+            },
+            "HARD": {
+              "level": null,
+              "notes": null
+            },
+            "EXPERT": {
+              "level": null,
+              "notes": null
+            }
+          },
+          "submissionId": "03480a6b-d96f-400f-abb9-d27f4295797b"
         }
       ]
     },
