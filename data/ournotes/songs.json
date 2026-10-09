@@ -5824,7 +5824,7 @@
           "id": 64,
           "title": "everscape",
           "reading": "エバースケープ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 64,
           "composer": "藤井健太郎、瀬名水紀(Dream Monster)",
           "originalArtist": null,
@@ -5832,7 +5832,7 @@
           "bpm": 198,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 138,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5904,7 +5904,9 @@
             ]
           },
           "lyricist": "藤井健太郎",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "fca93c95-5963-47c6-87ae-c9f0577b2e58"
         },
         {
           "id": 87,
