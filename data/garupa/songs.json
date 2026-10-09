@@ -9732,7 +9732,7 @@
           "id": 788,
           "title": "Resound the Way",
           "reading": "リサウンドザウェイ",
-          "releaseDate": "2026-09-10T15:00+09:00",
+          "releaseDate": "2026-09-17T21:00+09:00",
           "releaseOrder": null,
           "composer": "堀川大翼（Elements Garden）",
           "originalArtist": null,
@@ -9781,7 +9781,11 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "relatedSongIds": [],
+          "lyricist": null,
+          "arranger": null,
+          "revision": "cc5c23db-74f3-400f-8c45-2481a47d1170"
         },
         {
           "id": 166,
