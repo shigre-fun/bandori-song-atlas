@@ -6,11 +6,86 @@ import { GitHubCreatorStore } from "../src/js/github-creator-store.js";
 import { GitHubStore } from "../src/js/github-store.js";
 import { GAMES } from "../src/js/site-config.js";
 import { listGarupaSongs } from "../src/js/garupa-data.js";
-import { selectedCreditData } from "../src/js/creators-data.js";
+import {
+  selectedCreditData,
+  enteredCreditData,
+  creditRows,
+} from "../src/js/creators-data.js";
 const settings = { owner: "test-owner", repo: "song-atlas", branch: "main" };
 const sha = (value) =>
   crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
 import { creatorRepository } from "./helpers/creator-repository.mjs";
+
+for (const game of Object.values(GAMES))
+  test(`${game.id} direct lyricist/composer/arranger entry adds, reloads, edits and clears without inferred identities`, async () => {
+    const repo = creatorRepository();
+    const store = new GitHubStore(settings, "fake-token", repo.fetcher, game);
+    const creators = repo.files["data/creators.json"].creators;
+    const names = {
+      lyricist: "作詞A、作詞B",
+      composer: "制作名A",
+      arranger: "編曲C（ゲーム版）",
+    };
+    const input = {
+      ...structuredClone(repo.song),
+      ...enteredCreditData([], creators, null, names, Object.keys(names)),
+      workId: undefined,
+      ...(game.id === "ournotes"
+        ? { mv: null, songType: null, gekisouSections: [null, null, null] }
+        : {}),
+    };
+    if (game.id === "ournotes") {
+      delete input.live3d;
+      delete input.difficulties.SPECIAL;
+    }
+    const saved = await store.addSong(input, `${game.id}-direct-credit-add`);
+    let loaded = await store.loadSong(saved.id);
+    for (const role of Object.keys(names))
+      assert.equal(loaded.song[role], names[role]);
+    assert.deepEqual(loaded.song.credits, []); // Even a matching name is not automatically identified.
+    const updatedNames = { ...names, composer: "改訂作曲者", arranger: "" };
+    await store.updateSong(
+      {
+        ...loaded.song,
+        ...enteredCreditData(
+          creditRows(loaded.song),
+          creators,
+          loaded.song,
+          updatedNames,
+          ["composer", "arranger"],
+        ),
+      },
+      loaded,
+      `${game.id}-direct-credit-edit`,
+    );
+    loaded = await store.loadSong(saved.id);
+    assert.equal(loaded.song.lyricist, names.lyricist);
+    assert.equal(loaded.song.composer, "改訂作曲者");
+    assert.equal(loaded.song.arranger, null);
+    assert.deepEqual(loaded.song.creditDisplay.arranger, []);
+    assert.equal(loaded.song.id, saved.id);
+    const linked = enteredCreditData(
+      [
+        ...creditRows(loaded.song),
+        { creatorId: "cr-0001", role: "composer", displayOverride: "" },
+      ],
+      creators,
+      loaded.song,
+      updatedNames,
+      [],
+    );
+    await store.updateSong(
+      { ...loaded.song, ...linked },
+      loaded,
+      `${game.id}-direct-credit-link`,
+    );
+    loaded = await store.loadSong(saved.id);
+    assert.equal(loaded.song.composer, "制作名A");
+    assert.deepEqual(loaded.song.creditDisplay.composer, [
+      { creatorId: "cr-0001" },
+    ]);
+    assert.equal(loaded.song.lyricist, names.lyricist);
+  });
 test("unresolved composer is preserved while the same Creator gains another role", async () => {
   const repo = creatorRepository(),
     store = new GitHubStore(settings, "fake-token", repo.fetcher);

@@ -62,7 +62,10 @@ function harness(previous = null, workCount = 2) {
   const form = {
     elements: {
       creatorRows: new Element(),
+      creditTextRoles: new Element(),
+      lyricist: new Element(),
       composer: new Element(),
+      arranger: new Element(),
       workId: new Element("select"),
     },
   };
@@ -93,6 +96,7 @@ function harness(previous = null, workCount = 2) {
     draft = null;
   const context = vm.createContext({
     ...data,
+    structuredClone,
     document: {
       querySelector: (s) => elements[s],
       createElement: (t) => new Element(t),
@@ -117,6 +121,10 @@ function harness(previous = null, workCount = 2) {
       draft = {
         rows: form.elements.creatorRows.value,
         workId: form.elements.workId.value,
+        textRoles: form.elements.creditTextRoles.value,
+        values: Object.fromEntries(
+          data.CREDIT_ROLES.map((role) => [role, form.elements[role].value]),
+        ),
       };
     },
   });
@@ -191,22 +199,119 @@ test("Work draft selection survives unavailable options, refresh limits and sear
 test("loaded unresolved credit keeps its display and blocks changing only the pending role", async () => {
   const old = {
     workId: "wk-0001",
-    credits: [],
+    credits: [{ creatorId: "cr-0002", roles: ["composer"] }],
     creditDisplay: {
       lyricist: [],
-      composer: [{ text: "確認待ち名", unresolved: true }],
+      composer: [
+        { creatorId: "cr-0002" },
+        { text: "、" },
+        { text: "確認待ち名", unresolved: true },
+      ],
       arranger: [],
     },
-    composer: "確認待ち名",
+    composer: "制作B、確認待ち名",
   };
   const h = harness(old);
   h.picker.setSong(old);
   await h.picker.refresh();
   h.add("cr-0001", "composer");
-  assert.equal(h.rows().length, 0);
+  assert.equal(h.rows().length, 1);
   assert.match(h.elements["#credit-status"].textContent, /確認待ち/);
   h.add("cr-0001", "lyricist");
-  assert.equal(h.picker.entered().composer, "確認待ち名");
+  assert.equal(h.picker.entered().composer, "制作B、確認待ち名");
   assert.equal(h.picker.entered().lyricist, "制作A");
   assert.equal(h.picker.entered().workId, "wk-0001");
+});
+
+test("three direct credit fields survive refresh and draft restore, then allow explicit Creator selection", async () => {
+  const h = harness();
+  for (const [role, text] of Object.entries({
+    lyricist: "作詞A、作詞B",
+    composer: "作曲C（原曲）",
+    arranger: "編曲D",
+  })) {
+    h.form.elements[role].value = text;
+    h.form.elements[role].oninput();
+  }
+  await h.picker.refresh();
+  assert.equal(h.picker.entered().composer, "作曲C（原曲）");
+  const saved = h.draft();
+  const restored = harness();
+  restored.form.elements.creatorRows.value = saved.rows;
+  restored.form.elements.creditTextRoles.value = saved.textRoles;
+  for (const role of data.CREDIT_ROLES)
+    restored.form.elements[role].value = saved.values[role];
+  await restored.picker.refresh();
+  assert.equal(
+    JSON.stringify(restored.picker.entered()),
+    JSON.stringify(h.picker.entered()),
+  );
+  restored.add("cr-0001", "composer");
+  assert.equal(restored.form.elements.composer.value, "制作A");
+  assert.equal(restored.picker.entered().composer, "制作A");
+  assert.equal(restored.picker.entered().lyricist, "作詞A、作詞B");
+  assert.equal(restored.picker.entered().arranger, "編曲D");
+  restored.picker.reset();
+  for (const role of data.CREDIT_ROLES)
+    assert.equal(restored.form.elements[role].value, "");
+});
+
+test("editing one role preserves other role links and reverting restores the original identity", async () => {
+  const old = {
+    ...data.selectedCreditData(
+      [
+        { creatorId: "cr-0001", role: "composer", displayOverride: "" },
+        { creatorId: "cr-0001", role: "lyricist", displayOverride: "" },
+        { creatorId: "cr-0002", role: "arranger", displayOverride: "" },
+      ],
+      [
+        { id: "cr-0001", name: "制作A" },
+        { id: "cr-0002", name: "制作B" },
+      ],
+    ),
+    workId: "wk-0001",
+  };
+  const h = harness(old);
+  h.picker.setSong(old);
+  await h.picker.refresh();
+  assert.equal(h.form.elements.lyricist.value, "制作A");
+  assert.equal(h.form.elements.arranger.value, "制作B");
+  h.form.elements.composer.value = "未登録作曲者";
+  h.form.elements.composer.oninput();
+  await h.picker.refresh();
+  const entered = h.picker.entered();
+  assert.equal(entered.composer, "未登録作曲者");
+  assert.deepEqual(entered.creditDisplay.composer, [
+    { text: "未登録作曲者", unresolved: true },
+  ]);
+  assert.deepEqual(entered.creditDisplay.lyricist, old.creditDisplay.lyricist);
+  assert.deepEqual(entered.creditDisplay.arranger, old.creditDisplay.arranger);
+  assert.equal(
+    entered.credits.some((c) => c.roles.includes("composer")),
+    false,
+  );
+  h.form.elements.composer.value = old.composer;
+  h.form.elements.composer.oninput();
+  assert.deepEqual(h.picker.entered().credits, old.credits);
+});
+
+test("a reloaded direct credit can be explicitly linked to a registered Creator", async () => {
+  const old = {
+    credits: [],
+    creditDisplay: {
+      lyricist: [],
+      composer: [{ text: "手入力名", unresolved: true }],
+      arranger: [],
+    },
+    composer: "手入力名",
+    workId: "wk-0001",
+  };
+  const h = harness(old);
+  h.picker.setSong(old);
+  await h.picker.refresh();
+  h.add("cr-0001", "composer");
+  assert.equal(h.form.elements.composer.value, "制作A");
+  assert.deepEqual(h.picker.entered().creditDisplay.composer, [
+    { creatorId: "cr-0001" },
+  ]);
 });

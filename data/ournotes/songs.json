@@ -5950,7 +5950,19 @@
               "notes": null
             }
           },
-          "submissionId": "03480a6b-d96f-400f-abb9-d27f4295797b"
+          "submissionId": "03480a6b-d96f-400f-abb9-d27f4295797b",
+          "workId": "wk-0825",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "アザミ",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },

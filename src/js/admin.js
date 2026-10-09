@@ -32,7 +32,7 @@ const creatorPicker = createCreatorPicker({
   form,
   getStore: () => store,
   getPrevious: () => editing?.song,
-  onChange: () => saveDraft(),
+  onChange: () => form.dispatchEvent(new Event("input", { bubbles: true })),
 });
 let songOptions = [];
 let relatedOptions = null;
@@ -238,7 +238,9 @@ document.querySelector("#load-song").addEventListener("click", async () => {
       "reading",
       "category",
       "releaseOrder",
+      "lyricist",
       "composer",
+      "arranger",
       "originalArtist",
       "originalWork",
       "bpm",

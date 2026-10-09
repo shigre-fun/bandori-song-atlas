@@ -312,3 +312,52 @@ export function selectedCreditData(rows, creators, previous = null) {
   validateCreditStructure(result);
   return result;
 }
+
+// Direct entry records the displayed name without inferring a Creator identity.
+// Other roles retain their existing tokens, including unresolved fragments.
+export function enteredCreditData(rows, creators, previous, values, textRoles) {
+  if (
+    !Array.isArray(textRoles) ||
+    textRoles.some((r) => !CREDIT_ROLES.includes(r))
+  )
+    fail("直接入力したクレジットの担当が不正です。");
+  const replacedRoles = [
+    ...new Set([
+      ...textRoles,
+      ...CREDIT_ROLES.filter(
+        (role) =>
+          previous &&
+          JSON.stringify(rows.filter((r) => r.role === role)) !==
+            JSON.stringify(creditRows(previous).filter((r) => r.role === role)),
+      ),
+    ]),
+  ];
+  const unchanged = previous ? structuredClone(previous) : null;
+  if (unchanged) {
+    unchanged.credits = unchanged.credits.flatMap((c) => {
+      const roles = c.roles.filter((role) => !replacedRoles.includes(role));
+      if (!roles.length) return [];
+      const next = { ...c, roles };
+      if (next.displayOverrides)
+        next.displayOverrides = Object.fromEntries(
+          Object.entries(next.displayOverrides).filter(([role]) =>
+            roles.includes(role),
+          ),
+        );
+      return [next];
+    });
+    for (const role of replacedRoles) unchanged.creditDisplay[role] = [];
+  }
+  const result = selectedCreditData(
+    rows.filter((r) => !textRoles.includes(r.role)),
+    creators,
+    unchanged,
+  );
+  for (const role of textRoles) {
+    const text = values[role].trim();
+    result[role] = text || null;
+    result.creditDisplay[role] = text ? [{ text, unresolved: true }] : [];
+  }
+  validateCreditStructure(result);
+  return result;
+}

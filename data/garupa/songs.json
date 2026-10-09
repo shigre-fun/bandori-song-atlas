@@ -28521,7 +28521,19 @@
             "EXPERT": null,
             "SPECIAL": null
           },
-          "submissionId": "b86cc331-0b3a-474a-9eb1-8bb3a61eb36f"
+          "submissionId": "b86cc331-0b3a-474a-9eb1-8bb3a61eb36f",
+          "workId": "wk-0824",
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [],
+            "composer": [
+              {
+                "text": "藤田淳平（Elements Garden）",
+                "unresolved": true
+              }
+            ],
+            "arranger": []
+          }
         }
       ]
     },

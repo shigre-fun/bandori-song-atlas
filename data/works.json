@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 824,
+  "nextId": 826,
   "works": [
     {
       "id": "wk-0001",
@@ -4125,6 +4125,16 @@
     {
       "id": "wk-0823",
       "title": "夢我夢中",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0824",
+      "title": "Sky full of Miracle",
+      "source": "independent-record"
+    },
+    {
+      "id": "wk-0825",
+      "title": "Odd Dice",
       "source": "independent-record"
     }
   ]

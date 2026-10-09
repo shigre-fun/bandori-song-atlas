@@ -494,7 +494,18 @@ export class GitHubStore {
       throw new Error("作詞・作曲・編曲は登録済みCreatorを選択してください。");
     for (const role of CREDIT_ROLES) {
       const parts = song.creditDisplay[role] ?? [];
-      if (previous?.creditDisplay?.[role]?.some((p) => p.unresolved)) {
+      const directEntry =
+        !song.credits.some((c) => c.roles.includes(role)) &&
+        (parts.length === 0 ||
+          (parts.length === 1 &&
+            parts[0].unresolved === true &&
+            typeof parts[0].text === "string" &&
+            !parts[0].creatorId));
+      if (
+        !directEntry &&
+        previous?.credits?.some((c) => c.roles.includes(role)) &&
+        previous?.creditDisplay?.[role]?.some((p) => p.unresolved)
+      ) {
         if (
           JSON.stringify(parts) !==
             JSON.stringify(previous.creditDisplay[role]) ||
@@ -515,6 +526,7 @@ export class GitHubStore {
             "確認待ちクレジットはmigrationで解決してください。既存表記を保持します。",
           );
       } else if (
+        !directEntry &&
         parts.some(
           (p) =>
             p.unresolved ||

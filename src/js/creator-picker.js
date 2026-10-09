@@ -1,11 +1,13 @@
 import {
   searchCreators,
   creditRows,
-  selectedCreditData,
+  enteredCreditData,
+  CREDIT_ROLES,
   ROLE_LABELS,
 } from "./creators-data.js";
 export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
   const field = form.elements.creatorRows,
+    textField = form.elements.creditTextRoles,
     status = document.querySelector("#credit-status"),
     list = document.querySelector("#selected-creators"),
     workSelect = form.elements.workId;
@@ -16,7 +18,33 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
     if (!Array.isArray(value)) throw new Error("Creator選択データが不正です。");
     return value;
   };
+  const textRoles = () => JSON.parse(textField.value || "[]");
+  const creditData = () =>
+    enteredCreditData(
+      rows(),
+      creators,
+      getPrevious(),
+      Object.fromEntries(
+        CREDIT_ROLES.map((role) => [role, form.elements[role].value]),
+      ),
+      textRoles(),
+    );
+  function renderNames() {
+    if (!creators.length) return;
+    const data = creditData();
+    for (const role of CREDIT_ROLES)
+      if (!textRoles().includes(role))
+        form.elements[role].value = data[role] ?? "";
+  }
   const change = (next) => {
+    const changedRoles = CREDIT_ROLES.filter(
+      (role) =>
+        JSON.stringify(rows().filter((r) => r.role === role)) !==
+        JSON.stringify(next.filter((r) => r.role === role)),
+    );
+    textField.value = JSON.stringify(
+      textRoles().filter((role) => !changedRoles.includes(role)),
+    );
     field.value = JSON.stringify(next);
     render();
     onChange();
@@ -83,8 +111,7 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
             other.input.value = input.value;
         if (creators.length) {
           try {
-            form.elements.composer.value =
-              selectedCreditData(next, creators, getPrevious()).composer ?? "";
+            renderNames();
           } catch (error) {
             status.textContent = error.message;
           }
@@ -127,15 +154,17 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
       list.append(li);
     }
     const pending = Object.entries(getPrevious()?.creditDisplay ?? {}).filter(
-      ([, parts]) => parts.some((p) => p.unresolved),
+      ([role, parts]) =>
+        !textRoles().includes(role) &&
+        parts.some((p) => p.unresolved) &&
+        creditRows(getPrevious()).some((r) => r.role === role),
     );
     status.textContent = pending.length
       ? `確認待ち：${pending.map(([role]) => ROLE_LABELS[role]).join("・")}の既存表記は保持します。登録済みの対応を確認してmigration mappingで解決してください。`
       : "名前で検索して担当ごとに追加してください。表示順は前へ・後へで変更できます。";
     if (creators.length) {
       try {
-        form.elements.composer.value =
-          selectedCreditData(rows(), creators, getPrevious()).composer ?? "";
+        renderNames();
       } catch (error) {
         status.textContent = error.message;
       }
@@ -167,7 +196,13 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
       status.textContent = "登録済みCreatorを検索・選択してください。";
       return;
     }
-    if (getPrevious()?.creditDisplay?.[role]?.some((p) => p.unresolved)) {
+    if (
+      !textRoles().includes(role) &&
+      creditRows(getPrevious() ?? { creditDisplay: {} }).some(
+        (r) => r.role === role,
+      ) &&
+      getPrevious()?.creditDisplay?.[role]?.some((p) => p.unresolved)
+    ) {
       status.textContent =
         "確認待ちの担当はmigrationで対応を確認してから変更してください。";
       return;
@@ -187,16 +222,39 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
     });
     change(next);
   };
+  for (const role of CREDIT_ROLES)
+    form.elements[role].oninput = () => {
+      const previous = getPrevious();
+      const restored =
+        previous && form.elements[role].value.trim() === (previous[role] ?? "");
+      textField.value = JSON.stringify([
+        ...textRoles().filter((r) => r !== role),
+        ...(restored ? [] : [role]),
+      ]);
+      field.value = JSON.stringify([
+        ...rows().filter((r) => r.role !== role),
+        ...(restored
+          ? creditRows(previous).filter((r) => r.role === role)
+          : []),
+      ]);
+      render();
+      onChange();
+    };
   return {
     refresh,
     render,
     setWork: renderWorks,
     setSong(song) {
+      textField.value = "[]";
+      for (const role of CREDIT_ROLES)
+        form.elements[role].value = song[role] ?? "";
       field.value = JSON.stringify(creditRows(song));
       renderWorks(song.workId ?? "");
       render();
     },
     reset() {
+      textField.value = "[]";
+      for (const role of CREDIT_ROLES) form.elements[role].value = "";
       field.value = "[]";
       renderWorks("");
       render();
@@ -205,7 +263,7 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
       if (!creators.length)
         throw new Error("クリエイター・Workを取得してください。");
       return {
-        ...selectedCreditData(rows(), creators, getPrevious()),
+        ...creditData(),
         workId: workSelect.value || undefined,
       };
     },

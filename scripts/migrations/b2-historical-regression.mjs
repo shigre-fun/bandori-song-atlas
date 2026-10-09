@@ -40,6 +40,17 @@ for (const file of [
   "data/ournotes/songs.json",
 ])
   fs.writeFileSync(path.join(root, file), historicalText(file));
+// Pair the copied allocator with its historical songs as the live catalog grows.
+// This writes only the isolated fixture; the live administrator state is retained.
+for (const game of ["garupa", "ournotes"]) {
+  const stateFile = path.join(root, `data/${game}/admin-state.json`);
+  const state = JSON.parse(fs.readFileSync(stateFile, "utf8"));
+  const songs = JSON.parse(
+    historicalText(`data/${game}/songs.json`),
+  ).groups.flatMap((group) => group.songs);
+  state.nextId = Math.max(0, ...songs.map((song) => song.id)) + 1;
+  fs.writeFileSync(stateFile, JSON.stringify(state, null, 2) + "\n");
+}
 if (!fs.existsSync(path.join(root, "node_modules")))
   fs.symlinkSync(
     path.resolve("node_modules"),

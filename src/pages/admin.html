@@ -253,12 +253,21 @@
               BPMが一定なら基本BPMだけで構いません。変動する場合は下限・上限も両方入力してください。基本BPMは演奏時間が最も長い値を目安にします。演奏時間はフル音源ではなくゲーム内の長さを秒単位で入力します。秒未満は切り捨てます。未確認の項目は空欄にしてください。
             </p>
             <label class="wide"
+              >作詞者<input name="lyricist" maxlength="2000"
+            /></label>
+            <label class="wide"
               >作曲者（カバー・エクストラは原曲）<input
                 name="composer"
                 maxlength="2000"
-                readonly
             /></label>
+            <label class="wide"
+              >編曲者<input name="arranger" maxlength="2000"
+            /></label>
+            <p class="wide help">
+              各担当の名前を直接入力できます。複数名は「、」などで区切り、未確認は空欄にしてください。名前を書き換えた担当のクリエイターへのリンクは外れます。リンクを設定する場合は、下の欄で登録済みクリエイターを選択してください。
+            </p>
             <input type="hidden" name="creatorRows" value="[]" />
+            <input type="hidden" name="creditTextRoles" value="[]" />
             <section class="wide" id="creator-picker">
               <h3>作詞・作曲・編曲のクリエイター</h3>
               <p class="help">

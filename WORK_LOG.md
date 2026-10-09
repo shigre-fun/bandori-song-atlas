@@ -1,8 +1,30 @@
 # 作業記録
 
-最終更新：2026-10-07（日本時間）
+最終更新：2026-10-09（日本時間）
 
 ## 現在地
+
+- 2026-10-09 管理ページ担当欄公開：最新887曲で全269test（203+35+24+7）成功、build800/87/797・SEO1022/887・Prettier10file/diffcheck成功。公開guardで検証済UI7sourceSHA一致、origin/mainとHEAD同fd1c447、全887record/group既存field・既存823Work・Creator/admin-state保持、追加Work2/不足構造だけ、対象14file一致を確認。現在：14file限定stage/cached hash-check→commit→通常push。未完了：同SHA公開成功と本番全catalog/両3欄/終了記録。成功証拠reports/admin-credits-publish-guard.json、publish-build/seo/tests log。
+
+- 2026-10-09 管理ページ担当欄公開：歴史fixture採番修復を整形・構文確認、10file Prettierとdiffcheck成功、実admin-state/Creator差分0。再検証session86047が進行中。Windows checkoutのCRLFがJS5/CSS1に存在しLinux cacheVersionが異なるため、public module検証はCRLF/LFとcompiler cache番号のみ正規化しコード本体全文一致を必須にした（製品・hash生成処理変更0）。現在：全test終了待ち→検証source/remote原値保全再照合→14file限定stage/commit/push。未完了：公開・本番・記録。
+
+- 2026-10-09 管理ページ担当欄公開：最新build/SEO成功後、全回帰の履歴203test中202成功/1失敗。Garupa order assertが履歴799曲とコピーされた現行admin nextId801を比較して失敗（期待800）。live値を戻さずb2-historical-regression.mjsの隔離fixture内だけ採番をSHA検証済み履歴songsのmaxID+1へ揃え、旧assert維持。現行data/admin-state変更0。初回失敗logはpublish-tests-first-failure.logに保管。現在：runner整形・構文→全269test再実行、成功後commit/push。未完了：test・公開・本番確認。source変更はこのrunner1file追加、管理UI7検証SHA不変。
+
+- 2026-10-09 管理ページ担当欄公開：最新データroot build800/87/797成功、SEO1022正規/887詳細/旧Creator18成功。新曲不足構造の限定追加後も先行全887record原fieldと823Work保持、source7SHA不変。現在：全269test session52444進行中、今回専用public HTTP/Chrome確認helper準備完了（本番未実行）。未完了：test完了/commit/push/Cloudflare・Actions・Pages同SHAsuccess/本番全catalog・3編集欄/終了docs。次：test完了確認→再fetch競合確認→限定13file commit/push。rgのliteral scripts/assets/*.mjsはWindows123で失敗、必要sourceを実ファイルで確認済み。
+
+- 2026-10-09 管理ページ担当欄公開：fd1c447へfast-forward成功、先行6更新保持。初回buildは新Garupa800/OurNotes87のworkId/credits/creditDisplay欠落で停止。新2recordに独立Work wk-0824/0825とraw unresolved tokenだけ追加、全887recordの既存fieldをorigin/mainへdeep照合して保持、既存823Work保持/Creator/admin-state変更0。JSON3file差分37追加/3置換だけ、曲値/人物同定の推測0。修復helper初回git showは1MB既定buffer超過ENOBUFS・変更前停止、32MB指定で成功、原log保存。現在：最新データroot build→SEO→全269test session52444、status helperを今回専用へコピー（旧証拠変更なし）。未完了：検証・commit/push/同SHA公開・本番両3欄。次：session52444完了確認→stage限定13fileと記録→通常push→status。
+
+- 2026-10-09 管理ページ担当欄の公開開始：ユーザーが本番公開を明示許可。Git管理下/実体を確認、開始HEAD b2facbc・index空・検証済み10fileだけ変更、稼働中自己処理なし。fetchでorigin/main fd1c447へ6commit先行を検出、差分は両ゲームsongs/admin-state4fileのみ。現在：未コミットUI差分を保持したままfast-forward→最新データでbuild/全269test/SEO→commit/push→同SHA Cloudflare/Actions/GitHub Pages success→本番3欄/両ゲーム/全公開catalog一致確認。未完了：公開と本番検証。先行データを戻さない。次：git merge --ff-only origin/main、検証sourceSHA再照合。初回SEO auditは旧ローカルdist1020/885成功。
+
+- 2026-10-09 管理ページ担当欄：完了。両ゲーム共通フォームに作詞者/作曲者/編曲者の編集可能な個別欄を追加、既存読み込み・ゲーム別下書き・再読込復元・新規保存/再編集/空欄/複数名・明示Creator選択と再保存を検証。直接入力は人物同定を推測せずraw unresolved保存、書換えた担当だけ旧relationを外し他担当/既存未変更tokens保持。Creator選択変更も入力イベントで下書きと送信版を更新。対象src/pages/admin.html・src/js/admin.js/creator-picker.js/creators-data.js/github-store.js・tests/creator-picker.test.mjs/creator-admin.test.mjs・docs/ADMIN.md・templates/README.md。最終全回帰269/269（203+35+24+7）成功、検証snapshotの最終7source SHA一致、root build799/86/797成功、Prettier9file/diffcheck成功、Chrome1280/390実DOM・入力/切替/reload/横overflow0/error0と画像目視成功。検証reports/admin-credit-fields-verification.json・admin-credits-browser-verification.json・admin-credits-1280.png/admin-credits-390.png、原log .cache/admin-credits-final-build-2026-10-09.log/final-regression-2026-10-09.log。通常exec/node_repl/CUAのsandbox起動失敗は対象限定承認shell/ChromeCLIで代替、承認拒否0。初回テストrealm比較・一時画面blank/幅制約/ENOENT/parser不一致と対処は履歴に保持。検証専用Chrome profile10個を対象パス確認して削除、自己server/browser/test/build全終了。現在作業なし/今回未完了0。data/Creator/Work/admin-state差分0、HEAD b2facbca4631f402da68b1fd40b1bd442c4c6bd2不変/index空、変更10fileを未コミットで保持。commit/push/deploy未実施、本番管理画面/実GitHub保存は未検証（mock保存済）。次：依頼された場合に公開準備、ローカル確認はnode scripts/serve.mjs。
+
+- 2026-10-09 管理ページ担当欄：最終root build成功、最終Chrome QAは1280/390px iframeで両ゲーム3欄編集・切替・reload下書き復元PASS、JS error0/overflow0。desktop screenshotの中間blank frameはheadless最上位スクロールの描画で発生し、iframe内描画へ変更して106020byte画像を目視確認、390画像も74425byte目視確認（製品変更0）。hidden結果preの属性で初回parserがundefinedを返したため属性対応regexへ修正しJSON証拠再保存。書式check9file/diffcheck/index空/data差分0成功。現在：最終全回帰session19414の完了待ち、成果物・終了記録の確定。未完了：全回帰最終終了確認のみ。commit/push/deployは今回未実施、未検証：本番管理画面と実GitHub書き込み（mockで保存/再編集検証）、本番公開は今回の対象外。
+
+- 2026-10-09 管理ページ担当欄：旧候補の全回帰268/268成功（202+35+24+7）。最終コード対象14/14成功、保存済rawから登録済Creatorの明示選択/再保存も両ゲームで成功。最終検証session19414はroot build→Chrome→全回帰を直列実行中。画面画像のdesktop blankを検出し、headless描画タイミングに200ms待機/同期スクロール設定を追加（製品コード変更0）。ビルド進行中に単独browser QAを先行実行したためdist/admin/index.html不存在ENOENT、再起動せず既存sessionのbuild完了後QAで検証する。現在：session19414完了待ちと最終画像点検・整形/diff確認。未完了：最終全回帰/build/画面証拠と終了記録。
+
+- 2026-10-09 管理ページ担当欄：初回root build成功（799/86曲・797旧URL）、28/28対象test成功。Chrome headlessで両ゲーム3欄編集・切替・再読込下書き復元・JS error0・横overflow0を確認、reports/admin-credits-browser-verification.jsonと1280/390画像保存。Chrome最小ウィンドウ制限で初回390指定は実viewport512だったため390px iframe内で再検証成功。画面目視で3欄確認済み。後からraw担当を明示選択でCreatorへ紐付ける経路を追加し13/13対象test成功、混在の未同定表記保護は維持。現在：全回帰session79874は旧snapshot実行中（過去198＋新4の202とB235は成功、次release）、完了後最終コードの全回帰/ビルド/画面再検証。未完了：これら最終チェックと終了記録。
+
+- 2026-10-09 管理ページ担当欄：修正後28/28 test成功。root build session54633、全回帰session79874が進行中、重複起動なし。ブラウザーCUA初期化は2回ともkernel起動/sandbox setup refresh helper_unknown_errorで失敗、ネイティブ操作不可。現在：進行中処理を監視し、既存ブラウザーのheadless CLIでローカル画面の検証可能性を調査。未完了：build/全回帰/画面検証/終了確認。WORK_LOG先頭更新のCRLF前提が実体LFと不一致で履歴だけ追記されたため、改行両対応に訂正し現在地を更新。
 
 - 2026-10-07 P1加納望：完了：製品commit87774f49e7feccb8b753af6bb5bb5e234613c427をcommit/pushし同SHA Cloudflare/Actions/GitHub Pagesすべてsuccess。加納cr-0126/126Creator next127・10Work/10record/編曲10・20link・原文・全885公開catalog/Creator/Workを本番30HTTPでPASS。検証記録10fileを5f3420937af4f9bf4b9f99503807afe04d0f3887へcommit/push完了、HEAD/origin一致・working tree/index空・製品差分0を確認。再開時の利用上限による自動承認review failureはordinaryUsageAllowed復帰後、同経路の再試行で成功（公開操作未実行分を重複せず保存）。全305固有test・現行ToDo/P120＋旧レビュー31再実行・両buildSEO1020/885・Functions・592原証拠SHA保持成功。登録/台帳verifyはdocs commit後も成功。現在作業中なし、今回未完了0。残る他Creator/他曲/版39の人間ToDoは最新台帳のまま。次：新しい回答時にWORK_LOG/Git/sourceSHA/台帳を照合し限定適用、生成検証は直列化。この実際の完了確認の記録だけを最後にGit同期する。公開済み製品byteは変更しない、force push0・自己server0・未終了test/build0。
 
@@ -1159,3 +1181,35 @@
 ### 2026-10-07：P1進捗
 
 - 2026-10-07 P1加納望：完了：製品commit87774f49e7feccb8b753af6bb5bb5e234613c427をcommit/pushし同SHA Cloudflare/Actions/GitHub Pagesすべてsuccess。加納cr-0126/126Creator next127・10Work/10record/編曲10・20link・原文・全885公開catalog/Creator/Workを本番30HTTPでPASS。検証記録10fileを5f3420937af4f9bf4b9f99503807afe04d0f3887へcommit/push完了、HEAD/origin一致・working tree/index空・製品差分0を確認。再開時の利用上限による自動承認review failureはordinaryUsageAllowed復帰後、同経路の再試行で成功（公開操作未実行分を重複せず保存）。全305固有test・現行ToDo/P120＋旧レビュー31再実行・両buildSEO1020/885・Functions・592原証拠SHA保持成功。登録/台帳verifyはdocs commit後も成功。現在作業中なし、今回未完了0。残る他Creator/他曲/版39の人間ToDoは最新台帳のまま。次：新しい回答時にWORK_LOG/Git/sourceSHA/台帳を照合し限定適用、生成検証は直列化。この実際の完了確認の記録だけを最後にGit同期する。公開済み製品byteは変更しない、force push0・自己server0・未終了test/build0。
+
+### 2026-10-09：管理ページ担当欄
+
+- 2026-10-09 管理ページ担当欄：開始。C:\MyProgramming\BangDream_Website実体・Git管理下を確認、HEAD b2facbca4631f402da68b1fd40b1bd442c4c6bd2、working tree/index空。src/pages/admin.htmlのcomposerはreadonly、両ゲーム共通、lyricist/arranger入力なし。現在：3担当の個別入力とCreator選択を両立する保存・復元設計。成功条件：両ゲームで3欄の入力/既存読み込み/下書き/保存・再編集、既存リンクと他担当保持、必要テスト・build成功。次：共通フォーム・picker・保存検証を変更。未検証：今回の全機能。通常execとnode_replはsandbox setup refresh helper_unknown_errorで起動失敗、require_escalatedの対象内実行は成功、承認拒否なし。不存在creator-selection.js/creators-schema.jsは実体creators-data.js/credit-structure.jsへ訂正。distはbuildのみ。
+
+- 2026-10-09 管理ページ担当欄：3つの編集可能欄、既存読み込み、直接入力担当のraw unresolved保存、他担当保持、下書きmarkerとCreator再選択を実装。対象src/pages/admin.html・admin.js・creator-picker.js・creators-data.js・github-store.jsと管理/ひな型手順、既存picker/adminテストを拡張。直接入力の名前を自動同定せず、書き換えた担当だけ旧リンクを外す設計。テスト初回28件中27成功、1失敗はVM別realmのprototype比較で内容同一を誤判定、JSON内容比較へ訂正。現在：整形・28件再検証→全回帰/build→ブラウザーで両ゲーム/下書き/モバイルを確認。未完了：これら検証と終了差分確認。楽曲データ/Creator/Work master変更なし。
+
+- 2026-10-09 管理ページ担当欄：修正後28/28 test成功。root build session54633、全回帰session79874が進行中、重複起動なし。ブラウザーCUA初期化は2回ともkernel起動/sandbox setup refresh helper_unknown_errorで失敗、ネイティブ操作不可。現在：進行中処理を監視し、既存ブラウザーのheadless CLIでローカル画面の検証可能性を調査。未完了：build/全回帰/画面検証/終了確認。WORK_LOG先頭更新のCRLF前提が実体LFと不一致で履歴だけ追記されたため、改行両対応に訂正し現在地を更新。
+
+- 2026-10-09 管理ページ担当欄：初回root build成功（799/86曲・797旧URL）、28/28対象test成功。Chrome headlessで両ゲーム3欄編集・切替・再読込下書き復元・JS error0・横overflow0を確認、reports/admin-credits-browser-verification.jsonと1280/390画像保存。Chrome最小ウィンドウ制限で初回390指定は実viewport512だったため390px iframe内で再検証成功。画面目視で3欄確認済み。後からraw担当を明示選択でCreatorへ紐付ける経路を追加し13/13対象test成功、混在の未同定表記保護は維持。現在：全回帰session79874は旧snapshot実行中（過去198＋新4の202とB235は成功、次release）、完了後最終コードの全回帰/ビルド/画面再検証。未完了：これら最終チェックと終了記録。
+
+- 2026-10-09 管理ページ担当欄：旧候補の全回帰268/268成功（202+35+24+7）。最終コード対象14/14成功、保存済rawから登録済Creatorの明示選択/再保存も両ゲームで成功。最終検証session19414はroot build→Chrome→全回帰を直列実行中。画面画像のdesktop blankを検出し、headless描画タイミングに200ms待機/同期スクロール設定を追加（製品コード変更0）。ビルド進行中に単独browser QAを先行実行したためdist/admin/index.html不存在ENOENT、再起動せず既存sessionのbuild完了後QAで検証する。現在：session19414完了待ちと最終画像点検・整形/diff確認。未完了：最終全回帰/build/画面証拠と終了記録。
+
+- 2026-10-09 管理ページ担当欄：最終root build成功、最終Chrome QAは1280/390px iframeで両ゲーム3欄編集・切替・reload下書き復元PASS、JS error0/overflow0。desktop screenshotの中間blank frameはheadless最上位スクロールの描画で発生し、iframe内描画へ変更して106020byte画像を目視確認、390画像も74425byte目視確認（製品変更0）。hidden結果preの属性で初回parserがundefinedを返したため属性対応regexへ修正しJSON証拠再保存。書式check9file/diffcheck/index空/data差分0成功。現在：最終全回帰session19414の完了待ち、成果物・終了記録の確定。未完了：全回帰最終終了確認のみ。commit/push/deployは今回未実施、未検証：本番管理画面と実GitHub書き込み（mockで保存/再編集検証）、本番公開は今回の対象外。
+
+### 2026-10-09：管理ページ担当欄の検証・終了
+
+- 2026-10-09 管理ページ担当欄：完了。両ゲーム共通フォームに作詞者/作曲者/編曲者の編集可能な個別欄を追加、既存読み込み・ゲーム別下書き・再読込復元・新規保存/再編集/空欄/複数名・明示Creator選択と再保存を検証。直接入力は人物同定を推測せずraw unresolved保存、書換えた担当だけ旧relationを外し他担当/既存未変更tokens保持。Creator選択変更も入力イベントで下書きと送信版を更新。対象src/pages/admin.html・src/js/admin.js/creator-picker.js/creators-data.js/github-store.js・tests/creator-picker.test.mjs/creator-admin.test.mjs・docs/ADMIN.md・templates/README.md。最終全回帰269/269（203+35+24+7）成功、検証snapshotの最終7source SHA一致、root build799/86/797成功、Prettier9file/diffcheck成功、Chrome1280/390実DOM・入力/切替/reload/横overflow0/error0と画像目視成功。検証reports/admin-credit-fields-verification.json・admin-credits-browser-verification.json・admin-credits-1280.png/admin-credits-390.png、原log .cache/admin-credits-final-build-2026-10-09.log/final-regression-2026-10-09.log。通常exec/node_repl/CUAのsandbox起動失敗は対象限定承認shell/ChromeCLIで代替、承認拒否0。初回テストrealm比較・一時画面blank/幅制約/ENOENT/parser不一致と対処は履歴に保持。検証専用Chrome profile10個を対象パス確認して削除、自己server/browser/test/build全終了。現在作業なし/今回未完了0。data/Creator/Work/admin-state差分0、HEAD b2facbca4631f402da68b1fd40b1bd442c4c6bd2不変/index空、変更10fileを未コミットで保持。commit/push/deploy未実施、本番管理画面/実GitHub保存は未検証（mock保存済）。次：依頼された場合に公開準備、ローカル確認はnode scripts/serve.mjs。
+
+### 2026-10-09：管理ページ担当欄を本番公開
+
+- 2026-10-09 管理ページ担当欄の公開開始：ユーザーが本番公開を明示許可。Git管理下/実体を確認、開始HEAD b2facbc・index空・検証済み10fileだけ変更、稼働中自己処理なし。fetchでorigin/main fd1c447へ6commit先行を検出、差分は両ゲームsongs/admin-state4fileのみ。現在：未コミットUI差分を保持したままfast-forward→最新データでbuild/全269test/SEO→commit/push→同SHA Cloudflare/Actions/GitHub Pages success→本番3欄/両ゲーム/全公開catalog一致確認。未完了：公開と本番検証。先行データを戻さない。次：git merge --ff-only origin/main、検証sourceSHA再照合。初回SEO auditは旧ローカルdist1020/885成功。
+
+- 2026-10-09 管理ページ担当欄公開：fd1c447へfast-forward成功、先行6更新保持。初回buildは新Garupa800/OurNotes87のworkId/credits/creditDisplay欠落で停止。新2recordに独立Work wk-0824/0825とraw unresolved tokenだけ追加、全887recordの既存fieldをorigin/mainへdeep照合して保持、既存823Work保持/Creator/admin-state変更0。JSON3file差分37追加/3置換だけ、曲値/人物同定の推測0。修復helper初回git showは1MB既定buffer超過ENOBUFS・変更前停止、32MB指定で成功、原log保存。現在：最新データroot build→SEO→全269test session52444、status helperを今回専用へコピー（旧証拠変更なし）。未完了：検証・commit/push/同SHA公開・本番両3欄。次：session52444完了確認→stage限定13fileと記録→通常push→status。
+
+- 2026-10-09 管理ページ担当欄公開：最新データroot build800/87/797成功、SEO1022正規/887詳細/旧Creator18成功。新曲不足構造の限定追加後も先行全887record原fieldと823Work保持、source7SHA不変。現在：全269test session52444進行中、今回専用public HTTP/Chrome確認helper準備完了（本番未実行）。未完了：test完了/commit/push/Cloudflare・Actions・Pages同SHAsuccess/本番全catalog・3編集欄/終了docs。次：test完了確認→再fetch競合確認→限定13file commit/push。rgのliteral scripts/assets/*.mjsはWindows123で失敗、必要sourceを実ファイルで確認済み。
+
+- 2026-10-09 管理ページ担当欄公開：最新build/SEO成功後、全回帰の履歴203test中202成功/1失敗。Garupa order assertが履歴799曲とコピーされた現行admin nextId801を比較して失敗（期待800）。live値を戻さずb2-historical-regression.mjsの隔離fixture内だけ採番をSHA検証済み履歴songsのmaxID+1へ揃え、旧assert維持。現行data/admin-state変更0。初回失敗logはpublish-tests-first-failure.logに保管。現在：runner整形・構文→全269test再実行、成功後commit/push。未完了：test・公開・本番確認。source変更はこのrunner1file追加、管理UI7検証SHA不変。
+
+- 2026-10-09 管理ページ担当欄公開：歴史fixture採番修復を整形・構文確認、10file Prettierとdiffcheck成功、実admin-state/Creator差分0。再検証session86047が進行中。Windows checkoutのCRLFがJS5/CSS1に存在しLinux cacheVersionが異なるため、public module検証はCRLF/LFとcompiler cache番号のみ正規化しコード本体全文一致を必須にした（製品・hash生成処理変更0）。現在：全test終了待ち→検証source/remote原値保全再照合→14file限定stage/commit/push。未完了：公開・本番・記録。
+
+- 2026-10-09 管理ページ担当欄公開：最新887曲で全269test（203+35+24+7）成功、build800/87/797・SEO1022/887・Prettier10file/diffcheck成功。公開guardで検証済UI7sourceSHA一致、origin/mainとHEAD同fd1c447、全887record/group既存field・既存823Work・Creator/admin-state保持、追加Work2/不足構造だけ、対象14file一致を確認。現在：14file限定stage/cached hash-check→commit→通常push。未完了：同SHA公開成功と本番全catalog/両3欄/終了記録。成功証拠reports/admin-credits-publish-guard.json、publish-build/seo/tests log。
