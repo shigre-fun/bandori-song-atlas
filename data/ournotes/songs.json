@@ -1801,7 +1801,7 @@
           "bpm": 143,
           "bpmMin": 65,
           "bpmMax": 143,
-          "durationSeconds": null,
+          "durationSeconds": 122,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1814,7 +1814,7 @@
             },
             "HARD": {
               "level": 18,
-              "notes": 620
+              "notes": 621
             },
             "EXPERT": {
               "level": 24,
@@ -1869,7 +1869,7 @@
           },
           "lyricist": "藤原 聡",
           "mv": null,
-          "revision": "deffbeba-73bb-4009-8c3f-eaef71ca696e",
+          "revision": "7908b21d-d323-4c19-88d7-6044b993b716",
           "arranger": "小木岳司"
         },
         {
