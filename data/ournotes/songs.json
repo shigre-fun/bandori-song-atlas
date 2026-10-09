@@ -5571,7 +5571,7 @@
           "id": 63,
           "title": "起死開戦",
           "reading": "キシカイセン",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 63,
           "composer": "藤井健太郎",
           "originalArtist": null,
@@ -5579,12 +5579,12 @@
           "bpm": 170,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 108,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 260
+              "notes": 261
             },
             "NORMAL": {
               "level": 13,
@@ -5638,7 +5638,9 @@
             ]
           },
           "lyricist": "藤井健太郎",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "ef82e1dc-a881-4d07-bee3-4cc99eee90f7"
         },
         {
           "id": 65,
