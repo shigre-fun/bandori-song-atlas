@@ -5646,7 +5646,7 @@
           "id": 65,
           "title": "鳴らす",
           "reading": "ナラス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 65,
           "composer": "瀬名水紀(Dream Monster)",
           "originalArtist": null,
@@ -5654,7 +5654,7 @@
           "bpm": 188,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 92,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5722,7 +5722,9 @@
             ]
           },
           "lyricist": "瀬名水紀",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "6a0acba4-ac50-453a-b950-3c993a83c85a"
         },
         {
           "id": 66,
