@@ -335,8 +335,9 @@ ${
     : ""
 }
 ${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd>${e(s.band)}</dd>` : ""}
-<dt>${s.type === "normal" ? "作曲" : "原曲の作曲者"}</dt>
-<dd>${normalizedCredit("composer")}</dd><dt>作詞</dt><dd>${normalizedCredit("lyricist")}</dd><dt>編曲</dt><dd>${normalizedCredit("arranger")}</dd>${
+<dt>作詞</dt><dd>${normalizedCredit("lyricist")}</dd>
+<dt>作曲</dt><dd>${normalizedCredit("composer")}</dd>
+<dt>編曲</dt><dd>${normalizedCredit("arranger")}</dd>${
     s.type === "normal"
       ? game.id === "garupa"
         ? `<dt>3Dライブ</dt>

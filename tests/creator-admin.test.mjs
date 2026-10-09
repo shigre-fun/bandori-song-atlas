@@ -86,6 +86,76 @@ for (const game of Object.values(GAMES))
     ]);
     assert.equal(loaded.song.lyricist, names.lyricist);
   });
+for (const game of Object.values(GAMES))
+  test(`${game.id} unrelated edits preserve multiple unresolved names without Creator relations`, async () => {
+    const repo = creatorRepository();
+    const song = structuredClone(repo.song);
+    song.credits = [];
+    song.creditDisplay = {
+      lyricist: [{ text: "未登録作詞者", unresolved: true }],
+      composer: [{ text: "未登録作曲者", unresolved: true }],
+      arranger: [
+        { text: "未登録編曲者A", unresolved: true },
+        { text: "、" },
+        { text: "未登録編曲者B", unresolved: true },
+      ],
+    };
+    song.lyricist = "未登録作詞者";
+    song.composer = "未登録作曲者";
+    song.arranger = "未登録編曲者A、未登録編曲者B";
+    if (game.id === "ournotes") {
+      delete song.live3d;
+      delete song.difficulties.SPECIAL;
+      Object.assign(song, {
+        mv: null,
+        songType: null,
+        gekisouSections: [null, null, null],
+      });
+    }
+    const { band, category, ...record } = song;
+    repo.files[game.dataFile] = {
+      groups: [{ band, category, songs: [record] }],
+    };
+    repo.files[game.stateFile].nextId = 2;
+    const store = new GitHubStore(settings, "fake-token", repo.fetcher, game);
+    const editing = await store.loadSong(record.id);
+    const masterBefore = sha(repo.files["data/creators.json"]);
+    const worksBefore = sha(repo.files["data/works.json"]);
+    const credit = enteredCreditData(
+      creditRows(editing.song),
+      repo.files["data/creators.json"].creators,
+      editing.song,
+      editing.song,
+      [],
+    );
+    await store.updateSong(
+      { ...editing.song, ...credit, durationSeconds: 103 },
+      editing,
+      `${game.id}-preserve-unregistered`,
+    );
+    const loaded = await store.loadSong(record.id);
+    assert.equal(loaded.song.durationSeconds, 103);
+    for (const field of [
+      "lyricist",
+      "composer",
+      "arranger",
+      "credits",
+      "creditDisplay",
+      "workId",
+    ])
+      assert.deepEqual(loaded.song[field], editing.song[field], field);
+    assert.equal(sha(repo.files["data/creators.json"]), masterBefore);
+    assert.equal(sha(repo.files["data/works.json"]), worksBefore);
+    repo.calls.length = 0;
+    const changed = structuredClone(loaded.song);
+    changed.creditDisplay.arranger[2].text = "別の未登録者";
+    await assert.rejects(
+      store.updateSong(changed, loaded, `${game.id}-reject-raw-rewrite`),
+      /自由文字列ではなく登録済みCreator/,
+    );
+    assert.ok(repo.calls.every((call) => call.method === "GET"));
+  });
+
 test("unresolved composer is preserved while the same Creator gains another role", async () => {
   const repo = creatorRepository(),
     store = new GitHubStore(settings, "fake-token", repo.fetcher);
