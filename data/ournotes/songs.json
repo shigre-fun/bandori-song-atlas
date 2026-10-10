@@ -5929,7 +5929,7 @@
           "bpm": 230,
           "bpmMin": 165,
           "bpmMax": 230,
-          "durationSeconds": null,
+          "durationSeconds": 116,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5974,7 +5974,7 @@
           },
           "lyricist": "アザミ",
           "arranger": "アザミ",
-          "revision": "f8a78fce-ab3b-40ac-a1a5-f97ba5ffd6df"
+          "revision": "7be29694-9fad-43f8-9f7e-c498cebb5bb2"
         }
       ]
     },
