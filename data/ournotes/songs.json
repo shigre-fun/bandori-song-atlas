@@ -2073,7 +2073,7 @@
           "id": 23,
           "title": "Ave Mujica",
           "reading": "アベムジカ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 23,
           "composer": "上松範康（Elements Garden）",
           "originalArtist": null,
@@ -2081,12 +2081,12 @@
           "bpm": 222,
           "bpmMin": 97,
           "bpmMax": 222,
-          "durationSeconds": null,
+          "durationSeconds": 114,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 256
+              "notes": 257
             },
             "NORMAL": {
               "level": 13,
@@ -2116,8 +2116,8 @@
             {
               "creatorId": "cr-0001",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
               "displayOverride": "上松範康（Elements Garden）"
             },
@@ -2126,18 +2126,14 @@
               "roles": [
                 "lyricist"
               ],
-              "displayOverrides": {
-                "lyricist": "織田あすか（Elements Garden）"
-              }
+              "displayOverride": "織田あすか（Elements Garden）"
             },
             {
               "creatorId": "cr-0008",
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "藤間仁（Elements Garden）"
-              }
+              "displayOverride": "藤間仁（Elements Garden）"
             }
           ],
           "creditDisplay": {
@@ -2164,7 +2160,8 @@
             ]
           },
           "lyricist": "上松範康（Elements Garden）/織田あすか（Elements Garden）",
-          "arranger": "藤間仁（Elements Garden）"
+          "arranger": "藤間仁（Elements Garden）",
+          "revision": "6eb881bb-9732-4933-b63c-41e4f9fb9db7"
         },
         {
           "id": 24,
