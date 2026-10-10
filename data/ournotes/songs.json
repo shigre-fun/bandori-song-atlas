@@ -6214,7 +6214,7 @@
           "id": 70,
           "title": "ロウワー",
           "reading": "ロウワー",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 70,
           "composer": "ぬゆり",
           "originalArtist": "ぬゆり feat.flower",
@@ -6222,7 +6222,7 @@
           "bpm": 132,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 93,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6231,11 +6231,11 @@
             },
             "NORMAL": {
               "level": 13,
-              "notes": 376
+              "notes": 377
             },
             "HARD": {
               "level": 19,
-              "notes": 596
+              "notes": 597
             },
             "EXPERT": {
               "level": 26,
@@ -6271,7 +6271,10 @@
             ]
           },
           "lyricist": "ぬゆり",
-          "arranger": "太田雄大"
+          "arranger": "太田雄大",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "85b8c78d-5cdc-4f2e-9e83-3389b329e3a3"
         },
         {
           "id": 82,
