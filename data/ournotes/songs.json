@@ -6067,7 +6067,7 @@
           "id": 68,
           "title": "Pretender",
           "reading": "プリテンダー",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 68,
           "composer": "藤原聡",
           "originalArtist": "Official髭男dism",
@@ -6075,7 +6075,7 @@
           "bpm": 92,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 127,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6124,7 +6124,11 @@
               }
             ]
           },
-          "arranger": "石倉まろ"
+          "arranger": "石倉まろ",
+          "mv": null,
+          "relatedSongIds": [],
+          "lyricist": null,
+          "revision": "ecb0d07e-d0f3-4b03-9e2e-060cfea01d6f"
         },
         {
           "id": 69,
