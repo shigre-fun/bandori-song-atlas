@@ -5730,7 +5730,7 @@
           "id": 66,
           "title": "カーネーションの咲く日に",
           "reading": "カーネーションノサクヒニ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 66,
           "composer": "瀬名水紀(Dream Monster)、Aira",
           "originalArtist": null,
@@ -5738,7 +5738,7 @@
           "bpm": 150,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 115,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5747,7 +5747,7 @@
             },
             "NORMAL": {
               "level": 14,
-              "notes": 632
+              "notes": 633
             },
             "HARD": {
               "level": 20,
@@ -5768,17 +5768,6 @@
           "workId": "wk-0812",
           "credits": [
             {
-              "creatorId": "cr-0090",
-              "roles": [
-                "composer",
-                "arranger"
-              ],
-              "displayOverride": "瀬名水紀(Dream Monster)",
-              "displayOverrides": {
-                "arranger": "瀬名水紀(Dream Monster)"
-              }
-            },
-            {
               "creatorId": "cr-0111",
               "roles": [
                 "lyricist",
@@ -5788,6 +5777,14 @@
               "displayOverrides": {
                 "arranger": "Aira"
               }
+            },
+            {
+              "creatorId": "cr-0090",
+              "roles": [
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "瀬名水紀(Dream Monster)"
             }
           ],
           "creditDisplay": {
@@ -5820,7 +5817,9 @@
             ]
           },
           "lyricist": "Aira",
-          "arranger": "瀬名水紀(Dream Monster)、Aira"
+          "arranger": "瀬名水紀(Dream Monster)、Aira",
+          "relatedSongIds": [],
+          "revision": "15878f81-8a17-43ba-bfae-aec7b2ece239"
         },
         {
           "id": 64,
