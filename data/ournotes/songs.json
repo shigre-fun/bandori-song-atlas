@@ -2555,7 +2555,7 @@
           "id": 28,
           "title": "顔",
           "reading": "カオ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 28,
           "composer": "木下龍平(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2563,12 +2563,12 @@
           "bpm": 140,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 116,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": 264
+              "notes": 265
             },
             "NORMAL": {
               "level": 11,
@@ -2596,22 +2596,19 @@
           "workId": "wk-0653",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0015",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "木下龍平(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "木下龍平(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "木下龍平(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2638,7 +2635,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "木下龍平(SUPA LOVE)"
+          "arranger": "木下龍平(SUPA LOVE)",
+          "revision": "61f84582-3d3a-4382-85c4-4ddf5807df9c"
         },
         {
           "id": 29,
