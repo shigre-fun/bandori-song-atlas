@@ -5933,35 +5933,48 @@
           "aliases": [],
           "difficulties": {
             "EASY": {
-              "level": null,
-              "notes": null
+              "level": 7,
+              "notes": 224
             },
             "NORMAL": {
-              "level": null,
-              "notes": null
+              "level": 15,
+              "notes": 571
             },
             "HARD": {
-              "level": null,
-              "notes": null
+              "level": 22,
+              "notes": 731
             },
             "EXPERT": {
-              "level": null,
-              "notes": null
+              "level": 28,
+              "notes": 964
             }
           },
           "submissionId": "03480a6b-d96f-400f-abb9-d27f4295797b",
           "workId": "wk-0825",
           "credits": [],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "アザミ",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "text": "アザミ",
                 "unresolved": true
               }
             ],
-            "arranger": []
-          }
+            "arranger": [
+              {
+                "text": "アザミ",
+                "unresolved": true
+              }
+            ]
+          },
+          "lyricist": "アザミ",
+          "arranger": "アザミ",
+          "revision": "7c463df6-f791-4fb3-86bf-a0594dd05df6"
         }
       ]
     },
