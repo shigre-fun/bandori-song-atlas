@@ -2167,7 +2167,7 @@
           "id": 24,
           "title": "KiLLKiSS",
           "reading": "キルキス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 24,
           "composer": "長谷川大介(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2175,7 +2175,7 @@
           "bpm": 200,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 92,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2184,7 +2184,7 @@
             },
             "NORMAL": {
               "level": 13,
-              "notes": 496
+              "notes": 497
             },
             "HARD": {
               "level": 21,
@@ -2208,22 +2208,19 @@
           "workId": "wk-0628",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0013",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "長谷川大介(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "長谷川大介(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "長谷川大介(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2250,7 +2247,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "長谷川大介(SUPA LOVE)"
+          "arranger": "長谷川大介(SUPA LOVE)",
+          "revision": "b78ea92f-8149-4e32-8972-4ef402e1b17e"
         },
         {
           "id": 25,
