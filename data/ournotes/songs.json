@@ -6134,7 +6134,7 @@
           "id": 69,
           "title": "unravel",
           "reading": "アンラベル",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 69,
           "composer": "TK",
           "originalArtist": "TK from 凛として時雨",
@@ -6142,7 +6142,7 @@
           "bpm": 135,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 86,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6176,8 +6176,8 @@
             {
               "creatorId": "cr-0065",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ]
             },
             {
@@ -6185,9 +6185,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "藤井健太郎"
-              }
+              "displayOverride": "藤井健太郎"
             }
           ],
           "creditDisplay": {
@@ -6208,7 +6206,9 @@
             ]
           },
           "lyricist": "TK",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "mv": null,
+          "revision": "e262f083-9dda-4687-9285-fc8a1dfc7b1b"
         },
         {
           "id": 70,
