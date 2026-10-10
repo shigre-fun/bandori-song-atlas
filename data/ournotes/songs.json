@@ -2468,7 +2468,7 @@
           "id": 27,
           "title": "八芒星ダンス",
           "reading": "ハチボウセイダンス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 27,
           "composer": "あらケン(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2476,7 +2476,7 @@
           "bpm": 114,
           "bpmMin": 113,
           "bpmMax": 162,
-          "durationSeconds": null,
+          "durationSeconds": 102,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2509,22 +2509,19 @@
           "workId": "wk-0649",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0017",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "あらケン(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "あらケン(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "あらケン(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2551,7 +2548,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "あらケン(SUPA LOVE)"
+          "arranger": "あらケン(SUPA LOVE)",
+          "revision": "a7417a26-5013-4931-bdfc-b20887164279"
         },
         {
           "id": 28,
