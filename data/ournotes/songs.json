@@ -5987,7 +5987,7 @@
           "id": 67,
           "title": "青のすみか",
           "reading": "アオノスミカ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 67,
           "composer": "キタニタツヤ",
           "originalArtist": "キタニタツヤ",
@@ -5995,7 +5995,7 @@
           "bpm": 152,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 90,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6029,8 +6029,8 @@
             {
               "creatorId": "cr-0063",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ]
             },
             {
@@ -6038,9 +6038,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "藤井健太郎"
-              }
+              "displayOverride": "藤井健太郎"
             }
           ],
           "creditDisplay": {
@@ -6061,7 +6059,9 @@
             ]
           },
           "lyricist": "キタニタツヤ",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "mv": null,
+          "revision": "8509927a-7857-4484-b200-69733e289300"
         },
         {
           "id": 68,
