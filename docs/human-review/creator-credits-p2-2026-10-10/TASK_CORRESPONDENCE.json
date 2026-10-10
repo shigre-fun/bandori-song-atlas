@@ -1,0 +1,5294 @@
+{
+  "originalTaskCount": 481,
+  "P2TaskUnmapped": 0,
+  "categories": {
+    "ROLE_REVIEW": {
+      "RESOLVED": 46,
+      "BLOCKED_BY_OTHER_IDENTITY": 22
+    },
+    "SPLIT_REVIEW": {
+      "RESOLVED": 53,
+      "BLOCKED_BY_OTHER_IDENTITY": 0
+    },
+    "CREATOR_IDENTITY": {
+      "RESOLVED": 131,
+      "BLOCKED_BY_OTHER_IDENTITY": 0
+    },
+    "CREATOR_REGISTRATION": {
+      "RESOLVED": 131,
+      "BLOCKED_BY_OTHER_IDENTITY": 0
+    },
+    "CREDIT_COLLECTION": {
+      "RESOLVED": 97,
+      "BLOCKED_BY_OTHER_IDENTITY": 0
+    },
+    "ALIAS_REVIEW": {
+      "RESOLVED": 1,
+      "BLOCKED_BY_OTHER_IDENTITY": 0
+    }
+  },
+  "rows": [
+    {
+      "taskId": "garupa:579:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 579,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad"
+      ]
+    },
+    {
+      "taskId": "garupa:579:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 579,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad"
+      ]
+    },
+    {
+      "taskId": "garupa:610:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 610,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad"
+      ]
+    },
+    {
+      "taskId": "garupa:610:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 610,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad"
+      ]
+    },
+    {
+      "taskId": "ournotes:6:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 6,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:14:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 14,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "ournotes:14:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:19:composer:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 19,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:19:composer:CREATOR_REGISTRATION-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 19,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:19:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 19,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:19:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 19,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:19:lyricist:ALIAS_REVIEW-b1-145122f57cd75aa7c5a0"
+      ]
+    },
+    {
+      "taskId": "ournotes:20:composer:CREATOR_IDENTITY-b1-237bb622433f04e6517e",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 20,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:20:composer:CREATOR_REGISTRATION-b1-237bb622433f04e6517e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 20,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:20:lyricist:CREATOR_IDENTITY-b1-237bb622433f04e6517e",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 20,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:20:lyricist:CREATOR_REGISTRATION-b1-237bb622433f04e6517e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 20,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:36:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 36,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba",
+        "ournotes:36:arranger:CREATOR_REGISTRATION-review-0483bc48120cfc2a4fba",
+        "ournotes:36:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:36:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 36,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b",
+        "ournotes:36:composer:CREATOR_REGISTRATION-current-55a2115040534e48a08b"
+      ]
+    },
+    {
+      "taskId": "ournotes:36:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 36,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:36:lyricist:ALIAS_REVIEW-cr-0022"
+      ]
+    },
+    {
+      "taskId": "ournotes:39:composer:ALIAS_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ALIAS_REVIEW",
+      "game": "ournotes",
+      "recordId": 39,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:39:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 39,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:39:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 39,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:39:lyricist:ALIAS_REVIEW-cr-0022"
+      ]
+    },
+    {
+      "taskId": "ournotes:41:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:41:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+        "ournotes:41:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:41:composer:CREATOR_IDENTITY-b1-64fd16565a9247308ee5",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:41:composer:CREATOR_REGISTRATION-b1-64fd16565a9247308ee5",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:41:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:41:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 41,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:41:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592",
+        "ournotes:41:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592"
+      ]
+    },
+    {
+      "taskId": "ournotes:42:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 42,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:42:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+        "ournotes:42:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:42:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 42,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:42:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "ournotes:42:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a"
+      ]
+    },
+    {
+      "taskId": "ournotes:43:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 43,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:43:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+        "ournotes:43:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:43:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 43,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:43:lyricist:ALIAS_REVIEW-cr-0078"
+      ]
+    },
+    {
+      "taskId": "ournotes:44:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 44,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:44:lyricist:ALIAS_REVIEW-cr-0028"
+      ]
+    },
+    {
+      "taskId": "ournotes:46:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 46,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039",
+        "ournotes:46:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039",
+        "ournotes:46:arranger:SPLIT_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:47:lyricist:ROLE_REVIEW-cr-0074",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 47,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1",
+        "ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1"
+      ]
+    },
+    {
+      "taskId": "ournotes:47:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 47,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1",
+        "ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1"
+      ]
+    },
+    {
+      "taskId": "ournotes:53:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 53,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "taskId": "ournotes:53:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 53,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "taskId": "ournotes:53:lyricist:ROLE_REVIEW-cr-0028",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 53,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "taskId": "ournotes:53:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 53,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "taskId": "ournotes:54:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 54,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:54:lyricist:ALIAS_REVIEW-cr-0028"
+      ]
+    },
+    {
+      "taskId": "ournotes:56:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 56,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:56:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "taskId": "ournotes:56:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 56,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:56:lyricist:ROLE_REVIEW-cr-0074",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 56,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:56:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 56,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:59:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 59,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c",
+        "ournotes:59:arranger:CREATOR_REGISTRATION-review-589e9fbfb8b6c014ad7c",
+        "ournotes:59:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:62:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 62,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0",
+        "ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8",
+        "ournotes:62:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0",
+        "ournotes:62:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8",
+        "ournotes:62:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:62:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 62,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:62:lyricist:ALIAS_REVIEW-cr-0023"
+      ]
+    },
+    {
+      "taskId": "ournotes:68:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 68,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1",
+        "ournotes:68:arranger:CREATOR_REGISTRATION-review-d5df0d8b84a91cab20e1",
+        "ournotes:68:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:68:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 68,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:68:lyricist:ALIAS_REVIEW-cr-0024"
+      ]
+    },
+    {
+      "taskId": "ournotes:73:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 73,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:73:lyricist:ALIAS_REVIEW-cr-0033"
+      ]
+    },
+    {
+      "taskId": "ournotes:75:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 75,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2",
+        "ournotes:75:arranger:CREATOR_REGISTRATION-b1-1556a9939a4521612fe2",
+        "ournotes:75:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:76:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 76,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:76:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce"
+      ]
+    },
+    {
+      "taskId": "ournotes:78:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+        "ournotes:78:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+        "ournotes:78:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "ournotes:78:composer:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:composer:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:composer:CREATOR_REGISTRATION-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:composer:CREATOR_REGISTRATION-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:lyricist:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:lyricist:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:lyricist:CREATOR_REGISTRATION-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:lyricist:CREATOR_REGISTRATION-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:78:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 78,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:81:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "ournotes",
+      "recordId": 81,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "ournotes:81:lyricist:ALIAS_REVIEW-cr-0076"
+      ]
+    },
+    {
+      "taskId": "ournotes:82:composer:CREATOR_IDENTITY-b1-2fda3103506ae71e0c97",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 82,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:82:composer:CREATOR_REGISTRATION-b1-2fda3103506ae71e0c97",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 82,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:82:lyricist:CREATOR_IDENTITY-b1-0b22695f4ac9ec8a9b01",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 82,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:82:lyricist:CREATOR_REGISTRATION-b1-0b22695f4ac9ec8a9b01",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 82,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:83:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 83,
+      "role": "arranger",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "ournotes:83:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+        "ournotes:83:arranger:GAME_VERSION_REVIEW"
+      ]
+    },
+    {
+      "taskId": "garupa:19:lyricist:CREATOR_IDENTITY-b1-071012322fa1f3f02fab",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 19,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:19:lyricist:CREATOR_REGISTRATION-b1-071012322fa1f3f02fab",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 19,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:22:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 22,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:22:composer:CREATOR_REGISTRATION-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 22,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:22:lyricist:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 22,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:22:lyricist:CREATOR_REGISTRATION-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 22,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:composer:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:composer:CREATOR_REGISTRATION-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:lyricist:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:lyricist:CREATOR_IDENTITY-b1-75a7de3e9e79dd6de1c0",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:lyricist:CREATOR_REGISTRATION-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:lyricist:CREATOR_REGISTRATION-b1-75a7de3e9e79dd6de1c0",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:24:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 24,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:33:composer:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 33,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:33:composer:CREATOR_REGISTRATION-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 33,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:33:lyricist:CREATOR_IDENTITY-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 33,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:33:lyricist:CREATOR_REGISTRATION-b1-145122f57cd75aa7c5a0",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 33,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:41:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 41,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:41:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 41,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:41:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 41,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:41:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 41,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:42:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 42,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:42:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 42,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:42:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 42,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:42:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 42,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:44:composer:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 44,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:44:composer:CREATOR_REGISTRATION-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 44,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:44:lyricist:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 44,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:44:lyricist:CREATOR_REGISTRATION-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 44,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:47:composer:CREATOR_IDENTITY-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 47,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:47:composer:CREATOR_REGISTRATION-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 47,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:47:lyricist:CREATOR_IDENTITY-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 47,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:47:lyricist:CREATOR_REGISTRATION-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 47,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:49:composer:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 49,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:49:composer:CREATOR_REGISTRATION-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 49,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:49:lyricist:CREATOR_IDENTITY-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 49,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:49:lyricist:CREATOR_REGISTRATION-b1-4f91af38c06b9f63e032",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 49,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:85:composer:CREATOR_IDENTITY-b1-96b50efd44763aae3629",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 85,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": [
+        "garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210"
+      ]
+    },
+    {
+      "taskId": "garupa:85:composer:CREATOR_REGISTRATION-b1-96b50efd44763aae3629",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 85,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": [
+        "garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210"
+      ]
+    },
+    {
+      "taskId": "garupa:85:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 85,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210"
+      ]
+    },
+    {
+      "taskId": "garupa:85:lyricist:CREATOR_IDENTITY-b1-96b50efd44763aae3629",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 85,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:85:lyricist:CREATOR_REGISTRATION-b1-96b50efd44763aae3629",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 85,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:111:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 111,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:111:composer:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07",
+        "garupa:111:composer:CREATOR_IDENTITY-current-ff0fe7f9b0981226cf85",
+        "garupa:111:composer:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07",
+        "garupa:111:composer:CREATOR_REGISTRATION-current-ff0fe7f9b0981226cf85"
+      ]
+    },
+    {
+      "taskId": "garupa:117:composer:CREATOR_IDENTITY-b1-2f7ae9409f43227c175f",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 117,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:117:composer:CREATOR_REGISTRATION-b1-2f7ae9409f43227c175f",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 117,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:120:composer:CREATOR_IDENTITY-b1-e21b22645f7dbe1b0211",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 120,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:120:composer:CREATOR_REGISTRATION-b1-e21b22645f7dbe1b0211",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 120,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:124:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 124,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a",
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee",
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-6420aa21ede7b2dbc58a",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-c9462aa47a3a10f7ffee",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-f6cbc2fc0ef8cd8c8955"
+      ]
+    },
+    {
+      "taskId": "garupa:128:composer:CREATOR_IDENTITY-b1-237bb622433f04e6517e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 128,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:128:composer:CREATOR_REGISTRATION-b1-237bb622433f04e6517e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 128,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:128:lyricist:CREATOR_IDENTITY-b1-237bb622433f04e6517e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 128,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:128:lyricist:CREATOR_REGISTRATION-b1-237bb622433f04e6517e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 128,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:138:composer:CREATOR_IDENTITY-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 138,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:138:composer:CREATOR_REGISTRATION-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 138,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:138:lyricist:CREATOR_IDENTITY-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 138,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:138:lyricist:CREATOR_REGISTRATION-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 138,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:151:lyricist:CREATOR_IDENTITY-b1-046f9b565d191b79c3c1",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 151,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:151:lyricist:CREATOR_REGISTRATION-b1-046f9b565d191b79c3c1",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 151,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:153:lyricist:CREATOR_IDENTITY-b1-70bce471503e4742f5a8",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 153,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:153:lyricist:CREATOR_REGISTRATION-b1-70bce471503e4742f5a8",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 153,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:157:composer:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 157,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:157:composer:CREATOR_REGISTRATION-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 157,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:157:lyricist:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 157,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:157:lyricist:CREATOR_REGISTRATION-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 157,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:181:composer:CREATOR_IDENTITY-b1-974e13f25b0ae48f4f00",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 181,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:181:composer:CREATOR_REGISTRATION-b1-974e13f25b0ae48f4f00",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 181,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:182:composer:CREATOR_IDENTITY-b1-974e13f25b0ae48f4f00",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 182,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:182:composer:CREATOR_REGISTRATION-b1-974e13f25b0ae48f4f00",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 182,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:183:lyricist:CREATOR_IDENTITY-b1-15f5b9d2444835a217f8",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 183,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:183:lyricist:CREATOR_REGISTRATION-b1-15f5b9d2444835a217f8",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 183,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:205:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 205,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:205:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 205,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:212:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 212,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:212:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 212,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:223:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 223,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:223:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 223,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:230:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 230,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:230:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 230,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:236:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 236,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:236:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 236,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:236:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 236,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:236:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 236,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:237:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 237,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:237:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 237,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:246:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 246,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578",
+        "garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039",
+        "garupa:246:composer:CREATOR_REGISTRATION-b1-9c5f42c13c6a91bd2578",
+        "garupa:246:composer:CREATOR_REGISTRATION-b1-dbfdc774efedb688b039"
+      ]
+    },
+    {
+      "taskId": "garupa:247:composer:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 247,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:247:composer:CREATOR_REGISTRATION-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 247,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:247:lyricist:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 247,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:247:lyricist:CREATOR_REGISTRATION-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 247,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:258:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 258,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:258:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+        "garupa:258:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3"
+      ]
+    },
+    {
+      "taskId": "garupa:258:lyricist:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 258,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:258:lyricist:CREATOR_REGISTRATION-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 258,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:263:arranger:ROLE_REVIEW-cr-0019",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 263,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32",
+        "garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32"
+      ]
+    },
+    {
+      "taskId": "garupa:263:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 263,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32",
+        "garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32"
+      ]
+    },
+    {
+      "taskId": "garupa:267:composer:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 267,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:267:composer:CREATOR_REGISTRATION-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 267,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:267:lyricist:CREATOR_IDENTITY-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 267,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:267:lyricist:CREATOR_REGISTRATION-b1-01ca05ebdfc1dba3b944",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 267,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:272:lyricist:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 272,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:272:lyricist:CREATOR_REGISTRATION-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 272,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:274:lyricist:CREATOR_IDENTITY-b1-046f9b565d191b79c3c1",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 274,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:274:lyricist:CREATOR_REGISTRATION-b1-046f9b565d191b79c3c1",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 274,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:278:arranger:CREATOR_IDENTITY-b1-2a52f798ceb56249a012",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 278,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:278:arranger:CREATOR_REGISTRATION-b1-2a52f798ceb56249a012",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 278,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:282:lyricist:CREATOR_IDENTITY-b1-5e6a5c3f8ee646b1d7be",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 282,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:282:lyricist:CREATOR_REGISTRATION-b1-5e6a5c3f8ee646b1d7be",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 282,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:295:lyricist:CREATOR_IDENTITY-b1-5e6a5c3f8ee646b1d7be",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 295,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:295:lyricist:CREATOR_REGISTRATION-b1-5e6a5c3f8ee646b1d7be",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 295,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:304:composer:CREATOR_IDENTITY-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 304,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:304:composer:CREATOR_REGISTRATION-b1-6a593dbe37ab11538c6b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 304,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:304:lyricist:CREATOR_IDENTITY-b1-75a7de3e9e79dd6de1c0",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 304,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:304:lyricist:CREATOR_REGISTRATION-b1-75a7de3e9e79dd6de1c0",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 304,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:322:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 322,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3",
+        "garupa:322:composer:CREATOR_REGISTRATION-b1-8093a5e3afbe19e86dc3"
+      ]
+    },
+    {
+      "taskId": "garupa:331:composer:CREATOR_IDENTITY-b1-71bce9d8bce518f2741b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 331,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:331:composer:CREATOR_REGISTRATION-b1-71bce9d8bce518f2741b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 331,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:331:lyricist:CREATOR_IDENTITY-b1-90c023a0cfc23c4df8a9",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 331,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:331:lyricist:CREATOR_REGISTRATION-b1-90c023a0cfc23c4df8a9",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 331,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:332:composer:CREATOR_IDENTITY-b1-71bce9d8bce518f2741b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 332,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:332:composer:CREATOR_REGISTRATION-b1-71bce9d8bce518f2741b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 332,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:332:lyricist:CREATOR_IDENTITY-b1-90c023a0cfc23c4df8a9",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 332,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:332:lyricist:CREATOR_REGISTRATION-b1-90c023a0cfc23c4df8a9",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 332,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:334:composer:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 334,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:334:composer:CREATOR_REGISTRATION-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 334,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:334:lyricist:CREATOR_IDENTITY-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 334,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:334:lyricist:CREATOR_REGISTRATION-b1-420062bf3a60b6fc2c0d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 334,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:357:lyricist:CREATOR_IDENTITY-b1-b9e909de40b4b435c767",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 357,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:357:lyricist:CREATOR_REGISTRATION-b1-b9e909de40b4b435c767",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 357,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:365:arranger:ROLE_REVIEW-cr-0004",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 365,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:365:arranger:ROLE_REVIEW-cr-0023",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 365,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:365:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 365,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:369:composer:CREATOR_IDENTITY-b1-e21b22645f7dbe1b0211",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 369,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:369:composer:CREATOR_REGISTRATION-b1-e21b22645f7dbe1b0211",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 369,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:369:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 369,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:369:lyricist:CREATOR_IDENTITY-current-37249a393f31fc1ee38b",
+        "garupa:369:lyricist:CREATOR_IDENTITY-current-543af9140a4b47b523ef",
+        "garupa:369:lyricist:CREATOR_REGISTRATION-current-37249a393f31fc1ee38b",
+        "garupa:369:lyricist:CREATOR_REGISTRATION-current-543af9140a4b47b523ef"
+      ]
+    },
+    {
+      "taskId": "garupa:372:arranger:CREATOR_IDENTITY-b1-2a52f798ceb56249a012",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 372,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:372:arranger:CREATOR_REGISTRATION-b1-2a52f798ceb56249a012",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 372,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:373:composer:CREATOR_IDENTITY-b1-8e00fe4d903f403579aa",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 373,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:373:composer:CREATOR_REGISTRATION-b1-8e00fe4d903f403579aa",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 373,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:373:lyricist:CREATOR_IDENTITY-b1-1d4523c52c9646f14a3b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 373,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:373:lyricist:CREATOR_REGISTRATION-b1-1d4523c52c9646f14a3b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 373,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:379:lyricist:CREATOR_IDENTITY-b1-15f5b9d2444835a217f8",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 379,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:379:lyricist:CREATOR_REGISTRATION-b1-15f5b9d2444835a217f8",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 379,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:395:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 395,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:composer:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39"
+      ]
+    },
+    {
+      "taskId": "garupa:395:lyricist:ROLE_REVIEW-cr-0083",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 395,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39"
+      ]
+    },
+    {
+      "taskId": "garupa:395:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 395,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39"
+      ]
+    },
+    {
+      "taskId": "garupa:396:arranger:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:396:arranger:CREATOR_REGISTRATION-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:396:composer:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:396:composer:CREATOR_REGISTRATION-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:396:lyricist:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:396:lyricist:CREATOR_REGISTRATION-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 396,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:397:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 397,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:397:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 397,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:398:composer:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 398,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:398:composer:CREATOR_REGISTRATION-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 398,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:398:lyricist:CREATOR_IDENTITY-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 398,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:398:lyricist:CREATOR_REGISTRATION-b1-f3428a65accdbe2109a3",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 398,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:406:composer:CREATOR_IDENTITY-b1-2f7ae9409f43227c175f",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 406,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:406:composer:CREATOR_REGISTRATION-b1-2f7ae9409f43227c175f",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 406,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:415:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 415,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:415:lyricist:CREATOR_IDENTITY-b1-802fd809223acb08804e",
+        "garupa:415:lyricist:CREATOR_IDENTITY-current-297f7f25cc446332fd44",
+        "garupa:415:lyricist:CREATOR_REGISTRATION-b1-802fd809223acb08804e",
+        "garupa:415:lyricist:CREATOR_REGISTRATION-current-297f7f25cc446332fd44"
+      ]
+    },
+    {
+      "taskId": "garupa:416:lyricist:CREATOR_IDENTITY-b1-70bce471503e4742f5a8",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 416,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:416:lyricist:CREATOR_REGISTRATION-b1-70bce471503e4742f5a8",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 416,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:418:lyricist:CREATOR_IDENTITY-b1-aa78c4e37112cd48f2cf",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 418,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:418:lyricist:CREATOR_REGISTRATION-b1-aa78c4e37112cd48f2cf",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 418,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:447:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 447,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:447:lyricist:CREATOR_IDENTITY-current-96bc57add1c48e4f0934",
+        "garupa:447:lyricist:CREATOR_REGISTRATION-current-96bc57add1c48e4f0934"
+      ]
+    },
+    {
+      "taskId": "garupa:448:composer:CREATOR_IDENTITY-b1-8e00fe4d903f403579aa",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 448,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:448:composer:CREATOR_REGISTRATION-b1-8e00fe4d903f403579aa",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 448,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:448:lyricist:CREATOR_IDENTITY-b1-1d4523c52c9646f14a3b",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 448,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:448:lyricist:CREATOR_REGISTRATION-b1-1d4523c52c9646f14a3b",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 448,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:450:composer:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 450,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:450:composer:CREATOR_REGISTRATION-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 450,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:450:lyricist:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 450,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:450:lyricist:CREATOR_REGISTRATION-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 450,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:452:composer:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 452,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:452:composer:CREATOR_REGISTRATION-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 452,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:452:lyricist:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 452,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:452:lyricist:CREATOR_REGISTRATION-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 452,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:460:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 460,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:460:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 460,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:460:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 460,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:460:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 460,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:461:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 461,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:461:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 461,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:461:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 461,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:461:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 461,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:466:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 466,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:466:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 466,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:479:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 479,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4",
+        "garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e",
+        "garupa:479:lyricist:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4",
+        "garupa:479:lyricist:CREATOR_REGISTRATION-b1-71be3fbfd30b5b8fcb4e"
+      ]
+    },
+    {
+      "taskId": "garupa:481:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 481,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+        "garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+        "garupa:481:composer:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084",
+        "garupa:481:composer:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433"
+      ]
+    },
+    {
+      "taskId": "garupa:481:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 481,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+        "garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+        "garupa:481:lyricist:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084",
+        "garupa:481:lyricist:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433"
+      ]
+    },
+    {
+      "taskId": "garupa:502:lyricist:CREATOR_IDENTITY-b1-aa78c4e37112cd48f2cf",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 502,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:502:lyricist:CREATOR_REGISTRATION-b1-aa78c4e37112cd48f2cf",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 502,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:508:composer:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 508,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:508:composer:CREATOR_REGISTRATION-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 508,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:508:lyricist:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 508,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:508:lyricist:CREATOR_REGISTRATION-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 508,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:509:composer:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 509,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:509:composer:CREATOR_REGISTRATION-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 509,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:509:lyricist:CREATOR_IDENTITY-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 509,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:509:lyricist:CREATOR_REGISTRATION-b1-cb9773dca1bd6f223c3e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 509,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:517:composer:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 517,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:517:composer:CREATOR_REGISTRATION-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 517,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:517:lyricist:CREATOR_IDENTITY-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 517,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:517:lyricist:CREATOR_REGISTRATION-b1-14144a962dfdc95fdb6d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 517,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:arranger:CREATOR_IDENTITY-b1-b5f723777c02e993f081",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:arranger:CREATOR_REGISTRATION-b1-b5f723777c02e993f081",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:composer:CREATOR_IDENTITY-b1-b5f723777c02e993f081",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:composer:CREATOR_REGISTRATION-b1-b5f723777c02e993f081",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:lyricist:CREATOR_IDENTITY-b1-b5f723777c02e993f081",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:lyricist:CREATOR_REGISTRATION-b1-b5f723777c02e993f081",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:519:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 519,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:composer:CREATOR_IDENTITY-b1-b5f723777c02e993f081",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:composer:CREATOR_REGISTRATION-b1-b5f723777c02e993f081",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:lyricist:CREATOR_IDENTITY-b1-b5f723777c02e993f081",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:lyricist:CREATOR_REGISTRATION-b1-b5f723777c02e993f081",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:522:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 522,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:542:composer:CREATOR_IDENTITY-b1-2fda3103506ae71e0c97",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 542,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:542:composer:CREATOR_REGISTRATION-b1-2fda3103506ae71e0c97",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 542,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:542:lyricist:CREATOR_IDENTITY-b1-0b22695f4ac9ec8a9b01",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 542,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:542:lyricist:CREATOR_REGISTRATION-b1-0b22695f4ac9ec8a9b01",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 542,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:546:composer:CREATOR_IDENTITY-b1-c618605e1e385961159a",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 546,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:546:composer:CREATOR_REGISTRATION-b1-c618605e1e385961159a",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 546,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:546:lyricist:CREATOR_IDENTITY-b1-c618605e1e385961159a",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 546,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:546:lyricist:CREATOR_REGISTRATION-b1-c618605e1e385961159a",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 546,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:549:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 549,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573",
+        "garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2",
+        "garupa:549:composer:CREATOR_REGISTRATION-b1-85766a26b6c559ab7573",
+        "garupa:549:composer:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2"
+      ]
+    },
+    {
+      "taskId": "garupa:590:lyricist:CREATOR_IDENTITY-b1-b9e909de40b4b435c767",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 590,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:590:lyricist:CREATOR_REGISTRATION-b1-b9e909de40b4b435c767",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 590,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:600:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 600,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:600:composer:CREATOR_IDENTITY-current-42b1569d3f9a29bde9fb",
+        "garupa:600:composer:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+        "garupa:600:composer:CREATOR_REGISTRATION-current-42b1569d3f9a29bde9fb",
+        "garupa:600:composer:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9"
+      ]
+    },
+    {
+      "taskId": "garupa:600:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 600,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:600:lyricist:CREATOR_IDENTITY-current-035c8b7c5a228c9ba174",
+        "garupa:600:lyricist:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+        "garupa:600:lyricist:CREATOR_REGISTRATION-current-035c8b7c5a228c9ba174",
+        "garupa:600:lyricist:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9"
+      ]
+    },
+    {
+      "taskId": "garupa:608:composer:CREATOR_IDENTITY-b1-64fd16565a9247308ee5",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 608,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:608:composer:CREATOR_REGISTRATION-b1-64fd16565a9247308ee5",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 608,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:622:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 622,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:622:arranger:CREATOR_REGISTRATION-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 622,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:622:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 622,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:622:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 622,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:627:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 627,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:627:arranger:CREATOR_REGISTRATION-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 627,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:627:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 627,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:627:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 627,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:630:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 630,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a",
+        "garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3",
+        "garupa:630:composer:CREATOR_REGISTRATION-b1-0af645346cf42d76ef7a",
+        "garupa:630:composer:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3"
+      ]
+    },
+    {
+      "taskId": "garupa:640:composer:CREATOR_IDENTITY-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:640:composer:CREATOR_REGISTRATION-b1-009f8c48f3ae4bb81b92",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:640:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:640:lyricist:ROLE_REVIEW-b1-397cc1de0e1b600bf103",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:640:lyricist:ROLE_REVIEW-cr-0083",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:640:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 640,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:composer:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:composer:CREATOR_IDENTITY-b1-e12eda6ee4265889dc55",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:composer:CREATOR_REGISTRATION-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:composer:CREATOR_REGISTRATION-b1-e12eda6ee4265889dc55",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:lyricist:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:653:lyricist:CREATOR_REGISTRATION-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 653,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:654:composer:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 654,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:654:composer:CREATOR_REGISTRATION-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 654,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:654:lyricist:CREATOR_IDENTITY-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 654,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:654:lyricist:CREATOR_REGISTRATION-b1-0ee91f9d51c5f2763ea2",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 654,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:659:composer:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 659,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:659:composer:CREATOR_REGISTRATION-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 659,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:659:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 659,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:659:lyricist:CREATOR_IDENTITY-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 659,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:659:lyricist:CREATOR_REGISTRATION-b1-fdb3b03e87813e0b214d",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 659,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:660:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 660,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": [
+        "garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45",
+        "garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45"
+      ]
+    },
+    {
+      "taskId": "garupa:660:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 660,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45",
+        "garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45"
+      ]
+    },
+    {
+      "taskId": "garupa:660:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 660,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+        "garupa:660:composer:CREATOR_REGISTRATION-b1-328527062c7ca6acd161"
+      ]
+    },
+    {
+      "taskId": "garupa:660:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 660,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+        "garupa:660:lyricist:CREATOR_REGISTRATION-b1-328527062c7ca6acd161"
+      ]
+    },
+    {
+      "taskId": "garupa:665:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 665,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:665:arranger:ALIAS_REVIEW-current-0e351cf7f749f04bc27f"
+      ]
+    },
+    {
+      "taskId": "garupa:665:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 665,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:665:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:676:lyricist:CREATOR_IDENTITY-b1-96b50efd44763aae3629",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 676,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:676:lyricist:CREATOR_REGISTRATION-b1-96b50efd44763aae3629",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 676,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:705:composer:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 705,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:705:composer:CREATOR_REGISTRATION-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 705,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:705:lyricist:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 705,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:705:lyricist:CREATOR_REGISTRATION-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 705,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:706:lyricist:CREATOR_IDENTITY-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 706,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:706:lyricist:CREATOR_REGISTRATION-b1-28d943cf81a349c81d5e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 706,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:707:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 707,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+        "garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+        "garupa:707:composer:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025",
+        "garupa:707:composer:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b"
+      ]
+    },
+    {
+      "taskId": "garupa:707:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 707,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+        "garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+        "garupa:707:lyricist:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025",
+        "garupa:707:lyricist:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b"
+      ]
+    },
+    {
+      "taskId": "garupa:708:lyricist:CREATOR_IDENTITY-b1-071012322fa1f3f02fab",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 708,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:708:lyricist:CREATOR_REGISTRATION-b1-071012322fa1f3f02fab",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 708,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_IDENTITY-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 710,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f"
+      ]
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_REGISTRATION-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 710,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f"
+      ]
+    },
+    {
+      "taskId": "garupa:710:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 710,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f"
+      ]
+    },
+    {
+      "taskId": "garupa:710:lyricist:CREATOR_IDENTITY-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 710,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:710:lyricist:CREATOR_REGISTRATION-b1-a67418bf2ddb96281048",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 710,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:711:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 711,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7",
+        "garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071",
+        "garupa:711:composer:CREATOR_REGISTRATION-b1-42a5b3ea6680d1200cb7",
+        "garupa:711:composer:CREATOR_REGISTRATION-b1-6899171acbfe7270e071"
+      ]
+    },
+    {
+      "taskId": "garupa:721:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 721,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:721:arranger:ALIAS_REVIEW-cr-0009"
+      ]
+    },
+    {
+      "taskId": "garupa:721:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 721,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:721:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878",
+        "garupa:721:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878"
+      ]
+    },
+    {
+      "taskId": "garupa:722:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 722,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:722:arranger:ALIAS_REVIEW-cr-0020"
+      ]
+    },
+    {
+      "taskId": "garupa:722:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 722,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:722:lyricist:ALIAS_REVIEW-cr-0047"
+      ]
+    },
+    {
+      "taskId": "garupa:723:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 723,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:723:arranger:ALIAS_REVIEW-cr-0010"
+      ]
+    },
+    {
+      "taskId": "garupa:723:composer:CREATOR_IDENTITY-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 723,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:723:composer:CREATOR_REGISTRATION-b1-ac279f73d5b14a694999",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 723,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:723:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 723,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:723:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 723,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:723:lyricist:ALIAS_REVIEW-b1-ac279f73d5b14a694999"
+      ]
+    },
+    {
+      "taskId": "garupa:724:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 724,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:724:arranger:ALIAS_REVIEW-cr-0009"
+      ]
+    },
+    {
+      "taskId": "garupa:724:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 724,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:724:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:727:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 727,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:727:arranger:ALIAS_REVIEW-cr-0011"
+      ]
+    },
+    {
+      "taskId": "garupa:727:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 727,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526",
+        "garupa:727:composer:CREATOR_REGISTRATION-current-d743a606e716e0d53526"
+      ]
+    },
+    {
+      "taskId": "garupa:727:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 727,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:727:lyricist:CREATOR_IDENTITY-current-75e8a5b4665b0fbb7f5e",
+        "garupa:727:lyricist:CREATOR_REGISTRATION-current-75e8a5b4665b0fbb7f5e"
+      ]
+    },
+    {
+      "taskId": "garupa:728:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:728:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:728:composer:CREATOR_IDENTITY-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:728:composer:CREATOR_REGISTRATION-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:728:lyricist:CREATOR_IDENTITY-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:728:lyricist:CREATOR_REGISTRATION-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 728,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:729:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 729,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:729:arranger:ALIAS_REVIEW-cr-0010"
+      ]
+    },
+    {
+      "taskId": "garupa:729:composer:CREATOR_IDENTITY-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 729,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:729:composer:CREATOR_REGISTRATION-b1-0abbc860daeec295ea85",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 729,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:729:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 729,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:729:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 729,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:729:lyricist:ALIAS_REVIEW-b1-0abbc860daeec295ea85"
+      ]
+    },
+    {
+      "taskId": "garupa:730:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 730,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:730:arranger:ALIAS_REVIEW-cr-0070"
+      ]
+    },
+    {
+      "taskId": "garupa:730:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 730,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:730:lyricist:ALIAS_REVIEW-cr-0070"
+      ]
+    },
+    {
+      "taskId": "garupa:731:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 731,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:731:arranger:ALIAS_REVIEW-cr-0070"
+      ]
+    },
+    {
+      "taskId": "garupa:731:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 731,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:731:lyricist:ALIAS_REVIEW-cr-0070"
+      ]
+    },
+    {
+      "taskId": "garupa:732:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 732,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:732:arranger:ALIAS_REVIEW-cr-0016"
+      ]
+    },
+    {
+      "taskId": "garupa:733:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 733,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:733:arranger:ALIAS_REVIEW-cr-0059"
+      ]
+    },
+    {
+      "taskId": "garupa:733:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 733,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:733:lyricist:ALIAS_REVIEW-cr-0059"
+      ]
+    },
+    {
+      "taskId": "garupa:734:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 734,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:734:arranger:ALIAS_REVIEW-cr-0011"
+      ]
+    },
+    {
+      "taskId": "garupa:734:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 734,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f",
+        "garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462",
+        "garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-52f8d22524596db0e37f",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-6e4aaff5404f9c7e9462",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-bd4f40f6aaba6787426f"
+      ]
+    },
+    {
+      "taskId": "garupa:734:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 734,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:734:lyricist:CREATOR_IDENTITY-current-391dd0c6d7a0f40365a0",
+        "garupa:734:lyricist:CREATOR_REGISTRATION-current-391dd0c6d7a0f40365a0"
+      ]
+    },
+    {
+      "taskId": "garupa:735:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 735,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:735:arranger:ALIAS_REVIEW-cr-0012"
+      ]
+    },
+    {
+      "taskId": "garupa:735:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 735,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:735:lyricist:ALIAS_REVIEW-cr-0024"
+      ]
+    },
+    {
+      "taskId": "garupa:753:composer:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 753,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:753:composer:CREATOR_REGISTRATION-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 753,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:753:lyricist:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 753,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:753:lyricist:CREATOR_REGISTRATION-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 753,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:composer:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:composer:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:composer:CREATOR_REGISTRATION-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:composer:CREATOR_REGISTRATION-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:lyricist:CREATOR_IDENTITY-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:lyricist:CREATOR_IDENTITY-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:lyricist:CREATOR_REGISTRATION-b1-2036c7c5eacf8591e349",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:lyricist:CREATOR_REGISTRATION-b1-5d7723dddce7a50d06c6",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:754:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 754,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:763:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 763,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:763:arranger:ALIAS_REVIEW-cr-0008"
+      ]
+    },
+    {
+      "taskId": "garupa:764:composer:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 764,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:764:composer:CREATOR_REGISTRATION-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 764,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:764:lyricist:CREATOR_IDENTITY-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 764,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:764:lyricist:CREATOR_REGISTRATION-b1-5ea0f6be73c39d0dcd72",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 764,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:766:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 766,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:766:arranger:ALIAS_REVIEW-current-334fc89b4af944671a1d"
+      ]
+    },
+    {
+      "taskId": "garupa:766:composer:CREATOR_IDENTITY-b1-c618605e1e385961159a",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 766,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:766:composer:CREATOR_REGISTRATION-b1-c618605e1e385961159a",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 766,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:766:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 766,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:766:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 766,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:766:lyricist:ALIAS_REVIEW-b1-c618605e1e385961159a"
+      ]
+    },
+    {
+      "taskId": "garupa:769:composer:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "garupa",
+      "recordId": 769,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": [
+        "garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a",
+        "garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4",
+        "garupa:769:composer:CREATOR_REGISTRATION-b1-058a34802803a45d121a",
+        "garupa:769:composer:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4"
+      ]
+    },
+    {
+      "taskId": "garupa:780:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 780,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:780:arranger:ALIAS_REVIEW-cr-0011"
+      ]
+    },
+    {
+      "taskId": "garupa:780:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 780,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe",
+        "garupa:780:composer:CREATOR_REGISTRATION-current-740dc67308da4aa281fe"
+      ]
+    },
+    {
+      "taskId": "garupa:780:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 780,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:780:lyricist:CREATOR_IDENTITY-current-c0d947c79a5463c9cdfd",
+        "garupa:780:lyricist:CREATOR_REGISTRATION-current-c0d947c79a5463c9cdfd"
+      ]
+    },
+    {
+      "taskId": "garupa:781:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 781,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:781:arranger:ALIAS_REVIEW-cr-0020"
+      ]
+    },
+    {
+      "taskId": "garupa:781:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 781,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:781:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:782:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 782,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:782:arranger:ALIAS_REVIEW-cr-0006"
+      ]
+    },
+    {
+      "taskId": "garupa:782:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 782,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:782:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:783:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 783,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:783:arranger:ALIAS_REVIEW-cr-0012"
+      ]
+    },
+    {
+      "taskId": "garupa:783:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 783,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb",
+        "garupa:783:composer:CREATOR_REGISTRATION-current-69b1083ea01e5c34f8fb"
+      ]
+    },
+    {
+      "taskId": "garupa:783:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 783,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:783:lyricist:CREATOR_IDENTITY-current-7a26a6c255e970242564",
+        "garupa:783:lyricist:CREATOR_REGISTRATION-current-7a26a6c255e970242564"
+      ]
+    },
+    {
+      "taskId": "garupa:784:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 784,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:784:arranger:ALIAS_REVIEW-cr-0009"
+      ]
+    },
+    {
+      "taskId": "garupa:784:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 784,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:784:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:785:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 785,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:785:arranger:ALIAS_REVIEW-cr-0011"
+      ]
+    },
+    {
+      "taskId": "garupa:785:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 785,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:785:lyricist:ALIAS_REVIEW-cr-0068"
+      ]
+    },
+    {
+      "taskId": "garupa:786:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 786,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:786:arranger:ALIAS_REVIEW-cr-0008"
+      ]
+    },
+    {
+      "taskId": "garupa:786:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 786,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:786:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:787:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 787,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:787:arranger:ALIAS_REVIEW-cr-0004"
+      ]
+    },
+    {
+      "taskId": "garupa:788:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 788,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:788:arranger:ALIAS_REVIEW-cr-0012"
+      ]
+    },
+    {
+      "taskId": "garupa:788:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 788,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:788:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e"
+      ]
+    },
+    {
+      "taskId": "garupa:789:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 789,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:789:arranger:ALIAS_REVIEW-cr-0048"
+      ]
+    },
+    {
+      "taskId": "garupa:789:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 789,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:789:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "garupa:789:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a"
+      ]
+    },
+    {
+      "taskId": "garupa:790:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 790,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:790:arranger:ALIAS_REVIEW-cr-0009"
+      ]
+    },
+    {
+      "taskId": "garupa:790:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 790,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:790:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "garupa:790:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a"
+      ]
+    },
+    {
+      "taskId": "garupa:791:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 791,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:791:arranger:ALIAS_REVIEW-current-a13640d86a7693717949"
+      ]
+    },
+    {
+      "taskId": "garupa:791:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 791,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb",
+        "garupa:791:composer:CREATOR_REGISTRATION-current-9d48971d06d3825f84fb"
+      ]
+    },
+    {
+      "taskId": "garupa:791:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 791,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:791:lyricist:CREATOR_IDENTITY-current-979592585b3a81b9b2ea",
+        "garupa:791:lyricist:CREATOR_REGISTRATION-current-979592585b3a81b9b2ea"
+      ]
+    },
+    {
+      "taskId": "garupa:792:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 792,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:792:arranger:ALIAS_REVIEW-cr-0007"
+      ]
+    },
+    {
+      "taskId": "garupa:792:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 792,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850",
+        "garupa:792:composer:CREATOR_REGISTRATION-current-e0bbf73eef3d3675b850"
+      ]
+    },
+    {
+      "taskId": "garupa:792:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 792,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:792:lyricist:ALIAS_REVIEW-b1-065e0e070ab40a39c5e1"
+      ]
+    },
+    {
+      "taskId": "garupa:793:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 793,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:793:arranger:ALIAS_REVIEW-cr-0010"
+      ]
+    },
+    {
+      "taskId": "garupa:793:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 793,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf",
+        "garupa:793:composer:CREATOR_REGISTRATION-current-b220e5a94f63be35fdcf"
+      ]
+    },
+    {
+      "taskId": "garupa:793:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 793,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:793:lyricist:CREATOR_IDENTITY-current-1714adb574697fbc6b55",
+        "garupa:793:lyricist:CREATOR_REGISTRATION-current-1714adb574697fbc6b55"
+      ]
+    },
+    {
+      "taskId": "garupa:794:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 794,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:794:arranger:ALIAS_REVIEW-current-b7ce5703d9eac3544358"
+      ]
+    },
+    {
+      "taskId": "garupa:794:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 794,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58",
+        "garupa:794:composer:CREATOR_REGISTRATION-current-5fbaf6b50c02ae6e7a58"
+      ]
+    },
+    {
+      "taskId": "garupa:794:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 794,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:794:lyricist:CREATOR_IDENTITY-current-48cf41bc4a884dbef89d",
+        "garupa:794:lyricist:CREATOR_REGISTRATION-current-48cf41bc4a884dbef89d"
+      ]
+    },
+    {
+      "taskId": "garupa:795:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:795:arranger:ALIAS_REVIEW-cr-0020"
+      ]
+    },
+    {
+      "taskId": "garupa:795:composer:CREATOR_IDENTITY-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:795:composer:CREATOR_IDENTITY-b1-e12eda6ee4265889dc55",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:795:composer:CREATOR_REGISTRATION-b1-18eb03642f28fcb3973c",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:795:composer:CREATOR_REGISTRATION-b1-e12eda6ee4265889dc55",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:795:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:795:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 795,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:795:lyricist:ALIAS_REVIEW-b1-18eb03642f28fcb3973c"
+      ]
+    },
+    {
+      "taskId": "garupa:796:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 796,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:796:arranger:ALIAS_REVIEW-cr-0007"
+      ]
+    },
+    {
+      "taskId": "garupa:796:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 796,
+      "role": "composer",
+      "status": "BLOCKED_BY_OTHER_IDENTITY",
+      "reason": "role原文は確認済み。formal適用は未同定主体の確認に依存",
+      "remainingTaskIds": [
+        "garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b",
+        "garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41",
+        "garupa:796:composer:CREATOR_REGISTRATION-current-45f43879e01100c0453b",
+        "garupa:796:composer:CREATOR_REGISTRATION-current-e12eac7660bbadf49c41"
+      ]
+    },
+    {
+      "taskId": "garupa:796:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 796,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:796:lyricist:CREATOR_IDENTITY-current-8935eb59174b09438a34",
+        "garupa:796:lyricist:CREATOR_REGISTRATION-current-8935eb59174b09438a34"
+      ]
+    },
+    {
+      "taskId": "garupa:797:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 797,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:797:arranger:ALIAS_REVIEW-cr-0007"
+      ]
+    },
+    {
+      "taskId": "garupa:797:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 797,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:797:lyricist:ALIAS_REVIEW-b1-706dfa00eb1eedda8c38"
+      ]
+    },
+    {
+      "taskId": "garupa:798:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 798,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:798:arranger:ALIAS_REVIEW-cr-0011"
+      ]
+    },
+    {
+      "taskId": "garupa:798:composer:CREATOR_IDENTITY-b1-96b50efd44763aae3629",
+      "category": "CREATOR_IDENTITY",
+      "game": "garupa",
+      "recordId": 798,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:798:composer:CREATOR_REGISTRATION-b1-96b50efd44763aae3629",
+      "category": "CREATOR_REGISTRATION",
+      "game": "garupa",
+      "recordId": 798,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:798:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "game": "garupa",
+      "recordId": 798,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "garupa:798:lyricist:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 798,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:798:lyricist:ALIAS_REVIEW-b1-96b50efd44763aae3629"
+      ]
+    },
+    {
+      "taskId": "garupa:799:arranger:CREDIT_COLLECTION",
+      "category": "CREDIT_COLLECTION",
+      "game": "garupa",
+      "recordId": 799,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "ゲーム画面原文を引用符内回答から収集",
+      "remainingTaskIds": [
+        "garupa:799:arranger:ALIAS_REVIEW-cr-0005"
+      ]
+    },
+    {
+      "taskId": "ournotes:17:composer:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 17,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:17:composer:CREATOR_REGISTRATION-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 17,
+      "role": "composer",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:17:lyricist:CREATOR_IDENTITY-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 17,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:17:lyricist:CREATOR_REGISTRATION-b1-b5a7696df411f41fb21e",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 17,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:40:arranger:CREATOR_IDENTITY-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_IDENTITY",
+      "game": "ournotes",
+      "recordId": 40,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "個別record/roleの同一性とformal適用を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:40:arranger:CREATOR_REGISTRATION-b1-737ea160bdb3018aa678",
+      "category": "CREATOR_REGISTRATION",
+      "game": "ournotes",
+      "recordId": 40,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "回答済み必要情報で登録/既存Creator統合",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:40:arranger:ROLE_REVIEW-b1-f27622614d9cfe966501",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 40,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:40:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 40,
+      "role": "arranger",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:49:lyricist:ROLE_REVIEW-b1-6f1dda77863c0f86ef66",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 49,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:49:lyricist:ROLE_REVIEW-cr-0028",
+      "category": "ROLE_REVIEW",
+      "game": "ournotes",
+      "recordId": 49,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "対象role/表記と既存Creator対応を明示承認",
+      "remainingTaskIds": []
+    },
+    {
+      "taskId": "ournotes:49:lyricist:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "game": "ournotes",
+      "recordId": 49,
+      "role": "lyricist",
+      "status": "RESOLVED",
+      "reason": "作者境界/単一主体と順序を確認。未同定部分は個別identity課題へ保持",
+      "remainingTaskIds": []
+    }
+  ]
+}

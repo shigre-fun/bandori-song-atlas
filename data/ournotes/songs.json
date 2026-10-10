@@ -1158,8 +1158,12 @@
             {
               "creatorId": "cr-0117",
               "roles": [
-                "composer"
-              ]
+                "composer",
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "槇島隆人（SUPA LOVE）"
+              }
             }
           ],
           "creditDisplay": {
@@ -1175,15 +1179,14 @@
             ],
             "arranger": [
               {
-                "text": "槙島隆人（SUPA LOVE）",
-                "unresolved": true
+                "creatorId": "cr-0117"
               }
             ]
           },
           "lyricist": "藤原優樹(SUPA LOVE)",
           "relatedSongIds": [],
           "revision": "e24017c5-96d6-419b-8fc7-f29c8ea98e59",
-          "arranger": "槙島隆人（SUPA LOVE）"
+          "arranger": "槇島隆人（SUPA LOVE）"
         },
         {
           "id": 15,
@@ -1406,19 +1409,28 @@
               "displayOverrides": {
                 "arranger": "高橋涼（SUPA LOVE）"
               }
+            },
+            {
+              "creatorId": "cr-0163",
+              "roles": [
+                "composer",
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "composer": "田邊駿一",
+                "lyricist": "田邊駿一"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "田邊駿一",
-                "unresolved": true
+                "creatorId": "cr-0163"
               }
             ],
             "composer": [
               {
-                "text": "田邊駿一",
-                "unresolved": true
+                "creatorId": "cr-0163"
               }
             ],
             "arranger": [
@@ -1531,7 +1543,7 @@
           "reading": "ナイモノネダリ",
           "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 19,
-          "composer": "谷口鮪",
+          "composer": "谷口 鮪",
           "originalArtist": "KANA-BOON",
           "originalWork": null,
           "bpm": 175,
@@ -1582,14 +1594,27 @@
               "displayOverrides": {
                 "arranger": "神田ジョン(from PENGUIN RESEARCH)"
               }
+            },
+            {
+              "creatorId": "cr-0162",
+              "roles": [
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": "谷口 鮪"
+              }
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "谷口 鮪",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
-                "text": "谷口鮪",
-                "unresolved": true
+                "creatorId": "cr-0162"
               }
             ],
             "arranger": [
@@ -1607,7 +1632,7 @@
           "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
           "mv": null,
           "relatedSongIds": [],
-          "lyricist": null,
+          "lyricist": "谷口 鮪",
           "revision": "6549524e-b012-4c4a-9cac-941fd107c257"
         },
         {
@@ -1670,19 +1695,28 @@
               "displayOverrides": {
                 "arranger": "神田ジョン(from PENGUIN RESEARCH)"
               }
+            },
+            {
+              "creatorId": "cr-0150",
+              "roles": [
+                "composer",
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "composer": "バルーン",
+                "lyricist": "バルーン"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "バルーン",
-                "unresolved": true
+                "creatorId": "cr-0150"
               }
             ],
             "composer": [
               {
-                "text": "バルーン",
-                "unresolved": true
+                "creatorId": "cr-0150"
               }
             ],
             "arranger": [
@@ -1941,7 +1975,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "秋田　ひろむ",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0076"
@@ -1959,7 +1998,8 @@
               }
             ]
           },
-          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+          "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+          "lyricist": "秋田　ひろむ"
         },
         {
           "id": 86,
@@ -3206,7 +3246,7 @@
           "reading": "クワイアエスクワイア",
           "releaseDate": "2026-09-24T00:00:00+09:00",
           "releaseOrder": 36,
-          "composer": "角本麻衣(SUPA LOVE)",
+          "composer": "角本麻衣（SUPA LOVE）",
           "originalArtist": null,
           "originalWork": null,
           "bpm": 148,
@@ -3242,10 +3282,15 @@
           "workId": "wk-0785",
           "credits": [],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "Diggy-MO’",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
-                "text": "角本麻衣(SUPA LOVE)",
+                "text": "角本麻衣（SUPA LOVE）",
                 "unresolved": true
               }
             ],
@@ -3256,7 +3301,8 @@
               }
             ]
           },
-          "arranger": "角本麻衣（SUPA LOVE）"
+          "arranger": "角本麻衣（SUPA LOVE）",
+          "lyricist": "Diggy-MO’"
         },
         {
           "id": 37,
@@ -3485,12 +3531,27 @@
                 "arranger"
               ],
               "displayOverrides": {
-                "arranger": "Diggy-MO'"
+                "arranger": "Diggy-MO'",
+                "composer": "Diggy-MO’"
+              }
+            },
+            {
+              "creatorId": "cr-0098",
+              "roles": [
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": "植木建象"
               }
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "Diggy-MO’",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0022"
@@ -3499,8 +3560,7 @@
                 "text": "、"
               },
               {
-                "text": "植木建象",
-                "unresolved": true
+                "creatorId": "cr-0098"
               }
             ],
             "arranger": [
@@ -3509,7 +3569,8 @@
               }
             ]
           },
-          "arranger": "Diggy-MO'"
+          "arranger": "Diggy-MO'",
+          "lyricist": "Diggy-MO’"
         }
       ]
     },
@@ -3575,6 +3636,24 @@
               "roles": [
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0098",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "植木建象"
+              }
+            },
+            {
+              "creatorId": "cr-0128",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverrides": {
+                "arranger": "冬真"
+              }
             }
           ],
           "creditDisplay": {
@@ -3590,8 +3669,13 @@
             ],
             "arranger": [
               {
-                "text": "植木建象、冬真",
-                "unresolved": true
+                "creatorId": "cr-0098"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0128"
               }
             ]
           },
@@ -3637,13 +3721,27 @@
             "LUCK"
           ],
           "workId": "wk-0788",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0130",
+              "roles": [
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": "DJ松永"
+              }
+            }
+          ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "R-指定",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
-                "text": "DJ松永",
-                "unresolved": true
+                "creatorId": "cr-0130"
               }
             ],
             "arranger": [
@@ -3653,7 +3751,8 @@
               }
             ]
           },
-          "arranger": "UYKADO"
+          "arranger": "UYKADO",
+          "lyricist": "R-指定"
         },
         {
           "id": 42,
@@ -3703,7 +3802,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "宝野　アリカ",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0048"
@@ -3716,7 +3820,8 @@
               }
             ]
           },
-          "arranger": "UYKADO"
+          "arranger": "UYKADO",
+          "lyricist": "宝野　アリカ"
         },
         {
           "id": 43,
@@ -3772,7 +3877,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "atsuko",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0078"
@@ -3791,7 +3901,8 @@
               }
             ]
           },
-          "arranger": "UYKADO"
+          "arranger": "UYKADO",
+          "lyricist": "atsuko"
         },
         {
           "id": 83,
@@ -3942,7 +4053,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "堀江晶太",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0028"
@@ -3954,7 +4070,8 @@
               }
             ]
           },
-          "arranger": "堀江晶太"
+          "arranger": "堀江晶太",
+          "lyricist": "堀江晶太"
         },
         {
           "id": 45,
@@ -4154,14 +4271,24 @@
             {
               "creatorId": "cr-0074",
               "roles": [
-                "composer"
-              ]
+                "composer",
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "白神真志朗"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "白神真志朗、 Sekimen",
+                "creatorId": "cr-0074"
+              },
+              {
+                "text": "、 "
+              },
+              {
+                "text": "Sekimen",
                 "unresolved": true
               }
             ],
@@ -4301,18 +4428,34 @@
               "creatorId": "cr-0028",
               "roles": [
                 "composer",
-                "arranger"
+                "arranger",
+                "lyricist"
               ],
               "displayOverrides": {
-                "arranger": "堀江晶太"
+                "arranger": "堀江晶太",
+                "lyricist": "堀江晶太"
+              }
+            },
+            {
+              "creatorId": "cr-0105",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "仲町あられ"
               }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "仲町あられ、堀江晶太",
-                "unresolved": true
+                "creatorId": "cr-0105"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0028"
               }
             ],
             "composer": [
@@ -4610,18 +4753,42 @@
               "creatorId": "cr-0028",
               "roles": [
                 "composer",
-                "arranger"
+                "arranger",
+                "lyricist"
               ],
               "displayOverrides": {
-                "arranger": "堀江晶太"
+                "arranger": "堀江晶太",
+                "lyricist": "堀江晶太",
+                "composer": "堀江晶太"
+              }
+            },
+            {
+              "creatorId": "cr-0105",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "仲町あられ"
               }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "仲町あられ、千石ユノ、堀江晶太",
+                "creatorId": "cr-0105"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "text": "千石ユノ",
                 "unresolved": true
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0028"
               }
             ],
             "composer": [
@@ -4715,7 +4882,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "堀江晶太",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0031"
@@ -4739,7 +4911,8 @@
               }
             ]
           },
-          "arranger": "TeddyLoid・堀江晶太"
+          "arranger": "TeddyLoid・堀江晶太",
+          "lyricist": "堀江晶太"
         },
         {
           "id": 55,
@@ -4859,18 +5032,35 @@
               "creatorId": "cr-0074",
               "roles": [
                 "composer",
-                "arranger"
+                "arranger",
+                "lyricist"
               ],
               "displayOverrides": {
-                "arranger": "白神真志朗"
+                "arranger": "白神真志朗",
+                "lyricist": "白神真志朗",
+                "composer": "白神真志朗"
+              }
+            },
+            {
+              "creatorId": "cr-0105",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "仲町あられ"
               }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "白神真志朗、仲町あられ",
-                "unresolved": true
+                "creatorId": "cr-0074"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0105"
               }
             ],
             "composer": [
@@ -5433,7 +5623,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "Ayase",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0023"
@@ -5453,7 +5648,8 @@
               }
             ]
           },
-          "arranger": "DjeDje、三村一輝"
+          "arranger": "DjeDje、三村一輝",
+          "lyricist": "Ayase"
         },
         {
           "id": 80,
@@ -6104,7 +6300,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "藤原　聡",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0024"
@@ -6120,7 +6321,7 @@
           "arranger": "石倉まろ",
           "mv": null,
           "relatedSongIds": [],
-          "lyricist": null,
+          "lyricist": "藤原　聡",
           "revision": "ecb0d07e-d0f3-4b03-9e2e-060cfea01d6f"
         },
         {
@@ -6313,18 +6514,35 @@
             "COMBO"
           ],
           "workId": "wk-0533",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0136",
+              "roles": [
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": "TAKU INOUE"
+              }
+            },
+            {
+              "creatorId": "cr-0158",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "星街すいせい"
+              }
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "星街すいせい",
-                "unresolved": true
+                "creatorId": "cr-0158"
               }
             ],
             "composer": [
               {
-                "text": "TAKU INOUE",
-                "unresolved": true
+                "creatorId": "cr-0136"
               }
             ],
             "arranger": [
@@ -6471,7 +6689,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "藤井健太郎",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0033"
@@ -6483,7 +6706,8 @@
               }
             ]
           },
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "lyricist": "藤井健太郎"
         },
         {
           "id": 74,
@@ -6794,7 +7018,12 @@
             }
           ],
           "creditDisplay": {
-            "lyricist": [],
+            "lyricist": [
+              {
+                "text": "MOMIKEN",
+                "unresolved": true
+              }
+            ],
             "composer": [
               {
                 "creatorId": "cr-0067"
@@ -6806,7 +7035,8 @@
               }
             ]
           },
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "lyricist": "MOMIKEN"
         },
         {
           "id": 77,
@@ -6927,25 +7157,51 @@
             "JUST"
           ],
           "workId": "wk-0735",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0138",
+              "roles": [
+                "composer",
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "composer": "アイナ・ジ・エンド",
+                "lyricist": "アイナ・ジ・エンド"
+              }
+            },
+            {
+              "creatorId": "cr-0134",
+              "roles": [
+                "composer",
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "composer": "Shin Sakiura",
+                "lyricist": "Shin Sakiura"
+              }
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "アイナ・ジ・エンド、Shin Sakiura",
-                "unresolved": true
-              }
-            ],
-            "composer": [
-              {
-                "text": "アイナ・ジ・エンド",
-                "unresolved": true
+                "creatorId": "cr-0138"
               },
               {
                 "text": "、"
               },
               {
-                "text": "Shin Sakiura",
-                "unresolved": true
+                "creatorId": "cr-0134"
+              }
+            ],
+            "composer": [
+              {
+                "creatorId": "cr-0138"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0134"
               }
             ],
             "arranger": [

@@ -1,0 +1,37 @@
+{
+  "sha": "653455ad8ba752a47c53283f49b5925b7d4880f8",
+  "fixtureHash": "70bbce3a0e0cf70e64c7344e389aae252679111e8066ff4b5794a2eca50ca72b",
+  "sourceHashes": {
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
+    "data/news.json": "543f3e54c8f18b08c75b0fd8eb968123638b7bcd6d6e611242ce2973386d1d54",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "b4ce9b25908b35030d897e1fd1bc772a48f21dfc5c3342a9cfe2fd4164b1c19f",
+    "data/garupa/admin-state.json": "153f48bdc7ae4f842d839acc97404f07facd21cf36e410a642b8dad5b68460b2",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "2e40c2a3dca97eef9bf0ec36e838399354f4c7c4ecbde82d4c2e5547a1f7a775",
+    "data/ournotes/admin-state.json": "461d92b4caab2eefb427bf6ea9224e9432acaa19935a1d5fb0e7c3123f5f245a",
+    "data/ournotes/songs.json": "52796b99cb75816fc21ad8d520b6a4a22abbe86e4aaac94bc5479fbe8de2a8c8"
+  },
+  "commits": [
+    "653455a Update song: Imprisoned XII",
+    "8f63022 Update song: KiLLKiSS",
+    "b5dc67e Update song: Ave Mujica",
+    "d39b41f Update song: Sky full of Miracle",
+    "85b7bf1 Update song: Odd Dice",
+    "003d848 Update song: Odd Dice",
+    "8a0eafa Update song: Stellar Stellar",
+    "e516328 Update song: ロウワー",
+    "cd3daa6 Update song: unravel",
+    "22745ca Update song: Pretender",
+    "d6c51ad Update song: 青のすみか",
+    "6454beb Update song: Odd Dice",
+    "85c36c3 Update song: Odd Dice",
+    "d24a6a6 Update song: カーネーションの咲く日に"
+  ],
+  "remoteChanges": [
+    "data/ournotes/admin-state.json",
+    "data/ournotes/songs.json"
+  ],
+  "policy": "Preserve all remote fields; patch only explicit P2 credit roles; retain original input and initial snapshot."
+}

@@ -21,6 +21,7 @@ const KANZAKI_REVIEW =
   "docs/human-review/creator-kanzaki-2026-10-06/review.json";
 const KANOW_REVIEW =
   "docs/human-review/creator-kanow-p1-2026-10-07/review.json";
+const P2_REVIEW = "docs/human-review/creator-credits-p2-2026-10-10/review.json";
 const A = "docs/migrations/credits-phase-a-2026-10-03";
 const B1 = "docs/migrations/credits-phase-b1-2026-10-03";
 const B2 = "docs/migrations/credits-phase-b2-2026-10-03";
@@ -96,6 +97,7 @@ export function loadInputs() {
   if (fs.existsSync(P0_REVIEW)) paths.push(P0_REVIEW);
   if (fs.existsSync(KANZAKI_REVIEW)) paths.push(KANZAKI_REVIEW);
   if (fs.existsSync(KANOW_REVIEW)) paths.push(KANOW_REVIEW);
+  if (fs.existsSync(P2_REVIEW)) paths.push(P2_REVIEW);
   const inputHashes = digestFiles(paths);
   const baseline = readJSON(`${B2}/baseline.json`);
   const protectedResearchHashes = digestFiles(
@@ -140,10 +142,33 @@ export function loadInputs() {
   input.kanowRegistration = fs.existsSync(KANOW_REVIEW)
     ? readJSON(KANOW_REVIEW)
     : null;
+  input.p2Review = fs.existsSync(P2_REVIEW) ? readJSON(P2_REVIEW) : null;
   return input;
 }
 
 function reviewedRole(input, r, role) {
+  const prior = input.humanReview?.reviews.find(
+    (a) =>
+      ref(a) === ref(r) &&
+      a.role === role &&
+      a.title === r.title &&
+      a.workId === r.workId,
+  );
+  const p2 = input.p2Review?.reviews.find(
+    (a) =>
+      ref(a) === ref(r) &&
+      a.role === role &&
+      a.title === r.title &&
+      a.workId === r.workId &&
+      a.raw === r.song[role],
+  );
+  if (p2)
+    return {
+      ...p2,
+      requiresVersionReview: needsVersion(prior),
+      relationshipStatus: prior?.relationshipStatus,
+      relationshipAnswer: prior?.relationshipAnswer,
+    };
   const review = input.humanReview?.reviews.find(
     (a) =>
       ref(a) === ref(r) &&
@@ -159,13 +184,19 @@ function reviewedModel(input, r, role) {
     ? {
         rawCredit: review.raw,
         creatorTokens: review.actors,
-        splitStatus: "HUMAN_GAME_RAW_PARTS_RECORDED",
-        humanReviewId: P0_REVIEW,
+        splitStatus:
+          review.reviewKind === "P2" &&
+          !review.splitConfirmed &&
+          !review.boundary
+            ? null
+            : "HUMAN_GAME_RAW_PARTS_RECORDED",
+        humanReviewId: review.humanReviewId ?? P0_REVIEW,
       }
     : null;
 }
 function needsVersion(review) {
   return (
+    (review?.reviewKind !== "P2" || review.requiresVersionReview) &&
     review?.role === "arranger" &&
     !["SAME_ARRANGEMENT_CONFIRMED", "DIFFERENT_ARRANGEMENT_CONFIRMED"].includes(
       review.relationshipStatus,
@@ -832,8 +863,14 @@ export function buildLedger(input) {
           obligationMap.set(`split:${roleRef(r, role)}`, [task.taskId]);
         }
         if (
-          !model?.effective?.rawCredit ||
-          formatKey(model.effective.rawCredit) !== formatKey(state.raw)
+          (review?.reviewKind !== "P2" ||
+            (review.reviewKind === "P2" &&
+              !review.roleConfirmed &&
+              !review.collection &&
+              !review.splitConfirmed &&
+              !review.bindings.length)) &&
+          (!model?.effective?.rawCredit ||
+            formatKey(model.effective.rawCredit) !== formatKey(state.raw))
         )
           addTask(s, r, role, "ROLE_REVIEW", state.raw, {
             priority: s.latestAfterPhaseA ? "P0" : "P2",
@@ -1208,15 +1245,31 @@ export function verifyLedger(input, ledger) {
         const r = current.find((r) => ref(r) === key);
         return (
           r &&
-          input.humanReview?.reviews.some(
+          (input.p2Review?.reviews.some(
             (a) =>
               ref(a) === key &&
-              a.role === "arranger" &&
-              a.raw === r.song.arranger &&
-              !a.actors.some(
-                (actor) => actor.identityKey === identity.identityKey,
-              ),
-          )
+              ((a.candidateKeys?.includes(identity.identityKey) &&
+                (input.p2Review.candidateMap[identity.identityKey]?.length ??
+                  0) > 1 &&
+                input.p2Review.candidateMap[identity.identityKey].every((id) =>
+                  r.song.credits.some(
+                    (c) => c.creatorId === id && c.roles.includes(a.role),
+                  ),
+                )) ||
+                (a.splitConfirmed &&
+                  identity.rawTokens.some(
+                    (raw) => formatKey(raw) === formatKey(a.raw),
+                  ))),
+          ) ||
+            input.humanReview?.reviews.some(
+              (a) =>
+                ref(a) === key &&
+                a.role === "arranger" &&
+                a.raw === r.song.arranger &&
+                !a.actors.some(
+                  (actor) => actor.identityKey === identity.identityKey,
+                ),
+            ))
         );
       });
     assert.ok(
@@ -2083,6 +2136,15 @@ export function run(mode) {
           scopedRecords: input.kanowRegistration.scopes.length,
           unprovidedOptionalFields:
             input.kanowRegistration.answers.unprovidedFields,
+        }
+      : null,
+    appliedP2Review: input.p2Review
+      ? {
+          document: P2_REVIEW,
+          inputSha256: input.p2Review.inputHash,
+          registeredCreators: input.p2Review.registered.length,
+          reviewedRecordRoles: input.p2Review.reviews.length,
+          heldCandidates: input.p2Review.held.map((c) => c.candidateKey),
         }
       : null,
     generatedArtifacts: Object.fromEntries(

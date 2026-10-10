@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 127,
+  "nextId": 170,
   "creators": [
     {
       "id": "cr-0001",
@@ -1362,6 +1362,456 @@
       "sortKey": "かのうのぞむ",
       "sortKeyStatus": "confirmed",
       "aliases": []
+    },
+    {
+      "id": "cr-0127",
+      "name": "Fukase",
+      "slug": "fukase",
+      "type": "person",
+      "reading": "ふかせ",
+      "sortKey": "ふかせ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0128",
+      "name": "冬真",
+      "slug": "touma",
+      "type": "person",
+      "reading": "とうま",
+      "sortKey": "とうま",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0129",
+      "name": "ACAね",
+      "slug": "acane",
+      "type": "person",
+      "reading": "あかね",
+      "sortKey": "あかね",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0130",
+      "name": "DJ松永",
+      "slug": "dj-matsunaga",
+      "type": "person",
+      "reading": "でぃーじぇーまつなが",
+      "sortKey": "でぃーじぇーまつなが",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "松永邦彦"
+      ]
+    },
+    {
+      "id": "cr-0131",
+      "name": "meg rock",
+      "slug": "meg-rock",
+      "type": "person",
+      "reading": "めぐろっく",
+      "sortKey": "めぐろっく",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "日向めぐみ"
+      ]
+    },
+    {
+      "id": "cr-0132",
+      "name": "miwa",
+      "slug": "miwa",
+      "type": "person",
+      "reading": "みわ",
+      "sortKey": "みわ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0133",
+      "name": "OSTER project",
+      "slug": "oster-project",
+      "type": "unit",
+      "reading": "おすたーぷろじぇくと",
+      "sortKey": "おすたーぷろじぇくと",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0134",
+      "name": "Shin Sakiura",
+      "slug": "shin-sakiura",
+      "type": "person",
+      "reading": "しんさきうら",
+      "sortKey": "しんさきうら",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0135",
+      "name": "TAKESHI ASAKAWA",
+      "slug": "takeshi-asakawa",
+      "type": "person",
+      "reading": "たけしあさかわ",
+      "sortKey": "たけしあさかわ",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "TAKE"
+      ]
+    },
+    {
+      "id": "cr-0136",
+      "name": "TAKU INOUE",
+      "slug": "taku-inoue",
+      "type": "person",
+      "reading": "たくいのうえ",
+      "sortKey": "たくいのうえ",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "井上拓"
+      ]
+    },
+    {
+      "id": "cr-0137",
+      "name": "ZAQ",
+      "slug": "zaq",
+      "type": "person",
+      "reading": "ざっく",
+      "sortKey": "ざっく",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0138",
+      "name": "アイナ・ジ・エンド",
+      "slug": "aina-the-end",
+      "type": "person",
+      "reading": "あいなじえんど",
+      "sortKey": "あいなじえんど",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0139",
+      "name": "うらん",
+      "slug": "uran",
+      "type": "person",
+      "reading": "うらん",
+      "sortKey": "うらん",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "rino"
+      ]
+    },
+    {
+      "id": "cr-0140",
+      "name": "こだまさおり",
+      "slug": "saori-codama",
+      "type": "person",
+      "reading": "こだまさおり",
+      "sortKey": "こだまさおり",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0141",
+      "name": "こっちのけんと",
+      "slug": "kocchi-no-kento",
+      "type": "person",
+      "reading": "こっちのけんと",
+      "sortKey": "こっちのけんと",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "菅生健人"
+      ]
+    },
+    {
+      "id": "cr-0142",
+      "name": "コレサワ",
+      "slug": "koresawa",
+      "type": "person",
+      "reading": "これさわ",
+      "sortKey": "これさわ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0143",
+      "name": "シノダ",
+      "slug": "shinoda",
+      "type": "person",
+      "reading": "しのだ",
+      "sortKey": "しのだ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0144",
+      "name": "じん",
+      "slug": "jin",
+      "type": "person",
+      "reading": "じん",
+      "sortKey": "じん",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "自然の敵P"
+      ]
+    },
+    {
+      "id": "cr-0145",
+      "name": "ツミキ",
+      "slug": "tsumiki",
+      "type": "person",
+      "reading": "つみき",
+      "sortKey": "つみき",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0146",
+      "name": "つんく",
+      "slug": "tsunku",
+      "type": "person",
+      "reading": "つんく",
+      "sortKey": "つんく",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0147",
+      "name": "なとり",
+      "slug": "natori",
+      "type": "person",
+      "reading": "なとり",
+      "sortKey": "なとり",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0148",
+      "name": "ナナホシ管弦楽団",
+      "slug": "nanahoshi-kangengakudan",
+      "type": "person",
+      "reading": "ななほしかんげんがくだん",
+      "sortKey": "ななほしかんげんがくだん",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "岩見陸"
+      ]
+    },
+    {
+      "id": "cr-0149",
+      "name": "ナノ",
+      "slug": "nano",
+      "type": "person",
+      "reading": "なの",
+      "sortKey": "なの",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0150",
+      "name": "バルーン",
+      "slug": "balloon",
+      "type": "person",
+      "reading": "ばるーん",
+      "sortKey": "ばるーん",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "須田景凪"
+      ]
+    },
+    {
+      "id": "cr-0151",
+      "name": "ヒゲドライバー",
+      "slug": "hige-driver",
+      "type": "person",
+      "reading": "ひげどらいばー",
+      "sortKey": "ひげどらいばー",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0152",
+      "name": "メガテラ・ゼロ",
+      "slug": "megater-zero",
+      "type": "person",
+      "reading": "めがてらぜろ",
+      "sortKey": "めがてらぜろ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0153",
+      "name": "井上秋緒",
+      "slug": "akio-inoue",
+      "type": "person",
+      "reading": "いのうえあきお",
+      "sortKey": "いのうえあきお",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0154",
+      "name": "加藤祐介",
+      "slug": "yusuke-kato",
+      "type": "person",
+      "reading": "かとうゆうすけ",
+      "sortKey": "かとうゆうすけ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0155",
+      "name": "古屋真",
+      "slug": "shin-furuya",
+      "type": "person",
+      "reading": "ふるやしん",
+      "sortKey": "ふるやしん",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0156",
+      "name": "山口一郎",
+      "slug": "ichiro-yamaguchi",
+      "type": "person",
+      "reading": "やまぐちいちろう",
+      "sortKey": "やまぐちいちろう",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0157",
+      "name": "森月キャス",
+      "slug": "kyasu-morizuki",
+      "type": "person",
+      "reading": "もりずききゃす",
+      "sortKey": "もりずききゃす",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0158",
+      "name": "星街すいせい",
+      "slug": "suisei-hosimati",
+      "type": "person",
+      "reading": "ほしまちすいせい",
+      "sortKey": "ほしまちすいせい",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0159",
+      "name": "千綿偉功",
+      "slug": "hidenori-chiwata",
+      "type": "person",
+      "reading": "ちわたひでのり",
+      "sortKey": "ちわたひでのり",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0160",
+      "name": "太田雅友",
+      "slug": "masatomo-ota",
+      "type": "person",
+      "reading": "おおたまさとも",
+      "sortKey": "おおたまさとも",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0161",
+      "name": "大久保薫",
+      "slug": "kaoru-okubo",
+      "type": "person",
+      "reading": "おおくぼかおる",
+      "sortKey": "おおくぼかおる",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0162",
+      "name": "谷口鮪",
+      "slug": "maguro-taniguchi",
+      "type": "person",
+      "reading": "たにぐちまぐろ",
+      "sortKey": "たにぐちまぐろ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0163",
+      "name": "田邊駿一",
+      "slug": "shunichi-tanabe",
+      "type": "person",
+      "reading": "たなべしゅんいち",
+      "sortKey": "たなべしゅんいち",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0164",
+      "name": "渡辺徹",
+      "slug": "toru-watanabe",
+      "type": "person",
+      "reading": "わたなべとおる",
+      "sortKey": "わたなべとおる",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0165",
+      "name": "藤林聖子",
+      "slug": "shoko-fujibayashi",
+      "type": "person",
+      "reading": "ふじばやししょうこ",
+      "sortKey": "ふじばやししょうこ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0166",
+      "name": "GRP",
+      "slug": "grp",
+      "type": "person",
+      "reading": "じーあーるぴー",
+      "sortKey": "じーあーるぴー",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0167",
+      "name": "Reol",
+      "slug": "reol",
+      "type": "person",
+      "reading": "れをる",
+      "sortKey": "れをる",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0168",
+      "name": "Revo",
+      "slug": "revo",
+      "type": "person",
+      "reading": "れう゛ぉ",
+      "sortKey": "れう゛ぉ",
+      "sortKeyStatus": "confirmed",
+      "aliases": []
+    },
+    {
+      "id": "cr-0169",
+      "name": "ZENTA",
+      "slug": "zenta",
+      "type": "person",
+      "reading": "ぜんた",
+      "sortKey": "ぜんた",
+      "sortKeyStatus": "confirmed",
+      "aliases": [
+        "土橋善太"
+      ]
     }
   ],
   "roleCoverage": {

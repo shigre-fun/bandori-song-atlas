@@ -1,0 +1,58 @@
+{
+  "mode": "verify",
+  "currentRecordCount": 887,
+  "currentCreatorCount": 169,
+  "currentWorkCount": 825,
+  "currentNextId": 170,
+  "currentGameCounts": {
+    "garupa": 800,
+    "ournotes": 87
+  },
+  "totalSongTodoRecords": 271,
+  "totalSongTasks": 935,
+  "totalCreatorCandidates": 334,
+  "threePlusRecordCreators": 11,
+  "twoRecordCreators": 16,
+  "oneRecordCreators": 307,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 29,
+  "unregisteredCreatorCandidates": 305,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 1,
+  "currentRawSplitReviewTasks": 1,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 409,
+    "CREATOR_REGISTRATION": 409,
+    "SPLIT_REVIEW": 1,
+    "ALIAS_REVIEW": 74,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 455,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1177,
+  "excludedResolvedSourceEntries": 645,
+  "unmappedCurrentUnresolved": 0
+}
+✔ all 481 original tasks have unique dispositions and unresolved identities remain mapped (2.3114ms)
+✔ empty and malformed answers remain unanswered until explicit clarification (496.4081ms)
+✔ saved human review reproduces every live data byte and repeat application is stable (1498.4727ms)
+✔ explicit identity refusals prevent per-record relations despite registered metadata (1597.8685ms)
+✔ split-only approval preserves unresolved P3 actors and all punctuation (2205.5739ms)
+✔ prior Creator metadata, P0/P1 roles, Work and unrelated fields cannot be altered (244.2279ms)
+✔ Creator reuse, Unicode followups and explicit new Work scope retain fixed IDs (7.041ms)
+✔ current ToDo remains reproducible with all human evidence hashes unchanged (3501.9034ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10503.5779

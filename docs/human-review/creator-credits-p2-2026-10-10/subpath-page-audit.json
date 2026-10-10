@@ -1,0 +1,1539 @@
+{
+  "result": "PASS",
+  "directory": ".cache/p2-subpath",
+  "creators": 169,
+  "songs": 887,
+  "allWorkAndRecordCountsMatch": true,
+  "kanow": {
+    "id": "cr-0126",
+    "slug": "nozomu-kanow",
+    "works": 10,
+    "records": 10,
+    "lyricist": 0,
+    "composer": 0,
+    "arranger": 10
+  },
+  "rows": [
+    {
+      "id": "cr-0001",
+      "slug": "noriyasu-agematsu",
+      "works": 60,
+      "records": 67,
+      "lyricist": 4,
+      "composer": 60,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0002",
+      "slug": "elements-garden",
+      "works": 18,
+      "records": 18,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 18
+    },
+    {
+      "id": "cr-0003",
+      "slug": "syuichi-mabe",
+      "works": 2,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0004",
+      "slug": "junpei-fujita",
+      "works": 61,
+      "records": 65,
+      "lyricist": 0,
+      "composer": 51,
+      "arranger": 49
+    },
+    {
+      "id": "cr-0005",
+      "slug": "ryutaro-fujinaga",
+      "works": 67,
+      "records": 74,
+      "lyricist": 0,
+      "composer": 40,
+      "arranger": 67
+    },
+    {
+      "id": "cr-0006",
+      "slug": "daisuke-kikuta",
+      "works": 47,
+      "records": 48,
+      "lyricist": 0,
+      "composer": 32,
+      "arranger": 44
+    },
+    {
+      "id": "cr-0007",
+      "slug": "seima-iwahashi",
+      "works": 64,
+      "records": 65,
+      "lyricist": 0,
+      "composer": 31,
+      "arranger": 62
+    },
+    {
+      "id": "cr-0008",
+      "slug": "hitoshi-fujima",
+      "works": 27,
+      "records": 30,
+      "lyricist": 0,
+      "composer": 25,
+      "arranger": 26
+    },
+    {
+      "id": "cr-0009",
+      "slug": "yusuke-takeda",
+      "works": 44,
+      "records": 48,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 41
+    },
+    {
+      "id": "cr-0010",
+      "slug": "yuta-kasai",
+      "works": 70,
+      "records": 71,
+      "lyricist": 0,
+      "composer": 20,
+      "arranger": 70
+    },
+    {
+      "id": "cr-0011",
+      "slug": "seima-kondo",
+      "works": 32,
+      "records": 32,
+      "lyricist": 0,
+      "composer": 11,
+      "arranger": 32
+    },
+    {
+      "id": "cr-0012",
+      "slug": "daisuke-horikawa",
+      "works": 28,
+      "records": 28,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 27
+    },
+    {
+      "id": "cr-0013",
+      "slug": "hasegawa-daisuke",
+      "works": 8,
+      "records": 13,
+      "lyricist": 0,
+      "composer": 8,
+      "arranger": 8
+    },
+    {
+      "id": "cr-0014",
+      "slug": "koji-matsuzaka",
+      "works": 5,
+      "records": 7,
+      "lyricist": 0,
+      "composer": 5,
+      "arranger": 5
+    },
+    {
+      "id": "cr-0015",
+      "slug": "kinoshita-ryuhei",
+      "works": 4,
+      "records": 7,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0016",
+      "slug": "tomita-kazuki",
+      "works": 3,
+      "records": 5,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0017",
+      "slug": "araken",
+      "works": 2,
+      "records": 4,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0018",
+      "slug": "hisakuni",
+      "works": 2,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0019",
+      "slug": "ryota-tomaru",
+      "works": 99,
+      "records": 103,
+      "lyricist": 0,
+      "composer": 24,
+      "arranger": 97
+    },
+    {
+      "id": "cr-0020",
+      "slug": "yuki-hidaka",
+      "works": 73,
+      "records": 74,
+      "lyricist": 0,
+      "composer": 21,
+      "arranger": 71
+    },
+    {
+      "id": "cr-0021",
+      "slug": "ryota-suematsu",
+      "works": 20,
+      "records": 22,
+      "lyricist": 0,
+      "composer": 9,
+      "arranger": 19
+    },
+    {
+      "id": "cr-0022",
+      "slug": "diggy-mo",
+      "works": 16,
+      "records": 24,
+      "lyricist": 15,
+      "composer": 13,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0023",
+      "slug": "ayase",
+      "works": 10,
+      "records": 10,
+      "lyricist": 9,
+      "composer": 10,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0024",
+      "slug": "satoshi-fujihara",
+      "works": 8,
+      "records": 9,
+      "lyricist": 6,
+      "composer": 8,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0025",
+      "slug": "honeyworks",
+      "works": 7,
+      "records": 7,
+      "lyricist": 7,
+      "composer": 7,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0026",
+      "slug": "deco27",
+      "works": 7,
+      "records": 7,
+      "lyricist": 7,
+      "composer": 6,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0027",
+      "slug": "tomoya-tabuchi",
+      "works": 6,
+      "records": 6,
+      "lyricist": 5,
+      "composer": 6,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0028",
+      "slug": "shota-horie",
+      "works": 11,
+      "records": 12,
+      "lyricist": 4,
+      "composer": 8,
+      "arranger": 9
+    },
+    {
+      "id": "cr-0029",
+      "slug": "motoki-ohmori",
+      "works": 5,
+      "records": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0030",
+      "slug": "shito",
+      "works": 4,
+      "records": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0031",
+      "slug": "teddyloid",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0032",
+      "slug": "pinocchiop",
+      "works": 5,
+      "records": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0033",
+      "slug": "kentaro-fujii",
+      "works": 10,
+      "records": 10,
+      "lyricist": 4,
+      "composer": 5,
+      "arranger": 10
+    },
+    {
+      "id": "cr-0034",
+      "slug": "giga",
+      "works": 4,
+      "records": 4,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0035",
+      "slug": "eve",
+      "works": 4,
+      "records": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0036",
+      "slug": "orangestar",
+      "works": 4,
+      "records": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0037",
+      "slug": "vaundy",
+      "works": 4,
+      "records": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0038",
+      "slug": "takahashi-ryo",
+      "works": 3,
+      "records": 4,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0039",
+      "slug": "40mp",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0040",
+      "slug": "neru",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0041",
+      "slug": "kairiki-bear",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0042",
+      "slug": "mikitop",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0043",
+      "slug": "kosaki",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0044",
+      "slug": "gasa-yasuhiro",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0045",
+      "slug": "kanasaki-masashi",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0046",
+      "slug": "hiroaki-suzuki",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0047",
+      "slug": "yoshiki-mizuno",
+      "works": 4,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0048",
+      "slug": "mikiya-katakura",
+      "works": 4,
+      "records": 4,
+      "lyricist": 0,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0049",
+      "slug": "tetsuya-komuro",
+      "works": 3,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0050",
+      "slug": "kenichi-maeyamada",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0051",
+      "slug": "motoo-fujiwara",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0052",
+      "slug": "hyde",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0053",
+      "slug": "junichi-sato",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0054",
+      "slug": "kohei-tanaka",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0055",
+      "slug": "hidekazu-tanaka",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0056",
+      "slug": "tom-hack",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0057",
+      "slug": "myth-and-roid",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0058",
+      "slug": "orange-range",
+      "works": 3,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0059",
+      "slug": "fear-and-loathing-in-las-vegas",
+      "works": 4,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 4,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0060",
+      "slug": "threee",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0061",
+      "slug": "nayutalien",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0062",
+      "slug": "masayoshi-oishi",
+      "works": 5,
+      "records": 5,
+      "lyricist": 5,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0063",
+      "slug": "tatsuya-kitani",
+      "works": 2,
+      "records": 4,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0064",
+      "slug": "kanaria",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0065",
+      "slug": "tk",
+      "works": 3,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0066",
+      "slug": "satoshi-yaginuma",
+      "works": 4,
+      "records": 4,
+      "lyricist": 2,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0067",
+      "slug": "uz",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0068",
+      "slug": "yui",
+      "works": 3,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0069",
+      "slug": "takuya-uverworld",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0070",
+      "slug": "the-spellbound",
+      "works": 3,
+      "records": 3,
+      "lyricist": 1,
+      "composer": 3,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0071",
+      "slug": "sabio",
+      "works": 4,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0072",
+      "slug": "shintaro-tokita",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0073",
+      "slug": "takuya-ohashi",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0074",
+      "slug": "mashiro-shirakami",
+      "works": 4,
+      "records": 4,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0075",
+      "slug": "shoji-meguro",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0076",
+      "slug": "hiromu-akita",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0077",
+      "slug": "daisuke-asakura",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0078",
+      "slug": "atsuko-angela",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0079",
+      "slug": "katsu-angela",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0080",
+      "slug": "ak-homma",
+      "works": 5,
+      "records": 5,
+      "lyricist": 0,
+      "composer": 5,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0081",
+      "slug": "hiroyuki-maezawa",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0082",
+      "slug": "chiyomaru-shikura",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 3,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0083",
+      "slug": "ayato-shinozaki",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0084",
+      "slug": "ryo-supercell",
+      "works": 4,
+      "records": 4,
+      "lyricist": 4,
+      "composer": 4,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0085",
+      "slug": "gen-04-limited-sazabys",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0086",
+      "slug": "arm-iosys",
+      "works": 1,
+      "records": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0087",
+      "slug": "take-flow",
+      "works": 1,
+      "records": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0088",
+      "slug": "yasu-janne-da-arc",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0089",
+      "slug": "natsuki-shoji",
+      "works": 2,
+      "records": 4,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0090",
+      "slug": "mizuki-sena",
+      "works": 4,
+      "records": 4,
+      "lyricist": 2,
+      "composer": 4,
+      "arranger": 2
+    },
+    {
+      "id": "cr-0091",
+      "slug": "john",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0092",
+      "slug": "asuka-oda",
+      "works": 255,
+      "records": 272,
+      "lyricist": 255,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0093",
+      "slug": "kou-nakamura",
+      "works": 77,
+      "records": 83,
+      "lyricist": 77,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0094",
+      "slug": "kotaro-shimoda",
+      "works": 38,
+      "records": 39,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 38
+    },
+    {
+      "id": "cr-0095",
+      "slug": "masaki-fujiwara",
+      "works": 20,
+      "records": 36,
+      "lyricist": 20,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0096",
+      "slug": "seonoo-kim",
+      "works": 17,
+      "records": 17,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 17
+    },
+    {
+      "id": "cr-0097",
+      "slug": "aki-hata",
+      "works": 13,
+      "records": 13,
+      "lyricist": 13,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0098",
+      "slug": "kenzo-ueki",
+      "works": 14,
+      "records": 15,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 13
+    },
+    {
+      "id": "cr-0099",
+      "slug": "spirit-garden",
+      "works": 7,
+      "records": 8,
+      "lyricist": 7,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0100",
+      "slug": "shoko-oomori",
+      "works": 5,
+      "records": 5,
+      "lyricist": 5,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0101",
+      "slug": "gakushi-ogi",
+      "works": 4,
+      "records": 5,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 4
+    },
+    {
+      "id": "cr-0102",
+      "slug": "momiken",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0103",
+      "slug": "john-kanda",
+      "works": 6,
+      "records": 7,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 6
+    },
+    {
+      "id": "cr-0104",
+      "slug": "nana-mizuki",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0105",
+      "slug": "arale-nakamachi",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0106",
+      "slug": "jun-maeda",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0107",
+      "slug": "ano",
+      "works": 2,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0108",
+      "slug": "neko-oikawa",
+      "works": 2,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0109",
+      "slug": "gom",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0110",
+      "slug": "hidetoshi-sato",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0111",
+      "slug": "aira",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0112",
+      "slug": "peppe",
+      "works": 1,
+      "records": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0113",
+      "slug": "samfree",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0114",
+      "slug": "shingo-anami",
+      "works": 1,
+      "records": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0115",
+      "slug": "issey-kobayashi",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0116",
+      "slug": "haruko-nagaya",
+      "works": 1,
+      "records": 1,
+      "lyricist": 1,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0117",
+      "slug": "takahito-makishima",
+      "works": 1,
+      "records": 1,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0118",
+      "slug": "kyoichi-miyazaki",
+      "works": 8,
+      "records": 8,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 8
+    },
+    {
+      "id": "cr-0119",
+      "slug": "haruki-mori",
+      "works": 8,
+      "records": 8,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 8
+    },
+    {
+      "id": "cr-0120",
+      "slug": "ryusei-kawabuchi",
+      "works": 6,
+      "records": 6,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 6
+    },
+    {
+      "id": "cr-0121",
+      "slug": "haruichi",
+      "works": 5,
+      "records": 5,
+      "lyricist": 5,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0122",
+      "slug": "karasuya-sabou",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0123",
+      "slug": "hideki-hayashi",
+      "works": 3,
+      "records": 3,
+      "lyricist": 3,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0124",
+      "slug": "o-saka",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0125",
+      "slug": "iori-kanzaki",
+      "works": 2,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0126",
+      "slug": "nozomu-kanow",
+      "works": 10,
+      "records": 10,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 10
+    },
+    {
+      "id": "cr-0127",
+      "slug": "fukase",
+      "works": 3,
+      "records": 3,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0128",
+      "slug": "touma",
+      "works": 3,
+      "records": 3,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 3
+    },
+    {
+      "id": "cr-0129",
+      "slug": "acane",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0130",
+      "slug": "dj-matsunaga",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0131",
+      "slug": "meg-rock",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0132",
+      "slug": "miwa",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0133",
+      "slug": "oster-project",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0134",
+      "slug": "shin-sakiura",
+      "works": 1,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0135",
+      "slug": "takeshi-asakawa",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0136",
+      "slug": "taku-inoue",
+      "works": 1,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0137",
+      "slug": "zaq",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0138",
+      "slug": "aina-the-end",
+      "works": 1,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0139",
+      "slug": "uran",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0140",
+      "slug": "saori-codama",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0141",
+      "slug": "kocchi-no-kento",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0142",
+      "slug": "koresawa",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0143",
+      "slug": "shinoda",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0144",
+      "slug": "jin",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0145",
+      "slug": "tsumiki",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0146",
+      "slug": "tsunku",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0147",
+      "slug": "natori",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0148",
+      "slug": "nanahoshi-kangengakudan",
+      "works": 1,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0149",
+      "slug": "nano",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0150",
+      "slug": "balloon",
+      "works": 1,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0151",
+      "slug": "hige-driver",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0152",
+      "slug": "megater-zero",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 1
+    },
+    {
+      "id": "cr-0153",
+      "slug": "akio-inoue",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0154",
+      "slug": "yusuke-kato",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0155",
+      "slug": "shin-furuya",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0156",
+      "slug": "ichiro-yamaguchi",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0157",
+      "slug": "kyasu-morizuki",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0158",
+      "slug": "suisei-hosimati",
+      "works": 1,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0159",
+      "slug": "hidenori-chiwata",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0160",
+      "slug": "masatomo-ota",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0161",
+      "slug": "kaoru-okubo",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0162",
+      "slug": "maguro-taniguchi",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0163",
+      "slug": "shunichi-tanabe",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0164",
+      "slug": "toru-watanabe",
+      "works": 2,
+      "records": 2,
+      "lyricist": 1,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0165",
+      "slug": "shoko-fujibayashi",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 0,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0166",
+      "slug": "grp",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0167",
+      "slug": "reol",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 1,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0168",
+      "slug": "revo",
+      "works": 2,
+      "records": 2,
+      "lyricist": 2,
+      "composer": 2,
+      "arranger": 0
+    },
+    {
+      "id": "cr-0169",
+      "slug": "zenta",
+      "works": 2,
+      "records": 2,
+      "lyricist": 0,
+      "composer": 0,
+      "arranger": 2
+    }
+  ]
+}

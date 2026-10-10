@@ -1,0 +1,36 @@
+{
+  "sha": "d39b41feeebb21ccef5c3e7f21a9c424a7e947a1",
+  "fixtureHash": "fa7d093e4c8e85629ac8b1fcf997b413801f33b5b571392cc6b74f279d52f5a0",
+  "sourceHashes": {
+    "data/creators.json": "104725570806778d33aee087b881285964c70eb17d19553547e864a02474f6be",
+    "data/news.json": "543f3e54c8f18b08c75b0fd8eb968123638b7bcd6d6e611242ce2973386d1d54",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "b4ce9b25908b35030d897e1fd1bc772a48f21dfc5c3342a9cfe2fd4164b1c19f",
+    "data/garupa/admin-state.json": "153f48bdc7ae4f842d839acc97404f07facd21cf36e410a642b8dad5b68460b2",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "2e40c2a3dca97eef9bf0ec36e838399354f4c7c4ecbde82d4c2e5547a1f7a775",
+    "data/ournotes/admin-state.json": "2f509f4b428a931041159af4584e626b1cec274eac8780be112b86f9e77b1a94",
+    "data/ournotes/songs.json": "021608e7a78343bc034d4bc8a82f9e1b485ba9228282d2242c36b0f6f73feabf"
+  },
+  "commits": [
+    "d39b41f Update song: Sky full of Miracle",
+    "85b7bf1 Update song: Odd Dice",
+    "003d848 Update song: Odd Dice",
+    "8a0eafa Update song: Stellar Stellar",
+    "e516328 Update song: ロウワー",
+    "cd3daa6 Update song: unravel",
+    "22745ca Update song: Pretender",
+    "d6c51ad Update song: 青のすみか",
+    "6454beb Update song: Odd Dice",
+    "85c36c3 Update song: Odd Dice",
+    "d24a6a6 Update song: カーネーションの咲く日に"
+  ],
+  "remoteChanges": [
+    "data/garupa/admin-state.json",
+    "data/garupa/songs.json",
+    "data/ournotes/admin-state.json",
+    "data/ournotes/songs.json"
+  ],
+  "policy": "Preserve all remote fields; patch only explicit P2 credit roles; retain original input and initial snapshot."
+}

@@ -1,0 +1,47 @@
+{
+  "source": "User replies in this chat, 2026-10-10",
+  "creators": {
+    "b1-e12eda6ee4265889dc55": {
+      "affiliation": "なし",
+      "根拠URL・資料": "なし"
+    },
+    "b1-4f91af38c06b9f63e032": { "reading": "れう゛ぉ", "sortKey": "れう゛ぉ" },
+    "b1-2a52f798ceb56249a012": {
+      "aliases": "[土橋善太]",
+      "affiliation": "なし"
+    },
+    "b1-fdb3b03e87813e0b214d": { "type": "person", "備考": null },
+    "b1-0abbc860daeec295ea85": {
+      "備考": "活動人数は1人だが、ユニット名義として登録する。"
+    }
+  },
+  "merges": { "b1-8e00fe4d903f403579aa": "b1-1d4523c52c9646f14a3b" },
+  "existingCreators": { "大橋卓弥": "cr-0073", "常田真太郎": "cr-0072" },
+  "raw": {
+    "garupa:223:arranger": "藤間仁（Elements Garden）",
+    "garupa:237:arranger": "藤永龍太郎（Elements Garden）",
+    "garupa:460:lyricist": "水野　良樹",
+    "garupa:461:lyricist": "織田あすか（Elements Garden）",
+    "garupa:466:arranger": "藤永龍太郎（Elements Garden）"
+  },
+  "workScopes": {
+    "garupa:800:lyricist": "wk-0824",
+    "garupa:800:composer": "wk-0824",
+    "garupa:800:arranger": "wk-0824"
+  },
+  "publicationAuthorization": "私が伝えた情報について全て変更した後に全てのテストや確認を終了した場合は、commit・push・deployも行ってください。",
+  "literalReplies": [
+    "GRP：所属・根拠URL／資料はともに「なし」",
+    "Revo：reading は「れヴぉ」、ただしひらがなのうに濁点がついているものを表示できなかったため個の表記ですが、正しくは「れう゛ぉ」です。（sortKeyと同じ）",
+    "ZENTA：aliases は [土橋善太]、所属は「なし」",
+    "Reol：type は person、そしてこの備考は本来OSTER projectに書く予定のものでした、失礼しました。",
+    "岩見陸：ナナホシ管弦楽団と同じCreatorに統合し、標準名／slug はナナホシ管弦楽団／nanahoshi-kangengakudan を採用してください",
+    "Garupa:223 編曲：D節の「藤間仁（Elements Garden）」で表示",
+    "Garupa:237 編曲：D節の「藤永龍太郎（Elements Garden）」で表示",
+    "Garupa:460 作詞：D節の「水野 良樹」（全角空白あり）で表示",
+    "Garupa:461 作詞：D節の「織田あすか（Elements Garden）」de",
+    "はい、現行Work IDを維持して反映",
+    "D節「藤永龍太郎（Elements Garden）」で表示",
+    "はい、既存Creatorを使う"
+  ]
+}

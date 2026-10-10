@@ -1,0 +1,88 @@
+{
+  "status": "READY_FOR_COMMIT_PUSH_DEPLOY",
+  "head": "653455ad8ba752a47c53283f49b5925b7d4880f8",
+  "verifiedAt": "2026-10-10T10:59:44.197Z",
+  "inputUnchanged": true,
+  "validatedSourcesUnchanged": true,
+  "validatedDataUnchanged": true,
+  "reviewReproduced": true,
+  "unmappedCurrentUnresolved": 0,
+  "P2TaskUnmapped": 0,
+  "tests": {
+    "result": "PASS",
+    "canonical": 273,
+    "p2": 8,
+    "previousHumanReview": 31,
+    "p1": 10,
+    "total": 322
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "garupa": 800,
+    "ournotes": 87
+  },
+  "SEO": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "pages": 1065,
+    "details": 887
+  },
+  "Functions": {
+    "result": "PASS",
+    "wrangler": "4.143.0"
+  },
+  "pages": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "creators": 169,
+    "records": 887,
+    "kanow": {
+      "works": 10,
+      "records": 10,
+      "arranger": 10
+    }
+  },
+  "unmet": [],
+  "logEvidence": [
+    {
+      "path": "validation/p2-earlier-review-tests-second.txt",
+      "sha256": "2eddfaaf482ec8a190e348c36f019ad2fdedefc2d7b2fcf02c842a920d5fb0f1"
+    },
+    {
+      "path": "validation/p2-functions.txt",
+      "sha256": "b4cdda887ea39bcc9693cadc9f7d685816b8b580b9226a5b73ef370d24efc19d"
+    },
+    {
+      "path": "validation/p2-latest-target-tests.txt",
+      "sha256": "617edef140c79adfda9be674477e37bc38eda1e91c090ce3048b5ec6cc503249"
+    },
+    {
+      "path": "validation/p2-p1-regression-tests.txt",
+      "sha256": "33dc2d5387cea10be825f1d1c43b4ede1483e6cace3998ab52173f983ff2414f"
+    },
+    {
+      "path": "validation/p2-remote-full-tests.txt",
+      "sha256": "2b979cc5753b0fa37e357f6bb0164d38d67872f80363881569dc04a5a96753e0"
+    },
+    {
+      "path": "validation/p2-remote-root-build.txt",
+      "sha256": "576377f87bb474eafe2a53455cd2d4ac38992a78a98c4291c16ad9b7e9eac47c"
+    },
+    {
+      "path": "validation/p2-remote-root-seo.txt",
+      "sha256": "470bcc20f3b5ad592165bbbd7cd9f0925aece18501eacd535d9972909657f309"
+    },
+    {
+      "path": "validation/p2-subpath-build.txt",
+      "sha256": "576377f87bb474eafe2a53455cd2d4ac38992a78a98c4291c16ad9b7e9eac47c"
+    },
+    {
+      "path": "validation/p2-subpath-seo.txt",
+      "sha256": "470bcc20f3b5ad592165bbbd7cd9f0925aece18501eacd535d9972909657f309"
+    }
+  ],
+  "commitPerformed": false,
+  "pushPerformed": false,
+  "deployPerformed": false
+}

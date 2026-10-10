@@ -5,3 +5,5 @@ docs/human-review/creator-kanzaki-2026-10-06/validation/tests-first.txt -whitesp
 # Preserve the original P1 failed TAP output, including its space-only diff lines.
 docs/human-review/creator-kanow-p1-2026-10-07/validation/prior-todo-tests-first.txt -whitespace
 docs/human-review/creator-kanow-p1-2026-10-07/validation/prior-todo-tests-second.txt -whitespace
+# Retain whitespace in the user's immutable P2 attachment exactly as submitted.
+docs/human-review/creator-credits-p2-2026-10-10/input.txt -whitespace
