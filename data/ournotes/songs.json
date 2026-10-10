@@ -2381,7 +2381,7 @@
           "id": 26,
           "title": "Crucifix X",
           "reading": "クルーシフィクスキス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 26,
           "composer": "o-saka(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2389,7 +2389,7 @@
           "bpm": 103,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 105,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2398,7 +2398,7 @@
             },
             "NORMAL": {
               "level": 11,
-              "notes": 288
+              "notes": 289
             },
             "HARD": {
               "level": 16,
@@ -2424,8 +2424,8 @@
             {
               "creatorId": "cr-0022",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ]
             },
             {
@@ -2434,10 +2434,7 @@
                 "composer",
                 "arranger"
               ],
-              "displayOverrides": {
-                "composer": "o-saka(SUPA LOVE)",
-                "arranger": "o-saka(SUPA LOVE)"
-              }
+              "displayOverride": "o-saka(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2464,7 +2461,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "o-saka(SUPA LOVE)"
+          "arranger": "o-saka(SUPA LOVE)",
+          "revision": "3d5764a1-f1fd-4bd4-a2d0-a6a58a909e5f"
         },
         {
           "id": 27,
