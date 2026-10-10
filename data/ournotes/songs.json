@@ -6292,16 +6292,16 @@
           "bpm": 178,
           "bpmMin": 162,
           "bpmMax": 178,
-          "durationSeconds": null,
+          "durationSeconds": 122,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": 340
+              "notes": 341
             },
             "NORMAL": {
               "level": 13,
-              "notes": 510
+              "notes": 511
             },
             "HARD": {
               "level": 18,
@@ -6342,7 +6342,8 @@
             ]
           },
           "lyricist": "星街すいせい",
-          "arranger": "牧野太洋"
+          "arranger": "牧野太洋",
+          "revision": "eecc1a1b-bed5-40ee-918b-6dd20aa2514a"
         }
       ]
     },
