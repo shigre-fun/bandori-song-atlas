@@ -28513,16 +28513,28 @@
           "originalWork": null,
           "live3d": false,
           "relatedSongIds": [],
-          "bpm": null,
+          "bpm": 128,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 113,
           "aliases": [],
           "difficulties": {
-            "EASY": null,
-            "NORMAL": null,
-            "HARD": null,
-            "EXPERT": null,
+            "EASY": {
+              "level": 7,
+              "notes": 99
+            },
+            "NORMAL": {
+              "level": 12,
+              "notes": 162
+            },
+            "HARD": {
+              "level": 19,
+              "notes": 467
+            },
+            "EXPERT": {
+              "level": 25,
+              "notes": 654
+            },
             "SPECIAL": null
           },
           "submissionId": "b86cc331-0b3a-474a-9eb1-8bb3a61eb36f",
@@ -28537,7 +28549,10 @@
               }
             ],
             "arranger": []
-          }
+          },
+          "lyricist": null,
+          "arranger": null,
+          "revision": "2dd30ffd-69be-453f-8963-9ea5114dcead"
         }
       ]
     },
