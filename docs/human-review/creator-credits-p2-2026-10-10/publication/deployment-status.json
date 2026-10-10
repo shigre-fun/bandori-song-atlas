@@ -1,0 +1,176 @@
+{
+  "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+  "runs": [
+    {
+      "id": 38046950649,
+      "name": "Publish song database",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649"
+    }
+  ],
+  "checks": [
+    {
+      "id": 114198791791,
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/849bbcf4-30a4-4ae2-9c82-a05086d88db9",
+      "output": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>bf12ea2</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://849bbcf4.garupa-song-atlas.pages.dev'>https://849bbcf4.garupa-song-atlas.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/849bbcf4-30a4-4ae2-9c82-a05086d88db9)\n"
+    },
+    {
+      "id": 114198669586,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586",
+      "output": null
+    },
+    {
+      "id": 114198283344,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198283344",
+      "output": null
+    }
+  ],
+  "status": {
+    "state": "pending",
+    "statuses": []
+  },
+  "deployments": [
+    {
+      "id": 6979837846,
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "environment": "github-pages",
+      "statuses": [
+        {
+          "state": "success",
+          "environment_url": "https://shigre-fun.github.io/bandori-song-atlas/",
+          "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+        },
+        {
+          "state": "in_progress",
+          "environment_url": "",
+          "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+        },
+        {
+          "state": "queued",
+          "environment_url": "",
+          "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+        },
+        {
+          "state": "queued",
+          "environment_url": "",
+          "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+        },
+        {
+          "state": "waiting",
+          "environment_url": "",
+          "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "runId": 38046950649,
+      "jobs": [
+        {
+          "name": "build",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@v6",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-node@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run pnpm/action-setup@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run pnpm install --frozen-lockfile",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Configure Pages",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build and test",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/upload-pages-artifact@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run pnpm/action-setup@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-node@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@v6",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Deploy",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

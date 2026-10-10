@@ -1,0 +1,1026 @@
+{
+  "status": "PASS",
+  "commit": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+  "origin": "https://shigre-fun.github.io",
+  "prefix": "/bandori-song-atlas",
+  "verifiedAt": "2026-10-10T11:05:34.244Z",
+  "creators": 169,
+  "newCreators": 43,
+  "allCreatorContentAndLinksMatch": true,
+  "results": [
+    {
+      "id": "cr-0001",
+      "slug": "noriyasu-agematsu",
+      "status": 200,
+      "mainSha256": "5e155ccb82cf7cf840593be851a929b26b5ff681a8cc2547adb08f3c392f584d"
+    },
+    {
+      "id": "cr-0002",
+      "slug": "elements-garden",
+      "status": 200,
+      "mainSha256": "85f5b9794090dfc4ae937284e3f6fb80706e55fd36f1ddef9ee5f52148f2544c"
+    },
+    {
+      "id": "cr-0003",
+      "slug": "syuichi-mabe",
+      "status": 200,
+      "mainSha256": "a52e08a10b7441f537aac34fc552bc3ae07cbf4072b76db0eae47647fde6e207"
+    },
+    {
+      "id": "cr-0004",
+      "slug": "junpei-fujita",
+      "status": 200,
+      "mainSha256": "b06111d07a5ba7e7d346a12a5f2eca6ec0541baa5f0f5712ec4fccb9261c0fb6"
+    },
+    {
+      "id": "cr-0005",
+      "slug": "ryutaro-fujinaga",
+      "status": 200,
+      "mainSha256": "386a53ac46fc757d6c41265aa41df57f36de22b164289959ad392464a0869c34"
+    },
+    {
+      "id": "cr-0006",
+      "slug": "daisuke-kikuta",
+      "status": 200,
+      "mainSha256": "c0580e72bc833d96e529e13c99a1eea54d5b2e6525137e13a725cd0b65abea92"
+    },
+    {
+      "id": "cr-0007",
+      "slug": "seima-iwahashi",
+      "status": 200,
+      "mainSha256": "8ca6e591a3c250e73fea7df47a1bbe13f32937fb21304a102f8c88b4f008eaef"
+    },
+    {
+      "id": "cr-0008",
+      "slug": "hitoshi-fujima",
+      "status": 200,
+      "mainSha256": "c220d151bf24bd5748f76f157b61f88e7521608090a2974183a18da6be1033ff"
+    },
+    {
+      "id": "cr-0009",
+      "slug": "yusuke-takeda",
+      "status": 200,
+      "mainSha256": "51fa07c618f6f8d9a71b925293ffa35727a9c2687fd696987fa854b439eedce3"
+    },
+    {
+      "id": "cr-0010",
+      "slug": "yuta-kasai",
+      "status": 200,
+      "mainSha256": "56a8134c3e1bafac6e29b67a64e4e4b8e48e735a393ed58e377e35ca8dbd7151"
+    },
+    {
+      "id": "cr-0011",
+      "slug": "seima-kondo",
+      "status": 200,
+      "mainSha256": "780991261c748e5f87552c5d744b7f9d1479bedb1daf6655676d0fd7a4cd0706"
+    },
+    {
+      "id": "cr-0012",
+      "slug": "daisuke-horikawa",
+      "status": 200,
+      "mainSha256": "b7095c726b8d0d37492b6fec416bc2327c769f087928fb8753a00c598837dc96"
+    },
+    {
+      "id": "cr-0013",
+      "slug": "hasegawa-daisuke",
+      "status": 200,
+      "mainSha256": "49b83deadd3cd3564e3a0233eef6c5acce18bd033b962e749f96c54855c65913"
+    },
+    {
+      "id": "cr-0014",
+      "slug": "koji-matsuzaka",
+      "status": 200,
+      "mainSha256": "2a7db15aef87395ded58048ee195ac2df07d95bf2db597cd34a09936b7abcce9"
+    },
+    {
+      "id": "cr-0015",
+      "slug": "kinoshita-ryuhei",
+      "status": 200,
+      "mainSha256": "f659bdb9d720043f265a891d286bbc5bd855a7cfc1104afabe822675ffd4eec4"
+    },
+    {
+      "id": "cr-0016",
+      "slug": "tomita-kazuki",
+      "status": 200,
+      "mainSha256": "8d3ce9a5ae2bb566fb6e2a03711b7bf8a909777953b855d5d96c9c7ecc0a6557"
+    },
+    {
+      "id": "cr-0017",
+      "slug": "araken",
+      "status": 200,
+      "mainSha256": "6004d50e177012ba5fb56fd26a25ba9f2c69c209cdc86a1e3af2b057c07bd51a"
+    },
+    {
+      "id": "cr-0018",
+      "slug": "hisakuni",
+      "status": 200,
+      "mainSha256": "07b08e87573b498e96f17e410d4fd0f08615bcbb59a77c84666bf970a3980712"
+    },
+    {
+      "id": "cr-0019",
+      "slug": "ryota-tomaru",
+      "status": 200,
+      "mainSha256": "2f7cd5fc3d2e8560dd792c01428e5135b26957a8500ef9a271ae3f93ac0b0ecf"
+    },
+    {
+      "id": "cr-0020",
+      "slug": "yuki-hidaka",
+      "status": 200,
+      "mainSha256": "4d1f31fb55094e1559b0a208ff0ebca6b609c243b5caf7aeb611067c48234cb7"
+    },
+    {
+      "id": "cr-0021",
+      "slug": "ryota-suematsu",
+      "status": 200,
+      "mainSha256": "89fa9a63b00795027ad2d4bfa90c1328266c4bfd509a6d8032a1883510731dec"
+    },
+    {
+      "id": "cr-0022",
+      "slug": "diggy-mo",
+      "status": 200,
+      "mainSha256": "012bc60fbce0a6a8e972f9cb2e0e3e20bff2df2f117f0371b2a6b43a7d8b4620"
+    },
+    {
+      "id": "cr-0023",
+      "slug": "ayase",
+      "status": 200,
+      "mainSha256": "a264d85c4b1f3869db965252cbbf0e07981736b305d214ac4b2e3f5b65859d7e"
+    },
+    {
+      "id": "cr-0024",
+      "slug": "satoshi-fujihara",
+      "status": 200,
+      "mainSha256": "41410d38017766a4f31b5b8b7410ea8edd28857c79f44e92aa9385c1064168f3"
+    },
+    {
+      "id": "cr-0025",
+      "slug": "honeyworks",
+      "status": 200,
+      "mainSha256": "67035446ef354eb0f89fadb82fcf64472f686254b3b2d66a6bcf6b9fd15f73c1"
+    },
+    {
+      "id": "cr-0026",
+      "slug": "deco27",
+      "status": 200,
+      "mainSha256": "111a9b4501f68e0c0b015bb6e9fa44b4a147910a3c48bb46e8c56220deb678fe"
+    },
+    {
+      "id": "cr-0027",
+      "slug": "tomoya-tabuchi",
+      "status": 200,
+      "mainSha256": "989cfbe5df0f95f19184871e62c5382604f2569139d3e9c1e4ca850d3e9c50d7"
+    },
+    {
+      "id": "cr-0028",
+      "slug": "shota-horie",
+      "status": 200,
+      "mainSha256": "85b46b26a5e852b603f6b3b6aeb7bedfb7bea0f475c4db5ad06140cc5ec0f4b9"
+    },
+    {
+      "id": "cr-0029",
+      "slug": "motoki-ohmori",
+      "status": 200,
+      "mainSha256": "f217f71298aee0b31ceb0bf9dc8570a2e602adf2db8971ef496068bf1d2232b9"
+    },
+    {
+      "id": "cr-0030",
+      "slug": "shito",
+      "status": 200,
+      "mainSha256": "c0a0bba3f64cc25d98f253076491f13fc4b7ef6ce9b3ae28e7a3dfb65a1c2641"
+    },
+    {
+      "id": "cr-0031",
+      "slug": "teddyloid",
+      "status": 200,
+      "mainSha256": "8a5f7519bc648a04c948e41efd7fc546a20190b950e8e99d7fcfde6b626cf603"
+    },
+    {
+      "id": "cr-0032",
+      "slug": "pinocchiop",
+      "status": 200,
+      "mainSha256": "7a0eb07d30d6c9e1675ff9c41655dae88b5903faac7153ab73e40ee005ea9ff6"
+    },
+    {
+      "id": "cr-0033",
+      "slug": "kentaro-fujii",
+      "status": 200,
+      "mainSha256": "3555ec465ea1bddcfef980b71aa5a7aacb27c4737f4a71110d18f12481d7a0da"
+    },
+    {
+      "id": "cr-0034",
+      "slug": "giga",
+      "status": 200,
+      "mainSha256": "21b729013b29c115e94730f796ccaff68b678d311bfcf58aa5b9a2487852bc9a"
+    },
+    {
+      "id": "cr-0035",
+      "slug": "eve",
+      "status": 200,
+      "mainSha256": "997f89431585ac40175bf2693edcd6de1aa6d4655d519dcc6b363627647a7300"
+    },
+    {
+      "id": "cr-0036",
+      "slug": "orangestar",
+      "status": 200,
+      "mainSha256": "ca94b2498e39bece7fb2699ad293414a2f3e402e094156cf98ab4a036583f415"
+    },
+    {
+      "id": "cr-0037",
+      "slug": "vaundy",
+      "status": 200,
+      "mainSha256": "3edfde49b915c848f5ce6e3090b95876437cba4e6a2edad684d186529cb380aa"
+    },
+    {
+      "id": "cr-0038",
+      "slug": "takahashi-ryo",
+      "status": 200,
+      "mainSha256": "d716a71154816e22e9071ff0513ada66872b136faa9d81d1683e9ca6f78e093d"
+    },
+    {
+      "id": "cr-0039",
+      "slug": "40mp",
+      "status": 200,
+      "mainSha256": "0f5a92b1b9a5ec97ceb34bf6fcf01b781d554cab1a230f254c61411770af0b70"
+    },
+    {
+      "id": "cr-0040",
+      "slug": "neru",
+      "status": 200,
+      "mainSha256": "44b50c95dadcdae66f86d2aab61f7898007eddd47aa0bdfee4bd5caa752e8ad6"
+    },
+    {
+      "id": "cr-0041",
+      "slug": "kairiki-bear",
+      "status": 200,
+      "mainSha256": "fd41cdc53e1502bed652205638a8c66aa906dfe78a72abd4ec8de2e422640565"
+    },
+    {
+      "id": "cr-0042",
+      "slug": "mikitop",
+      "status": 200,
+      "mainSha256": "7e17b74a8f7a3e564dc224040707f703716dee48c92f10d2f72a18ce882ac243"
+    },
+    {
+      "id": "cr-0043",
+      "slug": "kosaki",
+      "status": 200,
+      "mainSha256": "758c3d4a74b4f59038f6e097bce2cce12be57956e130980114b7c19c523b676d"
+    },
+    {
+      "id": "cr-0044",
+      "slug": "gasa-yasuhiro",
+      "status": 200,
+      "mainSha256": "7a70c3c7d344a1d8700ce13caba5dca629c6631dcd82d9a4fe7fe0449bf0ee9c"
+    },
+    {
+      "id": "cr-0045",
+      "slug": "kanasaki-masashi",
+      "status": 200,
+      "mainSha256": "c104007a7655d1be2ef6e8a9fb90c5149135a2a1892449840c1a248587787c79"
+    },
+    {
+      "id": "cr-0046",
+      "slug": "hiroaki-suzuki",
+      "status": 200,
+      "mainSha256": "4b4d0187a6ec9e71555790e4c03d5fee1ff872115a20f8c8facfe74aed64d2a6"
+    },
+    {
+      "id": "cr-0047",
+      "slug": "yoshiki-mizuno",
+      "status": 200,
+      "mainSha256": "f28c41c7ac171a51b2274fba823f53a7e8aa2c84a39529e712333bb641d5a4c5"
+    },
+    {
+      "id": "cr-0048",
+      "slug": "mikiya-katakura",
+      "status": 200,
+      "mainSha256": "20e6a960a07efad3678f9e007f98b745e45bbffcd72b73bc95fb9ea22c3a789f"
+    },
+    {
+      "id": "cr-0049",
+      "slug": "tetsuya-komuro",
+      "status": 200,
+      "mainSha256": "f95f04d89fab680b2b79561b4bccf606bf120fe49e6fbad694f3e16bf765a049"
+    },
+    {
+      "id": "cr-0050",
+      "slug": "kenichi-maeyamada",
+      "status": 200,
+      "mainSha256": "aff4aebce395dc4e3cf03a42cf58e0da5de3f220f43f755c79bf1f43c75f9af5"
+    },
+    {
+      "id": "cr-0051",
+      "slug": "motoo-fujiwara",
+      "status": 200,
+      "mainSha256": "a05b2e67a13b7605dad2ca7e26c41a19b158e4ba349bf759241a04955eb798ed"
+    },
+    {
+      "id": "cr-0052",
+      "slug": "hyde",
+      "status": 200,
+      "mainSha256": "7877dff8e2891b73af26e48993825741db938937bf515bfa4f2bcb3edf434962"
+    },
+    {
+      "id": "cr-0053",
+      "slug": "junichi-sato",
+      "status": 200,
+      "mainSha256": "8f4d1990566588d214e6aeba684daa8820e64db51ca335eb50f46a9b2566b66e"
+    },
+    {
+      "id": "cr-0054",
+      "slug": "kohei-tanaka",
+      "status": 200,
+      "mainSha256": "24406ebdb4ac303694aefc4b7983ce4a7123af13c95aa5d6bdda7eaef182b539"
+    },
+    {
+      "id": "cr-0055",
+      "slug": "hidekazu-tanaka",
+      "status": 200,
+      "mainSha256": "d890f233439ffa1434440aa607dada7dbe2f32d89f6d62362625436b92dbbe10"
+    },
+    {
+      "id": "cr-0056",
+      "slug": "tom-hack",
+      "status": 200,
+      "mainSha256": "2cf85e32616599e6bbbdba54142d82ae989178c756cc34ebf5ac7529cb73ffa4"
+    },
+    {
+      "id": "cr-0057",
+      "slug": "myth-and-roid",
+      "status": 200,
+      "mainSha256": "008a8d1b3badbb8e65b60aedc24c9aa8d99182d4700e83836e17947f39d1c3f8"
+    },
+    {
+      "id": "cr-0058",
+      "slug": "orange-range",
+      "status": 200,
+      "mainSha256": "8986dc412c8ae0715df48a2060b18cc686029374b023cfc9f425711414c1f345"
+    },
+    {
+      "id": "cr-0059",
+      "slug": "fear-and-loathing-in-las-vegas",
+      "status": 200,
+      "mainSha256": "57b5cd3fbea047ef399311b18b949474dd225ad39a327c94ffa1a4de42aafb34"
+    },
+    {
+      "id": "cr-0060",
+      "slug": "threee",
+      "status": 200,
+      "mainSha256": "5d35c75952be8fa308827a165027937136f26231e5d90da3314cdd49a5688d89"
+    },
+    {
+      "id": "cr-0061",
+      "slug": "nayutalien",
+      "status": 200,
+      "mainSha256": "df01ccbfdbe646663e81e63ce8d92a3ca9804eb8d9d2cdc64f9b5c6302c99036"
+    },
+    {
+      "id": "cr-0062",
+      "slug": "masayoshi-oishi",
+      "status": 200,
+      "mainSha256": "1131191febca0f10faa958da41b5e052d50811883ec518b128713fd8399efb6d"
+    },
+    {
+      "id": "cr-0063",
+      "slug": "tatsuya-kitani",
+      "status": 200,
+      "mainSha256": "080213a4c8de4e4a99c75a7de636b63a6f2f02be1b1704e3438a204d96782d0c"
+    },
+    {
+      "id": "cr-0064",
+      "slug": "kanaria",
+      "status": 200,
+      "mainSha256": "94e8f60f70dc38d27e7c14ec05836ffd5d7251f115b7369dbb9b1fd4b2c72288"
+    },
+    {
+      "id": "cr-0065",
+      "slug": "tk",
+      "status": 200,
+      "mainSha256": "59f67aa44514ba1b07bcaa0e627a4ba4757c15c9faedae404428672c5be6ffd1"
+    },
+    {
+      "id": "cr-0066",
+      "slug": "satoshi-yaginuma",
+      "status": 200,
+      "mainSha256": "2085d3bfedf7646ff861a05befb3125923ec93affbf052c977c1833b3b6dda71"
+    },
+    {
+      "id": "cr-0067",
+      "slug": "uz",
+      "status": 200,
+      "mainSha256": "965f1399be68b9aaee21145509eee0c961f6bcb8a332cdb309def6d0e4919368"
+    },
+    {
+      "id": "cr-0068",
+      "slug": "yui",
+      "status": 200,
+      "mainSha256": "61dcf6e63f9bac0d96b8e5c69bde6a3be2bfd0dba9c8b240d6ab957a602f6b13"
+    },
+    {
+      "id": "cr-0069",
+      "slug": "takuya-uverworld",
+      "status": 200,
+      "mainSha256": "bcd9554acbfc6f4ec6678c6417e6a563a5085acb49c5410296c8889e9b48adbe"
+    },
+    {
+      "id": "cr-0070",
+      "slug": "the-spellbound",
+      "status": 200,
+      "mainSha256": "35f0874d3cdc842d780557e712332ef4bed6bd5693f6c047ccfc7fe0afa87df0"
+    },
+    {
+      "id": "cr-0071",
+      "slug": "sabio",
+      "status": 200,
+      "mainSha256": "3340fc8559c098fd1d018a342d0569ef45e1d3255d30ec4faf19ee36cf4c03bd"
+    },
+    {
+      "id": "cr-0072",
+      "slug": "shintaro-tokita",
+      "status": 200,
+      "mainSha256": "871eccdd984aaac72e115fdd8891606b0a823ba1ed8a138c52ccc88773c049d3"
+    },
+    {
+      "id": "cr-0073",
+      "slug": "takuya-ohashi",
+      "status": 200,
+      "mainSha256": "a8fc280ffa9afd494ef1d86265c9bbbd58ef22bfa01df3bae662f8cf9a5298f0"
+    },
+    {
+      "id": "cr-0074",
+      "slug": "mashiro-shirakami",
+      "status": 200,
+      "mainSha256": "108687494049e6247621d64b6cc1d3b79d83f7a2394add04502347520c2f66e5"
+    },
+    {
+      "id": "cr-0075",
+      "slug": "shoji-meguro",
+      "status": 200,
+      "mainSha256": "2b588845df9672cb54dd19bef8bd3be3e000f08df8bf81ab725f5c799116f44b"
+    },
+    {
+      "id": "cr-0076",
+      "slug": "hiromu-akita",
+      "status": 200,
+      "mainSha256": "a248df9c44c389d8ee1e9b96f4bd5cb2c05739265b693a88823947a410429c80"
+    },
+    {
+      "id": "cr-0077",
+      "slug": "daisuke-asakura",
+      "status": 200,
+      "mainSha256": "b41a85976f82999930a6da53a67bcc6d5f5f56e527b0845748f6389ee96621dd"
+    },
+    {
+      "id": "cr-0078",
+      "slug": "atsuko-angela",
+      "status": 200,
+      "mainSha256": "30fb6d90b49411ebb13916c99ae555efa8612f5e85e4cf8ab280090ac19a46ad"
+    },
+    {
+      "id": "cr-0079",
+      "slug": "katsu-angela",
+      "status": 200,
+      "mainSha256": "e81b9337b2629761cb55e9d73505dde56bd01de70ba3358aa76861431a1735c4"
+    },
+    {
+      "id": "cr-0080",
+      "slug": "ak-homma",
+      "status": 200,
+      "mainSha256": "0d8a73ac9a41230a6dac87ed5b20ef329de2cccafbeb27298ce8001e878b7ba8"
+    },
+    {
+      "id": "cr-0081",
+      "slug": "hiroyuki-maezawa",
+      "status": 200,
+      "mainSha256": "1ca36b3d72c8a5905b8604d3f8ce17e30a20f63cd98f4b88788a2a09ab9bd09c"
+    },
+    {
+      "id": "cr-0082",
+      "slug": "chiyomaru-shikura",
+      "status": 200,
+      "mainSha256": "dc97899452f291b3fb6a513abee2849d435676a863a9d0c105894057fbfb98be"
+    },
+    {
+      "id": "cr-0083",
+      "slug": "ayato-shinozaki",
+      "status": 200,
+      "mainSha256": "a5c9629185dcc2de093bf55cf01ebc927c453eb156cce3db795aa491774fce00"
+    },
+    {
+      "id": "cr-0084",
+      "slug": "ryo-supercell",
+      "status": 200,
+      "mainSha256": "e7d92c42d440a94245407900d27dd40a4a8ce5cdf018d19fd6b7180f7bcaa8fc"
+    },
+    {
+      "id": "cr-0085",
+      "slug": "gen-04-limited-sazabys",
+      "status": 200,
+      "mainSha256": "b74e2ec0e86bd8d64bee25dc1523a252fc54097e6cc0c206e476796ed5f3835e"
+    },
+    {
+      "id": "cr-0086",
+      "slug": "arm-iosys",
+      "status": 200,
+      "mainSha256": "7f4980433f6dbe02bed7f9f61cf7928523751564979ff828c68b0a2b81e5a28a"
+    },
+    {
+      "id": "cr-0087",
+      "slug": "take-flow",
+      "status": 200,
+      "mainSha256": "4d04d8fde5c659b57d9e509ff0a5c41b917143210f6b5085aba26ea5c945a3cc"
+    },
+    {
+      "id": "cr-0088",
+      "slug": "yasu-janne-da-arc",
+      "status": 200,
+      "mainSha256": "4cfb625c22a451291afc5b228328281b73268b04d764016792e7d52e266c47a1"
+    },
+    {
+      "id": "cr-0089",
+      "slug": "natsuki-shoji",
+      "status": 200,
+      "mainSha256": "a9c897041114a4ff808047445c79b9676db6ab41ad1725df4f24cdc8b1eb2bad"
+    },
+    {
+      "id": "cr-0090",
+      "slug": "mizuki-sena",
+      "status": 200,
+      "mainSha256": "f61e7ed86d15f5210d18417e25007f71626382fc9c0c007121673d70fcfdfc3f"
+    },
+    {
+      "id": "cr-0091",
+      "slug": "john",
+      "status": 200,
+      "mainSha256": "d2b29c3f65038724a42bec167430106f27f5b02f0358ba8bbc27f64b5322dd72"
+    },
+    {
+      "id": "cr-0092",
+      "slug": "asuka-oda",
+      "status": 200,
+      "mainSha256": "d5c96084949d2f75ba3ec64d07c24f590dd7f4cfc795add887df88c2e6ef0592"
+    },
+    {
+      "id": "cr-0093",
+      "slug": "kou-nakamura",
+      "status": 200,
+      "mainSha256": "fd7124e55bb0489ce4b8503e67cbb3d4c6734f31602c552ce1dd2b7b7a4dddb4"
+    },
+    {
+      "id": "cr-0094",
+      "slug": "kotaro-shimoda",
+      "status": 200,
+      "mainSha256": "f4c321ec3349628f9454e8b61a926d130b6f56aba489fd445c0bf874d6dcdc4f"
+    },
+    {
+      "id": "cr-0095",
+      "slug": "masaki-fujiwara",
+      "status": 200,
+      "mainSha256": "ad40eed5c52cc41c7a0fdcb417fd21faf3b1e42c0fd79a8180b6c3c79ccc8703"
+    },
+    {
+      "id": "cr-0096",
+      "slug": "seonoo-kim",
+      "status": 200,
+      "mainSha256": "f1e1d71454c95b3bb222075d3e8abe3747c822766e96c2890d872d882a32f1e5"
+    },
+    {
+      "id": "cr-0097",
+      "slug": "aki-hata",
+      "status": 200,
+      "mainSha256": "8e9111590356b4821b16ab2f0dd8938c62c410217989439ec0b9d7800875dbce"
+    },
+    {
+      "id": "cr-0098",
+      "slug": "kenzo-ueki",
+      "status": 200,
+      "mainSha256": "ad8819a195b0bacee00b13ef2b48ae1bb6a81b1ed6beb8a38faad8e21a9a73bc"
+    },
+    {
+      "id": "cr-0099",
+      "slug": "spirit-garden",
+      "status": 200,
+      "mainSha256": "48866ff898410d86f93f06e991a4220eca1a7e3433abcb3fad0b0de39e0f4321"
+    },
+    {
+      "id": "cr-0100",
+      "slug": "shoko-oomori",
+      "status": 200,
+      "mainSha256": "44f18077c20f7a533bc8736163ebcdb34190316ec33e02f7797c4b39b5a904ae"
+    },
+    {
+      "id": "cr-0101",
+      "slug": "gakushi-ogi",
+      "status": 200,
+      "mainSha256": "eb1e740d07997ebe3c4debcbd30b2ee97935b50717d289f4cad909d2e5545abd"
+    },
+    {
+      "id": "cr-0102",
+      "slug": "momiken",
+      "status": 200,
+      "mainSha256": "c3b82b2952485f1c69898d0fc996cd6ace3a1e49e905989f0a5464cbf5c71729"
+    },
+    {
+      "id": "cr-0103",
+      "slug": "john-kanda",
+      "status": 200,
+      "mainSha256": "92a8d322c297d0eb3b2274c18b63ad46c291376a3d03a416069a278731562539"
+    },
+    {
+      "id": "cr-0104",
+      "slug": "nana-mizuki",
+      "status": 200,
+      "mainSha256": "0cf3cac70886292440ed221a494cc2e3634ffd548a1cf24108d9fac185d5a000"
+    },
+    {
+      "id": "cr-0105",
+      "slug": "arale-nakamachi",
+      "status": 200,
+      "mainSha256": "771f6ae20bbbcd6eec946832012647e61eff03a1009d2f7b3e325402391740e9"
+    },
+    {
+      "id": "cr-0106",
+      "slug": "jun-maeda",
+      "status": 200,
+      "mainSha256": "e0f22b4fd230899fbbcfee453f7eda4b8299850b96e081d07da48a0032a93ac1"
+    },
+    {
+      "id": "cr-0107",
+      "slug": "ano",
+      "status": 200,
+      "mainSha256": "eeff429e231e17d8c3f6639cdc5845cb632936531eaab746a31d94d4ee2318ea"
+    },
+    {
+      "id": "cr-0108",
+      "slug": "neko-oikawa",
+      "status": 200,
+      "mainSha256": "34208831d8ccb4cbd4fc55926b110487edad979a630b83a70a689295f746c50f"
+    },
+    {
+      "id": "cr-0109",
+      "slug": "gom",
+      "status": 200,
+      "mainSha256": "e3d8dbb7dad733deb15f8e84c3b968c210f14302f8648448759d18297fc7c11f"
+    },
+    {
+      "id": "cr-0110",
+      "slug": "hidetoshi-sato",
+      "status": 200,
+      "mainSha256": "79841405733cf1dfec379771efefe5a3989618ed6ec82252be9805a59819e00b"
+    },
+    {
+      "id": "cr-0111",
+      "slug": "aira",
+      "status": 200,
+      "mainSha256": "293316b97dfd39eb557796b5c71211f9c72762e6f00bb704f7a77474ba596e92"
+    },
+    {
+      "id": "cr-0112",
+      "slug": "peppe",
+      "status": 200,
+      "mainSha256": "6cc7854eea3daede6d5246ced8a61d9d560e5012ef211120c2402eacca7965df"
+    },
+    {
+      "id": "cr-0113",
+      "slug": "samfree",
+      "status": 200,
+      "mainSha256": "801b7072cfe3dd656fe3313c53f6363b75c3c49cb852e64cd72fd74bcd76869c"
+    },
+    {
+      "id": "cr-0114",
+      "slug": "shingo-anami",
+      "status": 200,
+      "mainSha256": "400e8853b8749dc522bfcc5c7eb61d340d23820125a59f42bab921e8a972ac30"
+    },
+    {
+      "id": "cr-0115",
+      "slug": "issey-kobayashi",
+      "status": 200,
+      "mainSha256": "be980931dfc5fbabbcdd6777e4d01b21c7b49a1d668bade8fe226a152c7697d0"
+    },
+    {
+      "id": "cr-0116",
+      "slug": "haruko-nagaya",
+      "status": 200,
+      "mainSha256": "1b2195fa5494792cc5d7505532cf718d6f55b20e0fd30e6aac04154c41b3150d"
+    },
+    {
+      "id": "cr-0117",
+      "slug": "takahito-makishima",
+      "status": 200,
+      "mainSha256": "06140bcc359606602aabd78b7437a8e8263f3730b21e2803268e4da9aa07fb88"
+    },
+    {
+      "id": "cr-0118",
+      "slug": "kyoichi-miyazaki",
+      "status": 200,
+      "mainSha256": "7bf3516915353be8639a45ce21feba7fe66a75a6be5dcd2a40cb9bd2f7f4d556"
+    },
+    {
+      "id": "cr-0119",
+      "slug": "haruki-mori",
+      "status": 200,
+      "mainSha256": "30708ee2bf0d845c682c07d352d6ffee4faed6eb6e65259bad1fdb8f7f806c43"
+    },
+    {
+      "id": "cr-0120",
+      "slug": "ryusei-kawabuchi",
+      "status": 200,
+      "mainSha256": "671968faa16a143cc946e7cfbf621fb4335a2e4ea13ab732492f06d75ba5c100"
+    },
+    {
+      "id": "cr-0121",
+      "slug": "haruichi",
+      "status": 200,
+      "mainSha256": "d81b838cfa35f810dfbdd3d56cc1ec6855d41a5f6f742e273d1f5c1facf45d5c"
+    },
+    {
+      "id": "cr-0122",
+      "slug": "karasuya-sabou",
+      "status": 200,
+      "mainSha256": "354568087fb62851c0c40d22c0a7f33ffdff4213a922993702cb58b6bcf17536"
+    },
+    {
+      "id": "cr-0123",
+      "slug": "hideki-hayashi",
+      "status": 200,
+      "mainSha256": "a1a9b478614375a8537b11631d52e1357bcb84f26319ecb82929ca8d0b69e933"
+    },
+    {
+      "id": "cr-0124",
+      "slug": "o-saka",
+      "status": 200,
+      "mainSha256": "df1ea9dce81a7349719fb4a75bd9e6a578f28d1c2ef0e47e3503d5f66214ba8f"
+    },
+    {
+      "id": "cr-0125",
+      "slug": "iori-kanzaki",
+      "status": 200,
+      "mainSha256": "8cd8eac120a9eb9473758b15dce95472ce23b449b5fac281783fde5a0794ae75"
+    },
+    {
+      "id": "cr-0126",
+      "slug": "nozomu-kanow",
+      "status": 200,
+      "mainSha256": "13b1ee5f4c4ecf34721f3f85583e89c829858fe9f075ecbdf06815747f97d400"
+    },
+    {
+      "id": "cr-0127",
+      "slug": "fukase",
+      "status": 200,
+      "mainSha256": "17f8cd1cc4db792f9a27874f49381bd191eb2f857035aa025e6205b5c5ffbcf0"
+    },
+    {
+      "id": "cr-0128",
+      "slug": "touma",
+      "status": 200,
+      "mainSha256": "704caa616efa822d65328c11d2908b56adbe72c1cc87e524145c1e26110c85ba"
+    },
+    {
+      "id": "cr-0129",
+      "slug": "acane",
+      "status": 200,
+      "mainSha256": "3c97b88a3680c62d40973746f6a4f75143d72d388501a0177abe49d006f82d8f"
+    },
+    {
+      "id": "cr-0130",
+      "slug": "dj-matsunaga",
+      "status": 200,
+      "mainSha256": "710c8afc989edcb79ec6cab38ca6115bf307a8393ec121cd8870cd5a402f7ccc"
+    },
+    {
+      "id": "cr-0131",
+      "slug": "meg-rock",
+      "status": 200,
+      "mainSha256": "d7e85df35ceda15fdf026fdb0bcb3245c2aacaef7ad173c93e3b45b1e31bc7b8"
+    },
+    {
+      "id": "cr-0132",
+      "slug": "miwa",
+      "status": 200,
+      "mainSha256": "48800cbfb704ee74d2db66232aa1c073db6f3893ab55ed93662360c5d0df8bac"
+    },
+    {
+      "id": "cr-0133",
+      "slug": "oster-project",
+      "status": 200,
+      "mainSha256": "b22ce6cc60a1354880a1897fde60ef2ca58618736bde7d18c1e91c554dbbd43a"
+    },
+    {
+      "id": "cr-0134",
+      "slug": "shin-sakiura",
+      "status": 200,
+      "mainSha256": "965e59631b1a04fa1cddc05083f13caa6514e5446c76bede8566525cad8d9631"
+    },
+    {
+      "id": "cr-0135",
+      "slug": "takeshi-asakawa",
+      "status": 200,
+      "mainSha256": "6c2f680b0843b7bc8636c05160af8e96e6ae39ca9e9826c1dde31b3d2db75ada"
+    },
+    {
+      "id": "cr-0136",
+      "slug": "taku-inoue",
+      "status": 200,
+      "mainSha256": "255de906bac0d79448a5d5f317f31a5e4156408fe93508aaba5ce1c9aedbd137"
+    },
+    {
+      "id": "cr-0137",
+      "slug": "zaq",
+      "status": 200,
+      "mainSha256": "7964e8d296e6d82fc14384fc423d47a4093c1cac0024e82039b0f929a9b5e379"
+    },
+    {
+      "id": "cr-0138",
+      "slug": "aina-the-end",
+      "status": 200,
+      "mainSha256": "cae33aeb7105ac818599ec80e88d745598937c70e0b3448ebc7a683d21dd46e7"
+    },
+    {
+      "id": "cr-0139",
+      "slug": "uran",
+      "status": 200,
+      "mainSha256": "612aa09014a1b4dc34b8d7454f7598ee20e2ce3266e08edd585c689f63e8702b"
+    },
+    {
+      "id": "cr-0140",
+      "slug": "saori-codama",
+      "status": 200,
+      "mainSha256": "fefa80452858710e896a53df703e7d82ec5fc39775f950fa1aaaa90acf29999b"
+    },
+    {
+      "id": "cr-0141",
+      "slug": "kocchi-no-kento",
+      "status": 200,
+      "mainSha256": "4890feb4a6f171a662efc02fd339d67bf6000145e96e023fbe0f4db4cc4dd898"
+    },
+    {
+      "id": "cr-0142",
+      "slug": "koresawa",
+      "status": 200,
+      "mainSha256": "251af2b72863c8689c990b808a6cb17f6344b7dfde95d0027a1e92f9f546c24c"
+    },
+    {
+      "id": "cr-0143",
+      "slug": "shinoda",
+      "status": 200,
+      "mainSha256": "95cade80811c8538190ee8d66793c75d2aeeb05c567c12435ec0f1d1dacb4b9e"
+    },
+    {
+      "id": "cr-0144",
+      "slug": "jin",
+      "status": 200,
+      "mainSha256": "6cb2bf08e91bb093971bf4853f9a860d03990ddbed360a80490a2c53581157bc"
+    },
+    {
+      "id": "cr-0145",
+      "slug": "tsumiki",
+      "status": 200,
+      "mainSha256": "ff329dc3b2ccd9fc7056b8e842229f981d768a19e8eb813e85154d108923aad4"
+    },
+    {
+      "id": "cr-0146",
+      "slug": "tsunku",
+      "status": 200,
+      "mainSha256": "6f1ef225c2a085503ec36831d9082e19d2f1d005dad3322f1f9b0c0ca2392e55"
+    },
+    {
+      "id": "cr-0147",
+      "slug": "natori",
+      "status": 200,
+      "mainSha256": "e82514f44ec38da7c46483ca94a9227be2c730c0231a84449e6628a9380fd575"
+    },
+    {
+      "id": "cr-0148",
+      "slug": "nanahoshi-kangengakudan",
+      "status": 200,
+      "mainSha256": "a0187c5feb42836fbb1129c383382a2f80d61a0f2e31dfec2124960ef298ad23"
+    },
+    {
+      "id": "cr-0149",
+      "slug": "nano",
+      "status": 200,
+      "mainSha256": "708c416ad52aa0dfeb6fde9402c38c6b1dd087221820fc55108ad5e7d0ed2eb8"
+    },
+    {
+      "id": "cr-0150",
+      "slug": "balloon",
+      "status": 200,
+      "mainSha256": "c472f3be84926ad6806f1533d9f779b5f4dc8826d36425cf039da936b0a41505"
+    },
+    {
+      "id": "cr-0151",
+      "slug": "hige-driver",
+      "status": 200,
+      "mainSha256": "510e65e9c4e1ad60aa433936b7421a9013b43bef32c897222f2a829ea8c1788e"
+    },
+    {
+      "id": "cr-0152",
+      "slug": "megater-zero",
+      "status": 200,
+      "mainSha256": "4fc1d15d7205114a8204c0e0478576e682533564d3390ef0af1761693302ae64"
+    },
+    {
+      "id": "cr-0153",
+      "slug": "akio-inoue",
+      "status": 200,
+      "mainSha256": "f57f66c4b010bdf1358961718ab781fa91409d77dd05707d697415e268eab107"
+    },
+    {
+      "id": "cr-0154",
+      "slug": "yusuke-kato",
+      "status": 200,
+      "mainSha256": "8325f9b01a9a29b9bf6acde2c7980a6ce716e28fa2f398ec1b9edd1afb178046"
+    },
+    {
+      "id": "cr-0155",
+      "slug": "shin-furuya",
+      "status": 200,
+      "mainSha256": "2565af2d9f3f53d898cbc051138f49d795432b8d68417dd0c2e047f84c7acbe5"
+    },
+    {
+      "id": "cr-0156",
+      "slug": "ichiro-yamaguchi",
+      "status": 200,
+      "mainSha256": "3fff76eb72ad9757431df006acd048fa3dca24d62eb05b7685130172a92083ab"
+    },
+    {
+      "id": "cr-0157",
+      "slug": "kyasu-morizuki",
+      "status": 200,
+      "mainSha256": "b87f65d52310ef77a7902300db71adcfb7efea6014437d77e75f60f8bf792a14"
+    },
+    {
+      "id": "cr-0158",
+      "slug": "suisei-hosimati",
+      "status": 200,
+      "mainSha256": "736d5edf31ea5b9d3c46c7c2bcdfceb897376bd7a3810d351846657a500f9d46"
+    },
+    {
+      "id": "cr-0159",
+      "slug": "hidenori-chiwata",
+      "status": 200,
+      "mainSha256": "44567edfde9b2a84227df067c029010695f0b95afc4f4bfc61da2b776c00c78d"
+    },
+    {
+      "id": "cr-0160",
+      "slug": "masatomo-ota",
+      "status": 200,
+      "mainSha256": "58474f84b9577662e97cc5b941601ee72a1708bc486e9e104afd3cca9521c2f0"
+    },
+    {
+      "id": "cr-0161",
+      "slug": "kaoru-okubo",
+      "status": 200,
+      "mainSha256": "f57cadfab800ecbccec1ea5aae93093090642a6fbc8684270f1f937c22844806"
+    },
+    {
+      "id": "cr-0162",
+      "slug": "maguro-taniguchi",
+      "status": 200,
+      "mainSha256": "09a88f68e552c80229a813673f7368e92bc1ef518ed4279e84a14ddb736d6160"
+    },
+    {
+      "id": "cr-0163",
+      "slug": "shunichi-tanabe",
+      "status": 200,
+      "mainSha256": "f00cf2b4fe1da7d4cd6006502369899089a074164b24947825e461c68d2c89d4"
+    },
+    {
+      "id": "cr-0164",
+      "slug": "toru-watanabe",
+      "status": 200,
+      "mainSha256": "986d81d1a1436ee2efd114be791f604127f114da3cefe2c5da482221191d232e"
+    },
+    {
+      "id": "cr-0165",
+      "slug": "shoko-fujibayashi",
+      "status": 200,
+      "mainSha256": "1e5bf62e68ef1b5901ce7e19bfa8cfd6a8ff7bbeb4fcfc5550935a3fe490ad7f"
+    },
+    {
+      "id": "cr-0166",
+      "slug": "grp",
+      "status": 200,
+      "mainSha256": "195800fa1365d82692dffe814d4bcd94e5bc696164657743789c4ad50f087f83"
+    },
+    {
+      "id": "cr-0167",
+      "slug": "reol",
+      "status": 200,
+      "mainSha256": "660eba7f01eaf724bae0c788a3f398cefaa0ea099b3fcbb933234b21d2890b6c"
+    },
+    {
+      "id": "cr-0168",
+      "slug": "revo",
+      "status": 200,
+      "mainSha256": "4c755f83a82b994e73369ef21aa19a26e5991aa3070ab6931f547db77f43d4ee"
+    },
+    {
+      "id": "cr-0169",
+      "slug": "zenta",
+      "status": 200,
+      "mainSha256": "6fbd9aaf9faad6c4531bab588eba2e91002bebb847de1b97653e989d4ba36973"
+    }
+  ]
+}

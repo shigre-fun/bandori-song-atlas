@@ -1,6 +1,6 @@
 # P2 人間確認回答の反映・検証
 
-状態：ローカル適用完了。公開・本番検証は後述。
+状態：反映・全検証・commit/push/deploy・両公開先の本番検証が完了。
 
 入力原本はinput.txt、追加回答はclarification.json、開始時点はbefore.json.gz/baseline.json、先行14更新はremote-inputs.json.gz/remote-integration.jsonへ保存。現在のWork825・全887収録を保持し、P2の承認済み担当欄だけ変更する。
 
@@ -156,4 +156,10 @@ formal relation増加：作詞81・作曲63・編曲30（record+Creator+role単�
 
 ## commit / push / deploy
 
-ユーザーの追加指示により、全情報反映と検証が終了した後に実施する。追加回答により大橋卓弥cr-0073・常田真太郎cr-0072を再利用し、Garupa153/416作詞を反映した。全検証終了後に今回のcommit/push/deployを実施する。remote既存deployの成功を今回の公開成功とは扱わない。
+ユーザーの追加指示により全情報反映・全検証後に製品commit `bf12ea2a36d767eb008a81ca19f5fd45a003a9df` を通常push。43追加Creator、既存cr-0073/cr-0072再利用によるGarupa153/416作詞を公開した。
+
+同SHAのGitHub Actions run 38046950649、Cloudflare Pages、GitHub Pagesはすべてsuccess。主配信先 https://tanimachi-bdsongs.com とGitHub Pagesの両方で、全887曲の詳細全文・担当表示順・原文・Creatorリンク、全169Creatorの参加作品/収録内容・リンク、4catalog/master JSONの全値、19HTTPと6公開moduleを検証済み生成物に照合しPASS。新43Creatorと統合ナナホシ管弦楽団/P1加納望を含む。先行14管理更新を保持。
+
+公開証拠はpublication/deployment-status.jsonおよび各p2-public/p2-pages JSON・原log、検証概要はverification.json。公開後に保存レビュー再現、全source7/data10SHA保持を再確認した。未確認identity依存22taskとP2回答外の課題は明示したまま、今回の確認情報の適用漏れ0・未完了の公開作業0。
+
+stage時のcached diffcheckは添付原本のspace-only15行を検出したため、原本SHAを守る限定.gitattributesを追加し、原本編集0・他sourceチェック保持で再検査PASS。GHP詳細初回のGP653改行差は検証側のroot再整形に起因し、実subpath生成物への直接全文照合へ修正して887/887成功。初回親監査の終了で中断したprimary詳細は残存process0を確認後に再実行し887/887成功。製品修正0、失敗/partial原logはpublicationへ保存。通常pushのみ、force pushなし。終了記録だけをskip付きdocs commitで同期し、公開済み製品差分0を確認する。

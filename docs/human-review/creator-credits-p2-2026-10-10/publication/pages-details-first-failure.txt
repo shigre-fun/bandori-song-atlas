@@ -1,0 +1,129 @@
+Verified 100/887 published song details
+Verified 200/887 published song details
+Verified 300/887 published song details
+Verified 400/887 published song details
+Verified 500/887 published song details
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: All displayed fields and credit links match the build /garupa/songs/653/
++ actual - expected
+... Skipped lines
+
+  '<dl>\n' +
+    '              <dt>配信日（日本版）</dt>\n' +
+    '              <dd>2025/03/15</dd>\n' +
+    '              <dt>基本BPM</dt>\n' +
+    '              <dd>147</dd>\n' +
+...
+    '                >\n' +
++   '                / <a class="credit-link" href="/bandori-song-atlas/creators/grp/">GRP</a>\n' +
+-   '                /\n' +
+-   '                <a class="credit-link" href="/bandori-song-atlas/creators/grp/">GRP</a>\n' +
+    '              </dd>\n' +
+    '              <dt>編曲</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/seima-kondo/"\n' +
+    '                  >近藤世真（Elements Garden）</a\n' +
+
+    at file:///C:/MyProgramming/BangDream_Website/.cache/credit-order-public-details.mjs:40:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 5)
+    at async file:///C:/MyProgramming/BangDream_Website/.cache/credit-order-public-details.mjs:24:1 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '<dl>\n' +
+    '              <dt>配信日（日本版）</dt>\n' +
+    '              <dd>2025/03/15</dd>\n' +
+    '              <dt>基本BPM</dt>\n' +
+    '              <dd>147</dd>\n' +
+    '              <dt>BPMの下限〜上限</dt>\n' +
+    '              <dd>147 〜 147</dd>\n' +
+    '\n' +
+    '              <dt>楽曲演奏時間（ゲーム内）</dt>\n' +
+    '              <dd>1:43</dd>\n' +
+    '\n' +
+    '              <dt>演奏バンド・参加アーティスト</dt>\n' +
+    '              <dd>ハロー、ハッピーワールド！</dd>\n' +
+    '              <dt>作詞</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/kocchi-no-kento/"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>作曲</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/kocchi-no-kento/"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '                / <a class="credit-link" href="/bandori-song-atlas/creators/grp/">GRP</a>\n' +
+    '              </dd>\n' +
+    '              <dt>編曲</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/seima-kondo/"\n' +
+    '                  >近藤世真（Elements Garden）</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>原曲アーティスト</dt>\n' +
+    '              <dd>\n' +
+    '                <a\n' +
+    '                  class="credit-link"\n' +
+    '                  href="/bandori-song-atlas/search/?q=%E3%81%93%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%91%E3%82%93%E3%81%A8&amp;page=1&amp;credit=artist"\n' +
+    '                  aria-label="こっちのけんとの原曲アーティストの楽曲一覧"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>原曲の使用作品・タイアップ</dt>\n' +
+    '              <dd>未登録</dd>\n' +
+    '            </dl>',
+  expected: '<dl>\n' +
+    '              <dt>配信日（日本版）</dt>\n' +
+    '              <dd>2025/03/15</dd>\n' +
+    '              <dt>基本BPM</dt>\n' +
+    '              <dd>147</dd>\n' +
+    '              <dt>BPMの下限〜上限</dt>\n' +
+    '              <dd>147 〜 147</dd>\n' +
+    '\n' +
+    '              <dt>楽曲演奏時間（ゲーム内）</dt>\n' +
+    '              <dd>1:43</dd>\n' +
+    '\n' +
+    '              <dt>演奏バンド・参加アーティスト</dt>\n' +
+    '              <dd>ハロー、ハッピーワールド！</dd>\n' +
+    '              <dt>作詞</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/kocchi-no-kento/"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>作曲</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/kocchi-no-kento/"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '                /\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/grp/">GRP</a>\n' +
+    '              </dd>\n' +
+    '              <dt>編曲</dt>\n' +
+    '              <dd>\n' +
+    '                <a class="credit-link" href="/bandori-song-atlas/creators/seima-kondo/"\n' +
+    '                  >近藤世真（Elements Garden）</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>原曲アーティスト</dt>\n' +
+    '              <dd>\n' +
+    '                <a\n' +
+    '                  class="credit-link"\n' +
+    '                  href="/bandori-song-atlas/search/?q=%E3%81%93%E3%81%A3%E3%81%A1%E3%81%AE%E3%81%91%E3%82%93%E3%81%A8&amp;page=1&amp;credit=artist"\n' +
+    '                  aria-label="こっちのけんとの原曲アーティストの楽曲一覧"\n' +
+    '                  >こっちのけんと</a\n' +
+    '                >\n' +
+    '              </dd>\n' +
+    '              <dt>原曲の使用作品・タイアップ</dt>\n' +
+    '              <dd>未登録</dd>\n' +
+    '            </dl>',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

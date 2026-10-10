@@ -1865,10 +1865,78 @@
     "total": 322
   },
   "publication": {
-    "status": "READY_FOR_COMMIT_PUSH_DEPLOY",
-    "commit": false,
-    "push": false,
-    "deploy": false
+    "status": "PASS",
+    "commit": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+    "push": true,
+    "deploy": true,
+    "verifiedAt": "2026-10-10T11:10:28.109Z",
+    "githubActions": [
+      {
+        "id": 38046950649,
+        "name": "Publish song database",
+        "status": "completed",
+        "conclusion": "success",
+        "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+        "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649"
+      }
+    ],
+    "cloudflare": {
+      "id": 114198791791,
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/849bbcf4-30a4-4ae2-9c82-a05086d88db9",
+      "output": "<table><tr><td><strong>Latest commit:</strong> </td><td>\n<code>bf12ea2</code>\n</td></tr>\n<tr><td><strong>Status:</strong></td><td>&nbsp;✅&nbsp; Deploy successful!</td></tr>\n<tr><td><strong>Preview URL:</strong></td><td>\n<a href='https://849bbcf4.garupa-song-atlas.pages.dev'>https://849bbcf4.garupa-song-atlas.pages.dev</a>\n</td></tr>\n</table>\n\n[View logs](https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/849bbcf4-30a4-4ae2-9c82-a05086d88db9)\n"
+    },
+    "githubPages": [
+      {
+        "id": 6979837846,
+        "sha": "bf12ea2a36d767eb008a81ca19f5fd45a003a9df",
+        "environment": "github-pages",
+        "statuses": [
+          {
+            "state": "success",
+            "environment_url": "https://shigre-fun.github.io/bandori-song-atlas/",
+            "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+          },
+          {
+            "state": "in_progress",
+            "environment_url": "",
+            "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+          },
+          {
+            "state": "queued",
+            "environment_url": "",
+            "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+          },
+          {
+            "state": "queued",
+            "environment_url": "",
+            "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+          },
+          {
+            "state": "waiting",
+            "environment_url": "",
+            "log_url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38046950649/job/114198669586"
+          }
+        ]
+      }
+    ],
+    "publicHosts": 2,
+    "detailsPerHost": 887,
+    "creatorsPerHost": 169,
+    "newCreatorsPerHost": 43,
+    "fullCatalogAndMasterMatch": true,
+    "everyDisplayedFieldAndCreditLinkMatches": true,
+    "evidence": [
+      "publication/p2-public-http.json",
+      "publication/p2-pages-http.json",
+      "publication/p2-public-details.json",
+      "publication/p2-pages-details.json",
+      "publication/p2-public-creators.json",
+      "publication/p2-pages-creators.json"
+    ]
   },
   "build": {
     "root": "PASS",
