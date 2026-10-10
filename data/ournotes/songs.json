@@ -5926,9 +5926,9 @@
             null
           ],
           "relatedSongIds": [],
-          "bpm": null,
-          "bpmMin": null,
-          "bpmMax": null,
+          "bpm": 230,
+          "bpmMin": 165,
+          "bpmMax": 230,
           "durationSeconds": null,
           "aliases": [],
           "difficulties": {
@@ -5974,7 +5974,7 @@
           },
           "lyricist": "アザミ",
           "arranger": "アザミ",
-          "revision": "7c463df6-f791-4fb3-86bf-a0594dd05df6"
+          "revision": "865595e7-f80e-4d17-84f2-e0425ca6e270"
         }
       ]
     },
