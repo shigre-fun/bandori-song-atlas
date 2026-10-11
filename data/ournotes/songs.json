@@ -2977,7 +2977,7 @@
           "id": 33,
           "title": "Symbol IV : Earth",
           "reading": "シンボルフォーアース",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 33,
           "composer": "長谷川大介、Diggy-MO'",
           "originalArtist": null,
@@ -2985,7 +2985,7 @@
           "bpm": 148,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 122,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3059,7 +3059,9 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "長谷川大介(SUPA LOVE)"
+          "arranger": "長谷川大介(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "97a13b07-da8a-41ec-a022-c504e60c5fee"
         },
         {
           "id": 34,
