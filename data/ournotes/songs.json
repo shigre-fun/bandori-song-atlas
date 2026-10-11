@@ -3301,7 +3301,7 @@
           "id": 37,
           "title": "Mas?uerade Rhapsody Re?uest",
           "reading": "マスカレイドラプソディリクエスト",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 37,
           "composer": "あらケン(SUPA LOVE)",
           "originalArtist": null,
@@ -3309,12 +3309,12 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 106,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 10,
-              "notes": 392
+              "notes": 393
             },
             "NORMAL": {
               "level": 15,
@@ -3342,6 +3342,12 @@
           "workId": "wk-0699",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
               "creatorId": "cr-0017",
               "roles": [
                 "composer",
@@ -3351,12 +3357,6 @@
               "displayOverrides": {
                 "arranger": "あらケン（SUPA LOVE）"
               }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "lyricist"
-              ]
             }
           ],
           "creditDisplay": {
@@ -3377,7 +3377,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "あらケン（SUPA LOVE）"
+          "arranger": "あらケン（SUPA LOVE）",
+          "revision": "dbb50e78-0b31-49ca-9670-05ba5bda31ce"
         },
         {
           "id": 38,
