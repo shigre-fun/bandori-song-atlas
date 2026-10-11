@@ -3152,7 +3152,7 @@
           "id": 35,
           "title": "黒のバースデイ",
           "reading": "クロノバースデイ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 35,
           "composer": "賀佐泰洋(SUPA LOVE)",
           "originalArtist": null,
@@ -3160,7 +3160,7 @@
           "bpm": 198,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 109,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3193,6 +3193,12 @@
           "workId": "wk-0669",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
               "creatorId": "cr-0044",
               "roles": [
                 "composer",
@@ -3202,12 +3208,6 @@
               "displayOverrides": {
                 "arranger": "賀佐泰洋（SUPA LOVE）"
               }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "lyricist"
-              ]
             }
           ],
           "creditDisplay": {
@@ -3228,7 +3228,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "賀佐泰洋（SUPA LOVE）"
+          "arranger": "賀佐泰洋（SUPA LOVE）",
+          "revision": "3b048774-25f5-4ca5-a604-65df094756cb"
         },
         {
           "id": 36,
