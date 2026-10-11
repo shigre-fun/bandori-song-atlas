@@ -3384,7 +3384,7 @@
           "id": 38,
           "title": "碧い瞳の中に",
           "reading": "アオイヒトミノナカニ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 38,
           "composer": "Diggy-MO’、松坂康司(SUPA LOVE)",
           "originalArtist": null,
@@ -3392,12 +3392,12 @@
           "bpm": 138,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 89,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 5,
-              "notes": 184
+              "notes": 185
             },
             "NORMAL": {
               "level": 9,
@@ -3424,13 +3424,13 @@
             {
               "creatorId": "cr-0022",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
+              "displayOverride": "Diggy-MO'",
               "displayOverrides": {
-                "lyricist": "Diggy-MO'",
-                "arranger": "Diggy-MO'"
+                "composer": "Diggy-MO’"
               }
             },
             {
@@ -3439,10 +3439,7 @@
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "松坂康司(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "松坂康司(SUPA LOVE)"
-              }
+              "displayOverride": "松坂康司(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -3475,7 +3472,9 @@
             ]
           },
           "lyricist": "Diggy-MO'",
-          "arranger": "Diggy-MO'、松坂康司(SUPA LOVE)"
+          "arranger": "Diggy-MO'、松坂康司(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "f6060b72-e2ce-4d1e-bc78-dec92eeb0a63"
         },
         {
           "id": 39,
