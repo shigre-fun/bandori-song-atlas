@@ -2729,7 +2729,7 @@
           "id": 30,
           "title": "Symbol I : △",
           "reading": "シンボルワン",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 30,
           "composer": "長谷川大介(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2737,7 +2737,7 @@
           "bpm": 236,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 137,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2746,7 +2746,7 @@
             },
             "NORMAL": {
               "level": 13,
-              "notes": 884
+              "notes": 885
             },
             "HARD": {
               "level": 19,
@@ -2767,22 +2767,19 @@
           "workId": "wk-0780",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0013",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "長谷川大介(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "長谷川大介(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "長谷川大介(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2809,7 +2806,9 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "長谷川大介(SUPA LOVE)"
+          "arranger": "長谷川大介(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "a37630ce-0761-49d8-94b2-ae63ae4fb221"
         },
         {
           "id": 31,
