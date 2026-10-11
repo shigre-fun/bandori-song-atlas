@@ -2642,7 +2642,7 @@
           "id": 29,
           "title": "天球(そら)のMúsica",
           "reading": "ソラノムジカ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 29,
           "composer": "高橋涼(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2650,12 +2650,12 @@
           "bpm": 196,
           "bpmMin": 184,
           "bpmMax": 196,
-          "durationSeconds": null,
+          "durationSeconds": 133,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": 548
+              "notes": 549
             },
             "NORMAL": {
               "level": 15,
@@ -2683,22 +2683,19 @@
           "workId": "wk-0654",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0038",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "高橋涼(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "高橋涼(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "高橋涼(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2725,7 +2722,8 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "高橋涼(SUPA LOVE)"
+          "arranger": "高橋涼(SUPA LOVE)",
+          "revision": "dcfc669a-d19b-46e2-b3fb-6db086ebd327"
         },
         {
           "id": 30,
