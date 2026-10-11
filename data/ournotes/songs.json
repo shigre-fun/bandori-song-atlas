@@ -3067,7 +3067,7 @@
           "id": 34,
           "title": "Ether",
           "reading": "エーテル",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 34,
           "composer": "長谷川大介(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -3075,7 +3075,7 @@
           "bpm": 186,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 121,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3088,7 +3088,7 @@
             },
             "HARD": {
               "level": 18,
-              "notes": 664
+              "notes": 665
             },
             "EXPERT": {
               "level": 26,
@@ -3105,22 +3105,19 @@
           "workId": "wk-0784",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0013",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "長谷川大介(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "長谷川大介(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "長谷川大介(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -3147,7 +3144,9 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "長谷川大介(SUPA LOVE)"
+          "arranger": "長谷川大介(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "eb845e85-980e-49ba-8913-151f1590674d"
         },
         {
           "id": 35,
