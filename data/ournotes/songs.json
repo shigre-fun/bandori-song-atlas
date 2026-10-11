@@ -3480,7 +3480,7 @@
           "id": 39,
           "title": "The Whole Blue World",
           "reading": "ザホールブルーワールド",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 39,
           "composer": "Diggy-MO’、植木建象",
           "originalArtist": null,
@@ -3488,7 +3488,7 @@
           "bpm": 200,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 95,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3523,9 +3523,9 @@
                 "composer",
                 "arranger"
               ],
+              "displayOverride": "Diggy-MO’",
               "displayOverrides": {
-                "arranger": "Diggy-MO'",
-                "composer": "Diggy-MO’"
+                "arranger": "Diggy-MO'"
               }
             },
             {
@@ -3533,9 +3533,7 @@
               "roles": [
                 "composer"
               ],
-              "displayOverrides": {
-                "composer": "植木建象"
-              }
+              "displayOverride": "植木建象"
             }
           ],
           "creditDisplay": {
@@ -3563,7 +3561,9 @@
             ]
           },
           "arranger": "Diggy-MO'",
-          "lyricist": "Diggy-MO’"
+          "lyricist": "Diggy-MO’",
+          "relatedSongIds": [],
+          "revision": "9df256a9-58a0-4a75-8891-8cfbf711d818"
         }
       ]
     },
