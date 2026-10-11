@@ -2892,7 +2892,7 @@
           "id": 32,
           "title": "Symbol III : ▽",
           "reading": "シンボルスリー",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 32,
           "composer": "トミタカズキ(SUPA LOVE)、Diggy-MO’",
           "originalArtist": null,
@@ -2900,7 +2900,7 @@
           "bpm": 95,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 100,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2930,22 +2930,19 @@
           "workId": "wk-0782",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
               "creatorId": "cr-0016",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "トミタカズキ(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "トミタカズキ(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "composer",
-                "lyricist"
-              ]
+              "displayOverride": "トミタカズキ(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2972,7 +2969,9 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "トミタカズキ(SUPA LOVE)"
+          "arranger": "トミタカズキ(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "b5cedaa0-07d8-46c8-9d74-6ca20629de51"
         },
         {
           "id": 33,
