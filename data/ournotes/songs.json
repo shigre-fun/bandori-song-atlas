@@ -2814,7 +2814,7 @@
           "id": 31,
           "title": "Symbol II : Air",
           "reading": "シンボルツーエアー",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 31,
           "composer": "高橋涼(SUPA LOVE)",
           "originalArtist": null,
@@ -2822,7 +2822,7 @@
           "bpm": 197,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 154,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -2852,21 +2852,18 @@
           "workId": "wk-0781",
           "credits": [
             {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
               "creatorId": "cr-0038",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "高橋涼(SUPA LOVE)",
-              "displayOverrides": {
-                "arranger": "高橋涼(SUPA LOVE)"
-              }
-            },
-            {
-              "creatorId": "cr-0022",
-              "roles": [
-                "lyricist"
-              ]
+              "displayOverride": "高橋涼(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -2887,7 +2884,9 @@
             ]
           },
           "lyricist": "Diggy-MO’",
-          "arranger": "高橋涼(SUPA LOVE)"
+          "arranger": "高橋涼(SUPA LOVE)",
+          "relatedSongIds": [],
+          "revision": "feed31c7-9eb1-44d8-b109-0d4c4d174166"
         },
         {
           "id": 32,
