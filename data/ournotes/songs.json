@@ -3235,7 +3235,7 @@
           "id": 36,
           "title": "Choir ‘S’ Choir",
           "reading": "クワイアエスクワイア",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 36,
           "composer": "角本麻衣（SUPA LOVE）",
           "originalArtist": null,
@@ -3243,12 +3243,12 @@
           "bpm": 148,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 121,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 6,
-              "notes": 240
+              "notes": 241
             },
             "NORMAL": {
               "level": 13,
@@ -3293,7 +3293,9 @@
             ]
           },
           "arranger": "角本麻衣（SUPA LOVE）",
-          "lyricist": "Diggy-MO’"
+          "lyricist": "Diggy-MO’",
+          "relatedSongIds": [],
+          "revision": "99b5a668-22e5-494a-b719-a05a7679fb43"
         },
         {
           "id": 37,
