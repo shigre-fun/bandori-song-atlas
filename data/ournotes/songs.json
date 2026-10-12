@@ -4079,7 +4079,7 @@
           "id": 45,
           "title": "エンプティパペット",
           "reading": "エンプティパペット",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 45,
           "composer": "eba",
           "originalArtist": null,
@@ -4087,7 +4087,7 @@
           "bpm": 125,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 120,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4096,7 +4096,7 @@
             },
             "NORMAL": {
               "level": 14,
-              "notes": 472
+              "notes": 473
             },
             "HARD": {
               "level": 18,
@@ -4137,7 +4137,9 @@
             ]
           },
           "lyricist": "吾龍",
-          "arranger": "eba"
+          "arranger": "eba",
+          "relatedSongIds": [],
+          "revision": "bc490ebb-c5e8-4106-a25a-cc195da48b72"
         },
         {
           "id": 46,
