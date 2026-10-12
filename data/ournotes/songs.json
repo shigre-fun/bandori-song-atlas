@@ -3679,7 +3679,7 @@
           "id": 41,
           "title": "堕天",
           "reading": "ダテン",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 41,
           "composer": "DJ松永",
           "originalArtist": "Creepy Nuts",
@@ -3687,7 +3687,7 @@
           "bpm": 200,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 125,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3720,9 +3720,7 @@
               "roles": [
                 "composer"
               ],
-              "displayOverrides": {
-                "composer": "DJ松永"
-              }
+              "displayOverride": "DJ松永"
             }
           ],
           "creditDisplay": {
@@ -3745,7 +3743,10 @@
             ]
           },
           "arranger": "UYKADO",
-          "lyricist": "R-指定"
+          "lyricist": "R-指定",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "c980f6a6-2e54-47e3-b559-333602ebb29f"
         },
         {
           "id": 42,
