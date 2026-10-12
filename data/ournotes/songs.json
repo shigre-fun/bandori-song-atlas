@@ -4330,7 +4330,7 @@
           "id": 48,
           "title": "夢現妄想世界",
           "reading": "ムゲンマイワールド",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 48,
           "composer": "園田健太郎",
           "originalArtist": null,
@@ -4338,7 +4338,7 @@
           "bpm": 195,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 99,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4347,7 +4347,7 @@
             },
             "NORMAL": {
               "level": 12,
-              "notes": 360
+              "notes": 361
             },
             "HARD": {
               "level": 19,
@@ -4388,7 +4388,9 @@
             ]
           },
           "lyricist": "やしきん",
-          "arranger": "園田健太郎"
+          "arranger": "園田健太郎",
+          "relatedSongIds": [],
+          "revision": "df2191d5-e051-4fb9-8256-8b58d6f0c7a1"
         },
         {
           "id": 49,
