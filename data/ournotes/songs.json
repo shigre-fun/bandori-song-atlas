@@ -3752,7 +3752,7 @@
           "id": 42,
           "title": "暗黒天国",
           "reading": "アンコクテンゴク",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 42,
           "composer": "片倉三起也",
           "originalArtist": "ALI PROJECT",
@@ -3760,7 +3760,7 @@
           "bpm": 190,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 113,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3815,7 +3815,10 @@
             ]
           },
           "arranger": "UYKADO",
-          "lyricist": "宝野　アリカ"
+          "lyricist": "宝野　アリカ",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "7e60136d-f693-433e-8941-4c7a162a74ec"
         },
         {
           "id": 43,
