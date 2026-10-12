@@ -492,6 +492,18 @@ export class GitHubStore {
     const works = validateWorks(await this.readJSON(snapshot, WORKS_PATH));
     if (!Array.isArray(song.credits) || !song.creditDisplay)
       throw new Error("作詞・作曲・編曲は登録済みCreatorを選択してください。");
+    // Form round trips may move an override between shared and per-role fields.
+    const effectiveCredits = (record, role) =>
+      record.credits
+        .filter((c) => c.roles.includes(role))
+        .map((c) => [
+          c.creatorId,
+          c.displayOverrides?.[role] ??
+            c.displayOverride ??
+            creators.creators.find((creator) => creator.id === c.creatorId)
+              ?.name,
+        ])
+        .sort();
     for (const role of CREDIT_ROLES) {
       const parts = song.creditDisplay[role] ?? [];
       const unlinked = !song.credits.some((c) => c.roles.includes(role));
@@ -516,18 +528,8 @@ export class GitHubStore {
         if (
           JSON.stringify(parts) !==
             JSON.stringify(previous.creditDisplay[role]) ||
-          JSON.stringify(
-            song.credits
-              .filter((c) => c.roles.includes(role))
-              .map((c) => [c.creatorId, c.displayOverride ?? ""])
-              .sort(),
-          ) !==
-            JSON.stringify(
-              previous.credits
-                .filter((c) => c.roles.includes(role))
-                .map((c) => [c.creatorId, c.displayOverride ?? ""])
-                .sort(),
-            )
+          JSON.stringify(effectiveCredits(song, role)) !==
+            JSON.stringify(effectiveCredits(previous, role))
         )
           throw new Error(
             "確認待ちクレジットはmigrationで解決してください。既存表記を保持します。",

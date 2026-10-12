@@ -156,6 +156,127 @@ for (const game of Object.values(GAMES))
     assert.ok(repo.calls.every((call) => call.method === "GET"));
   });
 
+for (const game of Object.values(GAMES))
+  test(`${game.id} mixed unresolved credits compare effective role overrides on save`, async () => {
+    const repo = creatorRepository();
+    const song = structuredClone(repo.song);
+    song.credits = [
+      {
+        creatorId: "cr-0001",
+        roles: ["composer", "arranger"],
+        displayOverrides: { composer: "作曲表記", arranger: "編曲表記" },
+      },
+    ];
+    song.composer = "作曲表記、未同定作曲者";
+    song.arranger = "未同定編曲者、編曲表記";
+    song.creditDisplay.composer = [
+      { creatorId: "cr-0001" },
+      { text: "、" },
+      { text: "未同定作曲者", unresolved: true },
+    ];
+    song.creditDisplay.arranger = [
+      { text: "未同定編曲者", unresolved: true },
+      { text: "、" },
+      { creatorId: "cr-0001" },
+    ];
+    if (game.id === "ournotes") {
+      delete song.live3d;
+      delete song.difficulties.SPECIAL;
+      Object.assign(song, {
+        mv: null,
+        songType: null,
+        gekisouSections: [null, null, null],
+      });
+    }
+    const { band, category, ...record } = song;
+    repo.files[game.dataFile] = {
+      groups: [{ band, category, songs: [record] }],
+    };
+    repo.files[game.stateFile].nextId = 2;
+    const store = new GitHubStore(settings, "fake-token", repo.fetcher, game);
+    const editing = await store.loadSong(record.id);
+    const before = structuredClone(repo.files);
+    const credit = enteredCreditData(
+      creditRows(editing.song),
+      before["data/creators.json"].creators,
+      editing.song,
+      editing.song,
+      [],
+    );
+    assert.notDeepEqual(
+      credit.credits,
+      editing.song.credits,
+      "Form round trip changes override representation",
+    );
+    assert.deepEqual(creditRows(credit), creditRows(editing.song));
+    await store.updateSong(
+      { ...editing.song, ...credit, durationSeconds: 104 },
+      editing,
+      `${game.id}-role-override-round-trip`,
+    );
+    const loaded = await store.loadSong(record.id);
+    assert.equal(loaded.song.durationSeconds, 104);
+    assert.deepEqual(loaded.song.creditDisplay, editing.song.creditDisplay);
+    assert.deepEqual(creditRows(loaded.song), creditRows(editing.song));
+    assert.equal(loaded.song.composer, editing.song.composer);
+    assert.equal(loaded.song.arranger, editing.song.arranger);
+    assert.deepEqual(
+      repo.files["data/creators.json"],
+      before["data/creators.json"],
+    );
+    assert.deepEqual(repo.files["data/works.json"], before["data/works.json"]);
+    repo.calls.length = 0;
+    const changed = structuredClone(loaded.song);
+    changed.credits[0].displayOverrides.arranger = "別の編曲表記";
+    await assert.rejects(
+      store.updateSong(changed, loaded, `${game.id}-role-override-changed`),
+      /確認待ちクレジット/,
+    );
+    assert.ok(
+      repo.calls.every((call) => call.method === "GET"),
+      "A real role override change must not write",
+    );
+  });
+
+test("a mixed canonical composer is preserved when another role changes the shared override", async () => {
+  const repo = creatorRepository();
+  const store = new GitHubStore(settings, "fake-token", repo.fetcher);
+  const song = repo.files[GAMES.garupa.dataFile].groups[0].songs[0];
+  song.composer = "制作名A、未同定名";
+  song.creditDisplay.composer.push(
+    { text: "、" },
+    { text: "未同定名", unresolved: true },
+  );
+  const editing = await store.loadSong(1);
+  const credit = enteredCreditData(
+    [
+      ...creditRows(editing.song),
+      {
+        creatorId: "cr-0001",
+        role: "lyricist",
+        displayOverride: "作詞の別表記",
+      },
+    ],
+    repo.files["data/creators.json"].creators,
+    editing.song,
+    editing.song,
+    [],
+  );
+  assert.equal(credit.credits[0].displayOverrides.composer, "制作名A");
+  const saved = await store.updateSong(
+    { ...editing.song, ...credit, durationSeconds: 105 },
+    editing,
+    "pending-canonical-composer-alias",
+  );
+  assert.equal(saved.editing.song.composer, editing.song.composer);
+  assert.deepEqual(
+    saved.editing.song.creditDisplay.composer,
+    editing.song.creditDisplay.composer,
+  );
+  assert.equal(saved.editing.song.lyricist, "作詞の別表記");
+  assert.equal(saved.editing.song.durationSeconds, 105);
+});
+
 test("unresolved composer is preserved while the same Creator gains another role", async () => {
   const repo = creatorRepository(),
     store = new GitHubStore(settings, "fake-token", repo.fetcher);

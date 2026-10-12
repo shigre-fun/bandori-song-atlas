@@ -4153,12 +4153,12 @@
           "bpm": 189,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 121,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 268
+              "notes": 269
             },
             "NORMAL": {
               "level": 12,

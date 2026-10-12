@@ -72,54 +72,66 @@ test("every live song detail uses 作詞・作曲・編曲 in order for every ca
     }
 });
 
-test("live 夢我夢中 saves other fields with every existing credit and Creator unchanged", async () => {
-  const repo = creatorRepository({ creatorData: master });
-  repo.files["data/works.json"] = structuredClone(works);
-  for (const game of Object.values(GAMES)) {
-    repo.files[game.dataFile] = read(game.dataFile);
-    repo.files[game.stateFile] = read(game.stateFile);
-  }
-  const game = GAMES.ournotes;
-  const song = catalogs[game.id].find((song) => song.title === "夢我夢中");
-  assert.ok(song, "The reported song must be tested against the live data");
-  const store = new GitHubStore(
-    { owner: "test-owner", repo: "song-atlas", branch: "main" },
-    "fake-token",
-    repo.fetcher,
-    game,
-  );
-  const editing = await store.loadSong(song.id);
-  const before = structuredClone(repo.files);
-  const credit = enteredCreditData(
-    creditRows(editing.song),
-    master.creators,
-    editing.song,
-    editing.song,
-    [],
-  );
-  const durationSeconds = (editing.song.durationSeconds ?? 0) + 1;
-  const input = { ...editing.song, ...credit, durationSeconds };
-  await store.updateSong(input, editing, "live-mugamuchu-unrelated-edit");
-  const loaded = await store.loadSong(song.id);
-  assert.equal(loaded.song.durationSeconds, durationSeconds);
-  for (const [field, value] of Object.entries(editing.song))
-    if (!["durationSeconds", "revision"].includes(field))
-      assert.deepEqual(loaded.song[field], value, field);
-  assert.equal(loaded.song.id, song.id);
-  assert.deepEqual(
-    repo.files["data/creators.json"],
-    before["data/creators.json"],
-  );
-  assert.deepEqual(repo.files["data/works.json"], before["data/works.json"]);
-  assert.deepEqual(
-    repo.files[GAMES.garupa.dataFile],
-    before[GAMES.garupa.dataFile],
-  );
-  const tree = repo.calls.find(
-    (call) => call.route === "/git/trees" && call.method === "POST",
-  );
-  assert.deepEqual(
-    tree.body.tree.map((entry) => entry.path).sort(),
-    [game.dataFile, game.stateFile].sort(),
-  );
-});
+for (const title of ["夢我夢中", "限界現実サバイブ天使"])
+  test(`live ${title} saves other fields with every effective credit and Creator unchanged`, async () => {
+    const repo = creatorRepository({ creatorData: master });
+    repo.files["data/works.json"] = structuredClone(works);
+    for (const game of Object.values(GAMES)) {
+      repo.files[game.dataFile] = read(game.dataFile);
+      repo.files[game.stateFile] = read(game.stateFile);
+    }
+    const game = GAMES.ournotes;
+    const song = catalogs[game.id].find((song) => song.title === title);
+    assert.ok(song, "The reported song must be tested against the live data");
+    const store = new GitHubStore(
+      { owner: "test-owner", repo: "song-atlas", branch: "main" },
+      "fake-token",
+      repo.fetcher,
+      game,
+    );
+    const editing = await store.loadSong(song.id);
+    const before = structuredClone(repo.files);
+    const credit = enteredCreditData(
+      creditRows(editing.song),
+      master.creators,
+      editing.song,
+      editing.song,
+      [],
+    );
+    const durationSeconds = (editing.song.durationSeconds ?? 0) + 1;
+    const input = { ...editing.song, ...credit, durationSeconds };
+    await store.updateSong(
+      input,
+      editing,
+      `live-unrelated-credit-edit-${song.id}`,
+    );
+    const loaded = await store.loadSong(song.id);
+    assert.equal(loaded.song.durationSeconds, durationSeconds);
+    for (const [field, value] of Object.entries(editing.song))
+      if (
+        ![
+          "durationSeconds",
+          "revision",
+          ...(title === "限界現実サバイブ天使" ? ["credits"] : []),
+        ].includes(field)
+      )
+        assert.deepEqual(loaded.song[field], value, field);
+    assert.deepEqual(creditRows(loaded.song), creditRows(editing.song));
+    assert.equal(loaded.song.id, song.id);
+    assert.deepEqual(
+      repo.files["data/creators.json"],
+      before["data/creators.json"],
+    );
+    assert.deepEqual(repo.files["data/works.json"], before["data/works.json"]);
+    assert.deepEqual(
+      repo.files[GAMES.garupa.dataFile],
+      before[GAMES.garupa.dataFile],
+    );
+    const tree = repo.calls.find(
+      (call) => call.route === "/git/trees" && call.method === "POST",
+    );
+    assert.deepEqual(
+      tree.body.tree.map((entry) => entry.path).sort(),
+      [game.dataFile, game.stateFile].sort(),
+    );
+  });
