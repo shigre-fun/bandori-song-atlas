@@ -3824,7 +3824,7 @@
           "id": 43,
           "title": "KINGS",
           "reading": "キングス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 43,
           "composer": "atsuko/KATSU",
           "originalArtist": "angela",
@@ -3832,7 +3832,7 @@
           "bpm": 176,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 118,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -3899,7 +3899,10 @@
             ]
           },
           "arranger": "UYKADO",
-          "lyricist": "atsuko"
+          "lyricist": "atsuko",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "c9ac7a97-fd77-4eb0-8b53-29e919e8835b"
         },
         {
           "id": 83,
