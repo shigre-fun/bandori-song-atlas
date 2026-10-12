@@ -4225,7 +4225,7 @@
           "id": 47,
           "title": "ビッグマウス",
           "reading": "ビッグマウス",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 47,
           "composer": "堀江晶太、白神真志朗",
           "originalArtist": null,
@@ -4233,7 +4233,7 @@
           "bpm": 145,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 123,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4263,6 +4263,17 @@
           "workId": "wk-0794",
           "credits": [
             {
+              "creatorId": "cr-0074",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "白神真志朗",
+              "displayOverrides": {
+                "composer": "白神真志朗"
+              }
+            },
+            {
               "creatorId": "cr-0028",
               "roles": [
                 "composer",
@@ -4270,16 +4281,6 @@
               ],
               "displayOverrides": {
                 "arranger": "堀江晶太"
-              }
-            },
-            {
-              "creatorId": "cr-0074",
-              "roles": [
-                "composer",
-                "lyricist"
-              ],
-              "displayOverrides": {
-                "lyricist": "白神真志朗"
               }
             }
           ],
@@ -4321,7 +4322,9 @@
             ]
           },
           "lyricist": "白神真志朗、 Sekimen",
-          "arranger": "堀江晶太、Nor"
+          "arranger": "堀江晶太、Nor",
+          "relatedSongIds": [],
+          "revision": "a04d4394-c206-49e6-83df-ddbb06272624"
         },
         {
           "id": 48,
