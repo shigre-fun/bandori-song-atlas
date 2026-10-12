@@ -4004,7 +4004,7 @@
           "id": 44,
           "title": "✞animaるパーティ✞開催中✞",
           "reading": "アニマルパーティカイサイチュウ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 44,
           "composer": "堀江晶太",
           "originalArtist": null,
@@ -4012,7 +4012,7 @@
           "bpm": 195,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 120,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4071,7 +4071,9 @@
             ]
           },
           "arranger": "堀江晶太",
-          "lyricist": "堀江晶太"
+          "lyricist": "堀江晶太",
+          "relatedSongIds": [],
+          "revision": "18a3534e-f2c0-4aa8-87f1-4e7732dd9ec6"
         },
         {
           "id": 45,
