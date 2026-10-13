@@ -5002,7 +5002,7 @@
           "id": 56,
           "title": "Face The Next",
           "reading": "フェイスザネクスト",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 56,
           "composer": "白神真志朗、千石ユノ",
           "originalArtist": null,
@@ -5010,7 +5010,7 @@
           "bpm": 204,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 135,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5023,7 +5023,7 @@
             },
             "HARD": {
               "level": 18,
-              "notes": 784
+              "notes": 785
             },
             "EXPERT": {
               "level": 24,
@@ -5042,24 +5042,18 @@
             {
               "creatorId": "cr-0074",
               "roles": [
+                "lyricist",
                 "composer",
-                "arranger",
-                "lyricist"
+                "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "白神真志朗",
-                "lyricist": "白神真志朗",
-                "composer": "白神真志朗"
-              }
+              "displayOverride": "白神真志朗"
             },
             {
               "creatorId": "cr-0105",
               "roles": [
                 "lyricist"
               ],
-              "displayOverrides": {
-                "lyricist": "仲町あられ"
-              }
+              "displayOverride": "仲町あられ"
             }
           ],
           "creditDisplay": {
@@ -5100,7 +5094,9 @@
             ]
           },
           "lyricist": "白神真志朗、仲町あられ",
-          "arranger": "白神真志朗、千石ユノ"
+          "arranger": "白神真志朗、千石ユノ",
+          "relatedSongIds": [],
+          "revision": "a9b61d4b-ba5d-4381-acf7-e9dffa0d2f79"
         },
         {
           "id": 57,
