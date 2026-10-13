@@ -4396,7 +4396,7 @@
           "id": 49,
           "title": "コハク",
           "reading": "コハク",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 49,
           "composer": "堀江晶太",
           "originalArtist": null,
@@ -4404,12 +4404,12 @@
           "bpm": 194,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 118,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 8,
-              "notes": 368
+              "notes": 369
             },
             "NORMAL": {
               "level": 14,
@@ -4417,7 +4417,7 @@
             },
             "HARD": {
               "level": 19,
-              "notes": 916
+              "notes": 917
             },
             "EXPERT": {
               "level": 25,
@@ -4434,24 +4434,22 @@
           "workId": "wk-0796",
           "credits": [
             {
-              "creatorId": "cr-0028",
-              "roles": [
-                "composer",
-                "arranger",
-                "lyricist"
-              ],
-              "displayOverrides": {
-                "arranger": "堀江晶太",
-                "lyricist": "堀江晶太"
-              }
-            },
-            {
               "creatorId": "cr-0105",
               "roles": [
                 "lyricist"
               ],
+              "displayOverride": "仲町あられ"
+            },
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "lyricist",
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "堀江晶太",
               "displayOverrides": {
-                "lyricist": "仲町あられ"
+                "composer": "堀江晶太"
               }
             }
           ],
@@ -4479,7 +4477,9 @@
             ]
           },
           "lyricist": "仲町あられ、堀江晶太",
-          "arranger": "堀江晶太"
+          "arranger": "堀江晶太",
+          "relatedSongIds": [],
+          "revision": "fdaa55e1-b9d1-4e26-8ffb-54c8a4cdba85"
         },
         {
           "id": 52,
