@@ -4830,7 +4830,7 @@
           "id": 54,
           "title": "超惑星Xへの旅",
           "reading": "チョウワクセイエックスヘノタビ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 54,
           "composer": "TeddyLoid・堀江晶太",
           "originalArtist": null,
@@ -4838,12 +4838,12 @@
           "bpm": 136,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 103,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 6,
-              "notes": 260
+              "notes": 261
             },
             "NORMAL": {
               "level": 13,
@@ -4919,7 +4919,9 @@
             ]
           },
           "arranger": "TeddyLoid・堀江晶太",
-          "lyricist": "堀江晶太"
+          "lyricist": "堀江晶太",
+          "relatedSongIds": [],
+          "revision": "9cfc4dcc-0135-49cf-8b09-679545f50e5d"
         },
         {
           "id": 55,
