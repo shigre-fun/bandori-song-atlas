@@ -4723,7 +4723,7 @@
           "id": 53,
           "title": "チューニング",
           "reading": "チューニング",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 53,
           "composer": "千石ユノ、堀江晶太",
           "originalArtist": null,
@@ -4731,7 +4731,7 @@
           "bpm": 194,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 100,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4761,26 +4761,20 @@
           "workId": "wk-0800",
           "credits": [
             {
-              "creatorId": "cr-0028",
-              "roles": [
-                "composer",
-                "arranger",
-                "lyricist"
-              ],
-              "displayOverrides": {
-                "arranger": "堀江晶太",
-                "lyricist": "堀江晶太",
-                "composer": "堀江晶太"
-              }
-            },
-            {
               "creatorId": "cr-0105",
               "roles": [
                 "lyricist"
               ],
-              "displayOverrides": {
-                "lyricist": "仲町あられ"
-              }
+              "displayOverride": "仲町あられ"
+            },
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "lyricist",
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "堀江晶太"
             }
           ],
           "creditDisplay": {
@@ -4828,7 +4822,9 @@
             ]
           },
           "lyricist": "仲町あられ、千石ユノ、堀江晶太",
-          "arranger": "堀江晶太、千石ユノ"
+          "arranger": "堀江晶太、千石ユノ",
+          "relatedSongIds": [],
+          "revision": "62b1a98a-ffaf-4b3d-95c7-0cecbb311a37"
         },
         {
           "id": 54,
