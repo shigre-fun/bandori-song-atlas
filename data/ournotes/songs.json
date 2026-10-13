@@ -4927,7 +4927,7 @@
           "id": 55,
           "title": "TearJerker",
           "reading": "ティアジャーカー",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 55,
           "composer": "sabio",
           "originalArtist": null,
@@ -4935,7 +4935,7 @@
           "bpm": 148,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 123,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4967,8 +4967,8 @@
             {
               "creatorId": "cr-0071",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -4994,7 +4994,9 @@
             ]
           },
           "lyricist": "sabio",
-          "arranger": "sabio"
+          "arranger": "sabio",
+          "relatedSongIds": [],
+          "revision": "8a3808b8-eeb8-4c46-a527-41fd5ebbddfd"
         },
         {
           "id": 56,
