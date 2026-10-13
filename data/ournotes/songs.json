@@ -4648,7 +4648,7 @@
           "id": 51,
           "title": "うちゅうのふしぎ",
           "reading": "ウチュウノフシギ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 51,
           "composer": "sabio",
           "originalArtist": null,
@@ -4656,7 +4656,7 @@
           "bpm": 122,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 86,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -4688,8 +4688,8 @@
             {
               "creatorId": "cr-0071",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -4715,7 +4715,9 @@
             ]
           },
           "lyricist": "sabio",
-          "arranger": "sabio"
+          "arranger": "sabio",
+          "relatedSongIds": [],
+          "revision": "c3a579d1-28aa-4a64-88c3-6bee283072db"
         },
         {
           "id": 53,
