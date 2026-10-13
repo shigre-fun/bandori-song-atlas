@@ -4485,7 +4485,7 @@
           "id": 52,
           "title": "真夜中遊園地",
           "reading": "マヨナカユウエンチ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 52,
           "composer": "哥丸雄貴",
           "originalArtist": null,
@@ -4493,16 +4493,16 @@
           "bpm": 176,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 88,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 9,
-              "notes": 240
+              "notes": 241
             },
             "NORMAL": {
               "level": 14,
-              "notes": 452
+              "notes": 453
             },
             "HARD": {
               "level": 21,
@@ -4533,9 +4533,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "堀江晶太"
-              }
+              "displayOverride": "堀江晶太"
             }
           ],
           "creditDisplay": {
@@ -4564,7 +4562,9 @@
             ]
           },
           "lyricist": "烏屋茶房",
-          "arranger": "哥丸雄貴、堀江晶太"
+          "arranger": "哥丸雄貴、堀江晶太",
+          "relatedSongIds": [],
+          "revision": "d7e26b23-39f6-4065-b237-64793f70a07a"
         },
         {
           "id": 50,
