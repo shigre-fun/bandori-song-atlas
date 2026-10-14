@@ -5333,7 +5333,7 @@
           "id": 59,
           "title": "六兆年と一夜物語",
           "reading": "ロクチョウネントイチヤモノカタリ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 59,
           "composer": "Kemu",
           "originalArtist": "kemu feat.IA",
@@ -5341,7 +5341,7 @@
           "bpm": 186,
           "bpmMin": 85,
           "bpmMax": 186,
-          "durationSeconds": null,
+          "durationSeconds": 86,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5354,7 +5354,7 @@
             },
             "HARD": {
               "level": 21,
-              "notes": 620
+              "notes": 621
             },
             "EXPERT": {
               "level": 26,
@@ -5375,8 +5375,8 @@
             {
               "creatorId": "cr-0028",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
               "displayOverride": "Kemu"
             },
@@ -5385,9 +5385,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "sabio"
-              }
+              "displayOverride": "sabio"
             }
           ],
           "creditDisplay": {
@@ -5415,7 +5413,9 @@
             ]
           },
           "lyricist": "Kemu",
-          "arranger": "sabio/高村風太"
+          "arranger": "sabio/高村風太",
+          "mv": null,
+          "revision": "f61a6940-4b6c-4134-b07d-a26ac26091b4"
         },
         {
           "id": 60,
