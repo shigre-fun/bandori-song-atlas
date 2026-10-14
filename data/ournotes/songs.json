@@ -5177,7 +5177,7 @@
           "id": 58,
           "title": "愛は衝動",
           "reading": "アイハショウドウ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 58,
           "composer": "sabio",
           "originalArtist": null,
@@ -5185,7 +5185,7 @@
           "bpm": 180,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 121,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5217,8 +5217,8 @@
             {
               "creatorId": "cr-0071",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -5244,7 +5244,9 @@
             ]
           },
           "lyricist": "sabio",
-          "arranger": "sabio"
+          "arranger": "sabio",
+          "relatedSongIds": [],
+          "revision": "a66aaa35-6aa3-403e-a68a-f339e767c0d6"
         },
         {
           "id": 85,
