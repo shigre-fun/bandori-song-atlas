@@ -5102,7 +5102,7 @@
           "id": 57,
           "title": "in my words",
           "reading": "インマイワーズ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 57,
           "composer": "白神真志朗",
           "originalArtist": null,
@@ -5110,7 +5110,7 @@
           "bpm": 137,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 121,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5123,7 +5123,7 @@
             },
             "HARD": {
               "level": 19,
-              "notes": 620
+              "notes": 621
             },
             "EXPERT": {
               "level": 25,
@@ -5142,8 +5142,8 @@
             {
               "creatorId": "cr-0074",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -5169,7 +5169,9 @@
             ]
           },
           "lyricist": "白神真志朗",
-          "arranger": "白神真志朗"
+          "arranger": "白神真志朗",
+          "relatedSongIds": [],
+          "revision": "d71108c6-c3e6-4f5c-a39c-2e8eabf9e24f"
         },
         {
           "id": 58,
