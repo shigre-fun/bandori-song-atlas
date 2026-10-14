@@ -5421,7 +5421,7 @@
           "id": 60,
           "title": "唱",
           "reading": "ショウ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 60,
           "composer": "Giga ＆ TeddyLoid",
           "originalArtist": "Ado",
@@ -5429,7 +5429,7 @@
           "bpm": 106,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 97,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5442,7 +5442,7 @@
             },
             "HARD": {
               "level": 17,
-              "notes": 568
+              "notes": 569
             },
             "EXPERT": {
               "level": 23,
@@ -5512,7 +5512,10 @@
             ]
           },
           "lyricist": "TOPHAMHAT-KYO (FAKE TYPE.)",
-          "arranger": "DjeDje、KENSEI、三村一輝"
+          "arranger": "DjeDje、KENSEI、三村一輝",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "fec7fb3c-2534-4084-ac21-b37fdcce6f6c"
         },
         {
           "id": 61,
