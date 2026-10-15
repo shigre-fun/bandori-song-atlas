@@ -6810,7 +6810,7 @@
           "id": 72,
           "title": "ジャイアント・キラー・チューン",
           "reading": "ジャイアントキラーチューン",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 72,
           "composer": "藤井健太郎",
           "originalArtist": null,
@@ -6818,7 +6818,7 @@
           "bpm": 135,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 100,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6831,7 +6831,7 @@
             },
             "HARD": {
               "level": 20,
-              "notes": 548
+              "notes": 549
             },
             "EXPERT": {
               "level": 23,
@@ -6850,8 +6850,8 @@
             {
               "creatorId": "cr-0033",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -6877,7 +6877,9 @@
             ]
           },
           "lyricist": "藤井健太郎",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "3a2ebda7-b17b-4aa0-a1ba-84b28c9d52d0"
         }
       ]
     },
