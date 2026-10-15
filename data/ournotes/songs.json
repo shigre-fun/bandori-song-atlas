@@ -5597,7 +5597,7 @@
           "id": 62,
           "title": "UNDEAD",
           "reading": "アンデッド",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 62,
           "composer": "Ayase",
           "originalArtist": "YOASOBI",
@@ -5605,7 +5605,7 @@
           "bpm": 144,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 102,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5667,7 +5667,10 @@
             ]
           },
           "arranger": "DjeDje、三村一輝",
-          "lyricist": "Ayase"
+          "lyricist": "Ayase",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "12d9d8f6-a616-4f39-a0ad-8f7c9495726a"
         },
         {
           "id": 80,
