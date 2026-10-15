@@ -6738,7 +6738,7 @@
           "id": 74,
           "title": "Keep on Riddim",
           "reading": "キープオンリディム",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 74,
           "composer": "瀬名水紀(Dream Monster)",
           "originalArtist": null,
@@ -6746,7 +6746,7 @@
           "bpm": 107,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 127,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6759,7 +6759,7 @@
             },
             "HARD": {
               "level": 22,
-              "notes": 912
+              "notes": 913
             },
             "EXPERT": {
               "level": 27,
@@ -6778,14 +6778,11 @@
             {
               "creatorId": "cr-0090",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
-              "displayOverride": "瀬名水紀(Dream Monster)",
-              "displayOverrides": {
-                "arranger": "瀬名水紀(Dream Monster)"
-              }
+              "displayOverride": "瀬名水紀(Dream Monster)"
             }
           ],
           "creditDisplay": {
@@ -6806,7 +6803,9 @@
             ]
           },
           "lyricist": "瀬名水紀(Dream Monster)",
-          "arranger": "瀬名水紀(Dream Monster)"
+          "arranger": "瀬名水紀(Dream Monster)",
+          "relatedSongIds": [],
+          "revision": "33d47cfe-9808-4c75-b63a-7897a0de46bb"
         },
         {
           "id": 72,
