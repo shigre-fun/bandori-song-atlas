@@ -6588,7 +6588,7 @@
           "id": 71,
           "title": "ホーミー・タイッ！！",
           "reading": "ホーミータイッ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 71,
           "composer": "藤井健太郎",
           "originalArtist": null,
@@ -6596,7 +6596,7 @@
           "bpm": 128,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 100,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -6609,7 +6609,7 @@
             },
             "HARD": {
               "level": 22,
-              "notes": 448
+              "notes": 449
             },
             "EXPERT": {
               "level": 26,
@@ -6628,8 +6628,8 @@
             {
               "creatorId": "cr-0033",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -6655,7 +6655,9 @@
             ]
           },
           "lyricist": "藤井健太郎",
-          "arranger": "藤井健太郎"
+          "arranger": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "01068e1f-e0a1-4519-8315-21dc6883d091"
         },
         {
           "id": 73,
