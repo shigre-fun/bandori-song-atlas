@@ -6663,7 +6663,7 @@
           "id": 73,
           "title": "ピースフル・ピーシーズ！",
           "reading": "ピースフルピーシーズ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 73,
           "composer": "藤井健太郎",
           "originalArtist": null,
@@ -6671,12 +6671,12 @@
           "bpm": 130,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 113,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": 268
+              "notes": 269
             },
             "NORMAL": {
               "level": 14,
@@ -6730,7 +6730,9 @@
             ]
           },
           "arranger": "藤井健太郎",
-          "lyricist": "藤井健太郎"
+          "lyricist": "藤井健太郎",
+          "relatedSongIds": [],
+          "revision": "95eaafcd-8710-4f29-b924-85869a7a8060"
         },
         {
           "id": 74,
