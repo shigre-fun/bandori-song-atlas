@@ -5521,7 +5521,7 @@
           "id": 61,
           "title": "オリオンをなぞる",
           "reading": "オリオンヲナゾル",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 61,
           "composer": "田淵智也",
           "originalArtist": "UNISON SQUARE GARDEN",
@@ -5529,7 +5529,7 @@
           "bpm": 182,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 98,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5560,11 +5560,12 @@
             {
               "creatorId": "cr-0027",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
+              "displayOverride": "田淵　智也",
               "displayOverrides": {
-                "lyricist": "田淵　智也"
+                "composer": "田淵智也"
               }
             }
           ],
@@ -5587,7 +5588,10 @@
             ]
           },
           "lyricist": "田淵　智也",
-          "arranger": "岡村大輔"
+          "arranger": "岡村大輔",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "56d21186-55a5-4713-b00a-c359109ca7e7"
         },
         {
           "id": 62,
