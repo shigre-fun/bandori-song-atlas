@@ -6148,7 +6148,7 @@
               "notes": 1188
             }
           },
-          "mv": false,
+          "mv": true,
           "songType": "紫苑",
           "gekisouSections": [
             "COMBO",
@@ -6160,8 +6160,8 @@
             {
               "creatorId": "cr-0033",
               "roles": [
-                "composer",
                 "lyricist",
+                "composer",
                 "arranger"
               ],
               "displayOverrides": {
@@ -6202,7 +6202,7 @@
           "lyricist": "藤井健太郎",
           "arranger": "藤井健太郎",
           "relatedSongIds": [],
-          "revision": "fca93c95-5963-47c6-87ae-c9f0577b2e58"
+          "revision": "ce408ba2-40d7-4fbe-8f21-b81f51ecc141"
         },
         {
           "id": 87,
