@@ -1,0 +1,6 @@
+{
+  status: 'PASS',
+  creators: 371,
+  newCreators: 202,
+  origin: 'https://tanimachi-bdsongs.com'
+}

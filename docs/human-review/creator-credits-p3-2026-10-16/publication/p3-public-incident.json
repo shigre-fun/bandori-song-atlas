@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-17",
+  "host": "https://shigre-fun.github.io/bandori-song-atlas/",
+  "path": "/garupa/songs/335/",
+  "initialStatus": 503,
+  "initialSession": 80267,
+  "initialExitCode": 1,
+  "initialError": "AssertionError: 503 !== 200; expected HTTP 200",
+  "initialProgressLog": "p3-pages-details-initial.txt",
+  "response": "Retain initial log, retry 429 and HTTP 5xx up to three times with increasing delays, repeat all 888 pages; content comparisons remain exact.",
+  "productChanges": 0
+}

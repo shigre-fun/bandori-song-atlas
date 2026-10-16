@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+const [commit,origin,prefix='',directory='dist',output='.cache/p3-public-creators.json']=process.argv.slice(2);
+assert.match(commit,/^[a-f0-9]{40}$/);
+const master=JSON.parse(fs.readFileSync(directory+'/creators.json'));
+const results=[];let cursor=0;
+const get=async p=>{const url=new URL(prefix+p,origin);url.searchParams.set('release',commit);const r=await fetch(url,{headers:{'Cache-Control':'no-cache'},signal:AbortSignal.timeout(30000)});assert.equal(r.status,200,p);return r.text();};
+const part=html=>html.match(/<main(?:\s[^>]*)?>[\s\S]*?<\/main>/)?.[0].replace(/\r\n/g,'\n');
+await Promise.all(Array.from({length:6},async()=>{while(cursor<master.creators.length){const c=master.creators[cursor++],p='/creators/'+c.slug+'/';const html=await get(p),expected=fs.readFileSync(directory+p+'index.html','utf8');assert.ok(part(html),'Public creator main '+c.id);assert.equal(part(html),part(expected),'Full creator content and links '+c.id);results.push({id:c.id,slug:c.slug,status:200,mainSha256:createHash('sha256').update(part(html)).digest('hex')});}}));
+assert.equal(results.length,371);assert.equal(results.filter(c=>Number(c.id.slice(3))>=170).length,202);
+fs.writeFileSync(output,JSON.stringify({status:'PASS',commit,origin,prefix,verifiedAt:new Date().toISOString(),creators:371,newCreators:202,allCreatorContentAndLinksMatch:true,results:results.sort((a,b)=>a.id.localeCompare(b.id))},null,2)+'\n');
+console.log({status:'PASS',creators:371,newCreators:202,origin});

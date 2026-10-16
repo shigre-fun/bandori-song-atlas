@@ -1,6 +1,6 @@
 # P3 人間確認回答の反映・検証報告
 
-状態：反映・全ローカル検証完了。
+状態：反映・全検証・commit・push・deploy・本番照合完了（2026-10-17）。
 
 当初の添付指示によるローカル完了後、2026-10-17の明示指示「commit・push・deployを行ってください。」により公開を許可。原本はinput.txt、追加の明示回答はclarification.json、人間回答と受領日/適用日時はreview.jsonへ保存。humanReviewDateは未回答nullのまま。
 
@@ -300,8 +300,16 @@
 - 初回P0/P2 guardはtaskIdの分類変更を誤って脱落と判定。未解決の同scope/同candidate/同rawへの継続を明示して修正し、対象外formal追加0を検証。
 - timestampだけでレビューの入力SHAが変わらないよう、同一追加回答の再applyでは適用日時も保持。原本日時欄は未回答のまま。
 
-元のローカル検証記録はlocal-REPORT.md/local-verification.json/COMPLETION_AUDIT.jsonへ保管。現在は公開準備を進行中。元headは32a97950e55cc79c4c826cbc6006a19d16f52e21、テンプレート基準653455aからの先行管理更新・新曲OurNotes88/Work826・区切り/mobile修正を保持。詳細の数値・source SHA・data SHA・検証原logはverification.jsonとvalidation/を参照。
+元のローカル検証記録はlocal-REPORT.md/local-verification.json/COMPLETION_AUDIT.jsonへ保管。2026-10-17に公開と本番照合を完了。元headは32a97950e55cc79c4c826cbc6006a19d16f52e21、テンプレート基準653455aからの先行管理更新・新曲OurNotes88/Work826・区切り/mobile修正を保持。詳細の数値・source SHA・data SHA・検証原logはverification.jsonとvalidation/を参照。
 
-## 2026-10-17 公開準備
+## 2026-10-17 公開完了
 
-先行4管理更新をf10fa7eへfast-forwardして保持し、remote-inputs.json.gz/remote-integration.jsonをSHA付きで保存。最新値へP3 credit構造だけを適用し、202新規ID/283relation/全原文とWorkを維持。公開前の347test・両build/SEO・Functionsを再検証する。公開許可はpublication-authorization.json。公開後に同SHA CI/Cloudflare/Pagesと両host全888詳細/371Creatorを照合し記録する。
+製品コミット：99bd967becfb4da6ee0d14dddac44023323a873e。通常push後、同SHAのActions 38928833303（build/deploy）、Cloudflare Pages、GitHub Pages 7123669339 がすべてsuccess。
+
+先行4管理更新をf10fa7eへfast-forwardして保持し、remote-inputs.json.gz/remote-integration.jsonを保存。最新データで347test・root/subpath build/SEO・Functions成功。202新規ID・283relation・2664表示原文・既存全relation・169既存Creator metadata・Work826・全非担当項目を保持。
+
+[本番](https://tanimachi-bdsongs.com/)と[GitHub Pages](https://shigre-fun.github.io/bandori-song-atlas/)の各20HTTP・7module全文・全catalog/master・全888曲詳細・全371Creatorページ（新規202含む）の表示とリンクが検証済みbuildに一致。原文と全表示項目を全件比較。本番OGP3画像1200×630、favicon、404、旧Creator URLの301も成功。公開証拠はpublication/、現在の検証結果はverification.json、公開前guardはPUBLICATION_PREFLIGHT.json。
+
+終了記録のみskip CI文書commit/pushで同期する。製品ファイルの追加変更はなし。
+
+初回GitHub PagesのGP335応答はHTTP503で監査が停止（session80267/exit1）。初回ログとincident記録を保存し、429/5xxだけ最大3回の再試行を許可して全888件を再照合。比較条件の緩和・製品変更・再deployはなし。最終成功記録に各再試行も保存。

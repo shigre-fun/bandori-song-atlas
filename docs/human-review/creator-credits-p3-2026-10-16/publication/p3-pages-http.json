@@ -1,0 +1,130 @@
+{
+  "result": "PASS",
+  "verifiedAt": "2026-10-16T16:06:41.438Z",
+  "commit": "99bd967becfb4da6ee0d14dddac44023323a873e",
+  "origin": "https://shigre-fun.github.io",
+  "assetVersion": "508e017ec8cc",
+  "localAssetVersion": "3ca62bb7d2e2",
+  "comparison": "Normalize CRLF/LF and compiler cache version only; all module code must match.",
+  "http": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/garupa/songs/800/",
+      "status": 200
+    },
+    {
+      "path": "/search/",
+      "status": 200
+    },
+    {
+      "path": "/admin/",
+      "status": 200
+    },
+    {
+      "path": "/admin/?game=ournotes",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/creators.json",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs.json",
+      "status": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/works.json",
+      "status": 200
+    },
+    {
+      "path": "/contact/",
+      "status": 200
+    },
+    {
+      "path": "/ournotes/songs/88/",
+      "status": 200
+    },
+    {
+      "path": "/garupa/songs.json",
+      "status": 200
+    },
+    {
+      "path": "/admin.js?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/creator-picker.js?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/creators-data.js?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/github-store.js?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/admin.css?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/views.js?v=508e017ec8cc",
+      "status": 200
+    },
+    {
+      "path": "/credit-display.js?v=508e017ec8cc",
+      "status": 200
+    }
+  ],
+  "modules": [
+    {
+      "file": "admin.js",
+      "sha256": "62d5a12e1f9a1d1b3985a0388b2a77b22505557fbbdddc8babe3c37f825649b0"
+    },
+    {
+      "file": "creator-picker.js",
+      "sha256": "f626653454488a383ecf01dab6999a9d668494d73a7b5fbd981d4a86e610176a"
+    },
+    {
+      "file": "creators-data.js",
+      "sha256": "962ef3a5d41ec148c00d38d283e9aa38fd2dbc6037b2a1de16a121f83a5ca4a0"
+    },
+    {
+      "file": "github-store.js",
+      "sha256": "94e37bca6e16952a855558e99b8ecbdbdaeae39ed23502d81cb56504b5aefef4"
+    },
+    {
+      "file": "admin.css",
+      "sha256": "600b37d97f0c2d5ad171e44621e0c728010942b9802bf30906b060a5c6697504"
+    },
+    {
+      "file": "views.js",
+      "sha256": "f555d317e662e994e83873175d2aaed0ec1056c05625f4b4ae91bbad6b5b2d16"
+    },
+    {
+      "file": "credit-display.js",
+      "sha256": "5bcf08fc1a4848840e92a7c47242c4d57e156855294e85ce1db691cc698425e0"
+    }
+  ],
+  "editableCreditFields": 3,
+  "games": 2,
+  "catalogs": {
+    "garupa": 800,
+    "ournotes": 88
+  },
+  "creatorsAndWorksEqual": true,
+  "allPublishedRecordFieldsEqual": true,
+  "latestRemoteEditsPreserved": true
+}
