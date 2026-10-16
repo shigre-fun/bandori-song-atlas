@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "rawFields": 2664,
+  "formalBindings": 283,
+  "oldRelationsDropped": 0,
+  "masterChangesOutsideNewCreators": 0,
+  "unintendedChanges": 0,
+  "P3TaskUnmapped": 0,
+  "unmappedCurrentUnresolved": 0,
+  "ToDoRegenerateChanges": 0,
+  "head": "f10fa7e0695a46f08c1fad01b26802b5af5498cf",
+  "dataHashes": {
+    "data/creators.json": "927b6920a718073abb7a4a36ec8f830e9597db97623593645594d0b5b21e1d83",
+    "data/garupa/admin-state.json": "f83a163d81556016431706f6d0f894f23faaba6eed341eac6f34ad6ecd751c7f",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "d6590d31bc6a35e0629493f58a72fa84a879051d97ead1f1f62bb139dde0157c",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/ournotes/admin-state.json": "7fa5d04c16d25a04d329bd6de0863f067552e9e5ec5e28317946a5b733a89a15",
+    "data/ournotes/songs.json": "8c25b48ba8fbd13596cca8333d2b5444405a051af855ed34b6c9b3b29a2f70f5",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "36c29c66e98de25229a5719f779581f3388a937bbe17301e07dde8c7a09fd3d8"
+  },
+  "requirements": [
+    {
+      "requirement": "Input rules 1–6; section 1",
+      "status": "PASS",
+      "evidence": "Immutable original/clarification/review/receivedOn/appliedAt/reviewer; optional date remains null"
+    },
+    {
+      "requirement": "Input rules 7–12; section 6 Creator",
+      "status": "PASS",
+      "evidence": "Exact names/approved aliases, stable IDs, namespace validation and explicit collision answers"
+    },
+    {
+      "requirement": "Input rules 13–16; section 5",
+      "status": "PASS",
+      "evidence": "Three split fields retain raw delimiters; independent people; all required metadata supplied"
+    },
+    {
+      "requirement": "Input rules 17–19; section 6 preflight",
+      "status": "PASS",
+      "evidence": "All 208 candidate keys + 3 alias candidates + 280 scopes and all 1812 current tasks matched"
+    },
+    {
+      "requirement": "Input rules 20–23; section 7",
+      "status": "PASS",
+      "evidence": "826 Work unchanged, 2664 raw fields unchanged, all old formal relations and group/top-level data retained; only 283 approved bindings"
+    },
+    {
+      "requirement": "Input rules 24–25; sections 7–8",
+      "status": "PASS",
+      "evidence": "P0/P2 pending mappings retained; 556 P3 song tasks resolved; 375 remaining; P3TaskUnmapped/current unmapped both zero; byte-stable ToDo"
+    },
+    {
+      "requirement": "Input rule 26; section 9",
+      "status": "PASS",
+      "evidence": "347 tests, root/subpath build and SEO, Functions, format/diff and data/receipt idempotence (validation logs)"
+    },
+    {
+      "requirement": "Input rule 27; section 10",
+      "status": "PASS",
+      "evidence": "Publication explicitly authorized on 2026-10-17; verified source/data; index empty before staging"
+    }
+  ]
+}

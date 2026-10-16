@@ -1,0 +1,21 @@
+✔ all 208 candidates, three alias candidates and 280 role scopes are parsed without inventing review dates (2.8328ms)
+✔ missing quotes and invalid approval/type fields stay unresolved until the user clarification (995.9914ms)
+✔ all current data reproduces from the immutable source and stable allocation (2240.6926ms)
+✔ existing IDs are reused and same-person candidate chains merge without cycles or duplicate Creators (0.2698ms)
+✔ reference cycles remain held rather than silently choosing one new Creator (1006.2855ms)
+✔ explicit new-ID declarations conflicting with old names/aliases/slugs never create a duplicate (916.8987ms)
+✔ split fields preserve the exact raw delimiters and connect separate people, including the old Yaginuma composer (51.7276ms)
+✔ unapproved records with an exactly matching new alias stay unresolved (7.7914ms)
+✔ a changed Work is rejected even when credits are otherwise reproducible (281.5266ms)
+✔ non-credit changes in a reviewed song cannot pass the preservation gate (182.2963ms)
+✔ an existing co-author may not be dropped when another role is formalized (63.6298ms)
+✔ unrelated old Creator metadata cannot be changed by a P3 identity answer (13.6644ms)
+✔ every original P3 task has one disposition and the regenerated ledger maps every unresolved role (5.8353ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7173.2189

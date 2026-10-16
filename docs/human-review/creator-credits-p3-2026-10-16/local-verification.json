@@ -1,0 +1,5074 @@
+{
+  "result": "PASS",
+  "P3TaskUnmapped": 0,
+  "originalCreatorCandidates": 211,
+  "newCreatorCandidateAnswers": 208,
+  "aliasCandidateAnswers": 3,
+  "originalCreditScopes": 280,
+  "taskCount": 1812,
+  "songTaskCount": 556,
+  "creatorTaskCount": 1256,
+  "registered": [
+    {
+      "uid": "b1-3f9807cb9ae9fb6c3094#0",
+      "creator": {
+        "id": "cr-0170",
+        "name": "164",
+        "slug": "ichirokuyon",
+        "type": "person",
+        "reading": "いちろくよん",
+        "sortKey": "いちろくよん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-7b1a278f5abe8e9da907#0",
+      "creator": {
+        "id": "cr-0171",
+        "name": "96",
+        "slug": "kuro",
+        "type": "person",
+        "reading": "くろ",
+        "sortKey": "くろ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "黒沢ダイスケ"
+        ]
+      }
+    },
+    {
+      "uid": "b1-afb9ede13d72694476ad#0",
+      "creator": {
+        "id": "cr-0172",
+        "name": "AI YAZAWA",
+        "slug": "ai-yazawa",
+        "type": "person",
+        "reading": "あいやざわ",
+        "sortKey": "あいやざわ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "矢沢あい"
+        ]
+      }
+    },
+    {
+      "uid": "b1-8073219154263565a2c6#0",
+      "creator": {
+        "id": "cr-0173",
+        "name": "aimerrhythm",
+        "slug": "aimerrhythm",
+        "type": "person",
+        "reading": "えめりずむ",
+        "sortKey": "えめりずむ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "Aimer"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e968de2a8620232102ff#0",
+      "creator": {
+        "id": "cr-0174",
+        "name": "AIMI",
+        "slug": "aimi",
+        "type": "person",
+        "reading": "あいみ",
+        "sortKey": "あいみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-391cf2d396c481875a45#0",
+      "creator": {
+        "id": "cr-0175",
+        "name": "AKASAKI",
+        "slug": "akasaki",
+        "type": "person",
+        "reading": "あかさき",
+        "sortKey": "あかさき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-886967a1fc0d2d7a2f34#0",
+      "creator": {
+        "id": "cr-0176",
+        "name": "Aqua Timez",
+        "slug": "aqua-timez",
+        "type": "unit",
+        "reading": "あくあたいむず",
+        "sortKey": "あくあたいむず",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-778261d5431d1cdd092e#0",
+      "creator": {
+        "id": "cr-0177",
+        "name": "Benjamin Franklin",
+        "slug": "benjamin-franklin",
+        "type": "person",
+        "reading": "べんじゃみんふらんくりん",
+        "sortKey": "べんじゃみんふらんくりん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-58a727440f942bbd8466#0",
+      "creator": {
+        "id": "cr-0178",
+        "name": "BETTI",
+        "slug": "betti",
+        "type": "person",
+        "reading": "べっち",
+        "sortKey": "べっち",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "EasyPop"
+        ]
+      }
+    },
+    {
+      "uid": "b1-df71e4f0063c7b2e5d6f#0",
+      "creator": {
+        "id": "cr-0179",
+        "name": "Chinozo",
+        "slug": "chinozo",
+        "type": "person",
+        "reading": "ちのぞー",
+        "sortKey": "ちのぞー",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-09372580cbe58129449a#0",
+      "creator": {
+        "id": "cr-0180",
+        "name": "cinema staff",
+        "slug": "cinema-staff",
+        "type": "unit",
+        "reading": "しねますたっふ",
+        "sortKey": "しねますたっふ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d4a148019c1483c7170e#0",
+      "creator": {
+        "id": "cr-0181",
+        "name": "DAIGO",
+        "slug": "daigo",
+        "type": "person",
+        "reading": "だいご",
+        "sortKey": "だいご",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-8e22ba6db7d43abd4e92#0",
+      "creator": {
+        "id": "cr-0182",
+        "name": "doriko",
+        "slug": "doriko",
+        "type": "person",
+        "reading": "どりこ",
+        "sortKey": "どりこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1064da61274853d9c808#0",
+      "creator": {
+        "id": "cr-0183",
+        "name": "emon(Tes.)",
+        "slug": "emon-tes",
+        "type": "person",
+        "reading": "えもんてす",
+        "sortKey": "えもんてす",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3005c0843386dbed3c69#0",
+      "creator": {
+        "id": "cr-0184",
+        "name": "EREN",
+        "slug": "eren",
+        "type": "person",
+        "reading": "えれん",
+        "sortKey": "えれん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-428b9226573129b00d8b#0",
+      "creator": {
+        "id": "cr-0185",
+        "name": "fripSide",
+        "slug": "fripside",
+        "type": "unit",
+        "reading": "ふりっぷさいど",
+        "sortKey": "ふりっぷさいど",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-9026987ff30606eaae3a#0",
+      "creator": {
+        "id": "cr-0186",
+        "name": "Funta",
+        "slug": "funta",
+        "type": "unit",
+        "reading": "ふぁんた",
+        "sortKey": "ふぁんた",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "Funta3",
+          "Funta7"
+        ]
+      }
+    },
+    {
+      "uid": "b1-627e2799e99aef187f50#0",
+      "creator": {
+        "id": "cr-0187",
+        "name": "Goose house",
+        "slug": "goose-house",
+        "type": "unit",
+        "reading": "ぐーすはうす",
+        "sortKey": "ぐーすはうす",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-ba04fa78033b212b7eed#0",
+      "creator": {
+        "id": "cr-0188",
+        "name": "GRe4N BOYS",
+        "slug": "greeeen-boys",
+        "type": "unit",
+        "reading": "ぐりーんぼーいず",
+        "sortKey": "ぐりーんぼーいず",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "GReeeeN"
+        ]
+      }
+    },
+    {
+      "uid": "b1-3b001de367575133b6ac#0",
+      "creator": {
+        "id": "cr-0189",
+        "name": "Haruka",
+        "slug": "haruka",
+        "type": "person",
+        "reading": "はるか",
+        "sortKey": "はるか",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3da3ce9a9f923fdf74ee#0",
+      "creator": {
+        "id": "cr-0190",
+        "name": "Heart’s Cry",
+        "slug": "hearts-cry",
+        "type": "unit",
+        "reading": "はーつくらい",
+        "sortKey": "はーつくらい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-8f524c800339a70fea2b#0",
+      "creator": {
+        "id": "cr-0191",
+        "name": "Hibiki",
+        "slug": "hibiki",
+        "type": "person",
+        "reading": "ひびき",
+        "sortKey": "ひびき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d384ec5aed7cc25d6bf1#0",
+      "creator": {
+        "id": "cr-0192",
+        "name": "hotaru",
+        "slug": "hotaru",
+        "type": "person",
+        "reading": "ほたる",
+        "sortKey": "ほたる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-b08b742db21de1e1757f#0",
+      "creator": {
+        "id": "cr-0193",
+        "name": "H ZETT M",
+        "slug": "h-zett-m",
+        "type": "person",
+        "reading": "えいちぜっとえむ",
+        "sortKey": "えいちぜっとえむ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "H是都M",
+          "ヒイズミマサユ機"
+        ]
+      }
+    },
+    {
+      "uid": "b1-112bef0ce9ee1d577b32#0",
+      "creator": {
+        "id": "cr-0194",
+        "name": "ika_mo",
+        "slug": "ika-mo",
+        "type": "person",
+        "reading": "いかも",
+        "sortKey": "いかも",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "鶴田加茂"
+        ]
+      }
+    },
+    {
+      "uid": "b1-80e30b728decd023a8e5#0",
+      "creator": {
+        "id": "cr-0195",
+        "name": "Junky",
+        "slug": "junky",
+        "type": "person",
+        "reading": "じゃんきー",
+        "sortKey": "じゃんきー",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-aed4f55bb80088cd7920#0",
+      "creator": {
+        "id": "cr-0196",
+        "name": "KEIGO",
+        "slug": "keigo",
+        "type": "person",
+        "reading": "けいご",
+        "sortKey": "けいご",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "KEIGO HAYASHI"
+        ]
+      }
+    },
+    {
+      "uid": "b1-a0c91d44359a21555daa#0",
+      "creator": {
+        "id": "cr-0197",
+        "name": "KOCHO",
+        "slug": "kocho",
+        "type": "person",
+        "reading": "こちょう",
+        "sortKey": "こちょう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-4b07d0bd173c99c9d368#0",
+      "creator": {
+        "id": "cr-0198",
+        "name": "Koji Mihara",
+        "slug": "koji-mihara",
+        "type": "person",
+        "reading": "こうじみはら",
+        "sortKey": "こうじみはら",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fce21d77e4a7daaa0b33#0",
+      "creator": {
+        "id": "cr-0199",
+        "name": "Last Note.",
+        "slug": "last-note",
+        "type": "unit",
+        "reading": "らすとのーと",
+        "sortKey": "らすとのーと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-31cc6557090414795a7e#0",
+      "creator": {
+        "id": "cr-0200",
+        "name": "leonn",
+        "slug": "leonn",
+        "type": "person",
+        "reading": "れおん",
+        "sortKey": "れおん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-7fa46ce50a1a1466c6bb#0",
+      "creator": {
+        "id": "cr-0201",
+        "name": "MEGUMI",
+        "slug": "megumi",
+        "type": "person",
+        "reading": "めぐみ",
+        "sortKey": "めぐみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "林原めぐみ"
+        ]
+      }
+    },
+    {
+      "uid": "b1-3451e57cfcfa28fb2fb6#0",
+      "creator": {
+        "id": "cr-0202",
+        "name": "meiyo",
+        "slug": "meiyo",
+        "type": "person",
+        "reading": "めいよー",
+        "sortKey": "めいよー",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fd13cfd88311eea8c167#0",
+      "creator": {
+        "id": "cr-0203",
+        "name": "MELL",
+        "slug": "mell",
+        "type": "person",
+        "reading": "める",
+        "sortKey": "める",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-582283cb3ac3830eaeb5#0",
+      "creator": {
+        "id": "cr-0204",
+        "name": "minatoku",
+        "slug": "minatoku",
+        "type": "person",
+        "reading": "みなとく",
+        "sortKey": "みなとく",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "田中謙介"
+        ]
+      }
+    },
+    {
+      "uid": "b1-a21ffa34b11778c37450#0",
+      "creator": {
+        "id": "cr-0205",
+        "name": "Mitchie M",
+        "slug": "mitchie-m",
+        "type": "person",
+        "reading": "みっちーえむ",
+        "sortKey": "みっちーえむ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-60b067d81b060707b4cc#0",
+      "creator": {
+        "id": "cr-0206",
+        "name": "MIZUE",
+        "slug": "mizue",
+        "type": "person",
+        "reading": "みずえ",
+        "sortKey": "みずえ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-2f6305af972cb9235148#0",
+      "creator": {
+        "id": "cr-0207",
+        "name": "Mr.FanTastiC",
+        "slug": "mr-fantastic",
+        "type": "unit",
+        "reading": "みすたーふぁんたすてぃっく",
+        "sortKey": "みすたーふぁんたすてぃっく",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-b7ad7f651eb3cfa700f8#0",
+      "creator": {
+        "id": "cr-0208",
+        "name": "MY FIRST STORY",
+        "slug": "my-first-story",
+        "type": "unit",
+        "reading": "まいふぁーすとすとーりー",
+        "sortKey": "まいふぁーすとすとーりー",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "マイファス"
+        ]
+      }
+    },
+    {
+      "uid": "b1-37f9c59bed86e03ee448#0",
+      "creator": {
+        "id": "cr-0209",
+        "name": "Nakajin",
+        "slug": "nakajin",
+        "type": "person",
+        "reading": "なかじん",
+        "sortKey": "なかじん",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "中島真一"
+        ]
+      }
+    },
+    {
+      "uid": "b1-489272dfb926663743ff#0",
+      "creator": {
+        "id": "cr-0210",
+        "name": "Neko Hacker",
+        "slug": "neko-hacker",
+        "type": "person",
+        "reading": "ねこはっかー",
+        "sortKey": "ねこはっかー",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d65ecfbc0991662fbe12#0",
+      "creator": {
+        "id": "cr-0211",
+        "name": "Numa",
+        "slug": "numa",
+        "type": "person",
+        "reading": "ぬま",
+        "sortKey": "ぬま",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "沼能友樹"
+        ]
+      }
+    },
+    {
+      "uid": "b1-1a9fe1a6e3fafddeed48#0",
+      "creator": {
+        "id": "cr-0212",
+        "name": "SCANDAL",
+        "slug": "scandal",
+        "type": "unit",
+        "reading": "すきゃんだる",
+        "sortKey": "すきゃんだる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1a9fe1a6e3fafddeed48#1",
+      "creator": {
+        "id": "cr-0213",
+        "name": "小林夏海",
+        "slug": "natsumi-kobayashi",
+        "type": "person",
+        "reading": "こばやしなつみ",
+        "sortKey": "こばやしなつみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1b9b5c3f1532917b8f32#0",
+      "creator": {
+        "id": "cr-0214",
+        "name": "SIAM SHADE",
+        "slug": "siam-shade",
+        "type": "unit",
+        "reading": "しゃむしぇいど",
+        "sortKey": "しゃむしぇいど",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6c8f6bb02295107ff720#0",
+      "creator": {
+        "id": "cr-0215",
+        "name": "TAKUMA",
+        "slug": "takuma",
+        "type": "person",
+        "reading": "たくま",
+        "sortKey": "たくま",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f78f07deae513900d47c#0",
+      "creator": {
+        "id": "cr-0216",
+        "name": "tetsuya",
+        "slug": "tetsuya",
+        "type": "person",
+        "reading": "てつや",
+        "sortKey": "てつや",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-30952a0e8161628d92ae#0",
+      "creator": {
+        "id": "cr-0217",
+        "name": "TKT",
+        "slug": "tkt",
+        "type": "person",
+        "reading": "たかと",
+        "sortKey": "たかと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-0ec58293315022176bde#0",
+      "creator": {
+        "id": "cr-0218",
+        "name": "TOPHAMHAT-KYO",
+        "slug": "tophamhat-kyo",
+        "type": "person",
+        "reading": "とっぷはむはっときょう",
+        "sortKey": "とっぷはむはっときょう",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "TOPHAMHAT-KYO (FAKE TYPE.)",
+          "トップハムハット狂"
+        ]
+      }
+    },
+    {
+      "uid": "b1-126d167d578a8a96389a#0",
+      "creator": {
+        "id": "cr-0219",
+        "name": "WEST GROUND",
+        "slug": "west-ground",
+        "type": "person",
+        "reading": "うえすとぐらうんど",
+        "sortKey": "うえすとぐらうんど",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "西辺誠"
+        ]
+      }
+    },
+    {
+      "uid": "b1-3a0f9837119725f4e276#0",
+      "creator": {
+        "id": "cr-0220",
+        "name": "y0c1e",
+        "slug": "y0c1e",
+        "type": "person",
+        "reading": "よしえ",
+        "sortKey": "よしえ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "佐高陵平"
+        ]
+      }
+    },
+    {
+      "uid": "b1-fbd51916f11ea7f49d3e#0",
+      "creator": {
+        "id": "cr-0221",
+        "name": "yonkey",
+        "slug": "yonkey",
+        "type": "person",
+        "reading": "よんきー",
+        "sortKey": "よんきー",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "YONKEY"
+        ]
+      }
+    },
+    {
+      "uid": "b1-ae6e4b8c51d53a40a5cd#0",
+      "creator": {
+        "id": "cr-0222",
+        "name": "YUKI",
+        "slug": "yuki",
+        "type": "person",
+        "reading": "ゆき",
+        "sortKey": "ゆき",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "倉持有希"
+        ]
+      }
+    },
+    {
+      "uid": "b1-cd8f0145bb1473eb6e44#0",
+      "creator": {
+        "id": "cr-0223",
+        "name": "あさき",
+        "slug": "asaki",
+        "type": "person",
+        "reading": "あさき",
+        "sortKey": "あさき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fb55f537527b543ca57d#0",
+      "creator": {
+        "id": "cr-0224",
+        "name": "イイジマケン",
+        "slug": "ken-iijima",
+        "type": "person",
+        "reading": "いいじまけん",
+        "sortKey": "いいじまけん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5e7e1fd7884f3134a285#0",
+      "creator": {
+        "id": "cr-0225",
+        "name": "いよわ",
+        "slug": "iyowa",
+        "type": "person",
+        "reading": "いよわ",
+        "sortKey": "いよわ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1ff4b12fd0cc1b641ed8#0",
+      "creator": {
+        "id": "cr-0226",
+        "name": "かめりあ",
+        "slug": "camellia",
+        "type": "person",
+        "reading": "かめりあ",
+        "sortKey": "かめりあ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-e71861f1e699808f1178#0",
+      "creator": {
+        "id": "cr-0227",
+        "name": "カヨコ",
+        "slug": "kayoko",
+        "type": "person",
+        "reading": "かよこ",
+        "sortKey": "かよこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "草野華余子"
+        ]
+      }
+    },
+    {
+      "uid": "b1-74f85f9b231edd5248d1#0",
+      "creator": {
+        "id": "cr-0228",
+        "name": "くじら",
+        "slug": "kujira",
+        "type": "person",
+        "reading": "くじら",
+        "sortKey": "くじら",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fe9ebbac0b25eb005a1c#0",
+      "creator": {
+        "id": "cr-0229",
+        "name": "クボナオキ",
+        "slug": "naoki-kubo",
+        "type": "person",
+        "reading": "くぼなおき",
+        "sortKey": "くぼなおき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-c6c634130b4628d56dc4#0",
+      "creator": {
+        "id": "cr-0230",
+        "name": "ケリー",
+        "slug": "kelly",
+        "type": "person",
+        "reading": "けりー",
+        "sortKey": "けりー",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6eadeb21499235dc66af#0",
+      "creator": {
+        "id": "cr-0231",
+        "name": "シュンタロウ",
+        "slug": "shuntaro",
+        "type": "person",
+        "reading": "しゅんたろう",
+        "sortKey": "しゅんたろう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-39e4a2098e4f3f26f64c#0",
+      "creator": {
+        "id": "cr-0232",
+        "name": "すぅ",
+        "slug": "suu",
+        "type": "person",
+        "reading": "すぅ",
+        "sortKey": "すぅ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "吉田菫"
+        ]
+      }
+    },
+    {
+      "uid": "b1-d4592b0fdc2ad89d7c56#0",
+      "creator": {
+        "id": "cr-0233",
+        "name": "たかはしごう",
+        "slug": "go-takahashi",
+        "type": "person",
+        "reading": "たかはしごう",
+        "sortKey": "たかはしごう",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "高橋剛"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e16d913a5bd83262763e#0",
+      "creator": {
+        "id": "cr-0234",
+        "name": "たくや",
+        "slug": "takuya",
+        "type": "person",
+        "reading": "たくや",
+        "sortKey": "たくや",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "楠瀬拓哉"
+        ]
+      }
+    },
+    {
+      "uid": "b1-9d081fc740227451cca6#0",
+      "creator": {
+        "id": "cr-0235",
+        "name": "てにをは",
+        "slug": "teniwoha",
+        "type": "person",
+        "reading": "てにをは",
+        "sortKey": "てにをは",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1fcb8e10015b021ff85f#0",
+      "creator": {
+        "id": "cr-0236",
+        "name": "のぼる↑",
+        "slug": "noboru",
+        "type": "person",
+        "reading": "のぼる",
+        "sortKey": "のぼる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-8b0aa3b66381891a7464#0",
+      "creator": {
+        "id": "cr-0237",
+        "name": "のりぴー",
+        "slug": "noripy",
+        "type": "person",
+        "reading": "のりぴー",
+        "sortKey": "のりぴー",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "のりP"
+        ]
+      }
+    },
+    {
+      "uid": "b1-321672e2a4b0c8e50c92#0",
+      "creator": {
+        "id": "cr-0238",
+        "name": "ヒグチアイ",
+        "slug": "ai-higuchi",
+        "type": "person",
+        "reading": "ひぐちあい",
+        "sortKey": "ひぐちあい",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "樋口愛"
+        ]
+      }
+    },
+    {
+      "uid": "b1-65867bc4fcc81fd53dde#0",
+      "creator": {
+        "id": "cr-0239",
+        "name": "ヒトリエ",
+        "slug": "hitorie",
+        "type": "unit",
+        "reading": "ひとりえ",
+        "sortKey": "ひとりえ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6bcc0006d9efcb7a22e3#0",
+      "creator": {
+        "id": "cr-0240",
+        "name": "ぼっちぼろまる",
+        "slug": "botchi-boromaru",
+        "type": "person",
+        "reading": "ぼっちぼろまる",
+        "sortKey": "ぼっちぼろまる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6723de6793ab3c3c6eaf#0",
+      "creator": {
+        "id": "cr-0241",
+        "name": "マオ",
+        "slug": "mao",
+        "type": "person",
+        "reading": "まお",
+        "sortKey": "まお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-916988e9faa29633dc94#0",
+      "creator": {
+        "id": "cr-0242",
+        "name": "ますかっと",
+        "slug": "muscatone",
+        "type": "person",
+        "reading": "ますかっと",
+        "sortKey": "ますかっと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-da11453717c55eb98a2f#0",
+      "creator": {
+        "id": "cr-0243",
+        "name": "まろん",
+        "slug": "maron",
+        "type": "person",
+        "reading": "まろん",
+        "sortKey": "まろん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d82e3bf66ae81c35d3da#0",
+      "creator": {
+        "id": "cr-0244",
+        "name": "ミズノゲンキ",
+        "slug": "genki-mizuno",
+        "type": "person",
+        "reading": "みずのげんき",
+        "sortKey": "みずのげんき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5d3d77f92a985df00f0e#0",
+      "creator": {
+        "id": "cr-0245",
+        "name": "もりちよこ",
+        "slug": "chiyoko-mori",
+        "type": "person",
+        "reading": "もりちよこ",
+        "sortKey": "もりちよこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-4fd965ee59cbbc17175f#0",
+      "creator": {
+        "id": "cr-0246",
+        "name": "やぎぬまかな",
+        "slug": "kana-yaginuma",
+        "type": "person",
+        "reading": "やぎぬまかな",
+        "sortKey": "やぎぬまかな",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-dfdd5b3223fdccd4210a#0",
+      "creator": {
+        "id": "cr-0247",
+        "name": "やしきん",
+        "slug": "yashikin",
+        "type": "person",
+        "reading": "やしきん",
+        "sortKey": "やしきん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-66ae897b64d629d7c4dc#0",
+      "creator": {
+        "id": "cr-0248",
+        "name": "やなぎなぎ",
+        "slug": "yanaginagi",
+        "type": "person",
+        "reading": "やなぎなぎ",
+        "sortKey": "やなぎなぎ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5ef5ea3cf0b4b5464512#0",
+      "creator": {
+        "id": "cr-0249",
+        "name": "ゆーまお",
+        "slug": "yumao",
+        "type": "person",
+        "reading": "ゆーまお",
+        "sortKey": "ゆーまお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-393ca9c492828f6a46db#0",
+      "creator": {
+        "id": "cr-0250",
+        "name": "ゆうゆ",
+        "slug": "yuuyu",
+        "type": "person",
+        "reading": "ゆうゆ",
+        "sortKey": "ゆうゆ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-91f50ceabaf21b5972c7#0",
+      "creator": {
+        "id": "cr-0251",
+        "name": "ゆこぴ",
+        "slug": "yukopi",
+        "type": "person",
+        "reading": "ゆこぴ",
+        "sortKey": "ゆこぴ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-49085675e88a4c3d178b#0",
+      "creator": {
+        "id": "cr-0252",
+        "name": "リーシャウロン",
+        "slug": "lee-shirakawa",
+        "type": "person",
+        "reading": "りーしゃうろん",
+        "sortKey": "りーしゃうろん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-43e464089d468fe7f261#0",
+      "creator": {
+        "id": "cr-0253",
+        "name": "れるりり",
+        "slug": "rerulili",
+        "type": "person",
+        "reading": "れるりり",
+        "sortKey": "れるりり",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-cd84bc4e61f65e090614#0",
+      "creator": {
+        "id": "cr-0254",
+        "name": "伊藤アキラ",
+        "slug": "akira-ito",
+        "type": "person",
+        "reading": "いとうあきら",
+        "sortKey": "いとうあきら",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f40708ee188a6066b91e#0",
+      "creator": {
+        "id": "cr-0255",
+        "name": "伊藤直樹",
+        "slug": "naoki-ito",
+        "type": "person",
+        "reading": "いとうなおき",
+        "sortKey": "いとうなおき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-4fc9d8955b6155d931b2#0",
+      "creator": {
+        "id": "cr-0256",
+        "name": "一二三",
+        "slug": "hihumi",
+        "type": "person",
+        "reading": "ひふみ",
+        "sortKey": "ひふみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-539d1814a7a68c8c1002#0",
+      "creator": {
+        "id": "cr-0257",
+        "name": "永塚健登",
+        "slug": "kento-nagatsuka",
+        "type": "person",
+        "reading": "ながつかけんと",
+        "sortKey": "ながつかけんと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f642705165cefc663b90#0",
+      "creator": {
+        "id": "cr-0258",
+        "name": "園田健太郎",
+        "slug": "kentaro-sonoda",
+        "type": "person",
+        "reading": "そのだけんたろう",
+        "sortKey": "そのだけんたろう",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "園田智也",
+          "木村有希"
+        ]
+      }
+    },
+    {
+      "uid": "b1-1a281a5c5f73908e2ea7#0",
+      "creator": {
+        "id": "cr-0259",
+        "name": "園田凌士",
+        "slug": "ryoji-sonoda",
+        "type": "person",
+        "reading": "そのだりょうじ",
+        "sortKey": "そのだりょうじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "園田利隆",
+          "園田有吾",
+          "おのりく"
+        ]
+      }
+    },
+    {
+      "uid": "b1-16b4e731162c549c9bd9#0",
+      "creator": {
+        "id": "cr-0260",
+        "name": "奥井雅美",
+        "slug": "masami-okui",
+        "type": "person",
+        "reading": "おくいまさみ",
+        "sortKey": "おくいまさみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-2e603f1957aca0f40651#0",
+      "creator": {
+        "id": "cr-0261",
+        "name": "奥井康介",
+        "slug": "kousuke-okui",
+        "type": "person",
+        "reading": "おくいこうすけ",
+        "sortKey": "おくいこうすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-c15ae48ae321e9d78f18#0",
+      "creator": {
+        "id": "cr-0262",
+        "name": "岡村大輔",
+        "slug": "daisuke-okamura",
+        "type": "person",
+        "reading": "おかむらだいすけ",
+        "sortKey": "おかむらだいすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d109fe1b6d1464f7d731#0",
+      "creator": {
+        "id": "cr-0263",
+        "name": "岡野裕次郎",
+        "slug": "yujiro-okano",
+        "type": "person",
+        "reading": "おかのゆうじろう",
+        "sortKey": "おかのゆうじろう",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "岡野裕次郎(TRYTONELABO)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-547bed634aa8f30e061c#0",
+      "creator": {
+        "id": "cr-0264",
+        "name": "恩田快人",
+        "slug": "yoshihito-onda",
+        "type": "person",
+        "reading": "おんだよしひと",
+        "sortKey": "おんだよしひと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-37671b68711a20f0cc17#0",
+      "creator": {
+        "id": "cr-0265",
+        "name": "音羽-otoha-",
+        "slug": "otoha",
+        "type": "person",
+        "reading": "おとは",
+        "sortKey": "おとは",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-afc9132db9ee8076160c#0",
+      "creator": {
+        "id": "cr-0266",
+        "name": "河合英嗣",
+        "slug": "eiji-kawai",
+        "type": "person",
+        "reading": "かわいえいじ",
+        "sortKey": "かわいえいじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-462beeb35c15ad9bc793#0",
+      "creator": {
+        "id": "cr-0267",
+        "name": "河邊徹",
+        "slug": "toru-kawabe",
+        "type": "person",
+        "reading": "かわべとおる",
+        "sortKey": "かわべとおる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-33fff21d0d0e10ccfbc5#0",
+      "creator": {
+        "id": "cr-0268",
+        "name": "岩里祐穂",
+        "slug": "yuho-iwasato",
+        "type": "person",
+        "reading": "いわさとゆうほ",
+        "sortKey": "いわさとゆうほ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5adf90f4304bc8e12285#0",
+      "creator": {
+        "id": "cr-0269",
+        "name": "幾田りら",
+        "slug": "lila-ikuta",
+        "type": "person",
+        "reading": "いくたりら",
+        "sortKey": "いくたりら",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "ikura"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e7d70e4069580c6f07b9#0",
+      "creator": {
+        "id": "cr-0270",
+        "name": "吉峯暁子",
+        "slug": "kyoko-yoshimine",
+        "type": "person",
+        "reading": "よしみねきょうこ",
+        "sortKey": "よしみねきょうこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-67e2d167cfeb49f8ef70#0",
+      "creator": {
+        "id": "cr-0271",
+        "name": "宮崎誠",
+        "slug": "makoto-miyazaki",
+        "type": "person",
+        "reading": "みやざきまこと",
+        "sortKey": "みやざきまこと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-12041d6c03c1f944995b#0",
+      "creator": {
+        "id": "cr-0272",
+        "name": "宮川彬良",
+        "slug": "akira-miyagawa",
+        "type": "person",
+        "reading": "みやがわあきら",
+        "sortKey": "みやがわあきら",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a4866ce15f60372de1be#0",
+      "creator": {
+        "id": "cr-0273",
+        "name": "泣き虫",
+        "slug": "nakimushi",
+        "type": "person",
+        "reading": "なきむし",
+        "sortKey": "なきむし",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-247410cd6f20cb61fd05#0",
+      "creator": {
+        "id": "cr-0274",
+        "name": "吟(BUSTED ROSE)",
+        "slug": "gin",
+        "type": "person",
+        "reading": "ぎん",
+        "sortKey": "ぎん",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "羽柴吟"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e5c0adced4116a728dfc#0",
+      "creator": {
+        "id": "cr-0275",
+        "name": "原口沙輔",
+        "slug": "sasuke-haraguchi",
+        "type": "person",
+        "reading": "はらぐちさすけ",
+        "sortKey": "はらぐちさすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-58c4e8f1ec4142a18174#0",
+      "creator": {
+        "id": "cr-0276",
+        "name": "吾龍",
+        "slug": "goryu",
+        "type": "person",
+        "reading": "ごりゅう",
+        "sortKey": "ごりゅう",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "KOOL"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e5334ebf6d7e06f9e914#0",
+      "creator": {
+        "id": "cr-0277",
+        "name": "後藤正文",
+        "slug": "masafumi-gotoh",
+        "type": "person",
+        "reading": "ごとうまさふみ",
+        "sortKey": "ごとうまさふみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "gotch"
+        ]
+      }
+    },
+    {
+      "uid": "b1-0a70b158510ce27c3524#0",
+      "creator": {
+        "id": "cr-0278",
+        "name": "AKi",
+        "slug": "aki",
+        "type": "person",
+        "reading": "あき",
+        "sortKey": "あき",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "明希",
+          "御恵明希"
+        ]
+      }
+    },
+    {
+      "uid": "b1-56298a71ec9a5dc3d23f#0",
+      "creator": {
+        "id": "cr-0279",
+        "name": "広井王子",
+        "slug": "oji-hiroi",
+        "type": "person",
+        "reading": "ひろいおうじ",
+        "sortKey": "ひろいおうじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-dac67868e6e4a69b10de#0",
+      "creator": {
+        "id": "cr-0280",
+        "name": "高瀬一矢",
+        "slug": "kazuya-takase",
+        "type": "person",
+        "reading": "たかせかずや",
+        "sortKey": "たかせかずや",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6427ee4579abe0368f2d#0",
+      "creator": {
+        "id": "cr-0281",
+        "name": "黒うさP",
+        "slug": "kurousa",
+        "type": "person",
+        "reading": "くろうさぴー",
+        "sortKey": "くろうさぴー",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "黒うさ"
+        ]
+      }
+    },
+    {
+      "uid": "b1-9c247cabcb5162543d57#0",
+      "creator": {
+        "id": "cr-0282",
+        "name": "佐々木想",
+        "slug": "so-sasaki",
+        "type": "person",
+        "reading": "ささきそう",
+        "sortKey": "ささきそう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a65ed011ff40b6d7fbfc#0",
+      "creator": {
+        "id": "cr-0283",
+        "name": "阪井一生",
+        "slug": "kazuki-sakai",
+        "type": "person",
+        "reading": "さかいかずき",
+        "sortKey": "さかいかずき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3caa459bd5005108c170#0",
+      "creator": {
+        "id": "cr-0284",
+        "name": "桜アス恵",
+        "slug": "asue-sakura",
+        "type": "person",
+        "reading": "さくらあすえ",
+        "sortKey": "さくらあすえ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "桜アス恵(TRYTONELABO)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-d338d3a3f4686b7ba574#0",
+      "creator": {
+        "id": "cr-0285",
+        "name": "三島想平",
+        "slug": "souhei-mishima",
+        "type": "person",
+        "reading": "みしまそうへい",
+        "sortKey": "みしまそうへい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5c26d2903c02f84503f5#0",
+      "creator": {
+        "id": "cr-0286",
+        "name": "みや",
+        "slug": "miya",
+        "type": "person",
+        "reading": "みや",
+        "sortKey": "みや",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "我妻三輪子"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e0e4fbcbcc8438101706#0",
+      "creator": {
+        "id": "cr-0287",
+        "name": "山口朗彦",
+        "slug": "akihiko-yamaguchi",
+        "type": "person",
+        "reading": "やまぐちあきひこ",
+        "sortKey": "やまぐちあきひこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d45c84b3f81753e6a7f0#0",
+      "creator": {
+        "id": "cr-0288",
+        "name": "山崎寛子",
+        "slug": "hiroko-yamasaki",
+        "type": "person",
+        "reading": "やまさきひろこ",
+        "sortKey": "やまさきひろこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f3c23daeb80fc5101189#0",
+      "creator": {
+        "id": "cr-0289",
+        "name": "山村隆太",
+        "slug": "ryuta-yamamura",
+        "type": "person",
+        "reading": "やまむらりゅうた",
+        "sortKey": "やまむらりゅうた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-931fef77b702d10b3feb#0",
+      "creator": {
+        "id": "cr-0290",
+        "name": "山中拓也",
+        "slug": "takuya-yamanaka",
+        "type": "person",
+        "reading": "やまなかたくや",
+        "sortKey": "やまなかたくや",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3586b93d2c188cd58474#0",
+      "creator": {
+        "id": "cr-0291",
+        "name": "山田高弘",
+        "slug": "takahiro-yamada",
+        "type": "person",
+        "reading": "やまだたかひろ",
+        "sortKey": "やまだたかひろ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-e20af8f5dbaccec9923f#0",
+      "creator": {
+        "id": "cr-0292",
+        "name": "氏原ワタル",
+        "slug": "wataru-ujihara",
+        "type": "person",
+        "reading": "うじはらわたる",
+        "sortKey": "うじはらわたる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-938c2a2435195af49776#0",
+      "creator": {
+        "id": "cr-0293",
+        "name": "寺中友将",
+        "slug": "tomomasa-teranaka",
+        "type": "person",
+        "reading": "てらなかともまさ",
+        "sortKey": "てらなかともまさ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-7776a76b048a03529657#0",
+      "creator": {
+        "id": "cr-0294",
+        "name": "寺島拓篤",
+        "slug": "takuma-terashima",
+        "type": "person",
+        "reading": "てらしまたくま",
+        "sortKey": "てらしまたくま",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-158501827418558fd102#0",
+      "creator": {
+        "id": "cr-0295",
+        "name": "若林充",
+        "slug": "mitsuru-wakabayashi",
+        "type": "person",
+        "reading": "わかばやしみつる",
+        "sortKey": "わかばやしみつる",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-6c645a49994fe5f741d7#0",
+      "creator": {
+        "id": "cr-0296",
+        "name": "秋山澪",
+        "slug": "mio-akiyama",
+        "type": "person",
+        "reading": "あきやまみお",
+        "sortKey": "あきやまみお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-4bcc6d97ffede58560c9#0",
+      "creator": {
+        "id": "cr-0297",
+        "name": "俊龍",
+        "slug": "shunryu",
+        "type": "person",
+        "reading": "しゅんりゅう",
+        "sortKey": "しゅんりゅう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-0bbc4359dc2b9de710fd#0",
+      "creator": {
+        "id": "cr-0298",
+        "name": "瞬火",
+        "slug": "matatabi",
+        "type": "person",
+        "reading": "またたび",
+        "sortKey": "またたび",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3d560669355ab3461623#0",
+      "creator": {
+        "id": "cr-0299",
+        "name": "小室みつ子",
+        "slug": "mitsuko-komuro",
+        "type": "person",
+        "reading": "こむろみつこ",
+        "sortKey": "こむろみつこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "西門加里"
+        ]
+      }
+    },
+    {
+      "uid": "b1-8db9cda13f9fa81530d7#0",
+      "creator": {
+        "id": "cr-0300",
+        "name": "小諸鉄矢",
+        "slug": "tetsuya-komoro",
+        "type": "person",
+        "reading": "こもろてつや",
+        "sortKey": "こもろてつや",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "吉江一男"
+        ]
+      }
+    },
+    {
+      "uid": "b1-d8753949d707d73cedda#0",
+      "creator": {
+        "id": "cr-0301",
+        "name": "小森成雄",
+        "slug": "shigeo-komori",
+        "type": "person",
+        "reading": "こもりしげお",
+        "sortKey": "こもりしげお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fa7b1e6d67df1191ad35#0",
+      "creator": {
+        "id": "cr-0302",
+        "name": "小杉保夫",
+        "slug": "yasuo-kosugi",
+        "type": "person",
+        "reading": "こすぎやすお",
+        "sortKey": "こすぎやすお",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "Funky Y.K"
+        ]
+      }
+    },
+    {
+      "uid": "b1-eeed6f899e58708cac5e#0",
+      "creator": {
+        "id": "cr-0303",
+        "name": "小田佳奈子",
+        "slug": "kanako-oda",
+        "type": "person",
+        "reading": "おだかなこ",
+        "sortKey": "おだかなこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5bef31c99954be96192b#0",
+      "creator": {
+        "id": "cr-0304",
+        "name": "小幡庸裕",
+        "slug": "yasuhiro-obata",
+        "type": "person",
+        "reading": "おばたやすひろ",
+        "sortKey": "おばたやすひろ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-d9483c67658a14dccf0f#0",
+      "creator": {
+        "id": "cr-0305",
+        "name": "小林泉美",
+        "slug": "izumi-kobayashi",
+        "type": "person",
+        "reading": "こばやしいずみ",
+        "sortKey": "こばやしいずみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "MIMI",
+          "小林”mimi”泉美"
+        ]
+      }
+    },
+    {
+      "uid": "b1-fc8f789173c4057f030c#0",
+      "creator": {
+        "id": "cr-0306",
+        "name": "新しい学校のリーダーズ",
+        "slug": "atarashii-gakko",
+        "type": "unit",
+        "reading": "あたらしいがっこうのりーだーず",
+        "sortKey": "あたらしいがっこうのりーだーず",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "新しい学校のリーダー達"
+        ]
+      }
+    },
+    {
+      "uid": "b1-2bfb52ad85bba72d6bfb#0",
+      "creator": {
+        "id": "cr-0307",
+        "name": "新田目翔",
+        "slug": "show-aratame",
+        "type": "person",
+        "reading": "あらためしょう",
+        "sortKey": "あらためしょう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-bbe34b18399ba4e58e76#0",
+      "creator": {
+        "id": "cr-0308",
+        "name": "森本錬",
+        "slug": "ren-morimoto",
+        "type": "person",
+        "reading": "もりもとれん",
+        "sortKey": "もりもとれん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3c1eea032a46d214daa8#0",
+      "creator": {
+        "id": "cr-0309",
+        "name": "森由里子",
+        "slug": "yuriko-mori",
+        "type": "person",
+        "reading": "もりゆりこ",
+        "sortKey": "もりゆりこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3857adbb5b4613114050#0",
+      "creator": {
+        "id": "cr-0310",
+        "name": "森林檎",
+        "slug": "ringo-mori",
+        "type": "person",
+        "reading": "もりりんご",
+        "sortKey": "もりりんご",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-b2716bd1b6b1586e987f#0",
+      "creator": {
+        "id": "cr-0311",
+        "name": "深青結希",
+        "slug": "yuki-misao",
+        "type": "person",
+        "reading": "みさおゆうき",
+        "sortKey": "みさおゆうき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-bf111c009024f8941564#0",
+      "creator": {
+        "id": "cr-0312",
+        "name": "秦基博",
+        "slug": "motohiro-hata",
+        "type": "person",
+        "reading": "はたもとひろ",
+        "sortKey": "はたもとひろ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-cf8fdb25efcc0247f13d#0",
+      "creator": {
+        "id": "cr-0313",
+        "name": "水野悠良",
+        "slug": "yura-mizuno",
+        "type": "person",
+        "reading": "みずのゆら",
+        "sortKey": "みずのゆら",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-490001dbd44591918dd2#0",
+      "creator": {
+        "id": "cr-0314",
+        "name": "菅野よう子",
+        "slug": "yoko-kanno",
+        "type": "person",
+        "reading": "かんのようこ",
+        "sortKey": "かんのようこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fd141d95f7b33a98b371#0",
+      "creator": {
+        "id": "cr-0315",
+        "name": "折戸伸治",
+        "slug": "shinji-orito",
+        "type": "person",
+        "reading": "おりとしんじ",
+        "sortKey": "おりとしんじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-9d50ab729ba903afa27a#0",
+      "creator": {
+        "id": "cr-0316",
+        "name": "川上洋平",
+        "slug": "yoohei-kawakami",
+        "type": "person",
+        "reading": "かわかみようへい",
+        "sortKey": "かわかみようへい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3c164a01efbd4d649ded#0",
+      "creator": {
+        "id": "cr-0317",
+        "name": "川田まみ",
+        "slug": "mami-kawada",
+        "type": "person",
+        "reading": "かわだまみ",
+        "sortKey": "かわだまみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a074d1e8e33bb3323999#0",
+      "creator": {
+        "id": "cr-0318",
+        "name": "草野正宗",
+        "slug": "masamune-kusano",
+        "type": "person",
+        "reading": "くさのまさむね",
+        "sortKey": "くさのまさむね",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "草野マサムネ"
+        ]
+      }
+    },
+    {
+      "uid": "b1-e810dc473c5fe705898a#0",
+      "creator": {
+        "id": "cr-0319",
+        "name": "太志",
+        "slug": "futoshi",
+        "type": "person",
+        "reading": "ふとし",
+        "sortKey": "ふとし",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "太志(Aqua Timez)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-af681154dccfc0265175#0",
+      "creator": {
+        "id": "cr-0320",
+        "name": "太田雄大",
+        "slug": "yudai-ohta",
+        "type": "person",
+        "reading": "おおたゆうだい",
+        "sortKey": "おおたゆうだい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-76e2837f2f0ba6485178#0",
+      "creator": {
+        "id": "cr-0321",
+        "name": "大介",
+        "slug": "daisuke",
+        "type": "person",
+        "reading": "だいすけ",
+        "sortKey": "だいすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "大介(Aqua Timez)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-1984c24040720af6ca55#0",
+      "creator": {
+        "id": "cr-0322",
+        "name": "大隅知宇",
+        "slug": "tomotaka-osumi",
+        "type": "person",
+        "reading": "おおすみともたか",
+        "sortKey": "おおすみともたか",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-ff110ed004deb3a8f334#0",
+      "creator": {
+        "id": "cr-0323",
+        "name": "大森俊之",
+        "slug": "toshiyuki-omori",
+        "type": "person",
+        "reading": "おおもりとしゆき",
+        "sortKey": "おおもりとしゆき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-8a1411dd27ebc65e0445#0",
+      "creator": {
+        "id": "cr-0324",
+        "name": "大川茂伸",
+        "slug": "shigenobu-okawa",
+        "type": "person",
+        "reading": "おおもりしげのぶ",
+        "sortKey": "おおもりしげのぶ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a18f30071e2f4b7f0834#0",
+      "creator": {
+        "id": "cr-0325",
+        "name": "大濱健悟",
+        "slug": "kengo-ohama",
+        "type": "person",
+        "reading": "おおはまけんご",
+        "sortKey": "おおはまけんご",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-75bc6f55895854797a5f#0",
+      "creator": {
+        "id": "cr-0326",
+        "name": "宅見将典",
+        "slug": "masanori-takumi",
+        "type": "person",
+        "reading": "たくみまさのり",
+        "sortKey": "たくみまさのり",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "Masa Takumi"
+        ]
+      }
+    },
+    {
+      "uid": "b1-0afdac97bfa197941f99#0",
+      "creator": {
+        "id": "cr-0327",
+        "name": "池毅",
+        "slug": "takashi-ike",
+        "type": "person",
+        "reading": "いけたかし",
+        "sortKey": "いけたかし",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-16c624d3b67ebe9baa35#0",
+      "creator": {
+        "id": "cr-0328",
+        "name": "中沢伴行",
+        "slug": "tomoyuki-nakazawa",
+        "type": "person",
+        "reading": "なかざわともゆき",
+        "sortKey": "なかざわともゆき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-9adc901b0db1eb46210f#0",
+      "creator": {
+        "id": "cr-0329",
+        "name": "中田ヤスタカ",
+        "slug": "yasutaka-nakata",
+        "type": "person",
+        "reading": "なかたやすたか",
+        "sortKey": "なかたやすたか",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5daf7521e275422c1a63#0",
+      "creator": {
+        "id": "cr-0330",
+        "name": "町田紀彦",
+        "slug": "norihiko-machida",
+        "type": "person",
+        "reading": "まちだのりひこ",
+        "sortKey": "まちだのりひこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fa3db4ea94453fe0d0f5#0",
+      "creator": {
+        "id": "cr-0331",
+        "name": "椎名林檎",
+        "slug": "ringo-sheena",
+        "type": "person",
+        "reading": "しいなりんご",
+        "sortKey": "しいなりんご",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-c4b2184e8f3d50aa7f4d#0",
+      "creator": {
+        "id": "cr-0332",
+        "name": "田鹿祐一",
+        "slug": "yuichi-tajika",
+        "type": "person",
+        "reading": "たじかゆういち",
+        "sortKey": "たじかゆういち",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-5939e173aec80f96c20a#0",
+      "creator": {
+        "id": "cr-0333",
+        "name": "渡辺和紀",
+        "slug": "kazunori-watanabe",
+        "type": "person",
+        "reading": "わたなべかずのり",
+        "sortKey": "わたなべかずのり",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-954e6a4aaf371bb3f0f0#0",
+      "creator": {
+        "id": "cr-0334",
+        "name": "渡邊亜希子",
+        "slug": "akiko-watanabe",
+        "type": "person",
+        "reading": "わたなべあきこ",
+        "sortKey": "わたなべあきこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-afc87da155e26b71d37d#0",
+      "creator": {
+        "id": "cr-0335",
+        "name": "祝千寿",
+        "slug": "senjyu-iwai",
+        "type": "person",
+        "reading": "いわいせんじゅ",
+        "sortKey": "いわいせんじゅ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "凍堂遊維"
+        ]
+      }
+    },
+    {
+      "uid": "b1-501d913437bbf5f7b9da#0",
+      "creator": {
+        "id": "cr-0336",
+        "name": "東野へいと",
+        "slug": "heito-higashino",
+        "type": "person",
+        "reading": "ひがしのへいと",
+        "sortKey": "ひがしのへいと",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-e967626007b8a252bcf0#0",
+      "creator": {
+        "id": "cr-0337",
+        "name": "藤井怜央",
+        "slug": "leo-fujii",
+        "type": "person",
+        "reading": "ふじいれお",
+        "sortKey": "ふじいれお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3fd908e7c5fc188516cc#0",
+      "creator": {
+        "id": "cr-0338",
+        "name": "藤巻亮太",
+        "slug": "ryota-fujimaki",
+        "type": "person",
+        "reading": "ふじまきりょうた",
+        "sortKey": "ふじまきりょうた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-9d771697429c1277b691#0",
+      "creator": {
+        "id": "cr-0339",
+        "name": "藤原燈太",
+        "slug": "tota-fujiwara",
+        "type": "person",
+        "reading": "ふじわらとうた",
+        "sortKey": "ふじわらとうた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-636f43e334809fe1e551#0",
+      "creator": {
+        "id": "cr-0340",
+        "name": "鴇沢直",
+        "slug": "nao-tokisawa",
+        "type": "person",
+        "reading": "ときさわなお",
+        "sortKey": "ときさわなお",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-1813882e3feafbf985de#0",
+      "creator": {
+        "id": "cr-0341",
+        "name": "日比野裕史",
+        "slug": "hirofumi-hibino",
+        "type": "person",
+        "reading": "ひびのひろふみ",
+        "sortKey": "ひびのひろふみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-fa3e5baefa529e9ab3da#0",
+      "creator": {
+        "id": "cr-0342",
+        "name": "破矢ジンタ",
+        "slug": "jinta-hashi",
+        "type": "person",
+        "reading": "はしじんた",
+        "sortKey": "はしじんた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-051703cee9b46227cad9#0",
+      "creator": {
+        "id": "cr-0343",
+        "name": "馬渡松子",
+        "slug": "matsuko-mawatari",
+        "type": "person",
+        "reading": "まわたりまつこ",
+        "sortKey": "まわたりまつこ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-3a954d4780af7acc3412#0",
+      "creator": {
+        "id": "cr-0344",
+        "name": "馬渕直純",
+        "slug": "naozumi-mabuchi",
+        "type": "person",
+        "reading": "まぶちなおずみ",
+        "sortKey": "まぶちなおずみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-86144e49c6797673c312#0",
+      "creator": {
+        "id": "cr-0345",
+        "name": "白戸佑輔",
+        "slug": "yusuke-shirato",
+        "type": "person",
+        "reading": "しらとゆうすけ",
+        "sortKey": "しらとゆうすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-be2f872b0d4ba21abd2f#1",
+      "creator": {
+        "id": "cr-0346",
+        "name": "yuki-ka",
+        "slug": "yuki-ka",
+        "type": "person",
+        "reading": "ゆきか",
+        "sortKey": "ゆきか",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f5cc9aecf3fc016c8ad6#0",
+      "creator": {
+        "id": "cr-0347",
+        "name": "飛内将大",
+        "slug": "masahiro-tobinai",
+        "type": "person",
+        "reading": "とびないまさひろ",
+        "sortKey": "とびないまさひろ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-bd5bebe91cbf85233f57#0",
+      "creator": {
+        "id": "cr-0348",
+        "name": "尾崎雄貴",
+        "slug": "yuuki-ozaki",
+        "type": "person",
+        "reading": "おざきゆうき",
+        "sortKey": "おざきゆうき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-35944f967fbfeb861c2c#0",
+      "creator": {
+        "id": "cr-0349",
+        "name": "柊キライ",
+        "slug": "kirai-hiiragi",
+        "type": "person",
+        "reading": "ひいらぎきらい",
+        "sortKey": "ひいらぎきらい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-11a3aca575c88ab5200a#0",
+      "creator": {
+        "id": "cr-0350",
+        "name": "福島智朗",
+        "slug": "tomoaki-fukushima",
+        "type": "person",
+        "reading": "ふくしまともあき",
+        "sortKey": "ふくしまともあき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-8a6fce8454111f1ee43d#0",
+      "creator": {
+        "id": "cr-0351",
+        "name": "分島花音",
+        "slug": "kanon-wakeshima",
+        "type": "person",
+        "reading": "わけしまかのん",
+        "sortKey": "わけしまかのん",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a325dd67f7c75e2880fe#0",
+      "creator": {
+        "id": "cr-0352",
+        "name": "片岡健太",
+        "slug": "kenta-kataoka",
+        "type": "person",
+        "reading": "かたおかけんた",
+        "sortKey": "かたおかけんた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-576bdbcc5ebd9c33a362#0",
+      "creator": {
+        "id": "cr-0353",
+        "name": "北川賢一",
+        "slug": "kenichi-kitagawa",
+        "type": "person",
+        "reading": "きたがわけんいち",
+        "sortKey": "きたがわけんいち",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-4ceb137471977e31a503#0",
+      "creator": {
+        "id": "cr-0354",
+        "name": "本多友紀",
+        "slug": "yuki-honda",
+        "type": "person",
+        "reading": "ほんだゆうき",
+        "sortKey": "ほんだゆうき",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "本多友紀(Arte Refact)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-62c7660fd4f83894e94f#0",
+      "creator": {
+        "id": "cr-0355",
+        "name": "野村陽一郎",
+        "slug": "yoichiro-nomura",
+        "type": "person",
+        "reading": "のむらよういちろう",
+        "sortKey": "のむらよういちろう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-62c4c54a5d9446005e41#0",
+      "creator": {
+        "id": "cr-0356",
+        "name": "矢吹俊郎",
+        "slug": "toshiro-yabuki",
+        "type": "person",
+        "reading": "やぶきとしろう",
+        "sortKey": "やぶきとしろう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-a419967b1fc00f1e3fef#0",
+      "creator": {
+        "id": "cr-0357",
+        "name": "柳沢亮太",
+        "slug": "ryota-yanagisawa",
+        "type": "person",
+        "reading": "やなぎさわりょうた",
+        "sortKey": "やなぎさわりょうた",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-868a2661ad6e8d00e4a4#0",
+      "creator": {
+        "id": "cr-0358",
+        "name": "有澤孝紀",
+        "slug": "takanori-arisawa",
+        "type": "person",
+        "reading": "ありさわたかのり",
+        "sortKey": "ありさわたかのり",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-02daacea7527a8111eea#0",
+      "creator": {
+        "id": "cr-0359",
+        "name": "和賀祐希",
+        "slug": "yuki-waga",
+        "type": "person",
+        "reading": "わがゆうき",
+        "sortKey": "わがゆうき",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-b64c1d7972f2f059bcab#0",
+      "creator": {
+        "id": "cr-0360",
+        "name": "廣澤優也",
+        "slug": "yuya-hirosawa",
+        "type": "person",
+        "reading": "ひろさわゆうや",
+        "sortKey": "ひろさわゆうや",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "廣澤優也(HANO)"
+        ]
+      }
+    },
+    {
+      "uid": "b1-33c296b2593f25456547#0",
+      "creator": {
+        "id": "cr-0361",
+        "name": "斎藤真也",
+        "slug": "shinya-saito",
+        "type": "person",
+        "reading": "さいとうしんや",
+        "sortKey": "さいとうしんや",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-cd4a20c9309da244ec94#0",
+      "creator": {
+        "id": "cr-0362",
+        "name": "斎藤信治",
+        "slug": "shinji-saito",
+        "type": "person",
+        "reading": "さいとうしんじ",
+        "sortKey": "さいとうしんじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-0453649b5d96b1b9f98d#0",
+      "creator": {
+        "id": "cr-0363",
+        "name": "KOHSHI",
+        "slug": "kohshi",
+        "type": "person",
+        "reading": "こうし",
+        "sortKey": "こうし",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "KOHSHI ASAKAWA"
+        ]
+      }
+    },
+    {
+      "uid": "b1-2869fa462d98ce2cbbd7#0",
+      "creator": {
+        "id": "cr-0364",
+        "name": "ひとみ",
+        "slug": "hitomi",
+        "type": "person",
+        "reading": "ひとみ",
+        "sortKey": "ひとみ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-075f3cf0b1bb4831fbb1#0",
+      "creator": {
+        "id": "cr-0365",
+        "name": "重永亮介",
+        "slug": "ryosuke-shigenaga",
+        "type": "person",
+        "reading": "しげながりょうすけ",
+        "sortKey": "しげながりょうすけ",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f592642bee4246b5b891#0",
+      "creator": {
+        "id": "cr-0366",
+        "name": "杉本雄治",
+        "slug": "yuji-sugimoto",
+        "type": "person",
+        "reading": "すぎもとゆうじ",
+        "sortKey": "すぎもとゆうじ",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "ONCE"
+        ]
+      }
+    },
+    {
+      "uid": "b1-73cecab2e5e9bcaff092#0",
+      "creator": {
+        "id": "cr-0367",
+        "name": "中村彼方",
+        "slug": "kanata-nakamura",
+        "type": "person",
+        "reading": "なかむらかなた",
+        "sortKey": "なかむらかなた",
+        "sortKeyStatus": "confirmed",
+        "aliases": [
+          "KANATA"
+        ]
+      }
+    },
+    {
+      "uid": "b1-621ab783881d2aee2b9a#0",
+      "creator": {
+        "id": "cr-0368",
+        "name": "津波幸平",
+        "slug": "kohei-tsunami",
+        "type": "person",
+        "reading": "つなみこうへい",
+        "sortKey": "つなみこうへい",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-438e0b66f47ebd93d1ac#0",
+      "creator": {
+        "id": "cr-0369",
+        "name": "田代智一",
+        "slug": "tomokazu-tashiro",
+        "type": "person",
+        "reading": "たしろともかず",
+        "sortKey": "たしろともかず",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-699671a1485c6747c725#0",
+      "creator": {
+        "id": "cr-0370",
+        "name": "日向電工",
+        "slug": "hinatadenko",
+        "type": "person",
+        "reading": "ひなたでんこう",
+        "sortKey": "ひなたでんこう",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    },
+    {
+      "uid": "b1-f108d96030d53d2e9701#0",
+      "creator": {
+        "id": "cr-0371",
+        "name": "北川勝利",
+        "slug": "katsutoshi-kitagawa",
+        "type": "person",
+        "reading": "きたがわかつとし",
+        "sortKey": "きたがわかつとし",
+        "sortKeyStatus": "confirmed",
+        "aliases": []
+      }
+    }
+  ],
+  "aliasChanges": [],
+  "held": [],
+  "formalAdded": [
+    {
+      "creatorId": "cr-0170",
+      "raw": "164",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 224
+    },
+    {
+      "creatorId": "cr-0170",
+      "raw": "164",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 224
+    },
+    {
+      "creatorId": "cr-0171",
+      "raw": "96",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 69
+    },
+    {
+      "creatorId": "cr-0172",
+      "raw": "AI YAZAWA",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 101
+    },
+    {
+      "creatorId": "cr-0173",
+      "raw": "aimerrhythm",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 370
+    },
+    {
+      "creatorId": "cr-0174",
+      "raw": "AIMI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 152
+    },
+    {
+      "creatorId": "cr-0174",
+      "raw": "AIMI",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 152
+    },
+    {
+      "creatorId": "cr-0175",
+      "raw": "AKASAKI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 674
+    },
+    {
+      "creatorId": "cr-0175",
+      "raw": "AKASAKI",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 674
+    },
+    {
+      "creatorId": "cr-0176",
+      "raw": "Aqua Timez",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 713
+    },
+    {
+      "creatorId": "cr-0177",
+      "raw": "Benjamin Franklin",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 123
+    },
+    {
+      "creatorId": "cr-0178",
+      "raw": "BETTI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 84
+    },
+    {
+      "creatorId": "cr-0178",
+      "raw": "BETTI",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 84
+    },
+    {
+      "creatorId": "cr-0179",
+      "raw": "Chinozo",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 376
+    },
+    {
+      "creatorId": "cr-0179",
+      "raw": "Chinozo",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 376
+    },
+    {
+      "creatorId": "cr-0180",
+      "raw": "cinema staff",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 52
+    },
+    {
+      "creatorId": "cr-0181",
+      "raw": "DAIGO",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 80
+    },
+    {
+      "creatorId": "cr-0182",
+      "raw": "doriko",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 133
+    },
+    {
+      "creatorId": "cr-0182",
+      "raw": "doriko",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 133
+    },
+    {
+      "creatorId": "cr-0183",
+      "raw": "emon(Tes.)",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 558
+    },
+    {
+      "creatorId": "cr-0183",
+      "raw": "emon(Tes.)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 558
+    },
+    {
+      "creatorId": "cr-0184",
+      "raw": "EREN",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 572
+    },
+    {
+      "creatorId": "cr-0185",
+      "raw": "fripSide",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 266
+    },
+    {
+      "creatorId": "cr-0186",
+      "raw": "Funta3",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 305
+    },
+    {
+      "creatorId": "cr-0187",
+      "raw": "Goose house",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 31
+    },
+    {
+      "creatorId": "cr-0187",
+      "raw": "Goose house",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 31
+    },
+    {
+      "creatorId": "cr-0188",
+      "raw": "GReeeeN",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 682
+    },
+    {
+      "creatorId": "cr-0188",
+      "raw": "GReeeeN",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 682
+    },
+    {
+      "creatorId": "cr-0189",
+      "raw": "Haruka",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 246
+    },
+    {
+      "creatorId": "cr-0190",
+      "raw": "Heart's Cry",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 216
+    },
+    {
+      "creatorId": "cr-0190",
+      "raw": "Heart's Cry",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 216
+    },
+    {
+      "creatorId": "cr-0191",
+      "raw": "Hibiki",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 169
+    },
+    {
+      "creatorId": "cr-0192",
+      "raw": "hotaru",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 426
+    },
+    {
+      "creatorId": "cr-0193",
+      "raw": "H是都M",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 248
+    },
+    {
+      "creatorId": "cr-0194",
+      "raw": "ika_mo",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 108
+    },
+    {
+      "creatorId": "cr-0194",
+      "raw": "ika_mo",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 108
+    },
+    {
+      "creatorId": "cr-0106",
+      "raw": "Jun Maeda",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 145
+    },
+    {
+      "creatorId": "cr-0106",
+      "raw": "Jun Maeda",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 145
+    },
+    {
+      "creatorId": "cr-0195",
+      "raw": "Junky",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 94
+    },
+    {
+      "creatorId": "cr-0195",
+      "raw": "Junky",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 94
+    },
+    {
+      "creatorId": "cr-0196",
+      "raw": "KEIGO HAYASHI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 120
+    },
+    {
+      "creatorId": "cr-0363",
+      "raw": "KOHSHI ASAKAWA",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 120
+    },
+    {
+      "creatorId": "cr-0197",
+      "raw": "KOCHO",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 95
+    },
+    {
+      "creatorId": "cr-0363",
+      "raw": "KOHSHI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 226
+    },
+    {
+      "creatorId": "cr-0198",
+      "raw": "Koji Mihara",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 493
+    },
+    {
+      "creatorId": "cr-0198",
+      "raw": "Koji Mihara",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 493
+    },
+    {
+      "creatorId": "cr-0199",
+      "raw": "Last Note.",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 281
+    },
+    {
+      "creatorId": "cr-0199",
+      "raw": "Last Note.",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 281
+    },
+    {
+      "creatorId": "cr-0200",
+      "raw": "leonn",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 155
+    },
+    {
+      "creatorId": "cr-0201",
+      "raw": "MEGUMI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 299
+    },
+    {
+      "creatorId": "cr-0202",
+      "raw": "meiyo",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 607
+    },
+    {
+      "creatorId": "cr-0202",
+      "raw": "meiyo",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 607
+    },
+    {
+      "creatorId": "cr-0203",
+      "raw": "MELL",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 68
+    },
+    {
+      "creatorId": "cr-0204",
+      "raw": "minatoku",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 196
+    },
+    {
+      "creatorId": "cr-0205",
+      "raw": "Mitchie M",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 292
+    },
+    {
+      "creatorId": "cr-0205",
+      "raw": "Mitchie M",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 292
+    },
+    {
+      "creatorId": "cr-0206",
+      "raw": "MIZUE",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 772
+    },
+    {
+      "creatorId": "cr-0207",
+      "raw": "Mr.FanTastiC",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 522
+    },
+    {
+      "creatorId": "cr-0208",
+      "raw": "MY FIRST STORY",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 295
+    },
+    {
+      "creatorId": "cr-0209",
+      "raw": "Nakajin",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 676
+    },
+    {
+      "creatorId": "cr-0210",
+      "raw": "Neko Hacker",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 555
+    },
+    {
+      "creatorId": "cr-0211",
+      "raw": "Numa",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 387
+    },
+    {
+      "creatorId": "cr-0212",
+      "raw": "SCANDAL",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 154
+    },
+    {
+      "creatorId": "cr-0213",
+      "raw": "小林夏海",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 154
+    },
+    {
+      "creatorId": "cr-0214",
+      "raw": "SIAM SHADE",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 195
+    },
+    {
+      "creatorId": "cr-0214",
+      "raw": "SIAM SHADE",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 195
+    },
+    {
+      "creatorId": "cr-0215",
+      "raw": "TAKUMA",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 545
+    },
+    {
+      "creatorId": "cr-0215",
+      "raw": "TAKUMA",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 545
+    },
+    {
+      "creatorId": "cr-0216",
+      "raw": "tetsuya",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 74
+    },
+    {
+      "creatorId": "cr-0217",
+      "raw": "TKT",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 572
+    },
+    {
+      "creatorId": "cr-0218",
+      "raw": "TOPHAMHAT-KYO (FAKE TYPE.)",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 60
+    },
+    {
+      "creatorId": "cr-0219",
+      "raw": "WEST GROUND",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 196
+    },
+    {
+      "creatorId": "cr-0220",
+      "raw": "y0c1e",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 357
+    },
+    {
+      "creatorId": "cr-0221",
+      "raw": "YONKEY",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 605
+    },
+    {
+      "creatorId": "cr-0222",
+      "raw": "YUKI",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 35
+    },
+    {
+      "creatorId": "cr-0223",
+      "raw": "あさき",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 69
+    },
+    {
+      "creatorId": "cr-0224",
+      "raw": "イイジマケン",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 143
+    },
+    {
+      "creatorId": "cr-0225",
+      "raw": "いよわ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 571
+    },
+    {
+      "creatorId": "cr-0225",
+      "raw": "いよわ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 571
+    },
+    {
+      "creatorId": "cr-0226",
+      "raw": "かめりあ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 556
+    },
+    {
+      "creatorId": "cr-0226",
+      "raw": "かめりあ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 556
+    },
+    {
+      "creatorId": "cr-0227",
+      "raw": "カヨコ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 342
+    },
+    {
+      "creatorId": "cr-0228",
+      "raw": "くじら",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 390
+    },
+    {
+      "creatorId": "cr-0228",
+      "raw": "くじら",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 390
+    },
+    {
+      "creatorId": "cr-0229",
+      "raw": "クボナオキ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 186
+    },
+    {
+      "creatorId": "cr-0230",
+      "raw": "ケリー",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 374
+    },
+    {
+      "creatorId": "cr-0231",
+      "raw": "シュンタロウ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 187
+    },
+    {
+      "creatorId": "cr-0231",
+      "raw": "シュンタロウ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 187
+    },
+    {
+      "creatorId": "cr-0144",
+      "raw": "じん（自然の敵Ｐ）",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 609
+    },
+    {
+      "creatorId": "cr-0144",
+      "raw": "じん（自然の敵Ｐ）",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 609
+    },
+    {
+      "creatorId": "cr-0232",
+      "raw": "すぅ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 186
+    },
+    {
+      "creatorId": "cr-0233",
+      "raw": "たかはし　ごう",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 299
+    },
+    {
+      "creatorId": "cr-0234",
+      "raw": "たくや",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 324
+    },
+    {
+      "creatorId": "cr-0234",
+      "raw": "たくや",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 324
+    },
+    {
+      "creatorId": "cr-0235",
+      "raw": "てにをは",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 526
+    },
+    {
+      "creatorId": "cr-0235",
+      "raw": "てにをは",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 526
+    },
+    {
+      "creatorId": "cr-0236",
+      "raw": "のぼる↑",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 725
+    },
+    {
+      "creatorId": "cr-0236",
+      "raw": "のぼる↑",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 725
+    },
+    {
+      "creatorId": "cr-0237",
+      "raw": "のりぴー",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 270
+    },
+    {
+      "creatorId": "cr-0238",
+      "raw": "ヒグチアイ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 635
+    },
+    {
+      "creatorId": "cr-0238",
+      "raw": "ヒグチアイ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 635
+    },
+    {
+      "creatorId": "cr-0364",
+      "raw": "ひとみ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 579
+    },
+    {
+      "creatorId": "cr-0364",
+      "raw": "ひとみ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 579
+    },
+    {
+      "creatorId": "cr-0239",
+      "raw": "ヒトリエ",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 705
+    },
+    {
+      "creatorId": "cr-0240",
+      "raw": "ぼっちぼろまる",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 687
+    },
+    {
+      "creatorId": "cr-0240",
+      "raw": "ぼっちぼろまる",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 687
+    },
+    {
+      "creatorId": "cr-0241",
+      "raw": "マオ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 318
+    },
+    {
+      "creatorId": "cr-0242",
+      "raw": "ますかっと",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 499
+    },
+    {
+      "creatorId": "cr-0242",
+      "raw": "ますかっと",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 499
+    },
+    {
+      "creatorId": "cr-0242",
+      "raw": "ますかっと",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 499
+    },
+    {
+      "creatorId": "cr-0243",
+      "raw": "まろん",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 554
+    },
+    {
+      "creatorId": "cr-0244",
+      "raw": "ミズノゲンキ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 87
+    },
+    {
+      "creatorId": "cr-0245",
+      "raw": "もりちよこ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 285
+    },
+    {
+      "creatorId": "cr-0246",
+      "raw": "やぎぬまかな",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 634
+    },
+    {
+      "creatorId": "cr-0247",
+      "raw": "やしきん",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 48
+    },
+    {
+      "creatorId": "cr-0248",
+      "raw": "やなぎなぎ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 189
+    },
+    {
+      "creatorId": "cr-0249",
+      "raw": "ゆーまお",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 706
+    },
+    {
+      "creatorId": "cr-0250",
+      "raw": "ゆうゆ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 271
+    },
+    {
+      "creatorId": "cr-0250",
+      "raw": "ゆうゆ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 271
+    },
+    {
+      "creatorId": "cr-0251",
+      "raw": "ゆこぴ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 544
+    },
+    {
+      "creatorId": "cr-0251",
+      "raw": "ゆこぴ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 544
+    },
+    {
+      "creatorId": "cr-0252",
+      "raw": "リーシャウロン",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 84
+    },
+    {
+      "creatorId": "cr-0253",
+      "raw": "れるりり",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 399
+    },
+    {
+      "creatorId": "cr-0253",
+      "raw": "れるりり",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 399
+    },
+    {
+      "creatorId": "cr-0254",
+      "raw": "伊藤　アキラ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 325
+    },
+    {
+      "creatorId": "cr-0255",
+      "raw": "伊藤直樹",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 282
+    },
+    {
+      "creatorId": "cr-0256",
+      "raw": "一二三",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 521
+    },
+    {
+      "creatorId": "cr-0256",
+      "raw": "一二三",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 521
+    },
+    {
+      "creatorId": "cr-0257",
+      "raw": "永塚健登",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 309
+    },
+    {
+      "creatorId": "cr-0258",
+      "raw": "園田智也",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 98
+    },
+    {
+      "creatorId": "cr-0258",
+      "raw": "園田智也",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 98
+    },
+    {
+      "creatorId": "cr-0259",
+      "raw": "園田凌士",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 136
+    },
+    {
+      "creatorId": "cr-0260",
+      "raw": "奥井 雅美",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 612
+    },
+    {
+      "creatorId": "cr-0261",
+      "raw": "奥井康介",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 95
+    },
+    {
+      "creatorId": "cr-0262",
+      "raw": "岡村大輔",
+      "role": "arranger",
+      "game": "ournotes",
+      "recordId": 61
+    },
+    {
+      "creatorId": "cr-0263",
+      "raw": "岡野裕次郎(TRYTONELABO)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 352
+    },
+    {
+      "creatorId": "cr-0264",
+      "raw": "恩田快人",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 35
+    },
+    {
+      "creatorId": "cr-0265",
+      "raw": "音羽-otoha-",
+      "role": "composer",
+      "game": "ournotes",
+      "recordId": 21
+    },
+    {
+      "creatorId": "cr-0266",
+      "raw": "河合英嗣",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 323
+    },
+    {
+      "creatorId": "cr-0267",
+      "raw": "河邉　徹",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 400
+    },
+    {
+      "creatorId": "cr-0268",
+      "raw": "岩里祐穂",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 225
+    },
+    {
+      "creatorId": "cr-0269",
+      "raw": "幾田 りら",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 700
+    },
+    {
+      "creatorId": "cr-0269",
+      "raw": "幾田 りら",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 700
+    },
+    {
+      "creatorId": "cr-0270",
+      "raw": "吉峯　暁子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 741
+    },
+    {
+      "creatorId": "cr-0271",
+      "raw": "宮崎誠",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 87
+    },
+    {
+      "creatorId": "cr-0272",
+      "raw": "宮川彬良",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 741
+    },
+    {
+      "creatorId": "cr-0273",
+      "raw": "泣き虫",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 409
+    },
+    {
+      "creatorId": "cr-0273",
+      "raw": "泣き虫",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 409
+    },
+    {
+      "creatorId": "cr-0274",
+      "raw": "吟(BUSTED ROSE)",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 244
+    },
+    {
+      "creatorId": "cr-0274",
+      "raw": "吟(BUSTED ROSE)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 244
+    },
+    {
+      "creatorId": "cr-0275",
+      "raw": "原口 沙輔",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 606
+    },
+    {
+      "creatorId": "cr-0275",
+      "raw": "原口 沙輔",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 606
+    },
+    {
+      "creatorId": "cr-0276",
+      "raw": "吾龍",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 45
+    },
+    {
+      "creatorId": "cr-0277",
+      "raw": "後藤 正文",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 622
+    },
+    {
+      "creatorId": "cr-0277",
+      "raw": "後藤 正文",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 622
+    },
+    {
+      "creatorId": "cr-0278",
+      "raw": "御恵明希",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 318
+    },
+    {
+      "creatorId": "cr-0279",
+      "raw": "広井王子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 170
+    },
+    {
+      "creatorId": "cr-0280",
+      "raw": "高瀬一矢",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 68
+    },
+    {
+      "creatorId": "cr-0281",
+      "raw": "黒うさ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 77
+    },
+    {
+      "creatorId": "cr-0281",
+      "raw": "黒うさ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 77
+    },
+    {
+      "creatorId": "cr-0282",
+      "raw": "佐々木 想",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 770
+    },
+    {
+      "creatorId": "cr-0282",
+      "raw": "佐々木 想",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 770
+    },
+    {
+      "creatorId": "cr-0053",
+      "raw": "佐藤純一(fhána)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 432
+    },
+    {
+      "creatorId": "cr-0053",
+      "raw": "佐藤純一(fhána)",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 432
+    },
+    {
+      "creatorId": "cr-0283",
+      "raw": "阪井　一生",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 142
+    },
+    {
+      "creatorId": "cr-0284",
+      "raw": "桜アス恵(TRYTONELABO)",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 352
+    },
+    {
+      "creatorId": "cr-0285",
+      "raw": "三島想平",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 52
+    },
+    {
+      "creatorId": "cr-0286",
+      "raw": "三弥",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 143
+    },
+    {
+      "creatorId": "cr-0287",
+      "raw": "山口朗彦",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 41
+    },
+    {
+      "creatorId": "cr-0288",
+      "raw": "山崎寛子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 167
+    },
+    {
+      "creatorId": "cr-0289",
+      "raw": "山村　隆太",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 142
+    },
+    {
+      "creatorId": "cr-0290",
+      "raw": "山中拓也",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 431
+    },
+    {
+      "creatorId": "cr-0290",
+      "raw": "山中拓也",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 431
+    },
+    {
+      "creatorId": "cr-0291",
+      "raw": "山田 高弘",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 555
+    },
+    {
+      "creatorId": "cr-0292",
+      "raw": "氏原 ワタル",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 377
+    },
+    {
+      "creatorId": "cr-0292",
+      "raw": "氏原 ワタル",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 377
+    },
+    {
+      "creatorId": "cr-0293",
+      "raw": "寺中友将",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 751
+    },
+    {
+      "creatorId": "cr-0293",
+      "raw": "寺中友将",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 751
+    },
+    {
+      "creatorId": "cr-0294",
+      "raw": "寺島拓篤",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 441
+    },
+    {
+      "creatorId": "cr-0295",
+      "raw": "若林充",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 100
+    },
+    {
+      "creatorId": "cr-0296",
+      "raw": "秋山澪",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 54
+    },
+    {
+      "creatorId": "cr-0365",
+      "raw": "重永亮介",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 469
+    },
+    {
+      "creatorId": "cr-0365",
+      "raw": "重永亮介",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 469
+    },
+    {
+      "creatorId": "cr-0297",
+      "raw": "俊龍",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 167
+    },
+    {
+      "creatorId": "cr-0298",
+      "raw": "瞬火",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 231
+    },
+    {
+      "creatorId": "cr-0298",
+      "raw": "瞬火",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 231
+    },
+    {
+      "creatorId": "cr-0299",
+      "raw": "小室 みつ子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 500
+    },
+    {
+      "creatorId": "cr-0300",
+      "raw": "小諸鉄矢",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 296
+    },
+    {
+      "creatorId": "cr-0301",
+      "raw": "小森成雄",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 125
+    },
+    {
+      "creatorId": "cr-0302",
+      "raw": "小杉保夫",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 285
+    },
+    {
+      "creatorId": "cr-0303",
+      "raw": "小田佳奈子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 296
+    },
+    {
+      "creatorId": "cr-0304",
+      "raw": "小幡康裕",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 743
+    },
+    {
+      "creatorId": "cr-0305",
+      "raw": "小林　泉美",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 325
+    },
+    {
+      "creatorId": "cr-0306",
+      "raw": "新しい学校のリーダー達",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 605
+    },
+    {
+      "creatorId": "cr-0307",
+      "raw": "新田目翔",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 309
+    },
+    {
+      "creatorId": "cr-0308",
+      "raw": "森本練",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 523
+    },
+    {
+      "creatorId": "cr-0309",
+      "raw": "森由里子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 210
+    },
+    {
+      "creatorId": "cr-0310",
+      "raw": "森林檎",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 348
+    },
+    {
+      "creatorId": "cr-0311",
+      "raw": "深青結希",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 100
+    },
+    {
+      "creatorId": "cr-0043",
+      "raw": "神前 暁（MONACA）",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 708
+    },
+    {
+      "creatorId": "cr-0312",
+      "raw": "秦基博",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 56
+    },
+    {
+      "creatorId": "cr-0312",
+      "raw": "秦基博",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 56
+    },
+    {
+      "creatorId": "cr-0313",
+      "raw": "水野悠良",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 270
+    },
+    {
+      "creatorId": "cr-0366",
+      "raw": "杉本　雄治",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 400
+    },
+    {
+      "creatorId": "cr-0314",
+      "raw": "菅野よう子",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 225
+    },
+    {
+      "creatorId": "cr-0315",
+      "raw": "折戸伸治",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 321
+    },
+    {
+      "creatorId": "cr-0316",
+      "raw": "川上洋平",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 453
+    },
+    {
+      "creatorId": "cr-0316",
+      "raw": "川上洋平",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 453
+    },
+    {
+      "creatorId": "cr-0317",
+      "raw": "川田まみ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 178
+    },
+    {
+      "creatorId": "cr-0318",
+      "raw": "草野 正宗",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 501
+    },
+    {
+      "creatorId": "cr-0318",
+      "raw": "草野 正宗",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 501
+    },
+    {
+      "creatorId": "cr-0319",
+      "raw": "太志",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 713
+    },
+    {
+      "creatorId": "cr-0319",
+      "raw": "太志(Aqua Timez)",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 712
+    },
+    {
+      "creatorId": "cr-0319",
+      "raw": "太志(Aqua Timez)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 712
+    },
+    {
+      "creatorId": "cr-0320",
+      "raw": "太田雄大",
+      "role": "arranger",
+      "game": "ournotes",
+      "recordId": 70
+    },
+    {
+      "creatorId": "cr-0321",
+      "raw": "大介(Aqua Timez)",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 712
+    },
+    {
+      "creatorId": "cr-0322",
+      "raw": "大隅知宇",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 183
+    },
+    {
+      "creatorId": "cr-0323",
+      "raw": "大森俊之",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 25
+    },
+    {
+      "creatorId": "cr-0324",
+      "raw": "大川 茂伸",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 379
+    },
+    {
+      "creatorId": "cr-0325",
+      "raw": "大濱 健悟",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 610
+    },
+    {
+      "creatorId": "cr-0325",
+      "raw": "大濱 健悟",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 610
+    },
+    {
+      "creatorId": "cr-0326",
+      "raw": "宅見将典",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 80
+    },
+    {
+      "creatorId": "cr-0327",
+      "raw": "池毅",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 286
+    },
+    {
+      "creatorId": "cr-0367",
+      "raw": "中村彼方",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 190
+    },
+    {
+      "creatorId": "cr-0328",
+      "raw": "中沢伴行",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 178
+    },
+    {
+      "creatorId": "cr-0329",
+      "raw": "中田ヤスタカ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 465
+    },
+    {
+      "creatorId": "cr-0329",
+      "raw": "中田ヤスタカ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 465
+    },
+    {
+      "creatorId": "cr-0330",
+      "raw": "町田紀彦",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 23
+    },
+    {
+      "creatorId": "cr-0330",
+      "raw": "町田紀彦",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 23
+    },
+    {
+      "creatorId": "cr-0368",
+      "raw": "津波幸平",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 440
+    },
+    {
+      "creatorId": "cr-0331",
+      "raw": "椎名林檎",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 248
+    },
+    {
+      "creatorId": "cr-0332",
+      "raw": "田鹿祐一",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 154
+    },
+    {
+      "creatorId": "cr-0369",
+      "raw": "田代智一",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 99
+    },
+    {
+      "creatorId": "cr-0055",
+      "raw": "田中秀和(MONACA)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 78
+    },
+    {
+      "creatorId": "cr-0333",
+      "raw": "渡辺和紀",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 772
+    },
+    {
+      "creatorId": "cr-0334",
+      "raw": "渡邊亜希子",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 305
+    },
+    {
+      "creatorId": "cr-0335",
+      "raw": "凍堂遊維",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 46
+    },
+    {
+      "creatorId": "cr-0335",
+      "raw": "凍堂遊維",
+      "role": "composer",
+      "game": "ournotes",
+      "recordId": 46
+    },
+    {
+      "creatorId": "cr-0336",
+      "raw": "東野へいと",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 298
+    },
+    {
+      "creatorId": "cr-0336",
+      "raw": "東野へいと",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 298
+    },
+    {
+      "creatorId": "cr-0337",
+      "raw": "藤井 怜央",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 632
+    },
+    {
+      "creatorId": "cr-0338",
+      "raw": "藤巻 亮太",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 543
+    },
+    {
+      "creatorId": "cr-0338",
+      "raw": "藤巻 亮太",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 543
+    },
+    {
+      "creatorId": "cr-0339",
+      "raw": "藤原燈太",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 417
+    },
+    {
+      "creatorId": "cr-0340",
+      "raw": "鴇沢直",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 151
+    },
+    {
+      "creatorId": "cr-0370",
+      "raw": "日向電工",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 293
+    },
+    {
+      "creatorId": "cr-0370",
+      "raw": "日向電工",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 293
+    },
+    {
+      "creatorId": "cr-0341",
+      "raw": "日比野裕史",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 155
+    },
+    {
+      "creatorId": "cr-0342",
+      "raw": "破矢ジンタ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 126
+    },
+    {
+      "creatorId": "cr-0342",
+      "raw": "破矢ジンタ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 126
+    },
+    {
+      "creatorId": "cr-0343",
+      "raw": "馬渡松子",
+      "role": "composer",
+      "game": "ournotes",
+      "recordId": 84
+    },
+    {
+      "creatorId": "cr-0344",
+      "raw": "馬渕直純",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 210
+    },
+    {
+      "creatorId": "cr-0345",
+      "raw": "白戸佑輔",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 340
+    },
+    {
+      "creatorId": "cr-0066",
+      "raw": "八木沼悟志",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 60
+    },
+    {
+      "creatorId": "cr-0346",
+      "raw": "yuki-ka",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 60
+    },
+    {
+      "creatorId": "cr-0347",
+      "raw": "飛内将大",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 370
+    },
+    {
+      "creatorId": "cr-0238",
+      "raw": "樋口愛",
+      "role": "lyricist",
+      "game": "ournotes",
+      "recordId": 21
+    },
+    {
+      "creatorId": "cr-0348",
+      "raw": "尾崎雄貴",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 194
+    },
+    {
+      "creatorId": "cr-0348",
+      "raw": "尾崎雄貴",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 194
+    },
+    {
+      "creatorId": "cr-0349",
+      "raw": "柊キライ",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 573
+    },
+    {
+      "creatorId": "cr-0349",
+      "raw": "柊キライ",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 573
+    },
+    {
+      "creatorId": "cr-0350",
+      "raw": "福島 智朗",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 632
+    },
+    {
+      "creatorId": "cr-0351",
+      "raw": "分島花音",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 342
+    },
+    {
+      "creatorId": "cr-0352",
+      "raw": "片岡　健太",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 658
+    },
+    {
+      "creatorId": "cr-0352",
+      "raw": "片岡　健太",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 658
+    },
+    {
+      "creatorId": "cr-0353",
+      "raw": "北川　賢一",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 488
+    },
+    {
+      "creatorId": "cr-0353",
+      "raw": "北川　賢一",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 488
+    },
+    {
+      "creatorId": "cr-0371",
+      "raw": "北川勝利",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 189
+    },
+    {
+      "creatorId": "cr-0354",
+      "raw": "本多友紀(Arte Refact)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 190
+    },
+    {
+      "creatorId": "cr-0355",
+      "raw": "野村陽一郎",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 374
+    },
+    {
+      "creatorId": "cr-0356",
+      "raw": "矢吹 俊郎",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 612
+    },
+    {
+      "creatorId": "cr-0357",
+      "raw": "柳沢亮太",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 163
+    },
+    {
+      "creatorId": "cr-0357",
+      "raw": "柳沢亮太",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 163
+    },
+    {
+      "creatorId": "cr-0358",
+      "raw": "有澤孝紀",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 348
+    },
+    {
+      "creatorId": "cr-0359",
+      "raw": "和賀裕希",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 634
+    },
+    {
+      "creatorId": "cr-0360",
+      "raw": "廣澤優也(HANO)",
+      "role": "arranger",
+      "game": "garupa",
+      "recordId": 508
+    },
+    {
+      "creatorId": "cr-0361",
+      "raw": "齋藤真也",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 19
+    },
+    {
+      "creatorId": "cr-0362",
+      "raw": "齊藤　信治",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 464
+    },
+    {
+      "creatorId": "cr-0362",
+      "raw": "齊藤　信治",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 464
+    },
+    {
+      "creatorId": "cr-0052",
+      "raw": "hyde",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 74
+    },
+    {
+      "creatorId": "cr-0067",
+      "raw": "UZ(SPYAIR)",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 112
+    },
+    {
+      "creatorId": "cr-0150",
+      "raw": "須田景凪",
+      "role": "lyricist",
+      "game": "garupa",
+      "recordId": 752
+    },
+    {
+      "creatorId": "cr-0150",
+      "raw": "須田景凪",
+      "role": "composer",
+      "game": "garupa",
+      "recordId": 752
+    }
+  ],
+  "before": {
+    "currentRecordCount": 888,
+    "currentCreatorCount": 169,
+    "currentWorkCount": 826,
+    "currentNextId": 170,
+    "currentGameCounts": {
+      "garupa": 800,
+      "ournotes": 88
+    },
+    "totalSongTodoRecords": 271,
+    "totalSongTasks": 935,
+    "totalCreatorCandidates": 334,
+    "threePlusRecordCreators": 11,
+    "twoRecordCreators": 16,
+    "oneRecordCreators": 307,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 29,
+    "unregisteredCreatorCandidates": 305,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 0,
+    "garupaArrangerCollectionSongs": 0,
+    "splitReviewTasks": 1,
+    "currentRawSplitReviewTasks": 1,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 0,
+      "CREATOR_IDENTITY": 409,
+      "CREATOR_REGISTRATION": 409,
+      "SPLIT_REVIEW": 1,
+      "ALIAS_REVIEW": 74,
+      "ROLE_REVIEW": 3,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 455,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 1177,
+    "excludedResolvedSourceEntries": 645,
+    "unmappedCurrentUnresolved": 0
+  },
+  "after": {
+    "currentRecordCount": 888,
+    "currentCreatorCount": 371,
+    "currentWorkCount": 826,
+    "currentNextId": 372,
+    "currentGameCounts": {
+      "garupa": 800,
+      "ournotes": 88
+    },
+    "totalSongTodoRecords": 118,
+    "totalSongTasks": 375,
+    "totalCreatorCandidates": 123,
+    "threePlusRecordCreators": 11,
+    "twoRecordCreators": 16,
+    "oneRecordCreators": 96,
+    "referenceOnlyCreatorCandidates": 0,
+    "existingCreatorRoleCandidates": 27,
+    "unregisteredCreatorCandidates": 96,
+    "ournotesArrangerManualSongs": 0,
+    "lyricistCollectionSongs": 0,
+    "garupaArrangerCollectionSongs": 0,
+    "splitReviewTasks": 1,
+    "currentRawSplitReviewTasks": 1,
+    "conditionalReleaseSplitReviewTasks": 0,
+    "categoryTaskCounts": {
+      "CREDIT_COLLECTION": 0,
+      "CREATOR_IDENTITY": 129,
+      "CREATOR_REGISTRATION": 129,
+      "SPLIT_REVIEW": 1,
+      "ALIAS_REVIEW": 74,
+      "ROLE_REVIEW": 3,
+      "DISPLAY_REVIEW": 0,
+      "GAME_VERSION_REVIEW": 39,
+      "METADATA_REVIEW": 0
+    },
+    "currentUnresolvedRecordRoles": 175,
+    "sourceUnresolvedEntries": 1822,
+    "mappedTodoEntries": 473,
+    "excludedResolvedSourceEntries": 1349,
+    "unmappedCurrentUnresolved": 0
+  },
+  "dependentPriorTasks": [],
+  "retainedPriorTasks": [
+    {
+      "taskId": "garupa:369:lyricist:CREATOR_IDENTITY-current-37249a393f31fc1ee38b",
+      "currentTaskIds": [
+        "garupa:369:lyricist:ALIAS_REVIEW-current-37249a393f31fc1ee38b"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "garupa:369:lyricist:CREATOR_IDENTITY-current-543af9140a4b47b523ef",
+      "currentTaskIds": [
+        "garupa:369:lyricist:ALIAS_REVIEW-current-543af9140a4b47b523ef"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "garupa:369:lyricist:CREATOR_REGISTRATION-current-37249a393f31fc1ee38b",
+      "currentTaskIds": [
+        "garupa:369:lyricist:ALIAS_REVIEW-current-37249a393f31fc1ee38b"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "garupa:369:lyricist:CREATOR_REGISTRATION-current-543af9140a4b47b523ef",
+      "currentTaskIds": [
+        "garupa:369:lyricist:ALIAS_REVIEW-current-543af9140a4b47b523ef"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "ournotes:48:arranger:CREATOR_IDENTITY-b1-36456c709118f3609c80",
+      "currentTaskIds": [
+        "ournotes:48:arranger:ALIAS_REVIEW-b1-36456c709118f3609c80"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "ournotes:48:arranger:CREATOR_REGISTRATION-b1-36456c709118f3609c80",
+      "currentTaskIds": [
+        "ournotes:48:arranger:ALIAS_REVIEW-b1-36456c709118f3609c80"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "ournotes:48:composer:CREATOR_IDENTITY-b1-36456c709118f3609c80",
+      "currentTaskIds": [
+        "ournotes:48:composer:ALIAS_REVIEW-b1-36456c709118f3609c80"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    },
+    {
+      "taskId": "ournotes:48:composer:CREATOR_REGISTRATION-b1-36456c709118f3609c80",
+      "currentTaskIds": [
+        "ournotes:48:composer:ALIAS_REVIEW-b1-36456c709118f3609c80"
+      ],
+      "reason": "Identity/registration reclassified as alias review after master registration; this record remains unresolved"
+    }
+  ],
+  "dataHashes": {
+    "data/creators.json": "927b6920a718073abb7a4a36ec8f830e9597db97623593645594d0b5b21e1d83",
+    "data/garupa/admin-state.json": "f83a163d81556016431706f6d0f894f23faaba6eed341eac6f34ad6ecd751c7f",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "d6590d31bc6a35e0629493f58a72fa84a879051d97ead1f1f62bb139dde0157c",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/ournotes/admin-state.json": "821be09106fd97111ffd9dd11220442a405d5e5b90fd5d8b51463973a3527730",
+    "data/ournotes/songs.json": "ec853e7dfac21dd02f8b1a4e271070b8deef47c6e17a09e9abf34bd043ee1e7c",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "36c29c66e98de25229a5719f779581f3388a937bbe17301e07dde8c7a09fd3d8"
+  },
+  "reapplyChangedFiles": 0,
+  "rawChanges": 0,
+  "WorkChanges": 0,
+  "unrelatedChanges": 0,
+  "tests": {
+    "result": "PASS",
+    "canonical": 285,
+    "p3": 13,
+    "oldReview": 31,
+    "p1": 10,
+    "p2": 8,
+    "total": 347
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "garupa": 800,
+    "ournotes": 88
+  },
+  "SEO": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "pages": 1268,
+    "details": 888
+  },
+  "Functions": {
+    "result": "PASS",
+    "wrangler": "4.143.0"
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "reason": "Explicit P3 instruction prohibits publication"
+  },
+  "sourceHashes": {
+    "scripts/migrations/creator-credit-p3-review.mjs": "dd24b4f13e17905ac4434c4b102ecc1d25c31ffead18688ffa82736464e09c39",
+    "scripts/qa/creator-credit-p3-audit.mjs": "dd2f38e937f65cfac4161aca3c482547120277f5565fbd8d73e947488e7b0a06",
+    "scripts/qa/creator-credit-p3-pages.mjs": "833875db5ba94be3a51c6c0bd9579034e6de6a11af246a60befb59c22a934ad7",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "a4cfda8e594c836074d2f28d254344c1327146297eefffb11cf25610757fa424",
+    "scripts/migrations/creator-review-regression.mjs": "dfe7fd2dc8f6c7b9e8a1f0753942e0e6249ec0cae98fe43bb9733ce343dc22bb",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "f807d93f637f9b2b75503877fb7121f492187022d0198477e333f923b8ec47fb",
+    "scripts/research/creator-credit-human-todo.mjs": "05a4394ccc6228afb42f0e23a36f23c842b6b084d5bf4128b61b747018ff4a6c",
+    "tests/research/creator-credit-p3-review.test.mjs": "83561b707bd0e6119ea8b19c71a3399d00b904d1c8e607de179bea7c772eb8c5"
+  },
+  "formatCheck": "PASS",
+  "diffCheck": "PASS",
+  "completionAudit": {
+    "status": "PASS",
+    "rawFields": 2664,
+    "formalBindings": 283,
+    "oldRelationsDropped": 0,
+    "masterChangesOutsideNewCreators": 0,
+    "unintendedChanges": 0,
+    "P3TaskUnmapped": 0,
+    "unmappedCurrentUnresolved": 0,
+    "ToDoRegenerateChanges": 0,
+    "head": "32a97950e55cc79c4c826cbc6006a19d16f52e21",
+    "dataHashes": {
+      "data/creators.json": "927b6920a718073abb7a4a36ec8f830e9597db97623593645594d0b5b21e1d83",
+      "data/garupa/admin-state.json": "f83a163d81556016431706f6d0f894f23faaba6eed341eac6f34ad6ecd751c7f",
+      "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+      "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+      "data/garupa/songs.json": "d6590d31bc6a35e0629493f58a72fa84a879051d97ead1f1f62bb139dde0157c",
+      "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+      "data/ournotes/admin-state.json": "821be09106fd97111ffd9dd11220442a405d5e5b90fd5d8b51463973a3527730",
+      "data/ournotes/songs.json": "ec853e7dfac21dd02f8b1a4e271070b8deef47c6e17a09e9abf34bd043ee1e7c",
+      "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+      "data/works.json": "36c29c66e98de25229a5719f779581f3388a937bbe17301e07dde8c7a09fd3d8"
+    },
+    "requirements": [
+      {
+        "requirement": "Input rules 1–6; section 1",
+        "status": "PASS",
+        "evidence": "Immutable original/clarification/review/receivedOn/appliedAt/reviewer; optional date remains null"
+      },
+      {
+        "requirement": "Input rules 7–12; section 6 Creator",
+        "status": "PASS",
+        "evidence": "Exact names/approved aliases, stable IDs, namespace validation and explicit collision answers"
+      },
+      {
+        "requirement": "Input rules 13–16; section 5",
+        "status": "PASS",
+        "evidence": "Three split fields retain raw delimiters; independent people; all required metadata supplied"
+      },
+      {
+        "requirement": "Input rules 17–19; section 6 preflight",
+        "status": "PASS",
+        "evidence": "All 208 candidate keys + 3 alias candidates + 280 scopes and all 1812 current tasks matched"
+      },
+      {
+        "requirement": "Input rules 20–23; section 7",
+        "status": "PASS",
+        "evidence": "826 Work unchanged, 2664 raw fields unchanged, all old formal relations and group/top-level data retained; only 283 approved bindings"
+      },
+      {
+        "requirement": "Input rules 24–25; sections 7–8",
+        "status": "PASS",
+        "evidence": "P0/P2 pending mappings retained; 556 P3 song tasks resolved; 375 remaining; P3TaskUnmapped/current unmapped both zero; byte-stable ToDo"
+      },
+      {
+        "requirement": "Input rule 26; section 9",
+        "status": "PASS",
+        "evidence": "347 tests, root/subpath build and SEO, Functions, format/diff and data/receipt idempotence (validation logs)"
+      },
+      {
+        "requirement": "Input rule 27; section 10",
+        "status": "PASS",
+        "evidence": "HEAD unchanged, index empty; no commit/push/deploy; local report with all required counts and all new IDs"
+      }
+    ]
+  },
+  "completedAt": "2026-10-16T14:51:33.989Z",
+  "previousAliasAmbiguitiesPreserved": [
+    {
+      "alias": "TAKE",
+      "id": "cr-0135",
+      "other": "cr-0087"
+    }
+  ],
+  "logEvidence": [
+    {
+      "path": "validation/p3-completion-audit.txt",
+      "sha256": "f0dfc49cf1a5459e37d086dca2b334a95e9fafb42d4f2b4eaea6e99b418a7f10"
+    },
+    {
+      "path": "validation/p3-diff-check.txt",
+      "sha256": "6178463f7d4238e90b32308052ad2fe8241efcbacf5b087ef61fbf41343cbdd8"
+    },
+    {
+      "path": "validation/p3-earlier-review-tests.txt",
+      "sha256": "e3a60c7730d38ef6331333f307ce3af258bcc3a4620049e36c3c4493605ad7f7"
+    },
+    {
+      "path": "validation/p3-format.txt",
+      "sha256": "a4f7d37e31345997fc8b80238813e1f6216a13f8557a69ee7384ce4e63ea743e"
+    },
+    {
+      "path": "validation/p3-full-tests.txt",
+      "sha256": "8fa82073dc4d475b5b6b3f674d10b52964ab516138230ce54c5569a3e2e428d7"
+    },
+    {
+      "path": "validation/p3-functions.txt",
+      "sha256": "18c9376ce12762c5ed138bd1b0c52c485f0413d03d8fc45d73b1ff86f9bf59be"
+    },
+    {
+      "path": "validation/p3-p1-tests.txt",
+      "sha256": "ef829133ab827df484b747ce4d5474193ab5b703deff1805487c25fcaecc535d"
+    },
+    {
+      "path": "validation/p3-p2-tests.txt",
+      "sha256": "03d9d3abef44475fce8e67ff7a0d868223a6763a8716b6b70cc75a74c8190b8b"
+    },
+    {
+      "path": "validation/p3-root-build.txt",
+      "sha256": "57778e03915bd3e19d05cc4eaf753976cba831bc01ca6c8a220771d0beb9a91b"
+    },
+    {
+      "path": "validation/p3-root-pages.txt",
+      "sha256": "f55d977ffcb78bf8c1a901f7930dfbfb77baf75cf779fb372aab88acac35c2f2"
+    },
+    {
+      "path": "validation/p3-root-seo.txt",
+      "sha256": "37084672aa853b115f0efa3d64b8f41b6161481fed8e78a61e9e36a3d843bcf3"
+    },
+    {
+      "path": "validation/p3-subpath-build.txt",
+      "sha256": "57778e03915bd3e19d05cc4eaf753976cba831bc01ca6c8a220771d0beb9a91b"
+    },
+    {
+      "path": "validation/p3-subpath-pages.txt",
+      "sha256": "f55d977ffcb78bf8c1a901f7930dfbfb77baf75cf779fb372aab88acac35c2f2"
+    },
+    {
+      "path": "validation/p3-subpath-seo.txt",
+      "sha256": "37084672aa853b115f0efa3d64b8f41b6161481fed8e78a61e9e36a3d843bcf3"
+    },
+    {
+      "path": "validation/p3-target-tests.txt",
+      "sha256": "ae271f15f1c8680d5ccbb57be9667343aea9211759b7ce71a5f3d937206f465b"
+    },
+    {
+      "path": "validation/p3-todo-verify.txt",
+      "sha256": "e4e35410b36ec1a7a7f6f5db9d40ce97e65eb686103ea4b20e0771ff77bd1bf0"
+    }
+  ]
+}

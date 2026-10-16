@@ -1,0 +1,86 @@
+tracked
+warning: in the working copy of 'WORK_LOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/creators.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/garupa/songs.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/ournotes/songs.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_SUMMARY.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/HUMAN_TODO_VERIFICATION.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/todo/creator-credit-human-review/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/migrations/creator-p2-prior-regression.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/migrations/creator-review-regression.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/research/creator-credit-human-todo.mjs', LF will be replaced by CRLF the next time Git touches it
+
+docs/human-review/creator-credits-p3-2026-10-16/COMPLETION_AUDIT.json
+
+docs/human-review/creator-credits-p3-2026-10-16/REPORT.md
+
+docs/human-review/creator-credits-p3-2026-10-16/TASK_CORRESPONDENCE.json
+
+docs/human-review/creator-credits-p3-2026-10-16/allocation.json
+
+docs/human-review/creator-credits-p3-2026-10-16/baseline.json
+
+docs/human-review/creator-credits-p3-2026-10-16/before.json.gz
+
+docs/human-review/creator-credits-p3-2026-10-16/clarification.json
+
+docs/human-review/creator-credits-p3-2026-10-16/head-comparison.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/input.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/parsed-answers.json
+
+docs/human-review/creator-credits-p3-2026-10-16/review.json
+
+docs/human-review/creator-credits-p3-2026-10-16/root-page-audit.json
+
+docs/human-review/creator-credits-p3-2026-10-16/subpath-page-audit.json
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-earlier-review-tests.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-format.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-full-tests.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-functions.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-p1-tests.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-p2-tests.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-root-build.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-root-pages.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-root-seo.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-subpath-build.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-subpath-pages.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-subpath-seo.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-target-tests.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/validation/p3-todo-verify.txt
+
+docs/human-review/creator-credits-p3-2026-10-16/verification.json
+
+scripts/migrations/creator-credit-p3-review.mjs
+warning: in the working copy of 'scripts/migrations/creator-credit-p3-review.mjs', LF will be replaced by CRLF the next time Git touches it
+
+scripts/migrations/creator-p3-prior-regression.mjs
+warning: in the working copy of 'scripts/migrations/creator-p3-prior-regression.mjs', LF will be replaced by CRLF the next time Git touches it
+
+scripts/qa/creator-credit-p3-audit.mjs
+warning: in the working copy of 'scripts/qa/creator-credit-p3-audit.mjs', LF will be replaced by CRLF the next time Git touches it
+
+scripts/qa/creator-credit-p3-pages.mjs
+warning: in the working copy of 'scripts/qa/creator-credit-p3-pages.mjs', LF will be replaced by CRLF the next time Git touches it
+
+tests/research/creator-credit-p3-review.test.mjs
+warning: in the working copy of 'tests/research/creator-credit-p3-review.test.mjs', LF will be replaced by CRLF the next time Git touches it

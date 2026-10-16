@@ -22,6 +22,7 @@ const KANZAKI_REVIEW =
 const KANOW_REVIEW =
   "docs/human-review/creator-kanow-p1-2026-10-07/review.json";
 const P2_REVIEW = "docs/human-review/creator-credits-p2-2026-10-10/review.json";
+const P3_REVIEW = "docs/human-review/creator-credits-p3-2026-10-16/review.json";
 const A = "docs/migrations/credits-phase-a-2026-10-03";
 const B1 = "docs/migrations/credits-phase-b1-2026-10-03";
 const B2 = "docs/migrations/credits-phase-b2-2026-10-03";
@@ -98,6 +99,7 @@ export function loadInputs() {
   if (fs.existsSync(KANZAKI_REVIEW)) paths.push(KANZAKI_REVIEW);
   if (fs.existsSync(KANOW_REVIEW)) paths.push(KANOW_REVIEW);
   if (fs.existsSync(P2_REVIEW)) paths.push(P2_REVIEW);
+  if (fs.existsSync(P3_REVIEW)) paths.push(P3_REVIEW);
   const inputHashes = digestFiles(paths);
   const baseline = readJSON(`${B2}/baseline.json`);
   const protectedResearchHashes = digestFiles(
@@ -143,6 +145,7 @@ export function loadInputs() {
     ? readJSON(KANOW_REVIEW)
     : null;
   input.p2Review = fs.existsSync(P2_REVIEW) ? readJSON(P2_REVIEW) : null;
+  input.p3Review = fs.existsSync(P3_REVIEW) ? readJSON(P3_REVIEW) : null;
   return input;
 }
 
@@ -162,6 +165,21 @@ function reviewedRole(input, r, role) {
       a.workId === r.workId &&
       a.raw === r.song[role],
   );
+  const p3 = input.p3Review?.reviews.find(
+    (a) =>
+      ref(a) === ref(r) &&
+      a.role === role &&
+      a.title === r.title &&
+      a.workId === r.workId &&
+      a.raw === r.song[role],
+  );
+  if (p3)
+    return {
+      ...p3,
+      requiresVersionReview: needsVersion(prior),
+      relationshipStatus: prior?.relationshipStatus,
+      relationshipAnswer: prior?.relationshipAnswer,
+    };
   if (p2)
     return {
       ...p2,
@@ -185,7 +203,7 @@ function reviewedModel(input, r, role) {
         rawCredit: review.raw,
         creatorTokens: review.actors,
         splitStatus:
-          review.reviewKind === "P2" &&
+          ["P2", "P3"].includes(review.reviewKind) &&
           !review.splitConfirmed &&
           !review.boundary
             ? null
@@ -196,7 +214,8 @@ function reviewedModel(input, r, role) {
 }
 function needsVersion(review) {
   return (
-    (review?.reviewKind !== "P2" || review.requiresVersionReview) &&
+    (!["P2", "P3"].includes(review?.reviewKind) ||
+      review.requiresVersionReview) &&
     review?.role === "arranger" &&
     !["SAME_ARRANGEMENT_CONFIRMED", "DIFFERENT_ARRANGEMENT_CONFIRMED"].includes(
       review.relationshipStatus,
@@ -304,11 +323,17 @@ function evidenceFor(input, r, role) {
   const review = reviewedRole(input, r, role);
   if (review)
     evidence.push({
-      document: P0_REVIEW,
+      document: review.reviewKind === "P3" ? P3_REVIEW : P0_REVIEW,
       locator: roleRef(r, role),
       sourceType: "human-review",
-      reviewer: input.humanReview.reviewer,
-      checkedAt: input.humanReview.humanReviewDate,
+      reviewer:
+        review.reviewKind === "P3"
+          ? input.p3Review.reviewer
+          : input.humanReview.reviewer,
+      checkedAt:
+        review.reviewKind === "P3"
+          ? input.p3Review.humanReviewDate
+          : input.humanReview.humanReviewDate,
       raw: review.raw,
       relationshipAnswer: review.relationshipAnswer,
       relationshipStatus: review.relationshipStatus,
@@ -1261,6 +1286,14 @@ export function verifyLedger(input, ledger) {
                     (raw) => formatKey(raw) === formatKey(a.raw),
                   ))),
           ) ||
+            input.p3Review?.reviews.some(
+              (a) =>
+                ref(a) === key &&
+                a.splitConfirmed &&
+                identity.rawTokens.some(
+                  (raw) => formatKey(raw) === formatKey(a.raw),
+                ),
+            ) ||
             input.humanReview?.reviews.some(
               (a) =>
                 ref(a) === key &&

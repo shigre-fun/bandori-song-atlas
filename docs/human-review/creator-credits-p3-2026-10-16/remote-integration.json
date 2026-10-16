@@ -1,0 +1,24 @@
+{
+  "sha": "f10fa7e0695a46f08c1fad01b26802b5af5498cf",
+  "previousHead": "32a97950e55cc79c4c826cbc6006a19d16f52e21",
+  "fixtureHash": "34cea663ed19ec577500b4b037bb5d140def5822670b0cdfb7d3e888f8733e7e",
+  "sourceHashes": {
+    "data/creators.json": "6bcb7ee3bc32d27d35fb186e2cae456684cb5d9c18e460ba9df6a034b9ddbed7",
+    "data/garupa/admin-state.json": "153f48bdc7ae4f842d839acc97404f07facd21cf36e410a642b8dad5b68460b2",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "f656c35057e0fed04bbc4eb801a4eb422fd34555c913a1373e4c9768bc6883b3",
+    "data/news.json": "543f3e54c8f18b08c75b0fd8eb968123638b7bcd6d6e611242ce2973386d1d54",
+    "data/ournotes/admin-state.json": "d2f17d89e3ac9fd0f8a866fd13b9b0d3909eabc6765f0847f0523e9b1b6bf647",
+    "data/ournotes/songs.json": "2d1ebd7231119c78a39edc66fa49212736f046dff0574ac78e4ec8ed20e749e4",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "acacbc9b46abe023e19e3abddcf88ae7c9735169a9526ea2ede6da916a15c652"
+  },
+  "commits": [
+    "f10fa7e Update song: ファタール",
+    "816b8d3 Update song: 空に歌えば",
+    "84d7f44 Update song: ちゅ、多様性。",
+    "4ab2211 Update song: 春日影"
+  ],
+  "policy": "Retain every remote value; apply only the approved P3 credit structures."
+}

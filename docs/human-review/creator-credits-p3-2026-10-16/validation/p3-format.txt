@@ -1,0 +1,9 @@
+scripts/migrations/creator-credit-p3-review.mjs 232ms
+scripts/qa/creator-credit-p3-audit.mjs 22ms
+scripts/qa/creator-credit-p3-pages.mjs 12ms
+scripts/migrations/creator-p3-prior-regression.mjs 5ms
+scripts/migrations/creator-review-regression.mjs 5ms
+scripts/migrations/creator-p2-prior-regression.mjs 6ms
+scripts/research/creator-credit-human-todo.mjs 205ms
+tests/research/creator-credit-p3-review.test.mjs 24ms
+docs/human-review/creator-credits-p3-2026-10-16/clarification.json 4ms (unchanged)

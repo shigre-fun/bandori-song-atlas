@@ -14,7 +14,10 @@ for (const directory of ["src", "scripts", "tests", "docs", "data"])
   fs.cpSync(directory, path.join(root, directory), {
     recursive: true,
     force: true,
-    filter: (p) => !p.replaceAll("\\", "/").startsWith(p2),
+    filter: (p) =>
+      ![p2, "docs/human-review/creator-credits-p3-2026-10-16"].some((d) =>
+        p.replaceAll("\\", "/").startsWith(d),
+      ),
   });
 // A previous interrupted copy must not retain today's P2 receipt.
 const leftover = path.resolve(root, p2);

@@ -14,9 +14,11 @@ for (const directory of ["src", "scripts", "tests", "docs", "data"])
     recursive: true,
     force: true,
     filter: (p) =>
-      ![REVIEW_DIR, "docs/human-review/creator-credits-p2-2026-10-10"].some(
-        (d) => p.replaceAll("\\", "/").startsWith(d),
-      ),
+      ![
+        REVIEW_DIR,
+        "docs/human-review/creator-credits-p2-2026-10-10",
+        "docs/human-review/creator-credits-p3-2026-10-16",
+      ].some((d) => p.replaceAll("\\", "/").startsWith(d)),
   });
 fs.copyFileSync("package.json", path.join(root, "package.json"));
 for (const [p, text] of Object.entries(before.files))

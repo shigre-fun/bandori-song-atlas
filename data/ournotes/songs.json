@@ -1790,19 +1790,32 @@
               "displayOverrides": {
                 "arranger": "神田ジョン(from PENGUIN RESEARCH)"
               }
+            },
+            {
+              "creatorId": "cr-0265",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0238",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "樋口愛"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "樋口愛",
-                "unresolved": true
+                "creatorId": "cr-0238"
               }
             ],
             "composer": [
               {
-                "text": "音羽-otoha-",
-                "unresolved": true
+                "creatorId": "cr-0265"
               }
             ],
             "arranger": [
@@ -4197,12 +4210,18 @@
             "JUST"
           ],
           "workId": "wk-0792",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0276",
+              "roles": [
+                "lyricist"
+              ]
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "吾龍",
-                "unresolved": true
+                "creatorId": "cr-0276"
               }
             ],
             "composer": [
@@ -4272,19 +4291,28 @@
               "displayOverrides": {
                 "arranger": "堀江晶太"
               }
+            },
+            {
+              "creatorId": "cr-0335",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverrides": {
+                "lyricist": "凍堂遊維",
+                "composer": "凍堂遊維"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "凍堂遊維",
-                "unresolved": true
+                "creatorId": "cr-0335"
               }
             ],
             "composer": [
               {
-                "text": "凍堂遊維",
-                "unresolved": true
+                "creatorId": "cr-0335"
               }
             ],
             "arranger": [
@@ -4448,12 +4476,18 @@
             "JUST"
           ],
           "workId": "wk-0795",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0247",
+              "roles": [
+                "lyricist"
+              ]
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "やしきん",
-                "unresolved": true
+                "creatorId": "cr-0247"
               }
             ],
             "composer": [
@@ -5552,13 +5586,21 @@
                 "composer"
               ],
               "displayOverride": " TeddyLoid"
+            },
+            {
+              "creatorId": "cr-0218",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverrides": {
+                "lyricist": "TOPHAMHAT-KYO (FAKE TYPE.)"
+              }
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "TOPHAMHAT-KYO (FAKE TYPE.)",
-                "unresolved": true
+                "creatorId": "cr-0218"
               }
             ],
             "composer": [
@@ -5649,6 +5691,12 @@
               "displayOverrides": {
                 "composer": "田淵智也"
               }
+            },
+            {
+              "creatorId": "cr-0262",
+              "roles": [
+                "arranger"
+              ]
             }
           ],
           "creditDisplay": {
@@ -5664,8 +5712,7 @@
             ],
             "arranger": [
               {
-                "text": "岡村大輔",
-                "unresolved": true
+                "creatorId": "cr-0262"
               }
             ]
           },
@@ -6545,7 +6592,14 @@
             "COMBO"
           ],
           "workId": "wk-0814",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0320",
+              "roles": [
+                "arranger"
+              ]
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
@@ -6561,8 +6615,7 @@
             ],
             "arranger": [
               {
-                "text": "太田雄大",
-                "unresolved": true
+                "creatorId": "cr-0320"
               }
             ]
           },
@@ -7365,18 +7418,29 @@
           },
           "submissionId": "126940b2-f1be-42f5-a46e-bdcf0a8c0e5c",
           "workId": "wk-0822",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0252",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0343",
+              "roles": [
+                "composer"
+              ]
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "リーシャウロン",
-                "unresolved": true
+                "creatorId": "cr-0252"
               }
             ],
             "composer": [
               {
-                "text": "馬渡松子",
-                "unresolved": true
+                "creatorId": "cr-0343"
               }
             ],
             "arranger": [

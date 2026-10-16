@@ -1,0 +1,25 @@
+{
+  "source": "User replies in this chat, 2026-10-16",
+  "literalReplies": [
+    "すべて記載どおりで確定",
+    "すべてこの対応で進める",
+    "新規登録（既存IDなし）"
+  ],
+  "candidates": {
+    "b1-2869fa462d98ce2cbbd7": { "identityConfirmed": "はい" },
+    "b1-f592642bee4246b5b891": { "sortKey": "すぎもとゆうじ" },
+    "b1-73cecab2e5e9bcaff092": { "standardName": "中村彼方" },
+    "b1-699671a1485c6747c725": { "slug": "hinatadenko" },
+    "b1-f108d96030d53d2e9701": { "standardName": "北川勝利" },
+    "b1-621ab783881d2aee2b9a": { "type": "person" },
+    "b1-438e0b66f47ebd93d1ac": { "type": "person" },
+    "b1-10ee6df825a6122bfabf": { "type": "person", "samePersonAs": "cr-0055" },
+    "b1-65d09c562afaab97af82": { "samePersonAs": "cr-0053" },
+    "b1-aed4f55bb80088cd7920": {
+      "samePersonAs": "既存IDなし; candidate:b1-0453649b5d96b1b9f98d",
+      "affiliation": "なし; なし"
+    },
+    "b1-0453649b5d96b1b9f98d": { "samePersonAs": "既存IDなし" },
+    "b1-075f3cf0b1bb4831fbb1": { "samePersonAs": "既存IDなし" }
+  }
+}
