@@ -6994,7 +6994,7 @@
           "id": 76,
           "title": "サムライハート(Some Like It Hot!!)",
           "reading": "サムライハートサムライクイットホット",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 76,
           "composer": "UZ",
           "originalArtist": "SPYAIR",
@@ -7002,7 +7002,7 @@
           "bpm": 113,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 122,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -7041,9 +7041,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "藤井健太郎"
-              }
+              "displayOverride": "藤井健太郎"
             }
           ],
           "creditDisplay": {
@@ -7065,7 +7063,10 @@
             ]
           },
           "arranger": "藤井健太郎",
-          "lyricist": "MOMIKEN"
+          "lyricist": "MOMIKEN",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "561b930e-cf4d-4b2e-b17f-24daa0c20b64"
         },
         {
           "id": 77,
