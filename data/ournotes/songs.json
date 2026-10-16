@@ -7151,7 +7151,7 @@
           "id": 78,
           "title": "革命道中",
           "reading": "カクメイドウチュウ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 78,
           "composer": "アイナ・ジ・エンド、Shin Sakiura",
           "originalArtist": "アイナ・ジ・エンド",
@@ -7159,12 +7159,12 @@
           "bpm": 186,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 135,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 6,
-              "notes": 324
+              "notes": 325
             },
             "NORMAL": {
               "level": 11,
@@ -7193,24 +7193,18 @@
             {
               "creatorId": "cr-0138",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
-              "displayOverrides": {
-                "composer": "アイナ・ジ・エンド",
-                "lyricist": "アイナ・ジ・エンド"
-              }
+              "displayOverride": "アイナ・ジ・エンド"
             },
             {
               "creatorId": "cr-0134",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
-              "displayOverrides": {
-                "composer": "Shin Sakiura",
-                "lyricist": "Shin Sakiura"
-              }
+              "displayOverride": "Shin Sakiura"
             }
           ],
           "creditDisplay": {
@@ -7244,7 +7238,9 @@
             ]
           },
           "lyricist": "アイナ・ジ・エンド、Shin Sakiura",
-          "arranger": "牧野太洋"
+          "arranger": "牧野太洋",
+          "mv": null,
+          "revision": "1abfd5d7-040a-417b-ac88-9a98f9734bc3"
         },
         {
           "id": 84,
