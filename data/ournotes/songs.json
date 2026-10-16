@@ -6893,7 +6893,7 @@
           "id": 75,
           "title": "Mela!",
           "reading": "メラ",
-          "releaseDate": "2026-09-24T00:00:00+09:00",
+          "releaseDate": "2026-09-24T00:00+09:00",
           "releaseOrder": 75,
           "composer": "peppe／穴見真吾",
           "originalArtist": "緑黄色社会",
@@ -6901,12 +6901,12 @@
           "bpm": 138,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 107,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 5,
-              "notes": 240
+              "notes": 241
             },
             "NORMAL": {
               "level": 10,
@@ -6985,7 +6985,10 @@
             ]
           },
           "lyricist": "長屋晴子、小林壱誓",
-          "arranger": "石倉まろ"
+          "arranger": "石倉まろ",
+          "mv": null,
+          "relatedSongIds": [],
+          "revision": "4ca84e83-93ce-4eae-a4b6-e44c36c010fe"
         },
         {
           "id": 76,
