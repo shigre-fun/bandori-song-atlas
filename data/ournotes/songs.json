@@ -1920,7 +1920,7 @@
           "bpm": 204,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 88,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -1933,7 +1933,7 @@
             },
             "HARD": {
               "level": 22,
-              "notes": 596
+              "notes": 597
             },
             "EXPERT": {
               "level": 26,
@@ -1960,18 +1960,14 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "植木建象"
-              }
+              "displayOverride": "植木建象"
             },
             {
               "creatorId": "cr-0103",
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "神田ジョン(from PENGUIN RESEARCH)"
-              }
+              "displayOverride": "神田ジョン(from PENGUIN RESEARCH)"
             }
           ],
           "creditDisplay": {
@@ -1999,7 +1995,8 @@
             ]
           },
           "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
-          "lyricist": "秋田　ひろむ"
+          "lyricist": "秋田　ひろむ",
+          "revision": "09524905-deab-4e2d-977f-17edd711f8b2"
         },
         {
           "id": 86,
