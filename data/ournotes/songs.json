@@ -7422,15 +7422,15 @@
           "difficulties": {
             "EASY": {
               "level": 5,
-              "notes": 180
+              "notes": 181
             },
             "NORMAL": {
               "level": 11,
-              "notes": 364
+              "notes": 365
             },
             "HARD": {
               "level": 16,
-              "notes": 496
+              "notes": 497
             },
             "EXPERT": {
               "level": 22,
@@ -7447,24 +7447,19 @@
           "workId": "wk-0635",
           "credits": [
             {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
+            },
+            {
               "creatorId": "cr-0004",
               "roles": [
                 "composer",
                 "arranger"
               ],
-              "displayOverride": "藤田淳平（Elements Garden）",
-              "displayOverrides": {
-                "arranger": "藤田淳平（Elements Garden）"
-              }
-            },
-            {
-              "creatorId": "cr-0092",
-              "roles": [
-                "lyricist"
-              ],
-              "displayOverrides": {
-                "lyricist": "織田あすか（Elements Garden）"
-              }
+              "displayOverride": "藤田淳平（Elements Garden）"
             }
           ],
           "creditDisplay": {
@@ -7485,7 +7480,8 @@
             ]
           },
           "lyricist": "織田あすか（Elements Garden）",
-          "arranger": "藤田淳平（Elements Garden）"
+          "arranger": "藤田淳平（Elements Garden）",
+          "revision": "f9550a95-d443-4e70-a94e-a9cf8e619739"
         }
       ]
     }
