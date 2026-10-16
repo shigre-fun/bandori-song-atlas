@@ -6125,9 +6125,9 @@
           "composer": "藤井健太郎、瀬名水紀(Dream Monster)",
           "originalArtist": null,
           "originalWork": null,
-          "bpm": 198,
-          "bpmMin": null,
-          "bpmMax": null,
+          "bpm": 184,
+          "bpmMin": 184,
+          "bpmMax": 200,
           "durationSeconds": 138,
           "aliases": [],
           "difficulties": {
@@ -6202,7 +6202,7 @@
           "lyricist": "藤井健太郎",
           "arranger": "藤井健太郎",
           "relatedSongIds": [],
-          "revision": "ce408ba2-40d7-4fbe-8f21-b81f51ecc141"
+          "revision": "afffedc1-1288-47f9-adb3-51731440b31f"
         },
         {
           "id": 87,
