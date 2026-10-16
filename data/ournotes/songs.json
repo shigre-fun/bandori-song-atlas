@@ -3575,34 +3575,34 @@
           "originalArtist": null,
           "originalWork": null,
           "mv": false,
-          "songType": null,
+          "songType": "山吹",
           "gekisouSections": [
-            null,
-            null,
-            null
+            "COMBO",
+            "COMBO",
+            "COMBO"
           ],
           "relatedSongIds": [],
-          "bpm": null,
+          "bpm": 100,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 116,
           "aliases": [],
           "difficulties": {
             "EASY": {
-              "level": null,
-              "notes": null
+              "level": 6,
+              "notes": 336
             },
             "NORMAL": {
-              "level": null,
-              "notes": null
+              "level": 11,
+              "notes": 449
             },
             "HARD": {
-              "level": null,
-              "notes": null
+              "level": 18,
+              "notes": 651
             },
             "EXPERT": {
-              "level": null,
-              "notes": null
+              "level": 26,
+              "notes": 846
             }
           },
           "credits": [
@@ -3648,7 +3648,8 @@
           "lyricist": "Diggy-MO’",
           "arranger": "Diggy-MO’",
           "workId": "wk-0826",
-          "submissionId": "ae0f0cb9-edaa-42c9-b5c2-4d05783ab090"
+          "submissionId": "ae0f0cb9-edaa-42c9-b5c2-4d05783ab090",
+          "revision": "fdde9c04-2346-457b-b485-32b98aed33d8"
         }
       ]
     },
