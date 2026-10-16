@@ -3564,6 +3564,91 @@
           "lyricist": "Diggy-MO’",
           "relatedSongIds": [],
           "revision": "9df256a9-58a0-4a75-8891-8cfbf711d818"
+        },
+        {
+          "id": 88,
+          "title": "神の名を",
+          "reading": "カミノナヲ",
+          "releaseDate": "2026-10-16T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "Diggy-MO’、hisakuni(SUPA LOVE)",
+          "originalArtist": null,
+          "originalWork": null,
+          "mv": false,
+          "songType": null,
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ],
+          "relatedSongIds": [],
+          "bpm": null,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": null,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": null,
+              "notes": null
+            },
+            "NORMAL": {
+              "level": null,
+              "notes": null
+            },
+            "HARD": {
+              "level": null,
+              "notes": null
+            },
+            "EXPERT": {
+              "level": null,
+              "notes": null
+            }
+          },
+          "credits": [
+            {
+              "creatorId": "cr-0022",
+              "roles": [
+                "lyricist",
+                "composer",
+                "arranger"
+              ]
+            },
+            {
+              "creatorId": "cr-0018",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "hisakuni(SUPA LOVE)"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [
+              {
+                "creatorId": "cr-0022"
+              }
+            ],
+            "composer": [
+              {
+                "creatorId": "cr-0022"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0018"
+              }
+            ],
+            "arranger": [
+              {
+                "creatorId": "cr-0022"
+              }
+            ]
+          },
+          "lyricist": "Diggy-MO’",
+          "arranger": "Diggy-MO’",
+          "workId": "wk-0826",
+          "submissionId": "ae0f0cb9-edaa-42c9-b5c2-4d05783ab090"
         }
       ]
     },

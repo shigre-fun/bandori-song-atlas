@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 826,
+  "nextId": 827,
   "works": [
     {
       "id": "wk-0001",
@@ -4136,6 +4136,11 @@
       "id": "wk-0825",
       "title": "Odd Dice",
       "source": "independent-record"
+    },
+    {
+      "id": "wk-0826",
+      "title": "神の名を",
+      "source": "admin-explicit-new"
     }
   ]
 }
