@@ -4003,12 +4003,12 @@
           "bpm": 156,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 95,
           "aliases": [],
           "difficulties": {
             "EASY": {
               "level": 7,
-              "notes": 216
+              "notes": 217
             },
             "NORMAL": {
               "level": 13,
@@ -4035,8 +4035,8 @@
             {
               "creatorId": "cr-0063",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ]
             },
             {
@@ -4044,9 +4044,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "植木建象"
-              }
+              "displayOverride": "植木建象"
             }
           ],
           "creditDisplay": {
@@ -4074,7 +4072,8 @@
             ]
           },
           "lyricist": "キタニタツヤ",
-          "arranger": "植木建象、加藤貴之"
+          "arranger": "植木建象、加藤貴之",
+          "revision": "c5a429b6-3a98-45c1-ab1a-acd9555a4701"
         }
       ]
     },
