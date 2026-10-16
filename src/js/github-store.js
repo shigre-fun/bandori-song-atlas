@@ -8,6 +8,7 @@ import {
   validateWorks,
   validateCreatorDatabase,
   creditText,
+  isCreditSeparator,
 } from "./creators-data.js";
 import {
   addGarupaSong,
@@ -526,8 +527,22 @@ export class GitHubStore {
         previous?.creditDisplay?.[role]?.some((p) => p.unresolved)
       ) {
         if (
-          JSON.stringify(parts) !==
-            JSON.stringify(previous.creditDisplay[role]) ||
+          JSON.stringify(
+            parts.filter(
+              (part) =>
+                part.creatorId ||
+                part.unresolved ||
+                !isCreditSeparator(part.text),
+            ),
+          ) !==
+            JSON.stringify(
+              previous.creditDisplay[role].filter(
+                (part) =>
+                  part.creatorId ||
+                  part.unresolved ||
+                  !isCreditSeparator(part.text),
+              ),
+            ) ||
           JSON.stringify(effectiveCredits(song, role)) !==
             JSON.stringify(effectiveCredits(previous, role))
         )
@@ -539,8 +554,7 @@ export class GitHubStore {
         !preservedUnlinked &&
         parts.some(
           (p) =>
-            p.unresolved ||
-            (!p.creatorId && !/^[、\s,／/・&＆;；×]*$/u.test(p.text ?? "")),
+            p.unresolved || (!p.creatorId && !isCreditSeparator(p.text ?? "")),
         )
       )
         throw new Error(

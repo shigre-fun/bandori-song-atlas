@@ -1,4 +1,9 @@
-import { CREDIT_ROLES, creditTokens, creditText } from "./credit-display.js";
+import {
+  CREDIT_ROLES,
+  creditTokens,
+  creditText,
+  isCreditSeparator,
+} from "./credit-display.js";
 import { validateCreditStructure } from "./credit-structure.js";
 import { roleCoverage } from "./credit-coverage.js";
 export {
@@ -6,6 +11,7 @@ export {
   ROLE_LABELS,
   creditTokens,
   creditText,
+  isCreditSeparator,
 } from "./credit-display.js";
 export { validateCreditStructure } from "./credit-structure.js";
 export const CREATOR_TYPES = {
@@ -236,27 +242,54 @@ export function creatorParticipation(creatorId, songs) {
   };
 }
 export function creditRows(song) {
-  return CREDIT_ROLES.flatMap((role) =>
-    (song.creditDisplay?.[role] ?? [])
-      .filter((p) => p.creatorId)
-      .map((p) => ({
-        role,
-        creatorId: p.creatorId,
-        displayOverride:
-          song.credits.find((c) => c.creatorId === p.creatorId)
-            ?.displayOverrides?.[role] ??
-          song.credits.find((c) => c.creatorId === p.creatorId)
-            ?.displayOverride ??
-          "",
-      })),
-  );
+  return CREDIT_ROLES.flatMap((role) => {
+    const parts = song.creditDisplay?.[role] ?? [];
+    let preceding = -1;
+    return parts.flatMap((p, index) => {
+      if (!p.creatorId) return [];
+      const between = parts.slice(preceding + 1, index);
+      const separator = between.map((part) => part.text ?? "").join("");
+      const custom =
+        preceding >= 0 &&
+        between.every(
+          (part) =>
+            !part.creatorId && !part.unresolved && isCreditSeparator(part.text),
+        ) &&
+        separator !== "、";
+      preceding = index;
+      return [
+        {
+          role,
+          creatorId: p.creatorId,
+          displayOverride:
+            song.credits.find((c) => c.creatorId === p.creatorId)
+              ?.displayOverrides?.[role] ??
+            song.credits.find((c) => c.creatorId === p.creatorId)
+              ?.displayOverride ??
+            "",
+          ...(custom ? { separatorBefore: separator } : {}),
+        },
+      ];
+    });
+  });
 }
+const creditIdentity = (rows) =>
+  JSON.stringify(rows.map((row) => [row.creatorId, row.displayOverride ?? ""]));
+const rowSeparator = (row) => row.separatorBefore ?? "、";
 export function selectedCreditData(rows, creators, previous = null) {
   if (
     !Array.isArray(rows) ||
     rows.some((r) => !r || !CREDIT_ROLES.includes(r.role))
   )
     fail("クレジットの担当が不正です。");
+  if (
+    rows.some(
+      (row) =>
+        row.separatorBefore !== undefined &&
+        !isCreditSeparator(row.separatorBefore),
+    )
+  )
+    fail("区切りには記号と空白を2000文字以内で入力してください。");
   const credits = [],
     creditDisplay = {};
   for (const role of CREDIT_ROLES) {
@@ -287,24 +320,63 @@ export function selectedCreditData(rows, creators, previous = null) {
       if (c.roles.includes(role))
         fail("同じroleに同じCreatorは1回だけ選択してください。");
       c.roles.push(role);
-      if (tokens.length) tokens.push({ text: "、" });
+      if (tokens.length && rowSeparator(row))
+        tokens.push({ text: rowSeparator(row) });
       tokens.push({ creatorId: row.creatorId });
     }
+    const oldRows = previous
+      ? creditRows(previous).filter((row) => row.role === role)
+      : [];
+    const sameIdentities =
+      previous && creditIdentity(selected) === creditIdentity(oldRows);
+    const desiredSeparators = selected.map(
+      (row, index) =>
+        row.separatorBefore ??
+        (sameIdentities ? oldRows[index].separatorBefore : undefined) ??
+        "、",
+    );
     const equal =
-      previous &&
-      JSON.stringify(
-        selected.map((r) => [r.creatorId, r.displayOverride ?? ""]),
-      ) ===
-        JSON.stringify(
-          creditRows(previous)
-            .filter((r) => r.role === role)
-            .map((r) => [r.creatorId, r.displayOverride ?? ""]),
-        );
-    if (!equal && previous?.creditDisplay?.[role]?.some((p) => p.unresolved))
+      sameIdentities &&
+      selected.every(
+        (row, index) =>
+          !index || desiredSeparators[index] === rowSeparator(oldRows[index]),
+      );
+    if (
+      !sameIdentities &&
+      previous?.creditDisplay?.[role]?.some((p) => p.unresolved)
+    )
       fail(
         "確認待ちの既存クレジットは、migration mappingで解決してから変更してください。",
       );
-    creditDisplay[role] = equal ? previous.creditDisplay[role] : tokens;
+    if (sameIdentities && !equal) {
+      const edited = structuredClone(previous.creditDisplay[role]);
+      const positions = edited.flatMap((part, index) =>
+        part.creatorId ? [index] : [],
+      );
+      for (let index = positions.length - 1; index > 0; index--) {
+        if (desiredSeparators[index] === rowSeparator(oldRows[index])) continue;
+        const start = positions[index - 1] + 1;
+        const gap = edited.slice(start, positions[index]);
+        if (
+          !gap.every(
+            (part) =>
+              !part.creatorId &&
+              !part.unresolved &&
+              isCreditSeparator(part.text),
+          )
+        )
+          fail(
+            "未登録者の表記は保持したまま、区切りの記号だけを変更してください。",
+          );
+        const separator = desiredSeparators[index];
+        edited.splice(
+          start,
+          gap.length,
+          ...(separator ? [{ text: separator }] : []),
+        );
+      }
+      creditDisplay[role] = edited;
+    } else creditDisplay[role] = equal ? previous.creditDisplay[role] : tokens;
   }
   const result = { credits, creditDisplay };
   for (const role of CREDIT_ROLES)
@@ -327,8 +399,8 @@ export function enteredCreditData(rows, creators, previous, values, textRoles) {
       ...CREDIT_ROLES.filter(
         (role) =>
           previous &&
-          JSON.stringify(rows.filter((r) => r.role === role)) !==
-            JSON.stringify(creditRows(previous).filter((r) => r.role === role)),
+          creditIdentity(rows.filter((r) => r.role === role)) !==
+            creditIdentity(creditRows(previous).filter((r) => r.role === role)),
       ),
     ]),
   ];

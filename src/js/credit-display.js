@@ -4,6 +4,10 @@ export const ROLE_LABELS = {
   composer: "作曲",
   arranger: "編曲",
 };
+export const isCreditSeparator = (value) =>
+  typeof value === "string" &&
+  value.length <= 2000 &&
+  /^[\p{P}\p{S}\s]*$/u.test(value);
 const fail = (message) => {
   throw new Error(message);
 };

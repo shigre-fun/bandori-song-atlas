@@ -277,6 +277,126 @@ test("a mixed canonical composer is preserved when another role changes the shar
   assert.equal(saved.editing.song.durationSeconds, 105);
 });
 
+for (const game of Object.values(GAMES))
+  test(`${game.id} varied separators save and reload without losing Creator links`, async () => {
+    const repo = creatorRepository();
+    const creators = repo.files["data/creators.json"].creators;
+    const store = new GitHubStore(settings, "fake-token", repo.fetcher, game);
+    const input = {
+      ...structuredClone(repo.song),
+      ...selectedCreditData(
+        [
+          { role: "lyricist", creatorId: "cr-0001" },
+          { role: "composer", creatorId: "cr-0001" },
+          { role: "composer", creatorId: "cr-0002" },
+          { role: "arranger", creatorId: "cr-0001" },
+        ],
+        creators,
+      ),
+      workId: undefined,
+    };
+    if (game.id === "ournotes") {
+      delete input.live3d;
+      delete input.difficulties.SPECIAL;
+      Object.assign(input, {
+        mv: null,
+        songType: null,
+        gekisouSections: [null, null, null],
+      });
+    }
+    const saved = await store.addSong(input, `${game.id}-separator-add`);
+    const masterBefore = sha(repo.files["data/creators.json"]);
+    const worksBefore = sha(repo.files["data/works.json"]);
+    for (const [index, separator] of [
+      ", ",
+      "・",
+      " / ",
+      " ／ ",
+      " & ",
+      "＋",
+      "",
+      "、",
+    ].entries()) {
+      const editing = await store.loadSong(saved.id);
+      const rows = creditRows(editing.song);
+      rows.filter((row) => row.role === "composer")[1].separatorBefore =
+        separator;
+      const credit = enteredCreditData(
+        rows,
+        creators,
+        editing.song,
+        editing.song,
+        [],
+      );
+      await store.updateSong(
+        { ...editing.song, ...credit },
+        editing,
+        `${game.id}-separator-${index}`,
+      );
+      const loaded = await store.loadSong(saved.id);
+      assert.equal(loaded.song.composer, `制作名A${separator}共同制作B`);
+      assert.equal(loaded.song.lyricist, editing.song.lyricist);
+      assert.equal(loaded.song.arranger, editing.song.arranger);
+      assert.deepEqual(loaded.song.credits, editing.song.credits);
+      assert.equal(loaded.song.workId, editing.song.workId);
+      assert.equal(
+        creditRows(loaded.song).filter((row) => row.role === "composer")[1]
+          .separatorBefore ?? "、",
+        separator,
+      );
+    }
+    assert.equal(sha(repo.files["data/creators.json"]), masterBefore);
+    assert.equal(sha(repo.files["data/works.json"]), worksBefore);
+  });
+
+test("separator-only changes preserve unresolved names and reject replacing them", async () => {
+  const repo = creatorRepository();
+  const store = new GitHubStore(settings, "fake-token", repo.fetcher);
+  const song = repo.files[GAMES.garupa.dataFile].groups[0].songs[0];
+  const creators = repo.files["data/creators.json"].creators;
+  Object.assign(
+    song,
+    selectedCreditData(
+      [
+        { role: "composer", creatorId: "cr-0001" },
+        { role: "composer", creatorId: "cr-0002" },
+      ],
+      creators,
+    ),
+  );
+  song.creditDisplay.composer.push(
+    { text: "、" },
+    { text: "未同定名", unresolved: true },
+  );
+  song.composer += "、未同定名";
+  const editing = await store.loadSong(1);
+  const rows = creditRows(editing.song);
+  rows[1].separatorBefore = " / ";
+  const credit = enteredCreditData(
+    rows,
+    creators,
+    editing.song,
+    editing.song,
+    [],
+  );
+  await store.updateSong(
+    { ...editing.song, ...credit },
+    editing,
+    "pending-separator-update",
+  );
+  const loaded = await store.loadSong(1);
+  assert.equal(loaded.song.composer, "制作名A / 共同制作B、未同定名");
+  assert.deepEqual(loaded.song.credits, editing.song.credits);
+  repo.calls.length = 0;
+  const changed = structuredClone(loaded.song);
+  changed.creditDisplay.composer.at(-1).text = "別の未登録者";
+  await assert.rejects(
+    store.updateSong(changed, loaded, "pending-separator-reject"),
+    /確認待ちクレジット/,
+  );
+  assert.ok(repo.calls.every((call) => call.method === "GET"));
+});
+
 test("unresolved composer is preserved while the same Creator gains another role", async () => {
   const repo = creatorRepository(),
     store = new GitHubStore(settings, "fake-token", repo.fetcher);

@@ -10,6 +10,7 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
     textField = form.elements.creditTextRoles,
     status = document.querySelector("#credit-status"),
     list = document.querySelector("#selected-creators"),
+    separators = document.querySelector("#credit-separators"),
     workSelect = form.elements.workId;
   let creators = [],
     works = [];
@@ -37,6 +38,37 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
         form.elements[role].value = data[role] ?? "";
   }
   const change = (next) => {
+    for (const role of CREDIT_ROLES) {
+      const oldRows = rows().filter((row) => row.role === role);
+      const previousRows = getPrevious()
+        ? creditRows(getPrevious()).filter((row) => row.role === role)
+        : [];
+      const sameSelection =
+        JSON.stringify(
+          oldRows.map((row) => [row.creatorId, row.displayOverride ?? ""]),
+        ) ===
+        JSON.stringify(
+          previousRows.map((row) => [row.creatorId, row.displayOverride ?? ""]),
+        );
+      const oldSeparators = oldRows
+        .slice(1)
+        .map(
+          (row, index) =>
+            row.separatorBefore ??
+            (sameSelection
+              ? previousRows[index + 1].separatorBefore
+              : undefined) ??
+            "、",
+        );
+      next
+        .filter((row) => row.role === role)
+        .forEach((row, index) => {
+          delete row.separatorBefore;
+          const separator =
+            oldSeparators[index - 1] ?? oldSeparators.at(-1) ?? "、";
+          if (index) row.separatorBefore = separator;
+        });
+    }
     const changedRoles = CREDIT_ROLES.filter(
       (role) =>
         JSON.stringify(rows().filter((r) => r.role === role)) !==
@@ -91,9 +123,11 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
     for (const [index, row] of rows().entries()) {
       const li = document.createElement("li"),
         text = document.createElement("span");
+      text.className = "credit-row-name";
       text.textContent = `${ROLE_LABELS[row.role] ?? row.role}：${creators.find((c) => c.id === row.creatorId)?.name ?? row.creatorId}`;
       const label = document.createElement("label"),
         input = document.createElement("input");
+      label.className = "credit-row-override";
       label.textContent = "表示名の上書き";
       input.value = row.displayOverride ?? "";
       input.maxLength = 2000;
@@ -120,6 +154,8 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
       };
       label.append(input);
       li.append(text, label);
+      const actions = document.createElement("div");
+      actions.className = "credit-row-actions";
       for (const [caption, delta] of [
         ["前へ", -1],
         ["後へ", 1],
@@ -149,9 +185,55 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
           }
           change(next);
         };
-        li.append(button);
+        actions.append(button);
       }
+      li.append(actions);
       list.append(li);
+    }
+    separators.replaceChildren();
+    for (const role of CREDIT_ROLES) {
+      const roleRows = rows().filter((row) => row.role === role);
+      const previousRows = getPrevious()
+        ? creditRows(getPrevious()).filter((row) => row.role === role)
+        : [];
+      const sameSelection =
+        JSON.stringify(
+          roleRows.map((row) => [row.creatorId, row.displayOverride ?? ""]),
+        ) ===
+        JSON.stringify(
+          previousRows.map((row) => [row.creatorId, row.displayOverride ?? ""]),
+        );
+      for (let index = 1; index < roleRows.length; index++) {
+        const label = document.createElement("label"),
+          input = document.createElement("input");
+        label.textContent = `${ROLE_LABELS[role]}の区切り ${index}→${index + 1}`;
+        label.className = "credit-separator-field";
+        input.value =
+          roleRows[index].separatorBefore ??
+          (sameSelection ? previousRows[index].separatorBefore : undefined) ??
+          "、";
+        input.maxLength = 2000;
+        input.setAttribute(
+          "aria-label",
+          `${ROLE_LABELS[role]}の${index}人目と${index + 1}人目の区切り`,
+        );
+        input.setAttribute("list", "credit-separator-examples");
+        input.oninput = input.onchange = () => {
+          const next = rows();
+          next.filter((row) => row.role === role)[index].separatorBefore =
+            input.value;
+          field.value = JSON.stringify(next);
+          status.textContent = "";
+          try {
+            renderNames();
+          } catch (error) {
+            status.textContent = error.message;
+          }
+          onChange();
+        };
+        label.append(input);
+        separators.append(label);
+      }
     }
     const pending = Object.entries(getPrevious()?.creditDisplay ?? {}).filter(
       ([role, parts]) =>
@@ -161,7 +243,7 @@ export function createCreatorPicker({ form, getStore, getPrevious, onChange }) {
     );
     status.textContent = pending.length
       ? `確認待ち：${pending.map(([role]) => ROLE_LABELS[role]).join("・")}の既存表記は保持します。登録済みの対応を確認してmigration mappingで解決してください。`
-      : "名前で検索して担当ごとに追加してください。表示順は前へ・後へで変更できます。";
+      : "名前で検索して担当ごとに追加してください。区切り欄は記号と空白をそのまま保存します。表示順は前へ・後へで変更できます。";
     if (creators.length) {
       try {
         renderNames();

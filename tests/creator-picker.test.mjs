@@ -44,6 +44,7 @@ function harness(previous = null, workCount = 2) {
   const selectors = [
     "#credit-status",
     "#selected-creators",
+    "#credit-separators",
     "#credit-creator",
     "#credit-search",
     "#work-search",
@@ -85,6 +86,14 @@ function harness(previous = null, workCount = 2) {
       name: "制作B",
       sortKey: "b",
       type: "unit",
+      aliases: [],
+    },
+    {
+      id: "cr-0003",
+      slug: "c",
+      name: "制作C",
+      sortKey: "c",
+      type: "person",
       aliases: [],
     },
   ];
@@ -141,10 +150,15 @@ function harness(previous = null, workCount = 2) {
       elements["#credit-override"].value = override;
       elements["#add-credit"].onclick();
     },
-    button: (name) =>
-      elements["#selected-creators"].children
-        .flatMap((li) => li.children)
-        .find((e) => e.attributes["aria-label"] === name),
+    button: (name) => {
+      const descendants = (element) => [
+        element,
+        ...element.children.flatMap(descendants),
+      ];
+      return descendants(elements["#selected-creators"]).find(
+        (e) => e.attributes["aria-label"] === name,
+      );
+    },
   };
 }
 test("picker events search aliases, add multiple roles/creators, order, override, remove and preserve draft rows", async () => {
@@ -195,6 +209,113 @@ test("Work draft selection survives unavailable options, refresh limits and sear
     fs.readFileSync("src/js/admin.js", "utf8"),
     /element\.name === "workId"[\s\S]*?creatorPicker\.setWork\(value\)/,
   );
+});
+
+test("separator input preserves spaces, mixed boundaries, drafts, order and registered links", async () => {
+  const h = harness();
+  await h.picker.refresh();
+  h.add("cr-0001", "composer");
+  h.add("cr-0002", "composer");
+  h.add("cr-0003", "composer");
+  const fields = h.elements["#credit-separators"].children;
+  fields[0].children[0].value = ", ";
+  fields[0].children[0].oninput();
+  fields[1].children[0].value = " / ";
+  fields[1].children[0].oninput();
+  assert.equal(h.picker.entered().composer, "制作A, 制作B / 制作C");
+  assert.equal(h.picker.entered().credits.length, 3);
+  assert.ok(
+    h.picker.entered().creditDisplay.composer.every((part) => !part.unresolved),
+  );
+  const saved = h.draft();
+  const restored = harness();
+  restored.form.elements.creatorRows.value = saved.rows;
+  restored.form.elements.creditTextRoles.value = saved.textRoles;
+  for (const role of data.CREDIT_ROLES)
+    restored.form.elements[role].value = saved.values[role];
+  await restored.picker.refresh();
+  assert.equal(restored.picker.entered().composer, "制作A, 制作B / 制作C");
+  restored.button("作曲：制作Bを前へ").onclick();
+  assert.equal(restored.picker.entered().composer, "制作B, 制作A / 制作C");
+  restored.button("作曲：制作Aを削除").onclick();
+  assert.equal(restored.picker.entered().composer, "制作B, 制作C");
+  restored.add("cr-0001", "composer");
+  assert.equal(restored.picker.entered().composer, "制作B, 制作C, 制作A");
+});
+
+test("separator input accepts varied punctuation and an empty join without losing identities", async () => {
+  const h = harness();
+  await h.picker.refresh();
+  h.add("cr-0001", "composer");
+  h.add("cr-0002", "composer");
+  const input = h.elements["#credit-separators"].children[0].children[0];
+  for (const separator of [
+    "、",
+    ", ",
+    "・",
+    " / ",
+    " ／ ",
+    " & ",
+    "＋",
+    " × ",
+    "",
+  ]) {
+    input.value = separator;
+    input.oninput();
+    assert.equal(h.picker.entered().composer, `制作A${separator}制作B`);
+    assert.equal(h.picker.entered().credits.length, 2);
+  }
+  input.value = "未登録者";
+  input.oninput();
+  assert.throws(() => h.picker.entered(), /区切りには記号と空白/);
+});
+
+test("an untouched custom separator survives callers and older drafts without separator metadata", () => {
+  const creators = [
+    { id: "cr-0001", name: "A" },
+    { id: "cr-0002", name: "B" },
+  ];
+  const previous = data.selectedCreditData(
+    [
+      { role: "composer", creatorId: "cr-0001" },
+      { role: "composer", creatorId: "cr-0002", separatorBefore: " / " },
+    ],
+    creators,
+  );
+  const rows = data
+    .creditRows(previous)
+    .map(({ separatorBefore, ...row }) => row);
+  assert.equal(
+    data.selectedCreditData(rows, creators, previous).composer,
+    "A / B",
+  );
+});
+
+test("adding another role to an older draft keeps its original custom separator", async () => {
+  const old = {
+    ...data.selectedCreditData(
+      [
+        { role: "composer", creatorId: "cr-0001" },
+        { role: "composer", creatorId: "cr-0002", separatorBefore: " / " },
+      ],
+      [
+        { id: "cr-0001", name: "制作A" },
+        { id: "cr-0002", name: "制作B" },
+      ],
+    ),
+    workId: "wk-0001",
+  };
+  const h = harness(old);
+  h.form.elements.creatorRows.value = JSON.stringify(
+    data.creditRows(old).map(({ separatorBefore, ...row }) => row),
+  );
+  await h.picker.refresh();
+  assert.equal(
+    h.elements["#credit-separators"].children[0].children[0].value,
+    " / ",
+  );
+  h.add("cr-0001", "lyricist");
+  assert.equal(h.picker.entered().composer, "制作A / 制作B");
 });
 test("loaded unresolved credit keeps its display and blocks changing only the pending role", async () => {
   const old = {

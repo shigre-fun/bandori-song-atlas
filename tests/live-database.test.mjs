@@ -5,7 +5,11 @@ import { loadGameCatalog } from "../scripts/catalog.mjs";
 import { validateCreatorDatabase } from "../src/js/creators-data.js";
 import { GAMES } from "../src/js/site-config.js";
 import { GitHubStore } from "../src/js/github-store.js";
-import { creditRows, enteredCreditData } from "../src/js/creators-data.js";
+import {
+  creditRows,
+  enteredCreditData,
+  creditTokens,
+} from "../src/js/creators-data.js";
 import { creatorRepository } from "./helpers/creator-repository.mjs";
 
 const read = (file) => JSON.parse(fs.readFileSync(file, "utf8"));
@@ -14,6 +18,60 @@ const works = read("data/works.json");
 const catalogs = Object.fromEntries(
   Object.values(GAMES).map((game) => [game.id, loadGameCatalog(game)]),
 );
+
+test("live 神の名を changes the composer separator while preserving both Creator identities", async () => {
+  const repo = creatorRepository({ creatorData: master });
+  repo.files["data/works.json"] = structuredClone(works);
+  for (const game of Object.values(GAMES)) {
+    repo.files[game.dataFile] = read(game.dataFile);
+    repo.files[game.stateFile] = read(game.stateFile);
+  }
+  const game = GAMES.ournotes;
+  const song = catalogs.ournotes.find((song) => song.title === "神の名を");
+  assert.ok(song);
+  const store = new GitHubStore(
+    { owner: "test-owner", repo: "song-atlas", branch: "main" },
+    "fake-token",
+    repo.fetcher,
+    game,
+  );
+  const editing = await store.loadSong(song.id);
+  const before = structuredClone(repo.files);
+  const rows = creditRows(editing.song);
+  const composerRows = rows.filter((row) => row.role === "composer");
+  assert.equal(composerRows.length, 2);
+  composerRows[1].separatorBefore = ", ";
+  const credit = enteredCreditData(
+    rows,
+    master.creators,
+    editing.song,
+    editing.song,
+    [],
+  );
+  await store.updateSong(
+    { ...editing.song, ...credit },
+    editing,
+    "kaminonawo-composer-comma-space",
+  );
+  const loaded = await store.loadSong(song.id);
+  const expectedNames = creditTokens(editing.song, "composer", master.creators)
+    .filter((part) => part.creator)
+    .map((part) => part.text);
+  assert.equal(loaded.song.composer, expectedNames.join(", "));
+  assert.deepEqual(loaded.song.credits, editing.song.credits);
+  assert.equal(loaded.song.lyricist, editing.song.lyricist);
+  assert.equal(loaded.song.arranger, editing.song.arranger);
+  assert.deepEqual(
+    repo.files["data/creators.json"],
+    before["data/creators.json"],
+  );
+  assert.deepEqual(repo.files["data/works.json"], before["data/works.json"]);
+  assert.equal(
+    creditRows(loaded.song).filter((row) => row.role === "composer")[1]
+      .separatorBefore,
+    ", ",
+  );
+});
 
 test("live Creator and Work references validate after ordinary song edits", () => {
   assert.deepEqual(
