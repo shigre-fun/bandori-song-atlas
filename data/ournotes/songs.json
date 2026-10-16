@@ -5774,7 +5774,7 @@
           "bpm": 153,
           "bpmMin": null,
           "bpmMax": null,
-          "durationSeconds": null,
+          "durationSeconds": 110,
           "aliases": [],
           "difficulties": {
             "EASY": {
@@ -5783,7 +5783,7 @@
             },
             "NORMAL": {
               "level": 13,
-              "notes": 372
+              "notes": 373
             },
             "HARD": {
               "level": 19,
@@ -5795,7 +5795,7 @@
             }
           },
           "submissionId": "02d5a61e-1ece-423b-bd8b-baf3511019c3",
-          "revision": "f4340c4c-da15-4670-b206-dc7c7c02b240",
+          "revision": "fe46e35c-4dd7-4d8e-be8d-26be9110ab2a",
           "songType": "翡翠",
           "gekisouSections": [
             "COMBO",
@@ -5805,29 +5805,28 @@
           "workId": "wk-0594",
           "credits": [
             {
-              "creatorId": "cr-0003",
-              "roles": [
-                "composer",
-                "lyricist"
-              ],
-              "displayOverrides": {
-                "lyricist": "真部 脩一"
-              }
-            },
-            {
               "creatorId": "cr-0107",
               "roles": [
                 "lyricist"
               ]
             },
             {
+              "creatorId": "cr-0003",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "真部 脩一",
+              "displayOverrides": {
+                "composer": "真部脩一"
+              }
+            },
+            {
               "creatorId": "cr-0074",
               "roles": [
                 "arranger"
               ],
-              "displayOverrides": {
-                "arranger": "白神真志朗"
-              }
+              "displayOverride": "白神真志朗"
             }
           ],
           "creditDisplay": {
