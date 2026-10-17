@@ -1,5 +1,5 @@
 import { searchCreators, CREDIT_ROLES } from "./creators-data.js";
-import { creatorSortLabels } from "./creator-views.js";
+import { creatorSortLabels, creatorPagination } from "./creator-views.js";
 import { roleCoverage, availableCreditRoles } from "./credit-coverage.js";
 const form = document.querySelector("#creator-controls");
 const data = JSON.parse(
@@ -58,21 +58,26 @@ function apply() {
           ? "アワーノーツの編曲は一部登録です。確認済みの登録分を表示しています。未整備は担当者なしを意味しません。"
           : "";
     form.elements.game.value = game;
-    let count = 0;
-    for (const card of document.querySelectorAll(".creator-work")) {
-      let show = false;
-      for (const record of card.querySelectorAll("li[data-game]")) {
-        record.hidden = Boolean(
-          (role && !record.dataset.roles.split(" ").includes(role)) ||
-            (game && record.dataset.game !== game),
-        );
-        if (!record.hidden) show = true;
-      }
-      card.hidden = !show;
-      if (show) count++;
-    }
-    status.textContent = `表示：${count}作品`;
-    document.querySelector("#creator-empty").hidden = count > 0;
+    const records = [...document.querySelectorAll(".creator-record")];
+    const matching = records.filter(
+      (record) =>
+        (!role || record.dataset.roles.split(" ").includes(role)) &&
+        (!game || record.dataset.game === game),
+    );
+    const pagination = creatorPagination(
+      matching.length,
+      params,
+      location.pathname,
+    );
+    const visible = new Set(matching.slice(pagination.start, pagination.end));
+    for (const record of records) record.hidden = !visible.has(record);
+    for (const card of document.querySelectorAll(".creator-work"))
+      card.hidden = ![...card.querySelectorAll(".creator-record")].some(
+        (record) => visible.has(record),
+      );
+    document.querySelector("#creator-pagination").innerHTML = pagination.html;
+    status.textContent = `表示：${matching.length ? pagination.start + 1 : 0}–${pagination.end} / ${matching.length}曲`;
+    document.querySelector("#creator-empty").hidden = matching.length > 0;
   }
 }
 form.addEventListener("submit", (event) => {
@@ -91,4 +96,24 @@ form.addEventListener("change", () => form.requestSubmit());
 if (data.creators)
   form.elements.q.addEventListener("input", () => form.requestSubmit());
 addEventListener("popstate", apply);
+document
+  .querySelector("#creator-pagination")
+  ?.addEventListener("click", (event) => {
+    const link = event.target.closest("a");
+    if (
+      !link ||
+      event.button !== 0 ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      event.altKey
+    )
+      return;
+    event.preventDefault();
+    history.pushState(null, "", link.href);
+    apply();
+    document
+      .querySelector("#creator-result-status")
+      .scrollIntoView({ block: "start" });
+  });
 apply();

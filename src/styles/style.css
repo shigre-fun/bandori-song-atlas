@@ -1259,8 +1259,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   gap: 1rem;
 }
-.creator-card h2,
-.creator-work h2 {
+.creator-card h2 {
   overflow-wrap: anywhere;
 }
 .creator-counts {
@@ -1279,13 +1278,64 @@ footer {
   font-size: 1.4rem;
   font-weight: bold;
 }
-.creator-work li {
-  margin: 0.7rem 0;
-  overflow-wrap: anywhere;
-}
-.creator-work-list {
+.creator-work-list,
+.creator-work ul {
   display: grid;
-  gap: 1rem;
+  gap: 8px;
+}
+.creator-work ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.panel.creator-record {
+  padding: 10px 16px;
+  min-width: 0;
+}
+.creator-record-heading,
+.creator-record-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  line-height: 1.5;
+}
+.creator-song-title {
+  font-weight: 700;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.creator-song-title:hover {
+  text-decoration: underline;
+}
+.creator-song-title:focus-visible {
+  outline: 3px solid #448abd;
+  outline-offset: 2px;
+}
+.creator-record-roles {
+  margin-left: auto;
+  flex: none;
+  font-size: 13px;
+}
+.creator-record-meta {
+  margin-top: 4px;
+}
+.creator-game {
+  flex: none;
+  background: var(--game);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 12px;
+}
+.creator-record-meta .band {
+  min-width: 0;
+  max-width: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .creator-controls :focus-visible {
   outline: 3px solid #448abd;

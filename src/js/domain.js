@@ -30,6 +30,17 @@ export const colors = [
   "#a94257",
   "#79859c",
 ];
+const ourNotesBandColors = {
+  "MyGO!!!!!": colors[7],
+  "Ave Mujica": colors[8],
+  夢限大みゅーたいぷ: "#ee668f",
+  millsage: "#3b206d",
+  "一家Dumb Rock!": "#00a76f",
+};
+export const bandColor = (song, game = GAMES.garupa) =>
+  game.id === GAMES.ournotes.id
+    ? (ourNotesBandColors[song.band] ?? colors.at(-1))
+    : (colors[bandOrder(song, game)] ?? colors.at(-1));
 export function bandOrder(s, game = GAMES.garupa) {
   const names = game.bands;
   const exact = names.indexOf(s.band);

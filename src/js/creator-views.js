@@ -8,6 +8,7 @@ import { escapeHTML as e, safeJSON } from "./seo.js";
 import { GAMES } from "./site-config.js";
 import { siteURL, songPath } from "./urls.js";
 import { roleCoverage, availableCreditRoles } from "./credit-coverage.js";
+import { bandColor, pageNumbers, searchPage } from "./domain.js";
 export const creatorPath = (creator) => `creators/${creator.slug}/`;
 export const creatorSortLabels = {
   name: "名前順",
@@ -16,6 +17,34 @@ export const creatorSortLabels = {
   composer: "作曲曲数順",
   arranger: "編曲曲数順",
 };
+export function creatorPagination(count, params, pathname) {
+  const pages = Math.max(1, Math.ceil(count / 50));
+  const page = searchPage(params, pages);
+  const start = (page - 1) * 50;
+  const end = Math.min(page * 50, count);
+  const pageURL = (number) => {
+    const query = new URLSearchParams(params);
+    query.set("page", number);
+    return e(pathname + "?" + query);
+  };
+  const html =
+    count <= 50
+      ? ""
+      : `<nav class="pagination" aria-label="参加楽曲のページ切り替え">
+${page === 1 ? '<span aria-disabled="true">前へ</span>' : `<a href="${pageURL(page - 1)}">前へ</a>`}
+<span>${page} / ${pages}</span><div class="page-numbers">${pageNumbers(
+          page,
+          pages,
+        )
+          .map((number) =>
+            number === null
+              ? '<span class="page-gap" aria-hidden="true">…</span>'
+              : `<a href="${pageURL(number)}" aria-label="${number}ページ目" ${number === page ? 'aria-current="page"' : ""}>${number}</a>`,
+          )
+          .join("")}</div>
+${page === pages ? '<span aria-disabled="true">次へ</span>' : `<a href="${pageURL(page + 1)}">次へ</a>`}</nav>`;
+  return { page, pages, start, end, html };
+}
 export function filterCreatorWorks(participation, creatorId, params) {
   const role = CREDIT_ROLES.includes(params.get("role"))
     ? params.get("role")
@@ -71,6 +100,12 @@ export function renderCreatorDetail(creator, songs, works, base, coverage) {
   coverage = roleCoverage(coverage);
   const stats = creatorParticipation(creator.id, songs);
   const byId = new Map(works.map((w) => [w.id, w]));
+  let recordIndex = 0;
+  const pagination = creatorPagination(
+    stats.recordings,
+    new URLSearchParams(),
+    siteURL(creatorPath(creator), base),
+  );
   return `<a class="back" href="${siteURL("creators/", base)}">← クリエイター一覧に戻る</a><h1>${e(creator.name)}</h1><p>${CREATOR_TYPES[creator.type]}</p><section class="panel"><h2>参加クレジット</h2>${counts(stats, coverage, true)}<p>収録件数：${stats.recordings}件</p><p class="notice">上記は全収録の総数です。同じWorkは参加楽曲数とrole別曲数で1曲、収録件数では別々に数えます。下の絞り込みで総数は変わりません。</p>${coverageNotice}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}</section>
 <form id="creator-controls" class="creator-controls" method="get"><label for="creator-role">担当<select id="creator-role" name="role"><option value="">すべて</option>${availableCreditRoles(
     coverage,
@@ -84,7 +119,7 @@ export function renderCreatorDetail(creator, songs, works, base, coverage) {
     .map((g) => `<option value="${g.id}">${g.shortName}</option>`)
     .join(
       "",
-    )}</select></label><button>絞り込む</button></form><p id="creator-coverage-status" role="status"></p><p id="creator-result-status" role="status">表示：${stats.total}作品</p>
+    )}</select></label><button>絞り込む</button></form><p id="creator-coverage-status" role="status"></p><p id="creator-result-status" role="status">表示：${stats.recordings ? 1 : 0}–${pagination.end} / ${stats.recordings}曲</p>
 <div class="creator-work-list">${stats.works
     .sort(
       (a, b) =>
@@ -93,19 +128,17 @@ export function renderCreatorDetail(creator, songs, works, base, coverage) {
           "ja",
         ) || a.workId.localeCompare(b.workId),
     )
-    .map(
-      (w) =>
-        `<article class="panel creator-work" data-work-id="${w.workId}"><h2>${e(byId.get(w.workId)?.title ?? w.records[0].title)}</h2><p>${e([...new Set(w.records.map((s) => s.band))].join(" / "))}</p><p>${w.roles.map((r) => ROLE_LABELS[r]).join("・")}</p><ul>${w.records
-          .map(
-            (s) =>
-              `<li data-game="${s.gameId}" data-roles="${s.credits.find((c) => c.creatorId === creator.id).roles.join(" ")}"><a href="${e(siteURL(songPath(GAMES[s.gameId], s.stableSongId ?? String(s.id)), base))}">${e(GAMES[s.gameId].shortName)}：${e(s.title)}</a> <span>${s.credits
-                .find((c) => c.creatorId === creator.id)
-                .roles.map((r) => ROLE_LABELS[r])
-                .join("・")}</span></li>`,
-          )
-          .join("")}</ul></article>`,
-    )
+    .map((w) => {
+      const hidden = recordIndex >= 50;
+      return `<article class="creator-work" data-work-id="${w.workId}" ${hidden ? "hidden" : ""}><ul>${w.records
+        .map((s) => {
+          const game = GAMES[s.gameId];
+          const roles = s.credits.find((c) => c.creatorId === creator.id).roles;
+          return `<li data-game="${s.gameId}" data-roles="${roles.join(" ")}" class="panel creator-record" ${recordIndex++ >= 50 ? "hidden" : ""}><div class="creator-record-heading"><a class="creator-song-title" href="${e(siteURL(songPath(game, s.stableSongId ?? String(s.id)), base))}" title="${e(s.title)}">${e(s.title)}</a><span class="creator-record-roles">${roles.map((r) => ROLE_LABELS[r]).join("・")}</span></div><div class="creator-record-meta"><span class="creator-game" style="--game:${game.ogAccent.strong}">${e(game.shortName)}</span><span class="band" style="--band:${bandColor(s, game)}" title="${e(s.band)}">${e(s.band)}</span></div></li>`;
+        })
+        .join("")}</ul></article>`;
+    })
     .join(
       "",
-    )}</div><p id="creator-empty" class="notice" ${stats.total ? "hidden" : ""}>条件に該当する参加楽曲はありません。</p><script id="creator-page-data" type="application/json">${safeJSON({ creatorId: creator.id, roleCoverage: originalCoverage ?? coverage })}</script>`;
+    )}</div><div id="creator-pagination">${pagination.html}</div><p id="creator-empty" class="notice" ${stats.total ? "hidden" : ""}>条件に該当する参加楽曲はありません。</p><script id="creator-page-data" type="application/json">${safeJSON({ creatorId: creator.id, roleCoverage: originalCoverage ?? coverage })}</script>`;
 }

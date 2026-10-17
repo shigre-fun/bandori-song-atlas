@@ -13,7 +13,7 @@ import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import {
   typeNames,
   bandOrder,
-  colors,
+  bandColor as color,
   compareSongs,
   selectedFilters,
   filteredSongs,
@@ -43,17 +43,6 @@ const date = (n) =>
   }).format(new Date(n));
 const badge = (s, game) =>
   `<span class="tag ${s.type} ${game.id}">${typeNames[s.type]}</span>`;
-const ourNotesBandColors = {
-  "MyGO!!!!!": colors[7],
-  "Ave Mujica": colors[8],
-  夢限大みゅーたいぷ: "#ee668f",
-  millsage: "#3b206d",
-  "一家Dumb Rock!": "#00a76f",
-};
-const color = (s, game) =>
-  game.id === GAMES.ournotes.id
-    ? (ourNotesBandColors[s.band] ?? colors.at(-1))
-    : (colors[bandOrder(s, game)] ?? colors.at(-1));
 export function formatDuration(seconds) {
   if (!Number.isFinite(seconds) || seconds <= 0) return "未確認";
   const wholeSeconds = Math.floor(seconds);
