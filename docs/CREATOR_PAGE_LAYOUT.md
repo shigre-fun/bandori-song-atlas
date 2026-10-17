@@ -1,6 +1,10 @@
 # クリエイター個人ページの一覧表示
 
-2026-10-17 実装・ローカル検証完了。本番公開は未実施。
+2026-10-17 本番公開・公開後検証完了。
+
+製品コミット：`3cf23899458b58d462bb9e84a45d0f7c25d4fc3b`。
+
+[織田あすかの参加楽曲](https://tanimachi-bdsongs.com/creators/asuka-oda/)で公開済み。
 
 参加楽曲は収録曲ごとに次の2行で表示する。
 
@@ -34,3 +38,15 @@
 - `.cache/creator-compact-*.log`：ビルド・SEO・対象テスト・全回帰の原ログ
 
 補助QAでは実曲名の全角ハイフン、スクロールバー幅、PrettierのHTMLタグ改行、管理用フッターの違いに合わせて検証helper・テスト条件を修正した。並行ビルドの画像生成でメモリ不足が発生したため、直列実行へ変更して両ビルドと最終全回帰を完了した。初回失敗と対処はWORK_LOGに記録した。
+
+## 本番公開の確認
+
+同じ製品コミットの[GitHub Actions 38996712607](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/38996712607)のbuild・deploy、GitHub Pages deployment `7133891106`、Cloudflare Pages deployment `3d4ca725-bc99-45ce-94de-4a8ce599c0f7`の成功を確認した。
+
+独自ドメインとGitHub Pagesで各29 HTTPすべて200。全888曲・Creator371・Work826を検証済み生成物へ全値照合し、JS/CSS 11ファイルも改行とビルドキャッシュ番号だけを正規化して全文一致した。追加の管理更新はなく、公開前に検証済み12ソース・全原ログのSHAが一致したため、ローカルの全351テストを重複実行せず、公開側のbuild/test成功を確認した。
+
+両配信先の各1,273ページについてヘッダー全文、Creator一覧と全371個人ページについて本文全文を生成物へ照合した。1,940件の参加曲リンク・担当・ゲーム色・バンド線色・初期50件を含む本文すべてが一致し、HTTP再試行・照合失敗は0件だった。
+
+隔離Chromeで両本番サイトを実際に開き、320・390・768・1280pxの2行表示・太字タイトル・担当右端・70px高・横はみ出し0、50曲ページ移動、条件保持、絞り込み変更、戻る・進む、タイトルクリック、楽曲からの戻る、Creator検索を確認した。管理3ページも両配信先の3幅、計18条件で成功し、実行時エラー0。専用プロファイルとプロセスは終了済み。
+
+公開証拠は `.cache/creator-layout-publication.json`、`creator-layout-publish-status.json`、`creator-layout-public-http.json`、`creator-layout-pages-http.json`、`creator-layout-{primary,pages}-all-pages.json` と各原ログ、および `reports/creator-layout-{primary,pages}-browser.json`、`creator-layout-{primary,pages}-admin-browser.json` と画面画像に保存した。楽曲・Creator・Workの追加編集は行っていない。
