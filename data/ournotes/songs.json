@@ -6973,7 +6973,7 @@
               "notes": 657
             }
           },
-          "mv": false,
+          "mv": true,
           "songType": "山吹",
           "gekisouSections": [
             "COMBO",
@@ -7014,7 +7014,7 @@
           "lyricist": "藤井健太郎",
           "arranger": "藤井健太郎",
           "relatedSongIds": [],
-          "revision": "3a2ebda7-b17b-4aa0-a1ba-84b28c9d52d0"
+          "revision": "ae9af5a3-7295-46bc-b16a-c34f7b8e604a"
         }
       ]
     },
