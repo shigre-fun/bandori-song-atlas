@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 827,
+  "nextId": 828,
   "works": [
     {
       "id": "wk-0001",
@@ -4140,6 +4140,11 @@
     {
       "id": "wk-0826",
       "title": "神の名を",
+      "source": "admin-explicit-new"
+    },
+    {
+      "id": "wk-0827",
+      "title": "アイライク・ユアライク",
       "source": "admin-explicit-new"
     }
   ]

@@ -7015,6 +7015,72 @@
           "arranger": "藤井健太郎",
           "relatedSongIds": [],
           "revision": "ae9af5a3-7295-46bc-b16a-c34f7b8e604a"
+        },
+        {
+          "id": 89,
+          "title": "アイライク・ユアライク",
+          "reading": "アイライクユアライク",
+          "releaseDate": "2026-10-26T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "牧野太洋",
+          "originalArtist": null,
+          "originalWork": null,
+          "mv": false,
+          "songType": "山吹",
+          "gekisouSections": [
+            null,
+            null,
+            null
+          ],
+          "relatedSongIds": [],
+          "bpm": 106,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": 104,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 189
+            },
+            "NORMAL": {
+              "level": 12,
+              "notes": 285
+            },
+            "HARD": {
+              "level": 17,
+              "notes": 464
+            },
+            "EXPERT": {
+              "level": 25,
+              "notes": 589
+            }
+          },
+          "credits": [],
+          "creditDisplay": {
+            "lyricist": [
+              {
+                "text": "牧野太洋",
+                "unresolved": true
+              }
+            ],
+            "composer": [
+              {
+                "text": "牧野太洋",
+                "unresolved": true
+              }
+            ],
+            "arranger": [
+              {
+                "text": "牧野太洋",
+                "unresolved": true
+              }
+            ]
+          },
+          "lyricist": "牧野太洋",
+          "arranger": "牧野太洋",
+          "workId": "wk-0827",
+          "submissionId": "d15d9080-dc2a-489e-a901-32bf490fea9d"
         }
       ]
     },
