@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 828,
+  "nextId": 829,
   "works": [
     {
       "id": "wk-0001",
@@ -4145,6 +4145,11 @@
     {
       "id": "wk-0827",
       "title": "アイライク・ユアライク",
+      "source": "admin-explicit-new"
+    },
+    {
+      "id": "wk-0828",
+      "title": "フレーム・バイ・フレーム",
       "source": "admin-explicit-new"
     }
   ]

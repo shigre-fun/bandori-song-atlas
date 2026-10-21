@@ -20855,6 +20855,80 @@
           },
           "lyricist": "中村航",
           "arranger": "下田晃太郎（Elements Garden）"
+        },
+        {
+          "id": 801,
+          "title": "フレーム・バイ・フレーム",
+          "reading": "フレームバイフレーム",
+          "releaseDate": "2026-10-21T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "近藤世真（Elements Garden）",
+          "originalArtist": null,
+          "originalWork": null,
+          "live3d": false,
+          "relatedSongIds": [],
+          "bpm": 210,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": 111,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 7,
+              "notes": 105
+            },
+            "NORMAL": {
+              "level": 14,
+              "notes": 202
+            },
+            "HARD": {
+              "level": 21,
+              "notes": 464
+            },
+            "EXPERT": {
+              "level": 26,
+              "notes": 715
+            },
+            "SPECIAL": null
+          },
+          "credits": [
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [
+              {
+                "creatorId": "cr-0092"
+              }
+            ],
+            "composer": [
+              {
+                "creatorId": "cr-0011"
+              }
+            ],
+            "arranger": [
+              {
+                "creatorId": "cr-0011"
+              }
+            ]
+          },
+          "lyricist": "織田あすか（Elements Garden）",
+          "arranger": "近藤世真（Elements Garden）",
+          "workId": "wk-0828",
+          "submissionId": "1d27bf46-6290-4899-82fa-6f3c1b2d3284"
         }
       ]
     },
