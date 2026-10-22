@@ -1,0 +1,1779 @@
+
+> bandori-song-atlas@1.0.0 test C:\MyProgramming\BangDream_Website
+> node scripts/migrations/b2-test.mjs
+
+ガルパ799曲・アワーノーツ85曲の正規ページ、797件の旧URL互換ページを生成しました。
+TAP version 13
+# Subtest: connected store switches game paths without losing its token
+ok 1 - connected store switches game paths without losing its token
+  ---
+  duration_ms: 2.2912
+  type: 'test'
+  ...
+# Subtest: default browser fetch uses the global receiver
+ok 2 - default browser fetch uses the global receiver
+  ---
+  duration_ms: 42.7067
+  type: 'test'
+  ...
+# Subtest: authenticated save stores a song and next ID in one commit
+ok 3 - authenticated save stores a song and next ID in one commit
+  ---
+  duration_ms: 15.9918
+  type: 'test'
+  ...
+# Subtest: a newly added song can be corrected without creating a duplicate
+ok 4 - a newly added song can be corrected without creating a duplicate
+  ---
+  duration_ms: 12.402
+  type: 'test'
+  ...
+# Subtest: retry after lost response does not create another song
+ok 5 - retry after lost response does not create another song
+  ---
+  duration_ms: 4.8643
+  type: 'test'
+  ...
+# Subtest: concurrent branch update does not overwrite the collection
+ok 6 - concurrent branch update does not overwrite the collection
+  ---
+  duration_ms: 2.9854
+  type: 'test'
+  ...
+# Subtest: invalid authentication and malformed input do not write
+ok 7 - invalid authentication and malformed input do not write
+  ---
+  duration_ms: 0.7588
+  type: 'test'
+  ...
+# Subtest: GitHub Pages subdirectory is preserved in links
+ok 8 - GitHub Pages subdirectory is preserved in links
+  ---
+  duration_ms: 74.6205
+  type: 'test'
+  ...
+# Subtest: existing IDs precede the next allocated ID
+ok 9 - existing IDs precede the next allocated ID
+  ---
+  duration_ms: 14.7912
+  type: 'test'
+  ...
+# Subtest: GitHub blob reader accepts the full Garupa source
+ok 10 - GitHub blob reader accepts the full Garupa source
+  ---
+  duration_ms: 186.1801
+  type: 'test'
+  ...
+# Subtest: edit preserves ID, unknown fields, and unrelated songs
+ok 11 - edit preserves ID, unknown fields, and unrelated songs
+  ---
+  duration_ms: 16.1661
+  type: 'test'
+  ...
+# Subtest: stale, removed, or other repository edits cannot overwrite data
+ok 12 - stale, removed, or other repository edits cannot overwrite data
+  ---
+  duration_ms: 8.4352
+  type: 'test'
+  ...
+# Subtest: edit retry recovers a lost response
+ok 13 - edit retry recovers a lost response
+  ---
+  duration_ms: 5.4848
+  type: 'test'
+  ...
+# Subtest: public pages and imported modules use the current asset version
+ok 14 - public pages and imported modules use the current asset version
+  ---
+  duration_ms: 22.5015
+  type: 'test'
+  ...
+# Subtest: generated song pages carry the requested colors and type markers
+ok 15 - generated song pages carry the requested colors and type markers
+  ---
+  duration_ms: 16.2325
+  type: 'test'
+  ...
+# Subtest: Our Notes band colors stay consistent after list rendering
+ok 16 - Our Notes band colors stay consistent after list rendering
+  ---
+  duration_ms: 25.7111
+  type: 'test'
+  ...
+# Subtest: both song lists reuse the song tags and band lines in filter options
+ok 17 - both song lists reuse the song tags and band lines in filter options
+  ---
+  duration_ms: 5.9808
+  type: 'test'
+  ...
+# Subtest: song reports prefill either game URL and data category, ready for message-only input
+ok 18 - song reports prefill either game URL and data category, ready for message-only input
+  ---
+  duration_ms: 55.1732
+  type: 'test'
+  ...
+# Subtest: report prefill ignores unsafe or non-song URLs and leaves normal contact empty
+ok 19 - report prefill ignores unsafe or non-song URLs and leaves normal contact empty
+  ---
+  duration_ms: 2.2805
+  type: 'test'
+  ...
+# Subtest: report prefill removes search/hash and keeps existing user input editable
+ok 20 - report prefill removes search/hash and keeps existing user input editable
+  ---
+  duration_ms: 0.5783
+  type: 'test'
+  ...
+# Subtest: client focuses invalid inputs and conditionally enables reply email
+ok 21 - client focuses invalid inputs and conditionally enables reply email
+  ---
+  duration_ms: 1.4271
+  type: 'test'
+  ...
+# Subtest: client blocks a second submission while pending and announces success
+ok 22 - client blocks a second submission while pending and announces success
+  ---
+  duration_ms: 1.5829
+  type: 'test'
+  ...
+# Subtest: client preserves input, resets token and allows retry after API/network failures
+ok 23 - client preserves input, resets token and allows retry after API/network failures
+  ---
+  duration_ms: 10.8363
+  type: 'test'
+  ...
+# Subtest: client handles widget loading failures, expiry, verification errors and narrow widths
+ok 24 - client handles widget loading failures, expiry, verification errors and narrow widths
+  ---
+  duration_ms: 0.9149
+  type: 'test'
+  ...
+# Subtest: contact validation accepts anonymous messages and exact length boundaries
+ok 25 - contact validation accepts anonymous messages and exact length boundaries
+  ---
+  duration_ms: 4.7523
+  type: 'test'
+  ...
+# Subtest: reply email is conditional; all submitted emails reject injection and invalid types
+ok 26 - reply email is conditional; all submitted emails reject injection and invalid types
+  ---
+  duration_ms: 1.0253
+  type: 'test'
+  ...
+# Subtest: normal send uses fixed private addresses, plain text, category subject and JST
+ok 27 - normal send uses fixed private addresses, plain text, category subject and JST
+  ---
+  duration_ms: 96.7534
+  type: 'test'
+  ...
+# Subtest: Reply-To is included only when requested, never substituted for From
+ok 28 - Reply-To is included only when requested, never substituted for From
+  ---
+  duration_ms: 6.5607
+  type: 'test'
+  ...
+# Subtest: invalid inputs, honeypot, tokens, origins and request formats never reach providers
+ok 29 - invalid inputs, honeypot, tokens, origins and request formats never reach providers
+  ---
+  duration_ms: 17.5722
+  type: 'test'
+  ...
+# Subtest: bounded reading rejects streamed oversized bodies without Content-Length
+ok 30 - bounded reading rejects streamed oversized bodies without Content-Length
+  ---
+  duration_ms: 1.6066
+  type: 'test'
+  ...
+# Subtest: missing configuration and official test keys are refused on public hosts
+ok 31 - missing configuration and official test keys are refused on public hosts
+  ---
+  duration_ms: 9.3702
+  type: 'test'
+  ...
+# Subtest: test hostname/action exception works only with official paired keys on loopback
+ok 32 - test hostname/action exception works only with official paired keys on loopback
+  ---
+  duration_ms: 11.2511
+  type: 'test'
+  ...
+# Subtest: failed, expired, reused or mismatched Turnstile verification never sends mail
+ok 33 - failed, expired, reused or mismatched Turnstile verification never sends mail
+  ---
+  duration_ms: 9.0759
+  type: 'test'
+  ...
+# Subtest: Resend failures and lost responses give generic errors and are not retried
+ok 34 - Resend failures and lost responses give generic errors and are not retried
+  ---
+  duration_ms: 7.0208
+  type: 'test'
+  ...
+# Subtest: contact rendering contains accessible fields, no private values and an unconfigured state
+ok 35 - contact rendering contains accessible fields, no private values and an unconfigured state
+  ---
+  duration_ms: 0.9685
+  type: 'test'
+  ...
+# Subtest: generated contact page, routing and CSP preserve static pages and GitHub access
+ok 36 - generated contact page, routing and CSP preserve static pages and GitHub access
+  ---
+  duration_ms: 45.599
+  type: 'test'
+  ...
+# Subtest: garupa direct lyricist/composer/arranger entry adds, reloads, edits and clears without inferred identities
+ok 37 - garupa direct lyricist/composer/arranger entry adds, reloads, edits and clears without inferred identities
+  ---
+  duration_ms: 131.3429
+  type: 'test'
+  ...
+# Subtest: ournotes direct lyricist/composer/arranger entry adds, reloads, edits and clears without inferred identities
+ok 38 - ournotes direct lyricist/composer/arranger entry adds, reloads, edits and clears without inferred identities
+  ---
+  duration_ms: 79.8118
+  type: 'test'
+  ...
+# Subtest: garupa unrelated edits preserve multiple unresolved names without Creator relations
+ok 39 - garupa unrelated edits preserve multiple unresolved names without Creator relations
+  ---
+  duration_ms: 76.6562
+  type: 'test'
+  ...
+# Subtest: ournotes unrelated edits preserve multiple unresolved names without Creator relations
+ok 40 - ournotes unrelated edits preserve multiple unresolved names without Creator relations
+  ---
+  duration_ms: 63.1586
+  type: 'test'
+  ...
+# Subtest: garupa mixed unresolved credits compare effective role overrides on save
+ok 41 - garupa mixed unresolved credits compare effective role overrides on save
+  ---
+  duration_ms: 45.006
+  type: 'test'
+  ...
+# Subtest: ournotes mixed unresolved credits compare effective role overrides on save
+ok 42 - ournotes mixed unresolved credits compare effective role overrides on save
+  ---
+  duration_ms: 51.5976
+  type: 'test'
+  ...
+# Subtest: a mixed canonical composer is preserved when another role changes the shared override
+ok 43 - a mixed canonical composer is preserved when another role changes the shared override
+  ---
+  duration_ms: 65.96
+  type: 'test'
+  ...
+# Subtest: garupa varied separators save and reload without losing Creator links
+ok 44 - garupa varied separators save and reload without losing Creator links
+  ---
+  duration_ms: 146.9615
+  type: 'test'
+  ...
+# Subtest: ournotes varied separators save and reload without losing Creator links
+ok 45 - ournotes varied separators save and reload without losing Creator links
+  ---
+  duration_ms: 115.51
+  type: 'test'
+  ...
+# Subtest: separator-only changes preserve unresolved names and reject replacing them
+ok 46 - separator-only changes preserve unresolved names and reject replacing them
+  ---
+  duration_ms: 37.1028
+  type: 'test'
+  ...
+# Subtest: unresolved composer is preserved while the same Creator gains another role
+ok 47 - unresolved composer is preserved while the same Creator gains another role
+  ---
+  duration_ms: 23.2234
+  type: 'test'
+  ...
+# Subtest: Creator GitHub add/edit/delete uses fixed IDs, SHA and non-force atomic commits
+ok 48 - Creator GitHub add/edit/delete uses fixed IDs, SHA and non-force atomic commits
+  ---
+  duration_ms: 53.5262
+  type: 'test'
+  ...
+# Subtest: Creator stale SHA, duplicate slug and immutable-ID errors never write
+ok 49 - Creator stale SHA, duplicate slug and immutable-ID errors never write
+  ---
+  duration_ms: 27.338
+  type: 'test'
+  ...
+# Subtest: Creator concurrent branch update is rejected and lost-response retry is idempotent
+ok 50 - Creator concurrent branch update is rejected and lost-response retry is idempotent
+  ---
+  duration_ms: 28.389
+  type: 'test'
+  ...
+# Subtest: normalized song add chooses creators, combines roles and allocates Work in the same commit
+ok 51 - normalized song add chooses creators, combines roles and allocates Work in the same commit
+  ---
+  duration_ms: 47.3608
+  type: 'test'
+  ...
+# Subtest: both-game links use the selected Work and reject invalid Creator or mismatched Work
+ok 52 - both-game links use the selected Work and reject invalid Creator or mismatched Work
+  ---
+  duration_ms: 34.5609
+  type: 'test'
+  ...
+# Subtest: five user-selected current slugs preserve all fixed identities, metadata, readings and previous history
+ok 53 - five user-selected current slugs preserve all fixed identities, metadata, readings and previous history
+  ---
+  duration_ms: 910.9171
+  type: 'test'
+  ...
+# Subtest: final slugs add exactly five map histories; short-name identities and every other mapping remain unchanged
+ok 54 - final slugs add exactly five map histories; short-name identities and every other mapping remain unchanged
+  ---
+  duration_ms: 666.4198
+  type: 'test'
+  ...
+# Subtest: coverage, 2652 legacy displays and all Work/record counts stay unchanged after URL-only migration
+ok 55 - coverage, 2652 legacy displays and all Work/record counts stay unchanged after URL-only migration
+  ---
+  duration_ms: 896.4838
+  type: 'test'
+  ...
+# Subtest: repeated final slug apply is byte-preserving for metadata, songs, Work, short-name documents and original evidence
+ok 56 - repeated final slug apply is byte-preserving for metadata, songs, Work, short-name documents and original evidence
+  ---
+  duration_ms: 1095.7896
+  type: 'test'
+  ...
+# Subtest: all five generated pages and history redirects use only current canonical and sitemap targets on both bases
+ok 57 - all five generated pages and history redirects use only current canonical and sitemap targets on both bases
+  ---
+  duration_ms: 49845.4365
+  type: 'test'
+  ...
+# Subtest: repeated human apply keeps source bytes and original application evidence unchanged
+ok 58 - repeated human apply keeps source bytes and original application evidence unchanged
+  ---
+  duration_ms: 1159.0295
+  type: 'test'
+  ...
+# Subtest: human evidence stays explicit; ryo fixed-ID rename preserves all prior displays
+ok 59 - human evidence stays explicit; ryo fixed-ID rename preserves all prior displays
+  ---
+  duration_ms: 952.8232
+  type: 'test'
+  ...
+# Subtest: confirmed people retain aliases and affiliation is not another participant; deferred five are unchanged
+ok 60 - confirmed people retain aliases and affiliation is not another participant; deferred five are unchanged
+  ---
+  duration_ms: 757.1455
+  type: 'test'
+  ...
+# Subtest: future TK, UZ and john records cannot resolve by name or alias; only approved composer references apply
+ok 61 - future TK, UZ and john records cannot resolve by name or alias; only approved composer references apply
+  ---
+  duration_ms: 571.8041
+  type: 'test'
+  ...
+# Subtest: current and historical slug namespace prevents reuse, duplicates, invalid paths and redirect cycles
+ok 62 - current and historical slug namespace prevents reuse, duplicates, invalid paths and redirect cycles
+  ---
+  duration_ms: 2.6619
+  type: 'test'
+  ...
+# Subtest: admin omission preserves history; forged history, old-slug reuse and history deletion are refused before commits
+ok 63 - admin omission preserves history; forged history, old-slug reuse and history deletion are refused before commits
+  ---
+  duration_ms: 136.4521
+  type: 'test'
+  ...
+# Subtest: static creator redirect preserves query filters and fragment in one replace
+ok 64 - static creator redirect preserves query filters and fragment in one replace
+  ---
+  duration_ms: 4.5009
+  type: 'test'
+  ...
+# Subtest: all human proposal invariants including 2652 strings and Work preservation pass
+ok 65 - all human proposal invariants including 2652 strings and Work preservation pass
+  ---
+  duration_ms: 506.6306
+  type: 'test'
+  ...
+# Subtest: generated old creator pages use current canonical, both 301 rules and only current sitemap entries
+ok 66 - generated old creator pages use current canonical, both 301 rules and only current sitemap entries
+  ---
+  duration_ms: 11.1818
+  type: 'test'
+  ...
+# Subtest: each recording has a linked title, its own roles and game/band metadata without repeated headings
+ok 67 - each recording has a linked title, its own roles and game/band metadata without repeated headings
+  ---
+  duration_ms: 3.6724
+  type: 'test'
+  ...
+# Subtest: pagination uses 50 recordings, including different recordings of one Work, and preserves filters
+ok 68 - pagination uses 50 recordings, including different recordings of one Work, and preserves filters
+  ---
+  duration_ms: 6.909
+  type: 'test'
+  ...
+# Subtest: Creator band lines use exactly the song finder colors for all bands and fallback bands
+ok 69 - Creator band lines use exactly the song finder colors for all bands and fallback bands
+  ---
+  duration_ms: 53.3032
+  type: 'test'
+  ...
+# Subtest: every generated public header has the four requested links in order, with About retained in the footer
+ok 70 - every generated public header has the four requested links in order, with About retained in the footer
+  ---
+  duration_ms: 1479.1707
+  type: 'test'
+  ...
+# Subtest: migration stages are repeat-safe, preserve every unrelated field and restore only unedited data
+ok 71 - migration stages are repeat-safe, preserve every unrelated field and restore only unedited data
+  ---
+  duration_ms: 2666.7176
+  type: 'test'
+  ...
+# Subtest: unprepared role counts and filters are distinct from a measured zero and switch through dataset coverage
+ok 72 - unprepared role counts and filters are distinct from a measured zero and switch through dataset coverage
+  ---
+  duration_ms: 42.9009
+  type: 'test'
+  ...
+# Subtest: human-confirmed spellings share fixed identities, keep overrides and remove Work warnings
+ok 73 - human-confirmed spellings share fixed identities, keep overrides and remove Work warnings
+  ---
+  duration_ms: 256.999
+  type: 'test'
+  ...
+# Subtest: candidate A/B/C/D hints never become AUTO_RESOLVED or apply without exact map
+ok 74 - candidate A/B/C/D hints never become AUTO_RESOLVED or apply without exact map
+  ---
+  duration_ms: 11.9299
+  type: 'test'
+  ...
+# Subtest: review report is deterministic, complete and migration reapply preserves IDs/data
+ok 75 - review report is deterministic, complete and migration reapply preserves IDs/data
+  ---
+  duration_ms: 1053.4778
+  type: 'test'
+  ...
+# Subtest: explicit user-approved recording ID rotation rebases references simultaneously and rejects accidental merging
+ok 76 - explicit user-approved recording ID rotation rebases references simultaneously and rejects accidental merging
+  ---
+  duration_ms: 5.3105
+  type: 'test'
+  ...
+# Subtest: official research excludes every non-confirmed entry and preserves fixed IDs on retry
+ok 77 - official research excludes every non-confirmed entry and preserves fixed IDs on retry
+  ---
+  duration_ms: 1.951
+  type: 'test'
+  ...
+# Subtest: unread evidence, guessed kana, duplicate aliases, slug collisions and changed entity types stop before writes
+ok 78 - unread evidence, guessed kana, duplicate aliases, slug collisions and changed entity types stop before writes
+  ---
+  duration_ms: 1.3869
+  type: 'test'
+  ...
+# Subtest: short-name mapping applies to approved work references and composer only; evidence stays outside public master
+ok 79 - short-name mapping applies to approved work references and composer only; evidence stays outside public master
+  ---
+  duration_ms: 5.5607
+  type: 'test'
+  ...
+# Subtest: coverage counts only fully resolved composers and requires every recording of a Work
+ok 80 - coverage counts only fully resolved composers and requires every recording of a Work
+  ---
+  duration_ms: 0.9718
+  type: 'test'
+  ...
+# Subtest: all frequent unresolved baseline candidates have a research decision and retained sources exclude search snippets
+ok 81 - all frequent unresolved baseline candidates have a research decision and retained sources exclude search snippets
+  ---
+  duration_ms: 64.8041
+  type: 'test'
+  ...
+# Subtest: picker events search aliases, add multiple roles/creators, order, override, remove and preserve draft rows
+ok 82 - picker events search aliases, add multiple roles/creators, order, override, remove and preserve draft rows
+  ---
+  duration_ms: 17.6714
+  type: 'test'
+  ...
+# Subtest: Work draft selection survives unavailable options, refresh limits and search changes
+ok 83 - Work draft selection survives unavailable options, refresh limits and search changes
+  ---
+  duration_ms: 4.1551
+  type: 'test'
+  ...
+# Subtest: separator input preserves spaces, mixed boundaries, drafts, order and registered links
+ok 84 - separator input preserves spaces, mixed boundaries, drafts, order and registered links
+  ---
+  duration_ms: 9.8701
+  type: 'test'
+  ...
+# Subtest: separator input accepts varied punctuation and an empty join without losing identities
+ok 85 - separator input accepts varied punctuation and an empty join without losing identities
+  ---
+  duration_ms: 16.2147
+  type: 'test'
+  ...
+# Subtest: an untouched custom separator survives callers and older drafts without separator metadata
+ok 86 - an untouched custom separator survives callers and older drafts without separator metadata
+  ---
+  duration_ms: 1.242
+  type: 'test'
+  ...
+# Subtest: adding another role to an older draft keeps its original custom separator
+ok 87 - adding another role to an older draft keeps its original custom separator
+  ---
+  duration_ms: 11.2272
+  type: 'test'
+  ...
+# Subtest: loaded unresolved credit keeps its display and blocks changing only the pending role
+ok 88 - loaded unresolved credit keeps its display and blocks changing only the pending role
+  ---
+  duration_ms: 7.5213
+  type: 'test'
+  ...
+# Subtest: three direct credit fields survive refresh and draft restore, then allow explicit Creator selection
+ok 89 - three direct credit fields survive refresh and draft restore, then allow explicit Creator selection
+  ---
+  duration_ms: 5.2586
+  type: 'test'
+  ...
+# Subtest: editing one role preserves other role links and reverting restores the original identity
+ok 90 - editing one role preserves other role links and reverting restores the original identity
+  ---
+  duration_ms: 21.3737
+  type: 'test'
+  ...
+# Subtest: a reloaded direct credit can be explicitly linked to a registered Creator
+ok 91 - a reloaded direct credit can be explicitly linked to a registered Creator
+  ---
+  duration_ms: 17.3946
+  type: 'test'
+  ...
+# Subtest: real master, IDs, types and record references validate; unresolved names do not become identities
+ok 92 - real master, IDs, types and record references validate; unresolved names do not become identities
+  ---
+  duration_ms: 110.6644
+  type: 'test'
+  ...
+# Subtest: Creator schema rejects duplicate IDs/slugs, empty required fields, bad types and aliases
+ok 93 - Creator schema rejects duplicate IDs/slugs, empty required fields, bad types and aliases
+  ---
+  duration_ms: 116.4315
+  type: 'test'
+  ...
+# Subtest: relations reject absent creator/work, bad/duplicate roles, repeated relations and wrong override types
+ok 94 - relations reject absent creator/work, bad/duplicate roles, repeated relations and wrong override types
+  ---
+  duration_ms: 339.1549
+  type: 'test'
+  ...
+# Subtest: work identity follows explicit links including FULL, never titles alone
+ok 95 - work identity follows explicit links including FULL, never titles alone
+  ---
+  duration_ms: 73.8059
+  type: 'test'
+  ...
+# Subtest: migration retains every old credit byte for three roles and all other song fields
+ok 96 - migration retains every old credit byte for three roles and all other song fields
+  ---
+  duration_ms: 81.0703
+  type: 'test'
+  ...
+# Subtest: alias search works without creating alias identities
+ok 97 - alias search works without creating alias identities
+  ---
+  duration_ms: 1.7726
+  type: 'test'
+  ...
+# Subtest: multi role/multi creator selections preserve per-role order and display overrides
+ok 98 - multi role/multi creator selections preserve per-role order and display overrides
+  ---
+  duration_ms: 12.1604
+  type: 'test'
+  ...
+# Subtest: unique Work/recording/role counts deduplicate games and FULL and count each role once
+ok 99 - unique Work/recording/role counts deduplicate games and FULL and count each role once
+  ---
+  duration_ms: 1.5507
+  type: 'test'
+  ...
+# Subtest: static creator pages include facts, game links, controls, aliases, and ID links on both bases
+ok 100 - static creator pages include facts, game links, controls, aliases, and ID links on both bases
+  ---
+  duration_ms: 75.2052
+  type: 'test'
+  ...
+# Subtest: legacy role search includes all three creator roles and retains artist distinction
+ok 101 - legacy role search includes all three creator roles and retains artist distinction
+  ---
+  duration_ms: 4.4222
+  type: 'test'
+  ...
+# Subtest: published creator SEO/static content/routes/admin safeguards are generated
+ok 102 - published creator SEO/static content/routes/admin safeguards are generated
+  ---
+  duration_ms: 2.9385
+  type: 'test'
+  ...
+# Subtest: combined and abbreviated credit labels expand roles without conflating arrangement and composition
+ok 103 - combined and abbreviated credit labels expand roles without conflating arrangement and composition
+  ---
+  duration_ms: 4.0317
+  type: 'test'
+  ...
+# Subtest: raw punctuation, internal spaces and source credit labels survive extraction
+ok 104 - raw punctuation, internal spaces and source credit labels survive extraction
+  ---
+  duration_ms: 3.3127
+  type: 'test'
+  ...
+# Subtest: track sequencing and explicit artist context prevent credits crossing to a different song or band
+ok 105 - track sequencing and explicit artist context prevent credits crossing to a different song or band
+  ---
+  duration_ms: 1.2444
+  type: 'test'
+  ...
+# Subtest: game definition lists with inline label values are still raw role evidence
+ok 106 - game definition lists with inline label values are still raw role evidence
+  ---
+  duration_ms: 0.9765
+  type: 'test'
+  ...
+# Subtest: all 884 references and current raw fields are covered exactly once, with byte guards and unchanged roleCoverage
+ok 107 - all 884 references and current raw fields are covered exactly once, with byte guards and unchanged roleCoverage
+  ---
+  duration_ms: 517.3905
+  type: 'test'
+  ...
+# Subtest: schema rejects missing roles, invalid status, malformed provenance and unsupported schema keywords
+ok 108 - schema rejects missing roles, invalid status, malformed provenance and unsupported schema keywords
+  ---
+  duration_ms: 393.7701
+  type: 'test'
+  ...
+# Subtest: validator rejects duplicate, absent or renamed baseline records and altered credit raw evidence
+ok 109 - validator rejects duplicate, absent or renamed baseline records and altered credit raw evidence
+  ---
+  duration_ms: 2091.8383
+  type: 'test'
+  ...
+# Subtest: confirmed credit cannot use missing or unread source provenance
+ok 110 - confirmed credit cannot use missing or unread source provenance
+  ---
+  duration_ms: 734.9162
+  type: 'test'
+  ...
+# Subtest: arranger game reuse is forbidden, release arrangements remain review-only and missing credits are not no-lyrics
+ok 111 - arranger game reuse is forbidden, release arrangements remain review-only and missing credits are not no-lyrics
+  ---
+  duration_ms: 321.5178
+  type: 'test'
+  ...
+# Subtest: primary conflicting duplicate composer blocks are retained and never selected or auto-fixed
+ok 112 - primary conflicting duplicate composer blocks are retained and never selected or auto-fixed
+  ---
+  duration_ms: 0.5124
+  type: 'test'
+  ...
+# Subtest: Creator exact annotation is whole-raw only; splitting and near matches remain candidates
+ok 113 - Creator exact annotation is whole-raw only; splitting and near matches remain candidates
+  ---
+  duration_ms: 0.886
+  type: 'test'
+  ...
+# Subtest: offline generation is repeat-safe and never changes user source files
+ok 114 - offline generation is repeat-safe and never changes user source files
+  ---
+  duration_ms: 8107.5385
+  type: 'test'
+  ...
+# Subtest: every Phase A raw and record-role survives with its original spelling
+ok 115 - every Phase A raw and record-role survives with its original spelling
+  ---
+  duration_ms: 23.4178
+  type: 'test'
+  ...
+# Subtest: protected unit names and internal name punctuation never become separator splits
+ok 116 - protected unit names and internal name punctuation never become separator splits
+  ---
+  duration_ms: 0.3009
+  type: 'test'
+  ...
+# Subtest: a punctuation-only split remains a review candidate
+ok 117 - a punctuation-only split remains a review candidate
+  ---
+  duration_ms: 0.1671
+  type: 'test'
+  ...
+# Subtest: Mela human review overrides the role error and protects the current composer
+ok 118 - Mela human review overrides the role error and protects the current composer
+  ---
+  duration_ms: 1.1008
+  type: 'test'
+  ...
+# Subtest: all three flower versions keep Takeda only in arrangement
+ok 119 - all three flower versions keep Takeda only in arrangement
+  ---
+  duration_ms: 0.5799
+  type: 'test'
+  ...
+# Subtest: SUPA LOVE is affiliation and joint Symbol composition reuses existing IDs
+ok 120 - SUPA LOVE is affiliation and joint Symbol composition reuses existing IDs
+  ---
+  duration_ms: 0.3028
+  type: 'test'
+  ...
+# Subtest: Dream Monster human aliases resolve Aira and fixed Sena ID without game arrangement promotion
+ok 121 - Dream Monster human aliases resolve Aira and fixed Sena ID without game arrangement promotion
+  ---
+  duration_ms: 0.2559
+  type: 'test'
+  ...
+# Subtest: Elements Garden affiliation and standalone organization credit stay distinct
+ok 122 - Elements Garden affiliation and standalone organization credit stay distinct
+  ---
+  duration_ms: 0.1835
+  type: 'test'
+  ...
+# Subtest: record and role variants reuse one identity and preserve all 91 existing IDs
+ok 123 - record and role variants reuse one identity and preserve all 91 existing IDs
+  ---
+  duration_ms: 0.7238
+  type: 'test'
+  ...
+# Subtest: samfree alias and legacy display override are explicit candidates
+ok 124 - samfree alias and legacy display override are explicit candidates
+  ---
+  duration_ms: 0.4234
+  type: 'test'
+  ...
+# Subtest: multi-source format variants require identical confirmed identity sets
+ok 125 - multi-source format variants require identical confirmed identity sets
+  ---
+  duration_ms: 1.7672
+  type: 'test'
+  ...
+# Subtest: short-name global matching is rejected even when an existing ID is confirmed
+ok 126 - short-name global matching is rejected even when an existing ID is confirmed
+  ---
+  duration_ms: 58.5239
+  type: 'test'
+  ...
+# Subtest: B2 rejects probable identity, review-only split, and formally allocated new IDs
+ok 127 - B2 rejects probable identity, review-only split, and formally allocated new IDs
+  ---
+  duration_ms: 187.9396
+  type: 'test'
+  ...
+# Subtest: the three baseline policies and all uncertainty templates have exact denominators
+ok 128 - the three baseline policies and all uncertainty templates have exact denominators
+  ---
+  duration_ms: 0.1726
+  type: 'test'
+  ...
+# Subtest: OurNotes arrangement proposals cannot expand beyond the five game confirmations
+ok 129 - OurNotes arrangement proposals cannot expand beyond the five game confirmations
+  ---
+  duration_ms: 52.979
+  type: 'test'
+  ...
+# Subtest: generate reruns are deterministic and preserve human inputs, Phase A, songs, creators and Works
+ok 130 - generate reruns are deterministic and preserve human inputs, Phase A, songs, creators and Works
+  ---
+  duration_ms: 1643.3653
+  type: 'test'
+  ...
+# Subtest: research generation cannot write into dist and build copies only public catalog sources
+ok 131 - research generation cannot write into dist and build copies only public catalog sources
+  ---
+  duration_ms: 0.9802
+  type: 'test'
+  ...
+# Subtest: credits split every supported collaboration delimiter and retain parentheses and single names
+ok 132 - credits split every supported collaboration delimiter and retain parentheses and single names
+  ---
+  duration_ms: 5.0898
+  type: 'test'
+  ...
+# Subtest: individual matching handles affiliations, width, spaces and case without substring matches
+ok 133 - individual matching handles affiliations, width, spaces and case without substring matches
+  ---
+  duration_ms: 0.9504
+  type: 'test'
+  ...
+# Subtest: role searches include solo and collaborative credits from both games and exclude the other role
+ok 134 - role searches include solo and collaborative credits from both games and exclude the other role
+  ---
+  duration_ms: 89.6709
+  type: 'test'
+  ...
+# Subtest: both games render individual role links, retain original credit text, escape HTML and leave unknown values unlinked
+ok 135 - both games render individual role links, retain original credit text, escape HTML and leave unknown values unlinked
+  ---
+  duration_ms: 42.5698
+  type: 'test'
+  ...
+# Subtest: credit result pagination and detail navigation preserve name and role on both bases
+ok 136 - credit result pagination and detail navigation preserve name and role on both bases
+  ---
+  duration_ms: 49.9287
+  type: 'test'
+  ...
+# Subtest: credit search controller loads both catalogs and renders role-specific results
+ok 137 - credit search controller loads both catalogs and renders role-specific results
+  ---
+  duration_ms: 165.3067
+  type: 'test'
+  ...
+# Subtest: cross-game search keeps all three Meiseikyo recordings in game and band order
+ok 138 - cross-game search keeps all three Meiseikyo recordings in game and band order
+  ---
+  duration_ms: 98.6706
+  type: 'test'
+  ...
+# Subtest: cross-game results show each recording's levels with five Garupa and four OurNotes difficulties
+ok 139 - cross-game results show each recording's levels with five Garupa and four OurNotes difficulties
+  ---
+  duration_ms: 29.0243
+  type: 'test'
+  ...
+# Subtest: cross-game difficulty levels distinguish absent charts from unconfirmed levels
+ok 140 - cross-game difficulty levels distinguish absent charts from unconfirmed levels
+  ---
+  duration_ms: 11.7944
+  type: 'test'
+  ...
+# Subtest: cross-game difficulty level text is HTML escaped
+ok 141 - cross-game difficulty level text is HTML escaped
+  ---
+  duration_ms: 1.0212
+  type: 'test'
+  ...
+# Subtest: cross-game search inherits title, reading, aliases, artist and work matching without merging equal IDs
+ok 142 - cross-game search inherits title, reading, aliases, artist and work matching without merging equal IDs
+  ---
+  duration_ms: 40.7058
+  type: 'test'
+  ...
+# Subtest: empty and symbol-only queries show guidance, and missing queries show an empty result
+ok 143 - empty and symbol-only queries show guidance, and missing queries show an empty result
+  ---
+  duration_ms: 19.5939
+  type: 'test'
+  ...
+# Subtest: pagination shows 50 results, preserves special characters and clamps invalid pages
+ok 144 - pagination shows 50 results, preserves special characters and clamps invalid pages
+  ---
+  duration_ms: 15.0559
+  type: 'test'
+  ...
+# Subtest: query, song title, band and accessible link names are escaped
+ok 145 - query, song title, band and accessible link names are escaped
+  ---
+  duration_ms: 1.4471
+  type: 'test'
+  ...
+# Subtest: controller waits for both catalogs and renders only the complete result on both deployment bases
+ok 146 - controller waits for both catalogs and renders only the complete result on both deployment bases
+  ---
+  duration_ms: 161.0486
+  type: 'test'
+  ...
+# Subtest: controller reports HTTP, network, JSON and malformed-catalog errors without partial results
+ok 147 - controller reports HTTP, network, JSON and malformed-catalog errors without partial results
+  ---
+  duration_ms: 135.3449
+  type: 'test'
+  ...
+# Subtest: controller skips fetching catalogs for blank normalized queries
+ok 148 - controller skips fetching catalogs for blank normalized queries
+  ---
+  duration_ms: 6.2501
+  type: 'test'
+  ...
+# Subtest: detail return links restore cross-game query/page and retain game-list and legacy-root behavior
+ok 149 - detail return links restore cross-game query/page and retain game-list and legacy-root behavior
+  ---
+  duration_ms: 36.6546
+  type: 'test'
+  ...
+# Subtest: generated top/search pages expose search and no-JavaScript game links with correct metadata
+ok 150 - generated top/search pages expose search and no-JavaScript game links with correct metadata
+  ---
+  duration_ms: 2.3596
+  type: 'test'
+  ...
+# Subtest: required band order and guest collaborations
+ok 151 - required band order and guest collaborations
+  ---
+  duration_ms: 3.0155
+  type: 'test'
+  ...
+# Subtest: sort tie breakers are band, category, release; missing difficulty is last
+ok 152 - sort tie breakers are band, category, release; missing difficulty is last
+  ---
+  duration_ms: 1.0491
+  type: 'test'
+  ...
+# Subtest: English songs sort by Japanese reading
+ok 153 - English songs sort by Japanese reading
+  ---
+  duration_ms: 3.2896
+  type: 'test'
+  ...
+# Subtest: search supports original works and width/kana/case differences
+ok 154 - search supports original works and width/kana/case differences
+  ---
+  duration_ms: 4.5811
+  type: 'test'
+  ...
+# Subtest: catalog contains all five difficulty slots, readings, IDs and generated pages
+ok 155 - catalog contains all five difficulty slots, readings, IDs and generated pages
+  ---
+  duration_ms: 158.5746
+  type: 'test'
+  ...
+# Subtest: 3D versions remain independent and support may be unknown
+ok 156 - 3D versions remain independent and support may be unknown
+  ---
+  duration_ms: 0.8802
+  type: 'test'
+  ...
+# Subtest: all sort modes cover the same complete catalog deterministically
+ok 157 - all sort modes cover the same complete catalog deterministically
+  ---
+  duration_ms: 145.7311
+  type: 'test'
+  ...
+# Subtest: original metadata permits explicitly unknown values
+ok 158 - original metadata permits explicitly unknown values
+  ---
+  duration_ms: 0.6238
+  type: 'test'
+  ...
+# Subtest: new-song command adds a template entry without changing existing IDs
+ok 159 - new-song command adds a template entry without changing existing IDs
+  ---
+  duration_ms: 580.88
+  type: 'test'
+  ...
+# Subtest: legacy URL pages and rendered details remain available
+ok 160 - legacy URL pages and rendered details remain available
+  ---
+  duration_ms: 207.7805
+  type: 'test'
+  ...
+# Subtest: multiple types OR and multiple bands OR combine with AND
+ok 161 - multiple types OR and multiple bands OR combine with AND
+  ---
+  duration_ms: 48.0823
+  type: 'test'
+  ...
+# Subtest: page number windows include ends, neighbors and omission marks
+ok 162 - page number windows include ends, neighbors and omission marks
+  ---
+  duration_ms: 0.7468
+  type: 'test'
+  ...
+# Subtest: filter state survives page links, details and back links with escaped attributes
+ok 163 - filter state survives page links, details and back links with escaped attributes
+  ---
+  duration_ms: 81.1458
+  type: 'test'
+  ...
+# Subtest: Garupa IDs and URLs follow release date and simultaneous release order
+ok 164 - Garupa IDs and URLs follow release date and simultaneous release order
+  ---
+  duration_ms: 9.5829
+  type: 'test'
+  ...
+# Subtest: home Creator count follows the master and grows without a fixed count
+ok 165 - home Creator count follows the master and grows without a fixed count
+  ---
+  duration_ms: 8.8881
+  type: 'test'
+  ...
+# Subtest: home Creator CTA works at root and subpath with descriptive static roles
+ok 166 - home Creator CTA works at root and subpath with descriptive static roles
+  ---
+  duration_ms: 2.0917
+  type: 'test'
+  ...
+# Subtest: home presents Creator discovery before news and compact operator information
+ok 167 - home presents Creator discovery before news and compact operator information
+  ---
+  duration_ms: 1.3543
+  type: 'test'
+  ...
+# Subtest: home Hero and description explain Creator discovery and keep existing brand assets
+ok 168 - home Hero and description explain Creator discovery and keep existing brand assets
+  ---
+  duration_ms: 1.5485
+  type: 'test'
+  ...
+# Subtest: information pages explain ownership, source priorities and privacy clearly
+ok 169 - information pages explain ownership, source priorities and privacy clearly
+  ---
+  duration_ms: 6.7175
+  type: 'test'
+  ...
+# Subtest: information pages retain natural SEO metadata and footer links
+ok 170 - information pages retain natural SEO metadata and footer links
+  ---
+  duration_ms: 2.9106
+  type: 'test'
+  ...
+# Subtest: list and detail pages label the recorded dataset date accurately
+ok 171 - list and detail pages label the recorded dataset date accurately
+  ---
+  duration_ms: 67.175
+  type: 'test'
+  ...
+# Subtest: news manager connects, lists, adds and edits the existing JSON only
+ok 172 - news manager connects, lists, adds and edits the existing JSON only
+  ---
+  duration_ms: 112.4179
+  type: 'test'
+  ...
+# Subtest: news manager rejects invalid input and stale file versions before writing
+ok 173 - news manager rejects invalid input and stale file versions before writing
+  ---
+  duration_ms: 4.1528
+  type: 'test'
+  ...
+# Subtest: news manager does not force a rejected ref update or retry an uncertain save
+ok 174 - news manager does not force a rejected ref update or retry an uncertain save
+  ---
+  duration_ms: 7.0462
+  type: 'test'
+  ...
+# Subtest: the separate admin page is private, versioned and leaves song admin intact
+ok 175 - the separate admin page is private, versioned and leaves song admin intact
+  ---
+  duration_ms: 2.1987
+  type: 'test'
+  ...
+# Subtest: news data is validated and sorted newest first with stable same-day order
+ok 176 - news data is validated and sorted newest first with stable same-day order
+  ---
+  duration_ms: 32.6058
+  type: 'test'
+  ...
+# Subtest: home and news page use the same source and expose the configured X profile
+ok 177 - home and news page use the same source and expose the configured X profile
+  ---
+  duration_ms: 3.1938
+  type: 'test'
+  ...
+# Subtest: news page inherits canonical, OGP and sitemap metadata
+ok 178 - news page inherits canonical, OGP and sitemap metadata
+  ---
+  duration_ms: 11.1331
+  type: 'test'
+  ...
+# Subtest: brand images and the shared top OGP have expected dimensions and head links
+ok 179 - brand images and the shared top OGP have expected dimensions and head links
+  ---
+  duration_ms: 8.6283
+  type: 'test'
+  ...
+# Subtest: every song page refers to its own existing 1200 x 630 OGP image
+ok 180 - every song page refers to its own existing 1200 x 630 OGP image
+  ---
+  duration_ms: 1248.7815
+  type: 'test'
+  ...
+# Subtest: game colors, hash changes, Japanese and punctuation samples are handled
+ok 181 - game colors, hash changes, Japanese and punctuation samples are handled
+  ---
+  duration_ms: 111.5252
+  type: 'test'
+  ...
+# Subtest: Our Notes administrator adds and edits within its own catalog
+ok 182 - Our Notes administrator adds and edits within its own catalog
+  ---
+  duration_ms: 1179.8491
+  type: 'test'
+  ...
+# Subtest: editor orders BPM fields and serves a searchable song picker with fresh modules
+ok 183 - editor orders BPM fields and serves a searchable song picker with fresh modules
+  ---
+  duration_ms: 3.3583
+  type: 'test'
+  ...
+# Subtest: Our Notes assigns the requested IDs and release order
+ok 184 - Our Notes assigns the requested IDs and release order
+  ---
+  duration_ms: 4.5909
+  type: 'test'
+  ...
+# Subtest: Our Notes stores MV status without Garupa-only fields
+ok 185 - Our Notes stores MV status without Garupa-only fields
+  ---
+  duration_ms: 45.7535
+  type: 'test'
+  ...
+# Subtest: Our Notes retains launch IDs as its catalog grows
+ok 186 - Our Notes retains launch IDs as its catalog grows
+  ---
+  duration_ms: 0.5168
+  type: 'test'
+  ...
+# Subtest: Our Notes has an independent type and three validated performance sections
+ok 187 - Our Notes has an independent type and three validated performance sections
+  ---
+  duration_ms: 15.8128
+  type: 'test'
+  ...
+# Subtest: Our Notes renders added songs and populated chart fields
+ok 188 - Our Notes renders added songs and populated chart fields
+  ---
+  duration_ms: 7.9929
+  type: 'test'
+  ...
+# Subtest: Our Notes list uses Garupa controls, multiple filters and seven sort modes
+ok 189 - Our Notes list uses Garupa controls, multiple filters and seven sort modes
+  ---
+  duration_ms: 21.2031
+  type: 'test'
+  ...
+# Subtest: Our Notes type and performance filters combine OR within a group and AND across groups
+ok 190 - Our Notes type and performance filters combine OR within a group and AND across groups
+  ---
+  duration_ms: 14.8127
+  type: 'test'
+  ...
+# Subtest: Our Notes detail follows Garupa field order without official-image link
+ok 191 - Our Notes detail follows Garupa field order without official-image link
+  ---
+  duration_ms: 3.5535
+  type: 'test'
+  ...
+# Subtest: related links keep existing drafts and saved references
+ok 192 - related links keep existing drafts and saved references
+  ---
+  duration_ms: 2.7387
+  type: 'test'
+  ...
+# Subtest: related song search uses title, reading and band, omitting self and selected songs
+ok 193 - related song search uses title, reading and band, omitting self and selected songs
+  ---
+  duration_ms: 1.1514
+  type: 'test'
+  ...
+# Subtest: chart variants and cross-game songs link in both directions
+ok 194 - chart variants and cross-game songs link in both directions
+  ---
+  duration_ms: 11.5731
+  type: 'test'
+  ...
+# Subtest: every published related link is editable and matches the stored references
+ok 195 - every published related link is editable and matches the stored references
+  ---
+  duration_ms: 569.3282
+  type: 'test'
+  ...
+# Subtest: a removed link does not return from matching titles and composers
+ok 196 - a removed link does not return from matching titles and composers
+  ---
+  duration_ms: 2.3662
+  type: 'test'
+  ...
+# Subtest: explicit links must point to an existing song in both directions
+ok 197 - explicit links must point to an existing song in both directions
+  ---
+  duration_ms: 5.5272
+  type: 'test'
+  ...
+# Subtest: public pages avoid admin links while the direct editor remains available
+ok 198 - public pages avoid admin links while the direct editor remains available
+  ---
+  duration_ms: 5.2926
+  type: 'test'
+  ...
+# Subtest: search query and metadata cannot inject HTML
+ok 199 - search query and metadata cannot inject HTML
+  ---
+  duration_ms: 60.5898
+  type: 'test'
+  ...
+# Subtest: direct detail pages render song facts without JavaScript execution
+ok 200 - direct detail pages render song facts without JavaScript execution
+  ---
+  duration_ms: 296.5387
+  type: 'test'
+  ...
+# Subtest: every song detail has a report link carrying its stable page path
+ok 201 - every song detail has a report link carrying its stable page path
+  ---
+  duration_ms: 476.1242
+  type: 'test'
+  ...
+# Subtest: report links support repository base paths without inheriting list filters
+ok 202 - report links support repository base paths without inheriting list filters
+  ---
+  duration_ms: 32.2699
+  type: 'test'
+  ...
+# Subtest: source-work searches return a title link and absent terms have empty state
+ok 203 - source-work searches return a title link and absent terms have empty state
+  ---
+  duration_ms: 62.6024
+  type: 'test'
+  ...
+# Subtest: out-of-range pages are bounded and all five difficulty options exist
+ok 204 - out-of-range pages are bounded and all five difficulty options exist
+  ---
+  duration_ms: 35.0804
+  type: 'test'
+  ...
+# Subtest: generated canonical pages, structured data, links and sitemap are consistent
+ok 205 - generated canonical pages, structured data, links and sitemap are consistent
+  ---
+  duration_ms: 4496.41
+  type: 'test'
+  ...
+# Subtest: only the six navigation pages omit the header search
+ok 206 - only the six navigation pages omit the header search
+  ---
+  duration_ms: 115.8666
+  type: 'test'
+  ...
+# Subtest: site settings normalize both deployment bases and reject conflicting settings
+ok 207 - site settings normalize both deployment bases and reject conflicting settings
+  ---
+  duration_ms: 1.0178
+  type: 'test'
+  ...
+# Subtest: same-title songs get unique titles and stable paths
+ok 208 - same-title songs get unique titles and stable paths
+  ---
+  duration_ms: 10.8607
+  type: 'test'
+  ...
+# Subtest: query robots applies to list state but not detail queries
+ok 209 - query robots applies to list state but not detail queries
+  ---
+  duration_ms: 3.7767
+  type: 'test'
+  ...
+# Subtest: timing research keeps source details without repeating published song fields
+ok 210 - timing research keeps source details without repeating published song fields
+  ---
+  duration_ms: 150.9971
+  type: 'test'
+  ...
+# Subtest: timing validates integer seconds, decimal BPM, unknowns and constant/variable BPM
+ok 211 - timing validates integer seconds, decimal BPM, unknowns and constant/variable BPM
+  ---
+  duration_ms: 6.606
+  type: 'test'
+  ...
+# Subtest: timing sorts by basic BPM or game duration with band/type/date ties and unknowns last
+ok 212 - timing sorts by basic BPM or game duration with band/type/date ties and unknowns last
+  ---
+  duration_ms: 3.7596
+  type: 'test'
+  ...
+# Subtest: duration formatting truncates subsecond values
+ok 213 - duration formatting truncates subsecond values
+  ---
+  duration_ms: 0.703
+  type: 'test'
+  ...
+# Subtest: timing is visible on direct detail and sort selection survives detail navigation
+ok 214 - timing is visible on direct detail and sort selection survives detail navigation
+  ---
+  duration_ms: 50.6355
+  type: 'test'
+  ...
+# Subtest: sort state defaults to EXPERT, preserves old URLs and rejects invalid choices
+ok 215 - sort state defaults to EXPERT, preserves old URLs and rejects invalid choices
+  ---
+  duration_ms: 5.4196
+  type: 'test'
+  ...
+# Subtest: every button toggles repeatedly, other modes reset direction, repeated filters survive
+ok 216 - every button toggles repeatedly, other modes reset direction, repeated filters survive
+  ---
+  duration_ms: 3.6904
+  type: 'test'
+  ...
+# Subtest: notes sorting uses each of five difficulties, reverses ties, keeps absent charts last
+ok 217 - notes sorting uses each of five difficulties, reverses ties, keeps absent charts last
+  ---
+  duration_ms: 4.6171
+  type: 'test'
+  ...
+# Subtest: all modes reverse known songs exactly and unrelated modes ignore difficulty
+ok 218 - all modes reverse known songs exactly and unrelated modes ignore difficulty
+  ---
+  duration_ms: 1769.7223
+  type: 'test'
+  ...
+# Subtest: seven sort buttons, default difficulty and direction are visible; state survives page/detail/back links
+ok 219 - seven sort buttons, default difficulty and direction are visible; state survives page/detail/back links
+  ---
+  duration_ms: 131.7383
+  type: 'test'
+  ...
+1..219
+# tests 219
+# suites 0
+# pass 219
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 53744.0784
+TAP version 13
+# Subtest: B2 immutable A/B1 provenance and byte-verified history
+ok 1 - B2 immutable A/B1 provenance and byte-verified history
+  ---
+  duration_ms: 276.8561
+  type: 'test'
+  ...
+# Subtest: B2 adopts exactly A1 twelve, A2 fourteen, former seven and three variants
+ok 2 - B2 adopts exactly A1 twelve, A2 fourteen, former seven and three variants
+  ---
+  duration_ms: 3.0376
+  type: 'test'
+  ...
+# Subtest: B2 formal IDs use immutable package order with reserved gaps
+ok 3 - B2 formal IDs use immutable package order with reserved gaps
+  ---
+  duration_ms: 0.881
+  type: 'test'
+  ...
+# Subtest: B2 all previous IDs current and previous slugs remain exact
+ok 4 - B2 all previous IDs current and previous slugs remain exact
+  ---
+  duration_ms: 1.1515
+  type: 'test'
+  ...
+# Subtest: B2 every new slug is human-readable and has no prior candidate history
+ok 5 - B2 every new slug is human-readable and has no prior candidate history
+  ---
+  duration_ms: 0.8536
+  type: 'test'
+  ...
+# Subtest: B2 user spellings for Fujiwara Ogi Nakamachi and Makishima are exact
+ok 6 - B2 user spellings for Fujiwara Ogi Nakamachi and Makishima are exact
+  ---
+  duration_ms: 0.3387
+  type: 'test'
+  ...
+# Subtest: B2 Spirit Garden organization and o-saka person stay separate
+ok 7 - B2 Spirit Garden organization and o-saka person stay separate
+  ---
+  duration_ms: 0.4029
+  type: 'test'
+  ...
+# Subtest: B2 former probable relations never enter without human confidence and metadata
+ok 8 - B2 former probable relations never enter without human confidence and metadata
+  ---
+  duration_ms: 2.0078
+  type: 'test'
+  ...
+# Subtest: B2 short name relations have an explicit matching record scope
+ok 9 - B2 short name relations have an explicit matching record scope
+  ---
+  duration_ms: 1.3407
+  type: 'test'
+  ...
+# Subtest: B2 record mismatch is recorded as CONFLICT without applying that record
+ok 10 - B2 record mismatch is recorded as CONFLICT without applying that record
+  ---
+  duration_ms: 370.4332
+  type: 'test'
+  ...
+# Subtest: B2 nextId and formal ID metadata conflicts reject
+ok 11 - B2 nextId and formal ID metadata conflicts reject
+  ---
+  duration_ms: 23.7191
+  type: 'test'
+  ...
+# Subtest: B2 structural field patch leaves unrelated whitespace and values byte-identical
+ok 12 - B2 structural field patch leaves unrelated whitespace and values byte-identical
+  ---
+  duration_ms: 0.8074
+  type: 'test'
+  ...
+# Subtest: B2 2652 comparisons never alter an existing nonempty display
+ok 13 - B2 2652 comparisons never alter an existing nonempty display
+  ---
+  duration_ms: 0.3635
+  type: 'test'
+  ...
+# Subtest: B2 all original composer roles survive
+ok 14 - B2 all original composer roles survive
+  ---
+  duration_ms: 13.8597
+  type: 'test'
+  ...
+# Subtest: B2 four approved composer corrections and raw SAM display
+ok 15 - B2 four approved composer corrections and raw SAM display
+  ---
+  duration_ms: 0.3244
+  type: 'test'
+  ...
+# Subtest: B2 Mela correct composer is normalized without replacing display
+ok 16 - B2 Mela correct composer is normalized without replacing display
+  ---
+  duration_ms: 0.1534
+  type: 'test'
+  ...
+# Subtest: B2 flower assigns Takeda to arranger only for all three versions
+ok 17 - B2 flower assigns Takeda to arranger only for all three versions
+  ---
+  duration_ms: 0.1791
+  type: 'test'
+  ...
+# Subtest: B2 OwnNotes Carnation keeps release-arranger out of game fields
+ok 18 - B2 OwnNotes Carnation keeps release-arranger out of game fields
+  ---
+  duration_ms: 0.7932
+  type: 'test'
+  ...
+# Subtest: B2 OurNotes remaining eighty arranger fields unchanged including available release names
+ok 19 - B2 OurNotes remaining eighty arranger fields unchanged including available release names
+  ---
+  duration_ms: 2.4301
+  type: 'test'
+  ...
+# Subtest: B2 all five known OurNotes arranger credits retain links or raw fallback
+ok 20 - B2 all five known OurNotes arranger credits retain links or raw fallback
+  ---
+  duration_ms: 0.3364
+  type: 'test'
+  ...
+# Subtest: B2 intentional OwnNotes IDs and every non-credit field preserved
+ok 21 - B2 intentional OwnNotes IDs and every non-credit field preserved
+  ---
+  duration_ms: 28.7583
+  type: 'test'
+  ...
+# Subtest: B2 game-aware coverage allows partial role with measured counts
+ok 22 - B2 game-aware coverage allows partial role with measured counts
+  ---
+  duration_ms: 0.6741
+  type: 'test'
+  ...
+# Subtest: B2 Creator rendered partial notice and role filters are honest
+ok 23 - B2 Creator rendered partial notice and role filters are honest
+  ---
+  duration_ms: 19.769
+  type: 'test'
+  ...
+# Subtest: B2 role-specific display preserves different raw labels and admin save order
+ok 24 - B2 role-specific display preserves different raw labels and admin save order
+  ---
+  duration_ms: 69.4603
+  type: 'test'
+  ...
+# Subtest: B2 invalid overrides and duplicate roles cannot enter administration
+ok 25 - B2 invalid overrides and duplicate roles cannot enter administration
+  ---
+  duration_ms: 0.7743
+  type: 'test'
+  ...
+# Subtest: B2 admin alias search includes all approved variants and new readings
+ok 26 - B2 admin alias search includes all approved variants and new readings
+  ---
+  duration_ms: 2.379
+  type: 'test'
+  ...
+# Subtest: B2 record relations unique and all references resolve
+ok 27 - B2 record relations unique and all references resolve
+  ---
+  duration_ms: 11.3955
+  type: 'test'
+  ...
+# Subtest: B2 real warning zero and actual same-performance conflicts remain detectable
+ok 28 - B2 real warning zero and actual same-performance conflicts remain detectable
+  ---
+  duration_ms: 34.8583
+  type: 'test'
+  ...
+# Subtest: B2 dry plan is byte-preserving for live sources
+ok 29 - B2 dry plan is byte-preserving for live sources
+  ---
+  duration_ms: 351.2944
+  type: 'test'
+  ...
+# Subtest: B2 applying planned output twice produces zero changes and identical SHA
+ok 30 - B2 applying planned output twice produces zero changes and identical SHA
+  ---
+  duration_ms: 341.0875
+  type: 'test'
+  ...
+# Subtest: B2 live applied data equals reviewed plan and verifies zero second writes
+ok 31 - B2 live applied data equals reviewed plan and verifies zero second writes
+  ---
+  duration_ms: 1488.722
+  type: 'test'
+  ...
+# Subtest: B2 admin mock protects newly referenced lyricist and preserves coverage on edit
+ok 32 - B2 admin mock protects newly referenced lyricist and preserves coverage on edit
+  ---
+  duration_ms: 515.3831
+  type: 'test'
+  ...
+# Subtest: B2 live song details have distinct resolved links and honest OurNotes unknown arrangers
+ok 33 - B2 live song details have distinct resolved links and honest OurNotes unknown arrangers
+  ---
+  duration_ms: 16.2141
+  type: 'test'
+  ...
+# Subtest: B2 SHA conflict rejects apply before any write
+ok 34 - B2 SHA conflict rejects apply before any write
+  ---
+  duration_ms: 407.7055
+  type: 'test'
+  ...
+# Subtest: B2 CLI plan after apply preserves original review artifacts and source bytes
+ok 35 - B2 CLI plan after apply preserves original review artifacts and source bytes
+  ---
+  duration_ms: 1441.7654
+  type: 'test'
+  ...
+1..35
+# tests 35
+# suites 0
+# pass 35
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14169.8251
+TAP version 13
+# Subtest: release human metadata cr-0118
+ok 1 - release human metadata cr-0118
+  ---
+  duration_ms: 2.7301
+  type: 'test'
+  ...
+# Subtest: release human metadata cr-0119
+ok 2 - release human metadata cr-0119
+  ---
+  duration_ms: 1.7722
+  type: 'test'
+  ...
+# Subtest: release human metadata cr-0120
+ok 3 - release human metadata cr-0120
+  ---
+  duration_ms: 1.6216
+  type: 'test'
+  ...
+# Subtest: release count 124 nextId 125 and no shifted IDs
+ok 4 - release count 124 nextId 125 and no shifted IDs
+  ---
+  duration_ms: 0.3487
+  type: 'test'
+  ...
+# Subtest: release all prior 121 metadata remain exact
+ok 5 - release all prior 121 metadata remain exact
+  ---
+  duration_ms: 1.249
+  type: 'test'
+  ...
+# Subtest: release current and previous slug collision zero
+ok 6 - release current and previous slug collision zero
+  ---
+  duration_ms: 0.5763
+  type: 'test'
+  ...
+# Subtest: release metadata fourteen and approved joint six restored roles
+ok 7 - release metadata fourteen and approved joint six restored roles
+  ---
+  duration_ms: 89.4101
+  type: 'test'
+  ...
+# Subtest: release exclusions change only approved twenty and new record three
+ok 8 - release exclusions change only approved twenty and new record three
+  ---
+  duration_ms: 3.8113
+  type: 'test'
+  ...
+# Subtest: release approved Kawabuchi joint splits retain raw and order
+ok 9 - release approved Kawabuchi joint splits retain raw and order
+  ---
+  duration_ms: 2.8936
+  type: 'test'
+  ...
+# Subtest: release all 885 non-credit records equal approved parallel source
+ok 10 - release all 885 non-credit records equal approved parallel source
+  ---
+  duration_ms: 158.0236
+  type: 'test'
+  ...
+# Subtest: release OurNotes intentional IDs preserved in full
+ok 11 - release OurNotes intentional IDs preserved in full
+  ---
+  duration_ms: 8.9139
+  type: 'test'
+  ...
+# Subtest: release Work 823 bytes unchanged and record counts exact
+ok 12 - release Work 823 bytes unchanged and record counts exact
+  ---
+  duration_ms: 1.6133
+  type: 'test'
+  ...
+# Subtest: release all 2652 current displays preserved
+ok 13 - release all 2652 current displays preserved
+  ---
+  duration_ms: 59.4258
+  type: 'test'
+  ...
+# Subtest: release game coverage and old80 plus new1 uncollected arranger
+ok 14 - release game coverage and old80 plus new1 uncollected arranger
+  ---
+  duration_ms: 0.999
+  type: 'test'
+  ...
+# Subtest: release new86 reuses explicit linked Work and retains unknown credits
+ok 15 - release new86 reuses explicit linked Work and retains unknown credits
+  ---
+  duration_ms: 3.3634
+  type: 'test'
+  ...
+# Subtest: release remote fields and admin nextId retained exactly
+ok 16 - release remote fields and admin nextId retained exactly
+  ---
+  duration_ms: 14.1456
+  type: 'test'
+  ...
+# Subtest: release corrected scope does not change 224 or250 credits
+ok 17 - release corrected scope does not change 224 or250 credits
+  ---
+  duration_ms: 27.7966
+  type: 'test'
+  ...
+# Subtest: release unexpected non-credit edit is rejected by verifier
+ok 18 - release unexpected non-credit edit is rejected by verifier
+  ---
+  duration_ms: 5.0601
+  type: 'test'
+  ...
+# Subtest: release validation has no warnings or invalid states
+ok 19 - release validation has no warnings or invalid states
+  ---
+  duration_ms: 29.2862
+  type: 'test'
+  ...
+# Subtest: release second apply changes zero files
+ok 20 - release second apply changes zero files
+  ---
+  duration_ms: 3319.9353
+  type: 'test'
+  ...
+# Subtest: release admin searches new names readings and slugs
+ok 21 - release admin searches new names readings and slugs
+  ---
+  duration_ms: 4.752
+  type: 'test'
+  ...
+# Subtest: release admin picker roundtrips all restored roles
+ok 22 - release admin picker roundtrips all restored roles
+  ---
+  duration_ms: 7.2689
+  type: 'test'
+  ...
+# Subtest: release memberships do not create organization participation
+ok 23 - release memberships do not create organization participation
+  ---
+  duration_ms: 0.6702
+  type: 'test'
+  ...
+# Subtest: release human history and immutable A B1 provenance remain available
+ok 24 - release human history and immutable A B1 provenance remain available
+  ---
+  duration_ms: 208.1135
+  type: 'test'
+  ...
+1..24
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7743.7706
+TAP version 13
+# Subtest: home Creator count follows the master and grows without a fixed count
+ok 1 - home Creator count follows the master and grows without a fixed count
+  ---
+  duration_ms: 3.4905
+  type: 'test'
+  ...
+# Subtest: home Creator CTA works at root and subpath with descriptive static roles
+ok 2 - home Creator CTA works at root and subpath with descriptive static roles
+  ---
+  duration_ms: 0.9653
+  type: 'test'
+  ...
+# Subtest: home presents Creator discovery before news and compact operator information
+ok 3 - home presents Creator discovery before news and compact operator information
+  ---
+  duration_ms: 0.8052
+  type: 'test'
+  ...
+# Subtest: home Hero and description explain Creator discovery and keep existing brand assets
+ok 4 - home Hero and description explain Creator discovery and keep existing brand assets
+  ---
+  duration_ms: 0.697
+  type: 'test'
+  ...
+# Subtest: live 神の名を changes the composer separator while preserving both Creator identities
+ok 5 - live 神の名を changes the composer separator while preserving both Creator identities
+  ---
+  duration_ms: 524.6561
+  type: 'test'
+  ...
+# Subtest: live Creator and Work references validate after ordinary song edits
+ok 6 - live Creator and Work references validate after ordinary song edits
+  ---
+  duration_ms: 91.5078
+  type: 'test'
+  ...
+# Subtest: live builds preserve every current song field and Creator/Work master
+ok 7 - live builds preserve every current song field and Creator/Work master
+  ---
+  duration_ms: 62.6514
+  type: 'test'
+  ...
+# Subtest: live administrator IDs remain valid as songs are added or edited
+ok 8 - live administrator IDs remain valid as songs are added or edited
+  ---
+  duration_ms: 1.0462
+  type: 'test'
+  ...
+# Subtest: every live song detail uses 作詞・作曲・編曲 in order for every category
+ok 9 - every live song detail uses 作詞・作曲・編曲 in order for every category
+  ---
+  duration_ms: 181.0964
+  type: 'test'
+  ...
+# Subtest: live 夢我夢中 saves other fields with every effective credit and Creator unchanged
+ok 10 - live 夢我夢中 saves other fields with every effective credit and Creator unchanged
+  ---
+  duration_ms: 416.5629
+  type: 'test'
+  ...
+# Subtest: live 限界現実サバイブ天使 saves other fields with every effective credit and Creator unchanged
+ok 11 - live 限界現実サバイブ天使 saves other fields with every effective credit and Creator unchanged
+  ---
+  duration_ms: 327.902
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1809.7245

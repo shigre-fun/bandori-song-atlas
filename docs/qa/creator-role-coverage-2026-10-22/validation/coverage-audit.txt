@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "node": "v22.23.4",
+  "creators": 446,
+  "works": 828,
+  "roleCoverage": {
+    "lyricist": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "composer": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "arranger": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    }
+  },
+  "dbWarnings": [],
+  "games": {
+    "garupa": {
+      "songs": 801,
+      "roles": {
+        "lyricist": {
+          "raw": 801,
+          "empty": 0,
+          "formalRecords": 801,
+          "formalBindings": 830,
+          "fullyLinked": 801,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        },
+        "composer": {
+          "raw": 801,
+          "empty": 0,
+          "formalRecords": 801,
+          "formalBindings": 842,
+          "fullyLinked": 801,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        },
+        "arranger": {
+          "raw": 801,
+          "empty": 0,
+          "formalRecords": 801,
+          "formalBindings": 837,
+          "fullyLinked": 801,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        }
+      }
+    },
+    "ournotes": {
+      "songs": 89,
+      "roles": {
+        "lyricist": {
+          "raw": 89,
+          "empty": 0,
+          "formalRecords": 89,
+          "formalBindings": 98,
+          "fullyLinked": 89,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        },
+        "composer": {
+          "raw": 89,
+          "empty": 0,
+          "formalRecords": 89,
+          "formalBindings": 112,
+          "fullyLinked": 89,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        },
+        "arranger": {
+          "raw": 89,
+          "empty": 0,
+          "formalRecords": 89,
+          "formalBindings": 108,
+          "fullyLinked": 89,
+          "unresolvedRecords": 0,
+          "unlinkedTextRecords": 0,
+          "placeholders": 0,
+          "missing": []
+        }
+      }
+    }
+  },
+  "records": 2670,
+  "missing": []
+}

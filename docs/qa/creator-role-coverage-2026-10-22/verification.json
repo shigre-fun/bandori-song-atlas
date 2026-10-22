@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "node": "v22.23.4",
+  "beforeHead": "0529fa1e1d9a820f83d3f662ba5ea433f8538f21",
+  "tests": {
+    "total": 401,
+    "canonical": 289,
+    "humanReview": 82,
+    "existingExtra": 26,
+    "new": 4
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS"
+  },
+  "seo": {
+    "pages": 1345,
+    "details": 890,
+    "root": "PASS",
+    "subpath": "PASS"
+  },
+  "functions": "PASS",
+  "dbValidation": "PASS",
+  "todo": 0,
+  "missingRoles": 0,
+  "creatorCount": 446,
+  "songCount": 890,
+  "roleCoverage": {
+    "lyricist": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "composer": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    },
+    "arranger": {
+      "garupa": "ready",
+      "ournotes": "ready"
+    }
+  },
+  "coverageChanges": [
+    {
+      "path": "roleCoverage.arranger.ournotes",
+      "from": "partial",
+      "to": "ready"
+    }
+  ],
+  "preservation": {
+    "creatorMasterOnlyOneMetadataValueChanged": true,
+    "otherTrackedDataByteIdentical": true,
+    "allOtherExistingSourceByteIdentical": true,
+    "historicalReviewFiles": 274,
+    "creatorStatisticsAndWorkListsUnchanged": true,
+    "redirectsUnchanged": true
+  },
+  "failuresResolved": [
+    "JSON serialization of undefined in the page-audit helper",
+    "Current-data test initially discovered by historical test runner; moved to tests/research"
+  ],
+  "dataHashes": {
+    "data/creators.json": "dedb3483a9e4c3ed2c77c70cf24e845afa61f389f62e7ecb1f925f24e18081dd",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94",
+    "data/ournotes/songs.json": "bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457"
+  },
+  "sourceHashes": {
+    "src/js/creator-views.js": "965cb21d99a185b866ff96a76a78dc6972e55eabb7209a66fc5a7d09bd5cb75b",
+    "scripts/qa/creator-role-coverage.mjs": "7b80c05e7e1a12dbda9a40af997ea17fc0ee8c9a54de7585eea5362deeabc88b",
+    "tests/research/creator-role-coverage.test.mjs": "7f5cbe4fd1a1a6807914c8a11b8569616a6af7818e0734823b3aeb74659a4e1a"
+  },
+  "evidenceHashes": {
+    "docs/qa/creator-role-coverage-2026-10-22/validation/coverage-audit.txt": "6ea1879c5c770f5577b9f959e8c8ac7ee7d8cc90300976a436b363e46390718a",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/root-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/root-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/current-tests.txt": "7ade244bce670374b92e3a83434dee4288bc8228ff6789d5f259e78233b2fc71",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/standard-tests.txt": "a44c827cce89f487ec775abfdda4736901857e0159af51c19541ee10749470de",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/final-six-tests.txt": "e36f50f900c70f9414cbb98a127a4fca9f2934493a5406e5a1c56ea80f9ddd86",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/earlier-review-tests.txt": "4831fb86cc38c04a15c92d13d75861001000b03f1388d2d3efdcb5bd9f443656",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/p1-tests.txt": "123e2ac91035d8b3fe8a6385ed71922cae18811a4200efedadf26146119d5b5c",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/p2-tests.txt": "03d3b7e7ffa47f3422620ee4782f454a804de826f04a67fbaa0780835d49f733",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/p3-tests.txt": "a37306e3854fac7a100b59e929c6cbf6fd3e1459ed2960e85bb807b5bb489c84",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/remaining-tests.txt": "07b07314a68d3839f109c7c12d75af7a33d4b8464565a3c34788306be90957f4",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/subpath-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/subpath-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/functions.txt": "08d3ff029cd9b2fc6ca754a45a16bee7defe0e665642d5ee4d384a9e98586ad1",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/pages-root.txt": "bcb720e15064f98990d5aa50765e76fa5e790024163570324742655228abba82",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/pages-subpath.txt": "259d95924b90619965d82b870ca7c809e7016fa4a6fc33b3786128ff3272cfe3",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/format.txt": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/diff-check.txt": "b0d62769c426d260603b5ddbca291ae7aa18c42dd3e35d063d93a490ffed039b",
+    "docs/qa/creator-role-coverage-2026-10-22/audit.json": "cdd80126fa123a897dc5a0f94946b89270b13520874a6b28f1ced4571ef57655",
+    "docs/qa/creator-role-coverage-2026-10-22/pages-root.json": "5dfc0da23fdbe9e43ee55c1a9448eb7b550b1dab9cfd408f6cf9358df4614978",
+    "docs/qa/creator-role-coverage-2026-10-22/pages-subpath.json": "548bc100a7200f9bee9513e58473595c6c7a6e02941938b7d5147e756b57a2f0",
+    "docs/qa/creator-role-coverage-2026-10-22/validation/standard-tests-initial-failure.txt.gz": "7108c93be4ce61623c5e475df48510581c2d95b8de3f28e14f55d5597a91c458"
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "verifiedAt": "2026-10-22T07:10:03.030Z"
+}

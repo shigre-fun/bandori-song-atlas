@@ -1,0 +1,173 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 126,
+  "currentWorkCount": 823,
+  "currentNextId": 127,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 332,
+  "totalSongTasks": 1305,
+  "totalCreatorCandidates": 343,
+  "threePlusRecordCreators": 7,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 284,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 12,
+  "unregisteredCreatorCandidates": 331,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 53,
+  "currentRawSplitReviewTasks": 53,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 522,
+    "CREATOR_REGISTRATION": 522,
+    "SPLIT_REVIEW": 53,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 68,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 595,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1570,
+  "excludedResolvedSourceEntries": 252,
+  "unmappedCurrentUnresolved": 0
+}
+TAP version 13
+# {
+#   "mode": "verify",
+#   "currentRecordCount": 885,
+#   "currentCreatorCount": 126,
+#   "currentWorkCount": 823,
+#   "currentNextId": 127,
+#   "currentGameCounts": {
+#     "garupa": 799,
+#     "ournotes": 86
+#   },
+#   "totalSongTodoRecords": 332,
+#   "totalSongTasks": 1305,
+#   "totalCreatorCandidates": 343,
+#   "threePlusRecordCreators": 7,
+#   "twoRecordCreators": 52,
+#   "oneRecordCreators": 284,
+#   "referenceOnlyCreatorCandidates": 0,
+#   "existingCreatorRoleCandidates": 12,
+#   "unregisteredCreatorCandidates": 331,
+#   "ournotesArrangerManualSongs": 0,
+#   "lyricistCollectionSongs": 49,
+#   "garupaArrangerCollectionSongs": 48,
+#   "splitReviewTasks": 53,
+#   "currentRawSplitReviewTasks": 53,
+#   "conditionalReleaseSplitReviewTasks": 0,
+#   "categoryTaskCounts": {
+#     "CREDIT_COLLECTION": 97,
+#     "CREATOR_IDENTITY": 522,
+#     "CREATOR_REGISTRATION": 522,
+#     "SPLIT_REVIEW": 53,
+#     "ALIAS_REVIEW": 4,
+#     "ROLE_REVIEW": 68,
+#     "DISPLAY_REVIEW": 0,
+#     "GAME_VERSION_REVIEW": 39,
+#     "METADATA_REVIEW": 0
+#   },
+#   "currentUnresolvedRecordRoles": 595,
+#   "sourceUnresolvedEntries": 1822,
+#   "mappedTodoEntries": 1570,
+#   "excludedResolvedSourceEntries": 252,
+#   "unmappedCurrentUnresolved": 0
+# }
+# {
+#   "mode": "verify",
+#   "creator": {
+#     "id": "cr-0126",
+#     "name": "加納望",
+#     "slug": "nozomu-kanow",
+#     "type": "person",
+#     "reading": "かのうのぞむ",
+#     "sortKey": "かのうのぞむ",
+#     "sortKeyStatus": "confirmed",
+#     "aliases": []
+#   },
+#   "relationRecords": 10,
+#   "splitResolved": 10,
+#   "changedFiles": [],
+#   "unprovidedOptionalFields": [
+#     "備考"
+#   ]
+# }
+# Subtest: blank affiliation requires explicit followup, blank notes stays unanswered and global answer is not record approval
+ok 1 - blank affiliation requires explicit followup, blank notes stays unanswered and global answer is not record approval
+  ---
+  duration_ms: 1.897
+  type: 'test'
+  ...
+# Subtest: latest P1 identity, candidate key, exact records, titles and Works must match
+ok 2 - latest P1 identity, candidate key, exact records, titles and Works must match
+  ---
+  duration_ms: 101.1385
+  type: 'test'
+  ...
+# Subtest: dynamic nextId, metadata, all previous creators and two-file-only data patch validate
+ok 3 - dynamic nextId, metadata, all previous creators and two-file-only data patch validate
+  ---
+  duration_ms: 89.9433
+  type: 'test'
+  ...
+# Subtest: ten arranger relations preserve both co-arrangers, exact raw punctuation and affiliation without organization duplication
+ok 4 - ten arranger relations preserve both co-arrangers, exact raw punctuation and affiliation without organization duplication
+  ---
+  duration_ms: 0.2584
+  type: 'test'
+  ...
+# Subtest: denied, deferred or empty identity/split answers never attach a relation or resolve that record
+ok 5 - denied, deferred or empty identity/split answers never attach a relation or resolve that record
+  ---
+  duration_ms: 1249.1698
+  type: 'test'
+  ...
+# Subtest: ID/slug collisions, changed scope evidence and unapproved record substitution reject
+ok 6 - ID/slug collisions, changed scope evidence and unapproved record substitution reject
+  ---
+  duration_ms: 21.7174
+  type: 'test'
+  ...
+# Subtest: existing ID path reuses Creator and repeated plan changes no bytes or IDs
+ok 7 - existing ID path reuses Creator and repeated plan changes no bytes or IDs
+  ---
+  duration_ms: 376.8001
+  type: 'test'
+  ...
+# Subtest: current ledger excludes resolved P1 and exactly ten splits, preserves unrelated tasks and all prior 3432 task provenance
+ok 8 - current ledger excludes resolved P1 and exactly ten splits, preserves unrelated tasks and all prior 3432 task provenance
+  ---
+  duration_ms: 3847.1282
+  type: 'test'
+  ...
+# Subtest: independent preservation rejects lost co-arranger, extra Creator roles, punctuation, Works and unrelated edits
+ok 9 - independent preservation rejects lost co-arranger, extra Creator roles, punctuation, Works and unrelated edits
+  ---
+  duration_ms: 271.0324
+  type: 'test'
+  ...
+# Subtest: all earlier research/review evidence stays immutable and applied result matches guarded plan
+ok 10 - all earlier research/review evidence stays immutable and applied result matches guarded plan
+  ---
+  duration_ms: 2677.8376
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 10705.7424

@@ -1,0 +1,78 @@
+TAP version 13
+# {
+#   mode: 'apply',
+#   resolved: 6,
+#   held: [],
+#   roles: [
+#     { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+#     { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+#     { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+#   ]
+# }
+# {
+#   mode: 'verify',
+#   resolved: 6,
+#   held: [],
+#   roles: [
+#     { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+#     { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+#     { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+#   ]
+# }
+# Subtest: all six explicit positive answers including the typographic quote are read; optional blanks stay null
+ok 1 - all six explicit positive answers including the typographic quote are read; optional blanks stay null
+  ---
+  duration_ms: 1.295
+  type: 'test'
+  ...
+# Subtest: missing or negative approvals do not acquire a relation or resolve their two tasks
+ok 2 - missing or negative approvals do not acquire a relation or resolve their two tasks
+  ---
+  duration_ms: 445.0014
+  type: 'test'
+  ...
+# Subtest: ambiguous exact names or a conflicting requested ID are held without guessing
+ok 3 - ambiguous exact names or a conflicting requested ID are held without guessing
+  ---
+  duration_ms: 524.5459
+  type: 'test'
+  ...
+# Subtest: all roles bind the unique existing cr-0375 once and preserve the actual displayed raw
+ok 4 - all roles bind the unique existing cr-0375 once and preserve the actual displayed raw
+  ---
+  duration_ms: 0.7022
+  type: 'test'
+  ...
+# Subtest: the independent preservation gate rejects unrelated song or timing edits
+ok 5 - the independent preservation gate rejects unrelated song or timing edits
+  ---
+  duration_ms: 2886.06
+  type: 'test'
+  ...
+# Subtest: Creator master, Work, all prior human reviews and all other data stay byte-identical
+ok 6 - Creator master, Work, all prior human reviews and all other data stay byte-identical
+  ---
+  duration_ms: 98.1406
+  type: 'test'
+  ...
+# Subtest: a second application changes no data or receipt bytes and allocates no ID
+ok 7 - a second application changes no data or receipt bytes and allocates no ID
+  ---
+  duration_ms: 1613.5276
+  type: 'test'
+  ...
+# Subtest: the complete live ToDo has zero songs, zero tasks and zero unmapped current roles
+ok 8 - the complete live ToDo has zero songs, zero tasks and zero unmapped current roles
+  ---
+  duration_ms: 4131.132
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 10556.8942

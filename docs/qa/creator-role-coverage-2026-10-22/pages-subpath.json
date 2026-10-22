@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "directory": ".cache/role-coverage/subpath",
+  "label": "subpath",
+  "htmlFiles": 2166,
+  "creators": 446,
+  "details": 890,
+  "creatorCountsAndWorkListsUnchanged": true,
+  "creatorStatisticsUnchanged": true,
+  "allRoleFiltersPresent": true,
+  "songAndOtherDataByteIdentical": true,
+  "creatorMasterOnlyOneCoverageValueChanged": true,
+  "redirectDefinitionsUnchanged": true,
+  "obsoleteNotices": 0,
+  "legitimatePending": [
+    {
+      "path": ".cache\\role-coverage\\subpath\\garupa\\songs\\797\\index.html",
+      "context": "           >\n              </dd>\n              <dt>3Dライブ</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": ".cache\\role-coverage\\subpath\\garupa\\songs\\799\\index.html",
+      "context": "           >\n              </dd>\n              <dt>3Dライブ</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": ".cache\\role-coverage\\subpath\\ournotes\\songs\\85\\index.html",
+      "context": "ia/\">Skye K</a>\n              </dd>\n              <dt>MV</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": ".cache\\role-coverage\\subpath\\ournotes\\songs\\87\\index.html",
+      "context": "atlas/creators/azami/\">アザミ</a></dd>\n              <dt>MV</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    }
+  ],
+  "aboutSourcesChecked": true,
+  "todo": 0
+}

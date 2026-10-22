@@ -63,8 +63,10 @@ export function filterCreatorWorks(participation, creatorId, params) {
     ),
   );
 }
-const coverageNotice =
-  '<p class="notice">作詞・編曲などの「未整備」は、サイト全体でその担当のデータ整備が完了していないことを示します。担当していないことを意味しません。</p>';
+const coverageNotice = (coverage) =>
+  Object.values(coverage).every((value) => value === "ready")
+    ? ""
+    : '<p class="notice">作詞・編曲などの「未整備」は、サイト全体でその担当のデータ整備が完了していないことを示します。担当していないことを意味しません。</p>';
 const counts = (stats, coverage, detail = false) =>
   `<dl class="creator-counts"><div><dt>参加楽曲数</dt><dd>${stats.total}</dd></div>${CREDIT_ROLES.filter(
     (r) => detail || coverage[r] !== "unprepared",
@@ -86,7 +88,7 @@ export function renderCreators(creators, songs, base, coverage) {
       (a, b) =>
         a.sortKey.localeCompare(b.sortKey, "ja") || a.id.localeCompare(b.id),
     );
-  return `<h1>クリエイター</h1><p>掲載楽曲の作詞・作曲・編曲者を探せます。参加楽曲数は同じ作品の複数収録を1曲として数えます。</p><p class="notice">同定が確認できたクレジットから登録しています。未確認の表記は楽曲詳細で従来どおり表示します。</p>${coverageNotice}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}
+  return `<h1>クリエイター</h1><p>掲載楽曲の作詞・作曲・編曲者を探せます。参加楽曲数は同じ作品の複数収録を1曲として数えます。</p><p class="notice">参加楽曲数・担当別曲数は、Creatorに紐付いたクレジットを集計しています。</p>${coverageNotice(coverage)}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}
 <form id="creator-controls" class="creator-controls" role="search" method="get"><label for="creator-search">名前・別名で検索<input type="search" id="creator-search" name="q"></label><label for="creator-sort">並べ替え<select id="creator-sort" name="sort">${Object.entries(
     Object.fromEntries(sorts),
   )
@@ -106,7 +108,7 @@ export function renderCreatorDetail(creator, songs, works, base, coverage) {
     new URLSearchParams(),
     siteURL(creatorPath(creator), base),
   );
-  return `<a class="back" href="${siteURL("creators/", base)}">← クリエイター一覧に戻る</a><h1>${e(creator.name)}</h1><p>${CREATOR_TYPES[creator.type]}</p><section class="panel"><h2>参加クレジット</h2>${counts(stats, coverage, true)}<p>収録件数：${stats.recordings}件</p><p class="notice">上記は全収録の総数です。同じWorkは参加楽曲数とrole別曲数で1曲、収録件数では別々に数えます。下の絞り込みで総数は変わりません。</p>${coverageNotice}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}</section>
+  return `<a class="back" href="${siteURL("creators/", base)}">← クリエイター一覧に戻る</a><h1>${e(creator.name)}</h1><p>${CREATOR_TYPES[creator.type]}</p><section class="panel"><h2>参加クレジット</h2>${counts(stats, coverage, true)}<p>収録件数：${stats.recordings}件</p><p class="notice">上記は全収録の総数です。同じWorkは参加楽曲数とrole別曲数で1曲、収録件数では別々に数えます。下の絞り込みで総数は変わりません。</p>${coverageNotice(coverage)}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}</section>
 <form id="creator-controls" class="creator-controls" method="get"><label for="creator-role">担当<select id="creator-role" name="role"><option value="">すべて</option>${availableCreditRoles(
     coverage,
   )

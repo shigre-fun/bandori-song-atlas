@@ -2,7 +2,7 @@
 
 作詞・作曲・編曲の[Creator DBとWork仕様](docs/CREATORS.md)を追加しました。`/creators/` で参加作品を探し、`/admin/creators/` で確認済み主体を登録します。人物同定は段階migrationで進め、未確認表記を推測統合しません。
 
-作詞・編曲はデータセット全体の未整備を明示します。[第2フェーズ検証報告](docs/CREATOR_PHASE2_REPORT.md)と[同定候補レビュー](docs/migrations/creators-2026-10-02/creator-review.md)に確認済みの範囲と残件を記録しています。
+現在の掲載890収録は、両ゲームとも作詞・作曲・編曲の原文と正式Creator関係を登録済みです。[整備状況の全件監査](docs/CREATOR_ROLE_COVERAGE_2026-10-22.md)を参照してください。過去段階の記録は[第2フェーズ検証報告](docs/CREATOR_PHASE2_REPORT.md)と[同定候補レビュー](docs/migrations/creators-2026-10-02/creator-review.md)に保持しています。
 
 第3フェーズは公式・一次情報で確認したcomposerを89主体まで登録しています。[調査根拠](docs/migrations/creators-2026-10-02/creator-research.json)にCONFIRMED/PROBABLE/UNRESOLVEDと旧表記・対象曲の対応を保存しています。[第3フェーズ報告](docs/CREATOR_PHASE3_REPORT.md)に上位30件・カバレッジ・検証・公開前の確認事項を記録しました。保留主体を登録せず、既存の曲表示は維持します。
 
@@ -131,4 +131,4 @@ pnpm test は旧194テストのassertを変更せず、SHA検証済み91 Creator
 
 2026-10-04 releaseでは124 Creator／885収録／823 Workです。人間承認済みの共同編曲6件と、最新mainのOurNotes86「過去を喰らう」・譜面編集を保持します。新曲のWorkは明示リンク先Garupa758を再利用し、未登録作曲名はraw fallbackのままです。並行編集の有限manifestとSHAを release-parallel-preservation.json に保存し、未承認のnon-credit変更はverifyで拒否します。OurNotes編曲の未収集は旧80＋新1＝81件です。
 
-roleCoverageは従来のrole単位表記に加え、ゲームごとの ready / partial / unprepared を扱います。OurNotes編曲のpartialは確認済み登録分を集計し、残未整備を担当者なしと解釈しません。同じCreatorの表記が担当で異なる場合はrelationの displayOverrides にrole別表記を保持し、従来の displayOverride も引き続き利用できます。
+roleCoverageは従来のrole単位表記に加え、ゲームごとの ready / partial / unprepared を扱います。readyは対象データセットの担当情報の整備完了を示す編集メタデータであり、1件の登録から自動判定しません。全収録の原文・正式関係・未解決表記を確認し、現在は両ゲームの全担当がreadyです。partial / unpreparedの場合の注釈・絞り込み制御も保持し、未整備を担当者なしと解釈しません。同じCreatorの表記が担当で異なる場合はrelationの displayOverrides にrole別表記を保持し、従来の displayOverride も引き続き利用できます。

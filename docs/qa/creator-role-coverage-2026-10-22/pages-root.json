@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "directory": "dist",
+  "label": "root",
+  "htmlFiles": 2166,
+  "creators": 446,
+  "details": 890,
+  "creatorCountsAndWorkListsUnchanged": true,
+  "creatorStatisticsUnchanged": true,
+  "allRoleFiltersPresent": true,
+  "songAndOtherDataByteIdentical": true,
+  "creatorMasterOnlyOneCoverageValueChanged": true,
+  "redirectDefinitionsUnchanged": true,
+  "obsoleteNotices": 0,
+  "legitimatePending": [
+    {
+      "path": "dist\\garupa\\songs\\797\\index.html",
+      "context": "           >\n              </dd>\n              <dt>3Dライブ</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": "dist\\garupa\\songs\\799\\index.html",
+      "context": "           >\n              </dd>\n              <dt>3Dライブ</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": "dist\\ournotes\\songs\\85\\index.html",
+      "context": "              >\n              </dd>\n              <dt>MV</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    },
+    {
+      "path": "dist\\ournotes\\songs\\87\\index.html",
+      "context": "ref=\"/creators/azami/\">アザミ</a></dd>\n              <dt>MV</dt>\n              <dd>確認中</dd>\n            </dl>\n          </section>\n  "
+    }
+  ],
+  "aboutSourcesChecked": true,
+  "todo": 0
+}

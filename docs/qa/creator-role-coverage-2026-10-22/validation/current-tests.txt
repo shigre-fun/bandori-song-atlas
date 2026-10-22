@@ -1,0 +1,190 @@
+TAP version 13
+# Subtest: song reports prefill either game URL and data category, ready for message-only input
+ok 1 - song reports prefill either game URL and data category, ready for message-only input
+  ---
+  duration_ms: 78.2107
+  type: 'test'
+  ...
+# Subtest: report prefill ignores unsafe or non-song URLs and leaves normal contact empty
+ok 2 - report prefill ignores unsafe or non-song URLs and leaves normal contact empty
+  ---
+  duration_ms: 2.0493
+  type: 'test'
+  ...
+# Subtest: report prefill removes search/hash and keeps existing user input editable
+ok 3 - report prefill removes search/hash and keeps existing user input editable
+  ---
+  duration_ms: 0.4392
+  type: 'test'
+  ...
+# Subtest: client focuses invalid inputs and conditionally enables reply email
+ok 4 - client focuses invalid inputs and conditionally enables reply email
+  ---
+  duration_ms: 0.938
+  type: 'test'
+  ...
+# Subtest: client blocks a second submission while pending and announces success
+ok 5 - client blocks a second submission while pending and announces success
+  ---
+  duration_ms: 1.1562
+  type: 'test'
+  ...
+# Subtest: client preserves input, resets token and allows retry after API/network failures
+ok 6 - client preserves input, resets token and allows retry after API/network failures
+  ---
+  duration_ms: 6.2897
+  type: 'test'
+  ...
+# Subtest: client handles widget loading failures, expiry, verification errors and narrow widths
+ok 7 - client handles widget loading failures, expiry, verification errors and narrow widths
+  ---
+  duration_ms: 0.5831
+  type: 'test'
+  ...
+# Subtest: contact validation accepts anonymous messages and exact length boundaries
+ok 8 - contact validation accepts anonymous messages and exact length boundaries
+  ---
+  duration_ms: 1.8373
+  type: 'test'
+  ...
+# Subtest: reply email is conditional; all submitted emails reject injection and invalid types
+ok 9 - reply email is conditional; all submitted emails reject injection and invalid types
+  ---
+  duration_ms: 0.6787
+  type: 'test'
+  ...
+# Subtest: normal send uses fixed private addresses, plain text, category subject and JST
+ok 10 - normal send uses fixed private addresses, plain text, category subject and JST
+  ---
+  duration_ms: 77.5684
+  type: 'test'
+  ...
+# Subtest: Reply-To is included only when requested, never substituted for From
+ok 11 - Reply-To is included only when requested, never substituted for From
+  ---
+  duration_ms: 4.0447
+  type: 'test'
+  ...
+# Subtest: invalid inputs, honeypot, tokens, origins and request formats never reach providers
+ok 12 - invalid inputs, honeypot, tokens, origins and request formats never reach providers
+  ---
+  duration_ms: 11.3287
+  type: 'test'
+  ...
+# Subtest: bounded reading rejects streamed oversized bodies without Content-Length
+ok 13 - bounded reading rejects streamed oversized bodies without Content-Length
+  ---
+  duration_ms: 1.2977
+  type: 'test'
+  ...
+# Subtest: missing configuration and official test keys are refused on public hosts
+ok 14 - missing configuration and official test keys are refused on public hosts
+  ---
+  duration_ms: 2.9763
+  type: 'test'
+  ...
+# Subtest: test hostname/action exception works only with official paired keys on loopback
+ok 15 - test hostname/action exception works only with official paired keys on loopback
+  ---
+  duration_ms: 6.6519
+  type: 'test'
+  ...
+# Subtest: failed, expired, reused or mismatched Turnstile verification never sends mail
+ok 16 - failed, expired, reused or mismatched Turnstile verification never sends mail
+  ---
+  duration_ms: 12.4589
+  type: 'test'
+  ...
+# Subtest: Resend failures and lost responses give generic errors and are not retried
+ok 17 - Resend failures and lost responses give generic errors and are not retried
+  ---
+  duration_ms: 11.1674
+  type: 'test'
+  ...
+# Subtest: contact rendering contains accessible fields, no private values and an unconfigured state
+ok 18 - contact rendering contains accessible fields, no private values and an unconfigured state
+  ---
+  duration_ms: 0.706
+  type: 'test'
+  ...
+# Subtest: generated contact page, routing and CSP preserve static pages and GitHub access
+ok 19 - generated contact page, routing and CSP preserve static pages and GitHub access
+  ---
+  duration_ms: 1.4192
+  type: 'test'
+  ...
+# Subtest: each recording has a linked title, its own roles and game/band metadata without repeated headings
+ok 20 - each recording has a linked title, its own roles and game/band metadata without repeated headings
+  ---
+  duration_ms: 5.7185
+  type: 'test'
+  ...
+# Subtest: pagination uses 50 recordings, including different recordings of one Work, and preserves filters
+ok 21 - pagination uses 50 recordings, including different recordings of one Work, and preserves filters
+  ---
+  duration_ms: 5.7149
+  type: 'test'
+  ...
+# Subtest: Creator band lines use exactly the song finder colors for all bands and fallback bands
+ok 22 - Creator band lines use exactly the song finder colors for all bands and fallback bands
+  ---
+  duration_ms: 27.4308
+  type: 'test'
+  ...
+# Subtest: every generated public header has the four requested links in order, with About retained in the footer
+ok 23 - every generated public header has the four requested links in order, with About retained in the footer
+  ---
+  duration_ms: 923.8531
+  type: 'test'
+  ...
+# Subtest: brand images and the shared top OGP have expected dimensions and head links
+ok 24 - brand images and the shared top OGP have expected dimensions and head links
+  ---
+  duration_ms: 7.699
+  type: 'test'
+  ...
+# Subtest: every song page refers to its own existing 1200 x 630 OGP image
+ok 25 - every song page refers to its own existing 1200 x 630 OGP image
+  ---
+  duration_ms: 1000.8217
+  type: 'test'
+  ...
+# Subtest: game colors, hash changes, Japanese and punctuation samples are handled
+ok 26 - game colors, hash changes, Japanese and punctuation samples are handled
+  ---
+  duration_ms: 56.4279
+  type: 'test'
+  ...
+# Subtest: current ready metadata is supported by every recording and role, including complete joint credits
+ok 27 - current ready metadata is supported by every recording and role, including complete joint credits
+  ---
+  duration_ms: 256.8744
+  type: 'test'
+  ...
+# Subtest: one formal name does not hide an unresolved co-credit, missing raw, or placeholder
+ok 28 - one formal name does not hide an unresolved co-credit, missing raw, or placeholder
+  ---
+  duration_ms: 0.3705
+  type: 'test'
+  ...
+# Subtest: ready list and detail omit obsolete notices and keep all role controls and numeric zero counts
+ok 29 - ready list and detail omit obsolete notices and keep all role controls and numeric zero counts
+  ---
+  duration_ms: 1.4612
+  type: 'test'
+  ...
+# Subtest: partial and unprepared datasets continue to disclose incomplete coverage
+ok 30 - partial and unprepared datasets continue to disclose incomplete coverage
+  ---
+  duration_ms: 0.5284
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1614.8227

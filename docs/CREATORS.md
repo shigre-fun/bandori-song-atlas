@@ -2,13 +2,15 @@
 
 Creatorは作詞・作曲・編曲のクレジット主体、Workは同じ音楽作品です。ゲーム内レコードと区別します。原曲アーティストは別概念で、既存のoriginalArtist/originalWorkは変更していません。
 
-現在は最終5slug整理後：Creator91主体、884収録、823Work。ID型slug0件、旧slug履歴18件（Cloudflare301は末尾slash有無36規則・静的互換18ページ）、暫定sortKey47件、未同定旧表記215種類、Work warning0件です。2026-10-03に本番公開を完了し、[公開結果の42項目](CREATOR_RELEASE_REPORT.md)へCI・Cloudflare deploy・本番検証を記録しました。[公開前の最終検証](CREATOR_FINAL_SLUG_REPORT.md)、[人間レビュー反映報告](CREATOR_HUMAN_REVIEW_REPORT.md)と[短名5主体の対象曲](migrations/creators-2026-10-02/short-name-review.md)も参照してください。下段の各フェーズ件数・判断はその当時の履歴です。
+2026-10-22現在はCreator446主体、890収録（ガルパ801／アワーノーツ89）、828Workで、作詞・作曲・編曲の全担当欄に原文と正式Creator関係があります。[整備状況の全件監査](CREATOR_ROLE_COVERAGE_2026-10-22.md)を参照してください。
+
+以下は2026-10-03の最終5slug整理時点の履歴です：Creator91主体、884収録、823Work。ID型slug0件、旧slug履歴18件（Cloudflare301は末尾slash有無36規則・静的互換18ページ）、暫定sortKey47件、未同定旧表記215種類、Work warning0件。同日に本番公開を完了し、[公開結果の42項目](CREATOR_RELEASE_REPORT.md)へCI・Cloudflare deploy・本番検証を記録しました。[公開前の最終検証](CREATOR_FINAL_SLUG_REPORT.md)、[人間レビュー反映報告](CREATOR_HUMAN_REVIEW_REPORT.md)と[短名5主体の対象曲](migrations/creators-2026-10-02/short-name-review.md)も参照してください。下段の各フェーズ件数・判断もその当時の履歴です。
 
 ## roleデータセットの整備状況
 
-`data/creators.json` rootの`roleCoverage`は各担当の`ready`/`unprepared`を保持します。現在はcomposerのみready、lyricist/arrangerはunpreparedです。個々のCreatorに1件登録しただけでは切り替えません。
+`data/creators.json` rootの`roleCoverage`は各担当の`ready`/`partial`/`unprepared`を保持し、ゲーム別の指定にも対応します。現在は両ゲームの作詞・作曲・編曲がすべてreadyです。readyは対象データセット全体の整備完了を示す編集メタデータで、個々のCreatorに1件登録しただけでは切り替えません。
 
-公開一覧は参加楽曲数・整備済み担当の件数だけ表示し、未整備担当の数値・並べ替えは出しません。詳細は作詞/編曲を「未整備」と表示し、担当なしの0と区別します。filterも整備済み担当だけ選択可能です。古いURLで未整備担当を指定した場合は「データ整備中」と説明し、担当で絞らず登録済み参加作品を表示します。
+公開一覧は参加楽曲数・整備済み担当の件数を表示し、現在は全担当の数値・並べ替え・filterが利用可能です。partialなら一部登録の注釈を表示し、unpreparedなら該当担当の数値・並べ替え・filterを制限して「未整備」と担当なしの0を区別します。古いURLで未整備担当を指定した場合は「データ整備中」と説明し、担当で絞らず登録済み参加作品を表示します。
 
 将来データセット全体の整備を確認したら、該当roleをreadyへ変更してbuildしてください。共通設定から数値・sort/filter・URL処理が切り替わります。全体未整備でも管理画面では全roleを入力できます。`credit-coverage.js`に初期fallbackがあり、schemaでも値を検査します。
 
