@@ -1941,7 +1941,7 @@
           "reading": "ソラニウタエバ",
           "releaseDate": "2026-09-26T15:00+09:00",
           "releaseOrder": null,
-          "composer": "秋田ひろむ",
+          "composer": "秋田　ひろむ",
           "originalArtist": null,
           "originalWork": "アニメ「僕のヒーローアカデミア 第2期」第2クールOP",
           "mv": null,
@@ -1981,12 +1981,10 @@
             {
               "creatorId": "cr-0076",
               "roles": [
-                "composer",
-                "lyricist"
+                "lyricist",
+                "composer"
               ],
-              "displayOverrides": {
-                "lyricist": "秋田　ひろむ"
-              }
+              "displayOverride": "秋田　ひろむ"
             },
             {
               "creatorId": "cr-0098",
@@ -2000,10 +1998,7 @@
               "roles": [
                 "arranger"
               ],
-              "displayOverride": "神田ジョン(from PENGUIN RESEARCH)",
-              "displayOverrides": {
-                "arranger": "神田ジョン(from PENGUIN RESEARCH)"
-              }
+              "displayOverride": "神田ジョン(from PENGUIN RESEARCH)"
             }
           ],
           "creditDisplay": {
@@ -2031,7 +2026,7 @@
           },
           "arranger": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
           "lyricist": "秋田　ひろむ",
-          "revision": "09524905-deab-4e2d-977f-17edd711f8b2"
+          "revision": "a34726c4-1fe5-4634-a29a-796a7a70de1e"
         },
         {
           "id": 86,
