@@ -6,7 +6,11 @@
 
 ## ビルド
 
-Node.js 22以上と `pnpm-lock.yaml` に固定された依存関係を使用します。Phase B2以降のCloudflare Pagesのビルドコマンドは次のとおりです。出力ディレクトリは `dist` です。
+Node.jsはルートの `.node-version` に指定した **22.23.4**、依存関係は `pnpm-lock.yaml` を使用します。GitHub Pages向けの `.github/workflows/pages.yml` も同じファイルを `node-version-file` で参照します。Cloudflare Pagesは既存のGit連携による別のデプロイであり、GitHub Pagesのworkflowから本番デプロイする方式には変更しません。
+
+Cloudflare Pagesのビルドは `.node-version` に対応します。2026-10-22に運営者からProduction/Previewとも `NODE_VERSION` は未設定と回答を受領したため、環境変数との競合はありません。エージェントによる管理画面の直接確認はサインイン要求で未実施です。`package.json` の `engines.node` は互換範囲であり、Pages v3のバージョン選択には使われません。公開後にはビルドログのNode.js版が22.23.4であることを確認してください。[Cloudflare公式の指定方法](https://developers.cloudflare.com/pages/configuration/build-image/)と[今回の更新記録](NODE_SECURITY_UPDATE_2026-10-22.md)を参照してください。
+
+Phase B2以降のCloudflare Pagesのビルドコマンドは次のとおりです。出力ディレクトリは `dist` です。
 
 ```sh
 node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /

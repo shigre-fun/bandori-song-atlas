@@ -33,8 +33,8 @@ BPM（基本・下限・上限）とゲーム内演奏時間も編集できま�
 
 ## 最初の準備
 
-Node.js 22以上をインストールし、このフォルダーで `npm install` を実行します。
-pnpmを使用する場合は `pnpm install` でも構いません。
+標準のNode.jsはルートの `.node-version` に指定した **22.23.4** です。pnpm 10で `pnpm install --frozen-lockfile` を実行し、固定済みの依存関係を導入します。
+Windowsでこのプロジェクト専用のportable版を使う場合は `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/with-node.ps1 node --version` で確認できます。[導入・実行手順とセキュリティ更新記録](docs/NODE_SECURITY_UPDATE_2026-10-22.md)を参照してください。
 
 ## 既存の楽曲を修正する
 
