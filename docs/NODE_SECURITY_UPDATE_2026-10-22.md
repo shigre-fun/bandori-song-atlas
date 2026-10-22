@@ -50,7 +50,7 @@ ARM64の場合は対応する公式ZIPと `win-arm64` のパスを使う。今�
 
 ## Cloudflare Pagesと公開前の操作
 
-[Cloudflare公式のビルド指定](https://developers.cloudflare.com/pages/configuration/build-image/)では `.node-version` が利用できる。2026-10-22に運営者からProduction/Previewとも `NODE_VERSION` は「未設定」と回答を受領した。環境変数との競合はないという運営者確認に基づき、ファイル指定で公開を進める。エージェント自身による管理画面の直接確認はサインイン要求で未実施。公開後の実使用版はビルドログで別途確認する。
+[Cloudflare公式のビルド指定](https://developers.cloudflare.com/pages/configuration/build-image/)では `.node-version` が利用できる。2026-10-22に運営者からProduction/Previewとも `NODE_VERSION` は「未設定」と回答を受領した。環境変数との競合はないという運営者確認に基づき公開し、後述の本番ビルドログでも22.23.4が選ばれたことを確認した。エージェント自身による管理画面の直接確認はサインイン要求で未実施。独立したPreviewブランチのビルドは実施していない。
 
 同日、ユーザーから「Node.js更新だけ公開を許可」と明示許可を受領した。対象7ファイルだけを公開し、秘密変数・ドメイン・Analytics・転送・build commandは維持する。新しいビルドログで実際に22.23.4が選ばれたことを確認する。
 
@@ -79,4 +79,59 @@ Pages FunctionsはWorkersの実行基盤で、ビルド用Nodeの版指定によ
 
 終了監査で、開始時1,014ファイルのうち今回の編集対象外がすべて同じSHA-256であることを確認した。既存の未コミット楽曲・Creator・人間レビュー資料を保全し、package/lock・Codex実行ファイル・User/Machine PATH・Git HEAD・空indexを維持した。集約結果は `reports/node-security-update-2026-10-22.json`。24.22.1でも起動パスとcanvasのPNG生成を確認したが、全回帰検証の実行版は22.23.4である。
 
-**ローカルの実装・検証は完了。2026-10-22の明示許可に基づき公開を進行中。** 全体の完了は、修正版によるGitHub/Cloudflareの公開ビルド成功後に判断する。既存Codexの裸の `node` は24.19.0のままなので、このプロジェクトではlauncherを使用する。
+## 公開用コミットの検証と残件
+
+2026-10-22に次の7ファイルだけをコミット `a20327946140b71a88e4083d96836eab7dc06524` に保存した。
+
+- `.node-version`
+- `.github/workflows/pages.yml`
+- `scripts/with-node.ps1`
+- `README.md`
+- `docs/DEPLOYMENT.md`
+- `docs/NODE_SECURITY_UPDATE_2026-10-22.md`
+- `WORK_LOG.md`
+
+楽曲・Creator・人間レビューの別作業の未コミット変更は含めていない。同じコミットの独立コピーで全943追跡ファイルをGit blobとバイト単位で照合し、22.23.4でfrozen install・標準289件・追加26件・両配置build/SEOに成功した。公開対象のデータは既存のガルパ801曲・アワーノーツ89曲・Creator371名で、正規ページ1,270件・旧Creator転送18件。前項の446 Creatorは別作業を含むローカル検証の件数であり、今回は公開しない。
+
+独立コピーの初回と2回目のテストは、Windowsのautocrlf変換による不変Phase A資料のSHA不一致で停止した。原logを保持し、`git -c core.autocrlf=false archive` で保存版を展開して全943ファイル一致を確認後、全315テスト成功を確認した。途中のcheckout-indexとautocrlf未指定archiveでは改行を戻せず、SHA未一致の再検証は自己process treeだけ終了した。元の作業場所やテストの期待値は変更しない。
+
+公開前の本番HTTP確認36件も成功。全楽曲カタログ・Creator/Workマスター・11配信モジュールが公開用ビルドと一致し、代表3ページのOGPは1200×630、アイコン正常、問い合わせGETは405。実POSTは行っていない。これは更新後の公開確認ではなく、維持対象の事前確認である。
+
+最初のpushはGitHub認証情報を取得できず停止した。非対話pushは `could not read Password` で失敗し、通常権限の外部接続もsandboxにより拒否された。その後、ユーザーから「Github認証済み」と回答を受領し、GCMアカウントshigre-fun・最新main33b9264・元データ保全を確認して、許可済みの同コミットだけ通常pushに成功した。Actions実行39709798234とCloudflareデプロイd2d7f854-ae1c-4130-8233-efc32b68b796が同SHAでビルドを開始した。
+
+認証復旧時に案内したコマンドは次のとおり。今回のGitHub認証の残件は解消済み。トークンやパスワードをチャットへ送る必要はない。
+
+```powershell
+git credential-manager github login --username shigre-fun --browser
+```
+
+Cloudflareはブラウザーに加え `wrangler whoami` も未認証だった。運営者から今回のデプロイのログ全文を共有いただき、以下を確認した。これはエージェントによる管理画面の直接取得とは区別する。
+
+- clone対象は `a20327946140b71a88e4083d96836eab7dc06524`。
+- `Detected the following tools from environment: nodejs@22.23.4, pnpm@10.11.1`、インストール先は `/opt/buildhome/.asdf/installs/nodejs/22.23.4`。
+- lockfileは最新で解決処理skip、canvas 1.0.9・Prettier 3.6.2を維持。
+- 従来のbuild commandのまま、801/89曲build・標準289件全成功・SEO1,270ページ/890詳細成功。
+- Cloudflare側Wrangler 3.114.17でFunctions compile成功、既存routes/redirect/headerを取り込み成功。
+- 静的assetは3,031件すべて既存hashを再利用（追加upload 0）、2026-10-22 11:13:30（日本時間）にデプロイ成功。
+
+GitHub APIでも同SHAのCloudflare Pages check成功を独立に確認した。更新後の本番 `tanimachi-bdsongs.com`・Cloudflare標準 `garupa-song-atlas.pages.dev`・GitHub Pagesの3配信先で各36項目、計108項目のHTTP検証に成功した。全楽曲カタログ・Creator/Workマスター・11配信モジュールは検証済みの該当配置buildと一致し、代表OGP/アイコン/管理・検索・お知らせ・問い合わせ画面も配信成功。Cloudflareの問い合わせGETは405、Functionを持たないGitHub Pagesは既存の404動作であり、実POST/実メールは行っていない。モジュール比較ではCRLFとbuildのcache番号だけを正規化する。
+
+GitHub Actionsは[実行39709798234](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39709798234)のbuild/deployとも成功。実buildログの `Resolved .node-version as 22.23.4` と `node: v22.23.4` を直接確認した。
+
+| 環境 | 更新前 | 更新後・確認方法 |
+| --- | --- | --- |
+| このプロジェクトのローカル作業 | PATH上はCodex同梱24.19.0 | launcherで22.23.4、版とprocess.execPathを実機確認 |
+| 独立した24系の代替 | 未導入 | 24.22.1を公式SHA照合で追加、版・path・canvas PNG生成確認 |
+| GitHub Actionsのbuild | `node-version: "22"` による自動選択 | `.node-version`の22.23.4、実ログで確認 |
+| Cloudflare本番build | 22.16.0（旧33b9264ログの運営者確認） | 22.23.4（今回a203279ログの運営者共有と同SHA check成功） |
+
+24系の代替実体を確認する場合は次の明示パスを使う。通常のプロジェクト作業は上記22系launcherを使用する。
+
+```powershell
+& .cache/node-security/runtimes/node-v24.22.1-win-x64/node.exe --version
+& .cache/node-security/runtimes/node-v24.22.1-win-x64/node.exe -p process.execPath
+```
+
+**今回依頼されたプロジェクトのNode.jsセキュリティ対応は、公開・実使用版・既存機能の検証まで完了。** 標準版を一元管理し、開発・GitHub Actions・Cloudflare本番buildを修正版22.23.4へ移行した。今回のNode.js更新で修正される脆弱性について、これらのプロジェクト環境は対応済みと評価する。
+
+制約として、Codex所有の既存24.19.0とWindows全体のPATHは変更していない。裸の `node` を使うと旧版を選ぶ可能性があるため、今後も本プロジェクトではlauncherを使用する。Codex所有環境の差し替えは今回の許可対象外であり、PC全体のNode.jsがすべて更新されたという意味ではない。Pages FunctionsのCloudflare管理基盤・既存互換フラグ自体を監査/更新したという意味でもない。運用者に必要な追加のプロジェクト公開操作はない。
