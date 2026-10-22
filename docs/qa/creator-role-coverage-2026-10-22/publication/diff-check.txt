@@ -1,0 +1,83 @@
+tracked
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'WORK_LOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'data/creators.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/CREATORS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/js/creator-views.js', LF will be replaced by CRLF the next time Git touches it
+
+docs/CREATOR_ROLE_COVERAGE_2026-10-22.md
+warning: in the working copy of 'docs/CREATOR_ROLE_COVERAGE_2026-10-22.md', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/audit.json
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/audit.json', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/pages-root.json
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/pages-root.json', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/pages-subpath.json
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/pages-subpath.json', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/coverage-audit.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/coverage-audit.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/current-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/current-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/diff-check.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/diff-check.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/earlier-review-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/earlier-review-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/final-six-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/final-six-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/format.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/format.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/functions.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/functions.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/p1-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/p1-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/p2-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/p2-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/p3-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/p3-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/pages-root.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/pages-root.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/pages-subpath.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/pages-subpath.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/remaining-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/remaining-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/root-build.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/root-build.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/root-seo.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/root-seo.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/standard-tests-initial-failure.txt.gz
+
+docs/qa/creator-role-coverage-2026-10-22/validation/standard-tests.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/standard-tests.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/subpath-build.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/subpath-build.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/validation/subpath-seo.txt
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/validation/subpath-seo.txt', LF will be replaced by CRLF the next time Git touches it
+
+docs/qa/creator-role-coverage-2026-10-22/verification.json
+warning: in the working copy of 'docs/qa/creator-role-coverage-2026-10-22/verification.json', LF will be replaced by CRLF the next time Git touches it
+
+scripts/qa/creator-role-coverage.mjs
+warning: in the working copy of 'scripts/qa/creator-role-coverage.mjs', LF will be replaced by CRLF the next time Git touches it
+
+tests/research/creator-role-coverage.test.mjs
+warning: in the working copy of 'tests/research/creator-role-coverage.test.mjs', LF will be replaced by CRLF the next time Git touches it

@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "commit": "ae55a549edbfe90cb2189d9a5d84f52426ffd936",
+  "checks": 21,
+  "obsoleteNotices": 0,
+  "creatorPageMetadataAllReady": true,
+  "results": [
+    {
+      "host": "github",
+      "path": "/creators/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/creators/asuka-oda/?role=arranger&game=ournotes",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/creators/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/garupa/songs/801/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/ournotes/songs/89/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/creators/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/creators/asuka-oda/?role=arranger&game=ournotes",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/about/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/garupa/songs/801/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/creators/asuka-oda/?role=arranger&game=ournotes",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/sources/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "github",
+      "path": "/search/?field=arranger&q=牧野太洋",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/ournotes/songs/89/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/garupa/songs/801/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/about/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/ournotes/songs/89/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/about/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/sources/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "production",
+      "path": "/search/?field=arranger&q=牧野太洋",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/sources/",
+      "status": 200,
+      "obsoleteNotices": 0
+    },
+    {
+      "host": "cloudflare",
+      "path": "/search/?field=arranger&q=牧野太洋",
+      "status": 200,
+      "obsoleteNotices": 0
+    }
+  ]
+}

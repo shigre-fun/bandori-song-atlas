@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-22 整備状況表示Goalの製品公開・全検証完了：ae55a54同SHA Actions39738794032 build/deploy・Cloudflare/GHPすべてsuccess、GH実Node22.23.4。3host108HTTP/全catalog/11module+21注釈ready検査、prod/GHP各890詳細・446Creator全表示リンク、OGP/SEO/404/noindex/301成功、retry0。401test/両buildSEO/Functions・各2166HTML、全dataのうちmaster1値だけ/全旧関係IDslugaliasWork/旧274証拠保全PASS。8項目報告をdocs/CREATOR_ROLE_COVERAGE_2026-10-22.mdと新qa dirへ保存、正当3D/MV確認中4件は保持。現在製品/公開/検証の未完了0、終了記録のみskip CI同期→fresh HEAD-origin/全証拠・限定差分gateで終了しGoal completeへ更新する。次：限定文書commit/pushと最終gate。PHP対象外保持、実メール0・CF内部log直接未確認を区別記録、承認拒否/重複deploy0。
+
+- 2026-10-22 同SHA ae55a54 Actions39738794032・Cloudflare Pages・GHP build/deploy全success。現在：公開後全890詳細/446Creator×本番とGHP・3host108HTTP/21注釈ready確認・画像/SEO/301を同releaseで照合中、実Node22.23.4ログも確認する。公開前401testと全保全証拠は維持。未完了：この公開監査・終了文書同期・要件完了監査/Goal更新。次：public-all同session終端→record-publication→report/log→docs-only skip CI同期。
+
+- 2026-10-22 表示修正の製品ae55a549edbfe90cb2189d9a5d84f52426ffd936を31file限定commit/通常push成功。stage全filtered byte一致/DB全2670担当・401test・両パス2166HTML/全446作品統計・data/旧274review保全・cached check PASS、公開時index/tracked tree空（PHP対象外のみ）。現在：同SHA Actions/Cloudflare/GHP完了待ち→public HTTP108/全890詳細446Creatorを両host照合。未完了：公開確認・終了文書同期・8項目報告/Goal完了監査。次：同デプロイhandleを間隔を空け確認、成功後public-all。実メール/重複deploy0。
+
 - 2026-10-22 公開前最終gate成功：401test/両SEO1345・890/全HTML2166×2・Functions/3source整形、旧274review・全曲/Work/関係/ID/slug/aliases/全作品統計保全PASS。差分check初回は保存したテスト原失敗ログの空白2行だけを検出→原byteを変更せずgzip保存（展開一致確認）し再check PASS、verification再集約PASS。途中補助監査の失敗と修正は本log/reportに記録し未解決0。現在：課題0を根拠に継続公開許可内の限定stage/commit/push→同SHA公開照合。未完了：公開と終了報告。PHP調査メモ対象外・デザイン/管理/URL変更0、実メール0。次：stage-auditと通常main push。
 
 - 2026-10-22 全401test（標準289+human82+既存追加26+新4）とroot/subpath build・SEO1345/890・Functions4.143.0・3source整形PASS、14058終端0。両パス各2166HTMLで旧Creator注釈0・正当MV/3D確認中4のみ、全446数値/作品本文/統計/全role filter・890詳細・全data保全、人間ToDo全0。subpath初回全文比較はURL長由来の属性改行だけの差→prefixとタグ/属性間整形空白のみ正規化して成功、引用符内/表示名は保持。record初回は保全baseline保存先をcacheと誤指定ENOENT→実在docs/human-review公開baselineへ訂正して旧274保全gate成功。現在：最終scope/stage gate→課題0を確認して通常commit/push、同SHA公開監査。未完了：公開/公開後照合/8項目終了報告。課題の隠蔽0、旧review/関係/原文/Work変更0。次：fresh fetch/diffcheck/stage-audit。

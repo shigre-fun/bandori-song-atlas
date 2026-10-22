@@ -48,3 +48,13 @@ Node.js 22.23.4で標準289件、人間レビュー82件、既存追加26件、�
 サブパスのページ保全監査は、URL長の違いでHTML整形時の属性改行が変わるため初回の全文比較が失敗した。サブパスのprefixとタグ間・属性間の整形空白だけを比較用に揃え、引用符内の属性値と表示文字を保持して全件比較し成功した。通常パスの作品リストは元のバイト表現と一致している。
 
 最終結果は `qa/creator-role-coverage-2026-10-22/verification.json` と同ディレクトリの原ログへ記録する。Creator整備・表示修正の残課題と意図しない変更は0。公開前の検証が完了したため、継続している公開指示に従いcommit・push後に同SHAの公開結果を照合する。
+
+## 公開結果
+
+製品commit `ae55a549edbfe90cb2189d9a5d84f52426ffd936` を通常commit・pushし、[Actions 39738794032](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39738794032) のbuild/deploy、同SHAのCloudflare Pages、GitHub Pagesがすべて成功した。[本番のクリエイター一覧](https://tanimachi-bdsongs.com/creators/)に反映済み。
+
+本番・Cloudflare標準ホスト・GitHub Pagesの計108 HTTP確認で、カタログと11モジュールが検証済みビルドと一致し、画像・アイコンを正常取得。さらに各ホストの一覧・Creator詳細（OurNotes編曲の指定付きURL）・両ゲームの楽曲詳細・about・sources・担当検索の計21確認で、古い注釈0件・Creatorページの全担当readyを確認した。本番とGitHub Pagesの各890詳細の楽曲情報欄全文・各446 Creatorのmain全文とリンクも一致し、OGP、canonical、robots、sitemap、404、検索noindex、旧slugの301も成功。リトライ0、実メール送信0。
+
+GitHubの実buildログでNode.js 22.23.4を確認。今回のCloudflare内部buildログは直接閲覧せず、変更なしの `.node-version` 設定と同SHAの成功check・公開結果を確認した。
+
+公開証拠は同ディレクトリの `publication/`、集約は `verification.json` に保存した。過去274レビュー証拠、全曲・Work・旧関係、全ID・slug・aliasesを再確認し、公開後も残課題・意図しない変更は0。失敗した検証補助処理の経緯は上記とWORK_LOGに保持し、標準テストの原失敗ログは空白を改変せずgzip保存した。終了記録のみskip CIで同期し、製品の追加デプロイを行わない。
