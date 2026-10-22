@@ -1,8 +1,14 @@
 # 作業記録
 
-最終更新：2026-10-22（日本時間）
+最終更新：2026-10-23（日本時間）
 
 ## 現在地
+
+- 2026-10-23 本番公開完了・確認済。製品d9cfa2b/main push、Cloudflare同SHA success、公開前297test/両buildSEO、CI実Node22.23.4/297test、実本番486HTTP・449page・12module・4catalog・OGP/SEO/最新news全一致、12view(一覧/個別×6幅)と7実操作・console error0。全data/source/対象外PHP SHA保全、viewport reset/自己tab終了。現在：公開記録4文書限定skip CI同期→Git最終確認。未完了：別配信先GitHub Pages deploy119895249661/run39798893946がqueued、実host旧内容（初回public pagesはLatest news preserved / assertionでexit1、製品不具合ではなく未反映）。pending_deployments空、公式Actions結果遅延https://www.githubstatus.com/incidents/q29p76qtnkykを確認、当jobとの因果は断定しない・重複dispatch0。公開reportはdocs/research/search-readings-2026-10-22/publication.jsonのPRIMARY_DEPLOYED_AND_VERIFIED_SECONDARY_PENDING。次：既存job完了時 .cache/node-security/runtimes/node-v22.23.4-win-x64/node.exe .cache/search-release-2026-10-22/status.mjs d9cfa2b84205dfe3d814e87d061a4668a0e3c376 → 同public.mjs SHA pages → GHP実ブラウザー→記録更新。主サイト公開要件は完了、別配信先未完了を完了に書換えない。
+
+- 2026-10-22 Cloudflare同製品SHA公開success、本番HTTP486/449対象page本文header/12module/4catalog/OGP/SEO/最新news全一致PASS・retry/失敗0。CI実log Node22.23.4・297test失敗0も確認済。実IABおだ2件/入力中維持/submitふじた1件/Enter/sort確定語保持/個別から一覧検索と一覧・個別6幅成功。現在：残画面/曲例確認とGitHub Pages deploy待ち（同SHA build成功/deploy queued、API runs空一覧は既知run直接GETへ補完し状態変更なし）。未完了：GHP配信検証・終了記録同期。スクリーンショットはresize直後に旧paintを拾ったためviewport/state確認後取り直す、実DOM配置は全幅一致。次：本番曲例/画像→GHP同SHAstatus/HTTP→docsのみskip CI同期。
+
+- 2026-10-22 製品d9cfa2b84205dfe3d814e87d061a4668a0e3c376を20file限定commit/main通常push成功。stage全filtered hash/cached diffcheck一致、公開前tracked/index空・対象外PHPだけ未追跡保持、最新bcc8f02のお知らせ追加も保全。現在：同SHA Actions/Cloudflare/GHP公開完了待ち→両host全449対象page本文/header・12module・全catalog/OGP/SEO/新newsと実ブラウザー確認。未完了：公開後検証と終了docs同期。標準297/両配置SEO/全data/source保全PASS。status APIのsandbox通信はEACCES→read専用承認実行へ切替（pushの重複なし・自動承認拒否なし）。次：同SHA status確認→成功hostの配信と画面→終了記録。
 
 - 2026-10-22 公開前gate成功。bcc8f02最新版でNode22.23.4全297/両build/SEO各1345page・890曲/447Creator header・全compiled/source一致、48reading以外のCreator/全楽曲/Work/allocator/新news/対象外PHP保全PASS、39324終端0。最新fetch HEAD-origin一致、preflight20file/通常diffcheck/formatも成功。現在：20file限定stage→全filtered blob/cached diffcheck照合→main通常commit/push。未完了：同SHA CI/Cloudflare/GHP成功と両host配信/実ブラウザー確認・終了記録。公開source追加変更なし、news2test修正のみ必要範囲へ追加。
 
@@ -1667,3 +1673,12 @@
 - 2026-10-22 終了gate PASS。画像案から実装した両曲検索/Creator一覧/個人集計のcompact・半角space・既存配色/desktop/操作/全data保持、301tests/両配置SEO/本番同SHA公開/両host全449対象pageと各484HTTP/実Chrome全成功。製品dd6af01以後はWORK_LOGと公開報告の2文書だけ。現在作業中なし、依頼UI/検証/本番反映の未完了0・未解決0、自己process終了・PHP対象外保全。この終了記録2文書をskip CIで通常同期しHEAD-origin/文書限定差分を最終確認する。次の新規依頼ではWORK_LOG/cwd/Git/実体照合から再開。途中失敗と対処を履歴へ保持、実メール0・CF内部log未取得は報告に明記。
 
 - 2026-10-22 検索改善終了監査：標準297・最終関連32・両最終build/SEO・全890曲/447Creator header保全・両配置6幅24画面/console0/source SHA全一致PASS。検索混在入力/48読み補完/一覧・個別header/明示submitと履歴まで完了。現在作業中なし、依頼範囲未完了0。英字39件の未確認発音推測は行わず根拠資料へ明記。自己server停止・viewport復元・自己tab終了済、index空/未コミット保持/公開0。次は公開依頼時のfresh Git/data/source照合。途中失敗・復旧経緯は先頭現在地に記録。
+
+
+## 2026-10-23 検索改善の本番公開
+
+- 完了：製品d9cfa2bをmainへ通常push、Cloudflare同SHA success、本番の全449対象ページ/486HTTP/12module/4catalog・画像・SEO・最新news一致、実UI12幅別view/7操作/console error0。公開前Node22.23.4標準297と両build/SEO、CI実log297成功、全data/非readingfield/PHP保全。
+- 対象：公開実装20fileと終了文書WORK_LOG.md・調査README.md・publication.json・publication-browser-verification.jsonのみ。終了文書をskip CIで同期する。
+- 未完了：別配信先GHP deploy queued、実host旧版。公式Actions結果処理遅延あり・原因の断定なし・承認要求なし。既存jobを残し、重複dispatchせず完了後に同SHA public pages/実UIを検証する。status/pendingと次commandは先頭に明記。本番公開そのものは完了。
+- 問題と対処：最新news2test固定前提はfixture/表示空白比較へ修正し297成功。API run空一覧は既知id直接GETで補完。resize直後の旧paint画像はviewport/state後再撮影。最初のGHP実probeは旧newsでexit1をpages-first-probe.jsonへ記録。本番の失敗/HTTP retryは0。全既存失敗履歴を保持。
+- 検証していない範囲：GHP公開後確認、Cloudflare内部build実logの直接取得（同SHA check/実本番一致は確認済）。自己serverなし・viewport reset・自己tab終了。自動承認拒否なし。

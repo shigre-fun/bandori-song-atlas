@@ -1,0 +1,188 @@
+{
+  "status": "PRIMARY_DEPLOYED_AND_VERIFIED_SECONDARY_PENDING",
+  "productCommit": "d9cfa2b84205dfe3d814e87d061a4668a0e3c376",
+  "verifiedAt": "2026-10-22T15:06:15.193Z",
+  "node": "v22.23.4",
+  "tests": 297,
+  "localBuilds": [
+    {
+      "name": "root-final-build",
+      "code": 0
+    },
+    {
+      "name": "root-final-seo",
+      "code": 0
+    },
+    {
+      "name": "standard-tests",
+      "code": 0
+    },
+    {
+      "name": "subpath-final-build",
+      "code": 0
+    },
+    {
+      "name": "subpath-final-seo",
+      "code": 0
+    }
+  ],
+  "creatorHeadersPerHost": 447,
+  "sourceHashes": {
+    "scripts/build.mjs": "243d6685b795737882852efec57854d47a970ec644e8bd506827e4cade8fa50d",
+    "src/styles/style.css": "c417508f9d196bf03f56791c99d8e256e260f9e4490860fc1e9aacb6d75b2616",
+    "src/js/search-text.js": "807addc9d2358ce474a83d2a648c487a302daedc37d5d3b9193dfb6137980727",
+    "src/js/domain.js": "12d1e607a37342ad626e672bc7ea5e5a0b039af8f1f3bf1aa38d739688c90a18",
+    "src/js/creators-data.js": "668ad66afed384d3400b6db6f247c3d71604e80590f449813ee921850adb3c7e",
+    "src/js/creator-views.js": "f1dbdcd7b7adda8fa07c56fa76e2572c695c3fbfcf022faa4b48b50f05e15d84",
+    "src/js/creators.js": "e4034d49a02ba1c4717055141ca5f00007eb347b3dd4d2cbbb60ea4a34383f86",
+    "data/creators.json": "0105fdbdc8d6aa1be2b37ba47c3294ab775b29786c847a58916caea0fc7fc512"
+  },
+  "preservation": "All song, Work, allocator, latest news and non-reading Creator fields preserved; unrelated PHP note excluded",
+  "actionsRun": {
+    "id": 39798893946,
+    "name": "Publish song database",
+    "status": "queued",
+    "conclusion": null,
+    "sha": "d9cfa2b84205dfe3d814e87d061a4668a0e3c376",
+    "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39798893946"
+  },
+  "checks": [
+    {
+      "id": 119895786557,
+      "name": "Cloudflare Pages",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://dash.cloudflare.com/?to=/0371eacbdeb1f15a79ad2a4b8b7c05cd/pages/view/bandori-song-atlas/75a4ec37-ddfa-4fdf-b5bf-c59bb0d7f2dc"
+    },
+    {
+      "id": 119895249661,
+      "name": "deploy",
+      "status": "queued",
+      "conclusion": null,
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39798893946/job/119895249661"
+    },
+    {
+      "id": 119893618077,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39798893946/job/119893618077"
+    }
+  ],
+  "deployments": [
+    {
+      "id": 7255399727,
+      "sha": "d9cfa2b84205dfe3d814e87d061a4668a0e3c376",
+      "environment": "github-pages",
+      "statuses": []
+    }
+  ],
+  "primary": {
+    "label": "primary",
+    "origin": "https://tanimachi-bdsongs.com",
+    "verifiedAt": "2026-10-22T14:56:24.170Z",
+    "http": 486,
+    "affectedPages": 449,
+    "modules": 12,
+    "allCatalogsEqual": true,
+    "incidents": [],
+    "failures": []
+  },
+  "browser": {
+    "layouts": 12,
+    "widths": [320, 390, 800, 801, 1024, 1280],
+    "operations": [
+      {
+        "host": "primary",
+        "action": "draft keeps committed おだ result",
+        "names": ["織田あすか", "小田佳奈子"],
+        "q": "ふじた",
+        "status": "2件のクリエイター"
+      },
+      {
+        "host": "primary",
+        "action": "submit ふじた",
+        "names": ["藤田淳平"],
+        "status": "1件のクリエイター"
+      },
+      {
+        "host": "primary",
+        "action": "sort retains confirmed query",
+        "q": "ふじた",
+        "status": "1件のクリエイター",
+        "url": "https://tanimachi-bdsongs.com/creators/?q=%E3%81%B5%E3%81%98%E3%81%9F&sort=total"
+      },
+      {
+        "host": "primary",
+        "action": "Enter おだ",
+        "status": "2件のクリエイター"
+      },
+      {
+        "host": "primary",
+        "action": "detail header GET returns filtered index",
+        "status": "2件のクリエイター"
+      },
+      {
+        "host": "primary",
+        "action": "Garupa 夜にかける finds 夜に駆ける",
+        "visible": true
+      },
+      {
+        "host": "primary",
+        "action": "cross search 夜にかける finds 夜に駆ける",
+        "visible": true
+      }
+    ],
+    "consoleErrors": [],
+    "report": "reports/search-release-2026-10-22/browser-verification.json",
+    "screenshots": [
+      "primary-creators-390.png",
+      "primary-creators-1280.png",
+      "primary-detail-390.png"
+    ],
+    "cleanup": "viewport reset; temporary tab closed"
+  },
+  "logs": {
+    "root-final-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "root-final-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "standard-tests.txt": "8514b4908ebe6ed296de7ee597e5a52411615d72f01a0351a7d1b66c3c740dce",
+    "subpath-final-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "subpath-final-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "ci-build.txt": "3f5c6ef7976598cd39002e921826db25a1046e62674534cd4a319dcb4324c6e2"
+  },
+  "evidence": {
+    "primary-public.json": "1c1d6e9a0e9dc001b1f8bcf332835c4c4e46f8832c8cb447d2437df1cf92ac82",
+    "publish-status.json": "65d2658b57f44adf08def708512939332257bbc750415724645a1cd892ab4224"
+  },
+  "pending": [
+    {
+      "target": "GitHub Pages secondary host",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/",
+      "state": "deploy job queued; actual host still has old content",
+      "job": 119895249661,
+      "run": 39798893946,
+      "deployment": 7255399727,
+      "firstProbe": {
+        "status": "NOT_UPDATED",
+        "exitCode": 1,
+        "assertion": "Latest news preserved: /"
+      },
+      "approvalRequests": [],
+      "officialIncident": {
+        "url": "https://www.githubstatus.com/incidents/q29p76qtnkyk",
+        "latestPublishedUpdate": "2026-10-22T14:35:00Z",
+        "description": "GitHub reports delays processing Actions workflow and step results; causal relation to this queue is not independently established."
+      },
+      "next": "Wait for existing run; read status for this SHA, run public.mjs SHA pages, then secondary browser verification. Do not dispatch duplicate deployment."
+    }
+  ],
+  "limitations": [
+    "Cloudflare internal build log not directly fetched; same-SHA success check and actual production content verified.",
+    "Secondary GitHub Pages success/public content/browser verification remains pending; not counted as complete."
+  ],
+  "resolvedIssues": [
+    "Latest news broke fixed-date/single-entry fixtures and raw newline HTML assertion; isolated fixtures and display-equivalent escaped text assertions fixed these without changing product/news.",
+    "Resize-immediate screenshot retained an earlier compositor frame; screenshots recaptured after viewport/state confirmation.",
+    "GitHub run listing temporarily returned empty; direct known run lookup used without duplicate deployment."
+  ]
+}

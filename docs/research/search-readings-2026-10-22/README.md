@@ -34,4 +34,12 @@ Node.js 22.23.4で標準297件（223＋35＋24＋15）が成功しました。�
 
 実ブラウザーでは、両配置の一覧・個別ページを320／390／800／801／1024／1280pxで確認（24画面、横はみ出し0）。入力中の結果維持、submit、Enter、並べ替え、戻る・進む、個別ページから一覧への検索、実際の混在楽曲検索を確認し、ページのconsole errorは0件でした。[最終の自動検証結果](validation.json)と[ブラウザー検証結果](browser-verification.json)を保存しています。
 
-画像と実行原ログは`reports/search-improvements-2026-10-22/`と`.cache/search-improvements/`にあります。今回の作業はローカル実装・検証までで、本番公開・commit・pushは行っていません。
+実装時の画像と実行原ログは`reports/search-improvements-2026-10-22/`と`.cache/search-improvements/`にあります。
+
+## 本番公開（2026-10-23）
+
+ユーザーの確認・公開依頼を受け、製品コミット`d9cfa2b84205dfe3d814e87d061a4668a0e3c376`をmainへ通常pushしました。[本番サイト](https://tanimachi-bdsongs.com/creators/?q=おだ)はCloudflareの同SHA成功を確認済みです。公開前に追加された「クリエイターページを作成しました」のお知らせを取り込み、固定件数・日付・生の改行を仮定していたお知らせテスト2件も修正しました。お知らせデータ自体は保持しています。
+
+公開前の標準297件と両配置のbuild／SEOが成功し、[GitHub Actionsのbuild](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39798893946/job/119893618077)の実ログでもNode.js 22.23.4・297件成功を確認しました。本番486応答、対象449ページの本文・ヘッダー、12検索・共通ファイル、全4カタログ、SEO・画像・最新お知らせが検証済み生成物と一致しました。実ブラウザーでは本番の一覧・個別を6幅で確認し、混在楽曲検索・読み検索・入力中の結果維持・検索ボタン・Enter・並べ替え・個別から一覧検索が成功、console errorは0件でした。[公開記録](publication.json)と[本番ブラウザー結果](publication-browser-verification.json)を保存しています。公開時の画像・原ログは`reports/search-release-2026-10-22/`と`.cache/search-release-2026-10-22/`にあります。
+
+別配信先のGitHub Pagesはdeployジョブ`119895249661`が待機中で、実配信もまだ旧内容です。承認待ちの要求はありません。[GitHub公式はActions結果の処理遅延を報告](https://www.githubstatus.com/incidents/q29p76qtnkyk)していますが、このジョブとの因果関係までは断定していません。GitHub Pagesの成功・公開後検証は未完了として記録し、本番サイトの公開成功と区別しています。既存runの完了後に同SHAの`status.mjs`、`public.mjs … pages`、別配信先の実ブラウザー確認を再開します。重複の再公開は行っていません。
