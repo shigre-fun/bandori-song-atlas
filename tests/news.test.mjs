@@ -8,6 +8,7 @@ import {
   renderNewsItems,
 } from "../scripts/news.mjs";
 import { OPERATOR_X_URL, siteSettings } from "../src/js/site-config.js";
+import { escapeHTML } from "../src/js/seo.js";
 
 const read = (path) => fs.readFileSync(`dist/${path}`, "utf8");
 const entry = (date, title, category = "site") => ({
@@ -80,7 +81,14 @@ test("home and news page use the same source and expose the configured X profile
     assert.ok(news.includes(item.date.replaceAll("-", ".")));
   }
   assert.ok(news.includes(">サイト</span>"));
-  assert.ok(news.includes(data[0].description));
+  const normalizedNews = news.replace(/\s+/g, " ");
+  for (const item of data)
+    assert.ok(
+      normalizedNews.includes(
+        escapeHTML(item.description).replace(/\s+/g, " "),
+      ),
+      item.title,
+    );
   assert.ok(!read("404.html").includes('class="news-list"'));
 });
 

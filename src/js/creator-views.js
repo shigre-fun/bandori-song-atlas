@@ -98,7 +98,7 @@ export function renderCreators(creators, songs, base, coverage) {
         a.sortKey.localeCompare(b.sortKey, "ja") || a.id.localeCompare(b.id),
     );
   return `<h1>クリエイター</h1><p>掲載楽曲の作詞・作曲・編曲者を探せます。参加楽曲数は同じ作品の複数収録を1曲として数えます。</p><p class="notice">参加楽曲数・担当別曲数は、Creatorに紐付いたクレジットを集計しています。</p>${coverageNotice(coverage)}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}
-<form id="creator-controls" class="creator-controls" role="search" method="get"><label for="creator-search">名前・別名で検索<input type="search" id="creator-search" name="q"></label><label for="creator-sort">並べ替え<select id="creator-sort" name="sort">${Object.entries(
+<form id="creator-controls" class="creator-controls" method="get"><input type="hidden" name="q"><label for="creator-sort">並べ替え<select id="creator-sort" name="sort">${Object.entries(
     Object.fromEntries(sorts),
   )
     .map(([v, l]) => `<option value="${v}">${l}</option>`)

@@ -1,0 +1,3214 @@
+{
+  "checkedAt": "2026-10-22",
+  "creatorCount": 446,
+  "updated": 48,
+  "policy": "氏名・ID・slug・alias・担当関係は保持。既存かなと英字名は維持し、漢字が残った48件のsortKeyだけをかなへ補完。secondary根拠は一次根拠と区別し、同一人物の公式活動根拠と照合。",
+  "entries": [
+    {
+      "id": "cr-0003",
+      "name": "真部脩一",
+      "before": "真部脩一",
+      "reading": "まべしゅういち",
+      "sourceUrl": "https://t.pia.jp/en/pia/artist/artists.do?afid=L14&artistsCd=G7140047",
+      "sourceType": "ticket-kana",
+      "readingBasis": "マベシュウイチ",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0004",
+      "name": "藤田淳平",
+      "before": "藤田淳平",
+      "reading": "ふじたじゅんぺい",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/fujita.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Junpei Fujita",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0005",
+      "name": "藤永龍太郎",
+      "before": "藤永龍太郎",
+      "reading": "ふじながりゅうたろう",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/fujinaga.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Ryutaro Fujinaga",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0006",
+      "name": "菊田大介",
+      "before": "菊田大介",
+      "reading": "きくただいすけ",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/kikuta.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Daisuke Kikuta",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0007",
+      "name": "岩橋星実",
+      "before": "岩橋星実",
+      "reading": "いわはしせいま",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/iwahashi.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Seima Iwahashi",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0008",
+      "name": "藤間仁",
+      "before": "藤間仁",
+      "reading": "ふじまひとし",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/fujima.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Hitoshi Fujima",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0009",
+      "name": "竹田祐介",
+      "before": "竹田祐介",
+      "reading": "たけだゆうすけ",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/takeda.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Yusuke Takeda",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0010",
+      "name": "笠井雄太",
+      "before": "笠井雄太",
+      "reading": "かさいゆうた",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/kasai.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Yuta Kasai",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0011",
+      "name": "近藤世真",
+      "before": "近藤世真",
+      "reading": "こんどうせいま",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/kondo.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Seima Kondo",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0012",
+      "name": "堀川大翼",
+      "before": "堀川大翼",
+      "reading": "ほりかわだいすけ",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/horikawa.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Daisuke Horikawa",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0013",
+      "name": "長谷川大介",
+      "before": "長谷川大介",
+      "reading": "はせがわだいすけ",
+      "sourceUrl": "https://supalove.com/category/introduction/hasegawa-daisuke/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/hasegawa-daisuke/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0014",
+      "name": "松坂康司",
+      "before": "松坂康司",
+      "reading": "まつざかこうじ",
+      "sourceUrl": "https://supalove.com/category/introduction/koji-matsuzaka/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/koji-matsuzaka/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0015",
+      "name": "木下龍平",
+      "before": "木下龍平",
+      "reading": "きのしたりゅうへい",
+      "sourceUrl": "https://supalove.com/category/introduction/kinoshita-ryuhei/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/kinoshita-ryuhei/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0019",
+      "name": "都丸椋太",
+      "before": "都丸椋太",
+      "reading": "とまるりょうた",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/tomaru.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Ryota Tomaru",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "before": "日高勇輝",
+      "reading": "ひだかゆうき",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/hidaka.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Yuki Hidaka",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "before": "末益涼太",
+      "reading": "すえますりょうた",
+      "sourceUrl": "https://webnewtype.com/report/staff/91955.html",
+      "sourceType": "interview-kana",
+      "readingBasis": "すえます・りょうた",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "before": "藤原聡",
+      "reading": "ふじはらさとし",
+      "sourceUrl": "https://www.nhk-book.co.jp/assets_item/shinkan/202304.pdf",
+      "sourceType": "publisher-kana",
+      "readingBasis": "ふじはら・さとし",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "before": "田淵智也",
+      "reading": "たぶちともや",
+      "sourceUrl": "https://www.toysfactory.co.jp/artist/tabuchitomoya/bio",
+      "sourceType": "official-kana",
+      "readingBasis": "たぶちともや",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0028",
+      "name": "堀江晶太",
+      "before": "堀江晶太",
+      "reading": "ほりえしょうた",
+      "sourceUrl": "https://www.penguinresearch.jp/sp/bio/",
+      "sourceType": "official-latin",
+      "readingBasis": "SHOTA HORIE",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0029",
+      "name": "大森元貴",
+      "before": "大森元貴",
+      "reading": "おおもりもとき",
+      "sourceUrl": "https://motoki-ohmori.com/",
+      "sourceType": "official-latin",
+      "readingBasis": "Motoki Ohmori",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0033",
+      "name": "藤井健太郎",
+      "before": "藤井健太郎",
+      "reading": "ふじいけんたろう",
+      "sourceUrl": "https://love-annex.jp/creators/%E8%97%A4%E4%BA%95%E5%81%A5%E5%A4%AA%E9%83%8E/",
+      "sourceType": "official-latin",
+      "readingBasis": "KENTARO FUJII",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0038",
+      "name": "高橋涼",
+      "before": "高橋涼",
+      "reading": "たかはしりょう",
+      "sourceUrl": "https://supalove.com/category/introduction/takahashi-ryo/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/takahashi-ryo/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0043",
+      "name": "神前暁",
+      "before": "神前暁",
+      "reading": "こうさきさとる",
+      "sourceUrl": "https://kosakisatoru-20th-anniversary.com/",
+      "sourceType": "official-kana",
+      "readingBasis": "こうさき・さとる",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0044",
+      "name": "賀佐泰洋",
+      "before": "賀佐泰洋",
+      "reading": "がさやすひろ",
+      "sourceUrl": "https://supalove.com/category/introduction/gasa-yasuhiro/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/gasa-yasuhiro/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0045",
+      "name": "金崎真士",
+      "before": "金崎真士",
+      "reading": "かなさきまさし",
+      "sourceUrl": "https://supalove.com/category/introduction/kanasaki-masashi/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/kanasaki-masashi/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0046",
+      "name": "鈴木裕明",
+      "before": "鈴木裕明",
+      "reading": "すずきひろあき",
+      "sourceUrl": "https://supalove.com/category/introduction/hiroaki-suzuki/",
+      "sourceType": "official-name-and-latin-path",
+      "readingBasis": "/category/introduction/hiroaki-suzuki/",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0047",
+      "name": "水野良樹",
+      "before": "水野良樹",
+      "reading": "みずのよしき",
+      "sourceUrl": "https://ikimonogakari.com/",
+      "sourceType": "official-latin",
+      "readingBasis": "Yoshiki Mizuno",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "before": "片倉三起也",
+      "reading": "かたくらみきや",
+      "sourceUrl": "https://thetv.jp/person/0000053396/",
+      "sourceType": "secondary-kana",
+      "readingBasis": "かたくらみきや",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0050",
+      "name": "前山田健一",
+      "before": "前山田健一",
+      "reading": "まえやまだけんいち",
+      "sourceUrl": "https://hyadain.net/profile/",
+      "sourceType": "official-latin",
+      "readingBasis": "Kenichi Maeyamada",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0051",
+      "name": "藤原基央",
+      "before": "藤原基央",
+      "reading": "ふじわらもとお",
+      "sourceUrl": "https://www.bumpofchicken.com/profile?h=1",
+      "sourceType": "official-latin",
+      "readingBasis": "MOTOO FUJIWARA",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0053",
+      "name": "佐藤純一",
+      "before": "佐藤純一",
+      "reading": "さとうじゅんいち",
+      "sourceUrl": "https://fhana.jp/page/2/",
+      "sourceType": "official-latin",
+      "readingBasis": "Junichi Sato",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0054",
+      "name": "田中公平",
+      "before": "田中公平",
+      "reading": "たなかこうへい",
+      "sourceUrl": "https://www.imagine-music.co.jp/artist/index/6",
+      "sourceType": "official-latin",
+      "readingBasis": "Kohei Tanaka",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0055",
+      "name": "田中秀和",
+      "before": "田中秀和",
+      "reading": "たなかひでかず",
+      "sourceUrl": "https://hdkzt.jimdofree.com/about-me/",
+      "sourceType": "official-latin",
+      "readingBasis": "Hidekazu Tanaka",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0061",
+      "name": "ナユタン星人",
+      "before": "ナユタン星人",
+      "reading": "なゆたんせいじん",
+      "sourceUrl": "https://www.youtube.com/watch?v=GCVedVOt8AM",
+      "sourceType": "official-latin",
+      "readingBasis": "Nayutan Seijin",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0074",
+      "name": "白神真志朗",
+      "before": "白神真志朗",
+      "reading": "しらかみましろ",
+      "sourceUrl": "https://www.tunecore.co.jp/artists/mashiro_shirakami",
+      "sourceType": "artist-distributor-latin",
+      "readingBasis": "Mashiro Shirakami",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0075",
+      "name": "目黒将司",
+      "before": "目黒将司",
+      "reading": "めぐろしょうじ",
+      "sourceUrl": "https://www.p3m.jp/staff/",
+      "sourceType": "official-latin",
+      "readingBasis": "Shoji Meguro",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0076",
+      "name": "秋田ひろむ",
+      "before": "秋田ひろむ",
+      "reading": "あきたひろむ",
+      "sourceUrl": "https://www.amazarashi.com/en/profile/",
+      "sourceType": "official-latin",
+      "readingBasis": "Hiromu Akita",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0077",
+      "name": "浅倉大介",
+      "before": "浅倉大介",
+      "reading": "あさくらだいすけ",
+      "sourceUrl": "https://www.access-web.jp/biography_p.php",
+      "sourceType": "official-latin",
+      "readingBasis": "DAISUKE ASAKURA",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "before": "前澤寛之",
+      "reading": "まえざわひろゆき",
+      "sourceUrl": "https://bangumi.tv/person/10769",
+      "sourceType": "secondary-kana",
+      "readingBasis": "まえざわ ひろゆき",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "before": "志倉千代丸",
+      "reading": "しくらちよまる",
+      "sourceUrl": "https://www.famitsu.com/news/201806/28160003.html",
+      "sourceType": "interview-kana",
+      "readingBasis": "しくら ちよまる",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0083",
+      "name": "篠崎あやと",
+      "before": "篠崎あやと",
+      "reading": "しのざきあやと",
+      "sourceUrl": "https://www.donuts.ne.jp/wp-content/uploads/2024/08/%E3%80%90PRESSRELEASE%E3%80%91240830_tkmkvr_d4dj-DONUTS.pdf",
+      "sourceType": "official-latin",
+      "readingBasis": "Ayato Shinozaki",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "before": "庄司夏葵",
+      "reading": "しょうじなつき",
+      "sourceUrl": "https://xn--lovn0do0e.com/artist/2137/",
+      "sourceType": "secondary-kana",
+      "readingBasis": "しょうじなつき",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0090",
+      "name": "瀬名水紀",
+      "before": "瀬名水紀",
+      "reading": "せなみずき",
+      "sourceUrl": "https://bangumi.tv/person/68666",
+      "sourceType": "secondary-kana",
+      "readingBasis": "せなみずき",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/creators-2026-10-02/creator-research.json"
+    },
+    {
+      "id": "cr-0092",
+      "name": "織田あすか",
+      "before": "織田あすか",
+      "reading": "おだあすか",
+      "sourceUrl": "https://www.ariamusic.co.jp/creators/oda.php",
+      "sourceType": "official-latin",
+      "readingBasis": "Asuka Oda",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/credits-phase-b1-2026-10-03/creator-identity-research.json"
+    },
+    {
+      "id": "cr-0098",
+      "name": "植木建象",
+      "before": "植木建象",
+      "reading": "うえきけんぞう",
+      "sourceUrl": "https://spawn.co.jp/p-artist/2089/",
+      "sourceType": "official-latin",
+      "readingBasis": "KENZO UEKI",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/credits-phase-b1-2026-10-03/creator-identity-research.json"
+    },
+    {
+      "id": "cr-0104",
+      "name": "水樹奈々",
+      "before": "水樹奈々",
+      "reading": "みずきなな",
+      "sourceUrl": "https://www.mizukinana.jp/biography/",
+      "sourceType": "official-kana",
+      "readingBasis": "みずき なな",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/credits-phase-b1-2026-10-03/creator-identity-research.json"
+    },
+    {
+      "id": "cr-0122",
+      "name": "烏屋茶房",
+      "before": "烏屋茶房",
+      "reading": "からすやさぼう",
+      "sourceUrl": "https://www.nissin.com/jp/company/news/8995/",
+      "sourceType": "official-kana",
+      "readingBasis": "からすや さぼう",
+      "note": "掲載されたかなを転記。",
+      "priorResearch": "docs/migrations/credits-phase-b1-2026-10-03/creator-identity-research.json"
+    },
+    {
+      "id": "cr-0123",
+      "name": "林英樹",
+      "before": "林英樹",
+      "reading": "はやしひでき",
+      "sourceUrl": "https://horipro-music.jp/creator_member/hayashihideki/",
+      "sourceType": "official-latin",
+      "readingBasis": "Hayashi Hideki",
+      "note": "英字表記から日本語検索用のかなへ転記。長音は氏名の日本語表記に合わせる。",
+      "priorResearch": "docs/migrations/credits-phase-b1-2026-10-03/creator-identity-research.json"
+    }
+  ],
+  "audit": [
+    {
+      "id": "cr-0001",
+      "name": "上松範康",
+      "sortKey": "あげまつのりやす",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0002",
+      "name": "Elements Garden",
+      "sortKey": "elements garden",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0003",
+      "name": "真部脩一",
+      "sortKey": "まべしゅういち",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0004",
+      "name": "藤田淳平",
+      "sortKey": "ふじたじゅんぺい",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0005",
+      "name": "藤永龍太郎",
+      "sortKey": "ふじながりゅうたろう",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0006",
+      "name": "菊田大介",
+      "sortKey": "きくただいすけ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0007",
+      "name": "岩橋星実",
+      "sortKey": "いわはしせいま",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0008",
+      "name": "藤間仁",
+      "sortKey": "ふじまひとし",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0009",
+      "name": "竹田祐介",
+      "sortKey": "たけだゆうすけ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0010",
+      "name": "笠井雄太",
+      "sortKey": "かさいゆうた",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0011",
+      "name": "近藤世真",
+      "sortKey": "こんどうせいま",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0012",
+      "name": "堀川大翼",
+      "sortKey": "ほりかわだいすけ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0013",
+      "name": "長谷川大介",
+      "sortKey": "はせがわだいすけ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0014",
+      "name": "松坂康司",
+      "sortKey": "まつざかこうじ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0015",
+      "name": "木下龍平",
+      "sortKey": "きのしたりゅうへい",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0016",
+      "name": "トミタカズキ",
+      "sortKey": "トミタカズキ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0017",
+      "name": "あらケン",
+      "sortKey": "あらケン",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0018",
+      "name": "hisakuni",
+      "sortKey": "hisakuni",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0019",
+      "name": "都丸椋太",
+      "sortKey": "とまるりょうた",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0020",
+      "name": "日高勇輝",
+      "sortKey": "ひだかゆうき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0021",
+      "name": "末益涼太",
+      "sortKey": "すえますりょうた",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0022",
+      "name": "Diggy-MO’",
+      "sortKey": "でぃぎーもー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0023",
+      "name": "Ayase",
+      "sortKey": "Ayase",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0024",
+      "name": "藤原聡",
+      "sortKey": "ふじはらさとし",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0025",
+      "name": "HoneyWorks",
+      "sortKey": "HoneyWorks",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0026",
+      "name": "DECO*27",
+      "sortKey": "DECO*27",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0027",
+      "name": "田淵智也",
+      "sortKey": "たぶちともや",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0028",
+      "name": "堀江晶太",
+      "sortKey": "ほりえしょうた",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0029",
+      "name": "大森元貴",
+      "sortKey": "おおもりもとき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0030",
+      "name": "shito",
+      "sortKey": "shito",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0031",
+      "name": "TeddyLoid",
+      "sortKey": "TeddyLoid",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0032",
+      "name": "ピノキオピー",
+      "sortKey": "ぴのきおぴー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0033",
+      "name": "藤井健太郎",
+      "sortKey": "ふじいけんたろう",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0034",
+      "name": "Giga",
+      "sortKey": "Giga",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0035",
+      "name": "Eve",
+      "sortKey": "Eve",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0036",
+      "name": "Orangestar",
+      "sortKey": "Orangestar",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0037",
+      "name": "Vaundy",
+      "sortKey": "ばうんでぃ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0038",
+      "name": "高橋涼",
+      "sortKey": "たかはしりょう",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0039",
+      "name": "40mP",
+      "sortKey": "よんじゅうめーとるぴー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0040",
+      "name": "Neru",
+      "sortKey": "Neru",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0041",
+      "name": "かいりきベア",
+      "sortKey": "かいりきべあ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0042",
+      "name": "みきとP",
+      "sortKey": "みきとP",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0043",
+      "name": "神前暁",
+      "sortKey": "こうさきさとる",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0044",
+      "name": "賀佐泰洋",
+      "sortKey": "がさやすひろ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0045",
+      "name": "金崎真士",
+      "sortKey": "かなさきまさし",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0046",
+      "name": "鈴木裕明",
+      "sortKey": "すずきひろあき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0047",
+      "name": "水野良樹",
+      "sortKey": "みずのよしき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0048",
+      "name": "片倉三起也",
+      "sortKey": "かたくらみきや",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0049",
+      "name": "小室哲哉",
+      "sortKey": "こむろてつや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0050",
+      "name": "前山田健一",
+      "sortKey": "まえやまだけんいち",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0051",
+      "name": "藤原基央",
+      "sortKey": "ふじわらもとお",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0052",
+      "name": "HYDE",
+      "sortKey": "HYDE",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0053",
+      "name": "佐藤純一",
+      "sortKey": "さとうじゅんいち",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0054",
+      "name": "田中公平",
+      "sortKey": "たなかこうへい",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0055",
+      "name": "田中秀和",
+      "sortKey": "たなかひでかず",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0056",
+      "name": "Tom-H@ck",
+      "sortKey": "Tom-H@ck",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0057",
+      "name": "MYTH & ROID",
+      "sortKey": "MYTH & ROID",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0058",
+      "name": "ORANGE RANGE",
+      "sortKey": "ORANGE RANGE",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0059",
+      "name": "Fear, and Loathing in Las Vegas",
+      "sortKey": "Fear, and Loathing in Las Vegas",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0060",
+      "name": "すりぃ",
+      "sortKey": "すりぃ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0061",
+      "name": "ナユタン星人",
+      "sortKey": "なゆたんせいじん",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0062",
+      "name": "大石昌良",
+      "sortKey": "おーいしまさよし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0063",
+      "name": "キタニタツヤ",
+      "sortKey": "きたにたつや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0064",
+      "name": "Kanaria",
+      "sortKey": "Kanaria",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0065",
+      "name": "TK",
+      "sortKey": "TK",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0066",
+      "name": "八木沼悟志",
+      "sortKey": "やぎぬまさとし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0067",
+      "name": "UZ",
+      "sortKey": "UZ",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0068",
+      "name": "YUI",
+      "sortKey": "YUI",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0069",
+      "name": "TAKUYA∞",
+      "sortKey": "TAKUYA∞",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0070",
+      "name": "THE SPELLBOUND",
+      "sortKey": "THE SPELLBOUND",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0071",
+      "name": "sabio",
+      "sortKey": "sabio",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0072",
+      "name": "常田真太郎",
+      "sortKey": "ときたしんたろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0073",
+      "name": "大橋卓弥",
+      "sortKey": "おおはしたくや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0074",
+      "name": "白神真志朗",
+      "sortKey": "しらかみましろ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0075",
+      "name": "目黒将司",
+      "sortKey": "めぐろしょうじ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0076",
+      "name": "秋田ひろむ",
+      "sortKey": "あきたひろむ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0077",
+      "name": "浅倉大介",
+      "sortKey": "あさくらだいすけ",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0078",
+      "name": "atsuko",
+      "sortKey": "atsuko",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0079",
+      "name": "KATSU",
+      "sortKey": "KATSU",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0080",
+      "name": "ak.homma",
+      "sortKey": "ak.homma",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0081",
+      "name": "前澤寛之",
+      "sortKey": "まえざわひろゆき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0082",
+      "name": "志倉千代丸",
+      "sortKey": "しくらちよまる",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0083",
+      "name": "篠崎あやと",
+      "sortKey": "しのざきあやと",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0084",
+      "name": "ryo",
+      "sortKey": "ryo",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0085",
+      "name": "GEN",
+      "sortKey": "GEN",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0086",
+      "name": "ARM",
+      "sortKey": "ARM",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0087",
+      "name": "TAKE",
+      "sortKey": "TAKE",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0088",
+      "name": "yasu",
+      "sortKey": "yasu",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0089",
+      "name": "庄司夏葵",
+      "sortKey": "しょうじなつき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0090",
+      "name": "瀬名水紀",
+      "sortKey": "せなみずき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0091",
+      "name": "john",
+      "sortKey": "john",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0092",
+      "name": "織田あすか",
+      "sortKey": "おだあすか",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0093",
+      "name": "中村航",
+      "sortKey": "なかむらこう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0094",
+      "name": "下田晃太郎",
+      "sortKey": "しもだこうたろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0095",
+      "name": "藤原優樹",
+      "sortKey": "ふじわらまさき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0096",
+      "name": "Seonoo Kim",
+      "sortKey": "Seonoo Kim",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0097",
+      "name": "畑亜貴",
+      "sortKey": "はたあき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0098",
+      "name": "植木建象",
+      "sortKey": "うえきけんぞう",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0099",
+      "name": "Spirit Garden",
+      "sortKey": "Spirit Garden",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0100",
+      "name": "大森祥子",
+      "sortKey": "おおもりしょうこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0101",
+      "name": "小木岳司",
+      "sortKey": "おぎがくし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0102",
+      "name": "MOMIKEN",
+      "sortKey": "MOMIKEN",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0103",
+      "name": "神田ジョン",
+      "sortKey": "かんだじょん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0104",
+      "name": "水樹奈々",
+      "sortKey": "みずきなな",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0105",
+      "name": "仲町あられ",
+      "sortKey": "なかまちあられ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0106",
+      "name": "麻枝准",
+      "sortKey": "まえだじゅん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0107",
+      "name": "あの",
+      "sortKey": "あの",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0108",
+      "name": "及川眠子",
+      "sortKey": "おいかわねこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0109",
+      "name": "Gom",
+      "sortKey": "Gom",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0110",
+      "name": "佐藤英敏",
+      "sortKey": "さとうひでとし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0111",
+      "name": "Aira",
+      "sortKey": "Aira",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0112",
+      "name": "peppe",
+      "sortKey": "peppe",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0113",
+      "name": "samfree",
+      "sortKey": "samfree",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0114",
+      "name": "穴見真吾",
+      "sortKey": "あなみしんご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0115",
+      "name": "小林壱誓",
+      "sortKey": "こばやしいっせい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0116",
+      "name": "長屋晴子",
+      "sortKey": "ながやはるこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0117",
+      "name": "槇島隆人",
+      "sortKey": "まきしまたかひと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0118",
+      "name": "宮崎京一",
+      "sortKey": "みやざききょういち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0119",
+      "name": "母里治樹",
+      "sortKey": "もりはるき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0120",
+      "name": "川渕龍成",
+      "sortKey": "かわぶちりゅうせい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0121",
+      "name": "ハルイチ",
+      "sortKey": "ハルイチ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0122",
+      "name": "烏屋茶房",
+      "sortKey": "からすやさぼう",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0123",
+      "name": "林英樹",
+      "sortKey": "はやしひでき",
+      "status": "reading-added"
+    },
+    {
+      "id": "cr-0124",
+      "name": "o-saka",
+      "sortKey": "o-saka",
+      "status": "existing-latin"
+    },
+    {
+      "id": "cr-0125",
+      "name": "カンザキイオリ",
+      "sortKey": "かんざきいおり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0126",
+      "name": "加納望",
+      "sortKey": "かのうのぞむ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0127",
+      "name": "Fukase",
+      "sortKey": "ふかせ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0128",
+      "name": "冬真",
+      "sortKey": "とうま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0129",
+      "name": "ACAね",
+      "sortKey": "あかね",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0130",
+      "name": "DJ松永",
+      "sortKey": "でぃーじぇーまつなが",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0131",
+      "name": "meg rock",
+      "sortKey": "めぐろっく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0132",
+      "name": "miwa",
+      "sortKey": "みわ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0133",
+      "name": "OSTER project",
+      "sortKey": "おすたーぷろじぇくと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0134",
+      "name": "Shin Sakiura",
+      "sortKey": "しんさきうら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0135",
+      "name": "TAKESHI ASAKAWA",
+      "sortKey": "たけしあさかわ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0136",
+      "name": "TAKU INOUE",
+      "sortKey": "たくいのうえ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0137",
+      "name": "ZAQ",
+      "sortKey": "ざっく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0138",
+      "name": "アイナ・ジ・エンド",
+      "sortKey": "あいなじえんど",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0139",
+      "name": "うらん",
+      "sortKey": "うらん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0140",
+      "name": "こだまさおり",
+      "sortKey": "こだまさおり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0141",
+      "name": "こっちのけんと",
+      "sortKey": "こっちのけんと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0142",
+      "name": "コレサワ",
+      "sortKey": "これさわ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0143",
+      "name": "シノダ",
+      "sortKey": "しのだ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0144",
+      "name": "じん",
+      "sortKey": "じん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0145",
+      "name": "ツミキ",
+      "sortKey": "つみき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0146",
+      "name": "つんく",
+      "sortKey": "つんく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0147",
+      "name": "なとり",
+      "sortKey": "なとり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0148",
+      "name": "ナナホシ管弦楽団",
+      "sortKey": "ななほしかんげんがくだん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0149",
+      "name": "ナノ",
+      "sortKey": "なの",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0150",
+      "name": "バルーン",
+      "sortKey": "ばるーん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0151",
+      "name": "ヒゲドライバー",
+      "sortKey": "ひげどらいばー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0152",
+      "name": "メガテラ・ゼロ",
+      "sortKey": "めがてらぜろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0153",
+      "name": "井上秋緒",
+      "sortKey": "いのうえあきお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0154",
+      "name": "加藤祐介",
+      "sortKey": "かとうゆうすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0155",
+      "name": "古屋真",
+      "sortKey": "ふるやしん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0156",
+      "name": "山口一郎",
+      "sortKey": "やまぐちいちろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0157",
+      "name": "森月キャス",
+      "sortKey": "もりずききゃす",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0158",
+      "name": "星街すいせい",
+      "sortKey": "ほしまちすいせい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0159",
+      "name": "千綿偉功",
+      "sortKey": "ちわたひでのり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0160",
+      "name": "太田雅友",
+      "sortKey": "おおたまさとも",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0161",
+      "name": "大久保薫",
+      "sortKey": "おおくぼかおる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0162",
+      "name": "谷口鮪",
+      "sortKey": "たにぐちまぐろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0163",
+      "name": "田邊駿一",
+      "sortKey": "たなべしゅんいち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0164",
+      "name": "渡辺徹",
+      "sortKey": "わたなべとおる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0165",
+      "name": "藤林聖子",
+      "sortKey": "ふじばやししょうこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0166",
+      "name": "GRP",
+      "sortKey": "じーあーるぴー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0167",
+      "name": "Reol",
+      "sortKey": "れをる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0168",
+      "name": "Revo",
+      "sortKey": "れう゛ぉ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0169",
+      "name": "ZENTA",
+      "sortKey": "ぜんた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0170",
+      "name": "164",
+      "sortKey": "いちろくよん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0171",
+      "name": "96",
+      "sortKey": "くろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0172",
+      "name": "AI YAZAWA",
+      "sortKey": "あいやざわ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0173",
+      "name": "aimerrhythm",
+      "sortKey": "えめりずむ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0174",
+      "name": "AIMI",
+      "sortKey": "あいみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0175",
+      "name": "AKASAKI",
+      "sortKey": "あかさき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0176",
+      "name": "Aqua Timez",
+      "sortKey": "あくあたいむず",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0177",
+      "name": "Benjamin Franklin",
+      "sortKey": "べんじゃみんふらんくりん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0178",
+      "name": "BETTI",
+      "sortKey": "べっち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0179",
+      "name": "Chinozo",
+      "sortKey": "ちのぞー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0180",
+      "name": "cinema staff",
+      "sortKey": "しねますたっふ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0181",
+      "name": "DAIGO",
+      "sortKey": "だいご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0182",
+      "name": "doriko",
+      "sortKey": "どりこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0183",
+      "name": "emon(Tes.)",
+      "sortKey": "えもんてす",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0184",
+      "name": "EREN",
+      "sortKey": "えれん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0185",
+      "name": "fripSide",
+      "sortKey": "ふりっぷさいど",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0186",
+      "name": "Funta",
+      "sortKey": "ふぁんた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0187",
+      "name": "Goose house",
+      "sortKey": "ぐーすはうす",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0188",
+      "name": "GRe4N BOYS",
+      "sortKey": "ぐりーんぼーいず",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0189",
+      "name": "Haruka",
+      "sortKey": "はるか",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0190",
+      "name": "Heart’s Cry",
+      "sortKey": "はーつくらい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0191",
+      "name": "Hibiki",
+      "sortKey": "ひびき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0192",
+      "name": "hotaru",
+      "sortKey": "ほたる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0193",
+      "name": "H ZETT M",
+      "sortKey": "えいちぜっとえむ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0194",
+      "name": "ika_mo",
+      "sortKey": "いかも",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0195",
+      "name": "Junky",
+      "sortKey": "じゃんきー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0196",
+      "name": "KEIGO",
+      "sortKey": "けいご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0197",
+      "name": "KOCHO",
+      "sortKey": "こちょう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0198",
+      "name": "Koji Mihara",
+      "sortKey": "こうじみはら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0199",
+      "name": "Last Note.",
+      "sortKey": "らすとのーと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0200",
+      "name": "leonn",
+      "sortKey": "れおん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0201",
+      "name": "MEGUMI",
+      "sortKey": "めぐみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0202",
+      "name": "meiyo",
+      "sortKey": "めいよー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0203",
+      "name": "MELL",
+      "sortKey": "める",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0204",
+      "name": "minatoku",
+      "sortKey": "みなとく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0205",
+      "name": "Mitchie M",
+      "sortKey": "みっちーえむ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0206",
+      "name": "MIZUE",
+      "sortKey": "みずえ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0207",
+      "name": "Mr.FanTastiC",
+      "sortKey": "みすたーふぁんたすてぃっく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0208",
+      "name": "MY FIRST STORY",
+      "sortKey": "まいふぁーすとすとーりー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0209",
+      "name": "Nakajin",
+      "sortKey": "なかじん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0210",
+      "name": "Neko Hacker",
+      "sortKey": "ねこはっかー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0211",
+      "name": "Numa",
+      "sortKey": "ぬま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0212",
+      "name": "SCANDAL",
+      "sortKey": "すきゃんだる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0213",
+      "name": "小林夏海",
+      "sortKey": "こばやしなつみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0214",
+      "name": "SIAM SHADE",
+      "sortKey": "しゃむしぇいど",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0215",
+      "name": "TAKUMA",
+      "sortKey": "たくま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0216",
+      "name": "tetsuya",
+      "sortKey": "てつや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0217",
+      "name": "TKT",
+      "sortKey": "たかと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0218",
+      "name": "TOPHAMHAT-KYO",
+      "sortKey": "とっぷはむはっときょう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0219",
+      "name": "WEST GROUND",
+      "sortKey": "うえすとぐらうんど",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0220",
+      "name": "y0c1e",
+      "sortKey": "よしえ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0221",
+      "name": "yonkey",
+      "sortKey": "よんきー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0222",
+      "name": "YUKI",
+      "sortKey": "ゆき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0223",
+      "name": "あさき",
+      "sortKey": "あさき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0224",
+      "name": "イイジマケン",
+      "sortKey": "いいじまけん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0225",
+      "name": "いよわ",
+      "sortKey": "いよわ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0226",
+      "name": "かめりあ",
+      "sortKey": "かめりあ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0227",
+      "name": "カヨコ",
+      "sortKey": "かよこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0228",
+      "name": "くじら",
+      "sortKey": "くじら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0229",
+      "name": "クボナオキ",
+      "sortKey": "くぼなおき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0230",
+      "name": "ケリー",
+      "sortKey": "けりー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0231",
+      "name": "シュンタロウ",
+      "sortKey": "しゅんたろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0232",
+      "name": "すぅ",
+      "sortKey": "すぅ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0233",
+      "name": "たかはしごう",
+      "sortKey": "たかはしごう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0234",
+      "name": "たくや",
+      "sortKey": "たくや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0235",
+      "name": "てにをは",
+      "sortKey": "てにをは",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0236",
+      "name": "のぼる↑",
+      "sortKey": "のぼる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0237",
+      "name": "のりぴー",
+      "sortKey": "のりぴー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0238",
+      "name": "ヒグチアイ",
+      "sortKey": "ひぐちあい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0239",
+      "name": "ヒトリエ",
+      "sortKey": "ひとりえ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0240",
+      "name": "ぼっちぼろまる",
+      "sortKey": "ぼっちぼろまる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0241",
+      "name": "マオ",
+      "sortKey": "まお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0242",
+      "name": "ますかっと",
+      "sortKey": "ますかっと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0243",
+      "name": "まろん",
+      "sortKey": "まろん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0244",
+      "name": "ミズノゲンキ",
+      "sortKey": "みずのげんき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0245",
+      "name": "もりちよこ",
+      "sortKey": "もりちよこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0246",
+      "name": "やぎぬまかな",
+      "sortKey": "やぎぬまかな",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0247",
+      "name": "やしきん",
+      "sortKey": "やしきん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0248",
+      "name": "やなぎなぎ",
+      "sortKey": "やなぎなぎ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0249",
+      "name": "ゆーまお",
+      "sortKey": "ゆーまお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0250",
+      "name": "ゆうゆ",
+      "sortKey": "ゆうゆ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0251",
+      "name": "ゆこぴ",
+      "sortKey": "ゆこぴ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0252",
+      "name": "リーシャウロン",
+      "sortKey": "りーしゃうろん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0253",
+      "name": "れるりり",
+      "sortKey": "れるりり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0254",
+      "name": "伊藤アキラ",
+      "sortKey": "いとうあきら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0255",
+      "name": "伊藤直樹",
+      "sortKey": "いとうなおき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0256",
+      "name": "一二三",
+      "sortKey": "ひふみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0257",
+      "name": "永塚健登",
+      "sortKey": "ながつかけんと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0258",
+      "name": "園田健太郎",
+      "sortKey": "そのだけんたろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0259",
+      "name": "園田凌士",
+      "sortKey": "そのだりょうじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0260",
+      "name": "奥井雅美",
+      "sortKey": "おくいまさみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0261",
+      "name": "奥井康介",
+      "sortKey": "おくいこうすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0262",
+      "name": "岡村大輔",
+      "sortKey": "おかむらだいすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0263",
+      "name": "岡野裕次郎",
+      "sortKey": "おかのゆうじろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0264",
+      "name": "恩田快人",
+      "sortKey": "おんだよしひと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0265",
+      "name": "音羽-otoha-",
+      "sortKey": "おとは",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0266",
+      "name": "河合英嗣",
+      "sortKey": "かわいえいじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0267",
+      "name": "河邊徹",
+      "sortKey": "かわべとおる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0268",
+      "name": "岩里祐穂",
+      "sortKey": "いわさとゆうほ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0269",
+      "name": "幾田りら",
+      "sortKey": "いくたりら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0270",
+      "name": "吉峯暁子",
+      "sortKey": "よしみねきょうこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0271",
+      "name": "宮崎誠",
+      "sortKey": "みやざきまこと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0272",
+      "name": "宮川彬良",
+      "sortKey": "みやがわあきら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0273",
+      "name": "泣き虫",
+      "sortKey": "なきむし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0274",
+      "name": "吟(BUSTED ROSE)",
+      "sortKey": "ぎん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0275",
+      "name": "原口沙輔",
+      "sortKey": "はらぐちさすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0276",
+      "name": "吾龍",
+      "sortKey": "ごりゅう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0277",
+      "name": "後藤正文",
+      "sortKey": "ごとうまさふみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0278",
+      "name": "AKi",
+      "sortKey": "あき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0279",
+      "name": "広井王子",
+      "sortKey": "ひろいおうじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0280",
+      "name": "高瀬一矢",
+      "sortKey": "たかせかずや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0281",
+      "name": "黒うさP",
+      "sortKey": "くろうさぴー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0282",
+      "name": "佐々木想",
+      "sortKey": "ささきそう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0283",
+      "name": "阪井一生",
+      "sortKey": "さかいかずき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0284",
+      "name": "桜アス恵",
+      "sortKey": "さくらあすえ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0285",
+      "name": "三島想平",
+      "sortKey": "みしまそうへい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0286",
+      "name": "みや",
+      "sortKey": "みや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0287",
+      "name": "山口朗彦",
+      "sortKey": "やまぐちあきひこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0288",
+      "name": "山崎寛子",
+      "sortKey": "やまさきひろこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0289",
+      "name": "山村隆太",
+      "sortKey": "やまむらりゅうた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0290",
+      "name": "山中拓也",
+      "sortKey": "やまなかたくや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0291",
+      "name": "山田高弘",
+      "sortKey": "やまだたかひろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0292",
+      "name": "氏原ワタル",
+      "sortKey": "うじはらわたる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0293",
+      "name": "寺中友将",
+      "sortKey": "てらなかともまさ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0294",
+      "name": "寺島拓篤",
+      "sortKey": "てらしまたくま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0295",
+      "name": "若林充",
+      "sortKey": "わかばやしみつる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0296",
+      "name": "秋山澪",
+      "sortKey": "あきやまみお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0297",
+      "name": "俊龍",
+      "sortKey": "しゅんりゅう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0298",
+      "name": "瞬火",
+      "sortKey": "またたび",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0299",
+      "name": "小室みつ子",
+      "sortKey": "こむろみつこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0300",
+      "name": "小諸鉄矢",
+      "sortKey": "こもろてつや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0301",
+      "name": "小森成雄",
+      "sortKey": "こもりしげお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0302",
+      "name": "小杉保夫",
+      "sortKey": "こすぎやすお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0303",
+      "name": "小田佳奈子",
+      "sortKey": "おだかなこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0304",
+      "name": "小幡庸裕",
+      "sortKey": "おばたやすひろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0305",
+      "name": "小林泉美",
+      "sortKey": "こばやしいずみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0306",
+      "name": "新しい学校のリーダーズ",
+      "sortKey": "あたらしいがっこうのりーだーず",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0307",
+      "name": "新田目翔",
+      "sortKey": "あらためしょう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0308",
+      "name": "森本錬",
+      "sortKey": "もりもとれん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0309",
+      "name": "森由里子",
+      "sortKey": "もりゆりこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0310",
+      "name": "森林檎",
+      "sortKey": "もりりんご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0311",
+      "name": "深青結希",
+      "sortKey": "みさおゆうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0312",
+      "name": "秦基博",
+      "sortKey": "はたもとひろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0313",
+      "name": "水野悠良",
+      "sortKey": "みずのゆら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0314",
+      "name": "菅野よう子",
+      "sortKey": "かんのようこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0315",
+      "name": "折戸伸治",
+      "sortKey": "おりとしんじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0316",
+      "name": "川上洋平",
+      "sortKey": "かわかみようへい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0317",
+      "name": "川田まみ",
+      "sortKey": "かわだまみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0318",
+      "name": "草野正宗",
+      "sortKey": "くさのまさむね",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0319",
+      "name": "太志",
+      "sortKey": "ふとし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0320",
+      "name": "太田雄大",
+      "sortKey": "おおたゆうだい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0321",
+      "name": "大介",
+      "sortKey": "だいすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0322",
+      "name": "大隅知宇",
+      "sortKey": "おおすみともたか",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0323",
+      "name": "大森俊之",
+      "sortKey": "おおもりとしゆき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0324",
+      "name": "大川茂伸",
+      "sortKey": "おおもりしげのぶ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0325",
+      "name": "大濱健悟",
+      "sortKey": "おおはまけんご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0326",
+      "name": "宅見将典",
+      "sortKey": "たくみまさのり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0327",
+      "name": "池毅",
+      "sortKey": "いけたかし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0328",
+      "name": "中沢伴行",
+      "sortKey": "なかざわともゆき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0329",
+      "name": "中田ヤスタカ",
+      "sortKey": "なかたやすたか",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0330",
+      "name": "町田紀彦",
+      "sortKey": "まちだのりひこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0331",
+      "name": "椎名林檎",
+      "sortKey": "しいなりんご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0332",
+      "name": "田鹿祐一",
+      "sortKey": "たじかゆういち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0333",
+      "name": "渡辺和紀",
+      "sortKey": "わたなべかずのり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0334",
+      "name": "渡邊亜希子",
+      "sortKey": "わたなべあきこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0335",
+      "name": "祝千寿",
+      "sortKey": "いわいせんじゅ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0336",
+      "name": "東野へいと",
+      "sortKey": "ひがしのへいと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0337",
+      "name": "藤井怜央",
+      "sortKey": "ふじいれお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0338",
+      "name": "藤巻亮太",
+      "sortKey": "ふじまきりょうた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0339",
+      "name": "藤原燈太",
+      "sortKey": "ふじわらとうた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0340",
+      "name": "鴇沢直",
+      "sortKey": "ときさわなお",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0341",
+      "name": "日比野裕史",
+      "sortKey": "ひびのひろふみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0342",
+      "name": "破矢ジンタ",
+      "sortKey": "はしじんた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0343",
+      "name": "馬渡松子",
+      "sortKey": "まわたりまつこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0344",
+      "name": "馬渕直純",
+      "sortKey": "まぶちなおずみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0345",
+      "name": "白戸佑輔",
+      "sortKey": "しらとゆうすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0346",
+      "name": "yuki-ka",
+      "sortKey": "ゆきか",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0347",
+      "name": "飛内将大",
+      "sortKey": "とびないまさひろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0348",
+      "name": "尾崎雄貴",
+      "sortKey": "おざきゆうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0349",
+      "name": "柊キライ",
+      "sortKey": "ひいらぎきらい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0350",
+      "name": "福島智朗",
+      "sortKey": "ふくしまともあき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0351",
+      "name": "分島花音",
+      "sortKey": "わけしまかのん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0352",
+      "name": "片岡健太",
+      "sortKey": "かたおかけんた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0353",
+      "name": "北川賢一",
+      "sortKey": "きたがわけんいち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0354",
+      "name": "本多友紀",
+      "sortKey": "ほんだゆうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0355",
+      "name": "野村陽一郎",
+      "sortKey": "のむらよういちろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0356",
+      "name": "矢吹俊郎",
+      "sortKey": "やぶきとしろう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0357",
+      "name": "柳沢亮太",
+      "sortKey": "やなぎさわりょうた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0358",
+      "name": "有澤孝紀",
+      "sortKey": "ありさわたかのり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0359",
+      "name": "和賀祐希",
+      "sortKey": "わがゆうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0360",
+      "name": "廣澤優也",
+      "sortKey": "ひろさわゆうや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0361",
+      "name": "斎藤真也",
+      "sortKey": "さいとうしんや",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0362",
+      "name": "斎藤信治",
+      "sortKey": "さいとうしんじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0363",
+      "name": "KOHSHI",
+      "sortKey": "こうし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0364",
+      "name": "ひとみ",
+      "sortKey": "ひとみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0365",
+      "name": "重永亮介",
+      "sortKey": "しげながりょうすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0366",
+      "name": "杉本雄治",
+      "sortKey": "すぎもとゆうじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0367",
+      "name": "中村彼方",
+      "sortKey": "なかむらかなた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0368",
+      "name": "津波幸平",
+      "sortKey": "つなみこうへい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0369",
+      "name": "田代智一",
+      "sortKey": "たしろともかず",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0370",
+      "name": "日向電工",
+      "sortKey": "ひなたでんこう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0371",
+      "name": "北川勝利",
+      "sortKey": "きたがわかつとし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0372",
+      "name": "宝野アリカ",
+      "sortKey": "たからのありか",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0373",
+      "name": "UYKADO",
+      "sortKey": "ゆいかどう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0374",
+      "name": "加藤貴之",
+      "sortKey": "かとうたかゆき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0375",
+      "name": "牧野太洋",
+      "sortKey": "まきのたいよう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0376",
+      "name": "DjeDje",
+      "sortKey": "じぇじぇ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0377",
+      "name": "Nor",
+      "sortKey": "のる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0378",
+      "name": "R-指定",
+      "sortKey": "あーるしてい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0379",
+      "name": "ぬゆり",
+      "sortKey": "ぬゆり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0380",
+      "name": "横地健太",
+      "sortKey": "よこちけんた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0381",
+      "name": "三村一輝",
+      "sortKey": "みむらかずき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0382",
+      "name": "千石ユノ",
+      "sortKey": "せんごくゆの",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0383",
+      "name": "唐沢美帆",
+      "sortKey": "からさわみほ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0384",
+      "name": "尾崎豪",
+      "sortKey": "おざきごう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0385",
+      "name": "Carlos K.",
+      "sortKey": "かるろすけー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0386",
+      "name": "eba",
+      "sortKey": "えば",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0387",
+      "name": "FUNKY MONKEY BΛBY’S",
+      "sortKey": "ふぁんきーもんきーべいびーず",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0388",
+      "name": "Gohgo",
+      "sortKey": "ごご",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0389",
+      "name": "JACK",
+      "sortKey": "じゃっく",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0390",
+      "name": "岡嶋かな多",
+      "sortKey": "おかじまかなた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0391",
+      "name": "kz",
+      "sortKey": "けーぜっと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0392",
+      "name": "Lotus Juice",
+      "sortKey": "ろーたすじゅーす",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0393",
+      "name": "Louis",
+      "sortKey": "るい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0394",
+      "name": "MAQUMA",
+      "sortKey": "まくま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0395",
+      "name": "Marcus Van Wattum",
+      "sortKey": "まーかすふぁんわったむ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0396",
+      "name": "Masayoshi Minoshima",
+      "sortKey": "まさよしみのしま",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0397",
+      "name": "MEG.ME",
+      "sortKey": "めぐみー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0398",
+      "name": "n-buna",
+      "sortKey": "なぶな",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0399",
+      "name": "Naoki-T",
+      "sortKey": "なおきてぃー",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0400",
+      "name": "Nicky Romero",
+      "sortKey": "にっきーろめろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0401",
+      "name": "NORiMETAL",
+      "sortKey": "のりめたる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0402",
+      "name": "SAKURAmoti",
+      "sortKey": "さくらもち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0403",
+      "name": "Sekimen",
+      "sortKey": "せきめん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0404",
+      "name": "SKYTOPIA",
+      "sortKey": "すかいとぴあ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0405",
+      "name": "YOUSAY",
+      "sortKey": "ゆうせい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0406",
+      "name": "ZUN",
+      "sortKey": "ずん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0407",
+      "name": "アザミ",
+      "sortKey": "あざみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0408",
+      "name": "きただにひろし",
+      "sortKey": "きただにひろし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0409",
+      "name": "ケンモチヒデフミ",
+      "sortKey": "けんもちひでふみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0410",
+      "name": "つむぎしゃち",
+      "sortKey": "つむぎしゃち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0411",
+      "name": "ナナヲアカリ",
+      "sortKey": "ななをあかり",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0412",
+      "name": "ふるっぺ",
+      "sortKey": "ふるっぺ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0413",
+      "name": "森さん",
+      "sortKey": "もりさん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0414",
+      "name": "Litz",
+      "sortKey": "りつ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0415",
+      "name": "ユリイ・カノン",
+      "sortKey": "ゆりいかのん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0416",
+      "name": "安部大希",
+      "sortKey": "あべだいき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0417",
+      "name": "影山ヒロノブ",
+      "sortKey": "かげやまひろのぶ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0418",
+      "name": "遠藤ナオキ",
+      "sortKey": "えんどうなおき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0419",
+      "name": "岡崎英美",
+      "sortKey": "おかざきえみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0420",
+      "name": "岡野昭仁",
+      "sortKey": "おかのあきひと",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0421",
+      "name": "加賀爪タッド",
+      "sortKey": "かがつめたっど",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0422",
+      "name": "花村想太",
+      "sortKey": "はなむらそうた",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0423",
+      "name": "角本麻衣",
+      "sortKey": "かくもとまい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0424",
+      "name": "岩寺基晴",
+      "sortKey": "いわでらもとはる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0425",
+      "name": "橘亮祐",
+      "sortKey": "たちばなりょうすけ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0426",
+      "name": "久下真音",
+      "sortKey": "くしたまいん",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0427",
+      "name": "宮崎諒",
+      "sortKey": "みやざきりょう",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0428",
+      "name": "工藤大輝",
+      "sortKey": "くどうたいき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0429",
+      "name": "江島啓一",
+      "sortKey": "えじまけいいち",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0430",
+      "name": "山崎あおい",
+      "sortKey": "やまざきあおい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0431",
+      "name": "秋元康",
+      "sortKey": "あきもとやすし",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0432",
+      "name": "小林鉄兵",
+      "sortKey": "こばやしてっぺい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0433",
+      "name": "彰",
+      "sortKey": "あきら",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0434",
+      "name": "松任谷由実",
+      "sortKey": "まつとうやゆみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0435",
+      "name": "草刈愛美",
+      "sortKey": "くさかりあみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0436",
+      "name": "田中怜子",
+      "sortKey": "たなかれいこ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0437",
+      "name": "馬場龍樹",
+      "sortKey": "ばばりゅうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0438",
+      "name": "美波",
+      "sortKey": "みなみ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0439",
+      "name": "涼木シンジ",
+      "sortKey": "すずきしんじ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0440",
+      "name": "哥丸雄貴",
+      "sortKey": "うたまるゆうき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0441",
+      "name": "櫻澤ヒカル",
+      "sortKey": "さくらざわひかる",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0442",
+      "name": "KENSEI",
+      "sortKey": "けんせい",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0443",
+      "name": "渡辺未来",
+      "sortKey": "わたなべみき",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0444",
+      "name": "石倉まろ",
+      "sortKey": "いしくらまろ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0445",
+      "name": "米米CLUB",
+      "sortKey": "こめこめくらぶ",
+      "status": "existing-kana"
+    },
+    {
+      "id": "cr-0446",
+      "name": "多田慎也",
+      "sortKey": "ただしんや",
+      "status": "existing-kana"
+    }
+  ]
+}

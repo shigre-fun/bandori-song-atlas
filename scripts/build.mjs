@@ -227,14 +227,23 @@ async function page({
   const body =
     breadcrumbMarkup(breadcrumbs, settings) +
     `<div id="app-content">${content}</div>`;
-  const searchForm = headerSearch
-    ? `<form action="${escapeHTML(local(pagePath === "search/" ? "search/" : songListPath(searchGame)))}" role="search">
+  const creatorSearch = pagePath.startsWith("creators/");
+  const searchForm = creatorSearch
+    ? `<form id="creator-search-form" action="${escapeHTML(local("creators/"))}" role="search" method="get">
+        <label class="sr-only" for="creator-search">クリエイターの名前・読み・別名で検索</label>
+        <span aria-hidden="true">⌕</span>
+        <input id="creator-search" name="q" type="search" placeholder="名前・読み・別名で検索" autocomplete="off" />
+        <input id="creator-search-sort" type="hidden" name="sort" value="name" />
+        <button type="submit">検索</button>
+      </form>`
+    : headerSearch
+      ? `<form action="${escapeHTML(local(pagePath === "search/" ? "search/" : songListPath(searchGame)))}" role="search">
         <label class="sr-only" for="search">${pagePath === "search/" ? "全ゲームの楽曲名・原曲の作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・原曲の作品名で検索`}</label>
         <span aria-hidden="true">⌕</span>
         <input id="search" name="q" type="search" placeholder="${pagePath === "search/" ? "全ゲームの楽曲名・作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・作品名で検索`}" autocomplete="off" />
         <button>検索</button>
       </form>`
-    : "";
+      : "";
   const replacements = {
     "<!--HEAD-->": head,
     "<!--CONTENT-->": body,
@@ -270,6 +279,7 @@ const copiedAssets = [
       "app.js",
       "cross-search.js",
       "domain.js",
+      "search-text.js",
       "credits.js",
       "creators-data.js",
       "credit-display.js",

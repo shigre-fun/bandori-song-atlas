@@ -1,6 +1,7 @@
 import { GAMES } from "./site-config.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import { matchesCredit } from "./credits.js";
+import { normalizeSearch, matchesMixedReading } from "./search-text.js";
 export const difficulties = ["EASY", "NORMAL", "HARD", "EXPERT", "SPECIAL"];
 export const typeNames = {
   normal: "オリジナル",
@@ -52,13 +53,7 @@ export function bandOrder(s, game = GAMES.garupa) {
   return i < 0 ? names.length : i;
 }
 export function normalize(s) {
-  return (s || "")
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .replace(/[\s\p{P}\p{S}]/gu, "");
+  return normalizeSearch(s);
 }
 const collator = new Intl.Collator("ja");
 export const sortLabels = {
@@ -164,7 +159,8 @@ export function matches(s, q) {
     !terms ||
     [s.title, s.reading, s.artist, s.work, ...(s.aliases || [])].some((v) =>
       normalize(v).includes(terms),
-    )
+    ) ||
+    matchesMixedReading(s.title, s.reading, terms)
   );
 }
 

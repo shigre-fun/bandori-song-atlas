@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "node": "v22.23.4",
+  "stages": [
+    {
+      "name": "root-final-build",
+      "code": 0
+    },
+    {
+      "name": "root-final-seo",
+      "code": 0
+    },
+    {
+      "name": "final-target-tests",
+      "code": 0
+    },
+    {
+      "name": "subpath-final-build",
+      "code": 0
+    },
+    {
+      "name": "subpath-final-seo",
+      "code": 0
+    }
+  ],
+  "sourceHashes": {
+    "scripts/build.mjs": "243d6685b795737882852efec57854d47a970ec644e8bd506827e4cade8fa50d",
+    "src/styles/style.css": "c417508f9d196bf03f56791c99d8e256e260f9e4490860fc1e9aacb6d75b2616",
+    "src/js/search-text.js": "807addc9d2358ce474a83d2a648c487a302daedc37d5d3b9193dfb6137980727",
+    "src/js/domain.js": "12d1e607a37342ad626e672bc7ea5e5a0b039af8f1f3bf1aa38d739688c90a18",
+    "src/js/creators-data.js": "668ad66afed384d3400b6db6f247c3d71604e80590f449813ee921850adb3c7e",
+    "src/js/creator-views.js": "f1dbdcd7b7adda8fa07c56fa76e2572c695c3fbfcf022faa4b48b50f05e15d84",
+    "src/js/creators.js": "e4034d49a02ba1c4717055141ca5f00007eb347b3dd4d2cbbb60ea4a34383f86",
+    "data/creators.json": "0105fdbdc8d6aa1be2b37ba47c3294ab775b29786c847a58916caea0fc7fc512"
+  },
+  "standardTests": 297,
+  "creatorHeadersPerBase": 447,
+  "preservation": "PASS"
+}

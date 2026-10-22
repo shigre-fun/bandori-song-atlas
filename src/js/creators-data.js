@@ -6,6 +6,7 @@ import {
 } from "./credit-display.js";
 import { validateCreditStructure } from "./credit-structure.js";
 import { roleCoverage } from "./credit-coverage.js";
+import { normalizeSearch, matchesMixedReading } from "./search-text.js";
 export {
   CREDIT_ROLES,
   ROLE_LABELS,
@@ -209,11 +210,12 @@ export function validateCreatorDatabase(creatorData, workData, songs) {
   return { warnings, members };
 }
 export function searchCreators(creators, query = "") {
-  const key = query.normalize("NFKC").toLocaleLowerCase("ja").trim();
-  return creators.filter((c) =>
-    [c.name, c.sortKey, c.slug, ...(c.aliases ?? [])].some((v) =>
-      v.normalize("NFKC").toLocaleLowerCase("ja").includes(key),
-    ),
+  const key = normalizeSearch(query, false);
+  return creators.filter(
+    (c) =>
+      [c.name, c.sortKey, c.slug, ...(c.aliases ?? [])].some((v) =>
+        normalizeSearch(v, false).includes(key),
+      ) || matchesMixedReading(c.name, c.sortKey, key, false),
   );
 }
 export function creatorParticipation(creatorId, songs) {

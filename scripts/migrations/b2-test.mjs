@@ -6,7 +6,12 @@ await import("./creator-release-regression.mjs");
 const code = await new Promise((resolve, reject) => {
   const child = spawn(
     process.execPath,
-    ["--test", "tests/home.test.mjs", "tests/live-database.test.mjs"],
+    [
+      "--test",
+      "tests/home.test.mjs",
+      "tests/live-database.test.mjs",
+      "tests/search-readings.test.mjs",
+    ],
     { stdio: "inherit" },
   );
   child.on("error", reject);

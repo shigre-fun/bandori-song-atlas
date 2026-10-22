@@ -240,7 +240,8 @@ test("static creator pages include facts, game links, controls, aliases, and ID 
     const list = renderCreators(master.creators, songs, base),
       detail = renderCreatorDetail(cr, songs, workMaster.works, base);
     assert.match(list, /名前順/);
-    assert.match(list, /creator-search/);
+    assert.match(list, /type="hidden" name="q"/);
+    assert.doesNotMatch(list, /type="search"/); // Search now lives in the shared header.
     assert.ok(list.includes(`${base}creators/${cr.slug}/`));
     assert.match(detail, /参加楽曲数/);
     assert.match(detail, /収録件数：66件/);

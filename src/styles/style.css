@@ -216,6 +216,9 @@ header form {
   gap: 10px;
   align-items: center;
   width: min(530px, 100%);
+  flex: 1 1 180px;
+  min-width: 0;
+  max-width: 530px;
   background: #f4f6fa;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -1175,6 +1178,8 @@ footer {
   }
   header form {
     width: 100%;
+    flex: none;
+    max-width: none;
   }
   main {
     padding: 25px 16px 45px;

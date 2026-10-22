@@ -83,6 +83,7 @@ const testFiles = fs
       n.endsWith(".test.mjs") &&
       n !== "credits-phase-b2.test.mjs" &&
       n !== "creator-credits-release.test.mjs" &&
+      n !== "search-readings.test.mjs" &&
       n !== "live-database.test.mjs",
   )
   .map((n) => "tests/" + n);

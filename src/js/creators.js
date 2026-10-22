@@ -2,6 +2,8 @@ import { searchCreators, CREDIT_ROLES } from "./creators-data.js";
 import { creatorSortLabels, creatorPagination } from "./creator-views.js";
 import { roleCoverage, availableCreditRoles } from "./credit-coverage.js";
 const form = document.querySelector("#creator-controls");
+const searchForm = document.querySelector("#creator-search-form");
+const searchInput = document.querySelector("#creator-search");
 const data = JSON.parse(
   document.querySelector("#creator-page-data").textContent,
 );
@@ -18,6 +20,8 @@ function apply() {
           ? params.get("sort")
           : "name";
     form.elements.q.value = query;
+    if (searchInput) searchInput.value = query;
+    if (searchForm) searchForm.elements.sort.value = sort;
     form.elements.sort.value = sort;
     const matching = new Set(
       searchCreators(data.creators, query).map((c) => c.id),
@@ -92,9 +96,23 @@ form.addEventListener("submit", (event) => {
   );
   apply();
 });
-form.addEventListener("change", () => form.requestSubmit());
+form.addEventListener("change", (event) => {
+  if (event.target.tagName === "SELECT") form.requestSubmit();
+});
 if (data.creators)
-  form.elements.q.addEventListener("input", () => form.requestSubmit());
+  searchForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const params = new URLSearchParams();
+    if (searchInput.value) params.set("q", searchInput.value);
+    if (form.elements.sort.value !== "name")
+      params.set("sort", form.elements.sort.value);
+    history.pushState(
+      null,
+      "",
+      location.pathname + (params.size ? `?${params}` : ""),
+    );
+    apply();
+  });
 addEventListener("popstate", apply);
 document
   .querySelector("#creator-pagination")

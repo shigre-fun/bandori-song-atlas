@@ -5,13 +5,18 @@ import { GitHubNewsStore, NEWS_PATH } from "../src/js/github-news-store.js";
 import { prepareNews } from "../src/js/news-data.js";
 import { siteSettings } from "../src/js/site-config.js";
 
-const first = JSON.parse(fs.readFileSync(NEWS_PATH, "utf8"));
+const sourceNews = JSON.parse(fs.readFileSync(NEWS_PATH, "utf8"));
 const entry = (date, title, category = "site") => ({
   date,
   category,
   title,
   description: `${title}の本文`,
 });
+// Exercise preservation of multiple entries independently of live announcements.
+const first = [
+  entry("2026-10-22", "既存のお知らせ"),
+  entry("2026-09-28", "以前のお知らせ"),
+];
 
 function remote({ rejectPatch = false, loseResponse = false } = {}) {
   let head = "1".repeat(40);
@@ -119,14 +124,14 @@ test("news manager connects, lists, adds and edits the existing JSON only", asyn
   const initial = await store.loadNews();
   assert.deepEqual(initial.entries, prepareNews(first));
   const added = await store.saveNews({
-    entry: entry("2026-10-01", "新規", "feature"),
+    entry: entry("2026-10-23", "新規", "feature"),
     expectedSha: initial.sha,
   });
   assert.equal(server.writes, 1);
-  assert.deepEqual(
-    added.entries.map((item) => item.title),
-    ["新規", first[0].title],
-  );
+  assert.deepEqual(added.entries, [
+    entry("2026-10-23", "新規", "feature"),
+    ...prepareNews(first),
+  ]);
   assert.deepEqual(server.news, added.entries);
   assert.deepEqual(
     server.calls
@@ -136,13 +141,13 @@ test("news manager connects, lists, adds and edits the existing JSON only", asyn
   );
   const loaded = await store.loadNews();
   const edited = await store.saveNews({
-    entry: entry("2026-10-02", "修正済み", "data"),
+    entry: entry("2026-10-24", "修正済み", "data"),
     index: 0,
     expectedSha: loaded.sha,
   });
   assert.equal(server.writes, 2);
   assert.equal(edited.entries[0].title, "修正済み");
-  assert.equal(server.news[1].title, first[0].title);
+  assert.deepEqual(server.news.slice(1), prepareNews(first));
   assert.ok(!JSON.stringify(server.news).includes("test-token"));
   assert.ok(!JSON.stringify(server.calls).includes("test-token"));
 });
@@ -229,7 +234,7 @@ test("the separate admin page is private, versioned and leaves song admin intact
   assert.ok(!/localStorage|sessionStorage|document\.cookie/.test(script));
   assert.deepEqual(
     JSON.parse(fs.readFileSync("dist/news.json", "utf8")),
-    prepareNews(first),
+    prepareNews(sourceNews),
   );
   assert.match(admin, /楽曲を追加・修正/);
 });
