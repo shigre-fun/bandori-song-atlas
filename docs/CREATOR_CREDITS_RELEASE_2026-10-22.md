@@ -17,4 +17,13 @@ Node.js 22.23.4で標準289件、人間レビュー82件、問い合わせ・画
 
 ## 公開状況
 
-公開前の全検証が成功。commit・push後に同じcommitのGitHub Actions・Cloudflare Pages・GitHub Pagesと公開内容を確認し、その結果をここへ追記する。
+製品commit `24bfd5e6687cd6140c37253846dc2efba4183e2c` をmainへcommit・pushし、同じSHAの [GitHub Actions 39712793626](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39712793626) のbuild/deploy、Cloudflare Pages、GitHub Pagesがすべて成功した。[本番サイト](https://tanimachi-bdsongs.com/)へ反映済み。
+
+GitHubの実buildログで `.node-version` の22.23.4解決と `node: v22.23.4` を確認した。Cloudflareは同じ `.node-version` 設定で今回のcheck成功を確認したが、今回のCloudflare内部buildログは直接閲覧していない。同日先行したNode更新時の運営者提供ログと、今回の成功checkを区別して記録する。
+
+- 本番・Cloudflare標準ホスト・GitHub Pagesの各36項目、計108 HTTP確認が成功。全カタログ、11モジュール、画像・アイコンが検証済みビルドと一致。
+- 本番とGitHub Pagesの各890曲詳細、各446 Creatorの本文・表示原文・リンクを全件比較し一致。
+- OGP画像3件は1200×630、Twitter画像・canonicalが一致。robots・sitemap全文、検索noindex、404、ナユタン星人を含む旧slugの301転送も成功。
+- 人間ToDoは全0、全11データと14対象ソースの検証時SHA、過去274レビュー資料の元バイト列を再確認。実際の問い合わせ送信は行っていない。
+
+公開後のJSON・原ログは同ディレクトリの `publication/` に保存した。終了記録だけをskip CIの文書commitで同期し、製品の再デプロイは行わない。今回の再検証・公開確認で失敗や自動承認拒否は発生しなかった。過去作業の失敗・回復記録は既存資料に保持している。

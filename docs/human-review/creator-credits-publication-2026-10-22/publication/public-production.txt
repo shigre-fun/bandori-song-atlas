@@ -1,0 +1,1 @@
+{"result":"PASS","origin":"https://tanimachi-bdsongs.com","httpChecks":36,"catalogsEqual":true,"modulesEqual":true,"ogp":true,"realContactSubmissions":0}

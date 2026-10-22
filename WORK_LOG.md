@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-22 Creator/credit公開完了：製品24bfd5e同SHA Actions39712793626 build/deploy・Cloudflare f806b0d6・GHP全success。実GH node22.23.4、3host各36=108HTTP/全catalog/11module、prod/GHP各全890詳細・446Creator本文リンク一致、OGP3/1200x630・icons3・SEO/404/検索noindex/旧slug301も成功、retry0。公開前397test/両build/SEO1345・890/Functions成功、全11data/14source・旧274review再SHA一致、人間ToDo全0。証拠を新publication dirへ保存しverification DEPLOYED_AND_VERIFIED、終了report更新。現在：終了文書のみskip CI commit/push→HEAD-origin/空index・tracked tree/製品以後文書差分だけの最終gate。製品公開の未完了0、PHP調査メモuntracked保持・実メール0・CF今回内部log直接未確認を明記。次：限定文書同期とfinal-gate。今回失敗/承認拒否/重複deploy0。
+
+- 2026-10-22 同SHA24bfd5eのActions39712793626 build119607826265/deploy・Cloudflare check119607824165 f806b0d6・GHP deploymentはすべてsuccess。GitHub実build logのResolved .node-version/node:v22.23.4を直接確認、GHP公開36HTTP/全catalog/11module/OGP成功。現在：同commit本番/default host HTTPと本番/GHP全890詳細・446Creator/301/SEOを公開後監査中。未完了：同監査・証拠集約・終了文書同期。CF今回実logは直接未確認、同日先行22実logと変更なし.node-version指定・今回check successを根拠に区別する。次：public-all同session終端→record-publication→docs-only skip CI同期。
+
+- 2026-10-22 製品24bfd5e6687cd6140c37253846dc2efba4183e2cを110file限定commit/通常push成功、開始HEAD57bc7e9から公開。stage全filtered byte一致/cached check成功、公開時tree/index空（対象外PHP untrackedのみ）。全397test/Node22.23.4/全保全PASSを維持。現在：同SHA Actions・Cloudflare/GHP完了待ち、公開後HTTP108・全890詳細446Creatorを両hostで比較。未完了：これら公開照合と終了文書同期。次：同SHA status→成功後public-all、Node実build log確認。重複deploy/実メール送信0。
+
 - 2026-10-22 公開前再検証完了：Node22.23.4で全397test（標準289+human82+追加26）、root/subpath build801-89・SEO1345/890・全446Creator/全2670原文欄・Functions4.143.0・14source整形すべて成功。preflight PASS、全11data開始SHA一致・過去274review完全保全、人間ToDo全0。旧page監査出力は新公開証拠へ退避し元byte復元を記録。現在：fresh fetch/全差分check・限定stage/hash→commit/push、同SHA CI/公開全件照合。未完了：公開と公開後検証/終了記録。PHP調査メモは対象外、Codex/OS PATH変更0、今回失敗/承認拒否0。次：stage-audit→通常main push。
 
 - 2026-10-22 Creator残375+最終6の公開を開始。最新WORK_LOG/実体/Git通常cached差分/未追跡確認、fresh fetch HEAD/origin57bc7e9一致・先行0。Node対応は既にa203279公開済、専用launcher実22.23.4/pnpm10.34.7を確認、Codex24.19とOS PATHは保持。現在：公開前全data/旧review・未コミット作業backup/保全guard→22.23.4で全human/標準/追加26test・両buildSEO/全頁/Functionsを再検証。未完了：最新検証/限定commit-push・同SHA CI/Cloudflare/GHP・公開全890詳細446Creator/全catalog・終了記録。次：bootstrap→release validation→stage bytes/guard→通常公開。PHP調査メモは対象外として保持、今回明示許可により従前の公開禁止を解除。

@@ -1,0 +1,7 @@
+{
+  status: 'PASS',
+  ogImages: 3,
+  icons: 3,
+  notFound: 404,
+  oldCreatorRedirect: 301
+}

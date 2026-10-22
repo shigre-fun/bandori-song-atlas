@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "commit": "24bfd5e6687cd6140c37253846dc2efba4183e2c",
+  "origin": "https://tanimachi-bdsongs.com",
+  "verifiedAt": "2026-10-22T02:46:16.903Z",
+  "rows": [
+    {
+      "path": "/",
+      "ogImage": "https://tanimachi-bdsongs.com/assets/og/site.png",
+      "status": 200,
+      "width": 1200,
+      "height": 630,
+      "twitterImageMatches": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/garupa/songs/801/",
+      "ogImage": "https://tanimachi-bdsongs.com/assets/og/songs/garupa/801-d673d2f9d370.png",
+      "status": 200,
+      "width": 1200,
+      "height": 630,
+      "twitterImageMatches": true,
+      "canonicalMatches": true
+    },
+    {
+      "path": "/ournotes/songs/89/",
+      "ogImage": "https://tanimachi-bdsongs.com/assets/og/songs/ournotes/89-2dc95d06b97d.png",
+      "status": 200,
+      "width": 1200,
+      "height": 630,
+      "twitterImageMatches": true,
+      "canonicalMatches": true
+    },
+    {
+      "icon": "/favicon.svg",
+      "status": 200
+    },
+    {
+      "icon": "/favicon-32.png",
+      "status": 200
+    },
+    {
+      "icon": "/apple-touch-icon.png",
+      "status": 200
+    },
+    {
+      "notFoundStatus": 404
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "fullContentMatches": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "fullContentMatches": true
+    },
+    {
+      "searchNoindex": true,
+      "xRobotsTag": null
+    },
+    {
+      "oldCreatorURL": "/creators/nayutalien/",
+      "status": 301,
+      "target": "nayutan-seijin"
+    },
+    {
+      "oldCreatorURL": "/creators/creator-0003/",
+      "status": 301,
+      "target": "syuichi-mabe"
+    }
+  ]
+}

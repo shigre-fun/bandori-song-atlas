@@ -1,0 +1,6 @@
+{
+  status: 'PASS',
+  creators: 446,
+  newCreators: 75,
+  origin: 'https://shigre-fun.github.io'
+}
