@@ -333,10 +333,10 @@ ${game.id === "garupa" ? `<dt>演奏バンド・参加アーティスト</dt><dd
 <dd>${s.live3d === true ? '<span class="pill">対応</span>' : s.live3d === false ? "非対応" : "確認中"}</dd>`
         : `<dt>MV</dt><dd>${s.mv === true ? '<span class="pill">あり</span>' : s.mv === false ? "なし" : "確認中"}</dd>`
       : `<dt>原曲アーティスト</dt>
-<dd>${creditLinks(s.artist, "artist")}</dd>
+<dd>${creditLinks(s.artist, "artist")}</dd>`
+  }
 <dt>原曲の使用作品・タイアップ</dt>
-<dd>${e(s.work || "未登録")}</dd>`
-  }</dl>
+<dd>${e(s.work || "未登録")}</dd></dl>
 </section>
 </div>
 ${related.length ? `<section class="panel related-songs"><h2>同じ楽曲の別の譜面・収録先</h2><ul>${related.map((other) => `<li><a href="${e(siteURL(songPath(GAMES[other.gameId], other.stableSongId), base))}">${e(other.title)}</a><span>${e(GAMES[other.gameId].shortName)} · ${e(other.band)}</span></li>`).join("")}</ul></section>` : ""}

@@ -1,0 +1,8017 @@
+{
+  "date": "2026-10-22",
+  "total": 890,
+  "untouchedDigest": "8b9407cca71cba55e2ef3293ebad89671c8a522d8d89bbb50000856f7089ef76",
+  "rows": [
+    {
+      "reference": "garupa:277",
+      "title": "!NVADE SHOW!",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0271",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:703",
+      "title": "'FIGHT' ADDICT",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0687",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:533",
+      "title": "-N-E-M-E-S-I-S-",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0524",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:255",
+      "title": "A DECLARATION OF ×××",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0249",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:528",
+      "title": "BATTLE CRY",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0519",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:717",
+      "title": "BIBIBABI BRAVER",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0701",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:602",
+      "title": "Bad Kids All Bet",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0593",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:276",
+      "title": "Beautiful Birthday",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0270",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:371",
+      "title": "CORUSCATE -DNA-",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0365",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:483",
+      "title": "DANCING DARING",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0474",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:443",
+      "title": "DEAD HEAT BEAT",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0436",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:394",
+      "title": "DRIVE US CRAZY",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0388",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:328",
+      "title": "Domination to world",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0322",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:733",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0717",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:314",
+      "title": "EXIST",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0308",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:261",
+      "title": "EXPOSE ‘Burn out!!!’",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0255",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:359",
+      "title": "Embrace of light",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0353",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:684",
+      "title": "FIVE as ONE",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0670",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:349",
+      "title": "HELL! or HELL?",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0343",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:651",
+      "title": "HOWLING AMBITION",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0640",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:784",
+      "title": "I AM WHO I AM",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0762",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:435",
+      "title": "Invincible Fighter",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0428",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:624",
+      "title": "JUST THE WAY I AM",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0615",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:578",
+      "title": "Life on the Lotus",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0569",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:404",
+      "title": "Light a fire",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0397",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:303",
+      "title": "OUTSIDER RODEO",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0297",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:672",
+      "title": "REIGNING",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0659",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:744",
+      "title": "RUNAWAY STAR",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0725",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:561",
+      "title": "Ray of hope",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0552",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:384",
+      "title": "Repaint",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0378",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:150",
+      "title": "R·I·O·T",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0150",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:414",
+      "title": "SOUL SOLDIER",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0407",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:345",
+      "title": "Sacred world",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0339",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:427",
+      "title": "THE WAY OF LIFE",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0420",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:436",
+      "title": "Takin’ my Heart",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0429",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:185",
+      "title": "UNSTOPPABLE",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0185",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:582",
+      "title": "V.I.P MONSTER",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0573",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:626",
+      "title": "VIVID FIRST TIME",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0617",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:631",
+      "title": "WELCOME TO PANDEMONIUM",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0621",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:774",
+      "title": "WHAT AN EXPLOSION",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0752",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:289",
+      "title": "mind of Prominence",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0283",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:339",
+      "title": "灼熱 Bonfire!",
+      "band": "RAISE A SUILEN",
+      "category": "オリジナル",
+      "workId": "wk-0333",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:468",
+      "title": "＊ ～アスタリスク～",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0459",
+      "originalWork": "アニメ「BLEACH」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:20",
+      "title": "Alchemy",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0020",
+      "originalWork": "アニメ「Angel Beats!」劇中歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:120",
+      "title": "DAYS",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0120",
+      "originalWork": "アニメ「交響詩篇エウレカセブン」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:181",
+      "title": "Daydream café",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0181",
+      "originalWork": "アニメ「ご注文はうさぎですか？ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:101",
+      "title": "GLAMOROUS SKY",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0101",
+      "originalWork": "映画「NANA」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:50",
+      "title": "God knows...",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0050",
+      "originalWork": "アニメ「涼宮ハルヒの憂鬱 第1期」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:502",
+      "title": "HOT LIMIT",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0493",
+      "originalWork": "「三ツ矢サイダー」CMソング、アニメ「ReLIFE」第2話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:123",
+      "title": "Life Will Change",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0123",
+      "originalWork": "ゲーム「ペルソナ5」BGM",
+      "target": false
+    },
+    {
+      "reference": "garupa:40",
+      "title": "Little Busters!",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0040",
+      "originalWork": "ゲーム「リトルバスターズ!」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:751",
+      "title": "MATSURI BAYASHI",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0732",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:711",
+      "title": "POP IN 2",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0695",
+      "originalWork": "アニメ「【推しの子】第2期」第24話挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:584",
+      "title": "SOUVENIR",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0575",
+      "originalWork": "アニメ「SPY×FAMILY 第1期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:743",
+      "title": "START!! True dreams",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0724",
+      "originalWork": "アニメ「ラブライブ！スーパースター!! 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:640",
+      "title": "STEP by STEP UP↑↑↑↑",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0629",
+      "originalWork": "アニメ「NEW GAME! 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:256",
+      "title": "UNION",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0250",
+      "originalWork": "アニメ「SSSS.GRIDMAN」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:155",
+      "title": "Wake up!",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0155",
+      "originalWork": "アニメ「ONE PIECE」第17OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:265",
+      "title": "final phase",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0259",
+      "originalWork": "アニメ「とある科学の超電磁砲 第3期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:60",
+      "title": "only my railgun",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0060",
+      "originalWork": "アニメ「とある科学の超電磁砲 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:603",
+      "title": "ちゅ、多様性。",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0594",
+      "originalWork": "アニメ「チェンソーマン」第7話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:687",
+      "title": "つよがるガール feat. もっさ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0673",
+      "originalWork": "アニメ「負けヒロインが多すぎる！」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:306",
+      "title": "イエスタデイ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0300",
+      "originalWork": "映画「HELLO WORLD」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:165",
+      "title": "オトモダチフィルム",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0165",
+      "originalWork": "アニメ「多田くんは恋をしない」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:493",
+      "title": "オドループ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0484",
+      "originalWork": "アニメ「山田くんと7人の魔女」OAD版ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:447",
+      "title": "スターナイトスノウ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0440",
+      "originalWork": "イベント「SNOW MIKU 2017」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:780",
+      "title": "スターラブレイション",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0758",
+      "originalWork": "ドラマ「ラスト♡シンデレラ」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:281",
+      "title": "セツナトリップ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0275",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:186",
+      "title": "チェリボム",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0186",
+      "originalWork": "「バンタンデザイン研究所 サマーセミナー」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:190",
+      "title": "ディスカバリー！",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0190",
+      "originalWork": "ゲーム「少女☆歌劇 レヴュースタァライト -Re LIVE-」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:517",
+      "title": "トウキョウ・シャンディ・ランデヴ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0508",
+      "originalWork": "アニメ「うる星やつら（2022年版）第1期」第1クールED、バラエティ「有吉ぃぃeeeee!そうだ!今からお前んチでゲームしない?」2023年3月度ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:477",
+      "title": "ヒロイン育成計画",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0468",
+      "originalWork": "アニメ「ヒロインたるもの！～嫌われヒロインと内緒のお仕事～」第12話特殊ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:658",
+      "title": "フィクション",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0646",
+      "originalWork": "アニメ「ヲタクに恋は難しい」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:214",
+      "title": "ブルーバード",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0212",
+      "originalWork": "アニメ「NARUTO -ナルト- 疾風伝」第3OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:199",
+      "title": "ミュージック・アワー",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0199",
+      "originalWork": "「ポカリスエット」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:94",
+      "title": "メランコリック",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0094",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:671",
+      "title": "ロケットサイダー",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0658",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:133",
+      "title": "ロミオとシンデレラ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0133",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:391",
+      "title": "ヴァンパイア",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0385",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:31",
+      "title": "光るなら",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0031",
+      "originalWork": "アニメ「四月は君の嘘」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:77",
+      "title": "千本桜",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0077",
+      "originalWork": "「アクア」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:88",
+      "title": "君じゃなきゃダメみたい",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0088",
+      "originalWork": "アニメ「月刊少女野崎くん」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:142",
+      "title": "君に届け",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0142",
+      "originalWork": "映画「君に届け」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:126",
+      "title": "夏祭り",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0126",
+      "originalWork": "ドラマ「ふしぎな話」主題歌、アニメ「ReLIFE」第12話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:164",
+      "title": "夜行性ハイズ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0164",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:331",
+      "title": "大河よ共に泣いてくれ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0325",
+      "originalWork": "アニメ「ゾンビランドサガ 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:488",
+      "title": "心絵",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0479",
+      "originalWork": "アニメ「メジャー 第1シリーズ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:367",
+      "title": "怪物",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0361",
+      "originalWork": "アニメ「BEASTARS 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:574",
+      "title": "怪獣の花唄",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0565",
+      "originalWork": "「WILDishシリーズ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:727",
+      "title": "恋人がサンタクロース",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0711",
+      "originalWork": "映画「私をスキーに連れてって」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:324",
+      "title": "春〜spring〜",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0318",
+      "originalWork": "バラエティ「目撃!ドキュン」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:791",
+      "title": "盛れ！ミ・アモーレ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0768",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:550",
+      "title": "私は最強",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0541",
+      "originalWork": "映画「ONE PIECE FILM RED」劇中歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:19",
+      "title": "空色デイズ",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0019",
+      "originalWork": "アニメ「天元突破グレンラガン」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:248",
+      "title": "群青日和",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0242",
+      "originalWork": "「au W21SA」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:767",
+      "title": "舞台に立って",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0745",
+      "originalWork": "スポーツ中継「NHKスポーツテーマ2024」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:275",
+      "title": "青と夏",
+      "band": "Poppin'Party",
+      "category": "カバー",
+      "workId": "wk-0269",
+      "originalWork": "映画「青夏 きみに恋した30日」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:71",
+      "title": "－HEROIC ADVENT－",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0071",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:565",
+      "title": "Always recall.",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0556",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:254",
+      "title": "Avant-garde HISTORY",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0248",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:15",
+      "title": "BLACK SHOUT",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0015",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:149",
+      "title": "BRAVE JEWEL",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0149",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:260",
+      "title": "Blessing Chord",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0254",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:238",
+      "title": "Break your desire",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0232",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:482",
+      "title": "Call the shots",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0473",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:675",
+      "title": "Dazzle the Destiny",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0661",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:442",
+      "title": "Dear Gleam",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0435",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:72",
+      "title": "Determination Symphony",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0072",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:179",
+      "title": "FIRE BIRD",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0179",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:616",
+      "title": "FRONTIER FANTASIA",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0607",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:724",
+      "title": "Fear Nothing",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0708",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:585",
+      "title": "Floral Haven",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0576",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:644",
+      "title": "Grateful Melting",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0633",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:300",
+      "title": "Keep Heart",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0294",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:34",
+      "title": "LOUDER",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0034",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:114",
+      "title": "Legendary",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0114",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:113",
+      "title": "Neo-Aspect",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0113",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:91",
+      "title": "ONENESS",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0091",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:92",
+      "title": "Opera of the wasteland",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0092",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:319",
+      "title": "Original Call",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0313",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:366",
+      "title": "Our Carol",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0360",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:144",
+      "title": "PASSIONATE ANTHEM",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0144",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:317",
+      "title": "Proud of oneself",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0311",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:140",
+      "title": "R",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0140",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:411",
+      "title": "ROZEN HORIZON",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0404",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:16",
+      "title": "Re:birth day",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0016",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:685",
+      "title": "Requiem for Fate",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0671",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:788",
+      "title": "Resound the Way",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0765",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:166",
+      "title": "Ringing Bloom",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0166",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:159",
+      "title": "Safe and Sound",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0159",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:593",
+      "title": "Sage der Rosen",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0584",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:130",
+      "title": "Sanctuary",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0130",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:668",
+      "title": "Second to None",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0655",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:333",
+      "title": "Sing Alive",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0327",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:336",
+      "title": "Singing “OURS”",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0330",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:234",
+      "title": "Song I am.",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0229",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:337",
+      "title": "Sprechchor",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0331",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:693",
+      "title": "Steadfast Spirits",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0677",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:498",
+      "title": "Sunlit Musical",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0489",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:421",
+      "title": "Swear 〜Night & Day〜",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0414",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:403",
+      "title": "THE HISTORIC...",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0396",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:524",
+      "title": "THRONE OF ROSE",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0515",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:748",
+      "title": "Talk to My Tone",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0729",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:562",
+      "title": "VIOLET LINE",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0553",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:768",
+      "title": "XV",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0746",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:280",
+      "title": "ZEAL of proud",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0274",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:230",
+      "title": "[FULL] FIRE BIRD",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0179",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:326",
+      "title": "overtuRe",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0320",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:778",
+      "title": "who we aRe",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0756",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:204",
+      "title": "“UNIONS” Road",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0204",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:789",
+      "title": "この蒼き闇と光",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0766",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:459",
+      "title": "一逢のFull Glory",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0451",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:59",
+      "title": "熱色スターマイン",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0059",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:595",
+      "title": "礎の花冠",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0586",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:191",
+      "title": "約束",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0191",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:692",
+      "title": "紫炎",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0676",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:539",
+      "title": "覚悟のLiberation",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0530",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:103",
+      "title": "軌跡",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0103",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:387",
+      "title": "閃光",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0381",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:48",
+      "title": "陽だまりロードナイト",
+      "band": "Roselia",
+      "category": "オリジナル",
+      "workId": "wk-0048",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:195",
+      "title": "1/3の純情な感情",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0195",
+      "originalWork": "アニメ「るろうに剣心 -明治剣客浪漫譚-（1996年版）」第6ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:707",
+      "title": "BROKEN GAMES",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0691",
+      "originalWork": "アニメ「シャングリラ・フロンティア 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:608",
+      "title": "Bling-Bang-Bang-Born",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0599",
+      "originalWork": "アニメ「マッシュル-MASHLE- 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:322",
+      "title": "CORE PRIDE",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0316",
+      "originalWork": "アニメ「青の祓魔師 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:410",
+      "title": "Cry Baby",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0403",
+      "originalWork": "アニメ「東京リベンジャーズ 第1期」第1・第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:514",
+      "title": "D-tecnoLife",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0505",
+      "originalWork": "アニメ「BLEACH」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:311",
+      "title": "DAYBREAK FRONTLINE",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0305",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:372",
+      "title": "DEPARTURES",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0366",
+      "originalWork": "「JR Ski Ski」CMソング、「プリンスホテル」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:500",
+      "title": "Get Wild",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0491",
+      "originalWork": "アニメ「シティーハンター 第1期」第1～第51話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:382",
+      "title": "Just Awake",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0376",
+      "originalWork": "アニメ「HUNTER×HUNTER（2011年版）」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:368",
+      "title": "Keep the Heat and Fire Yourself Up",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0362",
+      "originalWork": "アニメ「覇穹 封神演義」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:592",
+      "title": "SOULSOUP",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0583",
+      "originalWork": "映画「劇場版 SPY×FAMILY CODE: White」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:795",
+      "title": "けっかおーらい",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0772",
+      "originalWork": "アニメ「ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:262",
+      "title": "ヒトリノ夜",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0256",
+      "originalWork": "アニメ「GTO」第2OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:293",
+      "title": "ブリキノダンス",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0287",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:573",
+      "title": "ボッカデラベリタ",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0564",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:415",
+      "title": "メギツネ",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0408",
+      "originalWork": "バラエティ「ハッキリ5〜そんなに好かれていない5人が世界を救う〜」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:272",
+      "title": "劣等上等",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0266",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:278",
+      "title": "恋しさと せつなさと 心強さと",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0272",
+      "originalWork": "映画「ストリートファイターII MOVIE」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:213",
+      "title": "激動",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0211",
+      "originalWork": "アニメ「D.Gray-man 第1期」第4OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:431",
+      "title": "狂乱 Hey Kids!!",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0424",
+      "originalWork": "アニメ「ノラガミ ARAGOTO 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:700",
+      "title": "百花繚乱",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0684",
+      "originalWork": "アニメ「薬屋のひとりごと 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:471",
+      "title": "神っぽいな",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0462",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:545",
+      "title": "第ゼロ感",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0536",
+      "originalWork": "映画「THE FIRST SLAM DUNK」エンディング主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:659",
+      "title": "第六感",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0647",
+      "originalWork": "「BOAT RACE 2020」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:766",
+      "title": "絶対零度",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0744",
+      "originalWork": "アニメ「WIND BREAKER 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:399",
+      "title": "脳漿炸裂ガール",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0392",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:529",
+      "title": "裸の勇者",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0520",
+      "originalWork": "アニメ「王様ランキング」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:754",
+      "title": "革命道中",
+      "band": "RAISE A SUILEN",
+      "category": "カバー",
+      "workId": "wk-0735",
+      "originalWork": "アニメ「ダンダダン 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:9",
+      "title": "1000回潤んだ空",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0009",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:777",
+      "title": "Amore",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0755",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:80",
+      "title": "B.O.F",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0080",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:264",
+      "title": "Breakthrough!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0258",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:536",
+      "title": "Chu Chueen!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0527",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:89",
+      "title": "CiRCLING",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0089",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:621",
+      "title": "DOKI DOKI SCARY",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0612",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:173",
+      "title": "Dreamers Go!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0173",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:691",
+      "title": "Drive Your Heart",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0675",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:455",
+      "title": "Five Letters",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0447",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:439",
+      "title": "Future Place",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0432",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:759",
+      "title": "Game Changer",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0740",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:10",
+      "title": "Happy Happy Party！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0010",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:208",
+      "title": "Hello! Wink!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0207",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:146",
+      "title": "Home Street",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0146",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:160",
+      "title": "Jumpin'",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0160",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:106",
+      "title": "Light Delight",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0106",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:315",
+      "title": "Live Beyond!!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0309",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:434",
+      "title": "Moonlight Walk",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0427",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:172",
+      "title": "NO GIRL NO CRY",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0172",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:284",
+      "title": "Photograph",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0278",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:171",
+      "title": "Returns",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0171",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:462",
+      "title": "RiNG A BELL",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0454",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:168",
+      "title": "SAKURA MEMORIES",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0168",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:6",
+      "title": "STAR BEAT!〜ホシノコドウ〜",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0006",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:233",
+      "title": "Step×Step！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0228",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:301",
+      "title": "Sweets BAN!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0295",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:629",
+      "title": "TARINAI",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0619",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:64",
+      "title": "Time Lapse",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0064",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:681",
+      "title": "Tomorrow’s Door",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0667",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:209",
+      "title": "What's the POPIPA!?",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0208",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:222",
+      "title": "White Afternoon",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0219",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:3",
+      "title": "Yes! BanG_Dream!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0003",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:237",
+      "title": "[FULL] キズナミュージック♪",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0148",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:205",
+      "title": "[FULL] 二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0109",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:335",
+      "title": "ここから先は歌にならない",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0329",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:1",
+      "title": "ときめきエクスペリエンス！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0001",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:648",
+      "title": "とっておきAnswer",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0637",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:746",
+      "title": "どきどきデエト",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0727",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:507",
+      "title": "ほな！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0498",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:375",
+      "title": "ぽっぴん'どりーむ！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0369",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:5",
+      "title": "ぽっぴん’しゃっふる",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0005",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:193",
+      "title": "アニバーサリー",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0193",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:221",
+      "title": "イニシャル",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0218",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:365",
+      "title": "イントロダクション",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0359",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:134",
+      "title": "ガールズコード",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0134",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:148",
+      "title": "キズナミュージック♪",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0148",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:466",
+      "title": "キズナミュージック♪（3Dライブモード対応）",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0148",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:38",
+      "title": "キミにもらったもの",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0038",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:2",
+      "title": "キラキラだとか夢だとか ～Sing Girls～",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0002",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:79",
+      "title": "クリスマスのうた",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0079",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:4",
+      "title": "ティアドロップス",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0004",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:575",
+      "title": "トレモロアイズ",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0566",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:253",
+      "title": "ミライトレイン",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0247",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:797",
+      "title": "ライムライト",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0774",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:719",
+      "title": "世界中の青空をあつめて",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0703",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:109",
+      "title": "二重の虹(ダブル レインボウ)",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0109",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:58",
+      "title": "八月のif",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0058",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:201",
+      "title": "切ないSandglass",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0201",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:32",
+      "title": "前へススメ！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0032",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:363",
+      "title": "勇気Limit！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0357",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:343",
+      "title": "夏に閉じこめて",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0337",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:55",
+      "title": "夏のドーン！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0055",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:7",
+      "title": "夏空 SUN! SUN! SEVEN!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0007",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:39",
+      "title": "夢みるSunflower",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0039",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:228",
+      "title": "夢を撃ち抜く瞬間に！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0224",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:420",
+      "title": "大好き！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0413",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:474",
+      "title": "新しい季節に",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0465",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:378",
+      "title": "星の約束",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0372",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:476",
+      "title": "最強☆ソング",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0467",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:118",
+      "title": "最高(さあ行こう)！",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0118",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:107",
+      "title": "私の心はチョココロネ",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0107",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:611",
+      "title": "花咲く未来に",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0602",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:8",
+      "title": "走り始めたばかりのキミに",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0008",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:229",
+      "title": "開けたらDream!",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0225",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:591",
+      "title": "雨上がり、キミと",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0582",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:532",
+      "title": "青春 To Be Continued",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0523",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:801",
+      "title": "フレーム・バイ・フレーム",
+      "band": "Poppin'Party",
+      "category": "オリジナル",
+      "workId": "wk-0828",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:557",
+      "title": "A Sunset So Bright",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0548",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:680",
+      "title": "Against the Light",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0666",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:127",
+      "title": "COMIC PANIC!!!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0127",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:745",
+      "title": "Choco Typhooooon!!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0726",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:198",
+      "title": "Easy come, Easy go！",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0198",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:714",
+      "title": "Feel so good!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0698",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:588",
+      "title": "Glowing After",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0579",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:62",
+      "title": "Hey-day狂騒曲（カプリチオ）",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0062",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:273",
+      "title": "I knew it!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0267",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:239",
+      "title": "I love your way！",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0233",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:456",
+      "title": "IGNITE GLOW",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0448",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:102",
+      "title": "Jamboree!Journey!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0102",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:472",
+      "title": "Made My Day",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0463",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:175",
+      "title": "ON YOUR MARK",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0175",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:283",
+      "title": "ONE OF US",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0277",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:364",
+      "title": "Off we go.",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0358",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:716",
+      "title": "Part of the Life",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0700",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:437",
+      "title": "Punchline Halloween!!!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0430",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:259",
+      "title": "RED RED RED",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0253",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:294",
+      "title": "SENSENFUKOKU",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0288",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:413",
+      "title": "SWITCH ON NOW",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0406",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:211",
+      "title": "Sasanqua",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0210",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:43",
+      "title": "Scarlet Sky",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0043",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:601",
+      "title": "Start as Usual",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0592",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:11",
+      "title": "That Is How I Roll!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0011",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:530",
+      "title": "That's why I'm here",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0521",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:346",
+      "title": "Trouble Joyful!!",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0340",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:12",
+      "title": "True color",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0012",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:81",
+      "title": "Y.O.L.O！！！！！",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0081",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:212",
+      "title": "[FULL] ON YOUR MARK",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0175",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:625",
+      "title": "“Say cheese!!!!!”",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0616",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:177",
+      "title": "いつも通りのBrand new days",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0177",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:329",
+      "title": "カナユメ",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0323",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:401",
+      "title": "サクラゼンセン",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0394",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:135",
+      "title": "ツナグ、ソラモヨウ",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0135",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:495",
+      "title": "ペトリコール・オベーション",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0486",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:147",
+      "title": "ランブリングメモリー",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0147",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:781",
+      "title": "夕影と歌う この先も",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0759",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:496",
+      "title": "極彩色",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0487",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:508",
+      "title": "燦々",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0499",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:428",
+      "title": "独創収差",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0421",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:645",
+      "title": "花笑みのデュオ",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0634",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:765",
+      "title": "証は赫く",
+      "band": "Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0743",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:469",
+      "title": "ALIVE",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0460",
+      "originalWork": "アニメ「リコリス・リコイル」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:342",
+      "title": "COLORFUL BOX",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0336",
+      "originalWork": "アニメ「SHIROBAKO」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:298",
+      "title": "CQCQ",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0292",
+      "originalWork": "ドラマ「あなたのことはそれほど」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:266",
+      "title": "LEVEL5 -judgelight-",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0260",
+      "originalWork": "アニメ「とある科学の超電磁砲 第1期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:426",
+      "title": "Memento",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0419",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第2期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:441",
+      "title": "Nameless Story",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0434",
+      "originalWork": "アニメ「転生したらスライムだった件 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:282",
+      "title": "Nevereverland",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0276",
+      "originalWork": "OVA「アークIX」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:546",
+      "title": "Overdose",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0537",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:494",
+      "title": "QUEEN",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0485",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:785",
+      "title": "SUMMER SONG",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0763",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:318",
+      "title": "V.I.P",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0312",
+      "originalWork": "アニメ「マギ The labyrinth of magic 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:656",
+      "title": "again",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0644",
+      "originalWork": "アニメ「鋼の錬金術師 FULLMETAL ALCHEMIST」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:247",
+      "title": "chAngE",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0241",
+      "originalWork": "アニメ「BLEACH」第12OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:433",
+      "title": "divine intervention",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0426",
+      "originalWork": "アニメ「ウィッチクラフトワークス」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:393",
+      "title": "unravel",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0387",
+      "originalWork": "アニメ「東京喰種トーキョーグール 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:572",
+      "title": "かくれんぼ",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0563",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:310",
+      "title": "アゲハ蝶",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0304",
+      "originalWork": "「ティセラトコナッツココナッツ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:706",
+      "title": "オン・ザ・フロントライン",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0690",
+      "originalWork": "アニメ「無職転生 ～異世界行ったら本気だす～ 第2期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:792",
+      "title": "オー！リバル",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0769",
+      "originalWork": "映画「名探偵コナン 業火の向日葵」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:416",
+      "title": "ボクノート",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0409",
+      "originalWork": "映画「ドラえもん のび太の恐竜2006」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:245",
+      "title": "メリッサ",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0239",
+      "originalWork": "アニメ「鋼の錬金術師」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:752",
+      "title": "メロウ",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0733",
+      "originalWork": "アニメ「スキップとローファー」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:604",
+      "title": "勇者",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0595",
+      "originalWork": "アニメ「葬送のフリーレン 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:386",
+      "title": "月光花",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0380",
+      "originalWork": "アニメ「ブラック・ジャック 第1期」Karte00～28 OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:271",
+      "title": "深海少女",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0265",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:725",
+      "title": "白い雪のプリンセスは",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0709",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:511",
+      "title": "祝福",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0502",
+      "originalWork": "アニメ「機動戦士ガンダム 水星の魔女 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:258",
+      "title": "秒針を噛む",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0252",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:612",
+      "title": "輪舞-revolution",
+      "band": "Morfonica",
+      "category": "カバー",
+      "workId": "wk-0603",
+      "originalWork": "アニメ「少女革命ウテナ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:554",
+      "title": "Ahoy!! 我ら宝鐘海賊団☆",
+      "band": "Afterglow×宝鐘マリン",
+      "category": "エクストラ",
+      "workId": "wk-0545",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:485",
+      "title": "Angel's Ladder",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0476",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:696",
+      "title": "Color of Us",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0680",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:241",
+      "title": "Daylight -デイライト-",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0235",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:527",
+      "title": "Ever Sky Blue",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0518",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:355",
+      "title": "Fateful...",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0349",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:686",
+      "title": "Feathered Dreams",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0672",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:538",
+      "title": "Merry Merry Thanks!!",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0529",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:383",
+      "title": "One step at a time",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0377",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:762",
+      "title": "Painting New Dawn",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0741",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:670",
+      "title": "Polyphonyscape",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0657",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:679",
+      "title": "Portray Empathy",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0665",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:702",
+      "title": "Resonant Strings",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0686",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:338",
+      "title": "Secret Dawn",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0332",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:742",
+      "title": "Shining Leaves",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0723",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:316",
+      "title": "Sonorous",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0310",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:642",
+      "title": "Steer to Utopia",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0631",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:457",
+      "title": "Sweet Cheers!",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0449",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:633",
+      "title": "Tempest",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0623",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:432",
+      "title": "The Circle Of Butterflies",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0425",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:779",
+      "title": "Wings of the Lights",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0757",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:589",
+      "title": "Wreath of Brave",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0580",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:268",
+      "title": "flame of hope",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0262",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:354",
+      "title": "fly with the night",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0348",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:423",
+      "title": "カラフルリバティー",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0416",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:614",
+      "title": "ティリカモニカリラ",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0605",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:288",
+      "title": "ハーモニー・デイ",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0282",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:705",
+      "title": "ビューティ・フォー",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0689",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:251",
+      "title": "ブルームブルーム",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0245",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:581",
+      "title": "メランコリックララバイ",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0572",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:577",
+      "title": "両翼のBrilliance",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0568",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:422",
+      "title": "寄る辺のSunny, Sunny",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0415",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:773",
+      "title": "胡蝶翔る星月夜",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0751",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:564",
+      "title": "蒼穹へのトレイル",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0555",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:566",
+      "title": "誓いのWingbeat",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0557",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:242",
+      "title": "金色へのプレリュード",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0236",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:518",
+      "title": "音がえしのセレナーデ",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0509",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:800",
+      "title": "Sky full of Miracle",
+      "band": "Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0824",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:636",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0626",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:650",
+      "title": "Crucifix X",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0639",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:641",
+      "title": "Georgette Me, Georgette You",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0630",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:649",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0638",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:638",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0628",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:715",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0699",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:662",
+      "title": "八芒星ダンス",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0649",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:667",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0654",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:666",
+      "title": "顔",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0653",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:683",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0669",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:167",
+      "title": "Baby Sweet Berry Love",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0167",
+      "originalWork": "アニメ「変態王子と笑わない猫。」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:285",
+      "title": "DANCE! おジャ魔女",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0279",
+      "originalWork": "アニメ「おジャ魔女どれみドッカ～ン！ 第4期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:136",
+      "title": "DISCOTHEQUE",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0136",
+      "originalWork": "アニメ「ロザリオとバンパイア CAPU2 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:117",
+      "title": "Fantastic future",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0117",
+      "originalWork": "アニメ「変態王子と笑わない猫。」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:44",
+      "title": "MOON PRIDE",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0044",
+      "originalWork": "アニメ「美少女戦士セーラームーンCrystal」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:304",
+      "title": "Make it!",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0298",
+      "originalWork": "アニメ「プリパラ 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:158",
+      "title": "Q＆A　リサイタル！",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0158",
+      "originalWork": "アニメ「となりの怪物くん」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:95",
+      "title": "SAKURAスキップ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0095",
+      "originalWork": "アニメ「NEW GAME! 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:398",
+      "title": "Sparkling Daydream",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0391",
+      "originalWork": "アニメ「中二病でも恋がしたい！ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:216",
+      "title": "Stay Alive",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0214",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第1期」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:23",
+      "title": "secret base ～君がくれたもの～",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0023",
+      "originalWork": "ドラマ「キッズ・ウォー3」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:203",
+      "title": "からくりピエロ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0203",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:618",
+      "title": "すきっちゅーの！",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0609",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:35",
+      "title": "そばかす",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0035",
+      "originalWork": "アニメ「るろうに剣心 -明治剣客浪漫譚-（1996年版）」第1OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:600",
+      "title": "だから、ひとりじゃない",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0591",
+      "originalWork": "アニメ「僕のヒーローアカデミア 第2期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:183",
+      "title": "ときめきポポロン♪",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0183",
+      "originalWork": "アニメ「ご注文はうさぎですか？ 第2期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:69",
+      "title": "はなまるぴっぴはよいこだけ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0069",
+      "originalWork": "アニメ「おそ松さん 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:54",
+      "title": "ふわふわ時間",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0054",
+      "originalWork": "アニメ「けいおん！ 第1期」劇中歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:108",
+      "title": "みくみくにしてあげる♪【してやんよ】",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0108",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:143",
+      "title": "ゆりゆららららゆるゆり大事件",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0143",
+      "originalWork": "アニメ「ゆるゆり 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:567",
+      "title": "アイドル",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0558",
+      "originalWork": "アニメ「【推しの子】第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:695",
+      "title": "アイワナムチュー",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0679",
+      "originalWork": "アニメ「うる星やつら（2022年版）第1期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:605",
+      "title": "オトナブルー",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0596",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:594",
+      "title": "ココ☆ナツ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0585",
+      "originalWork": "映画「シロメ」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:615",
+      "title": "サインはB",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0606",
+      "originalWork": "アニメ「【推しの子】第1期」劇中歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:24",
+      "title": "ドリームパレード",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0024",
+      "originalWork": "アニメ「プリパラ 第2期」第1・第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:263",
+      "title": "ノスタルジックレインフォール",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0257",
+      "originalWork": "アニメ「恋は雨上がりのように」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:84",
+      "title": "ハッピーシンセサイザ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0084",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:764",
+      "title": "ヒカリへ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0742",
+      "originalWork": "ドラマ「リッチマン、プアウーマン」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:783",
+      "title": "ポニーテールとシュシュ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0761",
+      "originalWork": "バラエティ「なるほど！ハイスクール」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:325",
+      "title": "ラムのラブソング",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0319",
+      "originalWork": "アニメ「うる星やつら」（1981年版）OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:249",
+      "title": "ルカルカ★ナイトフィーバー",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0243",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:75",
+      "title": "世界は恋に落ちている",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0075",
+      "originalWork": "アニメ「アオハライド」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:307",
+      "title": "夜に駆ける",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0301",
+      "originalWork": "「日本マクドナルド」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:153",
+      "title": "奏（かなで）",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0153",
+      "originalWork": "映画「ラフ ROUGH」挿入歌、ドラマ「卒うた」第3夜「奏」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:332",
+      "title": "徒花ネクロマンシー",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0326",
+      "originalWork": "アニメ「ゾンビランドサガ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:708",
+      "title": "恋愛サーキュレーション",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0692",
+      "originalWork": "アニメ「化物語」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:390",
+      "title": "春を告げる",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0384",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:189",
+      "title": "春擬き",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0189",
+      "originalWork": "アニメ「やはり俺の青春ラブコメはまちがっている。続（第2期）」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:654",
+      "title": "最上級にかわいいの！",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0642",
+      "originalWork": "「花王 ケープ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:110",
+      "title": "気まぐれロマンティック",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0110",
+      "originalWork": "ドラマ「セレブと貧乏太郎」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:793",
+      "title": "浪漫飛行",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0770",
+      "originalWork": "「JAL STORY 夏離宮キャンペーン」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:406",
+      "title": "秘密の扉から会いにきて",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0399",
+      "originalWork": "アニメ「のうりん」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:227",
+      "title": "花ハ踊レヤいろはにほ",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0223",
+      "originalWork": "アニメ「ハナヤマタ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:769",
+      "title": "超最強",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0747",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:756",
+      "title": "金曜日のおはよう",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0737",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:551",
+      "title": "魔法少女とチョコレゐト",
+      "band": "Pastel＊Palettes",
+      "category": "カバー",
+      "workId": "wk-0542",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:246",
+      "title": "Bad Apple!! feat. nomico",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0240",
+      "originalWork": "ゲーム「東方幻想郷 ～ Lotus Land Story.」の楽曲『Bad Apple!!』を原曲とするアレンジ",
+      "target": false
+    },
+    {
+      "reference": "garupa:111",
+      "title": "Believe in my existence",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0111",
+      "originalWork": "アニメ「カードファイト!! ヴァンガード」第2OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:37",
+      "title": "ETERNAL BLAZE",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0037",
+      "originalWork": "アニメ「魔法少女リリカルなのは 第2期（A’s）」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:709",
+      "title": "Fallen",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0693",
+      "originalWork": "アニメ「PSYCHO-PASS サイコパス 第2期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:755",
+      "title": "HONEY",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0736",
+      "originalWork": "「NTTパーソナル関西」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:26",
+      "title": "Hacking to the Gate",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0026",
+      "originalWork": "アニメ「STEINS;GATE」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:350",
+      "title": "KING",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0344",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:327",
+      "title": "My Dearest",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0321",
+      "originalWork": "アニメ「ギルティクラウン」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:217",
+      "title": "Paradisus-Paradoxum",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0215",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第1期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:395",
+      "title": "Realize",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0389",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:68",
+      "title": "Red fraction",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0068",
+      "originalWork": "アニメ「BLACK LAGOON 第1期」OP、アニメ「BLACK LAGOON The Second Barrage 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:657",
+      "title": "Reweave",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0645",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第3期」第1クールOP、アニメ「Re:ゼロから始める異世界生活 第3期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:370",
+      "title": "SPARK-AGAIN",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0364",
+      "originalWork": "アニメ「炎炎ノ消防隊 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:425",
+      "title": "STYX HELIX",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0418",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第1期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:97",
+      "title": "Shangri-La",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0097",
+      "originalWork": "アニメ「蒼穹のファフナー」OP、最終話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:721",
+      "title": "Sincerely",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0705",
+      "originalWork": "アニメ「ヴァイオレット・エヴァーガーデン」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:312",
+      "title": "Synchrogazer",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0306",
+      "originalWork": "アニメ「戦姫絶唱シンフォギア 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:57",
+      "title": "The Everlasting Guilty Crown",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0057",
+      "originalWork": "アニメ「ギルティクラウン」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:100",
+      "title": "This game",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0100",
+      "originalWork": "アニメ「ノーゲーム・ノーライフ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:290",
+      "title": "sister's noise",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0284",
+      "originalWork": "アニメ「とある科学の超電磁砲 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:549",
+      "title": "slash",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0540",
+      "originalWork": "アニメ「機動戦士ガンダム 水星の魔女 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:125",
+      "title": "キミの記憶",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0125",
+      "originalWork": "ゲーム「ペルソナ3」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:128",
+      "title": "シャルル",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0128",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:152",
+      "title": "ツキアカリのミチシルベ",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0152",
+      "originalWork": "アニメ「DARKER THAN BLACK 第2期（流星の双子）」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:516",
+      "title": "ヒバナ-Reloaded-",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0507",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:492",
+      "title": "ファイトソング",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0483",
+      "originalWork": "アニメ「チェンソーマン」第12話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:617",
+      "title": "ファタール",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0608",
+      "originalWork": "アニメ「【推しの子】第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:207",
+      "title": "ファティマ",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0206",
+      "originalWork": "アニメ「シュタインズ・ゲート ゼロ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:569",
+      "title": "乙女解剖",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0560",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:606",
+      "title": "人マニア",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0597",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:116",
+      "title": "六兆年と一夜物語",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0116",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:790",
+      "title": "勇侠青春謳",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0767",
+      "originalWork": "アニメ「コードギアス 反逆のルルーシュ 第1期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:270",
+      "title": "右肩の蝶",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0264",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:156",
+      "title": "名前のない怪物",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0156",
+      "originalWork": "アニメ「PSYCHO-PASS サイコパス 第1期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:389",
+      "title": "廻廻奇譚",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0383",
+      "originalWork": "アニメ「呪術廻戦 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:465",
+      "title": "新時代",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0457",
+      "originalWork": "映画「ONE PIECE FILM RED」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:537",
+      "title": "東京テディベア",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0528",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:86",
+      "title": "残酷な天使のテーゼ",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0086",
+      "originalWork": "アニメ「新世紀エヴァンゲリオン」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:196",
+      "title": "海色",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0196",
+      "originalWork": "アニメ「艦隊これくしょん -艦これ-」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:82",
+      "title": "深愛",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0082",
+      "originalWork": "アニメ「WHITE ALBUM」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:231",
+      "title": "甲賀忍法帖",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0226",
+      "originalWork": "アニメ「バジリスク 〜甲賀忍法帖〜」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:49",
+      "title": "紅蓮の弓矢",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0049",
+      "originalWork": "アニメ「進撃の巨人 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:178",
+      "title": "緋色の空",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0178",
+      "originalWork": "アニメ「灼眼のシャナ」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:484",
+      "title": "酔いどれ知らず",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0475",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:25",
+      "title": "魂のルフラン",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0025",
+      "originalWork": "映画「新世紀エヴァンゲリオン劇場版 シト新生」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:321",
+      "title": "鳥の詩",
+      "band": "Roselia",
+      "category": "カバー",
+      "workId": "wk-0315",
+      "originalWork": "ゲーム「AIR」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:519",
+      "title": "Be born",
+      "band": "メガテラ・ゼロ feat. 夢ノ結唱 POPY",
+      "category": "オリジナル",
+      "workId": "wk-0510",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:639",
+      "title": "Blessing Chord(パラレルver.)",
+      "band": "I♡インドア",
+      "category": "オリジナル",
+      "workId": "wk-0254",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:396",
+      "title": "Brand new Pastel Road！",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0390",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:775",
+      "title": "Come to see YOU!!",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0753",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:279",
+      "title": "Power of LOVE!!!",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0273",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:553",
+      "title": "Radiate Warriors",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0544",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:782",
+      "title": "Rainbow of Dreams",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0760",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:560",
+      "title": "ReReReエボリューションず☆",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0551",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:66",
+      "title": "SURVIVOR ねばーぎぶあっぷ！",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0066",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:688",
+      "title": "Shine ☆n My Life!",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0674",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:291",
+      "title": "TITLE IDOL",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0285",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:749",
+      "title": "Thanks to you.",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0730",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:252",
+      "title": "Winking☆Cheer",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0246",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:599",
+      "title": "With〜きみとわたしたちの物語〜",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0590",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:232",
+      "title": "Wonderful Sweet!",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0227",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:96",
+      "title": "Wonderland Girl",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0096",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:673",
+      "title": "Y.O.L.O！！！！！(パスパレver.)",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0081",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:218",
+      "title": "[FULL] きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0176",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:525",
+      "title": "everyday flower",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0516",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:407",
+      "title": "あこがれacross",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0400",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:200",
+      "title": "あっつあつ 常夏 らぶ☆サマー！",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0200",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:720",
+      "title": "きみCharmin'",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0704",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:176",
+      "title": "きゅ〜まい＊flower",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0176",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:161",
+      "title": "ぎゅっDAYS♪",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0161",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:13",
+      "title": "しゅわりん☆どり〜みん",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0013",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:45",
+      "title": "はなまる◎アンダンテ",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0045",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:119",
+      "title": "もういちど ルミナス",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0119",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:215",
+      "title": "ゆめゆめグラデーション",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0213",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:53",
+      "title": "ゆら・ゆらRing-Dong-Dance",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0053",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:313",
+      "title": "るんっ♪てぃてぃー！",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0307",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:701",
+      "title": "スキ×すき×カラフリィ",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0685",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:139",
+      "title": "ゼッタイ宣言～Recital～",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0139",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:665",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0652",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:580",
+      "title": "トリドリ＊パレット",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0571",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:559",
+      "title": "ドラマチック！アライブ",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0550",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:424",
+      "title": "ハナヒバナ",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0417",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:412",
+      "title": "ハレハレ☆フォーチュン",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0405",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:14",
+      "title": "パスパレボリューションず☆",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0014",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:362",
+      "title": "パッパレ☆人生！バーン万歳！",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0356",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:587",
+      "title": "フレっとパレットFight Song!!",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0578",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:623",
+      "title": "ホワイト ノスタルジア",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0614",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:184",
+      "title": "ワクワクmeetsトリップ",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0184",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:104",
+      "title": "天下トーイツA to Z☆",
+      "band": "Pastel＊Palettes",
+      "category": "オリジナル",
+      "workId": "wk-0104",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:674",
+      "title": "Bunny Girl",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0660",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:22",
+      "title": "Butter-Fly",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0022",
+      "originalWork": "アニメ「デジモンアドベンチャー」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:491",
+      "title": "CHAINSAW BLOOD",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0482",
+      "originalWork": "アニメ「チェンソーマン」第1話ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:145",
+      "title": "Crow Song",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0145",
+      "originalWork": "アニメ「Angel Beats!」第1話挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:753",
+      "title": "DAY×DAY",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0734",
+      "originalWork": "アニメ「銀魂゜ 第3期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:29",
+      "title": "Don’t say “lazy”",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0029",
+      "originalWork": "アニメ「けいおん！ 第1期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:381",
+      "title": "Listen!!",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0375",
+      "originalWork": "アニメ「けいおん!! 第2期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:299",
+      "title": "Northern lights",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0293",
+      "originalWork": "アニメ「シャーマンキング」（2001年版）第2OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:74",
+      "title": "READY STEADY GO",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0074",
+      "originalWork": "アニメ「鋼の錬金術師」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:124",
+      "title": "Reach Out To The Truth",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0124",
+      "originalWork": "ゲーム「ペルソナ4」戦闘BGM",
+      "target": false
+    },
+    {
+      "reference": "garupa:87",
+      "title": "Redo",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0087",
+      "originalWork": "アニメ「Re:ゼロから始める異世界生活 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:287",
+      "title": "Rolling star",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0281",
+      "originalWork": "アニメ「BLEACH」第5OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:430",
+      "title": "abnormalize",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0423",
+      "originalWork": "アニメ「PSYCHO-PASS サイコパス 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:52",
+      "title": "great escape",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0052",
+      "originalWork": "アニメ「進撃の巨人 第1期」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:163",
+      "title": "らしさ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0163",
+      "originalWork": "アニメ「ばらかもん」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:206",
+      "title": "アイのシナリオ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0205",
+      "originalWork": "アニメ「まじっく快斗1412」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:63",
+      "title": "アスノヨゾラ哨戒班",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0063",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:112",
+      "title": "イマジネーション",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0112",
+      "originalWork": "アニメ「ハイキュー!! 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:240",
+      "title": "インフェルノ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0234",
+      "originalWork": "アニメ「炎炎ノ消防隊 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:655",
+      "title": "オレンジ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0643",
+      "originalWork": "アニメ「とらドラ!」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:548",
+      "title": "カオスが極まる",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0539",
+      "originalWork": "アニメ「ブルーロック 第1期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:609",
+      "title": "カゲロウデイズ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0600",
+      "originalWork": "アニメ「メカクシティアクターズ」第4話挿入歌（じん ft. 田口囁一による別歌唱版）",
+      "target": false
+    },
+    {
+      "reference": "garupa:267",
+      "title": "カサブタ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0261",
+      "originalWork": "アニメ「金色のガッシュベル!!」第1OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:21",
+      "title": "カルマ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0021",
+      "originalWork": "ゲーム「テイルズ オブ ジ アビス」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:515",
+      "title": "サウダージ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0506",
+      "originalWork": "「ポカリスエット」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:308",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0302",
+      "originalWork": "アニメ「銀魂 第2期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:509",
+      "title": "チルドレンレコード(Re:boot)",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0500",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:531",
+      "title": "テレキャスタービーボーイ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0522",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:409",
+      "title": "トーキョーワンダー。",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0402",
+      "originalWork": "アニメ「東京リベンジャーズ 第1期」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:320",
+      "title": "ハウトゥー世界征服",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0314",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:334",
+      "title": "ヒューマノイド",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0328",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:93",
+      "title": "プライド革命",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0093",
+      "originalWork": "アニメ「銀魂゜ 第3期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:361",
+      "title": "ベノム",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0355",
+      "originalWork": "イベント「v flower DJ NIGHT」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:392",
+      "title": "メンタルチェンソー",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0386",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:770",
+      "title": "ランデヴー",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0748",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:243",
+      "title": "ロキ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0237",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:131",
+      "title": "ロストワンの号哭",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0131",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:526",
+      "title": "ヴィラン",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0517",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:794",
+      "title": "千の翼",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0771",
+      "originalWork": "アニメ「Re：␣ハマトラ 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:187",
+      "title": "午夜の待ち合わせ",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0187",
+      "originalWork": "アニメ「ノラガミ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:467",
+      "title": "命に嫌われている。",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0458",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:224",
+      "title": "天ノ弱",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0220",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:704",
+      "title": "季節は次々死んでいく",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0688",
+      "originalWork": "アニメ「東京喰種トーキョーグール 第2期（√A）」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:682",
+      "title": "愛唄",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0668",
+      "originalWork": "「明治 果汁グミ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:154",
+      "title": "瞬間センチメンタル",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0154",
+      "originalWork": "アニメ「鋼の錬金術師 FULLMETAL ALCHEMIST」第4クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:543",
+      "title": "粉雪",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0534",
+      "originalWork": "ドラマ「1リットルの涙」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:586",
+      "title": "逆光",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0577",
+      "originalWork": "映画「ONE PIECE FILM RED」劇中歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:194",
+      "title": "青い栞",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0194",
+      "originalWork": "アニメ「あの日見た花の名前を僕達はまだ知らない。」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:568",
+      "title": "青のすみか",
+      "band": "Afterglow",
+      "category": "カバー",
+      "workId": "wk-0559",
+      "originalWork": "アニメ「呪術廻戦 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:385",
+      "title": "CATASTROPHE BANQUET",
+      "band": "レイヤ×紗夜×沙綾×ミッシェル×瑠唯",
+      "category": "オリジナル",
+      "workId": "wk-0379",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:369",
+      "title": "COLORS",
+      "band": "Afterglow×FLOW",
+      "category": "エクストラ",
+      "workId": "wk-0363",
+      "originalWork": "アニメ「コードギアス 反逆のルルーシュ 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:760",
+      "title": "COMIC PANIC!!!(パラレルver.)",
+      "band": "PINKISH!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0127",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:388",
+      "title": "CiRCLE THANKS MUSiC♪",
+      "band": "CiRCLE THANKS PARTY！スペシャルバンド",
+      "category": "オリジナル",
+      "workId": "wk-0382",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:397",
+      "title": "[FULL] CiRCLE THANKS MUSiC♪",
+      "band": "CiRCLE THANKS PARTY！スペシャルバンド",
+      "category": "オリジナル",
+      "workId": "wk-0382",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:340",
+      "title": "DAYS of DASH",
+      "band": "Poppin'Party×鈴木このみ",
+      "category": "エクストラ",
+      "workId": "wk-0334",
+      "originalWork": "アニメ「さくら荘のペットな彼女」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:739",
+      "title": "Determination Symphony(パラレルver.)",
+      "band": "SISTER'S QUARTET",
+      "category": "オリジナル",
+      "workId": "wk-0072",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:30",
+      "title": "Don’t be afraid!",
+      "band": "Glitter*Green",
+      "category": "オリジナル",
+      "workId": "wk-0030",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:463",
+      "title": "Glee! Glee! Glee!",
+      "band": "Glitter*Green",
+      "category": "オリジナル",
+      "workId": "wk-0455",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:85",
+      "title": "Dragon Night",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0085",
+      "originalWork": "情報番組「めざましテレビ」木曜テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:129",
+      "title": "GO! GO! MANIAC",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0129",
+      "originalWork": "アニメ「けいおん!! 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:323",
+      "title": "Happy Girl",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0317",
+      "originalWork": "アニメ「パパのいうことを聞きなさい!」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:244",
+      "title": "POP TEAM EPIC",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0238",
+      "originalWork": "アニメ「ポプテピピック 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:309",
+      "title": "SHINY DAYS",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0303",
+      "originalWork": "アニメ「ゆるキャン△ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:174",
+      "title": "StaRt",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0174",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:440",
+      "title": "Storyteller",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0433",
+      "originalWork": "アニメ「転生したらスライムだった件 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:98",
+      "title": "fantastic dreamer",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0098",
+      "originalWork": "アニメ「この素晴らしい世界に祝福を! 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:28",
+      "title": "いーあるふぁんくらぶ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0028",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:286",
+      "title": "おジャ魔女カーニバル!!",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0280",
+      "originalWork": "アニメ「おジャ魔女どれみ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:571",
+      "title": "きゅうくらりん",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0562",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:400",
+      "title": "くちづけDiamond",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0393",
+      "originalWork": "アニメ「山田くんと7人の魔女」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:653",
+      "title": "はいよろこんで",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0641",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:56",
+      "title": "ひまわりの約束",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0056",
+      "originalWork": "映画「STAND BY ME ドラえもん」主題歌、「フレッツ光」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:458",
+      "title": "ようこそジャパリパークへ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0450",
+      "originalWork": "アニメ「けものフレンズ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:481",
+      "title": "アイウエ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0472",
+      "originalWork": "アニメ「うる星やつら（2022年版）第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:274",
+      "title": "ウィーアー！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0268",
+      "originalWork": "アニメ「ONE PIECE」第1OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:132",
+      "title": "エイリアンエイリアン",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0132",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:151",
+      "title": "エクストラ・マジック・アワー",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0151",
+      "originalWork": "アニメ「甘城ブリリアントパーク」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:513",
+      "title": "エゴロック",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0504",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:305",
+      "title": "オレンジ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0299",
+      "originalWork": "アニメ「とらドラ!」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:590",
+      "title": "ギミー！レボリューション",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0581",
+      "originalWork": "アニメ「俺、ツインテールになります。」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:607",
+      "title": "クラクラ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0598",
+      "originalWork": "アニメ「SPY×FAMILY 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:772",
+      "title": "ココロのちず",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0750",
+      "originalWork": "アニメ「ONE PIECE」第5OP（ウォーターセブン編）",
+      "target": false
+    },
+    {
+      "reference": "garupa:210",
+      "title": "コレカラ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0209",
+      "originalWork": "アニメ「りゅうおうのおしごと!」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:27",
+      "title": "シュガーソングとビターステップ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0027",
+      "originalWork": "アニメ「血界戦線 第1期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:33",
+      "title": "シルエット",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0033",
+      "originalWork": "アニメ「NARUTO -ナルト- 疾風伝」第16OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:506",
+      "title": "ダンスホール",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0497",
+      "originalWork": "情報番組「めざまし8」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:470",
+      "title": "ダーリンダンス",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0461",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:235",
+      "title": "ドレミファロンド",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0230",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:182",
+      "title": "ノーポイッ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0182",
+      "originalWork": "アニメ「ご注文はうさぎですか？ 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:379",
+      "title": "ハッピー☆マテリアル",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0373",
+      "originalWork": "アニメ「魔法先生ネギま!」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:47",
+      "title": "ハッピーサマーウェディング",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0047",
+      "originalWork": "「欧風チーズカレーヌードル」CMソング、「NTTドコモ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:419",
+      "title": "ヒャダインのじょーじょーゆーじょー",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0412",
+      "originalWork": "アニメ「日常」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:741",
+      "title": "マツケンサンバII",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0722",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:444",
+      "title": "ミックスナッツ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0437",
+      "originalWork": "アニメ「SPY×FAMILY 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:729",
+      "title": "ミラクルペイント",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0713",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:73",
+      "title": "ロメオ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0073",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:348",
+      "title": "ン・パカマーチ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0342",
+      "originalWork": "アニメ「夢のクレヨン王国」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:197",
+      "title": "上海ハニー",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0197",
+      "originalWork": "ドラマ「オレンジデイズ」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:220",
+      "title": "全力少年",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0217",
+      "originalWork": "「NTTDoCoMo関西」CMソング、映画「ラフ ROUGH」挿入歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:157",
+      "title": "回レ！雪月花",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0157",
+      "originalWork": "アニメ「機巧少女は傷つかない」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:115",
+      "title": "太陽曰く燃えよカオス",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0115",
+      "originalWork": "アニメ「這いよれ! ニャル子さん 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:292",
+      "title": "好き！雪！本気マジック",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0286",
+      "originalWork": "イベント「SNOW MIKU 2014」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:544",
+      "title": "強風オールバック",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0535",
+      "originalWork": "「カップヌードル」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:710",
+      "title": "怪獣",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0694",
+      "originalWork": "アニメ「チ。 ―地球の運動について―」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:78",
+      "title": "恋は渾沌の隷也",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0078",
+      "originalWork": "アニメ「這いよれ!ニャル子さんW 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:192",
+      "title": "恋愛裁判",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0192",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:796",
+      "title": "悲しみなんて笑い飛ばせ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0773",
+      "originalWork": "「日産 セレナ」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:501",
+      "title": "愛のしるし",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0492",
+      "originalWork": "映画「ウォーターボーイズ」挿入歌、「のどごし」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:138",
+      "title": "新宝島",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0138",
+      "originalWork": "映画「バクマン。」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:676",
+      "title": "最高到達点",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0662",
+      "originalWork": "アニメ「ONE PIECE」第25OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:757",
+      "title": "許婚っきゅん",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0738",
+      "originalWork": "アニメ「らんま1/2」（2024年版）第1期OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:798",
+      "title": "炎と森のカーニバル",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "カバー",
+      "workId": "wk-0775",
+      "originalWork": "「ヒカリTV」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:555",
+      "title": "Fleur",
+      "band": "Morfonica×雪花ラミィ",
+      "category": "エクストラ",
+      "workId": "wk-0546",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:402",
+      "title": "Freedom",
+      "band": "Poppin'Party×夏希",
+      "category": "オリジナル",
+      "workId": "wk-0395",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:226",
+      "title": "GO!!!",
+      "band": "Afterglow×こころ",
+      "category": "カバー",
+      "workId": "wk-0222",
+      "originalWork": "アニメ「NARUTO -ナルト-」第4OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:417",
+      "title": "Happy! Happier! Happiest!",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0410",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:596",
+      "title": "Listen to Smile!",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0587",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:67",
+      "title": "YAPPY！SCHOOL CARNIVAL☆彡",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0067",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:223",
+      "title": "[FULL] えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0180",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:250",
+      "title": "うぃーきゃん☆フレフレっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0244",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:429",
+      "title": "うちゃパ！で ぱっぴかポーんっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0422",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:446",
+      "title": "えがお、あーゆーれでぃ???",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0439",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:269",
+      "title": "えがお、み～っけた！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0263",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:17",
+      "title": "えがおのオーケストラっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0017",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:180",
+      "title": "えがお･シング･あ･ソング",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0180",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:219",
+      "title": "おもいでイルミネーション",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0216",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:408",
+      "title": "おもいやりハーモニー",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0401",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:750",
+      "title": "かぽーんっと極楽☆ 湯〜とぴあ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0731",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:351",
+      "title": "きらっ☆と キミフェス！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0345",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:65",
+      "title": "せかいのっびのびトレジャー！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0065",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:699",
+      "title": "とーくとぅみー・とーくとぅゆー",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0683",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:330",
+      "title": "ないすみちゅっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0324",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:188",
+      "title": "にこ×にこ＝ハイパースマイルパワー！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0188",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:302",
+      "title": "にこにこねくと！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0296",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:162",
+      "title": "はれやか すこやか ぴかりんりん♪",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0162",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:505",
+      "title": "ふぁいぶスマイル◯オールインっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0496",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:105",
+      "title": "ふわふわ☆ゆめいろサンドイッチ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0105",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:776",
+      "title": "ほれぼれっ☆すまいるゴール！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0754",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:726",
+      "title": "まぶしいねっ☆ そのえがお！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0710",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:576",
+      "title": "むすんでわらって",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0567",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:669",
+      "title": "やっほー！いっぽ！わんだふぉー！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0656",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:540",
+      "title": "らいふ・いず・みゅーじかるっ♪♪♪",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0531",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:643",
+      "title": "れっつ・スマイル・すとり〜みんぐっ♪",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0632",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:83",
+      "title": "わちゃ・もちゃ・ぺったん行進曲",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0083",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:141",
+      "title": "キミがいなくちゃっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0141",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:487",
+      "title": "キミを れっつ・はぶ・ふぁん♪",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0478",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:36",
+      "title": "ゴーカ！ごーかい！？ファントムシーフ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0036",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:583",
+      "title": "サンバロハッピ〜！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0574",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:698",
+      "title": "スタ〜リング ☆じぶん☆",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0682",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:728",
+      "title": "スマイリーキャロル",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0712",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:202",
+      "title": "スマイルブーケで た〜まや〜！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0202",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:619",
+      "title": "ハイタッチ／＼びりーばーず☆",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0610",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:122",
+      "title": "ハイファイブ∞あどべんちゃっ",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0122",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:18",
+      "title": "ハピネスっ！ハピィーマジカルっ♪",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0018",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:504",
+      "title": "ボクらの夏's☆ショーたいむっ！！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0495",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:786",
+      "title": "好き・スキ・だいすき〜ズっ！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0764",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:380",
+      "title": "現るっ！大怪盗ハロハッピー！",
+      "band": "ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0374",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:734",
+      "title": "I wonder",
+      "band": "Poppin'Party×蘭",
+      "category": "カバー",
+      "workId": "wk-0718",
+      "originalWork": "ドラマ「くるり～誰が私と恋をした？～」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:556",
+      "title": "Lioness' Pride",
+      "band": "MyGO!!!!!×獅白ぼたん",
+      "category": "エクストラ",
+      "workId": "wk-0547",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:418",
+      "title": "Preserved Roses",
+      "band": "Roselia×蘭",
+      "category": "カバー",
+      "workId": "wk-0411",
+      "originalWork": "アニメ「革命機ヴァルヴレイヴ」第1期OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:598",
+      "title": "Surges",
+      "band": "Roselia×蘭",
+      "category": "カバー",
+      "workId": "wk-0589",
+      "originalWork": "「カロリーメイト」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:169",
+      "title": "革命デュアリズム",
+      "band": "Roselia×蘭",
+      "category": "カバー",
+      "workId": "wk-0169",
+      "originalWork": "アニメ「革命機ヴァルヴレイヴ」第2期OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:295",
+      "title": "SAVIOR OF SONG",
+      "band": "RAISE A SUILEN×友希那",
+      "category": "カバー",
+      "workId": "wk-0289",
+      "originalWork": "アニメ「蒼き鋼のアルペジオ -アルス・ノヴァ-」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:480",
+      "title": "踊",
+      "band": "RAISE A SUILEN×友希那",
+      "category": "カバー",
+      "workId": "wk-0471",
+      "originalWork": "音楽番組「夜光音楽 ボカロP 5min.」テーマソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:735",
+      "title": "Same Blue",
+      "band": "Morfonica×燈",
+      "category": "カバー",
+      "workId": "wk-0719",
+      "originalWork": "アニメ「アオのハコ」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "garupa:461",
+      "title": "See you! 〜それぞれの明日へ〜",
+      "band": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+      "category": "オリジナル",
+      "workId": "wk-0453",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:730",
+      "title": "Singer",
+      "band": "夢ノ結唱 PASTEL",
+      "category": "オリジナル",
+      "workId": "wk-0714",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:542",
+      "title": "Stellar Stellar",
+      "band": "RAISE A SUILEN×星街すいせい",
+      "category": "エクストラ",
+      "workId": "wk-0533",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:627",
+      "title": "Subtitle",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0618",
+      "originalWork": "ドラマ「silent」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:713",
+      "title": "Velonica",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0697",
+      "originalWork": "アニメ「BLEACH」第9OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:523",
+      "title": "swim",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0514",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:579",
+      "title": "「僕は...」",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0570",
+      "originalWork": "アニメ「僕の心のヤバイやつ 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:660",
+      "title": "だれかの心臓になれたなら",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0648",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:570",
+      "title": "ノンブレス・オブリージュ",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0561",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:547",
+      "title": "ホワイトノイズ",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0538",
+      "originalWork": "アニメ「東京リベンジャーズ 第2期（聖夜決戦編）」OP、アニメ「東京リベンジャーズ 第3期（天竺編）」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:521",
+      "title": "猛独が襲う",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0512",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:758",
+      "title": "過去を喰らう",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0739",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:622",
+      "title": "遥か彼方",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0613",
+      "originalWork": "アニメ「NARUTO -ナルト-」第2OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:610",
+      "title": "雑踏、僕らの街",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0601",
+      "originalWork": "アニメ「ガールズバンドクライ」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:352",
+      "title": "TOMORROW",
+      "band": "ハロー、ハッピーワールド！×Machico",
+      "category": "エクストラ",
+      "workId": "wk-0346",
+      "originalWork": "アニメ「この素晴らしい世界に祝福を！ 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:236",
+      "title": "TWiNKLE CiRCLE",
+      "band": "GBP!スペシャルバンド",
+      "category": "オリジナル",
+      "workId": "wk-0231",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:90",
+      "title": "クインティプル☆すまいる",
+      "band": "GBP!スペシャルバンド",
+      "category": "オリジナル",
+      "workId": "wk-0090",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:445",
+      "title": "VORACITY",
+      "band": "RAISE A SUILEN×MYTH & ROID",
+      "category": "エクストラ",
+      "workId": "wk-0438",
+      "originalWork": "アニメ「オーバーロード 第3期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:747",
+      "title": "Wonder Night Land",
+      "band": "星降るティーパーティー",
+      "category": "オリジナル",
+      "workId": "wk-0728",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:460",
+      "title": "YELL",
+      "band": "彩×日菜×千聖×麻弥×友希那×紗夜×リサ×燐子×薫×花音",
+      "category": "カバー",
+      "workId": "wk-0452",
+      "originalWork": "イベント「第76回NHK全国学校音楽コンクール」中学校の部課題曲",
+      "target": false
+    },
+    {
+      "reference": "garupa:690",
+      "title": "flame of hope(パラレルver.)",
+      "band": "クールビューティーズ",
+      "category": "オリジナル",
+      "workId": "wk-0262",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:723",
+      "title": "♡桃色片想い♡",
+      "band": "Pastel＊Palettes×マイメロディ",
+      "category": "エクストラ",
+      "workId": "wk-0707",
+      "originalWork": "バラエティ「アイドルをさがせ!」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:358",
+      "title": "あの夢をなぞって",
+      "band": "Poppin'Party×ときのそら",
+      "category": "エクストラ",
+      "workId": "wk-0352",
+      "originalWork": "情報番組「とくダネ!」2020年6月度お天気コーナー曲、「タフト」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:661",
+      "title": "えがおのオーケストラっ！(パラレルver.)",
+      "band": "優雅なティータイムを♪",
+      "category": "オリジナル",
+      "workId": "wk-0017",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:738",
+      "title": "きゅ〜まい＊flower(パラレルver.)",
+      "band": "スキを貫け♡",
+      "category": "オリジナル",
+      "workId": "wk-0176",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:722",
+      "title": "じょいふる",
+      "band": "Poppin'Party×ハローキティ",
+      "category": "エクストラ",
+      "workId": "wk-0706",
+      "originalWork": "「江崎グリコ ポッキー」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:76",
+      "title": "す、好きなんかじゃない！",
+      "band": "市ヶ谷有咲",
+      "category": "オリジナル",
+      "workId": "wk-0076",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:763",
+      "title": "ときめきエクスペリエンス！ (月島まりなver.)",
+      "band": "月島まりな",
+      "category": "オリジナル",
+      "workId": "wk-0001",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:46",
+      "title": "どきどきSING OUT!",
+      "band": "戸山香澄",
+      "category": "オリジナル",
+      "workId": "wk-0046",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:558",
+      "title": "どりーみんチュチュ",
+      "band": "Pastel＊Palettes×花音",
+      "category": "カバー",
+      "workId": "wk-0549",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:137",
+      "title": "ひとりじゃないんだから",
+      "band": "彩×モカ×リサ×花音×つぐみ",
+      "category": "オリジナル",
+      "workId": "wk-0137",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:652",
+      "title": "ひとりじゃないんだから(パラレルver.)",
+      "band": "羽沢珈琲店にようこそ♪",
+      "category": "オリジナル",
+      "workId": "wk-0137",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:357",
+      "title": "ぼなぺてぃーと♡Ｓ",
+      "band": "ハロー、ハッピーワールド！×白上フブキ",
+      "category": "エクストラ",
+      "workId": "wk-0351",
+      "originalWork": "アニメ「ブレンド・S」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:449",
+      "title": "もってけ！セーラーふく",
+      "band": "ハロー、ハッピーワールド！×香澄×有咲×イヴ",
+      "category": "カバー",
+      "workId": "wk-0441",
+      "originalWork": "アニメ「らき☆すた」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:737",
+      "title": "イケナイ太陽",
+      "band": "ハロー、ハッピーワールド！×レイヤ",
+      "category": "カバー",
+      "workId": "wk-0721",
+      "originalWork": "ドラマ「花ざかりの君たちへ～イケメン♂パラダイス～」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:712",
+      "title": "エガクミライ",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0696",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:535",
+      "title": "処救生",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0526",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:597",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0588",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:489",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0480",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:520",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0511",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:697",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0681",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:490",
+      "title": "栞",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0481",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:522",
+      "title": "歌いましょう鳴らしましょう",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0513",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:620",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0611",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:694",
+      "title": "残痕字",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0678",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:677",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0663",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:664",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0651",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:771",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0749",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:497",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0488",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:732",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0716",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:663",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0650",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:503",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0494",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:563",
+      "title": "輪符雨",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0554",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:473",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0464",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:510",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0501",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:613",
+      "title": "過惰幻",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0604",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:647",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0636",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:552",
+      "title": "グッド・バイ",
+      "band": "john feat. 夢ノ結唱 ROSE",
+      "category": "オリジナル",
+      "workId": "wk-0543",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:376",
+      "title": "グッバイ宣言",
+      "band": "Afterglow×香澄",
+      "category": "カバー",
+      "workId": "wk-0370",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:297",
+      "title": "ドラマツルギー",
+      "band": "Afterglow×香澄",
+      "category": "カバー",
+      "workId": "wk-0291",
+      "originalWork": "ドラマ「フォローされたら終わり」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:42",
+      "title": "天体観測",
+      "band": "Afterglow×香澄",
+      "category": "カバー",
+      "workId": "wk-0042",
+      "originalWork": "ドラマ「天体観測」挿入歌、「docomo」CMソング",
+      "target": false
+    },
+    {
+      "reference": "garupa:634",
+      "title": "シカ色デイズ",
+      "band": "ハロー、ハッピーワールド！×ましろ",
+      "category": "カバー",
+      "workId": "wk-0624",
+      "originalWork": "アニメ「しかのこのこのここしたんたん」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:373",
+      "title": "シル・ヴ・プレジデント",
+      "band": "ハロー、ハッピーワールド！×彩×ましろ",
+      "category": "カバー",
+      "workId": "wk-0367",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:448",
+      "title": "シル・ヴ・プレジデント",
+      "band": "ハロー、ハッピーワールド！×P丸様。",
+      "category": "エクストラ",
+      "workId": "wk-0367",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:438",
+      "title": "スカイクラッドの観測者",
+      "band": "Roselia×いとうかなこ",
+      "category": "エクストラ",
+      "workId": "wk-0431",
+      "originalWork": "ゲーム「STEINS;GATE」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:479",
+      "title": "チューリングラブ",
+      "band": "ハロー、ハッピーワールド！×蘭",
+      "category": "カバー",
+      "workId": "wk-0470",
+      "originalWork": "アニメ「理系が恋に落ちたので証明してみた。第1期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:61",
+      "title": "チョコレイトの低音レシピ",
+      "band": "牛込りみ",
+      "category": "オリジナル",
+      "workId": "wk-0061",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:736",
+      "title": "デビルじゃないもん",
+      "band": "Pastel＊Palettes×友希那",
+      "category": "カバー",
+      "workId": "wk-0720",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:360",
+      "title": "ナカナ イナ カナイ",
+      "band": "花園たえ×レイヤ",
+      "category": "オリジナル",
+      "workId": "wk-0354",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:99",
+      "title": "ハレ晴レユカイ",
+      "band": "ハロー、ハッピーワールド！×蘭×彩",
+      "category": "カバー",
+      "workId": "wk-0099",
+      "originalWork": "アニメ「涼宮ハルヒの憂鬱 第1期」ED",
+      "target": false
+    },
+    {
+      "reference": "garupa:374",
+      "title": "ヒトリゴト",
+      "band": "Pastel＊Palettes×ClariS",
+      "category": "エクストラ",
+      "workId": "wk-0368",
+      "originalWork": "アニメ「エロマンガ先生」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:353",
+      "title": "ピコたるもの、ふぃーばー！",
+      "band": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ",
+      "category": "オリジナル",
+      "workId": "wk-0347",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:121",
+      "title": "ピコっと！パピっと！！ガルパ☆ピコ！！！",
+      "band": "香澄×蘭×彩×友希那×こころ",
+      "category": "オリジナル",
+      "workId": "wk-0121",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:257",
+      "title": "大盛り一丁！ガルパ☆ピコ",
+      "band": "香澄×蘭×彩×友希那×こころ",
+      "category": "オリジナル",
+      "workId": "wk-0251",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:356",
+      "title": "ファンサ",
+      "band": "Pastel＊Palettes×湊あくあ",
+      "category": "エクストラ",
+      "workId": "wk-0350",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:452",
+      "title": "フォニイ",
+      "band": "Afterglow×96猫",
+      "category": "エクストラ",
+      "workId": "wk-0444",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:637",
+      "title": "マルカリアンチェイン",
+      "band": "夢ノ結唱 ROSE",
+      "category": "オリジナル",
+      "workId": "wk-0627",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:296",
+      "title": "ムーンライト伝説",
+      "band": "Pastel＊Palettes×こころ×ましろ",
+      "category": "カバー",
+      "workId": "wk-0290",
+      "originalWork": "アニメ「美少女戦士セーラームーン 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:344",
+      "title": "ラスハピーポー！",
+      "band": "RAISE A SUILEN×ハロー、ハッピーワールド！",
+      "category": "オリジナル",
+      "workId": "wk-0338",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:450",
+      "title": "乙女はサイコパス",
+      "band": "Poppin'Party×P丸様。",
+      "category": "エクストラ",
+      "workId": "wk-0442",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:464",
+      "title": "五等分の気持ち",
+      "band": "Pastel＊Palettes×有咲×つぐみ×ましろ",
+      "category": "カバー",
+      "workId": "wk-0456",
+      "originalWork": "アニメ「五等分の花嫁 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:718",
+      "title": "元祖！バンドリちゃんのテーマ",
+      "band": "香澄×蘭×彩×友希那×こころ×ましろ×レイヤ×燈×ドロリス×あられ",
+      "category": "オリジナル",
+      "workId": "wk-0702",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:225",
+      "title": "創聖のアクエリオン",
+      "band": "Poppin'Party×友希那",
+      "category": "カバー",
+      "workId": "wk-0221",
+      "originalWork": "アニメ「創聖のアクエリオン」第1OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:512",
+      "title": "可愛くてごめん",
+      "band": "Pastel＊Palettes 日菜×千聖×麻弥×イヴ",
+      "category": "カバー",
+      "workId": "wk-0503",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:478",
+      "title": "少女レイ",
+      "band": "Poppin'Party×ましろ",
+      "category": "カバー",
+      "workId": "wk-0469",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:632",
+      "title": "幾億光年",
+      "band": "Poppin'Party×燈",
+      "category": "カバー",
+      "workId": "wk-0622",
+      "originalWork": "ドラマ「Eye Love You」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:635",
+      "title": "悪魔の子",
+      "band": "Roselia×レイヤ",
+      "category": "カバー",
+      "workId": "wk-0625",
+      "originalWork": "アニメ「進撃の巨人 第4期（The Final Season）」第2クールED",
+      "target": false
+    },
+    {
+      "reference": "garupa:377",
+      "title": "曇天",
+      "band": "Roselia×レイヤ",
+      "category": "カバー",
+      "workId": "wk-0371",
+      "originalWork": "アニメ「銀魂」第5OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:486",
+      "title": "惑星ループ",
+      "band": "Pastel＊Palettes×パレオ",
+      "category": "カバー",
+      "workId": "wk-0477",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:630",
+      "title": "愛包ダンスホール",
+      "band": "Pastel＊Palettes×蘭",
+      "category": "カバー",
+      "workId": "wk-0620",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:731",
+      "title": "手を叩け今ここで祈るだけ願うだけ",
+      "band": "夢ノ結唱 HALO",
+      "category": "オリジナル",
+      "workId": "wk-0715",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:541",
+      "title": "擬態ごっこ",
+      "band": "Roselia×沙花叉クロヱ",
+      "category": "エクストラ",
+      "workId": "wk-0532",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:646",
+      "title": "春日影",
+      "band": "CRYCHIC",
+      "category": "オリジナル",
+      "workId": "wk-0635",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:170",
+      "title": "檄！帝国華撃団",
+      "band": "Poppin'Party×彩×こころ",
+      "category": "カバー",
+      "workId": "wk-0170",
+      "originalWork": "ゲーム「サクラ大戦」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:41",
+      "title": "正解はひとつ!じゃない!!",
+      "band": "Poppin'Party×グリグリ",
+      "category": "カバー",
+      "workId": "wk-0041",
+      "originalWork": "アニメ「探偵オペラ ミルキィホームズ 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:761",
+      "title": "灼熱 Bonfire!(パラレルver.)",
+      "band": "GO OUR WAYS！",
+      "category": "オリジナル",
+      "workId": "wk-0333",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:740",
+      "title": "熱色スターマイン(パラレルver.)",
+      "band": "さんふらわー！",
+      "category": "オリジナル",
+      "workId": "wk-0059",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:787",
+      "title": "私の心はチョココロネ(パラレルver.)",
+      "band": "モカ×つくし×愛音",
+      "category": "オリジナル",
+      "workId": "wk-0107",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:499",
+      "title": "私色きらめき日和",
+      "band": "ますかっと feat. 夢ノ結唱 POPY",
+      "category": "オリジナル",
+      "workId": "wk-0490",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:347",
+      "title": "競宴Red×Violet",
+      "band": "Roselia×Afterglow",
+      "category": "オリジナル",
+      "workId": "wk-0341",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:341",
+      "title": "絆色のアンサンブル",
+      "band": "Poppin'Party×Pastel＊Palettes×Morfonica",
+      "category": "オリジナル",
+      "workId": "wk-0335",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:451",
+      "title": "群青",
+      "band": "Morfonica×友希那",
+      "category": "カバー",
+      "workId": "wk-0443",
+      "originalWork": "「アルフォートミニチョコレート」CMソング、情報番組「スッキリ」ダンス ONE プロジェクト’21テーマ曲",
+      "target": false
+    },
+    {
+      "reference": "garupa:534",
+      "title": "聖少女領域",
+      "band": "Roselia×ロボ子さん×常闇トワ×沙花叉クロヱ",
+      "category": "エクストラ",
+      "workId": "wk-0525",
+      "originalWork": "アニメ「ローゼンメイデン 第2期（トロイメント）」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:475",
+      "title": "花呼ぶ声",
+      "band": "kemu feat. 夢ノ結唱 POPY×夢ノ結唱 ROSE",
+      "category": "オリジナル",
+      "workId": "wk-0466",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:51",
+      "title": "花園電気ギター！！！",
+      "band": "花園たえ",
+      "category": "オリジナル",
+      "workId": "wk-0051",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:689",
+      "title": "走り始めたばかりのキミに(パラレルver.)",
+      "band": "ぽわぽわが～るず",
+      "category": "オリジナル",
+      "workId": "wk-0008",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:454",
+      "title": "転生林檎",
+      "band": "Roselia×＋α／あるふぁきゅん。",
+      "category": "エクストラ",
+      "workId": "wk-0446",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:628",
+      "title": "迷星叫(パラレルver.)",
+      "band": "あこがれの共演",
+      "category": "オリジナル",
+      "workId": "wk-0464",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:70",
+      "title": "遠い音楽～ハートビート～",
+      "band": "山吹沙綾",
+      "category": "オリジナル",
+      "workId": "wk-0070",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:453",
+      "title": "閃光",
+      "band": "Afterglow×レイヤ",
+      "category": "カバー",
+      "workId": "wk-0445",
+      "originalWork": "映画「機動戦士ガンダム 閃光のハサウェイ」主題歌",
+      "target": false
+    },
+    {
+      "reference": "garupa:678",
+      "title": "雪華は無常に微笑む",
+      "band": "友希那×愛音×りみ×つくし×つぐみ",
+      "category": "オリジナル",
+      "workId": "wk-0664",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "garupa:405",
+      "title": "青空のラプソディ",
+      "band": "Morfonica×fhána",
+      "category": "エクストラ",
+      "workId": "wk-0398",
+      "originalWork": "アニメ「小林さんちのメイドラゴン 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "garupa:799",
+      "title": "Hello! Wink!（パラレルver.）",
+      "band": "有咲×ひまり×友希那×燐子×ミッシェル",
+      "category": "オリジナル",
+      "workId": "wk-0207",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:1",
+      "title": "迷星叫",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0464",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:2",
+      "title": "壱雫空",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0480",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:3",
+      "title": "碧天伴走",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0488",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:4",
+      "title": "影色舞",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0511",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:5",
+      "title": "潜在表明",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0663",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:6",
+      "title": "音一会",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0636",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:7",
+      "title": "春日影（MyGO!!!!! ver.）",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0635",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:8",
+      "title": "詩超絆",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0494",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:9",
+      "title": "迷路日々",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0501",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:10",
+      "title": "無路矢",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0749",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:11",
+      "title": "名無声",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0588",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:12",
+      "title": "歩拾道",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0611",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:13",
+      "title": "端程山",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0716",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:14",
+      "title": "砂寸奏",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0776",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:15",
+      "title": "焚音打",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0651",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:16",
+      "title": "聿日箋秋",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0650",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:17",
+      "title": "証命讃歌",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0777",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:18",
+      "title": "往欄印",
+      "band": "MyGO!!!!!",
+      "category": "オリジナル",
+      "workId": "wk-0681",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:19",
+      "title": "ないものねだり",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0778",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:20",
+      "title": "シャルル",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0128",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:21",
+      "title": "青春コンプレックス",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0779",
+      "originalWork": "アニメ「ぼっち・ざ・ろっく！」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:22",
+      "title": "ホワイトノイズ",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0538",
+      "originalWork": "アニメ「東京リベンジャーズ 第2期（聖夜決戦編）」OP、アニメ「東京リベンジャーズ 第3期（天竺編）」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:81",
+      "title": "空に歌えば",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0821",
+      "originalWork": "アニメ「僕のヒーローアカデミア 第2期」第2クールOP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:86",
+      "title": "過去を喰らう",
+      "band": "MyGO!!!!!",
+      "category": "カバー",
+      "workId": "wk-0739",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:23",
+      "title": "Ave Mujica",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0626",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:24",
+      "title": "KiLLKiSS",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0628",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:25",
+      "title": "Imprisoned XII",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0638",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:26",
+      "title": "Crucifix X",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0639",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:27",
+      "title": "八芒星ダンス",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0649",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:28",
+      "title": "顔",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0653",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:29",
+      "title": "天球(そら)のMúsica",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0654",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:30",
+      "title": "Symbol I : △",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0780",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:31",
+      "title": "Symbol II : Air",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0781",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:32",
+      "title": "Symbol III : ▽",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0782",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:33",
+      "title": "Symbol IV : Earth",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0783",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:34",
+      "title": "Ether",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0784",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:35",
+      "title": "黒のバースデイ",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0669",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:36",
+      "title": "Choir ‘S’ Choir",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0785",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:37",
+      "title": "Mas?uerade Rhapsody Re?uest",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0699",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:38",
+      "title": "碧い瞳の中に",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0786",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:39",
+      "title": "The Whole Blue World",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0787",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:88",
+      "title": "神の名を",
+      "band": "Ave Mujica",
+      "category": "オリジナル",
+      "workId": "wk-0826",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:40",
+      "title": "残酷な天使のテーゼ",
+      "band": "Ave Mujica",
+      "category": "カバー",
+      "workId": "wk-0086",
+      "originalWork": "アニメ「新世紀エヴァンゲリオン」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:41",
+      "title": "堕天",
+      "band": "Ave Mujica",
+      "category": "カバー",
+      "workId": "wk-0788",
+      "originalWork": "アニメ「よふかしのうた 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:42",
+      "title": "暗黒天国",
+      "band": "Ave Mujica",
+      "category": "カバー",
+      "workId": "wk-0789",
+      "originalWork": "アニメ「かみちゃまかりん」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:43",
+      "title": "KINGS",
+      "band": "Ave Mujica",
+      "category": "カバー",
+      "workId": "wk-0790",
+      "originalWork": "アニメ「K 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:83",
+      "title": "ファタール",
+      "band": "Ave Mujica",
+      "category": "カバー",
+      "workId": "wk-0608",
+      "originalWork": "アニメ「【推しの子】第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:44",
+      "title": "✞animaるパーティ✞開催中✞",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0791",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:45",
+      "title": "エンプティパペット",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0792",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:46",
+      "title": "限界現実サバイブ天使",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0793",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:47",
+      "title": "ビッグマウス",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0794",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:48",
+      "title": "夢現妄想世界",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0795",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:49",
+      "title": "コハク",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0796",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:52",
+      "title": "真夜中遊園地",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0797",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:50",
+      "title": "これはぼくたちの生存のあらすじ",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0798",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:51",
+      "title": "うちゅうのふしぎ",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0799",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:53",
+      "title": "チューニング",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0800",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:54",
+      "title": "超惑星Xへの旅",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0801",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:55",
+      "title": "TearJerker",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0802",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:56",
+      "title": "Face The Next",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0803",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:57",
+      "title": "in my words",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0804",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:58",
+      "title": "愛は衝動",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0805",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:85",
+      "title": "夢我夢中",
+      "band": "夢限大みゅーたいぷ",
+      "category": "オリジナル",
+      "workId": "wk-0823",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:59",
+      "title": "六兆年と一夜物語",
+      "band": "夢限大みゅーたいぷ",
+      "category": "カバー",
+      "workId": "wk-0116",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:60",
+      "title": "唱",
+      "band": "夢限大みゅーたいぷ",
+      "category": "カバー",
+      "workId": "wk-0806",
+      "originalWork": "イベント「ユニバーサル・スタジオ・ジャパン ゾンビ・デ・ダンス（2023年）」使用曲",
+      "target": false
+    },
+    {
+      "reference": "ournotes:61",
+      "title": "オリオンをなぞる",
+      "band": "夢限大みゅーたいぷ",
+      "category": "カバー",
+      "workId": "wk-0807",
+      "originalWork": "アニメ「TIGER & BUNNY 第1期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:62",
+      "title": "UNDEAD",
+      "band": "夢限大みゅーたいぷ",
+      "category": "カバー",
+      "workId": "wk-0808",
+      "originalWork": "アニメ「〈物語〉シリーズ オフ＆モンスターシーズン」主題歌",
+      "target": false
+    },
+    {
+      "reference": "ournotes:80",
+      "title": "ちゅ、多様性。",
+      "band": "夢限大みゅーたいぷ",
+      "category": "カバー",
+      "workId": "wk-0594",
+      "originalWork": "アニメ「チェンソーマン」第7話ED",
+      "target": false
+    },
+    {
+      "reference": "ournotes:63",
+      "title": "起死開戦",
+      "band": "millsage",
+      "category": "オリジナル",
+      "workId": "wk-0809",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:65",
+      "title": "鳴らす",
+      "band": "millsage",
+      "category": "オリジナル",
+      "workId": "wk-0811",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:66",
+      "title": "カーネーションの咲く日に",
+      "band": "millsage",
+      "category": "オリジナル",
+      "workId": "wk-0812",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:64",
+      "title": "everscape",
+      "band": "millsage",
+      "category": "オリジナル",
+      "workId": "wk-0810",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:87",
+      "title": "Odd Dice",
+      "band": "millsage",
+      "category": "オリジナル",
+      "workId": "wk-0825",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:67",
+      "title": "青のすみか",
+      "band": "millsage",
+      "category": "カバー",
+      "workId": "wk-0559",
+      "originalWork": "アニメ「呪術廻戦 第2期」第1クールOP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:68",
+      "title": "Pretender",
+      "band": "millsage",
+      "category": "カバー",
+      "workId": "wk-0813",
+      "originalWork": "映画「コンフィデンスマンJP ロマンス編」主題歌",
+      "target": false
+    },
+    {
+      "reference": "ournotes:69",
+      "title": "unravel",
+      "band": "millsage",
+      "category": "カバー",
+      "workId": "wk-0387",
+      "originalWork": "アニメ「東京喰種トーキョーグール 第1期」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:70",
+      "title": "ロウワー",
+      "band": "millsage",
+      "category": "カバー",
+      "workId": "wk-0814",
+      "originalWork": "ゲーム「プロジェクトセカイ　カラフルステージ！ feat.初音ミク」書き下ろし楽曲",
+      "target": false
+    },
+    {
+      "reference": "ournotes:82",
+      "title": "Stellar Stellar",
+      "band": "millsage",
+      "category": "カバー",
+      "workId": "wk-0533",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:71",
+      "title": "ホーミー・タイッ！！",
+      "band": "一家Dumb Rock!",
+      "category": "オリジナル",
+      "workId": "wk-0815",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:73",
+      "title": "ピースフル・ピーシーズ！",
+      "band": "一家Dumb Rock!",
+      "category": "オリジナル",
+      "workId": "wk-0817",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:74",
+      "title": "Keep on Riddim",
+      "band": "一家Dumb Rock!",
+      "category": "オリジナル",
+      "workId": "wk-0818",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:72",
+      "title": "ジャイアント・キラー・チューン",
+      "band": "一家Dumb Rock!",
+      "category": "オリジナル",
+      "workId": "wk-0816",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:89",
+      "title": "アイライク・ユアライク",
+      "band": "一家Dumb Rock!",
+      "category": "オリジナル",
+      "workId": "wk-0827",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:75",
+      "title": "Mela!",
+      "band": "一家Dumb Rock!",
+      "category": "カバー",
+      "workId": "wk-0819",
+      "originalWork": null,
+      "target": true
+    },
+    {
+      "reference": "ournotes:76",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "band": "一家Dumb Rock!",
+      "category": "カバー",
+      "workId": "wk-0820",
+      "originalWork": "アニメ「銀魂 第2期」第1クールED",
+      "target": false
+    },
+    {
+      "reference": "ournotes:77",
+      "title": "イケナイ太陽",
+      "band": "一家Dumb Rock!",
+      "category": "カバー",
+      "workId": "wk-0721",
+      "originalWork": "ドラマ「花ざかりの君たちへ～イケメン♂パラダイス～」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:78",
+      "title": "革命道中",
+      "band": "一家Dumb Rock!",
+      "category": "カバー",
+      "workId": "wk-0735",
+      "originalWork": "アニメ「ダンダダン 第2期」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:84",
+      "title": "微笑みの爆弾",
+      "band": "一家Dumb Rock!",
+      "category": "カバー",
+      "workId": "wk-0822",
+      "originalWork": "アニメ「幽☆遊☆白書」OP",
+      "target": false
+    },
+    {
+      "reference": "ournotes:79",
+      "title": "春日影",
+      "band": "CRYCHIC",
+      "category": "オリジナル",
+      "workId": "wk-0635",
+      "originalWork": null,
+      "target": true
+    }
+  ]
+}

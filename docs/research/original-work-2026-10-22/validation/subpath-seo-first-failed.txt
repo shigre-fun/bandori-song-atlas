@@ -1,0 +1,42 @@
+file:///C:/MyProgramming/BangDream_Website/scripts/qa/audit-build.mjs:362
+    throw new Error(
+          ^
+
+Error: 4324件の監査エラー:
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/277/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/703/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/533/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/255/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/528/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/717/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/602/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/276/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/371/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/483/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/443/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/394/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/328/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/733/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/314/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/261/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/359/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/684/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/349/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/651/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/784/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/435/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/624/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/578/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/404/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/303/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/672/
+sitemapの正規URLが不正: https://tanimachi-bdsongs.com/bandori-song-atlas/garupa/songs/744/
+    at auditBuild (file:///C:/MyProgramming/BangDream_Website/scripts/qa/audit-build.mjs:362:11)
+    at file:///C:/MyProgramming/BangDream_Website/scripts/qa/audit-build.mjs:382:15
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+
+Node.js v22.23.4

@@ -17,7 +17,7 @@ JSONでは文字列を半角の二重引用符で囲み、最後の項目の後�
 | `workId`                    | `data/works.json` の固定作品ID。新曲CLIが採番。同作品と確認した既存収録では同じIDを使う                  |
 | `credits` / `creditDisplay` | 登録済みCreator ID・担当・表示上書き、および担当別の表示順序。[Creator仕様](../docs/CREATORS.md)参照     |
 | `originalArtist`            | 原曲アーティスト。オリジナルや未確認の場合は `null`                                                      |
-| `originalWork`              | 原曲が使用されたアニメ・映画等。複数あれば区切って入力。未確認は `null`                                  |
+| `originalWork`              | 全種類共通。楽曲が使用されたアニメ・映画・ドラマ・CM等と用途（OP・ED・劇中歌等）。複数は区切って入力。確認済みの該当なしは `"なし"`、不明は `null`（画面は「未登録」）。通常のゲーム収録やライブ演奏だけではタイアップとしない |
 | `live3d`                    | 3Dライブあり：`true`、なし：`false`、未確認：`null`。オリジナルの詳細で表示                              |
 | `bpm`                       | 基本BPM。小数可。未確認は `null`。BPM順はこの値を使う                                                    |
 | `bpmMin` / `bpmMax`         | BPMの下限・上限。変動時は両方入力し、下限 ≦ 基本 ≦ 上限。一定なら両方 `null` または基本と同値            |

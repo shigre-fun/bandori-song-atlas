@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "changed": 416,
+  "byGame": {
+    "garupa": 370,
+    "ournotes": 46
+  },
+  "counts": {
+    "existing": 308,
+    "confirmed": 164,
+    "none": 418,
+    "human_review": 0
+  },
+  "nonWorkFieldsPreserved": true,
+  "priorResolvedValuesPreserved": true,
+  "idempotent": true,
+  "files": [
+    "f72787942cd59e561c9394fb1225e362af06203db1941baf079d117aa6924bb2",
+    "1b74a6bb6913aa8a688de0b911fc0cd67947d08851c8963e42748102673932bc"
+  ]
+}

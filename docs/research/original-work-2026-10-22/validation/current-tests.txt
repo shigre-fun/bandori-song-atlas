@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: home Creator count follows the master and grows without a fixed count
+ok 1 - home Creator count follows the master and grows without a fixed count
+  ---
+  duration_ms: 2.08
+  type: 'test'
+  ...
+# Subtest: home Creator CTA works at root and subpath with descriptive static roles
+ok 2 - home Creator CTA works at root and subpath with descriptive static roles
+  ---
+  duration_ms: 0.7403
+  type: 'test'
+  ...
+# Subtest: home presents Creator discovery before news and compact operator information
+ok 3 - home presents Creator discovery before news and compact operator information
+  ---
+  duration_ms: 0.6603
+  type: 'test'
+  ...
+# Subtest: home Hero and description explain Creator discovery and keep existing brand assets
+ok 4 - home Hero and description explain Creator discovery and keep existing brand assets
+  ---
+  duration_ms: 0.554
+  type: 'test'
+  ...
+# Subtest: live 神の名を changes the composer separator while preserving both Creator identities
+ok 5 - live 神の名を changes the composer separator while preserving both Creator identities
+  ---
+  duration_ms: 423.9546
+  type: 'test'
+  ...
+# Subtest: live Creator and Work references validate after ordinary song edits
+ok 6 - live Creator and Work references validate after ordinary song edits
+  ---
+  duration_ms: 73.952
+  type: 'test'
+  ...
+# Subtest: live builds preserve every current song field and Creator/Work master
+ok 7 - live builds preserve every current song field and Creator/Work master
+  ---
+  duration_ms: 45.2511
+  type: 'test'
+  ...
+# Subtest: live administrator IDs remain valid as songs are added or edited
+ok 8 - live administrator IDs remain valid as songs are added or edited
+  ---
+  duration_ms: 0.7628
+  type: 'test'
+  ...
+# Subtest: every live song detail uses 作詞・作曲・編曲 in order for every category
+ok 9 - every live song detail uses 作詞・作曲・編曲 in order for every category
+  ---
+  duration_ms: 154.6325
+  type: 'test'
+  ...
+# Subtest: live 夢我夢中 saves other fields with every effective credit and Creator unchanged
+ok 10 - live 夢我夢中 saves other fields with every effective credit and Creator unchanged
+  ---
+  duration_ms: 364.423
+  type: 'test'
+  ...
+# Subtest: live 限界現実サバイブ天使 saves other fields with every effective credit and Creator unchanged
+ok 11 - live 限界現実サバイブ天使 saves other fields with every effective credit and Creator unchanged
+  ---
+  duration_ms: 336.5552
+  type: 'test'
+  ...
+# Subtest: all 582 review targets have evidence or an individually searched human-review entry; unrelated song data and 308 existing values are preserved
+ok 12 - all 582 review targets have evidence or an individually searched human-review entry; unrelated song data and 308 existing values are preserved
+  ---
+  duration_ms: 100.9636
+  type: 'test'
+  ...
+# Subtest: all 890 details render exactly one work field for every category and deployment prefix
+ok 13 - all 890 details render exactly one work field for every category and deployment prefix
+  ---
+  duration_ms: 493.8446
+  type: 'test'
+  ...
+# Subtest: work text is escaped and absence remains distinct from unknown on original recordings
+ok 14 - work text is escaped and absence remains distinct from unknown on original recordings
+  ---
+  duration_ms: 28.4961
+  type: 'test'
+  ...
+# Subtest: the real admin form extraction preserves original work text through a database update for both games, including none and clearing to unknown
+ok 15 - the real admin form extraction preserves original work text through a database update for both games, including none and clearing to unknown
+  ---
+  duration_ms: 125.3463
+  type: 'test'
+  ...
+1..15
+# tests 15
+# suites 0
+# pass 15
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1582.245

@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-22",
+  "status": "PASS_LOCAL_IMPLEMENTATION_AND_REVIEW_LIST",
+  "runtime": "v22.23.4",
+  "head": "60ebfd6b33b130b3933e0157f765fdd2840d615e",
+  "total": 890,
+  "targets": 582,
+  "counts": {
+    "existing": 308,
+    "confirmed": 164,
+    "none": 2,
+    "human_review": 416
+  },
+  "changedRecordings": 166,
+  "perGame": {
+    "garupa": {
+      "existing": 288,
+      "confirmed": 141,
+      "none": 2,
+      "human_review": 370
+    },
+    "ournotes": {
+      "existing": 20,
+      "confirmed": 23,
+      "none": 0,
+      "human_review": 46
+    }
+  },
+  "tests": {
+    "historical": 278,
+    "currentAndNew": 15,
+    "totalPassing": 293,
+    "initialStandardFailure": "live catalog compared with stale dist before root rebuild; current 11 passed after build",
+    "initialAdminFixtureFailure": "minute-resolution OurNotes date was incorrectly sliced; fixture corrected, all 4 passed"
+  },
+  "pages": {
+    "root": 890,
+    "subpath": 890,
+    "seoPagesPerBuild": 1345
+  },
+  "idempotent": true,
+  "nonWorkFieldsPreserved": true,
+  "existing308Preserved": true,
+  "firstFailureLog": {
+    "uncompressedSHA256": "e6c3e01d9faebab07e88927ed7fee176f46d947a36fec24270182af9b4e7abf1",
+    "gzipSHA256": "3a2e80c3651982c61d7d71f7c773f3d6b094d48aefc1accfe781f03c2d4ebcd8",
+    "lossless": true
+  },
+  "publication": "not requested; no commit, push or deploy",
+  "limitations": [
+    "Official domains returned maintenance HTTP503; search-preserved official pages and independent official publishers were used",
+    "416 unresolved entries intentionally remain null/未登録 for human review",
+    "Local static output and real form extraction tested; no real GitHub write or production/browser deployment test"
+  ],
+  "files": {
+    "README.md": "d422ec74ecad24b6b663808253f09dcb8125f1e540123b038d0f41d0f833ebbc",
+    "WORK_LOG.md": "ef61cf7a1aa66de621c62fedf1d29c4380dac46120d03dbb4fc680cc81e4e5e3",
+    "data/garupa/songs.json": "aef6970f366c53d563d07185bf253d4769a543ee8a1d04a83e81dce40ff8d52d",
+    "data/ournotes/songs.json": "bef50c6737b4c44a906ddfcd3052fa90ccfb02dcf49eed2bf8cc88d56b62140a",
+    "src/js/admin.js": "6aac0e0974b014b0748ec4493f66da3827b5ca570538f385dbcb33126035208c",
+    "src/js/views.js": "0010e54076c75716128a24002b21691d9bb3132e123444fecb15a85e0d6e51e7",
+    "src/pages/admin.html": "f90e7fea456c39047954e2d6d0319d48892b56b05d417a38b5d344c98d904ba8",
+    "templates/README.md": "29b291324ccc25d4b919ee33887894bb3a037318d5058007e175858ff5d5c90c",
+    "scripts/research/original-work.mjs": "c9268f62525c266751fd6d90f3a7b540fa369d82967fd22242de1bb96b196f8e",
+    "scripts/qa/original-work.mjs": "2cdf445fa452465e3b5c8d867fd8f7bd3da81adfa6e311005c291e8c643b4ec2",
+    "scripts/qa/finalize-original-work.mjs": "a0162171721cea709a81f34d6f1aacc2d31f4fe1ad86fe391193eb6dcdc98b66",
+    "tests/research/original-work.test.mjs": "925ad8bd3efc480b796cf8b0316d3c9c91b917e0e06e9b739ca342b35ac46b81",
+    "docs/research/original-work-2026-10-22/baseline.json": "e174dae760eca95172b17c30effaeb1414114aaa68252a64f8059f2e6df0ecbd",
+    "docs/research/original-work-2026-10-22/CHANGES.md": "6994ac5c3dcdcfea235ba94198ea5f551e822e8098517e67e1dfe9ed8da65158",
+    "docs/research/original-work-2026-10-22/decisions.json": "678cdfb91fc52e48d43c6630bb1ec1ee4a5254c5cecdf8978ebe5bfe8aa0adca",
+    "docs/research/original-work-2026-10-22/human-review.json": "7b0b0c91af2f06c208218f80cc80a8b4a48a4a857a78b4d0203a3912cf204903",
+    "docs/research/original-work-2026-10-22/HUMAN_REVIEW.md": "19dbab099e0b75a23f5a5737df37f32c177aa0ce5c0dfff10e67d8ae8a3f45ea",
+    "docs/research/original-work-2026-10-22/README.md": "bed36b9a6d96dc8adf90828951038d88a6737b3f4cf7e6959f9e2a8b132a1d75",
+    "docs/research/original-work-2026-10-22/review.json": "20eefa54ab324d1555918d171e6865b944a49b8fb3a00f7e8ff049744c1f02a3",
+    "docs/research/original-work-2026-10-22/search-index.json": "f00d7ef873265d7d4e9e8919e3b6dd5c492658f702bd0765e9d524c510715202",
+    "docs/research/original-work-2026-10-22/unresolved-notes.json": "c7053890b76580c5d3c01a01d1f31f465b43ff5ffcec9c38ab8b916ae54c9313",
+    "docs/research/original-work-2026-10-22/validation/current-tests.txt": "0d83a0db540cfe37ca95b42e3d8e29b9b59e64934a1380d70f10a16d735c25ba",
+    "docs/research/original-work-2026-10-22/validation/format.txt": "f20510a9da4717c51c4cffee6d0dd88d6c9a723d0a83711d01216f5b48961283",
+    "docs/research/original-work-2026-10-22/validation/root-build.txt": "dbdcb6eb1961b55d4475e9d7f3b2e4830357407f238da20e1e266b03546ea336",
+    "docs/research/original-work-2026-10-22/validation/root-pages.json": "755264d8fc50f47fe5325a0c1854c799809f66bb07a699cfe249cc299564adf0",
+    "docs/research/original-work-2026-10-22/validation/root-seo.txt": "15658a77b45fe4ef50b29e07a4b22ef54931850cdcf44c1072193c0820742a02",
+    "docs/research/original-work-2026-10-22/validation/standard-tests-first-failed.txt.gz": "3a2e80c3651982c61d7d71f7c773f3d6b094d48aefc1accfe781f03c2d4ebcd8",
+    "docs/research/original-work-2026-10-22/validation/subpath-build.txt": "dbdcb6eb1961b55d4475e9d7f3b2e4830357407f238da20e1e266b03546ea336",
+    "docs/research/original-work-2026-10-22/validation/subpath-pages.json": "4cbb593dce5446fe8e83dbf650d707a2c4cbc4c32e7c26900d4c9af3d8cc48e1",
+    "docs/research/original-work-2026-10-22/validation/subpath-seo-first-failed.txt": "280db2327022a31cbc0e6cf71b5d80e2ca8e278a9b802685ca7f86ba082cd6bb",
+    "docs/research/original-work-2026-10-22/validation/subpath-seo.txt": "15658a77b45fe4ef50b29e07a4b22ef54931850cdcf44c1072193c0820742a02"
+  }
+}

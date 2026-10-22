@@ -1,0 +1,34 @@
+TAP version 13
+# Subtest: all 582 review targets have evidence or an individually searched human-review entry; unrelated song data and 308 existing values are preserved
+ok 1 - all 582 review targets have evidence or an individually searched human-review entry; unrelated song data and 308 existing values are preserved
+  ---
+  duration_ms: 247.3952
+  type: 'test'
+  ...
+# Subtest: all 890 details render exactly one work field for every category and deployment prefix
+ok 2 - all 890 details render exactly one work field for every category and deployment prefix
+  ---
+  duration_ms: 1029.4828
+  type: 'test'
+  ...
+# Subtest: work text is escaped and absence remains distinct from unknown on original recordings
+ok 3 - work text is escaped and absence remains distinct from unknown on original recordings
+  ---
+  duration_ms: 51.5733
+  type: 'test'
+  ...
+# Subtest: the real admin form extraction preserves original work text through a database update for both games, including none and clearing to unknown
+ok 4 - the real admin form extraction preserves original work text through a database update for both games, including none and clearing to unknown
+  ---
+  duration_ms: 230.0393
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1995.7543

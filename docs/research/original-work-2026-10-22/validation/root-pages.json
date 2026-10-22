@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "directory": "dist",
+  "base": "/",
+  "details": 890,
+  "counts": {
+    "existing": 308,
+    "confirmed": 164,
+    "none": 2,
+    "human_review": 416
+  },
+  "nonWorkFieldsPreserved": true,
+  "creatorsAndWorksPreserved": true,
+  "sharedAdminField": true
+}

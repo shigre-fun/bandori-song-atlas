@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-22",
+  "status": "PASS_LOCAL_READY_TO_PUBLISH",
+  "runtime": "v22.23.4",
+  "total": 890,
+  "targets": 582,
+  "counts": {
+    "existing": 308,
+    "confirmed": 164,
+    "none": 418,
+    "human_review": 0
+  },
+  "humanConfirmed": 416,
+  "humanConfirmedPerGame": {
+    "garupa": 370,
+    "ournotes": 46
+  },
+  "totalChangesSincePublished": {
+    "garupa": 513,
+    "ournotes": 69
+  },
+  "tests": {
+    "standard": 289,
+    "research": 4,
+    "total": 293
+  },
+  "pages": {
+    "root": 890,
+    "subpath": 890,
+    "seoPerBuild": 1345
+  },
+  "nonWorkFieldsPreserved": true,
+  "priorResolvedValuesPreserved": true,
+  "idempotent": true,
+  "publication": {
+    "authorized": true,
+    "status": "pending"
+  },
+  "hashes": {
+    "data/garupa/songs.json": "f72787942cd59e561c9394fb1225e362af06203db1941baf079d117aa6924bb2",
+    "data/ournotes/songs.json": "1b74a6bb6913aa8a688de0b911fc0cd67947d08851c8963e42748102673932bc",
+    "src/js/views.js": "0010e54076c75716128a24002b21691d9bb3132e123444fecb15a85e0d6e51e7",
+    "src/js/admin.js": "6aac0e0974b014b0748ec4493f66da3827b5ca570538f385dbcb33126035208c",
+    "src/pages/admin.html": "f90e7fea456c39047954e2d6d0319d48892b56b05d417a38b5d344c98d904ba8",
+    "docs/research/original-work-2026-10-22/human-confirmation.json": "a1a4b99cdc338841da2cb140b4fa7be49501048cf23c4812cf12230afab554e8",
+    "docs/research/original-work-2026-10-22/before-human-confirmation/human-review.json": "7b0b0c91af2f06c208218f80cc80a8b4a48a4a857a78b4d0203a3912cf204903",
+    "docs/research/original-work-2026-10-22/publication/confirmation-application.json": "ffd99981b5735d15f2b0ae0204a8f81cc9bc679e036130debb7d3114b86ab8b8",
+    "docs/research/original-work-2026-10-22/publication/format.txt": "f20510a9da4717c51c4cffee6d0dd88d6c9a723d0a83711d01216f5b48961283",
+    "docs/research/original-work-2026-10-22/publication/research-tests.txt": "bdc59ad30580c7b00eac362b7a381c28e15dcefd30ca1ebdfc953c6fa0647696",
+    "docs/research/original-work-2026-10-22/publication/root-build.txt": "dbdcb6eb1961b55d4475e9d7f3b2e4830357407f238da20e1e266b03546ea336",
+    "docs/research/original-work-2026-10-22/publication/root-pages.json": "086ac55d994dd0b3c39aebc957ea8b25d6b2c99f45f5589084441b8be7889fa2",
+    "docs/research/original-work-2026-10-22/publication/root-seo.txt": "15658a77b45fe4ef50b29e07a4b22ef54931850cdcf44c1072193c0820742a02",
+    "docs/research/original-work-2026-10-22/publication/standard-tests.txt": "04a2d95d8b2a6e6e735c41d344fc343c0379b970851f05f5e69929ab6d0c2be2",
+    "docs/research/original-work-2026-10-22/publication/subpath-build.txt": "dbdcb6eb1961b55d4475e9d7f3b2e4830357407f238da20e1e266b03546ea336",
+    "docs/research/original-work-2026-10-22/publication/subpath-pages.json": "3c5ea499cf4dcafd06df3f9aa5cf111e5fd55af75f0603f1fc4639b13e116d5c",
+    "docs/research/original-work-2026-10-22/publication/subpath-seo.txt": "15658a77b45fe4ef50b29e07a4b22ef54931850cdcf44c1072193c0820742a02"
+  }
+}

@@ -595,7 +595,7 @@ function enteredSong() {
       value("releaseOrder") === "" ? null : Number(value("releaseOrder")),
     composer: value("composer") || null,
     originalArtist: original ? null : value("originalArtist") || null,
-    originalWork: original ? null : value("originalWork") || null,
+    originalWork: value("originalWork") || null,
     ...(game.id === "garupa"
       ? { live3d: original ? JSON.parse(value("live3d")) : null }
       : {
