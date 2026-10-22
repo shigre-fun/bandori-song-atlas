@@ -4,6 +4,14 @@
 
 ## 現在地
 
+- 2026-10-22 最終gate成功：DEPLOYED_AND_VERIFIED・全source/公開前log/公開後証拠hash・index内研究証拠raw byteすべて一致、製品以後の差分は文書/改行保全attributeのみ。研究logのCRLFはrenormalizeで元byteを保存、製品source/data変更0。全416件なし・未登録0/293test/両配置/同SHA公開/本番GHP各890・全3host108HTTP検証完了、未解決問題0。作業中なし、依頼範囲の未完了0。終了記録34fileをskip CIで通常同期しfresh HEAD-originと限定差分を再確認して終了する。次の依頼ではWORK_LOG/cwd/Git/実体確認から再開。全session終端、対象外PHPだけ未追跡保持、実メール0・CF内部log直接未確認は報告に明記。
+
+- 2026-10-22 公開・全照合完了。製品2860fd2のActions39762606311 build/deploy・Cloudflare119772018791・GHP deployment7249722658すべて同SHA success。実GH Node22.23.4 log確認。3host計108HTTP/全catalog4/11module/OGP1200x630/icons/guard成功、本番/GHPそれぞれ全890詳細の楽曲情報/全リンク完全一致（計1780、retry0）。人間416件は全件なし、未登録0、既登録308/前回判明164/既なし2/全他JSON構造保持。293test/両buildSEO/全890local・再apply不変PASS。証拠manifestをDEPLOYED_AND_VERIFIEDへ更新しpublic JSON/log・README報告保存。現在：終了文書と改行保全attributeのみskip CIで同期→fresh HEAD-origin/製品以後文書差分だけ・全hash最終gate。未完了：この記録同期だけで、依頼された変更/公開/反映確認の残件0。CF内部log直接未確認を報告に区別、実メール0/対象外PHP保持/承認拒否0、全session終端。
+
+- 2026-10-22 同SHA2860fd2のActions39762606311 build/deploy・GitHub Pages deployment success、実build Node22.23.4をlog直接確認。GHP36HTTP/全catalog4/11module/OGP1200x630/icons/contact静的404 PASS、全890詳細90691を実行中。Cloudflare同check119770205040はin_progress、重複deployせず継続監視。確認用JSONのSHAをcheckout改行変換から守るため既存human-review同様に.gitattributesへ今回research dirの-text/cr-at-eol指定を追加（終了記録commit対象、製品変更なし）。現在：CF完了→本番/CF全catalog等・本番890詳細→証拠/報告同期。未完了：その公開後照合だけ。
+
+- 2026-10-22 製品2860fd2dcc41e7cf5f9e09530af97f87f96aaff1を47file限定commit/main通常push成功。stage全fileと作業byte（改行正規化/binary完全）一致・対象外PHP除外・cached diffcheck PASS、公開前tracked/index空。現在：同SHA Actions/Cloudflare/GHPの公開処理を確認中、成功後本番/GHP全890詳細および3host catalog/module/SEO/OGP等を照合。未完了：この公開後検証と証拠/終了文書同期。293test・両build/SEO/用途以外全保全は成功済。次：同SHA status→公開all GET→報告・skip CI記録同期。
+
 - 2026-10-22 stage時cached diffcheckで新規HUMAN_REVIEW.md/確認前表示用MDの末尾空行2箇所を検出→MD末尾のみ整形し生成scriptのtrimEndで再発防止。凍結JSON・確認対象SHA・実データ/検証結果は不変、全release保全gate再PASS。既存回帰293成功の製品に変更なし。現在：再stage/diffcheck→通常commit/push。未完了：公開・同SHA検証/終了記録。
 
 - 2026-10-22 公開前検証完了。36267終端0：標準219+35+24+11=289全成功、21305終端0：専用4/書式成功、計293test。3007終端0：両build801/89・各SEO1345/890・全890詳細/全catalog/共通管理欄/Creator・Work保全PASS。HEAD60ebfd6と全JSON比較でoriginalWork以外の全構造/値不変、公開前HEADからgarupa513/ournotes69=582変更（前回166+今回416）、既判明166/既登録308保持、未登録0、再apply不変PASS。最新verificationをPASS_LOCAL_READY_TO_PUBLISHへ更新。現在：限定stage/通常main commit/push→同SHA Actions/Cloudflare/GHP→本番/GHP全890照合。未完了：公開と公開後証拠/終了記録。fresh fetchでorigin/main=HEAD60ebfd6一致。補助git showが既定buffer超過ENOBUFS→32MiBへ拡大し再gate成功、CIMプロセス詳細はアクセス拒否→通常Get-Process/既存session終端で確認。対象外PHP保持、製品問題なし。

@@ -1,0 +1,230 @@
+{
+  "result": "PASS",
+  "verifiedAt": "2026-10-22T10:28:30.536Z",
+  "commit": "2860fd2dcc41e7cf5f9e09530af97f87f96aaff1",
+  "origin": "https://garupa-song-atlas.pages.dev",
+  "prefix": "",
+  "catalogsEqualReleaseCommit": true,
+  "moduleCodeEqualReleaseBuild": true,
+  "ogpDimensions": "1200x630",
+  "contactMethodGuard": 405,
+  "realContactSubmissions": 0,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "d81842f743e446634518aabf19398758d9ccd131c36a987bdc8f3065e3d8eb79",
+      "url": "https://tanimachi-bdsongs.com/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/search/?q=アイライク",
+      "status": 200,
+      "sha256": "3e1d00f7ff24d190d3044576bc520a045a8526b07a508bd0d2e72220284febc8",
+      "url": "https://tanimachi-bdsongs.com/search/?q=%E3%82%A2%E3%82%A4%E3%83%A9%E3%82%A4%E3%82%AF&original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/garupa/songs/801/",
+      "status": 200,
+      "sha256": "bc10a25276b3d831ee6cd65c42bfa19b7887236dbd24e285235f46d06062b8ee",
+      "url": "https://tanimachi-bdsongs.com/garupa/songs/801/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/ournotes/songs/89/",
+      "status": 200,
+      "sha256": "ec1bf7c8168e4f9562973a27c9bc44b8b9c54f91d26f3e259b4ed7b095d8f1d7",
+      "url": "https://tanimachi-bdsongs.com/ournotes/songs/89/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators/",
+      "status": 200,
+      "sha256": "b7102919d4b97d1326fef1ead5a226656f482c317fc47664bedac515b855e2f0",
+      "url": "https://tanimachi-bdsongs.com/creators/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators/asuka-oda/",
+      "status": 200,
+      "sha256": "97c24edc013e78efc3d414dc862edf08f85caa4b628cdce3d35b26241583122a",
+      "url": "https://tanimachi-bdsongs.com/creators/asuka-oda/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/",
+      "status": 200,
+      "sha256": "306d82015edbd18ee1aef59e19c149d7bdc687eca2aaccc80a98c17eb8701436",
+      "url": "https://tanimachi-bdsongs.com/admin/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/?game=ournotes",
+      "status": 200,
+      "sha256": "306d82015edbd18ee1aef59e19c149d7bdc687eca2aaccc80a98c17eb8701436",
+      "url": "https://tanimachi-bdsongs.com/admin/?game=ournotes&original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/creators/",
+      "status": 200,
+      "sha256": "81cc0c499e35380f79410f8608902fa3bc0dfc24778e2872b4c040a5fa82f1a2",
+      "url": "https://tanimachi-bdsongs.com/admin/creators/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/news/",
+      "status": 200,
+      "sha256": "b5b6b70efd048aebda47d6352a4d411549876417c62f114a0bf0f5703f310432",
+      "url": "https://tanimachi-bdsongs.com/admin/news/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/news/",
+      "status": 200,
+      "sha256": "867d4556d625cc8ca165682c0aead059c3709690e9f2edf53ec66a5a204a8631",
+      "url": "https://tanimachi-bdsongs.com/news/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "sha256": "4576ec7b3ca5cd1e172c2a5fc0d042a252a0587dc131e12e1f42aa70a01b9196",
+      "url": "https://tanimachi-bdsongs.com/contact/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "85d8a74a5ba0ce2c1b5de1a6ab4455c9be9b96d177379f034035bd650ccf433b",
+      "url": "https://tanimachi-bdsongs.com/sitemap.xml?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "94b80359ff8d1cd5f449f0785972401886f75d0a12ee2221365099b0033d5a81",
+      "url": "https://tanimachi-bdsongs.com/robots.txt?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/garupa/songs.json",
+      "status": 200,
+      "sha256": "e4774dc2134109ce0a592b3839458bce2089ec013021a0a1d55e0f03c87491fd",
+      "url": "https://tanimachi-bdsongs.com/garupa/songs.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/ournotes/songs.json",
+      "status": 200,
+      "sha256": "2e67d8181bf33d9ed7117d11de6ff9e39a38c9dc298b11328ebde0b32993d479",
+      "url": "https://tanimachi-bdsongs.com/ournotes/songs.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators.json",
+      "status": 200,
+      "sha256": "dedb3483a9e4c3ed2c77c70cf24e845afa61f389f62e7ecb1f925f24e18081dd",
+      "url": "https://tanimachi-bdsongs.com/creators.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/works.json",
+      "status": 200,
+      "sha256": "990b7192f1af0a0c8a5c72cabe05b8abd4d877de123d00320ebc36bdcb94c833",
+      "url": "https://tanimachi-bdsongs.com/works.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin.js",
+      "status": 200,
+      "sha256": "b18ab053e66dc8009de8b26e342f7f5a2f5a894262880343baf14bfabeb1870e",
+      "url": "https://tanimachi-bdsongs.com/admin.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creator-picker.js",
+      "status": 200,
+      "sha256": "17e3f0ea7460ca3fe77c4c69edbf6473fe6bc9075461b64250231d0bcf88ee00",
+      "url": "https://tanimachi-bdsongs.com/creator-picker.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators-data.js",
+      "status": 200,
+      "sha256": "1d013c8aaa885184c6f4e544b2410ad0bb2ae96287ec4ada49d5004307fbf4ff",
+      "url": "https://tanimachi-bdsongs.com/creators-data.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/github-store.js",
+      "status": 200,
+      "sha256": "10aca719838bfac10a93712743a96d7f4c7338760f6081a0177fc49b4993b0a5",
+      "url": "https://tanimachi-bdsongs.com/github-store.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin.css",
+      "status": 200,
+      "sha256": "79ddbf6ecdd9a82cd9622c968efd99d1272a69ee05510c664f1a6b0ce0be9d3c",
+      "url": "https://tanimachi-bdsongs.com/admin.css?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/views.js",
+      "status": 200,
+      "sha256": "f89da783d6505f257d29c3c118531ceff2e2d3ebe6984f5367b8315c5be9253d",
+      "url": "https://tanimachi-bdsongs.com/views.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/credit-display.js",
+      "status": 200,
+      "sha256": "5bcf08fc1a4848840e92a7c47242c4d57e156855294e85ce1db691cc698425e0",
+      "url": "https://tanimachi-bdsongs.com/credit-display.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/domain.js",
+      "status": 200,
+      "sha256": "0c369accee46a1434a1fe144bd12e4fc5f9361825dfb3e098d7d9f7db9a6c314",
+      "url": "https://tanimachi-bdsongs.com/domain.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creator-views.js",
+      "status": 200,
+      "sha256": "8a61be87b94f1ce83152b55b518e13e457bc5c5ac44615e52c84359900d90ddd",
+      "url": "https://tanimachi-bdsongs.com/creator-views.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators.js",
+      "status": 200,
+      "sha256": "64d604178a645cdf3ec24920e46ee3c26963bf32677540f6cd74b32db162ab71",
+      "url": "https://tanimachi-bdsongs.com/creators.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "sha256": "fca72eeb40c7f109ae1acb021bb7789cb45e9c4983c35512950f96a58b95dc5e",
+      "url": "https://tanimachi-bdsongs.com/style.css?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/site.png",
+      "status": 200,
+      "sha256": "e39bc63f9173752152f38e320f312d4ac70ea3acdbf5fb34f979abccf850ef7d",
+      "url": "https://tanimachi-bdsongs.com/assets/og/site.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/songs/garupa/801-d673d2f9d370.png",
+      "status": 200,
+      "sha256": "63f5b1fe5f23379e99ea90ffea3b43ba4678e1a4e513267176b4b340ecb04c84",
+      "url": "https://tanimachi-bdsongs.com/assets/og/songs/garupa/801-d673d2f9d370.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/songs/ournotes/89-2dc95d06b97d.png",
+      "status": 200,
+      "sha256": "df9635a94902902723f80a886865a0fd6a354fab4ae2717a7252908adad13a20",
+      "url": "https://tanimachi-bdsongs.com/assets/og/songs/ournotes/89-2dc95d06b97d.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "sha256": "923f7f1e16b8799a7e3c7447ad8230d903cd95c70c2e41d37212b52e482c1ea4",
+      "url": "https://tanimachi-bdsongs.com/favicon.svg?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/favicon-32.png",
+      "status": 200,
+      "sha256": "468f8c3ddd1699bafdb90bcfbb3d0f6f85a33d384194eff688443f1a6579c884",
+      "url": "https://tanimachi-bdsongs.com/favicon-32.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "status": 200,
+      "sha256": "0598184b7607bba037f7217ddcaf5b4b52c4e64eda2c0e6e6af209966fe7c038",
+      "url": "https://tanimachi-bdsongs.com/apple-touch-icon.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/api/contact",
+      "status": 405,
+      "sha256": "2352868e88eee34751f9186d8eb8a0d07db8cc172ad241e507fa184f13072e59",
+      "url": "https://tanimachi-bdsongs.com/api/contact?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    }
+  ]
+}

@@ -10,6 +10,10 @@
 
 再現用 `scripts/research/original-work.mjs apply/report/verify` は凍結リストのハッシュ・416参照の完全一致、既判明データとの重複なし、全非対象field保全を検査する。旧 `scripts/qa/finalize-original-work.mjs` は人間確認前・HEAD60ebfd6時点専用の履歴検証であり、現在の公開確認には使用しない。
 
+公開・反映確認完了。製品commit `2860fd2dcc41e7cf5f9e09530af97f87f96aaff1` は [Actions39762606311](https://github.com/shigre-fun/bandori-song-atlas/actions/runs/39762606311) のbuild/deploy、Cloudflare Pages、GitHub Pagesがすべて成功。本番とGitHub Pagesそれぞれ全890詳細（計1780）の全楽曲情報・リンクをローカル生成結果と照合し、今回416件の「なし」・既登録/判明情報の保持・未登録0を確認した。3配信先合計108 HTTP、全カタログ・配信モジュール・OGP1200x630・アイコン等も一致した。全詳細取得の再試行0。実GitHub buildのNode22.23.4をlogで確認。Cloudflare内部ビルドlogは直接未確認だが同SHAの公開check成功と公開内容の一致を確認している。
+
+公開前は標準289＋専用4＝293test、両配置build・SEO各1345ページ/890詳細、用途以外の全JSON構造/値保全、既登録308・前回判明164・既確認なし2の保持、再適用不変がPASS。実メール送信は0。[公開検証manifest](verification.json)・[公開状態](publication/status.json)・[本番890詳細](publication/details-production.json)・[GitHub890詳細](publication/details-github.json)を保存。履歴の根拠JSONとlogは `.gitattributes` で改行変換を無効にしてbyteを保持する。
+
 以下は人間確認前の調査報告（履歴）。未登録416件・公開未実施という記述は当時の状態を示す。
 
 # 使用作品・タイアップの再調査（2026-10-22）

@@ -1,0 +1,230 @@
+{
+  "result": "PASS",
+  "verifiedAt": "2026-10-22T10:26:00.933Z",
+  "commit": "2860fd2dcc41e7cf5f9e09530af97f87f96aaff1",
+  "origin": "https://shigre-fun.github.io",
+  "prefix": "/bandori-song-atlas",
+  "catalogsEqualReleaseCommit": true,
+  "moduleCodeEqualReleaseBuild": true,
+  "ogpDimensions": "1200x630",
+  "contactMethodGuard": "STATIC_HOST_404",
+  "realContactSubmissions": 0,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "c4e1fd71973e0e26d843edf65792cc998dea596f21253b8fa9623fad05c9ffe7",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/search/?q=アイライク",
+      "status": 200,
+      "sha256": "5f1da7302ae3ff4116744f97f55253b278464bef2b459d71714b40a33a9cba03",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/search/?q=%E3%82%A2%E3%82%A4%E3%83%A9%E3%82%A4%E3%82%AF&original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/garupa/songs/801/",
+      "status": 200,
+      "sha256": "b65a202f40e01cd71ae69571a13237fa0989784facf808df3c374bd019579718",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/garupa/songs/801/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/ournotes/songs/89/",
+      "status": 200,
+      "sha256": "6aa1e23efac2ce4ce73ff4bd6b1d332a638656c2e07d4ec3923ad2ee04c054dc",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/ournotes/songs/89/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators/",
+      "status": 200,
+      "sha256": "d146bc81ce968285e4fff788dad0524c4dba1270bb5ec9b67d1b0c4b2c697f0b",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creators/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators/asuka-oda/",
+      "status": 200,
+      "sha256": "0e87a854a262c7ec3dc06836aa6f6c2e065e9836cf36d521001e1fbcace51712",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creators/asuka-oda/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/",
+      "status": 200,
+      "sha256": "4e3d36725cf9a249cd76d074be5be98339e44411df0e4762d3be4334e0cc791a",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/?game=ournotes",
+      "status": 200,
+      "sha256": "4e3d36725cf9a249cd76d074be5be98339e44411df0e4762d3be4334e0cc791a",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin/?game=ournotes&original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/creators/",
+      "status": 200,
+      "sha256": "036bef4e0d8cdd02d53f5fe1fd3c9808376f398e10a921491a7892a441fcebc3",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin/creators/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin/news/",
+      "status": 200,
+      "sha256": "1940377dd05430dd3fc82536b388de7257c2c4418a5f34c554c9b2dd14d97bef",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin/news/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/news/",
+      "status": 200,
+      "sha256": "5089ae5c2126b653f4671e09d9a27e43c37f189db6bcacfe565f4261a02fd320",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/news/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "sha256": "947f7992d651d8bf12acf8e56a6111340d0eaed8b22f6da5ca8e53b00b9dcb6f",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/contact/?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "sha256": "904b0153948f1d53aeb898370a352b3ec92b443b2845f68b19eda6df114c0543",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/sitemap.xml?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "sha256": "6ddc946c29131b0ba777fc8fc871aac0d5c53465f0705d43a857cb0eae2c67cc",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/robots.txt?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/garupa/songs.json",
+      "status": 200,
+      "sha256": "e4774dc2134109ce0a592b3839458bce2089ec013021a0a1d55e0f03c87491fd",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/garupa/songs.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/ournotes/songs.json",
+      "status": 200,
+      "sha256": "2e67d8181bf33d9ed7117d11de6ff9e39a38c9dc298b11328ebde0b32993d479",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/ournotes/songs.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators.json",
+      "status": 200,
+      "sha256": "dedb3483a9e4c3ed2c77c70cf24e845afa61f389f62e7ecb1f925f24e18081dd",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creators.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/works.json",
+      "status": 200,
+      "sha256": "990b7192f1af0a0c8a5c72cabe05b8abd4d877de123d00320ebc36bdcb94c833",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/works.json?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin.js",
+      "status": 200,
+      "sha256": "b18ab053e66dc8009de8b26e342f7f5a2f5a894262880343baf14bfabeb1870e",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creator-picker.js",
+      "status": 200,
+      "sha256": "17e3f0ea7460ca3fe77c4c69edbf6473fe6bc9075461b64250231d0bcf88ee00",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creator-picker.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators-data.js",
+      "status": 200,
+      "sha256": "1d013c8aaa885184c6f4e544b2410ad0bb2ae96287ec4ada49d5004307fbf4ff",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creators-data.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/github-store.js",
+      "status": 200,
+      "sha256": "10aca719838bfac10a93712743a96d7f4c7338760f6081a0177fc49b4993b0a5",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/github-store.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/admin.css",
+      "status": 200,
+      "sha256": "79ddbf6ecdd9a82cd9622c968efd99d1272a69ee05510c664f1a6b0ce0be9d3c",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/admin.css?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/views.js",
+      "status": 200,
+      "sha256": "f89da783d6505f257d29c3c118531ceff2e2d3ebe6984f5367b8315c5be9253d",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/views.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/credit-display.js",
+      "status": 200,
+      "sha256": "5bcf08fc1a4848840e92a7c47242c4d57e156855294e85ce1db691cc698425e0",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/credit-display.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/domain.js",
+      "status": 200,
+      "sha256": "0c369accee46a1434a1fe144bd12e4fc5f9361825dfb3e098d7d9f7db9a6c314",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/domain.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creator-views.js",
+      "status": 200,
+      "sha256": "8a61be87b94f1ce83152b55b518e13e457bc5c5ac44615e52c84359900d90ddd",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creator-views.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/creators.js",
+      "status": 200,
+      "sha256": "64d604178a645cdf3ec24920e46ee3c26963bf32677540f6cd74b32db162ab71",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/creators.js?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "sha256": "fca72eeb40c7f109ae1acb021bb7789cb45e9c4983c35512950f96a58b95dc5e",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/style.css?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/site.png",
+      "status": 200,
+      "sha256": "e39bc63f9173752152f38e320f312d4ac70ea3acdbf5fb34f979abccf850ef7d",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/assets/og/site.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/songs/garupa/801-d673d2f9d370.png",
+      "status": 200,
+      "sha256": "63f5b1fe5f23379e99ea90ffea3b43ba4678e1a4e513267176b4b340ecb04c84",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/assets/og/songs/garupa/801-d673d2f9d370.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/assets/og/songs/ournotes/89-2dc95d06b97d.png",
+      "status": 200,
+      "sha256": "df9635a94902902723f80a886865a0fd6a354fab4ae2717a7252908adad13a20",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/assets/og/songs/ournotes/89-2dc95d06b97d.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "sha256": "923f7f1e16b8799a7e3c7447ad8230d903cd95c70c2e41d37212b52e482c1ea4",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/favicon.svg?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/favicon-32.png",
+      "status": 200,
+      "sha256": "468f8c3ddd1699bafdb90bcfbb3d0f6f85a33d384194eff688443f1a6579c884",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/favicon-32.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/apple-touch-icon.png",
+      "status": 200,
+      "sha256": "0598184b7607bba037f7217ddcaf5b4b52c4e64eda2c0e6e6af209966fe7c038",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/apple-touch-icon.png?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    },
+    {
+      "path": "/api/contact",
+      "status": 404,
+      "sha256": "a1d8349dcd84a937c40f4d109e8229bde9173d6597672566e4c706e57eb51572",
+      "url": "https://shigre-fun.github.io/bandori-song-atlas/api/contact?original_work_release=2860fd2dcc41e7cf5f9e09530af97f87f96aaff1"
+    }
+  ]
+}
