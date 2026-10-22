@@ -18,6 +18,8 @@ for (const directory of ["src", "scripts", "tests", "docs", "data"])
         REVIEW_DIR,
         "docs/human-review/creator-credits-p2-2026-10-10",
         "docs/human-review/creator-credits-p3-2026-10-16",
+        "docs/human-review/creator-credits-remaining-2026-10-21",
+        "docs/human-review/creator-final-six-2026-10-22",
       ].some((d) => p.replaceAll("\\", "/").startsWith(d)),
   });
 fs.copyFileSync("package.json", path.join(root, "package.json"));

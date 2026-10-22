@@ -1,0 +1,13 @@
+{
+  "head": "33b9264055287392b2b73189c77d365f8a01915d",
+  "templateHead": "f10fa7e0695a46f08c1fad01b26802b5af5498cf",
+  "fileHashes": {
+    "data/creators.json": "927b6920a718073abb7a4a36ec8f830e9597db97623593645594d0b5b21e1d83",
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457",
+    "data/garupa/songs.json": "433339443356408aaa959e5c049d660ad799a2acd6901d03a9af58d4988beb9b",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/ournotes/songs.json": "e58f6689c99f314c83e14b43991d2953271d00cbb6a55d7ab1ecdd894f5af4f4",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94"
+  }
+}

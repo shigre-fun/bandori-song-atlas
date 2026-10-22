@@ -1,0 +1,8 @@
+{
+  pages: 1345,
+  details: 890,
+  detailCounts: { garupa: 801, ournotes: 89 },
+  redirects: 797,
+  creatorRedirects: 19,
+  titleCount: 1345
+}

@@ -1,0 +1,1035 @@
+[
+  {
+    "uid": "B001",
+    "creator": {
+      "id": "cr-0372",
+      "name": "宝野アリカ",
+      "reading": "たからのありか",
+      "sortKey": "たからのありか",
+      "sortKeyStatus": "confirmed",
+      "slug": "allica-takarano",
+      "type": "person",
+      "aliases": [
+        "宝野 アリカ",
+        "宝野　アリカ"
+      ]
+    }
+  },
+  {
+    "uid": "B002",
+    "creator": {
+      "id": "cr-0373",
+      "name": "UYKADO",
+      "reading": "ゆいかどう",
+      "sortKey": "ゆいかどう",
+      "sortKeyStatus": "confirmed",
+      "slug": "uykado",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B003",
+    "creator": {
+      "id": "cr-0374",
+      "name": "加藤貴之",
+      "reading": "かとうたかゆき",
+      "sortKey": "かとうたかゆき",
+      "sortKeyStatus": "confirmed",
+      "slug": "takayuki-kato",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B004",
+    "creator": {
+      "id": "cr-0375",
+      "name": "牧野太洋",
+      "reading": "まきのたいよう",
+      "sortKey": "まきのたいよう",
+      "sortKeyStatus": "confirmed",
+      "slug": "taiyo-makino",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B005",
+    "creator": {
+      "id": "cr-0376",
+      "name": "DjeDje",
+      "reading": "じぇじぇ",
+      "sortKey": "じぇじぇ",
+      "sortKeyStatus": "confirmed",
+      "slug": "djedje",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B006",
+    "creator": {
+      "id": "cr-0377",
+      "name": "Nor",
+      "reading": "のる",
+      "sortKey": "のる",
+      "sortKeyStatus": "confirmed",
+      "slug": "nor",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B007",
+    "creator": {
+      "id": "cr-0378",
+      "name": "R-指定",
+      "reading": "あーるしてい",
+      "sortKey": "あーるしてい",
+      "sortKeyStatus": "confirmed",
+      "slug": "r-shitei",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B008",
+    "creator": {
+      "id": "cr-0379",
+      "name": "ぬゆり",
+      "reading": "ぬゆり",
+      "sortKey": "ぬゆり",
+      "sortKeyStatus": "confirmed",
+      "slug": "nulut",
+      "type": "person",
+      "aliases": [
+        "Lanndo",
+        "nulut"
+      ]
+    }
+  },
+  {
+    "uid": "B009",
+    "creator": {
+      "id": "cr-0380",
+      "name": "横地健太",
+      "reading": "よこちけんた",
+      "sortKey": "よこちけんた",
+      "sortKeyStatus": "confirmed",
+      "slug": "kenta-yokochi",
+      "type": "person",
+      "aliases": [
+        "横地健太(SUPA LOVE)"
+      ]
+    }
+  },
+  {
+    "uid": "B010",
+    "creator": {
+      "id": "cr-0381",
+      "name": "三村一輝",
+      "reading": "みむらかずき",
+      "sortKey": "みむらかずき",
+      "sortKeyStatus": "confirmed",
+      "slug": "kazuki-mimura",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B011",
+    "creator": {
+      "id": "cr-0382",
+      "name": "千石ユノ",
+      "reading": "せんごくゆの",
+      "sortKey": "せんごくゆの",
+      "sortKeyStatus": "confirmed",
+      "slug": "yuno-sengoku",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B012",
+    "creator": {
+      "id": "cr-0383",
+      "name": "唐沢美帆",
+      "reading": "からさわみほ",
+      "sortKey": "からさわみほ",
+      "sortKeyStatus": "confirmed",
+      "slug": "miho-karasawa",
+      "type": "person",
+      "aliases": [
+        "TRUE"
+      ]
+    }
+  },
+  {
+    "uid": "B013",
+    "creator": {
+      "id": "cr-0384",
+      "name": "尾崎豪",
+      "reading": "おざきごう",
+      "sortKey": "おざきごう",
+      "sortKeyStatus": "confirmed",
+      "slug": "go-ozaki",
+      "type": "person",
+      "aliases": [
+        "尾崎豪(SUPA LOVE)",
+        "尾崎豪（SUPA LOVE）"
+      ]
+    }
+  },
+  {
+    "uid": "B014",
+    "creator": {
+      "id": "cr-0385",
+      "name": "Carlos K.",
+      "reading": "かるろすけー",
+      "sortKey": "かるろすけー",
+      "sortKeyStatus": "confirmed",
+      "slug": "carlos-k",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B015",
+    "creator": {
+      "id": "cr-0386",
+      "name": "eba",
+      "reading": "えば",
+      "sortKey": "えば",
+      "sortKeyStatus": "confirmed",
+      "slug": "eba",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B016",
+    "creator": {
+      "id": "cr-0387",
+      "name": "FUNKY MONKEY BΛBY’S",
+      "reading": "ふぁんきーもんきーべいびーず",
+      "sortKey": "ふぁんきーもんきーべいびーず",
+      "sortKeyStatus": "confirmed",
+      "slug": "funky-monkey-babys",
+      "type": "unit",
+      "aliases": [
+        "FUNKY MONKEY BABYS"
+      ]
+    }
+  },
+  {
+    "uid": "B018",
+    "creator": {
+      "id": "cr-0388",
+      "name": "Gohgo",
+      "reading": "ごご",
+      "sortKey": "ごご",
+      "sortKeyStatus": "confirmed",
+      "slug": "gohgo",
+      "type": "person",
+      "aliases": [
+        "幽世55番街",
+        "Kakuriyo"
+      ]
+    }
+  },
+  {
+    "uid": "B019",
+    "creator": {
+      "id": "cr-0389",
+      "name": "JACK",
+      "reading": "じゃっく",
+      "sortKey": "じゃっく",
+      "sortKeyStatus": "confirmed",
+      "slug": "jack",
+      "type": "person",
+      "aliases": [
+        "(sic)boy"
+      ]
+    }
+  },
+  {
+    "uid": "B020",
+    "creator": {
+      "id": "cr-0390",
+      "name": "岡嶋かな多",
+      "reading": "おかじまかなた",
+      "sortKey": "おかじまかなた",
+      "sortKeyStatus": "confirmed",
+      "slug": "kanata-okajima",
+      "type": "person",
+      "aliases": [
+        "KANATA OKAJIMA",
+        "Kanata Okajima"
+      ]
+    }
+  },
+  {
+    "uid": "B022",
+    "creator": {
+      "id": "cr-0391",
+      "name": "kz",
+      "reading": "けーぜっと",
+      "sortKey": "けーぜっと",
+      "sortKeyStatus": "confirmed",
+      "slug": "kz",
+      "type": "person",
+      "aliases": [
+        "livetune"
+      ]
+    }
+  },
+  {
+    "uid": "B024",
+    "creator": {
+      "id": "cr-0392",
+      "name": "Lotus Juice",
+      "reading": "ろーたすじゅーす",
+      "sortKey": "ろーたすじゅーす",
+      "sortKeyStatus": "confirmed",
+      "slug": "lotus-juice",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B025",
+    "creator": {
+      "id": "cr-0393",
+      "name": "Louis",
+      "reading": "るい",
+      "sortKey": "るい",
+      "sortKeyStatus": "confirmed",
+      "slug": "louis",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B026",
+    "creator": {
+      "id": "cr-0394",
+      "name": "MAQUMA",
+      "reading": "まくま",
+      "sortKey": "まくま",
+      "sortKeyStatus": "confirmed",
+      "slug": "maquma",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B027",
+    "creator": {
+      "id": "cr-0395",
+      "name": "Marcus Van Wattum",
+      "reading": "まーかすふぁんわったむ",
+      "sortKey": "まーかすふぁんわったむ",
+      "sortKeyStatus": "confirmed",
+      "slug": "marcus-van-wattum",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B028",
+    "creator": {
+      "id": "cr-0396",
+      "name": "Masayoshi Minoshima",
+      "reading": "まさよしみのしま",
+      "sortKey": "まさよしみのしま",
+      "sortKeyStatus": "confirmed",
+      "slug": "masayoshi-minoshima",
+      "type": "person",
+      "aliases": [
+        "Masayoshi Minoshima（Alstroemeria Records）"
+      ]
+    }
+  },
+  {
+    "uid": "B029",
+    "creator": {
+      "id": "cr-0397",
+      "name": "MEG.ME",
+      "reading": "めぐみー",
+      "sortKey": "めぐみー",
+      "sortKeyStatus": "confirmed",
+      "slug": "meg-me",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B031",
+    "creator": {
+      "id": "cr-0398",
+      "name": "n-buna",
+      "reading": "なぶな",
+      "sortKey": "なぶな",
+      "sortKeyStatus": "confirmed",
+      "slug": "n-buna",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B032",
+    "creator": {
+      "id": "cr-0399",
+      "name": "Naoki-T",
+      "reading": "なおきてぃー",
+      "sortKey": "なおきてぃー",
+      "sortKeyStatus": "confirmed",
+      "slug": "naoki-t",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B033",
+    "creator": {
+      "id": "cr-0400",
+      "name": "Nicky Romero",
+      "reading": "にっきーろめろ",
+      "sortKey": "にっきーろめろ",
+      "sortKeyStatus": "confirmed",
+      "slug": "nicky-romero",
+      "type": "person",
+      "aliases": [
+        "Nick Rotteveel"
+      ]
+    }
+  },
+  {
+    "uid": "B034",
+    "creator": {
+      "id": "cr-0401",
+      "name": "NORiMETAL",
+      "reading": "のりめたる",
+      "sortKey": "のりめたる",
+      "sortKeyStatus": "confirmed",
+      "slug": "norimetal",
+      "type": "person",
+      "aliases": [
+        "のりぞー"
+      ]
+    }
+  },
+  {
+    "uid": "B035",
+    "creator": {
+      "id": "cr-0402",
+      "name": "SAKURAmoti",
+      "reading": "さくらもち",
+      "sortKey": "さくらもち",
+      "sortKeyStatus": "confirmed",
+      "slug": "sakuramoti",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B036",
+    "creator": {
+      "id": "cr-0403",
+      "name": "Sekimen",
+      "reading": "せきめん",
+      "sortKey": "せきめん",
+      "sortKeyStatus": "confirmed",
+      "slug": "sekimen",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B037",
+    "creator": {
+      "id": "cr-0404",
+      "name": "SKYTOPIA",
+      "reading": "すかいとぴあ",
+      "sortKey": "すかいとぴあ",
+      "sortKeyStatus": "confirmed",
+      "slug": "skytopia",
+      "type": "person",
+      "aliases": [
+        "Skye K"
+      ]
+    }
+  },
+  {
+    "uid": "B038",
+    "creator": {
+      "id": "cr-0405",
+      "name": "YOUSAY",
+      "reading": "ゆうせい",
+      "sortKey": "ゆうせい",
+      "sortKeyStatus": "confirmed",
+      "slug": "yousay",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B039",
+    "creator": {
+      "id": "cr-0406",
+      "name": "ZUN",
+      "reading": "ずん",
+      "sortKey": "ずん",
+      "sortKeyStatus": "confirmed",
+      "slug": "zun",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B040",
+    "creator": {
+      "id": "cr-0407",
+      "name": "アザミ",
+      "reading": "あざみ",
+      "sortKey": "あざみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "azami",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B041",
+    "creator": {
+      "id": "cr-0408",
+      "name": "きただにひろし",
+      "reading": "きただにひろし",
+      "sortKey": "きただにひろし",
+      "sortKeyStatus": "confirmed",
+      "slug": "hiroshi-kitadani",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B042",
+    "creator": {
+      "id": "cr-0409",
+      "name": "ケンモチヒデフミ",
+      "reading": "けんもちひでふみ",
+      "sortKey": "けんもちひでふみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "hidefumi-kenmochi",
+      "type": "person",
+      "aliases": [
+        "Kenmochi Hidefumi"
+      ]
+    }
+  },
+  {
+    "uid": "B043",
+    "creator": {
+      "id": "cr-0410",
+      "name": "つむぎしゃち",
+      "reading": "つむぎしゃち",
+      "sortKey": "つむぎしゃち",
+      "sortKeyStatus": "confirmed",
+      "slug": "shachi-tsumugi",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B044",
+    "creator": {
+      "id": "cr-0411",
+      "name": "ナナヲアカリ",
+      "reading": "ななをあかり",
+      "sortKey": "ななをあかり",
+      "sortKeyStatus": "confirmed",
+      "slug": "nanaoakari",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B046",
+    "creator": {
+      "id": "cr-0412",
+      "name": "ふるっぺ",
+      "reading": "ふるっぺ",
+      "sortKey": "ふるっぺ",
+      "sortKeyStatus": "confirmed",
+      "slug": "furuppe",
+      "type": "person",
+      "aliases": [
+        "古河弘基"
+      ]
+    }
+  },
+  {
+    "uid": "B047:1",
+    "creator": {
+      "id": "cr-0413",
+      "name": "森さん",
+      "reading": "もりさん",
+      "sortKey": "もりさん",
+      "sortKeyStatus": "confirmed",
+      "slug": "mori-san",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B047:2",
+    "creator": {
+      "id": "cr-0414",
+      "name": "Litz",
+      "reading": "りつ",
+      "sortKey": "りつ",
+      "sortKeyStatus": "confirmed",
+      "slug": "litz",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B048",
+    "creator": {
+      "id": "cr-0415",
+      "name": "ユリイ・カノン",
+      "reading": "ゆりいかのん",
+      "sortKey": "ゆりいかのん",
+      "sortKeyStatus": "confirmed",
+      "slug": "yurry-canon",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B049",
+    "creator": {
+      "id": "cr-0416",
+      "name": "安部大希",
+      "reading": "あべだいき",
+      "sortKey": "あべだいき",
+      "sortKeyStatus": "confirmed",
+      "slug": "daiki-abe",
+      "type": "person",
+      "aliases": [
+        "安部大希-amazuti-"
+      ]
+    }
+  },
+  {
+    "uid": "B050",
+    "creator": {
+      "id": "cr-0417",
+      "name": "影山ヒロノブ",
+      "reading": "かげやまひろのぶ",
+      "sortKey": "かげやまひろのぶ",
+      "sortKeyStatus": "confirmed",
+      "slug": "hironobu-kageyama",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B051",
+    "creator": {
+      "id": "cr-0418",
+      "name": "遠藤ナオキ",
+      "reading": "えんどうなおき",
+      "sortKey": "えんどうなおき",
+      "sortKeyStatus": "confirmed",
+      "slug": "naoki-endo",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B052",
+    "creator": {
+      "id": "cr-0419",
+      "name": "岡崎英美",
+      "reading": "おかざきえみ",
+      "sortKey": "おかざきえみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "emi-okazaki",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B053",
+    "creator": {
+      "id": "cr-0420",
+      "name": "岡野昭仁",
+      "reading": "おかのあきひと",
+      "sortKey": "おかのあきひと",
+      "sortKeyStatus": "confirmed",
+      "slug": "akihito-okano",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B054",
+    "creator": {
+      "id": "cr-0421",
+      "name": "加賀爪タッド",
+      "reading": "かがつめたっど",
+      "sortKey": "かがつめたっど",
+      "sortKeyStatus": "confirmed",
+      "slug": "tadd-kagatsume",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B055",
+    "creator": {
+      "id": "cr-0422",
+      "name": "花村想太",
+      "reading": "はなむらそうた",
+      "sortKey": "はなむらそうた",
+      "sortKeyStatus": "confirmed",
+      "slug": "sota-hanamura",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B056",
+    "creator": {
+      "id": "cr-0423",
+      "name": "角本麻衣",
+      "reading": "かくもとまい",
+      "sortKey": "かくもとまい",
+      "sortKeyStatus": "confirmed",
+      "slug": "mai-kakumoto",
+      "type": "person",
+      "aliases": [
+        "角本麻衣（SUPA LOVE）"
+      ]
+    }
+  },
+  {
+    "uid": "B058",
+    "creator": {
+      "id": "cr-0424",
+      "name": "岩寺基晴",
+      "reading": "いわでらもとはる",
+      "sortKey": "いわでらもとはる",
+      "sortKeyStatus": "confirmed",
+      "slug": "motoharu-iwadera",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B059",
+    "creator": {
+      "id": "cr-0425",
+      "name": "橘亮祐",
+      "reading": "たちばなりょうすけ",
+      "sortKey": "たちばなりょうすけ",
+      "sortKeyStatus": "confirmed",
+      "slug": "ryosuke-tachibana",
+      "type": "person",
+      "aliases": [
+        "橘 亮祐"
+      ]
+    }
+  },
+  {
+    "uid": "B060",
+    "creator": {
+      "id": "cr-0426",
+      "name": "久下真音",
+      "reading": "くしたまいん",
+      "sortKey": "くしたまいん",
+      "sortKeyStatus": "confirmed",
+      "slug": "mine-kushita",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B061",
+    "creator": {
+      "id": "cr-0427",
+      "name": "宮崎諒",
+      "reading": "みやざきりょう",
+      "sortKey": "みやざきりょう",
+      "sortKeyStatus": "confirmed",
+      "slug": "ryo-miyazaki",
+      "type": "person",
+      "aliases": [
+        "宮崎諒-amazuti-"
+      ]
+    }
+  },
+  {
+    "uid": "B062:0",
+    "creator": {
+      "id": "cr-0428",
+      "name": "工藤大輝",
+      "reading": "くどうたいき",
+      "sortKey": "くどうたいき",
+      "sortKeyStatus": "confirmed",
+      "slug": "taiki-kudo",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B063",
+    "creator": {
+      "id": "cr-0429",
+      "name": "江島啓一",
+      "reading": "えじまけいいち",
+      "sortKey": "えじまけいいち",
+      "sortKeyStatus": "confirmed",
+      "slug": "keiichi-ejima",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B065",
+    "creator": {
+      "id": "cr-0430",
+      "name": "山崎あおい",
+      "reading": "やまざきあおい",
+      "sortKey": "やまざきあおい",
+      "sortKeyStatus": "confirmed",
+      "slug": "aoi-yamazaki",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B067",
+    "creator": {
+      "id": "cr-0431",
+      "name": "秋元康",
+      "reading": "あきもとやすし",
+      "sortKey": "あきもとやすし",
+      "sortKeyStatus": "confirmed",
+      "slug": "yasushi-akimoto",
+      "type": "person",
+      "aliases": [
+        "秋元 康"
+      ]
+    }
+  },
+  {
+    "uid": "B068",
+    "creator": {
+      "id": "cr-0432",
+      "name": "小林鉄兵",
+      "reading": "こばやしてっぺい",
+      "sortKey": "こばやしてっぺい",
+      "sortKeyStatus": "confirmed",
+      "slug": "teppei-kobayashi",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B069",
+    "creator": {
+      "id": "cr-0433",
+      "name": "彰",
+      "reading": "あきら",
+      "sortKey": "あきら",
+      "sortKeyStatus": "confirmed",
+      "slug": "akira",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B070",
+    "creator": {
+      "id": "cr-0434",
+      "name": "松任谷由実",
+      "reading": "まつとうやゆみ",
+      "sortKey": "まつとうやゆみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "yumi-matsutoya",
+      "type": "person",
+      "aliases": [
+        "松任谷 由実",
+        "荒井由実"
+      ]
+    }
+  },
+  {
+    "uid": "B074",
+    "creator": {
+      "id": "cr-0435",
+      "name": "草刈愛美",
+      "reading": "くさかりあみ",
+      "sortKey": "くさかりあみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "ami-kusakari",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B076",
+    "creator": {
+      "id": "cr-0436",
+      "name": "田中怜子",
+      "reading": "たなかれいこ",
+      "sortKey": "たなかれいこ",
+      "sortKeyStatus": "confirmed",
+      "slug": "reiko-tanaka",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B077",
+    "creator": {
+      "id": "cr-0437",
+      "name": "馬場龍樹",
+      "reading": "ばばりゅうき",
+      "sortKey": "ばばりゅうき",
+      "sortKeyStatus": "confirmed",
+      "slug": "ryuki-baba",
+      "type": "person",
+      "aliases": [
+        "馬場　龍樹"
+      ]
+    }
+  },
+  {
+    "uid": "B078",
+    "creator": {
+      "id": "cr-0438",
+      "name": "美波",
+      "reading": "みなみ",
+      "sortKey": "みなみ",
+      "sortKeyStatus": "confirmed",
+      "slug": "minami",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B081",
+    "creator": {
+      "id": "cr-0439",
+      "name": "涼木シンジ",
+      "reading": "すずきしんじ",
+      "sortKey": "すずきしんじ",
+      "sortKeyStatus": "confirmed",
+      "slug": "shinji-suzuki",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B082",
+    "creator": {
+      "id": "cr-0440",
+      "name": "哥丸雄貴",
+      "reading": "うたまるゆうき",
+      "sortKey": "うたまるゆうき",
+      "sortKeyStatus": "confirmed",
+      "slug": "yuki-utamaru",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B083",
+    "creator": {
+      "id": "cr-0441",
+      "name": "櫻澤ヒカル",
+      "reading": "さくらざわひかる",
+      "sortKey": "さくらざわひかる",
+      "sortKeyStatus": "confirmed",
+      "slug": "hikaru-sakurazawa",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B021",
+    "creator": {
+      "id": "cr-0442",
+      "name": "KENSEI",
+      "reading": "けんせい",
+      "sortKey": "けんせい",
+      "sortKeyStatus": "confirmed",
+      "slug": "kensei",
+      "type": "person",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B030",
+    "creator": {
+      "id": "cr-0443",
+      "name": "渡辺未来",
+      "reading": "わたなべみき",
+      "sortKey": "わたなべみき",
+      "sortKeyStatus": "confirmed",
+      "slug": "miki-watanabe",
+      "type": "person",
+      "aliases": [
+        "MK-METAL"
+      ]
+    }
+  },
+  {
+    "uid": "B072",
+    "creator": {
+      "id": "cr-0444",
+      "name": "石倉まろ",
+      "reading": "いしくらまろ",
+      "sortKey": "いしくらまろ",
+      "sortKeyStatus": "confirmed",
+      "slug": "maro-ishikura",
+      "type": "person",
+      "aliases": [
+        "石倉誉之"
+      ]
+    }
+  },
+  {
+    "uid": "B079",
+    "creator": {
+      "id": "cr-0445",
+      "name": "米米CLUB",
+      "reading": "こめこめくらぶ",
+      "sortKey": "こめこめくらぶ",
+      "sortKeyStatus": "confirmed",
+      "slug": "kome-kome-club",
+      "type": "unit",
+      "aliases": []
+    }
+  },
+  {
+    "uid": "B075",
+    "creator": {
+      "id": "cr-0446",
+      "name": "多田慎也",
+      "reading": "ただしんや",
+      "sortKey": "ただしんや",
+      "sortKeyStatus": "confirmed",
+      "slug": "shinya-tada",
+      "type": "person",
+      "aliases": [
+        "多田 慎也"
+      ]
+    }
+  }
+]

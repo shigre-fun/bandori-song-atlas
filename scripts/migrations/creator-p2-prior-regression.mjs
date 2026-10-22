@@ -15,9 +15,12 @@ for (const directory of ["src", "scripts", "tests", "docs", "data"])
     recursive: true,
     force: true,
     filter: (p) =>
-      ![p2, "docs/human-review/creator-credits-p3-2026-10-16"].some((d) =>
-        p.replaceAll("\\", "/").startsWith(d),
-      ),
+      ![
+        p2,
+        "docs/human-review/creator-credits-p3-2026-10-16",
+        "docs/human-review/creator-credits-remaining-2026-10-21",
+        "docs/human-review/creator-final-six-2026-10-22",
+      ].some((d) => p.replaceAll("\\", "/").startsWith(d)),
   });
 // A previous interrupted copy must not retain today's P2 receipt.
 const leftover = path.resolve(root, p2);

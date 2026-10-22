@@ -1,0 +1,73 @@
+{
+  "resolved": 6,
+  "remaining": 0,
+  "unmappedCurrentUnresolved": 0,
+  "tasks": [
+    {
+      "taskId": "ournotes:89:lyricist:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "lyricist",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:lyricist:ROLE_REVIEW",
+      "role": "lyricist",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:composer:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "composer",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:composer:ROLE_REVIEW",
+      "role": "composer",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:arranger:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "arranger",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:arranger:ROLE_REVIEW",
+      "role": "arranger",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    }
+  ]
+}

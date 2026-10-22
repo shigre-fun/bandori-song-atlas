@@ -1,0 +1,281 @@
+{
+  "head": "33b9264055287392b2b73189c77d365f8a01915d",
+  "dataHashes": {
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/ournotes/songs.json": "cfb0ff8b567d25ca86568815759fe6ba3e4054350dab4fcea2ac0662b889195e",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d"
+  },
+  "protectedReviewFiles": 245,
+  "target": {
+    "game": "ournotes",
+    "recordId": 89,
+    "title": "アイライク・ユアライク",
+    "band": "一家Dumb Rock!",
+    "workId": "wk-0827",
+    "latestAfterPhaseA": true,
+    "currentCredits": {
+      "lyricist": {
+        "raw": "牧野太洋",
+        "displayedText": "牧野太洋",
+        "resolvedCreators": [],
+        "unresolvedParts": [
+          "牧野太洋"
+        ],
+        "empty": false,
+        "pending": true
+      },
+      "composer": {
+        "raw": "牧野太洋",
+        "displayedText": "牧野太洋",
+        "resolvedCreators": [],
+        "unresolvedParts": [
+          "牧野太洋"
+        ],
+        "empty": false,
+        "pending": true
+      },
+      "arranger": {
+        "raw": "牧野太洋",
+        "displayedText": "牧野太洋",
+        "resolvedCreators": [],
+        "unresolvedParts": [
+          "牧野太洋"
+        ],
+        "empty": false,
+        "pending": true
+      }
+    },
+    "tasks": [
+      {
+        "taskId": "ournotes:89:arranger:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "category": "ALIAS_REVIEW",
+        "role": "arranger",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。",
+        "action": "「牧野太洋」が既存cr-0375「牧野太洋」と同一か、対象曲・編曲の文脈付きで確認する。",
+        "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+        "creatorCandidateKey": "b1-217be10299dcfad8a87d",
+        "creatorCandidateKeys": [
+          "b1-217be10299dcfad8a87d"
+        ],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / arranger",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "identityConfirmed": null,
+          "samePersonAs": null,
+          "standardName": null,
+          "reading": null,
+          "sortKey": null,
+          "slug": null,
+          "type": null,
+          "aliases": null,
+          "affiliation": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null,
+          "gameCreditDisplay": null,
+          "roleConfirmed": null
+        },
+        "dependencies": [],
+        "tokenRaw": "牧野太洋",
+        "evidenceContext": "CURRENT_RAW"
+      },
+      {
+        "taskId": "ournotes:89:arranger:ROLE_REVIEW",
+        "category": "ROLE_REVIEW",
+        "role": "arranger",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawと過去効果packageの原文が一致しない/原文がない。現在データを保持して出典・対象roleを確認する。",
+        "action": "現行「牧野太洋」を OurNotes:89「アイライク・ユアライク」（一家Dumb Rock!）/編曲 の一次資料と照合し、対象曲・役割・版が一致するcredit原文を記録する。",
+        "completionCondition": "原文と担当の根拠・確認日時・出典を回答済み。",
+        "creatorCandidateKey": null,
+        "creatorCandidateKeys": [],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / arranger",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "lyricistGameDisplay": null,
+          "composerGameDisplay": null,
+          "arrangerGameDisplay": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null
+        },
+        "dependencies": []
+      },
+      {
+        "taskId": "ournotes:89:composer:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "category": "ALIAS_REVIEW",
+        "role": "composer",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。",
+        "action": "「牧野太洋」が既存cr-0375「牧野太洋」と同一か、対象曲・作曲の文脈付きで確認する。",
+        "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+        "creatorCandidateKey": "b1-217be10299dcfad8a87d",
+        "creatorCandidateKeys": [
+          "b1-217be10299dcfad8a87d"
+        ],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / composer",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "identityConfirmed": null,
+          "samePersonAs": null,
+          "standardName": null,
+          "reading": null,
+          "sortKey": null,
+          "slug": null,
+          "type": null,
+          "aliases": null,
+          "affiliation": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null,
+          "gameCreditDisplay": null,
+          "roleConfirmed": null
+        },
+        "dependencies": [],
+        "tokenRaw": "牧野太洋",
+        "evidenceContext": "CURRENT_RAW"
+      },
+      {
+        "taskId": "ournotes:89:composer:ROLE_REVIEW",
+        "category": "ROLE_REVIEW",
+        "role": "composer",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawと過去効果packageの原文が一致しない/原文がない。現在データを保持して出典・対象roleを確認する。",
+        "action": "現行「牧野太洋」を OurNotes:89「アイライク・ユアライク」（一家Dumb Rock!）/作曲 の一次資料と照合し、対象曲・役割・版が一致するcredit原文を記録する。",
+        "completionCondition": "原文と担当の根拠・確認日時・出典を回答済み。",
+        "creatorCandidateKey": null,
+        "creatorCandidateKeys": [],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / composer",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "lyricistGameDisplay": null,
+          "composerGameDisplay": null,
+          "arrangerGameDisplay": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null
+        },
+        "dependencies": []
+      },
+      {
+        "taskId": "ournotes:89:lyricist:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "category": "ALIAS_REVIEW",
+        "role": "lyricist",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawの主体を対象曲・担当の一次資料と照合する。候補名一致は人物同一性の承認ではない。",
+        "action": "「牧野太洋」が既存cr-0375「牧野太洋」と同一か、対象曲・作詞の文脈付きで確認する。",
+        "completionCondition": "対象曲と担当に対応する本人/主体を同定し、既存IDの有無と登録必須5項目・出典を回答済み。",
+        "creatorCandidateKey": "b1-217be10299dcfad8a87d",
+        "creatorCandidateKeys": [
+          "b1-217be10299dcfad8a87d"
+        ],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / lyricist",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "identityConfirmed": null,
+          "samePersonAs": null,
+          "standardName": null,
+          "reading": null,
+          "sortKey": null,
+          "slug": null,
+          "type": null,
+          "aliases": null,
+          "affiliation": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null,
+          "gameCreditDisplay": null,
+          "roleConfirmed": null
+        },
+        "dependencies": [],
+        "tokenRaw": "牧野太洋",
+        "evidenceContext": "CURRENT_RAW"
+      },
+      {
+        "taskId": "ournotes:89:lyricist:ROLE_REVIEW",
+        "category": "ROLE_REVIEW",
+        "role": "lyricist",
+        "priority": "P0",
+        "status": "NEEDS_HUMAN",
+        "raw": "牧野太洋",
+        "reason": "現行rawと過去効果packageの原文が一致しない/原文がない。現在データを保持して出典・対象roleを確認する。",
+        "action": "現行「牧野太洋」を OurNotes:89「アイライク・ユアライク」（一家Dumb Rock!）/作詞 の一次資料と照合し、対象曲・役割・版が一致するcredit原文を記録する。",
+        "completionCondition": "原文と担当の根拠・確認日時・出典を回答済み。",
+        "creatorCandidateKey": null,
+        "creatorCandidateKeys": [],
+        "evidence": [
+          {
+            "document": "data/ournotes/songs.json",
+            "locator": "ournotes:89 / lyricist",
+            "sourceType": "current-repository",
+            "supports": "現在の表示・role・Creator参照",
+            "checkedAt": null
+          }
+        ],
+        "humanAnswerFields": {
+          "lyricistGameDisplay": null,
+          "composerGameDisplay": null,
+          "arrangerGameDisplay": null,
+          "checkedAt": null,
+          "sourceNote": null,
+          "notes": null
+        },
+        "dependencies": []
+      }
+    ],
+    "priority": "P0"
+  }
+}

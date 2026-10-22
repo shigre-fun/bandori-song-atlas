@@ -1,0 +1,208 @@
+{
+  "reviews": [
+    {
+      "game": "ournotes",
+      "recordId": 89,
+      "title": "アイライク・ユアライク",
+      "workId": "wk-0827",
+      "role": "lyricist",
+      "raw": "牧野太洋",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "creatorId": "cr-0375",
+          "identityKey": "cr-0375",
+          "confidence": "CONFIRMED"
+        }
+      ],
+      "bindings": [
+        {
+          "creatorId": "cr-0375",
+          "raw": "牧野太洋"
+        }
+      ],
+      "roleConfirmed": true,
+      "splitConfirmed": false,
+      "requiresVersionReview": false,
+      "reviewKind": "FinalSix",
+      "humanReviewId": "docs/human-review/creator-final-six-2026-10-22/review.json",
+      "taskIds": [
+        "ournotes:89:lyricist:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "ournotes:89:lyricist:ROLE_REVIEW"
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 89,
+      "title": "アイライク・ユアライク",
+      "workId": "wk-0827",
+      "role": "composer",
+      "raw": "牧野太洋",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "creatorId": "cr-0375",
+          "identityKey": "cr-0375",
+          "confidence": "CONFIRMED"
+        }
+      ],
+      "bindings": [
+        {
+          "creatorId": "cr-0375",
+          "raw": "牧野太洋"
+        }
+      ],
+      "roleConfirmed": true,
+      "splitConfirmed": false,
+      "requiresVersionReview": false,
+      "reviewKind": "FinalSix",
+      "humanReviewId": "docs/human-review/creator-final-six-2026-10-22/review.json",
+      "taskIds": [
+        "ournotes:89:composer:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "ournotes:89:composer:ROLE_REVIEW"
+      ]
+    },
+    {
+      "game": "ournotes",
+      "recordId": 89,
+      "title": "アイライク・ユアライク",
+      "workId": "wk-0827",
+      "role": "arranger",
+      "raw": "牧野太洋",
+      "actors": [
+        {
+          "raw": "牧野太洋",
+          "creatorId": "cr-0375",
+          "identityKey": "cr-0375",
+          "confidence": "CONFIRMED"
+        }
+      ],
+      "bindings": [
+        {
+          "creatorId": "cr-0375",
+          "raw": "牧野太洋"
+        }
+      ],
+      "roleConfirmed": true,
+      "splitConfirmed": false,
+      "requiresVersionReview": false,
+      "reviewKind": "FinalSix",
+      "humanReviewId": "docs/human-review/creator-final-six-2026-10-22/review.json",
+      "taskIds": [
+        "ournotes:89:arranger:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+        "ournotes:89:arranger:ROLE_REVIEW"
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "taskId": "ournotes:89:lyricist:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "lyricist",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:lyricist:ROLE_REVIEW",
+      "role": "lyricist",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:composer:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "composer",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:composer:ROLE_REVIEW",
+      "role": "composer",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:arranger:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+      "role": "arranger",
+      "category": "ALIAS_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    },
+    {
+      "taskId": "ournotes:89:arranger:ROLE_REVIEW",
+      "role": "arranger",
+      "category": "ROLE_REVIEW",
+      "raw": "牧野太洋",
+      "status": "RESOLVED",
+      "creatorId": "cr-0375",
+      "roleAnswer": "はい",
+      "bindingAnswer": "はい",
+      "reason": null
+    }
+  ],
+  "held": [],
+  "answers": {
+    "humanReviewDate": null,
+    "reviewer": null,
+    "roles": {
+      "lyricist": {
+        "roleConfirmed": "はい",
+        "bindingApproved": "はい",
+        "correctedRaw": "",
+        "specifiedCreator": "",
+        "notes": ""
+      },
+      "composer": {
+        "roleConfirmed": "はい",
+        "bindingApproved": "はい",
+        "correctedRaw": "",
+        "specifiedCreator": "",
+        "notes": ""
+      },
+      "arranger": {
+        "roleConfirmed": "はい",
+        "bindingApproved": "はい",
+        "correctedRaw": "",
+        "specifiedCreator": "",
+        "notes": ""
+      }
+    }
+  },
+  "sourceType": "人間による明示確認",
+  "humanReviewDate": null,
+  "reviewer": null,
+  "inputHash": "ae25b82e2dff484db05b666fb158453e087a50c446a7db30310899470253faa0",
+  "preservation": {
+    "rawFieldsPreserved": 3,
+    "otherSongsChanged": 0,
+    "CreatorChanges": 0,
+    "WorkChanges": 0,
+    "unrelatedChanges": 0
+  },
+  "outputHashes": {
+    "data/ournotes/songs.json": "bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4"
+  },
+  "appliedAt": "2026-10-21T15:18:46.449Z"
+}

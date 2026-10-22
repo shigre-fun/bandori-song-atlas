@@ -1,0 +1,5539 @@
+{
+  "P0P2Remaining375TaskUnmapped": 0,
+  "counts": {
+    "RESOLVED": 375,
+    "PARTIALLY_RESOLVED": 0,
+    "STILL_NEEDS_HUMAN": 0,
+    "BLOCKED": 0,
+    "STALE": 0
+  },
+  "tasks": [
+    {
+      "taskId": "garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B027",
+        "creatorIds": [
+          "cr-0395"
+        ]
+      },
+      "reviewedScope": "garupa:85:composer",
+      "raw": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+      "candidateKey": "b1-1ecce8410c57e1cd807d"
+    },
+    {
+      "taskId": "garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B033",
+        "creatorIds": [
+          "cr-0400"
+        ]
+      },
+      "reviewedScope": "garupa:85:composer",
+      "raw": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+      "candidateKey": "b1-8b9cfcc3262ad133d210"
+    },
+    {
+      "taskId": "garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B027",
+        "creatorIds": [
+          "cr-0395"
+        ]
+      },
+      "reviewedScope": "garupa:85:composer",
+      "raw": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+      "candidateKey": "b1-1ecce8410c57e1cd807d"
+    },
+    {
+      "taskId": "garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B033",
+        "creatorIds": [
+          "cr-0400"
+        ]
+      },
+      "reviewedScope": "garupa:85:composer",
+      "raw": "Fukase/Nick Rotteveel/Marcus Van Wattum",
+      "candidateKey": "b1-8b9cfcc3262ad133d210"
+    },
+    {
+      "taskId": "garupa:111:composer:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B050",
+        "creatorIds": [
+          "cr-0417"
+        ]
+      },
+      "reviewedScope": "garupa:111:composer",
+      "raw": "影山ヒロノブ・きただにひろし",
+      "candidateKey": "b1-af4fe563e4e45d982b07"
+    },
+    {
+      "taskId": "garupa:111:composer:CREATOR_IDENTITY-current-ff0fe7f9b0981226cf85",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B041",
+        "creatorIds": [
+          "cr-0408"
+        ]
+      },
+      "reviewedScope": "garupa:111:composer",
+      "raw": "影山ヒロノブ・きただにひろし",
+      "candidateKey": "current-ff0fe7f9b0981226cf85"
+    },
+    {
+      "taskId": "garupa:111:composer:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B050",
+        "creatorIds": [
+          "cr-0417"
+        ]
+      },
+      "reviewedScope": "garupa:111:composer",
+      "raw": "影山ヒロノブ・きただにひろし",
+      "candidateKey": "b1-af4fe563e4e45d982b07"
+    },
+    {
+      "taskId": "garupa:111:composer:CREATOR_REGISTRATION-current-ff0fe7f9b0981226cf85",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B041",
+        "creatorIds": [
+          "cr-0408"
+        ]
+      },
+      "reviewedScope": "garupa:111:composer",
+      "raw": "影山ヒロノブ・きただにひろし",
+      "candidateKey": "current-ff0fe7f9b0981226cf85"
+    },
+    {
+      "taskId": "garupa:111:lyricist:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B050",
+        "creatorIds": [
+          "cr-0417"
+        ]
+      },
+      "reviewedScope": "garupa:111:lyricist",
+      "raw": "影山ヒロノブ",
+      "candidateKey": "b1-af4fe563e4e45d982b07"
+    },
+    {
+      "taskId": "garupa:111:lyricist:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B050",
+        "creatorIds": [
+          "cr-0417"
+        ]
+      },
+      "reviewedScope": "garupa:111:lyricist",
+      "raw": "影山ヒロノブ",
+      "candidateKey": "b1-af4fe563e4e45d982b07"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B024",
+        "creatorIds": [
+          "cr-0392"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-6420aa21ede7b2dbc58a"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B076",
+        "creatorIds": [
+          "cr-0436"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-c9462aa47a3a10f7ffee"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B068",
+        "creatorIds": [
+          "cr-0432"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-f6cbc2fc0ef8cd8c8955"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_REGISTRATION-b1-6420aa21ede7b2dbc58a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B024",
+        "creatorIds": [
+          "cr-0392"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-6420aa21ede7b2dbc58a"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_REGISTRATION-b1-c9462aa47a3a10f7ffee",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B076",
+        "creatorIds": [
+          "cr-0436"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-c9462aa47a3a10f7ffee"
+    },
+    {
+      "taskId": "garupa:124:lyricist:CREATOR_REGISTRATION-b1-f6cbc2fc0ef8cd8c8955",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B068",
+        "creatorIds": [
+          "cr-0432"
+        ]
+      },
+      "reviewedScope": "garupa:124:lyricist",
+      "raw": "田中怜子、小林鉄兵、Lotus Juice",
+      "candidateKey": "b1-f6cbc2fc0ef8cd8c8955"
+    },
+    {
+      "taskId": "garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B028",
+        "creatorIds": [
+          "cr-0396"
+        ]
+      },
+      "reviewedScope": "garupa:246:composer",
+      "raw": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+      "candidateKey": "b1-9c5f42c13c6a91bd2578"
+    },
+    {
+      "taskId": "garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B039",
+        "creatorIds": [
+          "cr-0406"
+        ]
+      },
+      "reviewedScope": "garupa:246:composer",
+      "raw": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+      "candidateKey": "b1-dbfdc774efedb688b039"
+    },
+    {
+      "taskId": "garupa:246:composer:CREATOR_REGISTRATION-b1-9c5f42c13c6a91bd2578",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B028",
+        "creatorIds": [
+          "cr-0396"
+        ]
+      },
+      "reviewedScope": "garupa:246:composer",
+      "raw": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+      "candidateKey": "b1-9c5f42c13c6a91bd2578"
+    },
+    {
+      "taskId": "garupa:246:composer:CREATOR_REGISTRATION-b1-dbfdc774efedb688b039",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B039",
+        "creatorIds": [
+          "cr-0406"
+        ]
+      },
+      "reviewedScope": "garupa:246:composer",
+      "raw": "ZUN/Masayoshi Minoshima（Alstroemeria Records）",
+      "candidateKey": "b1-dbfdc774efedb688b039"
+    },
+    {
+      "taskId": "garupa:258:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "garupa:258:composer",
+      "raw": "ACAね×ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "garupa:258:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "garupa:258:composer",
+      "raw": "ACAね×ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B083",
+        "creatorIds": [
+          "cr-0441"
+        ]
+      },
+      "reviewedScope": "garupa:263:arranger",
+      "raw": "都丸椋太（Elements Garden）/櫻澤ヒカル",
+      "candidateKey": "b1-323bf406d60f26212b32"
+    },
+    {
+      "taskId": "garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B083",
+        "creatorIds": [
+          "cr-0441"
+        ]
+      },
+      "reviewedScope": "garupa:263:arranger",
+      "raw": "都丸椋太（Elements Garden）/櫻澤ヒカル",
+      "candidateKey": "b1-323bf406d60f26212b32"
+    },
+    {
+      "taskId": "garupa:308:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0102"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:308:lyricist",
+      "raw": "ＭＯＭＩＫＥＮ",
+      "candidateKey": "b1-b528ebcd57341a509dce"
+    },
+    {
+      "taskId": "garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B069",
+        "creatorIds": [
+          "cr-0433"
+        ]
+      },
+      "reviewedScope": "garupa:322:composer",
+      "raw": "TAKUYA∞、彰",
+      "candidateKey": "b1-8093a5e3afbe19e86dc3"
+    },
+    {
+      "taskId": "garupa:322:composer:CREATOR_REGISTRATION-b1-8093a5e3afbe19e86dc3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B069",
+        "creatorIds": [
+          "cr-0433"
+        ]
+      },
+      "reviewedScope": "garupa:322:composer",
+      "raw": "TAKUYA∞、彰",
+      "candidateKey": "b1-8093a5e3afbe19e86dc3"
+    },
+    {
+      "taskId": "garupa:369:lyricist:ALIAS_REVIEW-current-37249a393f31fc1ee38b",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0363"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:369:lyricist",
+      "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "candidateKey": "current-37249a393f31fc1ee38b"
+    },
+    {
+      "taskId": "garupa:369:lyricist:ALIAS_REVIEW-current-543af9140a4b47b523ef",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0196"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:369:lyricist",
+      "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "candidateKey": "current-543af9140a4b47b523ef"
+    },
+    {
+      "taskId": "garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B059",
+        "creatorIds": [
+          "cr-0425"
+        ]
+      },
+      "reviewedScope": "garupa:395:composer",
+      "raw": "篠崎あやと、橘 亮祐",
+      "candidateKey": "b1-0e3ca7292ba5e3406c39"
+    },
+    {
+      "taskId": "garupa:395:composer:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B059",
+        "creatorIds": [
+          "cr-0425"
+        ]
+      },
+      "reviewedScope": "garupa:395:composer",
+      "raw": "篠崎あやと、橘 亮祐",
+      "candidateKey": "b1-0e3ca7292ba5e3406c39"
+    },
+    {
+      "taskId": "garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B059",
+        "creatorIds": [
+          "cr-0425"
+        ]
+      },
+      "reviewedScope": "garupa:395:lyricist",
+      "raw": "篠崎あやと、橘 亮祐",
+      "candidateKey": "b1-0e3ca7292ba5e3406c39"
+    },
+    {
+      "taskId": "garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B059",
+        "creatorIds": [
+          "cr-0425"
+        ]
+      },
+      "reviewedScope": "garupa:395:lyricist",
+      "raw": "篠崎あやと、橘 亮祐",
+      "candidateKey": "b1-0e3ca7292ba5e3406c39"
+    },
+    {
+      "taskId": "garupa:415:composer:CREATOR_IDENTITY-b1-802fd809223acb08804e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B034",
+        "creatorIds": [
+          "cr-0401"
+        ]
+      },
+      "reviewedScope": "garupa:415:composer",
+      "raw": "NORiMETAL",
+      "candidateKey": "b1-802fd809223acb08804e"
+    },
+    {
+      "taskId": "garupa:415:composer:CREATOR_REGISTRATION-b1-802fd809223acb08804e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B034",
+        "creatorIds": [
+          "cr-0401"
+        ]
+      },
+      "reviewedScope": "garupa:415:composer",
+      "raw": "NORiMETAL",
+      "candidateKey": "b1-802fd809223acb08804e"
+    },
+    {
+      "taskId": "garupa:415:lyricist:CREATOR_IDENTITY-b1-802fd809223acb08804e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B034",
+        "creatorIds": [
+          "cr-0401"
+        ]
+      },
+      "reviewedScope": "garupa:415:lyricist",
+      "raw": "MK-METAL・NORiMETAL",
+      "candidateKey": "b1-802fd809223acb08804e"
+    },
+    {
+      "taskId": "garupa:415:lyricist:CREATOR_IDENTITY-current-297f7f25cc446332fd44",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B030",
+        "creatorIds": [
+          "cr-0443"
+        ]
+      },
+      "reviewedScope": "garupa:415:lyricist",
+      "raw": "MK-METAL・NORiMETAL",
+      "candidateKey": "current-297f7f25cc446332fd44"
+    },
+    {
+      "taskId": "garupa:415:lyricist:CREATOR_REGISTRATION-b1-802fd809223acb08804e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B034",
+        "creatorIds": [
+          "cr-0401"
+        ]
+      },
+      "reviewedScope": "garupa:415:lyricist",
+      "raw": "MK-METAL・NORiMETAL",
+      "candidateKey": "b1-802fd809223acb08804e"
+    },
+    {
+      "taskId": "garupa:415:lyricist:CREATOR_REGISTRATION-current-297f7f25cc446332fd44",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B030",
+        "creatorIds": [
+          "cr-0443"
+        ]
+      },
+      "reviewedScope": "garupa:415:lyricist",
+      "raw": "MK-METAL・NORiMETAL",
+      "candidateKey": "current-297f7f25cc446332fd44"
+    },
+    {
+      "taskId": "garupa:440:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B012",
+        "creatorIds": [
+          "cr-0383"
+        ]
+      },
+      "reviewedScope": "garupa:440:lyricist",
+      "raw": "唐沢美帆",
+      "candidateKey": "b1-501db66e776fdea74878"
+    },
+    {
+      "taskId": "garupa:440:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B012",
+        "creatorIds": [
+          "cr-0383"
+        ]
+      },
+      "reviewedScope": "garupa:440:lyricist",
+      "raw": "唐沢美帆",
+      "candidateKey": "b1-501db66e776fdea74878"
+    },
+    {
+      "taskId": "garupa:447:lyricist:CREATOR_IDENTITY-current-96bc57add1c48e4f0934",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B031",
+        "creatorIds": [
+          "cr-0398"
+        ]
+      },
+      "reviewedScope": "garupa:447:lyricist",
+      "raw": "n-buna・Orangestar",
+      "candidateKey": "current-96bc57add1c48e4f0934"
+    },
+    {
+      "taskId": "garupa:447:lyricist:CREATOR_REGISTRATION-current-96bc57add1c48e4f0934",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B031",
+        "creatorIds": [
+          "cr-0398"
+        ]
+      },
+      "reviewedScope": "garupa:447:lyricist",
+      "raw": "n-buna・Orangestar",
+      "candidateKey": "current-96bc57add1c48e4f0934"
+    },
+    {
+      "taskId": "garupa:479:composer:CREATOR_IDENTITY-b1-5377ee054e378e78dda4",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B045",
+        "creatorIds": [
+          "cr-0061"
+        ]
+      },
+      "reviewedScope": "garupa:479:composer",
+      "raw": "ナユタセイジ",
+      "candidateKey": "b1-5377ee054e378e78dda4"
+    },
+    {
+      "taskId": "garupa:479:composer:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B045",
+        "creatorIds": [
+          "cr-0061"
+        ]
+      },
+      "reviewedScope": "garupa:479:composer",
+      "raw": "ナユタセイジ",
+      "candidateKey": "b1-5377ee054e378e78dda4"
+    },
+    {
+      "taskId": "garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B045",
+        "creatorIds": [
+          "cr-0061"
+        ]
+      },
+      "reviewedScope": "garupa:479:lyricist",
+      "raw": "ナユタセイジ / ナナヲアカリ",
+      "candidateKey": "b1-5377ee054e378e78dda4"
+    },
+    {
+      "taskId": "garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B044",
+        "creatorIds": [
+          "cr-0411"
+        ]
+      },
+      "reviewedScope": "garupa:479:lyricist",
+      "raw": "ナユタセイジ / ナナヲアカリ",
+      "candidateKey": "b1-71be3fbfd30b5b8fcb4e"
+    },
+    {
+      "taskId": "garupa:479:lyricist:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B045",
+        "creatorIds": [
+          "cr-0061"
+        ]
+      },
+      "reviewedScope": "garupa:479:lyricist",
+      "raw": "ナユタセイジ / ナナヲアカリ",
+      "candidateKey": "b1-5377ee054e378e78dda4"
+    },
+    {
+      "taskId": "garupa:479:lyricist:CREATOR_REGISTRATION-b1-71be3fbfd30b5b8fcb4e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B044",
+        "creatorIds": [
+          "cr-0411"
+        ]
+      },
+      "reviewedScope": "garupa:479:lyricist",
+      "raw": "ナユタセイジ / ナナヲアカリ",
+      "candidateKey": "b1-71be3fbfd30b5b8fcb4e"
+    },
+    {
+      "taskId": "garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B078",
+        "creatorIds": [
+          "cr-0438"
+        ]
+      },
+      "reviewedScope": "garupa:481:composer",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-28990d5c41d9e767f084"
+    },
+    {
+      "taskId": "garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B035",
+        "creatorIds": [
+          "cr-0402"
+        ]
+      },
+      "reviewedScope": "garupa:481:composer",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-f39b5a992dce3f610433"
+    },
+    {
+      "taskId": "garupa:481:composer:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B078",
+        "creatorIds": [
+          "cr-0438"
+        ]
+      },
+      "reviewedScope": "garupa:481:composer",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-28990d5c41d9e767f084"
+    },
+    {
+      "taskId": "garupa:481:composer:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B035",
+        "creatorIds": [
+          "cr-0402"
+        ]
+      },
+      "reviewedScope": "garupa:481:composer",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-f39b5a992dce3f610433"
+    },
+    {
+      "taskId": "garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B078",
+        "creatorIds": [
+          "cr-0438"
+        ]
+      },
+      "reviewedScope": "garupa:481:lyricist",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-28990d5c41d9e767f084"
+    },
+    {
+      "taskId": "garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B035",
+        "creatorIds": [
+          "cr-0402"
+        ]
+      },
+      "reviewedScope": "garupa:481:lyricist",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-f39b5a992dce3f610433"
+    },
+    {
+      "taskId": "garupa:481:lyricist:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B078",
+        "creatorIds": [
+          "cr-0438"
+        ]
+      },
+      "reviewedScope": "garupa:481:lyricist",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-28990d5c41d9e767f084"
+    },
+    {
+      "taskId": "garupa:481:lyricist:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B035",
+        "creatorIds": [
+          "cr-0402"
+        ]
+      },
+      "reviewedScope": "garupa:481:lyricist",
+      "raw": "SAKURAmoti / 美波",
+      "candidateKey": "b1-f39b5a992dce3f610433"
+    },
+    {
+      "taskId": "garupa:503:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "garupa:503:arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "garupa:503:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "garupa:503:arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "garupa:503:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "garupa:503:composer",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "garupa:503:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "garupa:503:composer",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "garupa:534:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:534:lyricist",
+      "raw": "宝野 アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:534:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:534:lyricist",
+      "raw": "宝野 アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B051",
+        "creatorIds": [
+          "cr-0418"
+        ]
+      },
+      "reviewedScope": "garupa:549:composer",
+      "raw": "馬場　龍樹／遠藤　ナオキ",
+      "candidateKey": "b1-85766a26b6c559ab7573"
+    },
+    {
+      "taskId": "garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B077",
+        "creatorIds": [
+          "cr-0437"
+        ]
+      },
+      "reviewedScope": "garupa:549:composer",
+      "raw": "馬場　龍樹／遠藤　ナオキ",
+      "candidateKey": "b1-e7a81fcda1323ca4ecd2"
+    },
+    {
+      "taskId": "garupa:549:composer:CREATOR_REGISTRATION-b1-85766a26b6c559ab7573",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B051",
+        "creatorIds": [
+          "cr-0418"
+        ]
+      },
+      "reviewedScope": "garupa:549:composer",
+      "raw": "馬場　龍樹／遠藤　ナオキ",
+      "candidateKey": "b1-85766a26b6c559ab7573"
+    },
+    {
+      "taskId": "garupa:549:composer:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B077",
+        "creatorIds": [
+          "cr-0437"
+        ]
+      },
+      "reviewedScope": "garupa:549:composer",
+      "raw": "馬場　龍樹／遠藤　ナオキ",
+      "candidateKey": "b1-e7a81fcda1323ca4ecd2"
+    },
+    {
+      "taskId": "garupa:549:lyricist:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B077",
+        "creatorIds": [
+          "cr-0437"
+        ]
+      },
+      "reviewedScope": "garupa:549:lyricist",
+      "raw": "馬場　龍樹",
+      "candidateKey": "b1-e7a81fcda1323ca4ecd2"
+    },
+    {
+      "taskId": "garupa:549:lyricist:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B077",
+        "creatorIds": [
+          "cr-0437"
+        ]
+      },
+      "reviewedScope": "garupa:549:lyricist",
+      "raw": "馬場　龍樹",
+      "candidateKey": "b1-e7a81fcda1323ca4ecd2"
+    },
+    {
+      "taskId": "garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "garupa:579:arranger",
+      "raw": "植木建象/加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "garupa:579:arranger",
+      "raw": "植木建象/加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "garupa:600:composer:CREATOR_IDENTITY-current-42b1569d3f9a29bde9fb",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B054",
+        "creatorIds": [
+          "cr-0421"
+        ]
+      },
+      "reviewedScope": "garupa:600:composer",
+      "raw": "Carlos K.・加賀爪 タッド",
+      "candidateKey": "current-42b1569d3f9a29bde9fb"
+    },
+    {
+      "taskId": "garupa:600:composer:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B014",
+        "creatorIds": [
+          "cr-0385"
+        ]
+      },
+      "reviewedScope": "garupa:600:composer",
+      "raw": "Carlos K.・加賀爪 タッド",
+      "candidateKey": "current-dac92014ff66f3f49be9"
+    },
+    {
+      "taskId": "garupa:600:composer:CREATOR_REGISTRATION-current-42b1569d3f9a29bde9fb",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B054",
+        "creatorIds": [
+          "cr-0421"
+        ]
+      },
+      "reviewedScope": "garupa:600:composer",
+      "raw": "Carlos K.・加賀爪 タッド",
+      "candidateKey": "current-42b1569d3f9a29bde9fb"
+    },
+    {
+      "taskId": "garupa:600:composer:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B014",
+        "creatorIds": [
+          "cr-0385"
+        ]
+      },
+      "reviewedScope": "garupa:600:composer",
+      "raw": "Carlos K.・加賀爪 タッド",
+      "candidateKey": "current-dac92014ff66f3f49be9"
+    },
+    {
+      "taskId": "garupa:600:lyricist:CREATOR_IDENTITY-current-035c8b7c5a228c9ba174",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B020",
+        "creatorIds": [
+          "cr-0390"
+        ]
+      },
+      "reviewedScope": "garupa:600:lyricist",
+      "raw": "KANATA OKAJIMA・Carlos K.",
+      "candidateKey": "current-035c8b7c5a228c9ba174"
+    },
+    {
+      "taskId": "garupa:600:lyricist:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B014",
+        "creatorIds": [
+          "cr-0385"
+        ]
+      },
+      "reviewedScope": "garupa:600:lyricist",
+      "raw": "KANATA OKAJIMA・Carlos K.",
+      "candidateKey": "current-dac92014ff66f3f49be9"
+    },
+    {
+      "taskId": "garupa:600:lyricist:CREATOR_REGISTRATION-current-035c8b7c5a228c9ba174",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B020",
+        "creatorIds": [
+          "cr-0390"
+        ]
+      },
+      "reviewedScope": "garupa:600:lyricist",
+      "raw": "KANATA OKAJIMA・Carlos K.",
+      "candidateKey": "current-035c8b7c5a228c9ba174"
+    },
+    {
+      "taskId": "garupa:600:lyricist:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B014",
+        "creatorIds": [
+          "cr-0385"
+        ]
+      },
+      "reviewedScope": "garupa:600:lyricist",
+      "raw": "KANATA OKAJIMA・Carlos K.",
+      "candidateKey": "current-dac92014ff66f3f49be9"
+    },
+    {
+      "taskId": "garupa:608:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B007",
+        "creatorIds": [
+          "cr-0378"
+        ]
+      },
+      "reviewedScope": "garupa:608:lyricist",
+      "raw": "R-指定",
+      "candidateKey": "b1-85f0867cdd50b6bfa592"
+    },
+    {
+      "taskId": "garupa:608:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B007",
+        "creatorIds": [
+          "cr-0378"
+        ]
+      },
+      "reviewedScope": "garupa:608:lyricist",
+      "raw": "R-指定",
+      "candidateKey": "b1-85f0867cdd50b6bfa592"
+    },
+    {
+      "taskId": "garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "garupa:610:arranger",
+      "raw": "植木建象、加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "garupa:610:arranger",
+      "raw": "植木建象、加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B081",
+        "creatorIds": [
+          "cr-0439"
+        ]
+      },
+      "reviewedScope": "garupa:630:composer",
+      "raw": "涼木シンジ、Gohgo",
+      "candidateKey": "b1-0af645346cf42d76ef7a"
+    },
+    {
+      "taskId": "garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B018",
+        "creatorIds": [
+          "cr-0388"
+        ]
+      },
+      "reviewedScope": "garupa:630:composer",
+      "raw": "涼木シンジ、Gohgo",
+      "candidateKey": "b1-1e4e5828085e567ebff3"
+    },
+    {
+      "taskId": "garupa:630:composer:CREATOR_REGISTRATION-b1-0af645346cf42d76ef7a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B081",
+        "creatorIds": [
+          "cr-0439"
+        ]
+      },
+      "reviewedScope": "garupa:630:composer",
+      "raw": "涼木シンジ、Gohgo",
+      "candidateKey": "b1-0af645346cf42d76ef7a"
+    },
+    {
+      "taskId": "garupa:630:composer:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B018",
+        "creatorIds": [
+          "cr-0388"
+        ]
+      },
+      "reviewedScope": "garupa:630:composer",
+      "raw": "涼木シンジ、Gohgo",
+      "candidateKey": "b1-1e4e5828085e567ebff3"
+    },
+    {
+      "taskId": "garupa:630:lyricist:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B018",
+        "creatorIds": [
+          "cr-0388"
+        ]
+      },
+      "reviewedScope": "garupa:630:lyricist",
+      "raw": "Gohgo",
+      "candidateKey": "b1-1e4e5828085e567ebff3"
+    },
+    {
+      "taskId": "garupa:630:lyricist:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B018",
+        "creatorIds": [
+          "cr-0388"
+        ]
+      },
+      "reviewedScope": "garupa:630:lyricist",
+      "raw": "Gohgo",
+      "candidateKey": "b1-1e4e5828085e567ebff3"
+    },
+    {
+      "taskId": "garupa:647:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "garupa:647:arranger",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "garupa:647:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "garupa:647:arranger",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "garupa:647:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "garupa:647:composer",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "garupa:647:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "garupa:647:composer",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B038",
+        "creatorIds": [
+          "cr-0405"
+        ]
+      },
+      "reviewedScope": "garupa:660:arranger",
+      "raw": "植木建象、YOUSAY",
+      "candidateKey": "b1-2ef871fe8f36a20afb45"
+    },
+    {
+      "taskId": "garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B038",
+        "creatorIds": [
+          "cr-0405"
+        ]
+      },
+      "reviewedScope": "garupa:660:arranger",
+      "raw": "植木建象、YOUSAY",
+      "candidateKey": "b1-2ef871fe8f36a20afb45"
+    },
+    {
+      "taskId": "garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B048",
+        "creatorIds": [
+          "cr-0415"
+        ]
+      },
+      "reviewedScope": "garupa:660:composer",
+      "raw": "ユリイ・カノン",
+      "candidateKey": "b1-328527062c7ca6acd161"
+    },
+    {
+      "taskId": "garupa:660:composer:CREATOR_REGISTRATION-b1-328527062c7ca6acd161",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B048",
+        "creatorIds": [
+          "cr-0415"
+        ]
+      },
+      "reviewedScope": "garupa:660:composer",
+      "raw": "ユリイ・カノン",
+      "candidateKey": "b1-328527062c7ca6acd161"
+    },
+    {
+      "taskId": "garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B048",
+        "creatorIds": [
+          "cr-0415"
+        ]
+      },
+      "reviewedScope": "garupa:660:lyricist",
+      "raw": "ユリイ・カノン",
+      "candidateKey": "b1-328527062c7ca6acd161"
+    },
+    {
+      "taskId": "garupa:660:lyricist:CREATOR_REGISTRATION-b1-328527062c7ca6acd161",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B048",
+        "creatorIds": [
+          "cr-0415"
+        ]
+      },
+      "reviewedScope": "garupa:660:lyricist",
+      "raw": "ユリイ・カノン",
+      "candidateKey": "b1-328527062c7ca6acd161"
+    },
+    {
+      "taskId": "garupa:665:arranger:ALIAS_REVIEW-current-0e351cf7f749f04bc27f",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0019"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:665:arranger",
+      "raw": "都丸椋太（Elements Garden）",
+      "candidateKey": "current-0e351cf7f749f04bc27f"
+    },
+    {
+      "taskId": "garupa:665:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:665:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B026",
+        "creatorIds": [
+          "cr-0394"
+        ]
+      },
+      "reviewedScope": "garupa:707:composer",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-6113e4054a7a319f9025"
+    },
+    {
+      "taskId": "garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B019",
+        "creatorIds": [
+          "cr-0389"
+        ]
+      },
+      "reviewedScope": "garupa:707:composer",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-7d83e3978b7ba912598b"
+    },
+    {
+      "taskId": "garupa:707:composer:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B026",
+        "creatorIds": [
+          "cr-0394"
+        ]
+      },
+      "reviewedScope": "garupa:707:composer",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-6113e4054a7a319f9025"
+    },
+    {
+      "taskId": "garupa:707:composer:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B019",
+        "creatorIds": [
+          "cr-0389"
+        ]
+      },
+      "reviewedScope": "garupa:707:composer",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-7d83e3978b7ba912598b"
+    },
+    {
+      "taskId": "garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B026",
+        "creatorIds": [
+          "cr-0394"
+        ]
+      },
+      "reviewedScope": "garupa:707:lyricist",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-6113e4054a7a319f9025"
+    },
+    {
+      "taskId": "garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B019",
+        "creatorIds": [
+          "cr-0389"
+        ]
+      },
+      "reviewedScope": "garupa:707:lyricist",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-7d83e3978b7ba912598b"
+    },
+    {
+      "taskId": "garupa:707:lyricist:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B026",
+        "creatorIds": [
+          "cr-0394"
+        ]
+      },
+      "reviewedScope": "garupa:707:lyricist",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-6113e4054a7a319f9025"
+    },
+    {
+      "taskId": "garupa:707:lyricist:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B019",
+        "creatorIds": [
+          "cr-0389"
+        ]
+      },
+      "reviewedScope": "garupa:707:lyricist",
+      "raw": "MAQUMA, JACK",
+      "candidateKey": "b1-7d83e3978b7ba912598b"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B063",
+        "creatorIds": [
+          "cr-0429"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-1a0701568d79d8add602"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B052",
+        "creatorIds": [
+          "cr-0419"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-1f14693923b26c575078"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B058",
+        "creatorIds": [
+          "cr-0424"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-99d1ab24fe859adecafb"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B074",
+        "creatorIds": [
+          "cr-0435"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-a06d48bde1b0a5a0316f"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B063",
+        "creatorIds": [
+          "cr-0429"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-1a0701568d79d8add602"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B052",
+        "creatorIds": [
+          "cr-0419"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-1f14693923b26c575078"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B058",
+        "creatorIds": [
+          "cr-0424"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-99d1ab24fe859adecafb"
+    },
+    {
+      "taskId": "garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B074",
+        "creatorIds": [
+          "cr-0435"
+        ]
+      },
+      "reviewedScope": "garupa:710:composer",
+      "raw": "山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一",
+      "candidateKey": "b1-a06d48bde1b0a5a0316f"
+    },
+    {
+      "taskId": "garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B060",
+        "creatorIds": [
+          "cr-0426"
+        ]
+      },
+      "reviewedScope": "garupa:711:composer",
+      "raw": "久下真音、つむぎしゃち",
+      "candidateKey": "b1-42a5b3ea6680d1200cb7"
+    },
+    {
+      "taskId": "garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B043",
+        "creatorIds": [
+          "cr-0410"
+        ]
+      },
+      "reviewedScope": "garupa:711:composer",
+      "raw": "久下真音、つむぎしゃち",
+      "candidateKey": "b1-6899171acbfe7270e071"
+    },
+    {
+      "taskId": "garupa:711:composer:CREATOR_REGISTRATION-b1-42a5b3ea6680d1200cb7",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B060",
+        "creatorIds": [
+          "cr-0426"
+        ]
+      },
+      "reviewedScope": "garupa:711:composer",
+      "raw": "久下真音、つむぎしゃち",
+      "candidateKey": "b1-42a5b3ea6680d1200cb7"
+    },
+    {
+      "taskId": "garupa:711:composer:CREATOR_REGISTRATION-b1-6899171acbfe7270e071",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B043",
+        "creatorIds": [
+          "cr-0410"
+        ]
+      },
+      "reviewedScope": "garupa:711:composer",
+      "raw": "久下真音、つむぎしゃち",
+      "candidateKey": "b1-6899171acbfe7270e071"
+    },
+    {
+      "taskId": "garupa:711:lyricist:CREATOR_IDENTITY-b1-6899171acbfe7270e071",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B043",
+        "creatorIds": [
+          "cr-0410"
+        ]
+      },
+      "reviewedScope": "garupa:711:lyricist",
+      "raw": "つむぎしゃち",
+      "candidateKey": "b1-6899171acbfe7270e071"
+    },
+    {
+      "taskId": "garupa:711:lyricist:CREATOR_REGISTRATION-b1-6899171acbfe7270e071",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B043",
+        "creatorIds": [
+          "cr-0410"
+        ]
+      },
+      "reviewedScope": "garupa:711:lyricist",
+      "raw": "つむぎしゃち",
+      "candidateKey": "b1-6899171acbfe7270e071"
+    },
+    {
+      "taskId": "garupa:721:arranger:ALIAS_REVIEW-cr-0009",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0009"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:721:arranger",
+      "raw": "竹田祐介（Elements Garden）",
+      "candidateKey": "cr-0009"
+    },
+    {
+      "taskId": "garupa:721:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B012",
+        "creatorIds": [
+          "cr-0383"
+        ]
+      },
+      "reviewedScope": "garupa:721:lyricist",
+      "raw": "唐沢美帆",
+      "candidateKey": "b1-501db66e776fdea74878"
+    },
+    {
+      "taskId": "garupa:721:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B012",
+        "creatorIds": [
+          "cr-0383"
+        ]
+      },
+      "reviewedScope": "garupa:721:lyricist",
+      "raw": "唐沢美帆",
+      "candidateKey": "b1-501db66e776fdea74878"
+    },
+    {
+      "taskId": "garupa:722:arranger:ALIAS_REVIEW-cr-0020",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0020"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:722:arranger",
+      "raw": "日高勇輝（Elements Garden）",
+      "candidateKey": "cr-0020"
+    },
+    {
+      "taskId": "garupa:722:lyricist:ALIAS_REVIEW-cr-0047",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0047"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:722:lyricist",
+      "raw": "水野良樹",
+      "candidateKey": "cr-0047"
+    },
+    {
+      "taskId": "garupa:723:arranger:ALIAS_REVIEW-cr-0010",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0010"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:723:arranger",
+      "raw": "笠井雄太（Elements Garden）",
+      "candidateKey": "cr-0010"
+    },
+    {
+      "taskId": "garupa:723:lyricist:ALIAS_REVIEW-b1-ac279f73d5b14a694999",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0146"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:723:lyricist",
+      "raw": "つんく",
+      "candidateKey": "b1-ac279f73d5b14a694999"
+    },
+    {
+      "taskId": "garupa:724:arranger:ALIAS_REVIEW-cr-0009",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0009"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:724:arranger",
+      "raw": "竹田祐介（Elements Garden）",
+      "candidateKey": "cr-0009"
+    },
+    {
+      "taskId": "garupa:724:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:724:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:727:arranger:ALIAS_REVIEW-cr-0011",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0011"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:727:arranger",
+      "raw": "近藤世真（Elements Garden）",
+      "candidateKey": "cr-0011"
+    },
+    {
+      "taskId": "garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B071",
+        "creatorIds": [
+          "cr-0434"
+        ]
+      },
+      "reviewedScope": "garupa:727:composer",
+      "raw": "松任谷　由実",
+      "candidateKey": "current-d743a606e716e0d53526"
+    },
+    {
+      "taskId": "garupa:727:composer:CREATOR_REGISTRATION-current-d743a606e716e0d53526",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B071",
+        "creatorIds": [
+          "cr-0434"
+        ]
+      },
+      "reviewedScope": "garupa:727:composer",
+      "raw": "松任谷　由実",
+      "candidateKey": "current-d743a606e716e0d53526"
+    },
+    {
+      "taskId": "garupa:727:lyricist:CREATOR_IDENTITY-current-75e8a5b4665b0fbb7f5e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B070",
+        "creatorIds": [
+          "cr-0434"
+        ]
+      },
+      "reviewedScope": "garupa:727:lyricist",
+      "raw": "松任谷　由実",
+      "candidateKey": "current-75e8a5b4665b0fbb7f5e"
+    },
+    {
+      "taskId": "garupa:727:lyricist:CREATOR_REGISTRATION-current-75e8a5b4665b0fbb7f5e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B070",
+        "creatorIds": [
+          "cr-0434"
+        ]
+      },
+      "reviewedScope": "garupa:727:lyricist",
+      "raw": "松任谷　由実",
+      "candidateKey": "current-75e8a5b4665b0fbb7f5e"
+    },
+    {
+      "taskId": "garupa:729:arranger:ALIAS_REVIEW-cr-0010",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0010"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:729:arranger",
+      "raw": "笠井雄太（Elements Garden）",
+      "candidateKey": "cr-0010"
+    },
+    {
+      "taskId": "garupa:729:lyricist:ALIAS_REVIEW-b1-0abbc860daeec295ea85",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0133"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:729:lyricist",
+      "raw": "OSTER project",
+      "candidateKey": "b1-0abbc860daeec295ea85"
+    },
+    {
+      "taskId": "garupa:730:arranger:ALIAS_REVIEW-cr-0070",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0070"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:730:arranger",
+      "raw": "THE SPELLBOUND",
+      "candidateKey": "cr-0070"
+    },
+    {
+      "taskId": "garupa:730:lyricist:ALIAS_REVIEW-cr-0070",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0070"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:730:lyricist",
+      "raw": "THE SPELLBOUND",
+      "candidateKey": "cr-0070"
+    },
+    {
+      "taskId": "garupa:731:arranger:ALIAS_REVIEW-cr-0070",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0070"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:731:arranger",
+      "raw": "THE SPELLBOUND",
+      "candidateKey": "cr-0070"
+    },
+    {
+      "taskId": "garupa:731:lyricist:ALIAS_REVIEW-cr-0070",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0070"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:731:lyricist",
+      "raw": "THE SPELLBOUND",
+      "candidateKey": "cr-0070"
+    },
+    {
+      "taskId": "garupa:732:arranger:ALIAS_REVIEW-cr-0016",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0016"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:732:arranger",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "candidateKey": "cr-0016"
+    },
+    {
+      "taskId": "garupa:733:arranger:ALIAS_REVIEW-cr-0059",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0059"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:733:arranger",
+      "raw": "Fear, and Loathing in Las Vegas",
+      "candidateKey": "cr-0059"
+    },
+    {
+      "taskId": "garupa:733:lyricist:ALIAS_REVIEW-cr-0059",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0059"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:733:lyricist",
+      "raw": "Fear, and Loathing in Las Vegas",
+      "candidateKey": "cr-0059"
+    },
+    {
+      "taskId": "garupa:734:arranger:ALIAS_REVIEW-cr-0011",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0011"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:734:arranger",
+      "raw": "近藤世真（Elements Garden）",
+      "candidateKey": "cr-0011"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B029",
+        "creatorIds": [
+          "cr-0397"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-52f8d22524596db0e37f"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B055",
+        "creatorIds": [
+          "cr-0422"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-6e4aaff5404f9c7e9462"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B025",
+        "creatorIds": [
+          "cr-0393"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-bd4f40f6aaba6787426f"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_REGISTRATION-current-52f8d22524596db0e37f",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B029",
+        "creatorIds": [
+          "cr-0397"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-52f8d22524596db0e37f"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_REGISTRATION-current-6e4aaff5404f9c7e9462",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B055",
+        "creatorIds": [
+          "cr-0422"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-6e4aaff5404f9c7e9462"
+    },
+    {
+      "taskId": "garupa:734:composer:CREATOR_REGISTRATION-current-bd4f40f6aaba6787426f",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B025",
+        "creatorIds": [
+          "cr-0393"
+        ]
+      },
+      "reviewedScope": "garupa:734:composer",
+      "raw": "花村想太 / MEG.ME / Louis",
+      "candidateKey": "current-bd4f40f6aaba6787426f"
+    },
+    {
+      "taskId": "garupa:734:lyricist:CREATOR_IDENTITY-current-391dd0c6d7a0f40365a0",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B062",
+        "creatorIds": [
+          "cr-0428",
+          "cr-0422",
+          "cr-0397"
+        ]
+      },
+      "reviewedScope": "garupa:734:lyricist",
+      "raw": "工藤大輝 / 花村想太 / MEG.ME",
+      "candidateKey": "current-391dd0c6d7a0f40365a0"
+    },
+    {
+      "taskId": "garupa:734:lyricist:CREATOR_REGISTRATION-current-391dd0c6d7a0f40365a0",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B062",
+        "creatorIds": [
+          "cr-0428",
+          "cr-0422",
+          "cr-0397"
+        ]
+      },
+      "reviewedScope": "garupa:734:lyricist",
+      "raw": "工藤大輝 / 花村想太 / MEG.ME",
+      "candidateKey": "current-391dd0c6d7a0f40365a0"
+    },
+    {
+      "taskId": "garupa:735:arranger:ALIAS_REVIEW-cr-0012",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0012"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:735:arranger",
+      "raw": "堀川大翼（Elements Garden）",
+      "candidateKey": "cr-0012"
+    },
+    {
+      "taskId": "garupa:735:lyricist:ALIAS_REVIEW-cr-0024",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0024"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:735:lyricist",
+      "raw": "藤原 聡",
+      "candidateKey": "cr-0024"
+    },
+    {
+      "taskId": "garupa:763:arranger:ALIAS_REVIEW-cr-0008",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0008"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:763:arranger",
+      "raw": "藤間仁（Elements Garden）",
+      "candidateKey": "cr-0008"
+    },
+    {
+      "taskId": "garupa:766:arranger:ALIAS_REVIEW-current-334fc89b4af944671a1d",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0019"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:766:arranger",
+      "raw": "都丸椋太（Elements Garden）",
+      "candidateKey": "current-334fc89b4af944671a1d"
+    },
+    {
+      "taskId": "garupa:766:lyricist:ALIAS_REVIEW-b1-c618605e1e385961159a",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0147"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:766:lyricist",
+      "raw": "なとり",
+      "candidateKey": "b1-c618605e1e385961159a"
+    },
+    {
+      "taskId": "garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B061",
+        "creatorIds": [
+          "cr-0427"
+        ]
+      },
+      "reviewedScope": "garupa:769:composer",
+      "raw": "安部大希-amazuti-/宮崎諒-amazuti-",
+      "candidateKey": "b1-058a34802803a45d121a"
+    },
+    {
+      "taskId": "garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B049",
+        "creatorIds": [
+          "cr-0416"
+        ]
+      },
+      "reviewedScope": "garupa:769:composer",
+      "raw": "安部大希-amazuti-/宮崎諒-amazuti-",
+      "candidateKey": "b1-4f5bde2d6672e4ad9ab4"
+    },
+    {
+      "taskId": "garupa:769:composer:CREATOR_REGISTRATION-b1-058a34802803a45d121a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B061",
+        "creatorIds": [
+          "cr-0427"
+        ]
+      },
+      "reviewedScope": "garupa:769:composer",
+      "raw": "安部大希-amazuti-/宮崎諒-amazuti-",
+      "candidateKey": "b1-058a34802803a45d121a"
+    },
+    {
+      "taskId": "garupa:769:composer:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B049",
+        "creatorIds": [
+          "cr-0416"
+        ]
+      },
+      "reviewedScope": "garupa:769:composer",
+      "raw": "安部大希-amazuti-/宮崎諒-amazuti-",
+      "candidateKey": "b1-4f5bde2d6672e4ad9ab4"
+    },
+    {
+      "taskId": "garupa:769:lyricist:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B049",
+        "creatorIds": [
+          "cr-0416"
+        ]
+      },
+      "reviewedScope": "garupa:769:lyricist",
+      "raw": "安部大希-amazuti-",
+      "candidateKey": "b1-4f5bde2d6672e4ad9ab4"
+    },
+    {
+      "taskId": "garupa:769:lyricist:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B049",
+        "creatorIds": [
+          "cr-0416"
+        ]
+      },
+      "reviewedScope": "garupa:769:lyricist",
+      "raw": "安部大希-amazuti-",
+      "candidateKey": "b1-4f5bde2d6672e4ad9ab4"
+    },
+    {
+      "taskId": "garupa:780:arranger:ALIAS_REVIEW-cr-0011",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0011"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:780:arranger",
+      "raw": "近藤世真（Elements Garden）",
+      "candidateKey": "cr-0011"
+    },
+    {
+      "taskId": "garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B046",
+        "creatorIds": [
+          "cr-0412"
+        ]
+      },
+      "reviewedScope": "garupa:780:composer",
+      "raw": "ふるっぺ",
+      "candidateKey": "current-740dc67308da4aa281fe"
+    },
+    {
+      "taskId": "garupa:780:composer:CREATOR_REGISTRATION-current-740dc67308da4aa281fe",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B046",
+        "creatorIds": [
+          "cr-0412"
+        ]
+      },
+      "reviewedScope": "garupa:780:composer",
+      "raw": "ふるっぺ",
+      "candidateKey": "current-740dc67308da4aa281fe"
+    },
+    {
+      "taskId": "garupa:780:lyricist:CREATOR_IDENTITY-current-c0d947c79a5463c9cdfd",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B047",
+        "creatorIds": [
+          "cr-0412",
+          "cr-0413",
+          "cr-0414"
+        ]
+      },
+      "reviewedScope": "garupa:780:lyricist",
+      "raw": "ふるっぺ・森さん・Litz",
+      "candidateKey": "current-c0d947c79a5463c9cdfd"
+    },
+    {
+      "taskId": "garupa:780:lyricist:CREATOR_REGISTRATION-current-c0d947c79a5463c9cdfd",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B047",
+        "creatorIds": [
+          "cr-0412",
+          "cr-0413",
+          "cr-0414"
+        ]
+      },
+      "reviewedScope": "garupa:780:lyricist",
+      "raw": "ふるっぺ・森さん・Litz",
+      "candidateKey": "current-c0d947c79a5463c9cdfd"
+    },
+    {
+      "taskId": "garupa:781:arranger:ALIAS_REVIEW-cr-0020",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0020"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:781:arranger",
+      "raw": "日高勇輝（Elements Garden）",
+      "candidateKey": "cr-0020"
+    },
+    {
+      "taskId": "garupa:781:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:781:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:782:arranger:ALIAS_REVIEW-cr-0006",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0006"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:782:arranger",
+      "raw": "菊田大介（Elements Garden）",
+      "candidateKey": "cr-0006"
+    },
+    {
+      "taskId": "garupa:782:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:782:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:783:arranger:ALIAS_REVIEW-cr-0012",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0012"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:783:arranger",
+      "raw": "堀川大翼（Elements Garden）",
+      "candidateKey": "cr-0012"
+    },
+    {
+      "taskId": "garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B075",
+        "creatorIds": [
+          "cr-0446"
+        ]
+      },
+      "reviewedScope": "garupa:783:composer",
+      "raw": "多田 慎也",
+      "candidateKey": "current-69b1083ea01e5c34f8fb"
+    },
+    {
+      "taskId": "garupa:783:composer:CREATOR_REGISTRATION-current-69b1083ea01e5c34f8fb",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B075",
+        "creatorIds": [
+          "cr-0446"
+        ]
+      },
+      "reviewedScope": "garupa:783:composer",
+      "raw": "多田 慎也",
+      "candidateKey": "current-69b1083ea01e5c34f8fb"
+    },
+    {
+      "taskId": "garupa:783:lyricist:CREATOR_IDENTITY-current-7a26a6c255e970242564",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B067",
+        "creatorIds": [
+          "cr-0431"
+        ]
+      },
+      "reviewedScope": "garupa:783:lyricist",
+      "raw": "秋元 康",
+      "candidateKey": "current-7a26a6c255e970242564"
+    },
+    {
+      "taskId": "garupa:783:lyricist:CREATOR_REGISTRATION-current-7a26a6c255e970242564",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B067",
+        "creatorIds": [
+          "cr-0431"
+        ]
+      },
+      "reviewedScope": "garupa:783:lyricist",
+      "raw": "秋元 康",
+      "candidateKey": "current-7a26a6c255e970242564"
+    },
+    {
+      "taskId": "garupa:784:arranger:ALIAS_REVIEW-cr-0009",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0009"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:784:arranger",
+      "raw": "竹田祐介（Elements Garden）",
+      "candidateKey": "cr-0009"
+    },
+    {
+      "taskId": "garupa:784:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:784:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:785:arranger:ALIAS_REVIEW-cr-0011",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0011"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:785:arranger",
+      "raw": "近藤世真（Elements Garden）",
+      "candidateKey": "cr-0011"
+    },
+    {
+      "taskId": "garupa:785:lyricist:ALIAS_REVIEW-cr-0068",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0068"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:785:lyricist",
+      "raw": "YUI",
+      "candidateKey": "cr-0068"
+    },
+    {
+      "taskId": "garupa:786:arranger:ALIAS_REVIEW-cr-0008",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0008"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:786:arranger",
+      "raw": "藤間仁（Elements Garden）",
+      "candidateKey": "cr-0008"
+    },
+    {
+      "taskId": "garupa:786:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:786:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:787:arranger:ALIAS_REVIEW-cr-0004",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0004"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:787:arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "candidateKey": "cr-0004"
+    },
+    {
+      "taskId": "garupa:788:arranger:ALIAS_REVIEW-cr-0012",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0012"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:788:arranger",
+      "raw": "堀川大翼（Elements Garden）",
+      "candidateKey": "cr-0012"
+    },
+    {
+      "taskId": "garupa:788:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:788:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "garupa:789:arranger:ALIAS_REVIEW-cr-0048",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0048"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:789:arranger",
+      "raw": "片倉三起也",
+      "candidateKey": "cr-0048"
+    },
+    {
+      "taskId": "garupa:789:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:789:lyricist",
+      "raw": "宝野アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:789:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:789:lyricist",
+      "raw": "宝野アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:790:arranger:ALIAS_REVIEW-cr-0009",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0009"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:790:arranger",
+      "raw": "竹田祐介（Elements Garden）",
+      "candidateKey": "cr-0009"
+    },
+    {
+      "taskId": "garupa:790:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:790:lyricist",
+      "raw": "宝野アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:790:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "garupa:790:lyricist",
+      "raw": "宝野アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "garupa:791:arranger:ALIAS_REVIEW-current-a13640d86a7693717949",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0019"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:791:arranger",
+      "raw": "都丸椋太（Elements Garden）",
+      "candidateKey": "current-a13640d86a7693717949"
+    },
+    {
+      "taskId": "garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B066",
+        "creatorIds": [
+          "cr-0430"
+        ]
+      },
+      "reviewedScope": "garupa:791:composer",
+      "raw": "山崎あおい",
+      "candidateKey": "current-9d48971d06d3825f84fb"
+    },
+    {
+      "taskId": "garupa:791:composer:CREATOR_REGISTRATION-current-9d48971d06d3825f84fb",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B066",
+        "creatorIds": [
+          "cr-0430"
+        ]
+      },
+      "reviewedScope": "garupa:791:composer",
+      "raw": "山崎あおい",
+      "candidateKey": "current-9d48971d06d3825f84fb"
+    },
+    {
+      "taskId": "garupa:791:lyricist:CREATOR_IDENTITY-current-979592585b3a81b9b2ea",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B065",
+        "creatorIds": [
+          "cr-0430"
+        ]
+      },
+      "reviewedScope": "garupa:791:lyricist",
+      "raw": "山崎あおい",
+      "candidateKey": "current-979592585b3a81b9b2ea"
+    },
+    {
+      "taskId": "garupa:791:lyricist:CREATOR_REGISTRATION-current-979592585b3a81b9b2ea",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B065",
+        "creatorIds": [
+          "cr-0430"
+        ]
+      },
+      "reviewedScope": "garupa:791:lyricist",
+      "raw": "山崎あおい",
+      "candidateKey": "current-979592585b3a81b9b2ea"
+    },
+    {
+      "taskId": "garupa:792:arranger:ALIAS_REVIEW-cr-0007",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0007"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:792:arranger",
+      "raw": "岩橋星実（Elements Garden）",
+      "candidateKey": "cr-0007"
+    },
+    {
+      "taskId": "garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B053",
+        "creatorIds": [
+          "cr-0420"
+        ]
+      },
+      "reviewedScope": "garupa:792:composer",
+      "raw": "岡野昭仁",
+      "candidateKey": "current-e0bbf73eef3d3675b850"
+    },
+    {
+      "taskId": "garupa:792:composer:CREATOR_REGISTRATION-current-e0bbf73eef3d3675b850",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B053",
+        "creatorIds": [
+          "cr-0420"
+        ]
+      },
+      "reviewedScope": "garupa:792:composer",
+      "raw": "岡野昭仁",
+      "candidateKey": "current-e0bbf73eef3d3675b850"
+    },
+    {
+      "taskId": "garupa:792:lyricist:ALIAS_REVIEW-b1-065e0e070ab40a39c5e1",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0121"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:792:lyricist",
+      "raw": "新藤晴一",
+      "candidateKey": "b1-065e0e070ab40a39c5e1"
+    },
+    {
+      "taskId": "garupa:793:arranger:ALIAS_REVIEW-cr-0010",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0010"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:793:arranger",
+      "raw": "笠井雄太（Elements Garden）",
+      "candidateKey": "cr-0010"
+    },
+    {
+      "taskId": "garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B080",
+        "creatorIds": [
+          "cr-0445"
+        ]
+      },
+      "reviewedScope": "garupa:793:composer",
+      "raw": "米米CLUB",
+      "candidateKey": "current-b220e5a94f63be35fdcf"
+    },
+    {
+      "taskId": "garupa:793:composer:CREATOR_REGISTRATION-current-b220e5a94f63be35fdcf",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B080",
+        "creatorIds": [
+          "cr-0445"
+        ]
+      },
+      "reviewedScope": "garupa:793:composer",
+      "raw": "米米CLUB",
+      "candidateKey": "current-b220e5a94f63be35fdcf"
+    },
+    {
+      "taskId": "garupa:793:lyricist:CREATOR_IDENTITY-current-1714adb574697fbc6b55",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B079",
+        "creatorIds": [
+          "cr-0445"
+        ]
+      },
+      "reviewedScope": "garupa:793:lyricist",
+      "raw": "米米CLUB",
+      "candidateKey": "current-1714adb574697fbc6b55"
+    },
+    {
+      "taskId": "garupa:793:lyricist:CREATOR_REGISTRATION-current-1714adb574697fbc6b55",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B079",
+        "creatorIds": [
+          "cr-0445"
+        ]
+      },
+      "reviewedScope": "garupa:793:lyricist",
+      "raw": "米米CLUB",
+      "candidateKey": "current-1714adb574697fbc6b55"
+    },
+    {
+      "taskId": "garupa:794:arranger:ALIAS_REVIEW-current-b7ce5703d9eac3544358",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0019"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:794:arranger",
+      "raw": "都丸椋太（Elements Garden）",
+      "candidateKey": "current-b7ce5703d9eac3544358"
+    },
+    {
+      "taskId": "garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B023",
+        "creatorIds": [
+          "cr-0391"
+        ]
+      },
+      "reviewedScope": "garupa:794:composer",
+      "raw": "kz",
+      "candidateKey": "current-5fbaf6b50c02ae6e7a58"
+    },
+    {
+      "taskId": "garupa:794:composer:CREATOR_REGISTRATION-current-5fbaf6b50c02ae6e7a58",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B023",
+        "creatorIds": [
+          "cr-0391"
+        ]
+      },
+      "reviewedScope": "garupa:794:composer",
+      "raw": "kz",
+      "candidateKey": "current-5fbaf6b50c02ae6e7a58"
+    },
+    {
+      "taskId": "garupa:794:lyricist:CREATOR_IDENTITY-current-48cf41bc4a884dbef89d",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B022",
+        "creatorIds": [
+          "cr-0391"
+        ]
+      },
+      "reviewedScope": "garupa:794:lyricist",
+      "raw": "kz",
+      "candidateKey": "current-48cf41bc4a884dbef89d"
+    },
+    {
+      "taskId": "garupa:794:lyricist:CREATOR_REGISTRATION-current-48cf41bc4a884dbef89d",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B022",
+        "creatorIds": [
+          "cr-0391"
+        ]
+      },
+      "reviewedScope": "garupa:794:lyricist",
+      "raw": "kz",
+      "candidateKey": "current-48cf41bc4a884dbef89d"
+    },
+    {
+      "taskId": "garupa:795:arranger:ALIAS_REVIEW-cr-0020",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0020"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:795:arranger",
+      "raw": "日高勇輝（Elements Garden）",
+      "candidateKey": "cr-0020"
+    },
+    {
+      "taskId": "garupa:795:lyricist:ALIAS_REVIEW-b1-18eb03642f28fcb3973c",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0141"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:795:lyricist",
+      "raw": "こっちのけんと",
+      "candidateKey": "b1-18eb03642f28fcb3973c"
+    },
+    {
+      "taskId": "garupa:796:arranger:ALIAS_REVIEW-cr-0007",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0007"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:796:arranger",
+      "raw": "岩橋星実（Elements Garden）",
+      "candidateKey": "cr-0007"
+    },
+    {
+      "taskId": "garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B032",
+        "creatorIds": [
+          "cr-0399"
+        ]
+      },
+      "reviewedScope": "garupa:796:composer",
+      "raw": "FUNKY MONKEY BABYS/Naoki-T",
+      "candidateKey": "current-45f43879e01100c0453b"
+    },
+    {
+      "taskId": "garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B017",
+        "creatorIds": [
+          "cr-0387"
+        ]
+      },
+      "reviewedScope": "garupa:796:composer",
+      "raw": "FUNKY MONKEY BABYS/Naoki-T",
+      "candidateKey": "current-e12eac7660bbadf49c41"
+    },
+    {
+      "taskId": "garupa:796:composer:CREATOR_REGISTRATION-current-45f43879e01100c0453b",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B032",
+        "creatorIds": [
+          "cr-0399"
+        ]
+      },
+      "reviewedScope": "garupa:796:composer",
+      "raw": "FUNKY MONKEY BABYS/Naoki-T",
+      "candidateKey": "current-45f43879e01100c0453b"
+    },
+    {
+      "taskId": "garupa:796:composer:CREATOR_REGISTRATION-current-e12eac7660bbadf49c41",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B017",
+        "creatorIds": [
+          "cr-0387"
+        ]
+      },
+      "reviewedScope": "garupa:796:composer",
+      "raw": "FUNKY MONKEY BABYS/Naoki-T",
+      "candidateKey": "current-e12eac7660bbadf49c41"
+    },
+    {
+      "taskId": "garupa:796:lyricist:CREATOR_IDENTITY-current-8935eb59174b09438a34",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B016",
+        "creatorIds": [
+          "cr-0387"
+        ]
+      },
+      "reviewedScope": "garupa:796:lyricist",
+      "raw": "FUNKY MONKEY BABYS",
+      "candidateKey": "current-8935eb59174b09438a34"
+    },
+    {
+      "taskId": "garupa:796:lyricist:CREATOR_REGISTRATION-current-8935eb59174b09438a34",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B016",
+        "creatorIds": [
+          "cr-0387"
+        ]
+      },
+      "reviewedScope": "garupa:796:lyricist",
+      "raw": "FUNKY MONKEY BABYS",
+      "candidateKey": "current-8935eb59174b09438a34"
+    },
+    {
+      "taskId": "garupa:797:arranger:ALIAS_REVIEW-cr-0007",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0007"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:797:arranger",
+      "raw": "岩橋星実（Elements Garden）",
+      "candidateKey": "cr-0007"
+    },
+    {
+      "taskId": "garupa:797:lyricist:ALIAS_REVIEW-b1-706dfa00eb1eedda8c38",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0093"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:797:lyricist",
+      "raw": "中村航",
+      "candidateKey": "b1-706dfa00eb1eedda8c38"
+    },
+    {
+      "taskId": "garupa:798:arranger:ALIAS_REVIEW-cr-0011",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0011"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:798:arranger",
+      "raw": "近藤世真（Elements Garden）",
+      "candidateKey": "cr-0011"
+    },
+    {
+      "taskId": "garupa:798:lyricist:ALIAS_REVIEW-b1-96b50efd44763aae3629",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0127"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "garupa:798:lyricist",
+      "raw": "Fukase",
+      "candidateKey": "b1-96b50efd44763aae3629"
+    },
+    {
+      "taskId": "garupa:799:arranger:ALIAS_REVIEW-cr-0005",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0005"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:799:arranger",
+      "raw": "藤永龍太郎（Elements Garden）",
+      "candidateKey": "cr-0005"
+    },
+    {
+      "taskId": "garupa:800:arranger:ALIAS_REVIEW-cr-0004",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0004"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:800:arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "candidateKey": "cr-0004"
+    },
+    {
+      "taskId": "garupa:800:composer:ALIAS_REVIEW-cr-0004",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0004"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:800:composer",
+      "raw": "藤田淳平（Elements Garden）",
+      "candidateKey": "cr-0004"
+    },
+    {
+      "taskId": "garupa:800:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0092"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "garupa:800:lyricist",
+      "raw": "織田あすか（Elements Garden）",
+      "candidateKey": "b1-db9dc93abeb28da7e46e"
+    },
+    {
+      "taskId": "ournotes:1:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:1:arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:2:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:2:arranger",
+      "raw": "hisakuni(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:4:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:4:arranger",
+      "raw": "木下龍平(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:5:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:5:arranger",
+      "raw": "鈴木裕明(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "ournotes:6:arranger",
+      "raw": "尾崎豪（SUPA LOVE）",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "ournotes:6:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "ournotes:6:arranger",
+      "raw": "尾崎豪（SUPA LOVE）",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "ournotes:6:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:6:arranger",
+      "raw": "尾崎豪（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:6:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "ournotes:6:composer",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "ournotes:6:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B013",
+        "creatorIds": [
+          "cr-0384"
+        ]
+      },
+      "reviewedScope": "ournotes:6:composer",
+      "raw": "尾崎豪(SUPA LOVE)",
+      "candidateKey": "b1-decc904f4ad5d1c72ca9"
+    },
+    {
+      "taskId": "ournotes:7:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:7:arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:8:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "ournotes:8:arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "ournotes:8:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "ournotes:8:arranger",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "ournotes:8:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "ournotes:8:composer",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "ournotes:8:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B009",
+        "creatorIds": [
+          "cr-0380"
+        ]
+      },
+      "reviewedScope": "ournotes:8:composer",
+      "raw": "横地健太(SUPA LOVE)",
+      "candidateKey": "b1-6c54c616bf3d724cda81"
+    },
+    {
+      "taskId": "ournotes:10:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:10:arranger",
+      "raw": "庄司夏葵（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:11:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:11:arranger",
+      "raw": "金崎真士(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:13:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:13:arranger",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:14:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:14:arranger",
+      "raw": "槇島隆人（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:15:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:15:arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:18:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:18:arranger",
+      "raw": "長谷川大介(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:19:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:19:arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:19:lyricist:ALIAS_REVIEW-b1-145122f57cd75aa7c5a0",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0162"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "ournotes:19:lyricist",
+      "raw": "谷口 鮪",
+      "candidateKey": "b1-145122f57cd75aa7c5a0"
+    },
+    {
+      "taskId": "ournotes:20:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:20:arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:22:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:22:arranger",
+      "raw": "小木岳司",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:23:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:23:arranger",
+      "raw": "藤間仁（Elements Garden）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:27:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:27:arranger",
+      "raw": "あらケン(SUPA LOVE)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:35:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:35:arranger",
+      "raw": "賀佐泰洋（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B057",
+        "creatorIds": [
+          "cr-0423"
+        ]
+      },
+      "reviewedScope": "ournotes:36:arranger",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "candidateKey": "review-0483bc48120cfc2a4fba"
+    },
+    {
+      "taskId": "ournotes:36:arranger:CREATOR_REGISTRATION-review-0483bc48120cfc2a4fba",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B057",
+        "creatorIds": [
+          "cr-0423"
+        ]
+      },
+      "reviewedScope": "ournotes:36:arranger",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "candidateKey": "review-0483bc48120cfc2a4fba"
+    },
+    {
+      "taskId": "ournotes:36:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:36:arranger",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B056",
+        "creatorIds": [
+          "cr-0423"
+        ]
+      },
+      "reviewedScope": "ournotes:36:composer",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "candidateKey": "current-55a2115040534e48a08b"
+    },
+    {
+      "taskId": "ournotes:36:composer:CREATOR_REGISTRATION-current-55a2115040534e48a08b",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B056",
+        "creatorIds": [
+          "cr-0423"
+        ]
+      },
+      "reviewedScope": "ournotes:36:composer",
+      "raw": "角本麻衣（SUPA LOVE）",
+      "candidateKey": "current-55a2115040534e48a08b"
+    },
+    {
+      "taskId": "ournotes:36:lyricist:ALIAS_REVIEW-cr-0022",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0022"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:36:lyricist",
+      "raw": "Diggy-MO’",
+      "candidateKey": "cr-0022"
+    },
+    {
+      "taskId": "ournotes:37:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:37:arranger",
+      "raw": "あらケン（SUPA LOVE）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:39:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:39:arranger",
+      "raw": "Diggy-MO'",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:39:lyricist:ALIAS_REVIEW-cr-0022",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0022"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:39:lyricist",
+      "raw": "Diggy-MO’",
+      "candidateKey": "cr-0022"
+    },
+    {
+      "taskId": "ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:41:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:41:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:41:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:41:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:41:arranger",
+      "raw": "UYKADO",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:41:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B007",
+        "creatorIds": [
+          "cr-0378"
+        ]
+      },
+      "reviewedScope": "ournotes:41:lyricist",
+      "raw": "R-指定",
+      "candidateKey": "b1-85f0867cdd50b6bfa592"
+    },
+    {
+      "taskId": "ournotes:41:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B007",
+        "creatorIds": [
+          "cr-0378"
+        ]
+      },
+      "reviewedScope": "ournotes:41:lyricist",
+      "raw": "R-指定",
+      "candidateKey": "b1-85f0867cdd50b6bfa592"
+    },
+    {
+      "taskId": "ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:42:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:42:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:42:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:42:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:42:arranger",
+      "raw": "UYKADO",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:42:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "ournotes:42:lyricist",
+      "raw": "宝野　アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "ournotes:42:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B001",
+        "creatorIds": [
+          "cr-0372"
+        ]
+      },
+      "reviewedScope": "ournotes:42:lyricist",
+      "raw": "宝野　アリカ",
+      "candidateKey": "b1-ded90cd0337d00108b1a"
+    },
+    {
+      "taskId": "ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:43:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:43:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B002",
+        "creatorIds": [
+          "cr-0373"
+        ]
+      },
+      "reviewedScope": "ournotes:43:arranger",
+      "raw": "UYKADO",
+      "candidateKey": "review-9cda2256d6c7162d42ad"
+    },
+    {
+      "taskId": "ournotes:43:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:43:arranger",
+      "raw": "UYKADO",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:43:lyricist:ALIAS_REVIEW-cr-0078",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0078"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:43:lyricist",
+      "raw": "atsuko",
+      "candidateKey": "cr-0078"
+    },
+    {
+      "taskId": "ournotes:44:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:44:arranger",
+      "raw": "堀江晶太",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:44:lyricist:ALIAS_REVIEW-cr-0028",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0028"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:44:lyricist",
+      "raw": "堀江晶太",
+      "candidateKey": "cr-0028"
+    },
+    {
+      "taskId": "ournotes:45:arranger:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B015",
+        "creatorIds": [
+          "cr-0386"
+        ]
+      },
+      "reviewedScope": "ournotes:45:arranger",
+      "raw": "eba",
+      "candidateKey": "b1-8545f46d0c3a6cb00932"
+    },
+    {
+      "taskId": "ournotes:45:arranger:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B015",
+        "creatorIds": [
+          "cr-0386"
+        ]
+      },
+      "reviewedScope": "ournotes:45:arranger",
+      "raw": "eba",
+      "candidateKey": "b1-8545f46d0c3a6cb00932"
+    },
+    {
+      "taskId": "ournotes:45:composer:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B015",
+        "creatorIds": [
+          "cr-0386"
+        ]
+      },
+      "reviewedScope": "ournotes:45:composer",
+      "raw": "eba",
+      "candidateKey": "b1-8545f46d0c3a6cb00932"
+    },
+    {
+      "taskId": "ournotes:45:composer:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B015",
+        "creatorIds": [
+          "cr-0386"
+        ]
+      },
+      "reviewedScope": "ournotes:45:composer",
+      "raw": "eba",
+      "candidateKey": "b1-8545f46d0c3a6cb00932"
+    },
+    {
+      "taskId": "ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B006",
+        "creatorIds": [
+          "cr-0377"
+        ]
+      },
+      "reviewedScope": "ournotes:46:arranger",
+      "raw": "Nor、堀江晶太",
+      "candidateKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "taskId": "ournotes:46:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B006",
+        "creatorIds": [
+          "cr-0377"
+        ]
+      },
+      "reviewedScope": "ournotes:46:arranger",
+      "raw": "Nor、堀江晶太",
+      "candidateKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "taskId": "ournotes:46:arranger:SPLIT_REVIEW",
+      "category": "SPLIT_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "split",
+        "creatorIds": [
+          "cr-0377",
+          "cr-0028"
+        ]
+      },
+      "reviewedScope": "ournotes:46:arranger",
+      "raw": "Nor、堀江晶太",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:47:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B006",
+        "creatorIds": [
+          "cr-0377"
+        ]
+      },
+      "reviewedScope": "ournotes:47:arranger",
+      "raw": "堀江晶太、Nor",
+      "candidateKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "taskId": "ournotes:47:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B006",
+        "creatorIds": [
+          "cr-0377"
+        ]
+      },
+      "reviewedScope": "ournotes:47:arranger",
+      "raw": "堀江晶太、Nor",
+      "candidateKey": "b1-bc4eb6a5c9c4fe339039"
+    },
+    {
+      "taskId": "ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B036",
+        "creatorIds": [
+          "cr-0403"
+        ]
+      },
+      "reviewedScope": "ournotes:47:lyricist",
+      "raw": "白神真志朗、 Sekimen",
+      "candidateKey": "b1-92bd2642fc2116574da1"
+    },
+    {
+      "taskId": "ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B036",
+        "creatorIds": [
+          "cr-0403"
+        ]
+      },
+      "reviewedScope": "ournotes:47:lyricist",
+      "raw": "白神真志朗、 Sekimen",
+      "candidateKey": "b1-92bd2642fc2116574da1"
+    },
+    {
+      "taskId": "ournotes:48:arranger:ALIAS_REVIEW-b1-36456c709118f3609c80",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0258"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:48:arranger",
+      "raw": "園田健太郎",
+      "candidateKey": "b1-36456c709118f3609c80"
+    },
+    {
+      "taskId": "ournotes:48:composer:ALIAS_REVIEW-b1-36456c709118f3609c80",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0258"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:48:composer",
+      "raw": "園田健太郎",
+      "candidateKey": "b1-36456c709118f3609c80"
+    },
+    {
+      "taskId": "ournotes:52:arranger:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B082",
+        "creatorIds": [
+          "cr-0440"
+        ]
+      },
+      "reviewedScope": "ournotes:52:arranger",
+      "raw": "哥丸雄貴、堀江晶太",
+      "candidateKey": "b1-7c7ede552b3bb6d16e8e"
+    },
+    {
+      "taskId": "ournotes:52:arranger:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B082",
+        "creatorIds": [
+          "cr-0440"
+        ]
+      },
+      "reviewedScope": "ournotes:52:arranger",
+      "raw": "哥丸雄貴、堀江晶太",
+      "candidateKey": "b1-7c7ede552b3bb6d16e8e"
+    },
+    {
+      "taskId": "ournotes:52:composer:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B082",
+        "creatorIds": [
+          "cr-0440"
+        ]
+      },
+      "reviewedScope": "ournotes:52:composer",
+      "raw": "哥丸雄貴",
+      "candidateKey": "b1-7c7ede552b3bb6d16e8e"
+    },
+    {
+      "taskId": "ournotes:52:composer:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B082",
+        "creatorIds": [
+          "cr-0440"
+        ]
+      },
+      "reviewedScope": "ournotes:52:composer",
+      "raw": "哥丸雄貴",
+      "candidateKey": "b1-7c7ede552b3bb6d16e8e"
+    },
+    {
+      "taskId": "ournotes:53:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:arranger",
+      "raw": "堀江晶太、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:53:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:arranger",
+      "raw": "堀江晶太、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:composer",
+      "raw": "千石ユノ、堀江晶太",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:53:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:composer",
+      "raw": "千石ユノ、堀江晶太",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:lyricist",
+      "raw": "仲町あられ、千石ユノ、堀江晶太",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:53:lyricist",
+      "raw": "仲町あられ、千石ユノ、堀江晶太",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:54:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:54:arranger",
+      "raw": "TeddyLoid・堀江晶太",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:54:lyricist:ALIAS_REVIEW-cr-0028",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0028"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:54:lyricist",
+      "raw": "堀江晶太",
+      "candidateKey": "cr-0028"
+    },
+    {
+      "taskId": "ournotes:56:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:56:arranger",
+      "raw": "白神真志朗、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:56:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:56:arranger",
+      "raw": "白神真志朗、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:56:composer",
+      "raw": "白神真志朗、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:56:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B011",
+        "creatorIds": [
+          "cr-0382"
+        ]
+      },
+      "reviewedScope": "ournotes:56:composer",
+      "raw": "白神真志朗、千石ユノ",
+      "candidateKey": "b1-a60c08d1db0c515831cc"
+    },
+    {
+      "taskId": "ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B064",
+        "creatorIds": [
+          "cr-0071"
+        ]
+      },
+      "reviewedScope": "ournotes:59:arranger",
+      "raw": "sabio/高村風太",
+      "candidateKey": "review-589e9fbfb8b6c014ad7c"
+    },
+    {
+      "taskId": "ournotes:59:arranger:CREATOR_REGISTRATION-review-589e9fbfb8b6c014ad7c",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B064",
+        "creatorIds": [
+          "cr-0071"
+        ]
+      },
+      "reviewedScope": "ournotes:59:arranger",
+      "raw": "sabio/高村風太",
+      "candidateKey": "review-589e9fbfb8b6c014ad7c"
+    },
+    {
+      "taskId": "ournotes:59:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:59:arranger",
+      "raw": "sabio/高村風太",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_IDENTITY-b1-2cf6830ef29337b77619",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B021",
+        "creatorIds": [
+          "cr-0442"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-2cf6830ef29337b77619"
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B010",
+        "creatorIds": [
+          "cr-0381"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B005",
+        "creatorIds": [
+          "cr-0376"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_REGISTRATION-b1-2cf6830ef29337b77619",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B021",
+        "creatorIds": [
+          "cr-0442"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-2cf6830ef29337b77619"
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B010",
+        "creatorIds": [
+          "cr-0381"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "taskId": "ournotes:60:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B005",
+        "creatorIds": [
+          "cr-0376"
+        ]
+      },
+      "reviewedScope": "ournotes:60:arranger",
+      "raw": "DjeDje、KENSEI、三村一輝",
+      "candidateKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "taskId": "ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B010",
+        "creatorIds": [
+          "cr-0381"
+        ]
+      },
+      "reviewedScope": "ournotes:62:arranger",
+      "raw": "DjeDje、三村一輝",
+      "candidateKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "taskId": "ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B005",
+        "creatorIds": [
+          "cr-0376"
+        ]
+      },
+      "reviewedScope": "ournotes:62:arranger",
+      "raw": "DjeDje、三村一輝",
+      "candidateKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "taskId": "ournotes:62:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B010",
+        "creatorIds": [
+          "cr-0381"
+        ]
+      },
+      "reviewedScope": "ournotes:62:arranger",
+      "raw": "DjeDje、三村一輝",
+      "candidateKey": "b1-7e0183b00fe393a031a0"
+    },
+    {
+      "taskId": "ournotes:62:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B005",
+        "creatorIds": [
+          "cr-0376"
+        ]
+      },
+      "reviewedScope": "ournotes:62:arranger",
+      "raw": "DjeDje、三村一輝",
+      "candidateKey": "b1-a95af7013f3fdd519cf8"
+    },
+    {
+      "taskId": "ournotes:62:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:62:arranger",
+      "raw": "DjeDje、三村一輝",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:62:lyricist:ALIAS_REVIEW-cr-0023",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0023"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:62:lyricist",
+      "raw": "Ayase",
+      "candidateKey": "cr-0023"
+    },
+    {
+      "taskId": "ournotes:65:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:65:arranger",
+      "raw": "藤井健太郎",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B072",
+        "creatorIds": [
+          "cr-0444"
+        ]
+      },
+      "reviewedScope": "ournotes:68:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": "review-d5df0d8b84a91cab20e1"
+    },
+    {
+      "taskId": "ournotes:68:arranger:CREATOR_REGISTRATION-review-d5df0d8b84a91cab20e1",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B072",
+        "creatorIds": [
+          "cr-0444"
+        ]
+      },
+      "reviewedScope": "ournotes:68:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": "review-d5df0d8b84a91cab20e1"
+    },
+    {
+      "taskId": "ournotes:68:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:68:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:68:lyricist:ALIAS_REVIEW-cr-0024",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0024"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "ournotes:68:lyricist",
+      "raw": "藤原　聡",
+      "candidateKey": "cr-0024"
+    },
+    {
+      "taskId": "ournotes:70:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "ournotes:70:composer",
+      "raw": "ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "ournotes:70:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "ournotes:70:composer",
+      "raw": "ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "ournotes:70:lyricist:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "ournotes:70:lyricist",
+      "raw": "ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "ournotes:70:lyricist:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B008",
+        "creatorIds": [
+          "cr-0379"
+        ]
+      },
+      "reviewedScope": "ournotes:70:lyricist",
+      "raw": "ぬゆり",
+      "candidateKey": "b1-9637211e2855d7f0cee3"
+    },
+    {
+      "taskId": "ournotes:73:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:73:arranger",
+      "raw": "藤井健太郎",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:73:lyricist:ALIAS_REVIEW-cr-0033",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0033"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:73:lyricist",
+      "raw": "藤井健太郎",
+      "candidateKey": "cr-0033"
+    },
+    {
+      "taskId": "ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B073",
+        "creatorIds": [
+          "cr-0444"
+        ]
+      },
+      "reviewedScope": "ournotes:75:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": "b1-1556a9939a4521612fe2"
+    },
+    {
+      "taskId": "ournotes:75:arranger:CREATOR_REGISTRATION-b1-1556a9939a4521612fe2",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B073",
+        "creatorIds": [
+          "cr-0444"
+        ]
+      },
+      "reviewedScope": "ournotes:75:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": "b1-1556a9939a4521612fe2"
+    },
+    {
+      "taskId": "ournotes:75:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:75:arranger",
+      "raw": "石倉まろ",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:76:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:76:arranger",
+      "raw": "藤井健太郎",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:76:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0102"
+        ],
+        "automatic": true
+      },
+      "reviewedScope": "ournotes:76:lyricist",
+      "raw": "MOMIKEN",
+      "candidateKey": "b1-b528ebcd57341a509dce"
+    },
+    {
+      "taskId": "ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:78:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:78:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:78:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:78:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:78:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:79:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:79:arranger",
+      "raw": "藤田淳平（Elements Garden）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:80:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:80:arranger",
+      "raw": "白神真志朗",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:81:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:81:arranger",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:81:lyricist:ALIAS_REVIEW-cr-0076",
+      "category": "ALIAS_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "creatorIds": [
+          "cr-0076"
+        ],
+        "automatic": false
+      },
+      "reviewedScope": "ournotes:81:lyricist",
+      "raw": "秋田　ひろむ",
+      "candidateKey": "cr-0076"
+    },
+    {
+      "taskId": "ournotes:82:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:82:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:82:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:82:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "ournotes:83:arranger",
+      "raw": "植木建象、加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "ournotes:83:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B003",
+        "creatorIds": [
+          "cr-0374"
+        ]
+      },
+      "reviewedScope": "ournotes:83:arranger",
+      "raw": "植木建象、加藤貴之",
+      "candidateKey": "b1-738ccdae4df4a8aa4aad"
+    },
+    {
+      "taskId": "ournotes:83:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:83:arranger",
+      "raw": "植木建象、加藤貴之",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:84:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:84:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:84:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B004",
+        "creatorIds": [
+          "cr-0375"
+        ]
+      },
+      "reviewedScope": "ournotes:84:arranger",
+      "raw": "牧野太洋",
+      "candidateKey": "b1-217be10299dcfad8a87d"
+    },
+    {
+      "taskId": "ournotes:85:arranger:CREATOR_IDENTITY-b1-2e9d852ee7948d105768",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B037",
+        "creatorIds": [
+          "cr-0404"
+        ]
+      },
+      "reviewedScope": "ournotes:85:arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "candidateKey": "b1-2e9d852ee7948d105768"
+    },
+    {
+      "taskId": "ournotes:85:arranger:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:85:arranger:CREATOR_REGISTRATION-b1-2e9d852ee7948d105768",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B037",
+        "creatorIds": [
+          "cr-0404"
+        ]
+      },
+      "reviewedScope": "ournotes:85:arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "candidateKey": "b1-2e9d852ee7948d105768"
+    },
+    {
+      "taskId": "ournotes:85:arranger:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:arranger",
+      "raw": "ケンモチヒデフミ、Skye K",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:85:composer:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:composer",
+      "raw": "ケンモチヒデフミ",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:85:composer:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:composer",
+      "raw": "ケンモチヒデフミ",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:85:lyricist:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:lyricist",
+      "raw": "ケンモチヒデフミ",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:85:lyricist:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B042",
+        "creatorIds": [
+          "cr-0409"
+        ]
+      },
+      "reviewedScope": "ournotes:85:lyricist",
+      "raw": "ケンモチヒデフミ",
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5"
+    },
+    {
+      "taskId": "ournotes:86:arranger:GAME_VERSION_REVIEW",
+      "category": "GAME_VERSION_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "version"
+      },
+      "reviewedScope": "ournotes:86:arranger",
+      "raw": "植木建象、神田ジョン（from PENGUIN RESEARCH）",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:87:arranger:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:arranger",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:arranger:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:arranger",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:arranger:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "role"
+      },
+      "reviewedScope": "ournotes:87:arranger",
+      "raw": "アザミ",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:87:composer:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:composer",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:composer:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:composer",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:composer:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "role"
+      },
+      "reviewedScope": "ournotes:87:composer",
+      "raw": "アザミ",
+      "candidateKey": null
+    },
+    {
+      "taskId": "ournotes:87:lyricist:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_IDENTITY",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:lyricist",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:lyricist:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520",
+      "category": "CREATOR_REGISTRATION",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "blockId": "B040",
+        "creatorIds": [
+          "cr-0407"
+        ]
+      },
+      "reviewedScope": "ournotes:87:lyricist",
+      "raw": "アザミ",
+      "candidateKey": "current-fc6cae540d69a28f9520"
+    },
+    {
+      "taskId": "ournotes:87:lyricist:ROLE_REVIEW",
+      "category": "ROLE_REVIEW",
+      "status": "RESOLVED",
+      "answer": {
+        "answer": "はい",
+        "kind": "role"
+      },
+      "reviewedScope": "ournotes:87:lyricist",
+      "raw": "アザミ",
+      "candidateKey": null
+    }
+  ],
+  "newOutOfScopeTasks": [
+    "ournotes:89:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+    "ournotes:89:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+    "ournotes:89:arranger:ROLE_REVIEW",
+    "ournotes:89:composer:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+    "ournotes:89:composer:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+    "ournotes:89:composer:ROLE_REVIEW",
+    "ournotes:89:lyricist:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+    "ournotes:89:lyricist:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+    "ournotes:89:lyricist:ROLE_REVIEW"
+  ],
+  "currentOutstandingTasks": [
+    "ournotes:89:arranger:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+    "ournotes:89:arranger:ROLE_REVIEW",
+    "ournotes:89:composer:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+    "ournotes:89:composer:ROLE_REVIEW",
+    "ournotes:89:lyricist:ALIAS_REVIEW-b1-217be10299dcfad8a87d",
+    "ournotes:89:lyricist:ROLE_REVIEW"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "node": "v22.23.4",
+  "head": "57bc7e939ae55810e44de182e01b64b9efdbc646",
+  "tests": {
+    "total": 397,
+    "canonical": 289,
+    "humanReview": 82,
+    "currentExtra": 26
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "garupa": 801,
+    "ournotes": 89,
+    "creators": 446
+  },
+  "SEO": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "pages": 1345,
+    "details": 890
+  },
+  "Functions": {
+    "status": "PASS",
+    "wrangler": "4.143.0"
+  },
+  "dataHashes": {
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/ournotes/songs.json": "bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d",
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617"
+  },
+  "sourceHashes": {
+    "scripts/migrations/creator-final-six-review.mjs": "210c1a7eeb05195991eac85235f5e4a803e9c05f9687c2d5ecd3ff304e1cc809",
+    "scripts/qa/creator-final-six-audit.mjs": "c948ec5f887a8a5f6d7ad3961b68e4d173c87f7f3a52277214622e62bc50fe2c",
+    "scripts/qa/creator-final-six-pages.mjs": "9629a4ff902d7e6de0f17bdaaa32ca7b6c279146df98200342bdd077ffc91d77",
+    "scripts/migrations/creator-final-six-prior-regression.mjs": "dfaa00ccea06141bb6016eec6c114f5fc009be59e1f30a79a7555cd6497d7171",
+    "tests/research/creator-final-six-review.test.mjs": "0d062bb9e14974ce50236aead68fefca7bd9391a7f39c49f9d5d449cf2a256a0",
+    "scripts/research/creator-credit-human-todo.mjs": "dfac29338f9f9522f4289b6bba50860419d52dd1c8b906683bccc18e80a109e1",
+    "scripts/migrations/creator-review-regression.mjs": "cef457066e1aff784ed4d96284428f3c8ef6197995e1abb19cbbe55beff52c51",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "3ac44eba7a0125422c41cf28be54ad99fac4de966b60793946be6827a6f90fc8",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "c066161a6ce27b9eddc2f9ecc551e4d3dcc038e37db7a9be58da6136bc5bafa6",
+    "scripts/migrations/creator-remaining-prior-regression.mjs": "7054ff59fda307abe7eeababb698ee6b20f3c51ed29faa960e6dd9bcc3409c4d",
+    "scripts/migrations/creator-credit-remaining-review.mjs": "ff7b8ea1a017a77534241d3a47efeeb28e46d374eb77e5074242783e60e5ecc4",
+    "scripts/qa/creator-credit-remaining-audit.mjs": "de64c1258bcf95e88e3ecd26c5439cc1904d03503f207f761bbeb8de067d1cc6",
+    "scripts/qa/creator-credit-remaining-pages.mjs": "d6410636571cebe642cef0c44010da973c863a771a74a7d8bfa85bcca75cbb5b",
+    "tests/research/creator-credit-remaining-review.test.mjs": "0a4d3581efa5d8ceee91731dbd3d7df7813d5196cac700c1efd466954ba606cb"
+  },
+  "todo": {
+    "songs": 0,
+    "tasks": 0,
+    "unmapped": 0
+  },
+  "historicalReviewFilesPreserved": 274,
+  "pageAuditRouting": [
+    {
+      "historicalFile": "docs/human-review/creator-final-six-2026-10-22/subpath-page-audit.json",
+      "restoredOriginalBytes": true,
+      "newRun": "subpath-page-audit.json"
+    }
+  ],
+  "logHashes": {
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/todo-generate.txt": "ae9d8d41ef0557dca811754cab776c1a421e47e1467ee720984be05186c1fcf8",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/final-six-tests.txt": "bb2ab9f5b7a121741c8de00b61e52ca8ce58917e9956f26f078dfa8ede8d7569",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/earlier-review-tests.txt": "374ba154cd034e08f1cb019a816fe5d1abeac26be1e6255a7b206eb4f965ff6c",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/p1-tests.txt": "e261b998c2a51a3aeba1c092e848a94030109de866e8ebc70737dcef6138b559",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/p2-tests.txt": "a4cc030314cc3d5a4c4ace60303fc969a11acc98399f0a17afaf788d462fc07b",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/p3-tests.txt": "4dec3d4e6da9ced3c4d11bbece38b068fb39978a95464319c0531c95199cfa19",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/remaining-tests.txt": "d30c5d546112e5c5297f8a79f8385dc413c1d0d42fda1c739fd74e8268b4f06f",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/extra-tests.txt": "37b92a594cd94a63bb34d57663962dea935ec8ca1a85703fd07a2c60a351d530",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/root-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/root-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/root-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/standard-tests.txt": "9109216a5a43370f7130c9b1a12d9bada3d809e953c07432598aceca0a400b59",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/subpath-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/subpath-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/subpath-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/functions.txt": "08d3ff029cd9b2fc6ca754a45a16bee7defe0e665642d5ee4d384a9e98586ad1",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/todo-verify.txt": "7c03d89b727df2fcd3cd12441e733fbb4533cc7dbda2b107e05979a8d5e1aa2b",
+    "docs/human-review/creator-credits-publication-2026-10-22/validation/format.txt": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+  },
+  "publication": {
+    "authorized": true,
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "verifiedAt": "2026-10-22T02:40:43.511Z"
+}

@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "B022": {
+      "affiliation": "なし"
+    },
+    "B028": {
+      "affiliation": "なし"
+    },
+    "B030": {
+      "type": "person",
+      "affiliation": "なし"
+    },
+    "B070": {
+      "slug": "yumi-matsutoya",
+      "type": "person",
+      "aliases": "[松任谷 由実; 荒井由実]",
+      "affiliation": "なし"
+    },
+    "B083": {
+      "slug": "hikaru-sakurazawa",
+      "type": "person"
+    },
+    "B075": {
+      "standardName": "多田慎也"
+    }
+  },
+  "tasks": {
+    "garupa:800:composer:ALIAS_REVIEW-cr-0004": {
+      "同一Creatorとして当該roleに紐付け": "はい"
+    },
+    "ournotes:6:arranger:GAME_VERSION_REVIEW": {
+      "sameArrangementAsRelease": "はい"
+    }
+  },
+  "responses": [
+    {
+      "question": "登録欄の空欄・欄ずれ",
+      "answer": "kz：affiliation=\"なし\"\nMasayoshi Minoshima：affiliation=\"なし\"\nMK-METAL／渡辺未来：type=\"person\"\n松任谷由実：slug=\"yumi-matsutoya\"、type=\"person\"、aliases=[松任谷 由実; 荒井由実]、affiliation=\"なし\"\n櫻澤ヒカル：slug=\"hikaru-sakurazawa\"、type=\"person\""
+    },
+    {
+      "question": "同定・重複",
+      "answer": "「唱」の編曲者として活動名KENSEIを正式登録してよい\n石倉まろ／石倉誉之（B072・B073）は、同じ「石倉まろ」1件へ統合してよい\n米米CLUB（B079・B080）は、1件へ統合してよい"
+    },
+    {
+      "question": "MK-METAL／渡辺未来の所属",
+      "answer": "MK-METAL／渡辺未来の所属は\"なし\"とします"
+    },
+    {
+      "question": "引用符欠落3点",
+      "answer": "記載の3点で確定"
+    }
+  ],
+  "kensei": "register",
+  "mergeDuplicates": true
+}

@@ -1,0 +1,3587 @@
+{
+  "reviewer": "タニマチ",
+  "humanReviewDate": null,
+  "candidates": [
+    {
+      "id": "B001",
+      "name": "宝野 アリカ",
+      "text": "candidateKey: b1-ded90cd0337d00108b1a\r\n台帳raw表記: 「宝野アリカ」 / 「宝野 アリカ」 / 「宝野　アリカ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"宝野アリカ\"\r\nreading=\"たからのありか\"\r\nsortKey=\"たからのありか\"\r\nslug=\"allica-takarano\"\r\ntype=\"person\"\r\naliases=\"[宝野 アリカ; 宝野　アリカ]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:534 「聖少女領域」／作詞 〔raw：宝野 アリカ / 主体token:「宝野 アリカ」〕\r\nidentityTaskId: garupa:534:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a\r\nregistrationTaskId: garupa:534:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a\r\nGarupa:789 「この蒼き闇と光」／作詞 〔raw：宝野アリカ / 主体token:「宝野アリカ」〕\r\nidentityTaskId: garupa:789:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a\r\nregistrationTaskId: garupa:789:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a\r\nGarupa:790 「勇侠青春謳」／作詞 〔raw：宝野アリカ / 主体token:「宝野アリカ」〕\r\nidentityTaskId: garupa:790:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a\r\nregistrationTaskId: garupa:790:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a\r\nOurNotes:42 「暗黒天国」／作詞 〔raw：宝野　アリカ / 主体token:「宝野　アリカ」〕\r\nidentityTaskId: ournotes:42:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a\r\nregistrationTaskId: ournotes:42:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "宝野アリカ",
+        "reading": "たからのありか",
+        "sortKey": "たからのありか",
+        "slug": "allica-takarano",
+        "type": "person",
+        "aliases": "[宝野 アリカ; 宝野　アリカ]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-ded90cd0337d00108b1a",
+      "taskIds": [
+        "garupa:534:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "garupa:534:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+        "garupa:789:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "garupa:789:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+        "garupa:790:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "garupa:790:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a",
+        "ournotes:42:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a",
+        "ournotes:42:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a"
+      ]
+    },
+    {
+      "id": "B002",
+      "name": "UYKADO",
+      "text": "candidateKey: review-9cda2256d6c7162d42ad\r\n台帳raw表記: 「UYKADO」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"UYKADO\"\r\nreading=\"ゆいかどう\"\r\nsortKey=\"ゆいかどう\"\r\nslug=\"uykado\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:41 「堕天」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕\r\nidentityTaskId: ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad\r\nregistrationTaskId: ournotes:41:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad\r\nOurNotes:42 「暗黒天国」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕\r\nidentityTaskId: ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad\r\nregistrationTaskId: ournotes:42:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad\r\nOurNotes:43 「KINGS」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕\r\nidentityTaskId: ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad\r\nregistrationTaskId: ournotes:43:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "UYKADO",
+        "reading": "ゆいかどう",
+        "sortKey": "ゆいかどう",
+        "slug": "uykado",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "review-9cda2256d6c7162d42ad",
+      "taskIds": [
+        "ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:41:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+        "ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:42:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad",
+        "ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad",
+        "ournotes:43:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad"
+      ]
+    },
+    {
+      "id": "B003",
+      "name": "加藤貴之",
+      "text": "candidateKey: b1-738ccdae4df4a8aa4aad\r\n台帳raw表記: 「加藤貴之」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"加藤貴之\"\r\nreading=\"かとうたかゆき\"\r\nsortKey=\"かとうたかゆき\"\r\nslug=\"takayuki-kato\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:579 「僕は...」／編曲 〔raw：植木建象/加藤貴之 / 主体token:「加藤貴之」〕\r\nidentityTaskId: garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad\r\nregistrationTaskId: garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad\r\nGarupa:610 「雑踏、僕らの街」／編曲 〔raw：植木建象、加藤貴之 / 主体token:「加藤貴之」〕\r\nidentityTaskId: garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad\r\nregistrationTaskId: garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad\r\nOurNotes:83 「ファタール」／編曲 〔raw：植木建象、加藤貴之 / 主体token:「加藤貴之」〕\r\nidentityTaskId: ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad\r\nregistrationTaskId: ournotes:83:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "加藤貴之",
+        "reading": "かとうたかゆき",
+        "sortKey": "かとうたかゆき",
+        "slug": "takayuki-kato",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-738ccdae4df4a8aa4aad",
+      "taskIds": [
+        "garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+        "garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad",
+        "ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad",
+        "ournotes:83:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad"
+      ]
+    },
+    {
+      "id": "B004",
+      "name": "牧野太洋",
+      "text": "candidateKey: b1-217be10299dcfad8a87d\r\n台帳raw表記: 「牧野太洋」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"牧野太洋\"\r\nreading=\"まきのたいよう\"\r\nsortKey=\"まきのたいよう\"\r\nslug=\"taiyo-makino\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:78 「革命道中」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕\r\nidentityTaskId: ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d\r\nregistrationTaskId: ournotes:78:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d\r\nOurNotes:82 「Stellar Stellar」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕\r\nidentityTaskId: ournotes:82:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d\r\nregistrationTaskId: ournotes:82:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d\r\nOurNotes:84 「微笑みの爆弾」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕\r\nidentityTaskId: ournotes:84:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d\r\nregistrationTaskId: ournotes:84:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "牧野太洋",
+        "reading": "まきのたいよう",
+        "sortKey": "まきのたいよう",
+        "slug": "taiyo-makino",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-217be10299dcfad8a87d",
+      "taskIds": [
+        "ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+        "ournotes:78:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+        "ournotes:82:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+        "ournotes:82:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d",
+        "ournotes:84:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d",
+        "ournotes:84:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d"
+      ]
+    },
+    {
+      "id": "B005",
+      "name": "DjeDje",
+      "text": "candidateKey: b1-a95af7013f3fdd519cf8\r\n台帳raw表記: 「DjeDje」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"DjeDje\"\r\nreading=\"じぇじぇ\"\r\nsortKey=\"じぇじぇ\"\r\nslug=\"djedje\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「DjeDje」〕\r\nidentityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8\r\nregistrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8\r\nOurNotes:62 「UNDEAD」／編曲 〔raw：DjeDje、三村一輝 / 主体token:「DjeDje」〕\r\nidentityTaskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8\r\nregistrationTaskId: ournotes:62:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "DjeDje",
+        "reading": "じぇじぇ",
+        "sortKey": "じぇじぇ",
+        "slug": "djedje",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-a95af7013f3fdd519cf8",
+      "taskIds": [
+        "ournotes:60:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8",
+        "ournotes:60:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8",
+        "ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8",
+        "ournotes:62:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8"
+      ]
+    },
+    {
+      "id": "B006",
+      "name": "Nor",
+      "text": "candidateKey: b1-bc4eb6a5c9c4fe339039\r\n台帳raw表記: 「Nor」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Nor\"\r\nreading=\"のる\"\r\nsortKey=\"のる\"\r\nslug=\"nor\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:46 「限界現実サバイブ天使」／編曲 〔raw：Nor、堀江晶太 / 主体token:「Nor」〕\r\nidentityTaskId: ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039\r\nregistrationTaskId: ournotes:46:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039\r\nOurNotes:47 「ビッグマウス」／編曲 〔raw：堀江晶太、Nor / 主体token:「Nor」〕\r\nidentityTaskId: ournotes:47:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039\r\nregistrationTaskId: ournotes:47:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Nor",
+        "reading": "のる",
+        "sortKey": "のる",
+        "slug": "nor",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-bc4eb6a5c9c4fe339039",
+      "taskIds": [
+        "ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039",
+        "ournotes:46:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039",
+        "ournotes:47:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039",
+        "ournotes:47:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039"
+      ]
+    },
+    {
+      "id": "B007",
+      "name": "R-指定",
+      "text": "candidateKey: b1-85f0867cdd50b6bfa592\r\n台帳raw表記: 「R-指定」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"R-指定\"\r\nreading=\"あーるしてい\"\r\nsortKey=\"あーるしてい\"\r\nslug=\"r-shitei\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:608 「Bling-Bang-Bang-Born」／作詞 〔raw：R-指定 / 主体token:「R-指定」〕\r\nidentityTaskId: garupa:608:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592\r\nregistrationTaskId: garupa:608:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592\r\nOurNotes:41 「堕天」／作詞 〔raw：R-指定 / 主体token:「R-指定」〕\r\nidentityTaskId: ournotes:41:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592\r\nregistrationTaskId: ournotes:41:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "R-指定",
+        "reading": "あーるしてい",
+        "sortKey": "あーるしてい",
+        "slug": "r-shitei",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-85f0867cdd50b6bfa592",
+      "taskIds": [
+        "garupa:608:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592",
+        "garupa:608:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592",
+        "ournotes:41:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592",
+        "ournotes:41:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592"
+      ]
+    },
+    {
+      "id": "B008",
+      "name": "ぬゆり",
+      "text": "candidateKey: b1-9637211e2855d7f0cee3\r\n台帳raw表記: 「ぬゆり」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ぬゆり\"\r\nreading=\"ぬゆり\"\r\nsortKey=\"ぬゆり\"\r\nslug=\"nulut\"\r\ntype=\"person\"\r\naliases=\"[Lanndo; nulut]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:258 「秒針を噛む」／作曲 〔raw：ACAね×ぬゆり / 主体token:「ぬゆり」〕\r\nidentityTaskId: garupa:258:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3\r\nregistrationTaskId: garupa:258:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3\r\nOurNotes:70 「ロウワー」／作曲 〔raw：ぬゆり / 主体token:「ぬゆり」〕\r\nidentityTaskId: ournotes:70:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3\r\nregistrationTaskId: ournotes:70:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3\r\nOurNotes:70 「ロウワー」／作詞 〔raw：ぬゆり / 主体token:「ぬゆり」〕\r\nidentityTaskId: ournotes:70:lyricist:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3\r\nregistrationTaskId: ournotes:70:lyricist:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ぬゆり",
+        "reading": "ぬゆり",
+        "sortKey": "ぬゆり",
+        "slug": "nulut",
+        "type": "person",
+        "aliases": "[Lanndo; nulut]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-9637211e2855d7f0cee3",
+      "taskIds": [
+        "garupa:258:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+        "garupa:258:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3",
+        "ournotes:70:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+        "ournotes:70:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3",
+        "ournotes:70:lyricist:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3",
+        "ournotes:70:lyricist:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3"
+      ]
+    },
+    {
+      "id": "B009",
+      "name": "横地健太",
+      "text": "candidateKey: b1-6c54c616bf3d724cda81\r\n台帳raw表記: 「横地健太(SUPA LOVE)」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"横地健太\"\r\nreading=\"よこちけんた\"\r\nsortKey=\"よこちけんた\"\r\nslug=\"kenta-yokochi\"\r\ntype=\"person\"\r\naliases=\"[横地健太(SUPA LOVE)]\"\r\naffiliation=\"SUPA LOVE\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:503 「詩超絆」／編曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕\r\nidentityTaskId: garupa:503:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81\r\nregistrationTaskId: garupa:503:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81\r\nGarupa:503 「詩超絆」／作曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕\r\nidentityTaskId: garupa:503:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81\r\nregistrationTaskId: garupa:503:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81\r\nOurNotes:8 「詩超絆」／編曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕\r\nidentityTaskId: ournotes:8:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81\r\nregistrationTaskId: ournotes:8:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81\r\nOurNotes:8 「詩超絆」／作曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕\r\nidentityTaskId: ournotes:8:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81\r\nregistrationTaskId: ournotes:8:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "横地健太",
+        "reading": "よこちけんた",
+        "sortKey": "よこちけんた",
+        "slug": "kenta-yokochi",
+        "type": "person",
+        "aliases": "[横地健太(SUPA LOVE)]",
+        "affiliation": "SUPA LOVE",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-6c54c616bf3d724cda81",
+      "taskIds": [
+        "garupa:503:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+        "garupa:503:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+        "garupa:503:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+        "garupa:503:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+        "ournotes:8:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+        "ournotes:8:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81",
+        "ournotes:8:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81",
+        "ournotes:8:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81"
+      ]
+    },
+    {
+      "id": "B010",
+      "name": "三村一輝",
+      "text": "candidateKey: b1-7e0183b00fe393a031a0\r\n台帳raw表記: 「三村一輝」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"三村一輝\"\r\nreading=\"みむらかずき\"\r\nsortKey=\"みむらかずき\"\r\nslug=\"kazuki-mimura\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「三村一輝」〕\r\nidentityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0\r\nregistrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0\r\nOurNotes:62 「UNDEAD」／編曲 〔raw：DjeDje、三村一輝 / 主体token:「三村一輝」〕\r\nidentityTaskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0\r\nregistrationTaskId: ournotes:62:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "三村一輝",
+        "reading": "みむらかずき",
+        "sortKey": "みむらかずき",
+        "slug": "kazuki-mimura",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-7e0183b00fe393a031a0",
+      "taskIds": [
+        "ournotes:60:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0",
+        "ournotes:60:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0",
+        "ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0",
+        "ournotes:62:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0"
+      ]
+    },
+    {
+      "id": "B011",
+      "name": "千石ユノ",
+      "text": "candidateKey: b1-a60c08d1db0c515831cc\r\n台帳raw表記: 「千石ユノ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"千石ユノ\"\r\nreading=\"せんごくゆの\"\r\nsortKey=\"せんごくゆの\"\r\nslug=\"yuno-sengoku\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:53 「チューニング」／編曲 〔raw：堀江晶太、千石ユノ / 主体token:「千石ユノ」〕\r\nidentityTaskId: ournotes:53:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc\r\nregistrationTaskId: ournotes:53:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc\r\nOurNotes:53 「チューニング」／作曲 〔raw：千石ユノ、堀江晶太 / 主体token:「千石ユノ」〕\r\nidentityTaskId: ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc\r\nregistrationTaskId: ournotes:53:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc\r\nOurNotes:53 「チューニング」／作詞 〔raw：仲町あられ、千石ユノ、堀江晶太 / 主体token:「千石ユノ」〕\r\nidentityTaskId: ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc\r\nregistrationTaskId: ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc\r\nOurNotes:56 「Face The Next」／編曲 〔raw：白神真志朗、千石ユノ / 主体token:「千石ユノ」〕\r\nidentityTaskId: ournotes:56:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc\r\nregistrationTaskId: ournotes:56:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc\r\nOurNotes:56 「Face The Next」／作曲 〔raw：白神真志朗、千石ユノ / 主体token:「千石ユノ」〕\r\nidentityTaskId: ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc\r\nregistrationTaskId: ournotes:56:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "千石ユノ",
+        "reading": "せんごくゆの",
+        "sortKey": "せんごくゆの",
+        "slug": "yuno-sengoku",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-a60c08d1db0c515831cc",
+      "taskIds": [
+        "ournotes:53:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+        "ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+        "ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+        "ournotes:56:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:56:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc",
+        "ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc",
+        "ournotes:56:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc"
+      ]
+    },
+    {
+      "id": "B012",
+      "name": "唐沢美帆",
+      "text": "candidateKey: b1-501db66e776fdea74878\r\n台帳raw表記: 「唐沢美帆」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"唐沢美帆\"\r\nreading=\"からさわみほ\"\r\nsortKey=\"からさわみほ\"\r\nslug=\"miho-karasawa\"\r\ntype=\"person\"\r\naliases=\"[TRUE]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:440 「Storyteller」／作詞 〔raw：唐沢美帆 / 主体token:「唐沢美帆」〕\r\nidentityTaskId: garupa:440:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878\r\nregistrationTaskId: garupa:440:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878\r\nGarupa:721 「Sincerely」／作詞 〔raw：唐沢美帆 / 主体token:「唐沢美帆」〕\r\nidentityTaskId: garupa:721:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878\r\nregistrationTaskId: garupa:721:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "唐沢美帆",
+        "reading": "からさわみほ",
+        "sortKey": "からさわみほ",
+        "slug": "miho-karasawa",
+        "type": "person",
+        "aliases": "[TRUE]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-501db66e776fdea74878",
+      "taskIds": [
+        "garupa:440:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878",
+        "garupa:440:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878",
+        "garupa:721:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878",
+        "garupa:721:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878"
+      ]
+    },
+    {
+      "id": "B013",
+      "name": "尾崎豪",
+      "text": "candidateKey: b1-decc904f4ad5d1c72ca9\r\n台帳raw表記: 「尾崎豪(SUPA LOVE)」 / 「尾崎豪 (SUPA LOVE)」 / 「尾崎豪（SUPA LOVE）」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"尾崎豪\"\r\nreading=\"おざきごう\"\r\nsortKey=\"おざきごう\"\r\nslug=\"go-ozaki\"\r\ntype=\"person\"\r\naliases=\"[尾崎豪(SUPA LOVE); 尾崎豪（SUPA LOVE）]\"\r\naffiliation=\"SUPA LOVE\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"「尾崎豪 (SUPA LOVE)」という表記は全て「尾崎豪（SUPA LOVE）」に変更してください。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:647 「音一会」／編曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」〕\r\nidentityTaskId: garupa:647:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9\r\nregistrationTaskId: garupa:647:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9\r\nGarupa:647 「音一会」／作曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」〕\r\nidentityTaskId: garupa:647:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9\r\nregistrationTaskId: garupa:647:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9\r\nOurNotes:6 「音一会」／編曲 〔raw：尾崎豪（SUPA LOVE） / 主体token:「尾崎豪（SUPA LOVE）」〕\r\nidentityTaskId: ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9\r\nregistrationTaskId: ournotes:6:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9\r\nOurNotes:6 「音一会」／作曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪 (SUPA LOVE)」〕\r\nidentityTaskId: ournotes:6:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9\r\nregistrationTaskId: ournotes:6:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "尾崎豪",
+        "reading": "おざきごう",
+        "sortKey": "おざきごう",
+        "slug": "go-ozaki",
+        "type": "person",
+        "aliases": "[尾崎豪(SUPA LOVE); 尾崎豪（SUPA LOVE）]",
+        "affiliation": "SUPA LOVE",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "「尾崎豪 (SUPA LOVE)」という表記は全て「尾崎豪（SUPA LOVE）」に変更してください。"
+      },
+      "candidateKey": "b1-decc904f4ad5d1c72ca9",
+      "taskIds": [
+        "garupa:647:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+        "garupa:647:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+        "garupa:647:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+        "garupa:647:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9",
+        "ournotes:6:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9"
+      ]
+    },
+    {
+      "id": "B014",
+      "name": "Carlos K.",
+      "text": "candidateKey: current-dac92014ff66f3f49be9\r\n台帳raw表記: 「Carlos K.」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Carlos K.\"\r\nreading=\"かるろすけー\"\r\nsortKey=\"かるろすけー\"\r\nslug=\"carlos-k\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:600 「だから、ひとりじゃない」／作曲 〔raw：Carlos K.・加賀爪 タッド / 主体token:「Carlos K.」〕\r\nidentityTaskId: garupa:600:composer:CREATOR_IDENTITY-current-dac92014ff66f3f49be9\r\nregistrationTaskId: garupa:600:composer:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9\r\nGarupa:600 「だから、ひとりじゃない」／作詞 〔raw：KANATA OKAJIMA・Carlos K. / 主体token:「Carlos K.」〕\r\nidentityTaskId: garupa:600:lyricist:CREATOR_IDENTITY-current-dac92014ff66f3f49be9\r\nregistrationTaskId: garupa:600:lyricist:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Carlos K.",
+        "reading": "かるろすけー",
+        "sortKey": "かるろすけー",
+        "slug": "carlos-k",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-dac92014ff66f3f49be9",
+      "taskIds": [
+        "garupa:600:composer:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+        "garupa:600:composer:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9",
+        "garupa:600:lyricist:CREATOR_IDENTITY-current-dac92014ff66f3f49be9",
+        "garupa:600:lyricist:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9"
+      ]
+    },
+    {
+      "id": "B015",
+      "name": "eba",
+      "text": "candidateKey: b1-8545f46d0c3a6cb00932\r\n台帳raw表記: 「eba」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"eba\"\r\nreading=\"えば\"\r\nsortKey=\"えば\"\r\nslug=\"eba\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:45 「エンプティパペット」／編曲 〔raw：eba / 主体token:「eba」〕\r\nidentityTaskId: ournotes:45:arranger:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932\r\nregistrationTaskId: ournotes:45:arranger:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932\r\nOurNotes:45 「エンプティパペット」／作曲 〔raw：eba / 主体token:「eba」〕\r\nidentityTaskId: ournotes:45:composer:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932\r\nregistrationTaskId: ournotes:45:composer:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "eba",
+        "reading": "えば",
+        "sortKey": "えば",
+        "slug": "eba",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-8545f46d0c3a6cb00932",
+      "taskIds": [
+        "ournotes:45:arranger:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932",
+        "ournotes:45:arranger:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932",
+        "ournotes:45:composer:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932",
+        "ournotes:45:composer:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932"
+      ]
+    },
+    {
+      "id": "B016",
+      "name": "FUNKY MONKEY BABYS",
+      "text": "candidateKey: current-8935eb59174b09438a34\r\n台帳raw表記: 「FUNKY MONKEY BABYS」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"FUNKY MONKEY BΛBY’S\"\r\nreading=\"ふぁんきーもんきーべいびーず\"\r\nsortKey=\"ふぁんきーもんきーべいびーず\"\r\nslug=\"funky-monkey-babys\"\r\ntype=\"unit\"\r\naliases=\"[FUNKY MONKEY BABYS]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:796 「悲しみなんて笑い飛ばせ」／作詞 〔raw：FUNKY MONKEY BABYS / 主体token:「FUNKY MONKEY BABYS」〕\r\nidentityTaskId: garupa:796:lyricist:CREATOR_IDENTITY-current-8935eb59174b09438a34\r\nregistrationTaskId: garupa:796:lyricist:CREATOR_REGISTRATION-current-8935eb59174b09438a34\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "FUNKY MONKEY BΛBY’S",
+        "reading": "ふぁんきーもんきーべいびーず",
+        "sortKey": "ふぁんきーもんきーべいびーず",
+        "slug": "funky-monkey-babys",
+        "type": "unit",
+        "aliases": "[FUNKY MONKEY BABYS]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-8935eb59174b09438a34",
+      "taskIds": [
+        "garupa:796:lyricist:CREATOR_IDENTITY-current-8935eb59174b09438a34",
+        "garupa:796:lyricist:CREATOR_REGISTRATION-current-8935eb59174b09438a34"
+      ]
+    },
+    {
+      "id": "B017",
+      "name": "FUNKY MONKEY BABYS",
+      "text": "candidateKey: current-e12eac7660bbadf49c41\r\n台帳raw表記: 「FUNKY MONKEY BABYS」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"candidateKey: current-8935eb59174b09438a34\"\r\nstandardName=\"FUNKY MONKEY BΛBY’S\"\r\nreading=\"ふぁんきーもんきーべいびーず\"\r\nsortKey=\"ふぁんきーもんきーべいびーず\"\r\nslug=\"funky-monkey-babys\"\r\ntype=\"unit\"\r\naliases=\"[FUNKY MONKEY BABYS]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:796 「悲しみなんて笑い飛ばせ」／作曲 〔raw：FUNKY MONKEY BABYS/Naoki-T / 主体token:「FUNKY MONKEY BABYS」〕\r\nidentityTaskId: garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41\r\nregistrationTaskId: garupa:796:composer:CREATOR_REGISTRATION-current-e12eac7660bbadf49c41\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "candidateKey: current-8935eb59174b09438a34",
+        "standardName": "FUNKY MONKEY BΛBY’S",
+        "reading": "ふぁんきーもんきーべいびーず",
+        "sortKey": "ふぁんきーもんきーべいびーず",
+        "slug": "funky-monkey-babys",
+        "type": "unit",
+        "aliases": "[FUNKY MONKEY BABYS]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-e12eac7660bbadf49c41",
+      "taskIds": [
+        "garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41",
+        "garupa:796:composer:CREATOR_REGISTRATION-current-e12eac7660bbadf49c41"
+      ]
+    },
+    {
+      "id": "B018",
+      "name": "Gohgo",
+      "text": "candidateKey: b1-1e4e5828085e567ebff3\r\n台帳raw表記: 「Gohgo」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Gohgo\"\r\nreading=”ごご\"\r\nsortKey=\"ごご\"\r\nslug=\"gohgo\"\r\ntype=\"person\"\r\naliases=\"[幽世55番街; Kakuriyo]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:630 「愛包ダンスホール」／作曲 〔raw：涼木シンジ、Gohgo / 主体token:「Gohgo」〕\r\nidentityTaskId: garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3\r\nregistrationTaskId: garupa:630:composer:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3\r\nGarupa:630 「愛包ダンスホール」／作詞 〔raw：Gohgo / 主体token:「Gohgo」〕\r\nidentityTaskId: garupa:630:lyricist:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3\r\nregistrationTaskId: garupa:630:lyricist:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Gohgo",
+        "reading": "ごご",
+        "sortKey": "ごご",
+        "slug": "gohgo",
+        "type": "person",
+        "aliases": "[幽世55番街; Kakuriyo]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-1e4e5828085e567ebff3",
+      "taskIds": [
+        "garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3",
+        "garupa:630:composer:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3",
+        "garupa:630:lyricist:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3",
+        "garupa:630:lyricist:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3"
+      ]
+    },
+    {
+      "id": "B019",
+      "name": "JACK",
+      "text": "candidateKey: b1-7d83e3978b7ba912598b\r\n台帳raw表記: 「JACK」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"JACK\"\r\nreading=\"じゃっく\"\r\nsortKey=\"じゃっく\"\r\nslug=\"jack\"\r\ntype=\"person\"\r\naliases=\"[(sic)boy]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:707 「BROKEN GAMES」／作曲 〔raw：MAQUMA, JACK / 主体token:「JACK」〕\r\nidentityTaskId: garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b\r\nregistrationTaskId: garupa:707:composer:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b\r\nGarupa:707 「BROKEN GAMES」／作詞 〔raw：MAQUMA, JACK / 主体token:「JACK」〕\r\nidentityTaskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b\r\nregistrationTaskId: garupa:707:lyricist:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "JACK",
+        "reading": "じゃっく",
+        "sortKey": "じゃっく",
+        "slug": "jack",
+        "type": "person",
+        "aliases": "[(sic)boy]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-7d83e3978b7ba912598b",
+      "taskIds": [
+        "garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+        "garupa:707:composer:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b",
+        "garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b",
+        "garupa:707:lyricist:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b"
+      ]
+    },
+    {
+      "id": "B020",
+      "name": "KANATA OKAJIMA",
+      "text": "candidateKey: current-035c8b7c5a228c9ba174\r\n台帳raw表記: 「KANATA OKAJIMA」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"岡嶋かな多\"\r\nreading=\"おかじまかなた\"\r\nsortKey=\"おかじまかなた\"\r\nslug=\"kanata-okajima\"\r\ntype=\"person\"\r\naliases=\"[KANATA OKAJIMA; Kanata Okajima]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:600 「だから、ひとりじゃない」／作詞 〔raw：KANATA OKAJIMA・Carlos K. / 主体token:「KANATA OKAJIMA」〕\r\nidentityTaskId: garupa:600:lyricist:CREATOR_IDENTITY-current-035c8b7c5a228c9ba174\r\nregistrationTaskId: garupa:600:lyricist:CREATOR_REGISTRATION-current-035c8b7c5a228c9ba174\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "岡嶋かな多",
+        "reading": "おかじまかなた",
+        "sortKey": "おかじまかなた",
+        "slug": "kanata-okajima",
+        "type": "person",
+        "aliases": "[KANATA OKAJIMA; Kanata Okajima]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-035c8b7c5a228c9ba174",
+      "taskIds": [
+        "garupa:600:lyricist:CREATOR_IDENTITY-current-035c8b7c5a228c9ba174",
+        "garupa:600:lyricist:CREATOR_REGISTRATION-current-035c8b7c5a228c9ba174"
+      ]
+    },
+    {
+      "id": "B021",
+      "name": "KENSEI",
+      "text": "candidateKey: b1-2cf6830ef29337b77619\r\n台帳raw表記: 「KENSEI」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"KENSEI\"\r\nreading=\"けんせい\"\r\nsortKey=\"けんせい\"\r\nslug=\"kensei\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"個人は特定できていない。\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「KENSEI」〕\r\nidentityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-2cf6830ef29337b77619\r\nregistrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-2cf6830ef29337b77619\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "KENSEI",
+        "reading": "けんせい",
+        "sortKey": "けんせい",
+        "slug": "kensei",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "個人は特定できていない。"
+      },
+      "candidateKey": "b1-2cf6830ef29337b77619",
+      "taskIds": [
+        "ournotes:60:arranger:CREATOR_IDENTITY-b1-2cf6830ef29337b77619",
+        "ournotes:60:arranger:CREATOR_REGISTRATION-b1-2cf6830ef29337b77619"
+      ]
+    },
+    {
+      "id": "B022",
+      "name": "kz",
+      "text": "candidateKey: current-48cf41bc4a884dbef89d\r\n台帳raw表記: 「kz」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"kz\"\r\nreading=\"けーぜっと\"\r\nsortKey=\"けーぜっと\"\r\nslug=\"kz\"\r\ntype=\"person\"\r\naliases=\"[livetune]\"\r\naffiliation=\"\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:794 「千の翼」／作詞 〔raw：kz / 主体token:「kz」〕\r\nidentityTaskId: garupa:794:lyricist:CREATOR_IDENTITY-current-48cf41bc4a884dbef89d\r\nregistrationTaskId: garupa:794:lyricist:CREATOR_REGISTRATION-current-48cf41bc4a884dbef89d\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "kz",
+        "reading": "けーぜっと",
+        "sortKey": "けーぜっと",
+        "slug": "kz",
+        "type": "person",
+        "aliases": "[livetune]",
+        "affiliation": "",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-48cf41bc4a884dbef89d",
+      "taskIds": [
+        "garupa:794:lyricist:CREATOR_IDENTITY-current-48cf41bc4a884dbef89d",
+        "garupa:794:lyricist:CREATOR_REGISTRATION-current-48cf41bc4a884dbef89d"
+      ]
+    },
+    {
+      "id": "B023",
+      "name": "kz",
+      "text": "candidateKey: current-5fbaf6b50c02ae6e7a58\r\n台帳raw表記: 「kz」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"candidateKey: current-48cf41bc4a884dbef89d\"\r\nstandardName=\"kz\"\r\nreading=\"けーぜっと\"\r\nsortKey=\"けーぜっと\"\r\nslug=\"kz\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:794 「千の翼」／作曲 〔raw：kz / 主体token:「kz」〕\r\nidentityTaskId: garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58\r\nregistrationTaskId: garupa:794:composer:CREATOR_REGISTRATION-current-5fbaf6b50c02ae6e7a58\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "candidateKey: current-48cf41bc4a884dbef89d",
+        "standardName": "kz",
+        "reading": "けーぜっと",
+        "sortKey": "けーぜっと",
+        "slug": "kz",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-5fbaf6b50c02ae6e7a58",
+      "taskIds": [
+        "garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58",
+        "garupa:794:composer:CREATOR_REGISTRATION-current-5fbaf6b50c02ae6e7a58"
+      ]
+    },
+    {
+      "id": "B024",
+      "name": "Lotus Juice",
+      "text": "candidateKey: b1-6420aa21ede7b2dbc58a\r\n台帳raw表記: 「Lotus Juice」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Lotus Juice\"\r\nreading=\"ろーたすじゅーす\"\r\nsortKey=\"ろーたすじゅーす\"\r\nslug=”lotus-juice\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「Lotus Juice」〕\r\nidentityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a\r\nregistrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-6420aa21ede7b2dbc58a\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Lotus Juice",
+        "reading": "ろーたすじゅーす",
+        "sortKey": "ろーたすじゅーす",
+        "slug": "lotus-juice",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-6420aa21ede7b2dbc58a",
+      "taskIds": [
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-6420aa21ede7b2dbc58a"
+      ]
+    },
+    {
+      "id": "B025",
+      "name": "Louis",
+      "text": "candidateKey: current-bd4f40f6aaba6787426f\r\n台帳raw表記: 「 Louis」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Louis\"\r\nreading=\"るい\"\r\nsortKey=\"るい\"\r\nslug=\"louis\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「 Louis」〕\r\nidentityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f\r\nregistrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-bd4f40f6aaba6787426f\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Louis",
+        "reading": "るい",
+        "sortKey": "るい",
+        "slug": "louis",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-bd4f40f6aaba6787426f",
+      "taskIds": [
+        "garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-bd4f40f6aaba6787426f"
+      ]
+    },
+    {
+      "id": "B026",
+      "name": "MAQUMA",
+      "text": "candidateKey: b1-6113e4054a7a319f9025\r\n台帳raw表記: 「MAQUMA」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"MAQUMA\"\r\nreading=\"まくま\"\r\nsortKey=\"まくま\"\r\nslug=\"maquma\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:707 「BROKEN GAMES」／作曲 〔raw：MAQUMA, JACK / 主体token:「MAQUMA」〕\r\nidentityTaskId: garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025\r\nregistrationTaskId: garupa:707:composer:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025\r\nGarupa:707 「BROKEN GAMES」／作詞 〔raw：MAQUMA, JACK / 主体token:「MAQUMA」〕\r\nidentityTaskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025\r\nregistrationTaskId: garupa:707:lyricist:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "MAQUMA",
+        "reading": "まくま",
+        "sortKey": "まくま",
+        "slug": "maquma",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-6113e4054a7a319f9025",
+      "taskIds": [
+        "garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+        "garupa:707:composer:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025",
+        "garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025",
+        "garupa:707:lyricist:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025"
+      ]
+    },
+    {
+      "id": "B027",
+      "name": "Marcus Van Wattum",
+      "text": "candidateKey: b1-1ecce8410c57e1cd807d\r\n台帳raw表記: 「Marcus Van Wattum」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=”Marcus Van Wattum\"\r\nreading=\"まーかすふぁんわったむ\"\r\nsortKey=\"まーかすふぁんわったむ\"\r\nslug=\"marcus-van-wattum\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:85 「Dragon Night」／作曲 〔raw：Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Marcus Van Wattum」〕\r\nidentityTaskId: garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d\r\nregistrationTaskId: garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Marcus Van Wattum",
+        "reading": "まーかすふぁんわったむ",
+        "sortKey": "まーかすふぁんわったむ",
+        "slug": "marcus-van-wattum",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-1ecce8410c57e1cd807d",
+      "taskIds": [
+        "garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d"
+      ]
+    },
+    {
+      "id": "B028",
+      "name": "Masayoshi Minoshima（Alstroemeria Records）",
+      "text": "candidateKey: b1-9c5f42c13c6a91bd2578\r\n台帳raw表記: 「Masayoshi Minoshima（Alstroemeria Records）」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Masayoshi Minoshima\"\r\nreading=\"まさよしみのしま\"\r\nsortKey=\"まさよしみのしま\"\r\nslug=\"masayoshi-minoshima\"\r\ntype=\"person\"\r\naliases=\"[Masayoshi Minoshima（Alstroemeria Records）]\"\r\naffiliation=\"\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"Alstroemeria RecordsはMasayoshi Minoshimaが主宰する同人音楽サークル。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:246 「Bad Apple!! feat. nomico」／作曲 〔raw：ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「Masayoshi Minoshima（Alstroemeria Records）」〕\r\nidentityTaskId: garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578\r\nregistrationTaskId: garupa:246:composer:CREATOR_REGISTRATION-b1-9c5f42c13c6a91bd2578\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Masayoshi Minoshima",
+        "reading": "まさよしみのしま",
+        "sortKey": "まさよしみのしま",
+        "slug": "masayoshi-minoshima",
+        "type": "person",
+        "aliases": "[Masayoshi Minoshima（Alstroemeria Records）]",
+        "affiliation": "",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "Alstroemeria RecordsはMasayoshi Minoshimaが主宰する同人音楽サークル。"
+      },
+      "candidateKey": "b1-9c5f42c13c6a91bd2578",
+      "taskIds": [
+        "garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578",
+        "garupa:246:composer:CREATOR_REGISTRATION-b1-9c5f42c13c6a91bd2578"
+      ]
+    },
+    {
+      "id": "B029",
+      "name": "MEG.ME",
+      "text": "candidateKey: current-52f8d22524596db0e37f\r\n台帳raw表記: 「 MEG.ME 」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"MEG.ME\"\r\nreading=\"めぐみー\"\r\nsortKey=\"めぐみー\"\r\nslug=\"meg-me\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「 MEG.ME 」〕\r\nidentityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f\r\nregistrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-52f8d22524596db0e37f\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "MEG.ME",
+        "reading": "めぐみー",
+        "sortKey": "めぐみー",
+        "slug": "meg-me",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-52f8d22524596db0e37f",
+      "taskIds": [
+        "garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-52f8d22524596db0e37f"
+      ]
+    },
+    {
+      "id": "B030",
+      "name": "MK-METAL",
+      "text": "candidateKey: current-297f7f25cc446332fd44\r\n台帳raw表記: 「MK-METAL」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"渡辺未来\"\r\nreading=\"わたなべみき\"\r\nsortKey=\"わたなべみき\"\r\nslug=\"miki-watanabe\"\r\ntype=\"perosn\"\r\naliases=\"[MK-METAL]\"\r\naffiliation=\"person\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:415 「メギツネ」／作詞 〔raw：MK-METAL・NORiMETAL / 主体token:「MK-METAL」〕\r\nidentityTaskId: garupa:415:lyricist:CREATOR_IDENTITY-current-297f7f25cc446332fd44\r\nregistrationTaskId: garupa:415:lyricist:CREATOR_REGISTRATION-current-297f7f25cc446332fd44\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "渡辺未来",
+        "reading": "わたなべみき",
+        "sortKey": "わたなべみき",
+        "slug": "miki-watanabe",
+        "type": "perosn",
+        "aliases": "[MK-METAL]",
+        "affiliation": "person",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-297f7f25cc446332fd44",
+      "taskIds": [
+        "garupa:415:lyricist:CREATOR_IDENTITY-current-297f7f25cc446332fd44",
+        "garupa:415:lyricist:CREATOR_REGISTRATION-current-297f7f25cc446332fd44"
+      ]
+    },
+    {
+      "id": "B031",
+      "name": "n-buna",
+      "text": "candidateKey: current-96bc57add1c48e4f0934\r\n台帳raw表記: 「n-buna」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"n-buna\"\r\nreading=\"なぶな\"\r\nsortKey=\"なぶな\"\r\nslug=\"n-buna\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:447 「スターナイトスノウ」／作詞 〔raw：n-buna・Orangestar / 主体token:「n-buna」〕\r\nidentityTaskId: garupa:447:lyricist:CREATOR_IDENTITY-current-96bc57add1c48e4f0934\r\nregistrationTaskId: garupa:447:lyricist:CREATOR_REGISTRATION-current-96bc57add1c48e4f0934\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "n-buna",
+        "reading": "なぶな",
+        "sortKey": "なぶな",
+        "slug": "n-buna",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-96bc57add1c48e4f0934",
+      "taskIds": [
+        "garupa:447:lyricist:CREATOR_IDENTITY-current-96bc57add1c48e4f0934",
+        "garupa:447:lyricist:CREATOR_REGISTRATION-current-96bc57add1c48e4f0934"
+      ]
+    },
+    {
+      "id": "B032",
+      "name": "Naoki-T",
+      "text": "candidateKey: current-45f43879e01100c0453b\r\n台帳raw表記: 「Naoki-T」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Naoki-T\"\r\nreading=\"なおきてぃー\"\r\nsortKey=\"なおきてぃー\"\r\nslug=\"naoki-t\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:796 「悲しみなんて笑い飛ばせ」／作曲 〔raw：FUNKY MONKEY BABYS/Naoki-T / 主体token:「Naoki-T」〕\r\nidentityTaskId: garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b\r\nregistrationTaskId: garupa:796:composer:CREATOR_REGISTRATION-current-45f43879e01100c0453b\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Naoki-T",
+        "reading": "なおきてぃー",
+        "sortKey": "なおきてぃー",
+        "slug": "naoki-t",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-45f43879e01100c0453b",
+      "taskIds": [
+        "garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b",
+        "garupa:796:composer:CREATOR_REGISTRATION-current-45f43879e01100c0453b"
+      ]
+    },
+    {
+      "id": "B033",
+      "name": "Nick Rotteveel",
+      "text": "candidateKey: b1-8b9cfcc3262ad133d210\r\n台帳raw表記: 「Nick Rotteveel」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Nicky Romero\"\r\nreading=\"にっきーろめろ\"\r\nsortKey=”にっきーろめろ\"\r\nslug=\"nicky-romero\"\r\ntype=\"person\"\r\naliases=\"[Nick Rotteveel]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:85 「Dragon Night」／作曲 〔raw：Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Nick Rotteveel」〕\r\nidentityTaskId: garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210\r\nregistrationTaskId: garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Nicky Romero",
+        "reading": "にっきーろめろ",
+        "sortKey": "にっきーろめろ",
+        "slug": "nicky-romero",
+        "type": "person",
+        "aliases": "[Nick Rotteveel]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-8b9cfcc3262ad133d210",
+      "taskIds": [
+        "garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210",
+        "garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210"
+      ]
+    },
+    {
+      "id": "B034",
+      "name": "NORiMETAL",
+      "text": "candidateKey: b1-802fd809223acb08804e\r\n台帳raw表記: 「NORiMETAL」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=”既存IDなし\"\r\nstandardName=\"NORiMETAL\"\r\nreading=\"のりめたる\"\r\nsortKey=\"のりめたる\"\r\nslug=\"norimetal\"\r\ntype=\"person\"\r\naliases=\"[のりぞー]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:415 「メギツネ」／作曲 〔raw：NORiMETAL / 主体token:「NORiMETAL」〕\r\nidentityTaskId: garupa:415:composer:CREATOR_IDENTITY-b1-802fd809223acb08804e\r\nregistrationTaskId: garupa:415:composer:CREATOR_REGISTRATION-b1-802fd809223acb08804e\r\nGarupa:415 「メギツネ」／作詞 〔raw：MK-METAL・NORiMETAL / 主体token:「NORiMETAL」〕\r\nidentityTaskId: garupa:415:lyricist:CREATOR_IDENTITY-b1-802fd809223acb08804e\r\nregistrationTaskId: garupa:415:lyricist:CREATOR_REGISTRATION-b1-802fd809223acb08804e\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "NORiMETAL",
+        "reading": "のりめたる",
+        "sortKey": "のりめたる",
+        "slug": "norimetal",
+        "type": "person",
+        "aliases": "[のりぞー]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-802fd809223acb08804e",
+      "taskIds": [
+        "garupa:415:composer:CREATOR_IDENTITY-b1-802fd809223acb08804e",
+        "garupa:415:composer:CREATOR_REGISTRATION-b1-802fd809223acb08804e",
+        "garupa:415:lyricist:CREATOR_IDENTITY-b1-802fd809223acb08804e",
+        "garupa:415:lyricist:CREATOR_REGISTRATION-b1-802fd809223acb08804e"
+      ]
+    },
+    {
+      "id": "B035",
+      "name": "SAKURAmoti",
+      "text": "candidateKey: b1-f39b5a992dce3f610433\r\n台帳raw表記: 「SAKURAmoti」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"SAKURAmoti\"\r\nreading=\"さくらもち\"\r\nsortKey=\"さくらもち\"\r\nslug=\"sakuramoti\"\r\ntype=”person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:481 「アイウエ」／作曲 〔raw：SAKURAmoti / 美波 / 主体token:「SAKURAmoti」〕\r\nidentityTaskId: garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433\r\nregistrationTaskId: garupa:481:composer:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433\r\nGarupa:481 「アイウエ」／作詞 〔raw：SAKURAmoti / 美波 / 主体token:「SAKURAmoti」〕\r\nidentityTaskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433\r\nregistrationTaskId: garupa:481:lyricist:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "SAKURAmoti",
+        "reading": "さくらもち",
+        "sortKey": "さくらもち",
+        "slug": "sakuramoti",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-f39b5a992dce3f610433",
+      "taskIds": [
+        "garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+        "garupa:481:composer:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433",
+        "garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433",
+        "garupa:481:lyricist:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433"
+      ]
+    },
+    {
+      "id": "B036",
+      "name": "Sekimen",
+      "text": "candidateKey: b1-92bd2642fc2116574da1\r\n台帳raw表記: 「Sekimen」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"Sekimen\"\r\nreading=\"せきめん\"\r\nsortKey=\"せきめん\"\r\nslug=\"sekimen\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:47 「ビッグマウス」／作詞 〔raw：白神真志朗、 Sekimen / 主体token:「Sekimen」〕\r\nidentityTaskId: ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1\r\nregistrationTaskId: ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "Sekimen",
+        "reading": "せきめん",
+        "sortKey": "せきめん",
+        "slug": "sekimen",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-92bd2642fc2116574da1",
+      "taskIds": [
+        "ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1",
+        "ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1"
+      ]
+    },
+    {
+      "id": "B037",
+      "name": "Skye K",
+      "text": "candidateKey: b1-2e9d852ee7948d105768\r\n台帳raw表記: 「Skye K」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"SKYTOPIA\"\r\nreading=\"すかいとぴあ\"\r\nsortKey=\"すかいとぴあ\"\r\nslug=”skytopia\"\r\ntype=\"person\"\r\naliases=\"[Skye K]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:85 「夢我夢中」／編曲 〔raw：ケンモチヒデフミ、Skye K / 主体token:「Skye K」〕\r\nidentityTaskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-2e9d852ee7948d105768\r\nregistrationTaskId: ournotes:85:arranger:CREATOR_REGISTRATION-b1-2e9d852ee7948d105768\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "SKYTOPIA",
+        "reading": "すかいとぴあ",
+        "sortKey": "すかいとぴあ",
+        "slug": "skytopia",
+        "type": "person",
+        "aliases": "[Skye K]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-2e9d852ee7948d105768",
+      "taskIds": [
+        "ournotes:85:arranger:CREATOR_IDENTITY-b1-2e9d852ee7948d105768",
+        "ournotes:85:arranger:CREATOR_REGISTRATION-b1-2e9d852ee7948d105768"
+      ]
+    },
+    {
+      "id": "B038",
+      "name": "YOUSAY",
+      "text": "candidateKey: b1-2ef871fe8f36a20afb45\r\n台帳raw表記: 「YOUSAY」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"YOUSAY\"\r\nreading=\"ゆうせい\"\r\nsortKey=\"ゆうせい\"\r\nslug=\"yousay\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:660 「だれかの心臓になれたなら」／編曲 〔raw：植木建象、YOUSAY / 主体token:「YOUSAY」〕\r\nidentityTaskId: garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45\r\nregistrationTaskId: garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "YOUSAY",
+        "reading": "ゆうせい",
+        "sortKey": "ゆうせい",
+        "slug": "yousay",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-2ef871fe8f36a20afb45",
+      "taskIds": [
+        "garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45",
+        "garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45"
+      ]
+    },
+    {
+      "id": "B039",
+      "name": "ZUN",
+      "text": "candidateKey: b1-dbfdc774efedb688b039\r\n台帳raw表記: 「ZUN」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ZUN\"\r\nreading=\"ずん\"\r\nsortKey=\"ずん\"\r\nslug=\"zun\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:246 「Bad Apple!! feat. nomico」／作曲 〔raw：ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「ZUN」〕\r\nidentityTaskId: garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039\r\nregistrationTaskId: garupa:246:composer:CREATOR_REGISTRATION-b1-dbfdc774efedb688b039\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ZUN",
+        "reading": "ずん",
+        "sortKey": "ずん",
+        "slug": "zun",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-dbfdc774efedb688b039",
+      "taskIds": [
+        "garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039",
+        "garupa:246:composer:CREATOR_REGISTRATION-b1-dbfdc774efedb688b039"
+      ]
+    },
+    {
+      "id": "B040",
+      "name": "アザミ",
+      "text": "candidateKey: current-fc6cae540d69a28f9520\r\n台帳raw表記: 「アザミ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"アザミ\"\r\nreading=\"あざみ\"\r\nsortKey=\"あざみ\"\r\nslug=\"azami\"\r\ntype=”person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:87 「Odd Dice」／編曲 〔raw：アザミ / 主体token:「アザミ」〕\r\nidentityTaskId: ournotes:87:arranger:CREATOR_IDENTITY-current-fc6cae540d69a28f9520\r\nregistrationTaskId: ournotes:87:arranger:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520\r\nOurNotes:87 「Odd Dice」／作曲 〔raw：アザミ / 主体token:「アザミ」〕\r\nidentityTaskId: ournotes:87:composer:CREATOR_IDENTITY-current-fc6cae540d69a28f9520\r\nregistrationTaskId: ournotes:87:composer:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520\r\nOurNotes:87 「Odd Dice」／作詞 〔raw：アザミ / 主体token:「アザミ」〕\r\nidentityTaskId: ournotes:87:lyricist:CREATOR_IDENTITY-current-fc6cae540d69a28f9520\r\nregistrationTaskId: ournotes:87:lyricist:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "アザミ",
+        "reading": "あざみ",
+        "sortKey": "あざみ",
+        "slug": "azami",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-fc6cae540d69a28f9520",
+      "taskIds": [
+        "ournotes:87:arranger:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+        "ournotes:87:arranger:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520",
+        "ournotes:87:composer:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+        "ournotes:87:composer:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520",
+        "ournotes:87:lyricist:CREATOR_IDENTITY-current-fc6cae540d69a28f9520",
+        "ournotes:87:lyricist:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520"
+      ]
+    },
+    {
+      "id": "B041",
+      "name": "きただにひろし",
+      "text": "candidateKey: current-ff0fe7f9b0981226cf85\r\n台帳raw表記: 「きただにひろし」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"きただにひろし\"\r\nreading=\"きただにひろし\"\r\nsortKey=\"きただにひろし\"\r\nslug=\"hiroshi-kitadani\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=”なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:111 「Believe in my existence」／作曲 〔raw：影山ヒロノブ・きただにひろし / 主体token:「きただにひろし」〕\r\nidentityTaskId: garupa:111:composer:CREATOR_IDENTITY-current-ff0fe7f9b0981226cf85\r\nregistrationTaskId: garupa:111:composer:CREATOR_REGISTRATION-current-ff0fe7f9b0981226cf85\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "きただにひろし",
+        "reading": "きただにひろし",
+        "sortKey": "きただにひろし",
+        "slug": "hiroshi-kitadani",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-ff0fe7f9b0981226cf85",
+      "taskIds": [
+        "garupa:111:composer:CREATOR_IDENTITY-current-ff0fe7f9b0981226cf85",
+        "garupa:111:composer:CREATOR_REGISTRATION-current-ff0fe7f9b0981226cf85"
+      ]
+    },
+    {
+      "id": "B042",
+      "name": "ケンモチヒデフミ",
+      "text": "candidateKey: b1-9df1869e3b7b1c2b11d5\r\n台帳raw表記: 「ケンモチヒデフミ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ケンモチヒデフミ\"\r\nreading=\"けんもちひでふみ\"\r\nsortKey=\"けんもちひでふみ\"\r\nslug=\"hidefumi-kenmochi\"\r\ntype=\"person\"\r\naliases=\"[Kenmochi Hidefumi]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:85 「夢我夢中」／編曲 〔raw：ケンモチヒデフミ、Skye K / 主体token:「ケンモチヒデフミ」〕\r\nidentityTaskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5\r\nregistrationTaskId: ournotes:85:arranger:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5\r\nOurNotes:85 「夢我夢中」／作曲 〔raw：ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」〕\r\nidentityTaskId: ournotes:85:composer:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5\r\nregistrationTaskId: ournotes:85:composer:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5\r\nOurNotes:85 「夢我夢中」／作詞 〔raw：ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」〕\r\nidentityTaskId: ournotes:85:lyricist:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5\r\nregistrationTaskId: ournotes:85:lyricist:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ケンモチヒデフミ",
+        "reading": "けんもちひでふみ",
+        "sortKey": "けんもちひでふみ",
+        "slug": "hidefumi-kenmochi",
+        "type": "person",
+        "aliases": "[Kenmochi Hidefumi]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-9df1869e3b7b1c2b11d5",
+      "taskIds": [
+        "ournotes:85:arranger:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+        "ournotes:85:arranger:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5",
+        "ournotes:85:composer:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+        "ournotes:85:composer:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5",
+        "ournotes:85:lyricist:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5",
+        "ournotes:85:lyricist:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5"
+      ]
+    },
+    {
+      "id": "B043",
+      "name": "つむぎしゃち",
+      "text": "candidateKey: b1-6899171acbfe7270e071\r\n台帳raw表記: 「つむぎしゃち」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"つむぎしゃち\"\r\nreading=\"つむぎしゃち\"\r\nsortKey=\"つむぎしゃち\"\r\nslug=\"shachi-tsumugi\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:711 「POP IN 2」／作曲 〔raw：久下真音、つむぎしゃち / 主体token:「つむぎしゃち」〕\r\nidentityTaskId: garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071\r\nregistrationTaskId: garupa:711:composer:CREATOR_REGISTRATION-b1-6899171acbfe7270e071\r\nGarupa:711 「POP IN 2」／作詞 〔raw：つむぎしゃち / 主体token:「つむぎしゃち」〕\r\nidentityTaskId: garupa:711:lyricist:CREATOR_IDENTITY-b1-6899171acbfe7270e071\r\nregistrationTaskId: garupa:711:lyricist:CREATOR_REGISTRATION-b1-6899171acbfe7270e071\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "つむぎしゃち",
+        "reading": "つむぎしゃち",
+        "sortKey": "つむぎしゃち",
+        "slug": "shachi-tsumugi",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-6899171acbfe7270e071",
+      "taskIds": [
+        "garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071",
+        "garupa:711:composer:CREATOR_REGISTRATION-b1-6899171acbfe7270e071",
+        "garupa:711:lyricist:CREATOR_IDENTITY-b1-6899171acbfe7270e071",
+        "garupa:711:lyricist:CREATOR_REGISTRATION-b1-6899171acbfe7270e071"
+      ]
+    },
+    {
+      "id": "B044",
+      "name": "ナナヲアカリ",
+      "text": "candidateKey: b1-71be3fbfd30b5b8fcb4e\r\n台帳raw表記: 「ナナヲアカリ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ナナヲアカリ\"\r\nreading=\"ななをあかり\"\r\nsortKey=\"ななをあかり\"\r\nslug=\"nanaoakari\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:479 「チューリングラブ」／作詞 〔raw：ナユタセイジ / ナナヲアカリ / 主体token:「ナナヲアカリ」〕\r\nidentityTaskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e\r\nregistrationTaskId: garupa:479:lyricist:CREATOR_REGISTRATION-b1-71be3fbfd30b5b8fcb4e\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ナナヲアカリ",
+        "reading": "ななをあかり",
+        "sortKey": "ななをあかり",
+        "slug": "nanaoakari",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-71be3fbfd30b5b8fcb4e",
+      "taskIds": [
+        "garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e",
+        "garupa:479:lyricist:CREATOR_REGISTRATION-b1-71be3fbfd30b5b8fcb4e"
+      ]
+    },
+    {
+      "id": "B045",
+      "name": "ナユタセイジ",
+      "text": "candidateKey: b1-5377ee054e378e78dda4\r\n台帳raw表記: 「ナユタセイジ」\r\nidentityConfirmed=”はい\"\r\nsamePersonAs=\"cr-0061\"\r\nstandardName=\"ナユタン星人\"\r\nreading=\"なゆたんせいじん\"\r\nsortKey=\"なゆたんせいじん\"\r\nslug=\"nayutan-seijin\"\r\ntype=\"person\"\r\naliases=\"[ナユタセイジ; 天ノ川銀牙]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"slugは新しいものに変更してください。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:479 「チューリングラブ」／作曲 〔raw：ナユタセイジ / 主体token:「ナユタセイジ」〕\r\nidentityTaskId: garupa:479:composer:CREATOR_IDENTITY-b1-5377ee054e378e78dda4\r\nregistrationTaskId: garupa:479:composer:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4\r\nGarupa:479 「チューリングラブ」／作詞 〔raw：ナユタセイジ / ナナヲアカリ / 主体token:「ナユタセイジ」〕\r\nidentityTaskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4\r\nregistrationTaskId: garupa:479:lyricist:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "cr-0061",
+        "standardName": "ナユタン星人",
+        "reading": "なゆたんせいじん",
+        "sortKey": "なゆたんせいじん",
+        "slug": "nayutan-seijin",
+        "type": "person",
+        "aliases": "[ナユタセイジ; 天ノ川銀牙]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "slugは新しいものに変更してください。"
+      },
+      "candidateKey": "b1-5377ee054e378e78dda4",
+      "taskIds": [
+        "garupa:479:composer:CREATOR_IDENTITY-b1-5377ee054e378e78dda4",
+        "garupa:479:composer:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4",
+        "garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4",
+        "garupa:479:lyricist:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4"
+      ]
+    },
+    {
+      "id": "B046",
+      "name": "ふるっぺ",
+      "text": "candidateKey: current-740dc67308da4aa281fe\r\n台帳raw表記: 「ふるっぺ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ふるっぺ\"\r\nreading=\"ふるっぺ\"\r\nsortKey=\"ふるっぺ\"\r\nslug=\"furuppe\"\r\ntype=\"person\"\r\naliases=\"[古河弘基]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=”はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:780 「スターラブレイション」／作曲 〔raw：ふるっぺ / 主体token:「ふるっぺ」〕\r\nidentityTaskId: garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe\r\nregistrationTaskId: garupa:780:composer:CREATOR_REGISTRATION-current-740dc67308da4aa281fe\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ふるっぺ",
+        "reading": "ふるっぺ",
+        "sortKey": "ふるっぺ",
+        "slug": "furuppe",
+        "type": "person",
+        "aliases": "[古河弘基]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-740dc67308da4aa281fe",
+      "taskIds": [
+        "garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe",
+        "garupa:780:composer:CREATOR_REGISTRATION-current-740dc67308da4aa281fe"
+      ]
+    },
+    {
+      "id": "B047",
+      "name": "ふるっぺ・森さん・Litz",
+      "text": "candidateKey: current-c0d947c79a5463c9cdfd\r\n台帳raw表記: 「ふるっぺ・森さん・Litz」\r\nidentityConfirmed=\"いいえ\"（ふるっぺ / 森さん / Litz の3人）\r\nsamePersonAs=\"candidateKey: current-740dc67308da4aa281fe; 既存IDなし; 既存IDなし\"\r\nstandardName=\"ふるっぺ; 森さん; Litz\"\r\nreading=\"ふるっぺ; もりさん; りつ\"\r\nsortKey=\"ふるっぺ; もりさん; りつ\"\r\nslug=\"furuppe; mori-san; litz\"\r\ntype=\"person; person; person\"\r\naliases=\"[古河弘基]; []; []\"\r\naffiliation=\"なし; なし; なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい; はい; はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「ふるっぺ」「森さん」「Litz」の順番。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:780 「スターラブレイション」／作詞 〔raw：ふるっぺ・森さん・Litz / 主体token:「ふるっぺ・森さん・Litz」〕\r\nidentityTaskId: garupa:780:lyricist:CREATOR_IDENTITY-current-c0d947c79a5463c9cdfd\r\nregistrationTaskId: garupa:780:lyricist:CREATOR_REGISTRATION-current-c0d947c79a5463c9cdfd\r\n",
+      "fields": {
+        "identityConfirmed": "いいえ",
+        "samePersonAs": "candidateKey: current-740dc67308da4aa281fe; 既存IDなし; 既存IDなし",
+        "standardName": "ふるっぺ; 森さん; Litz",
+        "reading": "ふるっぺ; もりさん; りつ",
+        "sortKey": "ふるっぺ; もりさん; りつ",
+        "slug": "furuppe; mori-san; litz",
+        "type": "person; person; person",
+        "aliases": "[古河弘基]; []; []",
+        "affiliation": "なし; なし; なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい; はい; はい",
+        "承認から除外する担当": "",
+        "備考": "3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「ふるっぺ」「森さん」「Litz」の順番。"
+      },
+      "candidateKey": "current-c0d947c79a5463c9cdfd",
+      "taskIds": [
+        "garupa:780:lyricist:CREATOR_IDENTITY-current-c0d947c79a5463c9cdfd",
+        "garupa:780:lyricist:CREATOR_REGISTRATION-current-c0d947c79a5463c9cdfd"
+      ]
+    },
+    {
+      "id": "B048",
+      "name": "ユリイ・カノン",
+      "text": "candidateKey: b1-328527062c7ca6acd161\r\n台帳raw表記: 「ユリイ・カノン」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"ユリイ・カノン\"\r\nreading=\"ゆりいかのん\"\r\nsortKey=\"ゆりいかのん\"\r\nslug=\"yurry-canon\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:660 「だれかの心臓になれたなら」／作曲 〔raw：ユリイ・カノン / 主体token:「ユリイ・カノン」〕\r\nidentityTaskId: garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161\r\nregistrationTaskId: garupa:660:composer:CREATOR_REGISTRATION-b1-328527062c7ca6acd161\r\nGarupa:660 「だれかの心臓になれたなら」／作詞 〔raw：ユリイ・カノン / 主体token:「ユリイ・カノン」〕\r\nidentityTaskId: garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161\r\nregistrationTaskId: garupa:660:lyricist:CREATOR_REGISTRATION-b1-328527062c7ca6acd161\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "ユリイ・カノン",
+        "reading": "ゆりいかのん",
+        "sortKey": "ゆりいかのん",
+        "slug": "yurry-canon",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-328527062c7ca6acd161",
+      "taskIds": [
+        "garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+        "garupa:660:composer:CREATOR_REGISTRATION-b1-328527062c7ca6acd161",
+        "garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161",
+        "garupa:660:lyricist:CREATOR_REGISTRATION-b1-328527062c7ca6acd161"
+      ]
+    },
+    {
+      "id": "B049",
+      "name": "安部大希-amazuti-",
+      "text": "candidateKey: b1-4f5bde2d6672e4ad9ab4\r\n台帳raw表記: 「安部大希-amazuti-」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=”安部大希\"\r\nreading=\"あべだいき\"\r\nsortKey=\"あべだいき\"\r\nslug=\"daiki-abe\"\r\ntype=\"person\"\r\naliases=\"[安部大希-amazuti-]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"amazutiは安部大希が所属する音楽クリエイターチームの名前。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:769 「超最強」／作曲 〔raw：安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「安部大希-amazuti-」〕\r\nidentityTaskId: garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4\r\nregistrationTaskId: garupa:769:composer:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4\r\nGarupa:769 「超最強」／作詞 〔raw：安部大希-amazuti- / 主体token:「安部大希-amazuti-」〕\r\nidentityTaskId: garupa:769:lyricist:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4\r\nregistrationTaskId: garupa:769:lyricist:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "安部大希",
+        "reading": "あべだいき",
+        "sortKey": "あべだいき",
+        "slug": "daiki-abe",
+        "type": "person",
+        "aliases": "[安部大希-amazuti-]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "amazutiは安部大希が所属する音楽クリエイターチームの名前。"
+      },
+      "candidateKey": "b1-4f5bde2d6672e4ad9ab4",
+      "taskIds": [
+        "garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4",
+        "garupa:769:composer:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4",
+        "garupa:769:lyricist:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4",
+        "garupa:769:lyricist:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4"
+      ]
+    },
+    {
+      "id": "B050",
+      "name": "影山ヒロノブ",
+      "text": "candidateKey: b1-af4fe563e4e45d982b07\r\n台帳raw表記: 「影山ヒロノブ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"影山ヒロノブ\"\r\nreading=\"かげやまひろのぶ\"\r\nsortKey=\"かげやまひろのぶ\"\r\nslug=\"hironobu-kageyama\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:111 「Believe in my existence」／作曲 〔raw：影山ヒロノブ・きただにひろし / 主体token:「影山ヒロノブ」〕\r\nidentityTaskId: garupa:111:composer:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07\r\nregistrationTaskId: garupa:111:composer:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07\r\nGarupa:111 「Believe in my existence」／作詞 〔raw：影山ヒロノブ / 主体token:「影山ヒロノブ」〕\r\nidentityTaskId: garupa:111:lyricist:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07\r\nregistrationTaskId: garupa:111:lyricist:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "影山ヒロノブ",
+        "reading": "かげやまひろのぶ",
+        "sortKey": "かげやまひろのぶ",
+        "slug": "hironobu-kageyama",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-af4fe563e4e45d982b07",
+      "taskIds": [
+        "garupa:111:composer:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07",
+        "garupa:111:composer:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07",
+        "garupa:111:lyricist:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07",
+        "garupa:111:lyricist:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07"
+      ]
+    },
+    {
+      "id": "B051",
+      "name": "遠藤　ナオキ",
+      "text": "candidateKey: b1-85766a26b6c559ab7573\r\n台帳raw表記: 「遠藤　ナオキ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"遠藤ナオキ\"\r\nreading=\"えんどうなおき\"\r\nsortKey=\"えんどうなおき\"\r\nslug=\"naoki-endo\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:549 「slash」／作曲 〔raw：馬場　龍樹／遠藤　ナオキ / 主体token:「遠藤　ナオキ」〕\r\nidentityTaskId: garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573\r\nregistrationTaskId: garupa:549:composer:CREATOR_REGISTRATION-b1-85766a26b6c559ab7573\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "遠藤ナオキ",
+        "reading": "えんどうなおき",
+        "sortKey": "えんどうなおき",
+        "slug": "naoki-endo",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-85766a26b6c559ab7573",
+      "taskIds": [
+        "garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573",
+        "garupa:549:composer:CREATOR_REGISTRATION-b1-85766a26b6c559ab7573"
+      ]
+    },
+    {
+      "id": "B052",
+      "name": "岡崎英美",
+      "text": "candidateKey: b1-1f14693923b26c575078\r\n台帳raw表記: 「岡崎英美」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"岡崎英美\"\r\nreading=\"おかざきえみ\"\r\nsortKey=\"おかざきえみ\"\r\nslug=\"emi-okazaki\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岡崎英美」〕\r\nidentityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078\r\nregistrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "岡崎英美",
+        "reading": "おかざきえみ",
+        "sortKey": "おかざきえみ",
+        "slug": "emi-okazaki",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-1f14693923b26c575078",
+      "taskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078"
+      ]
+    },
+    {
+      "id": "B053",
+      "name": "岡野昭仁",
+      "text": "candidateKey: current-e0bbf73eef3d3675b850\r\n台帳raw表記: 「岡野昭仁」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"岡野昭仁\"\r\nreading=\"おかのあきひと\"\r\nsortKey=\"おかのあきひと\"\r\nslug=\"akihito-okano\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:792 「オー！リバル」／作曲 〔raw：岡野昭仁 / 主体token:「岡野昭仁」〕\r\nidentityTaskId: garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850\r\nregistrationTaskId: garupa:792:composer:CREATOR_REGISTRATION-current-e0bbf73eef3d3675b850\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "岡野昭仁",
+        "reading": "おかのあきひと",
+        "sortKey": "おかのあきひと",
+        "slug": "akihito-okano",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-e0bbf73eef3d3675b850",
+      "taskIds": [
+        "garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850",
+        "garupa:792:composer:CREATOR_REGISTRATION-current-e0bbf73eef3d3675b850"
+      ]
+    },
+    {
+      "id": "B054",
+      "name": "加賀爪 タッド",
+      "text": "candidateKey: current-42b1569d3f9a29bde9fb\r\n台帳raw表記: 「加賀爪 タッド」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"加賀爪タッド\"\r\nreading=\"かがつめたっど\"\r\nsortKey=\"かがつめたっど\"\r\nslug=\"tadd-kagatsume\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:600 「だから、ひとりじゃない」／作曲 〔raw：Carlos K.・加賀爪 タッド / 主体token:「加賀爪 タッド」〕\r\nidentityTaskId: garupa:600:composer:CREATOR_IDENTITY-current-42b1569d3f9a29bde9fb\r\nregistrationTaskId: garupa:600:composer:CREATOR_REGISTRATION-current-42b1569d3f9a29bde9fb\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "加賀爪タッド",
+        "reading": "かがつめたっど",
+        "sortKey": "かがつめたっど",
+        "slug": "tadd-kagatsume",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-42b1569d3f9a29bde9fb",
+      "taskIds": [
+        "garupa:600:composer:CREATOR_IDENTITY-current-42b1569d3f9a29bde9fb",
+        "garupa:600:composer:CREATOR_REGISTRATION-current-42b1569d3f9a29bde9fb"
+      ]
+    },
+    {
+      "id": "B055",
+      "name": "花村想太",
+      "text": "candidateKey: current-6e4aaff5404f9c7e9462\r\n台帳raw表記: 「花村想太 」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"花村想太\"\r\nreading=\"はなむらそうた\"\r\nsortKey=\"はなむらそうた\"\r\nslug=\"sota-hanamura\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「花村想太 」〕\r\nidentityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462\r\nregistrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-6e4aaff5404f9c7e9462\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "花村想太",
+        "reading": "はなむらそうた",
+        "sortKey": "はなむらそうた",
+        "slug": "sota-hanamura",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-6e4aaff5404f9c7e9462",
+      "taskIds": [
+        "garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462",
+        "garupa:734:composer:CREATOR_REGISTRATION-current-6e4aaff5404f9c7e9462"
+      ]
+    },
+    {
+      "id": "B056",
+      "name": "角本麻衣（SUPA LOVE）",
+      "text": "candidateKey: current-55a2115040534e48a08b\r\n台帳raw表記: 「角本麻衣（SUPA LOVE）」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"角本麻衣\"\r\nreading=\"かくもとまい\"\r\nsortKey=\"かくもとまい\"\r\nslug=\"mai-kakumoto\"\r\ntype=\"person\"\r\naliases=\"[角本麻衣（SUPA LOVE）]\"\r\naffiliation=\"SUPA LOVE\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:36 「Choir ‘S’ Choir」／作曲 〔raw：角本麻衣（SUPA LOVE） / 主体token:「角本麻衣（SUPA LOVE）」〕\r\nidentityTaskId: ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b\r\nregistrationTaskId: ournotes:36:composer:CREATOR_REGISTRATION-current-55a2115040534e48a08b\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "角本麻衣",
+        "reading": "かくもとまい",
+        "sortKey": "かくもとまい",
+        "slug": "mai-kakumoto",
+        "type": "person",
+        "aliases": "[角本麻衣（SUPA LOVE）]",
+        "affiliation": "SUPA LOVE",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-55a2115040534e48a08b",
+      "taskIds": [
+        "ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b",
+        "ournotes:36:composer:CREATOR_REGISTRATION-current-55a2115040534e48a08b"
+      ]
+    },
+    {
+      "id": "B057",
+      "name": "角本麻衣（SUPA LOVE）",
+      "text": "candidateKey: review-0483bc48120cfc2a4fba\r\n台帳raw表記: 「角本麻衣（SUPA LOVE）」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"candidateKey: current-55a2115040534e48a08b\"\r\nstandardName=\"角本麻衣\"\r\nreading=\"かくもとまい\"\r\nsortKey=\"かくもとまい\"\r\nslug=\"mai-kakumoto\"\r\ntype=\"person\"\r\naliases=\"[角本麻衣（SUPA LOVE）]\"\r\naffiliation=\"SUPA LOVE\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:36 「Choir ‘S’ Choir」／編曲 〔raw：角本麻衣（SUPA LOVE） / 主体token:「角本麻衣（SUPA LOVE）」〕\r\nidentityTaskId: ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba\r\nregistrationTaskId: ournotes:36:arranger:CREATOR_REGISTRATION-review-0483bc48120cfc2a4fba\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "candidateKey: current-55a2115040534e48a08b",
+        "standardName": "角本麻衣",
+        "reading": "かくもとまい",
+        "sortKey": "かくもとまい",
+        "slug": "mai-kakumoto",
+        "type": "person",
+        "aliases": "[角本麻衣（SUPA LOVE）]",
+        "affiliation": "SUPA LOVE",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "review-0483bc48120cfc2a4fba",
+      "taskIds": [
+        "ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba",
+        "ournotes:36:arranger:CREATOR_REGISTRATION-review-0483bc48120cfc2a4fba"
+      ]
+    },
+    {
+      "id": "B058",
+      "name": "岩寺基晴",
+      "text": "candidateKey: b1-99d1ab24fe859adecafb\r\n台帳raw表記: 「岩寺基晴」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"岩寺基晴\"\r\nreading=\"いわでらもとはる\"\r\nsortKey=\"いわでらもとはる\"\r\nslug=\"motoharu-iwadera\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岩寺基晴」〕\r\nidentityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb\r\nregistrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "岩寺基晴",
+        "reading": "いわでらもとはる",
+        "sortKey": "いわでらもとはる",
+        "slug": "motoharu-iwadera",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-99d1ab24fe859adecafb",
+      "taskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb"
+      ]
+    },
+    {
+      "id": "B059",
+      "name": "橘 亮祐",
+      "text": "candidateKey: b1-0e3ca7292ba5e3406c39\r\n台帳raw表記: 「橘 亮祐」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"橘亮祐\"\r\nreading=\"たちばなりょうすけ\"\r\nsortKey=\"たちばなりょうすけ\"\r\nslug=\"ryosuke-tachibana\"\r\ntype=\"person\"\r\naliases=\"[橘 亮祐]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:395 「Realize」／作曲 〔raw：篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」〕\r\nidentityTaskId: garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39\r\nregistrationTaskId: garupa:395:composer:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39\r\nGarupa:395 「Realize」／作詞 〔raw：篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」〕\r\nidentityTaskId: garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39\r\nregistrationTaskId: garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "橘亮祐",
+        "reading": "たちばなりょうすけ",
+        "sortKey": "たちばなりょうすけ",
+        "slug": "ryosuke-tachibana",
+        "type": "person",
+        "aliases": "[橘 亮祐]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-0e3ca7292ba5e3406c39",
+      "taskIds": [
+        "garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:composer:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39",
+        "garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39"
+      ]
+    },
+    {
+      "id": "B060",
+      "name": "久下真音",
+      "text": "candidateKey: b1-42a5b3ea6680d1200cb7\r\n台帳raw表記: 「久下真音」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=”久下真音\"\r\nreading=\"くしたまいん\"\r\nsortKey=\"くしたまいん\"\r\nslug=\"mine-kushita\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:711 「POP IN 2」／作曲 〔raw：久下真音、つむぎしゃち / 主体token:「久下真音」〕\r\nidentityTaskId: garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7\r\nregistrationTaskId: garupa:711:composer:CREATOR_REGISTRATION-b1-42a5b3ea6680d1200cb7\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "久下真音",
+        "reading": "くしたまいん",
+        "sortKey": "くしたまいん",
+        "slug": "mine-kushita",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-42a5b3ea6680d1200cb7",
+      "taskIds": [
+        "garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7",
+        "garupa:711:composer:CREATOR_REGISTRATION-b1-42a5b3ea6680d1200cb7"
+      ]
+    },
+    {
+      "id": "B061",
+      "name": "宮崎諒-amazuti-",
+      "text": "candidateKey: b1-058a34802803a45d121a\r\n台帳raw表記: 「宮崎諒-amazuti-」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"宮崎諒\"\r\nreading=\"みやざきりょう\"\r\nsortKey=\"みやざきりょう\"\r\nslug=\"ryo-miyazaki\"\r\ntype=\"person\"\r\naliases=\"[宮崎諒-amazuti-]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=”はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"amazutiは宮崎諒と安部大希（candidateKey: b1-4f5bde2d6672e4ad9ab4）が所属する音楽クリエイターチームの名前。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:769 「超最強」／作曲 〔raw：安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「宮崎諒-amazuti-」〕\r\nidentityTaskId: garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a\r\nregistrationTaskId: garupa:769:composer:CREATOR_REGISTRATION-b1-058a34802803a45d121a\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "宮崎諒",
+        "reading": "みやざきりょう",
+        "sortKey": "みやざきりょう",
+        "slug": "ryo-miyazaki",
+        "type": "person",
+        "aliases": "[宮崎諒-amazuti-]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "amazutiは宮崎諒と安部大希（candidateKey: b1-4f5bde2d6672e4ad9ab4）が所属する音楽クリエイターチームの名前。"
+      },
+      "candidateKey": "b1-058a34802803a45d121a",
+      "taskIds": [
+        "garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a",
+        "garupa:769:composer:CREATOR_REGISTRATION-b1-058a34802803a45d121a"
+      ]
+    },
+    {
+      "id": "B062",
+      "name": "工藤大輝 / 花村想太 / MEG.ME",
+      "text": "candidateKey: current-391dd0c6d7a0f40365a0\r\n台帳raw表記: 「工藤大輝 / 花村想太 / MEG.ME」\r\nidentityConfirmed=\"いいえ\"（工藤大輝 / 花村想太 / MEG.ME の3人）\r\nsamePersonAs=\"既存IDなし; candidateKey: current-6e4aaff5404f9c7e9462; candidateKey: current-52f8d22524596db0e37f\"\r\nstandardName=\"工藤大輝; 花村想太; MEG.ME\"\r\nreading=\"くどうたいき; はなむらそうた; めぐみー\"\r\nsortKey=\"くどうたいき; はなむらそうた; めぐみー\"\r\nslug=\"taiki-kudo; sota-hanamura; meg-me\"\r\ntype=\"person; person; person\"\r\naliases=\"[]; []; []\"\r\naffiliation=\"なし; なし; なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい; はい; はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「工藤大輝」「花村想太」「MEG.ME」の順番。\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:734 「I wonder」／作詞 〔raw：工藤大輝 / 花村想太 / MEG.ME / 主体token:「工藤大輝 / 花村想太 / MEG.ME」〕\r\nidentityTaskId: garupa:734:lyricist:CREATOR_IDENTITY-current-391dd0c6d7a0f40365a0\r\nregistrationTaskId: garupa:734:lyricist:CREATOR_REGISTRATION-current-391dd0c6d7a0f40365a0\r\n",
+      "fields": {
+        "identityConfirmed": "いいえ",
+        "samePersonAs": "既存IDなし; candidateKey: current-6e4aaff5404f9c7e9462; candidateKey: current-52f8d22524596db0e37f",
+        "standardName": "工藤大輝; 花村想太; MEG.ME",
+        "reading": "くどうたいき; はなむらそうた; めぐみー",
+        "sortKey": "くどうたいき; はなむらそうた; めぐみー",
+        "slug": "taiki-kudo; sota-hanamura; meg-me",
+        "type": "person; person; person",
+        "aliases": "[]; []; []",
+        "affiliation": "なし; なし; なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい; はい; はい",
+        "承認から除外する担当": "",
+        "備考": "3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「工藤大輝」「花村想太」「MEG.ME」の順番。"
+      },
+      "candidateKey": "current-391dd0c6d7a0f40365a0",
+      "taskIds": [
+        "garupa:734:lyricist:CREATOR_IDENTITY-current-391dd0c6d7a0f40365a0",
+        "garupa:734:lyricist:CREATOR_REGISTRATION-current-391dd0c6d7a0f40365a0"
+      ]
+    },
+    {
+      "id": "B063",
+      "name": "江島啓一",
+      "text": "candidateKey: b1-1a0701568d79d8add602\r\n台帳raw表記: 「江島啓一」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"江島啓一\"\r\nreading=\"えじまけいいち\"\r\nsortKey=\"えじまけいいち\"\r\nslug=\"keiichi-ejima\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「江島啓一」〕\r\nidentityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602\r\nregistrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "江島啓一",
+        "reading": "えじまけいいち",
+        "sortKey": "えじまけいいち",
+        "slug": "keiichi-ejima",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-1a0701568d79d8add602",
+      "taskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602"
+      ]
+    },
+    {
+      "id": "B064",
+      "name": "高村風太",
+      "text": "candidateKey: review-589e9fbfb8b6c014ad7c\r\n台帳raw表記: 「高村風太」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"cr-0071\"\r\nstandardName=\"sabio\"\r\nreading=さびお\"\"\r\nsortKey=\"さびお\"\r\nslug=\"sabio\"\r\ntype=\"unit\"\r\naliases=\"[sabio/高村風太]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"OurNotes:59「六兆年と一夜物語」の編曲はsabioと高村風太の二人ではなく、sabioのaliasesとしてください。「高村風太」は「sabio」というソロプロジェクトを運営する人物です。\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:59 「六兆年と一夜物語」／編曲 〔raw：sabio/高村風太 / 主体token:「高村風太」〕\r\nidentityTaskId: ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c\r\nregistrationTaskId: ournotes:59:arranger:CREATOR_REGISTRATION-review-589e9fbfb8b6c014ad7c\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "cr-0071",
+        "standardName": "sabio",
+        "reading": null,
+        "sortKey": "さびお",
+        "slug": "sabio",
+        "type": "unit",
+        "aliases": "[sabio/高村風太]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": "OurNotes:59「六兆年と一夜物語」の編曲はsabioと高村風太の二人ではなく、sabioのaliasesとしてください。「高村風太」は「sabio」というソロプロジェクトを運営する人物です。"
+      },
+      "candidateKey": "review-589e9fbfb8b6c014ad7c",
+      "taskIds": [
+        "ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c",
+        "ournotes:59:arranger:CREATOR_REGISTRATION-review-589e9fbfb8b6c014ad7c"
+      ]
+    },
+    {
+      "id": "B065",
+      "name": "山崎あおい",
+      "text": "candidateKey: current-979592585b3a81b9b2ea\r\n台帳raw表記: 「山崎あおい」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"山崎あおい\"\r\nreading=\"やまざきあおい\"\r\nsortKey=\"やまざきあおい\"\r\nslug=\"aoi-yamazaki\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:791 「盛れ！ミ・アモーレ」／作詞 〔raw：山崎あおい / 主体token:「山崎あおい」〕\r\nidentityTaskId: garupa:791:lyricist:CREATOR_IDENTITY-current-979592585b3a81b9b2ea\r\nregistrationTaskId: garupa:791:lyricist:CREATOR_REGISTRATION-current-979592585b3a81b9b2ea\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "山崎あおい",
+        "reading": "やまざきあおい",
+        "sortKey": "やまざきあおい",
+        "slug": "aoi-yamazaki",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-979592585b3a81b9b2ea",
+      "taskIds": [
+        "garupa:791:lyricist:CREATOR_IDENTITY-current-979592585b3a81b9b2ea",
+        "garupa:791:lyricist:CREATOR_REGISTRATION-current-979592585b3a81b9b2ea"
+      ]
+    },
+    {
+      "id": "B066",
+      "name": "山崎あおい",
+      "text": "candidateKey: current-9d48971d06d3825f84fb\r\n台帳raw表記: 「山崎あおい」\r\nidentityConfirmed=”はい\"\r\nsamePersonAs=\"candidateKey: current-979592585b3a81b9b2ea\"\r\nstandardName=\"山崎あおい\"\r\nreading=\"やまざきあおい\"\r\nsortKey=\"やまざきあおい\"\r\nslug=\"aoi-yamazaki\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:791 「盛れ！ミ・アモーレ」／作曲 〔raw：山崎あおい / 主体token:「山崎あおい」〕\r\nidentityTaskId: garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb\r\nregistrationTaskId: garupa:791:composer:CREATOR_REGISTRATION-current-9d48971d06d3825f84fb\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "candidateKey: current-979592585b3a81b9b2ea",
+        "standardName": "山崎あおい",
+        "reading": "やまざきあおい",
+        "sortKey": "やまざきあおい",
+        "slug": "aoi-yamazaki",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-9d48971d06d3825f84fb",
+      "taskIds": [
+        "garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb",
+        "garupa:791:composer:CREATOR_REGISTRATION-current-9d48971d06d3825f84fb"
+      ]
+    },
+    {
+      "id": "B067",
+      "name": "秋元 康",
+      "text": "candidateKey: current-7a26a6c255e970242564\r\n台帳raw表記: 「秋元 康」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"秋元康\"\r\nreading=\"あきもとやすし\"\r\nsortKey=\"あきもとやすし\"\r\nslug=\"yasushi-akimoto\"\r\ntype=\"person\"\r\naliases=\"[秋元 康]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:783 「ポニーテールとシュシュ」／作詞 〔raw：秋元 康 / 主体token:「秋元 康」〕\r\nidentityTaskId: garupa:783:lyricist:CREATOR_IDENTITY-current-7a26a6c255e970242564\r\nregistrationTaskId: garupa:783:lyricist:CREATOR_REGISTRATION-current-7a26a6c255e970242564\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "秋元康",
+        "reading": "あきもとやすし",
+        "sortKey": "あきもとやすし",
+        "slug": "yasushi-akimoto",
+        "type": "person",
+        "aliases": "[秋元 康]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-7a26a6c255e970242564",
+      "taskIds": [
+        "garupa:783:lyricist:CREATOR_IDENTITY-current-7a26a6c255e970242564",
+        "garupa:783:lyricist:CREATOR_REGISTRATION-current-7a26a6c255e970242564"
+      ]
+    },
+    {
+      "id": "B068",
+      "name": "小林鉄兵",
+      "text": "candidateKey: b1-f6cbc2fc0ef8cd8c8955\r\n台帳raw表記: 「小林鉄兵」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"小林鉄兵\"\r\nreading=\"こばやしてっぺい\"\r\nsortKey=\"こばやしてっぺい\"\r\nslug=\"teppei-kobayashi\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=”なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「小林鉄兵」〕\r\nidentityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955\r\nregistrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-f6cbc2fc0ef8cd8c8955\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "小林鉄兵",
+        "reading": "こばやしてっぺい",
+        "sortKey": "こばやしてっぺい",
+        "slug": "teppei-kobayashi",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-f6cbc2fc0ef8cd8c8955",
+      "taskIds": [
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-f6cbc2fc0ef8cd8c8955"
+      ]
+    },
+    {
+      "id": "B069",
+      "name": "彰",
+      "text": "candidateKey: b1-8093a5e3afbe19e86dc3\r\n台帳raw表記: 「彰」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"彰\"\r\nreading=\"あきら\"\r\nsortKey=\"あきら\"\r\nslug=\"akira\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:322 「CORE PRIDE」／作曲 〔raw：TAKUYA∞、彰 / 主体token:「彰」〕\r\nidentityTaskId: garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3\r\nregistrationTaskId: garupa:322:composer:CREATOR_REGISTRATION-b1-8093a5e3afbe19e86dc3\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "彰",
+        "reading": "あきら",
+        "sortKey": "あきら",
+        "slug": "akira",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-8093a5e3afbe19e86dc3",
+      "taskIds": [
+        "garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3",
+        "garupa:322:composer:CREATOR_REGISTRATION-b1-8093a5e3afbe19e86dc3"
+      ]
+    },
+    {
+      "id": "B070",
+      "name": "松任谷　由実",
+      "text": "candidateKey: current-75e8a5b4665b0fbb7f5e\r\n台帳raw表記: 「松任谷　由実」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"松任谷由実\"\r\nreading=\"まつとうやゆみ\"\r\nsortKey=\"まつとうやゆみ\"\r\nslug=\"まつとうやゆみ\"\r\ntype=\"yumi-matsutoya\"\r\naliases=\"person\"\r\naffiliation=\"[松任谷　由実; 荒井由実]\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:727 「恋人がサンタクロース」／作詞 〔raw：松任谷　由実 / 主体token:「松任谷　由実」〕\r\nidentityTaskId: garupa:727:lyricist:CREATOR_IDENTITY-current-75e8a5b4665b0fbb7f5e\r\nregistrationTaskId: garupa:727:lyricist:CREATOR_REGISTRATION-current-75e8a5b4665b0fbb7f5e\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "松任谷由実",
+        "reading": "まつとうやゆみ",
+        "sortKey": "まつとうやゆみ",
+        "slug": "まつとうやゆみ",
+        "type": "yumi-matsutoya",
+        "aliases": "person",
+        "affiliation": "[松任谷　由実; 荒井由実]",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-75e8a5b4665b0fbb7f5e",
+      "taskIds": [
+        "garupa:727:lyricist:CREATOR_IDENTITY-current-75e8a5b4665b0fbb7f5e",
+        "garupa:727:lyricist:CREATOR_REGISTRATION-current-75e8a5b4665b0fbb7f5e"
+      ]
+    },
+    {
+      "id": "B071",
+      "name": "松任谷　由実",
+      "text": "candidateKey: current-d743a606e716e0d53526\r\n台帳raw表記: 「松任谷　由実」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"candidateKey: current-75e8a5b4665b0fbb7f5e\"\r\nstandardName=\"松任谷由実\"\r\nreading=”まつとうやゆみ\"\r\nsortKey=\"まつとうやゆみ\"\r\nslug=\"yumi-matsutoya\"\r\ntype=\"person\"\r\naliases=\"[松任谷　由実; 荒井由実]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:727 「恋人がサンタクロース」／作曲 〔raw：松任谷　由実 / 主体token:「松任谷　由実」〕\r\nidentityTaskId: garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526\r\nregistrationTaskId: garupa:727:composer:CREATOR_REGISTRATION-current-d743a606e716e0d53526\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "candidateKey: current-75e8a5b4665b0fbb7f5e",
+        "standardName": "松任谷由実",
+        "reading": "まつとうやゆみ",
+        "sortKey": "まつとうやゆみ",
+        "slug": "yumi-matsutoya",
+        "type": "person",
+        "aliases": "[松任谷　由実; 荒井由実]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-d743a606e716e0d53526",
+      "taskIds": [
+        "garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526",
+        "garupa:727:composer:CREATOR_REGISTRATION-current-d743a606e716e0d53526"
+      ]
+    },
+    {
+      "id": "B072",
+      "name": "石倉まろ",
+      "text": "candidateKey: review-d5df0d8b84a91cab20e1\r\n台帳raw表記: 「石倉まろ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"石倉まろ\"\r\nreading=\"いしくらまろ\"\r\nsortKey=\"いしくらまろ\"\r\nslug=\"maro-ishikura\"\r\ntype=\"person\"\r\naliases=\"[石倉誉之]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:68 「Pretender」／編曲 〔raw：石倉まろ / 主体token:「石倉まろ」〕\r\nidentityTaskId: ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1\r\nregistrationTaskId: ournotes:68:arranger:CREATOR_REGISTRATION-review-d5df0d8b84a91cab20e1\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "石倉まろ",
+        "reading": "いしくらまろ",
+        "sortKey": "いしくらまろ",
+        "slug": "maro-ishikura",
+        "type": "person",
+        "aliases": "[石倉誉之]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "review-d5df0d8b84a91cab20e1",
+      "taskIds": [
+        "ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1",
+        "ournotes:68:arranger:CREATOR_REGISTRATION-review-d5df0d8b84a91cab20e1"
+      ]
+    },
+    {
+      "id": "B073",
+      "name": "石倉誉之",
+      "text": "candidateKey: b1-1556a9939a4521612fe2\r\n台帳raw表記: 「石倉まろ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"石倉まろ\"\r\nreading=\"いしくらまろ\"\r\nsortKey=\"いしくらまろ\"\r\nslug=\"maro-ishikura\"\r\ntype=\"person\"\r\naliases=\"[石倉誉之]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:75 「Mela!」／編曲 〔raw：石倉まろ / 主体token:「石倉まろ」〕\r\nidentityTaskId: ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2\r\nregistrationTaskId: ournotes:75:arranger:CREATOR_REGISTRATION-b1-1556a9939a4521612fe2\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "石倉まろ",
+        "reading": "いしくらまろ",
+        "sortKey": "いしくらまろ",
+        "slug": "maro-ishikura",
+        "type": "person",
+        "aliases": "[石倉誉之]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-1556a9939a4521612fe2",
+      "taskIds": [
+        "ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2",
+        "ournotes:75:arranger:CREATOR_REGISTRATION-b1-1556a9939a4521612fe2"
+      ]
+    },
+    {
+      "id": "B074",
+      "name": "草刈愛美",
+      "text": "candidateKey: b1-a06d48bde1b0a5a0316f\r\n台帳raw表記: 「草刈愛美」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"草刈愛美\"\r\nreading=\"くさかりあみ\"\r\nsortKey=\"くさかりあみ\"\r\nslug=\"ami-kusakari\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「草刈愛美」〕\r\nidentityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f\r\nregistrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "草刈愛美",
+        "reading": "くさかりあみ",
+        "sortKey": "くさかりあみ",
+        "slug": "ami-kusakari",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-a06d48bde1b0a5a0316f",
+      "taskIds": [
+        "garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f",
+        "garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f"
+      ]
+    },
+    {
+      "id": "B075",
+      "name": "多田 慎也",
+      "text": "candidateKey: current-69b1083ea01e5c34f8fb\r\n台帳raw表記: 「多田 慎也」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=”既存IDなし\"\r\nstandardName=多田慎也\"\"\r\nreading=\"ただしんや\"\r\nsortKey=”ただしんや\"\r\nslug=\"shinya-tada\"\r\ntype=\"person\"\r\naliases=\"[多田 慎也]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:783 「ポニーテールとシュシュ」／作曲 〔raw：多田 慎也 / 主体token:「多田 慎也」〕\r\nidentityTaskId: garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb\r\nregistrationTaskId: garupa:783:composer:CREATOR_REGISTRATION-current-69b1083ea01e5c34f8fb\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": null,
+        "reading": "ただしんや",
+        "sortKey": "ただしんや",
+        "slug": "shinya-tada",
+        "type": "person",
+        "aliases": "[多田 慎也]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-69b1083ea01e5c34f8fb",
+      "taskIds": [
+        "garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb",
+        "garupa:783:composer:CREATOR_REGISTRATION-current-69b1083ea01e5c34f8fb"
+      ]
+    },
+    {
+      "id": "B076",
+      "name": "田中怜子",
+      "text": "candidateKey: b1-c9462aa47a3a10f7ffee\r\n台帳raw表記: 「田中怜子」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"田中怜子\"\r\nreading=\"たなかれいこ\"\r\nsortKey=\"たなかれいこ\"\r\nslug=\"reiko-tanaka\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「田中怜子」〕\r\nidentityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee\r\nregistrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-c9462aa47a3a10f7ffee\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "田中怜子",
+        "reading": "たなかれいこ",
+        "sortKey": "たなかれいこ",
+        "slug": "reiko-tanaka",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-c9462aa47a3a10f7ffee",
+      "taskIds": [
+        "garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee",
+        "garupa:124:lyricist:CREATOR_REGISTRATION-b1-c9462aa47a3a10f7ffee"
+      ]
+    },
+    {
+      "id": "B077",
+      "name": "馬場　龍樹",
+      "text": "candidateKey: b1-e7a81fcda1323ca4ecd2\r\n台帳raw表記: 「馬場　龍樹」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"馬場龍樹\"\r\nreading=\"ばばりゅうき\"\r\nsortKey=\"ばばりゅうき\"\r\nslug=\"ryuki-baba\"\r\ntype=\"person\"\r\naliases=\"[馬場　龍樹]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:549 「slash」／作曲 〔raw：馬場　龍樹／遠藤　ナオキ / 主体token:「馬場　龍樹」〕\r\nidentityTaskId: garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2\r\nregistrationTaskId: garupa:549:composer:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2\r\nGarupa:549 「slash」／作詞 〔raw：馬場　龍樹 / 主体token:「馬場　龍樹」〕\r\nidentityTaskId: garupa:549:lyricist:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2\r\nregistrationTaskId: garupa:549:lyricist:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "馬場龍樹",
+        "reading": "ばばりゅうき",
+        "sortKey": "ばばりゅうき",
+        "slug": "ryuki-baba",
+        "type": "person",
+        "aliases": "[馬場　龍樹]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-e7a81fcda1323ca4ecd2",
+      "taskIds": [
+        "garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2",
+        "garupa:549:composer:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2",
+        "garupa:549:lyricist:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2",
+        "garupa:549:lyricist:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2"
+      ]
+    },
+    {
+      "id": "B078",
+      "name": "美波",
+      "text": "candidateKey: b1-28990d5c41d9e767f084\r\n台帳raw表記: 「美波」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"美波\"\r\nreading=\"みなみ\"\r\nsortKey=\"みなみ\"\r\nslug=\"minami\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:481 「アイウエ」／作曲 〔raw：SAKURAmoti / 美波 / 主体token:「美波」〕\r\nidentityTaskId: garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084\r\nregistrationTaskId: garupa:481:composer:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084\r\nGarupa:481 「アイウエ」／作詞 〔raw：SAKURAmoti / 美波 / 主体token:「美波」〕\r\nidentityTaskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084\r\nregistrationTaskId: garupa:481:lyricist:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "美波",
+        "reading": "みなみ",
+        "sortKey": "みなみ",
+        "slug": "minami",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-28990d5c41d9e767f084",
+      "taskIds": [
+        "garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+        "garupa:481:composer:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084",
+        "garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084",
+        "garupa:481:lyricist:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084"
+      ]
+    },
+    {
+      "id": "B079",
+      "name": "米米CLUB",
+      "text": "candidateKey: current-1714adb574697fbc6b55\r\n台帳raw表記: 「米米CLUB」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"米米CLUB\"\r\nreading=\"こめこめくらぶ\"\r\nsortKey=”こめこめくらぶ\"\r\nslug=\"kome-kome-club\"\r\ntype=\"unit\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:793 「浪漫飛行」／作詞 〔raw：米米CLUB / 主体token:「米米CLUB」〕\r\nidentityTaskId: garupa:793:lyricist:CREATOR_IDENTITY-current-1714adb574697fbc6b55\r\nregistrationTaskId: garupa:793:lyricist:CREATOR_REGISTRATION-current-1714adb574697fbc6b55\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "米米CLUB",
+        "reading": "こめこめくらぶ",
+        "sortKey": "こめこめくらぶ",
+        "slug": "kome-kome-club",
+        "type": "unit",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-1714adb574697fbc6b55",
+      "taskIds": [
+        "garupa:793:lyricist:CREATOR_IDENTITY-current-1714adb574697fbc6b55",
+        "garupa:793:lyricist:CREATOR_REGISTRATION-current-1714adb574697fbc6b55"
+      ]
+    },
+    {
+      "id": "B080",
+      "name": "米米CLUB",
+      "text": "candidateKey: current-b220e5a94f63be35fdcf\r\n台帳raw表記: 「米米CLUB」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"米米CLUB\"\r\nreading=\"こめこめくらぶ\"\r\nsortKey=\"こめこめくらぶ\"\r\nslug=\"kome-kome-club\"\r\ntype=\"unit\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:793 「浪漫飛行」／作曲 〔raw：米米CLUB / 主体token:「米米CLUB」〕\r\nidentityTaskId: garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf\r\nregistrationTaskId: garupa:793:composer:CREATOR_REGISTRATION-current-b220e5a94f63be35fdcf\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "米米CLUB",
+        "reading": "こめこめくらぶ",
+        "sortKey": "こめこめくらぶ",
+        "slug": "kome-kome-club",
+        "type": "unit",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "current-b220e5a94f63be35fdcf",
+      "taskIds": [
+        "garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf",
+        "garupa:793:composer:CREATOR_REGISTRATION-current-b220e5a94f63be35fdcf"
+      ]
+    },
+    {
+      "id": "B081",
+      "name": "涼木シンジ",
+      "text": "candidateKey: b1-0af645346cf42d76ef7a\r\n台帳raw表記: 「涼木シンジ」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=”涼木シンジ\"\r\nreading=\"すずきしんじ\"\r\nsortKey=\"すずきしんじ\"\r\nslug=\"shinji-suzuki\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:630 「愛包ダンスホール」／作曲 〔raw：涼木シンジ、Gohgo / 主体token:「涼木シンジ」〕\r\nidentityTaskId: garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a\r\nregistrationTaskId: garupa:630:composer:CREATOR_REGISTRATION-b1-0af645346cf42d76ef7a\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "涼木シンジ",
+        "reading": "すずきしんじ",
+        "sortKey": "すずきしんじ",
+        "slug": "shinji-suzuki",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-0af645346cf42d76ef7a",
+      "taskIds": [
+        "garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a",
+        "garupa:630:composer:CREATOR_REGISTRATION-b1-0af645346cf42d76ef7a"
+      ]
+    },
+    {
+      "id": "B082",
+      "name": "哥丸雄貴",
+      "text": "candidateKey: b1-7c7ede552b3bb6d16e8e\r\n台帳raw表記: 「哥丸雄貴」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"哥丸雄貴\"\r\nreading=\"うたまるゆうき\"\r\nsortKey=\"うたまるゆうき\"\r\nslug=\"yuki-utamaru\"\r\ntype=\"person\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nOurNotes:52 「真夜中遊園地」／編曲 〔raw：哥丸雄貴、堀江晶太 / 主体token:「哥丸雄貴」〕\r\nidentityTaskId: ournotes:52:arranger:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e\r\nregistrationTaskId: ournotes:52:arranger:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e\r\nOurNotes:52 「真夜中遊園地」／作曲 〔raw：哥丸雄貴 / 主体token:「哥丸雄貴」〕\r\nidentityTaskId: ournotes:52:composer:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e\r\nregistrationTaskId: ournotes:52:composer:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "哥丸雄貴",
+        "reading": "うたまるゆうき",
+        "sortKey": "うたまるゆうき",
+        "slug": "yuki-utamaru",
+        "type": "person",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-7c7ede552b3bb6d16e8e",
+      "taskIds": [
+        "ournotes:52:arranger:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e",
+        "ournotes:52:arranger:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e",
+        "ournotes:52:composer:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e",
+        "ournotes:52:composer:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e"
+      ]
+    },
+    {
+      "id": "B083",
+      "name": "櫻澤ヒカル",
+      "text": "candidateKey: b1-323bf406d60f26212b32\r\n台帳raw表記: 「櫻澤ヒカル」\r\nidentityConfirmed=\"はい\"\r\nsamePersonAs=\"既存IDなし\"\r\nstandardName=\"櫻澤ヒカル\"\r\nreading=\"さくらざわひかる\"\r\nsortKey=\"さくらざわひかる\"\r\nslug=\"さくらざわひかる\"\r\ntype=\"hikaru-sakurazawa\"\r\naliases=\"[]\"\r\naffiliation=\"なし\"\r\n対象担当をすべて本人・上記Creatorとして承認=\"はい\"\r\n承認から除外する担当=\"\"\r\n備考=\"\"\r\n対象担当／照合taskId（編集不要）\r\nGarupa:263 「ノスタルジックレインフォール」／編曲 〔raw：都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token:「櫻澤ヒカル」〕\r\nidentityTaskId: garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32\r\nregistrationTaskId: garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32\r\n",
+      "fields": {
+        "identityConfirmed": "はい",
+        "samePersonAs": "既存IDなし",
+        "standardName": "櫻澤ヒカル",
+        "reading": "さくらざわひかる",
+        "sortKey": "さくらざわひかる",
+        "slug": "さくらざわひかる",
+        "type": "hikaru-sakurazawa",
+        "aliases": "[]",
+        "affiliation": "なし",
+        "対象担当をすべて本人・上記Creatorとして承認": "はい",
+        "承認から除外する担当": "",
+        "備考": ""
+      },
+      "candidateKey": "b1-323bf406d60f26212b32",
+      "taskIds": [
+        "garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32",
+        "garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32"
+      ]
+    }
+  ],
+  "aliases": [
+    {
+      "blockId": "C001",
+      "creatorId": "cr-0078",
+      "taskId": "ournotes:43:lyricist:ALIAS_REVIEW-cr-0078",
+      "token": "atsuko",
+      "raw": "atsuko",
+      "title": "KINGS",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C002",
+      "creatorId": "cr-0023",
+      "taskId": "ournotes:62:lyricist:ALIAS_REVIEW-cr-0023",
+      "token": "Ayase",
+      "raw": "Ayase",
+      "title": "UNDEAD",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C003",
+      "creatorId": "cr-0022",
+      "taskId": "ournotes:36:lyricist:ALIAS_REVIEW-cr-0022",
+      "token": "Diggy-MO’",
+      "raw": "Diggy-MO’",
+      "title": "Choir ‘S’ Choir",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C003",
+      "creatorId": "cr-0022",
+      "taskId": "ournotes:39:lyricist:ALIAS_REVIEW-cr-0022",
+      "token": "Diggy-MO’",
+      "raw": "Diggy-MO’",
+      "title": "The Whole Blue World",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C004",
+      "creatorId": "cr-0059",
+      "taskId": "garupa:733:arranger:ALIAS_REVIEW-cr-0059",
+      "token": "Fear, and Loathing in Las Vegas",
+      "raw": "Fear, and Loathing in Las Vegas",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C004",
+      "creatorId": "cr-0059",
+      "taskId": "garupa:733:lyricist:ALIAS_REVIEW-cr-0059",
+      "token": "Fear, and Loathing in Las Vegas",
+      "raw": "Fear, and Loathing in Las Vegas",
+      "title": "Drown Out the Noise and Push Through the Trash",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C005",
+      "creatorId": "cr-0127",
+      "taskId": "garupa:798:lyricist:ALIAS_REVIEW-b1-96b50efd44763aae3629",
+      "token": "Fukase",
+      "raw": "Fukase",
+      "title": "炎と森のカーニバル",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C006",
+      "creatorId": "cr-0196",
+      "taskId": "garupa:369:lyricist:ALIAS_REVIEW-current-543af9140a4b47b523ef",
+      "token": "KEIGO HAYASHI",
+      "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "title": "COLORS",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C007",
+      "creatorId": "cr-0363",
+      "taskId": "garupa:369:lyricist:ALIAS_REVIEW-current-37249a393f31fc1ee38b",
+      "token": "KOHSHI ASAKAWA",
+      "raw": "KOHSHI ASAKAWA・KEIGO HAYASHI",
+      "title": "COLORS",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C008",
+      "creatorId": "cr-0102",
+      "taskId": "garupa:308:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce",
+      "token": "ＭＯＭＩＫＥＮ",
+      "raw": "ＭＯＭＩＫＥＮ",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C008",
+      "creatorId": "cr-0102",
+      "taskId": "ournotes:76:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce",
+      "token": "MOMIKEN",
+      "raw": "MOMIKEN",
+      "title": "サムライハート(Some Like It Hot!!)",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C009",
+      "creatorId": "cr-0133",
+      "taskId": "garupa:729:lyricist:ALIAS_REVIEW-b1-0abbc860daeec295ea85",
+      "token": "OSTER project",
+      "raw": "OSTER project",
+      "title": "ミラクルペイント",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C010",
+      "creatorId": "cr-0070",
+      "taskId": "garupa:730:arranger:ALIAS_REVIEW-cr-0070",
+      "token": "THE SPELLBOUND",
+      "raw": "THE SPELLBOUND",
+      "title": "Singer",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C010",
+      "creatorId": "cr-0070",
+      "taskId": "garupa:730:lyricist:ALIAS_REVIEW-cr-0070",
+      "token": "THE SPELLBOUND",
+      "raw": "THE SPELLBOUND",
+      "title": "Singer",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C010",
+      "creatorId": "cr-0070",
+      "taskId": "garupa:731:arranger:ALIAS_REVIEW-cr-0070",
+      "token": "THE SPELLBOUND",
+      "raw": "THE SPELLBOUND",
+      "title": "手を叩け今ここで祈るだけ願うだけ",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C010",
+      "creatorId": "cr-0070",
+      "taskId": "garupa:731:lyricist:ALIAS_REVIEW-cr-0070",
+      "token": "THE SPELLBOUND",
+      "raw": "THE SPELLBOUND",
+      "title": "手を叩け今ここで祈るだけ願うだけ",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C011",
+      "creatorId": "cr-0068",
+      "taskId": "garupa:785:lyricist:ALIAS_REVIEW-cr-0068",
+      "token": "YUI",
+      "raw": "YUI",
+      "title": "SUMMER SONG",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C012",
+      "creatorId": "cr-0141",
+      "taskId": "garupa:795:lyricist:ALIAS_REVIEW-b1-18eb03642f28fcb3973c",
+      "token": "こっちのけんと",
+      "raw": "こっちのけんと",
+      "title": "けっかおーらい",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C013",
+      "creatorId": "cr-0146",
+      "taskId": "garupa:723:lyricist:ALIAS_REVIEW-b1-ac279f73d5b14a694999",
+      "token": "つんく",
+      "raw": "つんく",
+      "title": "♡桃色片想い♡",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C014",
+      "creatorId": "cr-0147",
+      "taskId": "garupa:766:lyricist:ALIAS_REVIEW-b1-c618605e1e385961159a",
+      "token": "なとり",
+      "raw": "なとり",
+      "title": "絶対零度",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C015",
+      "creatorId": "cr-0016",
+      "taskId": "garupa:732:arranger:ALIAS_REVIEW-cr-0016",
+      "token": "トミタカズキ(SUPA LOVE)",
+      "raw": "トミタカズキ(SUPA LOVE)",
+      "title": "端程山",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C016",
+      "creatorId": "cr-0121",
+      "taskId": "garupa:792:lyricist:ALIAS_REVIEW-b1-065e0e070ab40a39c5e1",
+      "token": "新藤晴一",
+      "raw": "新藤晴一",
+      "title": "オー！リバル",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C017",
+      "creatorId": "cr-0093",
+      "taskId": "garupa:797:lyricist:ALIAS_REVIEW-b1-706dfa00eb1eedda8c38",
+      "token": "中村航",
+      "raw": "中村航",
+      "title": "ライムライト",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C018",
+      "creatorId": "cr-0258",
+      "taskId": "ournotes:48:arranger:ALIAS_REVIEW-b1-36456c709118f3609c80",
+      "token": "園田健太郎",
+      "raw": "園田健太郎",
+      "title": "夢現妄想世界",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C018",
+      "creatorId": "cr-0258",
+      "taskId": "ournotes:48:composer:ALIAS_REVIEW-b1-36456c709118f3609c80",
+      "token": "園田健太郎",
+      "raw": "園田健太郎",
+      "title": "夢現妄想世界",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C019",
+      "creatorId": "cr-0012",
+      "taskId": "garupa:735:arranger:ALIAS_REVIEW-cr-0012",
+      "token": "堀川大翼（Elements Garden）",
+      "raw": "堀川大翼（Elements Garden）",
+      "title": "Same Blue",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C019",
+      "creatorId": "cr-0012",
+      "taskId": "garupa:783:arranger:ALIAS_REVIEW-cr-0012",
+      "token": "堀川大翼（Elements Garden）",
+      "raw": "堀川大翼（Elements Garden）",
+      "title": "ポニーテールとシュシュ",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C019",
+      "creatorId": "cr-0012",
+      "taskId": "garupa:788:arranger:ALIAS_REVIEW-cr-0012",
+      "token": "堀川大翼（Elements Garden）",
+      "raw": "堀川大翼（Elements Garden）",
+      "title": "Resound the Way",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C020",
+      "creatorId": "cr-0028",
+      "taskId": "ournotes:44:lyricist:ALIAS_REVIEW-cr-0028",
+      "token": "堀江晶太",
+      "raw": "堀江晶太",
+      "title": "✞animaるパーティ✞開催中✞",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C020",
+      "creatorId": "cr-0028",
+      "taskId": "ournotes:54:lyricist:ALIAS_REVIEW-cr-0028",
+      "token": "堀江晶太",
+      "raw": "堀江晶太",
+      "title": "超惑星Xへの旅",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C021",
+      "creatorId": "cr-0007",
+      "taskId": "garupa:792:arranger:ALIAS_REVIEW-cr-0007",
+      "token": "岩橋星実（Elements Garden）",
+      "raw": "岩橋星実（Elements Garden）",
+      "title": "オー！リバル",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C021",
+      "creatorId": "cr-0007",
+      "taskId": "garupa:796:arranger:ALIAS_REVIEW-cr-0007",
+      "token": "岩橋星実（Elements Garden）",
+      "raw": "岩橋星実（Elements Garden）",
+      "title": "悲しみなんて笑い飛ばせ",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C021",
+      "creatorId": "cr-0007",
+      "taskId": "garupa:797:arranger:ALIAS_REVIEW-cr-0007",
+      "token": "岩橋星実（Elements Garden）",
+      "raw": "岩橋星実（Elements Garden）",
+      "title": "ライムライト",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C022",
+      "creatorId": "cr-0020",
+      "taskId": "garupa:722:arranger:ALIAS_REVIEW-cr-0020",
+      "token": "日高勇輝（Elements Garden）",
+      "raw": "日高勇輝（Elements Garden）",
+      "title": "じょいふる",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C022",
+      "creatorId": "cr-0020",
+      "taskId": "garupa:781:arranger:ALIAS_REVIEW-cr-0020",
+      "token": "日高勇輝（Elements Garden）",
+      "raw": "日高勇輝（Elements Garden）",
+      "title": "夕影と歌う この先も",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C022",
+      "creatorId": "cr-0020",
+      "taskId": "garupa:795:arranger:ALIAS_REVIEW-cr-0020",
+      "token": "日高勇輝（Elements Garden）",
+      "raw": "日高勇輝（Elements Garden）",
+      "title": "けっかおーらい",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C023",
+      "creatorId": "cr-0047",
+      "taskId": "garupa:722:lyricist:ALIAS_REVIEW-cr-0047",
+      "token": "水野良樹",
+      "raw": "水野良樹",
+      "title": "じょいふる",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C024",
+      "creatorId": "cr-0048",
+      "taskId": "garupa:789:arranger:ALIAS_REVIEW-cr-0048",
+      "token": "片倉三起也",
+      "raw": "片倉三起也",
+      "title": "この蒼き闇と光",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C025",
+      "creatorId": "cr-0076",
+      "taskId": "ournotes:81:lyricist:ALIAS_REVIEW-cr-0076",
+      "token": "秋田　ひろむ",
+      "raw": "秋田　ひろむ",
+      "title": "空に歌えば",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C026",
+      "creatorId": "cr-0009",
+      "taskId": "garupa:721:arranger:ALIAS_REVIEW-cr-0009",
+      "token": "竹田祐介（Elements Garden）",
+      "raw": "竹田祐介（Elements Garden）",
+      "title": "Sincerely",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C026",
+      "creatorId": "cr-0009",
+      "taskId": "garupa:724:arranger:ALIAS_REVIEW-cr-0009",
+      "token": "竹田祐介（Elements Garden）",
+      "raw": "竹田祐介（Elements Garden）",
+      "title": "Fear Nothing",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C026",
+      "creatorId": "cr-0009",
+      "taskId": "garupa:784:arranger:ALIAS_REVIEW-cr-0009",
+      "token": "竹田祐介（Elements Garden）",
+      "raw": "竹田祐介（Elements Garden）",
+      "title": "I AM WHO I AM",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C026",
+      "creatorId": "cr-0009",
+      "taskId": "garupa:790:arranger:ALIAS_REVIEW-cr-0009",
+      "token": "竹田祐介（Elements Garden）",
+      "raw": "竹田祐介（Elements Garden）",
+      "title": "勇侠青春謳",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C027",
+      "creatorId": "cr-0010",
+      "taskId": "garupa:723:arranger:ALIAS_REVIEW-cr-0010",
+      "token": "笠井雄太（Elements Garden）",
+      "raw": "笠井雄太（Elements Garden）",
+      "title": "♡桃色片想い♡",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C027",
+      "creatorId": "cr-0010",
+      "taskId": "garupa:729:arranger:ALIAS_REVIEW-cr-0010",
+      "token": "笠井雄太（Elements Garden）",
+      "raw": "笠井雄太（Elements Garden）",
+      "title": "ミラクルペイント",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C027",
+      "creatorId": "cr-0010",
+      "taskId": "garupa:793:arranger:ALIAS_REVIEW-cr-0010",
+      "token": "笠井雄太（Elements Garden）",
+      "raw": "笠井雄太（Elements Garden）",
+      "title": "浪漫飛行",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:665:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:724:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "Fear Nothing",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:781:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "夕影と歌う この先も",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:782:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "Rainbow of Dreams",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:784:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "I AM WHO I AM",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:786:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "好き・スキ・だいすき〜ズっ！",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:788:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "Resound the Way",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C028",
+      "creatorId": "cr-0092",
+      "taskId": "garupa:800:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e",
+      "token": "織田あすか（Elements Garden）",
+      "raw": "織田あすか（Elements Garden）",
+      "title": "Sky full of Miracle",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C029",
+      "creatorId": "cr-0006",
+      "taskId": "garupa:782:arranger:ALIAS_REVIEW-cr-0006",
+      "token": "菊田大介（Elements Garden）",
+      "raw": "菊田大介（Elements Garden）",
+      "title": "Rainbow of Dreams",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C030",
+      "creatorId": "cr-0033",
+      "taskId": "ournotes:73:lyricist:ALIAS_REVIEW-cr-0033",
+      "token": "藤井健太郎",
+      "raw": "藤井健太郎",
+      "title": "ピースフル・ピーシーズ！",
+      "auto": true,
+      "fields": {}
+    },
+    {
+      "blockId": "C031",
+      "creatorId": "cr-0024",
+      "taskId": "garupa:735:lyricist:ALIAS_REVIEW-cr-0024",
+      "token": "藤原 聡",
+      "raw": "藤原 聡",
+      "title": "Same Blue",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C031",
+      "creatorId": "cr-0024",
+      "taskId": "ournotes:68:lyricist:ALIAS_REVIEW-cr-0024",
+      "token": "藤原　聡",
+      "raw": "藤原　聡",
+      "title": "Pretender",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C032",
+      "creatorId": "cr-0005",
+      "taskId": "garupa:799:arranger:ALIAS_REVIEW-cr-0005",
+      "token": "藤永龍太郎（Elements Garden）",
+      "raw": "藤永龍太郎（Elements Garden）",
+      "title": "Hello! Wink!（パラレルver.）",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C033",
+      "creatorId": "cr-0004",
+      "taskId": "garupa:787:arranger:ALIAS_REVIEW-cr-0004",
+      "token": "藤田淳平（Elements Garden）",
+      "raw": "藤田淳平（Elements Garden）",
+      "title": "私の心はチョココロネ(パラレルver.)",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C033",
+      "creatorId": "cr-0004",
+      "taskId": "garupa:800:arranger:ALIAS_REVIEW-cr-0004",
+      "token": "藤田淳平（Elements Garden）",
+      "raw": "藤田淳平（Elements Garden）",
+      "title": "Sky full of Miracle",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C033",
+      "creatorId": "cr-0004",
+      "taskId": "garupa:800:composer:ALIAS_REVIEW-cr-0004",
+      "token": "藤田淳平（Elements Garden）",
+      "raw": "藤田淳平（Elements Garden）",
+      "title": "Sky full of Miracle",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": null,
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C034",
+      "creatorId": "cr-0008",
+      "taskId": "garupa:763:arranger:ALIAS_REVIEW-cr-0008",
+      "token": "藤間仁（Elements Garden）",
+      "raw": "藤間仁（Elements Garden）",
+      "title": "ときめきエクスペリエンス！ (月島まりなver.)",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C034",
+      "creatorId": "cr-0008",
+      "taskId": "garupa:786:arranger:ALIAS_REVIEW-cr-0008",
+      "token": "藤間仁（Elements Garden）",
+      "raw": "藤間仁（Elements Garden）",
+      "title": "好き・スキ・だいすき〜ズっ！",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C035",
+      "creatorId": "cr-0162",
+      "taskId": "ournotes:19:lyricist:ALIAS_REVIEW-b1-145122f57cd75aa7c5a0",
+      "token": "谷口 鮪",
+      "raw": "谷口 鮪",
+      "title": "ないものねだり",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C036",
+      "creatorId": "cr-0011",
+      "taskId": "garupa:727:arranger:ALIAS_REVIEW-cr-0011",
+      "token": "近藤世真（Elements Garden）",
+      "raw": "近藤世真（Elements Garden）",
+      "title": "恋人がサンタクロース",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C036",
+      "creatorId": "cr-0011",
+      "taskId": "garupa:734:arranger:ALIAS_REVIEW-cr-0011",
+      "token": "近藤世真（Elements Garden）",
+      "raw": "近藤世真（Elements Garden）",
+      "title": "I wonder",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C036",
+      "creatorId": "cr-0011",
+      "taskId": "garupa:780:arranger:ALIAS_REVIEW-cr-0011",
+      "token": "近藤世真（Elements Garden）",
+      "raw": "近藤世真（Elements Garden）",
+      "title": "スターラブレイション",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C036",
+      "creatorId": "cr-0011",
+      "taskId": "garupa:785:arranger:ALIAS_REVIEW-cr-0011",
+      "token": "近藤世真（Elements Garden）",
+      "raw": "近藤世真（Elements Garden）",
+      "title": "SUMMER SONG",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C036",
+      "creatorId": "cr-0011",
+      "taskId": "garupa:798:arranger:ALIAS_REVIEW-cr-0011",
+      "token": "近藤世真（Elements Garden）",
+      "raw": "近藤世真（Elements Garden）",
+      "title": "炎と森のカーニバル",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C037",
+      "creatorId": "cr-0019",
+      "taskId": "garupa:665:arranger:ALIAS_REVIEW-current-0e351cf7f749f04bc27f",
+      "token": "都丸椋太（Elements Garden）",
+      "raw": "都丸椋太（Elements Garden）",
+      "title": "デイオフ・ラフ・ラブ・サンクス",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C037",
+      "creatorId": "cr-0019",
+      "taskId": "garupa:766:arranger:ALIAS_REVIEW-current-334fc89b4af944671a1d",
+      "token": "都丸椋太（Elements Garden）",
+      "raw": "都丸椋太（Elements Garden）",
+      "title": "絶対零度",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C037",
+      "creatorId": "cr-0019",
+      "taskId": "garupa:791:arranger:ALIAS_REVIEW-current-a13640d86a7693717949",
+      "token": "都丸椋太（Elements Garden）",
+      "raw": "都丸椋太（Elements Garden）",
+      "title": "盛れ！ミ・アモーレ",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    },
+    {
+      "blockId": "C037",
+      "creatorId": "cr-0019",
+      "taskId": "garupa:794:arranger:ALIAS_REVIEW-current-b7ce5703d9eac3544358",
+      "token": "都丸椋太（Elements Garden）",
+      "raw": "都丸椋太（Elements Garden）",
+      "title": "千の翼",
+      "auto": false,
+      "fields": {
+        "同一Creatorとして当該roleに紐付け": "はい",
+        "alias追加": "はい"
+      }
+    }
+  ],
+  "versions": [
+    {
+      "id": "D01",
+      "name": "OurNotes:1 「迷星叫」",
+      "text": "game内編曲raw: 長谷川大介(SUPA LOVE)\r\ntaskId: ournotes:1:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:1:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:1:arranger:GAME_VERSION_REVIEW",
+      "raw": "長谷川大介(SUPA LOVE)"
+    },
+    {
+      "id": "D02",
+      "name": "OurNotes:2 「壱雫空」",
+      "text": "game内編曲raw: hisakuni(SUPA LOVE)\r\ntaskId: ournotes:2:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:2:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:2:arranger:GAME_VERSION_REVIEW",
+      "raw": "hisakuni(SUPA LOVE)"
+    },
+    {
+      "id": "D03",
+      "name": "OurNotes:4 「影色舞」",
+      "text": "game内編曲raw: 木下龍平(SUPA LOVE)\r\ntaskId: ournotes:4:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:4:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:4:arranger:GAME_VERSION_REVIEW",
+      "raw": "木下龍平(SUPA LOVE)"
+    },
+    {
+      "id": "D04",
+      "name": "OurNotes:5 「潜在表明」",
+      "text": "game内編曲raw: 鈴木裕明(SUPA LOVE)\r\ntaskId: ournotes:5:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:5:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:5:arranger:GAME_VERSION_REVIEW",
+      "raw": "鈴木裕明(SUPA LOVE)"
+    },
+    {
+      "id": "D05",
+      "name": "OurNotes:6 「音一会」",
+      "text": "game内編曲raw: 尾崎豪（SUPA LOVE）\r\ntaskId: ournotes:6:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": null,
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:6:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:6:arranger:GAME_VERSION_REVIEW",
+      "raw": "尾崎豪（SUPA LOVE）"
+    },
+    {
+      "id": "D06",
+      "name": "OurNotes:7 「春日影（MyGO!!!!! ver.）」",
+      "text": "game内編曲raw: 藤田淳平（Elements Garden）\r\ntaskId: ournotes:7:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:7:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:7:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤田淳平（Elements Garden）"
+    },
+    {
+      "id": "D07",
+      "name": "OurNotes:10 「無路矢」",
+      "text": "game内編曲raw: 庄司夏葵（SUPA LOVE）\r\ntaskId: ournotes:10:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:10:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:10:arranger:GAME_VERSION_REVIEW",
+      "raw": "庄司夏葵（SUPA LOVE）"
+    },
+    {
+      "id": "D08",
+      "name": "OurNotes:11 「名無声」",
+      "text": "game内編曲raw: 金崎真士(SUPA LOVE)\r\ntaskId: ournotes:11:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:11:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:11:arranger:GAME_VERSION_REVIEW",
+      "raw": "金崎真士(SUPA LOVE)"
+    },
+    {
+      "id": "D09",
+      "name": "OurNotes:13 「端程山」",
+      "text": "game内編曲raw: トミタカズキ(SUPA LOVE)\r\ntaskId: ournotes:13:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:13:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:13:arranger:GAME_VERSION_REVIEW",
+      "raw": "トミタカズキ(SUPA LOVE)"
+    },
+    {
+      "id": "D10",
+      "name": "OurNotes:14 「砂寸奏」",
+      "text": "game内編曲raw: 槇島隆人（SUPA LOVE）\r\ntaskId: ournotes:14:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:14:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:14:arranger:GAME_VERSION_REVIEW",
+      "raw": "槇島隆人（SUPA LOVE）"
+    },
+    {
+      "id": "D11",
+      "name": "OurNotes:15 「焚音打」",
+      "text": "game内編曲raw: 長谷川大介(SUPA LOVE)\r\ntaskId: ournotes:15:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:15:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:15:arranger:GAME_VERSION_REVIEW",
+      "raw": "長谷川大介(SUPA LOVE)"
+    },
+    {
+      "id": "D12",
+      "name": "OurNotes:18 「往欄印」",
+      "text": "game内編曲raw: 長谷川大介(SUPA LOVE)\r\ntaskId: ournotes:18:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:18:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:18:arranger:GAME_VERSION_REVIEW",
+      "raw": "長谷川大介(SUPA LOVE)"
+    },
+    {
+      "id": "D13",
+      "name": "OurNotes:19 「ないものねだり」",
+      "text": "game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)\r\ntaskId: ournotes:19:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:19:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:19:arranger:GAME_VERSION_REVIEW",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+    },
+    {
+      "id": "D14",
+      "name": "OurNotes:20 「シャルル」",
+      "text": "game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)\r\ntaskId: ournotes:20:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:20:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:20:arranger:GAME_VERSION_REVIEW",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+    },
+    {
+      "id": "D15",
+      "name": "OurNotes:22 「ホワイトノイズ」",
+      "text": "game内編曲raw: 小木岳司\r\ntaskId: ournotes:22:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:22:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:22:arranger:GAME_VERSION_REVIEW",
+      "raw": "小木岳司"
+    },
+    {
+      "id": "D16",
+      "name": "OurNotes:23 「Ave Mujica」",
+      "text": "game内編曲raw: 藤間仁（Elements Garden）\r\ntaskId: ournotes:23:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:23:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:23:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤間仁（Elements Garden）"
+    },
+    {
+      "id": "D17",
+      "name": "OurNotes:27 「八芒星ダンス」",
+      "text": "game内編曲raw: あらケン(SUPA LOVE)\r\ntaskId: ournotes:27:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:27:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:27:arranger:GAME_VERSION_REVIEW",
+      "raw": "あらケン(SUPA LOVE)"
+    },
+    {
+      "id": "D18",
+      "name": "OurNotes:35 「黒のバースデイ」",
+      "text": "game内編曲raw: 賀佐泰洋（SUPA LOVE）\r\ntaskId: ournotes:35:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:35:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:35:arranger:GAME_VERSION_REVIEW",
+      "raw": "賀佐泰洋（SUPA LOVE）"
+    },
+    {
+      "id": "D19",
+      "name": "OurNotes:36 「Choir ‘S’ Choir」",
+      "text": "game内編曲raw: 角本麻衣（SUPA LOVE）\r\ntaskId: ournotes:36:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:36:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:36:arranger:GAME_VERSION_REVIEW",
+      "raw": "角本麻衣（SUPA LOVE）"
+    },
+    {
+      "id": "D20",
+      "name": "OurNotes:37 「Mas?uerade Rhapsody Re?uest」",
+      "text": "game内編曲raw: あらケン（SUPA LOVE）\r\ntaskId: ournotes:37:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:37:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:37:arranger:GAME_VERSION_REVIEW",
+      "raw": "あらケン（SUPA LOVE）"
+    },
+    {
+      "id": "D21",
+      "name": "OurNotes:39 「The Whole Blue World」",
+      "text": "game内編曲raw: Diggy-MO'\r\ntaskId: ournotes:39:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:39:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:39:arranger:GAME_VERSION_REVIEW",
+      "raw": "Diggy-MO'"
+    },
+    {
+      "id": "D22",
+      "name": "OurNotes:41 「堕天」",
+      "text": "game内編曲raw: UYKADO\r\ntaskId: ournotes:41:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:41:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:41:arranger:GAME_VERSION_REVIEW",
+      "raw": "UYKADO"
+    },
+    {
+      "id": "D23",
+      "name": "OurNotes:42 「暗黒天国」",
+      "text": "game内編曲raw: UYKADO\r\ntaskId: ournotes:42:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:42:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:42:arranger:GAME_VERSION_REVIEW",
+      "raw": "UYKADO"
+    },
+    {
+      "id": "D24",
+      "name": "OurNotes:43 「KINGS」",
+      "text": "game内編曲raw: UYKADO\r\ntaskId: ournotes:43:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:43:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:43:arranger:GAME_VERSION_REVIEW",
+      "raw": "UYKADO"
+    },
+    {
+      "id": "D25",
+      "name": "OurNotes:44 「✞animaるパーティ✞開催中✞」",
+      "text": "game内編曲raw: 堀江晶太\r\ntaskId: ournotes:44:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:44:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:44:arranger:GAME_VERSION_REVIEW",
+      "raw": "堀江晶太"
+    },
+    {
+      "id": "D26",
+      "name": "OurNotes:54 「超惑星Xへの旅」",
+      "text": "game内編曲raw: TeddyLoid・堀江晶太\r\ntaskId: ournotes:54:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:54:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:54:arranger:GAME_VERSION_REVIEW",
+      "raw": "TeddyLoid・堀江晶太"
+    },
+    {
+      "id": "D27",
+      "name": "OurNotes:59 「六兆年と一夜物語」",
+      "text": "game内編曲raw: sabio/高村風太\r\ntaskId: ournotes:59:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:59:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:59:arranger:GAME_VERSION_REVIEW",
+      "raw": "sabio/高村風太"
+    },
+    {
+      "id": "D28",
+      "name": "OurNotes:62 「UNDEAD」",
+      "text": "game内編曲raw: DjeDje、三村一輝\r\ntaskId: ournotes:62:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:62:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:62:arranger:GAME_VERSION_REVIEW",
+      "raw": "DjeDje、三村一輝"
+    },
+    {
+      "id": "D29",
+      "name": "OurNotes:65 「鳴らす」",
+      "text": "game内編曲raw: 藤井健太郎\r\ntaskId: ournotes:65:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:65:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:65:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤井健太郎"
+    },
+    {
+      "id": "D30",
+      "name": "OurNotes:68 「Pretender」",
+      "text": "game内編曲raw: 石倉まろ\r\ntaskId: ournotes:68:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:68:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:68:arranger:GAME_VERSION_REVIEW",
+      "raw": "石倉まろ"
+    },
+    {
+      "id": "D31",
+      "name": "OurNotes:73 「ピースフル・ピーシーズ！」",
+      "text": "game内編曲raw: 藤井健太郎\r\ntaskId: ournotes:73:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:73:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:73:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤井健太郎"
+    },
+    {
+      "id": "D32",
+      "name": "OurNotes:75 「Mela!」",
+      "text": "game内編曲raw: 石倉まろ\r\ntaskId: ournotes:75:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:75:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:75:arranger:GAME_VERSION_REVIEW",
+      "raw": "石倉まろ"
+    },
+    {
+      "id": "D33",
+      "name": "OurNotes:76 「サムライハート(Some Like It Hot!!)」",
+      "text": "game内編曲raw: 藤井健太郎\r\ntaskId: ournotes:76:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:76:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:76:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤井健太郎"
+    },
+    {
+      "id": "D34",
+      "name": "OurNotes:78 「革命道中」",
+      "text": "game内編曲raw: 牧野太洋\r\ntaskId: ournotes:78:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:78:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:78:arranger:GAME_VERSION_REVIEW",
+      "raw": "牧野太洋"
+    },
+    {
+      "id": "D35",
+      "name": "OurNotes:79 「春日影」",
+      "text": "game内編曲raw: 藤田淳平（Elements Garden）\r\ntaskId: ournotes:79:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:79:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:79:arranger:GAME_VERSION_REVIEW",
+      "raw": "藤田淳平（Elements Garden）"
+    },
+    {
+      "id": "D36",
+      "name": "OurNotes:80 「ちゅ、多様性。」",
+      "text": "game内編曲raw: 白神真志朗\r\ntaskId: ournotes:80:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:80:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:80:arranger:GAME_VERSION_REVIEW",
+      "raw": "白神真志朗"
+    },
+    {
+      "id": "D37",
+      "name": "OurNotes:81 「空に歌えば」",
+      "text": "game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)\r\ntaskId: ournotes:81:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:81:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:81:arranger:GAME_VERSION_REVIEW",
+      "raw": "植木建象、神田ジョン(from PENGUIN RESEARCH)"
+    },
+    {
+      "id": "D38",
+      "name": "OurNotes:83 「ファタール」",
+      "text": "game内編曲raw: 植木建象、加藤貴之\r\ntaskId: ournotes:83:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:83:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:83:arranger:GAME_VERSION_REVIEW",
+      "raw": "植木建象、加藤貴之"
+    },
+    {
+      "id": "D39",
+      "name": "OurNotes:86 「過去を喰らう」",
+      "text": "game内編曲raw: 植木建象、神田ジョン（from PENGUIN RESEARCH）\r\ntaskId: ournotes:86:arranger:GAME_VERSION_REVIEW\r\nsameArrangementAsRelease=\"はい\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "sameArrangementAsRelease": "はい",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:86:arranger:GAME_VERSION_REVIEW"
+      ],
+      "taskId": "ournotes:86:arranger:GAME_VERSION_REVIEW",
+      "raw": "植木建象、神田ジョン（from PENGUIN RESEARCH）"
+    }
+  ],
+  "roles": [
+    {
+      "id": "E01",
+      "name": "OurNotes:87 「Odd Dice」／作詞",
+      "text": "現行raw: アザミ\r\ntaskId: ournotes:87:lyricist:ROLE_REVIEW\r\n現行rawとroleを確認=\"はい\"\r\n正しいゲーム版credit原文=\"\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "現行rawとroleを確認": "はい",
+        "正しいゲーム版credit原文": "",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:87:lyricist:ROLE_REVIEW"
+      ],
+      "taskId": "ournotes:87:lyricist:ROLE_REVIEW",
+      "raw": "アザミ"
+    },
+    {
+      "id": "E02",
+      "name": "OurNotes:87 「Odd Dice」／作曲",
+      "text": "現行raw: アザミ\r\ntaskId: ournotes:87:composer:ROLE_REVIEW\r\n現行rawとroleを確認=\"はい\"\r\n正しいゲーム版credit原文=\"\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "現行rawとroleを確認": "はい",
+        "正しいゲーム版credit原文": "",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:87:composer:ROLE_REVIEW"
+      ],
+      "taskId": "ournotes:87:composer:ROLE_REVIEW",
+      "raw": "アザミ"
+    },
+    {
+      "id": "E03",
+      "name": "OurNotes:87 「Odd Dice」／編曲",
+      "text": "現行raw: アザミ\r\ntaskId: ournotes:87:arranger:ROLE_REVIEW\r\n現行rawとroleを確認=\"はい\"\r\n正しいゲーム版credit原文=\"\"\r\n備考=\"\"\r\n",
+      "fields": {
+        "現行rawとroleを確認": "はい",
+        "正しいゲーム版credit原文": "",
+        "備考": ""
+      },
+      "taskIds": [
+        "ournotes:87:arranger:ROLE_REVIEW"
+      ],
+      "taskId": "ournotes:87:arranger:ROLE_REVIEW",
+      "raw": "アザミ"
+    }
+  ],
+  "split": {
+    "taskId": "ournotes:46:arranger:SPLIT_REVIEW",
+    "fields": {
+      "分割結果（原文順）": "Nor / 堀江晶太",
+      "全体を単一Creatorとして扱う": "いいえ",
+      "分割後のCreator IDまたはcandidateKey対応": "既存IDなし; cr-0028",
+      "この曲の編曲担当としてsplitを確定": "はい",
+      "備考": null,
+      "reading": null,
+      "記入例：分割結果（原文順）": null
+    }
+  },
+  "answeredFields": 978
+}

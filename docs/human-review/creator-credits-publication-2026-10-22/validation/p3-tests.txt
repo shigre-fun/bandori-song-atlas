@@ -1,0 +1,130 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 888,
+  "currentCreatorCount": 371,
+  "currentWorkCount": 826,
+  "currentNextId": 372,
+  "currentGameCounts": {
+    "garupa": 800,
+    "ournotes": 88
+  },
+  "totalSongTodoRecords": 118,
+  "totalSongTasks": 375,
+  "totalCreatorCandidates": 123,
+  "threePlusRecordCreators": 11,
+  "twoRecordCreators": 16,
+  "oneRecordCreators": 96,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 27,
+  "unregisteredCreatorCandidates": 96,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 1,
+  "currentRawSplitReviewTasks": 1,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 129,
+    "CREATOR_REGISTRATION": 129,
+    "SPLIT_REVIEW": 1,
+    "ALIAS_REVIEW": 74,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 175,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 473,
+  "excludedResolvedSourceEntries": 1349,
+  "unmappedCurrentUnresolved": 0
+}
+TAP version 13
+# Subtest: all 208 candidates, three alias candidates and 280 role scopes are parsed without inventing review dates
+ok 1 - all 208 candidates, three alias candidates and 280 role scopes are parsed without inventing review dates
+  ---
+  duration_ms: 1.9068
+  type: 'test'
+  ...
+# Subtest: missing quotes and invalid approval/type fields stay unresolved until the user clarification
+ok 2 - missing quotes and invalid approval/type fields stay unresolved until the user clarification
+  ---
+  duration_ms: 897.5095
+  type: 'test'
+  ...
+# Subtest: all current data reproduces from the immutable source and stable allocation
+ok 3 - all current data reproduces from the immutable source and stable allocation
+  ---
+  duration_ms: 6482.0395
+  type: 'test'
+  ...
+# Subtest: existing IDs are reused and same-person candidate chains merge without cycles or duplicate Creators
+ok 4 - existing IDs are reused and same-person candidate chains merge without cycles or duplicate Creators
+  ---
+  duration_ms: 0.3441
+  type: 'test'
+  ...
+# Subtest: reference cycles remain held rather than silently choosing one new Creator
+ok 5 - reference cycles remain held rather than silently choosing one new Creator
+  ---
+  duration_ms: 1554.7084
+  type: 'test'
+  ...
+# Subtest: explicit new-ID declarations conflicting with old names/aliases/slugs never create a duplicate
+ok 6 - explicit new-ID declarations conflicting with old names/aliases/slugs never create a duplicate
+  ---
+  duration_ms: 1180.4968
+  type: 'test'
+  ...
+# Subtest: split fields preserve the exact raw delimiters and connect separate people, including the old Yaginuma composer
+ok 7 - split fields preserve the exact raw delimiters and connect separate people, including the old Yaginuma composer
+  ---
+  duration_ms: 46.5637
+  type: 'test'
+  ...
+# Subtest: unapproved records with an exactly matching new alias stay unresolved
+ok 8 - unapproved records with an exactly matching new alias stay unresolved
+  ---
+  duration_ms: 6.4776
+  type: 'test'
+  ...
+# Subtest: a changed Work is rejected even when credits are otherwise reproducible
+ok 9 - a changed Work is rejected even when credits are otherwise reproducible
+  ---
+  duration_ms: 224.9985
+  type: 'test'
+  ...
+# Subtest: non-credit changes in a reviewed song cannot pass the preservation gate
+ok 10 - non-credit changes in a reviewed song cannot pass the preservation gate
+  ---
+  duration_ms: 153.7356
+  type: 'test'
+  ...
+# Subtest: an existing co-author may not be dropped when another role is formalized
+ok 11 - an existing co-author may not be dropped when another role is formalized
+  ---
+  duration_ms: 45.3157
+  type: 'test'
+  ...
+# Subtest: unrelated old Creator metadata cannot be changed by a P3 identity answer
+ok 12 - unrelated old Creator metadata cannot be changed by a P3 identity answer
+  ---
+  duration_ms: 10.2246
+  type: 'test'
+  ...
+# Subtest: every original P3 task has one disposition and the regenerated ledger maps every unresolved role
+ok 13 - every original P3 task has one disposition and the regenerated ledger maps every unresolved role
+  ---
+  duration_ms: 42.9375
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12271.5717

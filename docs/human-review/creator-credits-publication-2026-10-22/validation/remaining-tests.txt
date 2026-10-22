@@ -1,0 +1,138 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 890,
+  "currentCreatorCount": 446,
+  "currentWorkCount": 828,
+  "currentNextId": 447,
+  "currentGameCounts": {
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "totalSongTodoRecords": 1,
+  "totalSongTasks": 6,
+  "totalCreatorCandidates": 1,
+  "threePlusRecordCreators": 0,
+  "twoRecordCreators": 0,
+  "oneRecordCreators": 1,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 0,
+  "unregisteredCreatorCandidates": 1,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 0,
+  "currentRawSplitReviewTasks": 0,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 0,
+    "CREATOR_REGISTRATION": 0,
+    "SPLIT_REVIEW": 0,
+    "ALIAS_REVIEW": 3,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 0,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 3,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 0,
+  "excludedResolvedSourceEntries": 1822,
+  "unmappedCurrentUnresolved": 0
+}
+TAP version 13
+# {
+#   mode: 'verify',
+#   registered: 75,
+#   held: [],
+#   conflicts: [],
+#   stale: [],
+#   roles: 203,
+#   preservation: {
+#     rawFields: 2670,
+#     bindings: 206,
+#     WorkChanges: 0,
+#     unrelatedChanges: 0
+#   }
+# }
+# Subtest: every newly introduced relation keeps its canonical structure when the editor saves unchanged credits
+ok 1 - every newly introduced relation keeps its canonical structure when the editor saves unchanged credits
+  ---
+  duration_ms: 102.9569
+  type: 'test'
+  ...
+# Subtest: the exact original 375 tasks are parsed and human date stays unanswered
+ok 2 - the exact original 375 tasks are parsed and human date stays unanswered
+  ---
+  duration_ms: 0.2228
+  type: 'test'
+  ...
+# Subtest: unanswered and malformed values are held until explicit clarification
+ok 3 - unanswered and malformed values are held until explicit clarification
+  ---
+  duration_ms: 373.6764
+  type: 'test'
+  ...
+# Subtest: 75 stable IDs are allocated once; aliases and scoped candidate merges do not duplicate identities
+ok 4 - 75 stable IDs are allocated once; aliases and scoped candidate merges do not duplicate identities
+  ---
+  duration_ms: 365.1228
+  type: 'test'
+  ...
+# Subtest: compound subjects split into distinct approved people without a compound Creator
+ok 5 - compound subjects split into distinct approved people without a compound Creator
+  ---
+  duration_ms: 0.4072
+  type: 'test'
+  ...
+# Subtest: all 25 automatic matches are exact full-string and unique in the original master
+ok 6 - all 25 automatic matches are exact full-string and unique in the original master
+  ---
+  duration_ms: 1.8919
+  type: 'test'
+  ...
+# Subtest: 39 release relationships, three raw/role confirmations and the Nor split are independent approvals
+ok 7 - 39 release relationships, three raw/role confirmations and the Nor split are independent approvals
+  ---
+  duration_ms: 1.2024
+  type: 'test'
+  ...
+# Subtest: sabio / 高村風太 is one existing Creator with the full unchanged display
+ok 8 - sabio / 高村風太 is one existing Creator with the full unchanged display
+  ---
+  duration_ms: 0.8736
+  type: 'test'
+  ...
+# Subtest: the explicitly changed slug retains previous URLs and all other existing metadata
+ok 9 - the explicitly changed slug retains previous URLs and all other existing metadata
+  ---
+  duration_ms: 0.3707
+  type: 'test'
+  ...
+# Subtest: all 2670 raw fields, Work and unrelated fields and prior evidence are preserved
+ok 10 - all 2670 raw fields, Work and unrelated fields and prior evidence are preserved
+  ---
+  duration_ms: 2257.5452
+  type: 'test'
+  ...
+# Subtest: the unlisted new song remains unresolved with no global expansion
+ok 11 - the unlisted new song remains unresolved with no global expansion
+  ---
+  duration_ms: 1319.0169
+  type: 'test'
+  ...
+# Subtest: input/task mismatches fail before writing and current plan reproduces every changed file
+ok 12 - input/task mismatches fail before writing and current plan reproduces every changed file
+  ---
+  duration_ms: 1082.1255
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6649.8005

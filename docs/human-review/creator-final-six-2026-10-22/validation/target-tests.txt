@@ -1,0 +1,36 @@
+{
+  mode: 'apply',
+  resolved: 6,
+  held: [],
+  roles: [
+    { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+  ]
+}
+{
+  mode: 'verify',
+  resolved: 6,
+  held: [],
+  roles: [
+    { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+  ]
+}
+✔ all six explicit positive answers including the typographic quote are read; optional blanks stay null (0.8148ms)
+✔ missing or negative approvals do not acquire a relation or resolve their two tasks (338.2251ms)
+✔ ambiguous exact names or a conflicting requested ID are held without guessing (332.3581ms)
+✔ all roles bind the unique existing cr-0375 once and preserve the actual displayed raw (0.3181ms)
+✔ the independent preservation gate rejects unrelated song or timing edits (81.9624ms)
+✔ Creator master, Work, all prior human reviews and all other data stay byte-identical (56.7442ms)
+✔ a second application changes no data or receipt bytes and allocates no ID (657.2369ms)
+✔ the complete live ToDo has zero songs, zero tasks and zero unmapped current roles (1228.8854ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3164.7625

@@ -1,0 +1,142 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 887,
+  "currentCreatorCount": 169,
+  "currentWorkCount": 825,
+  "currentNextId": 170,
+  "currentGameCounts": {
+    "garupa": 800,
+    "ournotes": 87
+  },
+  "totalSongTodoRecords": 271,
+  "totalSongTasks": 935,
+  "totalCreatorCandidates": 334,
+  "threePlusRecordCreators": 11,
+  "twoRecordCreators": 16,
+  "oneRecordCreators": 307,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 29,
+  "unregisteredCreatorCandidates": 305,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 1,
+  "currentRawSplitReviewTasks": 1,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 409,
+    "CREATOR_REGISTRATION": 409,
+    "SPLIT_REVIEW": 1,
+    "ALIAS_REVIEW": 74,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 455,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1177,
+  "excludedResolvedSourceEntries": 645,
+  "unmappedCurrentUnresolved": 0
+}
+TAP version 13
+# {
+#   "mode": "verify",
+#   "currentRecordCount": 887,
+#   "currentCreatorCount": 169,
+#   "currentWorkCount": 825,
+#   "currentNextId": 170,
+#   "currentGameCounts": {
+#     "garupa": 800,
+#     "ournotes": 87
+#   },
+#   "totalSongTodoRecords": 271,
+#   "totalSongTasks": 935,
+#   "totalCreatorCandidates": 334,
+#   "threePlusRecordCreators": 11,
+#   "twoRecordCreators": 16,
+#   "oneRecordCreators": 307,
+#   "referenceOnlyCreatorCandidates": 0,
+#   "existingCreatorRoleCandidates": 29,
+#   "unregisteredCreatorCandidates": 305,
+#   "ournotesArrangerManualSongs": 0,
+#   "lyricistCollectionSongs": 0,
+#   "garupaArrangerCollectionSongs": 0,
+#   "splitReviewTasks": 1,
+#   "currentRawSplitReviewTasks": 1,
+#   "conditionalReleaseSplitReviewTasks": 0,
+#   "categoryTaskCounts": {
+#     "CREDIT_COLLECTION": 0,
+#     "CREATOR_IDENTITY": 409,
+#     "CREATOR_REGISTRATION": 409,
+#     "SPLIT_REVIEW": 1,
+#     "ALIAS_REVIEW": 74,
+#     "ROLE_REVIEW": 3,
+#     "DISPLAY_REVIEW": 0,
+#     "GAME_VERSION_REVIEW": 39,
+#     "METADATA_REVIEW": 0
+#   },
+#   "currentUnresolvedRecordRoles": 455,
+#   "sourceUnresolvedEntries": 1822,
+#   "mappedTodoEntries": 1177,
+#   "excludedResolvedSourceEntries": 645,
+#   "unmappedCurrentUnresolved": 0
+# }
+# Subtest: all 481 original tasks have unique dispositions and unresolved identities remain mapped
+ok 1 - all 481 original tasks have unique dispositions and unresolved identities remain mapped
+  ---
+  duration_ms: 23.035
+  type: 'test'
+  ...
+# Subtest: empty and malformed answers remain unanswered until explicit clarification
+ok 2 - empty and malformed answers remain unanswered until explicit clarification
+  ---
+  duration_ms: 648.3811
+  type: 'test'
+  ...
+# Subtest: saved human review reproduces every live data byte and repeat application is stable
+ok 3 - saved human review reproduces every live data byte and repeat application is stable
+  ---
+  duration_ms: 3312.7096
+  type: 'test'
+  ...
+# Subtest: explicit identity refusals prevent per-record relations despite registered metadata
+ok 4 - explicit identity refusals prevent per-record relations despite registered metadata
+  ---
+  duration_ms: 3439.2247
+  type: 'test'
+  ...
+# Subtest: split-only approval preserves unresolved P3 actors and all punctuation
+ok 5 - split-only approval preserves unresolved P3 actors and all punctuation
+  ---
+  duration_ms: 3131.4382
+  type: 'test'
+  ...
+# Subtest: prior Creator metadata, P0/P1 roles, Work and unrelated fields cannot be altered
+ok 6 - prior Creator metadata, P0/P1 roles, Work and unrelated fields cannot be altered
+  ---
+  duration_ms: 337.2747
+  type: 'test'
+  ...
+# Subtest: Creator reuse, Unicode followups and explicit new Work scope retain fixed IDs
+ok 7 - Creator reuse, Unicode followups and explicit new Work scope retain fixed IDs
+  ---
+  duration_ms: 8.098
+  type: 'test'
+  ...
+# Subtest: current ToDo remains reproducible with all human evidence hashes unchanged
+ok 8 - current ToDo remains reproducible with all human evidence hashes unchanged
+  ---
+  duration_ms: 7110.4914
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 19349.864

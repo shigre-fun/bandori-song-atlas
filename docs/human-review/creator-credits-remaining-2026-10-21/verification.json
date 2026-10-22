@@ -1,0 +1,291 @@
+{
+  "status": "PASS",
+  "originalTasks": 375,
+  "P0P2Remaining375TaskUnmapped": 0,
+  "unmappedCurrentUnresolved": 0,
+  "originalRemaining": 0,
+  "currentTasks": 6,
+  "currentSongs": 1,
+  "currentCandidates": 1,
+  "newCreatorCount": 75,
+  "creators": 446,
+  "nextId": 447,
+  "automaticMatches": 25,
+  "versionAnswers": [
+    {
+      "taskId": "ournotes:1:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:2:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:4:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:5:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:6:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:7:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:10:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:11:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:13:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:14:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:15:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:18:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:19:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:20:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:22:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:23:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:27:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:35:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:36:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:37:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:39:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:41:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:42:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:43:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:44:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:54:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:59:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:62:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:65:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:68:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:73:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:75:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:76:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:78:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:79:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:80:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:81:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:83:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:86:arranger:GAME_VERSION_REVIEW",
+      "answer": "はい"
+    }
+  ],
+  "roleAnswers": [
+    {
+      "taskId": "ournotes:87:lyricist:ROLE_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:87:composer:ROLE_REVIEW",
+      "answer": "はい"
+    },
+    {
+      "taskId": "ournotes:87:arranger:ROLE_REVIEW",
+      "answer": "はい"
+    }
+  ],
+  "aliasAdditions": [
+    {
+      "id": "cr-0102",
+      "alias": "ＭＯＭＩＫＥＮ",
+      "taskId": "garupa:308:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce"
+    },
+    {
+      "id": "cr-0162",
+      "alias": "谷口 鮪",
+      "taskId": "ournotes:19:lyricist:ALIAS_REVIEW-b1-145122f57cd75aa7c5a0"
+    },
+    {
+      "id": "cr-0071",
+      "alias": "sabio/高村風太",
+      "taskId": "ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c"
+    }
+  ],
+  "slugChanges": [
+    {
+      "id": "cr-0061",
+      "oldSlug": "nayutalien",
+      "newSlug": "nayutan-seijin"
+    }
+  ],
+  "preservation": {
+    "rawFields": 2670,
+    "bindings": 206,
+    "WorkChanges": 0,
+    "unrelatedChanges": 0
+  },
+  "addedBindings": 206,
+  "reapplyChangedFiles": 0,
+  "todoRegenerateChangedFiles": 0,
+  "tests": {
+    "status": "PASS",
+    "canonical": 289,
+    "earlierReview": 31,
+    "p1": 10,
+    "p2": 8,
+    "p3": 13,
+    "remaining": 12,
+    "total": 363
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "SEO": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "pages": 1345,
+    "details": 890,
+    "creatorRedirects": 19
+  },
+  "Functions": {
+    "status": "PASS",
+    "wrangler": "4.143.0"
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "dataHashes": {
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/ournotes/songs.json": "cfb0ff8b567d25ca86568815759fe6ba3e4054350dab4fcea2ac0662b889195e"
+  },
+  "sourceHashes": {
+    "scripts/migrations/creator-credit-remaining-review.mjs": "ff7b8ea1a017a77534241d3a47efeeb28e46d374eb77e5074242783e60e5ecc4",
+    "scripts/qa/creator-credit-remaining-audit.mjs": "de64c1258bcf95e88e3ecd26c5439cc1904d03503f207f761bbeb8de067d1cc6",
+    "scripts/qa/creator-credit-remaining-pages.mjs": "d6410636571cebe642cef0c44010da973c863a771a74a7d8bfa85bcca75cbb5b",
+    "scripts/migrations/creator-remaining-prior-regression.mjs": "3655367c3d9ee95185cb5557f7e455cfe96295b2acea4272be409e409eb49669",
+    "scripts/research/creator-credit-human-todo.mjs": "a1e347bf426e1268ab82e33ceb66ae800d2c829e4e65a49fc9e343cb3ae6e39e",
+    "scripts/migrations/creator-review-regression.mjs": "e1a264e5d733b4f697ec758dd44595bd3e4b3b4d48cf8e4991cdeb4498338df5",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "a0414993b7e1e7a48740073242a75238e84034e6f6dc86c118afee92350b36c0",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "6b3d0610f6cd5aad9b4553d76c566ebd8c5fd3af1d0f752be85fb5f7c7c46dd0",
+    "tests/research/creator-credit-remaining-review.test.mjs": "0a4d3581efa5d8ceee91731dbd3d7df7813d5196cac700c1efd466954ba606cb"
+  },
+  "validationLogs": {
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/target-tests-final.txt": "41fdbdf667f05d9a12ba5af657573d583ba7ab1bc0d8473c09e79bb96cc2799e",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/earlier-review-tests.txt": "2f5509f39ba66e6905ace541e269739339a7b8fb5bc89b7f67630f48cbb3c72c",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p1-tests.txt": "a6f2643b9c025334865785779a37ca30b7b4ab301dc98f507522cb96733f79e5",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p2-tests.txt": "e25cf504130cf065a2445c597b391f4116ecb3fc7a3b2d2ae6c52b1e33c81205",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p3-tests.txt": "cdd03c54cf1f4bcddb50a1fa0cadc8f94067ae40cd863f35c9d54ebc1f4af87f",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/full-tests.txt": "20f4bf7e131708b794bf033b4f886d29f35b6081420709544a969a1842ed0dde",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/functions.txt": "42beb109542dbcb23f194b002053a887cae15c7a301d5e923cf3f9eaa996b89a",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/todo-verify.txt": "cd9407b6005708c48074450e6d16341df7fdf45dc4b856953a22341da461c8e4",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-final.txt": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-canonical.txt": "5334d3b2437febb8095e074224f4afac5317a85c1759fc4edee02298b342e637"
+  },
+  "completedAt": "2026-10-21T14:39:25.604Z",
+  "diffCheck": {
+    "status": "PASS",
+    "scope": "Tracked and every untracked related file; original failure diagnostics compressed without changing bytes"
+  },
+  "completionAudit": "COMPLETION_AUDIT.json"
+}

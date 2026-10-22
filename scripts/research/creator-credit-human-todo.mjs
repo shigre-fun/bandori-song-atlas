@@ -23,6 +23,10 @@ const KANOW_REVIEW =
   "docs/human-review/creator-kanow-p1-2026-10-07/review.json";
 const P2_REVIEW = "docs/human-review/creator-credits-p2-2026-10-10/review.json";
 const P3_REVIEW = "docs/human-review/creator-credits-p3-2026-10-16/review.json";
+const REMAINING_REVIEW =
+  "docs/human-review/creator-credits-remaining-2026-10-21/review.json";
+const FINAL_SIX_REVIEW =
+  "docs/human-review/creator-final-six-2026-10-22/review.json";
 const A = "docs/migrations/credits-phase-a-2026-10-03";
 const B1 = "docs/migrations/credits-phase-b1-2026-10-03";
 const B2 = "docs/migrations/credits-phase-b2-2026-10-03";
@@ -100,6 +104,8 @@ export function loadInputs() {
   if (fs.existsSync(KANOW_REVIEW)) paths.push(KANOW_REVIEW);
   if (fs.existsSync(P2_REVIEW)) paths.push(P2_REVIEW);
   if (fs.existsSync(P3_REVIEW)) paths.push(P3_REVIEW);
+  if (fs.existsSync(REMAINING_REVIEW)) paths.push(REMAINING_REVIEW);
+  if (fs.existsSync(FINAL_SIX_REVIEW)) paths.push(FINAL_SIX_REVIEW);
   const inputHashes = digestFiles(paths);
   const baseline = readJSON(`${B2}/baseline.json`);
   const protectedResearchHashes = digestFiles(
@@ -146,10 +152,25 @@ export function loadInputs() {
     : null;
   input.p2Review = fs.existsSync(P2_REVIEW) ? readJSON(P2_REVIEW) : null;
   input.p3Review = fs.existsSync(P3_REVIEW) ? readJSON(P3_REVIEW) : null;
+  input.remainingReview = fs.existsSync(REMAINING_REVIEW)
+    ? readJSON(REMAINING_REVIEW)
+    : null;
+  input.finalSixReview = fs.existsSync(FINAL_SIX_REVIEW)
+    ? readJSON(FINAL_SIX_REVIEW)
+    : null;
   return input;
 }
 
 function reviewedRole(input, r, role) {
+  const finalSix = input.finalSixReview?.reviews.find(
+    (a) =>
+      ref(a) === ref(r) &&
+      a.role === role &&
+      a.title === r.title &&
+      a.workId === r.workId &&
+      a.raw === r.song[role],
+  );
+  if (finalSix) return finalSix;
   const prior = input.humanReview?.reviews.find(
     (a) =>
       ref(a) === ref(r) &&
@@ -173,6 +194,23 @@ function reviewedRole(input, r, role) {
       a.workId === r.workId &&
       a.raw === r.song[role],
   );
+  const remaining = input.remainingReview?.reviews.find(
+    (a) =>
+      ref(a) === ref(r) &&
+      a.role === role &&
+      a.title === r.title &&
+      a.workId === r.workId &&
+      a.raw === r.song[role],
+  );
+  if (remaining)
+    return {
+      ...remaining,
+      requiresVersionReview: needsVersion(prior),
+      relationshipStatus:
+        remaining.relationshipStatus ?? prior?.relationshipStatus,
+      relationshipAnswer:
+        remaining.relationshipAnswer ?? prior?.relationshipAnswer,
+    };
   if (p3)
     return {
       ...p3,
@@ -203,7 +241,9 @@ function reviewedModel(input, r, role) {
         rawCredit: review.raw,
         creatorTokens: review.actors,
         splitStatus:
-          ["P2", "P3"].includes(review.reviewKind) &&
+          ["P2", "P3", "Remaining375", "FinalSix"].includes(
+            review.reviewKind,
+          ) &&
           !review.splitConfirmed &&
           !review.boundary
             ? null
@@ -214,7 +254,7 @@ function reviewedModel(input, r, role) {
 }
 function needsVersion(review) {
   return (
-    (!["P2", "P3"].includes(review?.reviewKind) ||
+    (!["P2", "P3", "Remaining375", "FinalSix"].includes(review?.reviewKind) ||
       review.requiresVersionReview) &&
     review?.role === "arranger" &&
     !["SAME_ARRANGEMENT_CONFIRMED", "DIFFERENT_ARRANGEMENT_CONFIRMED"].includes(
@@ -323,17 +363,32 @@ function evidenceFor(input, r, role) {
   const review = reviewedRole(input, r, role);
   if (review)
     evidence.push({
-      document: review.reviewKind === "P3" ? P3_REVIEW : P0_REVIEW,
+      document:
+        review.reviewKind === "FinalSix"
+          ? FINAL_SIX_REVIEW
+          : review.reviewKind === "Remaining375"
+            ? REMAINING_REVIEW
+            : review.reviewKind === "P3"
+              ? P3_REVIEW
+              : P0_REVIEW,
       locator: roleRef(r, role),
       sourceType: "human-review",
       reviewer:
-        review.reviewKind === "P3"
-          ? input.p3Review.reviewer
-          : input.humanReview.reviewer,
+        review.reviewKind === "FinalSix"
+          ? input.finalSixReview.reviewer
+          : review.reviewKind === "Remaining375"
+            ? input.remainingReview.reviewer
+            : review.reviewKind === "P3"
+              ? input.p3Review.reviewer
+              : input.humanReview.reviewer,
       checkedAt:
-        review.reviewKind === "P3"
-          ? input.p3Review.humanReviewDate
-          : input.humanReview.humanReviewDate,
+        review.reviewKind === "FinalSix"
+          ? input.finalSixReview.humanReviewDate
+          : review.reviewKind === "Remaining375"
+            ? input.remainingReview.humanReviewDate
+            : review.reviewKind === "P3"
+              ? input.p3Review.humanReviewDate
+              : input.humanReview.humanReviewDate,
       raw: review.raw,
       relationshipAnswer: review.relationshipAnswer,
       relationshipStatus: review.relationshipStatus,
@@ -888,8 +943,8 @@ export function buildLedger(input) {
           obligationMap.set(`split:${roleRef(r, role)}`, [task.taskId]);
         }
         if (
-          (review?.reviewKind !== "P2" ||
-            (review.reviewKind === "P2" &&
+          (!["P2", "Remaining375", "FinalSix"].includes(review?.reviewKind) ||
+            (["P2", "Remaining375", "FinalSix"].includes(review.reviewKind) &&
               !review.roleConfirmed &&
               !review.collection &&
               !review.splitConfirmed &&
@@ -1238,12 +1293,25 @@ export function verifyLedger(input, ledger) {
           creditTokens(r.song, role, input.master.creators)
             .filter(
               (t) =>
-                t.creator &&
-                [
-                  identity.standardName,
-                  ...identity.rawTokens,
-                  ...identity.aliases,
-                ].some((raw) => formatKey(raw) === formatKey(t.text)),
+                (t.creator &&
+                  [
+                    identity.standardName,
+                    ...identity.rawTokens,
+                    ...identity.aliases,
+                  ].some((raw) => formatKey(raw) === formatKey(t.text))) ||
+                (t.creator &&
+                  input.remainingReview?.candidateMap[
+                    identity.identityKey
+                  ]?.includes(t.creator.id) &&
+                  input.remainingReview?.reviews.some(
+                    (a) =>
+                      ref(a) === ref(r) &&
+                      a.role === role &&
+                      a.taskIds.some((id) =>
+                        id.endsWith("-" + identity.identityKey),
+                      ) &&
+                      a.bindings.some((b) => b.creatorId === t.creator.id),
+                  )),
             )
             .map((t) => ({
               game: r.game,
@@ -1286,6 +1354,23 @@ export function verifyLedger(input, ledger) {
                     (raw) => formatKey(raw) === formatKey(a.raw),
                   ))),
           ) ||
+            input.remainingReview?.reviews.some(
+              (a) =>
+                ref(a) === key &&
+                a.splitConfirmed &&
+                a.taskIds.some((id) =>
+                  id.endsWith("-" + identity.identityKey),
+                ) &&
+                (
+                  input.remainingReview.candidateMap[identity.identityKey] ?? []
+                ).every(
+                  (id) =>
+                    id &&
+                    r.song.credits.some(
+                      (c) => c.creatorId === id && c.roles.includes(a.role),
+                    ),
+                ),
+            ) ||
             input.p3Review?.reviews.some(
               (a) =>
                 ref(a) === key &&
@@ -2141,7 +2226,27 @@ export function run(mode) {
     protectedResearchHashes: input.protectedResearchHashes,
     headUnchanged: true,
     commitPushDeployPerformed: false,
-    taskAnswersSupplied: false,
+    taskAnswersSupplied: !!input.remainingReview,
+    appliedFinalSixReview: input.finalSixReview
+      ? {
+          document: FINAL_SIX_REVIEW,
+          inputHash: input.finalSixReview.inputHash,
+          taskDispositions: input.finalSixReview.dispositions,
+          sourceType: input.finalSixReview.sourceType,
+          humanReviewDate: input.finalSixReview.humanReviewDate,
+        }
+      : null,
+    appliedRemainingReview: input.remainingReview
+      ? {
+          document: REMAINING_REVIEW,
+          inputHash: input.remainingReview.inputHash,
+          registeredCreators: input.remainingReview.registered.length,
+          reviewedRecordRoles: input.remainingReview.reviews.length,
+          taskAnswers: Object.keys(input.remainingReview.taskAnswers).length,
+          sourceType: input.remainingReview.sourceType,
+          humanReviewDate: input.remainingReview.humanReviewDate,
+        }
+      : null,
     appliedHumanReview: input.humanReview
       ? {
           document: P0_REVIEW,

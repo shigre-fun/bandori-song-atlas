@@ -1,0 +1,212 @@
+{
+  "status": "PASS",
+  "requirements": [
+    {
+      "requirement": "Latest repository, six actual task IDs and their raw/role context",
+      "evidence": "baseline.json; frozen full input; strict migration task assertions",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Six positive explicit answers; blank optional answers preserved",
+      "evidence": "input.txt; review.json answers; parser test including typographic quote",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Unique exact Creator and no extra identity question/registration",
+      "evidence": "master446 unchanged; dedicated ambiguity and unique match tests",
+      "status": "PASS"
+    },
+    {
+      "requirement": "All six individually mapped to RESOLVED",
+      "evidence": "TASK_CORRESPONDENCE.json and live ledger0",
+      "status": "PASS"
+    },
+    {
+      "requirement": "3 roles use cr-0375 with raw 牧野太洋 and single relation",
+      "evidence": "review.json and independent DB validation/dedicated tests",
+      "status": "PASS"
+    },
+    {
+      "requirement": "No raw/override/previous relation, unrelated song, Work, Creator or old review changes",
+      "evidence": "all frozen data comparison and every old review SHA in preservation gate",
+      "status": "PASS"
+    },
+    {
+      "requirement": "No release-only information copied",
+      "evidence": "input and exact current raw; no external release source added",
+      "status": "PASS"
+    },
+    {
+      "requirement": "0 dangling and duplicate relation",
+      "evidence": "full890-record validateCreatorDatabase in reproducible plan",
+      "status": "PASS"
+    },
+    {
+      "requirement": "ToDo4 files plus summary/verification regenerated; 0 songs/tasks/candidates/unmapped",
+      "evidence": "generator verify log; independent live verification",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Repeated apply and ToDo generation change no bytes",
+      "evidence": "audit-final output and verification.json idempotence counters",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Full standard and prior human review tests",
+      "evidence": "371 passes in validation logs, unchanged historical assertions",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Root/subpath build and SEO and all detail/Creator pages",
+      "evidence": "both audits446/890/2670 and3 target links; SEO1345/890",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Functions compile, format and whitespace diff check",
+      "evidence": "validation/functions.txt and format-final.txt; final diff-check",
+      "status": "PASS"
+    },
+    {
+      "requirement": "All specified report fields; human ToDo0 stated",
+      "evidence": "REPORT.md; verification.json",
+      "status": "PASS"
+    },
+    {
+      "requirement": "No commit/push/deploy and all prior uncommitted work retained",
+      "evidence": "unchanged HEAD; empty index; frozen data and prior review hashes",
+      "status": "PASS"
+    }
+  ],
+  "resolved": 6,
+  "remaining": 0,
+  "humanTodo": 0,
+  "unmappedCurrentUnresolved": 0,
+  "creatorIds": {
+    "lyricist": "cr-0375",
+    "composer": "cr-0375",
+    "arranger": "cr-0375"
+  },
+  "tests": 371,
+  "headUnchanged": "33b9264055287392b2b73189c77d365f8a01915d",
+  "indexEmpty": true,
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "sourceHashes": {
+    "scripts/migrations/creator-final-six-review.mjs": "210c1a7eeb05195991eac85235f5e4a803e9c05f9687c2d5ecd3ff304e1cc809",
+    "scripts/qa/creator-final-six-audit.mjs": "c948ec5f887a8a5f6d7ad3961b68e4d173c87f7f3a52277214622e62bc50fe2c",
+    "scripts/qa/creator-final-six-pages.mjs": "9629a4ff902d7e6de0f17bdaaa32ca7b6c279146df98200342bdd077ffc91d77",
+    "scripts/migrations/creator-final-six-prior-regression.mjs": "dfaa00ccea06141bb6016eec6c114f5fc009be59e1f30a79a7555cd6497d7171",
+    "tests/research/creator-final-six-review.test.mjs": "0d062bb9e14974ce50236aead68fefca7bd9391a7f39c49f9d5d449cf2a256a0",
+    "scripts/research/creator-credit-human-todo.mjs": "dfac29338f9f9522f4289b6bba50860419d52dd1c8b906683bccc18e80a109e1",
+    "scripts/migrations/creator-review-regression.mjs": "cef457066e1aff784ed4d96284428f3c8ef6197995e1abb19cbbe55beff52c51",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "3ac44eba7a0125422c41cf28be54ad99fac4de966b60793946be6827a6f90fc8",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "c066161a6ce27b9eddc2f9ecc551e4d3dcc038e37db7a9be58da6136bc5bafa6",
+    "scripts/migrations/creator-remaining-prior-regression.mjs": "7054ff59fda307abe7eeababb698ee6b20f3c51ed29faa960e6dd9bcc3409c4d"
+  },
+  "dataHashes": {
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/ournotes/songs.json": "bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d"
+  },
+  "changedFiles": [
+    "WORK_LOG.md",
+    "data/creators.json",
+    "data/garupa/songs.json",
+    "data/ournotes/songs.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_SUMMARY.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_VERIFICATION.json",
+    "scripts/migrations/creator-p2-prior-regression.mjs",
+    "scripts/migrations/creator-p3-prior-regression.mjs",
+    "scripts/migrations/creator-review-regression.mjs",
+    "scripts/research/creator-credit-human-todo.mjs",
+    "docs/PHP_SECURITY_REVIEW_2026-10-21.md",
+    "docs/human-review/creator-credits-remaining-2026-10-21/COMPLETION_AUDIT.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/REPORT.md",
+    "docs/human-review/creator-credits-remaining-2026-10-21/TASK_CORRESPONDENCE.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/allocation.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/baseline.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/before.json.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/clarification.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/input.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/parsed-answers.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/review.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/root-page-audit.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/subpath-page-audit.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/canonical-target-tests.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/earlier-review-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/failed-log-evidence.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-canonical.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-final.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/full-tests-earlier.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/full-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/functions.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p1-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p2-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p3-tests-earlier.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p3-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-build.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-pages.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-seo.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-build.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-pages.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-seo.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/target-tests-final.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/target-tests-initial.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/todo-verify.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/verification.json",
+    "docs/human-review/creator-final-six-2026-10-22/COMPLETION_AUDIT.json",
+    "docs/human-review/creator-final-six-2026-10-22/REPORT.md",
+    "docs/human-review/creator-final-six-2026-10-22/TASK_CORRESPONDENCE.json",
+    "docs/human-review/creator-final-six-2026-10-22/baseline.json",
+    "docs/human-review/creator-final-six-2026-10-22/before.json.gz",
+    "docs/human-review/creator-final-six-2026-10-22/input.txt",
+    "docs/human-review/creator-final-six-2026-10-22/review.json",
+    "docs/human-review/creator-final-six-2026-10-22/root-page-audit.json",
+    "docs/human-review/creator-final-six-2026-10-22/subpath-page-audit.json",
+    "docs/human-review/creator-final-six-2026-10-22/validation/audit-final.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/earlier-review-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/format-final.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/full-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/functions.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p1-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p2-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p3-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/remaining-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-build.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-pages.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-seo.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-build.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-pages.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-seo.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/target-tests.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/todo-verify.txt",
+    "docs/human-review/creator-final-six-2026-10-22/validation/write-incidents.json",
+    "docs/human-review/creator-final-six-2026-10-22/validation/write-recovery.json",
+    "docs/human-review/creator-final-six-2026-10-22/verification.json",
+    "scripts/migrations/creator-credit-remaining-review.mjs",
+    "scripts/migrations/creator-final-six-prior-regression.mjs",
+    "scripts/migrations/creator-final-six-review.mjs",
+    "scripts/migrations/creator-remaining-prior-regression.mjs",
+    "scripts/qa/creator-credit-remaining-audit.mjs",
+    "scripts/qa/creator-credit-remaining-pages.mjs",
+    "scripts/qa/creator-final-six-audit.mjs",
+    "scripts/qa/creator-final-six-pages.mjs",
+    "tests/research/creator-credit-remaining-review.test.mjs",
+    "tests/research/creator-final-six-review.test.mjs"
+  ],
+  "verifiedAt": "2026-10-21T15:32:31.558Z"
+}

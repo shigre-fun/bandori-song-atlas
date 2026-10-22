@@ -1,0 +1,29 @@
+{
+  "reason": "Preserve original diagnostic whitespace byte-for-byte in gzip instead of changing raw evidence to satisfy diff whitespace checks.",
+  "files": [
+    {
+      "file": "target-tests-initial.txt.gz",
+      "originalSha256": "28336d16e55bef3f6dcbc92b72e5e64db0023010cf10336a5cc31bc4b4a07c90",
+      "originalBytes": 1154,
+      "gzipSha256": "d7fee19c2f2c0409e54f1e1414591427d847e786297689ca5aac4a59b7e41d5f"
+    },
+    {
+      "file": "p3-tests-earlier.txt.gz",
+      "originalSha256": "85eb4d2e90caeb7eecc553ed73542ff9000f070d9e9f0095b23e62ecc2fdf623",
+      "originalBytes": 4573,
+      "gzipSha256": "358a773b5f177b8de27bd3120bf73dd20c7592dd1c4e07afeaaace6221df4a24"
+    },
+    {
+      "file": "full-tests-earlier.txt.gz",
+      "originalSha256": "d6debcd958232590d2c88c99338c37c1803934337219294a7519fdbd9719bbb9",
+      "originalBytes": 28114,
+      "gzipSha256": "4349c53a870f03d98fba6bc9ca8d017889f47a39ad75fa50dd5b49674d014e5d"
+    },
+    {
+      "file": "canonical-target-tests.txt.gz",
+      "originalSha256": "51f7f74029fea08d6239bf23c94525cd5388adb3c3b97eca52d1d23651909c54",
+      "originalBytes": 142449,
+      "gzipSha256": "bf42e10a01da636c9ff13f41537b2bd63f03a221df26774ac69041877e67cd4d"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "filesystem write failure",
+  "error": "UNKNOWN",
+  "errno": -4094,
+  "initialFiles": [
+    "HUMAN_TODO_VERIFICATION.json",
+    "HUMAN_TODO_BY_SONG.md"
+  ],
+  "observedFailures": 3,
+  "terminationConfirmedBeforeEachRetry": true,
+  "capacityFreeBytesAtDiagnosis": 5768278016,
+  "readOnly": false,
+  "recovery": "Back up and hash all six existing generated artifacts; atomically replace with identical bytes; regenerate twice and compare all hashes.",
+  "recovered": true,
+  "productImplementationChangesForWorkaround": 0,
+  "approvalRejections": 0
+}

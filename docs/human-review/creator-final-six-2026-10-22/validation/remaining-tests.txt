@@ -1,0 +1,76 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 890,
+  "currentCreatorCount": 446,
+  "currentWorkCount": 828,
+  "currentNextId": 447,
+  "currentGameCounts": {
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "totalSongTodoRecords": 1,
+  "totalSongTasks": 6,
+  "totalCreatorCandidates": 1,
+  "threePlusRecordCreators": 0,
+  "twoRecordCreators": 0,
+  "oneRecordCreators": 1,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 0,
+  "unregisteredCreatorCandidates": 1,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 0,
+  "currentRawSplitReviewTasks": 0,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 0,
+    "CREATOR_REGISTRATION": 0,
+    "SPLIT_REVIEW": 0,
+    "ALIAS_REVIEW": 3,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 0,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 3,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 0,
+  "excludedResolvedSourceEntries": 1822,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  mode: 'verify',
+  registered: 75,
+  held: [],
+  conflicts: [],
+  stale: [],
+  roles: 203,
+  preservation: {
+    rawFields: 2670,
+    bindings: 206,
+    WorkChanges: 0,
+    unrelatedChanges: 0
+  }
+}
+✔ every newly introduced relation keeps its canonical structure when the editor saves unchanged credits (92.3886ms)
+✔ the exact original 375 tasks are parsed and human date stays unanswered (0.2125ms)
+✔ unanswered and malformed values are held until explicit clarification (366.5883ms)
+✔ 75 stable IDs are allocated once; aliases and scoped candidate merges do not duplicate identities (372.5294ms)
+✔ compound subjects split into distinct approved people without a compound Creator (0.515ms)
+✔ all 25 automatic matches are exact full-string and unique in the original master (1.4409ms)
+✔ 39 release relationships, three raw/role confirmations and the Nor split are independent approvals (0.9439ms)
+✔ sabio / 高村風太 is one existing Creator with the full unchanged display (0.7692ms)
+✔ the explicitly changed slug retains previous URLs and all other existing metadata (0.2235ms)
+✔ all 2670 raw fields, Work and unrelated fields and prior evidence are preserved (2384.133ms)
+✔ the unlisted new song remains unresolved with no global expansion (1249.5269ms)
+✔ input/task mismatches fail before writing and current plan reproduces every changed file (782.2953ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6422.7037

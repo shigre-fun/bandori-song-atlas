@@ -1,0 +1,2327 @@
+バンドリ楽曲録｜P3完了後・残り375タスク 人間確認回答テンプレート
+Notion貼り付け用／人間は原則 "" の内側だけを編集する。
+基準HEAD：f10fa7e0695a46f08c1fad01b26802b5af5498cf
+対象：118収録／375曲別タスク。生成時のCreator登録数371、Creator候補123件。
+分類：CREATOR_IDENTITY 129／CREATOR_REGISTRATION 129／ALIAS_REVIEW 74／GAME_VERSION_REVIEW 39／ROLE_REVIEW 3／SPLIT_REVIEW 1。
+同定・登録の258タスクは83主体にまとめ、各担当のtaskIdを併記した。ALIAS_REVIEWの74タスクは37既存Creator IDにまとめた。
+既存名との完全一致は74件中25件を自動照合予定とし、残り49件は人間回答欄を用意した。
+※台帳内123のcandidateKeyはB節83主体とC節40候補にすべて対応する。C節の40候補は既存Creator ID 37件に集約。集計上の「未登録候補96」には既存ID候補があるのに登録残務が残った13候補が含まれるため、これらは重複新規登録せずC節で確認する。
+0. Codexに渡す際の適用指示（最初に必ず読む）
+この全文は、現行 docs/todo/creator-credit-human-review/ の人間確認台帳に対する回答である。
+Codexはまず最新リポジトリのHEAD・ToDo・Creator master・楽曲データを読み、基準HEADと比較すること。
+各taskIdを存在確認し、現在のgame/recordId/role/raw/candidateKeyが一致するものだけ回答を適用する。差異があれば、そのタスクは停止・報告する。
+基本原則
+人間回答は "" 内の値だけ。未入力 "" は未回答であり、自動的に「はい」にしない。
+「はい」「いいえ」「保留」を使用し、回答を一括入力しても空欄は未解決に残す。
+記入者による今回の確認に根拠URL・資料・sourceNoteの追加入力は要求しない。過去の資料、日付、provenanceは保存し、根拠を捏造しない。reviewの出典種別は「人間による明示確認」として記録する。
+もし既存適用ツールがsourceNoteを必須としている場合、根拠を捏造して埋めず、今回の人間確認方式を矛盾なく受理するよう最小限の処理・検証ルールを整備してから適用する。
+Work ID、既存表示原文、未対象の曲やcredit、既存Creator情報を勝手に書き換えない。
+Elements Garden、SUPA LOVE 等の所属表記を、本人と別の作詞・作曲・編曲者として二重計上しない。
+現行楽曲情報と発売版の情報は混同しない。発売版との同一編曲判断は「同じ編曲者」というだけでは確定しない。
+新規Creator登録時は現在のnextIdを使用し、slugとpreviousSlugの衝突を検証する。
+同じ回答の再適用は冪等。今回の作業ではcommit/push/deployを行わない。
+完全一致の自動紐付け（ユーザー承認済み）
+分割済みの単一のcredit主体tokenが、既存CreatorのstandardNameまたは承認済みのaliasesと文字列全体で完全一致し、一意のCreator IDに決まる場合のみ、自動でそのrecord+roleへ紐付ける。
+大文字小文字、全角・半角、空白、括弧、肩書、所属の除去などを機械的に同一視しない。たとえばＭＯＭＩＫＥＮとMOMIKENは追加確認が必要。
+完全一致しても既存の明示的な否定判断や未分割の複合名、現在のraw/roleとの矛盾があれば自動処理せず保留。
+完全一致25件は下記「C」にtaskIdを自動対象として明記してあるため、人間の回答欄はない。
+ただし今回の実データに基づく「25」はtemplate生成時の候補文字列比較であり、最終的な自動適用件数はリポジトリの実masterで改めて検証し、一意に一致しないものを強制しない。
+A. 人間確認の共通入力
+humanReviewDate=""
+reviewer="タニマチ"
+入力例：humanReviewDate="2026-10-17"。空欄ならCodexは実行日を独断で「人間確認日」にしない。必要なら人間に確認する。
+B. 未登録Creator候補83主体：同定・正式登録（258 task）
+対象候補ごとに1回だけCreator情報を入力。節末に対象となる担当と、対応する2つのtaskIdをすべて列挙した。
+identityConfirmed: "はい"／"いいえ"／"保留"。同名別人・複数主体なら登録しない。
+samePersonAs: 新規なら "既存IDなし"、既存に同定したなら "cr-XXXX"、同じ回答文中の別候補に統合するなら "candidate:<candidateKey>"。
+standardName, reading, sortKey, slug, type, aliases, affiliation：正式登録情報。既存IDへ統合するときは既存masterのフィールドを優先し、空欄でも差し支えない。
+type: "person"／"unit"／"organization"。1人のソロユニットもユニット名義ならunit。
+aliases: 別名なし "[]"、別名あり "別名1;別名2"。所属組織を別名に加えない。
+affiliation: creditに付随する制作組織・所属。バンド名は原則入れない。なし "なし"、不明 "不明"。
+対象担当をすべて本人・上記Creatorとして承認: "はい" のときこの節に記載したrole/taskIdのみを対象とする。未確認の担当が1つでもあるときは保留、または例外指定する。
+承認から除外する担当: 例 "Garupa:85/composer" のような game:id/role を ; 区切り。単一taskだけを除外したい場合は、そのtaskIdで指定する。空欄は除外指定なし。
+新規登録に必要な情報が不足すれば、そのCreatorに関する未解決taskは保持する。
+B001｜宝野 アリカ
+candidateKey: b1-ded90cd0337d00108b1a
+台帳raw表記: 「宝野アリカ」 / 「宝野 アリカ」 / 「宝野　アリカ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="宝野アリカ"
+reading="たからのありか"
+sortKey="たからのありか"
+slug="allica-takarano"
+type="person"
+aliases="[宝野 アリカ; 宝野　アリカ]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:534 「聖少女領域」／作詞 〔raw：宝野 アリカ / 主体token:「宝野 アリカ」〕
+identityTaskId: garupa:534:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a
+registrationTaskId: garupa:534:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a
+Garupa:789 「この蒼き闇と光」／作詞 〔raw：宝野アリカ / 主体token:「宝野アリカ」〕
+identityTaskId: garupa:789:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a
+registrationTaskId: garupa:789:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a
+Garupa:790 「勇侠青春謳」／作詞 〔raw：宝野アリカ / 主体token:「宝野アリカ」〕
+identityTaskId: garupa:790:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a
+registrationTaskId: garupa:790:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a
+OurNotes:42 「暗黒天国」／作詞 〔raw：宝野　アリカ / 主体token:「宝野　アリカ」〕
+identityTaskId: ournotes:42:lyricist:CREATOR_IDENTITY-b1-ded90cd0337d00108b1a
+registrationTaskId: ournotes:42:lyricist:CREATOR_REGISTRATION-b1-ded90cd0337d00108b1a
+B002｜UYKADO
+candidateKey: review-9cda2256d6c7162d42ad
+台帳raw表記: 「UYKADO」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="UYKADO"
+reading="ゆいかどう"
+sortKey="ゆいかどう"
+slug="uykado"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:41 「堕天」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕
+identityTaskId: ournotes:41:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
+registrationTaskId: ournotes:41:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad
+OurNotes:42 「暗黒天国」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕
+identityTaskId: ournotes:42:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
+registrationTaskId: ournotes:42:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad
+OurNotes:43 「KINGS」／編曲 〔raw：UYKADO / 主体token:「UYKADO」〕
+identityTaskId: ournotes:43:arranger:CREATOR_IDENTITY-review-9cda2256d6c7162d42ad
+registrationTaskId: ournotes:43:arranger:CREATOR_REGISTRATION-review-9cda2256d6c7162d42ad
+B003｜加藤貴之
+candidateKey: b1-738ccdae4df4a8aa4aad
+台帳raw表記: 「加藤貴之」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="加藤貴之"
+reading="かとうたかゆき"
+sortKey="かとうたかゆき"
+slug="takayuki-kato"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:579 「僕は...」／編曲 〔raw：植木建象/加藤貴之 / 主体token:「加藤貴之」〕
+identityTaskId: garupa:579:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
+registrationTaskId: garupa:579:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad
+Garupa:610 「雑踏、僕らの街」／編曲 〔raw：植木建象、加藤貴之 / 主体token:「加藤貴之」〕
+identityTaskId: garupa:610:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
+registrationTaskId: garupa:610:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad
+OurNotes:83 「ファタール」／編曲 〔raw：植木建象、加藤貴之 / 主体token:「加藤貴之」〕
+identityTaskId: ournotes:83:arranger:CREATOR_IDENTITY-b1-738ccdae4df4a8aa4aad
+registrationTaskId: ournotes:83:arranger:CREATOR_REGISTRATION-b1-738ccdae4df4a8aa4aad
+B004｜牧野太洋
+candidateKey: b1-217be10299dcfad8a87d
+台帳raw表記: 「牧野太洋」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="牧野太洋"
+reading="まきのたいよう"
+sortKey="まきのたいよう"
+slug="taiyo-makino"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:78 「革命道中」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕
+identityTaskId: ournotes:78:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
+registrationTaskId: ournotes:78:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d
+OurNotes:82 「Stellar Stellar」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕
+identityTaskId: ournotes:82:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
+registrationTaskId: ournotes:82:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d
+OurNotes:84 「微笑みの爆弾」／編曲 〔raw：牧野太洋 / 主体token:「牧野太洋」〕
+identityTaskId: ournotes:84:arranger:CREATOR_IDENTITY-b1-217be10299dcfad8a87d
+registrationTaskId: ournotes:84:arranger:CREATOR_REGISTRATION-b1-217be10299dcfad8a87d
+B005｜DjeDje
+candidateKey: b1-a95af7013f3fdd519cf8
+台帳raw表記: 「DjeDje」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="DjeDje"
+reading="じぇじぇ"
+sortKey="じぇじぇ"
+slug="djedje"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「DjeDje」〕
+identityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8
+registrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8
+OurNotes:62 「UNDEAD」／編曲 〔raw：DjeDje、三村一輝 / 主体token:「DjeDje」〕
+identityTaskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-a95af7013f3fdd519cf8
+registrationTaskId: ournotes:62:arranger:CREATOR_REGISTRATION-b1-a95af7013f3fdd519cf8
+B006｜Nor
+candidateKey: b1-bc4eb6a5c9c4fe339039
+台帳raw表記: 「Nor」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Nor"
+reading="のる"
+sortKey="のる"
+slug="nor"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:46 「限界現実サバイブ天使」／編曲 〔raw：Nor、堀江晶太 / 主体token:「Nor」〕
+identityTaskId: ournotes:46:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039
+registrationTaskId: ournotes:46:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039
+OurNotes:47 「ビッグマウス」／編曲 〔raw：堀江晶太、Nor / 主体token:「Nor」〕
+identityTaskId: ournotes:47:arranger:CREATOR_IDENTITY-b1-bc4eb6a5c9c4fe339039
+registrationTaskId: ournotes:47:arranger:CREATOR_REGISTRATION-b1-bc4eb6a5c9c4fe339039
+B007｜R-指定
+candidateKey: b1-85f0867cdd50b6bfa592
+台帳raw表記: 「R-指定」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="R-指定"
+reading="あーるしてい"
+sortKey="あーるしてい"
+slug="r-shitei"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:608 「Bling-Bang-Bang-Born」／作詞 〔raw：R-指定 / 主体token:「R-指定」〕
+identityTaskId: garupa:608:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592
+registrationTaskId: garupa:608:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592
+OurNotes:41 「堕天」／作詞 〔raw：R-指定 / 主体token:「R-指定」〕
+identityTaskId: ournotes:41:lyricist:CREATOR_IDENTITY-b1-85f0867cdd50b6bfa592
+registrationTaskId: ournotes:41:lyricist:CREATOR_REGISTRATION-b1-85f0867cdd50b6bfa592
+B008｜ぬゆり
+candidateKey: b1-9637211e2855d7f0cee3
+台帳raw表記: 「ぬゆり」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ぬゆり"
+reading="ぬゆり"
+sortKey="ぬゆり"
+slug="nulut"
+type="person"
+aliases="[Lanndo; nulut]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:258 「秒針を噛む」／作曲 〔raw：ACAね×ぬゆり / 主体token:「ぬゆり」〕
+identityTaskId: garupa:258:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3
+registrationTaskId: garupa:258:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3
+OurNotes:70 「ロウワー」／作曲 〔raw：ぬゆり / 主体token:「ぬゆり」〕
+identityTaskId: ournotes:70:composer:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3
+registrationTaskId: ournotes:70:composer:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3
+OurNotes:70 「ロウワー」／作詞 〔raw：ぬゆり / 主体token:「ぬゆり」〕
+identityTaskId: ournotes:70:lyricist:CREATOR_IDENTITY-b1-9637211e2855d7f0cee3
+registrationTaskId: ournotes:70:lyricist:CREATOR_REGISTRATION-b1-9637211e2855d7f0cee3
+B009｜横地健太
+candidateKey: b1-6c54c616bf3d724cda81
+台帳raw表記: 「横地健太(SUPA LOVE)」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="横地健太"
+reading="よこちけんた"
+sortKey="よこちけんた"
+slug="kenta-yokochi"
+type="person"
+aliases="[横地健太(SUPA LOVE)]"
+affiliation="SUPA LOVE"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:503 「詩超絆」／編曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕
+identityTaskId: garupa:503:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
+registrationTaskId: garupa:503:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81
+Garupa:503 「詩超絆」／作曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕
+identityTaskId: garupa:503:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
+registrationTaskId: garupa:503:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81
+OurNotes:8 「詩超絆」／編曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕
+identityTaskId: ournotes:8:arranger:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
+registrationTaskId: ournotes:8:arranger:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81
+OurNotes:8 「詩超絆」／作曲 〔raw：横地健太(SUPA LOVE) / 主体token:「横地健太(SUPA LOVE)」〕
+identityTaskId: ournotes:8:composer:CREATOR_IDENTITY-b1-6c54c616bf3d724cda81
+registrationTaskId: ournotes:8:composer:CREATOR_REGISTRATION-b1-6c54c616bf3d724cda81
+B010｜三村一輝
+candidateKey: b1-7e0183b00fe393a031a0
+台帳raw表記: 「三村一輝」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="三村一輝"
+reading="みむらかずき"
+sortKey="みむらかずき"
+slug="kazuki-mimura"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「三村一輝」〕
+identityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0
+registrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0
+OurNotes:62 「UNDEAD」／編曲 〔raw：DjeDje、三村一輝 / 主体token:「三村一輝」〕
+identityTaskId: ournotes:62:arranger:CREATOR_IDENTITY-b1-7e0183b00fe393a031a0
+registrationTaskId: ournotes:62:arranger:CREATOR_REGISTRATION-b1-7e0183b00fe393a031a0
+B011｜千石ユノ
+candidateKey: b1-a60c08d1db0c515831cc
+台帳raw表記: 「千石ユノ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="千石ユノ"
+reading="せんごくゆの"
+sortKey="せんごくゆの"
+slug="yuno-sengoku"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:53 「チューニング」／編曲 〔raw：堀江晶太、千石ユノ / 主体token:「千石ユノ」〕
+identityTaskId: ournotes:53:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
+registrationTaskId: ournotes:53:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc
+OurNotes:53 「チューニング」／作曲 〔raw：千石ユノ、堀江晶太 / 主体token:「千石ユノ」〕
+identityTaskId: ournotes:53:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
+registrationTaskId: ournotes:53:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc
+OurNotes:53 「チューニング」／作詞 〔raw：仲町あられ、千石ユノ、堀江晶太 / 主体token:「千石ユノ」〕
+identityTaskId: ournotes:53:lyricist:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
+registrationTaskId: ournotes:53:lyricist:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc
+OurNotes:56 「Face The Next」／編曲 〔raw：白神真志朗、千石ユノ / 主体token:「千石ユノ」〕
+identityTaskId: ournotes:56:arranger:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
+registrationTaskId: ournotes:56:arranger:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc
+OurNotes:56 「Face The Next」／作曲 〔raw：白神真志朗、千石ユノ / 主体token:「千石ユノ」〕
+identityTaskId: ournotes:56:composer:CREATOR_IDENTITY-b1-a60c08d1db0c515831cc
+registrationTaskId: ournotes:56:composer:CREATOR_REGISTRATION-b1-a60c08d1db0c515831cc
+B012｜唐沢美帆
+candidateKey: b1-501db66e776fdea74878
+台帳raw表記: 「唐沢美帆」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="唐沢美帆"
+reading="からさわみほ"
+sortKey="からさわみほ"
+slug="miho-karasawa"
+type="person"
+aliases="[TRUE]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:440 「Storyteller」／作詞 〔raw：唐沢美帆 / 主体token:「唐沢美帆」〕
+identityTaskId: garupa:440:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878
+registrationTaskId: garupa:440:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878
+Garupa:721 「Sincerely」／作詞 〔raw：唐沢美帆 / 主体token:「唐沢美帆」〕
+identityTaskId: garupa:721:lyricist:CREATOR_IDENTITY-b1-501db66e776fdea74878
+registrationTaskId: garupa:721:lyricist:CREATOR_REGISTRATION-b1-501db66e776fdea74878
+B013｜尾崎豪
+candidateKey: b1-decc904f4ad5d1c72ca9
+台帳raw表記: 「尾崎豪(SUPA LOVE)」 / 「尾崎豪 (SUPA LOVE)」 / 「尾崎豪（SUPA LOVE）」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="尾崎豪"
+reading="おざきごう"
+sortKey="おざきごう"
+slug="go-ozaki"
+type="person"
+aliases="[尾崎豪(SUPA LOVE); 尾崎豪（SUPA LOVE）]"
+affiliation="SUPA LOVE"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="「尾崎豪 (SUPA LOVE)」という表記は全て「尾崎豪（SUPA LOVE）」に変更してください。"
+対象担当／照合taskId（編集不要）
+Garupa:647 「音一会」／編曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」〕
+identityTaskId: garupa:647:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
+registrationTaskId: garupa:647:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9
+Garupa:647 「音一会」／作曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪(SUPA LOVE)」〕
+identityTaskId: garupa:647:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
+registrationTaskId: garupa:647:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9
+OurNotes:6 「音一会」／編曲 〔raw：尾崎豪（SUPA LOVE） / 主体token:「尾崎豪（SUPA LOVE）」〕
+identityTaskId: ournotes:6:arranger:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
+registrationTaskId: ournotes:6:arranger:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9
+OurNotes:6 「音一会」／作曲 〔raw：尾崎豪(SUPA LOVE) / 主体token:「尾崎豪 (SUPA LOVE)」〕
+identityTaskId: ournotes:6:composer:CREATOR_IDENTITY-b1-decc904f4ad5d1c72ca9
+registrationTaskId: ournotes:6:composer:CREATOR_REGISTRATION-b1-decc904f4ad5d1c72ca9
+B014｜Carlos K.
+candidateKey: current-dac92014ff66f3f49be9
+台帳raw表記: 「Carlos K.」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Carlos K."
+reading="かるろすけー"
+sortKey="かるろすけー"
+slug="carlos-k"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:600 「だから、ひとりじゃない」／作曲 〔raw：Carlos K.・加賀爪 タッド / 主体token:「Carlos K.」〕
+identityTaskId: garupa:600:composer:CREATOR_IDENTITY-current-dac92014ff66f3f49be9
+registrationTaskId: garupa:600:composer:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9
+Garupa:600 「だから、ひとりじゃない」／作詞 〔raw：KANATA OKAJIMA・Carlos K. / 主体token:「Carlos K.」〕
+identityTaskId: garupa:600:lyricist:CREATOR_IDENTITY-current-dac92014ff66f3f49be9
+registrationTaskId: garupa:600:lyricist:CREATOR_REGISTRATION-current-dac92014ff66f3f49be9
+B015｜eba
+candidateKey: b1-8545f46d0c3a6cb00932
+台帳raw表記: 「eba」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="eba"
+reading="えば"
+sortKey="えば"
+slug="eba"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:45 「エンプティパペット」／編曲 〔raw：eba / 主体token:「eba」〕
+identityTaskId: ournotes:45:arranger:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932
+registrationTaskId: ournotes:45:arranger:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932
+OurNotes:45 「エンプティパペット」／作曲 〔raw：eba / 主体token:「eba」〕
+identityTaskId: ournotes:45:composer:CREATOR_IDENTITY-b1-8545f46d0c3a6cb00932
+registrationTaskId: ournotes:45:composer:CREATOR_REGISTRATION-b1-8545f46d0c3a6cb00932
+B016｜FUNKY MONKEY BABYS
+candidateKey: current-8935eb59174b09438a34
+台帳raw表記: 「FUNKY MONKEY BABYS」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="FUNKY MONKEY BΛBY’S"
+reading="ふぁんきーもんきーべいびーず"
+sortKey="ふぁんきーもんきーべいびーず"
+slug="funky-monkey-babys"
+type="unit"
+aliases="[FUNKY MONKEY BABYS]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:796 「悲しみなんて笑い飛ばせ」／作詞 〔raw：FUNKY MONKEY BABYS / 主体token:「FUNKY MONKEY BABYS」〕
+identityTaskId: garupa:796:lyricist:CREATOR_IDENTITY-current-8935eb59174b09438a34
+registrationTaskId: garupa:796:lyricist:CREATOR_REGISTRATION-current-8935eb59174b09438a34
+B017｜FUNKY MONKEY BABYS
+candidateKey: current-e12eac7660bbadf49c41
+台帳raw表記: 「FUNKY MONKEY BABYS」
+identityConfirmed="はい"
+samePersonAs="candidateKey: current-8935eb59174b09438a34"
+standardName="FUNKY MONKEY BΛBY’S"
+reading="ふぁんきーもんきーべいびーず"
+sortKey="ふぁんきーもんきーべいびーず"
+slug="funky-monkey-babys"
+type="unit"
+aliases="[FUNKY MONKEY BABYS]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:796 「悲しみなんて笑い飛ばせ」／作曲 〔raw：FUNKY MONKEY BABYS/Naoki-T / 主体token:「FUNKY MONKEY BABYS」〕
+identityTaskId: garupa:796:composer:CREATOR_IDENTITY-current-e12eac7660bbadf49c41
+registrationTaskId: garupa:796:composer:CREATOR_REGISTRATION-current-e12eac7660bbadf49c41
+B018｜Gohgo
+candidateKey: b1-1e4e5828085e567ebff3
+台帳raw表記: 「Gohgo」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Gohgo"
+reading=”ごご"
+sortKey="ごご"
+slug="gohgo"
+type="person"
+aliases="[幽世55番街; Kakuriyo]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:630 「愛包ダンスホール」／作曲 〔raw：涼木シンジ、Gohgo / 主体token:「Gohgo」〕
+identityTaskId: garupa:630:composer:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3
+registrationTaskId: garupa:630:composer:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3
+Garupa:630 「愛包ダンスホール」／作詞 〔raw：Gohgo / 主体token:「Gohgo」〕
+identityTaskId: garupa:630:lyricist:CREATOR_IDENTITY-b1-1e4e5828085e567ebff3
+registrationTaskId: garupa:630:lyricist:CREATOR_REGISTRATION-b1-1e4e5828085e567ebff3
+B019｜JACK
+candidateKey: b1-7d83e3978b7ba912598b
+台帳raw表記: 「JACK」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="JACK"
+reading="じゃっく"
+sortKey="じゃっく"
+slug="jack"
+type="person"
+aliases="[(sic)boy]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:707 「BROKEN GAMES」／作曲 〔raw：MAQUMA, JACK / 主体token:「JACK」〕
+identityTaskId: garupa:707:composer:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b
+registrationTaskId: garupa:707:composer:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b
+Garupa:707 「BROKEN GAMES」／作詞 〔raw：MAQUMA, JACK / 主体token:「JACK」〕
+identityTaskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-7d83e3978b7ba912598b
+registrationTaskId: garupa:707:lyricist:CREATOR_REGISTRATION-b1-7d83e3978b7ba912598b
+B020｜KANATA OKAJIMA
+candidateKey: current-035c8b7c5a228c9ba174
+台帳raw表記: 「KANATA OKAJIMA」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="岡嶋かな多"
+reading="おかじまかなた"
+sortKey="おかじまかなた"
+slug="kanata-okajima"
+type="person"
+aliases="[KANATA OKAJIMA; Kanata Okajima]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:600 「だから、ひとりじゃない」／作詞 〔raw：KANATA OKAJIMA・Carlos K. / 主体token:「KANATA OKAJIMA」〕
+identityTaskId: garupa:600:lyricist:CREATOR_IDENTITY-current-035c8b7c5a228c9ba174
+registrationTaskId: garupa:600:lyricist:CREATOR_REGISTRATION-current-035c8b7c5a228c9ba174
+B021｜KENSEI
+candidateKey: b1-2cf6830ef29337b77619
+台帳raw表記: 「KENSEI」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="KENSEI"
+reading="けんせい"
+sortKey="けんせい"
+slug="kensei"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="個人は特定できていない。"
+対象担当／照合taskId（編集不要）
+OurNotes:60 「唱」／編曲 〔raw：DjeDje、KENSEI、三村一輝 / 主体token:「KENSEI」〕
+identityTaskId: ournotes:60:arranger:CREATOR_IDENTITY-b1-2cf6830ef29337b77619
+registrationTaskId: ournotes:60:arranger:CREATOR_REGISTRATION-b1-2cf6830ef29337b77619
+B022｜kz
+candidateKey: current-48cf41bc4a884dbef89d
+台帳raw表記: 「kz」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="kz"
+reading="けーぜっと"
+sortKey="けーぜっと"
+slug="kz"
+type="person"
+aliases="[livetune]"
+affiliation=""
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:794 「千の翼」／作詞 〔raw：kz / 主体token:「kz」〕
+identityTaskId: garupa:794:lyricist:CREATOR_IDENTITY-current-48cf41bc4a884dbef89d
+registrationTaskId: garupa:794:lyricist:CREATOR_REGISTRATION-current-48cf41bc4a884dbef89d
+B023｜kz
+candidateKey: current-5fbaf6b50c02ae6e7a58
+台帳raw表記: 「kz」
+identityConfirmed="はい"
+samePersonAs="candidateKey: current-48cf41bc4a884dbef89d"
+standardName="kz"
+reading="けーぜっと"
+sortKey="けーぜっと"
+slug="kz"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:794 「千の翼」／作曲 〔raw：kz / 主体token:「kz」〕
+identityTaskId: garupa:794:composer:CREATOR_IDENTITY-current-5fbaf6b50c02ae6e7a58
+registrationTaskId: garupa:794:composer:CREATOR_REGISTRATION-current-5fbaf6b50c02ae6e7a58
+B024｜Lotus Juice
+candidateKey: b1-6420aa21ede7b2dbc58a
+台帳raw表記: 「Lotus Juice」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Lotus Juice"
+reading="ろーたすじゅーす"
+sortKey="ろーたすじゅーす"
+slug=”lotus-juice"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「Lotus Juice」〕
+identityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-6420aa21ede7b2dbc58a
+registrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-6420aa21ede7b2dbc58a
+B025｜Louis
+candidateKey: current-bd4f40f6aaba6787426f
+台帳raw表記: 「 Louis」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Louis"
+reading="るい"
+sortKey="るい"
+slug="louis"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「 Louis」〕
+identityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-bd4f40f6aaba6787426f
+registrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-bd4f40f6aaba6787426f
+B026｜MAQUMA
+candidateKey: b1-6113e4054a7a319f9025
+台帳raw表記: 「MAQUMA」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="MAQUMA"
+reading="まくま"
+sortKey="まくま"
+slug="maquma"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:707 「BROKEN GAMES」／作曲 〔raw：MAQUMA, JACK / 主体token:「MAQUMA」〕
+identityTaskId: garupa:707:composer:CREATOR_IDENTITY-b1-6113e4054a7a319f9025
+registrationTaskId: garupa:707:composer:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025
+Garupa:707 「BROKEN GAMES」／作詞 〔raw：MAQUMA, JACK / 主体token:「MAQUMA」〕
+identityTaskId: garupa:707:lyricist:CREATOR_IDENTITY-b1-6113e4054a7a319f9025
+registrationTaskId: garupa:707:lyricist:CREATOR_REGISTRATION-b1-6113e4054a7a319f9025
+B027｜Marcus Van Wattum
+candidateKey: b1-1ecce8410c57e1cd807d
+台帳raw表記: 「Marcus Van Wattum」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName=”Marcus Van Wattum"
+reading="まーかすふぁんわったむ"
+sortKey="まーかすふぁんわったむ"
+slug="marcus-van-wattum"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:85 「Dragon Night」／作曲 〔raw：Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Marcus Van Wattum」〕
+identityTaskId: garupa:85:composer:CREATOR_IDENTITY-b1-1ecce8410c57e1cd807d
+registrationTaskId: garupa:85:composer:CREATOR_REGISTRATION-b1-1ecce8410c57e1cd807d
+B028｜Masayoshi Minoshima（Alstroemeria Records）
+candidateKey: b1-9c5f42c13c6a91bd2578
+台帳raw表記: 「Masayoshi Minoshima（Alstroemeria Records）」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Masayoshi Minoshima"
+reading="まさよしみのしま"
+sortKey="まさよしみのしま"
+slug="masayoshi-minoshima"
+type="person"
+aliases="[Masayoshi Minoshima（Alstroemeria Records）]"
+affiliation=""
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="Alstroemeria RecordsはMasayoshi Minoshimaが主宰する同人音楽サークル。"
+対象担当／照合taskId（編集不要）
+Garupa:246 「Bad Apple!! feat. nomico」／作曲 〔raw：ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「Masayoshi Minoshima（Alstroemeria Records）」〕
+identityTaskId: garupa:246:composer:CREATOR_IDENTITY-b1-9c5f42c13c6a91bd2578
+registrationTaskId: garupa:246:composer:CREATOR_REGISTRATION-b1-9c5f42c13c6a91bd2578
+B029｜MEG.ME
+candidateKey: current-52f8d22524596db0e37f
+台帳raw表記: 「 MEG.ME 」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="MEG.ME"
+reading="めぐみー"
+sortKey="めぐみー"
+slug="meg-me"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「 MEG.ME 」〕
+identityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-52f8d22524596db0e37f
+registrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-52f8d22524596db0e37f
+B030｜MK-METAL
+candidateKey: current-297f7f25cc446332fd44
+台帳raw表記: 「MK-METAL」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="渡辺未来"
+reading="わたなべみき"
+sortKey="わたなべみき"
+slug="miki-watanabe"
+type="perosn"
+aliases="[MK-METAL]"
+affiliation="person"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:415 「メギツネ」／作詞 〔raw：MK-METAL・NORiMETAL / 主体token:「MK-METAL」〕
+identityTaskId: garupa:415:lyricist:CREATOR_IDENTITY-current-297f7f25cc446332fd44
+registrationTaskId: garupa:415:lyricist:CREATOR_REGISTRATION-current-297f7f25cc446332fd44
+B031｜n-buna
+candidateKey: current-96bc57add1c48e4f0934
+台帳raw表記: 「n-buna」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="n-buna"
+reading="なぶな"
+sortKey="なぶな"
+slug="n-buna"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:447 「スターナイトスノウ」／作詞 〔raw：n-buna・Orangestar / 主体token:「n-buna」〕
+identityTaskId: garupa:447:lyricist:CREATOR_IDENTITY-current-96bc57add1c48e4f0934
+registrationTaskId: garupa:447:lyricist:CREATOR_REGISTRATION-current-96bc57add1c48e4f0934
+B032｜Naoki-T
+candidateKey: current-45f43879e01100c0453b
+台帳raw表記: 「Naoki-T」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Naoki-T"
+reading="なおきてぃー"
+sortKey="なおきてぃー"
+slug="naoki-t"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:796 「悲しみなんて笑い飛ばせ」／作曲 〔raw：FUNKY MONKEY BABYS/Naoki-T / 主体token:「Naoki-T」〕
+identityTaskId: garupa:796:composer:CREATOR_IDENTITY-current-45f43879e01100c0453b
+registrationTaskId: garupa:796:composer:CREATOR_REGISTRATION-current-45f43879e01100c0453b
+B033｜Nick Rotteveel
+candidateKey: b1-8b9cfcc3262ad133d210
+台帳raw表記: 「Nick Rotteveel」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Nicky Romero"
+reading="にっきーろめろ"
+sortKey=”にっきーろめろ"
+slug="nicky-romero"
+type="person"
+aliases="[Nick Rotteveel]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:85 「Dragon Night」／作曲 〔raw：Fukase/Nick Rotteveel/Marcus Van Wattum / 主体token:「Nick Rotteveel」〕
+identityTaskId: garupa:85:composer:CREATOR_IDENTITY-b1-8b9cfcc3262ad133d210
+registrationTaskId: garupa:85:composer:CREATOR_REGISTRATION-b1-8b9cfcc3262ad133d210
+B034｜NORiMETAL
+candidateKey: b1-802fd809223acb08804e
+台帳raw表記: 「NORiMETAL」
+identityConfirmed="はい"
+samePersonAs=”既存IDなし"
+standardName="NORiMETAL"
+reading="のりめたる"
+sortKey="のりめたる"
+slug="norimetal"
+type="person"
+aliases="[のりぞー]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:415 「メギツネ」／作曲 〔raw：NORiMETAL / 主体token:「NORiMETAL」〕
+identityTaskId: garupa:415:composer:CREATOR_IDENTITY-b1-802fd809223acb08804e
+registrationTaskId: garupa:415:composer:CREATOR_REGISTRATION-b1-802fd809223acb08804e
+Garupa:415 「メギツネ」／作詞 〔raw：MK-METAL・NORiMETAL / 主体token:「NORiMETAL」〕
+identityTaskId: garupa:415:lyricist:CREATOR_IDENTITY-b1-802fd809223acb08804e
+registrationTaskId: garupa:415:lyricist:CREATOR_REGISTRATION-b1-802fd809223acb08804e
+B035｜SAKURAmoti
+candidateKey: b1-f39b5a992dce3f610433
+台帳raw表記: 「SAKURAmoti」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="SAKURAmoti"
+reading="さくらもち"
+sortKey="さくらもち"
+slug="sakuramoti"
+type=”person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:481 「アイウエ」／作曲 〔raw：SAKURAmoti / 美波 / 主体token:「SAKURAmoti」〕
+identityTaskId: garupa:481:composer:CREATOR_IDENTITY-b1-f39b5a992dce3f610433
+registrationTaskId: garupa:481:composer:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433
+Garupa:481 「アイウエ」／作詞 〔raw：SAKURAmoti / 美波 / 主体token:「SAKURAmoti」〕
+identityTaskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-f39b5a992dce3f610433
+registrationTaskId: garupa:481:lyricist:CREATOR_REGISTRATION-b1-f39b5a992dce3f610433
+B036｜Sekimen
+candidateKey: b1-92bd2642fc2116574da1
+台帳raw表記: 「Sekimen」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="Sekimen"
+reading="せきめん"
+sortKey="せきめん"
+slug="sekimen"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:47 「ビッグマウス」／作詞 〔raw：白神真志朗、 Sekimen / 主体token:「Sekimen」〕
+identityTaskId: ournotes:47:lyricist:CREATOR_IDENTITY-b1-92bd2642fc2116574da1
+registrationTaskId: ournotes:47:lyricist:CREATOR_REGISTRATION-b1-92bd2642fc2116574da1
+B037｜Skye K
+candidateKey: b1-2e9d852ee7948d105768
+台帳raw表記: 「Skye K」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="SKYTOPIA"
+reading="すかいとぴあ"
+sortKey="すかいとぴあ"
+slug=”skytopia"
+type="person"
+aliases="[Skye K]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:85 「夢我夢中」／編曲 〔raw：ケンモチヒデフミ、Skye K / 主体token:「Skye K」〕
+identityTaskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-2e9d852ee7948d105768
+registrationTaskId: ournotes:85:arranger:CREATOR_REGISTRATION-b1-2e9d852ee7948d105768
+B038｜YOUSAY
+candidateKey: b1-2ef871fe8f36a20afb45
+台帳raw表記: 「YOUSAY」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="YOUSAY"
+reading="ゆうせい"
+sortKey="ゆうせい"
+slug="yousay"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:660 「だれかの心臓になれたなら」／編曲 〔raw：植木建象、YOUSAY / 主体token:「YOUSAY」〕
+identityTaskId: garupa:660:arranger:CREATOR_IDENTITY-b1-2ef871fe8f36a20afb45
+registrationTaskId: garupa:660:arranger:CREATOR_REGISTRATION-b1-2ef871fe8f36a20afb45
+B039｜ZUN
+candidateKey: b1-dbfdc774efedb688b039
+台帳raw表記: 「ZUN」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ZUN"
+reading="ずん"
+sortKey="ずん"
+slug="zun"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:246 「Bad Apple!! feat. nomico」／作曲 〔raw：ZUN/Masayoshi Minoshima（Alstroemeria Records） / 主体token:「ZUN」〕
+identityTaskId: garupa:246:composer:CREATOR_IDENTITY-b1-dbfdc774efedb688b039
+registrationTaskId: garupa:246:composer:CREATOR_REGISTRATION-b1-dbfdc774efedb688b039
+B040｜アザミ
+candidateKey: current-fc6cae540d69a28f9520
+台帳raw表記: 「アザミ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="アザミ"
+reading="あざみ"
+sortKey="あざみ"
+slug="azami"
+type=”person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:87 「Odd Dice」／編曲 〔raw：アザミ / 主体token:「アザミ」〕
+identityTaskId: ournotes:87:arranger:CREATOR_IDENTITY-current-fc6cae540d69a28f9520
+registrationTaskId: ournotes:87:arranger:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520
+OurNotes:87 「Odd Dice」／作曲 〔raw：アザミ / 主体token:「アザミ」〕
+identityTaskId: ournotes:87:composer:CREATOR_IDENTITY-current-fc6cae540d69a28f9520
+registrationTaskId: ournotes:87:composer:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520
+OurNotes:87 「Odd Dice」／作詞 〔raw：アザミ / 主体token:「アザミ」〕
+identityTaskId: ournotes:87:lyricist:CREATOR_IDENTITY-current-fc6cae540d69a28f9520
+registrationTaskId: ournotes:87:lyricist:CREATOR_REGISTRATION-current-fc6cae540d69a28f9520
+B041｜きただにひろし
+candidateKey: current-ff0fe7f9b0981226cf85
+台帳raw表記: 「きただにひろし」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="きただにひろし"
+reading="きただにひろし"
+sortKey="きただにひろし"
+slug="hiroshi-kitadani"
+type="person"
+aliases="[]"
+affiliation=”なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:111 「Believe in my existence」／作曲 〔raw：影山ヒロノブ・きただにひろし / 主体token:「きただにひろし」〕
+identityTaskId: garupa:111:composer:CREATOR_IDENTITY-current-ff0fe7f9b0981226cf85
+registrationTaskId: garupa:111:composer:CREATOR_REGISTRATION-current-ff0fe7f9b0981226cf85
+B042｜ケンモチヒデフミ
+candidateKey: b1-9df1869e3b7b1c2b11d5
+台帳raw表記: 「ケンモチヒデフミ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ケンモチヒデフミ"
+reading="けんもちひでふみ"
+sortKey="けんもちひでふみ"
+slug="hidefumi-kenmochi"
+type="person"
+aliases="[Kenmochi Hidefumi]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:85 「夢我夢中」／編曲 〔raw：ケンモチヒデフミ、Skye K / 主体token:「ケンモチヒデフミ」〕
+identityTaskId: ournotes:85:arranger:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
+registrationTaskId: ournotes:85:arranger:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5
+OurNotes:85 「夢我夢中」／作曲 〔raw：ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」〕
+identityTaskId: ournotes:85:composer:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
+registrationTaskId: ournotes:85:composer:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5
+OurNotes:85 「夢我夢中」／作詞 〔raw：ケンモチヒデフミ / 主体token:「ケンモチヒデフミ」〕
+identityTaskId: ournotes:85:lyricist:CREATOR_IDENTITY-b1-9df1869e3b7b1c2b11d5
+registrationTaskId: ournotes:85:lyricist:CREATOR_REGISTRATION-b1-9df1869e3b7b1c2b11d5
+B043｜つむぎしゃち
+candidateKey: b1-6899171acbfe7270e071
+台帳raw表記: 「つむぎしゃち」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="つむぎしゃち"
+reading="つむぎしゃち"
+sortKey="つむぎしゃち"
+slug="shachi-tsumugi"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:711 「POP IN 2」／作曲 〔raw：久下真音、つむぎしゃち / 主体token:「つむぎしゃち」〕
+identityTaskId: garupa:711:composer:CREATOR_IDENTITY-b1-6899171acbfe7270e071
+registrationTaskId: garupa:711:composer:CREATOR_REGISTRATION-b1-6899171acbfe7270e071
+Garupa:711 「POP IN 2」／作詞 〔raw：つむぎしゃち / 主体token:「つむぎしゃち」〕
+identityTaskId: garupa:711:lyricist:CREATOR_IDENTITY-b1-6899171acbfe7270e071
+registrationTaskId: garupa:711:lyricist:CREATOR_REGISTRATION-b1-6899171acbfe7270e071
+B044｜ナナヲアカリ
+candidateKey: b1-71be3fbfd30b5b8fcb4e
+台帳raw表記: 「ナナヲアカリ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ナナヲアカリ"
+reading="ななをあかり"
+sortKey="ななをあかり"
+slug="nanaoakari"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:479 「チューリングラブ」／作詞 〔raw：ナユタセイジ / ナナヲアカリ / 主体token:「ナナヲアカリ」〕
+identityTaskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-71be3fbfd30b5b8fcb4e
+registrationTaskId: garupa:479:lyricist:CREATOR_REGISTRATION-b1-71be3fbfd30b5b8fcb4e
+B045｜ナユタセイジ
+candidateKey: b1-5377ee054e378e78dda4
+台帳raw表記: 「ナユタセイジ」
+identityConfirmed=”はい"
+samePersonAs="cr-0061"
+standardName="ナユタン星人"
+reading="なゆたんせいじん"
+sortKey="なゆたんせいじん"
+slug="nayutan-seijin"
+type="person"
+aliases="[ナユタセイジ; 天ノ川銀牙]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="slugは新しいものに変更してください。"
+対象担当／照合taskId（編集不要）
+Garupa:479 「チューリングラブ」／作曲 〔raw：ナユタセイジ / 主体token:「ナユタセイジ」〕
+identityTaskId: garupa:479:composer:CREATOR_IDENTITY-b1-5377ee054e378e78dda4
+registrationTaskId: garupa:479:composer:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4
+Garupa:479 「チューリングラブ」／作詞 〔raw：ナユタセイジ / ナナヲアカリ / 主体token:「ナユタセイジ」〕
+identityTaskId: garupa:479:lyricist:CREATOR_IDENTITY-b1-5377ee054e378e78dda4
+registrationTaskId: garupa:479:lyricist:CREATOR_REGISTRATION-b1-5377ee054e378e78dda4
+B046｜ふるっぺ
+candidateKey: current-740dc67308da4aa281fe
+台帳raw表記: 「ふるっぺ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ふるっぺ"
+reading="ふるっぺ"
+sortKey="ふるっぺ"
+slug="furuppe"
+type="person"
+aliases="[古河弘基]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認=”はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:780 「スターラブレイション」／作曲 〔raw：ふるっぺ / 主体token:「ふるっぺ」〕
+identityTaskId: garupa:780:composer:CREATOR_IDENTITY-current-740dc67308da4aa281fe
+registrationTaskId: garupa:780:composer:CREATOR_REGISTRATION-current-740dc67308da4aa281fe
+B047｜ふるっぺ・森さん・Litz
+candidateKey: current-c0d947c79a5463c9cdfd
+台帳raw表記: 「ふるっぺ・森さん・Litz」
+identityConfirmed="いいえ"（ふるっぺ / 森さん / Litz の3人）
+samePersonAs="candidateKey: current-740dc67308da4aa281fe; 既存IDなし; 既存IDなし"
+standardName="ふるっぺ; 森さん; Litz"
+reading="ふるっぺ; もりさん; りつ"
+sortKey="ふるっぺ; もりさん; りつ"
+slug="furuppe; mori-san; litz"
+type="person; person; person"
+aliases="[古河弘基]; []; []"
+affiliation="なし; なし; なし"
+対象担当をすべて本人・上記Creatorとして承認="はい; はい; はい"
+承認から除外する担当=""
+備考="3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「ふるっぺ」「森さん」「Litz」の順番。"
+対象担当／照合taskId（編集不要）
+Garupa:780 「スターラブレイション」／作詞 〔raw：ふるっぺ・森さん・Litz / 主体token:「ふるっぺ・森さん・Litz」〕
+identityTaskId: garupa:780:lyricist:CREATOR_IDENTITY-current-c0d947c79a5463c9cdfd
+registrationTaskId: garupa:780:lyricist:CREATOR_REGISTRATION-current-c0d947c79a5463c9cdfd
+B048｜ユリイ・カノン
+candidateKey: b1-328527062c7ca6acd161
+台帳raw表記: 「ユリイ・カノン」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="ユリイ・カノン"
+reading="ゆりいかのん"
+sortKey="ゆりいかのん"
+slug="yurry-canon"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:660 「だれかの心臓になれたなら」／作曲 〔raw：ユリイ・カノン / 主体token:「ユリイ・カノン」〕
+identityTaskId: garupa:660:composer:CREATOR_IDENTITY-b1-328527062c7ca6acd161
+registrationTaskId: garupa:660:composer:CREATOR_REGISTRATION-b1-328527062c7ca6acd161
+Garupa:660 「だれかの心臓になれたなら」／作詞 〔raw：ユリイ・カノン / 主体token:「ユリイ・カノン」〕
+identityTaskId: garupa:660:lyricist:CREATOR_IDENTITY-b1-328527062c7ca6acd161
+registrationTaskId: garupa:660:lyricist:CREATOR_REGISTRATION-b1-328527062c7ca6acd161
+B049｜安部大希-amazuti-
+candidateKey: b1-4f5bde2d6672e4ad9ab4
+台帳raw表記: 「安部大希-amazuti-」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName=”安部大希"
+reading="あべだいき"
+sortKey="あべだいき"
+slug="daiki-abe"
+type="person"
+aliases="[安部大希-amazuti-]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="amazutiは安部大希が所属する音楽クリエイターチームの名前。"
+対象担当／照合taskId（編集不要）
+Garupa:769 「超最強」／作曲 〔raw：安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「安部大希-amazuti-」〕
+identityTaskId: garupa:769:composer:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4
+registrationTaskId: garupa:769:composer:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4
+Garupa:769 「超最強」／作詞 〔raw：安部大希-amazuti- / 主体token:「安部大希-amazuti-」〕
+identityTaskId: garupa:769:lyricist:CREATOR_IDENTITY-b1-4f5bde2d6672e4ad9ab4
+registrationTaskId: garupa:769:lyricist:CREATOR_REGISTRATION-b1-4f5bde2d6672e4ad9ab4
+B050｜影山ヒロノブ
+candidateKey: b1-af4fe563e4e45d982b07
+台帳raw表記: 「影山ヒロノブ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="影山ヒロノブ"
+reading="かげやまひろのぶ"
+sortKey="かげやまひろのぶ"
+slug="hironobu-kageyama"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:111 「Believe in my existence」／作曲 〔raw：影山ヒロノブ・きただにひろし / 主体token:「影山ヒロノブ」〕
+identityTaskId: garupa:111:composer:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07
+registrationTaskId: garupa:111:composer:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07
+Garupa:111 「Believe in my existence」／作詞 〔raw：影山ヒロノブ / 主体token:「影山ヒロノブ」〕
+identityTaskId: garupa:111:lyricist:CREATOR_IDENTITY-b1-af4fe563e4e45d982b07
+registrationTaskId: garupa:111:lyricist:CREATOR_REGISTRATION-b1-af4fe563e4e45d982b07
+B051｜遠藤　ナオキ
+candidateKey: b1-85766a26b6c559ab7573
+台帳raw表記: 「遠藤　ナオキ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="遠藤ナオキ"
+reading="えんどうなおき"
+sortKey="えんどうなおき"
+slug="naoki-endo"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:549 「slash」／作曲 〔raw：馬場　龍樹／遠藤　ナオキ / 主体token:「遠藤　ナオキ」〕
+identityTaskId: garupa:549:composer:CREATOR_IDENTITY-b1-85766a26b6c559ab7573
+registrationTaskId: garupa:549:composer:CREATOR_REGISTRATION-b1-85766a26b6c559ab7573
+B052｜岡崎英美
+candidateKey: b1-1f14693923b26c575078
+台帳raw表記: 「岡崎英美」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="岡崎英美"
+reading="おかざきえみ"
+sortKey="おかざきえみ"
+slug="emi-okazaki"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岡崎英美」〕
+identityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-1f14693923b26c575078
+registrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-1f14693923b26c575078
+B053｜岡野昭仁
+candidateKey: current-e0bbf73eef3d3675b850
+台帳raw表記: 「岡野昭仁」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="岡野昭仁"
+reading="おかのあきひと"
+sortKey="おかのあきひと"
+slug="akihito-okano"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:792 「オー！リバル」／作曲 〔raw：岡野昭仁 / 主体token:「岡野昭仁」〕
+identityTaskId: garupa:792:composer:CREATOR_IDENTITY-current-e0bbf73eef3d3675b850
+registrationTaskId: garupa:792:composer:CREATOR_REGISTRATION-current-e0bbf73eef3d3675b850
+B054｜加賀爪 タッド
+candidateKey: current-42b1569d3f9a29bde9fb
+台帳raw表記: 「加賀爪 タッド」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="加賀爪タッド"
+reading="かがつめたっど"
+sortKey="かがつめたっど"
+slug="tadd-kagatsume"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:600 「だから、ひとりじゃない」／作曲 〔raw：Carlos K.・加賀爪 タッド / 主体token:「加賀爪 タッド」〕
+identityTaskId: garupa:600:composer:CREATOR_IDENTITY-current-42b1569d3f9a29bde9fb
+registrationTaskId: garupa:600:composer:CREATOR_REGISTRATION-current-42b1569d3f9a29bde9fb
+B055｜花村想太
+candidateKey: current-6e4aaff5404f9c7e9462
+台帳raw表記: 「花村想太 」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="花村想太"
+reading="はなむらそうた"
+sortKey="はなむらそうた"
+slug="sota-hanamura"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:734 「I wonder」／作曲 〔raw：花村想太 / MEG.ME / Louis / 主体token:「花村想太 」〕
+identityTaskId: garupa:734:composer:CREATOR_IDENTITY-current-6e4aaff5404f9c7e9462
+registrationTaskId: garupa:734:composer:CREATOR_REGISTRATION-current-6e4aaff5404f9c7e9462
+B056｜角本麻衣（SUPA LOVE）
+candidateKey: current-55a2115040534e48a08b
+台帳raw表記: 「角本麻衣（SUPA LOVE）」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="角本麻衣"
+reading="かくもとまい"
+sortKey="かくもとまい"
+slug="mai-kakumoto"
+type="person"
+aliases="[角本麻衣（SUPA LOVE）]"
+affiliation="SUPA LOVE"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:36 「Choir ‘S’ Choir」／作曲 〔raw：角本麻衣（SUPA LOVE） / 主体token:「角本麻衣（SUPA LOVE）」〕
+identityTaskId: ournotes:36:composer:CREATOR_IDENTITY-current-55a2115040534e48a08b
+registrationTaskId: ournotes:36:composer:CREATOR_REGISTRATION-current-55a2115040534e48a08b
+B057｜角本麻衣（SUPA LOVE）
+candidateKey: review-0483bc48120cfc2a4fba
+台帳raw表記: 「角本麻衣（SUPA LOVE）」
+identityConfirmed="はい"
+samePersonAs="candidateKey: current-55a2115040534e48a08b"
+standardName="角本麻衣"
+reading="かくもとまい"
+sortKey="かくもとまい"
+slug="mai-kakumoto"
+type="person"
+aliases="[角本麻衣（SUPA LOVE）]"
+affiliation="SUPA LOVE"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:36 「Choir ‘S’ Choir」／編曲 〔raw：角本麻衣（SUPA LOVE） / 主体token:「角本麻衣（SUPA LOVE）」〕
+identityTaskId: ournotes:36:arranger:CREATOR_IDENTITY-review-0483bc48120cfc2a4fba
+registrationTaskId: ournotes:36:arranger:CREATOR_REGISTRATION-review-0483bc48120cfc2a4fba
+B058｜岩寺基晴
+candidateKey: b1-99d1ab24fe859adecafb
+台帳raw表記: 「岩寺基晴」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="岩寺基晴"
+reading="いわでらもとはる"
+sortKey="いわでらもとはる"
+slug="motoharu-iwadera"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「岩寺基晴」〕
+identityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-99d1ab24fe859adecafb
+registrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-99d1ab24fe859adecafb
+B059｜橘 亮祐
+candidateKey: b1-0e3ca7292ba5e3406c39
+台帳raw表記: 「橘 亮祐」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="橘亮祐"
+reading="たちばなりょうすけ"
+sortKey="たちばなりょうすけ"
+slug="ryosuke-tachibana"
+type="person"
+aliases="[橘 亮祐]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:395 「Realize」／作曲 〔raw：篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」〕
+identityTaskId: garupa:395:composer:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39
+registrationTaskId: garupa:395:composer:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39
+Garupa:395 「Realize」／作詞 〔raw：篠崎あやと、橘 亮祐 / 主体token:「橘 亮祐」〕
+identityTaskId: garupa:395:lyricist:CREATOR_IDENTITY-b1-0e3ca7292ba5e3406c39
+registrationTaskId: garupa:395:lyricist:CREATOR_REGISTRATION-b1-0e3ca7292ba5e3406c39
+B060｜久下真音
+candidateKey: b1-42a5b3ea6680d1200cb7
+台帳raw表記: 「久下真音」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName=”久下真音"
+reading="くしたまいん"
+sortKey="くしたまいん"
+slug="mine-kushita"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:711 「POP IN 2」／作曲 〔raw：久下真音、つむぎしゃち / 主体token:「久下真音」〕
+identityTaskId: garupa:711:composer:CREATOR_IDENTITY-b1-42a5b3ea6680d1200cb7
+registrationTaskId: garupa:711:composer:CREATOR_REGISTRATION-b1-42a5b3ea6680d1200cb7
+B061｜宮崎諒-amazuti-
+candidateKey: b1-058a34802803a45d121a
+台帳raw表記: 「宮崎諒-amazuti-」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="宮崎諒"
+reading="みやざきりょう"
+sortKey="みやざきりょう"
+slug="ryo-miyazaki"
+type="person"
+aliases="[宮崎諒-amazuti-]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認=”はい"
+承認から除外する担当=""
+備考="amazutiは宮崎諒と安部大希（candidateKey: b1-4f5bde2d6672e4ad9ab4）が所属する音楽クリエイターチームの名前。"
+対象担当／照合taskId（編集不要）
+Garupa:769 「超最強」／作曲 〔raw：安部大希-amazuti-/宮崎諒-amazuti- / 主体token:「宮崎諒-amazuti-」〕
+identityTaskId: garupa:769:composer:CREATOR_IDENTITY-b1-058a34802803a45d121a
+registrationTaskId: garupa:769:composer:CREATOR_REGISTRATION-b1-058a34802803a45d121a
+B062｜工藤大輝 / 花村想太 / MEG.ME
+candidateKey: current-391dd0c6d7a0f40365a0
+台帳raw表記: 「工藤大輝 / 花村想太 / MEG.ME」
+identityConfirmed="いいえ"（工藤大輝 / 花村想太 / MEG.ME の3人）
+samePersonAs="既存IDなし; candidateKey: current-6e4aaff5404f9c7e9462; candidateKey: current-52f8d22524596db0e37f"
+standardName="工藤大輝; 花村想太; MEG.ME"
+reading="くどうたいき; はなむらそうた; めぐみー"
+sortKey="くどうたいき; はなむらそうた; めぐみー"
+slug="taiki-kudo; sota-hanamura; meg-me"
+type="person; person; person"
+aliases="[]; []; []"
+affiliation="なし; なし; なし"
+対象担当をすべて本人・上記Creatorとして承認="はい; はい; はい"
+承認から除外する担当=""
+備考="3人の人間。identityConfirmed以外の全てで3つずつ記入しており、すべて「工藤大輝」「花村想太」「MEG.ME」の順番。"
+対象担当／照合taskId（編集不要）
+Garupa:734 「I wonder」／作詞 〔raw：工藤大輝 / 花村想太 / MEG.ME / 主体token:「工藤大輝 / 花村想太 / MEG.ME」〕
+identityTaskId: garupa:734:lyricist:CREATOR_IDENTITY-current-391dd0c6d7a0f40365a0
+registrationTaskId: garupa:734:lyricist:CREATOR_REGISTRATION-current-391dd0c6d7a0f40365a0
+B063｜江島啓一
+candidateKey: b1-1a0701568d79d8add602
+台帳raw表記: 「江島啓一」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="江島啓一"
+reading="えじまけいいち"
+sortKey="えじまけいいち"
+slug="keiichi-ejima"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「江島啓一」〕
+identityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-1a0701568d79d8add602
+registrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-1a0701568d79d8add602
+B064｜高村風太
+candidateKey: review-589e9fbfb8b6c014ad7c
+台帳raw表記: 「高村風太」
+identityConfirmed="はい"
+samePersonAs="cr-0071"
+standardName="sabio"
+reading=さびお""
+sortKey="さびお"
+slug="sabio"
+type="unit"
+aliases="[sabio/高村風太]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考="OurNotes:59「六兆年と一夜物語」の編曲はsabioと高村風太の二人ではなく、sabioのaliasesとしてください。「高村風太」は「sabio」というソロプロジェクトを運営する人物です。"
+対象担当／照合taskId（編集不要）
+OurNotes:59 「六兆年と一夜物語」／編曲 〔raw：sabio/高村風太 / 主体token:「高村風太」〕
+identityTaskId: ournotes:59:arranger:CREATOR_IDENTITY-review-589e9fbfb8b6c014ad7c
+registrationTaskId: ournotes:59:arranger:CREATOR_REGISTRATION-review-589e9fbfb8b6c014ad7c
+B065｜山崎あおい
+candidateKey: current-979592585b3a81b9b2ea
+台帳raw表記: 「山崎あおい」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="山崎あおい"
+reading="やまざきあおい"
+sortKey="やまざきあおい"
+slug="aoi-yamazaki"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:791 「盛れ！ミ・アモーレ」／作詞 〔raw：山崎あおい / 主体token:「山崎あおい」〕
+identityTaskId: garupa:791:lyricist:CREATOR_IDENTITY-current-979592585b3a81b9b2ea
+registrationTaskId: garupa:791:lyricist:CREATOR_REGISTRATION-current-979592585b3a81b9b2ea
+B066｜山崎あおい
+candidateKey: current-9d48971d06d3825f84fb
+台帳raw表記: 「山崎あおい」
+identityConfirmed=”はい"
+samePersonAs="candidateKey: current-979592585b3a81b9b2ea"
+standardName="山崎あおい"
+reading="やまざきあおい"
+sortKey="やまざきあおい"
+slug="aoi-yamazaki"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:791 「盛れ！ミ・アモーレ」／作曲 〔raw：山崎あおい / 主体token:「山崎あおい」〕
+identityTaskId: garupa:791:composer:CREATOR_IDENTITY-current-9d48971d06d3825f84fb
+registrationTaskId: garupa:791:composer:CREATOR_REGISTRATION-current-9d48971d06d3825f84fb
+B067｜秋元 康
+candidateKey: current-7a26a6c255e970242564
+台帳raw表記: 「秋元 康」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="秋元康"
+reading="あきもとやすし"
+sortKey="あきもとやすし"
+slug="yasushi-akimoto"
+type="person"
+aliases="[秋元 康]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:783 「ポニーテールとシュシュ」／作詞 〔raw：秋元 康 / 主体token:「秋元 康」〕
+identityTaskId: garupa:783:lyricist:CREATOR_IDENTITY-current-7a26a6c255e970242564
+registrationTaskId: garupa:783:lyricist:CREATOR_REGISTRATION-current-7a26a6c255e970242564
+B068｜小林鉄兵
+candidateKey: b1-f6cbc2fc0ef8cd8c8955
+台帳raw表記: 「小林鉄兵」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="小林鉄兵"
+reading="こばやしてっぺい"
+sortKey="こばやしてっぺい"
+slug="teppei-kobayashi"
+type="person"
+aliases="[]"
+affiliation=”なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「小林鉄兵」〕
+identityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-f6cbc2fc0ef8cd8c8955
+registrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-f6cbc2fc0ef8cd8c8955
+B069｜彰
+candidateKey: b1-8093a5e3afbe19e86dc3
+台帳raw表記: 「彰」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="彰"
+reading="あきら"
+sortKey="あきら"
+slug="akira"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:322 「CORE PRIDE」／作曲 〔raw：TAKUYA∞、彰 / 主体token:「彰」〕
+identityTaskId: garupa:322:composer:CREATOR_IDENTITY-b1-8093a5e3afbe19e86dc3
+registrationTaskId: garupa:322:composer:CREATOR_REGISTRATION-b1-8093a5e3afbe19e86dc3
+B070｜松任谷　由実
+candidateKey: current-75e8a5b4665b0fbb7f5e
+台帳raw表記: 「松任谷　由実」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="松任谷由実"
+reading="まつとうやゆみ"
+sortKey="まつとうやゆみ"
+slug="まつとうやゆみ"
+type="yumi-matsutoya"
+aliases="person"
+affiliation="[松任谷　由実; 荒井由実]"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:727 「恋人がサンタクロース」／作詞 〔raw：松任谷　由実 / 主体token:「松任谷　由実」〕
+identityTaskId: garupa:727:lyricist:CREATOR_IDENTITY-current-75e8a5b4665b0fbb7f5e
+registrationTaskId: garupa:727:lyricist:CREATOR_REGISTRATION-current-75e8a5b4665b0fbb7f5e
+B071｜松任谷　由実
+candidateKey: current-d743a606e716e0d53526
+台帳raw表記: 「松任谷　由実」
+identityConfirmed="はい"
+samePersonAs="candidateKey: current-75e8a5b4665b0fbb7f5e"
+standardName="松任谷由実"
+reading=”まつとうやゆみ"
+sortKey="まつとうやゆみ"
+slug="yumi-matsutoya"
+type="person"
+aliases="[松任谷　由実; 荒井由実]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:727 「恋人がサンタクロース」／作曲 〔raw：松任谷　由実 / 主体token:「松任谷　由実」〕
+identityTaskId: garupa:727:composer:CREATOR_IDENTITY-current-d743a606e716e0d53526
+registrationTaskId: garupa:727:composer:CREATOR_REGISTRATION-current-d743a606e716e0d53526
+B072｜石倉まろ
+candidateKey: review-d5df0d8b84a91cab20e1
+台帳raw表記: 「石倉まろ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="石倉まろ"
+reading="いしくらまろ"
+sortKey="いしくらまろ"
+slug="maro-ishikura"
+type="person"
+aliases="[石倉誉之]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:68 「Pretender」／編曲 〔raw：石倉まろ / 主体token:「石倉まろ」〕
+identityTaskId: ournotes:68:arranger:CREATOR_IDENTITY-review-d5df0d8b84a91cab20e1
+registrationTaskId: ournotes:68:arranger:CREATOR_REGISTRATION-review-d5df0d8b84a91cab20e1
+B073｜石倉誉之
+candidateKey: b1-1556a9939a4521612fe2
+台帳raw表記: 「石倉まろ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="石倉まろ"
+reading="いしくらまろ"
+sortKey="いしくらまろ"
+slug="maro-ishikura"
+type="person"
+aliases="[石倉誉之]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:75 「Mela!」／編曲 〔raw：石倉まろ / 主体token:「石倉まろ」〕
+identityTaskId: ournotes:75:arranger:CREATOR_IDENTITY-b1-1556a9939a4521612fe2
+registrationTaskId: ournotes:75:arranger:CREATOR_REGISTRATION-b1-1556a9939a4521612fe2
+B074｜草刈愛美
+candidateKey: b1-a06d48bde1b0a5a0316f
+台帳raw表記: 「草刈愛美」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="草刈愛美"
+reading="くさかりあみ"
+sortKey="くさかりあみ"
+slug="ami-kusakari"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:710 「怪獣」／作曲 〔raw：山口一郎、岩寺基晴、草刈愛美、岡崎英美、江島啓一 / 主体token:「草刈愛美」〕
+identityTaskId: garupa:710:composer:CREATOR_IDENTITY-b1-a06d48bde1b0a5a0316f
+registrationTaskId: garupa:710:composer:CREATOR_REGISTRATION-b1-a06d48bde1b0a5a0316f
+B075｜多田 慎也
+candidateKey: current-69b1083ea01e5c34f8fb
+台帳raw表記: 「多田 慎也」
+identityConfirmed="はい"
+samePersonAs=”既存IDなし"
+standardName=多田慎也""
+reading="ただしんや"
+sortKey=”ただしんや"
+slug="shinya-tada"
+type="person"
+aliases="[多田 慎也]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:783 「ポニーテールとシュシュ」／作曲 〔raw：多田 慎也 / 主体token:「多田 慎也」〕
+identityTaskId: garupa:783:composer:CREATOR_IDENTITY-current-69b1083ea01e5c34f8fb
+registrationTaskId: garupa:783:composer:CREATOR_REGISTRATION-current-69b1083ea01e5c34f8fb
+B076｜田中怜子
+candidateKey: b1-c9462aa47a3a10f7ffee
+台帳raw表記: 「田中怜子」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="田中怜子"
+reading="たなかれいこ"
+sortKey="たなかれいこ"
+slug="reiko-tanaka"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:124 「Reach Out To The Truth」／作詞 〔raw：田中怜子、小林鉄兵、Lotus Juice / 主体token:「田中怜子」〕
+identityTaskId: garupa:124:lyricist:CREATOR_IDENTITY-b1-c9462aa47a3a10f7ffee
+registrationTaskId: garupa:124:lyricist:CREATOR_REGISTRATION-b1-c9462aa47a3a10f7ffee
+B077｜馬場　龍樹
+candidateKey: b1-e7a81fcda1323ca4ecd2
+台帳raw表記: 「馬場　龍樹」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="馬場龍樹"
+reading="ばばりゅうき"
+sortKey="ばばりゅうき"
+slug="ryuki-baba"
+type="person"
+aliases="[馬場　龍樹]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:549 「slash」／作曲 〔raw：馬場　龍樹／遠藤　ナオキ / 主体token:「馬場　龍樹」〕
+identityTaskId: garupa:549:composer:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2
+registrationTaskId: garupa:549:composer:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2
+Garupa:549 「slash」／作詞 〔raw：馬場　龍樹 / 主体token:「馬場　龍樹」〕
+identityTaskId: garupa:549:lyricist:CREATOR_IDENTITY-b1-e7a81fcda1323ca4ecd2
+registrationTaskId: garupa:549:lyricist:CREATOR_REGISTRATION-b1-e7a81fcda1323ca4ecd2
+B078｜美波
+candidateKey: b1-28990d5c41d9e767f084
+台帳raw表記: 「美波」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="美波"
+reading="みなみ"
+sortKey="みなみ"
+slug="minami"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:481 「アイウエ」／作曲 〔raw：SAKURAmoti / 美波 / 主体token:「美波」〕
+identityTaskId: garupa:481:composer:CREATOR_IDENTITY-b1-28990d5c41d9e767f084
+registrationTaskId: garupa:481:composer:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084
+Garupa:481 「アイウエ」／作詞 〔raw：SAKURAmoti / 美波 / 主体token:「美波」〕
+identityTaskId: garupa:481:lyricist:CREATOR_IDENTITY-b1-28990d5c41d9e767f084
+registrationTaskId: garupa:481:lyricist:CREATOR_REGISTRATION-b1-28990d5c41d9e767f084
+B079｜米米CLUB
+candidateKey: current-1714adb574697fbc6b55
+台帳raw表記: 「米米CLUB」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="米米CLUB"
+reading="こめこめくらぶ"
+sortKey=”こめこめくらぶ"
+slug="kome-kome-club"
+type="unit"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:793 「浪漫飛行」／作詞 〔raw：米米CLUB / 主体token:「米米CLUB」〕
+identityTaskId: garupa:793:lyricist:CREATOR_IDENTITY-current-1714adb574697fbc6b55
+registrationTaskId: garupa:793:lyricist:CREATOR_REGISTRATION-current-1714adb574697fbc6b55
+B080｜米米CLUB
+candidateKey: current-b220e5a94f63be35fdcf
+台帳raw表記: 「米米CLUB」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="米米CLUB"
+reading="こめこめくらぶ"
+sortKey="こめこめくらぶ"
+slug="kome-kome-club"
+type="unit"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:793 「浪漫飛行」／作曲 〔raw：米米CLUB / 主体token:「米米CLUB」〕
+identityTaskId: garupa:793:composer:CREATOR_IDENTITY-current-b220e5a94f63be35fdcf
+registrationTaskId: garupa:793:composer:CREATOR_REGISTRATION-current-b220e5a94f63be35fdcf
+B081｜涼木シンジ
+candidateKey: b1-0af645346cf42d76ef7a
+台帳raw表記: 「涼木シンジ」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName=”涼木シンジ"
+reading="すずきしんじ"
+sortKey="すずきしんじ"
+slug="shinji-suzuki"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:630 「愛包ダンスホール」／作曲 〔raw：涼木シンジ、Gohgo / 主体token:「涼木シンジ」〕
+identityTaskId: garupa:630:composer:CREATOR_IDENTITY-b1-0af645346cf42d76ef7a
+registrationTaskId: garupa:630:composer:CREATOR_REGISTRATION-b1-0af645346cf42d76ef7a
+B082｜哥丸雄貴
+candidateKey: b1-7c7ede552b3bb6d16e8e
+台帳raw表記: 「哥丸雄貴」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="哥丸雄貴"
+reading="うたまるゆうき"
+sortKey="うたまるゆうき"
+slug="yuki-utamaru"
+type="person"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+OurNotes:52 「真夜中遊園地」／編曲 〔raw：哥丸雄貴、堀江晶太 / 主体token:「哥丸雄貴」〕
+identityTaskId: ournotes:52:arranger:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e
+registrationTaskId: ournotes:52:arranger:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e
+OurNotes:52 「真夜中遊園地」／作曲 〔raw：哥丸雄貴 / 主体token:「哥丸雄貴」〕
+identityTaskId: ournotes:52:composer:CREATOR_IDENTITY-b1-7c7ede552b3bb6d16e8e
+registrationTaskId: ournotes:52:composer:CREATOR_REGISTRATION-b1-7c7ede552b3bb6d16e8e
+B083｜櫻澤ヒカル
+candidateKey: b1-323bf406d60f26212b32
+台帳raw表記: 「櫻澤ヒカル」
+identityConfirmed="はい"
+samePersonAs="既存IDなし"
+standardName="櫻澤ヒカル"
+reading="さくらざわひかる"
+sortKey="さくらざわひかる"
+slug="さくらざわひかる"
+type="hikaru-sakurazawa"
+aliases="[]"
+affiliation="なし"
+対象担当をすべて本人・上記Creatorとして承認="はい"
+承認から除外する担当=""
+備考=""
+対象担当／照合taskId（編集不要）
+Garupa:263 「ノスタルジックレインフォール」／編曲 〔raw：都丸椋太（Elements Garden）/櫻澤ヒカル / 主体token:「櫻澤ヒカル」〕
+identityTaskId: garupa:263:arranger:CREATOR_IDENTITY-b1-323bf406d60f26212b32
+registrationTaskId: garupa:263:arranger:CREATOR_REGISTRATION-b1-323bf406d60f26212b32
+C. 既存Creatorへの同定・別名確認（74 task／37既存ID：25自動・49人間確認）
+前のP0〜P3により登録済みのCreatorは新しく作り直さない。原文とtokenは変更せず、対象roleのformal参照を追加する。
+**完全一致（自動）**の行は入力不要。要確認行だけ、同一Creatorとして当該roleに紐付け="" に「はい」「いいえ」「保留」を入力する。
+alias追加="" は任意。活動名・別表記として登録が必要なときだけ「はい」。所属付き表示をむやみにaliasに追加しない。
+C001｜既存 cr-0078「atsuko」
+OurNotes:43 「KINGS」／作詞：token「atsuko」／raw「atsuko」
+taskId: ournotes:43:lyricist:ALIAS_REVIEW-cr-0078 ／ candidateKey: cr-0078
+判定: 完全一致・自動適用候補（人間回答不要）
+C002｜既存 cr-0023「Ayase」
+OurNotes:62 「UNDEAD」／作詞：token「Ayase」／raw「Ayase」
+taskId: ournotes:62:lyricist:ALIAS_REVIEW-cr-0023 ／ candidateKey: cr-0023
+判定: 完全一致・自動適用候補（人間回答不要）
+C003｜既存 cr-0022「Diggy-MO’」
+OurNotes:36 「Choir ‘S’ Choir」／作詞：token「Diggy-MO’」／raw「Diggy-MO’」
+taskId: ournotes:36:lyricist:ALIAS_REVIEW-cr-0022 ／ candidateKey: cr-0022
+判定: 完全一致・自動適用候補（人間回答不要）
+OurNotes:39 「The Whole Blue World」／作詞：token「Diggy-MO’」／raw「Diggy-MO’」
+taskId: ournotes:39:lyricist:ALIAS_REVIEW-cr-0022 ／ candidateKey: cr-0022
+判定: 完全一致・自動適用候補（人間回答不要）
+C004｜既存 cr-0059「Fear, and Loathing in Las Vegas」
+Garupa:733 「Drown Out the Noise and Push Through the Trash」／編曲：token「Fear, and Loathing in Las Vegas」／raw「Fear, and Loathing in Las Vegas」
+taskId: garupa:733:arranger:ALIAS_REVIEW-cr-0059 ／ candidateKey: cr-0059
+判定: 完全一致・自動適用候補（人間回答不要）
+Garupa:733 「Drown Out the Noise and Push Through the Trash」／作詞：token「Fear, and Loathing in Las Vegas」／raw「Fear, and Loathing in Las Vegas」
+taskId: garupa:733:lyricist:ALIAS_REVIEW-cr-0059 ／ candidateKey: cr-0059
+判定: 完全一致・自動適用候補（人間回答不要）
+C005｜既存 cr-0127「Fukase」
+Garupa:798 「炎と森のカーニバル」／作詞：token「Fukase」／raw「Fukase」
+taskId: garupa:798:lyricist:ALIAS_REVIEW-b1-96b50efd44763aae3629 ／ candidateKey: b1-96b50efd44763aae3629
+判定: 完全一致・自動適用候補（人間回答不要）
+C006｜既存 cr-0196「KEIGO」
+Garupa:369 「COLORS」／作詞：token「KEIGO HAYASHI」／raw「KOHSHI ASAKAWA・KEIGO HAYASHI」
+taskId: garupa:369:lyricist:ALIAS_REVIEW-current-543af9140a4b47b523ef ／ candidateKey: current-543af9140a4b47b523ef
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C007｜既存 cr-0363「KOHSHI」
+Garupa:369 「COLORS」／作詞：token「KOHSHI ASAKAWA」／raw「KOHSHI ASAKAWA・KEIGO HAYASHI」
+taskId: garupa:369:lyricist:ALIAS_REVIEW-current-37249a393f31fc1ee38b ／ candidateKey: current-37249a393f31fc1ee38b
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C008｜既存 cr-0102「MOMIKEN」
+Garupa:308 「サムライハート(Some Like It Hot!!)」／作詞：token「ＭＯＭＩＫＥＮ」／raw「ＭＯＭＩＫＥＮ」
+taskId: garupa:308:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce ／ candidateKey: b1-b528ebcd57341a509dce
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+OurNotes:76 「サムライハート(Some Like It Hot!!)」／作詞：token「MOMIKEN」／raw「MOMIKEN」
+taskId: ournotes:76:lyricist:ALIAS_REVIEW-b1-b528ebcd57341a509dce ／ candidateKey: b1-b528ebcd57341a509dce
+判定: 完全一致・自動適用候補（人間回答不要）
+C009｜既存 cr-0133「OSTER project」
+Garupa:729 「ミラクルペイント」／作詞：token「OSTER project」／raw「OSTER project」
+taskId: garupa:729:lyricist:ALIAS_REVIEW-b1-0abbc860daeec295ea85 ／ candidateKey: b1-0abbc860daeec295ea85
+判定: 完全一致・自動適用候補（人間回答不要）
+C010｜既存 cr-0070「THE SPELLBOUND」
+Garupa:730 「Singer」／編曲：token「THE SPELLBOUND」／raw「THE SPELLBOUND」
+taskId: garupa:730:arranger:ALIAS_REVIEW-cr-0070 ／ candidateKey: cr-0070
+判定: 完全一致・自動適用候補（人間回答不要）
+Garupa:730 「Singer」／作詞：token「THE SPELLBOUND」／raw「THE SPELLBOUND」
+taskId: garupa:730:lyricist:ALIAS_REVIEW-cr-0070 ／ candidateKey: cr-0070
+判定: 完全一致・自動適用候補（人間回答不要）
+Garupa:731 「手を叩け今ここで祈るだけ願うだけ」／編曲：token「THE SPELLBOUND」／raw「THE SPELLBOUND」
+taskId: garupa:731:arranger:ALIAS_REVIEW-cr-0070 ／ candidateKey: cr-0070
+判定: 完全一致・自動適用候補（人間回答不要）
+Garupa:731 「手を叩け今ここで祈るだけ願うだけ」／作詞：token「THE SPELLBOUND」／raw「THE SPELLBOUND」
+taskId: garupa:731:lyricist:ALIAS_REVIEW-cr-0070 ／ candidateKey: cr-0070
+判定: 完全一致・自動適用候補（人間回答不要）
+C011｜既存 cr-0068「YUI」
+Garupa:785 「SUMMER SONG」／作詞：token「YUI」／raw「YUI」
+taskId: garupa:785:lyricist:ALIAS_REVIEW-cr-0068 ／ candidateKey: cr-0068
+判定: 完全一致・自動適用候補（人間回答不要）
+C012｜既存 cr-0141「こっちのけんと」
+Garupa:795 「けっかおーらい」／作詞：token「こっちのけんと」／raw「こっちのけんと」
+taskId: garupa:795:lyricist:ALIAS_REVIEW-b1-18eb03642f28fcb3973c ／ candidateKey: b1-18eb03642f28fcb3973c
+判定: 完全一致・自動適用候補（人間回答不要）
+C013｜既存 cr-0146「つんく」
+Garupa:723 「♡桃色片想い♡」／作詞：token「つんく」／raw「つんく」
+taskId: garupa:723:lyricist:ALIAS_REVIEW-b1-ac279f73d5b14a694999 ／ candidateKey: b1-ac279f73d5b14a694999
+判定: 完全一致・自動適用候補（人間回答不要）
+C014｜既存 cr-0147「なとり」
+Garupa:766 「絶対零度」／作詞：token「なとり」／raw「なとり」
+taskId: garupa:766:lyricist:ALIAS_REVIEW-b1-c618605e1e385961159a ／ candidateKey: b1-c618605e1e385961159a
+判定: 完全一致・自動適用候補（人間回答不要）
+C015｜既存 cr-0016「トミタカズキ」
+Garupa:732 「端程山」／編曲：token「トミタカズキ(SUPA LOVE)」／raw「トミタカズキ(SUPA LOVE)」
+taskId: garupa:732:arranger:ALIAS_REVIEW-cr-0016 ／ candidateKey: cr-0016
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C016｜既存 cr-0121「ハルイチ」
+Garupa:792 「オー！リバル」／作詞：token「新藤晴一」／raw「新藤晴一」
+taskId: garupa:792:lyricist:ALIAS_REVIEW-b1-065e0e070ab40a39c5e1 ／ candidateKey: b1-065e0e070ab40a39c5e1
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C017｜既存 cr-0093「中村航」
+Garupa:797 「ライムライト」／作詞：token「中村航」／raw「中村航」
+taskId: garupa:797:lyricist:ALIAS_REVIEW-b1-706dfa00eb1eedda8c38 ／ candidateKey: b1-706dfa00eb1eedda8c38
+判定: 完全一致・自動適用候補（人間回答不要）
+C018｜既存 cr-0258「園田健太郎」
+OurNotes:48 「夢現妄想世界」／編曲：token「園田健太郎」／raw「園田健太郎」
+taskId: ournotes:48:arranger:ALIAS_REVIEW-b1-36456c709118f3609c80 ／ candidateKey: b1-36456c709118f3609c80
+判定: 完全一致・自動適用候補（人間回答不要）
+OurNotes:48 「夢現妄想世界」／作曲：token「園田健太郎」／raw「園田健太郎」
+taskId: ournotes:48:composer:ALIAS_REVIEW-b1-36456c709118f3609c80 ／ candidateKey: b1-36456c709118f3609c80
+判定: 完全一致・自動適用候補（人間回答不要）
+C019｜既存 cr-0012「堀川大翼」
+Garupa:735 「Same Blue」／編曲：token「堀川大翼（Elements Garden）」／raw「堀川大翼（Elements Garden）」
+taskId: garupa:735:arranger:ALIAS_REVIEW-cr-0012 ／ candidateKey: cr-0012
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:783 「ポニーテールとシュシュ」／編曲：token「堀川大翼（Elements Garden）」／raw「堀川大翼（Elements Garden）」
+taskId: garupa:783:arranger:ALIAS_REVIEW-cr-0012 ／ candidateKey: cr-0012
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:788 「Resound the Way」／編曲：token「堀川大翼（Elements Garden）」／raw「堀川大翼（Elements Garden）」
+taskId: garupa:788:arranger:ALIAS_REVIEW-cr-0012 ／ candidateKey: cr-0012
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C020｜既存 cr-0028「堀江晶太」
+OurNotes:44 「✞animaるパーティ✞開催中✞」／作詞：token「堀江晶太」／raw「堀江晶太」
+taskId: ournotes:44:lyricist:ALIAS_REVIEW-cr-0028 ／ candidateKey: cr-0028
+判定: 完全一致・自動適用候補（人間回答不要）
+OurNotes:54 「超惑星Xへの旅」／作詞：token「堀江晶太」／raw「堀江晶太」
+taskId: ournotes:54:lyricist:ALIAS_REVIEW-cr-0028 ／ candidateKey: cr-0028
+判定: 完全一致・自動適用候補（人間回答不要）
+C021｜既存 cr-0007「岩橋星実」
+Garupa:792 「オー！リバル」／編曲：token「岩橋星実（Elements Garden）」／raw「岩橋星実（Elements Garden）」
+taskId: garupa:792:arranger:ALIAS_REVIEW-cr-0007 ／ candidateKey: cr-0007
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:796 「悲しみなんて笑い飛ばせ」／編曲：token「岩橋星実（Elements Garden）」／raw「岩橋星実（Elements Garden）」
+taskId: garupa:796:arranger:ALIAS_REVIEW-cr-0007 ／ candidateKey: cr-0007
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:797 「ライムライト」／編曲：token「岩橋星実（Elements Garden）」／raw「岩橋星実（Elements Garden）」
+taskId: garupa:797:arranger:ALIAS_REVIEW-cr-0007 ／ candidateKey: cr-0007
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C022｜既存 cr-0020「日高勇輝」
+Garupa:722 「じょいふる」／編曲：token「日高勇輝（Elements Garden）」／raw「日高勇輝（Elements Garden）」
+taskId: garupa:722:arranger:ALIAS_REVIEW-cr-0020 ／ candidateKey: cr-0020
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:781 「夕影と歌う この先も」／編曲：token「日高勇輝（Elements Garden）」／raw「日高勇輝（Elements Garden）」
+taskId: garupa:781:arranger:ALIAS_REVIEW-cr-0020 ／ candidateKey: cr-0020
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:795 「けっかおーらい」／編曲：token「日高勇輝（Elements Garden）」／raw「日高勇輝（Elements Garden）」
+taskId: garupa:795:arranger:ALIAS_REVIEW-cr-0020 ／ candidateKey: cr-0020
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C023｜既存 cr-0047「水野良樹」
+Garupa:722 「じょいふる」／作詞：token「水野良樹」／raw「水野良樹」
+taskId: garupa:722:lyricist:ALIAS_REVIEW-cr-0047 ／ candidateKey: cr-0047
+判定: 完全一致・自動適用候補（人間回答不要）
+C024｜既存 cr-0048「片倉三起也」
+Garupa:789 「この蒼き闇と光」／編曲：token「片倉三起也」／raw「片倉三起也」
+taskId: garupa:789:arranger:ALIAS_REVIEW-cr-0048 ／ candidateKey: cr-0048
+判定: 完全一致・自動適用候補（人間回答不要）
+C025｜既存 cr-0076「秋田ひろむ」
+OurNotes:81 「空に歌えば」／作詞：token「秋田　ひろむ」／raw「秋田　ひろむ」
+taskId: ournotes:81:lyricist:ALIAS_REVIEW-cr-0076 ／ candidateKey: cr-0076
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C026｜既存 cr-0009「竹田祐介」
+Garupa:721 「Sincerely」／編曲：token「竹田祐介（Elements Garden）」／raw「竹田祐介（Elements Garden）」
+taskId: garupa:721:arranger:ALIAS_REVIEW-cr-0009 ／ candidateKey: cr-0009
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:724 「Fear Nothing」／編曲：token「竹田祐介（Elements Garden）」／raw「竹田祐介（Elements Garden）」
+taskId: garupa:724:arranger:ALIAS_REVIEW-cr-0009 ／ candidateKey: cr-0009
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:784 「I AM WHO I AM」／編曲：token「竹田祐介（Elements Garden）」／raw「竹田祐介（Elements Garden）」
+taskId: garupa:784:arranger:ALIAS_REVIEW-cr-0009 ／ candidateKey: cr-0009
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:790 「勇侠青春謳」／編曲：token「竹田祐介（Elements Garden）」／raw「竹田祐介（Elements Garden）」
+taskId: garupa:790:arranger:ALIAS_REVIEW-cr-0009 ／ candidateKey: cr-0009
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C027｜既存 cr-0010「笠井雄太」
+Garupa:723 「♡桃色片想い♡」／編曲：token「笠井雄太（Elements Garden）」／raw「笠井雄太（Elements Garden）」
+taskId: garupa:723:arranger:ALIAS_REVIEW-cr-0010 ／ candidateKey: cr-0010
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:729 「ミラクルペイント」／編曲：token「笠井雄太（Elements Garden）」／raw「笠井雄太（Elements Garden）」
+taskId: garupa:729:arranger:ALIAS_REVIEW-cr-0010 ／ candidateKey: cr-0010
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:793 「浪漫飛行」／編曲：token「笠井雄太（Elements Garden）」／raw「笠井雄太（Elements Garden）」
+taskId: garupa:793:arranger:ALIAS_REVIEW-cr-0010 ／ candidateKey: cr-0010
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C028｜既存 cr-0092「織田あすか」
+Garupa:665 「デイオフ・ラフ・ラブ・サンクス」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:665:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:724 「Fear Nothing」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:724:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:781 「夕影と歌う この先も」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:781:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:782 「Rainbow of Dreams」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:782:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:784 「I AM WHO I AM」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:784:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:786 「好き・スキ・だいすき〜ズっ！」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:786:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:788 「Resound the Way」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:788:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:800 「Sky full of Miracle」／作詞：token「織田あすか（Elements Garden）」／raw「織田あすか（Elements Garden）」
+taskId: garupa:800:lyricist:ALIAS_REVIEW-b1-db9dc93abeb28da7e46e ／ candidateKey: b1-db9dc93abeb28da7e46e
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C029｜既存 cr-0006「菊田大介」
+Garupa:782 「Rainbow of Dreams」／編曲：token「菊田大介（Elements Garden）」／raw「菊田大介（Elements Garden）」
+taskId: garupa:782:arranger:ALIAS_REVIEW-cr-0006 ／ candidateKey: cr-0006
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C030｜既存 cr-0033「藤井健太郎」
+OurNotes:73 「ピースフル・ピーシーズ！」／作詞：token「藤井健太郎」／raw「藤井健太郎」
+taskId: ournotes:73:lyricist:ALIAS_REVIEW-cr-0033 ／ candidateKey: cr-0033
+判定: 完全一致・自動適用候補（人間回答不要）
+C031｜既存 cr-0024「藤原聡」
+Garupa:735 「Same Blue」／作詞：token「藤原 聡」／raw「藤原 聡」
+taskId: garupa:735:lyricist:ALIAS_REVIEW-cr-0024 ／ candidateKey: cr-0024
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+OurNotes:68 「Pretender」／作詞：token「藤原　聡」／raw「藤原　聡」
+taskId: ournotes:68:lyricist:ALIAS_REVIEW-cr-0024 ／ candidateKey: cr-0024
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C032｜既存 cr-0005「藤永龍太郎」
+Garupa:799 「Hello! Wink!（パラレルver.）」／編曲：token「藤永龍太郎（Elements Garden）」／raw「藤永龍太郎（Elements Garden）」
+taskId: garupa:799:arranger:ALIAS_REVIEW-cr-0005 ／ candidateKey: cr-0005
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C033｜既存 cr-0004「藤田淳平」
+Garupa:787 「私の心はチョココロネ(パラレルver.)」／編曲：token「藤田淳平（Elements Garden）」／raw「藤田淳平（Elements Garden）」
+taskId: garupa:787:arranger:ALIAS_REVIEW-cr-0004 ／ candidateKey: cr-0004
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:800 「Sky full of Miracle」／編曲：token「藤田淳平（Elements Garden）」／raw「藤田淳平（Elements Garden）」
+taskId: garupa:800:arranger:ALIAS_REVIEW-cr-0004 ／ candidateKey: cr-0004
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:800 「Sky full of Miracle」／作曲：token「藤田淳平（Elements Garden）」／raw「藤田淳平（Elements Garden）」
+taskId: garupa:800:composer:ALIAS_REVIEW-cr-0004 ／ candidateKey: cr-0004
+同一Creatorとして当該roleに紐付け="はい
+alias追加="はい"
+C034｜既存 cr-0008「藤間仁」
+Garupa:763 「ときめきエクスペリエンス！ (月島まりなver.)」／編曲：token「藤間仁（Elements Garden）」／raw「藤間仁（Elements Garden）」
+taskId: garupa:763:arranger:ALIAS_REVIEW-cr-0008 ／ candidateKey: cr-0008
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:786 「好き・スキ・だいすき〜ズっ！」／編曲：token「藤間仁（Elements Garden）」／raw「藤間仁（Elements Garden）」
+taskId: garupa:786:arranger:ALIAS_REVIEW-cr-0008 ／ candidateKey: cr-0008
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C035｜既存 cr-0162「谷口鮪」
+OurNotes:19 「ないものねだり」／作詞：token「谷口 鮪」／raw「谷口 鮪」
+taskId: ournotes:19:lyricist:ALIAS_REVIEW-b1-145122f57cd75aa7c5a0 ／ candidateKey: b1-145122f57cd75aa7c5a0
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C036｜既存 cr-0011「近藤世真」
+Garupa:727 「恋人がサンタクロース」／編曲：token「近藤世真（Elements Garden）」／raw「近藤世真（Elements Garden）」
+taskId: garupa:727:arranger:ALIAS_REVIEW-cr-0011 ／ candidateKey: cr-0011
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:734 「I wonder」／編曲：token「近藤世真（Elements Garden）」／raw「近藤世真（Elements Garden）」
+taskId: garupa:734:arranger:ALIAS_REVIEW-cr-0011 ／ candidateKey: cr-0011
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:780 「スターラブレイション」／編曲：token「近藤世真（Elements Garden）」／raw「近藤世真（Elements Garden）」
+taskId: garupa:780:arranger:ALIAS_REVIEW-cr-0011 ／ candidateKey: cr-0011
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:785 「SUMMER SONG」／編曲：token「近藤世真（Elements Garden）」／raw「近藤世真（Elements Garden）」
+taskId: garupa:785:arranger:ALIAS_REVIEW-cr-0011 ／ candidateKey: cr-0011
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:798 「炎と森のカーニバル」／編曲：token「近藤世真（Elements Garden）」／raw「近藤世真（Elements Garden）」
+taskId: garupa:798:arranger:ALIAS_REVIEW-cr-0011 ／ candidateKey: cr-0011
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+C037｜既存 cr-0019「都丸椋太」
+Garupa:665 「デイオフ・ラフ・ラブ・サンクス」／編曲：token「都丸椋太（Elements Garden）」／raw「都丸椋太（Elements Garden）」
+taskId: garupa:665:arranger:ALIAS_REVIEW-current-0e351cf7f749f04bc27f ／ candidateKey: current-0e351cf7f749f04bc27f
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:766 「絶対零度」／編曲：token「都丸椋太（Elements Garden）」／raw「都丸椋太（Elements Garden）」
+taskId: garupa:766:arranger:ALIAS_REVIEW-current-334fc89b4af944671a1d ／ candidateKey: current-334fc89b4af944671a1d
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:791 「盛れ！ミ・アモーレ」／編曲：token「都丸椋太（Elements Garden）」／raw「都丸椋太（Elements Garden）」
+taskId: garupa:791:arranger:ALIAS_REVIEW-current-a13640d86a7693717949 ／ candidateKey: current-a13640d86a7693717949
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+Garupa:794 「千の翼」／編曲：token「都丸椋太（Elements Garden）」／raw「都丸椋太（Elements Garden）」
+taskId: garupa:794:arranger:ALIAS_REVIEW-current-b7ce5703d9eac3544358 ／ candidateKey: current-b7ce5703d9eac3544358
+同一Creatorとして当該roleに紐付け="はい"
+alias追加="はい"
+D. ゲーム版と発売版の編曲同一性確認（39 task）
+sameArrangementAsRelease="" に "はい"（同じ編曲）／"いいえ"（別編曲）／"保留" を入力。分からなければ空欄でもよい。
+同じ編曲者名であるだけでは「はい」にしない。ここで発売版のcreditをゲーム版へ上書きしない。
+D01｜OurNotes:1 「迷星叫」
+game内編曲raw: 長谷川大介(SUPA LOVE)
+taskId: ournotes:1:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D02｜OurNotes:2 「壱雫空」
+game内編曲raw: hisakuni(SUPA LOVE)
+taskId: ournotes:2:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D03｜OurNotes:4 「影色舞」
+game内編曲raw: 木下龍平(SUPA LOVE)
+taskId: ournotes:4:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D04｜OurNotes:5 「潜在表明」
+game内編曲raw: 鈴木裕明(SUPA LOVE)
+taskId: ournotes:5:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D05｜OurNotes:6 「音一会」
+game内編曲raw: 尾崎豪（SUPA LOVE）
+taskId: ournotes:6:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい
+備考=""
+D06｜OurNotes:7 「春日影（MyGO!!!!! ver.）」
+game内編曲raw: 藤田淳平（Elements Garden）
+taskId: ournotes:7:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D07｜OurNotes:10 「無路矢」
+game内編曲raw: 庄司夏葵（SUPA LOVE）
+taskId: ournotes:10:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D08｜OurNotes:11 「名無声」
+game内編曲raw: 金崎真士(SUPA LOVE)
+taskId: ournotes:11:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D09｜OurNotes:13 「端程山」
+game内編曲raw: トミタカズキ(SUPA LOVE)
+taskId: ournotes:13:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D10｜OurNotes:14 「砂寸奏」
+game内編曲raw: 槇島隆人（SUPA LOVE）
+taskId: ournotes:14:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D11｜OurNotes:15 「焚音打」
+game内編曲raw: 長谷川大介(SUPA LOVE)
+taskId: ournotes:15:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D12｜OurNotes:18 「往欄印」
+game内編曲raw: 長谷川大介(SUPA LOVE)
+taskId: ournotes:18:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D13｜OurNotes:19 「ないものねだり」
+game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)
+taskId: ournotes:19:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D14｜OurNotes:20 「シャルル」
+game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)
+taskId: ournotes:20:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D15｜OurNotes:22 「ホワイトノイズ」
+game内編曲raw: 小木岳司
+taskId: ournotes:22:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D16｜OurNotes:23 「Ave Mujica」
+game内編曲raw: 藤間仁（Elements Garden）
+taskId: ournotes:23:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D17｜OurNotes:27 「八芒星ダンス」
+game内編曲raw: あらケン(SUPA LOVE)
+taskId: ournotes:27:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D18｜OurNotes:35 「黒のバースデイ」
+game内編曲raw: 賀佐泰洋（SUPA LOVE）
+taskId: ournotes:35:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D19｜OurNotes:36 「Choir ‘S’ Choir」
+game内編曲raw: 角本麻衣（SUPA LOVE）
+taskId: ournotes:36:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D20｜OurNotes:37 「Mas?uerade Rhapsody Re?uest」
+game内編曲raw: あらケン（SUPA LOVE）
+taskId: ournotes:37:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D21｜OurNotes:39 「The Whole Blue World」
+game内編曲raw: Diggy-MO'
+taskId: ournotes:39:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D22｜OurNotes:41 「堕天」
+game内編曲raw: UYKADO
+taskId: ournotes:41:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D23｜OurNotes:42 「暗黒天国」
+game内編曲raw: UYKADO
+taskId: ournotes:42:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D24｜OurNotes:43 「KINGS」
+game内編曲raw: UYKADO
+taskId: ournotes:43:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D25｜OurNotes:44 「✞animaるパーティ✞開催中✞」
+game内編曲raw: 堀江晶太
+taskId: ournotes:44:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D26｜OurNotes:54 「超惑星Xへの旅」
+game内編曲raw: TeddyLoid・堀江晶太
+taskId: ournotes:54:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D27｜OurNotes:59 「六兆年と一夜物語」
+game内編曲raw: sabio/高村風太
+taskId: ournotes:59:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D28｜OurNotes:62 「UNDEAD」
+game内編曲raw: DjeDje、三村一輝
+taskId: ournotes:62:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D29｜OurNotes:65 「鳴らす」
+game内編曲raw: 藤井健太郎
+taskId: ournotes:65:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D30｜OurNotes:68 「Pretender」
+game内編曲raw: 石倉まろ
+taskId: ournotes:68:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D31｜OurNotes:73 「ピースフル・ピーシーズ！」
+game内編曲raw: 藤井健太郎
+taskId: ournotes:73:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D32｜OurNotes:75 「Mela!」
+game内編曲raw: 石倉まろ
+taskId: ournotes:75:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D33｜OurNotes:76 「サムライハート(Some Like It Hot!!)」
+game内編曲raw: 藤井健太郎
+taskId: ournotes:76:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D34｜OurNotes:78 「革命道中」
+game内編曲raw: 牧野太洋
+taskId: ournotes:78:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D35｜OurNotes:79 「春日影」
+game内編曲raw: 藤田淳平（Elements Garden）
+taskId: ournotes:79:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D36｜OurNotes:80 「ちゅ、多様性。」
+game内編曲raw: 白神真志朗
+taskId: ournotes:80:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D37｜OurNotes:81 「空に歌えば」
+game内編曲raw: 植木建象、神田ジョン(from PENGUIN RESEARCH)
+taskId: ournotes:81:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D38｜OurNotes:83 「ファタール」
+game内編曲raw: 植木建象、加藤貴之
+taskId: ournotes:83:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+D39｜OurNotes:86 「過去を喰らう」
+game内編曲raw: 植木建象、神田ジョン（from PENGUIN RESEARCH）
+taskId: ournotes:86:arranger:GAME_VERSION_REVIEW
+sameArrangementAsRelease="はい"
+備考=""
+E. 現行ゲームcreditの担当・原文確認（3 task）
+対象はOurNotes:87「Odd Dice」。各roleを別々に確認する。ゲーム内の記載が現行rawと一致するなら 現行rawとroleを確認="はい" のみでよい。
+相違する場合は現行rawとroleを確認="いいえ"、正しいゲーム版credit原文に実際の表記を転記する。情報不足は保留。
+E01｜OurNotes:87 「Odd Dice」／作詞
+現行raw: アザミ
+taskId: ournotes:87:lyricist:ROLE_REVIEW
+現行rawとroleを確認="はい"
+正しいゲーム版credit原文=""
+備考=""
+E02｜OurNotes:87 「Odd Dice」／作曲
+現行raw: アザミ
+taskId: ournotes:87:composer:ROLE_REVIEW
+現行rawとroleを確認="はい"
+正しいゲーム版credit原文=""
+備考=""
+E03｜OurNotes:87 「Odd Dice」／編曲
+現行raw: アザミ
+taskId: ournotes:87:arranger:ROLE_REVIEW
+現行rawとroleを確認="はい"
+正しいゲーム版credit原文=""
+備考=""
+F. 共同編曲の分割確認（1 task／P2残件）
+対象：OurNotes:46 「限界現実サバイブ天使」／編曲
+現行raw: Nor、堀江晶太
+taskId: ournotes:46:arranger:SPLIT_REVIEW
+分割結果（原文順）="Nor / 堀江晶太"
+全体を単一Creatorとして扱う="いいえ"
+分割後のCreator IDまたはcandidateKey対応="既存IDなし; cr-0028"
+この曲の編曲担当としてsplitを確定="はい"
+備考="「Nor」は、identityConfirmed="はい"、standardName="Nor"
+reading="のる"、sortKey="のる"、slug="nor"、type="person"、aliases="[]"、affiliation="なし” として新規Creator追加してください。"
+記入例：分割結果（原文順）="Nor / 堀江晶太"、全体を単一Creatorとして扱う="いいえ"。Creator IDが不明なら勝手に採番せずB節や既存Creator照合へ送る。
+G. 適用順序・衝突への対処
+最初に375件のtaskIdと最新台帳の差分を突合する。
+C節の完全一致25件について、実Creator masterで一意に合致し、矛盾がないものだけ自動紐付けを実行する。
+B節の回答済みCreatorを既存へ統合または新規登録し、各節の一括担当承認と除外指定を守って対象roleだけにformal relationを付ける。
+C節の要確認49件について、回答「はい」のタスクだけを既存Creatorへ紐付ける。「いいえ」は否定記録、「保留」と空欄は未解決に残す。
+E節はroleとゲーム版原文を確認し、相違があれば回答原文に修正。確認不十分なら変更しない。
+F節は分割境界のみ人間回答を正とし、未同定の主体へ形式的IDを捏造しない。
+D節はゲーム版と発売版の編曲同一性を独立して保存する。ゲーム内編曲rawは上書きしない。
+担当するCreatorの人間回答・自動一致・既存relationが食い違えば強引に全taskを解決しない。詳細に矛盾を報告する。
+元台帳で CREATOR_REGISTRATION が残っていても、既存Creator IDに正しく紐付いた場合は新規登録しない。登録欄タスクの解決を重複登録の理由にしない。
+新しく同定した人物・別名のスコープを今回列挙されたtaskId以外に勝手に広げない。
+H. 375タスクの漏れなし照合・検証・最終報告
+基準375 taskIdの内訳：
+B節: 129×2 = 258（CREATOR_IDENTITY 129 / CREATOR_REGISTRATION 129）
+C節: 74（ALIAS_REVIEW 74、うち自動候補25、人間確認49）
+D節: 39（GAME_VERSION_REVIEW 39）
+E節: 3（ROLE_REVIEW 3）
+F節: 1（SPLIT_REVIEW 1）
+合計: 258+74+39+3+1 = 375
+Codexは375件の各taskIdを、RESOLVED / PARTIALLY_RESOLVED / STILL_NEEDS_HUMAN / BLOCKED / STALE のいずれかに必ず対応させる。
+P0P2Remaining375TaskUnmapped=0 かつ unmappedCurrentUnresolved=0 を確認する。回答していないtaskを勝手にRESOLVEDにしない。
+検証項目：IDとslug（previousSlug含む）の重複0／dangling参照0／Work identity維持／credit原文原則維持／重複relation 0／他Creator・未対象曲の変更0／同一回答再applyの変更0。
+リポジトリ標準手順で、既存全テスト・human-review/ToDo検証・root/subpath build・SEO監査・Functions compile・git diff --checkを実行する。
+ToDo 4ファイル（HUMAN_TODO_BY_CREATOR.md/json, HUMAN_TODO_BY_SONG.md/json）とSUMMARY、VERIFICATIONを再生成する。
+報告：受理回答数、完全一致自動適用数と不適用理由、Creator新規・既存統合数、対象role formal relation増分、39版関係の回答数、3 ROLE結果、1 split結果、
+375元タスクの状態別件数、タスク前後比較（375→）、残るToDo、unmappedCurrentUnresolved、テスト／ビルド／SEO／Functions、データ差分。
+明示指示がない限り commit / push / deployしない。

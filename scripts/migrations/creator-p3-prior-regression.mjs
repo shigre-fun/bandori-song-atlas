@@ -15,7 +15,12 @@ for (const directory of ["src", "scripts", "tests", "docs", "data"])
   fs.cpSync(directory, path.join(root, directory), {
     recursive: true,
     force: true,
-    filter: (p) => !p.replaceAll("\\", "/").startsWith(p3),
+    filter: (p) =>
+      ![
+        p3,
+        "docs/human-review/creator-credits-remaining-2026-10-21",
+        "docs/human-review/creator-final-six-2026-10-22",
+      ].some((d) => p.replaceAll("\\", "/").startsWith(d)),
   });
 fs.copyFileSync("package.json", root + "/package.json");
 const { before } = loadBefore(),

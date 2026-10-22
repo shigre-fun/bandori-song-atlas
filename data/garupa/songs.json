@@ -1065,15 +1065,16 @@
             {
               "creatorId": "cr-0059",
               "roles": [
-                "composer"
+                "composer",
+                "arranger",
+                "lyricist"
               ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "Fear, and Loathing in Las Vegas",
-                "unresolved": true
+                "creatorId": "cr-0059"
               }
             ],
             "composer": [
@@ -1083,8 +1084,7 @@
             ],
             "arranger": [
               {
-                "text": "Fear, and Loathing in Las Vegas",
-                "unresolved": true
+                "creatorId": "cr-0059"
               }
             ]
           },
@@ -1602,16 +1602,26 @@
             {
               "creatorId": "cr-0009",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "竹田祐介（Elements Garden）"
+              "displayOverride": "竹田祐介（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "竹田祐介（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -1621,8 +1631,7 @@
             ],
             "arranger": [
               {
-                "text": "竹田祐介（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0009"
               }
             ]
           },
@@ -4190,26 +4199,36 @@
               "displayOverrides": {
                 "arranger": "都丸椋太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0426",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0410",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "つむぎしゃち",
-                "unresolved": true
+                "creatorId": "cr-0410"
               }
             ],
             "composer": [
               {
-                "text": "久下真音",
-                "unresolved": true
+                "creatorId": "cr-0426"
               },
               {
                 "text": "、"
               },
               {
-                "text": "つむぎしゃち",
-                "unresolved": true
+                "creatorId": "cr-0410"
               }
             ],
             "arranger": [
@@ -5260,13 +5279,18 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0398",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "n-buna",
-                "unresolved": true
+                "creatorId": "cr-0398"
               },
               {
                 "text": "・"
@@ -5328,24 +5352,60 @@
           "relatedSongIds": [],
           "revision": "45169da3-7a51-4cd0-903a-68a6a4ba5cc9",
           "workId": "wk-0758",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0412",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0413",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0414",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "ふるっぺ・森さん・Litz",
-                "unresolved": true
+                "creatorId": "cr-0412"
+              },
+              {
+                "text": "・"
+              },
+              {
+                "creatorId": "cr-0413"
+              },
+              {
+                "text": "・"
+              },
+              {
+                "creatorId": "cr-0414"
               }
             ],
             "composer": [
               {
-                "text": "ふるっぺ",
-                "unresolved": true
+                "creatorId": "cr-0412"
               }
             ],
             "arranger": [
               {
-                "text": "近藤世真（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0011"
               }
             ]
           },
@@ -7135,24 +7195,37 @@
           "bpmMax": 139,
           "durationSeconds": 114,
           "workId": "wk-0711",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0434",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "松任谷　由実"
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "松任谷　由実",
-                "unresolved": true
+                "creatorId": "cr-0434"
               }
             ],
             "composer": [
               {
-                "text": "松任谷　由実",
-                "unresolved": true
+                "creatorId": "cr-0434"
               }
             ],
             "arranger": [
               {
-                "text": "近藤世真（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0011"
               }
             ]
           },
@@ -7271,24 +7344,36 @@
           "bpmMax": 138,
           "durationSeconds": 119,
           "workId": "wk-0768",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0430",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "都丸椋太（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "山崎あおい",
-                "unresolved": true
+                "creatorId": "cr-0430"
               }
             ],
             "composer": [
               {
-                "text": "山崎あおい",
-                "unresolved": true
+                "creatorId": "cr-0430"
               }
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0019"
               }
             ]
           },
@@ -8805,16 +8890,26 @@
             {
               "creatorId": "cr-0009",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "竹田祐介（Elements Garden）"
+              "displayOverride": "竹田祐介（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "竹田祐介（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -8824,8 +8919,7 @@
             ],
             "arranger": [
               {
-                "text": "竹田祐介（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0009"
               }
             ]
           },
@@ -10129,16 +10223,26 @@
             {
               "creatorId": "cr-0012",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "堀川大翼（Elements Garden）"
+              "displayOverride": "堀川大翼（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "堀川大翼（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -10148,8 +10252,7 @@
             ],
             "arranger": [
               {
-                "text": "堀川大翼（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0012"
               }
             ]
           },
@@ -11897,15 +12000,21 @@
             {
               "creatorId": "cr-0048",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
+              ]
+            },
+            {
+              "creatorId": "cr-0372",
+              "roles": [
+                "lyricist"
               ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "宝野アリカ",
-                "unresolved": true
+                "creatorId": "cr-0372"
               }
             ],
             "composer": [
@@ -11915,8 +12024,7 @@
             ],
             "arranger": [
               {
-                "text": "片倉三起也",
-                "unresolved": true
+                "creatorId": "cr-0048"
               }
             ]
           },
@@ -12758,33 +12866,43 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0394",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0389",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "MAQUMA",
-                "unresolved": true
+                "creatorId": "cr-0394"
               },
               {
                 "text": ", "
               },
               {
-                "text": "JACK",
-                "unresolved": true
+                "creatorId": "cr-0389"
               }
             ],
             "composer": [
               {
-                "text": "MAQUMA",
-                "unresolved": true
+                "creatorId": "cr-0394"
               },
               {
                 "text": ", "
               },
               {
-                "text": "JACK",
-                "unresolved": true
+                "creatorId": "cr-0389"
               }
             ],
             "arranger": [
@@ -12851,13 +12969,18 @@
               "displayOverrides": {
                 "composer": "DJ松永"
               }
+            },
+            {
+              "creatorId": "cr-0378",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "R-指定",
-                "unresolved": true
+                "creatorId": "cr-0378"
               }
             ],
             "composer": [
@@ -12930,6 +13053,12 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0433",
+              "roles": [
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
@@ -12946,8 +13075,7 @@
                 "text": "、"
               },
               {
-                "text": "彰",
-                "unresolved": true
+                "creatorId": "cr-0433"
               }
             ],
             "arranger": [
@@ -13611,7 +13739,8 @@
             {
               "creatorId": "cr-0141",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
               "displayOverrides": {
                 "composer": "こっちのけんと "
@@ -13625,13 +13754,19 @@
               "displayOverrides": {
                 "composer": " GRP"
               }
+            },
+            {
+              "creatorId": "cr-0020",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "日高勇輝（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "こっちのけんと",
-                "unresolved": true
+                "creatorId": "cr-0141"
               }
             ],
             "composer": [
@@ -13647,8 +13782,7 @@
             ],
             "arranger": [
               {
-                "text": "日高勇輝（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0020"
               }
             ]
           },
@@ -13938,26 +14072,37 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0443",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "MK-METAL"
+            },
+            {
+              "creatorId": "cr-0401",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "MK-METAL",
-                "unresolved": true
+                "creatorId": "cr-0443"
               },
               {
                 "text": "・"
               },
               {
-                "text": "NORiMETAL",
-                "unresolved": true
+                "creatorId": "cr-0401"
               }
             ],
             "composer": [
               {
-                "text": "NORiMETAL",
-                "unresolved": true
+                "creatorId": "cr-0401"
               }
             ],
             "arranger": [
@@ -14659,18 +14804,25 @@
             {
               "creatorId": "cr-0147",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
               "displayOverrides": {
                 "composer": "なとり"
               }
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "都丸椋太（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "なとり",
-                "unresolved": true
+                "creatorId": "cr-0147"
               }
             ],
             "composer": [
@@ -14680,8 +14832,7 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0019"
               }
             ]
           },
@@ -19155,16 +19306,25 @@
             {
               "creatorId": "cr-0007",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "岩橋星実（Elements Garden）"
+              "displayOverride": "岩橋星実（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "岩橋星実（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0093",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "中村航",
-                "unresolved": true
+                "creatorId": "cr-0093"
               }
             ],
             "composer": [
@@ -19174,8 +19334,7 @@
             ],
             "arranger": [
               {
-                "text": "岩橋星実（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0007"
               }
             ]
           },
@@ -23877,16 +24036,26 @@
             {
               "creatorId": "cr-0020",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "日高勇輝（Elements Garden）"
+              "displayOverride": "日高勇輝（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "日高勇輝（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -23896,8 +24065,7 @@
             ],
             "arranger": [
               {
-                "text": "日高勇輝（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0020"
               }
             ]
           },
@@ -25030,15 +25198,22 @@
             {
               "creatorId": "cr-0068",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "YUI",
-                "unresolved": true
+                "creatorId": "cr-0068"
               }
             ],
             "composer": [
@@ -25048,8 +25223,7 @@
             ],
             "arranger": [
               {
-                "text": "近藤世真（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0011"
               }
             ]
           },
@@ -25731,24 +25905,42 @@
           "bpmMax": 129,
           "durationSeconds": 144,
           "workId": "wk-0769",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0420",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0121",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "新藤晴一"
+            },
+            {
+              "creatorId": "cr-0007",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "岩橋星実（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "新藤晴一",
-                "unresolved": true
+                "creatorId": "cr-0121"
               }
             ],
             "composer": [
               {
-                "text": "岡野昭仁",
-                "unresolved": true
+                "creatorId": "cr-0420"
               }
             ],
             "arranger": [
               {
-                "text": "岩橋星実（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0007"
               }
             ]
           },
@@ -26462,6 +26654,12 @@
                 "lyricist": "ACAね",
                 "composer": "ACAね"
               }
+            },
+            {
+              "creatorId": "cr-0379",
+              "roles": [
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
@@ -26478,8 +26676,7 @@
                 "text": "×"
               },
               {
-                "text": "ぬゆり",
-                "unresolved": true
+                "creatorId": "cr-0379"
               }
             ],
             "arranger": [
@@ -29521,24 +29718,37 @@
           },
           "submissionId": "b86cc331-0b3a-474a-9eb1-8bb3a61eb36f",
           "workId": "wk-0824",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0004",
+              "roles": [
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "藤田淳平（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
               {
-                "text": "藤田淳平（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0004"
               }
             ],
             "arranger": [
               {
-                "text": "藤田淳平（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0004"
               }
             ]
           },
@@ -31585,33 +31795,50 @@
               "displayOverrides": {
                 "arranger": "笠井雄太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0385",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0421",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "加賀爪 タッド"
+            },
+            {
+              "creatorId": "cr-0390",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "KANATA OKAJIMA"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "KANATA OKAJIMA",
-                "unresolved": true
+                "creatorId": "cr-0390"
               },
               {
                 "text": "・"
               },
               {
-                "text": "Carlos K.",
-                "unresolved": true
+                "creatorId": "cr-0385"
               }
             ],
             "composer": [
               {
-                "text": "Carlos K.",
-                "unresolved": true
+                "creatorId": "cr-0385"
               },
               {
                 "text": "・"
               },
               {
-                "text": "加賀爪 タッド",
-                "unresolved": true
+                "creatorId": "cr-0421"
               }
             ],
             "arranger": [
@@ -32574,6 +32801,12 @@
               "displayOverrides": {
                 "arranger": "都丸椋太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0441",
+              "roles": [
+                "arranger"
+              ]
             }
           ],
           "creditDisplay": {
@@ -32595,8 +32828,7 @@
                 "text": "/"
               },
               {
-                "text": "櫻澤ヒカル",
-                "unresolved": true
+                "creatorId": "cr-0441"
               }
             ]
           },
@@ -32797,24 +33029,43 @@
           "bpmMax": 160,
           "durationSeconds": 111,
           "workId": "wk-0761",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0431",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "秋元 康"
+            },
+            {
+              "creatorId": "cr-0446",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "多田 慎也"
+            },
+            {
+              "creatorId": "cr-0012",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "堀川大翼（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "秋元 康",
-                "unresolved": true
+                "creatorId": "cr-0431"
               }
             ],
             "composer": [
               {
-                "text": "多田 慎也",
-                "unresolved": true
+                "creatorId": "cr-0446"
               }
             ],
             "arranger": [
               {
-                "text": "堀川大翼（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0012"
               }
             ]
           },
@@ -33759,24 +34010,36 @@
           "bpmMax": 150,
           "durationSeconds": 126,
           "workId": "wk-0770",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0445",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0010",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "笠井雄太（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "米米CLUB",
-                "unresolved": true
+                "creatorId": "cr-0445"
               }
             ],
             "composer": [
               {
-                "text": "米米CLUB",
-                "unresolved": true
+                "creatorId": "cr-0445"
               }
             ],
             "arranger": [
               {
-                "text": "笠井雄太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0010"
               }
             ]
           },
@@ -33999,26 +34262,38 @@
               "displayOverrides": {
                 "arranger": "笠井雄太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0416",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "安部大希-amazuti-"
+            },
+            {
+              "creatorId": "cr-0427",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "宮崎諒-amazuti-"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "安部大希-amazuti-",
-                "unresolved": true
+                "creatorId": "cr-0416"
               }
             ],
             "composer": [
               {
-                "text": "安部大希-amazuti-",
-                "unresolved": true
+                "creatorId": "cr-0416"
               },
               {
                 "text": "/"
               },
               {
-                "text": "宮崎諒-amazuti-",
-                "unresolved": true
+                "creatorId": "cr-0427"
               }
             ],
             "arranger": [
@@ -34257,6 +34532,19 @@
               "roles": [
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0406",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0396",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "Masayoshi Minoshima（Alstroemeria Records）"
             }
           ],
           "creditDisplay": {
@@ -34267,15 +34555,13 @@
             ],
             "composer": [
               {
-                "text": "ZUN",
-                "unresolved": true
+                "creatorId": "cr-0406"
               },
               {
                 "text": "/"
               },
               {
-                "text": "Masayoshi Minoshima（Alstroemeria Records）",
-                "unresolved": true
+                "creatorId": "cr-0396"
               }
             ],
             "arranger": [
@@ -34339,26 +34625,36 @@
               "displayOverrides": {
                 "arranger": "竹田祐介（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0417",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0408",
+              "roles": [
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "影山ヒロノブ",
-                "unresolved": true
+                "creatorId": "cr-0417"
               }
             ],
             "composer": [
               {
-                "text": "影山ヒロノブ",
-                "unresolved": true
+                "creatorId": "cr-0417"
               },
               {
                 "text": "・"
               },
               {
-                "text": "きただにひろし",
-                "unresolved": true
+                "creatorId": "cr-0408"
               }
             ],
             "arranger": [
@@ -34994,6 +35290,14 @@
               "displayOverrides": {
                 "arranger": "竹田祐介（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0425",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "橘 亮祐"
             }
           ],
           "creditDisplay": {
@@ -35005,8 +35309,7 @@
                 "text": "、"
               },
               {
-                "text": "橘 亮祐",
-                "unresolved": true
+                "creatorId": "cr-0425"
               }
             ],
             "composer": [
@@ -35017,8 +35320,7 @@
                 "text": "、"
               },
               {
-                "text": "橘 亮祐",
-                "unresolved": true
+                "creatorId": "cr-0425"
               }
             ],
             "arranger": [
@@ -35481,13 +35783,25 @@
               "roles": [
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0383",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0009",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "竹田祐介（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "唐沢美帆",
-                "unresolved": true
+                "creatorId": "cr-0383"
               }
             ],
             "composer": [
@@ -35497,8 +35811,7 @@
             ],
             "arranger": [
               {
-                "text": "竹田祐介（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0009"
               }
             ]
           },
@@ -35871,26 +36184,38 @@
               "displayOverrides": {
                 "arranger": "都丸椋太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0437",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "馬場　龍樹"
+            },
+            {
+              "creatorId": "cr-0418",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "遠藤　ナオキ"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "馬場　龍樹",
-                "unresolved": true
+                "creatorId": "cr-0437"
               }
             ],
             "composer": [
               {
-                "text": "馬場　龍樹",
-                "unresolved": true
+                "creatorId": "cr-0437"
               },
               {
                 "text": "／"
               },
               {
-                "text": "遠藤　ナオキ",
-                "unresolved": true
+                "creatorId": "cr-0418"
               }
             ],
             "arranger": [
@@ -36724,13 +37049,25 @@
               "roles": [
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0372",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0009",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "竹田祐介（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "宝野アリカ",
-                "unresolved": true
+                "creatorId": "cr-0372"
               }
             ],
             "composer": [
@@ -36740,8 +37077,7 @@
             ],
             "arranger": [
               {
-                "text": "竹田祐介（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0009"
               }
             ]
           },
@@ -38391,16 +38727,26 @@
             {
               "creatorId": "cr-0006",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "菊田大介（Elements Garden）"
+              "displayOverride": "菊田大介（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "菊田大介（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -38410,8 +38756,7 @@
             ],
             "arranger": [
               {
-                "text": "菊田大介（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0006"
               }
             ]
           },
@@ -40409,9 +40754,13 @@
             {
               "creatorId": "cr-0019",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "都丸椋太（Elements Garden）"
+              "displayOverride": "都丸椋太（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "都丸椋太（Elements Garden）"
+              }
             },
             {
               "creatorId": "cr-0020",
@@ -40419,13 +40768,19 @@
                 "composer"
               ],
               "displayOverride": "日高勇輝（Elements Garden）"
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -40441,8 +40796,7 @@
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0019"
               }
             ]
           },
@@ -42038,27 +42392,42 @@
               "displayOverrides": {
                 "arranger": "竹田祐介（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0436",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0432",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0392",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "田中怜子",
-                "unresolved": true
+                "creatorId": "cr-0436"
               },
               {
                 "text": "、"
               },
               {
-                "text": "小林鉄兵",
-                "unresolved": true
+                "creatorId": "cr-0432"
               },
               {
                 "text": "、"
               },
               {
-                "text": "Lotus Juice",
-                "unresolved": true
+                "creatorId": "cr-0392"
               }
             ],
             "composer": [
@@ -43321,13 +43690,19 @@
               "displayOverrides": {
                 "arranger": "下田晃太郎（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0102",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "ＭＯＭＩＫＥＮ"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "ＭＯＭＩＫＥＮ",
-                "unresolved": true
+                "creatorId": "cr-0102"
               }
             ],
             "composer": [
@@ -44320,24 +44695,36 @@
           "bpmMax": 170,
           "durationSeconds": 151,
           "workId": "wk-0771",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0391",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0019",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "都丸椋太（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "kz",
-                "unresolved": true
+                "creatorId": "cr-0391"
               }
             ],
             "composer": [
               {
-                "text": "kz",
-                "unresolved": true
+                "creatorId": "cr-0391"
               }
             ],
             "arranger": [
               {
-                "text": "都丸椋太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0019"
               }
             ]
           },
@@ -45273,20 +45660,32 @@
               "displayOverrides": {
                 "composer": "TAKESHI ASAKAWA"
               }
+            },
+            {
+              "creatorId": "cr-0363",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "KOHSHI ASAKAWA"
+            },
+            {
+              "creatorId": "cr-0196",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "KEIGO HAYASHI"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "KOHSHI ASAKAWA",
-                "unresolved": true
+                "creatorId": "cr-0363"
               },
               {
                 "text": "・"
               },
               {
-                "text": "KEIGO HAYASHI",
-                "unresolved": true
+                "creatorId": "cr-0196"
               }
             ],
             "composer": [
@@ -45966,6 +46365,19 @@
                 "composer": "Fukase",
                 "lyricist": "Fukase"
               }
+            },
+            {
+              "creatorId": "cr-0400",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": "Nick Rotteveel"
+            },
+            {
+              "creatorId": "cr-0395",
+              "roles": [
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
@@ -45982,15 +46394,13 @@
                 "text": "/"
               },
               {
-                "text": "Nick Rotteveel",
-                "unresolved": true
+                "creatorId": "cr-0400"
               },
               {
                 "text": "/"
               },
               {
-                "text": "Marcus Van Wattum",
-                "unresolved": true
+                "creatorId": "cr-0395"
               }
             ],
             "arranger": [
@@ -46450,13 +46860,18 @@
               "roles": [
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0383",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "唐沢美帆",
-                "unresolved": true
+                "creatorId": "cr-0383"
               }
             ],
             "composer": [
@@ -47171,33 +47586,43 @@
               "displayOverrides": {
                 "arranger": "下田晃太郎（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0402",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0438",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "SAKURAmoti",
-                "unresolved": true
+                "creatorId": "cr-0402"
               },
               {
                 "text": " / "
               },
               {
-                "text": "美波",
-                "unresolved": true
+                "creatorId": "cr-0438"
               }
             ],
             "composer": [
               {
-                "text": "SAKURAmoti",
-                "unresolved": true
+                "creatorId": "cr-0402"
               },
               {
                 "text": " / "
               },
               {
-                "text": "美波",
-                "unresolved": true
+                "creatorId": "cr-0438"
               }
             ],
             "arranger": [
@@ -48870,18 +49295,25 @@
             {
               "creatorId": "cr-0133",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
               "displayOverrides": {
                 "composer": "OSTER project"
               }
+            },
+            {
+              "creatorId": "cr-0010",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "笠井雄太（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "OSTER project",
-                "unresolved": true
+                "creatorId": "cr-0133"
               }
             ],
             "composer": [
@@ -48891,8 +49323,7 @@
             ],
             "arranger": [
               {
-                "text": "笠井雄太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0010"
               }
             ]
           },
@@ -49607,6 +50038,30 @@
                 "composer": "山口一郎",
                 "lyricist": "山口一郎"
               }
+            },
+            {
+              "creatorId": "cr-0424",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0435",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0419",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0429",
+              "roles": [
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
@@ -49623,29 +50078,25 @@
                 "text": "、"
               },
               {
-                "text": "岩寺基晴",
-                "unresolved": true
+                "creatorId": "cr-0424"
               },
               {
                 "text": "、"
               },
               {
-                "text": "草刈愛美",
-                "unresolved": true
+                "creatorId": "cr-0435"
               },
               {
                 "text": "、"
               },
               {
-                "text": "岡崎英美",
-                "unresolved": true
+                "creatorId": "cr-0419"
               },
               {
                 "text": "、"
               },
               {
-                "text": "江島啓一",
-                "unresolved": true
+                "creatorId": "cr-0429"
               }
             ],
             "arranger": [
@@ -49855,31 +50306,49 @@
           "bpmMax": 168,
           "durationSeconds": 142,
           "workId": "wk-0773",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0387",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "FUNKY MONKEY BABYS"
+            },
+            {
+              "creatorId": "cr-0399",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0007",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "岩橋星実（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "FUNKY MONKEY BABYS",
-                "unresolved": true
+                "creatorId": "cr-0387"
               }
             ],
             "composer": [
               {
-                "text": "FUNKY MONKEY BABYS",
-                "unresolved": true
+                "creatorId": "cr-0387"
               },
               {
                 "text": "/"
               },
               {
-                "text": "Naoki-T",
-                "unresolved": true
+                "creatorId": "cr-0399"
               }
             ],
             "arranger": [
               {
-                "text": "岩橋星実（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0007"
               }
             ]
           },
@@ -50259,18 +50728,25 @@
             {
               "creatorId": "cr-0127",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
               "displayOverrides": {
                 "composer": "Fukase"
               }
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "Fukase",
-                "unresolved": true
+                "creatorId": "cr-0127"
               }
             ],
             "composer": [
@@ -50280,8 +50756,7 @@
             ],
             "arranger": [
               {
-                "text": "近藤世真（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0011"
               }
             ]
           },
@@ -53672,16 +54147,26 @@
             {
               "creatorId": "cr-0008",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "藤間仁（Elements Garden）"
+              "displayOverride": "藤間仁（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "藤間仁（Elements Garden）"
+              }
+            },
+            {
+              "creatorId": "cr-0092",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "織田あすか（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "織田あすか（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0092"
               }
             ],
             "composer": [
@@ -53691,8 +54176,7 @@
             ],
             "arranger": [
               {
-                "text": "藤間仁（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0008"
               }
             ]
           },
@@ -53818,38 +54302,86 @@
           "bpmMax": 125,
           "durationSeconds": 120,
           "workId": "wk-0718",
-          "credits": [],
+          "credits": [
+            {
+              "creatorId": "cr-0422",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": "花村想太 "
+              }
+            },
+            {
+              "creatorId": "cr-0397",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverrides": {
+                "composer": " MEG.ME "
+              }
+            },
+            {
+              "creatorId": "cr-0393",
+              "roles": [
+                "composer"
+              ],
+              "displayOverride": " Louis"
+            },
+            {
+              "creatorId": "cr-0428",
+              "roles": [
+                "lyricist"
+              ]
+            },
+            {
+              "creatorId": "cr-0011",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "近藤世真（Elements Garden）"
+            }
+          ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "工藤大輝 / 花村想太 / MEG.ME",
-                "unresolved": true
+                "creatorId": "cr-0428"
+              },
+              {
+                "text": " / "
+              },
+              {
+                "creatorId": "cr-0422"
+              },
+              {
+                "text": " / "
+              },
+              {
+                "creatorId": "cr-0397"
               }
             ],
             "composer": [
               {
-                "text": "花村想太 ",
-                "unresolved": true
+                "creatorId": "cr-0422"
               },
               {
                 "text": "/"
               },
               {
-                "text": " MEG.ME ",
-                "unresolved": true
+                "creatorId": "cr-0397"
               },
               {
                 "text": "/"
               },
               {
-                "text": " Louis",
-                "unresolved": true
+                "creatorId": "cr-0393"
               }
             ],
             "arranger": [
               {
-                "text": "近藤世真（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0011"
               }
             ]
           },
@@ -54414,16 +54946,26 @@
             {
               "creatorId": "cr-0024",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
-              "displayOverride": "藤原 聡"
+              "displayOverride": "藤原 聡",
+              "displayOverrides": {
+                "lyricist": "藤原 聡"
+              }
+            },
+            {
+              "creatorId": "cr-0012",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "堀川大翼（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "藤原 聡",
-                "unresolved": true
+                "creatorId": "cr-0024"
               }
             ],
             "composer": [
@@ -54433,8 +54975,7 @@
             ],
             "arranger": [
               {
-                "text": "堀川大翼（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0012"
               }
             ]
           },
@@ -54578,15 +55119,16 @@
             {
               "creatorId": "cr-0070",
               "roles": [
-                "composer"
+                "composer",
+                "arranger",
+                "lyricist"
               ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "THE SPELLBOUND",
-                "unresolved": true
+                "creatorId": "cr-0070"
               }
             ],
             "composer": [
@@ -54596,8 +55138,7 @@
             ],
             "arranger": [
               {
-                "text": "THE SPELLBOUND",
-                "unresolved": true
+                "creatorId": "cr-0070"
               }
             ]
           },
@@ -55016,6 +55557,12 @@
                 "lyricist",
                 "composer"
               ]
+            },
+            {
+              "creatorId": "cr-0374",
+              "roles": [
+                "arranger"
+              ]
             }
           ],
           "creditDisplay": {
@@ -55037,8 +55584,7 @@
                 "text": "/"
               },
               {
-                "text": "加藤貴之",
-                "unresolved": true
+                "creatorId": "cr-0374"
               }
             ]
           },
@@ -55091,19 +55637,30 @@
               "displayOverrides": {
                 "arranger": "植木建象"
               }
+            },
+            {
+              "creatorId": "cr-0405",
+              "roles": [
+                "arranger"
+              ]
+            },
+            {
+              "creatorId": "cr-0415",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "ユリイ・カノン",
-                "unresolved": true
+                "creatorId": "cr-0415"
               }
             ],
             "composer": [
               {
-                "text": "ユリイ・カノン",
-                "unresolved": true
+                "creatorId": "cr-0415"
               }
             ],
             "arranger": [
@@ -55114,8 +55671,7 @@
                 "text": "、"
               },
               {
-                "text": "YOUSAY",
-                "unresolved": true
+                "creatorId": "cr-0405"
               }
             ]
           },
@@ -55587,6 +56143,12 @@
                 "lyricist": "大濱 健悟",
                 "composer": "大濱 健悟"
               }
+            },
+            {
+              "creatorId": "cr-0374",
+              "roles": [
+                "arranger"
+              ]
             }
           ],
           "creditDisplay": {
@@ -55608,8 +56170,7 @@
                 "text": "、"
               },
               {
-                "text": "加藤貴之",
-                "unresolved": true
+                "creatorId": "cr-0374"
               }
             ]
           },
@@ -56265,18 +56826,25 @@
             {
               "creatorId": "cr-0146",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ],
               "displayOverrides": {
                 "composer": "つんく"
               }
+            },
+            {
+              "creatorId": "cr-0010",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "笠井雄太（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "つんく",
-                "unresolved": true
+                "creatorId": "cr-0146"
               }
             ],
             "composer": [
@@ -56286,8 +56854,7 @@
             ],
             "arranger": [
               {
-                "text": "笠井雄太（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0010"
               }
             ]
           },
@@ -56601,15 +57168,22 @@
             {
               "creatorId": "cr-0047",
               "roles": [
-                "composer"
+                "composer",
+                "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0020",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "日高勇輝（Elements Garden）"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "水野良樹",
-                "unresolved": true
+                "creatorId": "cr-0047"
               }
             ],
             "composer": [
@@ -56619,8 +57193,7 @@
             ],
             "arranger": [
               {
-                "text": "日高勇輝（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0020"
               }
             ]
           },
@@ -56765,6 +57338,13 @@
               "roles": [
                 "lyricist"
               ]
+            },
+            {
+              "creatorId": "cr-0008",
+              "roles": [
+                "arranger"
+              ],
+              "displayOverride": "藤間仁（Elements Garden）"
             }
           ],
           "creditDisplay": {
@@ -56780,8 +57360,7 @@
             ],
             "arranger": [
               {
-                "text": "藤間仁（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0008"
               }
             ]
           },
@@ -58534,9 +59113,13 @@
             {
               "creatorId": "cr-0016",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "トミタカズキ(SUPA LOVE)"
+              "displayOverride": "トミタカズキ(SUPA LOVE)",
+              "displayOverrides": {
+                "arranger": "トミタカズキ(SUPA LOVE)"
+              }
             },
             {
               "creatorId": "cr-0095",
@@ -58561,8 +59144,7 @@
             ],
             "arranger": [
               {
-                "text": "トミタカズキ(SUPA LOVE)",
-                "unresolved": true
+                "creatorId": "cr-0016"
               }
             ]
           },
@@ -58700,6 +59282,14 @@
               "displayOverrides": {
                 "lyricist": "藤原優樹(SUPA LOVE)"
               }
+            },
+            {
+              "creatorId": "cr-0380",
+              "roles": [
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "横地健太(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -58710,14 +59300,12 @@
             ],
             "composer": [
               {
-                "text": "横地健太(SUPA LOVE)",
-                "unresolved": true
+                "creatorId": "cr-0380"
               }
             ],
             "arranger": [
               {
-                "text": "横地健太(SUPA LOVE)",
-                "unresolved": true
+                "creatorId": "cr-0380"
               }
             ]
           },
@@ -59087,6 +59675,14 @@
               "displayOverrides": {
                 "lyricist": "藤原優樹(SUPA LOVE)"
               }
+            },
+            {
+              "creatorId": "cr-0384",
+              "roles": [
+                "composer",
+                "arranger"
+              ],
+              "displayOverride": "尾崎豪(SUPA LOVE)"
             }
           ],
           "creditDisplay": {
@@ -59097,14 +59693,12 @@
             ],
             "composer": [
               {
-                "text": "尾崎豪(SUPA LOVE)",
-                "unresolved": true
+                "creatorId": "cr-0384"
               }
             ],
             "arranger": [
               {
-                "text": "尾崎豪(SUPA LOVE)",
-                "unresolved": true
+                "creatorId": "cr-0384"
               }
             ]
           },
@@ -59816,26 +60410,37 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0061",
+              "roles": [
+                "lyricist",
+                "composer"
+              ],
+              "displayOverride": "ナユタセイジ"
+            },
+            {
+              "creatorId": "cr-0411",
+              "roles": [
+                "lyricist"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "ナユタセイジ",
-                "unresolved": true
+                "creatorId": "cr-0061"
               },
               {
                 "text": " / "
               },
               {
-                "text": "ナナヲアカリ",
-                "unresolved": true
+                "creatorId": "cr-0411"
               }
             ],
             "composer": [
               {
-                "text": "ナユタセイジ",
-                "unresolved": true
+                "creatorId": "cr-0061"
               }
             ],
             "arranger": [
@@ -61838,26 +62443,36 @@
               "displayOverrides": {
                 "arranger": "日高勇輝（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0439",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0388",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "Gohgo",
-                "unresolved": true
+                "creatorId": "cr-0388"
               }
             ],
             "composer": [
               {
-                "text": "涼木シンジ",
-                "unresolved": true
+                "creatorId": "cr-0439"
               },
               {
                 "text": "、"
               },
               {
-                "text": "Gohgo",
-                "unresolved": true
+                "creatorId": "cr-0388"
               }
             ],
             "arranger": [
@@ -61916,15 +62531,16 @@
             {
               "creatorId": "cr-0070",
               "roles": [
-                "composer"
+                "composer",
+                "arranger",
+                "lyricist"
               ]
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "THE SPELLBOUND",
-                "unresolved": true
+                "creatorId": "cr-0070"
               }
             ],
             "composer": [
@@ -61934,8 +62550,7 @@
             ],
             "arranger": [
               {
-                "text": "THE SPELLBOUND",
-                "unresolved": true
+                "creatorId": "cr-0070"
               }
             ]
           },
@@ -62518,9 +63133,13 @@
             {
               "creatorId": "cr-0004",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "藤田淳平（Elements Garden）"
+              "displayOverride": "藤田淳平（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "藤田淳平（Elements Garden）"
+              }
             },
             {
               "creatorId": "cr-0092",
@@ -62545,8 +63164,7 @@
             ],
             "arranger": [
               {
-                "text": "藤田淳平（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0004"
               }
             ]
           },
@@ -62927,13 +63545,19 @@
               "displayOverrides": {
                 "arranger": "都丸椋太（Elements Garden）"
               }
+            },
+            {
+              "creatorId": "cr-0372",
+              "roles": [
+                "lyricist"
+              ],
+              "displayOverride": "宝野 アリカ"
             }
           ],
           "creditDisplay": {
             "lyricist": [
               {
-                "text": "宝野 アリカ",
-                "unresolved": true
+                "creatorId": "cr-0372"
               }
             ],
             "composer": [
@@ -63776,9 +64400,13 @@
             {
               "creatorId": "cr-0005",
               "roles": [
-                "composer"
+                "composer",
+                "arranger"
               ],
-              "displayOverride": "藤永龍太郎（Elements Garden）"
+              "displayOverride": "藤永龍太郎（Elements Garden）",
+              "displayOverrides": {
+                "arranger": "藤永龍太郎（Elements Garden）"
+              }
             },
             {
               "creatorId": "cr-0093",
@@ -63800,8 +64428,7 @@
             ],
             "arranger": [
               {
-                "text": "藤永龍太郎（Elements Garden）",
-                "unresolved": true
+                "creatorId": "cr-0005"
               }
             ]
           },

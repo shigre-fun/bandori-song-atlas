@@ -1,0 +1,332 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 885,
+  "currentCreatorCount": 125,
+  "currentWorkCount": 823,
+  "currentNextId": 126,
+  "currentGameCounts": {
+    "garupa": 799,
+    "ournotes": 86
+  },
+  "totalSongTodoRecords": 338,
+  "totalSongTasks": 1345,
+  "totalCreatorCandidates": 345,
+  "threePlusRecordCreators": 10,
+  "twoRecordCreators": 52,
+  "oneRecordCreators": 283,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 13,
+  "unregisteredCreatorCandidates": 332,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 49,
+  "garupaArrangerCollectionSongs": 48,
+  "splitReviewTasks": 63,
+  "currentRawSplitReviewTasks": 63,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 97,
+    "CREATOR_IDENTITY": 532,
+    "CREATOR_REGISTRATION": 532,
+    "SPLIT_REVIEW": 63,
+    "ALIAS_REVIEW": 4,
+    "ROLE_REVIEW": 78,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 605,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 1604,
+  "excludedResolvedSourceEntries": 218,
+  "unmappedCurrentUnresolved": 0
+}
+TAP version 13
+# {
+#   "mode": "generate",
+#   "currentRecordCount": 885,
+#   "currentCreatorCount": 125,
+#   "currentWorkCount": 823,
+#   "currentNextId": 126,
+#   "currentGameCounts": {
+#     "garupa": 799,
+#     "ournotes": 86
+#   },
+#   "totalSongTodoRecords": 338,
+#   "totalSongTasks": 1345,
+#   "totalCreatorCandidates": 345,
+#   "threePlusRecordCreators": 10,
+#   "twoRecordCreators": 52,
+#   "oneRecordCreators": 283,
+#   "referenceOnlyCreatorCandidates": 0,
+#   "existingCreatorRoleCandidates": 13,
+#   "unregisteredCreatorCandidates": 332,
+#   "ournotesArrangerManualSongs": 0,
+#   "lyricistCollectionSongs": 49,
+#   "garupaArrangerCollectionSongs": 48,
+#   "splitReviewTasks": 63,
+#   "currentRawSplitReviewTasks": 63,
+#   "conditionalReleaseSplitReviewTasks": 0,
+#   "categoryTaskCounts": {
+#     "CREDIT_COLLECTION": 97,
+#     "CREATOR_IDENTITY": 532,
+#     "CREATOR_REGISTRATION": 532,
+#     "SPLIT_REVIEW": 63,
+#     "ALIAS_REVIEW": 4,
+#     "ROLE_REVIEW": 78,
+#     "DISPLAY_REVIEW": 0,
+#     "GAME_VERSION_REVIEW": 39,
+#     "METADATA_REVIEW": 0
+#   },
+#   "currentUnresolvedRecordRoles": 605,
+#   "sourceUnresolvedEntries": 1822,
+#   "mappedTodoEntries": 1604,
+#   "excludedResolvedSourceEntries": 218,
+#   "unmappedCurrentUnresolved": 0
+# }
+# {
+#   "mode": "verify",
+#   "currentRecordCount": 885,
+#   "currentCreatorCount": 125,
+#   "currentWorkCount": 823,
+#   "currentNextId": 126,
+#   "currentGameCounts": {
+#     "garupa": 799,
+#     "ournotes": 86
+#   },
+#   "totalSongTodoRecords": 338,
+#   "totalSongTasks": 1345,
+#   "totalCreatorCandidates": 345,
+#   "threePlusRecordCreators": 10,
+#   "twoRecordCreators": 52,
+#   "oneRecordCreators": 283,
+#   "referenceOnlyCreatorCandidates": 0,
+#   "existingCreatorRoleCandidates": 13,
+#   "unregisteredCreatorCandidates": 332,
+#   "ournotesArrangerManualSongs": 0,
+#   "lyricistCollectionSongs": 49,
+#   "garupaArrangerCollectionSongs": 48,
+#   "splitReviewTasks": 63,
+#   "currentRawSplitReviewTasks": 63,
+#   "conditionalReleaseSplitReviewTasks": 0,
+#   "categoryTaskCounts": {
+#     "CREDIT_COLLECTION": 97,
+#     "CREATOR_IDENTITY": 532,
+#     "CREATOR_REGISTRATION": 532,
+#     "SPLIT_REVIEW": 63,
+#     "ALIAS_REVIEW": 4,
+#     "ROLE_REVIEW": 78,
+#     "DISPLAY_REVIEW": 0,
+#     "GAME_VERSION_REVIEW": 39,
+#     "METADATA_REVIEW": 0
+#   },
+#   "currentUnresolvedRecordRoles": 605,
+#   "sourceUnresolvedEntries": 1822,
+#   "mappedTodoEntries": 1604,
+#   "excludedResolvedSourceEntries": 218,
+#   "unmappedCurrentUnresolved": 0
+# }
+# Subtest: every current missing credit has a complete task; historical resolved entries stay excluded
+ok 1 - every current missing credit has a complete task; historical resolved entries stay excluded
+  ---
+  duration_ms: 514.4356
+  type: 'test'
+  ...
+# Subtest: manual OurNotes chapter lists every live empty arranger once, including newest record and exact input fields
+ok 2 - manual OurNotes chapter lists every live empty arranger once, including newest record and exact input fields
+  ---
+  duration_ms: 47.3556
+  type: 'test'
+  ...
+# Subtest: single-record subjects and short names are fully scoped; known 植木, unknown 冬真 and their boundary remain separate
+ok 3 - single-record subjects and short names are fully scoped; known 植木, unknown 冬真 and their boundary remain separate
+  ---
+  duration_ms: 20.4059
+  type: 'test'
+  ...
+# Subtest: conflicting release-only arranger variants preserve game collection and blocked split dependencies
+ok 4 - conflicting release-only arranger variants preserve game collection and blocked split dependencies
+  ---
+  duration_ms: 0.2663
+  type: 'test'
+  ...
+# Subtest: completeness verifier rejects an omitted latest record
+ok 5 - completeness verifier rejects an omitted latest record
+  ---
+  duration_ms: 406.74
+  type: 'test'
+  ...
+# Subtest: completeness verifier rejects a removed subject even when all dangling links and its identity tasks are removed
+ok 6 - completeness verifier rejects a removed subject even when all dangling links and its identity tasks are removed
+  ---
+  duration_ms: 218.9938
+  type: 'test'
+  ...
+# Subtest: completeness verifier rejects a forgotten conditional split even when its parent collection remains
+ok 7 - completeness verifier rejects a forgotten conditional split even when its parent collection remains
+  ---
+  duration_ms: 980.5291
+  type: 'test'
+  ...
+# Subtest: a new current record absent from migrations receives collection and a new record-scoped identity candidate
+ok 8 - a new current record absent from migrations receives collection and a new record-scoped identity candidate
+  ---
+  duration_ms: 3170.4424
+  type: 'test'
+  ...
+# Subtest: answer protection refuses JSON answers, ready status, checked Markdown and edits with unchecked boxes
+ok 9 - answer protection refuses JSON answers, ready status, checked Markdown and edits with unchecked boxes
+  ---
+  duration_ms: 111.5277
+  type: 'test'
+  ...
+# Subtest: repeated generation preserves every artifact byte and all source data
+ok 10 - repeated generation preserves every artifact byte and all source data
+  ---
+  duration_ms: 12157.0281
+  type: 'test'
+  ...
+# Subtest: all 81 game arranger answers, duplicate 86, curly opening quotes and empty human fields are preserved
+ok 11 - all 81 game arranger answers, duplicate 86, curly opening quotes and empty human fields are preserved
+  ---
+  duration_ms: 3.6303
+  type: 'test'
+  ...
+# Subtest: game raw and creditDisplay retain every exact byte and participant order
+ok 12 - game raw and creditDisplay retain every exact byte and participant order
+  ---
+  duration_ms: 2.6493
+  type: 'test'
+  ...
+# Subtest: only exact approved aliases produce formal IDs; unknown names and Kanji variants cannot register or merge
+ok 13 - only exact approved aliases produce formal IDs; unknown names and Kanji variants cannot register or merge
+  ---
+  duration_ms: 1.6228
+  type: 'test'
+  ...
+# Subtest: unanswered arrangement relations remain tasks even for fully resolved formal game credits
+ok 14 - unanswered arrangement relations remain tasks even for fully resolved formal game credits
+  ---
+  duration_ms: 0.5541
+  type: 'test'
+  ...
+# Subtest: new game participants are full identity/registration todos; old conditional release tasks are removed
+ok 15 - new game participants are full identity/registration todos; old conditional release tasks are removed
+  ---
+  duration_ms: 527.1305
+  type: 'test'
+  ...
+# Subtest: Kanzaki supplied metadata and five identity answers are retained while missing fields block registration
+ok 16 - Kanzaki supplied metadata and five identity answers are retained while missing fields block registration
+  ---
+  duration_ms: 1.8963
+  type: 'test'
+  ...
+# Subtest: field patch preserves all unrelated values, pre-existing roles, Works, metadata, IDs and intentional administrator edits
+ok 17 - field patch preserves all unrelated values, pre-existing roles, Works, metadata, IDs and intentional administrator edits
+  ---
+  duration_ms: 22.5016
+  type: 'test'
+  ...
+# Subtest: completeness checks reject deleting new identity or a version task whose formal game raw is already resolved
+ok 18 - completeness checks reject deleting new identity or a version task whose formal game raw is already resolved
+  ---
+  duration_ms: 1081.9898
+  type: 'test'
+  ...
+# Subtest: applying the same reviewed fields to applied output performs zero structural writes
+ok 19 - applying the same reviewed fields to applied output performs zero structural writes
+  ---
+  duration_ms: 316.6017
+  type: 'test'
+  ...
+# Subtest: interrupted generation accepts only exact expected bytes and still protects every other edit
+ok 20 - interrupted generation accepts only exact expected bytes and still protects every other edit
+  ---
+  duration_ms: 39.9843
+  type: 'test'
+  ...
+# Subtest: all old P0 task IDs and resolutions retain provenance and valid pending task links
+ok 21 - all old P0 task IDs and resolutions retain provenance and valid pending task links
+  ---
+  duration_ms: 100.1292
+  type: 'test'
+  ...
+# {
+#   "mode": "verify",
+#   "alreadyApplied": true,
+#   "changedFiles": 0,
+#   "creatorId": "cr-0125",
+#   "slug": "iori-kanzaki",
+#   "creatorCount": 125,
+#   "nextId": 126,
+#   "relations": 6
+# }
+# Subtest: explicit none and user-approved evidence omission are distinct from missing answers
+ok 22 - explicit none and user-approved evidence omission are distinct from missing answers
+  ---
+  duration_ms: 2.0204
+  type: 'test'
+  ...
+# Subtest: new fixed ID and metadata append preserves every existing Creator and unrelated source byte
+ok 23 - new fixed ID and metadata append preserves every existing Creator and unrelated source byte
+  ---
+  duration_ms: 125.8495
+  type: 'test'
+  ...
+# Subtest: parallel publication retains three administrator edits and refuses an unreviewed credit overwrite
+ok 24 - parallel publication retains three administrator edits and refuses an unreviewed credit overwrite
+  ---
+  duration_ms: 56.9563
+  type: 'test'
+  ...
+# Subtest: only six approved songwriter bindings change; exact raw and existing arranger order remain
+ok 25 - only six approved songwriter bindings change; exact raw and existing arranger order remain
+  ---
+  duration_ms: 32.2888
+  type: 'test'
+  ...
+# Subtest: scope substitutions, changed recording evidence, occupied IDs and historical slug reuse reject
+ok 26 - scope substitutions, changed recording evidence, occupied IDs and historical slug reuse reject
+  ---
+  duration_ms: 48.3891
+  type: 'test'
+  ...
+# Subtest: repeated registration produces identical bytes and zero structural edits
+ok 27 - repeated registration produces identical bytes and zero structural edits
+  ---
+  duration_ms: 184.8828
+  type: 'test'
+  ...
+# Subtest: current ledger removes resolved identity and registration tasks while keeping all 39 version reviews
+ok 28 - current ledger removes resolved identity and registration tasks while keeping all 39 version reviews
+  ---
+  duration_ms: 774.6233
+  type: 'test'
+  ...
+# Subtest: independent verification detects lost bindings, extra roles, and altered registration metadata
+ok 29 - independent verification detects lost bindings, extra roles, and altered registration metadata
+  ---
+  duration_ms: 6664.8779
+  type: 'test'
+  ...
+# Subtest: immutable original P0 and research evidence remains byte-verified after registration
+ok 30 - immutable original P0 and research evidence remains byte-verified after registration
+  ---
+  duration_ms: 2035.431
+  type: 'test'
+  ...
+# Subtest: every prior task remains mapped or resolved by this explicit registration
+ok 31 - every prior task remains mapped or resolved by this explicit registration
+  ---
+  duration_ms: 147.9406
+  type: 'test'
+  ...
+1..31
+# tests 31
+# suites 0
+# pass 31
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 19663.0642

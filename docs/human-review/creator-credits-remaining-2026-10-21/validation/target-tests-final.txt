@@ -1,0 +1,34 @@
+{
+  mode: 'verify',
+  registered: 75,
+  held: [],
+  conflicts: [],
+  stale: [],
+  roles: 203,
+  preservation: {
+    rawFields: 2670,
+    bindings: 206,
+    WorkChanges: 0,
+    unrelatedChanges: 0
+  }
+}
+✔ every newly introduced relation keeps its canonical structure when the editor saves unchanged credits (116.0034ms)
+✔ the exact original 375 tasks are parsed and human date stays unanswered (0.2617ms)
+✔ unanswered and malformed values are held until explicit clarification (387.0801ms)
+✔ 75 stable IDs are allocated once; aliases and scoped candidate merges do not duplicate identities (317.3817ms)
+✔ compound subjects split into distinct approved people without a compound Creator (0.3802ms)
+✔ all 25 automatic matches are exact full-string and unique in the original master (1.3277ms)
+✔ 39 release relationships, three raw/role confirmations and the Nor split are independent approvals (0.8793ms)
+✔ sabio / 高村風太 is one existing Creator with the full unchanged display (0.7404ms)
+✔ the explicitly changed slug retains previous URLs and all other existing metadata (0.1892ms)
+✔ all 2670 raw fields, Work and unrelated fields and prior evidence are preserved (179.8417ms)
+✔ the unlisted new song remains unresolved with no global expansion (1561.5853ms)
+✔ input/task mismatches fail before writing and current plan reproduces every changed file (1148.9828ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4771.9157

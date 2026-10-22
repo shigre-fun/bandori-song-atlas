@@ -1,0 +1,145 @@
+{
+  mode: 'verify',
+  resolved: 6,
+  held: [],
+  roles: [
+    { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+  ]
+}
+{
+  mode: 'apply',
+  resolved: 6,
+  held: [],
+  roles: [
+    { role: 'lyricist', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'composer', creatorId: 'cr-0375', raw: '牧野太洋' },
+    { role: 'arranger', creatorId: 'cr-0375', raw: '牧野太洋' }
+  ]
+}
+{
+  "mode": "generate",
+  "currentRecordCount": 890,
+  "currentCreatorCount": 446,
+  "currentWorkCount": 828,
+  "currentNextId": 447,
+  "currentGameCounts": {
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "totalSongTodoRecords": 0,
+  "totalSongTasks": 0,
+  "totalCreatorCandidates": 0,
+  "threePlusRecordCreators": 0,
+  "twoRecordCreators": 0,
+  "oneRecordCreators": 0,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 0,
+  "unregisteredCreatorCandidates": 0,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 0,
+  "currentRawSplitReviewTasks": 0,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 0,
+    "CREATOR_REGISTRATION": 0,
+    "SPLIT_REVIEW": 0,
+    "ALIAS_REVIEW": 0,
+    "ROLE_REVIEW": 0,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 0,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 0,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 0,
+  "excludedResolvedSourceEntries": 1822,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  "mode": "generate",
+  "currentRecordCount": 890,
+  "currentCreatorCount": 446,
+  "currentWorkCount": 828,
+  "currentNextId": 447,
+  "currentGameCounts": {
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "totalSongTodoRecords": 0,
+  "totalSongTasks": 0,
+  "totalCreatorCandidates": 0,
+  "threePlusRecordCreators": 0,
+  "twoRecordCreators": 0,
+  "oneRecordCreators": 0,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 0,
+  "unregisteredCreatorCandidates": 0,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 0,
+  "currentRawSplitReviewTasks": 0,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 0,
+    "CREATOR_REGISTRATION": 0,
+    "SPLIT_REVIEW": 0,
+    "ALIAS_REVIEW": 0,
+    "ROLE_REVIEW": 0,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 0,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 0,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 0,
+  "excludedResolvedSourceEntries": 1822,
+  "unmappedCurrentUnresolved": 0
+}
+{
+  status: 'PASS',
+  resolved: 6,
+  remaining: 0,
+  creatorIdByRole: { lyricist: 'cr-0375', composer: 'cr-0375', arranger: 'cr-0375' },
+  displayByRole: { lyricist: '牧野太洋', composer: '牧野太洋', arranger: '牧野太洋' },
+  creators: 446,
+  nextId: 447,
+  newCreators: 0,
+  addedRoleBindings: 3,
+  todoSongs: 0,
+  todoTasks: 0,
+  todoCandidates: 0,
+  unmappedCurrentUnresolved: 0,
+  preservation: {
+    rawFieldsPreserved: 3,
+    otherSongsChanged: 0,
+    CreatorChanges: 0,
+    WorkChanges: 0,
+    unrelatedChanges: 0
+  },
+  reapplyChangedFiles: 0,
+  todoRegenerateChangedFiles: 0,
+  tests: 'PENDING',
+  build: 'PENDING',
+  SEO: 'PENDING',
+  Functions: 'PENDING',
+  publication: { commit: false, push: false, deploy: false },
+  dataHashes: {
+    'data/works.json': '9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457',
+    'data/settings.json': 'd8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a',
+    'data/ournotes/songs.json': 'bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4',
+    'data/ournotes/admin-state.json': 'dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94',
+    'data/news.json': '04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9',
+    'data/creators.json': 'b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617',
+    'data/garupa/songs.json': '4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19',
+    'data/garupa/song-timing-research.json': 'd83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8',
+    'data/garupa/legacy-song-paths.json': '5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075',
+    'data/garupa/admin-state.json': '1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d'
+  }
+}

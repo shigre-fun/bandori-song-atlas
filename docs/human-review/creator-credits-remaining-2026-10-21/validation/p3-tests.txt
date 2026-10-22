@@ -1,0 +1,63 @@
+{
+  "mode": "generate",
+  "currentRecordCount": 888,
+  "currentCreatorCount": 371,
+  "currentWorkCount": 826,
+  "currentNextId": 372,
+  "currentGameCounts": {
+    "garupa": 800,
+    "ournotes": 88
+  },
+  "totalSongTodoRecords": 118,
+  "totalSongTasks": 375,
+  "totalCreatorCandidates": 123,
+  "threePlusRecordCreators": 11,
+  "twoRecordCreators": 16,
+  "oneRecordCreators": 96,
+  "referenceOnlyCreatorCandidates": 0,
+  "existingCreatorRoleCandidates": 27,
+  "unregisteredCreatorCandidates": 96,
+  "ournotesArrangerManualSongs": 0,
+  "lyricistCollectionSongs": 0,
+  "garupaArrangerCollectionSongs": 0,
+  "splitReviewTasks": 1,
+  "currentRawSplitReviewTasks": 1,
+  "conditionalReleaseSplitReviewTasks": 0,
+  "categoryTaskCounts": {
+    "CREDIT_COLLECTION": 0,
+    "CREATOR_IDENTITY": 129,
+    "CREATOR_REGISTRATION": 129,
+    "SPLIT_REVIEW": 1,
+    "ALIAS_REVIEW": 74,
+    "ROLE_REVIEW": 3,
+    "DISPLAY_REVIEW": 0,
+    "GAME_VERSION_REVIEW": 39,
+    "METADATA_REVIEW": 0
+  },
+  "currentUnresolvedRecordRoles": 175,
+  "sourceUnresolvedEntries": 1822,
+  "mappedTodoEntries": 473,
+  "excludedResolvedSourceEntries": 1349,
+  "unmappedCurrentUnresolved": 0
+}
+✔ all 208 candidates, three alias candidates and 280 role scopes are parsed without inventing review dates (1.2108ms)
+✔ missing quotes and invalid approval/type fields stay unresolved until the user clarification (681.3848ms)
+✔ all current data reproduces from the immutable source and stable allocation (3707.4659ms)
+✔ existing IDs are reused and same-person candidate chains merge without cycles or duplicate Creators (0.2211ms)
+✔ reference cycles remain held rather than silently choosing one new Creator (815.0022ms)
+✔ explicit new-ID declarations conflicting with old names/aliases/slugs never create a duplicate (927.5182ms)
+✔ split fields preserve the exact raw delimiters and connect separate people, including the old Yaginuma composer (46.4976ms)
+✔ unapproved records with an exactly matching new alias stay unresolved (9.4892ms)
+✔ a changed Work is rejected even when credits are otherwise reproducible (246.731ms)
+✔ non-credit changes in a reviewed song cannot pass the preservation gate (189.6743ms)
+✔ an existing co-author may not be dropped when another role is formalized (69.0215ms)
+✔ unrelated old Creator metadata cannot be changed by a P3 identity answer (11.709ms)
+✔ every original P3 task has one disposition and the regenerated ledger maps every unresolved role (58.8808ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8095.9747

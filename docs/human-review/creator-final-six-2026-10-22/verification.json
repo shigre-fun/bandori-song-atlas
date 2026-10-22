@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "resolved": 6,
+  "remaining": 0,
+  "creatorIdByRole": {
+    "lyricist": "cr-0375",
+    "composer": "cr-0375",
+    "arranger": "cr-0375"
+  },
+  "displayByRole": {
+    "lyricist": "牧野太洋",
+    "composer": "牧野太洋",
+    "arranger": "牧野太洋"
+  },
+  "creators": 446,
+  "nextId": 447,
+  "newCreators": 0,
+  "addedRoleBindings": 3,
+  "todoSongs": 0,
+  "todoTasks": 0,
+  "todoCandidates": 0,
+  "unmappedCurrentUnresolved": 0,
+  "preservation": {
+    "rawFieldsPreserved": 3,
+    "otherSongsChanged": 0,
+    "CreatorChanges": 0,
+    "WorkChanges": 0,
+    "unrelatedChanges": 0
+  },
+  "reapplyChangedFiles": 0,
+  "todoRegenerateChangedFiles": 0,
+  "tests": {
+    "status": "PASS",
+    "canonical": 289,
+    "earlierReview": 31,
+    "p1": 10,
+    "p2": 8,
+    "p3": 13,
+    "remaining": 12,
+    "finalSix": 8,
+    "total": 371
+  },
+  "build": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "garupa": 801,
+    "ournotes": 89
+  },
+  "SEO": {
+    "root": "PASS",
+    "subpath": "PASS",
+    "pages": 1345,
+    "details": 890,
+    "creatorRedirects": 19
+  },
+  "Functions": {
+    "status": "PASS",
+    "wrangler": "4.143.0"
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "dataHashes": {
+    "data/works.json": "9733c722698730ba344af2ea4c71a81b6fa8764f18f521fbb1f3ff889f803457",
+    "data/settings.json": "d8b54a6c97aa306939391468083db9cf63ece8ce8cfb35bdb3203c6038b7ba9a",
+    "data/ournotes/songs.json": "bf9bd78f8b56ea532dd563b71c208840a389756f18875feccfc8f42920b6e5e4",
+    "data/ournotes/admin-state.json": "dca942062e2033b3c82bfcd69b9f913d69ea8176ee3a7621e999fd3bc761bc94",
+    "data/news.json": "04eb135a0130c6239f685ab4b54bcc9ae09457ebcc6efcb66403486fc08316a9",
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/garupa/song-timing-research.json": "d83f57ca6d8a54c36cd59e589efa816da9fbcb58bf00fceb6d0a11370d7c06a8",
+    "data/garupa/legacy-song-paths.json": "5dff62e27fd15a450716c827a272e56070340e931d45afa747e3c8f3f02d9075",
+    "data/garupa/admin-state.json": "1f18e33aa15a218c7be2f28b243849fb29c8a8431a56419e3ff515f2f38a834d"
+  },
+  "sourceHashes": {
+    "scripts/migrations/creator-final-six-review.mjs": "210c1a7eeb05195991eac85235f5e4a803e9c05f9687c2d5ecd3ff304e1cc809",
+    "scripts/qa/creator-final-six-audit.mjs": "c948ec5f887a8a5f6d7ad3961b68e4d173c87f7f3a52277214622e62bc50fe2c",
+    "scripts/qa/creator-final-six-pages.mjs": "9629a4ff902d7e6de0f17bdaaa32ca7b6c279146df98200342bdd077ffc91d77",
+    "scripts/migrations/creator-final-six-prior-regression.mjs": "dfaa00ccea06141bb6016eec6c114f5fc009be59e1f30a79a7555cd6497d7171",
+    "tests/research/creator-final-six-review.test.mjs": "0d062bb9e14974ce50236aead68fefca7bd9391a7f39c49f9d5d449cf2a256a0",
+    "scripts/research/creator-credit-human-todo.mjs": "dfac29338f9f9522f4289b6bba50860419d52dd1c8b906683bccc18e80a109e1",
+    "scripts/migrations/creator-review-regression.mjs": "cef457066e1aff784ed4d96284428f3c8ef6197995e1abb19cbbe55beff52c51",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "3ac44eba7a0125422c41cf28be54ad99fac4de966b60793946be6827a6f90fc8",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "c066161a6ce27b9eddc2f9ecc551e4d3dcc038e37db7a9be58da6136bc5bafa6",
+    "scripts/migrations/creator-remaining-prior-regression.mjs": "7054ff59fda307abe7eeababb698ee6b20f3c51ed29faa960e6dd9bcc3409c4d"
+  },
+  "validationLogs": {
+    "docs/human-review/creator-final-six-2026-10-22/validation/target-tests.txt": "a1b8cb5bcfc91dd8c395b6a8ef0e81d64df258514ec23818a28dbbab098e7d27",
+    "docs/human-review/creator-final-six-2026-10-22/validation/earlier-review-tests.txt": "0b6d0116597c5e3eeba05b2cfbf2b795bbda6a5fa63ff44dbbe6f9c196631356",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p1-tests.txt": "95e26dfa1b9c8660dca24bb7276ed60dabfa32e12a61bdf7b704f16a1e619319",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p2-tests.txt": "4eae115f2ba8e7d744465af5e05b0375abf8fa93f830d1a936b82465a6c62adb",
+    "docs/human-review/creator-final-six-2026-10-22/validation/p3-tests.txt": "665d7b823358cb253e7a64b4998a32446a261ce0ec23e114a9a8d654e07f6cde",
+    "docs/human-review/creator-final-six-2026-10-22/validation/remaining-tests.txt": "4877ea8ddbc48b39b3972cbb5a09a837546936fcf400ce0689642b5f973e75e6",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-final-six-2026-10-22/validation/root-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-final-six-2026-10-22/validation/full-tests.txt": "907f8f299783320ccfe6f413c9776fcc1158106674cacdf6b3387c6d6258e17a",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-build.txt": "fdede5882afb650e48ac562f0b43ea6592f7812664ab334ab6448980aefc8b26",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-seo.txt": "e1d6036819720464a4b96ad7310f74361a7b372a8101ab98b8168f3b7032cef9",
+    "docs/human-review/creator-final-six-2026-10-22/validation/subpath-pages.txt": "ec26d390b94dc61d8da39e115f62aa82a913faf0661851eaaf4def7e7b54de65",
+    "docs/human-review/creator-final-six-2026-10-22/validation/functions.txt": "8f18cadbf5af4f8c34c6bc447257a5d5fd1a022c33161b347e90f44a1f589814",
+    "docs/human-review/creator-final-six-2026-10-22/validation/todo-verify.txt": "7c03d89b727df2fcd3cd12441e733fbb4533cc7dbda2b107e05979a8d5e1aa2b",
+    "docs/human-review/creator-final-six-2026-10-22/validation/format-final.txt": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+  },
+  "completedAt": "2026-10-21T15:31:15.668Z",
+  "diffCheck": {
+    "status": "PASS",
+    "scope": "Tracked and all untracked files"
+  },
+  "completionAudit": "COMPLETION_AUDIT.json",
+  "filesystemRecovery": {
+    "status": "PASS",
+    "reason": "fs.write UNKNOWN(-4094) on repeat writes; atomic replacement of identical generated bytes",
+    "results": [
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.md",
+        "sha256": "e25e96199ad51246d8dad1a1c1ffd48e94a52be7d0d3227940df6f551db569e6",
+        "unchangedBytes": true
+      },
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.json",
+        "sha256": "9e0106ca2b03b8fbe0eaa9776e270cac0d29c8e7d3c9fd657a75e779c21c68be",
+        "unchangedBytes": true
+      },
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.md",
+        "sha256": "4424df7eea5b9d99bcf4ac0e5fe225d06503af13dd809f945be773a6ed28c264",
+        "unchangedBytes": true
+      },
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.json",
+        "sha256": "45bea5507ad1dc0419a05e0ea997fb9e94c3de7727bed73c4aaa509151896df8",
+        "unchangedBytes": true
+      },
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_SUMMARY.md",
+        "sha256": "ede26eba4f496b9225189d6564e5887104dec16e8d768356baca18dfe61a2bea",
+        "unchangedBytes": true
+      },
+      {
+        "file": "docs/todo/creator-credit-human-review/HUMAN_TODO_VERIFICATION.json",
+        "sha256": "bb8ee0625ec664ceab6bba59c86439be6289e519573a7656deeb99f993ea7462",
+        "unchangedBytes": true
+      }
+    ]
+  }
+}

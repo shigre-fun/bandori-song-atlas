@@ -1,0 +1,14 @@
+{
+  result: 'PASS',
+  creators: 446,
+  songs: 890,
+  kanow: {
+    id: 'cr-0126',
+    slug: 'nozomu-kanow',
+    works: 10,
+    records: 10,
+    lyricist: 0,
+    composer: 0,
+    arranger: 10
+  }
+}

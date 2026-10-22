@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "objective": "input.txt plus all clarification responses",
+  "requirements": [
+    {
+      "requirement": "Latest HEAD and 375 exact task identities",
+      "evidence": "baseline.json; before.json.gz; migration current task/raw/candidate guards",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Preserve blank answers, dates, no invented sources",
+      "evidence": "input.txt; clarification.json; parsed-answers.json; humanReviewDate null/sourceType assertion",
+      "status": "PASS"
+    },
+    {
+      "requirement": "83 B blocks and 258 identity/registration tasks",
+      "evidence": "TASK_CORRESPONDENCE.json; review.json; all 123 original candidate keys present",
+      "status": "PASS"
+    },
+    {
+      "requirement": "25 unique full exact C auto matches; no negative override",
+      "evidence": "original master and whole unresolved tokens asserted independently in this gate",
+      "status": "PASS"
+    },
+    {
+      "requirement": "49 explicit C approvals; existing aliases only when approved",
+      "evidence": "review.json taskAnswers/aliasChanges; dedicated tests",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Existing IDs and candidate chains, two compound splits and stable new IDs",
+      "evidence": "allocation.json; dedicated 12 tests; runReview verify",
+      "status": "PASS"
+    },
+    {
+      "requirement": "39 independent release relationship answers, no credit overwrite",
+      "evidence": "review.json versionAnswers; 2670 raw preservation guard",
+      "status": "PASS"
+    },
+    {
+      "requirement": "3 Odd Dice role/raw confirmations",
+      "evidence": "review.json roleAnswers; dedicated tests",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Nor split retains existing Horie role and raw order",
+      "evidence": "review.json; dedicated split test",
+      "status": "PASS"
+    },
+    {
+      "requirement": "sabio single identity and authorized Nayuta slug with old redirect",
+      "evidence": "dedicated tests; root/subpath page audits; SEO19 redirects",
+      "status": "PASS"
+    },
+    {
+      "requirement": "375 one-to-one dispositions and both unmapped counters zero",
+      "evidence": "TASK_CORRESPONDENCE.json; verification.json; independent audit",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Current new-song tasks remain unapproved",
+      "evidence": "6 task/3 role records with zero formal refs in independent audit/dedicated tests",
+      "status": "PASS"
+    },
+    {
+      "requirement": "No extra relation, metadata, Work, raw, group, noncredit or research changes",
+      "evidence": "independent actual206=approved set; core preservation checks all baseline/protected hashes",
+      "status": "PASS"
+    },
+    {
+      "requirement": "ID/slug/previousSlug/dangling/duplicate relation validation",
+      "evidence": "validateCreatorDatabase in reproducible plan over all890 records",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Data/receipt apply idempotence and all ToDo regeneration idempotence",
+      "evidence": "verification.json; remaining-audit final log",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Six ToDo artifacts and summary regenerated",
+      "evidence": "generator verify log; sourceDataHashes; current TODO outputs",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Full standard and all earlier review plus new tests",
+      "evidence": "363 passes in pinned validation logs",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Root/subpath build, SEO, all890 details and446 Creators",
+      "evidence": "both page audits;1345page/890detail SEO logs",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Functions compile, format and tracked/untracked diff checks",
+      "evidence": "validation Functions/format logs; final diff-check command",
+      "status": "PASS"
+    },
+    {
+      "requirement": "Requested final report and uncommitted local result",
+      "evidence": "REPORT.md; unchanged HEAD; empty index; publication flags false",
+      "status": "PASS"
+    }
+  ],
+  "originalTasks": 375,
+  "mappedOnce": 375,
+  "unmapped": 0,
+  "scopePreserved": true,
+  "allRequirementsVerified": true,
+  "tests": 363,
+  "headUnchanged": "33b9264055287392b2b73189c77d365f8a01915d",
+  "indexEmpty": true,
+  "changedFiles": [
+    "WORK_LOG.md",
+    "data/creators.json",
+    "data/garupa/songs.json",
+    "data/ournotes/songs.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_CREATOR.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.json",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_BY_SONG.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_SUMMARY.md",
+    "docs/todo/creator-credit-human-review/HUMAN_TODO_VERIFICATION.json",
+    "scripts/migrations/creator-p2-prior-regression.mjs",
+    "scripts/migrations/creator-p3-prior-regression.mjs",
+    "scripts/migrations/creator-review-regression.mjs",
+    "scripts/research/creator-credit-human-todo.mjs",
+    "docs/PHP_SECURITY_REVIEW_2026-10-21.md",
+    "docs/human-review/creator-credits-remaining-2026-10-21/COMPLETION_AUDIT.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/REPORT.md",
+    "docs/human-review/creator-credits-remaining-2026-10-21/TASK_CORRESPONDENCE.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/allocation.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/baseline.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/before.json.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/clarification.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/input.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/parsed-answers.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/review.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/root-page-audit.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/subpath-page-audit.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/canonical-target-tests.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/earlier-review-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/failed-log-evidence.json",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-canonical.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/format-final.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/full-tests-earlier.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/full-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/functions.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p1-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p2-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p3-tests-earlier.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/p3-tests.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-build.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-pages.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/root-seo.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-build.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-pages.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/subpath-seo.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/target-tests-final.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/target-tests-initial.txt.gz",
+    "docs/human-review/creator-credits-remaining-2026-10-21/validation/todo-verify.txt",
+    "docs/human-review/creator-credits-remaining-2026-10-21/verification.json",
+    "scripts/migrations/creator-credit-remaining-review.mjs",
+    "scripts/migrations/creator-remaining-prior-regression.mjs",
+    "scripts/qa/creator-credit-remaining-audit.mjs",
+    "scripts/qa/creator-credit-remaining-pages.mjs",
+    "tests/research/creator-credit-remaining-review.test.mjs"
+  ],
+  "sourceHashes": {
+    "scripts/migrations/creator-credit-remaining-review.mjs": "ff7b8ea1a017a77534241d3a47efeeb28e46d374eb77e5074242783e60e5ecc4",
+    "scripts/qa/creator-credit-remaining-audit.mjs": "de64c1258bcf95e88e3ecd26c5439cc1904d03503f207f761bbeb8de067d1cc6",
+    "scripts/qa/creator-credit-remaining-pages.mjs": "d6410636571cebe642cef0c44010da973c863a771a74a7d8bfa85bcca75cbb5b",
+    "scripts/migrations/creator-remaining-prior-regression.mjs": "3655367c3d9ee95185cb5557f7e455cfe96295b2acea4272be409e409eb49669",
+    "scripts/research/creator-credit-human-todo.mjs": "a1e347bf426e1268ab82e33ceb66ae800d2c829e4e65a49fc9e343cb3ae6e39e",
+    "scripts/migrations/creator-review-regression.mjs": "e1a264e5d733b4f697ec758dd44595bd3e4b3b4d48cf8e4991cdeb4498338df5",
+    "scripts/migrations/creator-p2-prior-regression.mjs": "a0414993b7e1e7a48740073242a75238e84034e6f6dc86c118afee92350b36c0",
+    "scripts/migrations/creator-p3-prior-regression.mjs": "6b3d0610f6cd5aad9b4553d76c566ebd8c5fd3af1d0f752be85fb5f7c7c46dd0",
+    "tests/research/creator-credit-remaining-review.test.mjs": "0a4d3581efa5d8ceee91731dbd3d7df7813d5196cac700c1efd466954ba606cb"
+  },
+  "dataHashes": {
+    "data/creators.json": "b1a2ca75d02deb1e7f66bc950e46cab2a7389cd19a40cdbb4c394c3c04539617",
+    "data/garupa/songs.json": "4fec6702df9c74ea66c95606e963feb8f41deda1b53ca56496c5d49851f92e19",
+    "data/ournotes/songs.json": "cfb0ff8b567d25ca86568815759fe6ba3e4054350dab4fcea2ac0662b889195e"
+  },
+  "publication": {
+    "commit": false,
+    "push": false,
+    "deploy": false
+  },
+  "completedAt": "2026-10-21T14:40:56.945Z"
+}
