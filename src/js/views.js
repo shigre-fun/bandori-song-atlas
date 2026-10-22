@@ -207,7 +207,7 @@ ${
           .map(
             (s) => `<tr>
 <td>
-<a class="song-title" href="${siteURL(songPath(game, s.stableSongId), base)}?${e(state.toString())}">${e(s.title)}</a>${s.work ? `<div class="song-sub">${e(s.work)}</div>` : ""}<div class="song-sub">基本BPM ${e(s.bpm ?? "未確認")} · 演奏時間 ${formatDuration(s.durationSeconds)}</div></td>
+<a class="song-title" href="${siteURL(songPath(game, s.stableSongId), base)}?${e(state.toString())}" title="${e(s.title)}">${game.id === "ournotes" ? `<span class="list-song-type song-type song-type-${e(s.songType ?? "unknown")}" role="img" aria-label="楽曲タイプ：${e(s.songType ?? "未確認")}"></span>` : ""}<span class="song-title-text">${e(s.title)}</span></a>${s.work ? `<div class="song-sub song-work${s.work === "なし" ? " work-none" : ""}" title="${e(s.work)}">${e(s.work)}</div>` : ""}<div class="song-sub song-timing">基本BPM ${e(s.bpm ?? "未確認")} · 演奏時間 ${formatDuration(s.durationSeconds)}</div></td>
 <td>
 <div class="band" style="--band:${color(s, game)}">${e(s.band)}</div>
 </td>

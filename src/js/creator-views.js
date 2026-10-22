@@ -67,7 +67,7 @@ const coverageNotice = (coverage) =>
   Object.values(coverage).every((value) => value === "ready")
     ? ""
     : '<p class="notice">作詞・編曲などの「未整備」は、サイト全体でその担当のデータ整備が完了していないことを示します。担当していないことを意味しません。</p>';
-const counts = (stats, coverage, detail = false) =>
+const desktopCounts = (stats, coverage, detail = false) =>
   `<dl class="creator-counts"><div><dt>参加楽曲数</dt><dd>${stats.total}</dd></div>${CREDIT_ROLES.filter(
     (r) => detail || coverage[r] !== "unprepared",
   )
@@ -76,6 +76,15 @@ const counts = (stats, coverage, detail = false) =>
         `<div><dt>${ROLE_LABELS[r]}曲数</dt><dd>${coverage[r] !== "unprepared" ? stats[r] + (coverage[r] === "partial" ? ' <span class="notice">一部登録</span>' : "") : '<span class="notice">未整備</span>'}</dd></div>`,
     )
     .join("")}</dl>`;
+const counts = (stats, coverage, detail = false) =>
+  `${desktopCounts(stats, coverage, detail)}<div class="creator-mobile-counts"><span class="creator-total">参加楽曲数 <b>${stats.total}</b></span><span class="creator-role-counts">${CREDIT_ROLES.filter(
+    (r) => detail || coverage[r] !== "unprepared",
+  )
+    .map(
+      (r) =>
+        `${ROLE_LABELS[r]} <b>${coverage[r] === "unprepared" ? "未整備" : stats[r]}</b>${coverage[r] === "partial" ? ' <span class="notice">一部登録</span>' : ""}`,
+    )
+    .join(" ")}</span></div>`;
 export function renderCreators(creators, songs, base, coverage) {
   const originalCoverage = coverage;
   coverage = roleCoverage(coverage);
@@ -94,7 +103,7 @@ export function renderCreators(creators, songs, base, coverage) {
   )
     .map(([v, l]) => `<option value="${v}">${l}</option>`)
     .join("")}</select></label><button>表示する</button></form>
-<p id="creator-result-status" role="status">${entries.length}件のクリエイター</p><div class="creator-list">${entries.map((c) => `<article class="panel creator-card" data-creator-id="${c.id}" data-total="${c.stats.total}" ${CREDIT_ROLES.map((r) => `data-${r}="${c.stats[r]}"`).join(" ")}><h2><a href="${e(siteURL(creatorPath(c), base))}">${e(c.name)}</a></h2><p>${CREATOR_TYPES[c.type]}</p>${counts(c.stats, coverage)}</article>`).join("")}</div><p id="creator-empty" class="notice" hidden>条件に該当するクリエイターはいません。</p>
+<p id="creator-result-status" role="status">${entries.length}件のクリエイター</p><div class="creator-list">${entries.map((c) => `<article class="panel creator-card" data-creator-id="${c.id}" data-total="${c.stats.total}" ${CREDIT_ROLES.map((r) => `data-${r}="${c.stats[r]}"`).join(" ")}><h2><a href="${e(siteURL(creatorPath(c), base))}" title="${e(c.name)}">${e(c.name)}</a></h2><p class="creator-type">${CREATOR_TYPES[c.type]}</p>${counts(c.stats, coverage)}</article>`).join("")}</div><p id="creator-empty" class="notice" hidden>条件に該当するクリエイターはいません。</p>
 <script id="creator-page-data" type="application/json">${safeJSON({ creators: entries.map(({ stats, ...c }) => c), roleCoverage: originalCoverage ?? coverage })}</script>`;
 }
 export function renderCreatorDetail(creator, songs, works, base, coverage) {
@@ -108,7 +117,7 @@ export function renderCreatorDetail(creator, songs, works, base, coverage) {
     new URLSearchParams(),
     siteURL(creatorPath(creator), base),
   );
-  return `<a class="back" href="${siteURL("creators/", base)}">← クリエイター一覧に戻る</a><h1>${e(creator.name)}</h1><p>${CREATOR_TYPES[creator.type]}</p><section class="panel"><h2>参加クレジット</h2>${counts(stats, coverage, true)}<p>収録件数：${stats.recordings}件</p><p class="notice">上記は全収録の総数です。同じWorkは参加楽曲数とrole別曲数で1曲、収録件数では別々に数えます。下の絞り込みで総数は変わりません。</p>${coverageNotice(coverage)}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}</section>
+  return `<a class="back" href="${siteURL("creators/", base)}">← クリエイター一覧に戻る</a><h1>${e(creator.name)}</h1><p>${CREATOR_TYPES[creator.type]}</p><section class="panel creator-summary"><h2>参加クレジット</h2>${counts(stats, coverage, true)}<p class="creator-summary-recordings">収録件数：${stats.recordings}件</p><p class="notice creator-summary-description">同じ作品の別収録は、参加楽曲数・担当別曲数では1曲、収録件数では別々に数えます。絞り込みを変更しても、上記の総数は変わりません。</p>${coverageNotice(coverage)}${coverage.arranger === "partial" ? '<p class="notice">アワーノーツの編曲は一部登録です。曲数・絞り込みは確認済みの登録分を示します。未整備は担当者なしを意味しません。</p>' : ""}</section>
 <form id="creator-controls" class="creator-controls" method="get"><label for="creator-role">担当<select id="creator-role" name="role"><option value="">すべて</option>${availableCreditRoles(
     coverage,
   )
