@@ -4,6 +4,8 @@
 
 ## 現在地
 
+- 2026-10-23 終了確認。本番サイトの検索改善は公開・検証済み（製品d9cfa2b、標準/CI297・全449page/486HTTP/12module/4catalog・本番12view/7操作error0）。公開記録4文書を3acdb98で通常push済、fresh fetchでHEAD-origin一致・tracked/index空・製品以後4文書限定・全data/source/PHP保全PASSをfinal-git.jsonへ保存。現在の実装作業なし。残件：別配信先GitHub Pagesの既存deploy119895249661がqueued、旧配信のためその公開成功/実UI未確認、公式遅延報告あり・承認要求なし。未完了を完了扱いせずpublication.jsonへ記録、重複再公開0。次：外部待機解消後に先頭下記の同SHA status→public pages→GHP実ブラウザーを行い、別配信先の記録を更新。自己process/tab終了・viewport復元、未追跡PHPは依頼外として保持。この終了確認1fileだけをskip CI同期する。
+
 - 2026-10-23 本番公開完了・確認済。製品d9cfa2b/main push、Cloudflare同SHA success、公開前297test/両buildSEO、CI実Node22.23.4/297test、実本番486HTTP・449page・12module・4catalog・OGP/SEO/最新news全一致、12view(一覧/個別×6幅)と7実操作・console error0。全data/source/対象外PHP SHA保全、viewport reset/自己tab終了。現在：公開記録4文書限定skip CI同期→Git最終確認。未完了：別配信先GitHub Pages deploy119895249661/run39798893946がqueued、実host旧内容（初回public pagesはLatest news preserved / assertionでexit1、製品不具合ではなく未反映）。pending_deployments空、公式Actions結果遅延https://www.githubstatus.com/incidents/q29p76qtnkykを確認、当jobとの因果は断定しない・重複dispatch0。公開reportはdocs/research/search-readings-2026-10-22/publication.jsonのPRIMARY_DEPLOYED_AND_VERIFIED_SECONDARY_PENDING。次：既存job完了時 .cache/node-security/runtimes/node-v22.23.4-win-x64/node.exe .cache/search-release-2026-10-22/status.mjs d9cfa2b84205dfe3d814e87d061a4668a0e3c376 → 同public.mjs SHA pages → GHP実ブラウザー→記録更新。主サイト公開要件は完了、別配信先未完了を完了に書換えない。
 
 - 2026-10-22 Cloudflare同製品SHA公開success、本番HTTP486/449対象page本文header/12module/4catalog/OGP/SEO/最新news全一致PASS・retry/失敗0。CI実log Node22.23.4・297test失敗0も確認済。実IABおだ2件/入力中維持/submitふじた1件/Enter/sort確定語保持/個別から一覧検索と一覧・個別6幅成功。現在：残画面/曲例確認とGitHub Pages deploy待ち（同SHA build成功/deploy queued、API runs空一覧は既知run直接GETへ補完し状態変更なし）。未完了：GHP配信検証・終了記録同期。スクリーンショットはresize直後に旧paintを拾ったためviewport/state確認後取り直す、実DOM配置は全幅一致。次：本番曲例/画像→GHP同SHAstatus/HTTP→docsのみskip CI同期。
@@ -1682,3 +1684,5 @@
 - 未完了：別配信先GHP deploy queued、実host旧版。公式Actions結果処理遅延あり・原因の断定なし・承認要求なし。既存jobを残し、重複dispatchせず完了後に同SHA public pages/実UIを検証する。status/pendingと次commandは先頭に明記。本番公開そのものは完了。
 - 問題と対処：最新news2test固定前提はfixture/表示空白比較へ修正し297成功。API run空一覧は既知id直接GETで補完。resize直後の旧paint画像はviewport/state後再撮影。最初のGHP実probeは旧newsでexit1をpages-first-probe.jsonへ記録。本番の失敗/HTTP retryは0。全既存失敗履歴を保持。
 - 検証していない範囲：GHP公開後確認、Cloudflare内部build実logの直接取得（同SHA check/実本番一致は確認済）。自己serverなし・viewport reset・自己tab終了。自動承認拒否なし。
+
+- 2026-10-23 終了Git監査：3acdb98の4文書通常push/fresh fetch一致、製品以後文書限定・index/通常diff空・全source/data/PHP SHA保全PASS。本番公開完了、別配信先GHP queuedを未完了のまま明示し、終了確認1fileをskip CI同期する。
