@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 829,
+  "nextId": 830,
   "works": [
     {
       "id": "wk-0001",
@@ -4150,6 +4150,11 @@
     {
       "id": "wk-0828",
       "title": "フレーム・バイ・フレーム",
+      "source": "admin-explicit-new"
+    },
+    {
+      "id": "wk-0829",
+      "title": "新人類は仮想世界の夢を見るか？",
       "source": "admin-explicit-new"
     }
   ]

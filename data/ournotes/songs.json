@@ -1544,6 +1544,95 @@
           "lyricist": "藤原優樹(SUPA LOVE)",
           "revision": "70989efe-f377-4a8a-9bca-f9847ab97f94",
           "arranger": "長谷川大介(SUPA LOVE)"
+        },
+        {
+          "id": 90,
+          "title": "新人類は仮想世界の夢を見るか？",
+          "reading": "シンジンルイハカソウセカイノユメヲミルカ",
+          "releaseDate": "2026-10-23T15:00+09:00",
+          "releaseOrder": null,
+          "composer": "こゆびちゃん、杉原亮",
+          "originalArtist": null,
+          "originalWork": "なし",
+          "mv": false,
+          "songType": "山吹",
+          "gekisouSections": [
+            "JUST",
+            "JUST",
+            "JUST"
+          ],
+          "relatedSongIds": [],
+          "bpm": 180,
+          "bpmMin": null,
+          "bpmMax": null,
+          "durationSeconds": 117,
+          "aliases": [],
+          "difficulties": {
+            "EASY": {
+              "level": 8,
+              "notes": 407
+            },
+            "NORMAL": {
+              "level": 13,
+              "notes": 580
+            },
+            "HARD": {
+              "level": 22,
+              "notes": 730
+            },
+            "EXPERT": {
+              "level": 27,
+              "notes": 1014
+            }
+          },
+          "credits": [
+            {
+              "creatorId": "cr-0447",
+              "roles": [
+                "lyricist",
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0448",
+              "roles": [
+                "composer"
+              ]
+            },
+            {
+              "creatorId": "cr-0028",
+              "roles": [
+                "arranger"
+              ]
+            }
+          ],
+          "creditDisplay": {
+            "lyricist": [
+              {
+                "creatorId": "cr-0447"
+              }
+            ],
+            "composer": [
+              {
+                "creatorId": "cr-0447"
+              },
+              {
+                "text": "、"
+              },
+              {
+                "creatorId": "cr-0448"
+              }
+            ],
+            "arranger": [
+              {
+                "creatorId": "cr-0028"
+              }
+            ]
+          },
+          "lyricist": "こゆびちゃん",
+          "arranger": "堀江晶太",
+          "workId": "wk-0829",
+          "submissionId": "c13d659c-42d9-4756-83e6-ae3222f7718d"
         }
       ]
     },
