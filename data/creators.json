@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 447,
+  "nextId": 448,
   "creators": [
     {
       "id": "cr-0001",
@@ -4759,6 +4759,14 @@
       "aliases": [
         "多田 慎也"
       ]
+    },
+    {
+      "name": "こゆびちゃん",
+      "sortKey": "koyubi-chan",
+      "slug": "creator-447",
+      "type": "person",
+      "aliases": [],
+      "id": "cr-0447"
     }
   ],
   "roleCoverage": {
@@ -4774,5 +4782,6 @@
       "garupa": "ready",
       "ournotes": "ready"
     }
-  }
+  },
+  "lastOperationId": "e4af2e4c-2eed-44ff-b33c-4753c49b29ce"
 }
