@@ -61,10 +61,10 @@ Zero Trust → Access controls → Applicationsを開く。本番管理用アプ
 
 Policiesで、Includeが指定メール1件のみ、RequireがLogin Method / One-time PINであることを確認する。DetailsのSession Durationは24 hoursを維持する。[Accessの公式設定方法](https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/self-hosted-public-app/)、[Pages標準ドメイン/Previewの公式注意事項](https://developers.cloudflare.com/pages/platform/known-issues/#enable-access-on-your-pagesdev-domain)
 
-## 公開前の実確認と残件
+## 公開前の実確認と、その後の公開
 
 認証Cookieを送らないHTTP確認では、公開トップ/お問い合わせページ200、問い合わせAPIのGET405、本番管理root/ニュース/偽造Cookie要求は302でAccessへ進むことを確認した。標準ドメインと新旧deploymentの管理URLは既存の301転送を経由し、独自ドメイン側のAccessへ302となる。転送後の一般ページが見えただけで認証を迂回できたとは判断せず、管理URLの転送先まで確認する。
 
 証拠はGit対象外の `.cache/management-release-2026-10-24/cloudflare-settings.json` と `.cache/management-access-2026-10-23/cloudflare-edge-audit-2026-10-24.json`。管理URLのメール入力画面は、実アドレス/team名を除いたフォーム部分だけを `access-login.png` として保存した。
 
-**この段階では新しい管理画面コードは未公開。** 旧管理URLの404、本人の実OTPによる管理画面表示、GitHub Pagesへの新コード反映、公開後の全経路確認は、コードの公開後に完了させる。Cloudflare設定の確認と、管理ページ移行の全工程完了は区別する。
+上記はコード公開前の設定確認。その後、運営者から「本番公開まで進める」の回答を受けてコードを公開し、本人OTP・旧URLの404・GitHub Pagesへの反映・全経路を確認した。旧管理ページの残存キャッシュも配信処理で明示拒否する修正を公開した。[最終製品と検証結果](MANAGEMENT_PUBLICATION_2026-10-24.md)を参照する。

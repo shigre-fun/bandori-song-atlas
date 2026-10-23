@@ -4,7 +4,7 @@
 
 ## 配置設定
 
-環境の切り替えが見えない場合の実操作と、2026-10-24のCloudflare設定確認は[初心者向けの設定・確認手順](CLOUDFLARE_SETTINGS_2026-10-24.md)を参照する。Production/Previewの実設定は確認・暗号化済みだが、以下のローカル検証記録だけで本番公開や実OTP確認が済んだとは扱わない。
+環境の切り替えが見えない場合の実操作と、2026-10-24のCloudflare設定確認は[初心者向けの設定・確認手順](CLOUDFLARE_SETTINGS_2026-10-24.md)を参照する。同日の本番公開・本人OTP・全経路の結果は[公開確認記録](MANAGEMENT_PUBLICATION_2026-10-24.md)に記載した。以下のローカル検証だけで本番確認を代替しない。
 
 未設定時と `MANAGEMENT_MODE=disabled` は、管理HTML・専用JS/CSS・接続設定をWorkerへ組み込まない。GitHub Pagesのworkflowは明示的にdisabledを指定する。旧管理URLへの互換転送は作らない。
 

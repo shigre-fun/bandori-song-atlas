@@ -4,6 +4,12 @@
 
 ## 現在地
 
+- 2026-10-24 終了状態：管理URL移行・Access設定・本番公開・本人OTP・元計画の全成功条件は完了、製品作業中なし/未完了0。最終製品0a8bc49、公開/全306/両host全1348頁/49拒否/全data保全はcompletion.jsonで再照合PASS。設定手順・制約・初回失敗/対処・公開結果をMANAGEMENT_PUBLICATION等へ記録し、この5docだけskip CI同期する（追加製品deployなし）。同期後のHEAD-origin一致/空index・tracked tree/製品以後docs限定はignored final-gate.jsonへ保存。新URLはチャットだけで案内、保存時GitHub認証は維持。次の新規依頼ではWORK_LOG/cwd/Git/実体と同final gateを確認して再開する。
+
+- 2026-10-24 最終製品0a8bc49の公開・認証・全監査完了。CF27d247a9/Actions39998131375/GHP7285047294同SHA全success、両実build全306/Node22.23.4。公開後本番1396HTTP/GHP1395HTTP・各全1348頁/5catalog/25module一致、本番retry0/GHP一時503の2件は再試行成功。49匿名/偽造/別表記/標準/新旧deployment/GHP経路全PASS、旧root/news/creatorsのquery無し404・実owner OTP後3画面/両game再確認成功。10data/PHP全SHA保持、既存draft/mock保存/9UI証拠保持、実保存0・GitHub token入力0・trial mail0。completion.json DEPLOYED_AND_VERIFIED/remaining=[]。証拠集約helperがcatalog配列と件数を誤比較して初回失敗→lengthへ訂正しPASS、文書patchの行全体不一致も実体に合わせ訂正（製品変更なし）。現在：完了記録5docだけskip CI同期→fresh HEAD-origin/index空/製品以後docs限定の最終gate→Goal complete/新URLをchatだけで案内。Cloudflare臨時tab閉鎖・認証済み管理tab保持、各自身session終端、対象外PHP維持。
+
+- 2026-10-24 追加4fileのcached hash/secret0/保全gate成功、0a8bc49df3ba183422f031e164aa8ac23645f820を通常main push成功。公開時index/tracked空（PHP対象外のみ）。同SHA Actions39998131375 build120566904633とCloudflare27d247a9は進行中。現在：同deployment完了→49匿名経路・両公開全頁/カタログ再監査・本人認証sessionで3画面再確認。0a8bc49以外の重複deployなし、実データ保存0。次：CI/CF完了statusと実buildlogを確認、最終公開証拠を集約して文書のみskip CI同期。
+
 - 2026-10-24 限定stageの通常sandboxは.git/index.lock作成Permission denied。stageされていないためcached gateも期待どおり不一致で失敗、続くcommitも同権限で失敗し変更なし。自動承認拒否ではなくfilesystem制限、承認付き同4file stageへ切替。全306/保全成功は維持し公開未追加。
 
 - 2026-10-24 38469終端0、全306/disabled・subpath・実protected buildSEO1348頁891曲/Functions4.152.0 compile/10dataとPHP保持・static private0/漏えい0の追加修正gate成功。現在：4file限定stage/hash→通常main commit/push、同SHA CF/GHP公開と49匿名経路・本人session確認へ。先行54e54ae公開時の成功/失敗証拠はinitial-54e54aeと個別before/after purgeへ保持。公開後監査まで未完了。

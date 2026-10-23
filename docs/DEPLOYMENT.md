@@ -2,9 +2,11 @@
 
 管理画面は[管理配信・認証設定](MANAGEMENT_ACCESS.md)に従い、設定済みのCloudflare本番だけへ生成します。未設定とGitHub Pagesでは生成しません。旧管理URLは404となり、転送しません。
 
-お問い合わせフォームの公開には、通常ビルドに加えてResend・Turnstile・Pagesの5環境変数の設定が必要です。[お問い合わせの設定・運用](CONTACT.md)を参照してください。Pagesは既存Git連携を使い、ルートの `functions/api/contact.js` を同時にデプロイします。`dist/_routes.json` によりFunctionの呼び出しは問い合わせAPIに限定します。2026-10-01に運営者からProduction設定完了の報告を受領しています。公開と実送受信の検証結果はCONTACT.mdに記録します。
+お問い合わせフォームの公開には、通常ビルドに加えてResend・Turnstile・Pagesの5環境変数の設定が必要です。[お問い合わせの設定・運用](CONTACT.md)を参照してください。Pagesは既存Git連携を使い、ルートの `functions/api/contact.js` を同時にデプロイします。管理保護が有効な本番では、`dist/_routes.json` は管理URLを記載せずにFunctionsへ振り分け、既知の公開ファイルを除外します。管理保護が無効なビルドでは問い合わせAPIだけを対象にします。2026-10-01に運営者からProduction設定完了の報告を受領しています。公開と実送受信の検証結果はCONTACT.mdに記録します。
 
 公開URLは `https://tanimachi-bdsongs.com/` です。独自ドメイン、301転送、Search Console、sitemap、X-Robots-Tag、旧GitHub Pagesからの移行、Web Analyticsは設定済みです。画像更新時にこれらの設定を作り直さないでください。
+
+2026-10-24に管理保護の最終製品 `0a8bc49` を本番とGitHub Pagesへ公開しました。Cloudflareの管理画面から実ビルドのNode 22.23.4、全306テスト、Functionsのコンパイルと公開成功を直接確認し、同SHAのActionsも成功しました。本人OTP・旧管理URLの404・別ドメインの拒否・両配信先の全1,348ページ照合を含む結果は[管理画面の公開確認記録](MANAGEMENT_PUBLICATION_2026-10-24.md)を参照してください。
 
 ## ビルド
 
@@ -18,7 +20,7 @@ Phase B2以降のCloudflare Pagesのビルドコマンドは次のとおりで�
 node scripts/build.mjs && pnpm test && node scripts/qa/audit-build.mjs dist https://tanimachi-bdsongs.com /
 ```
 
-`pnpm test` は既存253件のassertを維持した履歴入力で回帰検証します。Creator公開時の24件は、公開commit `769bbed` のSHA検証済みfixtureで実行します。通常の管理画面編集後のデータは、現在の参照整合性・採番・生成カタログ一致とトップページのテストで別途検証します。公開当時の演奏時間や更新日時を現行データへ戻す必要はありません。以前の `node --test tests/*.test.mjs` は履歴段階の件数・予約IDを現行データに対して直接検証してしまうため、CloudflareのBuild command設定も更新してください。再試行するdeploymentのcommit SHAが目的のrelease SHAと一致することを確認します。過去のdeploymentのRetryはその過去のcommitを再buildします。
+`pnpm test` は履歴入力で既存assertを維持し、2026-10-24の管理保護対応では全306テストを実行します。Creator公開時の24件は、公開commit `769bbed` のSHA検証済みfixtureで実行します。通常の管理画面編集後のデータは、現在の参照整合性・採番・生成カタログ一致とトップページのテストで別途検証します。公開当時の演奏時間や更新日時を現行データへ戻す必要はありません。以前の `node --test tests/*.test.mjs` は履歴段階の件数・予約IDを現行データに対して直接検証してしまうため、CloudflareのBuild command設定も更新してください。再試行するdeploymentのcommit SHAが目的のrelease SHAと一致することを確認します。過去のdeploymentのRetryはその過去のcommitを再buildします。
 
 失敗した画像生成はビルドを終了コード0にしません。公開環境で `SITE_ORIGIN` を指定する場合は `https://tanimachi-bdsongs.com`、`BASE_PATH` は `/` にしてください。旧 `SITE_BASE_PATH` が設定されている場合は同じ `/` と一致させます。
 
