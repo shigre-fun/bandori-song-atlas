@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextId": 448,
+  "nextId": 449,
   "creators": [
     {
       "id": "cr-0001",
@@ -4767,6 +4767,14 @@
       "type": "person",
       "aliases": [],
       "id": "cr-0447"
+    },
+    {
+      "name": "杉原亮",
+      "sortKey": "すぎはらりょう",
+      "slug": "ryo-sugihara",
+      "type": "person",
+      "aliases": [],
+      "id": "cr-0448"
     }
   ],
   "roleCoverage": {
@@ -4783,5 +4791,5 @@
       "ournotes": "ready"
     }
   },
-  "lastOperationId": "e4af2e4c-2eed-44ff-b33c-4753c49b29ce"
+  "lastOperationId": "791c0221-6b7f-4c1e-8d25-912cfe183baa"
 }
