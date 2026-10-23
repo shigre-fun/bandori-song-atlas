@@ -242,6 +242,32 @@ test("forged, expired, wrong issuer/audience/email and missing required claims a
     }
   }));
 
+test("retired admin URLs never reach cached static assets in any management mode", async () => {
+  for (const settings of [env, {}, { MANAGEMENT_MODE: "disabled" }]) {
+    for (const path of [
+      "/admin",
+      "/admin/",
+      "/admin/news/",
+      "/admin/creators/",
+      "/admin/index.html",
+      "/admin.js",
+      "/admin-news.js",
+      "/admin-creators.js",
+      "/admin-config.json",
+      "/admin.css",
+      "/%61dmin/",
+      "/admin%2fnews/",
+      "/atlas/admin/",
+    ]) {
+      const { response, passed } = await request({ path, settings });
+      assert.equal(response.status, 404, path);
+      assert.equal(passed, 0, path);
+      assert.match(response.headers.get("Cache-Control"), /no-store/);
+      assert.equal(await response.text(), "");
+    }
+  }
+});
+
 test("signing-key fetch failure fails closed", async () => {
   const original = globalThis.fetch;
   globalThis.fetch = async () => {

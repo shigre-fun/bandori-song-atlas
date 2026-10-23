@@ -26,7 +26,11 @@ export async function managementAccess(context, servePrivate) {
   if (/\/(?:_routes\.json|_headers|_redirects|_worker\.js)$/.test(pathname))
     return denied(404);
   const candidate = /(?:^|\/)[a-f0-9]{32}(?:\/|$)/.test(pathname);
-  if (!candidate) return context.next();
+  if (!candidate) {
+    // Reject retired URLs before Pages can return a cached legacy asset.
+    if (/(?:^|\/)admin(?:[./-]|$)/.test(pathname)) return denied(404);
+    return context.next();
+  }
   let settings;
   try {
     settings = managementSettings(context.env);

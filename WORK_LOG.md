@@ -4,6 +4,20 @@
 
 ## 現在地
 
+- 2026-10-24 限定stageの通常sandboxは.git/index.lock作成Permission denied。stageされていないためcached gateも期待どおり不一致で失敗、続くcommitも同権限で失敗し変更なし。自動承認拒否ではなくfilesystem制限、承認付き同4file stageへ切替。全306/保全成功は維持し公開未追加。
+
+- 2026-10-24 38469終端0、全306/disabled・subpath・実protected buildSEO1348頁891曲/Functions4.152.0 compile/10dataとPHP保持・static private0/漏えい0の追加修正gate成功。現在：4file限定stage/hash→通常main commit/push、同SHA CF/GHP公開と49匿名経路・本人session確認へ。先行54e54ae公開時の成功/失敗証拠はinitial-54e54aeと個別before/after purgeへ保持。公開後監査まで未完了。
+
+- 2026-10-24 追加修正の全306test（232+35+24+15）成功、38469はsubpath buildへ。正規private admin.jsを巻き込む未公開初回不具合は修正済み、対象9testと全回帰で解消。現在：subpath/protected buildSEO/Functions compile、以後4file限定公開と49匿名経路/実auth再確認。全data/PHP保持・新URL/Access設定不変、本番への試験保存0。
+
+- 2026-10-24 追加回帰の初回は231/232成功、新private root配下のadmin.jsも旧URL拒否に巻き込むことを既存署名許可testが検出。未公開のまま条件をprivate候補外へ限定し、署名許可/旧13path×3modeを含む対象9test成功。初回失敗log/receipt保持、同じ既成功disabled buildは再実行せず全回帰から再開。320pxの実認証4viewも横overflowなし。Win32 process照会は権限拒否（既存exec sessionで終端確認し重複実行なし）。次：全306/両buildSEO/compile成功→限定公開→全経路確認。
+
+- 2026-10-24 旧12URL限定purgeはUI成功toast確認、再HTTPでroot/news404になった一方creatorsが旧200へ再出現。静的fallbackのcacheに依存しないようsrc/server/management-access.jsへ旧admin系の明示404/no-storeを追加、13path×3modeでcontext.next未実行の回帰test追加（全306予定）。元2回FAIL保存。現在40712で全回帰/3buildSEO/Functions検証、補助scriptの深さ参照誤りは実行開始前に修正して終端失敗記録、prettier探索不存在は実在node_modulesへ訂正。実auth3画面成功と新URL設定は保持、次：検証成功→限定追加commit/push→同SHA両公開/旧経路/実auth再確認、完了前に終了監査。
+
+- 2026-10-24 本人OTP成功を実画面で確認し両game切替・news/creators全form表示、token空/実保存0。54e54ae同SHA CF badac1d0/GHP/CI全success・実305test成功、本番/GHP各全1348page+5catalog+25module照合PASS（1396/1395HTTP）。匿名34経路は32成功、旧/admin/と/admin/news/だけquery無しで旧HTML200・ageあり、cache-bust付き404との不一致を発見。未完了を保持しCFキャッシュ解消中、元FAIL receiptを保存する。次：旧URLのcache限定purge→query無し34経路再検証→終了監査/文書同期。本人再OTP不要、全process84213/98897終端0・97798終端1、製品追加変更0。
+
+- 2026-10-24 製品54e54ae3d9d2735cdffdf47269c77466a3d422a2を33file限定commit/main通常push成功（33042終端0）。親bb83909のユーザーデータ全保持、stage全filtered blob一致/秘密0/preflight成功、公開時tracked/index空・PHP対象外のみ。現在：同SHA CI/Cloudflare/GHPの公開待ち→公開後全data/ページ・旧admin404・別URL/偽造と本人OTP確認。未完了：実配信と認証後3画面、元計画の全成功条件まで対策完了としない。次：新status helperで同SHA確認、成功後public audit、OTP入力だけ運営者へhandoff。実メール/本番データへの試験書込0、公開後の記録はdocs限定skip CIで同期する。
+
 - 2026-10-24 運営者が確認質問へ「本番公開まで進める」と明示回答。先の公開保留条件を解除し、33file限定公開と公開後検証を継続する。直前の自動継続では未承認のため読取fresh fetchのみ実施、originはbb83909のまま・新差分なし。前goal turnはCF設定・最新305/両配置/保護build/compile完了という進捗、今回も実状態で33file/preflightを再確認する。現在：最新preflight→限定stage/cached hash→main通常commit/push。次：同SHA CF/GHP/CI・全公開catalog/data保持・旧admin404・管理別表記/偽造/標準新旧preview経路→本人OTP3管理画面確認。全経路まで未完了、確認用データ/メール送信は行わない。
 
 - 2026-10-24 CF設定支援と公開前準備を完了、公開承認待ち。Production protected/5Secret・Preview disabled/他管理キー不在・両Fail closed・両policy指定email1件/OTP/24hを保存後再確認、標準/新旧deploymentの管理URLも301→302Access、公開/contact正常。URL正規化incoming ON、Cache/Cache Response/Page Rules各0。最新版bb83909の10data/PHP保持、最終305＋設定拒否を含む対象8test・通常/実保護/subpath SEO1348page/891曲・Functions compile成功（45137終端0）、33file限定preflight PASS/秘密混入0/index空。公開前followupはCreator増加対応のtestとorigin必須化、例示・文書だけ。**前回のユーザー調査指示に「現段階では本番デプロイは行わず」があるため、今回のCloudflare設定代行依頼だけを根拠に公開まで拡張せず、commit/push/deployは未実施。** ここまでの公開準備はローカルで具体化・検証済みとして提示し、公開可否を最終確認する。新管理コード未公開/旧admin200/本人OTP未確認なので移行対策全体は未完了。次：明示の公開回答後、fresh fetch/main差分確認→33file preflight/stage/hash/通常commit-push→同SHA CF/GHPと旧404/偽造・別URL/実OTP管理3画面/全データ確認。IAB1(Pages Preview)・management認証tabをhandoff保持、Access/確認tabは閉じた。自己process全終端、他作業/PHP保持。CF設定支援の成果物はdocs/CLOUDFLARE_SETTINGS_2026-10-24.md、証拠は.cache/management-release-2026-10-24/、認証画面は実team名を除いたcropのみ。先の「次にpush」記載は公開が許可された後の手順として扱い、未承認では実行しない。
