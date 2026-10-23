@@ -4762,11 +4762,14 @@
     },
     {
       "name": "こゆびちゃん",
-      "sortKey": "koyubi-chan",
-      "slug": "creator-447",
+      "sortKey": "こゆびちゃん",
+      "slug": "koyubi-chan",
       "type": "person",
       "aliases": [],
-      "id": "cr-0447"
+      "id": "cr-0447",
+      "previousSlugs": [
+        "creator-447"
+      ]
     },
     {
       "name": "杉原亮",
@@ -4791,5 +4794,5 @@
       "ournotes": "ready"
     }
   },
-  "lastOperationId": "791c0221-6b7f-4c1e-8d25-912cfe183baa"
+  "lastOperationId": "591fea39-06a0-4f3c-a2e5-c4fe8041b27c"
 }
