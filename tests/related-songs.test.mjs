@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { GAMES, siteSettings } from "../src/js/site-config.js";
 import { loadGameCatalog } from "../scripts/catalog.mjs";
 import {
@@ -144,7 +145,7 @@ test("public pages avoid admin links while the direct editor remains available",
   const home = fs.readFileSync("dist/index.html", "utf8");
   assert.match(home, /<h2>バンドリ！ガールズバンドパーティ！<\/h2>/);
   assert.match(home, /<h2>バンドリ！アワーノーツ<\/h2>/);
-  const admin = fs.readFileSync("dist/admin/index.html", "utf8");
+  const admin = readBuilt("admin/index.html");
   assert.match(admin, /楽曲を追加・修正/);
   assert.match(admin, /name="robots" content="noindex,nofollow"/);
   for (const asset of [
@@ -153,7 +154,7 @@ test("public pages avoid admin links while the direct editor remains available",
     "github-store.js",
     "admin-config.json",
   ])
-    assert.ok(fs.existsSync(`dist/${asset}`), asset);
+    assert.ok(existsBuilt(builtPath(asset)), asset);
   assert.ok(!fs.existsSync("dist/garupa/index.html"));
   assert.ok(!fs.existsSync("dist/ournotes/index.html"));
 });

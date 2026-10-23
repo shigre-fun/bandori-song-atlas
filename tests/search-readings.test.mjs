@@ -87,7 +87,19 @@ test("all reviewed Creator readings are searchable as hiragana and katakana, wit
   const research = read(
     "docs/research/search-readings-2026-10-22/creator-readings.json",
   );
-  assert.equal(research.audit.length, master.creators.length);
+  assert.equal(research.audit.length, research.creatorCount);
+  const currentCreatorIds = new Set(
+    master.creators.map((creator) => creator.id),
+  );
+  assert.equal(
+    new Set(research.audit.map((row) => row.id)).size,
+    research.creatorCount,
+  );
+  for (const row of research.audit)
+    assert.ok(
+      currentCreatorIds.has(row.id),
+      `Reviewed Creator missing: ${row.id}`,
+    );
   assert.equal(research.entries.length, 48);
   for (const row of research.entries) {
     const creator = master.creators.find((c) => c.id === row.id);

@@ -1,6 +1,6 @@
 # バンドリ楽曲録
 
-作詞・作曲・編曲の[Creator DBとWork仕様](docs/CREATORS.md)を追加しました。`/creators/` で参加作品を探し、`/admin/creators/` で確認済み主体を登録します。人物同定は段階migrationで進め、未確認表記を推測統合しません。
+作詞・作曲・編曲の[Creator DBとWork仕様](docs/CREATORS.md)を追加しました。`/creators/` で参加作品を探し、認証済み管理画面で確認済み主体を登録します。人物同定は段階migrationで進め、未確認表記を推測統合しません。
 
 現在の掲載890収録は、両ゲームとも作詞・作曲・編曲の原文と正式Creator関係を登録済みです。[整備状況の全件監査](docs/CREATOR_ROLE_COVERAGE_2026-10-22.md)を参照してください。過去段階の記録は[第2フェーズ検証報告](docs/CREATOR_PHASE2_REPORT.md)と[同定候補レビュー](docs/migrations/creators-2026-10-02/creator-review.md)に保持しています。
 
@@ -33,7 +33,7 @@ BPM（基本・下限・上限）とゲーム内演奏時間も編集できま�
 - [ガルパ楽曲一覧](https://tanimachi-bdsongs.com/garupa/songs/)
 - [アワーノーツ楽曲一覧](https://tanimachi-bdsongs.com/ournotes/songs/)
 - [お知らせ](https://tanimachi-bdsongs.com/news/)
-- [スマホから楽曲を追加する管理ページ](https://tanimachi-bdsongs.com/admin/)
+- [スマホ管理ページの利用手順](docs/ADMIN.md)（管理URLは運営者が別途保管）
 
 ## 最初の準備
 
@@ -42,7 +42,7 @@ Windowsでこのプロジェクト専用のportable版を使う場合は `powers
 
 ## 既存の楽曲を修正する
 
-スマホからは[管理ページ](https://tanimachi-bdsongs.com/admin/)に接続し、「曲の一覧を取得・更新」→曲を検索・選択→「選んだ曲を読み込む」→「変更を保存する」で修正できます。URLと管理IDは維持し、他端末で同じ曲が変更されていた場合は上書きを停止します。詳細は[管理ページの手順](docs/ADMIN.md)を参照してください。
+スマホからは認証済み管理画面に接続し、「曲の一覧を取得・更新」→曲を検索・選択→「選んだ曲を読み込む」→「変更を保存する」で修正できます。URLと管理IDは維持し、他端末で同じ曲が変更されていた場合は上書きを停止します。詳細は[管理ページの手順](docs/ADMIN.md)を参照してください。
 
 以下はPCでファイルを直接修正する手順です。
 
@@ -55,11 +55,11 @@ Windowsでこのプロジェクト専用のportable版を使う場合は `powers
 旧曲名URLの互換情報は `data/garupa/legacy-song-paths.json` に固定してあります。
 `id` は恒久URLにも使う管理番号です。既存曲の番号は変更・再利用しないでください。URLは `/garupa/songs/{id}/` です。
 
-アワーノーツの追加・修正は [共通管理ページ](https://tanimachi-bdsongs.com/admin/?game=ournotes) で「アワーノーツ」を選んで行えます。手動では `data/ournotes/songs.json` の該当バンド・種類のグループを編集し、追加時は `data/ournotes/admin-state.json` の `nextId` も更新してください。IDは恒久URL `/ournotes/songs/{id}/` に使うため、曲名変更後も保持します。EASY〜EXPERTのレベルとノーツ数、BPM、ゲーム内演奏時間、作曲者、カバー曲の原曲情報は確認できた値だけ入力します。
+アワーノーツの追加・修正は 認証済み共通管理画面 で「アワーノーツ」を選んで行えます。手動では `data/ournotes/songs.json` の該当バンド・種類のグループを編集し、追加時は `data/ournotes/admin-state.json` の `nextId` も更新してください。IDは恒久URL `/ournotes/songs/{id}/` に使うため、曲名変更後も保持します。EASY〜EXPERTのレベルとノーツ数、BPM、ゲーム内演奏時間、作曲者、カバー曲の原曲情報は確認できた値だけ入力します。
 
 ## 新曲を追加する
 
-スマホからは、公開サイトの `admin/` にある管理ページへ入力して追加できます。GitHubへの保存とサイトの自動更新に対応しています。初回の接続・公開設定は [スマホ管理ページの手順](docs/ADMIN.md) を参照してください。
+スマホからは、運営者に別途案内された認証済み管理画面へ入力して追加できます。GitHubへの保存とサイトの自動更新に対応しています。初回の接続・公開設定は [スマホ管理ページの手順](docs/ADMIN.md) を参照してください。
 
 以下はPCでファイルを直接追加する場合の手順です。
 
@@ -74,7 +74,7 @@ node scripts/add-song.mjs "新しい楽曲名"
 
 ## お知らせを追加する
 
-スマートフォンからは[お知らせ管理ページ](https://tanimachi-bdsongs.com/admin/news/)でGitHubに接続し、追加・修正できます。保存後にサイトへの反映を確認できます。
+スマートフォンからは認証済み管理画面の「お知らせ」でGitHubに接続し、追加・修正できます。保存後にサイトへの反映を確認できます。
 
 `data/news.json` を開き、配列に新しい項目を追加します。各項目の `date` は掲載日（`YYYY-MM-DD`）、`title` は見出し、`description` は本文、`category` は分類です。分類は `site`（サイト）、`data`（データ更新）、`feature`（機能追加）、`maintenance`（メンテナンス）から選びます。分類を増やす場合は `src/js/news-data.js` の表示名も追加してください。
 

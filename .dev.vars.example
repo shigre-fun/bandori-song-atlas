@@ -5,3 +5,12 @@ TURNSTILE_SECRET_KEY=""
 RESEND_API_KEY=""
 CONTACT_TO_EMAIL=""
 CONTACT_FROM_EMAIL=""
+
+# 管理画面は明示設定したCloudflare本番だけに生成します。
+# CloudflareのBuild/Runtime両方へ設定。実際のURL・メールはGitへ記録しません。
+MANAGEMENT_MODE="disabled"
+MANAGEMENT_PATH=""
+CF_ACCESS_TEAM_DOMAIN=""
+CF_ACCESS_AUD=""
+MANAGEMENT_ALLOWED_EMAILS=""
+MANAGEMENT_ORIGIN=""

@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { GitHubNewsStore, NEWS_PATH } from "../src/js/github-news-store.js";
 import { prepareNews } from "../src/js/news-data.js";
 import { siteSettings } from "../src/js/site-config.js";
@@ -217,20 +218,22 @@ test("news manager does not force a rejected ref update or retry an uncertain sa
 
 test("the separate admin page is private, versioned and leaves song admin intact", () => {
   const base = siteSettings(process.env).basePath;
-  const admin = fs.readFileSync("dist/admin/index.html", "utf8");
-  const newsAdmin = fs.readFileSync("dist/admin/news/index.html", "utf8");
-  const script = fs.readFileSync("dist/admin-news.js", "utf8");
+  const admin = readBuilt("admin/index.html");
+  const newsAdmin = readBuilt("admin/news/index.html");
+  const script = readBuilt("admin-news.js");
   const version = admin.match(/admin\.js\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version);
-  assert.ok(admin.includes(`href="${base}admin/news/"`));
-  assert.ok(newsAdmin.includes(`href="${base}admin/?game=ournotes"`));
+  assert.ok(admin.includes(`href="${base}${builtPath("admin/news/")}"`));
+  assert.ok(
+    newsAdmin.includes(`href="${base}${builtPath("admin/")}?game=ournotes"`),
+  );
   assert.ok(newsAdmin.includes(`admin-news.js?v=${version}`));
   assert.ok(newsAdmin.includes(`admin.css?v=${version}`));
   assert.match(newsAdmin, /name="robots" content="noindex,nofollow"/);
   for (const field of ["date", "category", "title", "description"])
     assert.ok(newsAdmin.includes(`name="${field}"`));
   assert.ok(script.includes(`./github-news-store.js?v=${version}`));
-  assert.ok(script.includes(`./news-data.js?v=${version}`));
+  assert.ok(script.includes(`../news-data.js?v=${version}`));
   assert.ok(!/localStorage|sessionStorage|document\.cookie/.test(script));
   assert.deepEqual(
     JSON.parse(fs.readFileSync("dist/news.json", "utf8")),

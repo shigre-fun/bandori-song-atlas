@@ -3,6 +3,11 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { BRAND_ASSETS, SITE_ORIGIN } from "../../src/js/site-config.js";
 import { creatorRedirects } from "../../src/js/creators-data.js";
+import { readManagementBundle, functionRoutes } from "../management-bundle.mjs";
+import {
+  managementSettings,
+  MANAGEMENT_ASSETS,
+} from "../../src/js/management-settings.js";
 
 const decode = (value) =>
   value
@@ -23,8 +28,28 @@ const attr = (html, name, value, field = "content") => {
 
 export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   const root = path.resolve(directory);
+  const management = managementSettings({
+    ...process.env,
+    BASE_PATH: basePath,
+    SITE_BASE_PATH: basePath,
+  });
+  const bundle = readManagementBundle(root);
+  const managementFiles = management.enabled
+    ? [
+        "index.html",
+        "news/index.html",
+        "creators/index.html",
+        "config.json",
+        ...MANAGEMENT_ASSETS,
+      ].map((f) => management.segment + "/" + f)
+    : [];
   const failures = [];
-  const fail = (message) => failures.push(message);
+  const fail = (message) =>
+    failures.push(
+      management.enabled
+        ? message.replaceAll(management.segment, "[management]")
+        : message,
+    );
   const expectedOrigin = origin + basePath;
   const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
   const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) =>
@@ -35,16 +60,17 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     fs.readFileSync(path.join(root, "_routes.json"), "utf8"),
   );
   const contactApiRouted =
-    routes.version === 1 &&
-    Array.isArray(routes.include) &&
-    routes.include.length === 2 &&
-    ["/api/contact", "/api/contact/"].every((route) =>
-      routes.include.includes(route),
-    ) &&
-    Array.isArray(routes.exclude) &&
-    routes.exclude.length === 0;
+    JSON.stringify(routes) ===
+      JSON.stringify(functionRoutes(root, management.enabled)) &&
+    !routes.exclude.some((r) => r === "/*" || r.startsWith("/api"));
   if (!contactApiRouted)
     fail("お問い合わせAPIのFunctionsルーティングが不正です。");
+  if (
+    management.enabled &&
+    (routes.include.join() !== "/*" ||
+      JSON.stringify(routes).includes(management.segment))
+  )
+    fail("管理画面が認証Functionsを通りません。");
   const contactApiPaths = new Set([
     `${basePath}api/contact`,
     `${basePath}api/contact/`,
@@ -193,7 +219,10 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
         !link.search
       )
         continue;
-      if (link.pathname.startsWith(`${basePath}admin/`))
+      if (
+        link.pathname.startsWith(`${basePath}admin/`) ||
+        (management.enabled && link.pathname.startsWith(management.root))
+      )
         fail(`一般ページから管理画面へのリンクがあります: ${canonical}`);
       if (
         link.pathname.startsWith(`${basePath}creators/`) &&
@@ -245,21 +274,18 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   ])
     if (sitemapSet.has(expectedOrigin + relative))
       fail(`一覧以外の非対象ページがsitemapに残っています: ${relative}`);
-  for (const relative of ["garupa/index.html", "ournotes/index.html"])
-    if (fs.existsSync(path.join(root, relative)))
-      fail(`削除対象が公開物に残っています: ${relative}`);
   for (const relative of [
+    "garupa/index.html",
+    "ournotes/index.html",
     "admin/index.html",
     "admin/news/index.html",
     "admin/creators/index.html",
-    "admin.js",
-    "admin-news.js",
-    "admin.css",
     "admin-config.json",
-    "github-store.js",
-    "github-news-store.js",
-    "github-creator-store.js",
-    "admin-creators.js",
+    ...MANAGEMENT_ASSETS,
+  ])
+    if (fs.existsSync(path.join(root, relative)))
+      fail(`削除対象が公開物に残っています: ${relative}`);
+  for (const relative of [
     "creators-data.js",
     "creators.json",
     "works.json",
@@ -268,6 +294,14 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   ])
     if (!fs.existsSync(path.join(root, relative)))
       fail(`管理画面の必須ファイルがありません: ${relative}`);
+  for (const relative of managementFiles) {
+    if (fs.existsSync(path.join(root, relative)))
+      fail("管理ファイルが静的配信物へ混入しています。");
+    if (!Object.hasOwn(bundle, basePath + relative))
+      fail("管理Workerの必須ファイルがありません。");
+  }
+  if (!management.enabled && Object.keys(bundle).length)
+    fail("管理無効時にWorkerへ管理ファイルが残っています。");
   if (
     sitemapSet.has(expectedOrigin + "search/") ||
     sitemapSet.has(expectedOrigin + "admin/") ||
@@ -287,6 +321,12 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
     /Disallow:/.test(robots)
   )
     fail("robots.txtが不正です。");
+  if (
+    management.enabled &&
+    (sitemap.includes(management.segment) ||
+      robots.includes(management.segment))
+  )
+    fail("管理URLが検索用ファイルに露出しています。");
   const redirects = JSON.parse(
     fs.readFileSync(path.join(root, "legacy-redirects.json"), "utf8"),
   );
@@ -343,18 +383,24 @@ export function auditBuild({ directory = "dist", origin, basePath = "/" }) {
   for (const relative of [
     "search/index.html",
     "404.html",
-    "admin/index.html",
-    "admin/news/index.html",
-    "admin/creators/index.html",
+    ...managementFiles.filter((f) => f.endsWith(".html")),
   ]) {
-    const html = fs.readFileSync(path.join(root, relative), "utf8");
+    const html =
+      bundle[basePath + relative]?.body ??
+      fs.readFileSync(path.join(root, relative), "utf8");
     if (!/name="robots"\s+content="noindex(?:,follow|,nofollow)?"/.test(html))
       fail(`非対象ページにnoindexがありません: ${relative}`);
     for (const reference of tag(html, /\b(?:href|src|action)="([^"]+)"/g)) {
       const link = new URL(decode(reference), expectedOrigin + relative);
       if (link.origin !== origin) continue;
       const target = localFile(link.pathname);
-      if (!target || !fs.existsSync(target))
+      const privateKey = link.pathname.endsWith("/")
+        ? link.pathname + "index.html"
+        : link.pathname;
+      if (
+        !Object.hasOwn(bundle, privateKey) &&
+        (!target || !fs.existsSync(target))
+      )
         fail(`内部リンク切れ: ${relative} -> ${reference}`);
     }
   }

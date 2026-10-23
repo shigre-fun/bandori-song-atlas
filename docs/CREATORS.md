@@ -77,7 +77,7 @@ rolesはlyricist/composer/arrangerだけです。同じCreatorは1relationで複
 
 ## 管理
 
-`/admin/creators/` で一覧検索/新規作成/編集/削除します。既存GitHub接続型管理を使用し、Contents書込権限が必要です。tokenはメモリー内だけ、接続処理後に入力欄を消去し、storage/cookie/URL/ログへ保存しません。
+認証済み管理画面の「クリエイター」で一覧検索/新規作成/編集/削除します。既存GitHub接続型管理を使用し、Contents書込権限が必要です。tokenはメモリー内だけ、接続処理後に入力欄を消去し、storage/cookie/URL/ログへ保存しません。
 
 IDはnextIdから採番、ID欄はreadonly。名前/type/読みは管理者が確認してください。slug変更でもrelationは維持します。旧slugの転送はV1では自動作成しないため、公開後の変更は慎重に行ってください。参照中Creatorは削除できず、参照曲数/収録数を表示します。merge UIはありません。
 

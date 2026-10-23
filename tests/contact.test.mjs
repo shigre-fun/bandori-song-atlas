@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { managementSettings } from "../src/js/management-settings.js";
 import { createContactHandler } from "../functions/api/contact.js";
 import {
   CONTACT_CATEGORIES,
@@ -385,11 +386,21 @@ test("generated contact page, routing and CSP preserve static pages and GitHub a
     html.includes(`href="${settings.origin}${settings.basePath}contact/"`),
   );
   assert.ok(!html.includes('role="search"'));
-  assert.deepEqual(JSON.parse(fs.readFileSync("dist/_routes.json", "utf8")), {
-    version: 1,
-    include: ["/api/contact", "/api/contact/"],
-    exclude: [],
-  });
+  const routes = JSON.parse(fs.readFileSync("dist/_routes.json", "utf8"));
+  if (managementSettings(process.env).enabled) {
+    assert.deepEqual(routes.include, ["/*"]);
+    assert.ok(routes.exclude.includes("/garupa/*"));
+    assert.ok(routes.exclude.includes("/style.css"));
+    assert.ok(!routes.exclude.some((r) => r === "/*" || r.startsWith("/api")));
+    assert.ok(
+      !JSON.stringify(routes).includes(managementSettings(process.env).segment),
+    );
+  } else
+    assert.deepEqual(routes, {
+      version: 1,
+      include: ["/api/contact", "/api/contact/"],
+      exclude: [],
+    });
   const headers = fs.readFileSync("dist/_headers", "utf8");
   assert.ok(
     headers.includes("script-src 'self' https://challenges.cloudflare.com"),

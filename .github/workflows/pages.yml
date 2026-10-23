@@ -28,6 +28,7 @@ jobs:
       - name: Build and test
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          MANAGEMENT_MODE: disabled
         run: |
           node scripts/build.mjs
           pnpm test

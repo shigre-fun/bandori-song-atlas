@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { GitHubStore } from "../src/js/github-store.js";
 import { GAMES } from "../src/js/site-config.js";
 import { findGarupaSong, listGarupaSongs } from "../src/js/garupa-data.js";
@@ -198,7 +199,7 @@ test("Our Notes administrator adds and edits within its own catalog", async () =
 });
 
 test("editor orders BPM fields and serves a searchable song picker with fresh modules", () => {
-  const html = fs.readFileSync("dist/admin/index.html", "utf8");
+  const html = readBuilt("admin/index.html");
   const fields = [
     "bpm",
     "bpmMin",
@@ -230,9 +231,9 @@ test("editor orders BPM fields and serves a searchable song picker with fresh mo
   const version = html.match(/admin\.js\?v=([a-f0-9]{12})/)?.[1];
   assert.ok(version);
   assert.ok(html.includes(`admin.css?v=${version}`));
-  const admin = fs.readFileSync("dist/admin.js", "utf8");
-  const store = fs.readFileSync("dist/github-store.js", "utf8");
+  const admin = readBuilt("admin.js");
+  const store = readBuilt("github-store.js");
   assert.ok(admin.includes(`./github-store.js?v=${version}`));
   assert.ok(admin.includes(`./related-song-picker.js?v=${version}`));
-  assert.ok(store.includes(`./song-schema.js?v=${version}`));
+  assert.ok(store.includes(`../song-schema.js?v=${version}`));
 });

@@ -1,6 +1,7 @@
 import { GitHubNewsStore } from "./github-news-store.js";
 import { NEWS_CATEGORY_LABELS, prepareNews } from "./news-data.js";
 import { siteURL } from "./urls.js";
+import { managementConfigURL } from "./management-client.js";
 
 const connection = document.querySelector("#connection-form");
 const connectionStatus = document.querySelector("#connection-status");
@@ -98,7 +99,7 @@ async function refreshNews({ reset = true } = {}) {
 }
 
 try {
-  const response = await fetch(siteURL("admin-config.json"));
+  const response = await fetch(managementConfigURL(), { cache: "no-store" });
   if (response.ok) {
     const defaults = await response.json();
     for (const key of ["owner", "repo", "branch"])

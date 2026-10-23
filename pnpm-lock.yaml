@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@cloudflare/pages-plugin-cloudflare-access':
+        specifier: 1.0.5
+        version: 1.0.5
     devDependencies:
       '@napi-rs/canvas':
         specifier: 1.0.9
@@ -16,6 +20,9 @@ importers:
         version: 3.6.2
 
 packages:
+
+  '@cloudflare/pages-plugin-cloudflare-access@1.0.5':
+    resolution: {integrity: sha512-EGVSaUoFLxKfds2tgLWGzIk/xXLO2RqwZDUKsH/olXdNOckOMr4ShR8Pt1AJpZrakCDNiDVXmfLDJYTufxuQRw==}
 
   '@napi-rs/canvas-android-arm64@1.0.9':
     resolution: {integrity: sha512-4LGXk2/0HVzE29K8SzML5WubgCp++B1FH3qgl35XmSZE+lLdr6P9VRQEnZ0MCLZMTSuJP41yyhtoiVNEuvrTIA==}
@@ -98,6 +105,8 @@ packages:
     hasBin: true
 
 snapshots:
+
+  '@cloudflare/pages-plugin-cloudflare-access@1.0.5': {}
 
   '@napi-rs/canvas-android-arm64@1.0.9':
     optional: true

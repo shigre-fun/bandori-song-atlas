@@ -1,10 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import path from "node:path";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { GAMES } from "../src/js/site-config.js";
 import { renderList } from "../src/js/views.js";
 
-const read = (file) => fs.readFileSync(`dist/${file}`, "utf8");
+const read = (file) => readBuilt(file);
 
 test("public pages and imported modules use the current asset version", () => {
   const pages = [
@@ -55,11 +57,15 @@ test("public pages and imported modules use the current asset version", () => {
   ]) {
     const source = read(file);
     for (const [, dependency, actualVersion] of source.matchAll(
-      /from "(\.\/[^"?]+\.js)(?:\?v=([a-f0-9]{12}))?"/g,
+      /from "(\.{1,2}\/[^"?]+\.js)(?:\?v=([a-f0-9]{12}))?"/g,
     )) {
       assert.equal(actualVersion, version, `${file}: ${dependency}`);
       assert.ok(
-        fs.existsSync(`dist/${dependency.slice(2)}`),
+        existsBuilt(
+          path.posix.normalize(
+            path.posix.join(path.posix.dirname(builtPath(file)), dependency),
+          ),
+        ),
         `${file}: ${dependency} is deployed`,
       );
     }

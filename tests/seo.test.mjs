@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import vm from "node:vm";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { auditBuild } from "../scripts/qa/audit-build.mjs";
 import { GAMES, siteSettings } from "../src/js/site-config.js";
 import { songPath } from "../src/js/urls.js";
@@ -88,9 +89,7 @@ test("site settings normalize both deployment bases and reject conflicting setti
   assert.equal(pages.origin, "https://example.test");
   assert.match(fs.readFileSync("dist/index.html", "utf8"), /バンドリ楽曲録/);
   if (process.env.GITHUB_REPOSITORY) {
-    const config = JSON.parse(
-      fs.readFileSync("dist/admin-config.json", "utf8"),
-    );
+    const config = JSON.parse(readBuilt("admin-config.json"));
     assert.equal(
       `${config.owner}/${config.repo}`,
       process.env.GITHUB_REPOSITORY,

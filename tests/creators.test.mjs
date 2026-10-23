@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { builtPath, readBuilt, existsBuilt } from "./helpers/management.mjs";
 import { loadLegacyCredits } from "../scripts/migrations/legacy-references.mjs";
 import vm from "node:vm";
 import {
@@ -290,7 +291,7 @@ test("published creator SEO/static content/routes/admin safeguards are generated
   assert.match(detail, /rel="canonical"[^>]*creators\/noriyasu-agematsu\//);
   assert.ok(sitemap.includes(`creators/${cr.slug}/`));
   assert.doesNotMatch(sitemap, /admin\/creators/);
-  const admin = fs.readFileSync("dist/admin/creators/index.html", "utf8");
+  const admin = readBuilt("admin/creators/index.html");
   assert.match(admin, /noindex,nofollow/);
   assert.match(admin, /name="id"[^>]*readonly/);
   assert.doesNotMatch(

@@ -2,6 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { format } from "prettier";
+import { writeManagementBundle, functionRoutes } from "./management-bundle.mjs";
+import {
+  managementSettings,
+  MANAGEMENT_ASSETS,
+} from "../src/js/management-settings.js";
 import { loadGameCatalog } from "./catalog.mjs";
 import {
   validateCreatorDatabase,
@@ -54,6 +59,12 @@ import {
 } from "../src/js/seo.js";
 
 const settings = siteSettings(process.env);
+const management = managementSettings(process.env);
+const managementPrefix = management.enabled ? management.root : null;
+const managementFiles = {};
+const writePrivate = (file, body, type) => {
+  managementFiles[settings.basePath + file] = { body, type };
+};
 const output = path.resolve(process.env.SITE_OUTPUT_DIR || "dist");
 const repositoryRoot = process.cwd();
 const distRoot = path.resolve("dist");
@@ -307,6 +318,7 @@ const copiedAssets = [
       "legacy-redirect.js",
       "contact.js",
       "contact-validation.js",
+      "management-client.js",
     ],
   ],
   ["styles", ["style.css", "mobile.css", "admin.css"]],
@@ -325,17 +337,43 @@ assetHash.update(fs.readFileSync("src/pages/admin-news.html"));
 assetHash.update(fs.readFileSync("src/pages/admin-creators.html"));
 const assetVersion = assetHash.digest("hex").slice(0, 12);
 for (const [directory, names] of copiedAssets)
-  for (const name of names)
+  for (const name of names) {
+    const privateAsset = MANAGEMENT_ASSETS.includes(name);
+    if (privateAsset && !management.enabled) continue;
+    const destination = privateAsset ? management.segment + "/" + name : name;
     if (directory === "js") {
       const source = fs.readFileSync(`src/${directory}/${name}`, "utf8");
-      write(
-        name,
-        source.replace(
-          /from "(\.\/[^"?]+\.js)"/g,
-          `from "$1?v=${assetVersion}"`,
-        ),
+      (privateAsset
+        ? (file, body) =>
+            writePrivate(file, body, "text/javascript; charset=utf-8")
+        : write)(
+        destination,
+        source.replace(/from "(\.\/[^"?]+\.js)"/g, (_, dependency) => {
+          const file = dependency.slice(2);
+          const target = MANAGEMENT_ASSETS.includes(file)
+            ? "./" + file
+            : privateAsset
+              ? "../" + file
+              : "./" + file;
+          return `from "${target}?v=${assetVersion}"`;
+        }),
       );
-    } else fs.copyFileSync(`src/${directory}/${name}`, path.join(output, name));
+    } else if (privateAsset) {
+      writePrivate(
+        destination,
+        fs.readFileSync(`src/${directory}/${name}`, "utf8"),
+        "text/css; charset=utf-8",
+      );
+    } else {
+      fs.mkdirSync(path.dirname(path.join(output, destination)), {
+        recursive: true,
+      });
+      fs.copyFileSync(
+        `src/${directory}/${name}`,
+        path.join(output, destination),
+      );
+    }
+  }
 
 write(GAMES.garupa.catalog, JSON.stringify(catalogInfo.garupa, null, 2) + "\n");
 write(
@@ -350,14 +388,6 @@ write(
 write("news.json", JSON.stringify(news, null, 2) + "\n");
 write("creators.json", JSON.stringify(creatorData, null, 2) + "\n");
 write("works.json", JSON.stringify(workData, null, 2) + "\n");
-write(
-  "_routes.json",
-  JSON.stringify(
-    { version: 1, include: ["/api/contact", "/api/contact/"], exclude: [] },
-    null,
-    2,
-  ) + "\n",
-);
 
 await page({
   file: "index.html",
@@ -669,39 +699,54 @@ write(
   `User-agent: *\nAllow: /\nSitemap: ${url("sitemap.xml")}\n`,
 );
 
-const adminHTML = fs
-  .readFileSync("src/pages/admin.html", "utf8")
-  .replace('src="/admin.js"', `src="/admin.js?v=${assetVersion}"`)
-  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
-  .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
-  .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
-write("admin/index.html", await format(adminHTML, { parser: "html" }));
-const adminNewsHTML = fs
-  .readFileSync("src/pages/admin-news.html", "utf8")
-  .replace('src="/admin-news.js"', `src="/admin-news.js?v=${assetVersion}"`)
-  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
-  .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
-  .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
-write("admin/news/index.html", await format(adminNewsHTML, { parser: "html" }));
-const adminCreatorsHTML = fs
-  .readFileSync("src/pages/admin-creators.html", "utf8")
-  .replace(
-    'src="/admin-creators.js"',
-    `src="/admin-creators.js?v=${assetVersion}"`,
-  )
-  .replace('href="/admin.css"', `href="/admin.css?v=${assetVersion}"`)
-  .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
-  .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
+if (management.enabled) {
+  const managementHTML = (html) =>
+    html
+      .replaceAll("/admin/", "/" + management.segment + "/")
+      .replace(
+        /(href|src)="\/(admin(?:-news|-creators)?\.js|admin\.css)"/g,
+        `$1="/${management.segment}/$2?v=${assetVersion}"`,
+      )
+      .replace(/(href|src|action)="\//g, `$1="${settings.basePath}`)
+      .replace(
+        "<head>",
+        `<head><meta name="management-root" content="${managementPrefix}">`,
+      )
+      .replaceAll("<!--SITE_NAME-->", escapeHTML(settings.name));
+  const adminHTML = fs.readFileSync("src/pages/admin.html", "utf8");
+  writePrivate(
+    management.segment + "/index.html",
+    await format(managementHTML(adminHTML), { parser: "html" }),
+    "text/html; charset=utf-8",
+  );
+  const adminNewsHTML = fs.readFileSync("src/pages/admin-news.html", "utf8");
+  writePrivate(
+    management.segment + "/news/index.html",
+    await format(managementHTML(adminNewsHTML), { parser: "html" }),
+    "text/html; charset=utf-8",
+  );
+  const adminCreatorsHTML = fs.readFileSync(
+    "src/pages/admin-creators.html",
+    "utf8",
+  );
+  writePrivate(
+    management.segment + "/creators/index.html",
+    await format(managementHTML(adminCreatorsHTML), { parser: "html" }),
+    "text/html; charset=utf-8",
+  );
+  const [owner = "", repo = ""] = (process.env.GITHUB_REPOSITORY || "").split(
+    "/",
+  );
+  writePrivate(
+    management.segment + "/config.json",
+    JSON.stringify({ owner, repo, branch: "main" }, null, 2) + "\n",
+    "application/json; charset=utf-8",
+  );
+}
+writeManagementBundle(output, managementFiles);
 write(
-  "admin/creators/index.html",
-  await format(adminCreatorsHTML, { parser: "html" }),
-);
-const [owner = "", repo = ""] = (process.env.GITHUB_REPOSITORY || "").split(
-  "/",
-);
-write(
-  "admin-config.json",
-  JSON.stringify({ owner, repo, branch: "main" }, null, 2) + "\n",
+  "_routes.json",
+  JSON.stringify(functionRoutes(output, management.enabled), null, 2) + "\n",
 );
 
 write(".nojekyll", "");

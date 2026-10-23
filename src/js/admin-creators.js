@@ -1,6 +1,7 @@
 import { GitHubCreatorStore } from "./github-creator-store.js";
 import { searchCreators } from "./creators-data.js";
 import { siteURL } from "./urls.js";
+import { managementConfigURL } from "./management-client.js";
 const connection = document.querySelector("#connection-form"),
   form = document.querySelector("#creator-form"),
   status = document.querySelector("#form-status"),
@@ -73,7 +74,7 @@ async function refresh() {
   renderList();
 }
 try {
-  const response = await fetch(siteURL("admin-config.json"));
+  const response = await fetch(managementConfigURL(), { cache: "no-store" });
   if (response.ok) {
     const defaults = await response.json();
     for (const key of ["owner", "repo", "branch"])

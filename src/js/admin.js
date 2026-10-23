@@ -1,5 +1,9 @@
 import { validateSong } from "./song-schema.js";
 import { GitHubStore } from "./github-store.js";
+import {
+  managementConfigURL,
+  restoreLegacyManagementDrafts,
+} from "./management-client.js";
 import { createCreatorPicker } from "./creator-picker.js";
 import { GAMES } from "./site-config.js";
 import { siteURL, songPath } from "./urls.js";
@@ -451,6 +455,9 @@ function restoreDraft() {
   }
   draftStatus.textContent = "前回の入力を復元しました。";
 }
+if (!restoreLegacyManagementDrafts())
+  draftStatus.textContent =
+    "旧管理ページの下書きの移行に失敗しました。旧データは保持されています。";
 restoreDraft();
 creatorPicker.render();
 renderRelatedSelected();
@@ -512,7 +519,7 @@ form.addEventListener("input", () => {
 });
 
 try {
-  const response = await fetch(siteURL("admin-config.json"));
+  const response = await fetch(managementConfigURL(), { cache: "no-store" });
   const defaults = response.ok ? await response.json() : {};
   const previous = storageRead(settingsKey()) || {};
   for (const key of ["owner", "repo", "branch"])

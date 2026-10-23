@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
 import { historicalText } from "./credit-history.mjs";
+import { managementTestEnv } from "../../tests/helpers/management.mjs";
 // The prior 194 tests describe past phase states (91 Creators/unprepared roles).
 // Run their unchanged assertions against byte-verified phase inputs, with today's implementation.
 const root = ".cache/b2-historical-regression";
@@ -65,6 +66,7 @@ const run = (args) =>
       stdio: "inherit",
       env: {
         ...process.env,
+        ...managementTestEnv,
         BASE_PATH: "/",
         SITE_BASE_PATH: "/",
         SITE_OUTPUT_DIR: "dist",
