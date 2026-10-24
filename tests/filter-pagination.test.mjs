@@ -45,8 +45,8 @@ test("filter state survives page links, details and back links with escaped attr
     "type=anime&type=tie_up&band=0&band=1&page=2&sort=release",
   );
   const html = renderList(data, p, "/bandori-song-atlas/");
-  assert.ok(html.includes('name="type" value="anime" checked'));
-  assert.ok(html.includes('name="band" value="1" checked'));
+  assert.ok(html.includes('type="hidden" name="type" value="anime"'));
+  assert.ok(html.includes('type="hidden" name="band" value="1"'));
   const hrefs = [...html.matchAll(/href="([^"]+)"/g)].map((m) =>
     m[1].replaceAll("&amp;", "&"),
   );

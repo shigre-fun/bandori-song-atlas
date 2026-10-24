@@ -60,8 +60,8 @@ test("cross-game search keeps all three Meiseikyo recordings in game and band or
       links(html, "search-detail").map((url) => url.pathname),
       [
         `${base}garupa/songs/473/`,
-        `${base}garupa/songs/628/`,
         `${base}ournotes/songs/1/`,
+        `${base}garupa/songs/628/`,
       ],
     );
     for (const link of links(html, "search-detail")) {
@@ -80,23 +80,25 @@ test("cross-game results show each recording's levels with five Garupa and four 
       base,
     );
     const cards = [
-      ...html.matchAll(/<li class="panel"[^>]*>([\s\S]*?)<\/li>/g),
+      ...html.matchAll(/<li class="song-card"[^>]*>([\s\S]*?)<\/li>/g),
     ].map(([, card]) => card);
     assert.equal(cards.length, 3);
     const expected = [
       [GAMES.garupa, ["6", "13", "19", "26", "27"]],
-      [GAMES.garupa, ["6", "13", "19", "26", "27"]],
       [GAMES.ournotes, ["9", "13", "20", "25"]],
+      [GAMES.garupa, ["6", "13", "19", "26", "27"]],
     ];
     cards.forEach((card, index) => {
       const [game, levels] = expected[index];
       const list = card.match(
-        /<dl class="search-difficulties"([^>]*)>([\s\S]*?)<\/dl>/,
+        /<dl class="song-difficulties"([^>]*)>([\s\S]*?)<\/dl>/,
       );
       assert.ok(list, `${game.shortName} has a difficulty list`);
       assert.match(list[1], /aria-label="難易度・レベル"/);
       assert.deepEqual(
-        [...list[2].matchAll(/<dt>([^<]*)<\/dt>/g)].map(([, label]) => label),
+        [...list[2].matchAll(/<dt[^>]*>([^<]*)<\/dt>/g)].map(
+          ([, label]) => label,
+        ),
         game.difficulties,
       );
       assert.deepEqual(
@@ -105,8 +107,11 @@ test("cross-game results show each recording's levels with five Garupa and four 
         ),
         levels,
       );
-      assert.ok(card.indexOf('<p class="band"') < card.indexOf("<dl "));
-      assert.match(card, /<h3><a class="search-detail"[^>]*>[^<]+<\/a><\/h3>/);
+      assert.doesNotMatch(card, /<p class="band"/);
+      assert.match(
+        card,
+        /<a class="search-detail"[^>]*><span class="song-title-text">/,
+      );
       assert.equal((card.match(/class="search-detail"/g) || []).length, 1);
       assert.doesNotMatch(card, /→ 詳細|詳細→/);
       assert.doesNotMatch(list[2], /ノーツ|641|651|342|768/);
@@ -131,11 +136,13 @@ test("cross-game difficulty levels distinguish absent charts from unconfirmed le
     new URLSearchParams({ q: "難易度テスト" }),
   );
   const list = html.match(
-    /<dl class="search-difficulties"[^>]*>([\s\S]*?)<\/dl>/,
+    /<dl class="song-difficulties"[^>]*>([\s\S]*?)<\/dl>/,
   );
   assert.ok(list);
   const rows = [
-    ...list[1].matchAll(/<dt>([^<]*)<\/dt><dd class="([^"]*)">([^<]*)<\/dd>/g),
+    ...list[1].matchAll(
+      /<dt[^>]*>([^<]*)<\/dt><dd class="([^"]*)">([^<]*)<\/dd>/g,
+    ),
   ];
   assert.deepEqual(
     rows.map(([, label, , value]) => [label, value]),
@@ -163,7 +170,7 @@ test("cross-game difficulty level text is HTML escaped", () => {
     new URLSearchParams({ q: "レベル文字列テスト" }),
   );
   const list = html.match(
-    /<dl class="search-difficulties"[^>]*>([\s\S]*?)<\/dl>/,
+    /<dl class="song-difficulties"[^>]*>([\s\S]*?)<\/dl>/,
   );
   assert.ok(list);
   assert.doesNotMatch(list[1], /<img|onerror="alert/);
@@ -201,21 +208,21 @@ test("cross-game search inherits title, reading, aliases, artist and work matchi
   );
 });
 
-test("empty and symbol-only queries show guidance, and missing queries show an empty result", () => {
+test("empty and symbol-only queries initially show all recordings; missing terms show an empty result", () => {
+  const total = Object.values(catalogs).reduce((n, c) => n + c.songs.length, 0);
   for (const q of ["", "　 ", "!!!!!", "（ ）★"]) {
-    assert.equal(crossGameSongs(catalogs, q).length, 0);
+    assert.equal(crossGameSongs(catalogs, q).length, total);
     const html = renderCrossSearch(catalogs, new URLSearchParams({ q }));
-    assert.match(html, /入力して検索してください/);
-    assert.doesNotMatch(html, /search-detail|一致する楽曲はありません/);
+    assert.equal(links(html, "search-detail").length, Math.min(50, total));
   }
-  const empty = renderCrossSearch(
+  const html = renderCrossSearch(
     catalogs,
     new URLSearchParams({ q: "存在しない楽曲xyz" }),
   );
-  assert.match(empty, /0<small>件<\/small>/);
-  assert.match(empty, /一致する楽曲はありません/);
-  assert.match(empty, /ガルパの楽曲一覧へ/);
-  assert.match(empty, /アワーノーツの楽曲一覧へ/);
+  assert.match(html, /0<small>件<\/small>/);
+  assert.match(html, /一致する楽曲はありません/);
+  assert.match(html, /ガルパの楽曲一覧へ/);
+  assert.match(html, /アワーノーツの楽曲一覧へ/);
 });
 
 test("pagination shows 50 results, preserves special characters and clamps invalid pages", () => {
@@ -308,6 +315,8 @@ function controller(q, fetcher, base = "/") {
     GAMES,
     normalize,
     renderCrossSearch,
+
+    connectSongControls() {},
     siteBase: base,
     siteURL: (relative) => siteURL(relative, base),
     fetch: fetcher,
@@ -367,11 +376,19 @@ test("controller reports HTTP, network, JSON and malformed-catalog errors withou
   }
 });
 
-test("controller skips fetching catalogs for blank normalized queries", () => {
+test("controller loads both catalogs even without a query so default filters and sorting work", async () => {
   for (const q of ["", "　", "!!!!!"]) {
-    const ui = controller(q, () => assert.fail("should not fetch"));
+    let count = 0;
+    const ui = controller(q, async (url) => {
+      count++;
+      return Response.json(
+        url.includes("ournotes") ? catalogs.ournotes : catalogs.garupa,
+      );
+    });
+    await flush();
+    assert.equal(count, 2);
     assert.equal(ui.input.value, q);
-    assert.equal(ui.results.children.length, 0);
+    assert.equal(links(ui.results.innerHTML, "search-detail").length, 50);
     assert.equal(ui.results.attrs.has("aria-busy"), false);
   }
 });
@@ -435,8 +452,9 @@ test("generated top/search pages expose search and no-JavaScript game links with
     home.indexOf('class="panel home-search"') <
       home.indexOf('class="game-cards"'),
   );
-  assert.match(home, /全ゲームから楽曲を検索/);
-  assert.ok(home.includes(`action="${base}search/"`));
+  assert.match(home, /横断検索/);
+  assert.ok(home.includes(`href="${base}search/"`));
+  assert.doesNotMatch(home, /<form/);
   assert.ok(search.includes(`action="${base}search/"`));
   assert.ok(search.includes('name="robots" content="noindex,follow"'));
   assert.match(search, /cross-search\.js\?v=/);

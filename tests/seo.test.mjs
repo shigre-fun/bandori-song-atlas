@@ -41,9 +41,9 @@ test("only the six navigation pages omit the header search", () => {
   const basePath = siteSettings(process.env).basePath;
   const readPage = (path) => fs.readFileSync(`dist/${path}`, "utf8");
   const searchAction = (html) =>
-    html
-      .match(/<header>([\s\S]*?)<\/header>/)?.[1]
-      ?.match(/<form action="([^"]+)" role="search">/)?.[1];
+    html.match(
+      /<form\b[^>]*id="song-search-form"[^>]*action="([^"]+)"[^>]*>/,
+    )?.[1];
   for (const path of [
     "index.html",
     "about/index.html",

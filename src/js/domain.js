@@ -1,3 +1,4 @@
+import { BAND_THEMES, bandTheme, OTHER_BAND } from "./band-theme.js";
 import { GAMES } from "./site-config.js";
 import { ournotesSongTypes, gekisouKinds } from "./song-schema.js";
 import { matchesCredit } from "./credits.js";
@@ -20,28 +21,10 @@ export const bandNames = [
   "Ave Mujica",
 ];
 export const colors = [
-  "#e93475",
-  "#db4556",
-  "#31a99e",
-  "#8665bd",
-  "#e2aa24",
-  "#579ddd",
-  "#38a0a1",
-  "#448abd",
-  "#a94257",
-  "#79859c",
+  ...BAND_THEMES.slice(0, 9).map((t) => t.color),
+  OTHER_BAND.color,
 ];
-const ourNotesBandColors = {
-  "MyGO!!!!!": colors[7],
-  "Ave Mujica": colors[8],
-  夢限大みゅーたいぷ: "#ee668f",
-  millsage: "#3b206d",
-  "一家Dumb Rock!": "#00a76f",
-};
-export const bandColor = (song, game = GAMES.garupa) =>
-  game.id === GAMES.ournotes.id
-    ? (ourNotesBandColors[song.band] ?? colors.at(-1))
-    : (colors[bandOrder(song, game)] ?? colors.at(-1));
+export const bandColor = (song) => bandTheme(song.band).color;
 export function bandOrder(s, game = GAMES.garupa) {
   const names = game.bands;
   const exact = names.indexOf(s.band);
@@ -173,13 +156,14 @@ export function creditField(params) {
 }
 
 export function crossGameSongs(catalogs, q, credit = null) {
-  if (!normalize(q)) return [];
   return Object.values(GAMES).flatMap((game) =>
     catalogs[game.id].songs
-      .filter((song) =>
-        ["lyricist", "composer", "arranger", "artist"].includes(credit)
-          ? matchesCredit(song[credit], q)
-          : matches(song, q),
+      .filter(
+        (song) =>
+          !normalize(q) ||
+          (["lyricist", "composer", "arranger", "artist"].includes(credit)
+            ? matchesCredit(song[credit], q)
+            : matches(song, q)),
       )
       .sort(compareSongs("band", "forward", 3, game))
       .map((song) => ({ ...song, gameId: game.id })),

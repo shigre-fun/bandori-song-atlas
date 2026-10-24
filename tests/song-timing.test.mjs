@@ -111,7 +111,7 @@ test("timing is visible on direct detail and sort selection survives detail navi
   for (const sort of ["bpm", "duration"]) {
     const params = new URLSearchParams({ sort, type: "normal", band: "3" });
     const html = renderList(data, params, "/bandori-song-atlas/");
-    assert.match(html, new RegExp(`data-sort="${sort}" aria-current="true"`));
+    assert.match(html, new RegExp(`value="${sort}" selected`));
     assert.ok(html.includes(`sort=${sort}&amp;type=normal&amp;band=3`));
   }
 });

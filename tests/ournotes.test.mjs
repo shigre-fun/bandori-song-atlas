@@ -183,12 +183,7 @@ test("Our Notes renders added songs and populated chart fields", () => {
 
 test("Our Notes list uses Garupa controls, multiple filters and seven sort modes", () => {
   const all = renderList(data, new URLSearchParams(), "/", game);
-  const filterHeadings = [
-    "楽曲の種類（複数選択可）",
-    "バンド（複数選択可）",
-    "楽曲タイプ（複数選択可）",
-    "撃奏区間（複数選択可）",
-  ];
+  const filterHeadings = ["楽曲の種類", "バンド", "楽曲タイプ", "撃奏区間"];
   let previousHeading = -1;
   for (const heading of filterHeadings) {
     const index = all.indexOf(heading);
@@ -196,19 +191,9 @@ test("Our Notes list uses Garupa controls, multiple filters and seven sort modes
     previousHeading = index;
   }
   for (const type of ["紅赤", "紺碧", "翡翠", "山吹", "紫苑"])
-    assert.match(
-      all,
-      new RegExp(
-        `class="filter-song-type-label song-type-${type}"[^>]*>.*?name="songType" value="${type}"[^>]*>.*?<span class="song-type">${type}</span>`,
-        "s",
-      ),
-    );
-  for (const mode of ["COMBO", "LUCK", "JUST"])
-    assert.match(
-      all,
-      new RegExp(`name="gekisou" value="${mode}"[^>]*>${mode}のみ<\\/label>`),
-    );
-  assert.match(all, /value="mixed"[^>]*>混合<\/label>/);
+    assert.ok(all.includes('data-filter="songType" data-value="' + type + '"'));
+  for (const mode of ["COMBO", "LUCK", "JUST", "mixed"])
+    assert.ok(all.includes('data-filter="gekisou" data-value="' + mode + '"'));
   assert.match(all, /撃奏区間が未確認の曲も「混合」に含みます/);
   assert.equal(
     (all.match(/class="song-title"/g) || []).length,
@@ -225,7 +210,7 @@ test("Our Notes list uses Garupa controls, multiple filters and seven sort modes
     "kana",
     "release",
   ])
-    assert.ok(all.includes(`data-sort="${mode}"`));
+    assert.ok(all.includes(`value="${mode}"`));
   assert.equal(sortState(new URLSearchParams(), game).difficulty, 3);
   assert.doesNotMatch(all, /SPECIAL|エクストラ/);
   const target = songs.find((song) => song.id === 1);
@@ -332,24 +317,14 @@ test("Our Notes type and performance filters combine OR within a group and AND a
     "/",
     game,
   );
-  assert.match(filtered, /name="songType" value="紅赤" checked/);
-  assert.match(filtered, /name="gekisou" value="COMBO" checked/);
+  assert.match(filtered, /type="hidden" name="songType" value="紅赤"/);
+  assert.match(filtered, /type="hidden" name="gekisou" value="COMBO"/);
   const clear = filtered.match(/<a[^>]+id="clear-filters"[^>]*>/)?.[0] ?? "";
   assert.ok(clear);
   assert.doesNotMatch(clear, /songType|gekisou/);
-  const sortLink =
-    filtered.match(/<a class="sort-link" href="([^"]+)"/)?.[1] ?? "";
-  assert.match(sortLink, /songType=%E7%B4%85%E8%B5%A4/);
-  assert.match(sortLink, /gekisou=COMBO/);
-  const detail = renderDetail(
-    base,
-    data,
-    new URLSearchParams("songType=紅赤&gekisou=COMBO"),
-    "/",
-    game,
-  );
-  assert.match(detail, /songType=%E7%B4%85%E8%B5%A4/);
-  assert.match(detail, /gekisou=COMBO/);
+  const sortForm = filtered.match(/<form id="song-sort"[\s\S]*?<\/form>/)[0];
+  assert.match(sortForm, /name="songType" value="紅赤"/);
+  assert.match(sortForm, /name="gekisou" value="COMBO"/);
 });
 
 test("Our Notes detail follows Garupa field order without official-image link", () => {

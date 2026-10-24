@@ -270,6 +270,8 @@ test("credit search controller loads both catalogs and renders role-specific res
       GAMES,
       normalize: (value) => value,
       renderCrossSearch,
+
+      connectSongControls() {},
       siteBase: "/",
       siteURL,
       fetch: async (url) => {

@@ -143,8 +143,8 @@ test("public pages avoid admin links while the direct editor remains available",
     assert.ok(!html.includes(`${base}admin/`));
   }
   const home = fs.readFileSync("dist/index.html", "utf8");
-  assert.match(home, /<h2>バンドリ！ガールズバンドパーティ！<\/h2>/);
-  assert.match(home, /<h2>バンドリ！アワーノーツ<\/h2>/);
+  assert.match(home, /<h2>バンドリ！ガールズバンドパーティ！\s*<span/);
+  assert.match(home, /<h2>バンドリ！アワーノーツ\s*<span/);
   const admin = readBuilt("admin/index.html");
   assert.match(admin, /楽曲を追加・修正/);
   assert.match(admin, /name="robots" content="noindex,nofollow"/);

@@ -102,15 +102,22 @@ test("all modes reverse known songs exactly and unrelated modes ignore difficult
 test("seven sort buttons, default difficulty and direction are visible; state survives page/detail/back links", () => {
   const data = { songs: loadCatalog(), updatedAt: 0 };
   const initial = renderList(data);
-  assert.equal((initial.match(/data-sort=/g) || []).length, 7);
+  assert.equal(
+    (
+      initial.match(
+        /<option value="(?:band|level|notes|bpm|duration|kana|release)"/g,
+      ) || []
+    ).length,
+    7,
+  );
   assert.ok(initial.includes('value="3" selected>EXPERT'));
   assert.ok(!/レベルが高い順|古い順|多い順|長い順|速い順/.test(initial));
   const params = new URLSearchParams(
     "sort=notes&difficulty=4&direction=reverse&type=anime&band=0",
   );
   const html = renderList(data, params);
-  assert.match(html, /data-sort="notes" aria-current="true"/);
-  assert.ok(html.includes("▼"));
+  assert.match(html, /value="notes" selected/);
+  assert.ok(html.includes("↑"));
   const links = [...html.matchAll(/href="([^"]+\?[^\"]+)"/g)].map((m) =>
     m[1].replaceAll("&amp;", "&"),
   );

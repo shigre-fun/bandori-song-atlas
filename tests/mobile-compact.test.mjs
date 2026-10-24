@@ -38,7 +38,7 @@ const compactRoleText = (html) =>
     ...html.matchAll(/<span class="creator-role-counts">([\s\S]*?)<\/span>/g),
   ].map((m) => m[1].replace(/<[^>]+>/g, ""));
 
-test("mobile list markup retains shared desktop data and exposes type dots only for OurNotes", () => {
+test("song cards omit works, release dates and band text while retaining accessible titles and levels", () => {
   for (const game of Object.values(GAMES)) {
     const songs = [
       song(game, 1),
@@ -51,28 +51,26 @@ test("mobile list markup retains shared desktop data and exposes type dots only 
       "/atlas/",
       game,
     );
-    assert.equal((html.match(/class="song-title"/g) ?? []).length, 3);
-    assert.equal((html.match(/class="song-title-text"/g) ?? []).length, 3);
-    assert.equal(
-      (html.match(/class="list-song-type /g) ?? []).length,
-      game.id === "ournotes" ? 3 : 0,
-    );
-    assert.equal(
-      (html.match(/class="song-sub song-work work-none"/g) ?? []).length,
-      1,
-    );
-    assert.equal((html.match(/class="song-sub song-work"/g) ?? []).length, 1);
-    assert.equal((html.match(/class="song-sub song-timing"/g) ?? []).length, 3);
-    const body = html.match(/<tbody>([\s\S]*?)<\/tbody>/)[1];
-    assert.equal(
-      (body.match(/data-label="/g) ?? []).length,
-      3 * game.difficulties.length,
-    );
+    assert.equal((html.match(/class="song-title"/g) || []).length, 3);
+    assert.equal((html.match(/class="song-title-text"/g) || []).length, 3);
+    const cards = [
+      ...html.matchAll(/<li class="song-card"[\s\S]*?<\/li>/g),
+    ].map((m) => m[0]);
+    assert.equal(cards.length, 3);
+    for (const card of cards) {
+      assert.equal(
+        (card.match(/<dt /g) || []).length,
+        game.difficulties.length,
+      );
+      assert.doesNotMatch(
+        card,
+        /song-work|release-date|song-timing|list-song-type|class="band"|基本BPM|演奏時間/,
+      );
+      assert.equal((card.match(/class="band-motif"/g) || []).length, 1);
+    }
     for (const s of songs)
-      assert.ok(html.includes(`/atlas/${game.id}/songs/${s.id}/?`));
-    assert.ok(html.includes("アニメ「作品」OP"));
-    assert.ok(html.includes("基本BPM 150"));
-    assert.ok(html.includes("演奏時間 1:30"));
+      assert.ok(html.includes("/atlas/" + game.id + "/songs/" + s.id + "/?"));
+    assert.doesNotMatch(html, /アニメ「作品」OP/);
   }
 });
 
@@ -118,7 +116,7 @@ test("mobile counts preserve unprepared and partial coverage instead of inventin
   );
 });
 
-test("long names and unknown OurNotes type remain escaped and fully available", () => {
+test("long titles remain fully escaped and are not replaced by ellipses", () => {
   const row = {
     ...song(GAMES.ournotes),
     title: '長い曲名 "<script>"',
@@ -131,9 +129,7 @@ test("long names and unknown OurNotes type remain escaped and fully available", 
     "/",
     GAMES.ournotes,
   );
-  assert.match(html, /song-type-unknown/);
-  assert.match(html, /aria-label="楽曲タイプ：未確認"/);
-  assert.match(html, /title="長い曲名 &quot;&lt;script&gt;&quot;"/);
-  assert.match(html, /title="作品 &quot;&lt;b&gt;&quot;"/);
-  assert.doesNotMatch(html, /<script>/);
+  assert.match(html, /aria-label="長い曲名 &quot;&lt;script&gt;&quot;/);
+  assert.match(html, /class="title-phrase"/);
+  assert.doesNotMatch(html, /<script>|list-song-type|作品 &quot;&lt;b&gt;/);
 });

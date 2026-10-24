@@ -1,3 +1,4 @@
+import { renderSongList, CROSS_GAME } from "./song-list.js";
 import {
   siteURL,
   siteBase,
@@ -57,64 +58,7 @@ export function renderCrossSearch(
   params = new URLSearchParams(),
   base = siteBase,
 ) {
-  const q = params.get("q") || "";
-  const credit = creditField(params);
-  const gameLinks = `<p class="search-game-links">${Object.values(GAMES)
-    .map(
-      (game) =>
-        `<a href="${e(siteURL(songListPath(game), base))}">${e(game.shortName)}の楽曲一覧へ</a>`,
-    )
-    .join(" ")}</p>`;
-  if (!catalogs || !normalize(q))
-    return `<div class="panel"><h2>全ゲームから楽曲を探す</h2><p>楽曲名・読み・別名・原曲アーティスト・作品名を入力して検索してください。</p>${gameLinks}</div>`;
-  const rows = crossGameSongs(catalogs, q, credit);
-  const pages = Math.max(1, Math.ceil(rows.length / 50));
-  const page = searchPage(params, pages);
-  const pageURL = (number) => e(crossSearchURL(q, number, base, credit));
-  const description = Object.hasOwn(ROLE_LABELS, credit)
-    ? `「${e(q)}」が${ROLE_LABELS[credit]}に関わった楽曲（共同制作を含む）`
-    : credit === "artist"
-      ? `「${e(q)}」が原曲アーティストの楽曲（共演を含む）`
-      : `「${e(q)}」に一致する楽曲`;
-  const intro = `<section class="intro"><div><h2>検索結果</h2><p>${description}</p></div><div class="count">${rows.length}<small>件</small></div></section>`;
-  if (!rows.length)
-    return `${intro}<div class="panel empty"><h2>一致する楽曲はありません</h2><p>短い曲名や作品名で試してください。</p>${gameLinks}</div>`;
-  return `${intro}<ul class="cross-search-list">${rows
-    .slice((page - 1) * 50, page * 50)
-    .map((song) => {
-      const game = GAMES[song.gameId];
-      const state = new URLSearchParams({
-        from: "search",
-        q,
-        page: String(page),
-      });
-      if (credit) state.set("credit", credit);
-      const href =
-        siteURL(songPath(game, song.stableSongId), base) + "?" + state;
-      const levels = game.difficulties
-        .map((name, index) => {
-          const chart = song.difficulties[index];
-          const level = chart?.level ?? (chart ? "未確認" : "—");
-          return `<div class="diff-${index}"><dt>${e(name)}</dt><dd class="lv${chart && chart.level == null ? " level-unknown" : ""}">${e(level)}</dd></div>`;
-        })
-        .join("");
-      return `<li class="panel" data-game="${e(game.id)}"><h3><a class="search-detail" href="${e(href)}" aria-label="${e(`${song.title}（${game.shortName}・${song.band}）の詳細`)}">${e(song.title)}</a></h3><p class="search-game">${e(game.shortName)}</p><p class="band" style="--band:${color(song, game)}">${e(song.band)}</p><dl class="search-difficulties" aria-label="難易度・レベル">${levels}</dl></li>`;
-    })
-    .join(
-      "",
-    )}</ul><nav class="pagination" aria-label="検索結果のページ切り替え">
-${page === 1 ? '<span aria-disabled="true">前へ</span>' : `<a href="${pageURL(page - 1)}">前へ</a>`}
-<span>${page} / ${pages}</span><div class="page-numbers">${pageNumbers(
-    page,
-    pages,
-  )
-    .map((number) =>
-      number === null
-        ? '<span class="page-gap" aria-hidden="true">…</span>'
-        : `<a href="${pageURL(number)}" aria-label="${number}ページ目" ${number === page ? 'aria-current="page"' : ""}>${number}</a>`,
-    )
-    .join("")}</div>
-${page === pages ? '<span aria-disabled="true">次へ</span>' : `<a href="${pageURL(page + 1)}">次へ</a>`}</nav><p class="notice">「—」はその難易度が未実装、「未確認」はレベル未確認です。</p>`;
+  return renderSongList(catalogs, params, base, CROSS_GAME);
 }
 export function renderList(
   data,
@@ -122,123 +66,7 @@ export function renderList(
   base = siteBase,
   game = GAMES.garupa,
 ) {
-  if (!data.songs.length) {
-    return `<section class="intro"><div><p class="eyebrow">${e(game.name)}</p><h1>${e(game.shortName)} 楽曲一覧</h1><p>楽曲データを準備しています。登録後、このページで検索できるようになります。</p></div><div class="count">0<small>曲</small></div></section><div class="panel empty"><h2>現在、登録されている楽曲はありません</h2><p>確認済みのデータから順次追加します。</p></div>`;
-  }
-  const q = params.get("q") || "";
-  const { mode, difficulty, direction } = sortState(params, game);
-  const rows = filteredSongs(data.songs, params, game).sort(
-    compareSongs(mode, direction, difficulty, game),
-  );
-  const pages = Math.max(1, Math.ceil(rows.length / 50));
-  const page = Math.max(1, Math.min(pages, parseInt(params.get("page")) || 1));
-  const state = new URLSearchParams(params);
-  state.set("q", q);
-  state.set("sort", mode);
-  state.set("difficulty", difficulty);
-  state.set("direction", direction);
-  state.set("page", page);
-  const filters = selectedFilters(params, game);
-  const clearFilterParams = new URLSearchParams(
-    [...params].filter(
-      ([key]) => !["type", "band", "songType", "gekisou"].includes(key),
-    ),
-  );
-  const pageURL = (number) => {
-    const p = new URLSearchParams(state);
-    p.set("page", number);
-    return e(query(p, base, game));
-  };
-  return `<section class="intro">
-<div>
-<p class="eyebrow">BANG DREAM! · SONG DATABASE</p>
-<h1>${q ? "検索結果" : `${e(game.shortName)}の楽曲を探す`}</h1>
-<p>${q ? `「${e(q)}」に一致する楽曲` : "日本版の楽曲・難易度・原曲情報をまとめて検索。"}</p>
-</div>
-<div class="count">${rows.length}<small>曲</small>
-</div>
-</section>
-<form id="filters" class="filters">
-<fieldset><legend>楽曲の種類（複数選択可）</legend><div class="filter-options filter-types">${Object.entries(
-    Object.fromEntries(game.categories.map((key) => [key, typeNames[key]])),
-  )
-    .map(
-      ([value, label]) =>
-        `<label><input type="checkbox" name="type" value="${value}" ${filters.types.includes(value) ? "checked" : ""}><span class="tag ${value}">${label}</span></label>`,
-    )
-    .join("")}</div></fieldset>
-<fieldset><legend>バンド（複数選択可）</legend><div class="filter-options filter-bands">${[...game.bands, "その他"].map((label, i) => `<label style="--band:${color({ band: label }, game)}"><input type="checkbox" name="band" value="${i}" ${filters.bands.includes(String(i)) ? "checked" : ""}><span class="band filter-band-name">${e(label)}</span></label>`).join("")}</div></fieldset>
-${
-  game.id === GAMES.ournotes.id
-    ? `<fieldset><legend>楽曲タイプ（複数選択可）</legend><div class="filter-options filter-song-types">${ournotesSongTypes.map((value) => `<label class="filter-song-type-label song-type-${e(value)}"><input type="checkbox" name="songType" value="${e(value)}" ${filters.songTypes.includes(value) ? "checked" : ""}><span class="song-type">${e(value)}</span></label>`).join("")}</div></fieldset>
-<fieldset><legend>撃奏区間（複数選択可）</legend><div class="filter-options filter-gekisou">${[...gekisouKinds, "mixed"].map((value) => `<label><input type="checkbox" name="gekisou" value="${value}" ${filters.gekisou.includes(value) ? "checked" : ""}>${value === "mixed" ? "混合" : `${value}のみ`}</label>`).join("")}</div></fieldset>`
-    : ""
-}
-<p class="notice">未選択の項目はすべて表示します。同じ項目内は「いずれか」、項目間は「すべてに一致」で絞り込みます。合同曲は「その他」です。${game.id === GAMES.ournotes.id ? "撃奏区間が未確認の曲も「混合」に含みます。" : ""}</p>
-<div class="filter-actions"><button type="submit">絞り込む</button> <a class="control-link" href="${e(query(clearFilterParams, base, game))}" id="clear-filters">絞り込みを解除</a></div>
-</form>
-<div class="toolbar">
-<div class="sort-controls">
-<label>難易度<select id="difficulty">${game.difficulties.map((name, i) => `<option value="${i}" ${i === difficulty ? "selected" : ""}>${name}</option>`).join("")}</select></label>
-<div class="sort-buttons" role="group" aria-label="並べ方">${Object.entries(
-    sortLabels,
-  )
-    .map(
-      ([key, label]) =>
-        `<a class="sort-link" href="${e(query(nextSortParams(params, key, game), base, game))}" data-sort="${key}" aria-current="${mode === key ? "true" : "false"}" aria-label="${label}${mode === key ? (direction === "reverse" ? "（逆順）" : "（通常順）") : ""}">${label}${mode === key ? `<span aria-hidden="true"> ${direction === "reverse" ? "▼" : "▲"}</span>` : ""}</a>`,
-    )
-    .join("")}</div>
-<p class="notice">選択中の並べ方を押すと逆順になります。▲ 通常順 / ▼ 逆順。難易度はレベル順・ノーツ数順に適用されます。</p>
-</div>
-<div class="meta">日本版 · データセット更新記録：${date(data.updatedAt)}</div>
-</div>${
-    rows.length
-      ? `<div class="table-wrap" data-game="${e(game.id)}">
-<table>
-<thead>
-<tr>
-<th scope="col">楽曲名</th>
-<th scope="col">バンド</th>
-<th scope="col">種類</th>${game.difficulties.map((d, i) => `<th scope="col" class="diff-${i}">${d}</th>`).join("")}<th scope="col">配信日</th>
-</tr>
-</thead>
-<tbody>${rows
-          .slice((page - 1) * 50, page * 50)
-          .map(
-            (s) => `<tr>
-<td>
-<a class="song-title" href="${siteURL(songPath(game, s.stableSongId), base)}?${e(state.toString())}" title="${e(s.title)}">${game.id === "ournotes" ? `<span class="list-song-type song-type song-type-${e(s.songType ?? "unknown")}" role="img" aria-label="楽曲タイプ：${e(s.songType ?? "未確認")}"></span>` : ""}<span class="song-title-text">${e(s.title)}</span></a>${s.work ? `<div class="song-sub song-work${s.work === "なし" ? " work-none" : ""}" title="${e(s.work)}">${e(s.work)}</div>` : ""}<div class="song-sub song-timing">基本BPM ${e(s.bpm ?? "未確認")} · 演奏時間 ${formatDuration(s.durationSeconds)}</div></td>
-<td>
-<div class="band" style="--band:${color(s, game)}">${e(s.band)}</div>
-</td>
-<td>${badge(s, game)}</td>${s.difficulties.map((d, i) => `<td data-label="${game.difficulties[i]}" class="lv diff-${i}${d ? "" : " blank"}">${d?.level ?? "—"}</td>`).join("")}<td class="meta release-date">${date(s.publishedAt)}</td>
-</tr>`,
-          )
-          .join("")}</tbody>
-</table>
-</div>
-<nav class="pagination" aria-label="一覧のページ切り替え">
-${page === 1 ? '<span id="prev" aria-disabled="true">前へ</span>' : `<a id="prev" href="${pageURL(page - 1)}">前へ</a>`}
-<span>${page} / ${pages}</span>
-<div class="page-numbers">${pageNumbers(page, pages)
-          .map((n) =>
-            n === null
-              ? '<span class="page-gap" aria-hidden="true">…</span>'
-              : `<a href="${pageURL(n)}" aria-label="${n}ページ目" ${n === page ? 'aria-current="page"' : ""}>${n}</a>`,
-          )
-          .join("")}</div>
-${page === pages ? '<span id="next" aria-disabled="true">次へ</span>' : `<a id="next" href="${pageURL(page + 1)}">次へ</a>`}
-</nav>`
-      : `<div class="panel empty">
-<h2>一致する楽曲はありません</h2>
-<p>短い曲名や作品名で試してください。</p>
-<a href="${siteURL(songListPath(game), base)}">すべての楽曲を見る</a>
-</div>`
-  }<p class="notice">「—」はその難易度が未実装、またはレベル未確認です。通常順でレベル・ノーツ数が同じ場合は、バンド → ${game.categories.map((type) => typeNames[type]).join("・")} → 配信順で並びます。 複数バンドの合同曲は「その他」に含めます。</p>
-<details class="data-note">
-<summary>並べ替えについて</summary>
-<p>通常順は、レベル・ノーツ数・BPM・演奏時間が大きいものから、配信日は過去から、楽曲名は50音順、バンドは所定の順番です。同値はバンド → 種類 → 配信順で比較し、逆順では同値の順序も反転します。未実装・未確認は常に最後です。BPMは基本BPM、時間はゲーム内の秒数を使用します。難易度はレベル・ノーツ数だけに影響します。</p>
-</details>`;
+  return renderSongList(data, params, base, game);
 }
 export function renderDetail(
   s,

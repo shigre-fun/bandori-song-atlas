@@ -1,3 +1,4 @@
+import { songUpdatedAt } from "./song-updates.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -124,6 +125,7 @@ const catalogInfo = Object.fromEntries(
       ...(game.id === "ournotes"
         ? { updatedAt: adminStates.ournotes.updatedAt }
         : {}),
+      songUpdatedAt: songUpdatedAt(game.id, adminStates[game.id]),
       songs: catalogs[game.id],
       creators: creatorData.creators,
       roleCoverage: creatorData.roleCoverage,
@@ -224,6 +226,7 @@ async function page({
     `<link rel="apple-touch-icon" href="${escapeHTML(local(settings.assets.appleTouchIcon))}" sizes="180x180" />`,
     `<link rel="stylesheet" href="${escapeHTML(local(`style.css?v=${assetVersion}`))}" />`,
     `<link rel="stylesheet" href="${escapeHTML(local(`mobile.css?v=${assetVersion}`))}" />`,
+    `<link rel="stylesheet" href="${escapeHTML(local(`song-list.css?v=${assetVersion}`))}" />`,
     ...scripts.map(
       (script) =>
         `<script ${script === "query-index.js" ? `data-index-page="${pagePath ? "list" : "root"}" ` : 'type="module" '}src="${escapeHTML(local(`${script}?v=${assetVersion}`))}"></script>`,
@@ -248,7 +251,7 @@ async function page({
         <button type="submit">検索</button>
       </form>`
     : headerSearch
-      ? `<form action="${escapeHTML(local(pagePath === "search/" ? "search/" : songListPath(searchGame)))}" role="search">
+      ? `<form id="song-search-form" action="${escapeHTML(local(pagePath === "search/" ? "search/" : songListPath(searchGame)))}" role="search">
         <label class="sr-only" for="search">${pagePath === "search/" ? "全ゲームの楽曲名・原曲の作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・原曲の作品名で検索`}</label>
         <span aria-hidden="true">⌕</span>
         <input id="search" name="q" type="search" placeholder="${pagePath === "search/" ? "全ゲームの楽曲名・作品名で検索" : `${escapeHTML(searchGame.shortName)}の楽曲名・作品名で検索`}" autocomplete="off" />
@@ -269,12 +272,19 @@ async function page({
     "<!--PRIVACY_URL-->": local("privacy/"),
     "<!--CONTACT_URL-->": local("contact/"),
     "<!--OPERATOR_X_URL-->": escapeHTML(OPERATOR_X_URL),
-    "<!--HEADER_SEARCH-->": searchForm,
+    "<!--HEADER_SEARCH-->": searchForm
+      ? `<div class="site-search">${searchForm}</div>`
+      : "",
+    "<!--SEARCH_URL-->": local("search/"),
     "<!--SITE_NAME-->": escapeHTML(settings.name),
   };
   let html = template;
   for (const [needle, replacement] of Object.entries(replacements))
     html = html.replaceAll(needle, replacement);
+  html = html.replace(
+    /images\/bands\/[a-z-]+\.svg(?!\?)/g,
+    "$&?v=" + assetVersion,
+  );
   write(file, await format(html, { parser: "html", printWidth: 100 }));
   if (indexable) sitemap.push(canonical);
 }
@@ -289,6 +299,9 @@ const copiedAssets = [
     [
       "app.js",
       "cross-search.js",
+      "band-theme.js",
+      "song-list.js",
+      "song-controls.js",
       "domain.js",
       "search-text.js",
       "credits.js",
@@ -321,7 +334,7 @@ const copiedAssets = [
       "management-client.js",
     ],
   ],
-  ["styles", ["style.css", "mobile.css", "admin.css"]],
+  ["styles", ["style.css", "mobile.css", "song-list.css", "admin.css"]],
   ["images", ["favicon.svg"]],
   ["static", ["_headers"]],
 ];
@@ -335,6 +348,10 @@ for (const [directory, names] of copiedAssets)
 assetHash.update(fs.readFileSync("src/pages/admin.html"));
 assetHash.update(fs.readFileSync("src/pages/admin-news.html"));
 assetHash.update(fs.readFileSync("src/pages/admin-creators.html"));
+for (const file of fs.readdirSync("src/images/bands").sort()) {
+  assetHash.update(file + "\0");
+  assetHash.update(fs.readFileSync(path.join("src/images/bands", file)));
+}
 const assetVersion = assetHash.digest("hex").slice(0, 12);
 for (const [directory, names] of copiedAssets)
   for (const name of names) {
@@ -375,6 +392,13 @@ for (const [directory, names] of copiedAssets)
     }
   }
 
+fs.mkdirSync(path.join(output, "images/bands"), { recursive: true });
+for (const file of fs.readdirSync("src/images/bands"))
+  fs.copyFileSync(
+    path.join("src/images/bands", file),
+    path.join(output, "images/bands", file),
+  );
+
 write(GAMES.garupa.catalog, JSON.stringify(catalogInfo.garupa, null, 2) + "\n");
 write(
   GAMES.ournotes.catalog,
@@ -396,8 +420,8 @@ await page({
   title: `${settings.name} | バンドリ楽曲データベース`,
   description: HOME_DESCRIPTION,
   content: `<section class="intro home-intro"><div><p class="eyebrow">BANG DREAM! · SONG DATABASE</p><h1>${escapeHTML(settings.name)}</h1><p>${HERO_DESCRIPTION}</p></div></section>
-<section class="panel home-search" aria-labelledby="home-search-title"><h2 id="home-search-title">全ゲームから楽曲を検索</h2><form action="${local("search/")}" role="search"><label class="sr-only" for="all-games-search">全ゲームの楽曲名・原曲の作品名で検索</label><input id="all-games-search" name="q" type="search" placeholder="楽曲名・作品名で検索" autocomplete="off"><button type="submit">検索</button></form><p class="notice">曲名・読み・別名・原曲アーティスト・作品名で、両ゲームをまとめて検索できます。</p></section>
-<div class="game-cards">${games.map((game) => `<section class="panel"><h2>${escapeHTML(game.name)}</h2><p>${catalogs[game.id].length}曲を掲載しています。</p><a href="${local(songListPath(game))}">楽曲一覧を見る</a></section>`).join("")}</div>
+<section class="panel home-search" aria-labelledby="home-search-title"><a class="home-entry" href="${local("search/")}"><h2 id="home-search-title">横断検索 <span aria-hidden="true">↗</span></h2><p>全てのゲームに収録されている計 <b>${Object.values(catalogs).reduce((n, songs) => n + songs.length, 0)}</b> 曲からまとめて検索できます。</p><p class="song-update">最終更新日：${new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date(Math.max(...Object.values(catalogInfo).map((data) => Date.parse(data.songUpdatedAt)))))}</p></a></section>
+<div class="game-cards">${games.map((game) => `<section class="panel home-game-entry" style="--game-accent:${game.ogAccent.strong}"><a class="home-entry" href="${local(songListPath(game))}"><h2>${escapeHTML(game.name)} <span aria-hidden="true">↗</span></h2><p><b>${catalogs[game.id].length}</b> 曲を掲載しています。</p><p class="song-update">最終更新日：${new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Tokyo" }).format(new Date(catalogInfo[game.id].songUpdatedAt))}</p></a></section>`).join("")}</div>
 ${renderHomeCreators(creatorData.creators, settings.basePath)}
 <section class="panel home-news" aria-labelledby="home-news-title"><h2 id="home-news-title">お知らせ</h2>${renderNewsItems(news.slice(0, 3), { compact: true })}<a class="news-more" href="${local("news/")}">お知らせ一覧を見る</a></section>
 <aside class="home-x" aria-label="運営者情報"><p>運営者：タニマチ</p><a href="${escapeHTML(OPERATOR_X_URL)}">X<span class="sr-only">（タニマチ・外部サイト）</span></a></aside>`,
@@ -626,7 +650,7 @@ await page({
     "ガルパとアワーノーツの楽曲を曲名・読み・別名・原曲アーティスト・作品名でまとめて検索できます。",
   breadcrumbs: [home, { name: "ゲーム横断検索", path: "search/" }],
   indexable: false,
-  content: `<h1 class="cross-search-heading">全ゲームから楽曲を検索</h1><section id="cross-search-results" aria-live="polite" aria-label="全ゲームの検索結果">${renderCrossSearch(null, new URLSearchParams(), settings.basePath)}</section>`,
+  content: `<section id="cross-search-results" aria-live="polite" aria-label="全ゲームの検索結果">${renderCrossSearch(catalogInfo, new URLSearchParams(), settings.basePath)}</section>`,
   scripts: ["cross-search.js"],
 });
 await page({

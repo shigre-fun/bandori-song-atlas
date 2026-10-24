@@ -74,10 +74,10 @@ test("public pages and imported modules use the current asset version", () => {
 
 test("generated song pages carry the requested colors and type markers", () => {
   assert.match(read("garupa/songs/1/index.html"), /class="tag normal garupa"/);
-  assert.match(read("ournotes/songs/1/index.html"), /--band: #448abd/);
-  assert.match(read("ournotes/songs/48/index.html"), /--band: #ee668f/);
-  assert.match(read("ournotes/songs/63/index.html"), /--band: #3b206d/);
-  assert.match(read("ournotes/songs/71/index.html"), /--band: #00a76f/);
+  assert.match(read("ournotes/songs/1/index.html"), /--band: #61a1c8/);
+  assert.match(read("ournotes/songs/48/index.html"), /--band: #ef909f/);
+  assert.match(read("ournotes/songs/63/index.html"), /--band: #bb52f0/);
+  assert.match(read("ournotes/songs/71/index.html"), /--band: #ffbb5f/);
   assert.match(read("ournotes/songs/79/index.html"), /--band: #79859c/);
   assert.match(
     read("ournotes/songs/48/index.html"),
@@ -94,9 +94,9 @@ test("generated song pages carry the requested colors and type markers", () => {
 test("Our Notes band colors stay consistent after list rendering", () => {
   const catalog = JSON.parse(read("ournotes/songs.json"));
   for (const [id, hex] of [
-    [48, "#ee668f"],
-    [63, "#3b206d"],
-    [71, "#00a76f"],
+    [48, "#ef909f"],
+    [63, "#bb52f0"],
+    [71, "#ffbb5f"],
     [79, "#79859c"],
   ]) {
     const song = catalog.songs.find((entry) => entry.id === id);
@@ -111,49 +111,21 @@ test("Our Notes band colors stay consistent after list rendering", () => {
   }
 });
 
-test("both song lists reuse the song tags and band lines in filter options", () => {
+test("both song lists expose compact category and band chips without checkboxes", () => {
   for (const game of Object.values(GAMES)) {
-    const html = read(`${game.slug}/songs/index.html`);
-    const compact = html.replace(/\s+>/g, ">").replace(/>\s+</g, "><");
-    const categories = [
-      ...compact.matchAll(
-        /<label>\s*<input type="checkbox" name="type" value="([^"]+)"[^>]*>\s*<span class="tag ([^"]+)">([^<]+)<\/span>\s*<\/label>/g,
-      ),
-    ];
-    assert.deepEqual(
-      categories.map(([, value, className]) => [value, className]),
-      game.categories.map((value) => [value, value]),
+    const html = read(game.slug + "/songs/index.html");
+    assert.equal(
+      (html.match(/data-filter="type"/g) || []).length,
+      game.categories.length,
     );
-    const bands = [
-      ...compact.matchAll(
-        /<label style="--band:\s*(#[a-f0-9]{6})"\s*>\s*<input type="checkbox" name="band" value="(\d+)"[^>]*>\s*<span class="band filter-band-name">([^<]+)<\/span>\s*<\/label>/g,
-      ),
-    ];
-    assert.deepEqual(
-      bands.map(([, , index]) => Number(index)),
-      game.bands.map((_, index) => index).concat(game.bands.length),
+    assert.equal(
+      (html.match(/data-filter="band"/g) || []).length,
+      game.bands.length + 1,
     );
-    assert.deepEqual(
-      bands.map(([, , , name]) => name),
-      [...game.bands, "その他"].map((name) => name.replaceAll("'", "&#39;")),
-    );
+    assert.doesNotMatch(html, /type="checkbox"|複数選択可/);
+    for (const band of game.bands)
+      assert.ok(html.includes(band.replaceAll("'", "&#39;")));
+    assert.match(html, /<details class="song-filter-panel">/);
+    assert.match(html, /aria-pressed="false"/);
   }
-  const css = read("style.css");
-  assert.match(
-    css,
-    /\.band\s*\{[^}]*border-left: 3px solid var\(--band, #d82060\)/s,
-  );
-  assert.match(css, /\.band\s*\{[^}]*padding-left: 10px/s);
-  assert.doesNotMatch(css, /\.filter-color-label::before\s*\{/);
-  for (const [type, hex] of [
-    ["紅赤", "#cc3670"],
-    ["紺碧", "#1982d2"],
-    ["翡翠", "#22c38e"],
-    ["山吹", "#f0b000"],
-    ["紫苑", "#b05fdf"],
-  ])
-    assert.match(
-      css,
-      new RegExp(`\\.song-type-${type}\\s*\\{[^}]*${hex}`, "s"),
-    );
 });

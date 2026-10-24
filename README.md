@@ -116,6 +116,8 @@ node scripts/add-song.mjs "新しい楽曲名"
 
 ## 検証・公開ファイルの作成
 
+楽曲一覧の色・模様とUIの設計記録は [楽曲一覧UI](docs/SONG_DISCOVERY_UI_2026-10-24.md) を参照してください。トップの楽曲更新日は、各ゲームの楽曲保存時に更新する `data/<game>/admin-state.json` の `updatedAt` と監査済み基準日から決めます。楽曲JSONを手作業で変更した場合も、この日時を更新してください。クリエイターだけの変更では更新しません。
+
 ```powershell
 node scripts/build.mjs
 pnpm test

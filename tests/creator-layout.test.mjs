@@ -47,9 +47,9 @@ test("each recording has a linked title, its own roles and game/band metadata wi
     assert.ok(rows[0].includes(`href="${base}garupa/songs/1/"`));
     assert.match(rows[0], /class="creator-record-roles">作詞<\/span>/);
     assert.match(rows[0], /--game:#D72665">ガルパ/);
-    assert.match(rows[0], /class="band" style="--band:#8665bd"[^>]*>Roselia/);
+    assert.match(rows[0], /class="band" style="--band:#858fe5"[^>]*>Roselia/);
     assert.match(rows[1], /--game:#2868CE">アワーノーツ/);
-    assert.match(rows[1], /--band:#3b206d/);
+    assert.match(rows[1], /--band:#bb52f0/);
     assert.match(rows[1], /creator-record-roles">作曲・編曲/);
     for (const row of rows) {
       assert.equal((row.match(/<a /g) ?? []).length, 1);
@@ -151,7 +151,7 @@ test("every generated public header has the four requested links in order, with 
     count++;
     assert.deepEqual(
       [...nav.matchAll(/<a [^>]*>([^<]+)<\/a>/g)].map((m) => m[1]),
-      ["ガルパ", "アワーノーツ", "クリエイター", "お知らせ"],
+      ["横断検索", "ガルパ", "アワーノーツ", "クリエイター"],
       file,
     );
     const base =
