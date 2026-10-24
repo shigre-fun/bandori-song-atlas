@@ -4,6 +4,10 @@
 
 ## 現在地
 
+- 2026-10-24 模様/トップ追加修正の実装・公開・検証完了。製品8fc4f9b同SHA CFc89c70c7/Actions40089166955/GHP7297871360全success、実CI314（240+35+24+15）PASS。両host影響9頁/5catalog/29module/12SVG/sitemap/robots照合63/62HTTP・retry0、管理49拒否全PASS。全314/最新25・両SEO1348頁891曲/Functions・10data/PHP保全も保持。本番補足6箇所黒/自身ancestor下線0、game card8角link/OurNotes実遷移、星上向き/蝶対称/390pxoverflow0を確認、completion DEPLOYED_AND_VERIFIED/remaining=[]。完成画像reports/motif-refine-2026-10-24/06-published-ui.jpg（1202×1025）を全目視、初回viewport画像が見切れたためfullPage/明示clip再撮影＋等比cropで修正、製品変更なし。95884server終端1、全検証/HTTPprocess終端0、実本番書込/実メール0。現在：完了記録2docのみskip CI同期→fresh HEAD-origin/空index/製品以後docs限定・全保全gate→Goal complete。製品/検証/公開の未完了0、原失敗/対処は履歴とcacheへ保持。次の新依頼ではWORK_LOG/cwd/Git/実体から再開する。
+
+- 2026-10-24 製品8fc4f9bを16file限定commit/main通常push成功。全cached blob・314/25/両SEO/compile/10data/PHP/秘密0 gate成功、公開時tracked/index空（対象外PHPのみ）。現在：同SHA CI/CF/GHP公開待ち、未完了：実配信の12SVG/CSS・トップ6補足/8角link・星/蝶画面・管理49拒否。次：status→実CI314と公開scope9頁/5catalog/29module/12SVGを両host照合→本番画像/完了記録のdocsのみ同期。製品追加/本番試験書込/実メール0。
+
 - 2026-10-24 追加修正の公開前検証完了：全314＋最新対象25、subpath/実protected build、両SEO1348頁891曲、Functions compile、10data/PHP保持・静的秘密0すべてPASS（73949終端0）。Skia初回失敗は直列再実行で再現せず解消、成功条件/製品の画像生成コードは変更していない。最新fresh fetch HEAD-origin3e7c32b一致、16file以外の変更なし。現在：16file限定gate/stage/blob確認→通常main公開→同SHA両deploy/CI314・12SVG/CSS/公開トップ補足・画面/管理拒否を確認。次：gate→限定commit/push→statusと実配信。未完了は公開と公開後確認だけ、実データ書込/実メール0。
 
 - 2026-10-24 単独再実行の全314test（240+35+24+15）PASS、91594終端0。初回Skia競合のため並行buildを避け、subpath/protected build検証を直列で再開する。OS空きmemoryのCIM読取はアクセス拒否、設定/プロセス変更はせず既存ログと単独成功で切り分けた。現source16file以外の変更0、原data/PHP保持。未完了：追加build検証と公開反映/公開後確認。次：build-check同session終端→gate/freshfetch/限定stage→同SHA両公開/実配信画像とトップCSS・管理拒否確認。
