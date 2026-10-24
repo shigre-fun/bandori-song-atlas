@@ -4,6 +4,16 @@
 
 ## 現在地
 
+- 2026-10-24 追加修正の公開前検証完了：全314＋最新対象25、subpath/実protected build、両SEO1348頁891曲、Functions compile、10data/PHP保持・静的秘密0すべてPASS（73949終端0）。Skia初回失敗は直列再実行で再現せず解消、成功条件/製品の画像生成コードは変更していない。最新fresh fetch HEAD-origin3e7c32b一致、16file以外の変更なし。現在：16file限定gate/stage/blob確認→通常main公開→同SHA両deploy/CI314・12SVG/CSS/公開トップ補足・画面/管理拒否を確認。次：gate→限定commit/push→statusと実配信。未完了は公開と公開後確認だけ、実データ書込/実メール0。
+
+- 2026-10-24 単独再実行の全314test（240+35+24+15）PASS、91594終端0。初回Skia競合のため並行buildを避け、subpath/protected build検証を直列で再開する。OS空きmemoryのCIM読取はアクセス拒否、設定/プロセス変更はせず既存ログと単独成功で切り分けた。現source16file以外の変更0、原data/PHP保持。未完了：追加build検証と公開反映/公開後確認。次：build-check同session終端→gate/freshfetch/限定stage→同SHA両公開/実配信画像とトップCSS・管理拒否確認。
+
+- 2026-10-24 実画面：390pxの曲数/日付6箇所すべて黒・自身/ancestor下線なし、1280pxの両game card四隅8点が正しいlinkを指し実click成功、蝶の向きと滑らかさ/overflow0確認。314回帰初回は239/240成功、1件は画像生成の「Create skia surface failed」、同時進行subpath buildも同じnative canvas errorで停止。図形2test/既存238のassert失敗ではなく生成surface資源の競合が疑われるため、原logを保存し並行buildを止めて順番に再実行する。現在両22846/10472終端1、95884serverのみ維持。次：全回帰単独→subpath/protectedを直列→保全/限定公開。未完了を完了扱いせず、テストの成功条件は変更しない。
+
+- 2026-10-24 12SVGを階段状の線分から簡略化＋3次Bezierへ更新、全図形C曲線/非空/有限座標/縁切れ0・星上頂点の中心差1px未満・星/蝶の鏡像差0.5%未満を新2testでPASS。基本10種は-28度、星は測定軸-30.9度/蝶は-15.1度を補正し左右の微小trace差も揃えた。元画像の回転量が異なるため一律28度では蝶の対称軸がずれ、ユーザーへ理由を説明済。全12比較を目視し固有形/穴を保持。中間試作で星の軸上重複点によりNaNが発生→未適用の比較画面で検出し、重複/零長seamを除外＋有限値guardへ訂正、製品へは修正版のみ適用。トップCSSはanchor下線を見出しだけへ限定、補足/日付黒、paddingも含めcard全体で遷移できる疑似要素を追加。現在70198root build・最新314回帰実行、未完了：最新実画面と全検証/公開反映。次：両process終端→localbrowser/全12表示・トップclick→subpath/protected/保全→限定公開と実配信。元12SVG/10data/PHPをcacheへ保全、data変更0。
+
+- 2026-10-24 模様の滑らかさ/向きとトップの補足文字を修正するGoal開始。cwd/Git通常・cached差分/実ファイル確認、HEAD3e7c32b・tracked/index空、対象外PHP保持。現SVGは約40〜60pxの二値境界を水平垂直線でtraceしており拡大時の段差が原因。現在：12輪郭をベクトル曲線へ整え、星の上頂点と蝶の対称軸から共通の反時計回り角を測定。トップは全体link維持・補足の黒字/下線なしへ。未完了：12図形の輪郭保全/向き目視と数値確認、トップ実表示/クリック、既存回帰・build/公開反映。次：元SVG/データ保全baseline→輪郭簡略化/曲線化の比較→CSS→画面/回帰→承認済み公開の追加修正として反映と公開後検証。既存Goal前turnは完了した別UI公開、今回Goalは開始直後の進捗。
+
 - 2026-10-24 楽曲UIの実装・公開・全検証完了。製品59714be同SHA Cloudflare59bfec30/Actions40085329054/GHP7297281129全success、公開実buildの312test PASS。両host各全1348頁/5catalog/29module/12SVG照合、本番1412/GHP1411HTTP・retry0、管理49拒否/旧404全PASS。10data/PHP全SHA保持、320/390/1280overflow0・長題重なり0/種別中央・3検索stickyTop0・本番1中央模様/黒数値/黒枠・両game/cross検索・条件保持実確認。completion.json DEPLOYED_AND_VERIFIED/remaining=[]。CF管理logはサインイン切れのため直接未読であり、公式接続check＋配信で確認、記録に明記。96149server Ctrl-C終端1/全検証process終端0・CF臨時tab閉鎖、完成本番tab保持。現在：完了記録2docだけskip CI同期→fresh HEAD-origin/空indexと製品以降docs限定・再保全→Goal complete。製品/検証/公開の未完了0、次の新依頼ではWORK_LOG/cwd/Git/実体から再開する。実本番試験書込/実メール0、対象外PHP保持、失敗/制約を原logと履歴へ保持。
 
 - 2026-10-24 製品59714bed84201d32ae76c148cd943f6c73cedaddを38file限定commit/main通常push成功（62516終端0）。cached全blob/秘密0/10data＋PHP/312gate成功、index/tracked空。Actions40085329054・Cloudflare59bfec30の同SHA公開が開始済。現在：同SHA両deploy完了待ち→公開後全1348頁/5catalog/new12SVG/module・49管理拒否を両host照合。CF dashboardはサインイン画面となり管理側build詳細logの直接読取は未実施、GitHub接続のCloudflare checkと実配信で検証を継続する（新しい権限/設定変更0）。次：status→public/private audit・実公開UI/CI実log→完了文書だけskip CI同期。実データ/メール試験書込0、公開後検証完了まで未達のまま。
